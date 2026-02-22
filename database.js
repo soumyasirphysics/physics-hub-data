@@ -2170,7 +2170,7 @@
         },
         {
           id: 53, topic: "Power",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://cdn1.byjus.com/wp-content/uploads/2023/03/Physics-Diagrams-6.png",
           q: "Power due to a force acting on a block varies with time t as shown in figure. Then angle between force acting on the block and its velocity is :-",
           options: ["(1) Obtuse at t=1s", "(2) 90° at t=3s", "(3) Acute at t=7s", "(4) 90° at t=6s"],
           correct: 3, 
@@ -7672,5 +7672,6 @@
       ]
     }
   };
+
 
 
