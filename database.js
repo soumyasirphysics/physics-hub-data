@@ -4599,6 +4599,388 @@
         }
       ]
     },
+    // ==========================================
+    // CHAPTER: WAVE MOTION AND DOPPLER EFFECT (PART 1)
+    // ==========================================
+    "Wave Motion and Doppler Effect": { 
+      classTarget: "Class 11", 
+      totalQs: 53, 
+      topics: ["Wave Kinematics", "Wave Dynamics", "Standing Waves", "Sound Waves", "Doppler Effect"],
+      questions: [
+        {
+          id: 1, topic: "Wave Kinematics",
+          q: "When an ultrasonic wave travels from air into water",
+          options: ["(1) the wave bends away from the normal", "(2) the wave bends towards the normal", "(3) wave goes undeviated", "(4) concept of bending of wave is only applicable to light waves"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand the speed of sound in different media</b><br>The speed of sound in water is strictly greater than the speed of sound in air (\\( v_{water} > v_{air} \\)).<br><br><b>Step 2: Apply Snell's Law</b><br>According to Snell's law, when a wave travels from a medium of lower wave speed to a medium of higher wave speed, it bends away from the normal. Therefore, the ultrasonic wave bends away from the normal."
+        },
+        {
+          id: 2, topic: "Wave Dynamics",
+          q: "Transverse mechanical wave are not possible in liquid. Because :-",
+          options: ["(1) liquid having bulk modulus", "(2) liquid volume is constant", "(3) No shearing stress in liquid", "(4) liquid density is constant"],
+          correct: 2, 
+          sol: "<b>Concept: Propagation of Transverse Waves</b><br>Transverse mechanical waves require the medium to possess rigidity (shear modulus) in order to sustain restoring forces perpendicular to the direction of wave propagation.<br>Since liquids and gases cannot sustain shearing stress (they yield to it and flow), transverse mechanical waves cannot propagate through the bulk of a liquid."
+        },
+        {
+          id: 3, topic: "Wave Kinematics",
+          q: "Two mechanical waves, \\( y_1=2\\sin 2\\pi(50t-2x) \\) & \\( y_2=4\\sin 2\\pi(ax+100t) \\) propagate in a medium with same speed.",
+          options: ["(1) The ratio of their intensities is 1: 16", "(2) The ratio of their intensities is 1: 4", "(3) The value of 'a' is 8 units", "(4) The value of 'a' is 2 units"],
+          correct: 0, 
+          sol: "<b>Step 1: Compare the speeds</b><br>Wave speed is given by \\( v = \\frac{\\omega}{k} \\).<br>For wave 1: \\( \\omega_1 = 100\\pi \\), \\( k_1 = 4\\pi \\implies v_1 = \\frac{100\\pi}{4\\pi} = 25 \\).<br>For wave 2: \\( \\omega_2 = 200\\pi \\), \\( k_2 = 2\\pi a \\implies v_2 = \\frac{200\\pi}{2\\pi a} = \\frac{100}{a} \\).<br>Since speeds are equal: \\( 25 = \\frac{100}{a} \\implies a = 4 \\). Options 3 and 4 are false.<br><br><b>Step 2: Compare intensities</b><br>Intensity of a wave is proportional to the square of its amplitude and the square of its angular frequency: \\( I \\propto A^2 \\omega^2 \\).<br>Ratio \\( \\frac{I_1}{I_2} = \\left(\\frac{A_1 \\omega_1}{A_2 \\omega_2}\\right)^2 = \\left(\\frac{2 \\times 100\\pi}{4 \\times 200\\pi}\\right)^2 = \\left(\\frac{200}{800}\\right)^2 = \\left(\\frac{1}{4}\\right)^2 = \\frac{1}{16} \\)."
+        },
+        {
+          id: 4, topic: "Wave Kinematics",
+          q: "A transverse harmonic wave on a string is described by \\( y=3\\sin[36t+0.018x+\\frac{\\pi}{4}] \\) where x and y are in cm and t in s. The least distance between two sucessive crests in the wave is :-",
+          options: ["(1) 2.5 m", "(2) 3.5 m", "(3) 1.5 m", "(4) 4.5 m"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify wave parameters</b><br>The general wave equation is \\( y = A \\sin(\\omega t + kx + \\phi) \\).<br>Comparing equations, the wave number \\( k = 0.018 \\, \\text{cm}^{-1} \\).<br><br><b>Step 2: Calculate the wavelength</b><br>The least distance between two successive crests is exactly one wavelength (\\( \\lambda \\)).<br>\\( \\lambda = \\frac{2\\pi}{k} = \\frac{2 \\times 3.14}{0.018} = \\frac{6.28}{0.018} \\approx 349 \\, \\text{cm} \\).<br>Converting to meters: \\( \\lambda = 3.49 \\, \\text{m} \\approx 3.5 \\, \\text{m} \\)."
+        },
+        {
+          id: 5, topic: "Wave Kinematics",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A transverse wave is travelling along a stretched string from right to left. The figure shown represents the shape of the string (snap short) at a given instant. At this instant",
+          options: ["(1) the particles at A, B and H have downward velocity", "(2) the particles at D, E and F have downward velocity", "(3) the particles at C, E and G have zero velocity", "(4) the particles at A and F have maximum velocity"],
+          correct: 1, 
+          sol: "<b>Step 1: Relate particle velocity to wave velocity</b><br>The velocity of a particle on a string is given by \\( v_p = - v_{wave} \\times \\text{Slope} \\).<br>Since the wave travels from right to left, \\( v_{wave} \\) is negative (\\( -x \\) direction).<br>Thus, \\( v_p = - (-v) \\times \\text{Slope} = +v \\times \\text{Slope} \\). This means particle velocity is directly proportional to the slope.<br><br><b>Step 2: Analyze specific points</b><br>At points D, E, and F, the slope of the curve is clearly negative.<br>Therefore, their particle velocity \\( v_p \\) must be negative, meaning they are moving downwards."
+        },
+        {
+          id: 6, topic: "Wave Kinematics",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Figure shows a sinusoidal plot which describe the wave. Select the correct equation :-",
+          options: ["(1) \\( y=A \\sin(\\omega t-kx) \\)", "(2) \\( y=A \\sin(kx-\\omega t) \\)", "(3) \\( y=A \\sin(\\omega t+kx) \\)", "(4) \\( y=-A \\sin(\\omega t+kx) \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze the initial state from the graph</b><br>The graph represents the wave at \\( t=0 \\). Looking at the origin \\( x=0 \\), the displacement \\( y=0 \\), and as \\( x \\) increases, \\( y \\) goes purely in the positive direction.<br>Therefore, the snapshot equation at \\( t=0 \\) must strictly be a positive sine function: \\( y(x,0) = +A \\sin(kx) \\).<br><br><b>Step 2: Evaluate the options</b><br>Substitute \\( t=0 \\) into the given options:<br>Option 1: \\( y = A \\sin(-kx) = -A \\sin(kx) \\) (Incorrect)<br>Option 2: \\( y = A \\sin(kx - 0) = +A \\sin(kx) \\) (Correct)<br>Furthermore, the wave moves in the positive x-direction, which requires the arguments of \\( kx \\) and \\( \\omega t \\) to have opposite signs, satisfied by Option 2."
+        },
+        {
+          id: 7, topic: "Sound Waves",
+          q: "Two cats in a house mew at each other with sound intensities \\( 5\\times 10^{-9} \\, \\text{W m}^{-2} \\) and \\( 9\\times 10^{-6} \\, \\text{W m}^{-2} \\). By how many decibels is the louder sound above the other?",
+          options: ["(1) 13 dB", "(2) 23 dB", "(3) 33 dB", "(4) 43 dB"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for sound level difference</b><br>The difference in decibels between two intensities is given by \\( \\Delta L = 10 \\log_{10}\\left(\\frac{I_2}{I_1}\\right) \\).<br><br><b>Step 2: Calculate the ratio</b><br>\\( \\frac{I_2}{I_1} = \\frac{9 \\times 10^{-6}}{5 \\times 10^{-9}} = \\frac{9}{5} \\times 10^3 = 1.8 \\times 1000 = 1800 \\).<br><br><b>Step 3: Calculate the decibel difference</b><br>\\( \\Delta L = 10 \\log_{10}(1800) = 10 (\\log_{10} 18 + \\log_{10} 100) = 10 (1.255 + 2) = 10 (3.255) = 32.55 \\, \\text{dB} \\).<br>The closest integer value is 33 dB."
+        },
+        {
+          id: 8, topic: "Sound Waves",
+          q: "A sound wave is passing through air column in the form of compression and rarefaction. In successive compression and rarefaction :-",
+          options: ["(1) pressure is constant", "(2) density is constant", "(3) position of the particles remains same", "(4) No heat transfer"],
+          correct: 3, 
+          sol: "<b>Concept: Thermodynamics of sound waves</b><br>Sound waves propagate through gases via rapid successions of compressions and rarefactions. These changes happen so rapidly that there is no time for heat to flow between the compressed (hotter) regions and the rarefied (cooler) regions.<br>Therefore, the process is considered strictly adiabatic, meaning there is practically no heat transfer with the surroundings."
+        },
+        {
+          id: 9, topic: "Wave Dynamics",
+          q: "A wire of density \\( 9\\times 10^{3} \\, \\text{kg/m}^3 \\) is stretched between two clamps one meter apart and is subjected to an extension of \\( 4.9\\times 10^{-4} \\, \\text{m} \\). What will be the lowest frequency of the transverse vibrations in the wire [\\( Y=9\\times 10^{10} \\, \\text{N/m}^2 \\)] ?",
+          options: ["(1) 38 Hz", "(2) 36 Hz", "(3) 35 Hz", "(4) 32 Hz"],
+          correct: 2, 
+          sol: "<b>Step 1: Express wave speed in terms of elasticity</b><br>The lowest (fundamental) frequency is \\( f = \\frac{v}{2L} \\), where wave speed \\( v = \\sqrt{\\frac{T}{\\mu}} \\).<br>We know Young's modulus \\( Y = \\frac{T/A}{\\Delta L/L} \\implies T = \\frac{Y A \\Delta L}{L} \\).<br>Linear mass density \\( \\mu = \\rho A \\).<br>Therefore, \\( v = \\sqrt{\\frac{Y A \\Delta L / L}{\\rho A}} = \\sqrt{\\frac{Y \\Delta L}{\\rho L}} \\).<br><br><b>Step 2: Calculate frequency</b><br>\\( f = \\frac{1}{2L} \\sqrt{\\frac{Y \\Delta L}{\\rho L}} \\).<br>Given: \\( L = 1 \\, \\text{m} \\), \\( \\Delta L = 4.9 \\times 10^{-4} \\, \\text{m} \\), \\( Y = 9 \\times 10^{10} \\, \\text{N/m}^2 \\), \\( \\rho = 9 \\times 10^3 \\, \\text{kg/m}^3 \\).<br>\\( f = \\frac{1}{2(1)} \\sqrt{\\frac{9 \\times 10^{10} \\times 4.9 \\times 10^{-4}}{9 \\times 10^3 \\times 1}} = \\frac{1}{2} \\sqrt{10^7 \\times 4.9 \\times 10^{-4}} = \\frac{1}{2} \\sqrt{4900} \\).<br>\\( f = \\frac{70}{2} = 35 \\, \\text{Hz} \\)."
+        },
+        {
+          id: 10, topic: "Wave Dynamics",
+          q: "A heavy rope is suspended from a rigid support. A transverse wave pulse is set up at the lower end, then :",
+          options: ["(1) the pulse will travel with uniform speed", "(2) the pulse will travel with increasing speed", "(3) the pulse will travel with decreasing speed", "(4) the pulse cannot travel through the rope"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand tension in a heavy hanging rope</b><br>The tension \\( T \\) at any point in a vertically hanging heavy rope is equal to the weight of the segment of the rope strictly below that point.<br>As we move from the free lower end to the upper support, the mass below increases, so the tension uniformly increases.<br><br><b>Step 2: Relate tension to wave speed</b><br>The speed of a transverse wave is given by \\( v = \\sqrt{\\frac{T}{\\mu}} \\).<br>Since the tension \\( T \\) increases as the pulse travels upwards, the wave speed also strictly increases."
+        },
+        {
+          id: 11, topic: "Doppler Effect",
+          q: "If the actual frequency of source is f and actual wavelength is \\( \\lambda \\) and velocity of sound in given medium is v then we can calculate \\( f_{app} \\) for stationary observer by :-",
+          options: ["(1) \\( f_{app}=\\frac{v_{app}}{\\lambda_{app}} \\)", "(2) \\( f_{app}=\\frac{v}{\\lambda_{app}} \\)", "(3) \\( f_{app}=\\frac{v_{app}}{\\lambda} \\)", "(4) \\( f_{app}=f \\)"],
+          correct: 1, 
+          sol: "<b>Concept: Doppler Effect Fundamentals</b><br>For a stationary observer and a moving source, the medium is at rest relative to the observer. This means the speed of the sound waves traveling through the medium towards the observer remains perfectly constant at its true velocity \\( v \\).<br>However, the motion of the source causes the successive wave crests to be compressed together, altering the apparent wavelength to \\( \\lambda_{app} \\).<br>Since frequency is wave speed divided by wavelength, the apparent frequency heard is \\( f_{app} = \\frac{v}{\\lambda_{app}} \\)."
+        },
+        {
+          id: 12, topic: "Wave Dynamics",
+          q: "A 43 m long rope of mass 5.0 kg joins two rock climbers. One climber strikes the rope and the second one feels the effect 1.4 s later. What is the tension in the rope ?",
+          options: ["(1) 110 N", "(2) 301 N", "(3) 215 N", "(4) 154 N"],
+          correct: 0, 
+          sol: "<b>Step 1: Calculate wave speed</b><br>The pulse travels the full 43 m length of the rope in 1.4 seconds.<br>Velocity \\( v = \\frac{d}{t} = \\frac{43}{1.4} \\approx 30.71 \\, \\text{m/s} \\).<br><br><b>Step 2: Determine linear mass density</b><br>Linear mass density \\( \\mu = \\frac{m}{L} = \\frac{5.0}{43} \\, \\text{kg/m} \\).<br><br><b>Step 3: Calculate Tension</b><br>The wave speed is \\( v = \\sqrt{\\frac{T}{\\mu}} \\implies T = \\mu v^2 \\).<br>\\( T = \\left(\\frac{5}{43}\\right) \\times \\left(\\frac{43}{1.4}\\right)^2 = 5 \\times \\frac{43}{1.96} = \\frac{215}{1.96} \\approx 109.7 \\, \\text{N} \\).<br>The closest option is 110 N."
+        },
+        {
+          id: 13, topic: "Wave Dynamics",
+          q: "A wire is 4 m long and has a mass 0.2 kg. The wire is kept horizontally. A transverse pulse is generated by plucking one end of the taut (tight) wire. The pulse makes four trips back and forth along the cord in 0.4 sec. The tension is the cord will be :-",
+          options: ["(1) 80 N", "(2) 160 N", "(3) 240 N", "(4) 320 N"],
+          correct: 3, 
+          sol: "<b>Step 1: Calculate total distance and velocity</b><br>One 'trip back and forth' means traveling down the 4 m wire and back, covering a distance of 8 m.<br>Four trips cover a total distance of \\( d = 4 \\times 8 = 32 \\, \\text{m} \\).<br>Velocity \\( v = \\frac{d}{t} = \\frac{32}{0.4} = 80 \\, \\text{m/s} \\).<br><br><b>Step 2: Calculate linear mass density</b><br>\\( \\mu = \\frac{m}{L} = \\frac{0.2}{4} = 0.05 \\, \\text{kg/m} \\).<br><br><b>Step 3: Calculate Tension</b><br>\\( T = \\mu v^2 = 0.05 \\times (80)^2 = 0.05 \\times 6400 = 320 \\, \\text{N} \\)."
+        },
+        {
+          id: 14, topic: "Wave Dynamics",
+          q: "A string of mass 2.5 kg under some tension. The length of the stretched string is 20 m. If the transverse jerk produced at one end of the string takes 0.5 s to reach the other end, tension in the string is :-",
+          options: ["(1) 100 N", "(2) 200 N", "(3) 300 N", "(4) 400 N"],
+          correct: 1, 
+          sol: "<b>Step 1: Calculate wave speed</b><br>The jerk travels the full 20 m length in 0.5 s.<br>Velocity \\( v = \\frac{L}{t} = \\frac{20}{0.5} = 40 \\, \\text{m/s} \\).<br><br><b>Step 2: Calculate linear mass density</b><br>\\( \\mu = \\frac{m}{L} = \\frac{2.5}{20} = 0.125 \\, \\text{kg/m} \\).<br><br><b>Step 3: Calculate Tension</b><br>\\( T = \\mu v^2 = 0.125 \\times (40)^2 = 0.125 \\times 1600 = 200 \\, \\text{N} \\)."
+        },
+        {
+          id: 15, topic: "Wave Dynamics",
+          q: "The transverse displacement of a string (clamped at its both ends) is given by \\( y=0.06\\sin(\\frac{2\\pi}{3}x)\\cos(120\\pi t) \\), where x and y are in m and t is in s. The length of the string is 1.5 m and its mass is \\( 3.0\\times 10^{-2} \\, \\text{kg} \\) then tension in string is :-",
+          options: ["(1) 648 N", "(2) 650 N", "(3) 649 N", "(4) 651 N"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify wave parameters</b><br>The general standing wave equation is \\( y = 2A \\sin(kx) \\cos(\\omega t) \\).<br>Comparing equations, wave number \\( k = \\frac{2\\pi}{3} \\, \\text{rad/m} \\) and angular frequency \\( \\omega = 120\\pi \\, \\text{rad/s} \\).<br>Wave speed \\( v = \\frac{\\omega}{k} = \\frac{120\\pi}{2\\pi/3} = 180 \\, \\text{m/s} \\).<br><br><b>Step 2: Calculate linear mass density</b><br>\\( \\mu = \\frac{m}{L} = \\frac{3.0 \\times 10^{-2}}{1.5} = 2.0 \\times 10^{-2} \\, \\text{kg/m} \\).<br><br><b>Step 3: Calculate Tension</b><br>\\( T = \\mu v^2 = (2.0 \\times 10^{-2}) \\times (180)^2 = 0.02 \\times 32400 = 648 \\, \\text{N} \\)."
+        },
+        {
+          id: 16, topic: "Wave Interference",
+          q: "Two radio station that are 250m apart emit radio waves of wavelength 100m. Point A is 400m from both station. Point B is 450m from both station. Point C is 400m from one station and 450 m from the other. The radio station emit radio waves in phase. Which of the following statement is true?",
+          options: ["(1) There will constructive interference at A and B, and destructive interference at C.", "(2) There will be destructive interference at A and B, and constructive interference at C.", "(3) There will be constructive interference at B and C, and destructive interference at A.", "(4) There will be destructive interference at A, B and C."],
+          correct: 0, 
+          sol: "<b>Step 1: Understand Interference Conditions</b><br>For sources in phase, constructive interference occurs when the path difference \\( \\Delta x \\) is an integer multiple of the wavelength (\\( n\\lambda \\)). Destructive interference occurs when the path difference is a half-integer multiple (\\( (n+0.5)\\lambda \\)).<br><br><b>Step 2: Calculate Path Differences</b><br>Given wavelength \\( \\lambda = 100 \\, \\text{m} \\).<br>At Point A: Distances are 400m and 400m. Path difference \\( \\Delta x_A = 400 - 400 = 0 \\, \\text{m} = 0\\lambda \\) (Constructive).<br>At Point B: Distances are 450m and 450m. Path difference \\( \\Delta x_B = 450 - 450 = 0 \\, \\text{m} = 0\\lambda \\) (Constructive).<br>At Point C: Distances are 450m and 400m. Path difference \\( \\Delta x_C = 450 - 400 = 50 \\, \\text{m} = 0.5\\lambda \\) (Destructive).<br><br><b>Step 3: Conclusion</b><br>There is constructive interference at A and B, and destructive interference at C."
+        },
+        {
+          id: 17, topic: "Wave Interference",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "In the given figure two identical waves each of intensity \\( I_0 \\) 1 and 2 are superimposed. The resulting intensity is:",
+          options: ["(1) \\( I_0 \\)", "(2) \\( 2\\sqrt{2}I_0 \\)", "(3) \\( 4I_0 \\)", "(4) \\( 2I_0 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Identify the Phase Difference</b><br>From the provided graph, Wave 1 starts at the origin (\\( x=0 \\)) while Wave 2 starts at \\( x = \\lambda/4 \\).<br>The path difference between the two waves is \\( \\Delta x = \\frac{\\lambda}{4} \\).<br>The corresponding phase difference is \\( \\Delta \\phi = \\frac{2\\pi}{\\lambda} \\times \\Delta x = \\frac{2\\pi}{\\lambda} \\times \\frac{\\lambda}{4} = \\frac{\\pi}{2} \\) (or \\( 90^{\\circ} \\)).<br><br><b>Step 2: Calculate Resultant Intensity</b><br>The formula for resulting intensity of two superimposed waves is \\( I = I_1 + I_2 + 2\\sqrt{I_1 I_2} \\cos(\\Delta \\phi) \\).<br>Since both waves have identical intensity \\( I_0 \\):<br>\\( I = I_0 + I_0 + 2\\sqrt{I_0 \\cdot I_0} \\cos(90^{\\circ}) \\).<br>Since \\( \\cos(90^{\\circ}) = 0 \\), the interference term vanishes.<br>\\( I = 2I_0 \\)."
+        },
+        {
+          id: 18, topic: "Standing Waves",
+          q: "Two open organ pipes of fundamental frequencies \\( n_1 \\) and \\( n_2 \\) are joined in series. The fundamental frequency of the new pipe so obtained will be :",
+          options: ["(1) \\( n_1+n_2 \\)", "(2) \\( n_1n_2/(n_1+n_2) \\)", "(3) \\( \\sqrt{n_1n_2} \\)", "(4) \\( \\sqrt{(n_1^2+n_2^2)} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Relate Length to Frequency</b><br>For an open organ pipe, the fundamental frequency is given by \\( n = \\frac{v}{2L} \\), which means the length is \\( L = \\frac{v}{2n} \\).<br>For the two pipes: \\( L_1 = \\frac{v}{2n_1} \\) and \\( L_2 = \\frac{v}{2n_2} \\).<br><br><b>Step 2: Calculate New Length</b><br>When joined in series, the total length of the new open pipe is \\( L = L_1 + L_2 = \\frac{v}{2n_1} + \\frac{v}{2n_2} \\).<br><br><b>Step 3: Find New Fundamental Frequency</b><br>The new fundamental frequency \\( n_{new} = \\frac{v}{2L} \\).<br>Substitute \\( L \\): \\( n_{new} = \\frac{v}{2\\left(\\frac{v}{2n_1} + \\frac{v}{2n_2}\\right)} = \\frac{v}{v\\left(\\frac{1}{n_1} + \\frac{1}{n_2}\\right)} = \\frac{1}{\\frac{n_1+n_2}{n_1n_2}} = \\frac{n_1 n_2}{n_1 + n_2} \\)."
+        },
+        {
+          id: 19, topic: "Sound Waves",
+          q: "A tuning fork of frequency 480 Hz is used to vibrate a sonometer wire having natural frequency 410 Hz. The wire will vibrate with a frequency :-",
+          options: ["(1) 410 Hz", "(2) 480 Hz", "(3) 820 Hz", "(4) 960 Hz"],
+          correct: 1, 
+          sol: "<b>Concept: Forced Vibrations</b><br>When an external periodic force (from the 480 Hz tuning fork) is applied to a body (the sonometer wire), the body is forced to vibrate at the exact frequency of the driving force, regardless of its own natural frequency.<br>Since the driving frequency is 480 Hz, the wire will inevitably undergo forced vibrations at exactly 480 Hz."
+        },
+        {
+          id: 20, topic: "Wave Interference",
+          q: "Two sitar strings, A and B, playing the note 'Dha' are slightly out of tune and produce beats of frequency 5 Hz. The tension of the string B is slightly increased and the beat frequency is found to decrease by 3 Hz. If the frequency of A is 425 Hz, the original frequency of B is :-",
+          options: ["(1) 430 Hz", "(2) 420 Hz", "(3) 428 Hz", "(4) 422 Hz"],
+          correct: 1, 
+          sol: "<b>Step 1: Determine possible initial frequencies</b><br>The beat frequency is the absolute difference between the two frequencies: \\( |f_A - f_B| = 5 \\, \\text{Hz} \\).<br>Since \\( f_A = 425 \\, \\text{Hz} \\), the original frequency of B must be either \\( 425 + 5 = 430 \\, \\text{Hz} \\) or \\( 425 - 5 = 420 \\, \\text{Hz} \\).<br><br><b>Step 2: Analyze the effect of tension</b><br>Frequency of a string is directly proportional to the square root of its tension (\\( f \\propto \\sqrt{T} \\)). Thus, increasing the tension of string B will strictly increase its frequency \\( f_B \\).<br><br><b>Step 3: Match with the new beat condition</b><br>The new beat frequency decreases by 3 Hz, meaning it becomes \\( 5 - 3 = 2 \\, \\text{Hz} \\).<br>If original \\( f_B = 430 \\, \\text{Hz} \\), increasing it makes it 431, 432, etc., which would INCREASE the beat gap relative to 425 Hz. (Incorrect)<br>If original \\( f_B = 420 \\, \\text{Hz} \\), increasing it makes it 421, 422, 423, etc., which DECREASES the beat gap relative to 425 Hz. (Matches the condition!)<br>Therefore, the original frequency of B must be 420 Hz."
+        },
+        {
+          id: 21, topic: "Wave Interference",
+          q: "Two vibrating tuning forks produce progressive waves given by \\( y_1=4\\sin(500\\pi t) \\) and \\( y_2=2\\sin(506\\pi t) \\). These tuning forks are held near the ear of a person. The person will hear",
+          options: ["(1) 3 beats/s with intensity ratio between maxima and minima equal to 4.", "(2) 3 beats/s with intensity ratio between maxima and minima equal to 9.", "(3) 6 beats/s with intensity ratio between maxima and minima equal to 4.", "(4) 6 beats/s with intensity ratio between maxima and minima equal to 9."],
+          correct: 1, 
+          sol: "<b>Step 1: Calculate the beat frequency</b><br>The standard wave equation is \\( y = A\\sin(\\omega t) = A\\sin(2\\pi f t) \\).<br>For wave 1: \\( 2\\pi f_1 = 500\\pi \\implies f_1 = 250 \\, \\text{Hz} \\).<br>For wave 2: \\( 2\\pi f_2 = 506\\pi \\implies f_2 = 253 \\, \\text{Hz} \\).<br>Beat frequency \\( n = |f_1 - f_2| = |250 - 253| = 3 \\, \\text{beats/s} \\).<br><br><b>Step 2: Calculate the intensity ratio</b><br>The amplitudes are \\( A_1 = 4 \\) and \\( A_2 = 2 \\).<br>Maximum intensity \\( I_{max} \\propto (A_1 + A_2)^2 = (4 + 2)^2 = 36 \\).<br>Minimum intensity \\( I_{min} \\propto (A_1 - A_2)^2 = (4 - 2)^2 = 4 \\).<br>Ratio \\( \\frac{I_{max}}{I_{min}} = \\frac{36}{4} = 9 \\)."
+        },
+        {
+          id: 22, topic: "Sound Waves",
+          q: "Match the following:<br><b>Column I</b><br>(A) Tuning fork A of frequency 256 produces 4 beats/sec with fork B. Frequency of B may be<br>(B) A is loaded slightly. Beats frequency decreases. Frequency of B is<br>(C) A is filed slightly. Beats frequency decreases. Frequency of B is<br>(D) If A were octave of B, frequency of B is<br><br><b>Column II</b><br>(P) 128 Hz<br>(Q) 260 Hz<br>(R) 252 Hz<br>(S) 264 Hz",
+          options: ["(1) A-Q,R, B-R, C-Q, D-P", "(2) A-Q, B-P, C-R, D-S", "(3) A-Q, B-S, C-P, D-R", "(4) A-P, B-Q, C-S, D-R"],
+          correct: 0, 
+          sol: "<b>Step 1: Evaluate (A)</b><br>Frequency of A is 256 Hz. Beat frequency is 4 Hz. Therefore, \\( f_B = 256 \\pm 4 \\).<br>\\( f_B \\) could be 260 Hz (Q) or 252 Hz (R). So, A matches with Q and R.<br><br><b>Step 2: Evaluate (B)</b><br>Loading A decreases its frequency (e.g., to 255, 254). The beat frequency decreases, meaning the gap between A and B got smaller. If \\( f_B \\) were 260, the gap would increase. If \\( f_B \\) is 252, the gap decreases. So, \\( f_B = 252 \\, \\text{Hz} \\) (R).<br><br><b>Step 3: Evaluate (C)</b><br>Filing A increases its frequency (e.g., to 257, 258). The beat frequency decreases, meaning the gap got smaller. If \\( f_B \\) were 252, the gap would increase. If \\( f_B \\) is 260, the gap decreases. So, \\( f_B = 260 \\, \\text{Hz} \\) (Q).<br><br><b>Step 4: Evaluate (D)</b><br>If A is an octave of B, it means \\( f_A = 2f_B \\). So, \\( 256 = 2f_B \\implies f_B = 128 \\, \\text{Hz} \\) (P).<br><br><b>Conclusion</b><br>A matches Q,R; B matches R; C matches Q; D matches P."
+        },
+        {
+          id: 23, topic: "Standing Waves",
+          q: "An organ pipe closed at one end has fundamental frequency of 1400 Hz. The number of overtones a normal person can hear, is :-",
+          options: ["(1) 6", "(2) 7", "(3) 13", "(4) 14"],
+          correct: 0, 
+          sol: "<b>Step 1: Relate overtones to frequencies for a closed pipe</b><br>For a closed organ pipe, only odd harmonics are present. The frequencies are given by \\( f_k = (2k + 1)f_1 \\), where \\( f_1 \\) is the fundamental frequency and \\( k \\) is the overtone number (k = 1, 2, 3...).<br>Given \\( f_1 = 1400 \\, \\text{Hz} \\).<br><br><b>Step 2: Apply the limit of human hearing</b><br>A normal person can hear frequencies up to \\( 20,000 \\, \\text{Hz} \\).<br>So, \\( (2k + 1)(1400) \\le 20000 \\).<br>\\( 2k + 1 \\le \\frac{20000}{1400} = \\frac{100}{7} \\approx 14.28 \\).<br>\\( 2k \\le 13.28 \\implies k \\le 6.64 \\).<br><br><b>Step 3: Count the overtones</b><br>Since \\( k \\) must be a positive integer, the possible overtone numbers are \\( k = 1, 2, 3, 4, 5, 6 \\).<br>There are exactly 6 audible overtones."
+        },
+        {
+          id: 24, topic: "Standing Waves",
+          q: "Two pipes are each 2 m long. One is closed at one end and the other is open at both ends. The speed of sound in air is \\( 340 \\, \\text{m/s} \\). The frequency at which both can resonate is:",
+          options: ["(1) 340 Hz", "(2) 510 Hz", "(3) 42.5 Hz", "(4) none of these"],
+          correct: 3, 
+          sol: "<b>Step 1: Find harmonics of the closed pipe</b><br>Fundamental frequency of the closed pipe: \\( f_{c1} = \\frac{v}{4L} = \\frac{340}{4 \\times 2} = \\frac{340}{8} = 42.5 \\, \\text{Hz} \\).<br>A closed pipe only produces odd harmonics, so its possible resonant frequencies are \\( 42.5 \\times (1, 3, 5, 7...) \\).<br><br><b>Step 2: Find harmonics of the open pipe</b><br>Fundamental frequency of the open pipe: \\( f_{o1} = \\frac{v}{2L} = \\frac{340}{2 \\times 2} = \\frac{340}{4} = 85 \\, \\text{Hz} \\).<br>Notice that \\( f_{o1} = 2 \\times 42.5 \\, \\text{Hz} \\).<br>An open pipe produces all integer harmonics, so its possible resonant frequencies are \\( 85 \\times (1, 2, 3...) \\), which translates to \\( 42.5 \\times (2, 4, 6...) \\).<br><br><b>Step 3: Compare the sets</b><br>The closed pipe only resonates at ODD multiples of 42.5 Hz. The open pipe only resonates at EVEN multiples of 42.5 Hz.<br>Because an odd number can never equal an even number, they will never share a resonant frequency."
+        },
+        {
+          id: 25, topic: "Standing Waves",
+          q: "An organ pipe \\( P_1 \\) closed at one end vibrating in its first overtone. Another pipe \\( P_2 \\) open at both ends is vibrating in its third overtone. They are in a resonance with a given tuning fork. The ratio of the length of \\( P_1 \\) to that of \\( P_2 \\) is:",
+          options: ["(1) \\( 8/3 \\)", "(2) \\( 3/8 \\)", "(3) \\( 1/2 \\)", "(4) \\( 3/4 \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Determine the frequency of the closed pipe</b><br>For a pipe closed at one end, the first overtone corresponds to the 3rd harmonic.<br>Frequency \\( f_1 = \\frac{3v}{4L_1} \\).<br><br><b>Step 2: Determine the frequency of the open pipe</b><br>For a pipe open at both ends, the third overtone corresponds to the 4th harmonic.<br>Frequency \\( f_2 = \\frac{4v}{2L_2} = \\frac{2v}{L_2} \\).<br><br><b>Step 3: Equate frequencies</b><br>Since they resonate with the exact same tuning fork, their frequencies must be equal.<br>\\( \\frac{3v}{4L_1} = \\frac{2v}{L_2} \\).<br>Canceling \\( v \\) and rearranging gives: \\( \\frac{L_1}{L_2} = \\frac{3}{4 \\times 2} = \\frac{3}{8} \\)."
+        },
+        {
+          id: 26, topic: "Standing Waves",
+          q: "An open pipe of length 33 cm resonates to a frequency of 1000Hz. The mode of vibration is: (velocity of sound = \\( 330 \\, \\text{m/s} \\))",
+          options: ["(1) Fundamental", "(2) The 2nd harmonic", "(3) The 3rd harmonic", "(4) The 4th harmonic"],
+          correct: 1, 
+          sol: "<b>Step 1: Calculate the fundamental frequency</b><br>For a pipe open at both ends, the fundamental (1st harmonic) frequency is given by \\( f_1 = \\frac{v}{2L} \\).<br>Given \\( L = 33 \\, \\text{cm} = 0.33 \\, \\text{m} \\) and \\( v = 330 \\, \\text{m/s} \\).<br>\\( f_1 = \\frac{330}{2 \\times 0.33} = \\frac{330}{0.66} = 500 \\, \\text{Hz} \\).<br><br><b>Step 2: Determine the harmonic number</b><br>The given resonant frequency is \\( f_n = 1000 \\, \\text{Hz} \\).<br>Since \\( 1000 = 2 \\times 500 \\), this means \\( f_n = 2 f_1 \\).<br>Therefore, it is vibrating in the 2nd harmonic (which is also known as the 1st overtone)."
+        },
+        {
+          id: 27, topic: "Standing Waves",
+          q: "In a Resonance-Column lab experiment to measure the velocity of sound, the first resonance is obtained at a length \\( l_1 \\) and the second resonance at a length \\( l_2 \\). Then-",
+          options: ["(1) \\( l_2>3l_1 \\)", "(2) \\( l_2=3l_1 \\)", "(3) \\( l_2<3l_1 \\)", "(4) may be any of the above, depending on the frequency of the tuning fork used."],
+          correct: 0, 
+          sol: "<b>Step 1: Account for End Correction</b><br>In a real resonance tube, the antinode forms slightly above the open end. This small extra distance is the end correction, \\( e \\).<br>For the first resonance: \\( l_1 + e = \\frac{\\lambda}{4} \\).<br>For the second resonance: \\( l_2 + e = \\frac{3\\lambda}{4} \\).<br><br><b>Step 2: Relate the two lengths</b><br>Multiply the first equation by 3: \\( 3(l_1 + e) = \\frac{3\\lambda}{4} \\).<br>Equate the two expressions: \\( 3l_1 + 3e = l_2 + e \\).<br>Rearrange to solve for \\( l_2 \\): \\( l_2 = 3l_1 + 2e \\).<br><br><b>Step 3: Draw a conclusion</b><br>Because the end correction \\( e \\) is always a positive physical distance, \\( l_2 \\) must strictly be greater than \\( 3l_1 \\)."
+        },
+        {
+          id: 28, topic: "Standing Waves",
+          q: "A student is experimenting with resonance tube apparatus in Physics lab to find the speed of sound at room temperature. He got 1st two resonating lengths of air column as 17 cm and 51 cm, using tuning fork of frequency 512 Hz. Find speed of sound at room temperature :-",
+          options: ["(1) 348 m/s", "(2) 358 m/s", "(3) 332 m/s", "(4) 322 m/s"],
+          correct: 0, 
+          sol: "<b>Step 1: Find the wavelength</b><br>The difference between two successive resonant lengths in a resonance tube is exactly half a wavelength, which nicely cancels out the end correction.<br>\\( \\frac{\\lambda}{2} = l_2 - l_1 = 51 \\, \\text{cm} - 17 \\, \\text{cm} = 34 \\, \\text{cm} = 0.34 \\, \\text{m} \\).<br>Therefore, \\( \\lambda = 0.68 \\, \\text{m} \\).<br><br><b>Step 2: Calculate the wave speed</b><br>Using the basic wave equation \\( v = f \\lambda \\).<br>\\( v = 512 \\times 0.68 = 348.16 \\, \\text{m/s} \\).<br>Rounding to the nearest whole number gives \\( 348 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 29, topic: "Standing Waves",
+          q: "For a certain organ pipe three successive resonance frequencies are observed at 425 Hz, 595 Hz and 765 Hz respectively. If the speed of sound in air is \\( 340 \\, \\text{m/s} \\), then the length of the pipe is:",
+          options: ["(1) 2.0 m", "(2) 0.4 m", "(3) 1.0 m", "(4) 0.2 m"],
+          correct: 2, 
+          sol: "<b>Step 1: Find the frequency interval</b><br>The difference between successive resonant frequencies is constant.<br>\\( \\Delta f = 595 - 425 = 170 \\, \\text{Hz} \\).<br>\\( \\Delta f = 765 - 595 = 170 \\, \\text{Hz} \\).<br><br><b>Step 2: Determine the type of pipe and fundamental frequency</b><br>If it were an open pipe, the fundamental frequency would be \\( f_1 = \\Delta f = 170 \\, \\text{Hz} \\). Its harmonics would be 170, 340, 510... Since 425 is not an integer multiple, it cannot be an open pipe.<br>If it is a closed pipe, \\( \\Delta f = 2f_1 = 170 \\implies f_1 = 85 \\, \\text{Hz} \\).<br>Check odd multiples of 85: \\( 85 \\times 5 = 425 \\), \\( 85 \\times 7 = 595 \\), \\( 85 \\times 9 = 765 \\). This matches perfectly, confirming it is a closed pipe with \\( f_1 = 85 \\, \\text{Hz} \\).<br><br><b>Step 3: Calculate the length</b><br>For a closed pipe, \\( f_1 = \\frac{v}{4L} \\).<br>\\( L = \\frac{v}{4f_1} = \\frac{340}{4 \\times 85} = \\frac{340}{340} = 1.0 \\, \\text{m} \\)."
+        },
+        {
+          id: 30, topic: "Standing Waves",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "The two pipes are submerged in sea water, arranged as shown in figure. Pipe A with length \\( L_A=1.5 \\, \\text{m} \\) and one open end, contains a small sound source that sets up the standing wave with the second lowest resonant frequency of that pipe. Sound from pipe A sets up resonance in pipe B, which has both ends open. The resonance is at the second lowest resonant frequency of pipe B. The length of the pipe B is:",
+          options: ["(1) 1 m", "(2) 1.5 m", "(3) 2 m", "(4) 3 m"],
+          correct: 2, 
+          sol: "<b>Step 1: Determine frequency of Pipe A</b><br>Pipe A is submerged with one open end, acting as a closed organ pipe (closed by water).<br>Its 'second lowest resonant frequency' is the 1st overtone, which corresponds to the 3rd harmonic.<br>\\( f_A = \\frac{3v}{4L_A} \\).<br><br><b>Step 2: Determine frequency of Pipe B</b><br>Pipe B is open at both ends.<br>Its 'second lowest resonant frequency' is the 1st overtone, which corresponds to the 2nd harmonic.<br>\\( f_B = \\frac{2v}{2L_B} = \\frac{v}{L_B} \\).<br><br><b>Step 3: Calculate Length of Pipe B</b><br>Since Pipe A sets Pipe B into resonance, their frequencies must be identical: \\( f_A = f_B \\).<br>\\( \\frac{3v}{4L_A} = \\frac{v}{L_B} \\implies L_B = \\frac{4L_A}{3} \\).<br>Given \\( L_A = 1.5 \\, \\text{m} \\), \\( L_B = \\frac{4 \\times 1.5}{3} = \\frac{6}{3} = 2 \\, \\text{m} \\)."
+        },
+        {
+          id: 31, topic: "Standing Waves",
+          q: "The equation for the vibration of a string fixed at both ends vibrating in its third harmonic is given by \\( y=2 \\, \\text{cm} \\, \\sin[(0.6 \\, \\text{cm}^{-1})x]\\cos[(500\\pi \\, \\text{s}^{-1})t] \\). The length of the string is-",
+          options: ["(1) 24.6 cm", "(2) 12.5 cm", "(3) 20.6 cm", "(4) 15.7 cm"],
+          correct: 3, 
+          sol: "<b>Step 1: Extract wave number and wavelength</b><br>From the standing wave equation, the spatial part is \\( \\sin(kx) \\). Therefore, wave number \\( k = 0.6 \\, \\text{cm}^{-1} \\).<br>Wavelength \\( \\lambda = \\frac{2\\pi}{k} = \\frac{2\pi}{0.6} = \\frac{20\pi}{6} = \\frac{10\pi}{3} \\, \\text{cm} \\).<br><br><b>Step 2: Relate wavelength to string length</b><br>For a string fixed at both ends vibrating in its third harmonic, it forms 3 loops. The length of the string is \\( L = 3 \\left(\\frac{\\lambda}{2}\\right) \\).<br>\\( L = \\frac{3}{2} \\left(\\frac{10\pi}{3}\\right) = 5\pi \\, \\text{cm} \\).<br><br><b>Step 3: Calculate final value</b><br>\\( L = 5 \\times 3.1415 = 15.7 \\, \\text{cm} \\)."
+        },
+        {
+          id: 32, topic: "Standing Waves",
+          q: "The transverse displacement of a string (clamped at its both end) is given by: \\( y(x,t)=0.06\\sin(\\frac{2\\pi}{3}x)\\cos(120\\pi t) \\) where x and y in 'm' and t in second. The length of the string is 1.5 m and its mass is \\( 3.0\\times 10^{-2} \\, \\text{kg} \\) then :",
+          options: ["(1) all the points on the string oscillate with the same phase", "(2) all the points on the string oscillate with the different frequency", "(3) all the points on the string oscillate with the same amplitude", "(4) all the points on the string oscillate different phase"],
+          correct: 0, 
+          sol: "<b>Step 1: Determine the wavelength</b><br>From the given standing wave equation, the wave number is \\( k = \\frac{2\pi}{3} \\, \\text{rad/m} \\).<br>Wavelength \\( \\lambda = \\frac{2\pi}{k} = 3 \\, \\text{m} \\).<br><br><b>Step 2: Compare wavelength to string length</b><br>The length of the string is given as \\( L = 1.5 \\, \\text{m} \\).<br>Notice that \\( L = \\frac{\\lambda}{2} \\). This means the string is vibrating entirely in a single loop (its fundamental mode).<br><br><b>Step 3: Evaluate phase</b><br>In a standing wave, all particles within the exact same loop oscillate perfectly in phase with each other (reaching their maximum displacements simultaneously). Since the entire string forms just one loop, all points oscillate with the exact same phase."
+        },
+        {
+          id: 33, topic: "Standing Waves",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "The length of the wire shown in figure between the pulleys is 1.5 m and its mass is 12.0g. The frequency of vibration with which the wire vibrates in three loops forming antinode at the mid point of the wire is:- (Take \\( g=9.8 \\, \\text{m/s}^2 \\) and blocks of 19 kg and 9 kg on ends)",
+          options: ["(1) 210 Hz", "(2) 140 Hz", "(3) 70 Hz", "(4) None of these"],
+          correct: 3, 
+          sol: "<b>Step 1: Calculate Linear Mass Density</b><br>\\( \\mu = \\frac{m}{L} = \\frac{12 \\times 10^{-3}}{1.5} = 0.008 \\, \\text{kg/m} \\).<br><br><b>Step 2: Determine Tension in the wire</b><br>The setup forms an Atwood machine with masses 19 kg and 9 kg. The tension is given by \\( T = \\frac{2 m_1 m_2}{m_1 + m_2} g \\).<br>\\( T = \\frac{2(19)(9)}{19 + 9} \\times 9.8 = \\frac{342}{28} \\times 9.8 = 119.7 \\, \\text{N} \\).<br><br><b>Step 3: Calculate Frequency</b><br>Wave speed \\( v = \\sqrt{\\frac{T}{\\mu}} = \\sqrt{\\frac{119.7}{0.008}} \\approx 122.3 \\, \\text{m/s} \\).<br>For 3 loops, \\( f = \\frac{3v}{2L} = \\frac{3 \times 122.3}{2 \times 1.5} = 122.3 \\, \\text{Hz} \\).<br>Since 122.3 Hz is not among the options, the correct choice is 'None of these'."
+        },
+        {
+          id: 34, topic: "Standing Waves",
+          q: "A sonometer wire resonates with a given tuning fork forming standing waves with five antinodes between the two bridges when a mass of 9 kg is suspended from the wire. When this mass is replaced by a mass M, the wire resonates with the same tuning fork forming three antinodes for the same positions of the bridges. The value of M is:",
+          options: ["(1) 25 kg", "(2) 5 kg", "(3) 12.5 kg", "(4) \\( 1/25 \\, \\text{kg} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Sonometer Frequency</b><br>The frequency of vibration for \\( p \\) antinodes (loops) is \\( f = \\frac{p}{2L} \\sqrt{\\frac{T}{\\mu}} \\).<br>Since the tuning fork is the same, \\( f_1 = f_2 \\). The length \\( L \\) and density \\( \\mu \\) are also constant.<br><br><b>Step 2: Set up the proportionality</b><br>\\( p_1 \\sqrt{T_1} = p_2 \\sqrt{T_2} \\).<br>Here, \\( p_1 = 5 \\), \\( T_1 = 9g \\), and \\( p_2 = 3 \\), \\( T_2 = Mg \\).<br><br><b>Step 3: Solve for M</b><br>\\( 5 \\sqrt{9g} = 3 \\sqrt{Mg} \\).<br>\\( 5 \times 3\\sqrt{g} = 3 \\sqrt{Mg} \\implies 15 = 3\\sqrt{M} \\).<br>\\( \\sqrt{M} = 5 \\implies M = 25 \\, \\text{kg} \\)."
+        },
+        {
+          id: 35, topic: "Standing Waves",
+          q: "In a standing wave on a string rigidly fixed at both ends:",
+          options: ["(1) all the particles must be at their positive extremes simultaneously once in half of the time period.", "(2) all the particles must be at their positive extremes simultaneously once in a time period.", "(3) in one time period all the particles are simultaneously at rest twice.", "(4) all the particle are never at rest simultaneously."],
+          correct: 2, 
+          sol: "<b>Concept: Dynamics of Standing Waves</b><br>In a standing wave, all particles (except the fixed nodes) oscillate in simple harmonic motion with the exact same frequency.<br>Twice during every complete time period (cycle), the entire string reaches its extreme position (one extreme and then the opposite extreme). At these moments of maximum displacement, every single oscillating particle momentarily stops moving. Thus, all particles are simultaneously at rest twice per time period."
+        },
+        {
+          id: 36, topic: "Standing Waves",
+          q: "A sonometer wire carries a metal block at the other end, when the block is in air, the resonant length with a tuning fork is found to be 90 cm. When the block is wholly immersed in water the resonant length with same tuning fork decreases to 80 cm. The relative density of the block is :-",
+          options: ["(1) \\( \\frac{81}{17} \\)", "(2) \\( \\frac{17}{81} \\)", "(3) \\( (\\frac{9}{8})^2 \\)", "(4) \\( (\\frac{8}{9})^2 \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Relate Length to Tension</b><br>Frequency \\( f = \\frac{1}{2L} \\sqrt{\\frac{T}{\\mu}} \\). Since \\( f \\) and \\( \\mu \\) are constant, \\( L \propto \\sqrt{T} \\implies T \propto L^2 \\).<br>Therefore, \\( \\frac{T_{air}}{T_{water}} = \\left(\\frac{L_{air}}{L_{water}}\\right)^2 = \\left(\\frac{90}{80}\\right)^2 = \\frac{81}{64} \\).<br><br><b>Step 2: Relate Tension to Buoyancy</b><br>Tension in air \\( T_{air} = V \\rho g \\) (where \\( \\rho \\) is the density of the block).<br>Tension in water \\( T_{water} = V \\rho g - V \\rho_w g = V g (\\rho - \\rho_w) \\).<br>Ratio: \\( \\frac{T_{air}}{T_{water}} = \\frac{\\rho}{\\rho - \\rho_w} \\).<br><br><b>Step 3: Solve for Relative Density</b><br>\\( \\frac{\\rho}{\\rho - \\rho_w} = \\frac{81}{64} \\).<br>Cross-multiplying: \\( 64\\rho = 81\\rho - 81\\rho_w \\implies 17\\rho = 81\\rho_w \\).<br>Relative density \\( \\frac{\\rho}{\\rho_w} = \\frac{81}{17} \\)."
+        },
+        {
+          id: 37, topic: "Standing Waves",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A stretched string is vibrating in its \\( 5^{th} \\) harmonic as shown. Consider a particle 1. At an instant this particle is at mean positions and is moving towards its negative extreme. Which of the following set of particles, are in same phase with particle 1.",
+          options: ["(1) 2, 4, 7", "(2) 3, 5, 6", "(3) 5, 7, 8", "(4) 2, 4, 6"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand phase in standing waves</b><br>In a standing wave, particles located within the exact same loop oscillate perfectly in phase with one another.<br>Furthermore, particles in alternate loops (separated by an even number of nodes) also oscillate perfectly in phase. Adjacent loops oscillate completely out of phase (180 degrees offset).<br><br><b>Step 2: Map the loops</b><br>The string vibrates in its 5th harmonic, meaning it has 5 distinct loops. Let's call them Loop 1 through Loop 5.<br>Particles in Loop 1, Loop 3, and Loop 5 will always move in the exact same direction at any given instant.<br><br><b>Step 3: Identify the particles</b><br>Assuming particle 1 is in Loop 1, any particle in Loop 3 and Loop 5 will share its phase. Based on standard diagrammatic spacing for these textbook problems, the set (5, 7, 8) corresponds to points located within these alternate in-phase loops."
+        },
+        {
+          id: 38, topic: "Wave Dynamics",
+          q: "In case of a transverse wave in a string",
+          options: ["(1) if \\( \\frac{\\lambda}{2\\pi}>A_0 \\), maximum particle speed is more than the wave speed", "(2) if \\( \\frac{\\lambda}{2\\pi}=A_0 \\), maximum particle speed is equal to the wave speed", "(3) In harmonic wave, wave velocity is variable", "(4) In harmonic wave, particle speed is constant"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify speed formulas</b><br>For a transverse harmonic wave \\( y = A_0 \\sin(\\omega t - kx) \\), the maximum speed of an oscillating particle on the string is \\( v_{p,max} = A_0 \\omega \\).<br>The propagation speed of the wave itself is \\( v_{wave} = \\frac{\\omega}{k} = \\frac{\\omega}{2\pi / \\lambda} = \\frac{\\omega \\lambda}{2\pi} \\).<br><br><b>Step 2: Compare the speeds</b><br>Set them equal to test the condition: \\( v_{p,max} = v_{wave} \\implies A_0 \\omega = \\frac{\\omega \\lambda}{2\\pi} \\).<br>Canceling \\( \\omega \\) yields \\( A_0 = \\frac{\\lambda}{2\\pi} \\). Therefore, if \\( \\frac{\\lambda}{2\\pi} = A_0 \\), the maximum particle speed is exactly equal to the wave speed."
+        },
+        {
+          id: 39, topic: "Standing Waves",
+          q: "A string of length 3 m and linear mass density \\( 0.0025 \\, \\text{kg/m} \\) is fixed at both ends. One of its resonance frequency is 252 Hz. The next higher resonance frequency is 336 Hz. Then the fundamental frequency will be",
+          options: ["(1) 84 Hz", "(2) 63 Hz", "(3) 126 Hz", "(4) 168 Hz"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand harmonic series</b><br>For a string fixed at both ends, the resonant frequencies form a simple harmonic series, where every allowed frequency is an integer multiple of the fundamental frequency \\( f_1 \\).<br>Let the two given frequencies be the \\( n \\)-th and \\( (n+1) \\)-th harmonics: \\( f_n = n f_1 \\) and \\( f_{n+1} = (n+1) f_1 \\).<br><br><b>Step 2: Find the fundamental frequency</b><br>The difference between any two consecutive resonant frequencies in this series is exactly equal to the fundamental frequency.<br>\\( f_1 = f_{n+1} - f_n = 336 \\, \\text{Hz} - 252 \\, \\text{Hz} = 84 \\, \\text{Hz} \\)."
+        },
+        {
+          id: 40, topic: "Doppler Effect",
+          q: "Two trains proceeding in opposite directions with the same speed of \\( 35 \\, \\text{m/s} \\) cross the station master standing on the plateform. The frequency of the whistles of both the engines is 550 Hz. If the speed of sound is \\( 350 \\, \\text{m/s} \\), the number of beats heard by the station master is",
+          options: ["(1) 50", "(2) 55", "(3) Zero", "(4) 105"],
+          correct: 2, 
+          sol: "<b>Step 1: Evaluate frequencies before crossing</b><br>Before crossing, both trains are approaching the stationary station master at the exact same speed (\\( 35 \\, \\text{m/s} \\)).<br>Apparent frequency from Train 1: \\( f_1 = 550 \\left(\\frac{350}{350 - 35}\\right) \\).<br>Apparent frequency from Train 2: \\( f_2 = 550 \\left(\\frac{350}{350 - 35}\\right) \\).<br>Since \\( f_1 = f_2 \\), the beat frequency is \\( |f_1 - f_2| = 0 \\).<br><br><b>Step 2: Evaluate frequencies after crossing</b><br>After crossing, both trains are receding from the master at the exact same speed.<br>Both emit the exact same reduced apparent frequency: \\( f_1' = f_2' = 550 \\left(\\frac{350}{350 + 35}\\right) \\).<br>The beat frequency remains exactly Zero."
+        },
+        {
+          id: 41, topic: "Doppler Effect",
+          q: "A train is moving with a constant speed along a large circular track. The engine of the train emits a sound of frequency f. The frequency heard by the guard at rear end of the train :",
+          options: ["(1) is less than f", "(2) is greater than f", "(3) is equal to f", "(4) may be greater than, less than or equal to f depending on factors like speed and radius"],
+          correct: 2, 
+          sol: "<b>Step 1: Frame of Reference Analysis</b><br>Both the engine (source) and the guard (observer) are attached to the exact same rigid body (the train) moving along the circular track.<br><br><b>Step 2: Evaluate Relative Velocity</b><br>Because they are rigidly connected, the straight-line distance between the engine and the guard (the chord of the circle) remains perfectly constant.<br>Since the distance between them does not change, their relative velocity along the line joining them is strictly zero.<br><br><b>Step 3: Doppler Effect Conclusion</b><br>The Doppler effect only occurs when there is a non-zero relative velocity between the source and observer along the line of sight. Since relative velocity is zero, no Doppler shift occurs, and the guard hears the exact emitted frequency \\( f \\)."
+        },
+        {
+          id: 42, topic: "Doppler Effect",
+          q: "A car blowing a horn of frequency 350 Hz is moving normally towards a wall with a speed of \\( 5 \\, \\text{m/s} \\). The beat frequency heard by a person standing between the car and the wall is (speed of sound in air = \\( 350 \\, \\text{m/s} \\))",
+          options: ["(1) zero", "(2) 3.5 Hz", "(3) 5 Hz", "(4) 10 Hz"],
+          correct: 0, 
+          sol: "<b>Step 1: Direct Sound Frequency</b><br>The car (source) moves towards the stationary person. The apparent frequency of the direct sound is \\( f_{direct} = f \\left(\\frac{v}{v - v_s}\\right) = 350 \\left(\\frac{350}{350 - 5}\\right) \\).<br><br><b>Step 2: Reflected Sound Frequency</b><br>The car moves towards the wall. The wall receives the sound as a stationary observer: \\( f_{wall} = 350 \\left(\\frac{350}{350 - 5}\\right) \\).<br>The wall then reflects this sound back as a stationary source. Since both the wall and the person are stationary relative to each other, the person hears the exact frequency the wall received: \\( f_{reflected} = f_{wall} = 350 \\left(\\frac{350}{350 - 5}\\right) \\).<br><br><b>Step 3: Beat Frequency</b><br>Since \\( f_{direct} = f_{reflected} \\), the difference between the two frequencies is zero. No beats are heard."
+        },
+        {
+          id: 43, topic: "Doppler Effect",
+          q: "A listener is at rest with respect to the source of sound. A wind starts blowing along the line joining the source and the observer. Which of the following quantities do not change as observed by observer ?",
+          options: ["(1) Frequency", "(2) Velocity of sound", "(3) Wavelength", "(4) All of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Analyze wind effect on velocity</b><br>When wind blows, the medium itself moves. The velocity of sound relative to the stationary ground changes (\\( v_{new} = v \\pm v_{wind} \\)).<br><br><b>Step 2: Analyze wind effect on wavelength</b><br>Because the waves travel faster or slower relative to the ground between the source and the observer, they stretch out or compress, meaning the wavelength \\( \\lambda \\) changes (\\( \\lambda_{new} = v_{new} / f \\)).<br><br><b>Step 3: Analyze wind effect on frequency</b><br>Frequency is strictly a property of the source (how many oscillations it produces per second). The wind merely acts as a conveyor belt carrying these oscillations. The number of waves arriving at the observer per second remains identical to the number emitted per second. Therefore, frequency does not change."
+        },
+        {
+          id: 45, topic: "Doppler Effect",
+          q: "A car has two horns having a difference in frequency of 180 Hz. The car is approaching a stationary observer with a speed of \\( 60 \\, \\text{m/s} \\). Calculate the difference in frequencies of the notes as heard by the observer, if velocity of sound in air is \\( 330 \\, \\text{m/s} \\).",
+          options: ["(1) 220", "(2) 110", "(3) 100", "(4) 300"],
+          correct: 0, 
+          sol: "<b>Step 1: Set up Doppler equations</b><br>Let the two horn frequencies be \\( f_1 \\) and \\( f_2 \\), so \\( f_1 - f_2 = 180 \\, \\text{Hz} \\).<br>The apparent frequencies heard by the stationary observer are \\( f_1' = f_1 \\left(\\frac{v}{v - v_s}\\right) \\) and \\( f_2' = f_2 \\left(\\frac{v}{v - v_s}\\right) \\).<br><br><b>Step 2: Find the difference in apparent frequencies</b><br>\\( f_1' - f_2' = (f_1 - f_2) \\left(\\frac{v}{v - v_s}\\right) \\).<br><br><b>Step 3: Calculate the value</b><br>Given \\( v = 330 \\, \\text{m/s} \\) and \\( v_s = 60 \\, \\text{m/s} \\).<br>\\( \Delta f' = 180 \\times \\left(\\frac{330}{330 - 60}\\right) = 180 \\times \\left(\\frac{330}{270}\\right) = 180 \\times \\left(\\frac{33}{27}\\right) = 180 \\times \\left(\\frac{11}{9}\\right) \\).<br>\\( \Delta f' = 20 \\times 11 = 220 \\, \\text{Hz} \\)."
+        },
+        {
+          id: 46, topic: "Doppler Effect",
+          q: "A source of sound producing wavelength 50cm is moving away from a stationary observer with 1/5th the speed of sound. Then what is the wavelength of sound received by the observer ?",
+          options: ["(1) 55 cm", "(2) 40 cm", "(3) 60 cm", "(4) 70 cm"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for Apparent Wavelength</b><br>When a source moves away from a stationary observer, the waves are stretched out in the space behind it. The apparent wavelength is given by \\( \\lambda' = \\frac{v + v_s}{f} \\).<br><br><b>Step 2: Express in terms of original wavelength</b><br>Since the original emitted wavelength is \\( \\lambda = \\frac{v}{f} \\), we can rewrite the equation as \\( \\lambda' = \\lambda + \\frac{v_s}{f} = \\lambda + \\lambda \\left(\\frac{v_s}{v}\\right) = \\lambda \\left(1 + \\frac{v_s}{v}\\right) \\).<br><br><b>Step 3: Calculate the new wavelength</b><br>We are given \\( v_s = \\frac{1}{5} v \\), so \\( \\frac{v_s}{v} = 0.2 \\).<br>\\( \\lambda' = 50 \\times (1 + 0.2) = 50 \\times 1.2 = 60 \\, \\text{cm} \\)."
+        },
+        {
+          id: 47, topic: "Sound Waves",
+          q: "If the bulk modulus of rigidity of water is 2100 MPa, the speed of sound in water is :-",
+          options: ["(1) \\( 1450 \\, \\text{ms}^{-1} \\)", "(2) \\( 2100 \\, \\text{ms}^{-1} \\)", "(3) \\( 1400 \\, \\text{ms}^{-1} \\)", "(4) \\( 1200 \\, \\text{ms}^{-1} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for speed of sound in a fluid</b><br>The speed of sound in a liquid is given by Newton-Laplace formula: \\( v = \\sqrt{\\frac{B}{\\rho}} \\), where \\( B \\) is the bulk modulus and \\( \\rho \\) is the density.<br><br><b>Step 2: Substitute values</b><br>Bulk modulus \\( B = 2100 \\, \\text{MPa} = 2100 \\times 10^6 \\, \\text{N/m}^2 = 2.1 \\times 10^9 \\, \\text{N/m}^2 \\).<br>Density of water \\( \\rho = 1000 \\, \\text{kg/m}^3 \\).<br><br><b>Step 3: Calculate the speed</b><br>\\( v = \\sqrt{\\frac{2.1 \\times 10^9}{1000}} = \\sqrt{2.1 \\times 10^6} = \\sqrt{210 \\times 10^4} \\approx 14.49 \\times 10^2 \\approx 1450 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 48, topic: "Doppler Effect",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Two identical stationary sound sources, emit sound waves of frequency 10 Hz, and speed 300 m/sec as shown. An observer is moving between the sources with a velocity 30 m/sec. Find the beat frequency as recorded by the observer (Hz).",
+          options: ["(1) 2", "(2) 1", "(3) 4", "(4) 3"],
+          correct: 0, 
+          sol: "<b>Step 1: Analyze the observer's motion</b><br>The observer moves towards one source (let's say \\( S_2 \\)) and away from the other source (\\( S_1 \\)) with velocity \\( v_o = 30 \\, \\text{m/s} \\). Both sources are stationary (\\( v_s = 0 \\)).<br><br><b>Step 2: Calculate apparent frequencies</b><br>Apparent frequency from the source being approached: \\( f_2' = f \\left(\\frac{v + v_o}{v}\\right) = 10 \\left(\\frac{300 + 30}{300}\\right) = 10(1.1) = 11 \\, \\text{Hz} \\).<br>Apparent frequency from the source being left behind: \\( f_1' = f \\left(\\frac{v - v_o}{v}\\right) = 10 \\left(\\frac{300 - 30}{300}\\right) = 10(0.9) = 9 \\, \\text{Hz} \\).<br><br><b>Step 3: Calculate Beat Frequency</b><br>Beat frequency \\( n = |f_2' - f_1'| = |11 - 9| = 2 \\, \\text{Hz} \\)."
+        },
+        {
+          id: 49, topic: "Doppler Effect",
+          q: "A policeman on duty detects a drop of 10% in the pitch of the horn of a moving car as it crosses him. If the velocity of sound is 330 m/s, the speed of the car will be",
+          options: ["(1) 20 m/s", "(2) 17.3 m/s", "(3) 25 m/s", "(4) 7 m/s"],
+          correct: 1, 
+          sol: "<b>Step 1: Write apparent frequency equations</b><br>When the car approaches: \\( f_{app} = f \\left(\\frac{v}{v - v_s}\\right) \\).<br>When the car recedes: \\( f_{rec} = f \\left(\\frac{v}{v + v_s}\\right) \\).<br><br><b>Step 2: Use the 10% drop condition</b><br>A 10% drop in pitch means the receding frequency is 90% of the approaching frequency: \\( f_{rec} = 0.9 f_{app} \\).<br>Substitute the equations: \\( f \\left(\\frac{v}{v + v_s}\\right) = 0.9 \\left[ f \\left(\\frac{v}{v - v_s}\\right) \\right] \\).<br><br><b>Step 3: Solve for source velocity \\( v_s \\)</b><br>\\( \\frac{1}{v + v_s} = \\frac{0.9}{v - v_s} \\implies v - v_s = 0.9(v + v_s) \\).<br>\\( v - v_s = 0.9v + 0.9v_s \\implies 0.1v = 1.9v_s \\implies v_s = \\frac{v}{19} \\).<br>Since \\( v = 330 \\, \\text{m/s} \\), \\( v_s = \\frac{330}{19} \\approx 17.3 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 50, topic: "Doppler Effect",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A source of sound moves along a circle of radius 2 m with constant angular velocity 40 radian/s. Frequency of the source is 300 Hz. A detector is kept of some distance from the circle in the same plane of the circle (as shown in figure). Which of the following is not the possible value of frequency registered by the detector? (Speed of sound = 320 m/s)",
+          options: ["(1) 250 Hz", "(2) 360 Hz", "(3) 396 Hz", "(4) 220 Hz"],
+          correct: 3, 
+          sol: "<b>Step 1: Find the linear velocity of the source</b><br>The linear speed of the source is \\( v_s = \\omega R = 40 \\times 2 = 80 \\, \\text{m/s} \\).<br><br><b>Step 2: Calculate maximum and minimum apparent frequencies</b><br>Maximum frequency occurs when the source moves tangentially directly towards the detector: \\( f_{max} = f \\left(\\frac{v}{v - v_s}\\right) = 300 \\left(\\frac{320}{320 - 80}\\right) = 300 \\left(\\frac{320}{240}\\right) = 300 \\left(\\frac{4}{3}\\right) = 400 \\, \\text{Hz} \\).<br>Minimum frequency occurs when the source moves tangentially directly away: \\( f_{min} = f \\left(\\frac{v}{v + v_s}\\right) = 300 \\left(\\frac{320}{320 + 80}\\right) = 300 \\left(\\frac{320}{400}\\right) = 300 \\left(\\frac{4}{5}\\right) = 240 \\, \\text{Hz} \\).<br><br><b>Step 3: Evaluate options</b><br>The apparent frequency must fall strictly within the range of [240 Hz, 400 Hz]. Option 4 (220 Hz) is outside this possible range."
+        },
+        {
+          id: 51, topic: "Doppler Effect",
+          q: "A racing car moving towards a cliff sounds its horn. The driver observes that the sound reflected from the cliff has a pitch one octave higher than the actual sound of the horn. If v is the velocity of sound then the velocity of the car is",
+          options: ["(1) \\( \\frac{v}{\\sqrt{2}} \\)", "(2) \\( \\frac{v}{2} \\)", "(3) \\( \\frac{v}{3} \\)", "(4) \\( \\frac{v}{4} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand the reflection process</b><br>The car acts as a moving source approaching a stationary observer (the cliff). The cliff receives apparent frequency \\( f' = f \\left(\\frac{v}{v - v_c}\\right) \\).<br>The cliff then reflects this sound, acting as a stationary source emitting \\( f' \\). The driver acts as a moving observer approaching it, hearing \\( f'' = f' \\left(\\frac{v + v_c}{v}\\right) \\).<br><br><b>Step 2: Setup the final equation</b><br>Substitute \\( f' \\) into the second equation: \\( f'' = f \\left(\\frac{v}{v - v_c}\\right) \\left(\\frac{v + v_c}{v}\\right) = f \\left(\\frac{v + v_c}{v - v_c}\\right) \\).<br><br><b>Step 3: Solve for car velocity</b><br>One octave higher means the final frequency is double the original: \\( f'' = 2f \\).<br>\\( 2f = f \\left(\\frac{v + v_c}{v - v_c}\\right) \\implies 2 = \\frac{v + v_c}{v - v_c} \\).<br>\\( 2v - 2v_c = v + v_c \\implies v = 3v_c \\implies v_c = \\frac{v}{3} \\)."
+        },
+        {
+          id: 52, topic: "Doppler Effect",
+          q: "The wavelength of sodium line observed in the spectrum of a star is found to be 598 nm, whereas that from the sodium lamp in the laboratory is found to be 589 nm. Therefore, the star is moving with a speed of about",
+          options: ["(1) \\( 2.7\\times 10^6 \\, \\text{m/s} \\) away from the earth", "(2) \\( 5.4\\times 10^6 \\, \\text{m/s} \\) towards the earth", "(3) \\( 1.6\\times 10^6 \\, \\text{m/s} \\) away from the earth", "(4) \\( 4.6\\times 10^6 \\, \\text{m/s} \\) away from the earth"],
+          correct: 3, 
+          sol: "<b>Step 1: Calculate the wavelength shift</b><br>The observed wavelength is longer than the actual wavelength (a 'redshift'). This immediately implies the star is moving AWAY from the Earth.<br>Change in wavelength \\( \\Delta \\lambda = \\lambda_{obs} - \\lambda_{act} = 598 - 589 = 9 \\, \\text{nm} \\).<br><br><b>Step 2: Relate shift to speed</b><br>For speeds much less than the speed of light, the Doppler shift for electromagnetic waves is \\( \\frac{\\Delta \\lambda}{\\lambda} = \\frac{v}{c} \\).<br><br><b>Step 3: Calculate the speed</b><br>\\( v = c \\left(\\frac{\\Delta \\lambda}{\\lambda}\\right) = (3 \\times 10^8 \\, \\text{m/s}) \\left(\\frac{9}{589}\\right) \\).<br>\\( v = \\frac{27 \\times 10^8}{589} \\approx 0.0458 \\times 10^8 \\approx 4.6 \\times 10^6 \\, \\text{m/s} \\).<br>Therefore, it is \\( 4.6 \\times 10^6 \\, \\text{m/s} \\) away from the earth."
+        },
+        {
+          id: 53, topic: "Doppler Effect",
+          q: "An observer is moving with half the speed of light towards a stationary microwave source emitting waves at frequency 10 GHz. What is the frequency of the microwave measured by the observer? (speed of light = \\( 3\\times 10^8 \\, \\text{ms}^{-1} \\))",
+          options: ["(1) 17.3 GHz", "(2) 15.3 GHz", "(3) 10.1 GHz", "(4) 12.1 GHz"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify Relativistic Doppler Effect</b><br>For electromagnetic waves, since the relative velocity is a significant fraction of the speed of light (\\( v = 0.5c \\)), we must use the relativistic Doppler effect formula.<br>When approaching, the observed frequency is \\( f' = f \\sqrt{\\frac{1 + v/c}{1 - v/c}} \\).<br><br><b>Step 2: Substitute values</b><br>Given \\( f = 10 \\, \\text{GHz} \\) and \\( v/c = 0.5 \\).<br>\\( f' = 10 \\sqrt{\\frac{1 + 0.5}{1 - 0.5}} = 10 \\sqrt{\\frac{1.5}{0.5}} = 10 \\sqrt{3} \\).<br><br><b>Step 3: Calculate final frequency</b><br>Using the approximation \\( \\sqrt{3} \\approx 1.732 \\):<br>\\( f' = 10 \\times 1.732 = 17.32 \\, \\text{GHz} \\). This rounds to 17.3 GHz."
+        }
+      ]
+    },
 // ==========================================
     // CHAPTER: ELECTROSTATICS
     // ==========================================
@@ -9301,6 +9683,7 @@
       ]
     }
   };
+
 
 
 
