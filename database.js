@@ -3200,7 +3200,7 @@
           q: "Three parallel forces are acting on a rod at distances of 40 cm (F up), 60 cm (2F down) and 80 cm (F up) respectively from one end of the rod. Assuming no other forces, the rod will:",
           options: ["(1) be at rest", "(2) exhibit rotational motion only", "(3) exhibit translational motion", "(4) exhibit combined rotational and translational motion"],
           correct: 0, 
-          sol: "<b>Step 1: Net Force</b><br>\\( F_{net} = F - 2F + F = 0 \\). There is no translational acceleration.<br><br><b>Step 2: Net Torque about the 0 cm end</b><br>\\( \tau = F(40) - 2F(60) + F(80) = 40F - 120F + 80F = 0 \\). There is no rotational acceleration.<br><br><b>Step 3: Conclusion</b><br>Since both net force and net torque are zero, the rod remains in equilibrium (at rest)."
+          sol: "<b>Step 1: Net Force</b><br>\\( F_{net} = F - 2F + F = 0 \\). There is no translational acceleration.<br><br><b>Step 2: Net Torque about the 0 cm end</b><br>\\( \\tau = F(40) - 2F(60) + F(80) = 40F - 120F + 80F = 0 \\). There is no rotational acceleration.<br><br><b>Step 3: Conclusion</b><br>Since both net force and net torque are zero, the rod remains in equilibrium (at rest)."
         },
         {
           id: 39, topic: "Angular Momentum",
@@ -3214,14 +3214,14 @@
           q: "Two solid uniform disks of equal mass are mounted to rotate about fixed central axes. Radii are r1 < r2. A force F is applied to each disk at its edge for the same amount of time t. Which statement is true about kinetic energy (K) and angular momentum (L)?",
           options: ["(1) L1 = L2 and K1 < K2", "(2) L1 < L2 and K1 = K2", "(3) L1 < L2 and K1 > K2", "(4) L1 < L2 and K1 < K2"],
           correct: 1, 
-          sol: "<b>Step 1: Angular Momentum</b><br>\\( L = \tau t = (Fr)t \\). Since \\( r_2 > r_1 \\), it follows that \\( L_2 > L_1 \\).<br><br><b>Step 2: Kinetic Energy</b><br>\\( K = \int P dt = \int (\tau \omega) dt = \int (Fr \cdot \frac{Fr}{I}t) dt = \frac{(Fr)^2 t^2}{2I} \\).<br>Substitute \\( I = \frac{1}{2}mr^2 \\): \\( K = \frac{F^2 r^2 t^2}{m r^2} = \frac{F^2 t^2}{m} \\).<br>Since F, t, and m are identical, \\( K_1 = K_2 \\). Conclusion: \\( L_1 < L_2 \\) and \\( K_1 = K_2 \\)."
+          sol: "<b>Step 1: Angular Momentum</b><br>\\( L = \\tau t = (Fr)t \\). Since \\( r_2 > r_1 \\), it follows that \\( L_2 > L_1 \\).<br><br><b>Step 2: Kinetic Energy</b><br>\\( K = \\int P dt = \\int (\\tau \\omega) dt = \\int (Fr \\cdot \\frac{Fr}{I}t) dt = \\frac{(Fr)^2 t^2}{2I} \\).<br>Substitute \\( I = \\frac{1}{2}mr^2 \\): \\( K = \\frac{F^2 r^2 t^2}{m r^2} = \\frac{F^2 t^2}{m} \\).<br>Since F, t, and m are identical, \\( K_1 = K_2 \\). Conclusion: \\( L_1 < L_2 \\) and \\( K_1 = K_2 \\)."
         },
         {
           id: 41, topic: "Angular Momentum",
           q: "A particle of mass m is describing a circular path of radius r with uniform speed. If L is the angular momentum of the particle, then its kinetic energy is:",
           options: ["(1) \\( mrL \\)", "(2) \\( mr^2 L \\)", "(3) \\( \\frac{L^2}{2mr^2} \\)", "(4) \\( \\frac{L^2 r^2}{m} \\)"],
           correct: 2, 
-          sol: "<b>Step 1: Relationship formulas</b><br>\\( L = mvr \\implies v = \\frac{L}{mr} \\).<br>Kinetic Energy \\( K = \\frac{1}{2}mv^2 \\).<br><br><b>Step 2: Substitution</b><br>\\( K = \\frac{1}{2}m \left(\\frac{L}{mr}\right)^2 = \\frac{1}{2}m \frac{L^2}{m^2 r^2} = \\frac{L^2}{2mr^2} \\)."
+          sol: "<b>Step 1: Relationship formulas</b><br>\\( L = mvr \\implies v = \\frac{L}{mr} \\).<br>Kinetic Energy \\( K = \\frac{1}{2}mv^2 \\).<br><br><b>Step 2: Substitution</b><br>\\( K = \\frac{1}{2}m \\left(\\frac{L}{mr}\\right)^2 = \\frac{1}{2}m \\frac{L^2}{m^2 r^2} = \\frac{L^2}{2mr^2} \\)."
         },
         {
           id: 42, topic: "Angular Momentum",
@@ -3235,21 +3235,21 @@
           q: "A child stands at the centre of a platform rotating about its central axis with kinetic energy K. The child now stretches his arm so that the moment of inertia of the system doubles. The kinetic energy of the system now is:",
           options: ["(1) 2 K", "(2) K/4", "(3) 4 K", "(4) K/2"],
           correct: 3, 
-          sol: "<b>Step 1: Conservation of Angular Momentum</b><br>In an isolated system, \\( L \\) is constant. Kinetic energy can be expressed as \\( K = \\frac{L^2}{2I} \\).<br><br><b>Step 2: Effect of doubling MOI</b><br>If the new moment of inertia \\( I' = 2I \\), then the new kinetic energy is \\( K' = \\frac{L^2}{2(2I)} = \\frac{1}{2} \left(\\frac{L^2}{2I}\right) = \\frac{K}{2} \\)."
+          sol: "<b>Step 1: Conservation of Angular Momentum</b><br>In an isolated system, \\( L \\) is constant. Kinetic energy can be expressed as \\( K = \\frac{L^2}{2I} \\).<br><br><b>Step 2: Effect of doubling MOI</b><br>If the new moment of inertia \\( I' = 2I \\), then the new kinetic energy is \\( K' = \\frac{L^2}{2(2I)} = \\frac{1}{2} \\left(\\frac{L^2}{2I}\\right) = \\frac{K}{2} \\)."
         },
         {
           id: 44, topic: "Angular Momentum",
           q: "A circular platform (I=200 kgm², r=2m) is initially at rest. A 70 kg man on the edge begins to walk at speed \\( v_0 = 1.0 \\, \\text{m/s} \\) relative to ground. The angular velocity of the platform is:",
           options: ["(1) 1.2 rad/s", "(2) 0.4 rad/s", "(3) 2.0 rad/s", "(4) 0.7 rad/s"],
           correct: 3, 
-          sol: "<b>Step 1: Setup Conservation of Angular Momentum</b><br>Initial \\( L = 0 \\). Final \\( L_{total} = L_{man} + L_{platform} = 0 \\).<br><br><b>Step 2: Calculate man's angular momentum</b><br>\\( L_m = m v r = 70 \\times 1.0 \\times 2 = 140 \\, \\text{kg m}^2/\\text{s} \\).<br><br><b>Step 3: Solve for platform angular velocity</b><br>\\( |L_p| = I \omega = 200 \omega \\).<br>\\( 200 \omega = 140 \\implies \omega = 140 / 200 = 0.7 \\, \\text{rad/s} \\)."
+          sol: "<b>Step 1: Setup Conservation of Angular Momentum</b><br>Initial \\( L = 0 \\). Final \\( L_{total} = L_{man} + L_{platform} = 0 \\).<br><br><b>Step 2: Calculate man's angular momentum</b><br>\\( L_m = m v r = 70 \\times 1.0 \\times 2 = 140 \\, \\text{kg m}^2/\\text{s} \\).<br><br><b>Step 3: Solve for platform angular velocity</b><br>\\( |L_p| = I \\omega = 200 \\omega \\).<br>\\( 200 \\omega = 140 \\implies \\omega = 140 / 200 = 0.7 \\, \\text{rad/s} \\)."
         },
         {
           id: 45, topic: "Angular Momentum",
-          q: "A spinning ice skater has an initial kinetic energy \\( 1/2 I \omega^2 \\). She pulls in her outstretched arms, decreasing her moment of inertia by 75%. What is her new angular speed ?",
-          options: ["(1) \\( \omega/4 \\)", "(2) \\( \omega/3 \\)", "(3) \\( 4\omega/3 \\)", "(4) \\( 4\omega \\)"],
+          q: "A spinning ice skater has an initial kinetic energy \\( 1/2 I \\omega^2 \\). She pulls in her outstretched arms, decreasing her moment of inertia by 75%. What is her new angular speed ?",
+          options: ["(1) \\( \\omega/4 \\)", "(2) \\( \\omega/3 \\)", "(3) \\( 4\\omega/3 \\)", "(4) \\( 4\\omega \\)"],
           correct: 3, 
-          sol: "<b>Step 1: Determine final MOI</b><br>A decrease of 75% means the final moment of inertia is 25% of the original.<br>\\( I_f = 0.25 I_i = I_i / 4 \\).<br><br><b>Step 2: Conservation of Angular Momentum</b><br>\\( I_i \omega_i = I_f \omega_f \\).<br>\\( I_i \omega = (I_i / 4) \omega_f \\implies \omega_f = 4 \omega \\)."
+          sol: "<b>Step 1: Determine final MOI</b><br>A decrease of 75% means the final moment of inertia is 25% of the original.<br>\\( I_f = 0.25 I_i = I_i / 4 \\).<br><br><b>Step 2: Conservation of Angular Momentum</b><br>\\( I_i \\omega_i = I_f \\omega_f \\).<br>\\( I_i \\omega = (I_i / 4) \\omega_f \\implies \\omega_f = 4 \\omega \\)."
         },
         {
           id: 46, topic: "Angular Momentum",
@@ -3261,122 +3261,128 @@
         },
         {
           id: 47, topic: "Angular Momentum",
-          q: "Four rigid bodies, each with the same mass and radius, are spinning freely with the same angular momentum. Which object requires the maximum work to stop it?",
-          options: ["(1) A solid sphere spinning about a diameter.", "(2) A hollow sphere spinning about a diameter.", "(3) A solid disc spinning about a central axis perpendicular to its plane.", "(4) A hoop spinning about an axis along a diameter."],
-          correct: 0, 
-          sol: "<b>Step 1: Relate Work to Kinetic Energy</b><br>To stop a spinning body, the work done must equal its rotational kinetic energy: \\( W = K = \\frac{L^2}{2I} \\).<br><br><b>Step 2: Compare Moments of Inertia</b><br>Since all bodies have the same L, m, and R, the work is inversely proportional to the moment of inertia (\\( W \\propto 1/I \\)). The object with the SMALLEST moment of inertia will require the MAXIMUM work.<br>1. Solid Sphere: \\( I = 0.4 MR^2 \\).<br>2. Hollow Sphere: \\( I = 0.67 MR^2 \\).<br>3. Solid Disc: \\( I = 0.5 MR^2 \\).<br>4. Hoop (diameter axis): \\( I = 0.5 MR^2 \\).<br><br><b>Step 3: Conclusion</b><br>The solid sphere has the smallest moment of inertia, hence it has the highest kinetic energy for a given angular momentum and requires the most work to stop."
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A mass m moves in a circle on a smooth horizontal plane with velocity \\( v_0 \\) at a radius \\( R_0 \\). The mass is attached to a string which passes through a smooth hole in the plane as shown. The tension in the string is decreased gradually and finally m moves in a circle of radius \\( 2R_0 \\). The final value of the kinetic energy is :-",
+          options: ["(1) \\( \\frac{1}{4}mv_0^2 \\)", "(2) \\( 2mv_0^2 \\)", "(3) \\( \\frac{1}{2}mv_0^2 \\)", "(4) \\( \\frac{1}{8}mv_0^2 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Apply Conservation of Angular Momentum</b><br>Since the tension force acts radially towards the hole, it produces no torque about the hole. Thus, angular momentum \\( L \\) is strictly conserved.<br>\\( L_i = L_f \\implies m v_0 R_0 = m v_f (2R_0) \\).<br>\\( v_f = \\frac{v_0 R_0}{2R_0} = \\frac{v_0}{2} \\).<br><br><b>Step 2: Calculate Final Kinetic Energy</b><br>Final KE \\( K_f = \\frac{1}{2} m v_f^2 = \\frac{1}{2} m \\left(\\frac{v_0}{2}\\right)^2 \\).<br>\\( K_f = \\frac{1}{2} m \\frac{v_0^2}{4} = \\frac{1}{8} m v_0^2 \\)."
         },
         {
           id: 48, topic: "Angular Momentum",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "A uniform smooth rod of mass M and length L is rotating about its central axis with angular speed \\( \\omega \\). There are two beads each of mass m at the centre. During rotation, the beads start to slide to opposite ends of the rod. Find the angular speed when the beads reach the ends.",
-          options: ["(1) \\( \\frac{M\\omega}{M+6m} \\)", "(2) \\( \\frac{M\\omega}{M+2m} \\)", "(3) \\( \\omega \\)", "(4) None of these"],
+          q: "Four rigid bodies, each with the same mass and radius, are spinning freely with the same angular momentum. Which object requires the maximum work to stop it ?",
+          options: ["(1) A solid sphere spinning about a diameter.", "(2) A hollow sphere spinning about a diameter.", "(3) A solid disc spinning about an axis perpendicular to the plane of the disc and passing through the centre.", "(4) A hoop spinning about an axis along a diameter."],
           correct: 0, 
-          sol: "<b>Step 1: Initial Moment of Inertia</b><br>Initial system MOI includes the rod and the beads at the center (r=0).<br>\\( I_i = I_{rod} + 2m(0)^2 = \\frac{ML^2}{12} \\).<br><br><b>Step 2: Final Moment of Inertia</b><br>Final system MOI includes the rod and the beads at the ends (r=L/2).<br>\\( I_f = \\frac{ML^2}{12} + 2m\\left(\\frac{L}{2}\\right)^2 = \\frac{ML^2}{12} + \\frac{2mL^2}{4} = \\frac{ML^2}{12} + \\frac{mL^2}{2} \\).<br>Factor out \\( L^2/12 \\): \\( I_f = \\frac{L^2}{12} (M + 6m) \\).<br><br><b>Step 3: Conservation of Angular Momentum</b><br>\\( I_i \\omega_i = I_f \\omega_f \\implies \\left(\\frac{ML^2}{12}\\right) \\omega = \\left(\\frac{L^2(M+6m)}{12}\\right) \\omega_f \\).<br>\\( \\omega_f = \\frac{M\\omega}{M+6m} \\)."
+          sol: "<b>Step 1: Relate Work to Kinetic Energy</b><br>To stop a spinning body, the work done must equal its rotational kinetic energy: \\( W = K = \\frac{L^2}{2I} \\).<br><br><b>Step 2: Compare Moments of Inertia</b><br>Since all bodies have the same L, m, and R, the work is inversely proportional to the moment of inertia (\\( W \\propto 1/I \\)). The object with the SMALLEST moment of inertia will inherently require the MAXIMUM work.<br>1. Solid Sphere: \\( I = 0.4 MR^2 \\).<br>2. Hollow Sphere: \\( I = 0.67 MR^2 \\).<br>3. Solid Disc: \\( I = 0.5 MR^2 \\).<br>4. Hoop (diameter axis): \\( I = 0.5 MR^2 \\).<br><br><b>Step 3: Conclusion</b><br>The solid sphere has the smallest moment of inertia, hence it has the highest kinetic energy for a given angular momentum and requires the most work to stop."
         },
         {
-          id: 49, topic: "Rolling Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "A wheel of radius R=0.1 m is rolling without slipping on a horizontal surface. The centre of the wheel moves with a constant speed \\( \\sqrt{3} \\, \\text{m/s} \\). The speed of point P (at 60° from the vertical) with respect to ground is:",
-          options: ["(1) \\( 2\\sqrt{3} \\, \\text{m/s} \\)", "(2) zero", "(3) 3 m/s", "(4) \\( \\sqrt{3} \\, \\text{m/s} \\)"],
-          correct: 2, 
-          sol: "<b>Step 1: Formula for speed in pure rolling</b><br>In pure rolling, the speed of any point on the rim at an angle \\( \\theta \\) with the point of contact is \\( v_p = 2v_{cm} \\sin(\\theta/2) \\).<br><br><b>Step 2: Identify the angle</b><br>Point P is 60° from the top vertical. The point of contact is at the bottom (180° from the top). Thus, the angle \\( \\theta \\) from the point of contact is \\( 180^{\\circ} - 60^{\\circ} = 120^{\\circ} \\).<br><br><b>Step 3: Calculate</b><br>\\( v_p = 2 \\times \\sqrt{3} \\times \\sin(120^{\\circ}/2) = 2\\sqrt{3} \\sin(60^{\\circ}) \\).<br>\\( v_p = 2\\sqrt{3} \\times \\frac{\\sqrt{3}}{2} = 3 \\, \\text{m/s} \\)."
+          id: 49, topic: "Angular Momentum",
+          q: "A uniform smooth rod of mass M and length L rotating about own axis with angular speed \\( \\omega \\). There are two beads each of mass m \\( (m<<M) \\) at the centre and its opposite sides to rotational axis. During rotation of rod beads starts to slide on opposite ends of rod. Then angular speed of system when beads reached up to ends of rod.",
+          options: ["(1) \\( \\frac{M\\omega}{M+6m} \\)", "(2) \\( \\frac{M\\omega}{M+2m} \\)", "(3) \\( \\omega \\)", "(4) None of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Initial Moment of Inertia</b><br>Initial system MOI includes the rod and the beads at the center (r=0).<br>\\( I_i = I_{rod} + 2m(0)^2 = \\frac{ML^2}{12} \\).<br><br><b>Step 2: Final Moment of Inertia</b><br>Final system MOI includes the rod and the beads at the extreme ends (r=L/2).<br>\\( I_f = \\frac{ML^2}{12} + 2m\\left(\\frac{L}{2}\\right)^2 = \\frac{ML^2}{12} + \\frac{2mL^2}{4} = \\frac{ML^2}{12} + \\frac{mL^2}{2} \\).<br>Factor out \\( L^2/12 \\): \\( I_f = \\frac{L^2}{12} (M + 6m) \\).<br><br><b>Step 3: Conservation of Angular Momentum</b><br>\\( I_i \\omega_i = I_f \\omega_f \\implies \\left(\\frac{ML^2}{12}\\right) \\omega = \\left(\\frac{L^2(M+6m)}{12}\\right) \\omega_f \\).<br>\\( \\omega_f = \\frac{M\\omega}{M+6m} \\)."
         },
         {
           id: 50, topic: "Rolling Motion",
           imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "A solid sphere of mass m is placed on a rough inclined plane. The coefficient of friction is not sufficient for pure rolling. The centre of the sphere slides a length l on the incline from rest and its kinetic energy becomes K. Then the work done by friction will be:",
-          options: ["(1) \\( \\mu mgl \\cos\\theta \\)", "(2) \\( mgl \\sin\\theta - K \\)", "(3) \\( -\\frac{2}{5} \\mu mgl \\sin\\theta + K \\)", "(4) \\( -\\frac{2}{5} mgl \\sin\\theta \\)"],
-          correct: 1, 
-          sol: "<b>Step 1: Use Work-Energy Theorem</b><br>The total work done by all forces equals the change in kinetic energy: \\( W_{gravity} + W_{friction} = \Delta K \\).<br><br><b>Step 2: Calculate work by gravity</b><br>Gravity does work as the sphere moves down height \\( h = l \\sin\\theta \\).<br>\\( W_g = mgl \\sin\\theta \\).<br><br><b>Step 3: Solve for friction work</b><br>\\( mgl \\sin\\theta + W_f = K - 0 \\).<br>\\( W_f = K - mgl \\sin\\theta \\). The magnitude of energy lost is \\( mgl \\sin\\theta - K \\)."
+          q: "A wheel of radius R=0.1 m is rolling without slipping on a horizontal surface as shown in the figure. Centre of the wheel moves with a constant speed \\( \\sqrt{3} \\, \\text{m/s} \\). The speed of the point P with respect to ground is",
+          options: ["(1) \\( 2\\sqrt{3} \\, \\text{m/s} \\)", "(2) zero", "(3) \\( 3 \\, \\text{m/s} \\)", "(4) \\( \\sqrt{3} \\, \\text{m/s} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for speed in pure rolling</b><br>In pure rolling, the speed of any point on the rim at an angle \\( \\theta \\) from the point of contact with the ground is given by \\( v_p = 2v_{cm} \\sin(\\theta/2) \\).<br><br><b>Step 2: Identify the angle</b><br>Point P is given as 60° from the top vertical. The point of contact is at the exact bottom (180° from the top). Thus, the angle \\( \\theta \\) from the point of contact is \\( 180^{\\circ} - 60^{\\circ} = 120^{\\circ} \\).<br><br><b>Step 3: Calculate</b><br>\\( v_p = 2 \\times \\sqrt{3} \\times \\sin(120^{\\circ}/2) = 2\\sqrt{3} \\sin(60^{\\circ}) \\).<br>\\( v_p = 2\\sqrt{3} \\times \\frac{\\sqrt{3}}{2} = 3 \\, \\text{m/s} \\)."
         },
         {
           id: 51, topic: "Rolling Motion",
-          q: "A solid sphere is under pure rolling on a rough fixed incline plane of angle \\( \\theta \\). Choose the correct option if only contact forces and gravity are acting:",
-          options: ["(1) Friction will be down the incline if rolling up.", "(2) Friction will be down the incline whether rolling up or down.", "(3) Friction and acceleration increase with incline angle.", "(4) Velocity and acceleration of the point of contact will be zero."],
-          correct: 3, 
-          sol: "<b>Concept of Pure Rolling</b><br>By the fundamental definition of 'rolling without slipping', the point of the object currently in contact with the surface must have zero instantaneous velocity relative to that surface. In the case of a fixed incline, both the instantaneous velocity and the instantaneous acceleration of the contact point are exactly Zero."
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A solid sphere of mass m is placed on a rough inclined plane as shown in figure. The coefficient of friction \\( \\mu \\) is not sufficient for pure rolling. The centre of sphere slides a length l on the incline from rest and its kinetic energy becomes K. Then work done by friction will be :-",
+          options: ["(1) \\( \\mu mgl \\cos\\theta \\)", "(2) \\( K - mgl \\sin\\theta \\)", "(3) \\( -\\frac{2}{5} \\mu mgl \\sin\\theta + K \\)", "(4) \\( -\\frac{2}{5} mgl \\sin\\theta \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Use Work-Energy Theorem</b><br>The Work-Energy Theorem states that the total work done by all forces equals the change in kinetic energy: \\( W_{gravity} + W_{friction} = \\Delta K \\).<br><br><b>Step 2: Calculate work by gravity</b><br>Gravity does positive work as the sphere moves down a vertical height \\( h = l \\sin\\theta \\).<br>\\( W_{gravity} = mgl \\sin\\theta \\).<br><br><b>Step 3: Solve for friction work</b><br>\\( mgl \\sin\\theta + W_{friction} = K - 0 \\).<br>\\( W_{friction} = K - mgl \\sin\\theta \\)."
         },
         {
           id: 52, topic: "Rolling Motion",
-          q: "A solid cylinder is rolling down an inclined plane without slipping. Which of the following is correct?",
-          options: ["(1) The friction force is dissipative.", "(2) The friction force is kinetic.", "(3) Friction aids rotation but hinders translation.", "(4) Friction increases if theta is reduced."],
+          q: "A solid sphere is under pure rolling on a rough fixed incline plane of angle \\( \\theta \\). Choose the correct options if only contact forces and gravity are acting:",
+          options: ["(1) Frictional force will be down the incline if sphere rolls up the incline and it will be up the incline if sphere rolls down the incline.", "(2) Frictional force will be down the incline whether spheres rolls up the incline or down the incline", "(3) Frictional force and acceleration of the body will increase with the increase in angle of incline plane", "(4) Velocity and acceleration of the point of contact of sphere with incline will be zero during the motion."],
           correct: 2, 
-          sol: "<b>Analysis of Pure Rolling Forces</b><br>In pure rolling, static friction acts at the contact point. Since the point of contact doesn't move relative to the surface, the force of friction does no work (non-dissipative). It provides the torque needed for rotation (aiding rotation) while acting opposite to the direction of motion (hindering translation)."
+          sol: "<b>Step 1: Analyze Friction</b><br>For a solid sphere in pure rolling on an incline, the required static friction acts upwards to provide the necessary torque to balance gravity's translational pull. Its magnitude is \\( f = \\frac{2}{7} mg \\sin\\theta \\).<br><br><b>Step 2: Analyze Acceleration</b><br>The downward linear acceleration is \\( a = \\frac{5}{7} g \\sin\\theta \\).<br><br><b>Step 3: Evaluate Options</b><br>Since both \\( f \\) and \\( a \\) are directly proportional to \\( \\sin\\theta \\), they will both increase as the incline angle \\( \\theta \\) increases. Option (3) is correct.<br>(Note: Option 4 is false because while the velocity of the contact point is zero, its *acceleration* has a non-zero normal centripetal component pointing towards the center of the sphere)."
         },
         {
           id: 53, topic: "Rolling Motion",
-          q: "A solid sphere is released from rest on an incline having friction coefficient \\( \\mu = 1/7 \\tan\\theta \\). The motion will be:",
-          options: ["(1) Pure rolling.", "(2) Pure translation.", "(3) Rolling with slipping.", "(4) Constant angular momentum."],
-          correct: 1, 
-          sol: "<b>Step 1: Condition for Pure Rolling</b><br>For a solid sphere on an incline to roll without slipping, the required friction coefficient is \\( \\mu \\ge \\frac{2}{7} \\tan\\theta \\).<br><br><b>Step 2: Compare with given value</b><br>We are given \\( \\mu = 1/7 \\tan\\theta \\).<br>Since \\( 1/7 < 2/7 \\), the available friction is insufficient to provide the necessary torque for pure rolling. Therefore, the sphere will start rolling but will also slip simultaneously."
+          q: "A solid cylinder is rolling down the inclined plane without slipping. Which of the following is correct ?",
+          options: ["(1) The friction force is dissipative", "(2) The friction force is kinetic", "(3) The friction force will aid rotation but hinder translation", "(4) The friction force is increased if \\( \\theta \\) is reduced"],
+          correct: 2, 
+          sol: "<b>Analysis of Pure Rolling Forces</b><br>In pure rolling, static friction acts at the contact point. Because the instantaneous point of contact doesn't move relative to the surface, the force of friction does no work (it is non-dissipative).<br>Its physical role is to provide the upward torque needed to spin the cylinder (aiding rotation) while simultaneously acting opposite to the direction of downward motion (hindering linear translation)."
         },
         {
           id: 54, topic: "Rolling Motion",
-          q: "A body is rolling down an inclined plane. If its rotational kinetic energy is 40% of its total kinetic energy, then the body is a:",
-          options: ["(1) Solid sphere", "(2) Cylinder", "(3) Ring", "(4) Hollow ball"],
-          correct: 3, 
-          sol: "<b>Step 1: Setup energy ratio</b><br>\\( K_{rot} = 0.4 K_{total} \\implies \\frac{1/2 I \\omega^2}{1/2 M v^2 + 1/2 I \\omega^2} = 0.4 \\).<br>Substitute \\( I = \beta MR^2 \\) and \\( v = \omega R \\):<br>\\( \\frac{\beta}{1 + \beta} = 0.4 = \\frac{2}{5} \\).<br><br><b>Step 2: Solve for shape factor beta</b><br>\\( 5\beta = 2 + 2\beta \\implies 3\beta = 2 \\implies \beta = 2/3 \\).<br><br><b>Step 3: Identify the body</b><br>A body with \\( I = \\frac{2}{3}MR^2 \\) is a hollow sphere (hollow ball)."
+          q: "A solid sphere is released from rest on the incline having friction coefficient \\( \\frac{1}{7}\\tan\\theta \\) :",
+          options: ["(1) it will start pure rolling", "(2) it will make pure translation motion", "(3) it will start rolling with slipping", "(4) the angular momentum of the sphere about its centre will remain constant"],
+          correct: 2, 
+          sol: "<b>Step 1: Condition for Pure Rolling</b><br>For a uniform solid sphere on an incline to roll without slipping, the absolute minimum required friction coefficient is \\( \\mu_{min} = \\frac{\\tan\\theta}{1 + MR^2/I} = \\frac{\\tan\\theta}{1 + 5/2} = \\frac{2}{7}\\tan\\theta \\).<br><br><b>Step 2: Compare with given value</b><br>We are given \\( \\mu = \\frac{1}{7}\\tan\\theta \\).<br>Since \\( \\frac{1}{7} < \\frac{2}{7} \\), the available friction is strictly insufficient to provide the necessary torque for pure rolling. Therefore, the sphere will rotate, but it will also slip simultaneously."
         },
         {
           id: 55, topic: "Rolling Motion",
-          q: "Three identical solid spheres move down inclines A (no friction), B (sufficient friction for pure rolling), and C (friction causes rolling with slipping). Rank their kinetic energies at the bottom.",
-          options: ["(1) EA = EB = EC", "(2) EA = EB > EC", "(3) EA > EB > EC", "(4) EA > EB = EC"],
-          correct: 2, 
-          sol: "<b>Analysis of Energy Dissipation</b><br>- In case A (frictionless) and B (pure rolling), no mechanical energy is lost to heat. All potential energy is converted to kinetic energy. Thus, \\( E_A = E_B \\).<br>- In case C (slipping), work is done by kinetic friction, which dissipates energy as heat. Therefore, total kinetic energy at the bottom is reduced: \\( E_C < E_B \\).<br>Result: \\( E_A = E_B > E_C \\)."
+          q: "A body is rolling down an inclined plane. If kinetic energy of rotation is 40% of total kinetic energy in same state, then the body is :-",
+          options: ["(1) Solid sphere", "(2) Cylinder", "(3) Ring", "(4) Hollow ball"],
+          correct: 3, 
+          sol: "<b>Step 1: Setup energy ratio</b><br>\\( K_{rot} = 0.4 K_{total} \\implies \\frac{\\frac{1}{2} I \\omega^2}{\\frac{1}{2} M v^2 + \\frac{1}{2} I \\omega^2} = 0.4 \\).<br>Substitute the general shape factor \\( I = \\beta MR^2 \\) and rolling condition \\( v = \\omega R \\):<br>\\( \\frac{\\beta}{1 + \\beta} = 0.4 = \\frac{2}{5} \\).<br><br><b>Step 2: Solve for shape factor beta</b><br>\\( 5\\beta = 2 + 2\\beta \\implies 3\\beta = 2 \\implies \\beta = 2/3 \\).<br><br><b>Step 3: Identify the body</b><br>A rigid body with a moment of inertia of \\( I = \\frac{2}{3}MR^2 \\) is a hollow sphere (hollow ball)."
         },
         {
           id: 56, topic: "Rolling Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "A sphere of radius 3 m rolls on a plank. The acceleration of the sphere is 3 m/s² and the plank is 6 m/s² as indicated. Find the angular acceleration \\( \\alpha \\).",
-          options: ["(1) 3 rad/s²", "(2) 6 rad/s²", "(3) 3 rad/s² (opposite direction)", "(4) 1 rad/s²"],
-          correct: 0, 
-          sol: "<b>Step 1: Constraint of Rolling</b><br>For rolling without slipping on a moving surface: \\( a_{cm} = a_{plank} \pm \alpha R \\).<br>According to the diagram, the sphere's CM (3) and Plank (6) move in the same direction, and the rotation \\( \\alpha \\) opposes the plank's direction at the contact point.<br>\\( a_{contact} = a_{cm} + \alpha R = a_{plank} \\).<br><br><b>Step 2: Calculate</b><br>\\( 3 + \alpha(3) = 6 \\).<br>\\( 3\alpha = 3 \\implies \alpha = 1 \\, \\text{rad/s}^2 \\).<br>Wait, check directions again: \\( 6 - 3 = 3 \\alpha \implies \alpha = 1 \\). Note: key says 1."
+          q: "Three identical solid spheres move down three inclines A, B and C-all of the same dimensions. A is without friction, the friction between B and a sphere is sufficient to cause rolling without slipping, the friction between C and a sphere causes rolling with slipping. The kinetic energies of A, B, C at the bottom of the inclines are \\( E_A, E_B, E_C \\)",
+          options: ["(1) \\( E_A=E_B=E_C \\)", "(2) \\( E_A=E_B>E_C \\)", "(3) \\( E_A>E_B>E_C \\)", "(4) \\( E_A>E_B=E_C \\)"],
+          correct: 1, 
+          sol: "<b>Analysis of Energy Dissipation</b><br>- In case A (frictionless), no mechanical energy is lost to heat. All potential energy is converted to translational kinetic energy. Thus, \\( E_A = mgh \\).<br>- In case B (pure rolling), static friction acts but does zero work since the contact point is stationary. Total mechanical energy is perfectly conserved. Thus, \\( E_B = mgh \\).<br>- In case C (slipping), kinetic friction acts and does negative work, dissipating energy as heat. Total kinetic energy at the bottom is reduced: \\( E_C < mgh \\).<br>Result: \\( E_A = E_B > E_C \\)."
         },
         {
           id: 57, topic: "Rolling Motion",
           imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "A disc of radius R is confined to roll without slipping at A and B. If the plates have velocities v and 2v as shown, find the angular velocity of the disc.",
-          options: ["(1) 3v/2R (Anticlockwise)", "(2) 3v/2R (Clockwise)", "(3) v/2R (Anticlockwise)", "(4) v/2R (Clockwise)"],
-          correct: 0, 
-          sol: "<b>Step 1: Relative velocity equation</b><br>Let clockwise be positive. \\( v_A = v_{cm} + \omega R = -2v \\) and \\( v_B = v_{cm} - \omega R = v \\).<br><br><b>Step 2: Solve for angular velocity</b><br>Subtracting the equations: \\( (v_{cm} + \omega R) - (v_{cm} - \omega R) = -2v - v \\).<br>\\( 2\omega R = -3v \\implies \omega = -\\frac{3v}{2R} \\).<br>The negative sign indicates Anticlockwise rotation."
+          q: "In the following figure, a sphere of radius 3 m rolls on a plank. The accelerations of the sphere and the plank are indicated. The value of \\( \\alpha \\) is (Given \\( a_1=3 \\, \\text{m/s}^2 \\) for sphere CM, and \\( a_2=6 \\, \\text{m/s}^2 \\) for plank, both to the right)",
+          options: ["(1) \\( 3 \\, \\text{rad/s}^2 \\)", "(2) \\( 6 \\, \\text{rad/s}^2 \\)", "(3) \\( 3 \\, \\text{rad/s}^2 \\) (opposite to the direction shown in figure)", "(4) \\( 1 \\, \\text{rad/s}^2 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Constraint of Rolling</b><br>For pure rolling without slipping on a moving surface, the acceleration of the sphere's contact point must equal the acceleration of the plank.<br>Let's assume the angular acceleration \\( \\alpha \\) is anti-clockwise. The acceleration of the bottom contact point is the vector sum of CM acceleration and tangential acceleration: \\( a_{contact} = a_1 + \\alpha R \\).<br><br><b>Step 2: Calculate</b><br>Equating to the plank: \\( a_1 + \\alpha R = a_2 \\).<br>\\( 3 + \\alpha(3) = 6 \\).<br>\\( 3\\alpha = 3 \\implies \\alpha = 1 \\, \\text{rad/s}^2 \\) (Anti-clockwise)."
         },
         {
           id: 58, topic: "Rolling Motion",
-          q: "Anti-lock brakes (ABS) prevent wheels from locking during emergency braking. What is the main advantage?",
-          options: ["(1) Saves tyres.", "(2) More control but stopping distance increases.", "(3) Shorter distance because rolling friction > static friction.", "(4) Shorter distance because static friction > kinetic friction."],
-          correct: 3, 
-          sol: "<b>Physics of Braking</b><br>When wheels lock, they slide, and the braking force is provided by kinetic friction. When wheels continue to roll (ABS), they maintain grip, and the braking force is provided by static friction. Since the coefficient of static friction is almost always greater than the coefficient of kinetic friction, ABS provides a larger deceleration force and thus a shorter stopping distance."
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A disc of the radius R is confined to roll without slipping at A and B. If the plates have the velocities v and 2v as shown, the angular velocity of the disc is (Top plate A moves left with 2v, bottom plate B moves right with v)",
+          options: ["(1) \\( \\frac{3v}{2R} \\) Anticlockwise", "(2) \\( \\frac{3v}{2R} \\) Clockwise", "(3) \\( \\frac{v}{2R} \\) Anticlockwise", "(4) \\( \\frac{v}{2R} \\) Clockwise"],
+          correct: 0, 
+          sol: "<b>Step 1: Relative velocity equation</b><br>Let the right direction be positive, and let's assume a clockwise angular velocity \\( \\omega \\).<br>Velocity of top contact point A: \\( v_A = v_{cm} + \\omega R = -2v \\).<br>Velocity of bottom contact point B: \\( v_B = v_{cm} - \\omega R = +v \\).<br><br><b>Step 2: Solve for angular velocity</b><br>Subtracting the bottom equation from the top equation:<br>\\( (v_{cm} + \\omega R) - (v_{cm} - \\omega R) = -2v - v \\).<br>\\( 2\\omega R = -3v \\implies \\omega = -\\frac{3v}{2R} \\).<br>The negative sign indicates that the true rotation is opposite to our clockwise assumption, meaning it is Anticlockwise."
         },
         {
           id: 59, topic: "Rolling Motion",
-          q: "A uniform solid disc of radius R and mass m is free to rotate on a frictionless pivot on its rim. It is released from rest when the diameter through the pivot is horizontal. The speed of the CM when it is vertical is:",
-          options: ["(1) \\( (2/3)(gR)^{1/2} \\)", "(2) \\( (gR)^{1/2} \\)", "(3) \\( (2gR)^{1/2} \\)", "(4) \\( 2(gR/3)^{1/2} \\)"],
+          q: "Many cars are now equipped with anti-lock brakes (ABS), which prevents locking of the wheels during emergency braking. What is the main advantage ?",
+          options: ["(1) This saves the tyres. Otherwise too much rubber is left on the road", "(2) Provides more control over the car but stopping distance increases slightly", "(3) This leads to a shorter stopping distance because tyres exert rolling friction which is larger than static friction", "(4) This leads to a shorter stopping distance because tyres exert static friction which is larger than kinetic friction"],
           correct: 3, 
-          sol: "<b>Step 1: Conservation of Energy</b><br>Loss in PE = Gain in Rotational KE.<br>The CM drops by height R. \\( mgR = \frac{1}{2} I_{pivot} \omega^2 \\).<br><br><b>Step 2: Calculate Moment of Inertia</b><br>By parallel axis theorem: \\( I_{pivot} = I_{cm} + mR^2 = 1/2 mR^2 + mR^2 = 3/2 mR^2 \\).<br><br><b>Step 3: Solve for velocity</b><br>\\( mgR = \frac{1}{2} (3/2 mR^2) \omega^2 \\implies \omega^2 = \frac{4g}{3R} \\).<br>Speed of CM: \\( v = \omega R = \sqrt{\frac{4gR^2}{3R}} = 2\sqrt{gR/3} \\)."
+          sol: "<b>Physics of Braking</b><br>When wheels lock, they slide across the asphalt, and the braking force is provided entirely by kinetic friction.<br>When wheels continue to roll (the goal of ABS), the instantaneous point of contact does not slide, meaning they maintain grip and the braking force is provided by static friction.<br>Since the coefficient of static friction is inherently greater than the coefficient of kinetic friction, ABS provides a larger deceleration force and thus a significantly shorter stopping distance."
         },
         {
           id: 60, topic: "Rolling Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "A sphere is set in pure rolling on an incline fixed in a car. For what horizontal car acceleration 'a' will the sphere continue pure rolling?",
-          options: ["(1) g", "(2) \\( g \sin\theta \\)", "(3) \\( g \cot\theta \\)", "(4) \\( g \tan\theta \\)"],
+          q: "A uniform solid disc of radius R and mass m is free to rotate on a frictionless pivot through a point on its rim. The disc is released from rest in the position where the diameter through the pivot is along horizontal. The speed of its centre of mass when the diameter through the pivot is vertical is",
+          options: ["(1) \\( (2/3)(gR)^{1/2} \\)", "(2) \\( (gR)^{1/2} \\)", "(3) \\( (2gR)^{1/2} \\)", "(4) \\( 2(gR/3)^{1/2} \\)"],
           correct: 3, 
-          sol: "<b>Constraint for no translation</b><br>To maintain its position (pure rolling without descending), the pseudo-force component up the incline must balance the gravity component down the incline.<br>\\( ma \cos\theta = mg \sin\theta \\).<br>\\( a = g \frac{\sin\theta}{\cos\theta} = g \tan\theta \\)."
+          sol: "<b>Step 1: Conservation of Energy</b><br>Loss in Potential Energy = Gain in Rotational Kinetic Energy.<br>The Center of Mass drops by a vertical height equal to the radius R. \\( \\Delta PE = mgR \\).<br>\\( mgR = \\frac{1}{2} I_{pivot} \\omega^2 \\).<br><br><b>Step 2: Calculate Moment of Inertia</b><br>By the parallel axis theorem: \\( I_{pivot} = I_{cm} + mR^2 = \\frac{1}{2} mR^2 + mR^2 = \\frac{3}{2} mR^2 \\).<br><br><b>Step 3: Solve for velocity</b><br>\\( mgR = \\frac{1}{2} \\left(\\frac{3}{2} mR^2\\right) \\omega^2 \\implies \\omega^2 = \\frac{4g}{3R} \\).<br>The linear speed of the CM is \\( v = \\omega R = \\sqrt{\\frac{4gR^2}{3R}} = \\sqrt{\\frac{4gR}{3}} = 2\\sqrt{\\frac{gR}{3}} \\)."
         },
         {
           id: 61, topic: "Rolling Motion",
           imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "Hollow sphere A rolls without sliding and collides head-on elastically with solid sphere B of same mass and radius. Find the ratio of kinetic energy of B to A after collision.",
-          options: ["(1) 1:1", "(2) 2:3", "(3) 3:2", "(4) 5:2"],
-          correct: 2, 
-          sol: "<b>Step 1: Analyze Translational Velocities</b><br>In a 1D elastic collision between identical masses, the translational velocities are completely exchanged. Since B was at rest, A stops translationally and B moves with A's initial velocity \\( v_0 \\).<br><br><b>Step 2: Analyze Rotational Energy</b><br>Because the spheres are smooth, no torque is applied during the collision. Thus, A keeps all its initial rotational energy, while B gains only translational energy.<br>Initial KE of A: \\( K_{total} = 1/2 mv_0^2 + 1/2 (2/3 mr^2) (v_0/r)^2 = 1/2 mv_0^2 + 1/3 mv_0^2 = 5/6 mv_0^2 \\).<br>Post-collision A (only rotation): \\( K_A = 1/3 mv_0^2 \\).<br>Post-collision B (only translation): \\( K_B = 1/2 mv_0^2 \\).<br><br><b>Step 3: Ratio</b><br>\\( K_B : K_A = (1/2) : (1/3) = 3 : 2 \\)."
+          q: "Figure shows a smooth inclined plane of inclination \\( \\theta \\) fixed in a car. A sphere is set in pure rolling on the incline. For what value of 'a' (the acceleration of car in horizontal direction) the sphere will continue pure rolling?",
+          options: ["(1) g", "(2) \\( g \\sin\\theta \\)", "(3) \\( g \\cot\\theta \\)", "(4) \\( g \\tan\\theta \\)"],
+          correct: 3, 
+          sol: "<b>Constraint for no translation</b><br>For the sphere to maintain pure rolling on a perfectly smooth incline, it must not translate up or down the plane (since there is no friction to sustain rotation if it translates).<br>The horizontal acceleration of the car creates a pseudo-force \\( ma \\) backwards on the sphere.<br>To maintain its position on the incline, the component of this pseudo-force pushing up the incline must perfectly balance the component of gravity pulling it down the incline.<br>\\( ma \\cos\\theta = mg \\sin\\theta \\implies a = g \\frac{\\sin\\theta}{\\cos\\theta} = g \\tan\\theta \\)."
         },
         {
-          id: 62, topic: "Moment of Inertia",
-          q: "The moment of inertia of a body is I and its coefficient of linear expansion is \\( \alpha \\). If temperature rises by \\( \Delta T \\), the change in moment of inertia is:",
-          options: ["(1) \\( \alpha I \Delta T \\)", "(2) \\( 2 \alpha I \Delta T \\)", "(3) \\( 4 \alpha I \Delta T \\)", "(4) \\( \alpha I \Delta T / 2 \\)"],
+          id: 62, topic: "Rolling Motion",
+          q: "A hollow smooth uniform sphere A of mass 'm' rolls without sliding on a smooth horizontal surface. It collides head on elastically with another stationary smooth solid sphere B of the same mass m and same radius. The ratio of kinetic energy of 'B' to that of 'A' just after the collision is :",
+          options: ["(1) 1:1", "(2) 2:3", "(3) 3:2", "(4) 5:2"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Translational Velocities</b><br>In a 1D perfectly elastic collision between two identical masses, the translational velocities are completely exchanged. Since B was initially at rest, A stops translationally, and B shoots forward with A's initial linear velocity \\( v_0 \\).<br><br><b>Step 2: Analyze Rotational Energy</b><br>Because the spheres are perfectly smooth, no contact torque can be applied during the collision. Thus, A keeps all of its initial rotational energy, while B gains purely translational energy.<br>Post-collision A (only rotating): \\( K_A = \\frac{1}{2} I \\omega^2 = \\frac{1}{2} \\left(\\frac{2}{3} mR^2\\right) \\left(\\frac{v_0}{R}\\right)^2 = \\frac{1}{3} m v_0^2 \\).<br>Post-collision B (only translating): \\( K_B = \\frac{1}{2} m v_0^2 \\).<br><br><b>Step 3: Ratio</b><br>\\( K_B : K_A = \\left(\\frac{1}{2}\\right) : \\left(\\frac{1}{3}\\right) = 3 : 2 \\)."
+        },
+        {
+          id: 63, topic: "Moment of Inertia",
+          q: "The moment of inertia of a body is I and its coefficient of linear expansion is \\( \\alpha \\). If temperature of body rises by a small amount \\( \\Delta T \\), then change in moment of inertia about the same axis is :-",
+          options: ["(1) \\( \\alpha I \\Delta T \\)", "(2) \\( 2 \\alpha I \\Delta T \\)", "(3) \\( 4 \\alpha I \\Delta T \\)", "(4) \\( \\frac{\\alpha I \\Delta T}{2} \\)"],
           correct: 1, 
-          sol: "<b>Step 1: Formula for MOI expansion</b><br>Moment of inertia is proportional to the square of the dimension: \\( I = k m R^2 \\).<br>Differentiating with respect to temperature: \\( dI/dT = 2kmR (dR/dT) \\).<br><br><b>Step 2: Substitute linear expansion</b><br>Since \\( dR = \alpha R dT \\), we have \\( dR/dT = \alpha R \\).<br>\\( dI = 2 (kmR^2) \alpha dT = 2 I \alpha \Delta T \\)."
+          sol: "<b>Step 1: Formula for MOI expansion</b><br>Moment of inertia is proportional to mass and the square of the dimension: \\( I = C M R^2 \\).<br>Differentiating with respect to the radius: \\( dI = 2 C M R \\, dR \\).<br><br><b>Step 2: Substitute linear expansion</b><br>The change in radius due to thermal expansion is \\( dR = R \\alpha \\Delta T \\).<br>Substitute this back into the derivative:<br>\\( dI = 2 C M R (R \\alpha \\Delta T) = 2 (C M R^2) \\alpha \\Delta T = 2 I \\alpha \\Delta T \\)."
         }
       ]
     },
@@ -8817,6 +8823,7 @@
       ]
     }
   };
+
 
 
 
