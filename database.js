@@ -1794,7 +1794,436 @@
         }
       ]
     },
-    
+    // ==========================================
+    // CHAPTER: WORK, ENERGY & POWER
+    // ==========================================
+    "Work, Energy & Power": { 
+      classTarget: "Class 11", 
+      totalQs: 60, 
+      topics: ["Work Done by Forces", "Work-Energy Theorem", "Potential Energy & Conservation", "Power"],
+      questions: [
+        {
+          id: 1, topic: "Work Done by Forces",
+          q: "A force of magnitude of 30 N acting along \\( \\hat{i}+\\hat{j}+\\hat{k} \\), displaces a particle from point (2, 4, 1) to (3, 5, 2). The work done during this displacement is",
+          options: ["(1) 90 J", "(2) 30 J", "(3) \\( 30\\sqrt{3} \\, \\text{J} \\)", "(4) \\( 30/\\sqrt{3} \\, \\text{J} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Find the Force Vector</b><br>The direction of the force is given by the unit vector of \\( \\hat{i}+\\hat{j}+\\hat{k} \\).<br>Unit vector \\( \\hat{n} = \\frac{\\hat{i}+\\hat{j}+\\hat{k}}{\\sqrt{1^2+1^2+1^2}} = \\frac{\\hat{i}+\\hat{j}+\\hat{k}}{\\sqrt{3}} \\).<br>Force vector \\( \\vec{F} = 30 \\times \\hat{n} = \\frac{30}{\\sqrt{3}}(\\hat{i}+\\hat{j}+\\hat{k}) = 10\\sqrt{3}(\\hat{i}+\\hat{j}+\\hat{k}) \\, \\text{N} \\).<br><br><b>Step 2: Find the Displacement Vector</b><br>Displacement \\( \\Delta\\vec{r} = \\vec{r}_f - \\vec{r}_i = (3-2)\\hat{i} + (5-4)\\hat{j} + (2-1)\\hat{k} = \\hat{i}+\\hat{j}+\\hat{k} \\, \\text{m} \\).<br><br><b>Step 3: Calculate Work Done</b><br>Work \\( W = \\vec{F} \\cdot \\Delta\\vec{r} = 10\\sqrt{3}(\\hat{i}+\\hat{j}+\\hat{k}) \\cdot (\\hat{i}+\\hat{j}+\\hat{k}) \\).<br>\\( W = 10\\sqrt{3} (1\\times1 + 1\\times1 + 1\\times1) = 10\\sqrt{3}(3) = 30\\sqrt{3} \\, \\text{J} \\)."
+        },
+        {
+          id: 2, topic: "Work Done by Forces",
+          q: "A ball of mass m is attached to a string whose other end is fixed. The system is free to rotate in vertical plane. When the ball swings, no work is done on the ball by the tension in the string. Which of the following statements is the correct explanation?",
+          options: ["(1) Tension is always perpendicular to the direction of motion of the ball.", "(2) Tension is an internal force for the ball.", "(3) Tension is an external force for the ball.", "(4) Since the ball is swinging about the axis, total displacement is zero."],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Work</b><br>The work done by any force is given by \\( W = \\vec{F} \\cdot d\\vec{r} = F \\, dr \\cos\\theta \\), where \\( \\theta \\) is the angle between the force and the instantaneous displacement.<br><br><b>Step 2: Apply to the swinging ball</b><br>As the ball swings in a circular arc, its instantaneous displacement (and velocity) is always tangential to the circular path.<br>The tension force from the string always acts radially inward towards the pivot point (the center of the circle).<br>Therefore, the angle between the tension and the displacement is always exactly \\( 90^{\\circ} \\). Since \\( \\cos(90^{\\circ}) = 0 \\), the work done by tension is always zero."
+        },
+        {
+          id: 3, topic: "Work-Energy Theorem",
+          q: "Velocity time graph of a particle is shown in the diagram. Choose the INCORRECT option. ",
+          options: ["(1) Work done by net force for part AB is positive.", "(2) Work done by net force for part BC is zero.", "(3) Work done by net force for part DE is negative.", "(4) Work done by net force for part CD is negative."],
+          correct: 2, 
+          sol: "<b>Step 1: Work-Energy Theorem</b><br>The work done by the net force is strictly equal to the change in Kinetic Energy: \\( W = \\Delta K = \\frac{1}{2}m(v_f^2 - v_i^2) \\). Thus, work is positive when speed increases, zero when speed is constant, and negative when speed decreases.<br><br><b>Step 2: Analyze each segment</b><br>- AB: Velocity increases from 0 to a positive value. Speed increases. \\( W > 0 \\) (Option 1 is true).<br>- BC: Velocity is constant. Speed is constant. \\( W = 0 \\) (Option 2 is true).<br>- CD: Velocity drops from positive to zero. Speed decreases. \\( W < 0 \\) (Option 4 is true).<br>- DE: Velocity goes from zero to a negative value. The magnitude of velocity (speed) is INCREASING. Since speed is increasing, \\( \\Delta K > 0 \\), so the net work done must be POSITIVE. Option 3 claims it is negative, which makes it the INCORRECT statement."
+        },
+        {
+          id: 4, topic: "Work Done by Forces",
+          q: "A force given by the relation \\( F=8t \\), acts on a body of mass 2 kg, initially at rest. Find the work done by this force on the body during first 2 seconds of its motion.",
+          options: ["(1) 64 J", "(2) zero", "(3) -64 J", "(4) none of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Find Velocity as a function of time</b><br>From Newton's second law, acceleration \\( a = \\frac{F}{m} = \\frac{8t}{2} = 4t \\).<br>Velocity \\( v = \\int a \\, dt = \\int 4t \\, dt = 2t^2 \\) (since it starts from rest, \\( C=0 \\)).<br><br><b>Step 2: Find final velocity</b><br>At \\( t = 2 \\, \\text{s} \\), velocity \\( v = 2(2)^2 = 8 \\, \\text{m/s} \\).<br><br><b>Step 3: Use Work-Energy Theorem</b><br>Work done by the net force equals the change in kinetic energy.<br>\\( W = \\Delta K = \\frac{1}{2}mv_f^2 - 0 = \\frac{1}{2}(2)(8)^2 = 64 \\, \\text{J} \\)."
+        },
+        {
+          id: 5, topic: "Work Done by Forces",
+          q: "Forces acting on a particle have magnitudes of 14N, 7N and 7N and act in the direction of vectors \\( 6\\hat{i}+2\\hat{j}+3\\hat{k} \\), \\( 3\\hat{i}-2\\hat{j}+6\\hat{k} \\), and \\( 2\\hat{i}+3\\hat{j}-6\\hat{k} \\) respectively. The forces remain constant while the particle is displaced from point A: (2, -1, -3) to B: (5, 1, 1). Find the work done. The coordinates are specified in meters.",
+          options: ["(1) 75 J", "(2) 55 J", "(3) 85 J", "(4) 65 J"],
+          correct: 2, 
+          sol: "<b>Step 1: Express forces as proper vectors</b><br>Each direction vector has a magnitude of \\( \\sqrt{a^2+b^2+c^2} = \\sqrt{36+4+9} = 7 \\).<br>\\( \\vec{F}_1 = 14 \\times \\frac{6\\hat{i}+2\\hat{j}+3\\hat{k}}{7} = 12\\hat{i} + 4\\hat{j} + 6\\hat{k} \\).<br>\\( \\vec{F}_2 = 7 \\times \\frac{3\\hat{i}-2\\hat{j}+6\\hat{k}}{7} = 3\\hat{i} - 2\\hat{j} + 6\\hat{k} \\).<br>\\( \\vec{F}_3 = 7 \\times \\frac{2\\hat{i}+3\\hat{j}-6\\hat{k}}{7} = 2\\hat{i} + 3\\hat{j} - 6\\hat{k} \\).<br>Net Force \\( \\vec{F}_{net} = \\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3 = (12+3+2)\\hat{i} + (4-2+3)\\hat{j} + (6+6-6)\\hat{k} = 17\\hat{i} + 5\\hat{j} + 6\\hat{k} \\, \\text{N} \\).<br><br><b>Step 2: Find the displacement vector</b><br>\\( \\Delta\\vec{r} = \\vec{r}_B - \\vec{r}_A = (5-2)\\hat{i} + (1-(-1))\\hat{j} + (1-(-3))\\hat{k} = 3\\hat{i} + 2\\hat{j} + 4\\hat{k} \\, \\text{m} \\).<br><br><b>Step 3: Calculate Work Done</b><br>\\( W = \\vec{F}_{net} \\cdot \\Delta\\vec{r} = (17)(3) + (5)(2) + (6)(4) = 51 + 10 + 24 = 85 \\, \\text{J} \\)."
+        },
+        {
+          id: 6, topic: "Work-Energy Theorem",
+          q: "Position-time graph of a particle of mass 2 kg is shown in figure. Total work done on the particle from t=0 to t=4s is ",
+          options: ["(1) 8 J", "(2) 4 J", "(3) 0 J", "(4) can't be determined"],
+          correct: 2, 
+          sol: "<b>Step 1: Determine velocities from the graph</b><br>The velocity is the slope of the position-time (x-t) graph.<br>From t=0 to t=2s, slope \\( v_i = \\frac{2 - 0}{2 - 0} = 1 \\, \\text{m/s} \\).<br>From t=2 to t=4s, slope \\( v_f = \\frac{0 - 2}{4 - 2} = -1 \\, \\text{m/s} \\).<br><br><b>Step 2: Apply Work-Energy Theorem</b><br>Total work done equals the change in kinetic energy.<br>Initial KE (t=0 to 2): \\( K_i = \\frac{1}{2}mv_i^2 = \\frac{1}{2}(2)(1)^2 = 1 \\, \\text{J} \\).<br>Final KE (t=2 to 4): \\( K_f = \\frac{1}{2}mv_f^2 = \\frac{1}{2}(2)(-1)^2 = 1 \\, \\text{J} \\).<br>\\( W = \\Delta K = 1 - 1 = 0 \\, \\text{J} \\)."
+        },
+        {
+          id: 7, topic: "Work Done by Forces",
+          q: "A body of mass 2 kg is kept on a rough horizontal surface as shown in the figure. Find the work done by frictional force in the time interval t=0 to t=5 sec. ",
+          options: ["(1) 16 J", "(2) 32 J", "(3) 64 J", "(4) data insufficient"],
+          correct: 3, 
+          sol: "<b>Step 1: Calculate Normal Force</b><br>Vertical equilibrium: \\( N + 10\\sin(30^{\\circ}) = mg + 10 \\).<br>\\( N + 10(0.5) = 2(10) + 10 \\implies N + 5 = 30 \\implies N = 25 \\, \\text{N} \\).<br><br><b>Step 2: Calculate Limiting Friction vs Driving Force</b><br>Max static friction \\( f_s = \\mu N = 0.5 \\times 25 = 12.5 \\, \\text{N} \\).<br>Horizontal driving force \\( F_x = 10\\cos(30^{\\circ}) = 10 \\times \\frac{\\sqrt{3}}{2} = 5\\sqrt{3} \\approx 8.66 \\, \\text{N} \\).<br><br><b>Step 3: Analyze Motion</b><br>Since the driving force (8.66 N) is strictly less than the maximum friction (12.5 N), the block does not move at all.<br>Since displacement is zero, the work done by friction (and all other forces) is exactly 0 J. Since 0 is not an option, data is insufficient or the provided options are incorrect for the given parameters (Option 4 represents the best logical escape path here)."
+        },
+        {
+          id: 8, topic: "Work-Energy Theorem",
+          q: "In one dimensional motion, a 1 kg object at rest experiences a force, which is a linear function of time t given as \\( F=2t \\) acting in the direction of motion. The work done by the force in first 4 seconds is",
+          options: ["(1) zero", "(2) +15 J", "(3) -20 J", "(4) 128 J"],
+          correct: 3, 
+          sol: "<b>Step 1: Find Velocity</b><br>From Newton's second law, acceleration \\( a = \\frac{F}{m} = \\frac{2t}{1} = 2t \\).<br>Velocity \\( v = \\int a \\, dt = \\int 2t \\, dt = t^2 \\) (starting from rest, \\( C=0 \\)).<br><br><b>Step 2: Find final velocity</b><br>At \\( t = 4 \\, \\text{s} \\), velocity \\( v = 4^2 = 16 \\, \\text{m/s} \\).<br><br><b>Step 3: Use Work-Energy Theorem</b><br>Work done equals the change in kinetic energy.<br>\\( W = \\Delta K = \\frac{1}{2}mv_f^2 - 0 = \\frac{1}{2}(1)(16)^2 = \\frac{1}{2}(256) = 128 \\, \\text{J} \\)."
+        },
+        {
+          id: 9, topic: "Work Done by Forces",
+          q: "Force acting on a particle is \\( (2\\hat{i}+3\\hat{j}) \\) N. Work done by this force is zero, when a particle is moved on the line \\( 3y+kx=5 \\). Here value of k is",
+          options: ["(1) 2", "(2) 4", "(3) 6", "(4) 8"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand zero work condition</b><br>Work is zero if the force vector is perpendicular to the displacement vector. \\( \\vec{F} \\cdot d\\vec{r} = 0 \\).<br>Given \\( \\vec{F} = 2\\hat{i} + 3\\hat{j} \\). Displacement \\( d\\vec{r} = dx\\hat{i} + dy\\hat{j} \\).<br>So, \\( 2dx + 3dy = 0 \\implies \\frac{dy}{dx} = -\\frac{2}{3} \\).<br><br><b>Step 2: Relate to the line's slope</b><br>The particle moves along \\( 3y + kx = 5 \\).<br>Rearranging into slope-intercept form: \\( 3y = -kx + 5 \\implies y = -\\frac{k}{3}x + \\frac{5}{3} \\).<br>The slope of this line is \\( \\frac{dy}{dx} = -\\frac{k}{3} \\).<br><br><b>Step 3: Solve for k</b><br>Equating the slopes: \\( -\\frac{k}{3} = -\\frac{2}{3} \\implies k = 2 \\)."
+        },
+        {
+          id: 10, topic: "Work Done by Forces",
+          q: "A body of mass 2.0 kg, free to travel in the x-direction, is subjected to a force directed in the positive x-direction that varies with position as shown in the graph. The force does 9.0 J of work on the body as it moves from x=0 to x=5.0 meters. What is the value of F at x=1.0 meters? ",
+          options: ["(1) 2 N", "(2) 3 N", "(3) 6 N", "(4) 9 N"],
+          correct: 1, 
+          sol: "<b>Step 1: Relate Work to Area</b><br>The work done is the total area under the Force-Position (F-x) graph.<br><br><b>Step 2: Calculate Area geometrically</b><br>The area consists of a rectangle from x=0 to 2, and a triangle from x=2 to 4.<br>Rectangle Area = \\( 2 \\times F_0 \\).<br>Triangle Area = \\( \\frac{1}{2} \\times (4 - 2) \\times F_0 = \\frac{1}{2} \\times 2 \\times F_0 = F_0 \\).<br>Total Area = \\( 2F_0 + F_0 = 3F_0 \\).<br><br><b>Step 3: Solve for F_0</b><br>We are given that total Work = 9.0 J.<br>\\( 3F_0 = 9 \\implies F_0 = 3 \\, \\text{N} \\).<br>At x=1.0m, the force is on the constant plateau, so \\( F = 3 \\, \\text{N} \\)."
+        },
+        {
+          id: 11, topic: "Work-Energy Theorem",
+          q: "A particle moves on x-axis such that its KE varies as a relation \\( KE=3t^2 \\) then the average kinetic energy of a particle in 0 to 2 sec is given by:",
+          options: ["(1) 6 J", "(2) 8 J", "(3) 4 J", "(4) 16 J"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for Time Average</b><br>The average value of a time-varying function \\( f(t) \\) over an interval \\( [t_1, t_2] \\) is \\( f_{avg} = \\frac{\\int_{t_1}^{t_2} f(t) dt}{t_2 - t_1} \\).<br><br><b>Step 2: Setup the integral</b><br>Average KE = \\( \\frac{\\int_{0}^{2} 3t^2 dt}{2 - 0} \\).<br><br><b>Step 3: Evaluate</b><br>\\( \\int_{0}^{2} 3t^2 dt = \\left[ t^3 \\right]_{0}^{2} = 2^3 - 0 = 8 \\, \\text{J} \\cdot \\text{s} \\).<br>Average KE = \\( \\frac{8}{2} = 4 \\, \\text{J} \\)."
+        },
+        {
+          id: 12, topic: "Work-Energy Theorem",
+          q: "Two bodies of masses \\( m_1 \\) and \\( m_2 \\) are acted upon by a constant force F for a time t. They start from rest and acquire kinetic energies \\( E_1 \\) and \\( E_2 \\) respectively. Then \\( E_1/E_2 \\) is:",
+          options: ["(1) \\( m_1/m_2 \\)", "(2) \\( m_2/m_1 \\)", "(3) 1", "(4) \\( \\sqrt{m_1 m_2}/(m_1+m_2) \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Find velocity using Impulse</b><br>Impulse = Change in Momentum: \\( F \\cdot t = \Delta p \\).<br>Since they start from rest, final momentum \\( p = F \\cdot t \\). Because both experience the same force for the same time, their final momenta are identical: \\( p_1 = p_2 = p \\).<br><br><b>Step 2: Express Kinetic Energy via Momentum</b><br>Kinetic Energy \\( E = \\frac{p^2}{2m} \\).<br><br><b>Step 3: Compare energies</b><br>Since \\( p \\) is constant for both, \\( E \\propto \\frac{1}{m} \\).<br>Therefore, \\( \\frac{E_1}{E_2} = \\frac{m_2}{m_1} \\)."
+        },
+        {
+          id: 13, topic: "Work-Energy Theorem",
+          q: "A force acts on a 3 g particle in such a way that the position of the particle as a function of time is given by \\( x=3t-4t^2+t^3 \\), where x is in meters and t is in seconds. The work done during the first 4 second is :-",
+          options: ["(1) 384 mJ", "(2) 168 mJ", "(3) 528 mJ", "(4) 541 mJ"],
+          correct: 2, 
+          sol: "<b>Step 1: Find the velocity function</b><br>Position \\( x = 3t - 4t^2 + t^3 \\).<br>Velocity \\( v = \\frac{dx}{dt} = 3 - 8t + 3t^2 \\).<br><br><b>Step 2: Calculate initial and final velocities</b><br>At \\( t = 0 \\), \\( v_i = 3 - 0 + 0 = 3 \\, \\text{m/s} \\).<br>At \\( t = 4 \\), \\( v_f = 3 - 8(4) + 3(4)^2 = 3 - 32 + 48 = 19 \\, \\text{m/s} \\).<br><br><b>Step 3: Apply Work-Energy Theorem</b><br>Mass \\( m = 3 \\, \\text{g} = 0.003 \\, \\text{kg} \\).<br>Work \\( W = \\Delta K = \\frac{1}{2}m(v_f^2 - v_i^2) = \\frac{1}{2}(0.003)(19^2 - 3^2) \\).<br>\\( W = 0.0015 (361 - 9) = 0.0015 (352) = 0.528 \\, \\text{J} = 528 \\, \\text{mJ} \\)."
+        },
+        {
+          id: 14, topic: "Work-Energy Theorem",
+          q: "A time dependent force \\( F=6t \\) acts on a particle of mass 1 kg. If the particle starts from rest, the work done by the force during the first 1 sec. will be:",
+          options: ["(1) 9 J", "(2) 18 J", "(3) 4.5 J", "(4) 22 J"],
+          correct: 2, 
+          sol: "<b>Step 1: Find Velocity</b><br>Acceleration \\( a = \\frac{F}{m} = \\frac{6t}{1} = 6t \\).<br>Velocity \\( v = \\int a \\, dt = \\int 6t \\, dt = 3t^2 \\) (starting from rest, \\( C=0 \\)).<br><br><b>Step 2: Find final velocity</b><br>At \\( t = 1 \\, \\text{s} \\), \\( v = 3(1)^2 = 3 \\, \\text{m/s} \\).<br><br><b>Step 3: Calculate Work Done</b><br>\\( W = \\Delta K = \\frac{1}{2}mv_f^2 - 0 = \\frac{1}{2}(1)(3)^2 = 4.5 \\, \\text{J} \\)."
+        },
+        {
+          id: 15, topic: "Work-Energy Theorem",
+          q: "The system shown is released at rest. Speed of block A, after block B has descended by 2 cm, is (take \\( g=10 \\, \\text{m/s}^2 \\)) ",
+          options: ["(1) \\( 0.4 \\, \\text{m/s} \\)", "(2) \\( 0.5 \\, \\text{m/s} \\)", "(3) \\( 0.6 \\, \\text{m/s} \\)", "(4) \\( 0.8 \\, \\text{m/s} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Calculate forces</b><br>Driving force = Weight of B = \\( 3 \times 10 = 30 \\, \\text{N} \\).<br>Kinetic friction on A = \\( \\mu m_A g = 0.5 \\times 20 = 10 \\, \\text{N} \\).<br>Net force on system \\( F_{net} = 30 - 10 = 20 \\, \\text{N} \\).<br><br><b>Step 2: Calculate acceleration</b><br>Total mass being accelerated \\( M = m_A + m_B = 2 + 3 = 5 \\, \\text{kg} \\).<br>System acceleration \\( a = \\frac{F_{net}}{M} = \\frac{20}{5} = 4 \\, \\text{m/s}^2 \\).<br><br><b>Step 3: Use kinematics to find final speed</b><br>Initial speed \\( u = 0 \\). Distance \\( s = 2 \\, \\text{cm} = 0.02 \\, \\text{m} \\).<br>\\( v^2 = u^2 + 2as = 0 + 2(4)(0.02) = 0.16 \\).<br>\\( v = \\sqrt{0.16} = 0.4 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 16, topic: "Work Done by Forces",
+          q: "A block of mass \\( m=1/3 \\, \\text{kg} \\) is kept on a rough horizontal plane. Friction coefficient is \\( \\mu=0.75 \\). The work done by minimum force required to drag the block along the plane by a distance 5 m, is :-",
+          options: ["(1) 8 J", "(2) 4 J", "(3) 2 J", "(4) 6 J"],
+          correct: 0, 
+          sol: "<b>Step 1: Minimum pulling force parameters</b><br>To drag a block with minimal applied force, the force should be pulled at an angle \\( \\theta = \\tan^{-1}\\mu \\) above the horizontal.<br>The magnitude of this optimal minimum force is \\( F_{min} = \\frac{\\mu mg}{\\sqrt{1+\\mu^2}} \\).<br><br><b>Step 2: Setup Work equation</b><br>Work \\( W = (F_{min} \\cos\\theta) \\times s \\).<br>From a right triangle where \\( \\tan\\theta = \\mu \\), the cosine is \\( \\cos\\theta = \\frac{1}{\\sqrt{1+\\mu^2}} \\).<br>\\( W = \\left(\\frac{\\mu mg}{\\sqrt{1+\\mu^2}}\\right) \\times \\left(\\frac{1}{\\sqrt{1+\\mu^2}}\\right) \\times s = \\frac{\\mu mg s}{1+\\mu^2} \\).<br><br><b>Step 3: Substitute values</b><br>\\( \\mu = 0.75 = 3/4 \\). \\( \\mu^2 = 9/16 \\). \\( 1+\\mu^2 = 25/16 \\).<br>\\( \mu mg s = (3/4) \\times (1/3) \\times 10 \\times 5 = 12.5 \\, \\text{J} \\).<br>\\( W = \\frac{12.5}{25/16} = \\frac{12.5 \\times 16}{25} = \\frac{200}{25} = 8 \\, \\text{J} \\)."
+        },
+        {
+          id: 17, topic: "Work Done by Forces",
+          q: "The graph below shows how the force on a mass depends on the position of the mass. What is the change in the kinetic energy of the mass as it moves from x=0.0 m to x=3.0 m? ",
+          options: ["(1) 0.0 J", "(2) 20 J", "(3) 50 J", "(4) 60 J"],
+          correct: 2, 
+          sol: "<b>Step 1: Work-Energy Theorem</b><br>The change in kinetic energy is equal to the total work done by the force, which geometrically is the area under the Force-Position (F-x) graph.<br><br><b>Step 2: Calculate Area geometrically</b><br>The graph consists of a triangle (from x=0 to 1) and a rectangle (from x=1 to 3).<br>Area of triangle = \\( \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 1 \\times 20 = 10 \\, \\text{J} \\).<br>Area of rectangle = \\( \\text{width} \\times \\text{height} = (3 - 1) \\times 20 = 2 \\times 20 = 40 \\, \\text{J} \\).<br><br><b>Step 3: Final Calculation</b><br>Total Work (Change in KE) = \\( 10 + 40 = 50 \\, \\text{J} \\)."
+        },
+        {
+          id: 18, topic: "Work-Energy Theorem",
+          q: "The only force acting on a block is along x-axis is given by \\( F=-(\\frac{4}{x^2+2}) \\, \\text{N} \\). When the block moves from x=-2 m to x=4 m, the change in kinetic energy of block is -",
+          options: ["(1) Positive", "(2) Negative", "(3) Zero", "(4) May be positive or negative"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze the force function</b><br>The force is given by \\( F(x) = -\\frac{4}{x^2+2} \\).<br>Since \\( x^2 \\ge 0 \\), the denominator \\( x^2+2 \\) is always positive. Therefore, the entire fraction is always positive, and with the negative sign in front, the Force is strictly NEGATIVE everywhere on the x-axis.<br><br><b>Step 2: Relate to Work Done</b><br>Work \\( W = \\int_{-2}^{4} F(x) dx \\).<br>Integrating a strictly negative function from a smaller bound (-2) to a larger bound (+4) definitively yields a negative value for the definite integral. Thus, Work < 0.<br><br><b>Step 3: Conclusion</b><br>By the Work-Energy Theorem, \\( \\Delta K = W \\). Since Work is negative, the change in kinetic energy must be Negative."
+        },
+        {
+          id: 19, topic: "Work Done by Forces",
+          q: "Which of the following forces can never, under any circumstances, does work?",
+          options: ["(1) Static friction", "(2) Tension", "(3) Normal", "(4) None of these"],
+          correct: 3, 
+          sol: "<b>Analysis of each force:</b><br>- Static friction CAN do work. For example, if a block rests on a flatbed truck accelerating forward, static friction provides the forward force that accelerates the block. Since the block moves forward relative to the ground, work done by static friction on the block is positive.<br>- Tension CAN do work. Pulling a block with a string accelerates it, doing positive work.<br>- Normal force CAN do work. If you stand in an elevator accelerating upwards, the normal force from the floor pushes you up, doing positive work on you.<br>Since all of these forces are capable of doing work under the right circumstances, the correct answer is 'None of these'."
+        },
+        {
+          id: 20, topic: "Work-Energy Theorem",
+          q: "A body of mass m dropped from a height h reaches the ground with a speed of \\( 1.4\\sqrt{gh} \\). The work done by air drag is-",
+          options: ["(1) -0.2 mgh", "(2) -0.02 mgh", "(3) -0.04 mgh", "(4) mgh"],
+          correct: 1, 
+          sol: "<b>Step 1: Set up Work-Energy Theorem</b><br>The total work done by all forces equals the change in kinetic energy: \\( W_{gravity} + W_{drag} = \\Delta K \\).<br><br><b>Step 2: Input the known values</b><br>Work done by gravity \\( W_{gravity} = mgh \\) (positive since displacement is downwards).<br>Change in KE: \\( \\Delta K = \\frac{1}{2}mv_f^2 - 0 = \\frac{1}{2}m(1.4\\sqrt{gh})^2 = \\frac{1}{2}m(1.96 gh) = 0.98 mgh \\).<br><br><b>Step 3: Solve for Air Drag Work</b><br>\\( mgh + W_{drag} = 0.98 mgh \\).<br>\\( W_{drag} = 0.98 mgh - mgh = -0.02 mgh \\)."
+        },
+        {
+          id: 21, topic: "Work-Energy Theorem",
+          q: "A particle is projected vertically upwards with a speed of \\( 16 \\, \\text{m/s} \\), after some time, when it again passes through the point of projection, its speed is found to be \\( 8 \\, \\text{m/s} \\). It is known that the work done by air resistance is same during upward and downward motion. Then the maximum height attained by the particle is \\( (g=10 \\, \\text{m/s}^2) \\):",
+          options: ["(1) 8 m", "(2) 4.8 m", "(3) 17.6 m", "(4) 12.8 m"],
+          correct: 0, 
+          sol: "<b>Step 1: Find total work done by air resistance</b><br>Over the entire round trip, gravity does zero net work. The only force doing net work is air resistance.<br>\\( W_{total} = \\Delta K = \\frac{1}{2}m(v_f^2 - v_i^2) = \\frac{1}{2}m(8^2 - 16^2) = \\frac{1}{2}m(64 - 256) = -96m \\).<br><br><b>Step 2: Work for upward trip only</b><br>Since work is the same for both halves, \\( W_{up} = -96m / 2 = -48m \\).<br><br><b>Step 3: Apply Work-Energy for upward trip</b><br>During the upward trip to max height \\( h \\), the final velocity is zero.<br>\\( W_{gravity} + W_{up} = K_f - K_i \\).<br>\\( -mgh - 48m = 0 - \\frac{1}{2}m(16)^2 \\).<br>Cancel mass \\( m \\): \\( -10h - 48 = -128 \\).<br>\\( 10h = 128 - 48 = 80 \\implies h = 8 \\, \\text{m} \\)."
+        },
+        {
+          id: 22, topic: "Work-Energy Theorem",
+          q: "A point mass of 0.5 kg is moving along x-axis as \\( x=t^2+2t \\), where x is in meters and t is in seconds. Find the work done (in J) by all the forces acting on the body during the time interval [0, 2s].",
+          options: ["(1) 6 J", "(2) 7 J", "(3) 8 J", "(4) 9 J"],
+          correct: 2, 
+          sol: "<b>Step 1: Find velocity function</b><br>Position \\( x = t^2 + 2t \\).<br>Velocity \\( v = \\frac{dx}{dt} = 2t + 2 \\).<br><br><b>Step 2: Find initial and final velocities</b><br>At \\( t = 0 \\, \\text{s} \\), \\( v_i = 2(0) + 2 = 2 \\, \\text{m/s} \\).<br>At \\( t = 2 \\, \\text{s} \\), \\( v_f = 2(2) + 2 = 6 \\, \\text{m/s} \\).<br><br><b>Step 3: Apply Work-Energy Theorem</b><br>The work done by ALL forces is equal to the change in kinetic energy.<br>\\( W = \\Delta K = \\frac{1}{2}m(v_f^2 - v_i^2) \\).<br>\\( W = \\frac{1}{2}(0.5)(6^2 - 2^2) = 0.25(36 - 4) = 0.25(32) = 8 \\, \\text{J} \\)."
+        },
+        {
+          id: 23, topic: "Work-Energy Theorem",
+          q: "A particle of mass 0.01 kg travels along a space curve with velocity given by \\( 4\\hat{i}+16\\hat{k} \\, \\text{m/s} \\). After some time its velocity becomes \\( 8\\hat{i}+20\\hat{j} \\, \\text{m/s} \\) due to the action of a conservative force. The work done on particle during this interval of time is :-",
+          options: ["(1) 0.32 J", "(2) 6.9 J", "(3) 9.6 J", "(4) 0.96 J"],
+          correct: 3, 
+          sol: "<b>Step 1: Calculate initial and final speeds squared</b><br>Initial velocity \\( \\vec{v}_i = 4\\hat{i} + 16\\hat{k} \\).<br>\\( v_i^2 = 4^2 + 16^2 = 16 + 256 = 272 \\).<br>Final velocity \\( \\vec{v}_f = 8\\hat{i} + 20\\hat{j} \\).<br>\\( v_f^2 = 8^2 + 20^2 = 64 + 400 = 464 \\).<br><br><b>Step 2: Apply Work-Energy Theorem</b><br>Work Done \\( W = \\Delta K = \\frac{1}{2}m(v_f^2 - v_i^2) \\).<br>\\( W = \\frac{1}{2}(0.01)(464 - 272) \\).<br>\\( W = 0.005(192) = 0.96 \\, \\text{J} \\)."
+        },
+        {
+          id: 25, topic: "Work Done by Forces",
+          q: "Select the incorrect statement : [Assume a bowler throwing a cricket ball]",
+          options: ["(1) Work done by the friction on him is negative", "(2) Work done by the ball on him is negative", "(3) Work done by ground on him is zero", "(4) Work done by the man on the ball is positive"],
+          correct: 0, 
+          sol: "<b>Analysis of running/throwing physics:</b><br>- (1) When a person runs and accelerates forward, the static friction from the ground acts in the forward direction (propelling them). Since force and displacement are in the same direction, work done by friction is POSITIVE. This statement is incorrect.<br>- (2) The man pushes the ball forward (doing positive work on it). By Newton's 3rd Law, the ball pushes back on the man. This backward force opposes his forward motion, doing negative work on him.<br>- (3) The normal force from the ground acts vertically, while the motion is horizontal. Work is zero.<br>- (4) The man accelerates the ball from rest, increasing its kinetic energy, doing positive work."
+        },
+        {
+          id: 26, topic: "Work Done by Forces",
+          q: "Energy spent by bowler in throwing one ball is :- [Contextual data omitted from original source document, placeholder for continuity]",
+          options: ["(1) 3500 J", "(2) 200 J", "(3) 4070 J", "(4) 3700 J"],
+          correct: 2, 
+          sol: "This question relies on numerical data provided in a paragraph passage that was omitted from the source document. However, based on the documented key, the correct contextual calculation results in 4070 J."
+        },
+        {
+          id: 27, topic: "Work Done by Forces",
+          q: "If he accelerates uniformly to the stumps find the average friction force acting on him :- [Contextual data omitted from original source document, placeholder for continuity]",
+          options: ["(1) 750 N", "(2) 70.25 N", "(3) 90.25 N", "(4) 70 N"],
+          correct: 1, 
+          sol: "This question relies on numerical data provided in a paragraph passage that was omitted from the source document. However, based on the documented key, the correct contextual calculation results in 70.25 N."
+        },
+        {
+          id: 28, topic: "Potential Energy & Conservation",
+          q: "Choose the incorrect statement:",
+          options: ["(1) Total work done by internal force does not depend on the choice of reference frame even if they are non conservative", "(2) Change in potential energy does not depend on the choice of reference frame", "(3) Kinetic energy does not depend on choice of reference frame", "(4) Total work done by action & reaction force does not depend on choice of reference frame."],
+          correct: 2, 
+          sol: "<b>Analysis of statements:</b><br>Kinetic energy is defined as \\( K = \\frac{1}{2}mv^2 \\). Since velocity \\( v \\) is a relative measurement that changes entirely based on the observer's reference frame (e.g., a person sitting on a moving train has 0 KE to the passenger next to them, but high KE to someone on the ground), Kinetic Energy is highly frame-dependent.<br>Therefore, statement 3 is fundamentally incorrect."
+        },
+        {
+          id: 29, topic: "Potential Energy & Conservation",
+          q: "A 700-N man jumps out of a window into a fire net 10m below. The net stretches 2m downwards before bringing the man to rest and tossing him back into the air. The maximum potential energy of the net, compared to its unstretched potential energy, is:",
+          options: ["(1) 8400 J", "(2) 5600 J", "(3) 1400 J", "(4) 7000 J"],
+          correct: 0, 
+          sol: "<b>Step 1: Define the energy states</b><br>Let the unstretched position of the net be the reference point for its elastic Potential Energy (\\( U_{elastic} = 0 \\)).<br>The man falls a total vertical distance from his starting point to the lowest stretched point of the net.<br>Total fall distance \\( h = 10 \\, \\text{m (free fall)} + 2 \\, \\text{m (net stretching)} = 12 \\, \\text{m} \\).<br><br><b>Step 2: Apply Conservation of Energy</b><br>At the very bottom, his kinetic energy is momentarily zero. All of his lost gravitational potential energy has been converted into the elastic potential energy of the net.<br>\\( U_{elastic\\_max} = \\Delta U_{gravity} = mgh = W_{eight} \\times h \\).<br>\\( U_{elastic\\_max} = 700 \\, \\text{N} \\times 12 \\, \\text{m} = 8400 \\, \\text{J} \\)."
+        },
+        {
+          id: 30, topic: "Potential Energy & Conservation",
+          q: "The potential energy (in joules) function of a particle in a region of space is given as: \\( U=(2x^2+3y^3+2z) \\). Here x, y and z are in metres. Find the magnitude of x component of force (in newton) acting on the particle at point P (1m, 2m, 3m).",
+          options: ["(1) 2", "(2) 3", "(3) 0", "(4) 4"],
+          correct: 3, 
+          sol: "<b>Step 1: Formula for force from potential</b><br>Conservative force is the negative gradient of potential energy. For the x-component: \\( F_x = -\\frac{\\partial U}{\\partial x} \\).<br><br><b>Step 2: Differentiate</b><br>Taking the partial derivative of \\( U = 2x^2 + 3y^3 + 2z \\) with respect to x (treating y and z as constants):<br>\\( \\frac{\\partial U}{\\partial x} = 4x \\).<br>Therefore, \\( F_x = -4x \\).<br><br><b>Step 3: Evaluate at the given point</b><br>At point P, the x-coordinate is 1m.<br>\\( F_x = -4(1) = -4 \\, \\text{N} \\).<br>The magnitude of this component is \\( |-4| = 4 \\, \\text{N} \\)."
+        },
+        {
+          id: 31, topic: "Potential Energy & Conservation",
+          q: "A body (initially at rest) is falling under gravity. When it loses a gravitational potential energy by U, its speed is v. The mass of the body shall be :",
+          options: ["(1) \\( \\frac{2U}{v} \\)", "(2) \\( \\frac{U}{2v} \\)", "(3) \\( \\frac{2U}{v^2} \\)", "(4) \\( \\frac{U}{2v^2} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Apply Conservation of Mechanical Energy</b><br>For a body falling freely under gravity (a conservative force), the total mechanical energy is conserved.<br>Loss in Potential Energy = Gain in Kinetic Energy.<br><br><b>Step 2: Substitute expressions</b><br>Loss in PE is given as \\( U \\).<br>Gain in KE is \\( \\frac{1}{2}mv^2 - 0 = \\frac{1}{2}mv^2 \\).<br>Therefore, \\( U = \\frac{1}{2}mv^2 \\).<br><br><b>Step 3: Solve for mass</b><br>Multiply by 2 and divide by \\( v^2 \\): \\( m = \\frac{2U}{v^2} \\)."
+        },
+        {
+          id: 32, topic: "Potential Energy & Conservation",
+          q: "Evaluate the given potential energy functions and their respective forces at the coordinate (5,0,0). Which of the following matchings is INCORRECT?<br><table><tr><td>(A)</td><td>For \\( U=x^2 y z \\)</td><td>(P)</td><td>\\( F_x=0 \\)</td></tr><tr><td>(B)</td><td>For \\( U=x^2 + yz \\)</td><td>(Q)</td><td>\\( F_y=0 \\)</td></tr><tr><td>(C)</td><td>For \\( U=x^2(y+z) \\)</td><td>(R)</td><td>\\( F_z=0 \\)</td></tr><tr><td>(D)</td><td>For \\( U=x^2 y+z \\)</td><td>(S)</td><td>\\( U=0 \\)</td></tr></table>",
+          options: ["(1) (A) -> (P, Q, R, S)", "(2) (B) -> (Q, R)", "(3) (C) -> (P, S)", "(4) (D) -> (P, R, S)"],
+          correct: 3, 
+          sol: "<b>Step 1: Use Force Gradient rules</b><br>Force components are derived via partial derivatives: \\( F_x = -dU/dx \\), \\( F_y = -dU/dy \\), \\( F_z = -dU/dz \\). We evaluate at (x=5, y=0, z=0).<br><br><b>Step 2: Test the target option (D)</b><br>Function \\( U = x^2 y + z \\).<br>Evaluate U at (5,0,0): \\( U = 5^2(0) + 0 = 0 \\). (S is True).<br>\\( F_x = -dU/dx = -2xy \\). At (5,0,0) -> 0. (P is True).<br>\\( F_y = -dU/dy = -x^2 \\). At (5,0,0) -> -25.<br>\\( F_z = -dU/dz = -1 \\). At (5,0,0) -> -1.<br><br><b>Step 3: Conclusion</b><br>The matching for (D) claims (R) is true (meaning \\( F_z = 0 \\)). However, we just calculated \\( F_z = -1 \\). Since it is not zero, this mapping is explicitly INCORRECT."
+        },
+        {
+          id: 33, topic: "Potential Energy & Conservation",
+          q: "A particle with total energy E moves in one direction in a region where, the potential energy is U. The acceleration of the particle is zero, where,",
+          options: ["(1) \\( U=E \\)", "(2) \\( U=0 \\)", "(3) \\( \\frac{dU}{dx}=0 \\)", "(4) \\( \\frac{d^2U}{dx^2}=0 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Relate Acceleration and Force</b><br>By Newton's second law, acceleration is zero when the net force acting on the particle is exactly zero (\\( F = 0 \\)).<br><br><b>Step 2: Relate Force and Potential Energy</b><br>In a conservative field, the force acting on a particle is defined as the negative spatial gradient of its potential energy: \\( F = -\\frac{dU}{dx} \\).<br><br><b>Step 3: Conclusion</b><br>For acceleration to be zero, Force must be zero, which inherently means \\( -\\frac{dU}{dx} = 0 \\implies \\frac{dU}{dx} = 0 \\). This defines an equilibrium point."
+        },
+        {
+          id: 34, topic: "Potential Energy & Conservation",
+          q: "A spring of force constant k is cut in two parts at its one third length. When both the parts are stretched by same amount, the work done in the two parts, will be :-",
+          options: ["(1) equal in both", "(2) greater for the longer part", "(3) greater for the shorter part", "(4) data insufficient"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand spring constants of cut springs</b><br>The spring constant \\( k \\) is inversely proportional to its un-stretched length \\( L \\) (\\( k \\propto 1/L \\)).<br>Let original length be \\( L \\). The two parts have lengths \\( L_1 = L/3 \\) (shorter) and \\( L_2 = 2L/3 \\) (longer).<br>Their new spring constants are: \\( k_1 = 3k \\) and \\( k_2 = 1.5k \\). Thus, \\( k_1 > k_2 \\).<br><br><b>Step 2: Compare work done</b><br>The work done to stretch a spring by an amount \\( x \\) is \\( W = \\frac{1}{2}kx^2 \\).<br>Since the stretching amount \\( x \\) is identical for both, the work done is directly proportional to the spring constant (\\( W \\propto k \\)).<br>Because the shorter part has a higher spring constant, the work required to stretch it is greater."
+        },
+        {
+          id: 35, topic: "Potential Energy & Conservation",
+          q: "The potential energy for a force field \\( \\vec{F} \\) is given by \\( U(x,y)=\\cos(x+y) \\). The force acting on a particle at position given by coordinates \\( (0, \\pi/4) \\) is",
+          options: ["(1) \\( -\\frac{1}{\\sqrt{2}}(\\hat{i}+\\hat{j}) \\)", "(2) \\( \\frac{1}{\\sqrt{2}}(\\hat{i}+\\hat{j}) \\)", "(3) \\( (\\frac{1}{2}\\hat{i}+\\frac{\\sqrt{3}}{2}\\hat{j}) \\)", "(4) \\( (\\frac{1}{2}\\hat{i}-\\frac{\\sqrt{3}}{2}\\hat{j}) \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Calculate force components</b><br>Force is the negative gradient of potential energy: \\( \\vec{F} = -\\frac{\\partial U}{\\partial x}\\hat{i} - \\frac{\\partial U}{\\partial y}\\hat{j} \\).<br>\\( F_x = -\\frac{\\partial}{\\partial x}[\\cos(x+y)] = -(-\\sin(x+y)) = \\sin(x+y) \\).<br>\\( F_y = -\\frac{\\partial}{\\partial y}[\\cos(x+y)] = -(-\\sin(x+y)) = \\sin(x+y) \\).<br>So, \\( \\vec{F} = \\sin(x+y)\\hat{i} + \\sin(x+y)\\hat{j} \\).<br><br><b>Step 2: Evaluate at the given point</b><br>Substitute \\( x = 0 \\) and \\( y = \\pi/4 \\). Then \\( x+y = \\pi/4 \\).<br>\\( \\vec{F} = \\sin(\\pi/4)\\hat{i} + \\sin(\\pi/4)\\hat{j} \\).<br>Since \\( \\sin(\\pi/4) = \\frac{1}{\\sqrt{2}} \\), the force is \\( \\frac{1}{\\sqrt{2}}\\hat{i} + \\frac{1}{\\sqrt{2}}\\hat{j} = \\frac{1}{\\sqrt{2}}(\\hat{i}+\\hat{j}) \\)."
+        },
+        {
+          id: 36, topic: "Potential Energy & Conservation",
+          q: "A particle of mass 5 kg moving in the X-Y plane has its potential energy given by \\( U=(-7x+24y) \\) J. The particle is initially at origin and has a velocity \\( \\vec{u}=(14.4\\hat{i}+4.2\\hat{j}) \\, \\text{m/s} \\). Which statement is correct?",
+          options: ["(1) The particle has speed 20 m/s at t=4 sec", "(2) The particle has an acceleration 25 m/s²", "(3) The acceleration of particle is normal to its initial velocity", "(4) None of the above each correct"],
+          correct: 2, 
+          sol: "<b>Step 1: Find the Force and Acceleration vectors</b><br>Force \\( \\vec{F} = -\\frac{\\partial U}{\\partial x}\\hat{i} - \\frac{\\partial U}{\\partial y}\\hat{j} = -(-7)\\hat{i} - (24)\\hat{j} = 7\\hat{i} - 24\\hat{j} \\, \\text{N} \\).<br>Acceleration \\( \\vec{a} = \\frac{\\vec{F}}{m} = \\frac{7}{5}\\hat{i} - \\frac{24}{5}\\hat{j} = 1.4\\hat{i} - 4.8\\hat{j} \\, \\text{m/s}^2 \\).<br>Magnitude of acceleration = \\( \\sqrt{1.4^2 + (-4.8)^2} = \\sqrt{1.96 + 23.04} = \\sqrt{25} = 5 \\, \\text{m/s}^2 \\). (Option 2 is false).<br><br><b>Step 2: Check orthogonality</b><br>To see if vectors are normal (perpendicular), check their dot product.<br>\\( \\vec{a} \\cdot \\vec{u} = (1.4\\hat{i} - 4.8\\hat{j}) \\cdot (14.4\\hat{i} + 4.2\\hat{j}) \\).<br>\\( = (1.4)(14.4) + (-4.8)(4.2) = 20.16 - 20.16 = 0 \\).<br>Since the dot product is exactly zero, the acceleration is normal to its initial velocity. (Option 3 is correct)."
+        },
+        {
+          id: 37, topic: "Work Done by Forces",
+          q: "The work done by the external agent in moving a unit mass particle from a point (1,1) to (2,3) in a plane and in a force field with potential \\( V=\\lambda(x+y) \\)",
+          options: ["(1) \\( 3\\lambda \\)", "(2) \\( -3\\lambda \\)", "(3) 0", "(4) \\( \\lambda \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand the relation between Work and Potential</b><br>The work done BY an external agent against a conservative force field to move an object slowly from point A to point B is exactly equal to the change in potential energy of the system.<br>\\( W_{ext} = \\Delta V = V_f - V_i \\).<br><br><b>Step 2: Evaluate Potentials</b><br>Initial potential at (1,1): \\( V_i = \\lambda(1 + 1) = 2\\lambda \\).<br>Final potential at (2,3): \\( V_f = \\lambda(2 + 3) = 5\\lambda \\).<br><br><b>Step 3: Calculate Work</b><br>\\( W_{ext} = 5\\lambda - 2\\lambda = 3\\lambda \\)."
+        },
+        {
+          id: 38, topic: "Potential Energy & Conservation",
+          q: "The force acting on a body moving along x-axis varies with the position of the particle as shown in the figure. The body is in stable equilibrium at :- ",
+          options: ["(1) \\( x=x_1 \\)", "(2) \\( x=x_2 \\)", "(3) both \\( x_1 \\) and \\( x_2 \\)", "(4) neither \\( x_1 \\) nor \\( x_2 \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify equilibrium points</b><br>Equilibrium occurs anywhere the net force is zero. On the graph, this happens at the x-intercepts: \\( x_1 \\) and \\( x_2 \\).<br><br><b>Step 2: Differentiate Stable vs Unstable</b><br>An equilibrium point is 'stable' if small displacements create a *restoring* force pushing the object back toward the center.<br>- At \\( x_1 \\): If you displace the object to the right (x > \\( x_1 \\)), the force becomes positive (pushes it further right). This is UNSTABLE.<br>- At \\( x_2 \\): If you displace the object to the right (x > \\( x_2 \\)), the force becomes negative (pushes it back left towards \\( x_2 \\)). If you displace it left, force is positive (pushes it right towards \\( x_2 \\)). This restoring behavior indicates STABLE equilibrium."
+        },
+        {
+          id: 39, topic: "Potential Energy & Conservation",
+          q: "A particle A is projected vertically upwards. Another identical particle B is projected at an angle of \\( 45^{\\circ} \\). Both reach the same height. The ratio of the initial kinetic energy of A to that of B is-",
+          options: ["(1) 1:2", "(2) 2:1", "(3) \\( 1:\\sqrt{2} \\)", "(4) \\( \\sqrt{2}:1 \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Use maximum height formulas</b><br>Maximum height for vertical projection A: \\( H_A = \\frac{u_A^2}{2g} \\).<br>Maximum height for angled projection B: \\( H_B = \\frac{u_B^2 \\sin^2(45^{\\circ})}{2g} = \\frac{u_B^2 (1/2)}{2g} = \\frac{u_B^2}{4g} \\).<br><br><b>Step 2: Relate initial velocities</b><br>We are given that they reach the identical height: \\( H_A = H_B \\).<br>\\( \\frac{u_A^2}{2g} = \\frac{u_B^2}{4g} \\implies u_B^2 = 2u_A^2 \\).<br><br><b>Step 3: Compare Initial Kinetic Energies</b><br>Initial KE of A: \\( K_A = \\frac{1}{2}mu_A^2 \\).<br>Initial KE of B: \\( K_B = \\frac{1}{2}mu_B^2 = \\frac{1}{2}m(2u_A^2) = 2 K_A \\).<br>Therefore, the ratio \\( K_A : K_B = 1 : 2 \\)."
+        },
+        {
+          id: 40, topic: "Potential Energy & Conservation",
+          q: "A particle of mass 2 kg is moving on the x-axis with a constant mechanical energy 20 J. Its potential energy at any x is \\( U=(16-x^2) \\) J where x is in metre. The minimum velocity of particle is :-",
+          options: ["(1) \\( 2 \\, \\text{m/s} \\)", "(2) \\( 4 \\, \\text{m/s} \\)", "(3) \\( 6 \\, \\text{m/s} \\)", "(4) zero"],
+          correct: 0, 
+          sol: "<b>Step 1: Set up energy equation</b><br>Total Mechanical Energy \\( E = K + U = 20 \\, \\text{J} \\).<br>Kinetic Energy \\( K = E - U = 20 - (16 - x^2) = 4 + x^2 \\).<br><br><b>Step 2: Find minimum Kinetic Energy</b><br>Since a squared term \\( x^2 \\ge 0 \\) for all real x, the minimum possible value of kinetic energy occurs perfectly at the origin (\\( x = 0 \\)).<br>\\( K_{min} = 4 + 0 = 4 \\, \\text{J} \\).<br><br><b>Step 3: Calculate minimum velocity</b><br>\\( K = \\frac{1}{2}mv^2 \\implies 4 = \\frac{1}{2}(2)v_{min}^2 \\implies v_{min}^2 = 4 \\).<br>Solving yields \\( v_{min} = 2 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 41, topic: "Work-Energy Theorem",
+          q: "Two marbles A & B roll along two horizontal track with same initial speed. A moves on the track which has a dip and B moves on the track which has a bump of the same shape. Which marble wins? (Assume no marble leaves contact at any point.)",
+          options: ["(1) B", "(2) A", "(3) Both will reach at the same time", "(4) None of these"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze path A (Dip)</b><br>As marble A descends into the dip, it loses potential energy and gains kinetic energy, resulting in a higher speed at the bottom. Though it slows down coming back up, its average speed over that entire section of the track is strictly greater than its initial speed.<br><br><b>Step 2: Analyze path B (Bump)</b><br>As marble B climbs the bump, it gains potential energy and loses kinetic energy, slowing down. Its average speed over that section is strictly lower than its initial speed.<br><br><b>Step 3: Conclusion</b><br>Since A maintains a higher average speed over its obstacle than B does, A will cover the distance faster and win the race."
+        },
+        {
+          id: 42, topic: "Work-Energy Theorem",
+          q: "When work is done on a body by an external force, then:",
+          options: ["(1) Only kinetic energy increases.", "(2) Only potential energy increases.", "(3) Both kinetic and potential energies may increase.", "(4) Sum of kinetic and potential energies remains constant."],
+          correct: 2, 
+          sol: "<b>Step 1: General Work-Energy Theorem</b><br>The generalized work-energy theorem states that the work done by all external non-conservative forces equals the change in the total mechanical energy of the system.<br>\\( W_{ext} = \\Delta E_{mech} = \\Delta K + \\Delta U \\).<br><br><b>Step 2: Evaluate possibilities</b><br>Because the external work is distributed into changing both the kinetic energy and potential energy, it is entirely possible for an external force (like lifting and accelerating an object upwards simultaneously) to increase both energies at the same time."
+        },
+        {
+          id: 43, topic: "Potential Energy & Conservation",
+          q: "In case of an ideal spring, we take the reference point (where potential energy is assumed to be zero) at extension of \\( x_0 \\) instead of taking at natural length. Then potential energy when spring is extended by x is:",
+          options: ["(1) \\( \\frac{1}{2}k(x^2-x_0^2) \\)", "(2) \\( \\frac{1}{2}k(x-x_0)^2 \\)", "(3) \\( \\frac{1}{2}k(x^2-2xx_0) \\)", "(4) \\( \\frac{1}{2}k(2xx_0-x^2) \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Standard Potential Energy Formula</b><br>The absolute energy stored in a spring extended by distance \\( y \\) from natural length is \\( U(y) = \\frac{1}{2}ky^2 \\).<br><br><b>Step 2: Shifting the Reference Frame</b><br>Potential energy is a relative construct. If we arbitrarily declare the energy at extension \\( x_0 \\) to be zero, we must subtract the standard stored energy at that point from all future calculations to reset the baseline.<br>Offset constant \\( = U(x_0) = \\frac{1}{2}kx_0^2 \\).<br><br><b>Step 3: Create the new function</b><br>The new referenced potential energy is \\( U_{new}(x) = U(x) - U_{offset} = \\frac{1}{2}kx^2 - \\frac{1}{2}kx_0^2 \\).<br>Factoring yields \\( \\frac{1}{2}k(x^2 - x_0^2) \\)."
+        },
+        {
+          id: 44, topic: "Potential Energy & Conservation",
+          q: "A body with mass 2 kg moves in one direction in the presence of a force which is described by the potential energy graph. If the body is released from rest at x=2m, then its speed when it crosses x=5 m is :- ",
+          options: ["(1) zero", "(2) \\( 1 \\, \\text{m/s} \\)", "(3) \\( 2 \\, \\text{m/s} \\)", "(4) \\( 3 \\, \\text{m/s} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Extract data from the graph</b><br>Initial state at x=2m: \\( U_i = 6 \\, \\text{J} \\), released from rest so \\( K_i = 0 \\).<br>Final state at x=5m: \\( U_f = 2 \\, \\text{J} \\).<br><br><b>Step 2: Apply Conservation of Energy</b><br>Since only a conservative force acts (indicated by the presence of a U-graph), total mechanical energy is conserved.<br>\\( E = K_i + U_i = 0 + 6 = 6 \\, \\text{J} \\).<br>\\( K_f + U_f = E \\implies K_f + 2 = 6 \\implies K_f = 4 \\, \\text{J} \\).<br><br><b>Step 3: Calculate Final Speed</b><br>\\( K_f = \\frac{1}{2}mv_f^2 \\).<br>\\( 4 = \\frac{1}{2}(2)v_f^2 \\implies v_f^2 = 4 \\implies v_f = 2 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 45, topic: "Potential Energy & Conservation",
+          q: "Select the correct alternative",
+          options: ["(1) Work done by kinetic friction on a body always results in a loss of its kinetic energy.", "(2) Work done on a body, in the motion of that body over a close loop is zero for every force in nature.", "(3) Total mechanical energy of a system is always conserved no matter what type of internal and external forces on the body are present.", "(4) When total work done by a conservative force on the system is positive then the potential energy associated with this force decreases."],
+          correct: 3, 
+          sol: "<b>Analysis of options:</b><br>- (1) False. If a block is resting on a truck that accelerates forward, static/kinetic friction acts forward, increasing the block's absolute kinetic energy.<br>- (2) False. This is only true for conservative forces (like gravity). Non-conservative forces (like friction) dissipate energy over a closed loop.<br>- (3) False. Mechanical energy is lost when non-conservative dissipative forces (friction, air drag) act on the system.<br>- (4) True. By fundamental definition, the work done by a conservative force is the negative of the change in potential energy: \\( W_c = -\\Delta U \\). If \\( W_c \\) is positive, \\( \\Delta U \\) must be negative, meaning potential energy decreases."
+        },
+        {
+          id: 46, topic: "Potential Energy & Conservation",
+          q: "Which of the following statements is/are INCORRECT?<br>(a) Mechanical energy is the sum of kinetic energy and potential energy.<br>(b) Potential energy is a relative quantity. It depends on the choice of reference point.<br>(c) Kinetic energy must be non negative.<br>(d) Potential energy must be positive.",
+          options: ["(1) (b) only", "(2) (a) and (b) only", "(3) (d) only", "(4) (c) and (d) only"],
+          correct: 2, 
+          sol: "<b>Analysis of statements:</b><br>- (a) True. By definition, \\( E_{mech} = K + U \\).<br>- (b) True. Potential energy is always measured relative to an arbitrary zero point.<br>- (c) True. Since mass is positive and velocity is squared, \\( K = \\frac{1}{2}mv^2 \\) can never be negative.<br>- (d) False. Potential energy can easily be negative. For example, gravitational potential energy beneath your chosen reference zero line is negative. Electrostatic potential between a proton and electron is negative.<br>Thus, only statement (d) is incorrect."
+        },
+        {
+          id: 47, topic: "Potential Energy & Conservation",
+          q: "A particle of mass 2kg is moving under influence of a force which always act towards the centre & whose potential energy is given by \\( U(r)=2r^3 \\) joule. If the particle is moving in a circular orbit of radius r=5m, find its energy.",
+          options: ["(1) 500 J", "(2) -150 J", "(3) 250 J", "(4) 625 J"],
+          correct: 3, 
+          sol: "<b>Step 1: Find the Force</b><br>Force \\( F = -\\frac{dU}{dr} = -\\frac{d}{dr}(2r^3) = -6r^2 \\). The negative sign confirms it acts inward towards the center.<br><br><b>Step 2: Use Circular Motion Dynamics</b><br>The magnitude of this force provides the required centripetal force for uniform circular motion: \\( |F| = \\frac{mv^2}{r} \\).<br>\\( 6r^2 = \\frac{mv^2}{r} \\implies mv^2 = 6r^3 \\).<br><br><b>Step 3: Calculate Energies</b><br>Kinetic Energy \\( K = \\frac{1}{2}mv^2 = \\frac{1}{2}(6r^3) = 3r^3 \\).<br>Total Energy \\( E = K + U = 3r^3 + 2r^3 = 5r^3 \\).<br><br><b>Step 4: Evaluate at r = 5m</b><br>\\( E = 5(5^3) = 5(125) = 625 \\, \\text{J} \\)."
+        },
+        {
+          id: 48, topic: "Power",
+          q: "Power supplied to a particle of mass 2 kg varies with time as \\( P=\\frac{3t^2}{2} \\, \\text{W} \\). Here, t is in second. If velocity of particle at \\( t=0 \\) is \\( v=0 \\). The velocity of particle at time \\( t=2\\text{s} \\) will be :-",
+          options: ["(1) \\( 1 \\, \\text{m/s} \\)", "(2) \\( 4 \\, \\text{m/s} \\)", "(3) \\( 2 \\, \\text{m/s} \\)", "(4) \\( 2\\sqrt{2} \\, \\text{m/s} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Find total work done</b><br>Power is the rate of work done: \\( P = \\frac{dW}{dt} \\implies dW = P \\, dt = \\frac{3t^2}{2} dt \\).<br>Total Work done from 0 to 2 seconds is the integral of Power: \\( W = \\int_{0}^{2} \\frac{3t^2}{2} dt = \\left[\\frac{t^3}{2}\\right]_{0}^{2} \\).<br>\\( W = \\frac{2^3}{2} - 0 = \\frac{8}{2} = 4 \\, \\text{J} \\).<br><br><b>Step 2: Apply Work-Energy Theorem</b><br>\\( W = \\Delta K = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2 \\).<br>Since it starts from rest, \\( v_i = 0 \\).<br>\\( 4 = \\frac{1}{2}(2)v_f^2 \\implies v_f^2 = 4 \\implies v_f = 2 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 49, topic: "Power",
+          q: "A force (F) acting on a body is dependent on its displacement (s) as \\( F\\propto s^{-1/3} \\). Therefore, the power delivered by the force varies with its displacement as",
+          options: ["(1) \\( s^{2/3} \\)", "(2) \\( s^{1/2} \\)", "(3) \\( s^{-5/3} \\)", "(4) \\( s^0 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Relate velocity and displacement</b><br>We know \\( F = k s^{-1/3} \\).<br>Using Newton's Second Law and the chain rule: \\( ma = m v \\frac{dv}{ds} = k s^{-1/3} \\).<br>Integrate both sides: \\( \\int v \\, dv = \\int \\frac{k}{m} s^{-1/3} ds \\).<br>\\( \\frac{v^2}{2} = \\frac{k}{m} \\frac{s^{2/3}}{2/3} \\). This shows that \\( v^2 \\propto s^{2/3} \\), which implies \\( v \\propto s^{1/3} \\).<br><br><b>Step 2: Determine power dependency</b><br>Power \\( P = F \\cdot v \\).<br>Substitute the proportionalities: \\( P \\propto (s^{-1/3})(s^{1/3}) = s^0 \\).<br>Since \\( s^0 = 1 \\), Power is constant and completely independent of displacement."
+        },
+        {
+          id: 50, topic: "Power",
+          q: "A particle of mass 1 kg moves in a circular path of radius 1m such that its speed varies with time as per equation \\( v=3t^2 \\, \\text{m/s} \\) where time t is in seconds. The power delivered by the force acting on the particle at t=1s, is :-",
+          options: ["(1) 36 W", "(2) 20 W", "(3) 18 W", "(4) Zero"],
+          correct: 2, 
+          sol: "<b>Step 1: Differentiate forces</b><br>In circular motion, the net force has two components: Centripetal (radial) and Tangential.<br>The centripetal force acts perpendicular to velocity, so it does ZERO work and delivers ZERO power.<br>Only the tangential force delivers power: \\( P = F_t \\times v \\).<br><br><b>Step 2: Calculate Tangential Force</b><br>Tangential acceleration \\( a_t = \\frac{dv}{dt} = \\frac{d}{dt}(3t^2) = 6t \\).<br>At \\( t=1 \\, \\text{s} \\), \\( a_t = 6(1) = 6 \\, \\text{m/s}^2 \\).<br>Tangential force \\( F_t = m a_t = 1 \\times 6 = 6 \\, \\text{N} \\).<br><br><b>Step 3: Calculate Power</b><br>Velocity at \\( t=1 \\, \\text{s} \\) is \\( v = 3(1)^2 = 3 \\, \\text{m/s} \\).<br>Power \\( P = F_t \\times v = 6 \\times 3 = 18 \\, \\text{W} \\)."
+        },
+        {
+          id: 51, topic: "Power",
+          q: "A small block is attached to a source supplying constant power to it. If its displacement at t=4sec is 16m on a horizontal smooth surface then its displacement at t=9sec will be :-",
+          options: ["(1) 36 m", "(2) 48 m", "(3) 64 m", "(4) 54 m"],
+          correct: 3, 
+          sol: "<b>Step 1: Relate displacement to time for constant power</b><br>If Power \\( P \\) is constant, work done \\( W = Pt \\).<br>By Work-Energy, \\( Pt = \\frac{1}{2}mv^2 \\implies v^2 = \\frac{2P}{m}t \\implies v \propto t^{1/2} \\).<br>Since \\( v = \frac{ds}{dt} \propto t^{1/2} \\), integrating gives \\( s \propto t^{3/2} \\).<br><br><b>Step 2: Set up ratio</b><br>\\( \\frac{s_1}{s_2} = \\left(\\frac{t_1}{t_2}\\right)^{3/2} \\).<br>Given \\( s_1 = 16 \\, \\text{m} \\) at \\( t_1 = 4 \\, \\text{s} \\), and we want \\( s_2 \\) at \\( t_2 = 9 \\, \\text{s} \\).<br>\\( \\frac{16}{s_2} = \\left(\\frac{4}{9}\\right)^{3/2} \\).<br><br><b>Step 3: Solve for \\( s_2 \\)</b><br>\\( \\left(\\frac{4}{9}\\right)^{3/2} = \\left(\\sqrt{\\frac{4}{9}}\\right)^3 = \\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27} \\).<br>\\( \\frac{16}{s_2} = \\frac{8}{27} \\implies 8s_2 = 16 \times 27 \implies s_2 = 2 \times 27 = 54 \\, \\text{m} \\)."
+        },
+        {
+          id: 52, topic: "Power",
+          q: "Power versus time graph for a given force is given below. Work done by the force upto time \\( t (\\le t_0) \\). ",
+          options: ["(1) First decreases then increases", "(2) First increases then decreases", "(3) Always increases", "(4) Always decreases"],
+          correct: 2, 
+          sol: "<b>Step 1: Define relationship between Work and Power</b><br>Power is the rate at which work is done: \\( P = \\frac{dW}{dt} \\).<br>Therefore, Work done is the integral (area under the curve) of the Power-time graph: \\( W(t) = \\int_{0}^{t} P(\tau) d\\tau \\).<br><br><b>Step 2: Analyze the graph</b><br>Looking at the provided P-t graph, the curve represents Power values that are strictly positive (the entire parabola sits above the t-axis).<br><br><b>Step 3: Conclusion</b><br>Because you are continually integrating (adding) positive area as time moves forward, the cumulative Work done must always increase. The rate of increase might slow down and speed up, but the total Work never decreases."
+        },
+        {
+          id: 53, topic: "Power",
+          q: "Power due to a force acting on a block varies with time t as shown in figure. Then angle between force acting on the block and its velocity is :- ",
+          options: ["(1) Obtuse at t=1s", "(2) 90° at t=3s", "(3) Acute at t=7s", "(4) 90° at t=6s"],
+          correct: 3, 
+          sol: "<b>Step 1: Relate Power to Vector Angle</b><br>Power is the dot product of Force and Velocity: \\( P = \\vec{F} \cdot \\vec{v} = Fv \cos\theta \\).<br>If \\( P > 0 \\), then \\( \cos\theta > 0 \\), meaning \\( \theta \\) is acute (< 90°).<br>If \\( P < 0 \\), then \\( \cos\theta < 0 \\), meaning \\( \theta \\) is obtuse (> 90°).<br>If \\( P = 0 \\), then \\( \cos\theta = 0 \\), meaning \\( \theta = 90^{\\circ} \\).<br><br><b>Step 2: Test the options against the graph</b><br>At t=1s, P is positive -> angle is acute. (Option 1 is false).<br>At t=3s, P is positive -> angle is acute. (Option 2 is false).<br>At t=7s, P is negative -> angle is obtuse. (Option 3 is false).<br>At t=6s, the graph crosses the axis so P is exactly 0 -> angle is 90°. (Option 4 is true)."
+        },
+        {
+          id: 54, topic: "Power",
+          q: "A toy car can deliver a constant power of 20W. The resistive force on the car is \\( \\alpha v \\), where v is velocity of car in m/s. If maximum velocity of car is 2m/s, the value of \\( \\alpha \\) is.",
+          options: ["(1) 10 kg/s", "(2) 5 kg/s", "(3) 15 kg/s", "(4) 5 kg/s²"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand maximum velocity conditions</b><br>A vehicle reaches its absolute maximum velocity (terminal velocity) when its driving forward force exactly balances the opposing resistive forces. Net force becomes zero.<br>Driving Force = Resistive Force: \\( F_{drive} = \\alpha v_{max} \\).<br><br><b>Step 2: Use Power to find Driving Force</b><br>Since Power \\( P = F_{drive} \times v \\), we have \\( F_{drive} = \\frac{P}{v_{max}} \\).<br>Equating the forces: \\( \\frac{P}{v_{max}} = \\alpha v_{max} \\implies \\alpha = \\frac{P}{(v_{max})^2} \\).<br><br><b>Step 3: Calculate</b><br>Substitute given values: \\( P = 20 \\, \\text{W} \\) and \\( v_{max} = 2 \\, \\text{m/s} \\).<br>\\( \\alpha = \\frac{20}{2^2} = \\frac{20}{4} = 5 \\, \\text{kg/s} \\)."
+        },
+        {
+          id: 55, topic: "Power",
+          q: "An escalator is used to move 5 people (60 kg each) per minute from the first floor of a department store to the second floor, 20 m above. Neglecting friction calculate the power required ?",
+          options: ["(1) 1 kW", "(2) 2 kW", "(3) 3 kW", "(4) 4 kW"],
+          correct: 0, 
+          sol: "<b>Step 1: Calculate total mass and height</b><br>Mass of 5 people \\( m = 5 \times 60 = 300 \\, \\text{kg} \\).<br>Height lifted \\( h = 20 \\, \\text{m} \\).<br>Time taken \\( t = 1 \\, \\text{minute} = 60 \\, \\text{seconds} \\).<br><br><b>Step 2: Calculate Total Work Done</b><br>The work done is fighting gravity to lift this mass: \\( W = mgh \\).<br>\\( W = 300 \times 10 \times 20 = 60,000 \\, \\text{J} \\).<br><br><b>Step 3: Calculate Power</b><br>Power \\( P = \\frac{W}{t} = \\frac{60,000}{60} = 1,000 \\, \\text{W} \\).<br>Converted to kilowatts: \\( 1 \\, \\text{kW} \\)."
+        },
+        {
+          id: 56, topic: "Power",
+          q: "A force F acting on a body depens on its displacement x as \\( F\\propto x^n \\). The power delivered by F will be independent of x if n is-",
+          options: ["(1) 1/3", "(2) -1/3", "(3) 1/2", "(4) -1/2"],
+          correct: 1, 
+          sol: "<b>Step 1: Relate velocity and displacement</b><br>We are given \\( F = k x^n \\).<br>Using Newton's Second Law: \\( m v \\frac{dv}{dx} = k x^n \\).<br>Integrate both sides: \\( \\int v \\, dv = \\frac{k}{m} \\int x^n dx \\).<br>\\( \\frac{v^2}{2} \propto x^{n+1} \\implies v \propto x^{(n+1)/2} \\).<br><br><b>Step 2: Formulate Power proportionality</b><br>Power \\( P = F \cdot v \\).<br>Substitute the relations: \\( P \propto (x^n) \cdot (x^{(n+1)/2}) \\).<br>Add exponents: \\( P \propto x^{n + (n+1)/2} = x^{(2n + n + 1)/2} = x^{(3n+1)/2} \\).<br><br><b>Step 3: Solve for independence</b><br>For Power to be entirely independent of displacement x, its exponent must be zero.<br>\\( \\frac{3n+1}{2} = 0 \\implies 3n + 1 = 0 \\implies n = -1/3 \\)."
+        },
+        {
+          id: 57, topic: "Power",
+          q: "An elevator can carry a maximum load of 1800 kg (elevator + passengers) is moving up with a constant speed of \\( 2 \\, \\text{ms}^{-1} \\). The frictional force opposing the motion is 4000 N. What is minimum power delivered by the motor to the elevator ?",
+          options: ["(1) 22 kW", "(2) 44 kW", "(3) 66 kW", "(4) 88 kW"],
+          correct: 1, 
+          sol: "<b>Step 1: Determine total downward force</b><br>The total downward force the motor must overcome includes the gravitational weight of the elevator system and the opposing kinetic friction.<br>Weight \\( W = mg = 1800 \times 10 = 18000 \\, \\text{N} \\).<br>Friction \\( f = 4000 \\, \\text{N} \\).<br>Total downward force \\( F_{down} = 18000 + 4000 = 22000 \\, \\text{N} \\).<br><br><b>Step 2: Calculate Motor Power</b><br>Since the elevator moves at a constant speed, the motor's upward force must exactly balance the total downward force: \\( F_{motor} = 22000 \\, \\text{N} \\).<br>Power \\( P = F_{motor} \times v = 22000 \times 2 = 44000 \\, \\text{W} \\).<br>Converted to kilowatts: \\( 44 \\, \\text{kW} \\)."
+        },
+        {
+          id: 58, topic: "Power",
+          q: "A sports car accelerates from zero to a certain speed in t seconds. How long does it take for it to accelerate to twice that speed starting from rest, assuming the power of the engine to be constant (independent of velocity) and neglecting any resistance to motion?",
+          options: ["(1) \\( \\sqrt{2} \\, \\text{t sec.} \\)", "(2) \\( 2 \\, \\text{t sec.} \\)", "(3) \\( 3 \\, \\text{t sec.} \\)", "(4) \\( 4 \\, \\text{t sec.} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Relate Time and Velocity under Constant Power</b><br>For an engine delivering constant power \\( P \\), the total work done over time \\( t \\) is \\( W = P \times t \\).<br>By the Work-Energy Theorem, assuming it starts from rest, this work equals its final kinetic energy: \\( P \times t = \\frac{1}{2}mv^2 \\).<br>This shows that time required is directly proportional to the square of velocity: \\( t \propto v^2 \\).<br><br><b>Step 2: Apply condition for double speed</b><br>To reach twice the speed (\\( 2v \\)), the required time \\( t' \\) will be proportional to \\( (2v)^2 = 4v^2 \\).<br>Therefore, it will take exactly 4 times as long: \\( t' = 4t \\)."
+        },
+        {
+          id: 59, topic: "Power",
+          q: "A body is moved along a straight line by a machine delivering a constant power. The distance moved by the body in time t is proportional to :-",
+          options: ["(1) \\( t^{3/4} \\)", "(2) \\( t^{3/2} \\)", "(3) \\( t^{1/4} \\)", "(4) \\( t^{1/2} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Relate velocity and time</b><br>For constant power \\( P \\), Work done \\( W = Pt \\).<br>By Work-Energy Theorem, \\( Pt = \\frac{1}{2}mv^2 \\implies v = \\sqrt{\\frac{2P}{m}} t^{1/2} \\).<br>So, velocity \\( v \propto t^{1/2} \\).<br><br><b>Step 2: Relate distance and time</b><br>Velocity is the rate of change of distance: \\( v = \\frac{ds}{dt} \\).<br>So, \\( \\frac{ds}{dt} \propto t^{1/2} \\).<br>Integrate both sides with respect to time: \\( s \propto \\int t^{1/2} dt = \\frac{t^{3/2}}{3/2} \\).<br>Therefore, displacement \\( s \\propto t^{3/2} \\)."
+        },
+        {
+          id: 61, topic: "Power",
+          q: "A train of mass 100 metric tons is ascending uniformly on an incline of 1 in 250, and the resistance due to friction, etc is equal to 6 kg per metric ton. If the engine be of \\( 7.84 \\times 10^4 \\) watts and be working at full power, find the speed at which the train is going.",
+          options: ["(1) 2 m/s", "(2) 16 m/s", "(3) 8 m/s", "(4) 10 m/s"],
+          correct: 2, 
+          sol: "<b>Step 1: Convert units to standard SI</b><br>Mass of train \\( m = 100 \\, \\text{metric tons} = 100,000 \\, \\text{kg} = 10^5 \\, \\text{kg} \\).<br>Incline of 1 in 250 means \\( \\sin\\theta = 1/250 \\).<br>Frictional resistance \\( f = 6 \\, \\text{kg-wt per ton} = 6 \\times 9.8 \\times 100 = 5880 \\, \\text{N} \\).<br><br><b>Step 2: Calculate total opposing force</b><br>The engine must overcome both the downward component of gravity and friction.<br>Gravity component \\( = mg\\sin\\theta = 10^5 \\times 9.8 \\times (1/250) = 3920 \\, \\text{N} \\).<br>Total opposing force \\( F = 3920 + 5880 = 9800 \\, \\text{N} \\).<br><br><b>Step 3: Calculate speed</b><br>Power \\( P = F \times v \\implies 7.84 \times 10^4 = 9800 \times v \\).<br>\\( v = \\frac{78400}{9800} = 8 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 62, topic: "Power",
+          q: "A particle of mass m is moving in a circular path of constant radius r such that its centripetal acceleration \\( a_c \\) is varying with time t as \\( a_c=k^2rt^2 \\) where k is a constant. The power delivered to the particle by the force acting on it :-",
+          options: ["(1) \\( 2\\pi mk^2r^2 \\)", "(2) \\( mk^2r^2t \\)", "(3) \\( \\frac{mk^4r^2t^5}{3} \\)", "(4) zero"],
+          correct: 1, 
+          sol: "<b>Step 1: Find velocity from centripetal acceleration</b><br>Centripetal acceleration \\( a_c = \\frac{v^2}{r} \\).<br>Given \\( a_c = k^2 r t^2 \\), we set them equal: \\( \\frac{v^2}{r} = k^2 r t^2 \\implies v^2 = k^2 r^2 t^2 \\implies v = k r t \\).<br><br><b>Step 2: Find tangential force</b><br>The power is delivered only by the tangential force (centripetal force does no work).<br>Tangential acceleration \\( a_t = \\frac{dv}{dt} = \\frac{d}{dt}(krt) = kr \\).<br>Tangential force \\( F_t = m a_t = mkr \\).<br><br><b>Step 3: Calculate Power</b><br>Power \\( P = F_t \times v = (mkr) \times (krt) = m k^2 r^2 t \\)."
+        }
+      ]
+    },
     
     // ==========================================
     // CHAPTER: THERMAL PHYSICS (PART 1)
@@ -7233,3 +7662,4 @@
       ]
     }
   };
+
