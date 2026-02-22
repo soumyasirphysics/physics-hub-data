@@ -3379,10 +3379,10 @@
         },
         {
           id: 63, topic: "Moment of Inertia",
-          q: "The moment of inertia of a body is I and its coefficient of linear expansion is \\( \\alpha \\). If temperature of body rises by a small amount \\( \\Delta T \\), then change in moment of inertia about the same axis is :-",
-          options: ["(1) \\( \\alpha I \\Delta T \\)", "(2) \\( 2 \\alpha I \\Delta T \\)", "(3) \\( 4 \\alpha I \\Delta T \\)", "(4) \\( \\frac{\\alpha I \\Delta T}{2} \\)"],
+          q: "The moment of inertia of a body is I and its coefficient of linear expansion is $\\alpha$. If temperature of body rises by a small amount $\\Delta T$, then change in moment of inertia about the same axis is :-",
+          options: ["(1) $\\alpha I\\Delta T$", "(2) $2\\alpha I\\Delta T$", "(3) $4\\alpha I\\Delta T$", "(4) $\\frac{\\alpha I\\Delta T}{2}$"],
           correct: 1, 
-          sol: "<b>Step 1: Formula for MOI expansion</b><br>Moment of inertia is proportional to mass and the square of the dimension: \\( I = C M R^2 \\).<br>Differentiating with respect to the radius: \\( dI = 2 C M R \\, dR \\).<br><br><b>Step 2: Substitute linear expansion</b><br>The change in radius due to thermal expansion is \\( dR = R \\alpha \\Delta T \\).<br>Substitute this back into the derivative:<br>\\( dI = 2 C M R (R \\alpha \\Delta T) = 2 (C M R^2) \\alpha \\Delta T = 2 I \\alpha \\Delta T \\)."
+          sol: "<b>Step 1: Formula for MOI expansion</b><br>Moment of inertia is proportional to mass and the square of the dimension: $I=CMR^2$.<br>Differentiating with respect to the radius: $dI=2CMR\\,dR$.<br><br><b>Step 2: Substitute linear expansion</b><br>The change in radius due to thermal expansion is $dR=R\\alpha\\Delta T$.<br>Substitute this back into the derivative:<br>$dI=2CMR(R\\alpha\\Delta T)=2(CMR^2)\\alpha\\Delta T=2I\\alpha\\Delta T$."
         }
       ]
     },
@@ -8823,6 +8823,7 @@
       ]
     }
   };
+
 
 
 
