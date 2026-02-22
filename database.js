@@ -2234,7 +2234,308 @@
         }
       ]
     },
-    
+    // ==========================================
+    // CHAPTER: CIRCULAR MOTION (PART 1)
+    // ==========================================
+    "Circular Motion": { 
+      classTarget: "Class 11", 
+      totalQs: 45, 
+      topics: ["Kinematics of Circular Motion", "Centripetal & Tangential Acceleration", "Dynamics of Circular Motion", "Banking of Roads", "Vertical Circular Motion"],
+      questions: [
+        {
+          id: 2, topic: "Centripetal & Tangential Acceleration",
+          q: "In a circular motion of a particle, the tangential acceleration of the particle is given by \\( a_t=9 \\, \\text{m/s}^2 \\). The radius of the circle is 4 m. The particle was initially at rest. Time after which acceleration of the particle makes an angle of \\( 45^{\\circ} \\) with the radial acceleration is :",
+          options: ["(1) \\( 1/3 \\) sec", "(2) \\( 2/3 \\) sec", "(3) 1 sec", "(4) \\( 4/3 \\) sec"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand the angle condition</b><br>The total acceleration vector is the vector sum of tangential acceleration (\\( a_t \\)) and radial/centripetal acceleration (\\( a_r \\)).<br>For the total acceleration to make a \\( 45^{\\circ} \\) angle with the radial acceleration, their magnitudes must be equal: \\( \\tan(45^{\\circ}) = \\frac{a_t}{a_r} \\implies a_t = a_r \\).<br><br><b>Step 2: Express both accelerations</b><br>Given \\( a_t = 9 \\, \\text{m/s}^2 \\).<br>Since the particle starts from rest (\\( u=0 \\)), its velocity at time \\( t \\) is \\( v = u + a_t t = 9t \\).<br>Radial acceleration \\( a_r = \\frac{v^2}{R} = \\frac{(9t)^2}{4} = \\frac{81t^2}{4} \\).<br><br><b>Step 3: Equate and solve for time</b><br>\\( 9 = \\frac{81t^2}{4} \\implies 36 = 81t^2 \\implies t^2 = \\frac{36}{81} = \\frac{4}{9} \\).<br>Taking the square root gives \\( t = \\frac{2}{3} \\, \\text{sec} \\)."
+        },
+        {
+          id: 3, topic: "Centripetal & Tangential Acceleration",
+          q: "If the radii of circular path of two particles are in the ratio of 1:2, then in order to have same centripetal acceleration their speeds should be in the ratio of :-",
+          options: ["(1) 1:4", "(2) 4:1", "(3) \\( 1:\\sqrt{2} \\)", "(4) \\( \\sqrt{2}:1 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for centripetal acceleration</b><br>Centripetal acceleration is given by \\( a_c = \\frac{v^2}{r} \\).<br><br><b>Step 2: Set up the equality</b><br>Since both particles have the same centripetal acceleration, \\( \\frac{v_1^2}{r_1} = \\frac{v_2^2}{r_2} \\).<br>Rearranging this to find the ratio of speeds: \\( \\frac{v_1^2}{v_2^2} = \\frac{r_1}{r_2} \\).<br><br><b>Step 3: Solve for the ratio</b><br>Given \\( \\frac{r_1}{r_2} = \\frac{1}{2} \\).<br>Therefore, \\( \\frac{v_1}{v_2} = \\sqrt{\\frac{1}{2}} = \\frac{1}{\\sqrt{2}} \\). The ratio is \\( 1:\\sqrt{2} \\)."
+        },
+        {
+          id: 4, topic: "Kinematics of Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "In one second a particle moves with constant speed from point A to point B along the circular track of radius 1.0 m as shown in the figure. What is the average acceleration of the particle during this motion.",
+          options: ["(1) \\( 2\\pi \\, \\text{m/s}^2 \\) due east", "(2) \\( \\pi \\, \\text{m/s}^2 \\) due west", "(3) Zero", "(4) \\( 2\\pi \\, \\text{m/s}^2 \\) due west"],
+          correct: 3, 
+          sol: "<b>Step 1: Determine initial and final velocity vectors</b><br>The particle covers a semi-circle (A at the bottom, B at the top) in exactly 1 second. Radius \\( R = 1.0 \\, \\text{m} \\).<br>The distance covered is a half-circle: \\( s = \\pi R = \\pi \\, \\text{m} \\).<br>Constant speed \\( v = \\frac{s}{t} = \\frac{\\pi}{1} = \\pi \\, \\text{m/s} \\).<br>Assuming anti-clockwise motion, at point A (bottom), the velocity is directed East: \\( \\vec{v}_i = \\pi \\hat{i} \\).<br>At point B (top), the velocity is directed West: \\( \\vec{v}_f = -\\pi \\hat{i} \\).<br><br><b>Step 2: Calculate Average Acceleration</b><br>Average acceleration \\( \\vec{a}_{avg} = \\frac{\\vec{v}_f - \\vec{v}_i}{\\Delta t} \\).<br>\\( \\vec{a}_{avg} = \\frac{-\\pi \\hat{i} - \\pi \\hat{i}}{1} = -2\\pi \\hat{i} \\, \\text{m/s}^2 \\).<br>The magnitude is \\( 2\\pi \\, \\text{m/s}^2 \\) and the negative sign indicates the direction is strictly due West."
+        },
+        {
+          id: 5, topic: "Centripetal & Tangential Acceleration",
+          q: "A particle is moving on a circular path such that at any instant its position vector, linear velocity, angular velocity, angular acceleration with respect to centre are \\( \\vec{r}, \\vec{v}, \\vec{\\omega}, \\vec{\\alpha} \\) respectively. Net acceleration of the particle is :-",
+          options: ["(1) \\( (\\vec{\\omega}\\times\\vec{v})-(\\vec{r}\\times\\vec{\\alpha}) \\)", "(2) \\( (\\vec{\\omega}\\times\\vec{v})+(\\vec{r}\\times\\vec{\\alpha}) \\)", "(3) \\( (\\vec{v}\\times\\vec{\\omega})+(\\vec{r}\\times\\vec{\\alpha}) \\)", "(4) \\( (\\vec{v}\\times\\vec{\\omega})-(\\vec{r}\\times\\vec{\\alpha}) \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Break down the total acceleration</b><br>The net acceleration of a particle in circular motion is the vector sum of its centripetal acceleration and its tangential acceleration: \\( \\vec{a} = \\vec{a}_c + \\vec{a}_t \\).<br><br><b>Step 2: Formulate vector cross products</b><br>By definition, linear velocity \\( \\vec{v} = \\vec{\\omega} \\times \\vec{r} \\).<br>Centripetal acceleration is directed towards the center: \\( \\vec{a}_c = \\vec{\\omega} \\times \\vec{v} \\).<br>Tangential acceleration arises from changing angular velocity: \\( \\vec{a}_t = \\vec{\\alpha} \\times \\vec{r} \\).<br><br><b>Step 3: Combine and format to match options</b><br>Net acceleration \\( \\vec{a} = (\\vec{\\omega} \\times \\vec{v}) + (\\vec{\\alpha} \\times \\vec{r}) \\).<br>Using the anti-commutative property of cross products, \\( \\vec{\\alpha} \\times \\vec{r} = -(\\vec{r} \\times \\vec{\\alpha}) \\).<br>Therefore, \\( \\vec{a} = (\\vec{\\omega} \\times \\vec{v}) - (\\vec{r} \\times \\vec{\\alpha}) \\)."
+        },
+        {
+          id: 6, topic: "Centripetal & Tangential Acceleration",
+          q: "A car is moving on circular path of radius 100 m such that its speed is increasing at the rate of \\( 5 \\, \\text{m/s}^2 \\). At t=0 it starts from rest. What is the radial acceleration of car at the instant it makes one complete round trip ?",
+          options: ["(1) \\( 20\\pi \\, \\text{m/s}^2 \\)", "(2) \\( 10\\pi \\, \\text{m/s}^2 \\)", "(3) \\( 5\\pi \\, \\text{m/s}^2 \\)", "(4) None of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand the given parameters</b><br>Radius \\( R = 100 \\, \\text{m} \\).<br>Tangential acceleration \\( a_t = 5 \\, \\text{m/s}^2 \\) (since 'speed is increasing' refers to the tangential component).<br>The car starts from rest, so initial speed \\( u = 0 \\).<br><br><b>Step 2: Calculate the speed after one round trip</b><br>The distance covered in one complete revolution is \\( s = 2\\pi R = 2\\pi(100) = 200\\pi \\, \\text{m} \\).<br>Using the third equation of linear kinematics for tangential motion: \\( v^2 = u^2 + 2a_t s \\).<br>\\( v^2 = 0 + 2(5)(200\\pi) = 2000\\pi \\).<br><br><b>Step 3: Calculate radial (centripetal) acceleration</b><br>Radial acceleration \\( a_r = \\frac{v^2}{R} \\).<br>\\( a_r = \\frac{2000\\pi}{100} = 20\\pi \\, \\text{m/s}^2 \\)."
+        },
+        {
+          id: 8, topic: "Kinematics of Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "The angular displacement (\\( \\theta \\)) of the blades of a ceiling fan, when the fan is switched on at t=0 is shown in figure. The average angular velocity of the fan blades during the first 8 seconds will be",
+          options: ["(1) \\( 40\\pi \\, \\text{rad/s} \\)", "(2) \\( 20\\pi \\, \\text{rad/s} \\)", "(3) \\( 10\\pi \\, \\text{rad/s} \\)", "(4) \\( 5\\pi \\, \\text{rad/s} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for average angular velocity</b><br>Average angular velocity is strictly defined as the total angular displacement divided by the total time taken: \\( \\omega_{avg} = \\frac{\\Delta \\theta}{\\Delta t} \\).<br><br><b>Step 2: Extract data from the graph</b><br>At \\( t = 0 \\, \\text{s} \\), the initial angular displacement is \\( \\theta_i = 0 \\, \\text{rad} \\).<br>At \\( t = 8 \\, \\text{s} \\), the final angular displacement is read from the graph as \\( \\theta_f = 80\\pi \\, \\text{rad} \\).<br><br><b>Step 3: Calculate the average</b><br>\\( \\omega_{avg} = \\frac{80\\pi - 0}{8 - 0} = \\frac{80\\pi}{8} = 10\\pi \\, \\text{rad/s} \\)."
+        },
+        {
+          id: 9, topic: "Kinematics of Circular Motion",
+          q: "An aeroplane flying at constant speed 115 m/s towards east, makes a gradual turn following a circular path to fly south. The turn takes 15 seconds to complete. The magnitudes of the centripetal acceleration and average acceleration during the turn, are",
+          options: ["(1) \\( \\frac{23\\sqrt{2}}{3} \\, \\text{m/s}^2, \\frac{46\\pi}{3} \\, \\text{m/s}^2 \\)", "(2) \\( 6 \\, \\text{m/s}^2, \\frac{23\\sqrt{2}}{3} \\, \\text{m/s}^2 \\)", "(3) \\( \\frac{23\\pi}{6} \\, \\text{m/s}^2, \\frac{23\\sqrt{2}}{3} \\, \\text{m/s}^2 \\)", "(4) none of these"],
+          correct: 2, 
+          sol: "<b>Step 1: Calculate Average Acceleration</b><br>Initial velocity \\( \\vec{v}_i = 115 \\hat{i} \\) (East). Final velocity \\( \\vec{v}_f = -115 \\hat{j} \\) (South).<br>Change in velocity \\( \\Delta \\vec{v} = \\vec{v}_f - \\vec{v}_i = -115\\hat{j} - 115\\hat{i} \\).<br>Magnitude of change \\( |\\Delta \\vec{v}| = \\sqrt{(-115)^2 + (-115)^2} = 115\\sqrt{2} \\, \\text{m/s} \\).<br>Average acceleration \\( a_{avg} = \\frac{|\\Delta \\vec{v}|}{\\Delta t} = \\frac{115\\sqrt{2}}{15} = \\frac{23\\sqrt{2}}{3} \\, \\text{m/s}^2 \\).<br><br><b>Step 2: Calculate Centripetal Acceleration</b><br>The plane turns from East to South, which is exactly a quarter of a circle (\\( \\pi/2 \\) radians).<br>Distance of quarter circle \\( s = \\frac{\\pi R}{2} \\). Since it flies at a constant speed, \\( s = v \\times t = 115 \\times 15 = 1725 \\, \\text{m} \\).<br>So, \\( \\frac{\\pi R}{2} = 1725 \\implies R = \\frac{3450}{\\pi} \\, \\text{m} \\).<br>Centripetal acceleration \\( a_c = \\frac{v^2}{R} = \\frac{115^2}{3450/\\pi} = \\frac{13225\\pi}{3450} = \\frac{23\\pi}{6} \\, \\text{m/s}^2 \\)."
+        },
+        {
+          id: 10, topic: "Dynamics of Circular Motion",
+          q: "The track of motorcycle-race is circular and unbanked. There are two bikers on the road, one travels along a path of greater radius than the other. They both lean towards the centre at the same angle. Which one completes the circular path in less time?",
+          options: ["(1) biker having path of smaller radius.", "(2) biker having path of larger radius.", "(3) both will complete circle in same time.", "(4) Both can not lean at same angle if radius is different."],
+          correct: 0, 
+          sol: "<b>Step 1: Relate Lean Angle to Velocity</b><br>For a biker leaning into a turn on an unbanked road, the angle of lean \\( \\theta \\) with the vertical is given by \\( \\tan\\theta = \\frac{v^2}{rg} \\).<br>Since both bikers lean at the exact same angle, the quantity \\( \\frac{v^2}{r} \\) must be a constant for both of them.<br>Therefore, their speeds are related to their radii by \\( v = \\sqrt{rg \\tan\\theta} \\), meaning \\( v \\propto \\sqrt{r} \\).<br><br><b>Step 2: Relate to Time Period</b><br>The time taken to complete one full circular path is \\( T = \\frac{2\\pi r}{v} \\).<br>Substitute the proportionality for velocity: \\( T \\propto \\frac{r}{\\sqrt{r}} = \\sqrt{r} \\).<br>Because Time Period is directly proportional to the square root of the radius, the biker on the path with the smaller radius will complete the circle in less time."
+        },
+        {
+          id: 11, topic: "Kinematics of Circular Motion",
+          q: "A wheel of radius 0.1 m (wheel A) is attached by a non stretching belt to a wheel of radius 0.2 m (wheel B). The belt does not slip. By the time, wheel B turns through one revolution, wheel A will rotate through x revolution. Find the value of x.",
+          options: ["(1) 6", "(2) 4", "(3) 2", "(4) 0"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand the non-slip constraint</b><br>Because the belt connects both wheels without slipping, the linear distance traveled by the rim of wheel A must be perfectly equal to the linear distance traveled by the rim of wheel B.<br>Arc length relation: \\( s_A = s_B \\).<br><br><b>Step 2: Relate Arc Length to Revolutions</b><br>The arc length covered during rotation is given by \\( s = R \\theta \\), where \\( \\theta \\) is the total angle turned.<br>Therefore, \\( R_A \\theta_A = R_B \\theta_B \\).<br><br><b>Step 3: Solve for x</b><br>We are given \\( R_A = 0.1 \\, \\text{m} \\), \\( R_B = 0.2 \\, \\text{m} \\), and \\( \\theta_B = 1 \\, \\text{rev} \\). Let \\( \theta_A = x \\, \\text{rev} \\).<br>\\( 0.1 \\times x = 0.2 \\times 1 \\).<br>\\( x = \\frac{0.2}{0.1} = 2 \\). Wheel A rotates exactly 2 revolutions."
+        },
+        {
+          id: 12, topic: "Banking of Roads",
+          q: "At a turn a track is banked for optimum speed of 40 km/h. If the car travels at 60 km/h. the net frictional force acting on the wheels must be",
+          options: ["(1) static in nature and point downward along the bank of the track for safe driving.", "(2) static in nature and points upward along the bank of the track for safe driving.", "(3) kinetic in nature and points upward along the bank of the track for safe driving.", "(4) kinetic in nature and points downwards along the bank of the track for safe driving."],
+          correct: 0, 
+          sol: "<b>Step 1: Optimum Speed vs Actual Speed</b><br>The track is specifically banked so that at exactly 40 km/h, no friction is required at all to turn safely; the horizontal component of the normal force provides all the necessary centripetal acceleration.<br><br><b>Step 2: Determine Friction Direction</b><br>The car is traveling at 60 km/h, which is faster than the optimum speed. At this higher speed, the car requires more centripetal force to stay in the circle, so it inherently wants to skid OUTWARDS and UP the bank.<br>To prevent this, friction must act inwards, which means it points DOWNWARD along the incline of the bank.<br><br><b>Step 3: Determine Friction Type</b><br>Since we are assuming 'safe driving' where the car successfully holds the turn without actively skidding across the asphalt, the friction keeping the tires locked in their radial track is Static friction."
+        },
+        {
+          id: 13, topic: "Dynamics of Circular Motion",
+          q: "Two-wheeler can tilt while turning, but four-wheeler cannot. Estimate maximum safe speed of a four-wheeler on turn of radius 10 m assuming coefficient of static friction between tires and the flat road to be 0.64 and acceleration due to gravity to be \\( 10 \\, \\text{m/s}^2 \\).",
+          options: ["(1) \\( 6.4 \\, \\text{m/s} \\)", "(2) \\( 2.8 \\, \\text{m/s} \\)", "(3) \\( 8 \\, \\text{m/s} \\)", "(4) \\( 10 \\, \\text{m/s} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand the limiting condition</b><br>For a four-wheeler on a flat (unbanked) curve, the only force providing the necessary centripetal acceleration is the static friction between the tires and the road.<br>The maximum available static friction is \\( f_{max} = \\mu N = \\mu mg \\).<br><br><b>Step 2: Set up the equation</b><br>To prevent sliding out of the turn, the required centripetal force must not exceed the maximum static friction.<br>\\( \\frac{mv_{max}^2}{R} = \\mu mg \\).<br>Canceling mass yields the formula for maximum safe speed: \\( v_{max} = \\sqrt{\\mu R g} \\).<br><br><b>Step 3: Calculate the speed</b><br>Given \\( \\mu = 0.64 \\), \\( R = 10 \\, \\text{m} \\), and \\( g = 10 \\, \\text{m/s}^2 \\).<br>\\( v_{max} = \\sqrt{0.64 \\times 10 \\times 10} = \\sqrt{64} = 8 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 15, topic: "Dynamics of Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A string of length L is fixed at one end and carries a mass M at the other end. The string makes \\( 2/\\pi \\) revolutions per second around the vertical axis through the fixed end as shown in the figure, then tension in the string is",
+          options: ["(1) ML", "(2) 2 ML", "(3) 4 ML", "(4) 16 ML"],
+          correct: 3, 
+          sol: "<b>Step 1: Set up forces for a conical pendulum</b><br>Let the string make an angle \\( \\theta \\) with the vertical. The radius of the circular path is \\( R = L \\sin\\theta \\).<br>The horizontal component of the tension provides the centripetal force: \\( T \\sin\\theta = M \\omega^2 R \\).<br>Substituting \\( R \\): \\( T \\sin\\theta = M \\omega^2 (L \\sin\\theta) \\).<br>Canceling \\( \\sin\\theta \\) gives a direct formula for Tension: \\( T = M \\omega^2 L \\).<br><br><b>Step 2: Find angular velocity</b><br>We are given the frequency \\( f = 2/\\pi \\) rev/s.<br>Angular velocity \\( \\omega = 2\\pi f = 2\\pi \\times (2/\\pi) = 4 \\, \\text{rad/s} \\).<br><br><b>Step 3: Calculate Tension</b><br>Substitute \\( \\omega \\) back into the tension equation: \\( T = M (4)^2 L = 16 ML \\)."
+        },
+        {
+          id: 16, topic: "Dynamics of Circular Motion",
+          q: "When a ball at rest hangs by a single vertical string, tension in the string is mg. If the ball is made to move in a horizontal circle so that the string describes a cone, string tension",
+          options: ["(1) is mg.", "(2) is greater than mg, always.", "(3) is less than mg, always.", "(4) may be greater or less than mg depending on the speed of the ball."],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze the vertical equilibrium</b><br>When the ball moves in a horizontal circle, the string sweeps out a cone, forming an angle \\( \\theta \\) with the vertical axis.<br>Because the ball stays in a horizontal plane, it has zero vertical acceleration. The vertical component of the tension must perfectly balance gravity.<br>\\( T \\cos\\theta = mg \\).<br><br><b>Step 2: Evaluate the Tension</b><br>Rearranging the equation gives \\( T = \\frac{mg}{\\cos\\theta} \\).<br>Since the ball is swinging in a circle, \\( \\theta \\) must be strictly greater than \\( 0^{\\circ} \\) and less than \\( 90^{\\circ} \\).<br>In this range, \\( \\cos\\theta \\) is a fraction strictly less than 1. Dividing a number by a fraction less than 1 always results in a larger number. Therefore, \\( T \\) is always strictly greater than \\( mg \\)."
+        },
+        {
+          id: 17, topic: "Dynamics of Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A small object, suspended by a string, rotates with constant speed, in a horizontal circle as shown in the figure. Point O is at the centre of the circle. Neglect air drag. Which one of the following statements is correct?",
+          options: ["(1) The object is in equilibrium.", "(2) There is a resultant force on the object directed away from O.", "(3) A force acts on the object in the direction of its motion.", "(4) There is a resultant force on the object directed towards O."],
+          correct: 3, 
+          sol: "<b>Step 1: Rule out equilibrium</b><br>The object is moving in a circular path. Even though its speed is constant, the direction of its velocity is continuously changing. Therefore, it is accelerating and cannot be in equilibrium. (Option 1 is false).<br><br><b>Step 2: Understand Centripetal Force</b><br>According to Newton's Second Law, any accelerating object must have a net (resultant) force acting on it in the exact direction of the acceleration.<br>For uniform circular motion, the acceleration vector strictly points radially inward toward the center of the circle.<br>Therefore, the physical resultant force must be directed inwards towards the central point O. (Option 4 is correct)."
+        },
+        {
+          id: 18, topic: "Banking of Roads",
+          q: "A circular road of radius r is banked for a speed \\( v=40 \\, \\text{km/hr} \\). A car of mass m attempts to go on the circular road. The friction coefficient between the tyre and the road is negligible.",
+          options: ["(1) The car cannot make a turn without skidding", "(2) If the car turns at a speed less than 40 km/hr, it will slip up", "(3) If the car turns at the correct speed of 40 km/hr, the force by the road on the car is equal to \\( \\frac{mv^2}{r} \\)", "(4) If the car turns at the correct speed of 40 km/hr, the force by the road on the car is greater than mg as well as greater than \\( \\frac{mv^2}{r} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Define the force by the road</b><br>Since friction is negligible, the only force exerted by the road on the car is the Normal force (\\( N \\)), which acts perpendicular to the banked surface.<br><br><b>Step 2: Setup equations at optimum speed</b><br>At the optimum banked speed, the car doesn't slide. The vertical component of N balances gravity: \\( N \\cos\\theta = mg \\). This means \\( N = \\frac{mg}{\\cos\\theta} \\), making \\( N > mg \\).<br>The horizontal component of N provides the exact required centripetal force: \\( N \\sin\\theta = \\frac{mv^2}{r} \\). This means \\( N = \\frac{mv^2/r}{\\sin\\theta} \\), making \\( N > \\frac{mv^2}{r} \\).<br><br><b>Step 3: Conclusion</b><br>Because both \\( \\cos\\theta \\) and \\( \\sin\\theta \\) are fractions less than 1, the total Normal force \\( N \\) must be strictly greater than the car's weight and strictly greater than the raw centripetal force requirement. Option 4 correctly states this."
+        },
+        {
+          id: 19, topic: "Dynamics of Circular Motion",
+          q: "An insect of mass m=3 kg is inside a vertical drum of radius 2 m that is rotating with an angular velocity of 5 rad/sec. The insect does not fall off, then the minimum co-efficient of friction required is:",
+          options: ["(1) 0.5", "(2) 0.4", "(3) 0.2", "(4) none of these"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify the forces</b><br>For an object pinned to the inner wall of a spinning drum (like a 'Rotor' ride), the wall pushes inward, providing the normal force (\\( N \\)). This normal force acts as the centripetal force. \\( N = m\\omega^2 r \\).<br>The insect's weight (\\( mg \\)) pulls it downwards. To prevent falling, static friction (\\( f_s \\)) must act upwards to balance the weight.<br><br><b>Step 2: Formulate friction condition</b><br>For equilibrium against falling: \\( f_s \ge mg \\).<br>Since maximum static friction is \\( \\mu N \\), the safety condition is \\( \\mu N \ge mg \\).<br>Substitute N: \\( \\mu (m\\omega^2 r) \ge mg \\). The mass \\( m \\) cancels out: \\( \\mu \ge \\frac{g}{\\omega^2 r} \\).<br><br><b>Step 3: Calculate</b><br>Using \\( g = 10 \\, \\text{m/s}^2 \\), \\( \\omega = 5 \\, \\text{rad/s} \\), and \\( r = 2 \\, \\text{m} \\).<br>\\( \\mu_{min} = \\frac{10}{5^2 \times 2} = \\frac{10}{25 \\times 2} = \\frac{10}{50} = 0.2 \\)."
+        },
+        {
+          id: 20, topic: "Dynamics of Circular Motion",
+          q: "The length of the string of a conical pendulum is l and the mass of the bob is m. The point of support is at a height h above the horizontal plane in which the bob revolves. The tension in the string is :-",
+          options: ["(1) \\( \\frac{mgl}{h} \\)", "(2) \\( \\frac{mg\\sqrt{l^2-h^2}}{l} \\)", "(3) \\( \\frac{mgh}{l} \\)", "(4) \\( \\frac{mgl}{\\sqrt{l^2-h^2}} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Balance forces vertically</b><br>In a conical pendulum, the bob circles in a horizontal plane, so it has no vertical acceleration. The vertical component of the string's tension must perfectly balance the downward weight of the bob.<br>Let \\( \\theta \\) be the angle the string makes with the vertical axis.<br>Vertical equilibrium: \\( T \\cos\\theta = mg \\implies T = \\frac{mg}{\\cos\\theta} \\).<br><br><b>Step 2: Use geometry to find the cosine</b><br>The pendulum string, the vertical axis, and the horizontal radius form a right-angled triangle.<br>The string length \\( l \\) is the hypotenuse. The height \\( h \\) from the rotation plane to the support point is the adjacent side to angle \\( \\theta \\).<br>Therefore, \\( \\cos\\theta = \\frac{\\text{Adjacent}}{\\text{Hypotenuse}} = \\frac{h}{l} \\).<br><br><b>Step 3: Substitute and solve</b><br>Substitute \\( \\cos\\theta \\) into the tension equation: \\( T = \\frac{mg}{h/l} = \\frac{mgl}{h} \\)."
+        },
+        {
+          id: 21, topic: "Banking of Roads",
+          q: "A circular curve of a highway is designed for traffic moving at \\( 72 \\, \\text{km/h} \\). If the radius of the curved path is 100 m, the correct angle of banking of the road should be given by:",
+          options: ["(1) \\( \\tan^{-1}\\frac{2}{3} \\)", "(2) \\( \\tan^{-1}\\frac{3}{5} \\)", "(3) \\( \\tan^{-1}\\frac{2}{5} \\)", "(4) \\( \\tan^{-1}\\frac{1}{4} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Convert units to standard SI</b><br>Velocity \\( v = 72 \\, \\text{km/h} = 72 \\times \\frac{5}{18} = 20 \\, \\text{m/s} \\).<br>Radius \\( r = 100 \\, \\text{m} \\).<br><br><b>Step 2: Apply the banking angle formula</b><br>The optimum angle of banking for a given speed is given by \\( \\tan\\theta = \\frac{v^2}{rg} \\).<br><br><b>Step 3: Calculate the angle</b><br>Assume \\( g = 10 \\, \\text{m/s}^2 \\).<br>\\( \\tan\\theta = \\frac{(20)^2}{100 \\times 10} = \\frac{400}{1000} = \\frac{2}{5} \\).<br>Therefore, \\( \\theta = \\tan^{-1}\\left(\\frac{2}{5}\\right) \\)."
+        },
+        {
+          id: 22, topic: "Vertical Circular Motion",
+          q: "A light rod of length l is pivoted at the upper end. Two masses (each m), are attached to the rod, one at the middle and the other at the free end. What horizontal velocity must be imparted to the lower end mass, so that the rod may just take up the horizontal position?",
+          options: ["(1) \\( \\sqrt{\\frac{6lg}{5}} \\)", "(2) \\( \\sqrt{\\frac{lg}{5}} \\)", "(3) \\( \\sqrt{\\frac{12lg}{5}} \\)", "(4) \\( \\sqrt{\\frac{2lg}{5}} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Determine initial kinetic energy</b><br>Let the angular velocity imparted be \\( \\omega \\). The velocity of the bottom mass is \\( v = \\omega l \\), so \\( \\omega = v/l \\).<br>The velocity of the middle mass is \\( v_{mid} = \\omega (l/2) = v/2 \\).<br>Initial Kinetic Energy \\( K_i = \\frac{1}{2}m(v/2)^2 + \\frac{1}{2}mv^2 = \\frac{1}{2}m(v^2/4) + \\frac{1}{2}mv^2 = \\frac{5}{8}mv^2 \\).<br><br><b>Step 2: Determine change in potential energy</b><br>To just reach the horizontal position, the final kinetic energy is zero. The rod is light (massless).<br>The middle mass rises by \\( l/2 \\), gaining PE = \\( mg(l/2) \\).<br>The bottom mass rises by \\( l \\), gaining PE = \\( mgl \\).<br>Total PE gained \\( = \\frac{1}{2}mgl + mgl = \\frac{3}{2}mgl \\).<br><br><b>Step 3: Apply Conservation of Energy</b><br>\\( \\frac{5}{8}mv^2 = \\frac{3}{2}mgl \\implies 5v^2 = 12gl \\implies v = \\sqrt{\\frac{12lg}{5}} \\)."
+        },
+        {
+          id: 23, topic: "Vertical Circular Motion",
+          q: "A body crosses the top most point of a vertical circle with critical speed. What will be its centripetal acceleration when the string is horizontal :-",
+          options: ["(1) g", "(2) 2g", "(3) 3g", "(4) 6g"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify critical speed</b><br>The critical speed at the top of a vertical circle for a string is \\( v_{top} = \\sqrt{gr} \\).<br>Total mechanical energy at the top (taking bottom as reference) = \\( PE + KE = mg(2r) + \\frac{1}{2}m(gr) = 2.5mgr \\).<br><br><b>Step 2: Find velocity when string is horizontal</b><br>When the string is horizontal, the height is \\( r \\).<br>Conservation of energy: \\( 2.5mgr = mgr + \\frac{1}{2}mv_{horiz}^2 \\).<br>\\( 1.5mgr = \\frac{1}{2}mv_{horiz}^2 \\implies v_{horiz}^2 = 3gr \\).<br><br><b>Step 3: Calculate centripetal acceleration</b><br>Centripetal acceleration \\( a_c = \\frac{v^2}{r} = \\frac{3gr}{r} = 3g \\)."
+        },
+        {
+          id: 24, topic: "Vertical Circular Motion",
+          q: "A particle is moving in a vertical circle the tension in the string when passing through two position at angle 30° & 60° from vertical from lowest position are \\( T_1 \\) & \\( T_2 \\) respectively :-",
+          options: ["(1) \\( T_1=T_2 \\)", "(2) \\( T_1>T_2 \\)", "(3) \\( T_1<T_2 \\)", "(4) \\( T_1 \\ge T_2 \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for Tension</b><br>The tension in a vertical circle at an angle \\( \\theta \\) from the lowest point is given by \\( T = mg\\cos\\theta + \\frac{mv^2}{r} \\).<br><br><b>Step 2: Analyze the components</b><br>As the particle moves up from the lowest point, the angle \\( \\theta \\) increases. This causes \\( \\cos\\theta \\) to strictly decrease.<br>Furthermore, as it moves up, it loses kinetic energy to potential energy, meaning its velocity \\( v \\) also strictly decreases.<br><br><b>Step 3: Conclusion</b><br>Since both the weight component (\\( mg\\cos\\theta \\)) and the centripetal component (\\( mv^2/r \\)) decrease as \\( \\theta \\) increases, the total tension must decrease.<br>Therefore, the tension at 30° is greater than the tension at 60°: \\( T_1 > T_2 \\)."
+        },
+        {
+          id: 25, topic: "Vertical Circular Motion",
+          q: "For a particle rotating in a vertical circle with uniform speed, the maximum and minimum tension in the string are in the ratio 5:3. If the radius of vertical circle is 2 m, the speed of revolving body is \\( (g=10 \\, \\text{m/s}^2) \\)",
+          options: ["(1) \\( \\sqrt{5} \\, \\text{m/s} \\)", "(2) \\( 4\\sqrt{5} \\, \\text{m/s} \\)", "(3) \\( 5 \\, \\text{m/s} \\)", "(4) \\( 10 \\, \\text{m/s} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Formulate Tensions</b><br>Because the speed \\( v \\) is uniform (constant), the centripetal term \\( mv^2/r \\) is constant everywhere.<br>Maximum tension is at the bottom: \\( T_{max} = \\frac{mv^2}{r} + mg \\).<br>Minimum tension is at the top: \\( T_{min} = \\frac{mv^2}{r} - mg \\).<br><br><b>Step 2: Apply the given ratio</b><br>\\( \\frac{T_{max}}{T_{min}} = \\frac{5}{3} \\implies \\frac{v^2/r + g}{v^2/r - g} = \\frac{5}{3} \\).<br>Cross-multiply: \\( 3(v^2/r) + 3g = 5(v^2/r) - 5g \\).<br>\\( 8g = 2(v^2/r) \\implies v^2 = 4gr \\).<br><br><b>Step 3: Calculate speed</b><br>Given \\( r = 2 \\, \\text{m} \\) and \\( g = 10 \\, \\text{m/s}^2 \\):<br>\\( v^2 = 4(10)(2) = 80 \\).<br>\\( v = \\sqrt{80} = \\sqrt{16 \\times 5} = 4\\sqrt{5} \\, \\text{m/s} \\)."
+        },
+        {
+          id: 26, topic: "Vertical Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A small object of mass m starts from rest at the position shown and slides along the frictionless loop-the-loop track of radius R. What is the smallest value of y such that the object will slide without losing contact with the track?",
+          options: ["(1) R/2", "(2) R", "(3) R/4", "(4) 3R/4"],
+          correct: 0, 
+          sol: "<b>Step 1: Critical speed at the top</b><br>To just maintain contact at the highest point of the loop, the normal force becomes zero. The required centripetal force is provided entirely by gravity: \\( mg = \\frac{mv_{top}^2}{R} \\implies v_{top}^2 = gR \\).<br><br><b>Step 2: Define heights</b><br>According to the diagram, \\( y \\) is the vertical height of the starting point measured *above the top* of the loop.<br>Total height from the bottom of the loop = \\( 2R + y \\).<br><br><b>Step 3: Conservation of Energy</b><br>Equate PE at the top of the ramp to total energy at the top of the loop (reference at ground):<br>\\( mg(2R + y) = mg(2R) + \\frac{1}{2}mv_{top}^2 \\).<br>\\( mgy = \\frac{1}{2}m(gR) \\implies y = R/2 \\)."
+        },
+        {
+          id: 27, topic: "Vertical Circular Motion",
+          q: "A weightless thread can bear a tension upto 3.7 kg-wt. A stone of mass 500 g is tied to it and revolved in a circular path of radius 4 m in a vertical plane. If \\( g=10 \\, \\text{ms}^{-2} \\), then the maximum angular velocity of the stone will be:-",
+          options: ["(1) 4 rad/s", "(2) 16 rad/s", "(3) \\( \\sqrt{21} \\) rad/s", "(4) 2 rad/s"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify maximum tension</b><br>Tension is maximum at the lowest point of the vertical circle: \\( T_{max} = mg + m\\omega^2 r \\).<br>Maximum allowed tension \\( = 3.7 \\, \\text{kg-wt} = 3.7 \\times 10 = 37 \\, \\text{N} \\).<br>Mass \\( m = 500 \\, \\text{g} = 0.5 \\, \\text{kg} \\). Radius \\( r = 4 \\, \\text{m} \\).<br><br><b>Step 2: Solve for angular velocity</b><br>\\( 37 = 0.5(10) + 0.5 \\times \\omega^2 \\times 4 \\).<br>\\( 37 = 5 + 2\\omega^2 \\implies 32 = 2\\omega^2 \\implies \\omega^2 = 16 \\).<br>\\( \\omega = 4 \\, \\text{rad/s} \\)."
+        },
+        {
+          id: 28, topic: "Dynamics of Circular Motion",
+          q: "A bead is arranged to move with constant speed around a loop that lies in a vertical plane. The magnitude of the net force on the bead is",
+          options: ["(1) maximum at the bottom", "(2) maximum at the top", "(3) maximum at the side points", "(4) the same at all points"],
+          correct: 3, 
+          sol: "<b>Step 1: Components of Net Force</b><br>The net force on a particle in circular motion is the vector sum of its tangential force and its centripetal force: \\( F_{net} = \\sqrt{F_t^2 + F_c^2} \\).<br><br><b>Step 2: Analyze the conditions</b><br>The problem explicitly states the bead moves with 'constant speed'. Therefore, tangential acceleration is zero, so \\( F_t = 0 \\).<br>The net force is simply the centripetal force: \\( F_{net} = F_c = \\frac{mv^2}{r} \\).<br>Since mass \\( m \\), speed \\( v \\), and radius \\( r \\) are all constant, the magnitude of the net force remains perfectly constant and the same at all points on the loop."
+        },
+        {
+          id: 29, topic: "Vertical Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "An object of mass m is released from rest at a height h above the surface of a table. The object slides along the inside of the loop. The loop track consisting of a ramp and a circular loop of radius R shown in the figure. Assume that the track is frictionless. When the object is at the top of the circular track it pushes against the track with a force equal to three times its weight. What height was the object dropped from?",
+          options: ["(1) 3R", "(2) 4R", "(3) 5R", "(4) 6R"],
+          correct: 1, 
+          sol: "<b>Step 1: Dynamics at the top of the loop</b><br>At the top of the loop, both gravity and the normal force point downwards to provide centripetal force.<br>\\( N + mg = \\frac{mv^2}{R} \\).<br>We are given that the object pushes against the track with \\( 3mg \\), so by Newton's 3rd Law, the track pushes back with normal force \\( N = 3mg \\).<br>\\( 3mg + mg = \\frac{mv^2}{R} \\implies 4mg = \\frac{mv^2}{R} \\implies v^2 = 4gR \\).<br><br><b>Step 2: Conservation of Energy</b><br>Energy at release height \\( h \\) equals energy at the top of the loop (height \\( 2R \\)).<br>\\( mgh = mg(2R) + \\frac{1}{2}mv^2 \\).<br>Substitute \\( v^2 = 4gR \\):<br>\\( mgh = 2mgR + \\frac{1}{2}m(4gR) = 2mgR + 2mgR = 4mgR \\).<br>Therefore, \\( h = 4R \\)."
+        },
+        {
+          id: 30, topic: "Kinematics of Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A pendulum is released from rest from the point A as shown in the figure. The string of the pendulum is taut. OA makes an angle 30° with the vertical. The acceleration of the pendulum bob at this instant would be .............",
+          options: ["(1) along AO", "(2) along the vertical", "(3) in a direction perpendicular to OA", "(4) In a direction making an angle less than 30° with the vertical"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify acceleration components</b><br>The acceleration of the pendulum bob has two possible components: centripetal (along the string AO) and tangential (perpendicular to the string).<br><br><b>Step 2: Evaluate at the moment of release</b><br>At the exact instant of release, the bob's velocity is zero (\\( v = 0 \\)).<br>Centripetal acceleration \\( a_c = v^2/r = 0 \\).<br>Tangential acceleration \\( a_t = g\\sin\\theta = g\\sin 30^{\\circ} \\) (non-zero).<br><br><b>Step 3: Determine direction</b><br>Since the centripetal acceleration is zero, the total net acceleration is purely tangential. Therefore, the acceleration vector points in a direction exactly perpendicular to the string OA."
+        },
+        {
+          id: 31, topic: "Vertical Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A small ball of mass m is suspended from a light rod as shown. The ball is given a horizontal velocity at A equal to twice the minimum velocity required by the ball to complete the loop. Find the tension in the rod when the ball passes through the topmost point:-",
+          options: ["(1) 15 mg", "(2) mg", "(3) 11 mg", "(4) 12 mg"],
+          correct: 2, 
+          sol: "<b>Step 1: Determine initial velocity</b><br>For a light rigid rod, the minimum velocity required at the bottom to complete the circle is \\( v_{min} = \\sqrt{4gl} \\) (because the rod can support the ball at the top even if velocity approaches zero).<br>The given velocity is twice this minimum: \\( v_A = 2\\sqrt{4gl} = \\sqrt{16gl} \\).<br><br><b>Step 2: Find velocity at the top</b><br>Using conservation of energy from bottom to top (height \\( 2l \\)):<br>\\( \\frac{1}{2}mv_A^2 = mg(2l) + \\frac{1}{2}mv_{top}^2 \\).<br>\\( \\frac{1}{2}m(16gl) = 2mgl + \\frac{1}{2}mv_{top}^2 \\implies 8mgl - 2mgl = 6mgl = \\frac{1}{2}mv_{top}^2 \\implies v_{top}^2 = 12gl \\).<br><br><b>Step 3: Calculate tension at the top</b><br>At the top, both tension and gravity act downwards: \\( T + mg = \\frac{mv_{top}^2}{l} \\).<br>\\( T + mg = \\frac{m(12gl)}{l} = 12mg \\implies T = 11mg \\)."
+        },
+        {
+          id: 32, topic: "Vertical Circular Motion",
+          q: "In vertical circular motion of a bob, match the entries of list-I with entries of list-II. Here \\( v_0 \\) is the velocity of bob at lowest point & T is tension in string.<br><table><tr><th>List-I (speed at lowest point)</th><th>List-II (possible situation)</th></tr><tr><td>(P) \\( v_0=\\sqrt{5gl} \\)</td><td>(1) \\( T_{lowest}=6mg \\)</td></tr><tr><td>(Q) \\( v_0=\\sqrt{gl} \\)</td><td>(2) string will slack for a finite time</td></tr><tr><td>(R) \\( v_0=2\\sqrt{gl} \\)</td><td>(3) bob will oscillate</td></tr><tr><td>(S) \\( v_0=3\\sqrt{gl} \\)</td><td>(4) \\( T_{highest}=4mg \\)</td></tr></table>",
+          options: ["(1) P-1, Q-2, R-3, S-4", "(2) P-4, Q-2, R-3, S-1", "(3) P-1, Q-3, R-2, S-4", "(4) P-4, Q-3, R-2, S-1"],
+          correct: 2, 
+          sol: "<b>Step 1: Evaluate (P)</b><br>\\( v_0 = \\sqrt{5gl} \\). This is the exact critical speed to complete the circle. Tension at the lowest point: \\( T = mg + mv_0^2/l = mg + m(5gl)/l = 6mg \\). Matches (1).<br><br><b>Step 2: Evaluate (Q)</b><br>\\( v_0 = \\sqrt{gl} \\). Since \\( v_0 < \\sqrt{2gl} \\), the bob doesn't reach the horizontal. It acts as a simple pendulum and oscillates. Matches (3).<br><br><b>Step 3: Evaluate (R)</b><br>\\( v_0 = 2\\sqrt{gl} = \\sqrt{4gl} \\). Since \\( \\sqrt{2gl} < v_0 < \\sqrt{5gl} \\), the bob passes the horizontal but doesn't have enough speed to reach the top. The string will go slack for a finite time. Matches (2).<br><br><b>Step 4: Evaluate (S)</b><br>\\( v_0 = 3\\sqrt{gl} = \\sqrt{9gl} \\). It completes the loop. Velocity at top: \\( v_{top}^2 = v_0^2 - 4gl = 9gl - 4gl = 5gl \\). Tension at top: \\( T = mv_{top}^2/l - mg = 5mg - mg = 4mg \\). Matches (4).<br>Correct mapping: P-1, Q-3, R-2, S-4."
+        },
+        {
+          id: 33, topic: "Kinematics of Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A pendulum of length \\( l=1\\text{m} \\) is released from \\( \\theta_0=60^{\\circ} \\). The rate of change of speed of the bob at \\( \\theta=30^{\\circ} \\) is \\( (g=10 \\, \\text{m/s}^2) \\) :-",
+          options: ["(1) \\( 5\\sqrt{3} \\, \\text{m/s}^2 \\)", "(2) \\( 2.5 \\, \\text{m/s}^2 \\)", "(3) \\( 10 \\, \\text{m/s}^2 \\)", "(4) \\( 5 \\, \\text{m/s}^2 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Understand 'rate of change of speed'</b><br>The rate of change of speed (magnitude of velocity) is exactly defined as the tangential acceleration \\( a_t \\) of the particle. It does not include centripetal acceleration, which only changes direction.<br><br><b>Step 2: Formula for tangential acceleration</b><br>For a simple pendulum at an angle \\( \\theta \\) with the vertical, the only force acting tangentially is the component of gravity. Therefore, \\( a_t = g\\sin\\theta \\).<br><br><b>Step 3: Calculate</b><br>At \\( \\theta = 30^{\\circ} \\): \\( a_t = 10 \times \\sin(30^{\\circ}) = 10 \times 0.5 = 5 \\, \\text{m/s}^2 \\)."
+        },
+        {
+          id: 34, topic: "Vertical Circular Motion",
+          q: "A weightless thread can withstand tension upto 30 N. A stone of mass 0.5 kg is tied to it and is revolved in a circular path of radius 2m in a vertical plane. If \\( g=10 \\, \\text{m/s}^2 \\), then the maximum angular velocity of the stone can be:-",
+          options: ["(1) 5 rad/s", "(2) \\( \\sqrt{30} \\) rad/s", "(3) \\( \\sqrt{60} \\) rad/s", "(4) 10 rad/s"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify maximum tension point</b><br>In a vertical circle, the string experiences maximum tension when the stone is at the absolute lowest point of its trajectory.<br>At the bottom, \\( T_{max} = mg + \frac{mv^2}{r} = mg + m\omega^2 r \\).<br><br><b>Step 2: Substitute given values</b><br>We know \\( T_{max} = 30 \\, \\text{N} \\), \\( m = 0.5 \\, \\text{kg} \\), \\( r = 2 \\, \\text{m} \\), and \\( g = 10 \\, \\text{m/s}^2 \\).<br>\\( 30 = 0.5(10) + 0.5 \\times \omega^2 \times 2 \\).<br>\\( 30 = 5 + \omega^2 \\).<br><br><b>Step 3: Solve for angular velocity</b><br>\\( \omega^2 = 30 - 5 = 25 \\implies \omega = 5 \\, \\text{rad/s} \\)."
+        },
+        {
+          id: 37, topic: "Dynamics of Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A car travels with constant speed on a circular road on level ground. In the diagram above, \\( F_{air} \\) is the force of air resistance on the car. Which of the other forces shown, best represents the horizontal force of the road on the car's tires?",
+          options: ["(1) \\( F_A \\)", "(2) \\( F_B \\)", "(3) \\( F_C \\)", "(4) \\( F_D \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze the required force components</b><br>The car is moving in a circle at a constant speed. This requires a net centripetal force pointing directly towards the center of the circle.<br>Simultaneously, the car must overcome the backward force of air resistance (\\( F_{air} \\)) to maintain its constant speed, which requires a forward tangential force.<br><br><b>Step 2: Determine the total road force</b><br>The horizontal force exerted by the road on the tires (via friction) must provide BOTH of these components: a radial component pointing inwards, and a tangential component pointing forwards.<br>Looking at the diagram, \\( F_B \\) is the only vector that points diagonally forward and inward, representing the vector sum of both required forces."
+        },
+        {
+          id: 38, topic: "Dynamics of Circular Motion",
+          q: "In non uniform circular motion rate of work done by force acting on particle is",
+          options: ["(1) zero", "(2) non zero", "(3) both (1) & (2)", "(4) none of these"],
+          correct: 1, 
+          sol: "<b>Step 1: Define rate of work done</b><br>The rate of work done is Power, given by the dot product of force and velocity: \\( P = \vec{F} \cdot \vec{v} \\).<br><br><b>Step 2: Differentiate uniform vs non-uniform</b><br>In *uniform* circular motion, force is purely centripetal (perpendicular to velocity), so \\( \vec{F} \cdot \vec{v} = 0 \\).<br>In *non-uniform* circular motion, the particle's speed is changing, meaning there MUST be a tangential force component (\\( F_t \\)) parallel or anti-parallel to the velocity vector.<br><br><b>Step 3: Conclusion</b><br>Because there is a tangential force aligned with the velocity, the dot product \\( \vec{F}_t \cdot \vec{v} \\) is not zero. Therefore, the rate of work done is non-zero."
+        },
+        {
+          id: 39, topic: "Dynamics of Circular Motion",
+          q: "If the overbridge is concave instead of being convex, the thrust on the road at the lowest position will be :-",
+          options: ["(1) \\( mg+\\frac{mv^2}{r} \\)", "(2) \\( mg-\\frac{mv^2}{r} \\)", "(3) \\( \\frac{m^2v^2g}{r} \\)", "(4) \\( \\frac{v^2g}{r} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Analyze the geometry</b><br>A concave overbridge resembles the bottom of a valley or the lowest point of a vertical circle. The center of curvature of the circular path lies above the vehicle.<br><br><b>Step 2: Set up the force equation</b><br>The forces acting on the vehicle are the downward weight (\\( mg \\)) and the upward normal thrust (\\( N \\)) from the road.<br>The net force towards the center of curvature provides the centripetal acceleration: \\( F_{net} = N - mg = \\frac{mv^2}{r} \\).<br><br><b>Step 3: Solve for Thrust</b><br>Rearranging the equation yields the thrust exerted on the road (which is equal to N by Newton's 3rd Law): \\( N = mg + \\frac{mv^2}{r} \\)."
+        },
+        {
+          id: 40, topic: "Kinematics of Circular Motion",
+          q: "When a bus suddenly take a turn, the passengers are thrown outwards because of :-",
+          options: ["(1) speed of motion", "(2) inertia of motion", "(3) acceleration of motion", "(4) none of these"],
+          correct: 1, 
+          sol: "<b>Concept: Newton's First Law</b><br>According to the law of inertia, a body in motion will naturally tend to continue moving in a straight line at a constant speed unless acted upon by an external unbalanced force.<br>When a bus suddenly turns, the passengers' bodies inherently want to continue moving in their original straight-line path due to their inertia of motion (specifically, inertia of direction).<br>Relative to the turning bus, this makes them feel as though they are being thrown 'outwards'."
+        },
+        {
+          id: 41, topic: "Dynamics of Circular Motion",
+          q: "A car with closed windows takes a left turn. A helium filled balloon in the car will be pushed to the (as seen from car)",
+          options: ["(1) right", "(2) left", "(3) front", "(4) back"],
+          correct: 1, 
+          sol: "<b>Step 1: Frame of Reference</b><br>When the car turns left, it accelerates to the left. In the car's non-inertial reference frame, every object experiences a pseudo force directed to the right (outwards).<br><br><b>Step 2: Air Density vs Helium Density</b><br>Because the air inside the cabin is denser and heavier than the helium balloon, the outward pseudo force affects the air much more strongly. The heavier air rushes to the right side of the car, creating a localized high-pressure zone on the right side and a low-pressure zone on the left.<br><br><b>Step 3: Buoyant Force</b><br>Buoyant force always pushes lighter objects away from high pressure and towards low pressure. Therefore, the balloon is pushed inwards to the left."
+        },
+        {
+          id: 42, topic: "Dynamics of Circular Motion",
+          q: "A particle of mass m is observed from an inertial frame of reference, and is found to move in a circle of radius r with a uniform speed v. The centrifugal force on it is",
+          options: ["(1) \\( \\frac{mv^2}{r} \\) towards the centre", "(2) \\( \\frac{mv^2}{r} \\) away from the centre", "(3) \\( \\frac{mv^2}{r} \\) along the tangent through the particle", "(4) Zero"],
+          correct: 3, 
+          sol: "<b>Concept: Inertial vs Non-Inertial Frames</b><br>Centrifugal force is purely a 'fictitious' or 'pseudo' force. It is mathematically introduced only when observing a system from a rotating (non-inertial) frame of reference to make Newton's laws appear to work.<br>When observing circular motion from a stationary, non-accelerating **inertial frame of reference**, there are absolutely no pseudo forces present. The only force is the real, inward-pointing centripetal force. Therefore, the centrifugal force in this frame is exactly Zero."
+        },
+        {
+          id: 43, topic: "Vertical Circular Motion",
+          q: "A particle is projected with velocity u horizontally from the top of a fixed smooth sphere of radius 'a' so that it slides down the outside of the sphere. If the particle leaves the sphere when it has fallen a vertical distance \\( (a/4) \\), the value of u is",
+          options: ["(1) \\( \\sqrt{ag} \\)", "(2) \\( \\sqrt{2ag} \\)", "(3) \\( \\frac{\\sqrt{ag}}{2} \\)", "(4) \\( \\frac{3\\sqrt{ag}}{2} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze geometry at detachment</b><br>Let the particle leave the sphere at an angle \\( \\theta \\) from the vertical. The vertical distance fallen is \\( h = a - a\\cos\\theta \\).<br>We are given \\( h = a/4 \\). So, \\( a/4 = a - a\\cos\\theta \\implies \\cos\\theta = 3/4 \\).<br><br><b>Step 2: Velocity at detachment point</b><br>By conservation of energy: \\( \\frac{1}{2}mu^2 + mgh = \\frac{1}{2}mv^2 \\).<br>\\( v^2 = u^2 + 2g(a/4) = u^2 + \\frac{ag}{2} \\).<br><br><b>Step 3: Apply condition for leaving the sphere</b><br>The particle leaves the surface when the normal force \\( N = 0 \\).<br>\\( mg\\cos\\theta - N = \\frac{mv^2}{a} \\implies mg(3/4) = \\frac{m(u^2 + ag/2)}{a} \\).<br>Cancel mass: \\( \\frac{3g}{4} = \\frac{u^2}{a} + \\frac{g}{2} \\implies \\frac{u^2}{a} = \\frac{3g}{4} - \\frac{2g}{4} = \\frac{g}{4} \\).<br>Therefore, \\( u^2 = \\frac{ag}{4} \\implies u = \\frac{\\sqrt{ag}}{2} \\)."
+        },
+        {
+          id: 44, topic: "Dynamics of Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A skier of mass M slides down a ramp shaped as a circle of radius R. At the end point of the ramp just before the skier is in the air, the magnitude of the normal force exerted by the ramp on the skier is N. The acceleration due to gravity is g. Then :-",
+          options: ["(1) The magnitude of the normal force N is greater than Mg", "(2) The magnitude of the normal force N is equal to Mg", "(3) The magnitude of the normal force N is less than Mg", "(4) The magnitude of the normal force N can be greater than, equal to, or less than Mg depending on the speed of the skier."],
+          correct: 0, 
+          sol: "<b>Step 1: Analyze the path of motion</b><br>At the end of the ramp, the skier is moving along a circular path of radius R. The ramp curves upwards, meaning the center of the circular path is directly above the skier.<br><br><b>Step 2: Setup the dynamic equation</b><br>Since the skier is in circular motion, there must be a net centripetal force pointing towards the center of the circle (upwards).<br>The forces acting on the skier are the Normal force (N) upwards and gravity (Mg) downwards.<br>Newton's Second Law for the radial direction gives: \\( N - Mg = \\frac{Mv^2}{R} \\).<br><br><b>Step 3: Conclusion</b><br>Rearranging the equation yields \\( N = Mg + \\frac{Mv^2}{R} \\).<br>Since the term \\( \\frac{Mv^2}{R} \\) is strictly positive as long as the skier is moving, the Normal force \\( N \\) must be strictly greater than the skier's weight \\( Mg \\)."
+        },
+        {
+          id: 45, topic: "Kinematics of Circular Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A car runs at constant speed around the horizontal race track shown in the figure. Over which portion of the track is the magnitude of the acceleration the greatest?",
+          options: ["(1) From 1 to 2", "(2) From 2 to 3", "(3) From 3 to 4", "(4) From 4 to 1"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand acceleration at constant speed</b><br>If a car moves with a constant speed, its tangential acceleration is zero. The only acceleration it experiences is the centripetal (radial) acceleration required to turn.<br>The formula for centripetal acceleration is \\( a = \\frac{v^2}{r} \\), where \\( v \\) is the constant speed and \\( r \\) is the local radius of curvature of the track.<br><br><b>Step 2: Relate acceleration to track geometry</b><br>Since \\( v \\) is constant throughout the entire track, the acceleration \\( a \\) is inversely proportional to the radius of curvature \\( r \\).<br>This means the acceleration will be greatest wherever the radius of curvature is the smallest (i.e., the sharpest, tightest turn).<br><br><b>Step 3: Evaluate the diagram</b><br>Looking at the provided racetrack shape, the portion at region 3 (the sharp hairpin curve) clearly has the tightest curve and therefore the smallest radius of curvature compared to the wider turns at region 1. Therefore, the acceleration is greatest at portion 3."
+        }
+      ]
+    },
     // ==========================================
     // CHAPTER: THERMAL PHYSICS (PART 1)
     // ==========================================
@@ -7672,6 +7973,7 @@
       ]
     }
   };
+
 
 
 
