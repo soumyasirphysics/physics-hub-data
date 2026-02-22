@@ -2239,7 +2239,7 @@
     // ==========================================
     "Circular Motion": { 
       classTarget: "Class 11", 
-      totalQs: 45, 
+      totalQs: 40, 
       topics: ["Kinematics of Circular Motion", "Centripetal & Tangential Acceleration", "Dynamics of Circular Motion", "Banking of Roads", "Vertical Circular Motion"],
       questions: [
         {
@@ -7973,6 +7973,7 @@
       ]
     }
   };
+
 
 
 
