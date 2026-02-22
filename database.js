@@ -33,6 +33,7 @@
         {
           id: 4, topic: "Resolution & Resultant",
           q: "Two forces act on a particle simultaneously as shown in the figure. Find net force in milli newton on the particle. [Dyne is the CGS unit of force] ",
+          <center>imgUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5E2lxYZ8zn2QeFMAlTEDLEF0LFPeSnib_tdCOqfMtp-rMuTKV_QWiBRKqaLdkG7HWnDfScw9arQDRdAVLBfeyhwq0Q54JWQwhy0rd82JdpJWjYTVRLBTsrsXDhsgeurewhpKg089iWiXi34QokuCuNwSOn35Tf1w1tqo6hky9L_gLL07D2R48sveXNoYF/s320/vec_4.png"</center>,
           options: ["(1) \\( \\sqrt{3} \\)", "(2) \\( \\sqrt{2} \\)", "(3) 1", "(4) 2"],
           correct: 0, 
           sol: "<b>Step 1: Convert units to a common system</b><br>Force \\( F_1 = 1.0 \\, \\text{mN} = 10^{-3} \\, \\text{N} \\).<br>Force \\( F_2 = 100 \\, \\text{dyne} = 100 \\times 10^{-5} \\, \\text{N} = 10^{-3} \\, \\text{N} = 1.0 \\, \\text{mN} \\).<br><br><b>Step 2: Apply the parallelogram law of vector addition</b><br>The resultant of two forces \\( F_1 \\) and \\( F_2 \\) acting at an angle \\( \\theta \\) is given by \\( R = \\sqrt{F_1^2 + F_2^2 + 2F_1 F_2 \\cos\\theta} \\).<br>Given \\( \\theta = 60^{\\circ} \\), \\( \\cos(60^{\\circ}) = 1/2 \\).<br><br><b>Step 3: Calculate the resultant</b><br>\\( R = \\sqrt{1^2 + 1^2 + 2(1)(1)(1/2)} \\, \\text{mN} \\)<br>\\( R = \\sqrt{1 + 1 + 1} = \\sqrt{3} \\, \\text{mN} \\)."
@@ -9683,6 +9684,7 @@
       ]
     }
   };
+
 
 
 
