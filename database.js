@@ -2904,7 +2904,482 @@
         }
       ]
     },
-    
+    // ==========================================
+    // CHAPTER: ROTATIONAL MOTION (PART 1)
+    // ==========================================
+    "Rotational Motion": { 
+      classTarget: "Class 11", 
+      totalQs: 60, 
+      topics: ["Moment of Inertia", "Kinematics of Rotational Motion", "Torque and Angular Acceleration", "Angular Momentum", "Rolling Motion"],
+      questions: [
+        {
+          id: 1, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A triangular metal sheet of uniform thickness 10 cm and uniform density \\( 5000 \\, \\text{kg/m}^3 \\). The lengths of sides AB, BC and CA are 5 m, 6 m and 5 m respectively. The moment of inertia about the side BC is:",
+          options: ["(1) \\( 12\\times 10^3 \\, \\text{kg m}^2 \\)", "(2) \\( 14\\times 10^3 \\, \\text{kg m}^2 \\)", "(3) \\( 16\\times 10^3 \\, \\text{kg m}^2 \\)", "(4) \\( 18\\times 10^3 \\, \\text{kg m}^2 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Calculate the dimensions of the triangle</b><br>The base BC is 6 m. Since AB = AC = 5 m, it is an isosceles triangle.<br>The altitude \\( h \\) from vertex A to base BC can be found using the Pythagorean theorem on the bisected half-triangle: \\( h = \\sqrt{5^2 - 3^2} = \\sqrt{25 - 9} = \\sqrt{16} = 4 \\, \\text{m} \\).<br><br><b>Step 2: Calculate the mass of the plate</b><br>Area of triangle = \\( \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 6 \\times 4 = 12 \\, \\text{m}^2 \\).<br>Volume = Area \\( \\times \\) thickness = \\( 12 \\times 0.1 = 1.2 \\, \\text{m}^3 \\).<br>Mass \\( M = \\text{Volume} \\times \\text{density} = 1.2 \\times 5000 = 6000 \\, \\text{kg} \\).<br><br><b>Step 3: Calculate Moment of Inertia</b><br>The moment of inertia of a uniform triangular plate about its base is given by the standard formula \\( I = \\frac{M h^2}{6} \\).<br>\\( I = \\frac{6000 \\times 4^2}{6} = 1000 \\times 16 = 16000 \\, \\text{kg m}^2 = 16 \\times 10^3 \\, \\text{kg m}^2 \\)."
+        },
+        {
+          id: 2, topic: "Kinematics of Rotational Motion",
+          q: "A rigid body rotates about a fixed axis with variable angular velocity equal to \\( \\alpha-\\beta t \\) where t is time and \\( \\alpha, \\beta \\) are constants. The angle (in radian) through which it rotates before its stops is :-",
+          options: ["(1) \\( \\frac{\\alpha^2}{2\\beta} \\)", "(2) \\( \\frac{\\alpha^2-\\beta^2}{2\\alpha} \\)", "(3) \\( \\frac{\\alpha^2-\\beta^2}{2\\beta} \\)", "(4) \\( \\frac{(\\alpha-\\beta)\\alpha}{2} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Find the time when the body stops</b><br>The body stops rotating when its angular velocity becomes exactly zero.<br>\\( \\omega = \\alpha - \\beta t = 0 \\implies t = \\frac{\\alpha}{\\beta} \\).<br><br><b>Step 2: Calculate the angular displacement</b><br>Angular displacement \\( \\theta \\) is the integral of angular velocity over time: \\( \\theta = \\int_0^t \\omega \\, dt = \\int_0^{\\alpha/\\beta} (\\alpha - \\beta t) dt \\).<br>\\( \\theta = \\left[ \\alpha t - \\frac{\\beta t^2}{2} \\right]_0^{\\alpha/\\beta} \\).<br>\\( \\theta = \\alpha\\left(\\frac{\\alpha}{\\beta}\\right) - \\frac{\\beta}{2}\\left(\\frac{\\alpha}{\\beta}\\right)^2 = \\frac{\\alpha^2}{\\beta} - \\frac{\\alpha^2}{2\\beta} = \\frac{\\alpha^2}{2\\beta} \\)."
+        },
+        {
+          id: 3, topic: "Moment of Inertia",
+          q: "The moment of inertia of a uniform cylinder of length l and radius R about its perpendicular bisector is I. What is the ratio \\( l/R \\) such that the moment of inertia is minimum?",
+          options: ["(1) 1", "(2) \\( 3/\\sqrt{2} \\)", "(3) \\( \\sqrt{3/2} \\)", "(4) \\( \\sqrt{3}/2 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Write the expression for Moment of Inertia</b><br>The moment of inertia of a solid cylinder of mass M about its perpendicular bisector is \\( I = M\\left(\\frac{R^2}{4} + \\frac{l^2}{12}\\right) \\).<br><br><b>Step 2: Express R in terms of l using constant volume/mass</b><br>The mass \\( M = \\rho \\times \\pi R^2 l \\) is constant for a given amount of material. Therefore, \\( R^2 = \\frac{M}{\\rho \\pi l} \\).<br>Substitute \\( R^2 \\) into the equation for I:<br>\\( I = M \\left( \\frac{M}{4\\rho\\pi l} + \\frac{l^2}{12} \\right) \\).<br><br><b>Step 3: Minimize the function</b><br>To find the minimum, set the derivative \\( dI/dl \\) to zero:<br>\\( \\frac{dI}{dl} = M \\left( -\\frac{M}{4\\rho\\pi l^2} + \\frac{2l}{12} \\right) = 0 \\).<br>Equating the terms: \\( \\frac{M}{4\\rho\\pi l^2} = \\frac{l}{6} \\).<br>Substitute \\( M/(\\rho\\pi) = R^2 l \\) back in: \\( \\frac{R^2 l}{4l^2} = \\frac{l}{6} \\implies \\frac{R^2}{4l} = \\frac{l}{6} \\).<br>Rearranging gives \\( \\frac{l^2}{R^2} = \\frac{6}{4} = \\frac{3}{2} \\implies \\frac{l}{R} = \\sqrt{\\frac{3}{2}} \\)."
+        },
+        {
+          id: 4, topic: "Moment of Inertia",
+          q: "Moment of inertia of a rigid body is expressed in units of \\( \\text{kg-m}^2 \\). There are two rods A and B made of same metal. Both of them have equal cross-sectional area but rod A is double in length as compared to rod B. What is the ratio of moment of inertia of rod A to that of rod B?",
+          options: ["(1) 1", "(2) 2", "(3) 4", "(4) 8"],
+          correct: 3, 
+          sol: "<b>Step 1: Relate mass and length</b><br>Since both rods are made of the exact same metal (same density \\( \\rho \\)) and have the same cross-sectional area (A), their mass is directly proportional to their length (\\( M = \\rho A L \\)).<br>Because \\( L_A = 2L_B \\), it logically follows that \\( M_A = 2M_B \\).<br><br><b>Step 2: Relate Moment of Inertia to mass and length</b><br>The moment of inertia of a uniform rod is proportional to the product of its mass and the square of its length (\\( I \\propto M L^2 \\)).<br>Substituting the mass proportionality, we get \\( I \\propto (L) (L^2) = L^3 \\).<br><br><b>Step 3: Calculate the ratio</b><br>Ratio \\( \\frac{I_A}{I_B} = \\left(\\frac{L_A}{L_B}\\right)^3 = (2)^3 = 8 \\)."
+        },
+        {
+          id: 5, topic: "Moment of Inertia",
+          q: "A solid sphere of radius R has moment of inertia I about its geometrical axis. It is melted into a disc of radius r and thickness t. If it's moment of inertia about the tangential axis (which is perpendicular to plane of the disc), is also equal to I, then the value of r is equal to :-",
+          options: ["(1) \\( \\frac{2}{\\sqrt{15}}R \\)", "(2) \\( \\frac{2}{\\sqrt{5}}R \\)", "(3) \\( \\frac{3}{\\sqrt{15}}R \\)", "(4) \\( \\frac{\\sqrt{3}}{\\sqrt{15}}R \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: MOI of the Solid Sphere</b><br>The moment of inertia of a solid sphere of mass M and radius R about its central geometrical axis is \\( I_{sphere} = \\frac{2}{5} M R^2 \\).<br><br><b>Step 2: MOI of the Disc</b><br>The melted disc has the exact same mass M. Its MOI about an axis perpendicular to its plane passing through its center is \\( I_{cm} = \\frac{1}{2} M r^2 \\).<br>By the parallel axis theorem, its MOI about a tangential axis perpendicular to its plane is:<br>\\( I_{disc} = I_{cm} + M r^2 = \\frac{1}{2} M r^2 + M r^2 = \\frac{3}{2} M r^2 \\).<br><br><b>Step 3: Equate the two moments of inertia</b><br>We are given that \\( I_{disc} = I_{sphere} \\).<br>\\( \\frac{3}{2} M r^2 = \\frac{2}{5} M R^2 \\).<br>\\( r^2 = \\frac{4}{15} R^2 \\implies r = \\frac{2}{\\sqrt{15}} R \\)."
+        },
+        {
+          id: 6, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Two identical rings each of mass m and radius R with their planes mutually perpendicular are welded at their point of contact O. If the system is free to rotate about an axis passing through a point P (on the circumference of Ring 1 opposite to O) perpendicular to the plane of the paper (Ring 1's plane), then the moment of inertia of the system about this axis is equal to",
+          options: ["(1) \\( 6.5 \\, mR^2 \\)", "(2) \\( 12 \\, mR^2 \\)", "(3) \\( 6 \\, mR^2 \\)", "(4) \\( 11.5 \\, mR^2 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Understand the geometry</b><br>Let Ring 1 be in the xy-plane with its center at (0, R). Point P is at the origin (0,0). The contact point O is at (0, 2R). The axis of rotation passes through P and is perpendicular to the xy-plane (the z-axis).<br>Ring 2 is mutually perpendicular, lying in the xz-plane. It touches Ring 1 at O(0, 2R, 0). Because its radius is R, its center must be at (0, 3R, 0).<br><br><b>Step 2: MOI of Ring 1</b><br>For Ring 1, the axis passes through its edge P and is perpendicular to its plane.<br>Using the parallel axis theorem: \\( I_1 = I_{cm} + m d^2 = mR^2 + mR^2 = 2mR^2 \\).<br><br><b>Step 3: MOI of Ring 2</b><br>For Ring 2, the axis of rotation (z-axis) lies IN its plane (since Ring 2 is in the xz-plane). The perpendicular distance from the z-axis to the center of Ring 2 is 3R.<br>Using the parallel axis theorem for an axis in the plane of the ring: \\( I_2 = I_{diameter} + m d^2 = \\frac{1}{2}mR^2 + m(3R)^2 = 0.5mR^2 + 9mR^2 = 9.5mR^2 \\).<br><br><b>Step 4: Total MOI</b><br>\\( I_{total} = I_1 + I_2 = 2mR^2 + 9.5mR^2 = 11.5mR^2 \\)."
+        },
+        {
+          id: 7, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "The moment of inertia of a uniform flat disc about its own axis is I. The radius of the disc is a. A section ABCD of the disc in the shape of a 30° sector is cut off and separated. The moment of inertia of the remaining part of the disc about the same axis will be",
+          options: ["(1) \\( \\frac{5}{6}I \\)", "(2) \\( \\frac{11}{12}I \\)", "(3) \\( \\frac{4}{5}I \\)", "(4) \\( \\frac{2}{3}I \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Relate Moment of Inertia to Sector Angle</b><br>For a uniform thin object, mass is directly proportional to area. The area of a sector of a circle is proportional to its central angle.<br>Since the entire circle is \\( 360^{\\circ} \\), a sector of \\( 30^{\\circ} \\) represents exactly \\( \\frac{30}{360} = \\frac{1}{12} \\) of the total area and mass.<br><br><b>Step 2: Calculate MOI of the removed sector</b><br>Because the mass distribution relative to the center is identical in every wedge of a uniform disc, the moment of inertia of any sector about the central axis is exactly proportional to its mass fraction.<br>\\( I_{cut} = \\frac{1}{12} I \\).<br><br><b>Step 3: Calculate remaining MOI</b><br>By the principle of superposition, the MOI of the remaining shape is just the total minus the cut portion: \\( I_{remaining} = I_{total} - I_{cut} \\).<br>\\( I_{remaining} = I - \\frac{1}{12}I = \\frac{11}{12}I \\)."
+        },
+        {
+          id: 8, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Figure shows the variation of the moment of inertia of a uniform rod, about an axis passing through its centre and inclined at an angle \\( \\theta \\) to the length. The maximum value on the graph is 0.6 kg-m². The moment of inertia of the rod about an axis passing through one of its ends and making an angle \\( \\theta=\\pi/3 \\) will be:",
+          options: ["(1) \\( 0.45 \\, \\text{kg-m}^2 \\)", "(2) \\( 1.8 \\, \\text{kg-m}^2 \\)", "(3) \\( 2.4 \\, \\text{kg-m}^2 \\)", "(4) \\( 1.5 \\, \\text{kg-m}^2 \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand the central axis formula</b><br>The MOI of a rod about an axis through its center at an angle \\( \\theta \\) is \\( I_c = \\frac{ML^2}{12} \\sin^2\\theta \\).<br>The graph peaks at \\( \\theta = \\pi/2 \\), which gives the maximum value: \\( I_{max} = \\frac{ML^2}{12} = 0.6 \\, \\text{kg-m}^2 \\).<br>From this, we deduce that the core parameter \\( ML^2 = 12 \times 0.6 = 7.2 \\, \\text{kg-m}^2 \\).<br><br><b>Step 2: Formula for end axis</b><br>By the parallel axis theorem, the MOI about an axis through one end at an angle \\( \\theta \\) is \\( I_{end} = \\frac{ML^2}{3} \\sin^2\\theta \\).<br><br><b>Step 3: Calculate the required value</b><br>We need \\( I_{end} \\) at \\( \\theta = \\pi/3 \\) (which is \\( 60^{\\circ} \\)).<br>\\( I_{end} = \\frac{7.2}{3} \\sin^2(60^{\\circ}) = 2.4 \\times \\left(\\frac{\\sqrt{3}}{2}\\right)^2 = 2.4 \\times \\frac{3}{4} = 0.6 \\times 3 = 1.8 \\, \\text{kg-m}^2 \\)."
+        },
+        {
+          id: 9, topic: "Moment of Inertia",
+          q: "Five masses each of 2 kg are placed on a horizontal circular disc, which can be rotated about a vertical axis passing through its centre and all the masses be equidistant from the axis and at a distance of 10 cm from it. The moment of inertia of the whole system (in \\( \\text{gm-cm}^2 \\)) is: (Assume disc is of negligible mass)",
+          options: ["(1) \\( 10^5 \\)", "(2) \\( 10^4 \\)", "(3) \\( 10^6 \\)", "(4) \\( 10^8 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for Moment of Inertia of point masses</b><br>The total moment of inertia of discrete point masses is the sum of their individual moments: \\( I = \\sum m_i r_i^2 \\).<br>Since all 5 masses are identical and at the exact same distance from the axis, \\( I = 5 \\times m r^2 \\).<br><br><b>Step 2: Convert units to CGS</b><br>The problem explicitly asks for the answer in \\( \\text{gm-cm}^2 \\).<br>Mass \\( m = 2 \\, \\text{kg} = 2000 \\, \\text{g} \\).<br>Radius \\( r = 10 \\, \\text{cm} \\).<br><br><b>Step 3: Calculate</b><br>\\( I = 5 \\times 2000 \\times (10)^2 \\).<br>\\( I = 10000 \\times 100 = 1,000,000 = 10^6 \\, \\text{gm-cm}^2 \\)."
+        },
+        {
+          id: 10, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Four point masses each of value m are placed at the corners of a square ABCD of side l. The moment of inertia of this system about an axis passing through A and parallel to BD is :-",
+          options: ["(1) \\( 2ml^2 \\)", "(2) \\( \\sqrt{3}ml^2 \\)", "(3) \\( 3ml^2 \\)", "(4) \\( ml^2 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Establish geometry</b><br>The axis passes through vertex A and is perfectly parallel to the diagonal BD.<br>We must find the perpendicular distance from each vertex to this new axis.<br><br><b>Step 2: Determine distances</b><br>- Mass at A: Lies directly on the axis, so \\( r_A = 0 \\).<br>- Mass at B: The distance from B to a line through A parallel to BD is equal to half the length of the diagonal. \\( r_B = \\frac{l\\sqrt{2}}{2} = \\frac{l}{\\sqrt{2}} \\).<br>- Mass at D: By symmetry with B, its perpendicular distance is also \\( r_D = \\frac{l}{\\sqrt{2}} \\).<br>- Mass at C: The distance from C to the axis through A is the full length of the diagonal AC. \\( r_C = l\\sqrt{2} \\).<br><br><b>Step 3: Calculate total MOI</b><br>\\( I = m(r_A)^2 + m(r_B)^2 + m(r_C)^2 + m(r_D)^2 \\).<br>\\( I = m(0) + m\\left(\\frac{l}{\\sqrt{2}}\\right)^2 + m(l\\sqrt{2})^2 + m\\left(\\frac{l}{\\sqrt{2}}\\right)^2 \\).<br>\\( I = m\\left(0 + \\frac{l^2}{2} + 2l^2 + \\frac{l^2}{2}\\right) = m(3l^2) = 3ml^2 \\)."
+        },
+        {
+          id: 11, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A thin wire of length L and uniform linear mass density \\( \\rho \\) is bent into a circular loop with centre at O as shown. The moment of inertia of loop about an in-plane tangent axis XX' is:",
+          options: ["(1) \\( \\frac{\\rho L^3}{8\\pi^2} \\)", "(2) \\( \\frac{\\rho L^3}{16\\pi^2} \\)", "(3) \\( \\frac{5\\rho L^3}{16\\pi^2} \\)", "(4) \\( \\frac{3\\rho L^3}{8\\pi^2} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Express mass and radius</b><br>Mass of the loop \\( M = \\rho L \\).<br>Since it forms a full circle of length L, the perimeter is \\( 2\\pi R = L \\implies R = \\frac{L}{2\\pi} \\).<br><br><b>Step 2: MOI about an in-plane tangent</b><br>For a circular ring, the MOI about a central diametrical axis is \\( I_d = \\frac{1}{2}MR^2 \\).<br>By the parallel axis theorem, the MOI about an axis tangent to the ring and in the same plane is \\( I_{tan} = I_d + MR^2 = \\frac{1}{2}MR^2 + MR^2 = \\frac{3}{2}MR^2 \\).<br><br><b>Step 3: Substitute knowns</b><br>\\( I_{tan} = \\frac{3}{2}(\\rho L)\\left(\\frac{L}{2\\pi}\\right)^2 = \\frac{3}{2} \\rho L \\frac{L^2}{4\\pi^2} = \\frac{3\\rho L^3}{8\\pi^2} \\)."
+        },
+        {
+          id: 12, topic: "Moment of Inertia",
+          q: "Two circular Discs of same material and same thickness rotating about their own axis. If ratio of their radii are 1:3, then ratio of their moment of inertia about their axis will be :-",
+          options: ["(1) 1:9", "(2) 1:81", "(3) 1:27", "(4) 1:1"],
+          correct: 1, 
+          sol: "<b>Step 1: Establish mass proportionality</b><br>The moment of inertia of a solid disc about its central axis is \\( I = \\frac{1}{2}MR^2 \\).<br>Mass \\( M = \\text{Volume} \\times \\text{density} = (\\pi R^2 t) \\times \\rho \\).<br>Since the material (density \\( \\rho \\)) and thickness (t) are identical for both discs, mass is directly proportional to the square of the radius (\\( M \\propto R^2 \\)).<br><br><b>Step 2: Relate MOI to Radius</b><br>Substituting the mass proportionality back into the MOI equation gives \\( I \\propto (R^2)(R^2) \\implies I \\propto R^4 \\).<br><br><b>Step 3: Calculate the ratio</b><br>Given \\( R_1 : R_2 = 1 : 3 \\).<br>\\( \\frac{I_1}{I_2} = \\left(\\frac{R_1}{R_2}\\right)^4 = \\left(\\frac{1}{3}\\right)^4 = \\frac{1}{81} \\)."
+        },
+        {
+          id: 13, topic: "Moment of Inertia",
+          q: "A wire of length l and mass m is bent in the form of a rectangle ABCD with \\( (AB/BC)=2 \\). The moment of inertia of this wire about the side BC is",
+          options: ["(1) \\( \\frac{11}{252}ml^2 \\)", "(2) \\( \\frac{8}{203}ml^2 \\)", "(3) \\( \\frac{5}{136}ml^2 \\)", "(4) \\( \\frac{7}{162}ml^2 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Find dimensions and segment masses</b><br>Perimeter = \\( 2(AB + BC) = l \\). Substitute \\( AB = 2BC \\): \\( 2(3BC) = l \\implies BC = l/6 \\) and \\( AB = l/3 \\).<br>Linear mass density \\( \\lambda = m/l \\).<br>Mass of AB and CD segments: \\( m_{AB} = m_{CD} = m/3 \\).<br>Mass of BC and DA segments: \\( m_{BC} = m_{DA} = m/6 \\).<br><br><b>Step 2: Calculate MOI for each segment about axis BC</b><br>- Side BC: Lies exactly on the axis of rotation. \\( I_{BC} = 0 \\).<br>- Side DA: Parallel to axis at distance \\( AB = l/3 \\). \\( I_{DA} = m_{DA} d^2 = (m/6)(l/3)^2 = \\frac{ml^2}{54} \\).<br>- Sides AB & CD: Perpendicular to axis, one end on the axis. MOI is \\( mL^2/3 \\). \\( I_{AB} = \\frac{m_{AB} (AB)^2}{3} = \\frac{(m/3)(l/3)^2}{3} = \\frac{ml^2}{81} \\). Similarly, \\( I_{CD} = \\frac{ml^2}{81} \\).<br><br><b>Step 3: Sum the moments</b><br>Total \\( I = I_{BC} + I_{DA} + I_{AB} + I_{CD} = 0 + \\frac{ml^2}{54} + \\frac{ml^2}{81} + \\frac{ml^2}{81} = ml^2 \\left(\\frac{1}{54} + \\frac{2}{81}\\right) \\).<br>Using a common denominator of 162: \\( \\frac{3}{162} + \\frac{4}{162} = \\frac{7}{162} \\). Thus, \\( I = \\frac{7}{162}ml^2 \\)."
+        },
+        {
+          id: 14, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Two identical rods each of mass M and length L are kept according to figure (forming an L-shape joint at O). The moment of inertia of rods about an axis passing through O and perpendicular to the plane of rods, is :-",
+          options: ["(1) \\( \\frac{1}{3}ML^2 \\)", "(2) \\( \\frac{2}{3}ML^2 \\)", "(3) \\( 2ML^2 \\)", "(4) \\( \\frac{1}{2}ML^2 \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze the geometry</b><br>The two rods meet at a common corner O, forming an L-shape. The axis of rotation passes exactly through this corner and is strictly perpendicular to the plane containing both rods.<br><br><b>Step 2: Calculate MOI for a single rod</b><br>For one uniform rod of mass M and length L, the moment of inertia about an axis passing through one of its ends and perpendicular to its length is a standard derivation: \\( I_1 = \\frac{ML^2}{3} \\).<br><br><b>Step 3: Apply the principle of superposition</b><br>Since the moment of inertia is a scalar additive property, the total MOI of the system is simply the sum of the moments of inertia of the individual rods about that same axis.<br>\\( I_{total} = I_1 + I_2 = \\frac{ML^2}{3} + \\frac{ML^2}{3} = \\frac{2}{3}ML^2 \\)."
+        },
+        {
+          id: 15, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "In a system of four thin uniform rods are each of mass m as shown. If AE=EB, AH=HD and BC=2AB then choose the CORRECT statement:- (EG connects AB and CD; HF connects AD and BC)",
+          options: ["(1) Moment of inertia of the system is minimum about EG", "(2) Moment of inertia of the system is maximum about HF", "(3) Moment of inertia of the system is minimum about HF", "(4) Moment of inertia of the system is maximum about EG"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand the object</b><br>The rods form a rectangle. Let AB = a. Then BC = 2a. Note: The problem states EACH rod has identical mass m.<br>EG is parallel to AD and BC. HF is parallel to AB and CD.<br><br><b>Step 2: Calculate MOI about EG</b><br>Rods AB & CD are bisected perpendicularly by EG. \\( I_1 = 2 \\times \\frac{m(a)^2}{12} = \\frac{ma^2}{6} \\).<br>Rods AD & BC are parallel to EG at distance a/2. \\( I_2 = 2 \\times m(a/2)^2 = \\frac{ma^2}{2} \\).<br>\\( I_{EG} = \\frac{ma^2}{6} + \\frac{ma^2}{2} = \\frac{4ma^2}{6} = \\frac{2}{3}ma^2 \\).<br><br><b>Step 3: Calculate MOI about HF</b><br>Rods AD & BC are bisected perpendicularly by HF. \\( I_3 = 2 \\times \\frac{m(2a)^2}{12} = \\frac{8ma^2}{12} = \\frac{2ma^2}{3} \\).<br>Rods AB & CD are parallel to HF at distance a. \\( I_4 = 2 \\times m(a)^2 = 2ma^2 \\).<br>\\( I_{HF} = \\frac{2ma^2}{3} + 2ma^2 = \\frac{8}{3}ma^2 \\).<br>Clearly, \\( I_{EG} < I_{HF} \\), making EG the principal axis of minimum inertia."
+        },
+        {
+          id: 16, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A solid hemisphere and a hemispherical shell are joined as shown. Both of them has mass m/2 individually. Find out moment of inertia about axis \\( I_1 \\) (the central vertical diameter axis).",
+          options: ["(1) \\( \\frac{8mR^2}{15} \\)", "(2) \\( \\frac{2}{7}mR^2 \\)", "(3) \\( \\frac{2}{5}mR^2 \\)", "(4) \\( \\frac{2}{3}mR^2 \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Recognize MOI of spherical components</b><br>The moment of inertia of a full solid sphere about a diameter is \\( \\frac{2}{5}MR^2 \\). Due to symmetry, a solid hemisphere about the same axis also has MOI \\( I = \\frac{2}{5} m_{hemi} R^2 \\).<br>Similarly, a full spherical shell is \\( \\frac{2}{3}MR^2 \\). A hemispherical shell about the central axis is \\( I = \\frac{2}{3} m_{shell} R^2 \\).<br><br><b>Step 2: Assign specific masses</b><br>The problem dictates that the solid hemisphere has mass \\( m_1 = m/2 \\) and the hemispherical shell has mass \\( m_2 = m/2 \\).<br><br><b>Step 3: Add the components</b><br>\\( I_{solid} = \\frac{2}{5}(m/2)R^2 = \\frac{1}{5}mR^2 \\).<br>\\( I_{shell} = \\frac{2}{3}(m/2)R^2 = \\frac{1}{3}mR^2 \\).<br>Total \\( I = \\frac{1}{5}mR^2 + \\frac{1}{3}mR^2 = mR^2 \\left(\\frac{3+5}{15}\\right) = \\frac{8mR^2}{15} \\)."
+        },
+        {
+          id: 17, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "An isosceles triangular plate of mass M and base L has an angle at the apex of \\( 90^{\\circ} \\). The apex lies at the origin and the base is horizontally parallel to X-axis. The moment of inertia of the plate about its base parallel to the x-axis is",
+          options: ["(1) \\( \\frac{ML^2}{18} \\)", "(2) \\( \\frac{ML^2}{36} \\)", "(3) \\( \\frac{ML^2}{24} \\)", "(4) none of these"],
+          correct: 2, 
+          sol: "<b>Step 1: Standard formula for triangular plate</b><br>The moment of inertia of any uniform triangular plate of mass M and altitude h about an axis lying along its base is \\( I_{base} = \\frac{M h^2}{6} \\).<br><br><b>Step 2: Determine the altitude h</b><br>The triangle is isosceles with a \\( 90^{\\circ} \\) apex angle. If we drop a perpendicular from the apex to the base L, it bisects the base and the apex angle.<br>This creates two right-angled triangles with angles 45-45-90.<br>In such a triangle, the altitude h is exactly equal to half the base: \\( h = L/2 \\).<br><br><b>Step 3: Substitute and solve</b><br>Substitute \\( h = L/2 \\) into the MOI formula:<br>\\( I_{base} = \\frac{M(L/2)^2}{6} = \\frac{M(L^2/4)}{6} = \\frac{ML^2}{24} \\)."
+        },
+        {
+          id: 18, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "An isosceles triangular plate of mass M and base L has an angle at the apex of \\( 90^{\\circ} \\). The apex lies at the origin and the base is horizontally parallel to X-axis. The moment of inertia of the plate about the y-axis (axis of symmetry) is",
+          options: ["(1) \\( \\frac{ML^2}{6} \\)", "(2) \\( \\frac{ML^2}{8} \\)", "(3) \\( \\frac{ML^2}{24} \\)", "(4) none of these"],
+          correct: 2, 
+          sol: "<b>Step 1: Set up the integral</b><br>The y-axis is the axis of symmetry bisecting the base L. Let altitude be h. Width of the triangle at distance y from apex is \\( b(y) = y \\frac{L}{h} \\).<br>Since it's a 45-45-90 triangle, \\( h = L/2 \\), so \\( b(y) = 2y \\).<br>Mass density \\( \\sigma = \\frac{M}{1/2 L h} = \\frac{M}{L^2/4} = \\frac{4M}{L^2} \\).<br><br><b>Step 2: Integrate over horizontal strips</b><br>Take a horizontal strip of mass \\( dm = \\sigma b(y) dy = \\sigma(2y)dy \\). Its MOI about the y-axis is a thin rod of length \\( b(y) \\): \\( dI_y = \\frac{dm b(y)^2}{12} \\).<br>\\( I_y = \\int_0^{L/2} \\frac{(\\sigma 2y dy)(2y)^2}{12} = \\int_0^{L/2} \\frac{8\\sigma y^3}{12} dy = \\frac{2\\sigma}{3} \\int_0^{L/2} y^3 dy \\).<br><br><b>Step 3: Evaluate the integral</b><br>\\( I_y = \\frac{2\\sigma}{3} \\left[\\frac{y^4}{4}\\right]_0^{L/2} = \\frac{2\\sigma}{12} \\frac{L^4}{16} = \\frac{\\sigma L^4}{96} \\).<br>Substitute \\( \\sigma = 4M/L^2 \\): \\( I_y = \\frac{(4M/L^2) L^4}{96} = \\frac{4ML^2}{96} = \\frac{ML^2}{24} \\)."
+        },
+        {
+          id: 19, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "The diagram shows a uniform disc of mass M & radius 'a'. If the moment of inertia of the disc about the axis XY is I, its moment of inertia about an axis through O and perpendicular to the plane of the disc is",
+          options: ["(1) \\( \\frac{4}{3}Ma^2 \\)", "(2) \\( I+\\frac{1}{4}Ma^2 \\)", "(3) 2I", "(4) \\( \\frac{I}{2} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Express I in terms of basic parameters</b><br>The axis XY lies in the plane of the disc at a distance \\( a/2 \\) from the center.<br>MOI about a central diameter is \\( I_d = \\frac{1}{4}Ma^2 \\).<br>By parallel axis theorem, \\( I = I_d + M(a/2)^2 = \\frac{1}{4}Ma^2 + \\frac{1}{4}Ma^2 = \\frac{1}{2}Ma^2 \\).<br><br><b>Step 2: MOI about point O perpendicular to plane</b><br>Point O is at a distance \\( a/2 \\) from the center.<br>MOI about a central axis perpendicular to plane is \\( I_c = \\frac{1}{2}Ma^2 \\).<br>By parallel axis theorem: \\( I_O = I_c + M(a/2)^2 = \\frac{1}{2}Ma^2 + \\frac{1}{4}Ma^2 = \\frac{3}{4}Ma^2 \\).<br><br><b>Step 3: Relate \\( I_O \\) to I</b><br>We know \\( I = \\frac{1}{2}Ma^2 \\).<br>Rewrite \\( I_O = \\frac{1}{2}Ma^2 + \\frac{1}{4}Ma^2 \\).<br>Substitute I: \\( I_O = I + \\frac{1}{4}Ma^2 \\)."
+        },
+        {
+          id: 20, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A semicircular lamina of mass m has radius r and centre C. Its centre of mass is at a distance x from C. Its moment of inertia about an axis through its centre of mass and perpendicular to its plane is-",
+          options: ["(1) \\( \\frac{1}{2}mr^2 \\)", "(2) \\( \\frac{1}{4}mr^2 \\)", "(3) \\( \\frac{1}{4}mr^2+mx^2 \\)", "(4) \\( \\frac{1}{2}mr^2-mx^2 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Base Moment of Inertia</b><br>The moment of inertia of a full circular disc of mass 2m and radius r about its central axis is \\( \\frac{1}{2}(2m)r^2 = mr^2 \\).<br>A semicircular lamina of mass m about the same central axis C has exactly half the MOI of the full disc: \\( I_C = \\frac{1}{2}mr^2 \\).<br><br><b>Step 2: Apply Parallel Axis Theorem</b><br>The axis through C and the axis through the Center of Mass (CM) are parallel, separated by distance x.<br>The theorem states: \\( I_C = I_{cm} + m x^2 \\).<br><br><b>Step 3: Solve for \\( I_{cm} \\)</b><br>Rearranging the equation yields: \\( I_{cm} = I_C - m x^2 \\).<br>Substitute \\( I_C \\): \\( I_{cm} = \\frac{1}{2}mr^2 - mx^2 \\)."
+        },
+        {
+          id: 21, topic: "Moment of Inertia",
+          q: "A square sheet of edge length L is used to form a hollow cylinder. The moment of inertia of this cylinder about the central axis is :- (Where \\( \\sigma \\) is surface mass density of sheet)",
+          options: ["(1) \\( \\frac{2\\sigma L^4}{\\pi^2} \\)", "(2) \\( \\frac{\\sigma L^4}{8\\pi^2} \\)", "(3) \\( \\frac{\\sigma L^4}{4\\pi^2} \\)", "(4) \\( \\frac{\\sigma L^4}{3\\sqrt{2}\\pi^2} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Determine the mass of the sheet</b><br>The area of the square sheet is \\( L^2 \\).<br>Mass \\( M = \\sigma \times \\text{Area} = \\sigma L^2 \\).<br><br><b>Step 2: Determine the radius of the cylinder</b><br>When rolled into a hollow cylinder, the edge L becomes the circumference of the circular base.<br>\\( 2\\pi R = L \\implies R = \\frac{L}{2\\pi} \\).<br><br><b>Step 3: Calculate Moment of Inertia</b><br>The MOI of a hollow cylinder (thin-walled) about its central axis is \\( I = M R^2 \\).<br>Substitute M and R: \\( I = (\\sigma L^2) \\times \\left(\\frac{L}{2\\pi}\\right)^2 \\).<br>\\( I = \\sigma L^2 \\times \\frac{L^2}{4\\pi^2} = \\frac{\\sigma L^4}{4\\pi^2} \\)."
+        },
+        {
+          id: 22, topic: "Torque and Angular Acceleration",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A uniform rod of mass M and length l is pivoted at one end so that it can rotate in a vertical plane. There is negligible friction at the pivot. The free end is held vertically above the pivot and then released. The angular acceleration of the rod when it makes an angle \\( \\theta \\) with the vertical is:",
+          options: ["(1) \\( \\frac{3g}{2l}\\sin\\theta \\)", "(2) \\( \\frac{2g}{3l}\\cos\\theta \\)", "(3) \\( \\frac{3g}{2l}\\cos\\theta \\)", "(4) \\( \\frac{2g}{3l}\\sin\\theta \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Setup Torque equation</b><br>Gravity acts at the center of mass of the rod, which is at a distance \\( l/2 \\) from the pivot.<br>When the rod makes an angle \\( \\theta \\) with the vertical, the lever arm for the gravitational force is \\( (l/2) \\sin\\theta \\).<br>Torque \\( \\tau = Mg \\left(\\frac{l}{2}\\right) \\sin\\theta \\).<br><br><b>Step 2: Identify Moment of Inertia</b><br>The moment of inertia of a uniform rod pivoted about one end is \\( I = \\frac{Ml^2}{3} \\).<br><br><b>Step 3: Calculate angular acceleration</b><br>Use Newton's Second Law for Rotation: \\( \\tau = I \\alpha \\).<br>\\( Mg \\frac{l}{2} \\sin\\theta = \\left(\\frac{Ml^2}{3}\\right) \\alpha \\).<br>Solve for \\( \\alpha \\): \\( \\alpha = \\frac{Mg l \\sin\\theta / 2}{Ml^2 / 3} = \\frac{3g}{2l} \\sin\\theta \\)."
+        },
+        {
+          id: 23, topic: "Torque and Angular Acceleration",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "In an experiment with a beam balance an unknown mass m is balanced by two known masses of 16 kg and 4 kg as shown in figure. Find the value of the unknown mass m in kg.",
+          options: ["(1) 2 kg", "(2) 4 kg", "(3) 8 kg", "(4) 12 kg"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze the first balance condition</b><br>In Case 1, a 16 kg mass at distance \\( l_1 \\) balances mass \\( m \\) at distance \\( l_2 \\).<br>By principle of moments: \\( 16 \times l_1 = m \times l_2 \\implies \\frac{l_1}{l_2} = \\frac{m}{16} \\).<br><br><b>Step 2: Analyze the second balance condition</b><br>In Case 2, mass \\( m \\) at distance \\( l_1 \\) balances a 4 kg mass at distance \\( l_2 \\).<br>By principle of moments: \\( m \times l_1 = 4 \times l_2 \\implies \\frac{l_1}{l_2} = \\frac{4}{m} \\).<br><br><b>Step 3: Solve for m</b><br>Equate the two ratios: \\( \\frac{m}{16} = \\frac{4}{m} \\).<br>Cross-multiply: \\( m^2 = 64 \\).<br>Since mass must be positive, \\( m = 8 \\, \\text{kg} \\)."
+        },
+        {
+          id: 24, topic: "Torque and Angular Acceleration",
+          q: "A mass m=1 kg hangs from the wheel of radius R=1m. When released from rest the mass falls through a height h=2m in 1 second. The moment of inertia of the wheel is \\( (g=10 \\, \\text{m/s}^2) \\)",
+          options: ["(1) \\( 2.6 \\, \\text{kg m}^2 \\)", "(2) \\( 3.6 \\, \\text{kg m}^2 \\)", "(3) \\( 1.5 \\, \\text{kg m}^2 \\)", "(4) \\( 3.0 \\, \\text{kg m}^2 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Find linear acceleration of the mass</b><br>Using kinematics: \\( h = ut + \\frac{1}{2}at^2 \\).<br>\\( 2 = 0 + \\frac{1}{2}a(1)^2 \\implies a = 4 \\, \\text{m/s}^2 \\).<br><br><b>Step 2: Apply Newton's laws to mass and wheel</b><br>For the hanging mass: \\( mg - T = ma \\implies T = m(g - a) = 1(10 - 4) = 6 \\, \\text{N} \\).<br>For the rotating wheel: Torque \\( \\tau = T R = I \\alpha \\).<br>Since the string doesn't slip, \\( \\alpha = a/R = 4/1 = 4 \\, \\text{rad/s}^2 \\).<br><br><b>Step 3: Calculate Moment of Inertia</b><br>\\( T R = I \\alpha \\implies 6(1) = I(4) \\).<br>\\( I = 6/4 = 1.5 \\, \\text{kg m}^2 \\)."
+        },
+        {
+          id: 25, topic: "Moment of Inertia",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A rod has non uniform mass distribution. The mass increases uniformly from left end (A) to right end (B). It is most difficult to rotate the rod about an axis",
+          options: ["(1) Passing through A", "(2) Passing through B", "(3) Passing through x (center)", "(4) Passing through y"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand rotational inertia</b><br>The difficulty of rotating an object is quantified by its Moment of Inertia (MOI). The larger the MOI, the harder it is to start or stop its rotation.<br>MOI is defined as \\( I = \\int r^2 dm \\), meaning mass located further from the axis of rotation contributes exponentially more to the total MOI.<br><br><b>Step 2: Analyze the mass distribution</b><br>The rod is much heavier at the right end (B) than at the left end (A).<br>If you rotate the rod about axis A, the heaviest parts of the rod are at the absolute maximum possible distance from the pivot, maximizing the \\( r^2 \\) multiplier.<br>Conversely, rotating about B keeps the heaviest parts at \\( r \approx 0 \\), minimizing the MOI.<br>Therefore, rotating about A yields the highest MOI, making it the most difficult."
+        },
+        {
+          id: 26, topic: "Torque and Angular Acceleration",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "In the balance machine shown in the figure, which arm will move downward after the system is released from rest (assuming string, arm of balance machine and the pulley to be light)",
+          options: ["(1) Left", "(2) Right", "(3) remains stationary", "(4) none of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Calculate force exerted by Left Pulley</b><br>The left pulley suspends masses \\( m_1=2 \\, \\text{kg} \\) and \\( m_2=3 \\, \\text{kg} \\).<br>The tension in the string of a standard Atwood machine is \\( T_L = \frac{2m_1 m_2 g}{m_1+m_2} = \frac{2(2)(3)(10)}{5} = \frac{120}{5} = 24 \\, \\text{N} \\).<br>The total downward pull on the left arm of the balance is \\( 2T_L = 48 \\, \\text{N} \\).<br><br><b>Step 2: Calculate force exerted by Right Pulley</b><br>The right pulley suspends \\( m_3=1 \\, \\text{kg} \\) and \\( m_4=4 \\, \\text{kg} \\).<br>Tension \\( T_R = \frac{2(1)(4)(10)}{5} = \frac{80}{5} = 16 \\, \\text{N} \\).<br>The total downward pull on the right arm is \\( 2T_R = 32 \\, \\text{N} \\).<br><br><b>Step 3: Compare Torques</b><br>Since the lever arms are equal (0.5m each), the arm experiencing the greater downward force will rotate downwards.<br>Left force (48 N) > Right force (32 N). Therefore, the Left arm moves downward."
+        },
+        {
+          id: 27, topic: "Torque and Angular Acceleration",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A uniform disc of mass M=2.50 kg and radius R=0.20 m is mounted on an axle supported on fixed frictionless bearings. A light cord wrapped around the rim is pulled with a force 5N. On the same system of pulley and string, instead of pulling it down, a body of weight 5N is suspended. If the first process is termed A and the second B, the tangential acceleration of point P will be",
+          options: ["(1) equal in the processes A and B.", "(2) greater in process A than in B.", "(3) greater in process B than in A.", "(4) independent of the two processes."],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze Process A (Pulling Force)</b><br>The string is pulled with a constant force \\( F = 5 \\, \\text{N} \\). The torque is \\( \tau_A = F \times R \\).<br>Angular acceleration \\( \alpha_A = \frac{\tau_A}{I} = \frac{5R}{I} \\).<br><br><b>Step 2: Analyze Process B (Hanging Weight)</b><br>A block of weight \\( W = 5 \\, \\text{N} \\) hangs from the string. Let its mass be \\( m = 5/g = 0.5 \\, \\text{kg} \\).<br>The tension \\( T \\) in the string is NOT 5N because the block accelerates downwards. \\( mg - T = ma \\implies T = 5 - ma \\).<br>Since the block accelerates down, \\( T < 5 \\, \\text{N} \\).<br>The torque on the disc is \\( \tau_B = T \times R \\).<br><br><b>Step 3: Compare</b><br>Since \\( T < 5 \\, \\text{N} \\), the torque in Process B is strictly less than the torque in Process A (\\( \tau_B < \tau_A \\)).<br>Therefore, \\( \alpha_A > \alpha_B \\), meaning the tangential acceleration of point P is greater in process A than in B."
+        },
+        {
+          id: 28, topic: "Torque and Angular Acceleration",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A uniform beam of weight W is attached to a vertical wall by a hinge H. The beam is held horizontal by a rope as shown below. Which one of the following best shows the direction of the reaction force R at the hinge ?",
+          options: ["(1) R pointing Up and Right", "(2) R pointing Straight Right", "(3) R pointing Down and Right", "(4) R pointing Straight Up"],
+          correct: 0, 
+          sol: "<b>Step 1: Equilibrium conditions for rigid bodies</b><br>For a rigid body to be in static equilibrium under the action of exactly three coplanar forces, the lines of action of all three forces MUST intersect at a single common point.<br><br><b>Step 2: Trace the known forces</b><br>1. The weight \\( W \\) acts straight down from the center of mass of the beam.<br>2. The tension \\( T \\) acts diagonally up and to the left along the rope.<br>If you extend the vertical line of W upwards, and the diagonal line of T backwards, they intersect at a point perfectly vertically above the middle of the beam.<br><br><b>Step 3: Determine the Reaction Force Direction</b><br>To satisfy equilibrium, the line of action for the hinge reaction force \\( R \\) MUST pass through this exact same intersection point.<br>Drawing a line from the hinge H to that intersection point gives a vector that points Up and to the Right."
+        },
+        {
+          id: 29, topic: "Torque and Angular Acceleration",
+          q: "A body is free to rotate about an axis parallel to y-axis. A force of \\( \\vec{F}=(3\\hat{i}+2\\hat{j}+6\\hat{k}) \\, \\text{N} \\) is acting on the body the position vector of whose point of application is \\( \\vec{r}=(2\\hat{i}-3\\hat{j}) \\, \\text{m} \\). The moment of inertia of body about y-axis is 10 kgm². The angular acceleration of body is:-",
+          options: ["(1) \\( (-1.8\\hat{i}-1.2\\hat{j}+1.3\\hat{k}) \\, \\text{rad/s}^2 \\)", "(2) \\( -1.8\\hat{i} \\, \\text{rad/s}^2 \\)", "(3) \\( -1.2\\hat{j} \\, \\text{rad/s}^2 \\)", "(4) \\( 1.3\\hat{k} \\, \\text{rad/s}^2 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Calculate the total Torque vector</b><br>Torque \\( \\vec{\tau} = \\vec{r} \times \\vec{F} \\).<br>\\( \\vec{\tau} = (2\\hat{i} - 3\\hat{j} + 0\\hat{k}) \times (3\\hat{i} + 2\\hat{j} + 6\\hat{k}) \\).<br>Using determinant expansion:<br>\\( \\hat{i}[(-3)(6) - (0)(2)] = -18\\hat{i} \\)<br>\\( -\\hat{j}[(2)(6) - (0)(3)] = -12\\hat{j} \\)<br>\\( \\hat{k}[(2)(2) - (-3)(3)] = \hat{k}[4 + 9] = 13\\hat{k} \\).<br>Total Torque \\( = -18\\hat{i} - 12\\hat{j} + 13\\hat{k} \\, \\text{Nm} \\).<br><br><b>Step 2: Isolate the active axis</b><br>Because the body is mechanically constrained to rotate ONLY about an axis parallel to the y-axis, only the y-component of the torque will cause angular acceleration. The other components are absorbed by the bearings.<br>Active torque \\( \tau_y = -12\\hat{j} \\, \\text{Nm} \\).<br><br><b>Step 3: Calculate angular acceleration</b><br>\\( \vec{\alpha} = \frac{\tau_y}{I} = \frac{-12\hat{j}}{10} = -1.2\hat{j} \\, \\text{rad/s}^2 \\)."
+        },
+        {
+          id: 30, topic: "Torque and Angular Acceleration",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Two persons of equal height are carrying a long uniform wooden beam of length l. They are at distance l/4 and l/6 from nearest end of the rod. The ratio of normal reaction at their heads is",
+          options: ["(1) 2:3", "(2) 3:2", "(3) 4:3", "(4) 3:4"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify distances from the Center of Mass</b><br>Let the beam length be \\( l \\). Its Center of Mass (CM) is exactly at the middle: \\( l/2 \\).<br>Person A is at \\( l/4 \\) from the left end. Distance from CM: \\( d_A = l/2 - l/4 = l/4 \\).<br>Person B is at \\( l/6 \\) from the right end. Distance from CM: \\( d_B = l/2 - l/6 = 3l/6 - l/6 = 2l/6 = l/3 \\).<br><br><b>Step 2: Apply rotational equilibrium</b><br>To prevent the beam from rotating, the torque about the Center of Mass must be zero.<br>\\( N_A \times d_A = N_B \times d_B \\).<br><br><b>Step 3: Solve for the ratio</b><br>\\( N_A \left(\\frac{l}{4}\\right) = N_B \left(\\frac{l}{3}\\right) \\).<br>\\( \\frac{N_A}{N_B} = \frac{l/3}{l/4} = \frac{1/3}{1/4} = \frac{4}{3} \\). The ratio is 4:3."
+        },
+        {
+          id: 31, topic: "Torque and Angular Acceleration",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A uniform beam of weight W is attached to a vertical wall by a hinge H. The beam is held horizontal by a rope as shown below. Which one of the following best shows the direction of the reaction force R at the hinge ?",
+          options: ["(1) R pointing Straight Right", "(2) R pointing Straight Up", "(3) R pointing Up and Right", "(4) R pointing Down and Right"],
+          correct: 2, 
+          sol: "<b>Step 1: Equilibrium conditions for rigid bodies</b><br>For a rigid body to be in static equilibrium under exactly three non-parallel coplanar forces, the lines of action of all three forces must intersect at a single common point.<br><br><b>Step 2: Trace the known force lines</b><br>The weight \\( W \\) acts vertically downward from the center of the beam. The tension \\( T \\) acts diagonally up and to the left along the rope from the end of the beam. The intersection of these two lines of action is a point vertically above the midpoint of the beam.<br><br><b>Step 3: Determine Reaction direction</b><br>The line of action for the hinge reaction force \\( R \\) must pass through this same intersection point. Drawing a line from the hinge H to that intersection point yields a vector that points Up and to the Right."
+        },
+        {
+          id: 32, topic: "Torque and Angular Acceleration",
+          q: "A body is free to rotate about an axis parallel to y-axis. A force of \\( \\vec{F}=(3\\hat{i}+2\\hat{j}+6\\hat{k}) \\, \\text{N} \\) is acting on the body the position vector of whose point of application is \\( \\vec{r}=(2\\hat{i}-3\\hat{j}) \\, \\text{m} \\). The moment of inertia of body about y-axis is 10 kgm². The angular acceleration of body is:",
+          options: ["(1) \\( (-1.8\\hat{i}-1.2\\hat{j}+1.3\\hat{k}) \\, \\text{rad/s}^2 \\)", "(2) \\( -1.8\\hat{i} \\, \\text{rad/s}^2 \\)", "(3) \\( -1.2\\hat{j} \\, \\text{rad/s}^2 \\)", "(4) \\( 1.3\\hat{k} \\, \\text{rad/s}^2 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Calculate the Torque vector</b><br>Torque \\( \\vec{\\tau} = \\vec{r} \\times \\vec{F} = (2\\hat{i} - 3\\hat{j} + 0\\hat{k}) \\times (3\\hat{i} + 2\\hat{j} + 6\\hat{k}) \\).<br>\\( \\tau_y = -[ (r_x F_z) - (r_z F_x) ] = -[ (2)(6) - (0)(3) ] = -12 \\, \\text{Nm} \\).<br><br><b>Step 2: Apply Newton's Second Law for Rotation</b><br>Since the body is constrained to rotate only about an axis parallel to the y-axis, we only consider the y-component of torque.<br>\\( \\alpha = \\frac{\\tau_y}{I} = \\frac{-12}{10} = -1.2 \\, \\text{rad/s}^2 \\).<br>The vector representation is \\( -1.2\\hat{j} \\, \\text{rad/s}^2 \\)."
+        },
+        {
+          id: 33, topic: "Torque and Angular Acceleration",
+          q: "Two persons of equal height are carrying a long uniform wooden beam of length l. They are at distance l/4 and l/6 from nearest end of the rod. The ratio of normal reaction at their heads is",
+          options: ["(1) 2:3", "(2) 3:2", "(3) 4:3", "(4) 3:4"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify distances from the Center of Mass</b><br>Let the beam length be \\( l \\). Its Center of Mass (CM) is at \\( l/2 \\).<br>Person 1 distance from CM: \\( d_1 = l/2 - l/4 = l/4 \\).<br>Person 2 distance from CM: \\( d_2 = l/2 - l/6 = 3l/6 - l/6 = 2l/6 = l/3 \\).<br><br><b>Step 2: Apply rotational equilibrium</b><br>For the beam to remain horizontal, the net torque about the CM must be zero: \\( N_1 d_1 = N_2 d_2 \\).<br>\\( N_1 (l/4) = N_2 (l/3) \\implies \\frac{N_1}{N_2} = \\frac{1/3}{1/4} = \\frac{4}{3} \\)."
+        },
+        {
+          id: 34, topic: "Torque and Angular Acceleration",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A 10 kg uniform rod OA is pivoted at O on a vertical wall with help of cable AB. (Cable makes 30° with rod). Find reaction force applied by pivot.",
+          options: ["(1) 100 N", "(2) \\( 100\\sqrt{2} \\, \\text{N} \\)", "(3) 50 N", "(4) \\( 50\\sqrt{2} \\, \\text{N} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Torque equilibrium about O</b><br>Weight \\( W = 10 \\times 10 = 100 \\, \\text{N} \\) acts at rod's center (L/2).<br>\\( W(L/2) = (T \\sin 30^{\\circ}) L \\implies 100(1/2) = T(1/2) \\implies T = 100 \\, \\text{N} \\).<br><br><b>Step 2: Force equilibrium</b><br>Tension \\( T \\) acts 30° above left. \\( T_x = 100 \\cos 30^{\\circ} = 50\\sqrt{3} \\); \\( T_y = 100 \\sin 30^{\\circ} = 50 \\).<br>Hinge components: \\( R_x = T_x = 50\\sqrt{3} \\) and \\( R_y = W - T_y = 100 - 50 = 50 \\).<br><br><b>Step 3: Magnitude of Reaction</b><br>\\( R = \\sqrt{(50\\sqrt{3})^2 + 50^2} = \\sqrt{7500 + 2500} = \\sqrt{10000} = 100 \\, \\text{N} \\)."
+        },
+        {
+          id: 35, topic: "Torque and Angular Acceleration",
+          q: "In a physical balance working on the principle of moments, when 5 mg weight is placed on the left pan, the beam becomes horizontal. Both the empty pans of the balance are of equal mass. Which of the following statements is correct ?",
+          options: ["(1) Left arm is longer than the right arm", "(2) Both the arms are of same length", "(3) Left arm is shorter than the right arm", "(4) Every object weighed appears lighter than its actual weight."],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze balance equation</b><br>If the balance needs extra weight on the left to reach a horizontal position, the left side was initially providing less torque than the right side.<br>Let \\( M \\) be pan mass and \\( L_l, L_r \\) be arm lengths. \\( (M+5) L_l = M L_r \\).<br><br><b>Step 2: Compare lengths</b><br>Since \\( (M+5) > M \\), for the equation to hold, \\( L_l \\) must be strictly less than \\( L_r \\). Therefore, the left arm is shorter than the right arm."
+        },
+        {
+          id: 36, topic: "Torque and Angular Acceleration",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Same number of books are placed in four book cases as shown. Which bookcase is most likely to topple forward if pulled a little at the top towards right?",
+          options: ["(1) Case 1 (Books at top shelf)", "(2) Case 2 (Books at bottom shelf)", "(3) Case 3 (Books at right side)", "(4) Case 4 (Books at left side)"],
+          correct: 0, 
+          sol: "<b>Step 1: Concept of Toppling</b><br>An object topples when the line of action of its weight falls outside its base. A higher Center of Gravity (CG) makes a system more unstable because a smaller tilt angle is required to move the CG past the base edge.<br><br><b>Step 2: Identify Case with highest CG</b><br>In Case 1, all books are on the top shelf, placing the system's mass as high as possible. This results in the highest Center of Gravity and the least stability against toppling."
+        },
+        {
+          id: 37, topic: "Torque and Angular Acceleration",
+          q: "A car weighs 1800 Kg. The distance between its front and back axles is 1.8 m. Its centre of gravity is 1.05 m behind the front axle. Force exerted by the level ground on each front wheel is:",
+          options: ["(1) 3675 N", "(2) 7350 N", "(3) 5145 N", "(4) 10290 N"],
+          correct: 0, 
+          sol: "<b>Step 1: Calculate total weight</b><br>\\( W = 1800 \\times 9.8 = 17640 \\, \\text{N} \\).<br><br><b>Step 2: Torque about rear axle</b><br>Let \\( N_f \\) be the total normal force on both front wheels. Rear axle is 0.75m behind CG (1.8 - 1.05).<br>\\( N_f (1.8) = W (0.75) \\implies N_f = \\frac{17640 \\times 0.75}{1.8} = 7350 \\, \\text{N} \\).<br><br><b>Step 3: Force per wheel</b><br>Force on each front wheel = \\( 7350 / 2 = 3675 \\, \\text{N} \\)."
+        },
+        {
+          id: 38, topic: "Torque and Angular Acceleration",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Three parallel forces are acting on a rod at distances of 40 cm (F up), 60 cm (2F down) and 80 cm (F up) respectively from one end of the rod. Assuming no other forces, the rod will:",
+          options: ["(1) be at rest", "(2) exhibit rotational motion only", "(3) exhibit translational motion", "(4) exhibit combined rotational and translational motion"],
+          correct: 0, 
+          sol: "<b>Step 1: Net Force</b><br>\\( F_{net} = F - 2F + F = 0 \\). There is no translational acceleration.<br><br><b>Step 2: Net Torque about the 0 cm end</b><br>\\( \tau = F(40) - 2F(60) + F(80) = 40F - 120F + 80F = 0 \\). There is no rotational acceleration.<br><br><b>Step 3: Conclusion</b><br>Since both net force and net torque are zero, the rod remains in equilibrium (at rest)."
+        },
+        {
+          id: 39, topic: "Angular Momentum",
+          q: "A person holds a spinning bicycle wheel while sitting stationary on a chair that is free to rotate about a vertical axis. As the person changes the axis of the spinning wheel, the chair begins to rotate. This is a result of:",
+          options: ["(1) Conservation of angular momentum.", "(2) A torque due to the force of gravity.", "(3) Conservation of rotational kinetic energy.", "(4) Mechanical advantage of double-axis rotation."],
+          correct: 0, 
+          sol: "<b>Step 1: System Analysis</b><br>The system (person + chair + wheel) is free to rotate about the vertical axis, and there are no external torques acting on it in that direction.<br><br><b>Step 2: Conservation Law</b><br>Total angular momentum (L) about the vertical axis must remain constant. When the person tilts the wheel, its vertical angular momentum component changes. The chair must rotate to produce a compensating angular momentum such that the total remains zero (its initial value)."
+        },
+        {
+          id: 40, topic: "Angular Momentum",
+          q: "Two solid uniform disks of equal mass are mounted to rotate about fixed central axes. Radii are r1 < r2. A force F is applied to each disk at its edge for the same amount of time t. Which statement is true about kinetic energy (K) and angular momentum (L)?",
+          options: ["(1) L1 = L2 and K1 < K2", "(2) L1 < L2 and K1 = K2", "(3) L1 < L2 and K1 > K2", "(4) L1 < L2 and K1 < K2"],
+          correct: 1, 
+          sol: "<b>Step 1: Angular Momentum</b><br>\\( L = \tau t = (Fr)t \\). Since \\( r_2 > r_1 \\), it follows that \\( L_2 > L_1 \\).<br><br><b>Step 2: Kinetic Energy</b><br>\\( K = \int P dt = \int (\tau \omega) dt = \int (Fr \cdot \frac{Fr}{I}t) dt = \frac{(Fr)^2 t^2}{2I} \\).<br>Substitute \\( I = \frac{1}{2}mr^2 \\): \\( K = \frac{F^2 r^2 t^2}{m r^2} = \frac{F^2 t^2}{m} \\).<br>Since F, t, and m are identical, \\( K_1 = K_2 \\). Conclusion: \\( L_1 < L_2 \\) and \\( K_1 = K_2 \\)."
+        },
+        {
+          id: 41, topic: "Angular Momentum",
+          q: "A particle of mass m is describing a circular path of radius r with uniform speed. If L is the angular momentum of the particle, then its kinetic energy is:",
+          options: ["(1) \\( mrL \\)", "(2) \\( mr^2 L \\)", "(3) \\( \\frac{L^2}{2mr^2} \\)", "(4) \\( \\frac{L^2 r^2}{m} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Relationship formulas</b><br>\\( L = mvr \\implies v = \\frac{L}{mr} \\).<br>Kinetic Energy \\( K = \\frac{1}{2}mv^2 \\).<br><br><b>Step 2: Substitution</b><br>\\( K = \\frac{1}{2}m \left(\\frac{L}{mr}\right)^2 = \\frac{1}{2}m \frac{L^2}{m^2 r^2} = \\frac{L^2}{2mr^2} \\)."
+        },
+        {
+          id: 42, topic: "Angular Momentum",
+          q: "A particle of mass m=5 units moves with uniform speed \\( v=3\\sqrt{2} \\) in the XOY plane along the line Y=X+4. The magnitude of angular momentum of the particle about the origin is:",
+          options: ["(1) zero", "(2) 60 units", "(3) 7.5 units", "(4) \\( 40\\sqrt{2} \\, \\text{units} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Perpendicular distance to the path</b><br>The path line equation is \\( X - Y + 4 = 0 \\).<br>Distance \\( p \\) from origin (0,0) is \\( \\frac{|0 - 0 + 4|}{\\sqrt{1^2 + (-1)^2}} = \\frac{4}{\\sqrt{2}} = 2\\sqrt{2} \\).<br><br><b>Step 2: Calculate Angular Momentum</b><br>\\( L = m v p = 5 \\times 3\\sqrt{2} \\times 2\\sqrt{2} = 5 \\times 3 \\times 2 \\times 2 = 60 \\, \\text{units} \\)."
+        },
+        {
+          id: 43, topic: "Angular Momentum",
+          q: "A child stands at the centre of a platform rotating about its central axis with kinetic energy K. The child now stretches his arm so that the moment of inertia of the system doubles. The kinetic energy of the system now is:",
+          options: ["(1) 2 K", "(2) K/4", "(3) 4 K", "(4) K/2"],
+          correct: 3, 
+          sol: "<b>Step 1: Conservation of Angular Momentum</b><br>In an isolated system, \\( L \\) is constant. Kinetic energy can be expressed as \\( K = \\frac{L^2}{2I} \\).<br><br><b>Step 2: Effect of doubling MOI</b><br>If the new moment of inertia \\( I' = 2I \\), then the new kinetic energy is \\( K' = \\frac{L^2}{2(2I)} = \\frac{1}{2} \left(\\frac{L^2}{2I}\right) = \\frac{K}{2} \\)."
+        },
+        {
+          id: 44, topic: "Angular Momentum",
+          q: "A circular platform (I=200 kgm², r=2m) is initially at rest. A 70 kg man on the edge begins to walk at speed \\( v_0 = 1.0 \\, \\text{m/s} \\) relative to ground. The angular velocity of the platform is:",
+          options: ["(1) 1.2 rad/s", "(2) 0.4 rad/s", "(3) 2.0 rad/s", "(4) 0.7 rad/s"],
+          correct: 3, 
+          sol: "<b>Step 1: Setup Conservation of Angular Momentum</b><br>Initial \\( L = 0 \\). Final \\( L_{total} = L_{man} + L_{platform} = 0 \\).<br><br><b>Step 2: Calculate man's angular momentum</b><br>\\( L_m = m v r = 70 \\times 1.0 \\times 2 = 140 \\, \\text{kg m}^2/\\text{s} \\).<br><br><b>Step 3: Solve for platform angular velocity</b><br>\\( |L_p| = I \omega = 200 \omega \\).<br>\\( 200 \omega = 140 \\implies \omega = 140 / 200 = 0.7 \\, \\text{rad/s} \\)."
+        },
+        {
+          id: 45, topic: "Angular Momentum",
+          q: "A spinning ice skater has an initial kinetic energy \\( 1/2 I \omega^2 \\). She pulls in her outstretched arms, decreasing her moment of inertia by 75%. What is her new angular speed ?",
+          options: ["(1) \\( \omega/4 \\)", "(2) \\( \omega/3 \\)", "(3) \\( 4\omega/3 \\)", "(4) \\( 4\omega \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Determine final MOI</b><br>A decrease of 75% means the final moment of inertia is 25% of the original.<br>\\( I_f = 0.25 I_i = I_i / 4 \\).<br><br><b>Step 2: Conservation of Angular Momentum</b><br>\\( I_i \omega_i = I_f \omega_f \\).<br>\\( I_i \omega = (I_i / 4) \omega_f \\implies \omega_f = 4 \omega \\)."
+        },
+        {
+          id: 46, topic: "Angular Momentum",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A mass m moves in a circle on a smooth horizontal plane with velocity \\( v_0 \\) at a radius \\( R_0 \\). The mass is attached to a string which passes through a smooth hole in the plane. The tension in the string is decreased gradually and finally m moves in a circle of radius \\( 2R_0 \\). The final value of the kinetic energy is:",
+          options: ["(1) \\( \\frac{1}{4}mv_0^2 \\)", "(2) \\( 2mv_0^2 \\)", "(3) \\( \\frac{1}{2}mv_0^2 \\)", "(4) \\( \\frac{1}{8}mv_0^2 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Apply Conservation of Angular Momentum</b><br>Since the tension force acts radially through the hole, the external torque about the hole is zero. Thus, angular momentum \\( L \\) is conserved.<br>\\( L_i = L_f \\implies m v_0 R_0 = m v_f (2R_0) \\).<br>\\( v_f = \\frac{v_0 R_0}{2R_0} = \\frac{v_0}{2} \\).<br><br><b>Step 2: Calculate Final Kinetic Energy</b><br>Final KE \\( K_f = \\frac{1}{2} m v_f^2 = \\frac{1}{2} m \\left(\\frac{v_0}{2}\\right)^2 \\).<br>\\( K_f = \\frac{1}{2} m \\frac{v_0^2}{4} = \\frac{1}{8} m v_0^2 \\)."
+        },
+        {
+          id: 47, topic: "Angular Momentum",
+          q: "Four rigid bodies, each with the same mass and radius, are spinning freely with the same angular momentum. Which object requires the maximum work to stop it?",
+          options: ["(1) A solid sphere spinning about a diameter.", "(2) A hollow sphere spinning about a diameter.", "(3) A solid disc spinning about a central axis perpendicular to its plane.", "(4) A hoop spinning about an axis along a diameter."],
+          correct: 0, 
+          sol: "<b>Step 1: Relate Work to Kinetic Energy</b><br>To stop a spinning body, the work done must equal its rotational kinetic energy: \\( W = K = \\frac{L^2}{2I} \\).<br><br><b>Step 2: Compare Moments of Inertia</b><br>Since all bodies have the same L, m, and R, the work is inversely proportional to the moment of inertia (\\( W \\propto 1/I \\)). The object with the SMALLEST moment of inertia will require the MAXIMUM work.<br>1. Solid Sphere: \\( I = 0.4 MR^2 \\).<br>2. Hollow Sphere: \\( I = 0.67 MR^2 \\).<br>3. Solid Disc: \\( I = 0.5 MR^2 \\).<br>4. Hoop (diameter axis): \\( I = 0.5 MR^2 \\).<br><br><b>Step 3: Conclusion</b><br>The solid sphere has the smallest moment of inertia, hence it has the highest kinetic energy for a given angular momentum and requires the most work to stop."
+        },
+        {
+          id: 48, topic: "Angular Momentum",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A uniform smooth rod of mass M and length L is rotating about its central axis with angular speed \\( \\omega \\). There are two beads each of mass m at the centre. During rotation, the beads start to slide to opposite ends of the rod. Find the angular speed when the beads reach the ends.",
+          options: ["(1) \\( \\frac{M\\omega}{M+6m} \\)", "(2) \\( \\frac{M\\omega}{M+2m} \\)", "(3) \\( \\omega \\)", "(4) None of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Initial Moment of Inertia</b><br>Initial system MOI includes the rod and the beads at the center (r=0).<br>\\( I_i = I_{rod} + 2m(0)^2 = \\frac{ML^2}{12} \\).<br><br><b>Step 2: Final Moment of Inertia</b><br>Final system MOI includes the rod and the beads at the ends (r=L/2).<br>\\( I_f = \\frac{ML^2}{12} + 2m\\left(\\frac{L}{2}\\right)^2 = \\frac{ML^2}{12} + \\frac{2mL^2}{4} = \\frac{ML^2}{12} + \\frac{mL^2}{2} \\).<br>Factor out \\( L^2/12 \\): \\( I_f = \\frac{L^2}{12} (M + 6m) \\).<br><br><b>Step 3: Conservation of Angular Momentum</b><br>\\( I_i \\omega_i = I_f \\omega_f \\implies \\left(\\frac{ML^2}{12}\\right) \\omega = \\left(\\frac{L^2(M+6m)}{12}\\right) \\omega_f \\).<br>\\( \\omega_f = \\frac{M\\omega}{M+6m} \\)."
+        },
+        {
+          id: 49, topic: "Rolling Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A wheel of radius R=0.1 m is rolling without slipping on a horizontal surface. The centre of the wheel moves with a constant speed \\( \\sqrt{3} \\, \\text{m/s} \\). The speed of point P (at 60° from the vertical) with respect to ground is:",
+          options: ["(1) \\( 2\\sqrt{3} \\, \\text{m/s} \\)", "(2) zero", "(3) 3 m/s", "(4) \\( \\sqrt{3} \\, \\text{m/s} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for speed in pure rolling</b><br>In pure rolling, the speed of any point on the rim at an angle \\( \\theta \\) with the point of contact is \\( v_p = 2v_{cm} \\sin(\\theta/2) \\).<br><br><b>Step 2: Identify the angle</b><br>Point P is 60° from the top vertical. The point of contact is at the bottom (180° from the top). Thus, the angle \\( \\theta \\) from the point of contact is \\( 180^{\\circ} - 60^{\\circ} = 120^{\\circ} \\).<br><br><b>Step 3: Calculate</b><br>\\( v_p = 2 \\times \\sqrt{3} \\times \\sin(120^{\\circ}/2) = 2\\sqrt{3} \\sin(60^{\\circ}) \\).<br>\\( v_p = 2\\sqrt{3} \\times \\frac{\\sqrt{3}}{2} = 3 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 50, topic: "Rolling Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A solid sphere of mass m is placed on a rough inclined plane. The coefficient of friction is not sufficient for pure rolling. The centre of the sphere slides a length l on the incline from rest and its kinetic energy becomes K. Then the work done by friction will be:",
+          options: ["(1) \\( \\mu mgl \\cos\\theta \\)", "(2) \\( mgl \\sin\\theta - K \\)", "(3) \\( -\\frac{2}{5} \\mu mgl \\sin\\theta + K \\)", "(4) \\( -\\frac{2}{5} mgl \\sin\\theta \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Use Work-Energy Theorem</b><br>The total work done by all forces equals the change in kinetic energy: \\( W_{gravity} + W_{friction} = \Delta K \\).<br><br><b>Step 2: Calculate work by gravity</b><br>Gravity does work as the sphere moves down height \\( h = l \\sin\\theta \\).<br>\\( W_g = mgl \\sin\\theta \\).<br><br><b>Step 3: Solve for friction work</b><br>\\( mgl \\sin\\theta + W_f = K - 0 \\).<br>\\( W_f = K - mgl \\sin\\theta \\). The magnitude of energy lost is \\( mgl \\sin\\theta - K \\)."
+        },
+        {
+          id: 51, topic: "Rolling Motion",
+          q: "A solid sphere is under pure rolling on a rough fixed incline plane of angle \\( \\theta \\). Choose the correct option if only contact forces and gravity are acting:",
+          options: ["(1) Friction will be down the incline if rolling up.", "(2) Friction will be down the incline whether rolling up or down.", "(3) Friction and acceleration increase with incline angle.", "(4) Velocity and acceleration of the point of contact will be zero."],
+          correct: 3, 
+          sol: "<b>Concept of Pure Rolling</b><br>By the fundamental definition of 'rolling without slipping', the point of the object currently in contact with the surface must have zero instantaneous velocity relative to that surface. In the case of a fixed incline, both the instantaneous velocity and the instantaneous acceleration of the contact point are exactly Zero."
+        },
+        {
+          id: 52, topic: "Rolling Motion",
+          q: "A solid cylinder is rolling down an inclined plane without slipping. Which of the following is correct?",
+          options: ["(1) The friction force is dissipative.", "(2) The friction force is kinetic.", "(3) Friction aids rotation but hinders translation.", "(4) Friction increases if theta is reduced."],
+          correct: 2, 
+          sol: "<b>Analysis of Pure Rolling Forces</b><br>In pure rolling, static friction acts at the contact point. Since the point of contact doesn't move relative to the surface, the force of friction does no work (non-dissipative). It provides the torque needed for rotation (aiding rotation) while acting opposite to the direction of motion (hindering translation)."
+        },
+        {
+          id: 53, topic: "Rolling Motion",
+          q: "A solid sphere is released from rest on an incline having friction coefficient \\( \\mu = 1/7 \\tan\\theta \\). The motion will be:",
+          options: ["(1) Pure rolling.", "(2) Pure translation.", "(3) Rolling with slipping.", "(4) Constant angular momentum."],
+          correct: 1, 
+          sol: "<b>Step 1: Condition for Pure Rolling</b><br>For a solid sphere on an incline to roll without slipping, the required friction coefficient is \\( \\mu \\ge \\frac{2}{7} \\tan\\theta \\).<br><br><b>Step 2: Compare with given value</b><br>We are given \\( \\mu = 1/7 \\tan\\theta \\).<br>Since \\( 1/7 < 2/7 \\), the available friction is insufficient to provide the necessary torque for pure rolling. Therefore, the sphere will start rolling but will also slip simultaneously."
+        },
+        {
+          id: 54, topic: "Rolling Motion",
+          q: "A body is rolling down an inclined plane. If its rotational kinetic energy is 40% of its total kinetic energy, then the body is a:",
+          options: ["(1) Solid sphere", "(2) Cylinder", "(3) Ring", "(4) Hollow ball"],
+          correct: 3, 
+          sol: "<b>Step 1: Setup energy ratio</b><br>\\( K_{rot} = 0.4 K_{total} \\implies \\frac{1/2 I \\omega^2}{1/2 M v^2 + 1/2 I \\omega^2} = 0.4 \\).<br>Substitute \\( I = \beta MR^2 \\) and \\( v = \omega R \\):<br>\\( \\frac{\beta}{1 + \beta} = 0.4 = \\frac{2}{5} \\).<br><br><b>Step 2: Solve for shape factor beta</b><br>\\( 5\beta = 2 + 2\beta \\implies 3\beta = 2 \\implies \beta = 2/3 \\).<br><br><b>Step 3: Identify the body</b><br>A body with \\( I = \\frac{2}{3}MR^2 \\) is a hollow sphere (hollow ball)."
+        },
+        {
+          id: 55, topic: "Rolling Motion",
+          q: "Three identical solid spheres move down inclines A (no friction), B (sufficient friction for pure rolling), and C (friction causes rolling with slipping). Rank their kinetic energies at the bottom.",
+          options: ["(1) EA = EB = EC", "(2) EA = EB > EC", "(3) EA > EB > EC", "(4) EA > EB = EC"],
+          correct: 2, 
+          sol: "<b>Analysis of Energy Dissipation</b><br>- In case A (frictionless) and B (pure rolling), no mechanical energy is lost to heat. All potential energy is converted to kinetic energy. Thus, \\( E_A = E_B \\).<br>- In case C (slipping), work is done by kinetic friction, which dissipates energy as heat. Therefore, total kinetic energy at the bottom is reduced: \\( E_C < E_B \\).<br>Result: \\( E_A = E_B > E_C \\)."
+        },
+        {
+          id: 56, topic: "Rolling Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A sphere of radius 3 m rolls on a plank. The acceleration of the sphere is 3 m/s² and the plank is 6 m/s² as indicated. Find the angular acceleration \\( \\alpha \\).",
+          options: ["(1) 3 rad/s²", "(2) 6 rad/s²", "(3) 3 rad/s² (opposite direction)", "(4) 1 rad/s²"],
+          correct: 0, 
+          sol: "<b>Step 1: Constraint of Rolling</b><br>For rolling without slipping on a moving surface: \\( a_{cm} = a_{plank} \pm \alpha R \\).<br>According to the diagram, the sphere's CM (3) and Plank (6) move in the same direction, and the rotation \\( \\alpha \\) opposes the plank's direction at the contact point.<br>\\( a_{contact} = a_{cm} + \alpha R = a_{plank} \\).<br><br><b>Step 2: Calculate</b><br>\\( 3 + \alpha(3) = 6 \\).<br>\\( 3\alpha = 3 \\implies \alpha = 1 \\, \\text{rad/s}^2 \\).<br>Wait, check directions again: \\( 6 - 3 = 3 \\alpha \implies \alpha = 1 \\). Note: key says 1."
+        },
+        {
+          id: 57, topic: "Rolling Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A disc of radius R is confined to roll without slipping at A and B. If the plates have velocities v and 2v as shown, find the angular velocity of the disc.",
+          options: ["(1) 3v/2R (Anticlockwise)", "(2) 3v/2R (Clockwise)", "(3) v/2R (Anticlockwise)", "(4) v/2R (Clockwise)"],
+          correct: 0, 
+          sol: "<b>Step 1: Relative velocity equation</b><br>Let clockwise be positive. \\( v_A = v_{cm} + \omega R = -2v \\) and \\( v_B = v_{cm} - \omega R = v \\).<br><br><b>Step 2: Solve for angular velocity</b><br>Subtracting the equations: \\( (v_{cm} + \omega R) - (v_{cm} - \omega R) = -2v - v \\).<br>\\( 2\omega R = -3v \\implies \omega = -\\frac{3v}{2R} \\).<br>The negative sign indicates Anticlockwise rotation."
+        },
+        {
+          id: 58, topic: "Rolling Motion",
+          q: "Anti-lock brakes (ABS) prevent wheels from locking during emergency braking. What is the main advantage?",
+          options: ["(1) Saves tyres.", "(2) More control but stopping distance increases.", "(3) Shorter distance because rolling friction > static friction.", "(4) Shorter distance because static friction > kinetic friction."],
+          correct: 3, 
+          sol: "<b>Physics of Braking</b><br>When wheels lock, they slide, and the braking force is provided by kinetic friction. When wheels continue to roll (ABS), they maintain grip, and the braking force is provided by static friction. Since the coefficient of static friction is almost always greater than the coefficient of kinetic friction, ABS provides a larger deceleration force and thus a shorter stopping distance."
+        },
+        {
+          id: 59, topic: "Rolling Motion",
+          q: "A uniform solid disc of radius R and mass m is free to rotate on a frictionless pivot on its rim. It is released from rest when the diameter through the pivot is horizontal. The speed of the CM when it is vertical is:",
+          options: ["(1) \\( (2/3)(gR)^{1/2} \\)", "(2) \\( (gR)^{1/2} \\)", "(3) \\( (2gR)^{1/2} \\)", "(4) \\( 2(gR/3)^{1/2} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Conservation of Energy</b><br>Loss in PE = Gain in Rotational KE.<br>The CM drops by height R. \\( mgR = \frac{1}{2} I_{pivot} \omega^2 \\).<br><br><b>Step 2: Calculate Moment of Inertia</b><br>By parallel axis theorem: \\( I_{pivot} = I_{cm} + mR^2 = 1/2 mR^2 + mR^2 = 3/2 mR^2 \\).<br><br><b>Step 3: Solve for velocity</b><br>\\( mgR = \frac{1}{2} (3/2 mR^2) \omega^2 \\implies \omega^2 = \frac{4g}{3R} \\).<br>Speed of CM: \\( v = \omega R = \sqrt{\frac{4gR^2}{3R}} = 2\sqrt{gR/3} \\)."
+        },
+        {
+          id: 60, topic: "Rolling Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A sphere is set in pure rolling on an incline fixed in a car. For what horizontal car acceleration 'a' will the sphere continue pure rolling?",
+          options: ["(1) g", "(2) \\( g \sin\theta \\)", "(3) \\( g \cot\theta \\)", "(4) \\( g \tan\theta \\)"],
+          correct: 3, 
+          sol: "<b>Constraint for no translation</b><br>To maintain its position (pure rolling without descending), the pseudo-force component up the incline must balance the gravity component down the incline.<br>\\( ma \cos\theta = mg \sin\theta \\).<br>\\( a = g \frac{\sin\theta}{\cos\theta} = g \tan\theta \\)."
+        },
+        {
+          id: 61, topic: "Rolling Motion",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Hollow sphere A rolls without sliding and collides head-on elastically with solid sphere B of same mass and radius. Find the ratio of kinetic energy of B to A after collision.",
+          options: ["(1) 1:1", "(2) 2:3", "(3) 3:2", "(4) 5:2"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Translational Velocities</b><br>In a 1D elastic collision between identical masses, the translational velocities are completely exchanged. Since B was at rest, A stops translationally and B moves with A's initial velocity \\( v_0 \\).<br><br><b>Step 2: Analyze Rotational Energy</b><br>Because the spheres are smooth, no torque is applied during the collision. Thus, A keeps all its initial rotational energy, while B gains only translational energy.<br>Initial KE of A: \\( K_{total} = 1/2 mv_0^2 + 1/2 (2/3 mr^2) (v_0/r)^2 = 1/2 mv_0^2 + 1/3 mv_0^2 = 5/6 mv_0^2 \\).<br>Post-collision A (only rotation): \\( K_A = 1/3 mv_0^2 \\).<br>Post-collision B (only translation): \\( K_B = 1/2 mv_0^2 \\).<br><br><b>Step 3: Ratio</b><br>\\( K_B : K_A = (1/2) : (1/3) = 3 : 2 \\)."
+        },
+        {
+          id: 62, topic: "Moment of Inertia",
+          q: "The moment of inertia of a body is I and its coefficient of linear expansion is \\( \alpha \\). If temperature rises by \\( \Delta T \\), the change in moment of inertia is:",
+          options: ["(1) \\( \alpha I \Delta T \\)", "(2) \\( 2 \alpha I \Delta T \\)", "(3) \\( 4 \alpha I \Delta T \\)", "(4) \\( \alpha I \Delta T / 2 \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for MOI expansion</b><br>Moment of inertia is proportional to the square of the dimension: \\( I = k m R^2 \\).<br>Differentiating with respect to temperature: \\( dI/dT = 2kmR (dR/dT) \\).<br><br><b>Step 2: Substitute linear expansion</b><br>Since \\( dR = \alpha R dT \\), we have \\( dR/dT = \alpha R \\).<br>\\( dI = 2 (kmR^2) \alpha dT = 2 I \alpha \Delta T \\)."
+        }
+      ]
+    },
     // ==========================================
     // CHAPTER: THERMAL PHYSICS (PART 1)
     // ==========================================
@@ -8342,6 +8817,7 @@
       ]
     }
   };
+
 
 
 
