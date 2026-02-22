@@ -1818,7 +1818,8 @@
         },
         {
           id: 3, topic: "Work-Energy Theorem",
-          q: "Velocity time graph of a particle is shown in the diagram. Choose the INCORRECT option. ",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Velocity time graph of a particle is shown in the diagram. Choose the INCORRECT option.",
           options: ["(1) Work done by net force for part AB is positive.", "(2) Work done by net force for part BC is zero.", "(3) Work done by net force for part DE is negative.", "(4) Work done by net force for part CD is negative."],
           correct: 2, 
           sol: "<b>Step 1: Work-Energy Theorem</b><br>The work done by the net force is strictly equal to the change in Kinetic Energy: \\( W = \\Delta K = \\frac{1}{2}m(v_f^2 - v_i^2) \\). Thus, work is positive when speed increases, zero when speed is constant, and negative when speed decreases.<br><br><b>Step 2: Analyze each segment</b><br>- AB: Velocity increases from 0 to a positive value. Speed increases. \\( W > 0 \\) (Option 1 is true).<br>- BC: Velocity is constant. Speed is constant. \\( W = 0 \\) (Option 2 is true).<br>- CD: Velocity drops from positive to zero. Speed decreases. \\( W < 0 \\) (Option 4 is true).<br>- DE: Velocity goes from zero to a negative value. The magnitude of velocity (speed) is INCREASING. Since speed is increasing, \\( \\Delta K > 0 \\), so the net work done must be POSITIVE. Option 3 claims it is negative, which makes it the INCORRECT statement."
@@ -1839,14 +1840,16 @@
         },
         {
           id: 6, topic: "Work-Energy Theorem",
-          q: "Position-time graph of a particle of mass 2 kg is shown in figure. Total work done on the particle from t=0 to t=4s is ",
-          options: ["(1) 8 J", "(2) 4 J", "(3) 0 J", "(4) can't be determined"],
-          correct: 2, 
-          sol: "<b>Step 1: Determine velocities from the graph</b><br>The velocity is the slope of the position-time (x-t) graph.<br>From t=0 to t=2s, slope \\( v_i = \\frac{2 - 0}{2 - 0} = 1 \\, \\text{m/s} \\).<br>From t=2 to t=4s, slope \\( v_f = \\frac{0 - 2}{4 - 2} = -1 \\, \\text{m/s} \\).<br><br><b>Step 2: Apply Work-Energy Theorem</b><br>Total work done equals the change in kinetic energy.<br>Initial KE (t=0 to 2): \\( K_i = \\frac{1}{2}mv_i^2 = \\frac{1}{2}(2)(1)^2 = 1 \\, \\text{J} \\).<br>Final KE (t=2 to 4): \\( K_f = \\frac{1}{2}mv_f^2 = \\frac{1}{2}(2)(-1)^2 = 1 \\, \\text{J} \\).<br>\\( W = \\Delta K = 1 - 1 = 0 \\, \\text{J} \\)."
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "The system shown is released at rest. Speed of block A, after block B has descended by 2 cm, is (take \\( g=10 \\, \\text{m/s}^2 \\))",
+          options: ["(1) \\( 0.4 \\, \\text{m/s} \\)", "(2) \\( 0.5 \\, \\text{m/s} \\)", "(3) \\( 0.6 \\, \\text{m/s} \\)", "(4) \\( 0.8 \\, \\text{m/s} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Calculate forces</b><br>Driving force = Weight of B = \\( 3 \times 10 = 30 \\, \\text{N} \\).<br>Kinetic friction on A = \\( \\mu m_A g = 0.5 \\times 20 = 10 \\, \\text{N} \\).<br>Net force on system \\( F_{net} = 30 - 10 = 20 \\, \\text{N} \\).<br><br><b>Step 2: Calculate acceleration</b><br>Total mass being accelerated \\( M = m_A + m_B = 2 + 3 = 5 \\, \\text{kg} \\).<br>System acceleration \\( a = \\frac{F_{net}}{M} = \\frac{20}{5} = 4 \\, \\text{m/s}^2 \\).<br><br><b>Step 3: Use kinematics to find final speed</b><br>Initial speed \\( u = 0 \\). Distance \\( s = 2 \\, \\text{cm} = 0.02 \\, \\text{m} \\).<br>\\( v^2 = u^2 + 2as = 0 + 2(4)(0.02) = 0.16 \\).<br>\\( v = \\sqrt{0.16} = 0.4 \\, \\text{m/s} \\)."
         },
         {
           id: 7, topic: "Work Done by Forces",
-          q: "A body of mass 2 kg is kept on a rough horizontal surface as shown in the figure. Find the work done by frictional force in the time interval t=0 to t=5 sec. ",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A body of mass 2 kg is kept on a rough horizontal surface as shown in the figure. Find the work done by frictional force in the time interval t=0 to t=5 sec.",
           options: ["(1) 16 J", "(2) 32 J", "(3) 64 J", "(4) data insufficient"],
           correct: 3, 
           sol: "<b>Step 1: Calculate Normal Force</b><br>Vertical equilibrium: \\( N + 10\\sin(30^{\\circ}) = mg + 10 \\).<br>\\( N + 10(0.5) = 2(10) + 10 \\implies N + 5 = 30 \\implies N = 25 \\, \\text{N} \\).<br><br><b>Step 2: Calculate Limiting Friction vs Driving Force</b><br>Max static friction \\( f_s = \\mu N = 0.5 \\times 25 = 12.5 \\, \\text{N} \\).<br>Horizontal driving force \\( F_x = 10\\cos(30^{\\circ}) = 10 \\times \\frac{\\sqrt{3}}{2} = 5\\sqrt{3} \\approx 8.66 \\, \\text{N} \\).<br><br><b>Step 3: Analyze Motion</b><br>Since the driving force (8.66 N) is strictly less than the maximum friction (12.5 N), the block does not move at all.<br>Since displacement is zero, the work done by friction (and all other forces) is exactly 0 J. Since 0 is not an option, data is insufficient or the provided options are incorrect for the given parameters (Option 4 represents the best logical escape path here)."
@@ -1867,7 +1870,8 @@
         },
         {
           id: 10, topic: "Work Done by Forces",
-          q: "A body of mass 2.0 kg, free to travel in the x-direction, is subjected to a force directed in the positive x-direction that varies with position as shown in the graph. The force does 9.0 J of work on the body as it moves from x=0 to x=5.0 meters. What is the value of F at x=1.0 meters? ",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A body of mass 2.0 kg, free to travel in the x-direction, is subjected to a force directed in the positive x-direction that varies with position as shown in the graph. The force does 9.0 J of work on the body as it moves from x=0 to x=5.0 meters. What is the value of F at x=1.0 meters?",
           options: ["(1) 2 N", "(2) 3 N", "(3) 6 N", "(4) 9 N"],
           correct: 1, 
           sol: "<b>Step 1: Relate Work to Area</b><br>The work done is the total area under the Force-Position (F-x) graph.<br><br><b>Step 2: Calculate Area geometrically</b><br>The area consists of a rectangle from x=0 to 2, and a triangle from x=2 to 4.<br>Rectangle Area = \\( 2 \\times F_0 \\).<br>Triangle Area = \\( \\frac{1}{2} \\times (4 - 2) \\times F_0 = \\frac{1}{2} \\times 2 \\times F_0 = F_0 \\).<br>Total Area = \\( 2F_0 + F_0 = 3F_0 \\).<br><br><b>Step 3: Solve for F_0</b><br>We are given that total Work = 9.0 J.<br>\\( 3F_0 = 9 \\implies F_0 = 3 \\, \\text{N} \\).<br>At x=1.0m, the force is on the constant plateau, so \\( F = 3 \\, \\text{N} \\)."
@@ -1902,7 +1906,8 @@
         },
         {
           id: 15, topic: "Work-Energy Theorem",
-          q: "The system shown is released at rest. Speed of block A, after block B has descended by 2 cm, is (take \\( g=10 \\, \\text{m/s}^2 \\)) ",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "The system shown is released at rest. Speed of block A, after block B has descended by 2 cm, is (take \\( g=10 \\, \\text{m/s}^2 \\))",
           options: ["(1) \\( 0.4 \\, \\text{m/s} \\)", "(2) \\( 0.5 \\, \\text{m/s} \\)", "(3) \\( 0.6 \\, \\text{m/s} \\)", "(4) \\( 0.8 \\, \\text{m/s} \\)"],
           correct: 0, 
           sol: "<b>Step 1: Calculate forces</b><br>Driving force = Weight of B = \\( 3 \times 10 = 30 \\, \\text{N} \\).<br>Kinetic friction on A = \\( \\mu m_A g = 0.5 \\times 20 = 10 \\, \\text{N} \\).<br>Net force on system \\( F_{net} = 30 - 10 = 20 \\, \\text{N} \\).<br><br><b>Step 2: Calculate acceleration</b><br>Total mass being accelerated \\( M = m_A + m_B = 2 + 3 = 5 \\, \\text{kg} \\).<br>System acceleration \\( a = \\frac{F_{net}}{M} = \\frac{20}{5} = 4 \\, \\text{m/s}^2 \\).<br><br><b>Step 3: Use kinematics to find final speed</b><br>Initial speed \\( u = 0 \\). Distance \\( s = 2 \\, \\text{cm} = 0.02 \\, \\text{m} \\).<br>\\( v^2 = u^2 + 2as = 0 + 2(4)(0.02) = 0.16 \\).<br>\\( v = \\sqrt{0.16} = 0.4 \\, \\text{m/s} \\)."
@@ -1916,7 +1921,8 @@
         },
         {
           id: 17, topic: "Work Done by Forces",
-          q: "The graph below shows how the force on a mass depends on the position of the mass. What is the change in the kinetic energy of the mass as it moves from x=0.0 m to x=3.0 m? ",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "The graph below shows how the force on a mass depends on the position of the mass. What is the change in the kinetic energy of the mass as it moves from x=0.0 m to x=3.0 m?",
           options: ["(1) 0.0 J", "(2) 20 J", "(3) 50 J", "(4) 60 J"],
           correct: 2, 
           sol: "<b>Step 1: Work-Energy Theorem</b><br>The change in kinetic energy is equal to the total work done by the force, which geometrically is the area under the Force-Position (F-x) graph.<br><br><b>Step 2: Calculate Area geometrically</b><br>The graph consists of a triangle (from x=0 to 1) and a rectangle (from x=1 to 3).<br>Area of triangle = \\( \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 1 \\times 20 = 10 \\, \\text{J} \\).<br>Area of rectangle = \\( \\text{width} \\times \\text{height} = (3 - 1) \\times 20 = 2 \\times 20 = 40 \\, \\text{J} \\).<br><br><b>Step 3: Final Calculation</b><br>Total Work (Change in KE) = \\( 10 + 40 = 50 \\, \\text{J} \\)."
@@ -2056,7 +2062,8 @@
         },
         {
           id: 38, topic: "Potential Energy & Conservation",
-          q: "The force acting on a body moving along x-axis varies with the position of the particle as shown in the figure. The body is in stable equilibrium at :- ",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "The force acting on a body moving along x-axis varies with the position of the particle as shown in the figure. The body is in stable equilibrium at :-",
           options: ["(1) \\( x=x_1 \\)", "(2) \\( x=x_2 \\)", "(3) both \\( x_1 \\) and \\( x_2 \\)", "(4) neither \\( x_1 \\) nor \\( x_2 \\)"],
           correct: 1, 
           sol: "<b>Step 1: Identify equilibrium points</b><br>Equilibrium occurs anywhere the net force is zero. On the graph, this happens at the x-intercepts: \\( x_1 \\) and \\( x_2 \\).<br><br><b>Step 2: Differentiate Stable vs Unstable</b><br>An equilibrium point is 'stable' if small displacements create a *restoring* force pushing the object back toward the center.<br>- At \\( x_1 \\): If you displace the object to the right (x > \\( x_1 \\)), the force becomes positive (pushes it further right). This is UNSTABLE.<br>- At \\( x_2 \\): If you displace the object to the right (x > \\( x_2 \\)), the force becomes negative (pushes it back left towards \\( x_2 \\)). If you displace it left, force is positive (pushes it right towards \\( x_2 \\)). This restoring behavior indicates STABLE equilibrium."
@@ -2098,7 +2105,8 @@
         },
         {
           id: 44, topic: "Potential Energy & Conservation",
-          q: "A body with mass 2 kg moves in one direction in the presence of a force which is described by the potential energy graph. If the body is released from rest at x=2m, then its speed when it crosses x=5 m is :- ",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "A body with mass 2 kg moves in one direction in the presence of a force which is described by the potential energy graph. If the body is released from rest at x=2m, then its speed when it crosses x=5 m is :-",
           options: ["(1) zero", "(2) \\( 1 \\, \\text{m/s} \\)", "(3) \\( 2 \\, \\text{m/s} \\)", "(4) \\( 3 \\, \\text{m/s} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Extract data from the graph</b><br>Initial state at x=2m: \\( U_i = 6 \\, \\text{J} \\), released from rest so \\( K_i = 0 \\).<br>Final state at x=5m: \\( U_f = 2 \\, \\text{J} \\).<br><br><b>Step 2: Apply Conservation of Energy</b><br>Since only a conservative force acts (indicated by the presence of a U-graph), total mechanical energy is conserved.<br>\\( E = K_i + U_i = 0 + 6 = 6 \\, \\text{J} \\).<br>\\( K_f + U_f = E \\implies K_f + 2 = 6 \\implies K_f = 4 \\, \\text{J} \\).<br><br><b>Step 3: Calculate Final Speed</b><br>\\( K_f = \\frac{1}{2}mv_f^2 \\).<br>\\( 4 = \\frac{1}{2}(2)v_f^2 \\implies v_f^2 = 4 \\implies v_f = 2 \\, \\text{m/s} \\)."
@@ -2154,14 +2162,16 @@
         },
         {
           id: 52, topic: "Power",
-          q: "Power versus time graph for a given force is given below. Work done by the force upto time \\( t (\\le t_0) \\). ",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Power versus time graph for a given force is given below. Work done by the force upto time \\( t (\\le t_0) \\).",
           options: ["(1) First decreases then increases", "(2) First increases then decreases", "(3) Always increases", "(4) Always decreases"],
           correct: 2, 
           sol: "<b>Step 1: Define relationship between Work and Power</b><br>Power is the rate at which work is done: \\( P = \\frac{dW}{dt} \\).<br>Therefore, Work done is the integral (area under the curve) of the Power-time graph: \\( W(t) = \\int_{0}^{t} P(\tau) d\\tau \\).<br><br><b>Step 2: Analyze the graph</b><br>Looking at the provided P-t graph, the curve represents Power values that are strictly positive (the entire parabola sits above the t-axis).<br><br><b>Step 3: Conclusion</b><br>Because you are continually integrating (adding) positive area as time moves forward, the cumulative Work done must always increase. The rate of increase might slow down and speed up, but the total Work never decreases."
         },
         {
           id: 53, topic: "Power",
-          q: "Power due to a force acting on a block varies with time t as shown in figure. Then angle between force acting on the block and its velocity is :- ",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          q: "Power due to a force acting on a block varies with time t as shown in figure. Then angle between force acting on the block and its velocity is :-",
           options: ["(1) Obtuse at t=1s", "(2) 90° at t=3s", "(3) Acute at t=7s", "(4) 90° at t=6s"],
           correct: 3, 
           sol: "<b>Step 1: Relate Power to Vector Angle</b><br>Power is the dot product of Force and Velocity: \\( P = \\vec{F} \cdot \\vec{v} = Fv \cos\theta \\).<br>If \\( P > 0 \\), then \\( \cos\theta > 0 \\), meaning \\( \theta \\) is acute (< 90°).<br>If \\( P < 0 \\), then \\( \cos\theta < 0 \\), meaning \\( \theta \\) is obtuse (> 90°).<br>If \\( P = 0 \\), then \\( \cos\theta = 0 \\), meaning \\( \theta = 90^{\\circ} \\).<br><br><b>Step 2: Test the options against the graph</b><br>At t=1s, P is positive -> angle is acute. (Option 1 is false).<br>At t=3s, P is positive -> angle is acute. (Option 2 is false).<br>At t=7s, P is negative -> angle is obtuse. (Option 3 is false).<br>At t=6s, the graph crosses the axis so P is exactly 0 -> angle is 90°. (Option 4 is true)."
@@ -7662,4 +7672,5 @@
       ]
     }
   };
+
 
