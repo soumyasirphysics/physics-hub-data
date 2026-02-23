@@ -1859,7 +1859,7 @@
         },
         {
           id: 3, topic: "Work-Energy Theorem",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEguPjwwu5bGGJehX2gmi-B9eJ2cI3dod_I9dY6a6WzxcwZze8Lal2bOGi-m6RfjvgzH9OF9PjAz8tLpAwpsK5TW-oCM_oxGwF1d6TESAYyRWOzjniDyRWKxwmyspqf_JXv8gyrcsrKMoBL1b9AaQ3rL592aJgQuedsa-KAo_71qjS2ZEf-kOq6oMi1PuLWe",
           q: "Velocity time graph of a particle is shown in the diagram. Choose the INCORRECT option.",
           options: ["(1) Work done by net force for part AB is positive.", "(2) Work done by net force for part BC is zero.", "(3) Work done by net force for part DE is negative.", "(4) Work done by net force for part CD is negative."],
           correct: 2, 
@@ -1881,7 +1881,7 @@
         },
         {
           id: 6, topic: "Work-Energy Theorem",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgIcLZDLMGcMX_EWTx-SkQmfhyx0VZTCVDMZOZiDLHemqmlRlowe_fKz8Gz-dHQe7GvzbTowjP0MXUpOBY-ctgWNdxSDPvEFj9lThP57V5YV3bumlctvRzgYsDFAg45_2I2Gwg5hZy4sbyvO3SRU0ySJsxuhHMrBEJE0e4j2h4Wsa5zdKarUZoAb2SFg5T1",
           q: "The system shown is released at rest. Speed of block A, after block B has descended by 2 cm, is (take \\( g=10 \\, \\text{m/s}^2 \\))",
           options: ["(1) \\( 0.4 \\, \\text{m/s} \\)", "(2) \\( 0.5 \\, \\text{m/s} \\)", "(3) \\( 0.6 \\, \\text{m/s} \\)", "(4) \\( 0.8 \\, \\text{m/s} \\)"],
           correct: 0, 
@@ -1889,7 +1889,7 @@
         },
         {
           id: 7, topic: "Work Done by Forces",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjXFJ7qh7un9r9RRNUxzR-k_R2-XQXM_C-i7DaXsbEjbtUNL5w12DjFTatAVrplNdGHtpKWCWanHOZVx1zq_wTUocOeHgKCGWiN2X46aepGUKKrthDreqF7fPZl_W7AUlxOLyozB_nsC2MX8uQ13p1fp-YZKz_ObyixKX05VL0s39rQmuoNfDLk1pTQwNX6",
           q: "A body of mass 2 kg is kept on a rough horizontal surface as shown in the figure. Find the work done by frictional force in the time interval t=0 to t=5 sec.",
           options: ["(1) 16 J", "(2) 32 J", "(3) 64 J", "(4) data insufficient"],
           correct: 3, 
@@ -1911,7 +1911,7 @@
         },
         {
           id: 10, topic: "Work Done by Forces",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiTDaHmZtkORE4VUXeyuMREH_qsRRb7orApCVmNa6S1I9BgWt0gbgiJBrceM2queka0Tmcd6kOz00OngcQUmj6y8rIyh6JSGARYnEjv9pNAbNzYVOWjA9lt_Ft7VqXs_-i2b_qaT5ostr65dwLhFpN2Bz7tSR-s2YOLPQ88wBMVd6RdX3j5hKpItecCnHZ6",
           q: "A body of mass 2.0 kg, free to travel in the x-direction, is subjected to a force directed in the positive x-direction that varies with position as shown in the graph. The force does 9.0 J of work on the body as it moves from x=0 to x=5.0 meters. What is the value of F at x=1.0 meters?",
           options: ["(1) 2 N", "(2) 3 N", "(3) 6 N", "(4) 9 N"],
           correct: 1, 
@@ -1947,7 +1947,7 @@
         },
         {
           id: 15, topic: "Work-Energy Theorem",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgkebezCICyMzOHhk40bHihy1lFeNqrB0ngAQEfYLsb_m4kKQTj2NoW3ufcciHxUud6jtXBp0F1BK83NXv9QhUfNDacjut8GhzWH9Ns6e-YIZhVlWttWLKGDMBBXd7MrqgRw39btlWgf8tolUlQyZYywrKFG2TOM3AStmSWjDpe7JFnZ6XJIa07s9r2kcZi",
           q: "The system shown is released at rest. Speed of block A, after block B has descended by 2 cm, is (take \\( g=10 \\, \\text{m/s}^2 \\))",
           options: ["(1) \\( 0.4 \\, \\text{m/s} \\)", "(2) \\( 0.5 \\, \\text{m/s} \\)", "(3) \\( 0.6 \\, \\text{m/s} \\)", "(4) \\( 0.8 \\, \\text{m/s} \\)"],
           correct: 0, 
@@ -1962,7 +1962,7 @@
         },
         {
           id: 17, topic: "Work Done by Forces",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjFttx7E8xJF7BNfdmWDg0KImYm5gtNy56BvgpmNtPxwgzg3tK6OWSleN3dcOAR-bIYY6dMLiqiVdKHH4p_Yf7vOnnEXTbfEmmFviY7EEb_UAjrOMYOT0egTuoXdiL4BPs6u-GCJg8_LqgQVq-KiyiT2hMKXKnT9Xhg7qnxlDyXQc0wd9b0JMaly1P0Mw4Q",
           q: "The graph below shows how the force on a mass depends on the position of the mass. What is the change in the kinetic energy of the mass as it moves from x=0.0 m to x=3.0 m?",
           options: ["(1) 0.0 J", "(2) 20 J", "(3) 50 J", "(4) 60 J"],
           correct: 2, 
@@ -2103,7 +2103,7 @@
         },
         {
           id: 38, topic: "Potential Energy & Conservation",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj4dbiBvW4jPhFlbW_ky40CvpgR92KW1TEcXJ16YxRNjSQVoulOq_6J51z7s3KL25_v4jdYUH-B28Qfmh9xiptv5T4FL3nZ-kTrRfvfVa010bHWzgVkdBs_r3ASXOQiv8G5oN-sKBmhVceDhu_dkZys2Zn16MAFq3UOf6kYKjisgrr_DnA1Q8GSvYG1gg0m",
           q: "The force acting on a body moving along x-axis varies with the position of the particle as shown in the figure. The body is in stable equilibrium at :-",
           options: ["(1) \\( x=x_1 \\)", "(2) \\( x=x_2 \\)", "(3) both \\( x_1 \\) and \\( x_2 \\)", "(4) neither \\( x_1 \\) nor \\( x_2 \\)"],
           correct: 1, 
@@ -2146,7 +2146,7 @@
         },
         {
           id: 44, topic: "Potential Energy & Conservation",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhEPTGFF1PhFbp-HHReVeeK-S0WHfpDZe0NHK9EgfCVQDqH8ODd3jeaYd0mMUjMOi9VJT2uz7IQjWZkZb1O3fCK_VJDAl71FUOsiM-9eLTafAvKuHB7yvOTFzJ8hv1qso5AXlHIBi-RWNLqYnPx57qPe9iE3LRTUAB9kd8ktl_NorywWFhjECRAlzjckAy9",
           q: "A body with mass 2 kg moves in one direction in the presence of a force which is described by the potential energy graph. If the body is released from rest at x=2m, then its speed when it crosses x=5 m is :-",
           options: ["(1) zero", "(2) \\( 1 \\, \\text{m/s} \\)", "(3) \\( 2 \\, \\text{m/s} \\)", "(4) \\( 3 \\, \\text{m/s} \\)"],
           correct: 2, 
@@ -2203,7 +2203,7 @@
         },
         {
           id: 52, topic: "Power",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhfIhwDq4pU9r66AuxwA6W9p_3sqyUlk7VNPEFMgldMXc1_tIyYUfe9QD3pQd2zaIP3Qv-kZKSQDBMNN3IIcjx7ZbcxPVNNrFdP03LCK2SfgYTOLdfNdJ6fUIfYGsJ8HJiYHeEJ6gV9tPFzuxZl4ONPverI8ELoNp7jibZ_GgZziLhC3cYJT8AjWA_EqYCP",
           q: "Power versus time graph for a given force is given below. Work done by the force upto time \\( t (\\le t_0) \\).",
           options: ["(1) First decreases then increases", "(2) First increases then decreases", "(3) Always increases", "(4) Always decreases"],
           correct: 2, 
@@ -2211,7 +2211,7 @@
         },
         {
           id: 53, topic: "Power",
-          imgUrl: "https://cdn1.byjus.com/wp-content/uploads/2023/03/Physics-Diagrams-6.png",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiCH93zhLoMLxDL7gNhsP7R_qEQsR8xr0PXIRsbFIIEd0U08EYaSH4ePqCvaxjTFZ2P-IeE34oUcl_OTsQcwJGNk9wtXDfYS3t3yUlYWCv7XBpjR1PbdMhzy3RZpHELy-c3URoqQNK0t7W6q1cDbiRNnYDA2BLq86cad7CAWfKFa4LpQTGBnCBwPJq6bMpz",
           q: "Power due to a force acting on a block varies with time t as shown in figure. Then angle between force acting on the block and its velocity is :-",
           options: ["(1) Obtuse at t=1s", "(2) 90° at t=3s", "(3) Acute at t=7s", "(4) 90° at t=6s"],
           correct: 3, 
@@ -9724,6 +9724,7 @@
       ]
     }
   };
+
 
 
 
