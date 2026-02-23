@@ -127,7 +127,7 @@
         {
           id: 17, topic: "Resolution & Resultant",
           q: "Two forces (shown in figure) act on a body simultaneously. Among the given options which force when added will give resultant in North-East direction? [Image showing two forces: 4N acting North and 3N acting East]",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj5TevDmgm9ZuUb-R-7vv8tIcGw1OhVWnUFdK5UO6Nbq4d6sWlB64sYgrgQENEImW7v0djFCoP2Im9x5CmWZlUX43CT1XUBPCdBfFbM-VJd8wAjUU5duHWuNKMJw_6ZrBxdMSoA0QOiaSDNPoDhAz-yY3uAABRaRSaQb924DHDVq2qBbM-EwQBsMmzNhbyN",
           options: ["(1) 1 N in North direction", "(2) 1 N in East direction", "(3) 3 N in West direction", "(4) 1 N in North-East direction"],
           correct: 1, 
           sol: "<b>Step 1: Understand the condition for North-East direction</b><br>A vector points exactly North-East if its East component (x) is exactly equal to its North component (y), i.e., \\( F_x = F_y \\).<br><br><b>Step 2: Analyze the current forces</b><br>Currently, the force in the North direction is \\( F_y = 4 \\, \\text{N} \\).<br>The force in the East direction is \\( F_x = 3 \\, \\text{N} \\).<br><br><b>Step 3: Determine the required additional force</b><br>To make \\( F_x = F_y \\), we need to increase the East component by 1 N so that both become 4 N.<br>Therefore, adding a force of 1 N in the East direction achieves a resultant of \\( 4\\hat{i} + 4\\hat{j} \\), which points perfectly North-East."
@@ -184,7 +184,7 @@
         {
           id: 25, topic: "Vector Properties & Operations",
           q: "Refer the given figure and identify incorrect statement [Image showing two points A and B in the x-y plane. Point A is at a distance of 10 cm from the origin at an angle of 60 degrees from the positive x-axis. Point B is at a distance of 10 cm from the origin at an angle of 143 degrees from the positive x-axis]",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEidkVGO-_VK9GZDkiHj2X5KtygGksfnIBvK4eKm6bzDmFODQVCCXGu4_u9QGEaqJ16GLfkjKimJjS4wsMV5HaC4ih8Ck2x5y0l4UMBk3rVPIfey6eY2PjYrKjDYkNvmMJtf_zzfqOG5FFvnxLKvOYHlXhNycZAZTmLE6XZgdm-nfcRC2Z1VopQiDKFETjkV",
           options: ["(1) Distance of A from x-axis is \\( 5\\sqrt{3} \\) cm.", "(2) Distance of B from x-axis is 6 cm.", "(3) Distance of A from y-axis is 5 cm.", "(4) Distance of B from y-axis is 6 cm."],
           correct: 3, 
           sol: "<b>Step 1: Calculate coordinates of Point A</b><br>Point A has a radius \\( r=10 \\, \\text{cm} \\) and angle \\( \\theta=60^{\\circ} \\).<br>\\( x_A = 10\\cos(60^{\\circ}) = 10(1/2) = 5 \\, \\text{cm} \\).<br>\\( y_A = 10\\sin(60^{\\circ}) = 10(\\sqrt{3}/2) = 5\\sqrt{3} \\, \\text{cm} \\).<br>Distance of A from x-axis is \\( |y_A| = 5\\sqrt{3} \\, \\text{cm} \\) (Option 1 is correct). Distance from y-axis is \\( |x_A| = 5 \\, \\text{cm} \\) (Option 3 is correct).<br><br><b>Step 2: Calculate coordinates of Point B</b><br>Point B has a radius \\( r=10 \\, \\text{cm} \\) and angle \\( \\theta=143^{\\circ} \\).<br>\\( x_B = 10\\cos(143^{\\circ}) = 10(-\\cos(37^{\\circ})) = 10(-4/5) = -8 \\, \\text{cm} \\).<br>\\( y_B = 10\\sin(143^{\\circ}) = 10(\\sin(37^{\\circ})) = 10(3/5) = 6 \\, \\text{cm} \\).<br><br><b>Step 3: Evaluate B's distances</b><br>Distance of B from x-axis is \\( |y_B| = 6 \\, \\text{cm} \\) (Option 2 is correct).<br>Distance of B from y-axis is \\( |x_B| = |-8| = 8 \\, \\text{cm} \\).<br>Option 4 incorrectly states the distance from y-axis is 6 cm, making it the incorrect statement."
@@ -9688,6 +9688,7 @@
       ]
     }
   };
+
 
 
 
