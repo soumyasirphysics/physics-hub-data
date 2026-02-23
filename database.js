@@ -48,6 +48,7 @@
         {
           id: 6, topic: "Resolution & Resultant",
           q: "For figure the correct relation is :- ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiviril2qxXuzGTC7vLf-bHEkbpiKPB1f2T4RFsA6iCZ63h6e69_A6O6WRbuUJMzhrG1kgpUnrAXwmZZZIA7gEFEcxFTG0A1NEaSsowQrRZrWmWYxvqBavLXOJmvMSejU8vW3mAsRSF39tN4x80RD3vwrgseQAg1d9y3mH3C1eneGUn9X4W2MZrLTjb52tg",
           options: ["(1) \\( \\vec{A}+\\vec{B}+\\vec{E}=\\vec{0} \\)", "(2) \\( \\vec{C}-\\vec{D}=\\vec{A} \\)", "(3) \\( \\vec{B}+\\vec{E}-\\vec{C}=\\vec{D} \\)", "(4) all of the above"],
           correct: 0, 
           sol: "<b>Step 1: Understand the polygon law of vector addition</b><br>According to the polygon law, if a set of vectors are represented by the sides of a closed polygon taken in the same continuous order (head to tail), their resultant is the zero vector.<br><br><b>Step 2: Analyze the given diagram</b><br>In the provided diagram, the vectors \\( \\vec{A} \\), \\( \\vec{B} \\), and \\( \\vec{E} \\) are arranged sequentially head-to-tail, forming a complete closed triangular loop.<br><br><b>Step 3: State the relationship</b><br>Since they form a closed loop in the same order, their vector sum must perfectly cancel out to zero: \\( \\vec{A} + \\vec{B} + \\vec{E} = \\vec{0} \\)."
@@ -76,6 +77,7 @@
         {
           id: 10, topic: "Vector Properties & Operations",
           q: "The initial and final velocities of an object are as shown in figure (a). Which arrows shown in figure (b) can represent change in velocity vector? ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgneWgeYv_yBU0eEjljMXX0Nexm7TbI2sWNapC3EyQa8kRBfFkDseYH_09mp30HomRVed4duKsZVoqO8cmyYf9sHk6U0apTU9z5NxjSauEKsfajHfKp0L0GFnk3C9T3IXz2N0U36HoRE3ysPnib5atTAhbii7uTKdrJy5z_vS60ANALBrh-ihpBCvNoilzf",
           options: ["(1) A", "(2) B", "(3) C", "(4) D"],
           correct: 0, 
           sol: "<b>Step 1: Define change in velocity</b><br>The change in velocity vector is defined as \\( \\Delta\\vec{v} = \\vec{v}_f - \\vec{v}_i \\).<br>This can be rewritten as vector addition: \\( \\Delta\\vec{v} = \\vec{v}_f + (-\\vec{v}_i) \\).<br><br><b>Step 2: Analyze the directions geometrically</b><br>From Figure (a), \\( \\vec{v}_i \\) points diagonally Down-Left. Therefore, its negative, \\( -\\vec{v}_i \\), must point in the exact opposite direction: Up-Right.<br>\\( \\vec{v}_f \\) points diagonally Down-Right.<br><br><b>Step 3: Perform vector addition</b><br>Adding \\( \\vec{v}_f \\) (Down-Right) and \\( -\\vec{v}_i \\) (Up-Right) cancels out the vertical components (Down and Up cancel) and adds the horizontal components (Right and Right).<br>The resulting vector \\( \\Delta\\vec{v} \\) points purely to the Right.<br>Looking at Figure (b), Arrow A points to the right."
@@ -125,6 +127,7 @@
         {
           id: 17, topic: "Resolution & Resultant",
           q: "Two forces (shown in figure) act on a body simultaneously. Among the given options which force when added will give resultant in North-East direction? [Image showing two forces: 4N acting North and 3N acting East]",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
           options: ["(1) 1 N in North direction", "(2) 1 N in East direction", "(3) 3 N in West direction", "(4) 1 N in North-East direction"],
           correct: 1, 
           sol: "<b>Step 1: Understand the condition for North-East direction</b><br>A vector points exactly North-East if its East component (x) is exactly equal to its North component (y), i.e., \\( F_x = F_y \\).<br><br><b>Step 2: Analyze the current forces</b><br>Currently, the force in the North direction is \\( F_y = 4 \\, \\text{N} \\).<br>The force in the East direction is \\( F_x = 3 \\, \\text{N} \\).<br><br><b>Step 3: Determine the required additional force</b><br>To make \\( F_x = F_y \\), we need to increase the East component by 1 N so that both become 4 N.<br>Therefore, adding a force of 1 N in the East direction achieves a resultant of \\( 4\\hat{i} + 4\\hat{j} \\), which points perfectly North-East."
@@ -181,6 +184,7 @@
         {
           id: 25, topic: "Vector Properties & Operations",
           q: "Refer the given figure and identify incorrect statement [Image showing two points A and B in the x-y plane. Point A is at a distance of 10 cm from the origin at an angle of 60 degrees from the positive x-axis. Point B is at a distance of 10 cm from the origin at an angle of 143 degrees from the positive x-axis]",
+          imgUrl: "INSERT_IMAGE_LINK_HERE",
           options: ["(1) Distance of A from x-axis is \\( 5\\sqrt{3} \\) cm.", "(2) Distance of B from x-axis is 6 cm.", "(3) Distance of A from y-axis is 5 cm.", "(4) Distance of B from y-axis is 6 cm."],
           correct: 3, 
           sol: "<b>Step 1: Calculate coordinates of Point A</b><br>Point A has a radius \\( r=10 \\, \\text{cm} \\) and angle \\( \\theta=60^{\\circ} \\).<br>\\( x_A = 10\\cos(60^{\\circ}) = 10(1/2) = 5 \\, \\text{cm} \\).<br>\\( y_A = 10\\sin(60^{\\circ}) = 10(\\sqrt{3}/2) = 5\\sqrt{3} \\, \\text{cm} \\).<br>Distance of A from x-axis is \\( |y_A| = 5\\sqrt{3} \\, \\text{cm} \\) (Option 1 is correct). Distance from y-axis is \\( |x_A| = 5 \\, \\text{cm} \\) (Option 3 is correct).<br><br><b>Step 2: Calculate coordinates of Point B</b><br>Point B has a radius \\( r=10 \\, \\text{cm} \\) and angle \\( \\theta=143^{\\circ} \\).<br>\\( x_B = 10\\cos(143^{\\circ}) = 10(-\\cos(37^{\\circ})) = 10(-4/5) = -8 \\, \\text{cm} \\).<br>\\( y_B = 10\\sin(143^{\\circ}) = 10(\\sin(37^{\\circ})) = 10(3/5) = 6 \\, \\text{cm} \\).<br><br><b>Step 3: Evaluate B's distances</b><br>Distance of B from x-axis is \\( |y_B| = 6 \\, \\text{cm} \\) (Option 2 is correct).<br>Distance of B from y-axis is \\( |x_B| = |-8| = 8 \\, \\text{cm} \\).<br>Option 4 incorrectly states the distance from y-axis is 6 cm, making it the incorrect statement."
@@ -9684,6 +9688,7 @@
       ]
     }
   };
+
 
 
 
