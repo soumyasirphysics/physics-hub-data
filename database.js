@@ -3444,17 +3444,9 @@
     // ==========================================
     "Properties of Matter": { 
       classTarget: "Class 11", 
-      totalQs: 13, 
+      totalQs: 22, 
       topics: ["Stress & Strain", "Young's Modulus", "Bulk & Shear Modulus", "Strain Energy"],
       questions: [
-        {
-          id: 1, topic: "Stress & Strain",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "A uniform rod of mass 'M' and length L is hanging from a ceiling. The variation of tensile stress with distance X from the ceiling is best represented by",
-          options: ["(1) Graph 1", "(2) Graph 2", "(3) Graph 3", "(4) Graph 4"],
-          correct: 1, 
-          sol: "<b>Step 1: Formula for Stress</b><br>Tensile stress in a hanging rod at a distance \\( X \\) from the ceiling is due to the weight of the segment of the rod extending below that point.<br>Mass of the remaining segment \\( = \\frac{M}{L}(L-X) \\).<br>Weight \\( = \\frac{Mg}{L}(L-X) \\).<br>Stress \\( \\sigma = \\frac{\\text{Weight}}{\\text{Area}} = \\frac{Mg}{LA}(L-X) \\).<br><br><b>Step 2: Identify Graph Shape</b><br>The equation \\( \\sigma = \\frac{Mg}{LA}(L-X) \\) is a linear equation analogous to \\( y = -mx + c \\).<br>At \\( X=0 \\) (ceiling), stress is maximum (\\( \\frac{Mg}{A} \\)). At \\( X=L \\) (bottom end), stress is exactly zero.<br>A straight line with a constant negative slope accurately represents this relationship."
-        },
         {
           id: 3, topic: "Stress & Strain",
           q: "A man grows into a giant such that his linear dimensions increase by a factor of 9. Assuming that his density remains same, the stress in the leg will change by a factor of:",
@@ -3464,7 +3456,7 @@
         },
         {
           id: 4, topic: "Stress & Strain",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjIkNVpUnyQEjluuK7aOiw5J3U9Xe6PKxuUrypPDrtylpSL88_9TcdMnRXoxMeD1ApgOYDmgSUV6tdjO2ZhdddSGJj3snge0tzF1iDCnBgl59w9zaYPQo1pO8SKPiHJf58Xf9A1CwWV5fc3WeSpk1-j8biMSptZXuXvstmZpD01gsUkOF5QPlXS__cpB1R2",
           q: "A rectangular frame is to be suspended symmetrically by two strings of equal length on two supports. It can be done in one of the following three ways. The tension in the strings will be :-",
           options: ["(1) the same in all cases", "(2) least in (a)", "(3) least in (b)", "(4) least in (c)"],
           correct: 1, 
@@ -3493,7 +3485,7 @@
         },
         {
           id: 8, topic: "Young's Modulus",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgzndFY1oJLZaiQ1-V8CaTy75hZ-l3H5bdcsQftHv4RSkqmwNJRGxcmWhGjWkif2JV4Qjd-sjAfpmS0bs1NjM-dK_fKxray8WGe0KRF-vMRu39DcKXRf02dUVJO38Ju1q0XLgskH45mJjCJKoKstt2tXsfcsOaVpCiWi-_MEsmB3iweBDPCCkJS5TjnFGR8",
           q: "The given graph shows the extension (\\( \\Delta l \\)) of a wire of length 1.0 m suspended from the top of a roof at one end and a load be connected to the other end. If the cross-sectional area of the wire is \\( 10^{-6} \\, \\text{m}^2 \\), the Young's modulus (Y) of the material of the wire must be :-",
           options: ["(1) \\( 2\\times10^{11} \\, \\text{N/m}^2 \\)", "(2) \\( 2\\times10^{12} \\, \\text{N/m}^2 \\)", "(3) \\( 3\\times10^{12} \\, \\text{N/m}^2 \\)", "(4) \\( 2\\times10^7 \\, \\text{N/m}^2 \\)"],
           correct: 0, 
@@ -3522,7 +3514,7 @@
         },
         {
           id: 12, topic: "Stress & Strain",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhCOQK10qM9jcaPy8lNBDD0kfAnQzh17xGuXc14aPujCFZdQ7z7-a9sj2yI1QwkaOlhOCajWK06llNVskX5V6SBmkTxRJXO1-SY01OD_Wn_Xp9F6_kn5mDWuzS8mkqg-JocQB3PCmRV5ZZ7wDqWc_MsVwLk0_qwGbsoF2XpSbd708i_Hf04yiNRjNZmB47l",
           q: "Two bodies of masses 2 kg and 3 kg are connected by a metal wire of cross section \\( 0.04 \\, \\text{mm}^2 \\). Breaking stress of metal wire is 2.5 GPa. The maximum force F that can be applied to 3 kg block so that wire does not break is:",
           options: ["(1) 100 N", "(2) 150 N", "(3) 200 N", "(4) 250 N"],
           correct: 3, 
@@ -3530,7 +3522,7 @@
         },
         {
           id: 13, topic: "Strain Energy",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj-WLT9ISuj-uZGCxbdZem04RIDHJ7ARQXdaoIoKLq8mN_SpW7oq_bzz-IVxROJa5yejlbK7cjoyUsPmqXgJmjEFr5DVj8G4m7gAaSk-FQy9YE-gNbmGarq8PF7wJiLchiFoq2U8T_blEJgz-YOWNAePiQLR_Y_tCwFBeZ1YtJ1IMto6dRkr1YV6wNUwETm",
           q: "Two wire of the same material (young's modulus = Y) and same length 'L' but radii R and 2R respectively are joined end to end and a weight W is suspended from the combination as shown in the figure. The elastic potential energy in the system is:-",
           options: ["(1) \\( \\frac{3W^2L}{4\\pi R^2Y} \\)", "(2) \\( \\frac{3W^2L}{8\\pi R^2Y} \\)", "(3) \\( \\frac{5W^2L}{8\\pi R^2Y} \\)", "(4) \\( \\frac{W^2L}{\\pi R^2Y} \\)"],
           correct: 2, 
@@ -3542,6 +3534,76 @@
           options: ["(1) 0.1 J", "(2) 5 J", "(3) 10 J", "(4) 250 J"],
           correct: 0, 
           sol: "<b>Step 1: Formula for work done</b><br>The work done by an external agent in stretching a wire is equal to the elastic potential energy stored: \\( W = \\frac{1}{2} F \\Delta l \\).<br>From Hooke's Law, \\( F = \\frac{Y A \\Delta l}{L} \\), so substituting this yields \\( W = \\frac{1}{2} \\frac{Y A}{L} (\\Delta l)^2 \\).<br><br><b>Step 2: Substitute values</b><br>\\( Y = 2 \\times 10^{11} \\, \\text{N/m}^2 \\), \\( A = 1 \\, \\text{mm}^2 = 10^{-6} \\, \\text{m}^2 \\), \\( L = 1 \\, \\text{m} \\), \\( \\Delta l = 1 \\, \\text{mm} = 10^{-3} \\, \\text{m} \\).<br><br><b>Step 3: Calculate</b><br>\\( W = \\frac{1}{2} \\times \\frac{(2 \\times 10^{11}) \\times (10^{-6})}{1} \\times (10^{-3})^2 \\).<br>\\( W = \\frac{1}{2} \\times (2 \\times 10^5) \\times 10^{-6} = 10^5 \\times 10^{-6} = 0.1 \\, \\text{J} \\)."
+        },
+        {
+          id: 16, topic: "Young's Modulus",
+          q: "A uniform heavy wire of length L, cross-sectional area A, density \\( \\rho \\), and Young's modulus Y hangs vertically. The elongation in the wire due to its own weight is:",
+          options: ["(1) \\( \\frac{\\rho g L^2}{2Y} \\)", "(2) \\( \\frac{\\rho g L^2}{Y} \\)", "(3) \\( \\frac{\\rho g L}{2Y} \\)", "(4) \\( \\frac{\\rho g L}{Y} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Consider an elemental length</b><br>Consider a small element of length \\( dy \\) at a distance \\( y \\) from the bottom free end of the wire. The tension \\( T \\) at this cross-section is due to the weight of the wire perfectly below it.<br>\\( T = (\\text{Mass of length y}) \\times g = (\\rho A y) g \\).<br><br><b>Step 2: Elongation of the element</b><br>The elongation \\( dl \\) of this microscopic element is given by Hooke's Law: \\( dl = \\frac{T \\, dy}{A Y} = \\frac{(\\rho A y g) \\, dy}{A Y} = \\frac{\\rho g y}{Y} dy \\).<br><br><b>Step 3: Total elongation</b><br>Integrate from \\( y = 0 \\) to \\( y = L \\) to sum the elongations of all elements:<br>\\( \\Delta L = \\int_0^L \\frac{\\rho g y}{Y} dy = \\frac{\\rho g}{Y} \\left[ \\frac{y^2}{2} \\right]_0^L = \\frac{\\rho g L^2}{2Y} \\)."
+        },
+        {
+          id: 17, topic: "Stress & Strain",
+          q: "A steel wire of length L and cross-sectional area A is rigidly clamped at both ends. When the temperature is decreased by \\( \\Delta T \\), the tension in the wire becomes T. If the coefficient of linear expansion is \\( \\alpha \\) and Young's modulus is Y, then T is:",
+          options: ["(1) \\( Y A \\alpha \\Delta T \\)", "(2) \\( \\frac{Y A}{\\alpha \\Delta T} \\)", "(3) \\( Y A L \\alpha \\Delta T \\)", "(4) \\( \\frac{Y A \\alpha \\Delta T}{L} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Determine Thermal Strain</b><br>If the wire were free to contract, its change in length due to cooling would be \\( \\Delta L = L \\alpha \\Delta T \\).<br>Since it is rigidly clamped, the supports must mechanically stretch the wire by this exact amount to keep its length constant. Thus, the mechanical strain developed is \\( \\frac{\\Delta L}{L} = \\alpha \\Delta T \\).<br><br><b>Step 2: Calculate Stress and Tension</b><br>By definition, Young's modulus \\( Y = \\frac{\\text{Stress}}{\\text{Strain}} \\implies \\text{Stress} = Y \\times \\text{Strain} = Y \\alpha \\Delta T \\).<br>Tension is the internal Force, which is Stress \\( \\times \\) Area.<br>\\( T = Y A \\alpha \\Delta T \\). <br><i>Note: Notice this result is entirely independent of the original length L.</i>"
+        },
+        {
+          id: 18, topic: "Bulk & Shear Modulus",
+          q: "The density of water at the surface of the ocean is \\( \\rho \\). If the bulk modulus of water is B, then the density of ocean water at a depth where the absolute pressure is P (ignoring atmospheric pressure for this change) will be:",
+          options: ["(1) \\( \\frac{\\rho B}{B-P} \\)", "(2) \\( \\frac{\\rho B}{B+P} \\)", "(3) \\( \\rho \\left(1 - \\frac{P}{B}\\right) \\)", "(4) \\( \\rho \\left(1 + \\frac{B}{P}\\right) \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Bulk Modulus relation for Volume</b><br>Bulk Modulus \\( B = \\frac{P}{\\Delta V / V} \\implies \\Delta V = \\frac{P V}{B} \\).<br>The new, compressed volume at depth is \\( V' = V - \\Delta V = V - \\frac{P V}{B} = V \\left(1 - \\frac{P}{B}\\right) \\).<br><br><b>Step 2: Relate Volume to Density</b><br>Since the mass \\( m \\) of the water parcel is conserved, \\( m = \\rho V = \\rho' V' \\).<br>\\( \\rho' = \\rho \\frac{V}{V'} = \\frac{\\rho}{1 - P/B} \\).<br>Multiply top and bottom by B to clean up the fraction: \\( \\rho' = \\frac{\\rho B}{B-P} \\)."
+        },
+        {
+          id: 19, topic: "Strain Energy",
+          q: "A wire is stretched under a constant mechanical tension force. If the wire suddenly snaps, the temperature of the wire will:",
+          options: ["(1) Increase", "(2) Decrease", "(3) Remain constant", "(4) First decrease then increase"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand Stored Energy</b><br>When a wire is stretched, work is done on it by the external force. This work is stored internally within the molecular lattice of the wire as elastic potential energy (Strain Energy).<br><br><b>Step 2: Energy Transformation upon Snapping</b><br>When the wire suddenly snaps, the tension is released instantly. The stretched intermolecular bonds snap back, and the macroscopic elastic potential energy is rapidly converted into microscopic kinetic energy of the atoms (thermal vibrations).<br>An increase in the random kinetic energy of atoms perfectly equates to an increase in temperature. Therefore, the wire heats up."
+        },
+        {
+          id: 20, topic: "Stress & Strain",
+          q: "A metallic cable breaks if stretched by more than 2 mm. If the cable is cut into two equal parts, how much can either half-part be stretched without breaking?",
+          options: ["(1) 1 mm", "(2) 2 mm", "(3) 4 mm", "(4) 0.5 mm"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand Breaking Point</b><br>A material breaks when it reaches its maximum Breaking Stress. Because Stress = \\( Y \\times \\text{Strain} \\), reaching the breaking stress corresponds to reaching a specific, constant maximum 'Breaking Strain' (\\( \\frac{\\Delta L}{L} \\)), regardless of the wire's length.<br><br><b>Step 2: Relate Strain to new length</b><br>Maximum Strain \\( \\left(\\frac{\\Delta L}{L}\\right)_{max} \\) is a constant. Let this be \\( C \\).<br>For the original wire: \\( \\Delta L = C \\times L = 2 \\, \\text{mm} \\).<br>For the cut wire, its new length is \\( L' = L/2 \\).<br>Its maximum absolute stretch is \\( \\Delta L' = C \\times L' = C \\times (L/2) = \\frac{1}{2} (C \\times L) \\).<br>Substituting the original stretch: \\( \\Delta L' = \\frac{1}{2}(2 \\, \\text{mm}) = 1 \\, \\text{mm} \\)."
+        },
+        {
+          id: 21, topic: "Bulk & Shear Modulus",
+          q: "A solid sphere of radius R made of a material of bulk modulus B is surrounded by a liquid in a cylindrical container. A massless piston of area A floats on the surface of the liquid. When a mass M is placed on the piston to compress the liquid, the fractional change in the radius of the sphere, \\( \\frac{\\Delta R}{R} \\), is:",
+          options: ["(1) \\( \\frac{Mg}{3AB} \\)", "(2) \\( \\frac{Mg}{AB} \\)", "(3) \\( \\frac{3Mg}{AB} \\)", "(4) \\( \\frac{Mg}{4AB} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Calculate the applied pressure</b><br>The addition of mass M on the piston area A creates a uniform excess pressure throughout the liquid (by Pascal's Principle): \\( \\Delta P = \\frac{Mg}{A} \\).<br><br><b>Step 2: Calculate volumetric strain</b><br>Using the Bulk Modulus definition \\( B = \\frac{\\Delta P}{\\Delta V / V} \\implies \\frac{\\Delta V}{V} = \\frac{\\Delta P}{B} = \\frac{Mg}{AB} \\).<br><br><b>Step 3: Relate volumetric strain to linear strain</b><br>For a sphere, Volume \\( V = \\frac{4}{3}\\pi R^3 \\). Differentiating gives \\( dV = 4\\pi R^2 dR \\).<br>Dividing \\( dV \\) by \\( V \\) gives \\( \\frac{\\Delta V}{V} = 3 \\frac{\\Delta R}{R} \\).<br>Therefore, the fractional change in radius is \\( \\frac{\\Delta R}{R} = \\frac{1}{3} \\frac{\\Delta V}{V} = \\frac{Mg}{3AB} \\)."
+        },
+        {
+          id: 22, topic: "Young's Modulus",
+          q: "Two wires A and B are of the same length and radius. Their Young's moduli are \\( Y_A \\) and \\( Y_B \\). They are hung side by side (in parallel) and a rigid weight W is suspended from them such that both wires are stretched equally. The ratio of the load shared by wire A to that shared by wire B is:",
+          options: ["(1) \\( Y_A : Y_B \\)", "(2) \\( Y_B : Y_A \\)", "(3) \\( Y_A^2 : Y_B^2 \\)", "(4) 1 : 1"],
+          correct: 0, 
+          sol: "<b>Step 1: Relate Load, Elongation, and Modulus</b><br>From Hooke's Law, Elongation \\( \\Delta L = \\frac{F L}{A Y} \\).<br>Rearranging for Force (load shared): \\( F = \\frac{Y A \\Delta L}{L} \\).<br><br><b>Step 2: Compare the two wires</b><br>We are given that both wires have the exact same length (L), the same radius (and thus area A), and because they are attached to a rigid weight in parallel, they are stretched equally (same \\( \\Delta L \\)).<br>Therefore, all terms in the force equation except Y are identical constants for both wires.<br>\\( F \\propto Y \\).<br>Thus, the ratio of the loads is exactly \\( \\frac{F_A}{F_B} = \\frac{Y_A}{Y_B} \\)."
+        },
+        {
+          id: 23, topic: "Bulk & Shear Modulus",
+          q: "A square metal plate of side 10 cm and thickness 0.5 cm is rigidly fixed at its lower edge. A tangential force of \\( 5 \\times 10^5 \\, \\text{N} \\) is applied to the upper edge. If the shear modulus of the metal is \\( 5 \\times 10^{10} \\, \\text{N/m}^2 \\), the lateral displacement of the upper edge is:",
+          options: ["(1) \\( 2 \\times 10^{-3} \\, \\text{m} \\)", "(2) \\( 10^{-3} \\, \\text{m} \\)", "(3) \\( 2 \\times 10^{-4} \\, \\text{m} \\)", "(4) \\( 10^{-4} \\, \\text{m} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Calculate Shear Stress</b><br>The area resisting the shear is the top edge area: \\( A = \\text{length} \\times \\text{thickness} \\).<br>Length \\( L = 10 \\, \\text{cm} = 0.1 \\, \\text{m} \\). Thickness \\( t = 0.5 \\, \\text{cm} = 0.005 \\, \\text{m} \\).<br>\\( A = 0.1 \\times 0.005 = 5 \\times 10^{-4} \\, \\text{m}^2 \\).<br>Shear Stress \\( = \\frac{F}{A} = \\frac{5 \\times 10^5}{5 \\times 10^{-4}} = 10^9 \\, \\text{N/m}^2 \\).<br><br><b>Step 2: Calculate Shear Strain</b><br>Shear Modulus \\( \\eta = \\frac{\\text{Stress}}{\\text{Strain}} \\implies \\text{Strain} (\\theta) = \\frac{\\text{Stress}}{\\eta} \\).<br>\\( \\theta = \\frac{10^9}{5 \\times 10^{10}} = \\frac{1}{50} = 0.02 \\, \\text{rad} \\).<br><br><b>Step 3: Calculate lateral displacement</b><br>By definition, Shear Strain \\( \\theta = \\frac{\\Delta x}{L} \\implies \\Delta x = L \\theta \\).<br>\\( \\Delta x = 0.1 \\times 0.02 = 0.002 \\, \\text{m} = 2 \\times 10^{-3} \\, \\text{m} \\)."
+        },
+        {
+          id: 24, topic: "Stress & Strain",
+          q: "A uniform cylindrical wire of length L and radius r is subjected to a longitudinal stretching force F. If Poisson's ratio of the material is exactly \\( \\sigma = 0.5 \\), the fractional change in its volume will be:",
+          options: ["(1) Zero", "(2) \\( \\frac{F}{AY} \\)", "(3) \\( \\frac{2F}{AY} \\)", "(4) \\( \\frac{F}{2AY} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Volume Strain</b><br>The volume of a cylinder is \\( V = \\pi r^2 L \\).<br>Taking the natural logarithm and differentiating yields the error/change equation: \\( \\frac{\\Delta V}{V} = 2\\frac{\\Delta r}{r} + \\frac{\\Delta L}{L} \\).<br><br><b>Step 2: Relate strains via Poisson's Ratio</b><br>Poisson's ratio is defined as the negative ratio of lateral strain to longitudinal strain: \\( \\sigma = -\\frac{\\Delta r/r}{\\Delta L/L} \\).<br>Therefore, lateral strain \\( \\frac{\\Delta r}{r} = -\\sigma \\frac{\\Delta L}{L} \\).<br><br><b>Step 3: Substitute and Evaluate</b><br>Substitute into the volume equation: \\( \\frac{\\Delta V}{V} = 2\\left(-\\sigma \\frac{\\Delta L}{L}\\right) + \\frac{\\Delta L}{L} = (1 - 2\\sigma)\\frac{\\Delta L}{L} \\).<br>Given \\( \\sigma = 0.5 \\), the term \\( (1 - 2(0.5)) = (1 - 1) = 0 \\).<br>Thus, \\( \\frac{\\Delta V}{V} = 0 \\). A material with a Poisson's ratio of 0.5 is perfectly incompressible."
+        },
+        {
+          id: 25, topic: "Strain Energy",
+          q: "A metallic rod of length L and cross-sectional area A is made of a material of Young's modulus Y. If the rod is elongated by an amount \\( l \\), then the work done in stretching the rod is proportional to:",
+          options: ["(1) \\( l \\)", "(2) \\( l^2 \\)", "(3) \\( 1/l \\)", "(4) \\( 1/l^2 \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for work done</b><br>The work done in stretching a rod is stored as elastic potential energy. Because the restoring force increases linearly with extension (following Hooke's Law), the average force during the stretch is \\( F_{avg} = \\frac{0 + F}{2} = \\frac{F}{2} \\).<br>Work \\( W = F_{avg} \\times \\text{extension} = \\frac{1}{2} F l \\).<br><br><b>Step 2: Express Force in terms of extension</b><br>From the definition of Young's modulus: \\( Y = \\frac{F/A}{l/L} \\implies F = \\frac{Y A l}{L} \\).<br><br><b>Step 3: Combine equations</b><br>Substitute F into the work equation: \\( W = \\frac{1}{2} \\left(\\frac{Y A l}{L}\\right) l = \\frac{Y A}{2 L} l^2 \\).<br>Since Y, A, and L are physical constants for the given rod, the work done \\( W \\) is directly proportional to \\( l^2 \\)."
         }
       ]
     },
@@ -9736,6 +9798,7 @@
       ]
     }
   };
+
 
 
 
