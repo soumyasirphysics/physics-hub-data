@@ -600,6 +600,7 @@
         {
           id: 4, topic: "Graphs",
           q: "The displacement time graph of a moving particle is shown below. The instantaneous velocity of the particle is negative at the point ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiCFSda8gvfrXfxPuOSWGoKAAMf1w0-g2enWjBTHLx5I_FN1n1SZGwi6ez6f5MMbPnTlizQjxXKkTGAYG12NSRdXIDWCAK6wqFJ_PvE9oti1viAsR0CaO37ZgbRY44cgKUccPNkgoqIGIB0uCztq8vWxWh-clgmeINCAuxceTuxRcMfCEiuJ1eqdNOIBbax",
           options: ["(1) C", "(2) E", "(3) D", "(4) F"],
           correct: 1, 
           sol: "At point E, the slope of the curve is negative.<br>For a displacement-time graph, the slope represents the instantaneous velocity.<br>Therefore, at E, the velocity is negative as the slope is negative."
@@ -684,6 +685,7 @@
         {
           id: 16, topic: "Graphs",
           q: "An elevator is going upward and the variation in the velocity of the elevator is as given in the graph. What is the height to which the elevator takes the passengers? ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgKUUp2f_sutF3G08H0RxQrXm8iWYus5ipev0quR8im0msoGZjWMbUt54wX3s1Xkmvy-__5mSH6HYKzaaH3W_6dJg5IEo0YDCX6i9tu-BZUItZTtEZMOtNYd00tBq0hz_EGpcz0sXPqj0C3r4PjHD8deBLdOgEcaLAo9hOEfMWwgcvmRU5xK7OG-8jgUwk3",
           options: ["(1) 3.6 m", "(2) 28.8 m", "(3) 36.0 m", "(4) 32.4 m"],
           correct: 2, 
           sol: "The displacement (height) is given by the area under the velocity-time graph.<br>The graph is a trapezium with parallel sides of lengths:<br>\\( a = 12 - 0 = 12 \\, \\text{s} \\)<br>\\( b = 10 - 2 = 8 \\, \\text{s} \\)<br>and height \\( h = 3.6 \\, \\text{m/s} \\).<br>Area = \\( \\frac{1}{2}(a+b)h \\)<br>\\( = \\frac{1}{2}(12 + 8) \\times 3.6 \\)<br>\\( = \\frac{1}{2}(20) \\times 3.6 = 10 \\times 3.6 = 36.0 \\, \\text{m} \\)."
@@ -796,6 +798,7 @@
         {
           id: 32, topic: "Projectile Motion",
           q: "From an inclined plane, two particles are projected with the same speed at same angle \\( \\theta \\), one up and other down the plane as shown in the figure. Which of the following statement(s) is/are correct? ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhht0w7RtLHbmUlmKrbaVdJeG_YWH-sjpuvdVKURbF1jssFbEVzUCIa8DS9lvK0D1BQIvML-m0yD2I1Cwa9nihfukvympvRxuF8u61GPpRU3pYSM80zx4XqDR8WlgOtj9g6t7riGUy82eKbkiDxu63MEZ5yTf6KY46Z749muXNcWHEdTmhji_kjYwutjXBT",
           options: ["(1) The time of flight of each particle is the same", "(2) The particles will collide the plane with same speed", "(3) Both the particles strike the plane perpendicularly", "(4) The particles will collide in mid air if projected simultaneously and time of flight of each particle is less than the time of collision"],
           correct: 0, 
           sol: "Let the inclination of plane be \\( \\beta \\).<br>Time of flight up the plane \\( T_1 = \\frac{2u \\sin(\\theta)}{g \\cos\\beta} \\).<br>Time of flight down the plane \\( T_2 = \\frac{2u \\sin(\\theta)}{g \\cos\\beta} \\).<br>(The angle of projection \\( \\theta \\) is relative to the plane).<br>Since \\( T_1 = T_2 \\), the time of flight of each particle is exactly the same."
@@ -866,6 +869,7 @@
         {
           id: 42, topic: "Graphs",
           q: "Acceleration velocity graph of a particle moving in a straight line is as shown in figure. The slope of velocity-displacement graph ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgNjH4jBOCkI53cr0_vM-_3HYs821Pdhu7CCbLP9mPyz7j39vjBzqacgG2vqSYk746S193UxHkk3-Ol489HI4jDGvt1vlfmLXmBSPu70whCBJsBPdQtPr0zj2KtUQ0ivqkHk-9_OuNnkSgX_pRFfmQneDQmHvJ_H7qWyG_k7iyBZ80RMvO5MtIz0nbeDIyC",
           options: ["(1) Increases linearly", "(2) Decreases linearly", "(3) Is constant", "(4) Increases parabolically"],
           correct: 2, 
           sol: "From the given acceleration-velocity graph, it is a straight line passing through the origin, so \\( a = kv \\), where k is a constant representing the slope.<br>We know that \\( a = v \\frac{dv}{dx} \\).<br>Equating the two expressions: \\( v \\frac{dv}{dx} = kv \\implies \\frac{dv}{dx} = k \\).<br>Thus, the slope of the velocity-displacement graph (\\( \\frac{dv}{dx} \\)) is equal to the constant k."
@@ -887,6 +891,7 @@
         {
           id: 45, topic: "Projectile Motion",
           q: "Three balls are projected from the top of a building with equal speeds but at different angles. Balls strike the ground with velocities \\( v_1 \\), \\( v_2 \\), and \\( v_3 \\) respectively, then",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgletv-sOu9bt7Yx7cqOf3XwrSNyfHoZOOGZJm3-zCb37Kcgh_3ttWL7R42f2zBSDpmo218KLAL7JJkvBsQl3hQJxQ09yuHXzIPE6BfxgU-E7GU4lR43sSWvNAni08WQrg1Kas5dfTL4XAG0ISRGYZN2giCRjYuBNpORl8pVlntKQZUOt9kIWkfuCwy2ik_",
           options: ["(1) \\( v_1 > v_2 > v_3 \\)", "(2) \\( v_3 > v_2 > v_1 \\)", "(3) \\( v_1 = v_2 = v_3 \\)", "(4) \\( v_2 < v_3 < v_1 \\)"],
           correct: 2, 
           sol: "By the principle of conservation of mechanical energy, the total energy of each ball at the top of the building is \\( E = \\frac{1}{2}mu^2 + mgh \\).<br>Since all balls are projected with the same initial speed \\( u \\) from the same height \\( h \\), their total mechanical energy is identical.<br>Just before striking the ground, potential energy becomes zero, so all of it converts to kinetic energy \\( \\frac{1}{2}mv^2 \\).<br>Therefore, all balls will strike the ground with the same speed, regardless of their projection angles.<br>Hence, \\( v_1 = v_2 = v_3 \\)."
@@ -915,6 +920,7 @@
         {
           id: 49, topic: "1D Motion",
           q: "A particle P is sliding down a frictionless hemispherical bowl. It passes point A at t=0. At this instant of time, the horizontal component of its velocity is v. A bead Q of the same mass as P is ejected from A at t=0 along the horizontal string AB, with the speed v. Friction between the bead and the string may be neglected. Let \\( t_P \\) and \\( t_Q \\) be the respective times taken by P and Q to reach point B. Then ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgFrOeeSvy7uvRipb0L10YHR5ojFqmHgQI9y5LQhgRz181lcNVDf1658w3x-BLceNY5srrhBf4dRq-BFgpxywMG-RtjELT2tmVQViT71MCvhtmv5fKSCrDBRGypgGSyCJzYzWGJOEGCv8W7dzLVOhrJqzulYpvFaiNjYzmEHO1on4LYbi_oGOHSRU_6psBe",
           options: ["(1) \\( t_P < t_Q \\)", "(2) \\( t_P = t_Q \\)", "(3) \\( t_P > t_Q \\)", "(4) none of these"],
           correct: 0, 
           sol: "Particle Q moves strictly along the horizontal chord AB with a constant speed \\( v \\).<br>Particle P slides down the frictionless bowl; as it descends, gravity accelerates it, causing its overall speed (and critically, its horizontal velocity component) to become strictly greater than \\( v \\) for the entire duration it is below level AB.<br>Since P maintains a higher average horizontal velocity component than Q over the same horizontal displacement, P will reach point B faster than Q.<br>Therefore, \\( t_P < t_Q \\)."
@@ -943,6 +949,7 @@
         {
           id: 53, topic: "Graphs",
           q: "A particle starts from rest at t=0 and moves in a straight line with acceleration as shown in figure. The velocity of the particle at t=3s is ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiiWUPyx7Qxd57obnTEENzIYVfs9018igMWcporhV5IlBHdHY1NAKqNo19l63Hc9FsAqXO0gKa-s_6mcwSXjeq08vdgiwN-_VdKxKSe0qPl83vgVAtNi7p0n-lU_Im0_7t-aESusbzHtVkHsuEK8LdQPdUbDH2B86W9t8cdRP-lD8ww7sSUFgpBTt43_3E9",
           options: ["(1) 2 m/s", "(2) 4 m/s", "(3) 6 m/s", "(4) 8 m/s"],
           correct: 1, 
           sol: "The change in velocity is equal to the area under the acceleration-time graph.<br>From \\( t=0 \\) to \\( t=2 \\), the area is a rectangle above the axis: \\( A_1 = 4 \\times 2 = +8 \\, \\text{m/s} \\).<br>From \\( t=2 \\) to \\( t=3 \\), the area is a rectangle below the axis: \\( A_2 = -4 \\times 1 = -4 \\, \\text{m/s} \\).<br>Total change in velocity \\( \\Delta v = 8 - 4 = 4 \\, \\text{m/s} \\).<br>Since it started from rest (\\( u=0 \\)), the final velocity at \\( t=3\\text{s} \\) is \\( 4 \\, \\text{m/s} \\)."
@@ -1151,7 +1158,7 @@
     // ==========================================
     "Laws of Motion and Friction": { 
       classTarget: "Class 11", 
-      totalQs: 30, 
+      totalQs: 88, 
       topics: ["Laws of Motion", "Friction"],
       questions: [
         {
@@ -9717,6 +9724,7 @@
       ]
     }
   };
+
 
 
 
