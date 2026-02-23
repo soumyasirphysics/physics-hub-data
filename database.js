@@ -2299,7 +2299,7 @@
         },
         {
           id: 4, topic: "Kinematics of Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgUIjUVhKOrbZ5etNBHJXXLMjqKIvvvC2bktB7ZKUyk1ATyBYz_CbqaPAuRU8Vzn8VcDAe7DngV1TcjnQIZPhVCMXxcaqP8pALkto8E7jCGLv7RJ7DLEJBVkt5H9HhmhnrljgWHKu9_R40RPh0p4LYzfdfIXAf7MwiZky6PGAaQwH1a8GgcjrPhmznxQnUb",
           q: "In one second a particle moves with constant speed from point A to point B along the circular track of radius 1.0 m as shown in the figure. What is the average acceleration of the particle during this motion.",
           options: ["(1) \\( 2\\pi \\, \\text{m/s}^2 \\) due east", "(2) \\( \\pi \\, \\text{m/s}^2 \\) due west", "(3) Zero", "(4) \\( 2\\pi \\, \\text{m/s}^2 \\) due west"],
           correct: 3, 
@@ -2321,7 +2321,7 @@
         },
         {
           id: 8, topic: "Kinematics of Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjsleaUBNS0ENcWD1M5fioZ-1eZeaYAzGKdxCPv1Np-e22LJ44Mry5uvYoCu4dWBo5fFmDwaetevaSkTcrTbAKljhiHy04fnnK7WHRVghKzaM0Dl7ZGEPtPHVyy4YWfdhAOE4Uvwg7KnVq2yQypCjWjCMcQdv2FfeyF19e12a9tBZOHQKxGvAwX67PAkVEn",
           q: "The angular displacement (\\( \\theta \\)) of the blades of a ceiling fan, when the fan is switched on at t=0 is shown in figure. The average angular velocity of the fan blades during the first 8 seconds will be",
           options: ["(1) \\( 40\\pi \\, \\text{rad/s} \\)", "(2) \\( 20\\pi \\, \\text{rad/s} \\)", "(3) \\( 10\\pi \\, \\text{rad/s} \\)", "(4) \\( 5\\pi \\, \\text{rad/s} \\)"],
           correct: 2, 
@@ -2346,7 +2346,7 @@
           q: "A wheel of radius 0.1 m (wheel A) is attached by a non stretching belt to a wheel of radius 0.2 m (wheel B). The belt does not slip. By the time, wheel B turns through one revolution, wheel A will rotate through x revolution. Find the value of x.",
           options: ["(1) 6", "(2) 4", "(3) 2", "(4) 0"],
           correct: 2, 
-          sol: "<b>Step 1: Understand the non-slip constraint</b><br>Because the belt connects both wheels without slipping, the linear distance traveled by the rim of wheel A must be perfectly equal to the linear distance traveled by the rim of wheel B.<br>Arc length relation: \\( s_A = s_B \\).<br><br><b>Step 2: Relate Arc Length to Revolutions</b><br>The arc length covered during rotation is given by \\( s = R \\theta \\), where \\( \\theta \\) is the total angle turned.<br>Therefore, \\( R_A \\theta_A = R_B \\theta_B \\).<br><br><b>Step 3: Solve for x</b><br>We are given \\( R_A = 0.1 \\, \\text{m} \\), \\( R_B = 0.2 \\, \\text{m} \\), and \\( \\theta_B = 1 \\, \\text{rev} \\). Let \\( \theta_A = x \\, \\text{rev} \\).<br>\\( 0.1 \\times x = 0.2 \\times 1 \\).<br>\\( x = \\frac{0.2}{0.1} = 2 \\). Wheel A rotates exactly 2 revolutions."
+          sol: "<b>Step 1: Understand the non-slip constraint</b><br>Because the belt connects both wheels without slipping, the linear distance traveled by the rim of wheel A must be perfectly equal to the linear distance traveled by the rim of wheel B.<br>Arc length relation: \\( s_A = s_B \\).<br><br><b>Step 2: Relate Arc Length to Revolutions</b><br>The arc length covered during rotation is given by \\( s = R \\theta \\), where \\( \\theta \\) is the total angle turned.<br>Therefore, \\( R_A \\theta_A = R_B \\theta_B \\).<br><br><b>Step 3: Solve for x</b><br>We are given \\( R_A = 0.1 \\, \\text{m} \\), \\( R_B = 0.2 \\, \\text{m} \\), and \\( \\theta_B = 1 \\, \\text{rev} \\). Let \\( \\theta_A = x \\, \\text{rev} \\).<br>\\( 0.1 \\times x = 0.2 \\times 1 \\).<br>\\( x = \\frac{0.2}{0.1} = 2 \\). Wheel A rotates exactly 2 revolutions."
         },
         {
           id: 12, topic: "Banking of Roads",
@@ -2364,7 +2364,7 @@
         },
         {
           id: 15, topic: "Dynamics of Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiWrVllH72avpSDR53QciFSppwYxz6AlakrvRjjcVnhuDpJEOzldOttvMbLaT8-Y-qmymrILmugE4jw3FXUr1ovxp2nkr4BkrQdq9MomMeqX5aedBvZSZ73xmk4qMaaNpmmrGOqZ7PaleNxGGL2oVUvVAEjR5Woal2l0m50HHWGjQZTBpxE4O7dCCGs0NDp",
           q: "A string of length L is fixed at one end and carries a mass M at the other end. The string makes \\( 2/\\pi \\) revolutions per second around the vertical axis through the fixed end as shown in the figure, then tension in the string is",
           options: ["(1) ML", "(2) 2 ML", "(3) 4 ML", "(4) 16 ML"],
           correct: 3, 
@@ -2379,7 +2379,7 @@
         },
         {
           id: 17, topic: "Dynamics of Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj2JtfjTBs9K1Ia6pyfXHq9Mkd6QwNj3aUlUMgAfxZZNr7O3C1yMa4sAeLq0SXGQ9Kf3-ViexvRce4wHUABuUCmNUMSZeFNltyLGsVevpg8rww_JzLc4wcOmMPq0HX7Oc2CfieO790CD29TZwQFPxvw3RcAzwgmoioXJuaeO8ePLiPgWb3uxhFx-7N0WHA3",
           q: "A small object, suspended by a string, rotates with constant speed, in a horizontal circle as shown in the figure. Point O is at the centre of the circle. Neglect air drag. Which one of the following statements is correct?",
           options: ["(1) The object is in equilibrium.", "(2) There is a resultant force on the object directed away from O.", "(3) A force acts on the object in the direction of its motion.", "(4) There is a resultant force on the object directed towards O."],
           correct: 3, 
@@ -2397,7 +2397,7 @@
           q: "An insect of mass m=3 kg is inside a vertical drum of radius 2 m that is rotating with an angular velocity of 5 rad/sec. The insect does not fall off, then the minimum co-efficient of friction required is:",
           options: ["(1) 0.5", "(2) 0.4", "(3) 0.2", "(4) none of these"],
           correct: 2, 
-          sol: "<b>Step 1: Identify the forces</b><br>For an object pinned to the inner wall of a spinning drum (like a 'Rotor' ride), the wall pushes inward, providing the normal force (\\( N \\)). This normal force acts as the centripetal force. \\( N = m\\omega^2 r \\).<br>The insect's weight (\\( mg \\)) pulls it downwards. To prevent falling, static friction (\\( f_s \\)) must act upwards to balance the weight.<br><br><b>Step 2: Formulate friction condition</b><br>For equilibrium against falling: \\( f_s \ge mg \\).<br>Since maximum static friction is \\( \\mu N \\), the safety condition is \\( \\mu N \ge mg \\).<br>Substitute N: \\( \\mu (m\\omega^2 r) \ge mg \\). The mass \\( m \\) cancels out: \\( \\mu \ge \\frac{g}{\\omega^2 r} \\).<br><br><b>Step 3: Calculate</b><br>Using \\( g = 10 \\, \\text{m/s}^2 \\), \\( \\omega = 5 \\, \\text{rad/s} \\), and \\( r = 2 \\, \\text{m} \\).<br>\\( \\mu_{min} = \\frac{10}{5^2 \times 2} = \\frac{10}{25 \\times 2} = \\frac{10}{50} = 0.2 \\)."
+          sol: "<b>Step 1: Identify the forces</b><br>For an object pinned to the inner wall of a spinning drum (like a 'Rotor' ride), the wall pushes inward, providing the normal force (\\( N \\)). This normal force acts as the centripetal force. \\( N = m\\omega^2 r \\).<br>The insect's weight (\\( mg \\)) pulls it downwards. To prevent falling, static friction (\\( f_s \\)) must act upwards to balance the weight.<br><br><b>Step 2: Formulate friction condition</b><br>For equilibrium against falling: \\( f_s \\ge mg \\).<br>Since maximum static friction is \\( \\mu N \\), the safety condition is \\( \\mu N \\ge mg \\).<br>Substitute N: \\( \\mu (m\\omega^2 r) \\ge mg \\). The mass \\( m \\) cancels out: \\( \\mu \\ge \\frac{g}{\\omega^2 r} \\).<br><br><b>Step 3: Calculate</b><br>Using \\( g = 10 \\, \\text{m/s}^2 \\), \\( \\omega = 5 \\, \\text{rad/s} \\), and \\( r = 2 \\, \\text{m} \\).<br>\\( \\mu_{min} = \\frac{10}{5^2 \\times 2} = \\frac{10}{25 \\times 2} = \\frac{10}{50} = 0.2 \\)."
         },
         {
           id: 20, topic: "Dynamics of Circular Motion",
@@ -2443,7 +2443,7 @@
         },
         {
           id: 26, topic: "Vertical Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiL9sbjTjwe-N1A_utG0D_us5pcWsaPB_whcVebqfqFDr4zuyAmeQoesfgJNuJ-5X3aDLjaHOAILXKWrmFqeYXZJR7pUFekGHw1ux3DM7zBVL_XqCp6ug2QiIrlUsWcgCvJjfo1Q_48VVXEcNoFp4MDLXdwN63IcHJxly5WjOyMLTR7WMm07uOQgO1IOVMb",
           q: "A small object of mass m starts from rest at the position shown and slides along the frictionless loop-the-loop track of radius R. What is the smallest value of y such that the object will slide without losing contact with the track?",
           options: ["(1) R/2", "(2) R", "(3) R/4", "(4) 3R/4"],
           correct: 0, 
@@ -2465,7 +2465,7 @@
         },
         {
           id: 29, topic: "Vertical Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgzQOeS3y1DcI7BbHWW9R2KMWMii0LfMxC1zvKlB5hXiTmzZqhxWmHHbw2280mfT2uctAHdvDxNHNlvg6oBayk-RppPzPWTKfaz4VvrsVFiU9UkiaZH3EICHD4K42G3-_-zDUZq31HxLkSiD2epHq2EMS4B9FsxpqZ7pImKrTnYbbG3XgCY2xH6In2BpRtR",
           q: "An object of mass m is released from rest at a height h above the surface of a table. The object slides along the inside of the loop. The loop track consisting of a ramp and a circular loop of radius R shown in the figure. Assume that the track is frictionless. When the object is at the top of the circular track it pushes against the track with a force equal to three times its weight. What height was the object dropped from?",
           options: ["(1) 3R", "(2) 4R", "(3) 5R", "(4) 6R"],
           correct: 1, 
@@ -2473,7 +2473,7 @@
         },
         {
           id: 30, topic: "Kinematics of Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhxnB8kHeuEL4mpQ30gdBXhcLjX7XBH2uWvuk2zkX_5HlrKxNAtDy_jb64D0COKx8BDYjG-7kk_ASx5Kt17nofQMD4kd6KdbIR6hiN3aVybnh7uoCN9ZJzO6V1iCgapc6lzhY3ulyHO-aUL_3JG2mCS_wp8jZYm5_Q3TQW3UuCKtbcJS04EJndl7Np3kDUr",
           q: "A pendulum is released from rest from the point A as shown in the figure. The string of the pendulum is taut. OA makes an angle 30° with the vertical. The acceleration of the pendulum bob at this instant would be .............",
           options: ["(1) along AO", "(2) along the vertical", "(3) in a direction perpendicular to OA", "(4) In a direction making an angle less than 30° with the vertical"],
           correct: 2, 
@@ -2481,7 +2481,7 @@
         },
         {
           id: 31, topic: "Vertical Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhqWiYy-_QIoFWnHMVZzMvbCd7zUFBDkrkiNl55veYQj7_2aIgCBraKIB2fmgAs8gYKDroQu3fc9Ax6-NGnDx4EXWz58PM5vSUz-URwmryf5LbT51Y8N5ZWaZzfVtWa-8YMHoQz2hTt2eA8BRp06vwP-dL-1pBsyCgpn1qQY3SPr4XzuUQAylyEgJIGJpQ5",
           q: "A small ball of mass m is suspended from a light rod as shown. The ball is given a horizontal velocity at A equal to twice the minimum velocity required by the ball to complete the loop. Find the tension in the rod when the ball passes through the topmost point:-",
           options: ["(1) 15 mg", "(2) mg", "(3) 11 mg", "(4) 12 mg"],
           correct: 2, 
@@ -2496,22 +2496,22 @@
         },
         {
           id: 33, topic: "Kinematics of Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgyBVoASn6VVoyESm6kRUWqXWxD2KdKd0fwwPm3kNmOm8ThAg7gJQr9N_fvAFnlv5wriNqd7orA0geS_6tIH0l_px3plpNYK3_llTfFiQXQ5psIMbgXhwqhFBjOCs7jB2VxabzlNRQrpos7aDQM0zk7JqXO2v5dgDuv-OlXy6GljBuQcic7su09G7Ea2tGk",
           q: "A pendulum of length \\( l=1\\text{m} \\) is released from \\( \\theta_0=60^{\\circ} \\). The rate of change of speed of the bob at \\( \\theta=30^{\\circ} \\) is \\( (g=10 \\, \\text{m/s}^2) \\) :-",
           options: ["(1) \\( 5\\sqrt{3} \\, \\text{m/s}^2 \\)", "(2) \\( 2.5 \\, \\text{m/s}^2 \\)", "(3) \\( 10 \\, \\text{m/s}^2 \\)", "(4) \\( 5 \\, \\text{m/s}^2 \\)"],
           correct: 3, 
-          sol: "<b>Step 1: Understand 'rate of change of speed'</b><br>The rate of change of speed (magnitude of velocity) is exactly defined as the tangential acceleration \\( a_t \\) of the particle. It does not include centripetal acceleration, which only changes direction.<br><br><b>Step 2: Formula for tangential acceleration</b><br>For a simple pendulum at an angle \\( \\theta \\) with the vertical, the only force acting tangentially is the component of gravity. Therefore, \\( a_t = g\\sin\\theta \\).<br><br><b>Step 3: Calculate</b><br>At \\( \\theta = 30^{\\circ} \\): \\( a_t = 10 \times \\sin(30^{\\circ}) = 10 \times 0.5 = 5 \\, \\text{m/s}^2 \\)."
+          sol: "<b>Step 1: Understand 'rate of change of speed'</b><br>The rate of change of speed (magnitude of velocity) is exactly defined as the tangential acceleration \\( a_t \\) of the particle. It does not include centripetal acceleration, which only changes direction.<br><br><b>Step 2: Formula for tangential acceleration</b><br>For a simple pendulum at an angle \\( \\theta \\) with the vertical, the only force acting tangentially is the component of gravity. Therefore, \\( a_t = g\\sin\\theta \\).<br><br><b>Step 3: Calculate</b><br>At \\( \\theta = 30^{\\circ} \\): \\( a_t = 10 \\times \\sin(30^{\\circ}) = 10 \\times 0.5 = 5 \\, \\text{m/s}^2 \\)."
         },
         {
           id: 34, topic: "Vertical Circular Motion",
           q: "A weightless thread can withstand tension upto 30 N. A stone of mass 0.5 kg is tied to it and is revolved in a circular path of radius 2m in a vertical plane. If \\( g=10 \\, \\text{m/s}^2 \\), then the maximum angular velocity of the stone can be:-",
           options: ["(1) 5 rad/s", "(2) \\( \\sqrt{30} \\) rad/s", "(3) \\( \\sqrt{60} \\) rad/s", "(4) 10 rad/s"],
           correct: 0, 
-          sol: "<b>Step 1: Identify maximum tension point</b><br>In a vertical circle, the string experiences maximum tension when the stone is at the absolute lowest point of its trajectory.<br>At the bottom, \\( T_{max} = mg + \frac{mv^2}{r} = mg + m\omega^2 r \\).<br><br><b>Step 2: Substitute given values</b><br>We know \\( T_{max} = 30 \\, \\text{N} \\), \\( m = 0.5 \\, \\text{kg} \\), \\( r = 2 \\, \\text{m} \\), and \\( g = 10 \\, \\text{m/s}^2 \\).<br>\\( 30 = 0.5(10) + 0.5 \\times \omega^2 \times 2 \\).<br>\\( 30 = 5 + \omega^2 \\).<br><br><b>Step 3: Solve for angular velocity</b><br>\\( \omega^2 = 30 - 5 = 25 \\implies \omega = 5 \\, \\text{rad/s} \\)."
+          sol: "<b>Step 1: Identify maximum tension point</b><br>In a vertical circle, the string experiences maximum tension when the stone is at the absolute lowest point of its trajectory.<br>At the bottom, \\( T_{max} = mg + \\frac{mv^2}{r} = mg + m\\omega^2 r \\).<br><br><b>Step 2: Substitute given values</b><br>We know \\( T_{max} = 30 \\, \\text{N} \\), \\( m = 0.5 \\, \\text{kg} \\), \\( r = 2 \\, \\text{m} \\), and \\( g = 10 \\, \\text{m/s}^2 \\).<br>\\( 30 = 0.5(10) + 0.5 \\times \\omega^2 \\times 2 \\).<br>\\( 30 = 5 + \\omega^2 \\).<br><br><b>Step 3: Solve for angular velocity</b><br>\\( \\omega^2 = 30 - 5 = 25 \\implies \\omega = 5 \\, \\text{rad/s} \\)."
         },
         {
           id: 37, topic: "Dynamics of Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgjp5StvJ3iyZbEquDkHLOh0_bxcH_v6LE2Hn5TXlcUoNYwUh_IxN57kon2hK-cit-lQO-s5nj-83iuBHvYBbFLYoL4OhawCMQ0hX7fuEX_b0R3Hd0dQfMvGMm7dy2phSuvVf_3vlyS3Z5fbsim_dzd0icIbErdFtakBxuxO1ApbgbTNVB5ZbbX0VTQAP1i",
           q: "A car travels with constant speed on a circular road on level ground. In the diagram above, \\( F_{air} \\) is the force of air resistance on the car. Which of the other forces shown, best represents the horizontal force of the road on the car's tires?",
           options: ["(1) \\( F_A \\)", "(2) \\( F_B \\)", "(3) \\( F_C \\)", "(4) \\( F_D \\)"],
           correct: 1, 
@@ -2522,7 +2522,7 @@
           q: "In non uniform circular motion rate of work done by force acting on particle is",
           options: ["(1) zero", "(2) non zero", "(3) both (1) & (2)", "(4) none of these"],
           correct: 1, 
-          sol: "<b>Step 1: Define rate of work done</b><br>The rate of work done is Power, given by the dot product of force and velocity: \\( P = \vec{F} \cdot \vec{v} \\).<br><br><b>Step 2: Differentiate uniform vs non-uniform</b><br>In *uniform* circular motion, force is purely centripetal (perpendicular to velocity), so \\( \vec{F} \cdot \vec{v} = 0 \\).<br>In *non-uniform* circular motion, the particle's speed is changing, meaning there MUST be a tangential force component (\\( F_t \\)) parallel or anti-parallel to the velocity vector.<br><br><b>Step 3: Conclusion</b><br>Because there is a tangential force aligned with the velocity, the dot product \\( \vec{F}_t \cdot \vec{v} \\) is not zero. Therefore, the rate of work done is non-zero."
+          sol: "<b>Step 1: Define rate of work done</b><br>The rate of work done is Power, given by the dot product of force and velocity: \\( P = \\vec{F} \\cdot \\vec{v} \\).<br><br><b>Step 2: Differentiate uniform vs non-uniform</b><br>In *uniform* circular motion, force is purely centripetal (perpendicular to velocity), so \\( \\vec{F} \\cdot \\vec{v} = 0 \\).<br>In *non-uniform* circular motion, the particle's speed is changing, meaning there MUST be a tangential force component (\\( F_t \\)) parallel or anti-parallel to the velocity vector.<br><br><b>Step 3: Conclusion</b><br>Because there is a tangential force aligned with the velocity, the dot product \\( \\vec{F}_t \\cdot \\vec{v} \\) is not zero. Therefore, the rate of work done is non-zero."
         },
         {
           id: 39, topic: "Dynamics of Circular Motion",
@@ -2561,7 +2561,7 @@
         },
         {
           id: 44, topic: "Dynamics of Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj6caWVOCEAg_JffjLJu8r_INcDMbp-f2WsFO7d4JJ529xL8-5hPNuChhUrvckC0I1nSJia5IbGLn7-lv1oPx9LnRJoZ84aBKZJ0lqz8QYZYKU5jQV1LFrvPStN-cfIajZTeiu22qdWVnwWP4l2IXrX_2V1q4tljCuTb_KIJTm5pQyci0EDQOx627KzpH8s",
           q: "A skier of mass M slides down a ramp shaped as a circle of radius R. At the end point of the ramp just before the skier is in the air, the magnitude of the normal force exerted by the ramp on the skier is N. The acceleration due to gravity is g. Then :-",
           options: ["(1) The magnitude of the normal force N is greater than Mg", "(2) The magnitude of the normal force N is equal to Mg", "(3) The magnitude of the normal force N is less than Mg", "(4) The magnitude of the normal force N can be greater than, equal to, or less than Mg depending on the speed of the skier."],
           correct: 0, 
@@ -2569,7 +2569,7 @@
         },
         {
           id: 45, topic: "Kinematics of Circular Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhWsvUvLaYcwfF5Lburfg1m2Am4JUL5VOh-t-AZlYTgdwz9iTrMQ0bkWADnqM9yCBKbWt84d_A2aR09zpFTLqfWc7QUDj1e2IciiHf_W2WYsIDnYs0spwtx2lz6t2GkQKGH7ZiMnJtVM6NRUC2LWs0Xp87z87pwfRb0R2LdUfS1poDl2QDGQwrxubMAiJ3I",
           q: "A car runs at constant speed around the horizontal race track shown in the figure. Over which portion of the track is the magnitude of the acceleration the greatest?",
           options: ["(1) From 1 to 2", "(2) From 2 to 3", "(3) From 3 to 4", "(4) From 4 to 1"],
           correct: 2, 
@@ -9724,6 +9724,7 @@
       ]
     }
   };
+
 
 
 
