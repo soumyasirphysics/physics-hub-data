@@ -1542,7 +1542,7 @@
           imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhEMEbsm2nybj2Jk8uodwTfBZ1T3d-MgqSfuPTrgVz5qbWhuttuYY1sSWVmUWDsq_R9qguF4UdbLX5VuLDg6LIk7wPaVY8IppsZfW2_2uKCcLn4NS4GhdPBrri5jRaF8Po30Onkn3OjnoUF5jB-XAlU1UFV8Tb9JTah0sgRSWy1aDf-te9L1BhH9DBRHwJn",
           options: ["(1) Yes, provided that the man is capable of pulling the rope hard enough.", "(2) Yes, only if mass of the man is greater than or equal to that of the lift.", "(3) Yes, only if mass of the man is greater than or equal to half of that of the lift.", "(4) Yes, only if mass of the man is greater than or equal to one third of that of the lift."],
           correct: 1, 
-          sol: "<b>Step 1: Identify forces acting on the man-lift system</b><br>Let man's mass be \\( m \\) and lift's mass be \\( M \\). He pulls the rope with tension \\( T \\).<br>The rope pulls the man up with force \\( T \\). The rope also pulls the lift up with force \\( T \\).<br>Total upward force on the (man + lift) system is \\( 2T \\). Total downward force is \\( (M+m)g \\).<br>For upward acceleration, \\( 2T > (M+m)g \\implies T > \\frac{(M+m)g}{2} \\).<br><br><b>Step 2: Apply the no-break contact constraint</b><br>For the man to stay on the floor, the normal force \\( N \\) must be \\( 0 \\).<br>Forces on man: Normal \\( N \\) up, Tension \\( T \\) up, weight \\( mg \\) down. \\( N + T - mg = ma \\).<br>So \\( N = m(g+a) - T \\ge 0 \\implies T \\le m(g+a) \\). The absolute maximum he can pull before lifting himself off the floor is roughly his own apparent weight. Assuming slow steady pull (\\( a \approx 0 \\)), \\( T_{max} = mg \\).<br><br><b>Step 3: Combine constraints</b><br>We need \\( \\frac{(M+m)g}{2} < mg \\implies M + m < 2m \\implies M < m \\).<br>Thus, it is only possible if the mass of the man is strictly greater than the mass of the lift."
+          sol: "<b>Step 1: Identify forces acting on the man-lift system</b><br>Let man's mass be \\( m \\) and lift's mass be \\( M \\). He pulls the rope with tension \\( T \\).<br>The rope pulls the man up with force \\( T \\). The rope also pulls the lift up with force \\( T \\).<br>Total upward force on the (man + lift) system is \\( 2T \\). Total downward force is \\( (M+m)g \\).<br>For upward acceleration, \\( 2T > (M+m)g \\implies T > \\frac{(M+m)g}{2} \\).<br><br><b>Step 2: Apply the no-break contact constraint</b><br>For the man to stay on the floor, the normal force \\( N \\) must be \\( \\ge 0 \\).<br>Forces on man: Normal \\( N \\) up, Tension \\( T \\) up, weight \\( mg \\) down. \\( N + T - mg = ma \\).<br>So \\( N = m(g+a) - T \\ge 0 \\implies T \\le m(g+a) \\). The absolute maximum he can pull before lifting himself off the floor is roughly his own apparent weight. Assuming slow steady pull (\\( a \approx 0 \\)), \\( T_{max} = mg \\).<br><br><b>Step 3: Combine constraints</b><br>We need \\( \\frac{(M+m)g}{2} < mg \\implies M + m < 2m \\implies M < m \\).<br>Thus, it is only possible if the mass of the man is strictly greater than the mass of the lift."
         },
         {
           id: 53, topic: "Laws of Motion",
@@ -9717,6 +9717,7 @@
       ]
     }
   };
+
 
 
 
