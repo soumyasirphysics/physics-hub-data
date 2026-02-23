@@ -2582,7 +2582,7 @@
     // ==========================================
     "Collisions and Centre of Mass": { 
       classTarget: "Class 11", 
-      totalQs: 48, 
+      totalQs: 50, 
       topics: ["Centre of Mass", "Motion of Centre of Mass", "Conservation of Momentum", "Elastic and Inelastic Collisions", "Explosions"],
       questions: [
         {
@@ -2933,6 +2933,27 @@
           options: ["(1) a & d", "(2) b & d", "(3) c & d", "(4) b only"],
           correct: 0, 
           sol: "<b>Step 1: Calculate the Impulse on one ball</b><br>Mass \\( m = 20 \\, \\text{g} = 0.02 \\, \\text{kg} \\).<br>The ball approaches at 5 m/s and rebounds at 5 m/s. Change in velocity \\( \\Delta v = 5 - (-5) = 10 \\, \\text{m/s} \\).<br>Impulse = \\( \\Delta p = m \\Delta v = 0.02 \\times 10 = 0.2 \\, \\text{N-s} \\). (Statement 'a' is true).<br><br><b>Step 2: Calculate the Force</b><br>Average Force \\( F = \\frac{\\Delta p}{\\Delta t} = \\frac{0.2}{10^{-3}} = 200 \\, \\text{N} \\). (Statements 'b' and 'c' are false because their force values are wrong).<br><br><b>Step 3: Analyze Newton's Third Law</b><br>During the collision, P exerts a force and impulse on Q, and Q exerts an equal and opposite force and impulse on P. (Statement 'd' is true).<br><br>Conclusion: Statements 'a' and 'd' are the only correct statements."
+        },
+        {
+          id: 49, topic: "Elastic and Inelastic Collisions",
+          q: "A particle of mass m moving with velocity \\( u \\) makes a perfectly elastic oblique (non-head-on) collision with another identical particle initially at rest. After the collision, the angle between their final velocity vectors is:",
+          options: ["(1) \\( \\pi/4 \\)", "(2) \\( \\pi/3 \\)", "(3) \\( \\pi/2 \\)", "(4) \\( \\pi \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Setup Conservation Equations</b><br>Let the initial velocity be \\( \\vec{u} \\) and the final velocities of the two identical particles be \\( \\vec{v}_1 \\) and \\( \\vec{v}_2 \\).<br>By Conservation of Momentum: \\( m\\vec{u} = m\\vec{v}_1 + m\\vec{v}_2 \\implies \\vec{u} = \\vec{v}_1 + \\vec{v}_2 \\).<br>By Conservation of Kinetic Energy (since it is perfectly elastic): \\( \\frac{1}{2}mu^2 = \\frac{1}{2}mv_1^2 + \\frac{1}{2}mv_2^2 \\implies u^2 = v_1^2 + v_2^2 \\).<br><br><b>Step 2: Vector squaring</b><br>Take the dot product of the momentum equation with itself (square it):<br>\\( \\vec{u} \\cdot \\vec{u} = (\\vec{v}_1 + \\vec{v}_2) \\cdot (\\vec{v}_1 + \\vec{v}_2) \\).<br>\\( u^2 = v_1^2 + v_2^2 + 2\\vec{v}_1 \\cdot \\vec{v}_2 \\).<br><br><b>Step 3: Find the angle</b><br>Substitute \\( u^2 \\) from the energy equation into the squared momentum equation:<br>\\( v_1^2 + v_2^2 = v_1^2 + v_2^2 + 2\\vec{v}_1 \\cdot \\vec{v}_2 \\).<br>Subtracting the velocity squared terms yields: \\( 2\\vec{v}_1 \\cdot \\vec{v}_2 = 0 \\).<br>Since their dot product is identically zero, the angle between the two final velocity vectors must be exactly \\( 90^{\\circ} \\) (which is \\( \\pi/2 \\) radians)."
+        },
+        {
+          id: 50, topic: "Motion of Centre of Mass",
+          q: "Two blocks of masses 2 kg and 3 kg are connected by a light inextensible string passing over a smooth, massless fixed pulley (an Atwood machine). The acceleration of the centre of mass of the system during motion is \\( (g = 10 \\, \\text{m/s}^2) \\):",
+          options: ["(1) \\( 2 \\, \\text{m/s}^2 \\) downwards", "(2) \\( 0.4 \\, \\text{m/s}^2 \\) downwards", "(3) \\( 0.4 \\, \\text{m/s}^2 \\) upwards", "(4) Zero"],
+          correct: 1, 
+          sol: "<b>Step 1: Find individual block accelerations</b><br>For an Atwood machine, the magnitude of acceleration for both blocks is \\( a = \\left(\\frac{m_1 - m_2}{m_1 + m_2}\\right)g \\).<br>Let \\( m_1 = 3 \\, \\text{kg} \\) and \\( m_2 = 2 \\, \\text{kg} \\).<br>\\( a = \\left(\\frac{3 - 2}{3 + 2}\\right)(10) = \\left(\\frac{1}{5}\\right)(10) = 2 \\, \\text{m/s}^2 \\).<br>The heavier 3 kg block accelerates downwards (let's define this as negative): \\( a_1 = -2 \\, \\text{m/s}^2 \\).<br>The lighter 2 kg block accelerates upwards (positive): \\( a_2 = +2 \\, \\text{m/s}^2 \\).<br><br><b>Step 2: Calculate COM Acceleration</b><br>The acceleration of the centre of mass is the mass-weighted average of the individual accelerations:<br>\\( a_{cm} = \\frac{m_1 a_1 + m_2 a_2}{m_1 + m_2} \\).<br>\\( a_{cm} = \\frac{(3)(-2) + (2)(+2)}{3 + 2} = \\frac{-6 + 4}{5} = \\frac{-2}{5} = -0.4 \\, \\text{m/s}^2 \\).<br><br><b>Step 3: Interpret the result</b><br>The negative sign indicates that the net acceleration of the centre of mass is directed downwards with a magnitude of \\( 0.4 \\, \\text{m/s}^2 \\)."
+        },
+        {
+          id: 51, topic: "Conservation of Momentum",
+          q: "Two blocks of masses \\( m_1 \\) and \\( m_2 \\) are connected by a light spring of spring constant k and placed on a smooth horizontal surface. Initially, the spring is relaxed. Block \\( m_1 \\) is suddenly given a velocity \\( v_0 \\) towards \\( m_2 \\) which is at rest. The maximum compression of the spring will be:",
+          options: ["(1) \\( v_0 \\sqrt{\\frac{m_1}{k}} \\)", "(2) \\( v_0 \\sqrt{\\frac{m_1 m_2}{k(m_1+m_2)}} \\)", "(3) \\( v_0 \\sqrt{\\frac{m_2}{k}} \\)", "(4) \\( v_0 \\sqrt{\\frac{m_1+m_2}{k}} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand the condition for maximum compression</b><br>Maximum compression (or extension) in a two-body spring system occurs when both blocks momentarily stop moving relative to each other. At this exact instant, they are both moving with the same velocity, which is the velocity of their Centre of Mass (COM).<br><br><b>Step 2: Use the Centre of Mass (COM) frame</b><br>Instead of solving long momentum and energy equations in the ground frame, we can use the COM frame. The total kinetic energy of a two-particle system in the COM frame is \\( K_{cm} = \\frac{1}{2}\\mu v_{rel}^2 \\), where \\( \\mu \\) is the reduced mass and \\( v_{rel} \\) is the initial relative velocity.<br>Reduced mass \\( \\mu = \\frac{m_1 m_2}{m_1 + m_2} \\).<br>Initial relative velocity \\( v_{rel} = v_0 - 0 = v_0 \\).<br><br><b>Step 3: Apply Conservation of Energy</b><br>At maximum compression, all the initial kinetic energy available in the COM frame is converted entirely into the elastic potential energy of the spring.<br>\\( \\frac{1}{2} k x_{max}^2 = \\frac{1}{2}\\mu v_{rel}^2 \\).<br>\\( k x_{max}^2 = \\left(\\frac{m_1 m_2}{m_1 + m_2}\\right) v_0^2 \\).<br>\\( x_{max}^2 = \\frac{m_1 m_2}{k(m_1 + m_2)} v_0^2 \\implies x_{max} = v_0 \\sqrt{\\frac{m_1 m_2}{k(m_1 + m_2)}} \\)."
         }
       ]
     },
@@ -9715,6 +9736,7 @@
       ]
     }
   };
+
 
 
 
