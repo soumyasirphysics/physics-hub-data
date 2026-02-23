@@ -70,6 +70,7 @@
         {
           id: 9, topic: "Resolution & Resultant",
           q: "Refer the following arrangements consisting of two vectors of same magnitude. Arrange them in ascending order of resultant magnitudes. ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiQRExhbz3dHq39Bzax6ZsEs4ALWycLFVcnvBzhPOdW-wRmN4HnyEPQQMJT18KmxqmreNM1Q5vSNYtSpNigXOXXnkEBFIBg-sZR-LmTQAZK9Hp52bCMf1zVh5rK8Iscfy5UzgeT3BEhgmt13wZhXQ2OoZszkGYHr2I0VPbKv6zYFxdq8tcbL3yYX-UmQJnB",
           options: ["(1) I, II, III, and IV", "(2) IV, III, II and I", "(3) II, IV, III and I", "(4) II, I, III and IV"],
           correct: 0, 
           sol: "<b>Step 1: Understand the formula for the resultant</b><br>The magnitude of the resultant of two vectors of equal magnitude \\( v \\) at an angle \\( \\theta \\) is \\( R = \\sqrt{v^2 + v^2 + 2v^2 \\cos\\theta} = 2v \\cos(\\theta/2) \\).<br>From this, it is clear that the resultant magnitude \\( R \\) continuously decreases as the angle \\( \\theta \\) increases from \\( 0^{\\circ} \\) to \\( 180^{\\circ} \\).<br><br><b>Step 2: Analyze the angles in the given arrangements</b><br>Arrangement I: The vectors are anti-parallel (\\( \\theta = 180^{\\circ} \\)), so \\( R = 0 \\) (Minimum).<br>Arrangement II: The vectors are at an obtuse angle (\\( 90^{\\circ} < \\theta < 180^{\\circ} \\)).<br>Arrangement III: The vectors are at an acute angle (\\( 0^{\\circ} < \\theta < 90^{\\circ} \\)).<br>Arrangement IV: The vectors are parallel (\\( \\theta = 0^{\\circ} \\)), so \\( R = 2v \\) (Maximum).<br><br><b>Step 3: Arrange in ascending order</b><br>The ascending order of resultant magnitude corresponds to the descending order of the angle between the vectors.<br>Order: I (smallest R), II, III, IV (largest R)."
@@ -9688,6 +9689,7 @@
       ]
     }
   };
+
 
 
 
