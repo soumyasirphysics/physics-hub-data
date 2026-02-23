@@ -2590,44 +2590,44 @@
           q: "A thin rod of length 6 m is lying along the x-axis with its ends at \\( x=0 \\) and \\( x=6 \\) m. Its linear density (mass/length) varies with x as \\( kx^4 \\). Find the position of centre of mass of rod in meters.",
           options: ["(1) 5 m", "(2) 3 m", "(3) 2 m", "(4) 4 m"],
           correct: 0, 
-          sol: "<b>Step 1: Formula for Centre of Mass of a continuous body</b><br>The x-coordinate of the centre of mass is given by \\( X_{cm} = \\frac{\\int x dm}{\\int dm} \\).<br>Here, \\( dm = \\lambda dx = kx^4 dx \\).<br><br><b>Step 2: Evaluate the integrals</b><br>Numerator: \\( \\int_0^6 x (kx^4) dx = k \\int_0^6 x^5 dx = k \\left[ \\frac{x^6}{6} \\right]_0^6 = \\frac{k \cdot 6^6}{6} = k \cdot 6^5 \\).<br>Denominator (Total Mass): \\( \\int_0^6 kx^4 dx = k \\left[ \\frac{x^5}{5} \\right]_0^6 = \\frac{k \cdot 6^5}{5} \\).<br><br><b>Step 3: Calculate \\( X_{cm} \\)</b><br>\\( X_{cm} = \\frac{k \cdot 6^5}{\\frac{k \cdot 6^5}{5}} = 5 \\, \\text{m} \\)."
+          sol: "<b>Step 1: Formula for Centre of Mass of a continuous body</b><br>The x-coordinate of the centre of mass is given by \\( X_{cm} = \\frac{\\int x dm}{\\int dm} \\).<br>Here, \\( dm = \\lambda dx = kx^4 dx \\).<br><br><b>Step 2: Evaluate the integrals</b><br>Numerator: \\( \\int_0^6 x (kx^4) dx = k \\int_0^6 x^5 dx = k \\left[ \\frac{x^6}{6} \\right]_0^6 = \\frac{k \\cdot 6^6}{6} = k \\cdot 6^5 \\).<br>Denominator (Total Mass): \\( \\int_0^6 kx^4 dx = k \\left[ \\frac{x^5}{5} \\right]_0^6 = \\frac{k \\cdot 6^5}{5} \\).<br><br><b>Step 3: Calculate \\( X_{cm} \\)</b><br>\\( X_{cm} = \\frac{k \\cdot 6^5}{\\frac{k \\cdot 6^5}{5}} = 5 \\, \\text{m} \\)."
         },
         {
           id: 2, topic: "Motion of Centre of Mass",
           q: "A man of mass M stands at one end of a plank of length L which lies at rest on a frictional surface. The man walks to the other end of the plank. If mass of the plank is 3M, the distance that man moves relative to the ground is :-",
           options: ["(1) \\( \\frac{L}{4} \\)", "(2) \\( \\frac{3L}{4} \\)", "(3) \\( \\frac{2L}{3} \\)", "(4) \\( \\frac{L}{3} \\)"],
           correct: 1, 
-          sol: "<b>Step 1: Conservation of Centre of Mass</b><br>Since there is no external horizontal force acting on the man-plank system, the position of their common centre of mass must remain stationary.<br><br><b>Step 2: Set up displacement equation</b><br>Let the man move a distance \\( x \\) relative to the ground. The plank will move in the opposite direction. Since the man walked the full length \\( L \\) relative to the plank, the plank's displacement relative to the ground is \\( L - x \\) (in the opposite direction).<br>For the COM to remain fixed: \\( M_{man} \Delta x_{man} = M_{plank} \Delta x_{plank} \\).<br><br><b>Step 3: Solve for x</b><br>\\( M \cdot x = 3M \cdot (L - x) \\).<br>\\( x = 3L - 3x \\implies 4x = 3L \\implies x = \\frac{3L}{4} \\)."
+          sol: "<b>Step 1: Conservation of Centre of Mass</b><br>Since there is no external horizontal force acting on the man-plank system, the position of their common centre of mass must remain stationary.<br><br><b>Step 2: Set up displacement equation</b><br>Let the man move a distance \\( x \\) relative to the ground. The plank will move in the opposite direction. Since the man walked the full length \\( L \\) relative to the plank, the plank's displacement relative to the ground is \\( L - x \\) (in the opposite direction).<br>For the COM to remain fixed: \\( M_{man} \\Delta x_{man} = M_{plank} \\Delta x_{plank} \\).<br><br><b>Step 3: Solve for x</b><br>\\( M \\cdot x = 3M \\cdot (L - x) \\).<br>\\( x = 3L - 3x \\implies 4x = 3L \\implies x = \\frac{3L}{4} \\)."
         },
         {
           id: 3, topic: "Motion of Centre of Mass",
           q: "There are three small particles A, B and C where A & B has mass 5m & m respectively but C is very light and all three particles are moving under their mutual interaction. At t=0. C is at (2, 3, 5) and at t=2 sec, C is at (5, -1, 5). If centre of mass of system always lies on C and at t=2 sec velocity of A is \\( 2\\hat{i} \\) then velocity of B at this instant. (Assume all units in SI)",
           options: ["(1) \\( (\\hat{i}+\\hat{j}) \\)", "(2) Zero", "(3) \\( (-\\hat{i}-12\\hat{j}) \\)", "(4) Can not find because velocity of centre of mass is not constant"],
           correct: 2, 
-          sol: "<b>Step 1: Find the velocity of the Centre of Mass</b><br>Since particle C is very light (mass \\( \approx 0 \\)), its mass doesn't affect the COM calculation, but we are given that the COM *always lies on C*. Therefore, the velocity of the COM is exactly the velocity of C.<br>Velocity of COM \\( \\vec{V}_{cm} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{(5-2)\\hat{i} + (-1-3)\\hat{j} + (5-5)\\hat{k}}{2} = \\frac{3\\hat{i} - 4\\hat{j}}{2} = 1.5\\hat{i} - 2\\hat{j} \\, \\text{m/s} \\).<br><br><b>Step 2: Relate COM velocity to particle velocities</b><br>\\( \\vec{V}_{cm} = \\frac{m_A \\vec{v}_A + m_B \\vec{v}_B}{m_A + m_B} \\).<br>Substitute the knowns: \\( 1.5\\hat{i} - 2\\hat{j} = \\frac{5m(2\\hat{i}) + m(\\vec{v}_B)}{5m + m} \\).<br><br><b>Step 3: Solve for \\( \\vec{v}_B \\)</b><br>Multiply by 6m (and cancel m): \\( 6(1.5\\hat{i} - 2\\hat{j}) = 10\\hat{i} + \\vec{v}_B \\).<br>\\( 9\\hat{i} - 12\\hat{j} = 10\\hat{i} + \\vec{v}_B \\implies \\vec{v}_B = 9\\hat{i} - 10\\hat{i} - 12\\hat{j} = -\\hat{i} - 12\\hat{j} \\, \\text{m/s} \\)."
+          sol: "<b>Step 1: Find the velocity of the Centre of Mass</b><br>Since particle C is very light (mass \\( \\approx 0 \\)), its mass doesn't affect the COM calculation, but we are given that the COM *always lies on C*. Therefore, the velocity of the COM is exactly the velocity of C.<br>Velocity of COM \\( \\vec{V}_{cm} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{(5-2)\\hat{i} + (-1-3)\\hat{j} + (5-5)\\hat{k}}{2} = \\frac{3\\hat{i} - 4\\hat{j}}{2} = 1.5\\hat{i} - 2\\hat{j} \\, \\text{m/s} \\).<br><br><b>Step 2: Relate COM velocity to particle velocities</b><br>\\( \\vec{V}_{cm} = \\frac{m_A \\vec{v}_A + m_B \\vec{v}_B}{m_A + m_B} \\).<br>Substitute the knowns: \\( 1.5\\hat{i} - 2\\hat{j} = \\frac{5m(2\\hat{i}) + m(\\vec{v}_B)}{5m + m} \\).<br><br><b>Step 3: Solve for \\( \\vec{v}_B \\)</b><br>Multiply by 6m (and cancel m): \\( 6(1.5\\hat{i} - 2\\hat{j}) = 10\\hat{i} + \\vec{v}_B \\).<br>\\( 9\\hat{i} - 12\\hat{j} = 10\\hat{i} + \\vec{v}_B \\implies \\vec{v}_B = 9\\hat{i} - 10\\hat{i} - 12\\hat{j} = -\\hat{i} - 12\\hat{j} \\, \\text{m/s} \\)."
         },
         {
           id: 4, topic: "Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh0ifNAzZkFk-o3jzt_P70u8lf8QF5SyNzBfqboSYLIrQfwQTzl8jNbQDAqh6TPK4KSVGej18UgCL-lQWuwMQEzt9Gzhg8qn0jKAgOc8k2wMX_tFBEAajc3bC8mZhIXcQXPc-9NBKWAVNmB-wAMPFCg96lBc4Fl78-0xH5WwDl7Ep2cV-ynx32WAmixDTjH",
           q: "From a circular disc of radius R, a square is cut out with a radius as its diagonal. The center of mass of remainder part is at a distance (from the centre):-",
           options: ["(1) \\( \\frac{R}{(4\\pi-2)} \\)", "(2) \\( \\frac{R}{2\\pi} \\)", "(3) \\( \\frac{R}{(\\pi-2)} \\)", "(4) \\( \\frac{R}{(2\\pi-2)} \\)"],
           correct: 0, 
-          sol: "<b>Step 1: Determine masses</b><br>Let surface mass density be \\( \\sigma \\).<br>Mass of full disc \\( M_1 = \\sigma \pi R^2 \\). Its COM is at \\( x_1 = 0 \\).<br>The square has diagonal \\( d = R \\). Its area is \\( \\frac{d^2}{2} = \\frac{R^2}{2} \\).<br>Mass of the cut square \\( M_2 = \\sigma \\frac{R^2}{2} \\). Since it is formed on a radius, its center (COM) is at the midpoint of that radius: \\( x_2 = R/2 \\).<br><br><b>Step 2: Use negative mass concept</b><br>The COM of the remaining shape is \\( X_{cm} = \\frac{M_1 x_1 - M_2 x_2}{M_1 - M_2} \\).<br>\\( X_{cm} = \\frac{(\\sigma \\pi R^2)(0) - (\\sigma R^2 / 2)(R/2)}{\\sigma \\pi R^2 - \\sigma R^2 / 2} \\).<br><br><b>Step 3: Simplify</b><br>Cancel \\( \\sigma R^2 \\): \\( X_{cm} = \\frac{- R/4}{\\pi - 1/2} = \\frac{-R/4}{(2\\pi - 1)/2} = \\frac{-R}{2(2\\pi - 1)} = \\frac{-R}{4\\pi - 2} \\).<br>The distance (magnitude) is \\( \\frac{R}{4\\pi-2} \\)."
+          sol: "<b>Step 1: Determine masses</b><br>Let surface mass density be \\( \\sigma \\).<br>Mass of full disc \\( M_1 = \\sigma \\pi R^2 \\). Its COM is at \\( x_1 = 0 \\).<br>The square has diagonal \\( d = R \\). Its area is \\( \\frac{d^2}{2} = \\frac{R^2}{2} \\).<br>Mass of the cut square \\( M_2 = \\sigma \\frac{R^2}{2} \\). Since it is formed on a radius, its center (COM) is at the midpoint of that radius: \\( x_2 = R/2 \\).<br><br><b>Step 2: Use negative mass concept</b><br>The COM of the remaining shape is \\( X_{cm} = \\frac{M_1 x_1 - M_2 x_2}{M_1 - M_2} \\).<br>\\( X_{cm} = \\frac{(\\sigma \\pi R^2)(0) - (\\sigma R^2 / 2)(R/2)}{\\sigma \\pi R^2 - \\sigma R^2 / 2} \\).<br><br><b>Step 3: Simplify</b><br>Cancel \\( \\sigma R^2 \\): \\( X_{cm} = \\frac{- R/4}{\\pi - 1/2} = \\frac{-R/4}{(2\\pi - 1)/2} = \\frac{-R}{2(2\\pi - 1)} = \\frac{-R}{4\\pi - 2} \\).<br>The distance (magnitude) is \\( \\frac{R}{4\\pi-2} \\)."
         },
         {
           id: 5, topic: "Motion of Centre of Mass",
           q: "A non-zero external force acts on a system of particles. The velocity and acceleration of the centre of mass are found to be \\( v_0 \\) and \\( a_c \\) respectively at any instant t. It is possible that<br>(i) \\( v_0=0, a_c=0 \\)<br>(ii) \\( v_0\\ne0, a_c=0 \\)<br>(iii) \\( v_0=0, a_c\\ne0 \\)<br>(iv) \\( v_0\\ne0, a_c\\ne0 \\)<br>Then",
           options: ["(1) (iii) and (iv) are true.", "(2) (i) and (ii) are true.", "(3) (i) and (iii) are true.", "(4) (ii), (iii) and (iv) are true."],
           correct: 0, 
-          sol: "<b>Step 1: Relate external force to acceleration</b><br>By Newton's Second Law for a system of particles: \\( F_{ext} = M a_c \\).<br>Since a *non-zero* external force acts on the system, the acceleration of the centre of mass \\( a_c \\) must be non-zero (\\( a_c \ne 0 \\)). This immediately invalidates (i) and (ii).<br><br><b>Step 2: Consider velocity states</b><br>The velocity of the COM (\\( v_0 \\)) can be anything depending on initial conditions.<br>If the system starts from rest, \\( v_0 = 0 \\) at \\( t=0 \\) while \\( a_c \ne 0 \\) (case iii is possible).<br>At any later time, the system will have accelerated, so \\( v_0 \ne 0 \\) while \\( a_c \ne 0 \\) (case iv is possible).<br>Therefore, (iii) and (iv) are true."
+          sol: "<b>Step 1: Relate external force to acceleration</b><br>By Newton's Second Law for a system of particles: \\( F_{ext} = M a_c \\).<br>Since a *non-zero* external force acts on the system, the acceleration of the centre of mass \\( a_c \\) must be non-zero (\\( a_c \\ne 0 \\)). This immediately invalidates (i) and (ii).<br><br><b>Step 2: Consider velocity states</b><br>The velocity of the COM (\\( v_0 \\)) can be anything depending on initial conditions.<br>If the system starts from rest, \\( v_0 = 0 \\) at \\( t=0 \\) while \\( a_c \\ne 0 \\) (case iii is possible).<br>At any later time, the system will have accelerated, so \\( v_0 \\ne 0 \\) while \\( a_c \\ne 0 \\) (case iv is possible).<br>Therefore, (iii) and (iv) are true."
         },
         {
           id: 6, topic: "Motion of Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg96GDBjnJsWiUmhedxrPisViQ4FPf23jjn8kVd_mmW_sdmJ9KhzGTwbsiU2lDemfxEZaV8p2QCKt6mEH-44EJ2JjtxU7MXZUBj-lx0rImwdU9ObN4ADN0DA5aTZ-u5WQlUTzGTAQV-hrlZuBQuW16Yc3yTx1MtkhOkRA-au6-dCl-VDdoVevbTfnPM1lJd",
           q: "In the figure shown, the small prism of mass M slides down on the bigger prism of mass 5M from top of the bigger prism to the bottom of the bigger prism. By what distance does the combination move to the left if the bigger prism initially rests on a frictionless floor.",
           options: ["(1) \\( \\frac{4L}{5} \\)", "(2) \\( \\frac{2L}{3} \\)", "(3) \\( \\frac{L}{5} \\)", "(4) \\( \\frac{L}{6} \\)"],
           correct: 1, 
-          sol: "<b>Step 1: Identify conservation of COM</b><br>Since the floor is frictionless, there are no external horizontal forces acting on the system. Therefore, the horizontal position of the centre of mass remains completely stationary (\\( \\Delta X_{cm} = 0 \\)).<br><br><b>Step 2: Relate displacements</b><br>Let the bigger prism move to the left by a distance \\( x \\). Its displacement is \\( -x \\).<br>The smaller prism slides down the slope. The horizontal length of the slope is \\( 5L - L = 4L \\). So it moves \\( 4L \\) to the right *relative to the big prism*.<br>Absolute horizontal displacement of the smaller prism = \\( 4L - x \\).<br><br><b>Step 3: Apply COM formula</b><br>\\( M_1 \Delta x_1 + M_2 \Delta x_2 = 0 \\)<br>\\( 5M(-x) + M(4L - x) = 0 \\).<br>\\( -5x + 4L - x = 0 \\implies 6x = 4L \\implies x = \\frac{4L}{6} = \\frac{2L}{3} \\)."
+          sol: "<b>Step 1: Identify conservation of COM</b><br>Since the floor is frictionless, there are no external horizontal forces acting on the system. Therefore, the horizontal position of the centre of mass remains completely stationary (\\( \\Delta X_{cm} = 0 \\)).<br><br><b>Step 2: Relate displacements</b><br>Let the bigger prism move to the left by a distance \\( x \\). Its displacement is \\( -x \\).<br>The smaller prism slides down the slope. The horizontal length of the slope is \\( 5L - L = 4L \\). So it moves \\( 4L \\) to the right *relative to the big prism*.<br>Absolute horizontal displacement of the smaller prism = \\( 4L - x \\).<br><br><b>Step 3: Apply COM formula</b><br>\\( M_1 \\Delta x_1 + M_2 \\Delta x_2 = 0 \\)<br>\\( 5M(-x) + M(4L - x) = 0 \\).<br>\\( -5x + 4L - x = 0 \\implies 6x = 4L \\implies x = \\frac{4L}{6} = \\frac{2L}{3} \\)."
         },
         {
           id: 7, topic: "Centre of Mass",
@@ -2638,7 +2638,7 @@
         },
         {
           id: 8, topic: "Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh-uu3hjsg6bUy7dpNv2kg8WZwjf7M9nFVm7I944bU4hx2z562W1a7jw_ZXufSHnh9KqQMgxcarQ21kssX2fY4sNE9CtZGR4sujenFVFXjNPAOIfryoGAhir99edIOkRnLrmD8OtJGzBIoLT9rAnlHJqA9nHoFP-__cFs8aasJc7sfuDQTEecD0SpotE6vk",
           q: "Figure shows a disc of radius R=20 cm with a portion of it removed symmetrically. The removed part is a disc of radius R/2. The removed part is now placed in contact with the larger disc as shown in figure. Disc has uniform mass distribution. With respect to origin at centre of larger disc find x-coordinate of centre of mass of system.",
           options: ["(1) 20cm", "(2) 10cm", "(3) 15cm", "(4) 5 cm"],
           correct: 3, 
@@ -2646,7 +2646,7 @@
         },
         {
           id: 9, topic: "Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhxG_L56g9IGFcda4g9MfZ7dTWQiFT6i5z9OvPumXNXmssFB9-17DhnbIVMXQDIYhrqx3exZOW1RMm4vjFoJr2u4LLNlIqmJFnYMAc6p5b7TO4KQHifsK5Xfzi13HjoqeLvXl051soqUpDOdW8-fhGcYih0aPGlRfjKCUduQbdoSkmKrBoXXXxYkWU71RTh",
           q: "Find the x coordinate of the centre of mass of the bricks shown in figure: (Each rod has length l and they are stacked with maximum overhanging offsets of l/2, l/4, l/8...)",
           options: ["(1) \\( \\frac{24}{25}l \\)", "(2) \\( \\frac{25}{24}l \\)", "(3) \\( \\frac{15}{16}l \\)", "(4) \\( \\frac{16}{15}l \\)"],
           correct: 2, 
@@ -2661,7 +2661,7 @@
         },
         {
           id: 11, topic: "Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiP-GB5fqJemaSgk4VsvpoB8oYx1UNyXj3AstjuyWgT-hQbylL8-HGUJJNcyGBGYrk_MtBYk3bLB9jAa1pjBLTbE1unDZR5MDLnDxdrfzxynMfcgrbrI7W-bR9qdiIyaRN7OlyByCAgQM9wrwU9hQ-oon3ZFZGTHElWDL8KaBYQ0r7XFEkUAeSt2D8S2_6w",
           q: "A uniform wire frame ABC is in the shape of an equilateral triangle in xy-plane with centroid at the origin. Then :-<br>(1) If AB is removed, the centre of mass of the remaining figure is in fourth quadrant.<br>(2) If BC is removed, the centre of mass of the remaining figure is on the positive Y-axis.<br>(3) If AC is removed, the centre of mass of the remaining figure is in third quadrant.",
           options: ["(1) Only 1 is correct", "(2) Only 2 is correct", "(3) Only 3 is correct", "(4) All of above are correct"],
           correct: 3, 
@@ -2669,7 +2669,7 @@
         },
         {
           id: 12, topic: "Motion of Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg2U8j6JaQlQH637vUxURI5c6yr7SJJbzZOaPNyYEQN1VKU5qpdWRx5ZZgIDuPtJvpwsNNTb-f8ciPW7LylLM_9IJjzVC93Tt1nwd6X8KghDxUkBK_qQebRxm4sG1iWgDJR6MGW0ECdyWAge7E9_zvRD0xXYX71E3cvk9DBPQG_H49IRFAlw7tJQH5GKzJK",
           q: "Two equal rods joined at one end are kept on a smooth surface as shown and released. Trajectory of centre of mass of both rods is -",
           options: ["(1) parabola", "(2) straight vertical line", "(3) straight inclined line", "(4) straight horizontal line"],
           correct: 1, 
@@ -2684,7 +2684,7 @@
         },
         {
           id: 14, topic: "Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjb1pC-XYzzYKMYTXIHjbMIwl6VQ7iX9T_447tvgIjbqJche6VTRYDhub0hih01fD--UvLIeJ0JIDTLXbI63y5Ax-jePA9pqz0m4Alva3eJS6tNkt8Zfel_hbocfTzHoI8I59G8QNQAd5dGImi-I0gbyin9pXX6i0F-KIH3hMfyvLOWUTPiz01uRDKFr9Gg",
           q: "A thick uniform wire is bent into the shape of the letter \"U\" as shown. Which point indicates the location of the center of mass of this wire? (Note: A is the midpoint of the line joining mid points of two parallel sides of 'U' shaped wire.)",
           options: ["(1) A", "(2) B", "(3) C", "(4) D"],
           correct: 1, 
@@ -2692,7 +2692,7 @@
         },
         {
           id: 15, topic: "Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEifPJrKNqOpTRtaweS--3tg9keLJGrUrtlgpxfQkdwKZbD0g87R2THOUao4UMk1LMt5D1ioqBNWnZpJe-YNvUFF1jY5qEYqaS6LQEXgxreYiLvNEHlxRhf3IrkQ6TYKNo82mPm-AlJcImiKAIX_BmeIgpZilO9c2g3SIblYLCgISj_okcjXx1HIMo02Jf7-",
           q: "In the given figure four rods AB, BC, CD and DA have mass m, 2m, 3m and 4m respectively. In which of the regions (numberd 1, 2, 3, 4) the centre of mass of system lies?",
           options: ["(1) 1", "(2) 2", "(3) 3", "(4) 4"],
           correct: 1, 
@@ -2700,7 +2700,7 @@
         },
         {
           id: 16, topic: "Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiGT6Q2HU2hdC7aLddv5Nn6wpFaPJpeHcTJbPhAKgCSu1PIF56NhB4NjPsPTsvfC4B6q5yfDpHItYmA28IhXs1Bdo-t6Qzzkj-yBHtKbU9FZll0Zymmt4eUMux4RYAmqDbhayE9po7y4f26TWsb-u16jFI95fHb4fwVep7o20qOtMPpa_yYhpFugF_PFihu",
           q: "Figure shows two cylindrical rods whose center of mass is marked as A and B. Line AB divides the region in two parts one containing point O (region 1) and other containing point O' (region 2). Choose the correct option regarding the center of mass of the combined system?",
           options: ["(1) The center of mass of the system lies in region 1", "(2) The center of mass of the system lies in region 2", "(3) The center of mass of the system lies on line AB", "(4) The center of mass of the system may lie in region 1 or region 2 depending on the mass of the rods"],
           correct: 2, 
@@ -2708,7 +2708,7 @@
         },
         {
           id: 17, topic: "Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgfgFJNqnPLX8rMAr1vPMyjPD5g4xOGufCtM_tlkfOn-ka5qSLZ2_OfiA89CUd91IrB2qAwUo5b2CAb6Xovl2QptW8iZzqfeA5PkLRexpklibeD7CRD-UQHPcDkwuQ2diUAk8JyRGQAqUwXREmFmAlTSczFfhpIsLO2w7pN1KMzX2WW1_oIJdrAUYJ3psxU",
           q: "Two 20 g worms climb over a 10 cm high, very thin wall. One worm is thin and 20 cm long the other is fat and only 10 cm long. What is the ratio of the potential energy (w.r.t. the base of wall) of the thin worm as compared to that of the fat worm when each is half way over the top of the wall as shown?",
           options: ["(1) 1:1", "(2) 2:1", "(3) 2:3", "(4) 1:2"],
           correct: 2, 
@@ -2730,7 +2730,7 @@
         },
         {
           id: 20, topic: "Motion of Centre of Mass",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhEloSBNJKqewfsyiF54D-yb-XsCvbjTafpzUki1NVbhT3ZdVuyZnqNPXYaEnOzLOjESVkSHEZKR-vHX2RGJD4jU4ZrY4zH4wRrn3lbhuHS55g7NEIeWwdGf3DyEB3ToIfO96kri-YyAdSC_QXhpL-KWhzyeIjafDuVgl37KSlKeL6D9eP_T789DLoygEMR",
           q: "Shown in the figure is a system of three particles having masses \\( m_1=1 \\) kg, \\( m_2=2 \\) kg and \\( m_3=4 \\) kg connected by two springs. At an instant, accelerations of these particles are \\( 1 \\, \\text{m/s}^2 \\) (left), \\( 2 \\, \\text{m/s}^2 \\) (left) and \\( 0.5 \\, \\text{m/s}^2 \\) (right) respectively as shown? The external force at this instant acting on the system is",
           options: ["(1) 1 N rightward", "(2) 3 N leftward", "(3) 3 N rightward", "(4) Zero"],
           correct: 1, 
@@ -2794,7 +2794,7 @@
         },
         {
           id: 29, topic: "Inelastic Collisions",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEieNhFQ7toN_LOFHfNUPKP_BYHzBYgADscyIDZCCFyxTsG-GTpI4bpdAUyO0bjAR0-QtIlNbOKyvZDkc6RPKIryKaYZdlkaL7pR3WEQC-_Km2FYUEXw7o_UVF5wZzSaQyQQfmkLB_C1abf2lQMYtvzukZ2Iqe0DuqODwpmCuYS7Qj0sw8gQJQAqNc4Meu2t",
           q: "A 50 kg boy runs at a speed of 10 m/s and jumps onto a cart as shown in the figure. The cart is initially at rest. If the speed of the cart with the boy on it is 2.50 m/s, what is the mass of the cart? (Assuming friction is absent between cart and ground)",
           options: ["(1) 150 kg", "(2) 210 kg", "(3) 175 kg", "(4) 260 kg"],
           correct: 0, 
@@ -2812,11 +2812,10 @@
           q: "A particle strikes a smooth horizontal surface at an angle of \\( 45^{\\circ} \\) with a velocity of 100 m/s and rebounds. If the coefficient of restitution between the floor and the particle is 0.57 then the angle which the velocity of the particle after it rebounds will make with the floor is",
           options: ["(1) \\( 30^{\\circ} \\)", "(2) \\( 45^{\\circ} \\)", "(3) \\( 60^{\\circ} \\)", "(4) \\( 90^{\\circ} \\)"],
           correct: 0, 
-          sol: "<b>Step 1: Resolve the initial velocity</b><br>Let the horizontal floor be the x-axis. The vertical component is \\( u_y = u \\sin(45^{\\circ}) \\) and the horizontal component is \\( u_x = u \\cos(45^{\\circ}) \\).<br><br><b>Step 2: Determine post-collision components</b><br>Since the surface is smooth, there is no horizontal force, so the horizontal velocity remains unchanged: \\( v_x = u_x = u \\cos(45^{\\circ}) \\).<br>The vertical velocity is altered by the coefficient of restitution: \\( v_y = e \cdot u_y = e \cdot u \\sin(45^{\\circ}) \\).<br><br><b>Step 3: Calculate the angle of rebound</b><br>Let \\( \\theta' \\) be the angle the rebound velocity makes with the floor (horizontal).<br>\\( \\tan\\theta' = \\frac{v_y}{v_x} = \\frac{e \cdot u \\sin(45^{\\circ})}{u \\cos(45^{\\circ})} = e \\tan(45^{\\circ}) \\).<br>Since \\( \\tan(45^{\\circ}) = 1 \\), \\( \\tan\\theta' = e = 0.57 \\).<br>We know that \\( \\tan(30^{\\circ}) = 1/\\sqrt{3} \\approx 0.577 \\). Therefore, \\( \\theta' \\approx 30^{\\circ} \\)."
+          sol: "<b>Step 1: Resolve the initial velocity</b><br>Let the horizontal floor be the x-axis. The vertical component is \\( u_y = u \\sin(45^{\\circ}) \\) and the horizontal component is \\( u_x = u \\cos(45^{\\circ}) \\).<br><br><b>Step 2: Determine post-collision components</b><br>Since the surface is smooth, there is no horizontal force, so the horizontal velocity remains unchanged: \\( v_x = u_x = u \\cos(45^{\\circ}) \\).<br>The vertical velocity is altered by the coefficient of restitution: \\( v_y = e \\cdot u_y = e \\cdot u \\sin(45^{\\circ}) \\).<br><br><b>Step 3: Calculate the angle of rebound</b><br>Let \\( \\theta' \\) be the angle the rebound velocity makes with the floor (horizontal).<br>\\( \\tan\\theta' = \\frac{v_y}{v_x} = \\frac{e \\cdot u \\sin(45^{\\circ})}{u \\cos(45^{\\circ})} = e \\tan(45^{\\circ}) \\).<br>Since \\( \\tan(45^{\\circ}) = 1 \\), \\( \\tan\\theta' = e = 0.57 \\).<br>We know that \\( \\tan(30^{\\circ}) = 1/\\sqrt{3} \\approx 0.577 \\). Therefore, \\( \\theta' \\approx 30^{\\circ} \\)."
         },
         {
           id: 32, topic: "Elastic and Inelastic Collisions",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
           q: "Two balls of equal mass have a head-on collision with speed 6 m/s each. If the coefficient of restitution is 1/3 find the speed of each ball after impact in m/s.",
           options: ["(1) 2", "(2) 3", "(3) 4", "(4) 6"],
           correct: 0, 
@@ -2824,7 +2823,7 @@
         },
         {
           id: 33, topic: "Elastic and Inelastic Collisions",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgwGQfv2bdciJ9qlRQk8nvBbmvhln__CBxWECM0PLa4FgCMuFX5i3uhGJxfrMOgwHQxZUmCuMaBTZHX32GVrGj7OSX-jVlOTm3zKPk5I4-bULmEY1S5ShW1egBD257SVIuoGhh5AEXnULYg68XqwenY8AXYvRoq_sXaOS4Bd3EAzIk7eeEv-pevkq5F2xox",
           q: "There are 10 small identical elastic balls placed at rest on a smooth horizontal surface as shown in figure. Find the least velocity which should be provided to the first ball such that 10th ball completes the circle. \\( [g=9.8 \\, \\text{m/s}^2] \\)",
           options: ["(1) 70 m/s", "(2) 7 m/s", "(3) 35 m/s", "(4) 14 m/s"],
           correct: 1, 
@@ -2845,14 +2844,6 @@
           sol: "<b>Step 1: Velocity just before impact</b><br>The particle is thrown upwards with \\( u \\) from height \\( h \\). By conservation of energy (or kinematics), its velocity when it hits the ground is \\( v_{impact} = \\sqrt{u^2 + 2gh} \\).<br><br><b>Step 2: Velocity just after rebound</b><br>We are told that after rebounding, it reaches exactly height \\( h \\). To reach height \\( h \\) against gravity, its upward rebound velocity must be \\( v_{rebound} = \\sqrt{2gh} \\).<br><br><b>Step 3: Coefficient of Restitution</b><br>The coefficient of restitution is the ratio of separation speed to approach speed: \\( e = \\frac{v_{rebound}}{v_{impact}} \\).<br>Substituting the expressions: \\( e = \\frac{\\sqrt{2gh}}{\\sqrt{u^2 + 2gh}} = \\sqrt{\\frac{2gh}{u^2 + 2gh}} \\)."
         },
         {
-          id: 36, topic: "Conservation of Momentum",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "The figure below depicts the paths of two colliding steel balls, A and B. Which of the arrows 1-4 best represents the impulse applied to ball A during the collision?",
-          options: ["(1) Arrow 1 (Up)", "(2) Arrow 2 (Down)", "(3) Arrow 3 (Down-Left)", "(4) Arrow 4 (Up-Right)"],
-          correct: 1, 
-          sol: "<b>Step 1: Relate Impulse to Momentum</b><br>By the Impulse-Momentum theorem, the impulse applied to an object is exactly equal to its change in momentum: \\( \\vec{J} = \\Delta \\vec{p} = \\vec{p}_f - \\vec{p}_i \\).<br><br><b>Step 2: Vector Subtraction</b><br>Looking at the diagram, ball A initially moves diagonally Up-Right. After the collision, it moves diagonally Down-Right.<br>To find the vector difference \\( \\vec{p}_f - \\vec{p}_i \\), we reverse the initial vector and add it to the final vector.<br>The horizontal (Right) components are roughly identical and cancel out or remain stable. The vertical component drastically changes from 'Up' to 'Down'.<br>Therefore, the net change in momentum points straight Down. This corresponds to Arrow 2."
-        },
-        {
           id: 37, topic: "Inelastic Collisions",
           imgUrl: "INSERT_IMAGE_LINK_HERE",
           q: "A 6.0 kg mass is moving to the right at 10 m/s. A 0.25 kg mass is fired towards left at the larger mass. What speed (v) must the smaller mass have to completely stop both masses?",
@@ -2862,7 +2853,7 @@
         },
         {
           id: 38, topic: "Elastic and Inelastic Collisions",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhbeazNeHRXvq2jB5X2TUd0Fj2C-2csm_SM6MjbP_l6S_dlWwc3ZjkLxwb-A9GEs1c6AXDukxITZK31-hJJKuG19VVB9nTYqGqpZ9BoHh9AhlLogol349dpVS_GhDJ9SJi4zG77krUVL4-suchwB44fFksJAsp3LnhZgK1dWA1owJEim8hVSq9RQBawZ8c0",
           q: "In figure, determine the character of the collision. The masses of the blocks, and the velocities before and after are given. The collision is",
           options: ["(1) Perfectly elastic", "(2) Partially inelastic", "(3) Completely inelastic", "(4) This collision is not possible"],
           correct: 0, 
@@ -2877,7 +2868,7 @@
         },
         {
           id: 40, topic: "Conservation of Momentum",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEivcwFkI032qPf-bRyKCkCKL62Y1-znzhMrF8482cLNOkeibHEqyKS1m1F4iViADR90mbqEiOWHL811iqY-qn6v_yRpElDN2EdVC7CtUMocCR5ImwwFgWfyR9V8y-lS81pRoGiFOa59RqJTcTV1d8JRZFTbshohdKKoK_bmwAm_fSLSZYJZDas_v7ETYOGh",
           q: "Ball A of mass 1 kg moving right with speed 2 m/s bounces off ball B of mass 1.5 kg, and then moves left with speed 4 m/s. Calculate magnitude of impulse (SI Units) received by ball B.",
           options: ["(1) 2", "(2) 3", "(3) 6", "(4) 4"],
           correct: 2, 
@@ -2892,7 +2883,7 @@
         },
         {
           id: 42, topic: "Conservation of Momentum",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiza_3nmeSppTOz2vtjkGsJqIkO-fyFTy5qozLF80LnWM28J6ouCiD-Mp-Gfc5GdZcVl3YrbGrEd7IUFWK-zQrpAnQXrFHnuzsZqr0TE7c4O8MJTze4pTqhY-Bgw3U83o1y5tZ4evNKYTDd_wCD6FvWU6tBR2IOU81WwrwFshmF0l3M22j8cHpfwyOK8rQs",
           q: "Two bodies, A and B, collide as shown in Figures a and b below. (a shows a head-on collision, b shows a glancing collision). Which statement is true?",
           options: ["(1) They exert equal and opposite forces on each other in (a) but not in (b).", "(2) They exert equal and opposite force on each other in both (a) and (b).", "(3) The forces are equal and opposite to each other in (a), but only the components of the forces parallel to the velocities are equal in (b).", "(4) The forces are equal and opposite in (a), but only the components of the forces perpendicular to the velocities are equal in (b)"],
           correct: 1, 
@@ -2900,15 +2891,15 @@
         },
         {
           id: 43, topic: "Inelastic Collisions",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhwtmbSMFsCZv86PqoOPvs3HeNAWgP9maOa2xPNCHSASwXRJj7DGgeVsQM4yeRHg3VIXKpcwMuS13LoxOM4hAx3KFmUbZ_gaKCnXB0N8b5vPxcW4v2yc1sjs5_9aLqMjw4D_jzLSEmQjlythzwdnt7DcRdn9BUbfEPvlWTI8PEW99sQEzFYU2yYZn0rERMz",
           q: "A bullet of mass 50 g is fired from below into the bob of mass 450 g of a long simple pendulum as shown in Figure. The bullet stays inside the bob and the bob rises through a vertical height 1.8 m. What was the speed of bullet when it striked the bob?",
           options: ["(1) 40 m/sec", "(2) 50 m/sec", "(3) 60 m/sec", "(4) 35 m/sec"],
           correct: 2, 
-          sol: "<b>Step 1: Conservation of Energy (Post-Collision)</b><br>After the perfectly inelastic collision, the combined mass (bullet + bob) swings upward, converting kinetic energy into potential energy.<br>\\( \\frac{1}{2}(m+M)v^2 = (m+M)gh \\implies v = \\sqrt{2gh} \\).<br>Velocity of system just after impact \\( v = \\sqrt{2 \\times 10 \\times 1.8} = \\sqrt{36} = 6 \\, \\text{m/s} \\).<br><br><b>Step 2: Conservation of Momentum (During Collision)</b><br>The momentum of the bullet before impact equals the momentum of the combined system immediately after impact.<br>Mass of bullet \\( m = 0.05 \\, \\text{kg} \\), Mass of bob \\( M = 0.45 \\, \\text{kg} \\).<br>\\( m \cdot u = (m + M) \cdot v \\).<br>\\( 0.05 \cdot u = (0.05 + 0.45) \cdot 6 \\).<br>\\( 0.05u = 0.50 \times 6 = 3 \\).<br>\\( u = \\frac{3}{0.05} = 60 \\, \\text{m/s} \\)."
+          sol: "<b>Step 1: Conservation of Energy (Post-Collision)</b><br>After the perfectly inelastic collision, the combined mass (bullet + bob) swings upward, converting kinetic energy into potential energy.<br>\\( \\frac{1}{2}(m+M)v^2 = (m+M)gh \\implies v = \\sqrt{2gh} \\).<br>Velocity of system just after impact \\( v = \\sqrt{2 \\times 10 \\times 1.8} = \\sqrt{36} = 6 \\, \\text{m/s} \\).<br><br><b>Step 2: Conservation of Momentum (During Collision)</b><br>The momentum of the bullet before impact equals the momentum of the combined system immediately after impact.<br>Mass of bullet \\( m = 0.05 \\, \\text{kg} \\), Mass of bob \\( M = 0.45 \\, \\text{kg} \\).<br>\\( m \\cdot u = (m + M) \\cdot v \\).<br>\\( 0.05 \\cdot u = (0.05 + 0.45) \\cdot 6 \\).<br>\\( 0.05u = 0.50 \\times 6 = 3 \\).<br>\\( u = \\frac{3}{0.05} = 60 \\, \\text{m/s} \\)."
         },
         {
           id: 44, topic: "Conservation of Momentum",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh7_QAEq-FkjBGVerr7UTFY6benHpXbpcZFh32pqBS5E7iiZfprYkoEF0cmlEdYGbaWJtYVx2OgretpaP_EPKNooYDyrtf775esWpPCVyOXWISNHvGDxLs1oHXrjUSd3SpZaPjNhw6a51hLoYBYu5bWhIYy1iDIk_vTD2ehnLv8cePGRuX8YuRc4hJaCkz1",
           q: "A trolley filled with sand moves on a smooth horizontal surface with a velocity \\( v_0 \\). A small hole is made at the base of it from which sand is leaking out at constant rate. As the sand leaks out then which of the following is incorrect?",
           options: ["(1) The velocity of the trolley increases", "(2) The velocity of the trolley remains constant", "(3) The momentum of the trolley is conserved", "(4) The momentum of the total system (trolley with sand + leaked out sand) is conserved in horizontal direction"],
           correct: 0, 
@@ -2916,7 +2907,7 @@
         },
         {
           id: 45, topic: "Elastic and Inelastic Collisions",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjDz-Z2AzaZrb06rO2QzSQuJs1UbOq21YpSO1QASyKvbH7LSlAvG-LC1hovSVi8iDcXL5Y7RyJ6lOhZd7DCYoUOTDMciPZKSJ4PH9c3ljfi5ai4nEPrBTogCZ5dLnlPNT7MqWtz-BeCqSU4C-hrSKlGal4eqhBzchqnOcqeDaAHyLeG1O7JFYT37fBjaMgf",
           q: "A ball of mass 1 kg strikes a heavy platform, elastically, moving upwards with a velocity of 5 m/s. The speed of the ball just before the collision is 10 m/s downwards. Then the impulse imparted by the platform on the ball is",
           options: ["(1) 15 N-s", "(2) 10 N-s", "(3) 20 N-s", "(4) 30 N-s"],
           correct: 3, 
@@ -2927,7 +2918,7 @@
           q: "A steel ball strikes a fixed smooth steel plate placed on a horizontal surface at an angle \\( \\theta \\) with the vertical. If the coefficient of restitution is e, the angle at which the rebound will take place is:",
           options: ["(1) \\( \\theta \\)", "(2) \\( \\tan^{-1}\\left[\\frac{\\tan\\theta}{e}\\right] \\)", "(3) \\( e \\tan\\theta \\)", "(4) \\( \\tan^{-1}\\left[\\frac{e}{\\tan\\theta}\\right] \\)"],
           correct: 1, 
-          sol: "<b>Step 1: Resolve the impact velocity</b><br>Let the impact speed be \\( u \\). The angle \\( \\theta \\) is with the vertical (normal to the surface).<br>Component parallel to surface (horizontal): \\( u_x = u \\sin\\theta \\).<br>Component perpendicular to surface (vertical): \\( u_y = u \\cos\\theta \\).<br><br><b>Step 2: Determine post-collision components</b><br>Because the plate is smooth, there is no horizontal force, so horizontal velocity is conserved: \\( v_x = u_x = u \\sin\\theta \\).<br>The vertical velocity is reduced by the coefficient of restitution: \\( v_y = e \cdot u_y = e \cdot u \\cos\\theta \\).<br><br><b>Step 3: Calculate the rebound angle</b><br>Let the rebound angle with the vertical be \\( \\theta' \\).<br>\\( \\tan\\theta' = \\frac{v_x}{v_y} = \\frac{u \\sin\\theta}{e \\cdot u \\cos\\theta} = \\frac{\\tan\\theta}{e} \\).<br>Therefore, \\( \\theta' = \\tan^{-1}\\left[\\frac{\\tan\\theta}{e}\\right] \\)."
+          sol: "<b>Step 1: Resolve the impact velocity</b><br>Let the impact speed be \\( u \\). The angle \\( \\theta \\) is with the vertical (normal to the surface).<br>Component parallel to surface (horizontal): \\( u_x = u \\sin\\theta \\).<br>Component perpendicular to surface (vertical): \\( u_y = u \\cos\\theta \\).<br><br><b>Step 2: Determine post-collision components</b><br>Because the plate is smooth, there is no horizontal force, so horizontal velocity is conserved: \\( v_x = u_x = u \\sin\\theta \\).<br>The vertical velocity is reduced by the coefficient of restitution: \\( v_y = e \\cdot u_y = e \\cdot u \\cos\\theta \\).<br><br><b>Step 3: Calculate the rebound angle</b><br>Let the rebound angle with the vertical be \\( \\theta' \\).<br>\\( \\tan\\theta' = \\frac{v_x}{v_y} = \\frac{u \\sin\\theta}{e \\cdot u \\cos\\theta} = \\frac{\\tan\\theta}{e} \\).<br>Therefore, \\( \\theta' = \\tan^{-1}\\left[\\frac{\\tan\\theta}{e}\\right] \\)."
         },
         {
           id: 47, topic: "Elastic and Inelastic Collisions",
@@ -9724,6 +9715,7 @@
       ]
     }
   };
+
 
 
 
