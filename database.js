@@ -2019,10 +2019,10 @@
         },
         {
           id: 26, topic: "Work Done by Forces",
-          q: "Energy spent by bowler in throwing one ball is :- [Contextual data omitted from original source document, placeholder for continuity]",
-          options: ["(1) 3500 J", "(2) 200 J", "(3) 4070 J", "(4) 3700 J"],
-          correct: 2, 
-          sol: "This question relies on numerical data provided in a paragraph passage that was omitted from the source document. However, based on the documented key, the correct contextual calculation results in 4070 J."
+          q: "A particle is moved from point A(1 m, 2 m) to point B(3 m, 4 m) under the action of a variable two-dimensional force \\( \\vec{F} = (2x\\hat{i} + 3y^2\\hat{j}) \\, \\text{N} \\). The total work done by the force on the particle is :-",
+          options: ["(1) 64 J", "(2) 56 J", "(3) 72 J", "(4) 48 J"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for work done by a variable force</b><br>The work done is given by the line integral of the force vector: \\( W = \\int \\vec{F} \\cdot d\\vec{r} \\).<br>Since the displacement vector is \\( d\\vec{r} = dx\\hat{i} + dy\\hat{j} \\), the dot product gives \\( W = \\int F_x dx + \\int F_y dy \\).<br><br><b>Step 2: Set up the definite integrals</b><br>The x-coordinates change from 1 to 3, and the y-coordinates change from 2 to 4.<br>\\( W = \\int_{1}^{3} 2x \\, dx + \\int_{2}^{4} 3y^2 \\, dy \\).<br><br><b>Step 3: Evaluate the integrals</b><br>Work done along x-axis: \\( W_x = [x^2]_{1}^{3} = (3^2 - 1^2) = 9 - 1 = 8 \\, \\text{J} \\).<br>Work done along y-axis: \\( W_y = [y^3]_{2}^{4} = (4^3 - 2^3) = 64 - 8 = 56 \\, \\text{J} \\).<br><br><b>Step 4: Calculate total work</b><br>Total Work \\( W = W_x + W_y = 8 + 56 = 64 \\, \\text{J} \\)."
         },
         {
           id: 27, topic: "Work Done by Forces",
@@ -9724,6 +9724,7 @@
       ]
     }
   };
+
 
 
 
