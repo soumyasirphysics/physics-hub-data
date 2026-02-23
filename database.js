@@ -1220,6 +1220,7 @@
         {
           id: 10, topic: "Laws of Motion",
           q: "A body of mass 4 kg is acted on by a force which varies as shown in the graph below. The momentum acquired is :- ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEit5xB2mN6PkENBCYEJhSnZ1ZmB_yXpdP-awsYm8ztCAM_-nnUzps8jgz57G1JuOF8r6sP80kUl6udRWI_RoOU6VDNFHGAshH5a7Pr7UNUCLS5bjBqsQy13BxYb6V5AaAdqLaAVo7coeYjqmse5k3P14LvhMV2stYXSDOMpIfE4Spq-WahKtpjGy8QyiOUw",
           options: ["(1) 280 N-s", "(2) 140 N-s", "(3) 70 N-s", "(4) 210 N-s"],
           correct: 2, 
           sol: "<b>Step 1: Relation between Force and Momentum</b><br>According to Newton's Second Law, the total change in momentum (Impulse) is simply the area under the Force-Time (F-t) curve.<br><br><b>Step 2: Calculate the area under the graph</b><br>The graph consists of a uniform rectangle from t=0 to t=5s and a descending triangle from t=5s to t=9s.<br>Area of rectangle = \\( \\text{base} \\times \\text{height} = 5 \\times 10 = 50 \\, \\text{N-s} \\).<br>Area of triangle = \\( \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times (9-5) \\times 10 = \\frac{1}{2} \\times 4 \\times 10 = 20 \\, \\text{N-s} \\).<br><br><b>Step 3: Total momentum</b><br>Total area = \\( 50 + 20 = 70 \\, \\text{N-s} \\). Therefore, the momentum acquired is 70 N-s."
@@ -1227,6 +1228,7 @@
         {
           id: 11, topic: "Laws of Motion",
           q: "The graph shows the velocities of two objects as function of time. Mass of object-1 is twice of that of object-2. Net forces \\( F_A \\), \\( F_B \\), and \\( F_C \\) are acting on the objects during intervals A, B, and C, respectively. Which one of the following choices is the correct relationship between the magnitudes of the net forces? ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgul75ms14MGF7g3UohMzm6un5nWztHaMPWE8wQrLTLfrhXHZZJ0tmH8OtWu6CLRX75qDcFTOyHR7Foc3dFoxHQRY-l-lih78C_LDF5Wrs35tP6cXVY8De4vRqqv8W8XL9Z2Po3V9tZXS_gS6LFaYX5ytg2YaUT8oKEDpZHxl-ZWE13YgkPonxD5oT6RXuu",
           options: ["(1) \\( F_B=F_C > F_A \\)", "(2) \\( F_C=F_B=F_A \\)", "(3) \\( F_A > F_B=F_C \\)", "(4) \\( F_A > F_B > F_C \\)"],
           correct: 2, 
           sol: "<b>Step 1: Analyze acceleration from slopes</b><br>The slope of a velocity-time graph represents acceleration.<br>In interval A, Object-1 has a positive slope, meaning it has a non-zero acceleration (\\( a_A > 0 \\)).<br>In interval B, Object-1's velocity is constant (horizontal line), so its acceleration is zero (\\( a_B = 0 \\)).<br>In interval C, Object-2's velocity is also constant (horizontal line), so its acceleration is zero (\\( a_C = 0 \\)).<br><br><b>Step 2: Relate acceleration to force</b><br>Using Newton's Second Law \\( F = ma \\):<br>\\( F_A = m_1 \\times a_A \\) (which is > 0).<br>\\( F_B = m_1 \\times 0 = 0 \\).<br>\\( F_C = m_2 \\times 0 = 0 \\).<br><br><b>Step 3: Compare magnitudes</b><br>Since \\( F_A > 0 \\) and \\( F_B = F_C = 0 \\), the correct mathematical relationship is \\( F_A > F_B = F_C \\)."
@@ -1240,7 +1242,8 @@
         },
         {
           id: 13, topic: "Laws of Motion",
-          q: "A particle is moving in free space with some velocity as shown. It is applied by force \\( \\vec{F}_1 \\), \\( \\vec{F}_2 \\) & \\( \\vec{F}_3 \\) of magnitudes 10 N, 10 N and 15 N respectively. [Image showing \\( \\vec{F}_1 \\) and \\( \\vec{F}_2 \\) acting at an angle of 120 degrees to each other, and \\( \\vec{F}_3 \\) acting in a different direction. A generic velocity vector \\( \\vec{v} \\) is also shown]",
+          q: "A particle is moving in free space with some velocity as shown. It is applied by force \\( \\vec{F}_1 \\), \\( \\vec{F}_2 \\) & \\( \\vec{F}_3 \\) of magnitudes 10 N, 10 N and 15 N respectively.",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhMU5Bxi8z1vANmkGzl6eYbNrZ0JRPRowtf4w8GiEHHKB0gwpU9yFRxVKvwOYmxDp1MQCwJEhLvhE9hnVqrKaGdWU4JiHyJE_Hggq8RP96dnuYJmYdVlAF8To_kmP6pQSAuMmtlDmA3_2QZxomGwWc-HCWfqIlj38ryVg8TWGGTieEP5Se5gLwUNRP5PNdr",
           options: ["(1) its velocity changes only in magnitude", "(2) its velocity changes only in direction", "(3) its velocity changes in both magnitude and direction", "(4) its velocity remains constant"],
           correct: 2, 
           sol: "<b>Step 1: Analyze the forces</b><br>The resultant of \\( \\vec{F}_1 \\) (10 N) and \\( \\vec{F}_2 \\) (10 N) at an angle of \\( 120^{\\circ} \\) is \\( R = \\sqrt{10^2 + 10^2 + 2(10)(10)\\cos(120^{\\circ})} = 10 \\, \\text{N} \\) bisecting the angle between them.<br>Force \\( \\vec{F}_3 \\) has a magnitude of 15 N.<br>Since the magnitude of \\( \\vec{F}_3 \\) (15 N) is strictly greater than the resultant of the other two forces (10 N), the net force on the moving particle is non-zero.<br><br><b>Step 2: Conclusion regarding velocity</b><br>Because a non-zero net force acts on the particle, it will experience an acceleration.<br>Since the arbitrary initial velocity is not perfectly aligned to maintain uniform circular motion or strict straight-line deceleration, the acceleration vector will inherently alter both the speed (magnitude) and the path (direction) of the particle's velocity."
@@ -1248,6 +1251,7 @@
         {
           id: 14, topic: "Laws of Motion",
           q: "A block is being pulled by a force F on a long frictionless level floor. Magnitude of the force is gradually increased from zero until the block lifts off the floor. Immediately after the block leaves the floor, its acceleration is",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgL_rCAl4xpQyzwZ3kWC7yjsK0FxEGog0v4EKx5ol9TAWFJhJD5Jk3DqnLZqqwaZNt0egD_L41C0yUeakPbqhfHnICqPTlZzLalOfl1z1P-yToUv24reYV4KyIXEG7nPkdyWp0I9Kodrdl9E3Rt3wSjdAsRnkHhcHW3ZOBexlAbstEc59sIhCJzabj9ANMu",
           options: ["(1) \\( g\\cos\\theta \\)", "(2) \\( g\\cot\\theta \\)", "(3) \\( g\\sin\\theta \\)", "(4) More information is required to decide."],
           correct: 1, 
           sol: "<b>Step 1: Condition for lifting off</b><br>Let the force F be applied at an angle \\( \\theta \\) with the horizontal.<br>The block begins to lift off precisely when the vertical component of the force overcomes gravity: \\( F\\sin\\theta = mg \\).<br>Therefore, the magnitude of the force at the moment of liftoff is \\( F = \\frac{mg}{\\sin\\theta} \\).<br><br><b>Step 2: Calculate acceleration</b><br>Immediately after leaving the floor, the only horizontal force acting on the block is the horizontal component of F, which is \\( F_x = F\\cos\\theta \\).<br>Substitute F: \\( F_x = \\left(\\frac{mg}{\\sin\\theta}\\right)\\cos\\theta = mg\\cot\\theta \\).<br>The horizontal acceleration is \\( a = \\frac{F_x}{m} = g\\cot\\theta \\)."
@@ -1275,7 +1279,8 @@
         },
         {
           id: 18, topic: "Laws of Motion",
-          q: "Two identical billiard balls strikes a rigid vertical wall with the same speed but at different angles and get reflected without any change in speed as shown in the figure (a) & (b). The ratio impulses imparted to the balls by the wall is :- [Image showing two scenarios. (a) Ball hits wall perpendicularly and bounces back. (b) Ball hits wall at an angle such that the incident and reflected paths are separated by 60 degrees, meaning the angle of incidence with the normal is 30 degrees]",
+          q: "Two identical billiard balls strikes a rigid vertical wall with the same speed but at different angles and get reflected without any change in speed as shown in the figure (a) & (b). The ratio impulses imparted to the balls by the wall is :-",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgwiIwEy3LjNv3QWFo__mUfKQT9I545qc1WxveAuFbfKqOQr3H41Yxc1OLdCGJpNSe4wBoEX1TjJaR957oUzHm953k3bo4ZnpOwmE8yaxpmGJBC7qfhyXSuNoutt8AX839PmG2L1Z34m8-L3XK5CxG-6-BrA1K2DaLLYQ5OVNBMCWavq0RxjKdb1wY1jq-z",
           options: ["(1) 1:2", "(2) \\( \\sqrt{3}:2 \\)", "(3) \\( 2:\\sqrt{3} \\)", "(4) 2:1"],
           correct: 2, 
           sol: "<b>Step 1: Impulse for normal collision (a)</b><br>Initial momentum \\( p_i = mu \\) (towards wall). Final momentum \\( p_f = -mu \\) (away from wall).<br>Impulse \\( J_1 = |\\Delta p| = |p_f - p_i| = |-mu - mu| = 2mu \\).<br><br><b>Step 2: Impulse for angled collision (b)</b><br>The diagram shows the angle between the incident path and reflected path is \\( 60^{\\circ} \\), so the angle with the normal is \\( \\theta = 30^{\\circ} \\).<br>The component of momentum parallel to the wall remains unchanged. The component perpendicular to the wall changes from \\( mu\\cos 30^{\\circ} \\) to \\( -mu\\cos 30^{\\circ} \\).<br>Impulse \\( J_2 = |\\Delta p_{\\perp}| = 2mu\\cos 30^{\\circ} = 2mu\\left(\\frac{\\sqrt{3}}{2}\\right) = \\sqrt{3}mu \\).<br><br><b>Step 3: Calculate the Ratio</b><br>Ratio \\( J_1 : J_2 = 2mu : \\sqrt{3}mu = 2 : \\sqrt{3} \\)."
@@ -1311,6 +1316,7 @@
         {
           id: 23, topic: "Laws of Motion",
           q: "In the figure shown, a balloon is pressed against a wall. It is in equilibrium and maximum compressed state.<br>\\( \\vec{F}_1 = \\text{force of balloon on hand of man} \\)<br>\\( \\vec{F}_2 = \\text{force of balloon on wall} \\)<br>\\( \\vec{F}_3 = \\text{friction force} \\)<br>\\( \\vec{F}_4 = \\text{weight of balloon} \\)<br>Choose the correct statement (s).<br>(A) \\( \\vec{F}_1 \\) and \\( \\vec{F}_2 \\) are action reaction pairs.<br>(B) \\( \\vec{F}_3 \\) and \\( \\vec{F}_4 \\) are action reaction pairs.<br>(C) \\( \\vec{F}_2 \\) and \\( \\vec{F}_3 \\) are action reaction pairs.<br>(D) \\( \\vec{F}_4 \\) and gravitational force exerted by balloon on earth are action reaction pairs.",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjzCOuDzX-A8rIU2NfDL7ibapQQlso_XtRxYXSt0swuZ1qdcMfFD135ExgZmyLWswV4Zpsuqy5Rkhhq2PuVadLEhrefY_BzeS5qTAPh7QmE8VCckkkW3Pkkyy6qaG4NGAdlGtpf-OAjgccYmitg8KmZeC8ilT10oIRfwMgf153eQIwx26OPca_WPdtSmABQ",
           options: ["(1) Only A & D", "(2) Only A, B & D", "(3) Only D", "(4) Only C & D"],
           correct: 2, 
           sol: "<b>Concept: Action-Reaction Pairs</b><br>According to Newton's Third Law, action and reaction forces must be of the same type (e.g., both gravitational or both contact) and must act on two *different* interacting objects (Object A acts on Object B, and Object B acts simultaneously on Object A).<br><br><b>Analysis:</b><br>- (A) \\( \\vec{F}_1 \\) (balloon on hand) and \\( \\vec{F}_2 \\) (balloon on wall). Both act by the balloon on different objects. They do not act on each other. Not a pair.<br>- (B) \\( \\vec{F}_3 \\) (friction from wall on balloon) and \\( \\vec{F}_4 \\) (gravity on balloon). They balance each other numerically, but both act on the balloon itself. Not a pair.<br>- (C) \\( \\vec{F}_2 \\) and \\( \\vec{F}_3 \\) act on different things, but are completely unrelated orthogonal forces. Not a pair.<br>- (D) \\( \\vec{F}_4 \\) is Earth's gravity pulling the balloon down. The reaction is the balloon's gravity pulling the Earth up. This perfectly satisfies the definition of a true action-reaction pair.<br>Thus, Only D is correct."
@@ -1346,6 +1352,7 @@
         {
           id: 28, topic: "Laws of Motion",
           q: "A girl pushes her physics book up against the horizontal ceiling of her room. The book weighs 20 N and she pushes upwards with a force of 25 N. The choices below list the magnitudes of the contact force \\( F_{CB} \\) between the ceiling and the book, and \\( F_{BH} \\) between the book and her hand. Select the correct pair.",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiAEZqHjG1BGJCtADYOmZrxjg8waF0r3UC_GGYmQqmvCfyHEqcieadvGtqrAy1-R5cRuJt4iIriH4-IunrNnxiQPjfqTjaK6JKtl8diHNRtDJ6zck-kUuLtqfHRs45Wgqi1WL4xczHFCMrNLPfyL3VJD_VFTG1mtn4x0mW6o8VaViVdydVmzpyOQspMIWCw",
           options: ["(1) \\( F_{CB}=20 \\, \\text{N} \\) and \\( F_{BH}=25 \\, \\text{N} \\)", "(2) \\( F_{CB}=25 \\, \\text{N} \\) and \\( F_{BH}=45 \\, \\text{N} \\)", "(3) \\( F_{CB}=5 \\, \\text{N} \\) and \\( F_{BH}=25 \\, \\text{N} \\)", "(4) \\( F_{CB}=5 \\, \\text{N} \\) and \\( F_{BH}=45 \\, \\text{N} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Force between book and hand</b><br>The push force exerted physically by the hand on the book is directly given as 25 N. Therefore, \\( F_{BH} = 25 \\, \\text{N} \\).<br><br><b>Step 2: Force between ceiling and book</b><br>The book is stationary against the ceiling, so the net force on it must be balanced to zero.<br>Upward forces: Push from hand = 25 N.<br>Downward forces: Weight of book = 20 N, Normal force from ceiling = \\( F_{CB} \\).<br>Balancing forces: \\( 25 = 20 + F_{CB} \\implies F_{CB} = 5 \\, \\text{N} \\)."
@@ -1353,6 +1360,7 @@
         {
           id: 29, topic: "Friction",
           q: "In a tug-of-war contest, two men pull on a horizontal rope from opposite sides. The winner will be the man who",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEglQ8aLOQHjr3iA-IgqaHK-dqotnamOYsHhdNwuLy9q_61e9xznkvpyPY5lzwnpMDq9Tw3TaGhwa6Z_WWK75Unn6KQKRenEYwxxywmWXnYaSE-IJJf1aPH0J8QcRJRDL2_l-95VvGp6RxztRXmPER7JGI_zv5qYriWvTUEtR5mVoXj95_ghAWjt9r8EfRHw",
           options: ["(1) exerts greater force on the rope", "(2) exerts greater force on the ground", "(3) exerts a force on the rope which is greater than the tension in the rope", "(4) makes a smaller angle with the vertical"],
           correct: 1, 
           sol: "Assuming the rope is massless, the tension is uniform throughout, meaning both men pull on the rope with the exact same magnitude of force (Newton's Third Law guarantees they feel identical rope tension).<br>The contest is actually won by the external forces acting on the entire system. The man who exerts a greater backward force on the ground receives a greater forward frictional reaction force from the ground. This net external force causes the whole system to accelerate in his direction."
@@ -1367,13 +1375,15 @@
     {
           id: 31, topic: "Laws of Motion",
           q: "A person pulls a block by applying a force F and the block remains at rest. The arrows in the diagram correctly show the directions, but not necessarily the magnitudes, of the various forces on the block. Which of the following relations among the force magnitudes F, W, N, and f must be true? Here f is friction and W is the weight (the force of gravity), and N is the normal reaction. ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhy2VV3K9_zgDYKs96KEK2jbXhwTs1bYeR2srYMsG1FQdB-AOlNIS7Amcroy8NTyn96tcV_Zk-XjNVcaj_cDJ4ILfVtvYHDIfMA8_rxi-tkSZzKgHjImBkXip6083sXjNMz6b5qLCmPvqCdBqqiW0fLSCAtty8LG5Cg5c6P5uMKgITN1T1nbVHDT-0CIf5h",
           options: ["(1) F=f and N=W", "(2) F=f and N>W", "(3) F>f and N<W", "(4) F>f and N=W"],
           correct: 2, 
           sol: "<b>Step 1: Resolve the applied force F</b><br>The force F is applied at an upward angle. Let this angle be \\( \\theta \\).<br>Horizontal component: \\( F_x = F \\cos\\theta \\).<br>Vertical component: \\( F_y = F \\sin\\theta \\).<br><br><b>Step 2: Apply equilibrium conditions</b><br>Since the block is at rest, net forces in both axes must be zero.<br>Horizontal: \\( F_x = f \\implies F \\cos\\theta = f \\). Since \\( \\cos\\theta < 1 \\), the total magnitude \\( F \\) must be strictly greater than \\( f \\) (\\( F > f \\)).<br>Vertical: \\( N + F_y = W \\implies N + F \\sin\\theta = W \\). This means \\( N = W - F \\sin\\theta \\), so the normal force is strictly less than the weight (\\( N < W \\)).<br><br><b>Step 3: Conclusion</b><br>The correct relation is \\( F > f \\) and \\( N < W \\)."
         },
         {
           id: 32, topic: "Laws of Motion",
-          q: "Consider the following statement about the blocks shown in the diagram that are being pushed by a constant force on a frictionless table. [Image: A horizontal force F pushes three blocks of masses 3kg, 2kg, and 1kg kept in contact in a straight line.]<br>(i) All blocks move with the same acceleration.<br>(ii) The net force on each block is the same.<br>Which of these statement are/is correct",
+          q: "Consider the following statement about the blocks shown in the diagram that are being pushed by a constant force on a frictionless table. <br>(i) All blocks move with the same acceleration.<br>(ii) The net force on each block is the same.<br>Which of these statement are/is correct",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhAQ6hU_0uAHsOijZGvvZBaZ6qyM_QX1yL9NeVQ3vw8RJSqPWtEV3ySCJZD5mgoReBLGg778U-Gc2NwdIuGVUSTdB6mVegV2mRcTZFZ6HGPeA3jgzNJXpljxijeSf_MnTLdiTPmvlVcdKHAYaAlwvRkKP5aoagDXJuNvL_fa5k96zn629rAO8O4ne64Ejsv",
           options: ["(1) (i) only", "(2) (ii) only", "(3) both (i) and (ii)", "(4) neither (i) nor (ii)"],
           correct: 0, 
           sol: "<b>Step 1: Analyze acceleration</b><br>Since the blocks are pushed together and remain in contact on a frictionless surface, they move as a single combined system. Therefore, they all share the exact same acceleration. Statement (i) is correct.<br><br><b>Step 2: Analyze net force</b><br>According to Newton's Second Law, the net force on any individual block is \\( F_{net} = m \\times a \\).<br>Because they have different masses (3kg, 2kg, 1kg) but the same acceleration, the net force acting on each block must be different. Statement (ii) is incorrect.<br><br>Thus, only statement (i) is correct."
@@ -1381,13 +1391,15 @@
         {
           id: 33, topic: "Laws of Motion",
           q: "Consider three blocks A, B and C. Block A is placed on block B, which is placed on block C and block C is placed on the ground. Normal reaction between blocks B and C is three times of that between blocks A and B. Normal reaction between block C and ground is two times of that of between blocks B and C. Possible values of the masses of blocks A, B and C respectively are",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhswElpxWpG1wL2K5yJjyb7jCjunbzkHSZ_i0phzaktBqPbcyBR_NURdD7me4YpQVpyIN00AvIdV8gJ6myqM6gJZoJqOw9i3uy_mYQ_NKf7Y6eN3wyN8Xuo9CnRhyIJd1HSXWcZVTRt0UoYQcew2QYUvvAsXt6igBi-KkoTDeLi4N45RbEhLJ5raNhMuOr_",
           options: ["(1) 5kg, 15 kg and 10 kg", "(2) 5 kg, 10 kg and 15 kg", "(3) 5 kg, 15 kg and 30 kg", "(4) 5 kg, 30 kg and 60 kg"],
           correct: 1, 
           sol: "<b>Step 1: Express normal reactions in terms of masses</b><br>Let the masses be \\( m_A \\), \\( m_B \\), and \\( m_C \\).<br>Normal reaction between A and B: \\( N_{AB} = m_A g \\).<br>Normal reaction between B and C: \\( N_{BC} = (m_A + m_B) g \\).<br>Normal reaction between C and ground: \\( N_{C} = (m_A + m_B + m_C) g \\).<br><br><b>Step 2: Apply given conditions</b><br>Condition 1: \\( N_{BC} = 3 N_{AB} \\implies (m_A + m_B)g = 3(m_A)g \\implies m_A + m_B = 3m_A \\implies m_B = 2m_A \\).<br>Condition 2: \\( N_C = 2 N_{BC} \\implies (m_A + m_B + m_C)g = 2(m_A + m_B)g \\).<br>Substituting \\( m_B = 2m_A \\): \\( (m_A + 2m_A + m_C) = 2(m_A + 2m_A) \\implies 3m_A + m_C = 6m_A \\implies m_C = 3m_A \\).<br><br><b>Step 3: Find the ratio</b><br>The ratio of their masses \\( m_A : m_B : m_C \\) is \\( 1 : 2 : 3 \\).<br>Looking at the options, 5 kg, 10 kg, and 15 kg perfectly matches this 1:2:3 ratio."
         },
         {
           id: 34, topic: "Laws of Motion",
-          q: "Three blocks shown in figure are connected by two heavy uniform ropes. An upward force of 600 N is applied as shown in figure. What is the acceleration of the system? [Image: A vertical arrangement pulled upwards by F=600N. Top block is 10kg, connected by a 0.9kg rope to a 12kg block, which is connected by a 1.1kg rope to a bottom 16kg block. g=10m/s²]",
+          q: "Three blocks shown in figure are connected by two heavy uniform ropes. An upward force of 600 N is applied as shown in figure. What is the acceleration of the system?",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEimdbjT03nfjWTdAqdLr4pYAcwqlwitkrqEeDBU4ZNQa8zbcV_eVvY7pyEpflWId5eVwEV858nMqivTJosJA_269ub_ZqRZv0JCh6u86_loNWiMEpIpR7ZyLFzq1Se1si_q9CXLGhMqcjhil76-A-ugOawAWg8RnKbq8A46-Kmyww6A7JIQWh9-b1FcBy1S",
           options: ["(1) \\( 15 \\, \\text{m/s}^2 \\)", "(2) \\( 5 \\, \\text{m/s}^2 \\)", "(3) \\( 10 \\, \\text{m/s}^2 \\)", "(4) None of these"],
           correct: 1, 
           sol: "<b>Step 1: Calculate total mass of the system</b><br>The entire assembly moves together as one unit. We must sum all the masses, including the heavy ropes.<br>Total mass \\( M = 10 \\, \\text{kg (top block)} + 0.9 \\, \\text{kg (rope 1)} + 12 \\, \\text{kg (mid block)} + 1.1 \\, \\text{kg (rope 2)} + 16 \\, \\text{kg (bottom block)} = 40 \\, \\text{kg} \\).<br><br><b>Step 2: Apply Newton's Second Law</b><br>The net upward force \\( F_{net} = F_{applied} - M_{total} g \\).<br>\\( F_{net} = 600 \\, \\text{N} - (40 \\times 10) \\, \\text{N} = 600 - 400 = 200 \\, \\text{N} \\).<br><br><b>Step 3: Calculate acceleration</b><br>Acceleration \\( a = \\frac{F_{net}}{M_{total}} = \\frac{200}{40} = 5 \\, \\text{m/s}^2 \\)."
@@ -1402,6 +1414,7 @@
         {
           id: 36, topic: "Laws of Motion",
           q: "A uniform rope of mass 1.0 kg is connected with a box of mass 2.0 kg, which is placed on a smooth horizontal surface. The free end of the rope is pulled horizontally by a force 6 N. Find the tension at the midpoint of the rope.",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjBI0AbwaGbAKqWL2wnboW4bCQv9dOpW9_T03E2euKUBAvfNNFaK3qMdA6j1Y9fHB7LDlHje-IT63FFVR2zYX3jNOy-dJCfnXi9mGgIWuqQkkalkx0rPsrwjYiijAuDjjUzwf3etGYMv8-XGB3V9lW_0QU0fZ29cwd2rIUWwVpui-b_SeWT-RfSFKKnCeg3",
           options: ["(1) 4 N", "(2) 1 N", "(3) 5 N", "(4) 2 N"],
           correct: 2, 
           sol: "<b>Step 1: Find system acceleration</b><br>Total mass of the system \\( M_{total} = m_{rope} + m_{box} = 1.0 + 2.0 = 3.0 \\, \\text{kg} \\).<br>Driving force \\( F = 6 \\, \\text{N} \\).<br>System acceleration \\( a = \\frac{F}{M_{total}} = \\frac{6}{3} = 2 \\, \\text{m/s}^2 \\).<br><br><b>Step 2: Define the system behind the midpoint</b><br>We want the tension at the midpoint of the rope. The portion of the system being dragged *behind* this midpoint consists of half the rope and the entire box.<br>Mass to be pulled \\( M_{pulled} = 2.0 \\, \\text{kg (box)} + 0.5 \\, \\text{kg (half rope)} = 2.5 \\, \\text{kg} \\).<br><br><b>Step 3: Calculate tension</b><br>Tension at midpoint \\( T = M_{pulled} \\times a = 2.5 \\times 2 = 5 \\, \\text{N} \\)."
@@ -1409,6 +1422,7 @@
         {
           id: 37, topic: "Laws of Motion",
           q: "Velocity of a lift moving upwards varies with time as shown in figure. If a mass of 60 kg is placed on a weighing machine in the lift, then Reading of weighing machine at t=3 s and at t=15 s are ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhV4Z9gmXlM8NXLcsOQrUYsBklsBUoKKbN_1Mef70ggw8G7LkXUogdpbzgLxIS7aDk25HBmiuRbwwAHvz5wSvi_sK_wA706_x0T4m6woxoWPHzRciHgSiGDHdYg4ECrDv631K32zkbEJbmmbuX7nFqY0muwQ_LiVpHUSqAdBPAptbWydRkmFS1fAIP6P0Wg",
           options: ["(1) 60 kg-wt and 54 kg-wt", "(2) 72 kg-wt and 54 kg-wt", "(3) 48 kg-wt and 48 kg-wt", "(4) 75 kg-wt and 48 kg-wt"],
           correct: 1, 
           sol: "<b>Step 1: Calculate acceleration at t = 3s</b><br>At t = 3s, the lift is in the first phase (0 to 5s).<br>Acceleration \\( a_1 = \\text{slope} = \\frac{10 - 0}{5 - 0} = +2 \\, \\text{m/s}^2 \\) (upwards).<br>Apparent weight \\( N_1 = m(g + a_1) = 60(10 + 2) = 720 \\, \\text{N} = 72 \\, \\text{kg-wt} \\).<br><br><b>Step 2: Calculate acceleration at t = 15s</b><br>At t = 15s, the lift is in the decelerating phase (10s to 20s).<br>Acceleration \\( a_2 = \\text{slope} = \\frac{0 - 10}{20 - 10} = -1 \\, \\text{m/s}^2 \\) (downwards).<br>Apparent weight \\( N_2 = m(g + a_2) = 60(10 - 1) = 540 \\, \\text{N} = 54 \\, \\text{kg-wt} \\).<br><br>The readings are 72 kg-wt and 54 kg-wt respectively."
@@ -1422,14 +1436,16 @@
         },
         {
           id: 39, topic: "Laws of Motion",
-          q: "Consider the shown arrangement where the blocks A and B connected by means of a uniform string is being moved vertically up by the force F. Each block weighs 2 kg while the mass of string is 1000 gm. The tension at bottom of the string equals [Image: An upward force F=100N pulls a system vertically. The system consists of Block A on top, connected by a string to Block B on the bottom.]",
+          q: "Consider the shown arrangement where the blocks A and B connected by means of a uniform string is being moved vertically up by the force F. Each block weighs 2 kg while the mass of string is 1000 gm. The tension at bottom of the string equals",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj6aXQKW33DcDbeuC0AXkwVKlRIJugefhIP7FQIpOhwL1YHmIAAYqQISeZ2WXdUBu-Fyi5ipbmc_0FXgq9AmfC3drgdoSqP3KbPzXDyhf4xhqUXY6c25FZmv2Bp3ea750YhrPs8B2MMUGNmBE9DpDPw-arWUsi43nE3-q2O9FXHK2-TbSt-2M8Wc26MzxWF",
           options: ["(1) 20 N", "(2) 40 N", "(3) 60 N", "(4) 270 N"],
           correct: 1, 
           sol: "<b>Step 1: Calculate system acceleration</b><br>Total mass \\( M = m_A + m_{string} + m_B = 2 + 1 + 2 = 5 \\, \\text{kg} \\).<br>Net upward force \\( F_{net} = F - Mg = 100 - (5 \\times 10) = 50 \\, \\text{N} \\).<br>Acceleration \\( a = \\frac{F_{net}}{M} = \\frac{50}{5} = 10 \\, \\text{m/s}^2 \\).<br><br><b>Step 2: Calculate tension at the bottom of the string</b><br>The point at the very bottom of the string only has to lift Block B.<br>Let tension here be \\( T \\). Applying Newton's second law to Block B:<br>\\( T - m_B g = m_B a \\implies T = m_B(g + a) \\).<br>\\( T = 2(10 + 10) = 2(20) = 40 \\, \\text{N} \\)."
         },
         {
           id: 40, topic: "Friction",
-          q: "If block is sliding down on a rough fixed inclined plane with constant velocity as shown in the figure then net force acting on the wedge due to block is:- [Image: A block of mass m sliding down a fixed rough wedge of angle theta.]",
+          q: "If block is sliding down on a rough fixed inclined plane with constant velocity as shown in the figure then net force acting on the wedge due to block is:-",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj-BpHDY539riNM7A_6nb3BmqyzzbZ9rysVc7FJPY8euUsv3sKVnSv5Vfng-l_Q-VNhHKTtKw_xSL7JVStQSr6OspKaI7nE69un7k7AtLslUJACCI1r_lyBb2f1PaD5agNdllJQ8LLZ57sGzYO68UCkO0DzGPqrscAQ2-jBJI-Uq2Do9gK13hrPlCeyBXQy",
           options: ["(1) \\( \\frac{mg}{\\cos\\theta} \\)", "(2) mg", "(3) \\( mg\\cos\\theta \\)", "(4) None of these"],
           correct: 1, 
           sol: "<b>Step 1: Analyze forces on the block</b><br>Since the block is sliding down with a constant velocity, its acceleration is zero. Therefore, the net force acting on the block must be exactly zero.<br>The forces acting on the block are its downward weight (\\( mg \\)) and the total contact force exerted by the wedge (which is the vector sum of Normal reaction and Friction).<br><br><b>Step 2: Relate contact force to weight</b><br>For the net force to be zero, the total contact force from the wedge must exactly balance the block's weight. So, Contact Force = \\( mg \\) (directed vertically upwards).<br><br><b>Step 3: Apply Newton's Third Law</b><br>If the wedge exerts an upward force of \\( mg \\) on the block, the block must exert an equal and opposite downward force of \\( mg \\) on the wedge. Thus, the net force acting on the wedge due to the block is simply \\( mg \\)."
@@ -1443,7 +1459,8 @@
         },
         {
           id: 42, topic: "Laws of Motion",
-          q: "A chain consisting of 5 links of mass 0.1 kg each is lifted vertically upwards with a constant acceleration \\( 5 \\, \\text{m/s}^2 \\) as shown in figure. The force of interaction between the top link and the link immediately below it will be: \\( (g=10 \\, \\text{m/s}^2) \\) [Image: A chain of 5 interconnected links being pulled vertically upwards by a force F.]",
+          q: "A chain consisting of 5 links of mass 0.1 kg each is lifted vertically upwards with a constant acceleration \\( 5 \\, \\text{m/s}^2 \\) as shown in figure. The force of interaction between the top link and the link immediately below it will be: \\( (g=10 \\, \\text{m/s}^2) \\) ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh7LlzCGQAwkc9oPjjhaL7y3dDGkR3y8Z-GQ858WwUJq5-U_R1JSIfXvTIfD_G_2TgjsrXXyXf06cv2fg6BUOGjO6v_rM7ExyRIg9RMduJFVGXLRiO2PZ7OT9VWwIIph9AFr8ARiNFq7Ca3tp8eTtfGCqZt75Yd6KRGrROGnB-cWYlHCEpmrk_J9QsYcgnY",
           options: ["(1) 6 N", "(2) 4 N", "(3) 3 N", "(4) 2 N"],
           correct: 0, 
           sol: "<b>Step 1: Identify the system to be pulled</b><br>The force of interaction between the top link (Link 1) and the link immediately below it (Link 2) must be enough to pull all the links below that point (Links 2, 3, 4, and 5) upwards with the given acceleration.<br><br><b>Step 2: Calculate mass to be lifted</b><br>There are 4 links below the top one. Total mass \\( m = 4 \\times 0.1 \\, \\text{kg} = 0.4 \\, \\text{kg} \\).<br><br><b>Step 3: Apply Newton's Second Law</b><br>Let the interaction force be \\( T \\).<br>\\( T - mg = ma \\implies T = m(g + a) \\).<br>\\( T = 0.4(10 + 5) = 0.4 \\times 15 = 6 \\, \\text{N} \\)."
@@ -1451,27 +1468,31 @@
         {
           id: 43, topic: "Friction",
           q: "A block A of mass m is kept at rest against a rough vertical wall by applying a horizontal force F. Minimum value of F to keep the block in equilibrium is \\( F_m \\) then find the acceleration of block when \\( F=\\frac{F_m}{5} \\)",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjVm8FWzFkaiMphZBxkzuKbqT9IsqteaoXVXbfSj2hMCqwvjxfdBcqhcBu7xRYXXEJWrLAQt4NuO-RptXOl5j0WhfbDohwVfrmFLQ8XDAfEZjJqSEro5XF4BdnJ_-AnXpTZE8sX2e8T2bwQHe9NsggAEcfsNHAHljNyZvsIyJYuKUioWpRCeRFJ1LHqdTf_",
           options: ["(1) \\( 4 \\, \\text{m/s}^2 \\)", "(2) \\( 8 \\, \\text{m/s}^2 \\)", "(3) \\( 10 \\, \\text{m/s}^2 \\)", "(4) \\( 1 \\, \\text{m/s}^2 \\)"],
           correct: 1, 
           sol: "<b>Step 1: Establish relationship at minimum force</b><br>To prevent sliding, maximum static friction must equal weight: \\( f_s = \mu N = mg \\).<br>Since Normal force \\( N = F_m \\), we get \\( \mu F_m = mg \\implies F_m = \frac{mg}{\mu} \\).<br><br><b>Step 2: Analyze the new state</b><br>When applied force is \\( F = \frac{F_m}{5} \\), the new normal force is \\( N' = \frac{F_m}{5} \\).<br>The maximum available kinetic friction is \\( f_k = \mu N' = \mu \left(\frac{F_m}{5}\right) \\).<br>Substitute \\( F_m = \frac{mg}{\mu} \\): \\( f_k = \mu \left(\frac{mg}{5\mu}\right) = \frac{mg}{5} \\).<br><br><b>Step 3: Calculate acceleration</b><br>The net downward force is \\( F_{net} = mg - f_k = mg - \frac{mg}{5} = \frac{4mg}{5} \\).<br>Acceleration \\( a = \frac{F_{net}}{m} = \frac{4g}{5} = \frac{4(10)}{5} = 8 \\, \text{m/s}^2 \\)."
         },
         {
           id: 44, topic: "Laws of Motion",
-          q: "Force F=100 N is applied on a combination of mass M and m in two situations as shown in figure (i) & (ii). If contact force between M & m in two cases is \\( N_1 \\) & \\( N_2 \\) respectively then calculate \\( \\frac{N_2}{N_1} \\). (Given: M=10 kg, m=2kg). Friction is absent everywhere. [Image: (i) Force F pushes M, which pushes m. (ii) Force F pushes m, which pushes M.]",
+          q: "Force F=100 N is applied on a combination of mass M and m in two situations as shown in figure (i) & (ii). If contact force between M & m in two cases is \\( N_1 \\) & \\( N_2 \\) respectively then calculate \\( \\frac{N_2}{N_1} \\). (Given: M=10 kg, m=2kg). Friction is absent everywhere. ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhlwiA90tiZXEEoeZd202Yj_2lW6lMpGnR9QnYmsy08wHXeaurfEvBYhl5QiPcoMU2yLC2ktajaeMchzPrVhnJFSsTC7uyoSa5Z2Ect-McbryLHhMIwqRnoht3PAkztN1idYU2mOLxFwcX8Y7_M3XMafG1MS-p26bYw4gMoCYK08g0E2fs5wFoAXbX6yQP3",
           options: ["(1) 2", "(2) 5", "(3) 4", "(4) 6"],
           correct: 1, 
           sol: "<b>Step 1: Calculate system acceleration</b><br>In both cases, the entire system accelerates together: \\( a = \frac{F}{M+m} = \frac{100}{10+2} = \frac{100}{12} \\, \text{m/s}^2 \\).<br><br><b>Step 2: Calculate \\( N_1 \\) (Case i)</b><br>F pushes M. The contact force \\( N_1 \\) pushes m forward.<br>\\( N_1 = m \times a = 2 \times \frac{100}{12} = \frac{200}{12} \\, \text{N} \\).<br><br><b>Step 3: Calculate \\( N_2 \\) (Case ii)</b><br>F pushes m. The contact force \\( N_2 \\) pushes M forward.<br>\\( N_2 = M \times a = 10 \times \frac{100}{12} = \frac{1000}{12} \\, \text{N} \\).<br><br><b>Step 4: Find the ratio</b><br>\\( \frac{N_2}{N_1} = \frac{1000/12}{200/12} = \frac{1000}{200} = 5 \\)."
         },
         {
           id: 45, topic: "Friction",
-          q: "A block is placed on horizontal floor. Block is in equilibrium under the action of three forces \\( F_1=10\\text{N} \\), \\( F_2=2\\text{N} \\) and friction force. If \\( F_2 \\) is removed then net force on block will be :- [Image: Block on a floor pulled by F1=10N to the right and F2=2N to the left.]",
+          q: "A block is placed on horizontal floor. Block is in equilibrium under the action of three forces \\( F_1=10\\text{N} \\), \\( F_2=2\\text{N} \\) and friction force. If \\( F_2 \\) is removed then net force on block will be :-",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhtRELUSmLmH2xHgAbCXb2ljmPEs9M4zHohrRY3TKUNv-Wm-MdMayXDow5UDukOCotxlZoNyrVfhTJlfKblrKzi-6grIXN82iyWKCn7his11IDHlo9OIZO2QjfOfkFsFDQb6ZPdqal4u8czI9yryD01Z4tB7CLf80k9mTePcSoroiNCVtDhNJrL1uzRMbHO",
           options: ["(1) 2N left", "(2) 2N right", "(3) 0 N", "(4) Cannot be determined"],
           correct: 3, 
           sol: "<b>Step 1: Analyze initial equilibrium</b><br>Net external force without friction is \\( 10\\text{N (right)} - 2\\text{N (left)} = 8\\text{N (right)} \\).<br>Since it is in equilibrium, static friction must perfectly balance this, providing 8N to the left. This implies maximum static friction \\( f_{s,max} \ge 8\\text{N} \\).<br><br><b>Step 2: Analyze state after removing \\( F_2 \\)</b><br>The only external force is now \\( 10\\text{N (right)} \\).<br>Will it move? We don't know because we don't know the upper limit of friction (\\( f_{s,max} \\)).<br>If \\( f_{s,max} \\) is exactly 8N, the block will slide and experience a net force \\( > 0 \\). If \\( f_{s,max} \ge 10\\text{N} \\), static friction will simply increase to 10N, keeping the block at rest (net force = 0).<br>Because the exact coefficients of friction are missing, the final state cannot be determined."
         },
         {
           id: 46, topic: "Laws of Motion",
-          q: "A body initially at rest, starts moving along x-axis in such a way so that its acceleration vs displacement plot is as shown in figure. The maximum velocity of particle is :- [Image: An a-x graph showing a triangle starting at origin (0,0), peaking at a=1 m/s² when x=0.5m, and returning to a=0 at x=1m.]",
+          q: "A body initially at rest, starts moving along x-axis in such a way so that its acceleration vs displacement plot is as shown in figure. The maximum velocity of particle is :- ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjBv-hZaUVgYpWZwIMVaUDn-qmZmAwFyfMZLDHsQgui64-YuSBmUHTCAYkenONe2Vbsnrrj5TKhMTOscivxYQ0W_NwPxuHB62OJzV-PCsozB56aNSanrmtMciijoPOcXWwQyqVzM5Ujo5xf3gEppufuCEsJrXIaIl1mMEgwgBFHtmi5kj23E2ewCwzPZUg8",
           options: ["(1) \\( 1 \\, \\text{m/s} \\)", "(2) \\( 6 \\, \\text{m/s} \\)", "(3) \\( 2 \\, \\text{m/s} \\)", "(4) none"],
           correct: 0, 
           sol: "<b>Step 1: Use kinematic relations</b><br>We know that \\( a = v\frac{dv}{dx} \implies \int a \, dx = \int v \, dv \\).<br>This means the Area under the a-x graph is equal to the change in kinetic energy per unit mass: \\( \frac{v_f^2}{2} - \frac{v_i^2}{2} \\).<br><br><b>Step 2: Calculate Area</b><br>The shape is a triangle with base = 1 m and height = 1 m/s².<br>Area = \\( \frac{1}{2} \times \text{base} \times \text{height} = \frac{1}{2} \times 1 \times 1 = 0.5 \\, \text{m}^2/\text{s}^2 \\).<br><br><b>Step 3: Solve for maximum velocity</b><br>Since it starts from rest (\\( v_i = 0 \\)), maximum velocity is reached when acceleration drops to zero at the end of the positive area.<br>\\( \frac{v_{max}^2}{2} = 0.5 \implies v_{max}^2 = 1 \implies v_{max} = 1 \\, \text{m/s} \\)."
@@ -1485,56 +1506,64 @@
         },
         {
           id: 48, topic: "Laws of Motion",
-          q: "A uniform rod of mass M and length L lies flat on a frictionless horizontal surface. Two forces F and 2F are applied along the length of the rod as shown. The tension in the rod at point P is [Image: A rod of length L. Force F pulls left. Force 2F pulls right. Point P is marked at a distance L/4 from the left end.]",
+          q: "A uniform rod of mass M and length L lies flat on a frictionless horizontal surface. Two forces F and 2F are applied along the length of the rod as shown. The tension in the rod at point P is ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhHU8_Lz8Rm7TxxyIwXXU304SJrMD2mr3IGY6fIr4QjR6kyS98ZqDD_Ef9HxsyhsrYZTwUsPdXUVqfDIO1apppyMEeWj3HpNAyR48pHCYDnanGLcq4EuRBgBNl9VSDHsh7HoVRNLyBm4_KfGbmrhp2GGERsQXNHlUrAbtF-gziG5ByiInHj2GshAGsQgXNs",
           options: ["(1) F", "(2) 3F", "(3) \\( \\frac{5F}{4} \\)", "(4) \\( \\frac{7F}{4} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Calculate system acceleration</b><br>Net force on the rod \\( F_{net} = 2F (\text{right}) - F (\text{left}) = F \\) to the right.<br>Acceleration \\( a = \frac{F_{net}}{M} = \frac{F}{M} \\) (rightwards).<br><br><b>Step 2: Isolate a segment of the rod</b><br>Consider the segment of the rod from the left end to point P. Its length is \\( L/4 \\), so its mass is \\( m = M/4 \\).<br>The forces acting on this segment are the applied force F (pulling left) and the internal tension T at point P (pulling right).<br><br><b>Step 3: Apply Newton's Second Law to the segment</b><br>\\( T - F = m \times a \\).<br>Substitute \\( m = M/4 \\) and \\( a = F/M \\):<br>\\( T - F = \left(\frac{M}{4}\right)\left(\frac{F}{M}\right) = \frac{F}{4} \\).<br>\\( T = F + \frac{F}{4} = \frac{5F}{4} \\)."
         },
         {
           id: 49, topic: "Laws of Motion",
-          q: "In the given figure, system is in equilibrium. If \\( W_1=300 \\, \\text{N} \\), then \\( W_2 \\) is approximately equal to:- [Image: A knot connects 3 strings. One string goes straight down to W1. One string goes horizontally left to a wall. One string goes up and right at 37 degrees to the horizontal, passes over a pulley, and hangs W2 vertically.]",
+          q: "In the given figure, system is in equilibrium. If \\( W_1=300 \\, \\text{N} \\), then \\( W_2 \\) is approximately equal to:- ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhrdzOhYsZBlTVBst2Hbya0Gx6kv2QZb0zKvgPiy8ft831YXsrN1ti5CGzaLwt37aPQu4bXKNUpEqPMQK6hCTznK44q3TlkHvOPjfmJPONws1IXeH5PmV1tm9SIf9bLqQQ_vQhJ3sJxb9RX8kuhLJNABKDtg9bboytgm5ug65Yn2qaQTNyxtTIC_rsRHvLN",
           options: ["(1) 500 N", "(2) 400 N", "(3) 670 N", "(4) 300 N"],
           correct: 0, 
           sol: "<b>Step 1: Analyze forces at the knot</b><br>The knot is in equilibrium. The vertical forces must balance.<br>Downward force is the weight \\( W_1 = 300 \\, \text{N} \\).<br>Upward force is the vertical component of the tension in the angled string.<br>Let this tension be \\( T \\). Since the string passes over an ideal pulley to hang \\( W_2 \\), \\( T = W_2 \\).<br><br><b>Step 2: Setup vertical equilibrium equation</b><br>The angle of the string is 37° to the horizontal. So its upward component is \\( T \sin(37^{\circ}) \\).<br>\\( T \sin(37^{\circ}) = W_1 \\).<br><br><b>Step 3: Solve for \\( W_2 \\)</b><br>We know \\( \sin(37^{\circ}) = 3/5 \\).<br>\\( W_2 \times \frac{3}{5} = 300 \implies W_2 = 300 \times \frac{5}{3} = 500 \\, \text{N} \\)."
         },
         {
           id: 50, topic: "Laws of Motion",
-          q: "In shown system, each of the block is at rest. The value of \\( \\theta \\) is [Image: A central knot connects three strings. String 1 goes up and left at angle \\( \\theta \\) to a vertical wall. String 2 goes straight down holding a 3kg mass. String 3 goes horizontally right, passes over a pulley, and holds a 4kg hanging mass.]",
+          q: "In shown system, each of the block is at rest. The value of \\( \\theta \\) is",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEghe5Niv_xeu8u_sxvzdEyHaArqL9W-gKjpc6RdHW_pRFZztdrOwsqFQt34v60VrKlM6eVzMGUUXaM1_epFt6LY0UQpShzIbeYklXC5qx6Xn821fyVfeMgaShjUNectcOWUjmT8G4CD_5kMdf9V0gGzl82StLAvR6uFZG-gNg82jpPdhrwcJYXQrghRcbpV",
           options: ["(1) \\( \\tan^{-1}(1) \\)", "(2) \\( \\tan^{-1}(\\frac{3}{4}) \\)", "(3) \\( \\tan^{-1}(\\frac{4}{3}) \\)", "(4) \\( \\tan^{-1}(\\frac{3}{5}) \\)"],
           correct: 2, 
           sol: "<b>Step 1: Identify forces at the central knot</b><br>The knot is in equilibrium under three tensions.<br>Tension downwards: \\( T_y = 3g = 30 \\, \text{N} \\).<br>Tension to the right: \\( T_x = 4g = 40 \\, \text{N} \\).<br>Tension to the wall at angle \\( \theta \\) to the vertical must balance both of these components.<br><br><b>Step 2: Setup equilibrium equations</b><br>Let the tension to the wall be \\( T \\).<br>Vertical balance: \\( T \cos\theta = 30 \\).<br>Horizontal balance: \\( T \sin\theta = 40 \\).<br><br><b>Step 3: Solve for \\( \theta \\)</b><br>Divide the horizontal equation by the vertical equation:<br>\\( \frac{T \sin\theta}{T \cos\theta} = \frac{40}{30} \implies \tan\theta = \frac{4}{3} \\).<br>Thus, \\( \theta = \tan^{-1}\left(\frac{4}{3}\right) \\)."
         },
         {
           id: 51, topic: "Laws of Motion",
-          q: "Two situations are shown in the diagram. Tension in spring in case I is represented as \\( T_{s1} \\) and tension in spring in case II is \\( T_{s2} \\) and \\( K_1 \\neq K_2 \\) [Image: Case I shows a spring fixed to a wall holding mass M horizontally. Case II shows a spring connected between mass M and mass M over two pulleys, hanging vertically on both sides.]",
+          q: "Two situations are shown in the diagram. Tension in spring in case I is represented as \\( T_{s1} \\) and tension in spring in case II is \\( T_{s2} \\) and \\( K_1 \\neq K_2 \\) ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgqchE7tp5s5VU8PgoQ4ZcFoC4MrRk9O-1CV0vIB0bTCiY3ICAf6qm3Ib9JxE50pMTvllhgShl1eNpsqQjYcFeU-1y-caRLBheTCNtutzlSK4wr8t_F0Dx5_DrqXW8OrIfMFRNtym1Yw9oJN4m9SfdzDtNbI6bWPTINw_PWynjYVzh4YlPAEZ93g-3A1ATs",
           options: ["(1) \\( T_{s1} \\sin\\theta = T_{s2} \\)", "(2) \\( T_{s1} = T_{s2} \\)", "(3) Extension in spring in case I less than extension in spring in case II.", "(4) Extension in spring in case I is equal to extension in spring in case II."],
           correct: 1, 
           sol: "<b>Step 1: Analyze Case I</b><br>In Case I, the mass M is hanging and pulling the spring (assuming the spring supports M over a pulley or incline, if horizontal it wouldn't stretch). Given standard representation, the tension is supporting M, so \\( T_{s1} = Mg \\).<br><br><b>Step 2: Analyze Case II</b><br>In Case II, the spring is placed between two identical hanging masses M. The system is in equilibrium. The tension throughout the massless spring must be uniform. To hold mass M on the left, the tension must be Mg. To hold mass M on the right, the tension must be Mg. The spring is simply transmitting the force, so \\( T_{s2} = Mg \\).<br><br><b>Step 3: Compare</b><br>Since \\( T_{s1} = Mg \\) and \\( T_{s2} = Mg \\), we conclude that \\( T_{s1} = T_{s2} \\). (Note: extensions will differ since spring constants \\( K_1 \\) and \\( K_2 \\) are unequal)."
         },
         {
           id: 52, topic: "Laws of Motion",
-          q: "A man standing in a lift according to the arrangement shown in figure is trying to move the lift upwards by pulling the rope down. Is it always possible to do this? (contact of man from floor does not break) [Image: A man inside a lift box pulls downward on a rope. The rope goes straight up, wraps over a pulley fixed to the ceiling, and attaches to the top of the lift.]",
+          q: "A man standing in a lift according to the arrangement shown in figure is trying to move the lift upwards by pulling the rope down. Is it always possible to do this? (contact of man from floor does not break) ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhEMEbsm2nybj2Jk8uodwTfBZ1T3d-MgqSfuPTrgVz5qbWhuttuYY1sSWVmUWDsq_R9qguF4UdbLX5VuLDg6LIk7wPaVY8IppsZfW2_2uKCcLn4NS4GhdPBrri5jRaF8Po30Onkn3OjnoUF5jB-XAlU1UFV8Tb9JTah0sgRSWy1aDf-te9L1BhH9DBRHwJn",
           options: ["(1) Yes, provided that the man is capable of pulling the rope hard enough.", "(2) Yes, only if mass of the man is greater than or equal to that of the lift.", "(3) Yes, only if mass of the man is greater than or equal to half of that of the lift.", "(4) Yes, only if mass of the man is greater than or equal to one third of that of the lift."],
           correct: 1, 
           sol: "<b>Step 1: Identify forces acting on the man-lift system</b><br>Let man's mass be \\( m \\) and lift's mass be \\( M \\). He pulls the rope with tension \\( T \\).<br>The rope pulls the man up with force \\( T \\). The rope also pulls the lift up with force \\( T \\).<br>Total upward force on the (man + lift) system is \\( 2T \\). Total downward force is \\( (M+m)g \\).<br>For upward acceleration, \\( 2T > (M+m)g \implies T > \frac{(M+m)g}{2} \\).<br><br><b>Step 2: Apply the no-break contact constraint</b><br>For the man to stay on the floor, the normal force \\( N \\) must be \\( \ge 0 \\).<br>Forces on man: Normal \\( N \\) up, Tension \\( T \\) up, weight \\( mg \\) down. \\( N + T - mg = ma \\).<br>So \\( N = m(g+a) - T \ge 0 \implies T \le m(g+a) \\). The absolute maximum he can pull before lifting himself off the floor is roughly his own apparent weight. Assuming slow steady pull (\\( a \approx 0 \\)), \\( T_{max} = mg \\).<br><br><b>Step 3: Combine constraints</b><br>We need \\( \frac{(M+m)g}{2} < mg \implies M + m < 2m \implies M < m \\).<br>Thus, it is only possible if the mass of the man is strictly greater than the mass of the lift."
         },
         {
           id: 53, topic: "Laws of Motion",
-          q: "A picture can be hung on a wall with string in three different ways, as shown. The magnitude of the tension force of the string is: [Image: Case I: String forms a steep inverted V shape (small angle between strings). Case II: Two separate strings hang perfectly vertically. Case III: String forms a very flat, wide inverted V shape (large angle between strings).]",
+          q: "A picture can be hung on a wall with string in three different ways, as shown. The magnitude of the tension force of the string is: ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEibFc6_HiGYgCwPUu5oNRkE8hQmEnR4K5GxyAmryiiuF70UaWZugfQfMuV7-v9VYweVJwmJ6x3vatw2QtzmiUU05jZ20-BGtxKM8SGWUN6PD7I6QALxNV0DG78i9nKT-Cvl2Qk8npWlT9Teslgbn_TBwtCK-bzek9KGl7PBE2M_po9U__8-gNazK6sxQnwB",
           options: ["(1) \\( T_1>T_2>T_3 \\)", "(2) \\( T_3>T_1>T_2 \\)", "(3) \\( T_2>T_1>T_3 \\)", "(4) \\( T_3>T_2>T_1 \\)"],
           correct: 1, 
           sol: "<b>Step 1: Formulate tension equation</b><br>Let the picture have weight \\( W \\). The string supports the picture via two segments. Let \\( \theta \\) be the angle each string segment makes with the vertical.<br>Vertical equilibrium requires: \\( 2T \cos\theta = W \implies T = \frac{W}{2\cos\theta} \\).<br><br><b>Step 2: Analyze each case</b><br>Case II (Vertical): \\( \theta = 0^{\circ} \\), so \\( \cos 0^{\circ} = 1 \\). \\( T_2 = W/2 \\) (This is the absolute minimum tension possible).<br>Case I (Steep): \\( \theta \\) is small, so \\( \cos\theta \\) is slightly less than 1. \\( T_1 \\) is slightly greater than \\( W/2 \\).<br>Case III (Flat): \\( \theta \\) is very large (approaching 90°), so \\( \cos\theta \\) is very small. Dividing by a small number makes \\( T_3 \\) very large.<br><br><b>Step 3: Rank the tensions</b><br>Comparing the results, \\( T_3 \\) is the largest, followed by \\( T_1 \\), and \\( T_2 \\) is the smallest. Therefore, \\( T_3 > T_1 > T_2 \\)."
         },
         {
           id: 54, topic: "Laws of Motion",
-          q: "A small ball of weight 10 N is suspended by two strings A and B as shown in the figure. Values of tensions in the strings A and B are :- [Image: String A connects to the left wall at 37° to the horizontal. String B connects to the right wall at 53° to the horizontal. The knot holds a 10 N weight.]",
+          q: "A small ball of weight 10 N is suspended by two strings A and B as shown in the figure. Values of tensions in the strings A and B are :- ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi0-D74f8q2DAj3LaW08v7Qd2o1q8jH7yjhE7tZ4hRXsCMKY15ALrP1SOF_zsW8cbeEE0dDy7iQxHnNT4dKduSBDzO71SUdY0GvHtb9O3Q00eS0IPBUsH5a9sjrsSjpRVm5wu-cMC1G-bRNABGgtfMTHezVzhgFWkbTtoHVYCOf8BpnU11OW7UKA_Evhf-D",
           options: ["(1) 80 N and 60 N respectively.", "(2) 60 N and 80 N respectively", "(3) 6 N and 8 N respectively", "(4) 8 N and 6 N respectively."],
           correct: 2, 
           sol: "<b>Step 1: Apply horizontal equilibrium</b><br>Let \\( T_A \\) and \\( T_B \\) be the tensions. Horizontal forces must balance:<br>\\( T_A \cos 37^{\circ} = T_B \cos 53^{\circ} \implies T_A(4/5) = T_B(3/5) \implies T_B = \frac{4}{3}T_A \\).<br><br><b>Step 2: Apply vertical equilibrium</b><br>Upward vertical forces must balance downward weight (10 N):<br>\\( T_A \sin 37^{\circ} + T_B \sin 53^{\circ} = 10 \\).<br>Substitute \\( \sin 37^{\circ} = 3/5 \\), \\( \sin 53^{\circ} = 4/5 \\), and \\( T_B = \frac{4}{3}T_A \\):<br>\\( T_A(3/5) + (\frac{4}{3}T_A)(4/5) = 10 \\)<br>\\( \frac{9T_A + 16T_A}{15} = 10 \implies \frac{25T_A}{15} = 10 \\implies T_A = 10 \times \frac{15}{25} = 6 \\, \text{N} \\).<br><br><b>Step 3: Find \\( T_B \\)</b><br>Using \\( T_B = \frac{4}{3}T_A = \frac{4}{3}(6) = 8 \\, \text{N} \\).<br>The values for A and B respectively are 6 N and 8 N."
         },
         {
           id: 55, topic: "Laws of Motion",
-          q: "Three blocks of mass m, 3m and 5m are connected by massless strings and pulled by a force F on a frictionless surface as shown in the figure below. The tension P in the first string is 16N. If the point of application of F is changed as given below. The value of P' and Q' will be :- [Image 1: Force F pulls block 5m to the right. Blocks are in order m --P-- 3m --Q-- 5m -- F] [Image 2: Force F is moved to pull block m to the left. Blocks are in order F -- m --P'-- 3m --Q'-- 5m]",
+          q: "Three blocks of mass m, 3m and 5m are connected by massless strings and pulled by a force F on a frictionless surface as shown in the figure below. The tension P in the first string is 16N. If the point of application of F is changed as given below. The value of P' and Q' will be :-",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgrLYLeiwnYdfIIT_dN50rfwYrA_baYh8HFN2YCz3E2zMpnS0OKQYt5ttSibVpByu7RowWeTyfejkmq5zBa2ywjUdZ8JMP4HQE1L57M7-bZ73VZXQc0vEv0nZyp30giNkmB5zaUS59HbN7IZq1wXifPowKQZK2VqaVT2MxpMgHytIeHXhXVkeE8fuV3IECB",
           options: ["(1) 16N, 10N", "(2) 10N, 16N", "(3) 2N, 8N", "(4) 10N, 6N"],
           correct: 2, 
           sol: "<b>Step 1: Analyze initial state to find F</b><br>In the first case, the entire system (m + 3m + 5m = 9m) is pulled by F. Acceleration \\( a = F / 9m \\).<br>String P is pulling only the trailing mass m. So, \\( P = m \times a = m(F / 9m) = F / 9 \\).<br>We are given P = 16 N. Therefore, \\( F/9 = 16 \implies F = 144 \\, \text{N} \\).<br><br><b>Step 2: Analyze the second state (reversed direction)</b><br>F now pulls from the left end. System acceleration remains the same: \\( a = F / 9m \\).<br>String P' is now between m and 3m. It must pull all the trailing masses behind it: 3m and 5m. Total mass pulled by P' = 8m.<br>\\( P' = 8m \times a = 8m(F / 9m) = \frac{8F}{9} = \frac{8 \times 144}{9} = 128 \\, \text{N} \\).<br><br><b>Wait, alternate interpretation:</b><br>What if the original image was F pulling 'm' (F -- m -- P -- 3m -- Q -- 5m)? Then P pulls 3m+5m=8m. \\( P = 8F/9 = 16 \implies F = 18 \\, \text{N} \\).<br>Then reversed: F pulls 5m. Now P' pulls m. \\( P' = F/9 = 18/9 = 2 \\, \text{N} \\).<br>Q' is between 3m and 5m, pulling m+3m = 4m. \\( Q' = 4F/9 = 4(18)/9 = 8 \\, \text{N} \\).<br>This interpretation directly matches Option (3) yielding 2N and 8N perfectly!"
@@ -1555,7 +1584,8 @@
         },
         {
           id: 58, topic: "Laws of Motion",
-          q: "Mass of a block is 20kg. A man of mass 60kg raises it with constant velocity as shown in the figure. Force exerted by man on the floor will be :- [Image: Man stands on floor, pulls rope down to lift 20kg block up via a pulley]",
+          q: "Mass of a block is 20kg. A man of mass 60kg raises it with constant velocity as shown in the figure. Force exerted by man on the floor will be :-",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjLRY4vUGpf6i76iSsyGZgAeL1cJyXRlZvvxLI9fJznvWdX1Qcba75BMb0ZsbP-btp5jLkYh4SnfLtsPy1gDBYTJqX6oAKLEdpbAyCCjNvw8uZ66g4Hg9gPN7shevvnmKvq1i-qwI8-aWEHxkiaKIyPBohwjLoVmfStj2UBI8HO2MVpDAj_SgB0Hi-IXGwH",
           options: ["(1) 400 N", "(2) 600 N", "(3) 200 N", "(4) None of the above"],
           correct: 0, 
           sol: "<b>Step 1: Determine tension in the rope</b><br>The block is raised with constant velocity, meaning acceleration is zero. The tension \\( T \\) in the rope perfectly balances the block's weight.<br>\\( T = mg = 20 \times 10 = 200 \\, \text{N} \\).<br><br><b>Step 2: Analyze forces on the man</b><br>The man is pulling down on the rope, so by Newton's Third Law, the rope pulls the man UPWARDS with tension \\( T = 200 \\, \text{N} \\).<br>The man's weight pushes him downwards: \\( W = Mg = 60 \times 10 = 600 \\, \text{N} \\).<br>Let \\( N \\) be the normal force exerted by the floor. Vertical equilibrium gives:<br>\\( N + T = W \implies N + 200 = 600 \implies N = 400 \\, \text{N} \\).<br>By Newton's Third Law, the force exerted by the man on the floor is also 400 N."
@@ -1570,6 +1600,7 @@
         {
           id: 60, topic: "Laws of Motion",
           q: "In shown situation elevator is moving upward with acceleration of \\( 5 \\, \\text{m/s}^2 \\). A=20kg, B=30kg, C=50kg. Match Column I with Column II.<br>Column I:<br>(1) Net force acting on B<br>(2) Normal reaction between A and B<br>(3) Normal reaction between B and C<br>(4) Normal reaction between C and elevator<br>Column II:<br>(P) 150 N, (Q) 300 N, (R) 450 N, (S) 750 N, (T) 1500 N",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiNEw-2DgnZ5cMcRyxJXM8wshNH-wYSIbc6nfiz5jwbXWrrICGdtpDQ5TgVcS-y4n4mf4PmIIC1kBIN6s-tlALPgQo6GgseDaYv4VVhJH_1-qUB1g5VEhxDPA9asMqSwjoRPdMS64sbFU6tux9vJFaKprEmoBsdfnKc99HoFWqY3B8DzY99GF7htgiEuGZP",
           options: ["(1) (1)-P, (2)-Q, (3)-S, (4)-T", "(2) (1)-Q, (2)-Q, (3)-R, (4)-T", "(3) (1)-P, (2)-R, (3)-S, (4)-S", "(4) (1)-Q, (2)-R, (3)-R, (4)-T"],
           correct: 0, 
           sol: "<b>Step 1: Calculate Effective Gravity and Net Force</b><br>Since the elevator accelerates upwards, effective gravity \\( g_{eff} = g + a = 10 + 5 = 15 \\, \text{m/s}^2 \\).<br>Net force (actual external unbalanced force) on B is simply \\( m_B \times a_{real} = 30 \times 5 = 150 \\, \text{N} \\). This matches (P).<br><br><b>Step 2: Calculate Normal Reactions using \\( g_{eff} \\)</b><br>Normal A & B: Supports block A. \\( N_{AB} = m_A \times g_{eff} = 20 \times 15 = 300 \\, \text{N} \\). Matches (Q).<br>Normal B & C: Supports A and B. \\( N_{BC} = (m_A + m_B) \times g_{eff} = 50 \times 15 = 750 \\, \text{N} \\). Matches (S).<br>Normal C & elevator: Supports A, B, and C. \\( N_C = (m_A + m_B + m_C) \times g_{eff} = 100 \times 15 = 1500 \\, \text{N} \\). Matches (T).<br><br>Result: 1-P, 2-Q, 3-S, 4-T."
@@ -1577,13 +1608,15 @@
          {
           id: 61, topic: "Laws of Motion",
           q: "A cylinder of mass \\( \\frac{1}{\\sqrt{3}} \\, \\text{kg} \\) is placed on the corner of two inclined planes as shown in the figure. Find the normal reaction at contact point of cylinder with the slope of inclination \\( 30^{\\circ} \\). ",
-          options: ["(1) 15 N", "(2) 10 N", "(3) 5 N", "(4) 7 N"],
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjuggPUF9CCuB_rsz1EYVf74fRbNm7rPNQfcz_-0UOVuUg6NyHnzD-_NeIgMJNQlQa5xj8b-j4YZTFUvOgL1Op63WhQlg7rGl728X3SRE6g8uHOKrCxF5hWE1GN-AR9xJ787FmY7EczPCoAcTFyvRMAwXEBQ_7-9Yh2jdrOFHW2wOXz64s_p_tkMAWio_qr",
+           options: ["(1) 15 N", "(2) 10 N", "(3) 5 N", "(4) 7 N"],
           correct: 2, 
           sol: "<b>Step 1: Identify the normal forces</b><br>Let \\( N_1 \\) be the normal reaction from the \\( 60^{\\circ} \\) incline (which acts perpendicular to it, thus at \\( 30^{\\circ} \\) to the horizontal).<br>Let \\( N_2 \\) be the normal reaction from the \\( 30^{\\circ} \\) incline (which acts at \\( 60^{\\circ} \\) to the horizontal).<br><br><b>Step 2: Balance forces horizontally and vertically</b><br>Horizontal: \\( N_1 \\cos 30^{\\circ} = N_2 \\cos 60^{\\circ} \\implies N_1 \\frac{\\sqrt{3}}{2} = N_2 \\frac{1}{2} \\implies N_2 = \\sqrt{3} N_1 \\).<br>Vertical: \\( N_1 \\sin 30^{\\circ} + N_2 \\sin 60^{\\circ} = mg \\).<br><br><b>Step 3: Solve for \\( N_2 \\)</b><br>Substitute \\( N_1 = N_2 / \\sqrt{3} \\) into the vertical equation:<br>\\( \\left(\\frac{N_2}{\\sqrt{3}}\\right)\\frac{1}{2} + N_2\\frac{\\sqrt{3}}{2} = mg \\)<br>\\( N_2 \\left(\\frac{1}{2\\sqrt{3}} + \\frac{3}{2\\sqrt{3}}\\right) = mg \\implies N_2 \\left(\\frac{4}{2\\sqrt{3}}\\right) = mg \\implies N_2 \\frac{2}{\\sqrt{3}} = mg \\).<br>Given \\( m = \\frac{1}{\\sqrt{3}} \\, \\text{kg} \\) and \\( g = 10 \\, \\text{m/s}^2 \\):<br>\\( N_2 = \\frac{\\sqrt{3}}{2} \\times \\left(\\frac{1}{\\sqrt{3}} \\times 10\\right) = \\frac{10}{2} = 5 \\, \\text{N} \\)."
         },
         {
           id: 62, topic: "Laws of Motion",
           q: "If the coefficient of kinetic friction between the trolley and surface is 0.1, then tension in the string connecting masses is (Take \\( g=10 \\, \\text{m/s}^2 \\)) ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhUScoyI5jHP62Rhes82NSwGyLgCUrJvL6pCphk9pwNdb1snwwf5p8VBcpU5008-vbdggute3Yk0XCZ5_4xrt624Zp-XENg_8X1EuTr00yZQ1xTP6P9F9cnSi_prJqLkQ0Rz2PYYEb2HCUym781vtavQKZ7Nrw6K4zER0sn-wbAiw0nOIed8CyBResSN9IA",
           options: ["(1) 48 N", "(2) 51 N", "(3) 53 N", "(4) 55 N"],
           correct: 3, 
           sol: "<b>Step 1: Find the driving and frictional forces</b><br>Driving force = Weight of hanging mass = \\( 6g = 60 \\, \\text{N} \\).<br>Frictional force on the 30kg block = \\( \\mu_k N = 0.1 \\times (30 \\times 10) = 30 \\, \\text{N} \\).<br><br><b>Step 2: Calculate system acceleration</b><br>Net force = \\( 60 \\, \\text{N} - 30 \\, \\text{N} = 30 \\, \\text{N} \\).<br>Total mass = \\( 30 + 6 = 36 \\, \\text{kg} \\).<br>Acceleration \\( a = \\frac{30}{36} = \\frac{5}{6} \\, \\text{m/s}^2 \\).<br><br><b>Step 3: Calculate Tension</b><br>Look at the hanging 6kg mass: \\( 6g - T = 6a \\).<br>\\( 60 - T = 6 \\times \\frac{5}{6} = 5 \\).<br>\\( T = 60 - 5 = 55 \\, \\text{N} \\)."
@@ -1591,13 +1624,15 @@
         {
           id: 63, topic: "Laws of Motion",
           q: "The mass in the figure can slide on a frictionless surface. When the mass is pulled out, spring 1 is stretched a distance \\( x_1 \\) and spring 2 is stretched a distance \\( x_2 \\). The spring constants are \\( k_1 \\) and \\( k_2 \\) respectively. Magnitude of spring force on the mass is ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhSCPfw5DOwsPoFluOZSJkq6bfT6KPzt9RD4KZ4d--7bXfhCmGkJ0Cooc3ZXl3I5fpt6Mvp2Q8jAgxm0LL-IqyN8_3xHTGSec8P0ph5H6LzWkte8R-CVg14OSOK68JhDP8NPp00vfHNYpHxTIXLcaNvJnn7N5lsJXAfbl-mW_egQhsJALZovcpcug_AqrF2",
           options: ["(1) \\( k_1 x_1 \\)", "(2) \\( (k_1 x_1 - k_2 x_2) \\)", "(3) \\( (k_1 x_1 + k_2 x_2) \\)", "(4) All of these"],
           correct: 0, 
           sol: "<b>Step 1: Understand springs in series</b><br>When springs are connected in series, the tension (restoring force) is perfectly uniform throughout the entire spring chain.<br><br><b>Step 2: Determine the force</b><br>The force exerted by the first spring is \\( F_1 = k_1 x_1 \\). The force exerted by the second spring is \\( F_2 = k_2 x_2 \\).<br>Because they are in series, \\( F_{total} = F_1 = F_2 \\).<br>Therefore, the magnitude of the force exerted directly on the mass is equal to the tension, which can be expressed as \\( k_1 x_1 \\) (or equivalently \\( k_2 x_2 \\)). Option (1) is correct."
         },
         {
           id: 64, topic: "Laws of Motion",
-          q: "A chain of mass M & length 2L is placed on smooth table in case(i). In case (ii) two identical small balls each of mass M is attached at ends with the same chain as shown in the figure. The case in which the chain will leave the edge of table early (chain during its motion touches the table) [Image showing two cases. Case (i): A uniform chain of length 2L placed on a smooth table with length L hanging off the edge. Case (ii): A similar chain with two identical heavy balls of mass M attached to its ends, with one ball on the table and one hanging.]",
+          q: "A chain of mass M & length 2L is placed on smooth table in case(i). In case (ii) two identical small balls each of mass M is attached at ends with the same chain as shown in the figure. The case in which the chain will leave the edge of table early (chain during its motion touches the table)",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiR9JZJuuEACKV7CwVQCI-zI3HrEZIT9KCF-POo0oQXs0uJBNCl5fAV8ohZaaewy_RUJvcB1tu1xQ9N7_NVcYYBxevfVudTtaWRtQeTD7-b3GPogo8S9mucq_gxwLPmCnwPBSTcjewhWlsVRQ9_V_gqcFcqljLIrumaD9wcL9yxumkz-8z1KbHR7slhIP7U",
           options: ["(1) case (i)", "(2) case (ii)", "(3) both will leave the edge simultaneously", "(4) information are insufficient to decide"],
           correct: 0, 
           sol: "<b>Step 1: Analyze initial accelerations</b><br>Let \\( x \\) be the length of the chain hanging. Linear density \\( \\lambda = M/2L \\).<br>In Case (i): Driving force \\( = \\lambda x g \\). Total mass \\( = M \\). Accel \\( a_1 = \\frac{xg}{2L} \\). At \\( x=L \\), \\( a_1 = g/2 \\).<br>In Case (ii): Driving force \\( = (\\lambda x + M)g \\). Total mass \\( = M_{chain} + 2M = 3M \\). Accel \\( a_2 = \\frac{(\\frac{Mx}{2L} + M)g}{3M} = \\frac{xg}{6L} + \\frac{g}{3} \\). At \\( x=L \\), \\( a_2 = g/6 + g/3 = g/2 \\).<br><br><b>Step 2: Analyze acceleration as \\( x \\) increases</b><br>Let's check when \\( x \\) increases to \\( 1.5L \\).<br>\\( a_1 = \\frac{1.5L}{2L}g = 0.75g \\).<br>\\( a_2 = \\frac{1.5L}{6L}g + \\frac{g}{3} = 0.25g + 0.33g = 0.58g \\).<br><br><b>Step 3: Conclusion</b><br>Because \\( a_1 \\) increases at a much faster rate than \\( a_2 \\) as the chain slips off, Case (i) will accelerate faster overall and slip off the edge earlier."
@@ -1605,6 +1640,7 @@
         {
           id: 65, topic: "Laws of Motion",
           q: "Two smooth spheres each of radius 5 cm and weight W rest one on the other inside a fixed smooth cylinder of radius 8 cm. The reactions between sphere and vertical side of the cylinder & between the two spheres are :-",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiF4LGOZVEkbLafk0aIFnFJKwaP2zhsoAUY1A-Ad2skn3kcnz5_2ESTzVXD8V89HblWTWfnpofCUWbHdCGup_fY1sEC5QP0wb4LGhHaX9Ligp1VRO2Jj2bgtCapxyOWALZYwiIrvoEYBtCbW7tUAWKYcbreqRyJIRoO3Kv2tm9mLslM9yBDVbMGniJDcBxK",
           options: ["(1) W/4 & 3W/4", "(2) W/4 & W/4", "(3) 3W/4 & 5W/4", "(4) W & W"],
           correct: 2, 
           sol: "<b>Step 1: Geometry of the arrangement</b><br>Cylinder radius \\( R = 8 \\, \\text{cm} \\). Sphere radius \\( r = 5 \\, \\text{cm} \\).<br>The horizontal distance available for the centers of the two spheres is \\( 2R - 2r = 16 - 10 = 6 \\, \\text{cm} \\).<br>The straight-line distance between the centers of the two touching spheres is \\( r + r = 10 \\, \\text{cm} \\).<br>Let \\( \\theta \\) be the angle the line of centers makes with the vertical. \\( \\sin\\theta = \\frac{\\text{Horizontal dist}}{\\text{Hypotenuse}} = \\frac{6}{10} = \\frac{3}{5} \\), so \\( \\cos\\theta = \\frac{4}{5} \\).<br><br><b>Step 2: Balance forces on the top sphere</b><br>Vertical equilibrium: The reaction between the spheres \\( R_{ss} \\) pushes up at angle \\( \\theta \\).<br>\\( R_{ss} \\cos\\theta = W \\implies R_{ss} (4/5) = W \\implies R_{ss} = \\frac{5W}{4} \\).<br>Horizontal equilibrium: The wall pushes horizontally with \\( R_w \\) to balance the horizontal component of \\( R_{ss} \\).<br>\\( R_w = R_{ss} \\sin\\theta = \\left(\\frac{5W}{4}\\right) \\times \\left(\\frac{3}{5}\\right) = \\frac{3W}{4} \\)."
@@ -1612,6 +1648,7 @@
         {
           id: 66, topic: "Laws of Motion",
           q: "A weight W is supported by two cables as shown. The tension in the cable making angle \\( \\theta \\) with horizontal will be minimum, when the value of \\( \\theta \\) is ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgkxkkTxksG4tuKRsG3FAMykTV42nZtBIvYcw1RSYRcFdcRs2IyZ5857MuCV7u9tHfRRyPx9dflCeTKfFmzRGSvhwqrmikMwGMt8TQcYa9bbxbGzLo0fYUj3FhBNsDPpjDVGA7PP43hL9QgR2ByC9MWAQWqEN7cDFJAIQHiGGegGVJKF4ZEzOuvzKW3kRn7",
           options: ["(1) 0", "(2) \\( 30^{\\circ} \\)", "(3) \\( 60^{\\circ} \\)", "(4) None of these"],
           correct: 1, 
           sol: "<b>Step 1: Balance forces at the knot</b><br>Let \\( T_1 \\) be the tension at angle \\( \\theta \\) and \\( T_2 \\) be the tension at \\( 60^{\\circ} \\).<br>Horizontal: \\( T_1 \\cos\\theta = T_2 \\cos 60^{\\circ} \\implies T_2 = T_1 \\frac{\\cos\\theta}{\\cos 60^{\\circ}} \\).<br>Vertical: \\( T_1 \\sin\\theta + T_2 \\sin 60^{\\circ} = W \\).<br><br><b>Step 2: Solve for \\( T_1 \\)</b><br>Substitute \\( T_2 \\): \\( T_1 \\sin\\theta + \\left(T_1 \\frac{\\cos\\theta}{\\cos 60^{\\circ}}\\right) \\sin 60^{\\circ} = W \\).<br>Multiply by \\( \\cos 60^{\\circ} \\): \\( T_1 (\\sin\\theta \\cos 60^{\\circ} + \cos\\theta \\sin 60^{\\circ}) = W \\cos 60^{\\circ} \\).<br>Using the identity \\( \\sin(A+B) \\): \\( T_1 \\sin(\\theta + 60^{\\circ}) = W \\cos 60^{\\circ} \\).<br>\\( T_1 = \\frac{W \\cos 60^{\\circ}}{\\sin(\\theta + 60^{\\circ})} \\).<br><br><b>Step 3: Minimize \\( T_1 \\)</b><br>For \\( T_1 \\) to be minimum, the denominator \\( \\sin(\\theta + 60^{\\circ}) \\) must be at its maximum possible value, which is 1.<br>\\( \\sin(\\theta + 60^{\\circ}) = 1 \\implies \\theta + 60^{\\circ} = 90^{\\circ} \\implies \\theta = 30^{\\circ} \\)."
@@ -1619,6 +1656,7 @@
         {
           id: 67, topic: "Laws of Motion",
           q: "One end of a rope is fixed to a vertical wall and the other end is pulled by a horizontal force of 20N. The shape of the flexible rope is shown in figure. The mass of the rope is- ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgEHatW64FZjA4XmRVEBkKv0vYCOxMkZfYoP7wbJqbTLiOWp_reUpSQD0CwvdsSzJArHwfPBiMd5aLFvKDgud6MiG0Dyd1Dj-dZN1LcSL38UkWwqRkNnqJrj3jQ0jykJJSGJsBRLNVijk6Ic5gJ97Z9RN1WPXJo2oN7HZoOpcKDSTTjERzEKJhX4F8PRW3E",
           options: ["(1) 2 kg", "(2) 3 kg", "(3) 3.5 kg", "(4) 4.5 kg"],
           correct: 2, 
           sol: "<b>Step 1: Balance forces on the entire rope</b><br>The rope is in equilibrium under three forces: the 20N horizontal pull, its own downward weight (\\( mg \\)), and the tension \\( T \\) at the wall.<br>The tension \\( T \\) at the wall acts tangentially, at a \\( 30^{\\circ} \\) angle to the vertical wall.<br><br><b>Step 2: Resolve the tension</b><br>Horizontal component balances the applied pull: \\( T \\sin(30^{\\circ}) = 20 \\, \\text{N} \\implies T(0.5) = 20 \\implies T = 40 \\, \\text{N} \\).<br>Vertical component balances the weight: \\( T \\cos(30^{\\circ}) = mg \\).<br><br><b>Step 3: Calculate mass</b><br>\\( 40 \\times \\left(\\frac{\\sqrt{3}}{2}\\right) = m \\times 10 \\).<br>\\( 20\\sqrt{3} = 10m \\implies m = 2\\sqrt{3} \\approx 2 \times 1.732 = 3.464 \\, \\text{kg} \\).<br>The closest option is 3.5 kg."
@@ -1626,6 +1664,7 @@
         {
           id: 68, topic: "Laws of Motion",
           q: "A uniform chain of length 2L is hanging in equilibrium position, if end B is given a slightly downward displacement the imbalance causes an acceleration. Here pulley is small and smooth & string is inextensible. The acceleration of end B when it has been displaced by distance x, is :-",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgdgxz_6h5mP-R47u7na6KPAfKVZHxdMeCZegnoJUkLWnAlBgm9lLVK9KBm55i71_0SDU7BdodPfgygHrugbS1-uNz0lzcMU_XjNQONEORlxdFKLGxWMk_HdJ-Eh_oslQ5YehVEue9IXaCTEM9IwSee5Hl35ntoGpobyrFmo0xfxm1ZCaRhZMUhbQdUCqXq",
           options: ["(1) \\( \\frac{x}{L}g \\)", "(2) \\( \\frac{2x}{L}g \\)", "(3) \\( \\frac{x}{2}g \\)", "(4) g"],
           correct: 0, 
           sol: "<b>Step 1: Understand the initial and displaced states</b><br>Initially, length L hangs on both sides. Mass per unit length is \\( \\lambda \\).<br>When displaced by \\( x \\), one side has length \\( L + x \\) and the other has length \\( L - x \\).<br><br><b>Step 2: Determine net driving force</b><br>The driving force is the difference in weight between the two hanging sides.<br>\\( F_{net} = \\lambda(L + x)g - \\lambda(L - x)g = 2\\lambda x g \\).<br><br><b>Step 3: Calculate acceleration</b><br>The total mass being accelerated is the entire chain, \\( M_{total} = \lambda(2L) \\).<br>Acceleration \\( a = \\frac{F_{net}}{M_{total}} = \\frac{2\\lambda x g}{2\\lambda L} = \\frac{x}{L}g \\)."
@@ -1633,41 +1672,23 @@
         {
           id: 69, topic: "Laws of Motion",
           q: "A block tied between two identical springs is in equilibrium. If upper spring is cut then the acceleration of the block just after cut is \\( 6 \\, \\text{m/s}^2 \\) downwards. Now, if instead of upper spring, lower spring is being cut then the acceleration of the block just after the cut will be.",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhZzPU9vinIXU9P53HfYQxUdajkjgi3gvtjE3ETSRKUcnTgPxurdjaBSV346iYEd71sTyZ04tuXn0A7gXvraZ8D-YF2uw7leGAcVDDHZg9pTEr2Hj-MmOZ0l8EEcbOVR8iPpwenCJlDLHzKBVTsvmgtKDsTahXBWiBi54wR4ATX2MAiMlA0xkd9ZfgyYht3",
           options: ["(1) \\( 4 \\, \\text{m/s}^2 \\) downwards", "(2) \\( 6 \\, \\text{m/s}^2 \\) downwards", "(3) \\( 4 \\, \\text{m/s}^2 \\) upwards", "(4) \\( 6 \\, \\text{m/s}^2 \\) upwards"],
           correct: 0, 
           sol: "<b>Step 1: Analyze initial equilibrium</b><br>Let \\( T_1 \\) be the upward force from the top spring, and \\( T_2 \\) be the upward/downward force from the bottom spring.<br>Equilibrium: \\( T_1 + T_2 = mg \\) (assuming 'up' is positive).<br><br><b>Step 2: Analyze cutting the top spring</b><br>If the top spring is cut, \\( T_1 \\) disappears. The net force is \\( T_2 - mg = ma \\).<br>We are told the block accelerates at \\( 6 \\, \\text{m/s}^2 \\) downwards (so \\( a = -6 \\)).<br>Using \\( g = 10 \\): \\( T_2 - 10m = m(-6) \\implies T_2 = 4m \\).<br>Since \\( T_2 \\) is positive, the bottom spring was actually compressed and pushing UP with \\( 4m \\).<br><br><b>Step 3: Re-evaluate initial state</b><br>Since \\( T_1 + 4m = 10m \\implies T_1 = 6m \\). The top spring was pulling UP with \\( 6m \\).<br><br><b>Step 4: Analyze cutting the bottom spring</b><br>If the bottom spring is cut, \\( T_2 \\) disappears. Net force = \\( T_1 - mg = 6m - 10m = -4m \\).<br>Acceleration \\( a = \\frac{-4m}{m} = -4 \\, \\text{m/s}^2 \\) (downwards)."
         },
         {
           id: 70, topic: "Laws of Motion",
-          q: "Consider the two configurations shown in equilibrium. Find ratio \\( T_A/T_B \\) (Ignore the mass of the rope & the pulley) [Image showing two configurations holding a mass M in equilibrium. In (I), a string goes over a fixed ceiling pulley to a hand pulling down with tension \\( T_A \\). In (II), a string is fixed to the ceiling, goes under a movable pulley holding mass M, and is pulled up by a hand with tension \\( T_B \\).]",
+          q: "Consider the two configurations shown in equilibrium. Find ratio \\( T_A/T_B \\) (Ignore the mass of the rope & the pulley)",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiChbTdlkJnuawX1EEH6g5JdCJqzYU9VU4Rd8pmKaJSUQSX-0QYnEWHyLc7rNGINr-ot5Dv-6UqFIaOtH9tmqmgaRIBhD7Yi49aO9F3ONndTNcewPWEUwxBagqJfD3e7QVfKZYtuZ3gjHqz5ApDJIg_M9QciY4juwT6B4SibYKRWgivdd8Jg9YamKDe_pnA",
           options: ["(1) 2:1", "(2) 1:2", "(3) 3:4", "(4) 4:3"],
           correct: 0, 
           sol: "<b>Step 1: Analyze Case I</b><br>A single continuous string passes over a fixed pulley. One end holds mass M, the other is pulled by \\( T_A \\).<br>To maintain equilibrium, the tension must equal the weight: \\( T_A = Mg \\).<br><br><b>Step 2: Analyze Case II</b><br>A continuous string passes under a movable pulley that holds mass M. The string has two vertical segments pulling UP on the pulley, one fixed to the ceiling, one pulled by \\( T_B \\).<br>To maintain equilibrium, the total upward force must equal the downward weight: \\( 2T_B = Mg \\implies T_B = Mg/2 \\).<br><br><b>Step 3: Calculate the ratio</b><br>Ratio \\( T_A / T_B = \\frac{Mg}{Mg/2} = 2:1 \\)."
         },
         {
-          id: 71, topic: "Laws of Motion",
-          q: "In shown system all surfaces are frictionless. All strings are massless and all pulleys are frictionless and massless. System is released from rest. Acceleration of block C is ",
-          options: ["(1) \\( 0.6 \\, \\text{m/s}^2 \\) towards right", "(2) \\( 0.8 \\, \\text{m/s}^2 \\) towards left", "(3) \\( 0.8 \\, \\text{m/s}^2 \\) towards right", "(4) \\( 10/8 \\, \\text{m/s}^2 \\) towards left"],
-          correct: 1, 
-          sol: "<b>Step 1: Evaluate driving forces</b><br>All 4 blocks move together due to continuous string connections. Let's assume the 'left' direction corresponds to A moving down the incline.<br>Force pulling the system 'left' = Component of A's weight = \\( m_A g \\sin 53^{\\circ} = 10 \\times 10 \\times (4/5) = 80 \\, \\text{N} \\).<br>Force pulling the system 'right' = Component of B's weight + D's hanging weight = \\( m_B g \\sin 37^{\\circ} + m_D g = (4 \\times 10 \\times 3/5) + (4 \\times 10) = 24 + 40 = 64 \\, \\text{N} \\).<br><br><b>Step 2: Calculate net force and acceleration</b><br>Net driving force = \\( 80 \\, \\text{N (left)} - 64 \\, \\text{N (right)} = 16 \\, \\text{N} \\) acting towards the left (A's direction).<br>Total mass of system = \\( 10 + 4 + 2 + 4 = 20 \\, \\text{kg} \\).<br>System acceleration \\( a = \\frac{F_{net}}{M_{total}} = \\frac{16}{20} = 0.8 \\, \\text{m/s}^2 \\).<br><br><b>Step 3: Determine direction for Block C</b><br>Since the system is accelerating 'left' towards Block A, Block C on the horizontal surface will be pulled to the left at \\( 0.8 \\, \\text{m/s}^2 \\)."
-        },
-        {
-          id: 72, topic: "Laws of Motion",
-          q: "Referencing the same system as the previous question: Value of tension \\( T_3 \\) (the string between C and D) is",
-          options: ["(1) 40.3 N", "(2) 43.2 N", "(3) 36.8 N", "(4) 48.6 N"],
-          correct: 1, 
-          sol: "<b>Step 1: Use the system acceleration</b><br>From the previous calculation, we know the system accelerates towards A at \\( a = 0.8 \\, \\text{m/s}^2 \\).<br>This means the hanging block D (4 kg) is accelerating UPWARDS at \\( 0.8 \\, \\text{m/s}^2 \\).<br><br><b>Step 2: Apply Newton's Second Law to Block D</b><br>The forces on Block D are the upward tension \\( T_3 \\) and its downward weight \\( m_D g \\).<br>\\( T_3 - m_D g = m_D a \\).<br>\\( T_3 = m_D (g + a) = 4 (10 + 0.8) = 4 \times 10.8 = 43.2 \\, \\text{N} \\)."
-        },
-        {
-          id: 73, topic: "Laws of Motion",
-          q: "Referencing the same system as the previous question: Value of \\( T_1 + T_2 \\) is (where \\( T_1 \\) is the string between A and B, and \\( T_2 \\) is between B and C)",
-          options: ["(1) 44.8 N", "(2) 78 N", "(3) 112.6 N", "(4) 116.8 N"],
-          correct: 3, 
-          sol: "<b>Step 1: Calculate \\( T_1 \\)</b><br>Block A (10 kg) accelerates DOWN the \\( 53^{\\circ} \\) incline at \\( 0.8 \\, \\text{m/s}^2 \\).<br>\\( m_A g \\sin 53^{\\circ} - T_1 = m_A a \\implies 80 - T_1 = 10(0.8) = 8 \\implies T_1 = 72 \\, \\text{N} \\).<br><br><b>Step 2: Calculate \\( T_2 \\)</b><br>Block C (2 kg) accelerates LEFT at \\( 0.8 \\, \\text{m/s}^2 \\). The tensions acting on it are \\( T_2 \\) (pulling left) and \\( T_3 \\) (pulling right).<br>\\( T_2 - T_3 = m_C a \\). We know \\( T_3 = 43.2 \\, \\text{N} \\).<br>\\( T_2 - 43.2 = 2(0.8) = 1.6 \\implies T_2 = 44.8 \\, \\text{N} \\).<br><br><b>Step 3: Sum the tensions</b><br>\\( T_1 + T_2 = 72 + 44.8 = 116.8 \\, \\text{N} \\)."
-        },
-        {
           id: 74, topic: "Laws of Motion",
           q: "The system shown in the diagram is released from rest. Pulley and string are massless. Neglect friction everywhere. \\( (g=10 \\, \\text{m/s}^2) \\) ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjpRQtpMcEzS_hkSLlaMggTAfVsfnZmXq9EPyigWIirWLmYM7yjpZcQ9jQAKG8AnWICnu-zhDYqdT0FPgfA-ArzRXxkNnTRX14nUiwgTxwFIeptV8PODih6BaCiwjdFSyFBCGOSzgRSNzxizgjKfJl4qk8PeZfInoLkdocgiE18GM14PPFHNPVifXIAeawM",
           options: ["(1) Tension in the string during motion of both blocks is 20N", "(2) Acceleration of blocks during motion is \\( 5 \\, \\text{m/s}^2 \\)", "(3) Block B reaches ground in \\( 2/\\sqrt{5} \\, \\text{s} \\)", "(4) All of the above statements are correct"],
           correct: 3, 
           sol: "<b>Step 1: Calculate system acceleration</b><br>The hanging weight of Block B pulls the system to the right: \\( m_B g = 40 \\, \\text{N} \\).<br>The external force pulls Block A to the left: \\( F = 10 \\, \\text{N} \\).<br>Net driving force \\( F_{net} = 40 - 10 = 30 \\, \\text{N} \\) towards the right/down.<br>Total mass \\( M = 2 + 4 = 6 \\, \\text{kg} \\).<br>Acceleration \\( a = 30 / 6 = 5 \\, \\text{m/s}^2 \\). (Statement 2 is true).<br><br><b>Step 2: Calculate Tension</b><br>For Block A: \\( T - 10 = m_A a \implies T - 10 = 2(5) = 10 \implies T = 20 \\, \\text{N} \\). (Statement 1 is true).<br><br><b>Step 3: Calculate Fall Time</b><br>Block B falls 2 meters from rest. \\( s = \frac{1}{2}at^2 \implies 2 = \frac{1}{2}(5)t^2 \implies 4/5 = t^2 \implies t = 2/\sqrt{5} \\, \\text{s} \\). (Statement 3 is true).<br>Thus, all statements are correct."
@@ -1675,6 +1696,7 @@
         {
           id: 75, topic: "Laws of Motion",
           q: "In the given arrangement, n number of equal masses are connected by strings of negligible masses. The tension in the string connected to the \\( n^{th} \\) mass is- ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgsRUKMx-qOes6l3mPsvR-9u17Da49db61uGcwCbxCXDxgW_i8IucKPc2mYbADTFPTvbxS2S_Xr5NazYycR5ajPFXCMgUE4YqvkFEGs3C0gvtFmxzRVxQmB1IlkzS9TSEAqHc1_BSr1PcESZcHeyjk3mDU6YFtr8m722p2m2aUp9jaNQ4DeTYu3_AEEd-eC",
           options: ["(1) \\( \\frac{mMg}{nm+M} \\)", "(2) \\( \\frac{mMg}{nmM} \\)", "(3) mg", "(4) mng"],
           correct: 0, 
           sol: "<b>Step 1: Find system acceleration</b><br>The driving force pulling the entire chain is the weight of the hanging mass: \\( F_{net} = Mg \\).<br>The total mass of the accelerating system consists of the hanging mass plus the \\( n \\) horizontal masses: \\( M_{total} = M + nm \\).<br>Acceleration \\( a = \\frac{Mg}{nm + M} \\).<br><br><b>Step 2: Find tension at the last block</b><br>The string connected to the \\( n^{th} \\) mass (the very last one in the horizontal chain) is only responsible for pulling that single mass \\( m \\).<br>Tension \\( T_n = m \\times a = m \\left(\\frac{Mg}{nm + M}\\right) = \\frac{mMg}{nm + M} \\)."
@@ -1682,6 +1704,7 @@
         {
           id: 76, topic: "Laws of Motion",
           q: "In the arrangement shown, the 2 kg block is held to keep the system at rest. The string and pulley are ideal. When the 2 kg block is set free, by what amount the tension in the string changes? \\( [g=10 \\, \\text{m/s}^2] \\) ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEilSkADfrZoxJ6UMI2HUv3n5OdzSvNjMsSIoD8xmaQ65gCSim6mKGL_HqOGGGnR4nVpEpmpP6hMPljDPaUuCQ4qNI4kn_-eBUR8lAp-sPHQGau038ZhIZ0-zBsaOBULdesKm6lqBWfYcy1cwy8DCuffBowb82mew6CO683dmuN7bcy0oyzeEIO5iFaRHooE",
           options: ["(1) Increase of 12 N", "(2) Decrease of 12 N", "(3) Increase of 18 N", "(4) Decrease of 18 N"],
           correct: 1, 
           sol: "<b>Step 1: Initial Tension</b><br>When the 2 kg block is forcibly held at rest, the 3 kg block simply hangs motionless from the string. Therefore, the initial tension must perfectly balance its weight: \\( T_i = 3g = 30 \\, \\text{N} \\).<br><br><b>Step 2: Calculate free acceleration</b><br>When released, the driving force is the hanging weight (\\( 30 \\, \\text{N} \\)) minus the incline component of the 2kg block (\\( 2g \sin 30^{\\circ} = 20(0.5) = 10 \\, \\text{N} \\)).<br>Net force = \\( 30 - 10 = 20 \\, \\text{N} \\) pulling the 3kg block down.<br>Total mass = 5 kg. Acceleration \\( a = 20 / 5 = 4 \\, \\text{m/s}^2 \\).<br><br><b>Step 3: Final Tension and Change</b><br>Looking at the 3kg block: \\( 3g - T_f = 3a \implies 30 - T_f = 3(4) = 12 \implies T_f = 18 \\, \\text{N} \\).<br>Change in tension = \\( 30 \\, \\text{N} - 18 \\, \\text{N} = 12 \\, \\text{N} \\) decrease."
@@ -1689,6 +1712,7 @@
         {
           id: 77, topic: "Laws of Motion",
           q: "In the arrangement shown, the blocks of unequal masses are held at rest. When released, acceleration of the blocks :- ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiUGtjh37gYc5j3eGzp2Fq8pCrfZ3tHcGUYn8fmARbYl3Y6CJZt2gqnGeOxO4aDP8dz66RtbjDkNLZGy9zHbBkVwTJJvEE0qLT3LEDah3D_iaQ3dg0HMLW24eL0VM23U4g9BR93oFStqoasnqbGg9n0Kjt9Y_o7SEaCnLQljkVj_EfiAiuAMHRQjPqJMp5w",
           options: ["(1) is \\( g/2 \\)", "(2) is g", "(3) is between zero and g", "(4) could be greater than g"],
           correct: 2, 
           sol: "<b>Step 1: Standard Atwood Machine Formula</b><br>For two unequal masses \\( m_1 \\) and \\( m_2 \\) (where \\( m_1 > m_2 \\)) suspended over a frictionless pulley, the acceleration of the system is given by \\( a = g \\frac{m_1 - m_2}{m_1 + m_2} \\).<br><br><b>Step 2: Analyze the boundaries</b><br>Since masses must be positive, the fraction \\( \\frac{m_1 - m_2}{m_1 + m_2} \\) is always strictly less than 1. Therefore, the acceleration \\( a \\) must always be less than \\( g \\).<br>Because the masses are unequal, the fraction is strictly greater than zero.<br>Thus, the acceleration is always between zero and \\( g \\)."
@@ -1696,6 +1720,7 @@
         {
           id: 78, topic: "Laws of Motion",
           q: "Find tension in the string. Surface is frictionless: ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjEdvuBpi8QEsWkmZYMWjoh9eJeilPwk2_1EyV8fl2SeNTMbozun_oAM-vS5mZgmGVwrbaoIMIMROLrBksaikdPMuPbcC8BcM_bQbQQcAdhKjGafbHsFfg1lvRXXwsGuYgNVT4PrYGlxbek8JsMkKELmXcHO_K675Gpn6Id1kV53wbFrLIpR9iySBPF3d3X",
           options: ["(1) 0 N", "(2) 1 N", "(3) 2 N", "(4) 5 N"],
           correct: 3, 
           sol: "<b>Step 1: Find system acceleration</b><br>The only external driving force causing the system to move is the weight of the hanging 1 kg block. \\( F_{drive} = m_{hang} g = 1 \times 10 = 10 \\, \\text{N} \\).<br>Total mass of the system \\( M_{total} = 1 \\, \\text{kg (table)} + 1 \\, \\text{kg (hanging)} = 2 \\, \\text{kg} \\).<br>Acceleration \\( a = \\frac{10}{2} = 5 \\, \\text{m/s}^2 \\).<br><br><b>Step 2: Find tension</b><br>Look at the block on the frictionless table. The only horizontal force acting on it is the tension \\( T \\) from the string.<br>\\( T = m_{table} \\times a = 1 \times 5 = 5 \\, \\text{N} \\)."
@@ -1703,6 +1728,7 @@
         {
           id: 79, topic: "Laws of Motion",
           q: "For the given fig. find the speed of block A when \\( \\theta=60^{\\circ} \\) :- ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgCWtwU_MLquhDQZlt6cCjvatKq-KqAPDi37YWtnQxB3aSG3tYg9TcxBwB2bDaLfyBYk05GQE5Ds_0QcfL6doSDAK9AsR3Ur8U6ZPWixgkVMhaXmWrvetKid4EzDmpn6sKiLn4wxAbtpk59lI0f_4wgO4UMtxzpeJyPwpTWG3J-3YlQepZ7D08lhNE3xHs9",
           options: ["(1) \\( 2\\sqrt{3} \\, \\text{m/s} \\)", "(2) \\( 4 \\, \\text{m/s} \\)", "(3) \\( 2 \\, \\text{m/s} \\)", "(4) None"],
           correct: 0, 
           sol: "<b>Step 1: Identify constrained motion relationship</b><br>Because the string is inextensible, the speed at which Block A rises is exactly equal to the rate at which the string's length between the pulley and the ring increases.<br><br><b>Step 2: Component of velocity along the string</b><br>The ring moves horizontally at \\( v_{ring} = 4 \\, \\text{m/s} \\). The string must lengthen at the rate equal to the component of the ring's velocity *along the direction of the string*.<br>The angle the string makes with the vertical is \\( 60^{\\circ} \\). Therefore, the angle it makes with the horizontal velocity vector is \\( 90^{\\circ} - 60^{\\circ} = 30^{\\circ} \\).<br><br><b>Step 3: Calculate the speed</b><br>Speed of string \\( v_{str} = v_{ring} \\cos(30^{\\circ}) = 4 \times \\frac{\\sqrt{3}}{2} = 2\\sqrt{3} \\, \\text{m/s} \\).<br>Therefore, the speed of block A is \\( 2\\sqrt{3} \\, \\text{m/s} \\)."
@@ -1710,6 +1736,7 @@
         {
           id: 80, topic: "Laws of Motion",
           q: "5 men each of mass 100 kg are travelling in different cars as shown. Choose the correct alternative(s) ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhdBJUiIZrtn3gIChwPifaA83Pj6pGSnVoKk-Gq3ogctI7psIPXUNXbWHH_wso_DYn4zvUCYibm9IMEBzR7ybElBOEGEQpzhOXLjx2oK8ddDFTwdlCsBqQKG_azhyg0P3QKVhnv6yy74X86Da4yBW3VJI29y9D37LkseDk9c9TCWtGErTnNT6OtufluloGV",
           options: ["(1) pseudo force on A as seen by B will be 500 N.", "(2) pseudo force on C as seen by B will be \\( 500\\sqrt{2} \\, \\text{N} \\).", "(3) pseudo force on D as seen by B will be 1000 N", "(4) pseudo force on B as seen by E will be 1000 N"],
           correct: 0, 
           sol: "<b>Step 1: Understand Pseudo Force</b><br>A pseudo force is an apparent force observed when calculating mechanics from a non-inertial (accelerating) reference frame. It is given by \\( \\vec{F}_{pseudo} = -m_{object} \\vec{a}_{observer} \\).<br>Crucially, the magnitude of the pseudo force depends ONLY on the mass of the object being observed and the acceleration of the observer. The object's own acceleration is completely irrelevant.<br><br><b>Step 2: Apply to the specific option</b><br>We are asked about the pseudo force on A as seen by B.<br>Mass of object (A) = 100 kg.<br>Acceleration of observer (B) = \\( 5 \\, \\text{m/s}^2 \\) (to the right).<br>Magnitude of pseudo force = \\( 100 \\times 5 = 500 \\, \\text{N} \\) (pointing to the left).<br>Statement (1) correctly states the magnitude is 500 N."
@@ -1717,20 +1744,15 @@
         {
           id: 81, topic: "Laws of Motion",
           q: "There is a long chain containing infinite link. If mass of links of chain is \\( M, M/2, M/4, M/8 \\) ... then the net force on third link is :-",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEihKvQKaeE4ffw0-K2M3Pga0H22TGnAE9KBZe-iOKeho7mDWu2va6ZjH_G1gQqpAorfK9VmHZfbw89UJnd6FMUYAFvjwJ_Lpow5QPfqvEYUBBEmoncnlc1mUFyh1UpTTtcUkyUL7aYGQ-BG-o9XsdjlITqfUc6LGpD7LNE3KtqLQBQ8ooB3HTKe0uPcvwvj",
           options: ["(1) 2F", "(2) F/2", "(3) F/4", "(4) F/8"],
           correct: 3, 
           sol: "<b>Step 1: Total mass and acceleration</b><br>Assume a pulling force \\( F \\) is applied to the front of the chain.<br>The total mass of the infinite geometric series is \\( M_{tot} = M + M/2 + M/4 + \dots = \\frac{M}{1 - 1/2} = 2M \\).<br>The entire chain accelerates together at \\( a = \\frac{F}{2M} \\).<br><br><b>Step 2: Force on the specific link</b><br>By Newton's Second Law, the net unbalanced force acting specifically on any individual object is simply its mass times its acceleration: \\( F_{net} = m \times a \\).<br>The third link in the sequence has a mass of \\( M/4 \\).<br>Net force on third link = \\( \\left(\\frac{M}{4}\\right) \\times \\left(\\frac{F}{2M}\\right) = \\frac{F}{8} \\)."
         },
         {
-          id: 82, topic: "Laws of Motion",
-          q: "A helicopter is moving to the right in horizontal plane. It experiences three forces \\( \\vec{F}_{gravitational} \\), \\( \\vec{F}_{drag} \\) & upthurst force on it caused by rotor \\( \\vec{F}_{rotor} \\) and its net acceleration being 'a'. Which of the following diagrams can be correct free body diagram w.r.t. to a stationary observer on ground?",
-          options: ["(1) \\( F_{gravitational} \\) down, \\( F_{drag} \\) left, \\( F_{rotor} \\) angled up and right.", "(2) Similar to (1) but includes a distinct \\( ma \\) force arrow.", "(3) \\( F_{rotor} \\) pointing straight up.", "(4) \\( F_{rotor} \\) pointing left."],
-          correct: 0, 
-          sol: "<b>Step 1: Rules for Free Body Diagrams (FBD)</b><br>An FBD must only include actual physical forces acting on the object. It must never include purely mathematical terms like 'ma' or 'Net Force' as distinct force arrows.<br><br><b>Step 2: Balance the forces</b><br>Since the helicopter accelerates to the right, the net force must be to the right. Gravity points straight down. Drag points to the left (opposing horizontal motion).<br>To prevent falling, the rotor must provide an upward vertical component equal to gravity. To overcome drag and provide rightward acceleration, the rotor must also provide a forward (right) horizontal component.<br>Therefore, the \\( \\vec{F}_{rotor} \\) vector must point angled upwards and to the right."
-        },
-        {
           id: 83, topic: "Laws of Motion",
           q: "A monkey weighing 10 kg is climbing up a light rope which passes over an ideal pulley. The other end of the rope is attached a 15 kg mass as shown in the figure. In order to raise the 15 kg mass off the ground the monkey should climb up",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi452dAbEUZppBdwo4H3yyHuefJK1RTOPScgxtzKOmoDO8T2evzt3yXVouv6hJSnhSjQL_P2CK8wOG5jXsrLHtwicI6uIdlyd45WnIbyL0ocdgBZzWoZwNC44LoIBPZS3aq9rp2ZL3VETnD2zqVfvrzAB4XSbpOVqZRAQUVKH_f2owuW29xf_B7uz2jMVkt",
           options: ["(1) with constant acceleration \\( g/3 \\)", "(2) with an acceleration greater than \\( g/2 \\)", "(3) with an acceleration equal to \\( g/4 \\)", "(4) It is not possible because weight of monkey is lesser than the block."],
           correct: 1, 
           sol: "<b>Step 1: Requirement to lift the block</b><br>For the 15 kg mass to just lift off the ground, the tension \\( T \\) in the rope must exceed its weight. Therefore, we require \\( T > 15g \\).<br><br><b>Step 2: Monkey's motion equation</b><br>While the 15kg block is still on the ground, the rope remains stationary. The monkey climbs up the rope with absolute acceleration \\( a \\).<br>Applying Newton's Second Law to the monkey: \\( T - 10g = 10a \implies T = 10(g + a) \\).<br><br><b>Step 3: Solve the inequality</b><br>Substitute the tension expression into the lifting requirement: \\( 10(g + a) > 15g \\).<br>\\( 10g + 10a > 15g \implies 10a > 5g \implies a > g/2 \\).<br>The monkey must climb with an acceleration strictly greater than \\( g/2 \\)."
@@ -1738,6 +1760,7 @@
         {
           id: 84, topic: "Laws of Motion",
           q: "With what acceleration 'a' shown the elevator descends so that the block of mass M exerts a force of \\( Mg/10 \\) on the weighing machine :",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgg4ZUZYbx6EC7iZQ_Z05fSHBqtCTr_fasRDvAivhudyHMn9HZGmjE3AGKxGxyYGy8NnaniMOtrBMnGcQA9n_eQOz7meK9DaGsAH3R5u3GpbQ0HsrdIzvuUuFZ1H0InvO_cwva3QoMlcZNhJjTnNoKFyy0FQOZWGUguAUZHjDu0CW9_rK-nnzS_aN4yixVj",
           options: ["(1) -0.1 g", "(2) 0.1 g", "(3) 0.9 g", "(4) -0.9 g"],
           correct: 2, 
           sol: "<b>Step 1: Equation for apparent weight</b><br>The reading on the weighing machine is exactly the normal reaction force \\( N \\) exerted between the machine and the block.<br>For an elevator accelerating downwards at \\( a \\), the equation is \\( Mg - N = Ma \\).<br>Rearranging gives \\( N = M(g - a) \\).<br><br><b>Step 2: Substitute and solve</b><br>We are given that the force exerted is \\( N = Mg/10 = 0.1Mg \\).<br>\\( 0.1Mg = M(g - a) \\implies 0.1g = g - a \\implies a = g - 0.1g = 0.9g \\).<br>Since the question asks 'with what acceleration a it descends', the positive magnitude is 0.9 g."
@@ -1745,6 +1768,7 @@
         {
           id: 85, topic: "Friction",
           q: "A block of mass M placed on rough surface of coefficient of friction equal to \\( \\mu=3 \\). If F is the (4/5) of the minimum force required to just move. Find out the force exerted by ground on the block.",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjhfBn5g3vTgYwqiJreiOI5FVf2i__GkJ5MLGSHuG-BggX_Rm1v70jxx8tVStgBV1n0sN4lOEGdCvKV2qKiplBHzzY9rbgkt6yAMwTXitLRjIrAndEqWhTpMrmthqbfqwSF_wgQ-9R1ygwxAYqdyVt7FKs-mXKoK17eb1tZiNpx0URIWcL37uL2qdPQA_s0",
           options: ["(1) 2.6 Mg", "(2) Mg", "(3) 4 Mg", "(4) 3.4 Mg"],
           correct: 0, 
           sol: "<b>Step 1: Calculate applied force</b><br>Assuming a horizontal force, the minimum force to initiate movement is the limiting static friction: \\( F_{min} = \\mu N = 3Mg \\).<br>The actually applied force is \\( F = (4/5) F_{min} = 0.8 \times 3Mg = 2.4Mg \\).<br><br><b>Step 2: Determine frictional state</b><br>Since the applied force (\\( 2.4Mg \\)) is strictly less than the limiting friction (\\( 3Mg \\)), the block does not move. Static friction perfectly balances the applied force: \\( f_s = 2.4Mg \\).<br><br><b>Step 3: Calculate total ground reaction</b><br>The total force exerted by the ground is the vector sum of the Normal force (\\( N = Mg \\)) and the static friction (\\( f_s = 2.4Mg \\)).<br>\\( R = \\sqrt{N^2 + f_s^2} = \\sqrt{(Mg)^2 + (2.4Mg)^2} = Mg\\sqrt{1 + 5.76} = Mg\\sqrt{6.76} = 2.6Mg \\)."
@@ -1759,6 +1783,7 @@
         {
           id: 87, topic: "Friction",
           q: "A force acts on a block as shown in figure. Find time when block loses contact with surface. ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiKzKzsV68ZApbgZs8MXSYy71Gv7ozfroZ_Q0rr4W5mPuFxRI974qN1cgDGmYHIxeIEX0QXgCbpBqYr6dVQA-LiPuoBvNT6uI4UhvSkk2ZvpR4hjGsKKQDeETxL-u7eUCNxyy3MS5TWGUs2oY0ntYcdb3PFfYkDi6JGLjny1VKZnS8F_Q3VmNIbaIrzneye",
           options: ["(1) \\( 25/3 \\, \\text{s} \\)", "(2) \\( 50/3 \\, \\text{s} \\)", "(3) \\( 100/3 \\, \\text{s} \\)", "(4) 50 s"],
           correct: 1, 
           sol: "<b>Step 1: Condition for losing contact</b><br>A block loses contact with the ground precisely when the Normal reaction force \\( N \\) drops to zero.<br><br><b>Step 2: Set up vertical equilibrium</b><br>The upward forces are the Normal reaction and the vertical component of the applied force. The downward force is gravity.<br>\\( N + F \\sin 37^{\\circ} = mg \\).<br>Substitute \\( N = 0 \\) for the moment of liftoff: \\( F \\sin 37^{\\circ} = mg \\).<br><br><b>Step 3: Solve for time</b><br>We know \\( F = 10t \\), \\( m = 10 \\, \\text{kg} \\), and \\( \\sin 37^{\\circ} = 3/5 \\).<br>\\( 10t \\times (3/5) = 10 \times 10 \implies 6t = 100 \implies t = 100 / 6 = 50/3 \\, \\text{s} \\)."
@@ -1773,6 +1798,7 @@
         {
           id: 89, topic: "Friction",
           q: "A block of mass 5 kg is moving on rough fixed inclined plane with constant velocity of 5 m/s as shown in figure. Force of friction force acting on block by plane is. ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgQ1Bwl9CYvQQ-UjTyMOfoMSU_rnypstfwB2hS0r8YByvtGja40UNP3-aaBaGB3vkpIKREaUukC_pktKsxcOoBr8Oz9JZJnLjYEGRQBDOVvqZ1lsWLPjHCVr5RI1VtC4QDSMDm-fu0CwiAB6GosYT3UyE0FEJyMg-TQM07z1QSbSAjDk3ath6SzN9n3UdkI",
           options: ["(1) 25 N", "(2) 20 N", "(3) 30 N", "(4) None"],
           correct: 0, 
           sol: "<b>Step 1: Interpret kinematic state</b><br>The block is sliding down with a constant velocity. By Newton's First Law, constant velocity means the acceleration is exactly zero, and therefore the net force acting on the block is identically zero.<br><br><b>Step 2: Balance the forces</b><br>The forces acting parallel to the incline are the driving force of gravity down the slope and the opposing kinetic friction up the slope.<br>\\( F_{down} = f_k \implies mg \\sin 30^{\\circ} = f_k \\).<br><br><b>Step 3: Calculate friction</b><br>\\( f_k = 5 \times 10 \times 0.5 = 25 \\, \\text{N} \\)."
@@ -1780,6 +1806,7 @@
         {
           id: 90, topic: "Friction",
           q: "A block of mass 5kg is placed on a wedge having inclination of \\( 37^{\\circ} \\) with the horizontal. Coefficient of friction between block and wedge is 0.8. Then select the correct statement:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgt7bPNO3a83kTqVqNd1y0D9wF4p4BhX-b1nJkmfwQps_b0bX19M_EDdBwVw_EX8OO6_mA4A3NfeAwZ3GPK7jBoWmtCdgeJjXYGqAp8hHdeeccwe4KtI77J2AW30ZKuG3XCUXLdlUmipWhXLkJtYYrzD9s9KH98gwtvP5TQ7fypyiSw6u5WCmA2plPKgqoA",
           options: ["(1) Friction force between block and the wedge is 32 N.", "(2) Friction force between block and the wedge is 30 N.", "(3) Contact force between block and wedge is 80 N.", "(4) Contact force between block and wedge is 40 N."],
           correct: 1, 
           sol: "<b>Step 1: Driving and Limiting Forces</b><br>Driving force \\( F_{down} = mg \\sin 37^{\\circ} = 50 \times (3/5) = 30 \\, \\text{N} \\).<br>Normal Force \\( N = mg \\cos 37^{\\circ} = 50 \times (4/5) = 40 \\, \\text{N} \\).<br>Limiting maximum friction \\( f_{max} = \\mu N = 0.8 \times 40 = 32 \\, \\text{N} \\).<br><br><b>Step 2: Evaluate frictional state</b><br>Since driving force (30 N) < limiting friction (32 N), the block is statically at rest. The actual static friction force adjusts to exactly match the driving force, so \\( f_s = 30 \\, \\text{N} \\). (Option 2 is correct).<br><br><b>Step 3: Evaluate contact force (Optional)</b><br>The total contact force is \\( \sqrt{N^2 + f_s^2} = \sqrt{40^2 + 30^2} = 50 \\, \\text{N} \\). Both options 3 and 4 are false."
@@ -1787,6 +1814,7 @@
         {
           id: 91, topic: "Friction",
           q: "In the arrangement shown in figure coefficient of friction between 5kg block and incline plane is \\( \\mu=0.5 \\). Friction force acting on the 5kg block is:- ",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEimFGlQ5G7BAOPLSIuJn-z6-00Grl-4ExPPH_vlTnuJy6P5h0AGKWDVHHmoToHLiViO1M_tYXMUOayE_1X4m3WvE06d6l0Q2xwEkMylISIcFSFFXHAfYqnmT8dhCvKxCDHD0KunyC37PQYrEJGwmL7tfcAUNs5e2G_DMoG384BAGUabGkmgOpPYwx6fFTwo",
           options: ["(1) 20 N", "(2) 15 N", "(3) 10 N", "(4) 5 N"],
           correct: 2, 
           sol: "<b>Step 1: Calculate forces assuming equilibrium</b><br>Force pulling the 5kg block DOWN the incline: \\( F_{down} = 5g \\sin 37^{\\circ} = 50 \times 3/5 = 30 \\, \\text{N} \\).<br>Force pulling the 5kg block UP the incline (via string tension): \\( T = 2g = 20 \\, \\text{N} \\).<br>Net unbalanced driving force before friction: \\( 30 - 20 = 10 \\, \\text{N} \\) directed down the incline.<br><br><b>Step 2: Calculate limiting friction</b><br>Max static friction \\( f_{max} = \\mu N = 0.5 \times (5g \\cos 37^{\\circ}) = 0.5 \times 50 \times 4/5 = 20 \\, \\text{N} \\).<br><br><b>Step 3: Determine frictional state</b><br>Because the net driving force (10 N) is less than the maximum available friction (20 N), the system will remain completely at rest.<br>Static friction simply adjusts to balance the remaining force, acting UP the incline with exactly 10 N."
@@ -9689,6 +9717,7 @@
       ]
     }
   };
+
 
 
 
