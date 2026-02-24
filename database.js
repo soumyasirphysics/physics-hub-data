@@ -4953,7 +4953,7 @@
           q: "The displacement time equation of a particle executing SHM is: \\( x=A\\sin(\\omega t+\\phi) \\). At time \\( t=0 \\) position of the particle is \\( x=A/2 \\) and it is moving along negative x-direction. Then the angle \\( \\phi \\) can be :",
           options: ["(1) \\( \\pi/6 \\)", "(2) \\( \\pi/3 \\)", "(3) \\( 2\\pi/3 \\)", "(4) \\( 5\\pi/6 \\)"],
           correct: 3, 
-          sol: "<b>Step 1: Use initial position condition</b><br>At \\( t=0 \\), \\( x = A/2 \\).<br>\\( A\\sin(0 + \\phi) = A/2 \\implies \\sin\\phi = 1/2 \\).<br>This gives two possible principal values for phase: \\( \\phi = \\pi/6 \\) or \\( \\phi = 5\\pi/6 \\).<br><br><b>Step 2: Use initial velocity condition</b><br>Velocity \\( v = \\frac{dx}{dt} = A\\omega\\cos(\\omega t + \\phi) \\).<br>At \\( t=0 \\), \\( v = A\\omega\\cos\\phi \\). We are told the particle is moving in the negative x-direction, so \\( v < 0 \\), meaning \\( \\cos\\phi < 0 \\).<br><br><b>Step 3: Conclude</b><br>Out of the two angles, \\( \\cos(\\pi/6) \\) is positive and \\( \\cos(5\\pi/6) \\) is negative. Therefore, \\( \\phi = 5\\pi/6 \\)."
+          sol: "<b>Step 1: Use initial position condition</b><br>At \\( t=0 \\), \\( x = A/2 \\).<br>\\( A\\sin(0 + \\phi) = A/2 \\implies \\sin\\phi = 1/2 \\).<br>This gives two possible principal values for phase: \\( \\phi = \\pi/6 \\) or \\( \\phi = 5\\pi/6 \\).<br><br><b>Step 2: Use initial velocity condition</b><br>Velocity \\( v = \\frac{dx}{dt} = A\\omega\\cos(\\omega t + \\phi) \\).<br>At \\( t=0 \\), \\( v = A\\omega\\cos\\phi \\). We are told the particle is moving in the negative x-direction, so \\( v \\lt 0 \\), meaning \\( \\cos\\phi \\lt 0 \\).<br><br><b>Step 3: Conclude</b><br>Out of the two angles, \\( \\cos(\\pi/6) \\) is positive and \\( \\cos(5\\pi/6) \\) is negative. Therefore, \\( \\phi = 5\\pi/6 \\)."
         },
         {
           id: 7, topic: "Simple Harmonic Motion",
@@ -4981,7 +4981,7 @@
           q: "Equation of SHM of angular frequency \\( \\omega \\) and amplitude a, if the particle is situated at \\( \\frac{a}{\\sqrt{2}} \\) at \\( t=0 \\) and is going towards mean position is",
           options: ["(1) \\( x=a\\sin(\\omega t+\\frac{\\pi}{4}) \\)", "(2) \\( x=a\\sin(\\omega t-\\frac{\\pi}{4}) \\)", "(3) \\( x=a\\sin(\\omega t-\\frac{3\\pi}{4}) \\)", "(4) \\( x=a\\sin(\\omega t+\\frac{3\\pi}{4}) \\)"],
           correct: 3, 
-          sol: "<b>Step 1: Set up the general equation</b><br>Let \\( x = a\\sin(\\omega t + \\phi) \\).<br><br><b>Step 2: Apply position condition</b><br>At \\( t=0 \\), \\( x = \\frac{a}{\\sqrt{2}} \\).<br>\\( a\\sin\\phi = \\frac{a}{\\sqrt{2}} \\implies \\sin\\phi = \\frac{1}{\\sqrt{2}} \\).<br>Therefore, \\( \\phi = \\frac{\\pi}{4} \\) or \\( \\frac{3\\pi}{4} \\).<br><br><b>Step 3: Apply velocity condition</b><br>Velocity \\( v = a\\omega\\cos(\\omega t + \\phi) \\). At \\( t=0 \\), \\( v = a\\omega\\cos\\phi \\).<br>The particle is moving towards the mean position (x=0) from a positive position, which means velocity must be negative.<br>For \\( \\phi = \\pi/4 \\), \\( \\cos(\\pi/4) > 0 \\) (moving away).<br>For \\( \\phi = 3\\pi/4 \\), \\( \\cos(3\\pi/4) < 0 \\) (moving towards mean).<br>Thus, the correct equation is \\( x=a\\sin(\\omega t+\\frac{3\\pi}{4}) \\)."
+          sol: "<b>Step 1: Set up the general equation</b><br>Let \\( x = a\\sin(\\omega t + \\phi) \\).<br><br><b>Step 2: Apply position condition</b><br>At \\( t=0 \\), \\( x = \\frac{a}{\\sqrt{2}} \\).<br>\\( a\\sin\\phi = \\frac{a}{\\sqrt{2}} \\implies \\sin\\phi = \\frac{1}{\\sqrt{2}} \\).<br>Therefore, \\( \\phi = \\frac{\\pi}{4} \\) or \\( \\frac{3\\pi}{4} \\).<br><br><b>Step 3: Apply velocity condition</b><br>Velocity \\( v = a\\omega\\cos(\\omega t + \\phi) \\). At \\( t=0 \\), \\( v = a\\omega\\cos\\phi \\).<br>The particle is moving towards the mean position (x=0) from a positive position, which means velocity must be negative.<br>For \\( \\phi = \\pi/4 \\), \\( \\cos(\\pi/4) \\gt 0 \\) (moving away).<br>For \\( \\phi = 3\\pi/4 \\), \\( \\cos(3\\pi/4) \\lt 0 \\) (moving towards mean).<br>Thus, the correct equation is \\( x=a\\sin(\\omega t+\\frac{3\\pi}{4}) \\)."
         },
         {
           id: 11, topic: "Simple Harmonic Motion",
@@ -5034,6 +5034,7 @@
         },
         {
           id: 18, topic: "Graphs",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhA0Riet-8NpTA_Hxv_0A1m9nQ8cHR9NNzE9LViZAqv7uuOU2qda6NQL4VucNv40Ulb_9xmu_EdkNo4XZ1pIBrMC7gtaaIwgfSHD4BGsQ3PBSxTcZB2WAge7FZpmKvyBXNuhpBb2A9I85rJYTMVVWLQWP5EveCvHdN_Rs2nKnSJjMGaJmLWD4l6r4hNxbas",
           q: "This is the position graph of a mass on a spring. What can you say about the velocity and force at the instant indicated by the dashed line? (positive direction is to the right). ",
           options: ["(1) Velocity is zero, force is to the right", "(2) Velocity is positive, force is to the right", "(3) Velocity is negative, force is to the right", "(4) Velocity is zero, force is to the left"],
           correct: 0, 
@@ -5048,6 +5049,7 @@
         },
         {
           id: 20, topic: "Graphs",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjSbuIwBUn1zJk1X9LbezliXBBf5CmJz1jjo4AnoewnTO6q-c5cpf8DYV2eTE9nGX7_pe5MTfI9KQqCDpuPCjQ5wwwFUEOQJIMGWZy1ENhoCPJzOWnELJJRSRF7s8Vk61jL9lUeiIVsbg82nfBofeY-OY4ekvxiwZAgQdCgsAMFyVed9x6xzpJzyvgMyml0",
           q: "The x-t graph of a particle undergoing simple harmonic motion shows a sine wave starting from origin, reaching maximum at 2s, zero at 4s, and completing one full wave at 8s. Amplitude is 1cm. The acceleration of the particle at \\( t=4/3 \\) s is :- ",
           options: ["(1) \\( \\frac{\\sqrt{3}}{32}\\pi^2 \\, \\text{cm/s}^2 \\)", "(2) \\( \\frac{-\\pi^2}{32} \\, \\text{cm/s}^2 \\)", "(3) \\( \\frac{\\pi^2}{32} \\, \\text{cm/s}^2 \\)", "(4) \\( -\\frac{\\sqrt{3}}{32}\\pi^2 \\, \\text{cm/s}^2 \\)"],
           correct: 3, 
@@ -5055,6 +5057,7 @@
         },
         {
           id: 23, topic: "Simple Harmonic Motion",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjtP5yEz_X9CEA8bNCtMzdq5ZR0DehekhfoZFEkS2x7-vLrUhShPoiXrnKf4sw82VSPaJdysi0CKkaAwYE5F1RGIiS-1AIT4mL5-rey3Hii32Sd4O5wWEH5nBvTrW0hELr8sLt15_30TtfGD8JeDAn1DaT7p6a4OWehfayVrFa3nL8_pyZTSNGpetKU8ZRt",
           q: "Given figure shows the circular motion of a particle. The radius of circle is B, the period is T=30 sec, sense of revolution is clockwise and the initial position is at the positive y-axis. The simple harmonic motion of the x-projection of the radius vector of the rotation particle P is:",
           options: ["(1) \\( x(t)=B\\sin(\\frac{\\pi}{15}t) \\)", "(2) \\( x(t)=B\\cos(\\frac{\\pi}{15}t) \\)", "(3) \\( x(t)=B\\sin(\\frac{\\pi t}{15}+\\frac{\\pi}{2}) \\)", "(4) \\( x(t)=B\\cos(\\frac{\\pi t}{15}+\\frac{\\pi}{2}) \\)"],
           correct: 0, 
@@ -5083,6 +5086,7 @@
         },
         {
           id: 28, topic: "Spring-Mass Systems",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgu3iaV2CMQgA9B-GMu6Tbpxu_1ZHZv69ssMQ8GcEGVI8VLT-04L-n6nVSaiTLAd0hS50YT9Mt_XVKE4fLi8qvbPZzXrC4UEV6QvVLNXkrISjLv6VgXqHTiCJNDt0p4GvNUlYA1lVGdh_oPeD4xvzQmEml4EvYJrms3JDy3i7229NYw2_rUs1RB2YDYc6dW",
           q: "When a mass m is connected individually with two springs S1 and S2 the oscillation frequencies are n1 and n2. If the mass m is attached to the springs connected in parallel, the oscillation frequency would be :-",
           options: ["(1) \\( n_1+n_2 \\)", "(2) \\( \\sqrt{n_1^2+n_2^2} \\)", "(3) \\( (\\frac{1}{n_1}+\\frac{1}{n_2})^{-1} \\)", "(4) \\( \\sqrt{n_1^2-n_2^2} \\)"],
           correct: 1, 
@@ -5097,6 +5101,7 @@
         },
         {
           id: 30, topic: "Spring-Mass Systems",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEggSU19JK4I13UBT2qfvSUs4EH--ElsdhiZg_AiY_M__QMA4yisQ9ewdQvsdlgTHg0yRxRcXUtHYHzevD4YbcuJanDnY_MDPudmM07Fsh3IonhhnrNC6SSP7ZGojBJEnSxDr0wJ2ssmO63uZN_etpzZs8CTXK58q3gpEbFUUNHEZkFmjW9PIhsyRfHAixOT",
           q: "A block of mass m is oscillating on a smooth surface between two light springs of spring constant k separated by a distance l colliding elastically with the springs. If the velocity of the block is increased by an external impulse when it is not touching either of the spring then time period",
           options: ["(1) Increases.", "(2) Decreases", "(3) remains same.", "(4) Time period is independent of l"],
           correct: 1, 
@@ -5104,6 +5109,7 @@
         },
         {
           id: 31, topic: "Spring-Mass Systems",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhxtozASheHIKFkk3QMdBgtkVvNOdNOMsP6KBAZuFpr5epxlkbbiY90ayzKAhLoDCwMDdifiMryLnhClN8D1Z-JFAQ2eqRAYaFhBHVmwtOuqJmLDw2e39ZEMji0EKdE77cO5IkpQBXqrerO5uBiSxHYBo5eQ94fNL8cHycGTaVfZAznZ938xpJG1N0c7K8T",
           q: "One end of a spring is fixed to the ceiling and other end is attached to a block. The block is released when spring is relaxed. The product of time period and amplitude is 8 S.I. units. Spring is cut in two equal parts and the two parts are attached to the block in parallel. The block is released when both springs are relaxed. Now find the product of time period and amplitude in S.I. units.",
           options: ["(1) 2", "(2) 1", "(3) 4", "(4) 8"],
           correct: 1, 
@@ -5111,6 +5117,7 @@
         },
         {
           id: 32, topic: "Spring-Mass Systems",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjsA13MfUIU3rWQ7m45A8yXAcQkQ3ap-b7lgpDWsBVfJi9eBox8BXamderNkDIS41PZ935Kc5YD_48gnEioNJqTu0G0AdXOtv4Na4xqcp205zJihaf4zoZggR3kXt8yZHnMZi9JJnTkGaqA28BugOCOyDGe5nzIsacvoMtLS8ol3jZa4GLPqIw5iQjH2VWZ",
           q: "A mass is suspended separately by two different springs in successive order then time periods is \\( t_1 \\) and \\( t_2 \\) respectively. If its is connected by both spring in parallel, then time period is \\( t_0 \\) the correct relation is :- [Image showing two springs in parallel holding a mass]",
           options: ["(1) \\( {t_0}^2={t_1}^2+{t_2}^2 \\)", "(2) \\( t_0^{-2}=t_1^{-2}+t_2^{-2} \\)", "(3) \\( {t_0}^{-1}={t_1}^{-1}+{t_2}^{-1} \\)", "(4) \\( t_0=t_1+t_2 \\)"],
           correct: 1, 
@@ -5125,6 +5132,7 @@
         },
         {
           id: 35, topic: "Spring-Mass Systems",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjLzbZIvPJXyMLTnlMCfb-qX2eofRISWE0HnOSAIUTEeyBoZJL0KHSwWLjR690hTlpdo9rGY3gVdz5yxsUZCmi9JCzcs6HGclRkMr8u8m-ZdcDez7cmLMSXvVeI_shDEcr_1WfJMpORqhlbvMl5xkHmkB9MmYXPUXPuY2hPTMr75WqYwax-FIRuvwvyWScE",
           q: "Two masses \\( m_1 \\) and \\( m_2 \\) are suspended together by a massless spring of constant k. When the masses are in equilibrium, \\( m_1 \\) is removed without disturbing the system; the amplitude of vibration is :-",
           options: ["(1) \\( m_1g/k \\)", "(2) \\( m_2g/k \\)", "(3) \\( \\frac{(m_1+m_2)g}{k} \\)", "(4) \\( \\frac{(m_2+m_2)g}{k} \\)"],
           correct: 0, 
@@ -5132,6 +5140,7 @@
         },
         {
           id: 36, topic: "Spring-Mass Systems",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgFmU3heQwHYOzFFQTsqhkhryBlCA6xhrTXBrTG6xLzGlF8n4GICV4FM9-H2m5CWN8_ODDwMmFigNtOKltlS9eAWuB9opBnMJlYsxxNTQPgch9RMZODjH7bMl7fpWO003kDujN-nycQTrBSLwOrinkEvfZEkNyM2TKsIMm4qdrxCcAa-rpLwQpgOAjJAdZ8",
           q: "Block is in equilibrium initially. Now we displaced the block by a distance 0.4 m downward and then release. Find time taken by the block to reach the natural length of the spring :- (k=100 N/m, m=2kg)",
           options: ["(1) \\( \\frac{2\\pi}{3}\\sqrt{\\frac{2}{100}} \\)", "(2) \\( \\pi\\sqrt{\\frac{2}{100}} \\)", "(3) \\( 2\\pi\\sqrt{\\frac{2}{100}} \\)", "(4) \\( \\frac{\\pi}{3}\\sqrt{\\frac{2}{100}} \\)"],
           correct: 0, 
@@ -5202,6 +5211,7 @@
         },
         {
           id: 48, topic: "Damped & Forced Oscillations",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhyiEPx3QhkEbnDOUunaqfZhuAc3BOIshdfcaTZGCwmlOr2aD2f-GxBrPZYkNlYn9RiagWqs49i9HjKVB-zgzfVv6oEpSXTmFwLZ0DoFj9ENi4YxNpt9m8_ow3LhzhNwROtvwNf0vwyoHZ-HCCRUwWsHCRfv7TVwlGkwCFGtl1pmHUuZYZ8rYmivcOLDK4O",
           q: "Five pendulums are suspended from a common flexible rope. Pendulum 1 and 4 are identical in length. If pendulum-1 is set into oscillatory motion, choose the correct option:",
           options: ["(1) Amplitude of pendulum-4 becomes large", "(2) Driving frequency and natural frequency is same for pendulum-4", "(3) Finally the frequencies of all the pendulums will be same", "(4) All of above"],
           correct: 3, 
@@ -5209,6 +5219,7 @@
         },
         {
           id: 49, topic: "Pendulums",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhXkWRp9i1X5rj1Y_A8RpHNcECW72nxEYXJy9mf13nARS1W93a8Ton-p9I1mSJMXzyn7XEs_E1V6fSNzEJvBck8lCja20numT1z0ZqNmzFcu1Z7S-PJ_Zr21tgPJnMuQ6lYSDv8kqkDHoZNAY3yej8NQwRnrZloo1N5oNcT-yigA0RVacG2Gx5tWPELxeCJ",
           q: "The moment of inertia of the disc used in a torsional pendulum about the suspension wire is \\( 0.2 \\, \\text{kg m}^2 \\). It oscillated with a period of 2 sec. Another disc is placed over the first one and the time period of system becomes 4 sec, find the moment of inertia of the second disc :-",
           options: ["(1) 0.8", "(2) 0.6", "(3) 0.4", "(4) 0.2"],
           correct: 1, 
@@ -5254,7 +5265,7 @@
         },
         {
           id: 5, topic: "Wave Kinematics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgR4qJANaowyvEPMKd2qt0my7THMlm-r7pltBofsZCMna61-TaJ2iheDH2QtblkMhHAgsoDL3nxoibxf6T4B5b_rBXFY4My7jNL7BpdFjqcOWZWAqEba4HWttlJ42sKnsAJrogXyLybCytreid_o0hC6mK6LFInPgjuWStFFFi_jHWH2DQ5XMniY0CMKoe0",
           q: "A transverse wave is travelling along a stretched string from right to left. The figure shown represents the shape of the string (snap short) at a given instant. At this instant",
           options: ["(1) the particles at A, B and H have downward velocity", "(2) the particles at D, E and F have downward velocity", "(3) the particles at C, E and G have zero velocity", "(4) the particles at A and F have maximum velocity"],
           correct: 1, 
@@ -5262,7 +5273,7 @@
         },
         {
           id: 6, topic: "Wave Kinematics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhtbbrKkaOB_l8uTdBVCWQqeEhEkENEQGuZxV5rY2OUo7YjLlgORIkMR43UmSzh5xA6Dc5UDvB326SNEYcyuq57deZM40OrnOK6DhCVHy10a8gayoXqBhyoPtC74_m1IdkVPGgXWEqz5GR2s76anIn0stZXPkr8bMXD6bVsx-ilzFThMT9HSzIruwhZOSKl",
           q: "Figure shows a sinusoidal plot which describe the wave. Select the correct equation :-",
           options: ["(1) \\( y=A \\sin(\\omega t-kx) \\)", "(2) \\( y=A \\sin(kx-\\omega t) \\)", "(3) \\( y=A \\sin(\\omega t+kx) \\)", "(4) \\( y=-A \\sin(\\omega t+kx) \\)"],
           correct: 1, 
@@ -5340,7 +5351,7 @@
         },
         {
           id: 17, topic: "Wave Interference",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgUF7W_3nUDQqMPGpbHoRb3RY9ek2IPIPtMC22U4PGb2bC6Xc6Wt517wLtvLn10Bh0iGUCy_ehWIWOShuD19jQuyXdWSM1BKv0G07tU1n4E76tm09h9pyLb4jalCOMoCQjb510IEZew9ykV5VXd8VC2iMF7M4kjGEMGbEOAslpjB18eG3Pt7Zviqu-0Sm9b",
           q: "In the given figure two identical waves each of intensity \\( I_0 \\) 1 and 2 are superimposed. The resulting intensity is:",
           options: ["(1) \\( I_0 \\)", "(2) \\( 2\\sqrt{2}I_0 \\)", "(3) \\( 4I_0 \\)", "(4) \\( 2I_0 \\)"],
           correct: 3, 
@@ -5432,7 +5443,7 @@
         },
         {
           id: 30, topic: "Standing Waves",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgLC8B_mlVKeNypRRstlhAUcCPkwFl3FeMQUKjFXyRC9oBPBPfhkZWqWZ4kHjdf56w4TFrN09fDUy0BIPFfoR_B4CmYWwIg3WoD0fgkXPXlOkCmCLASKkl1j10Kf7sQDJkixx0Rk5t783Qz6JlzOwo5Fb5G52aifXNcPn7gqTZZKecJyFwDq7ktmYcJIoPd",
           q: "The two pipes are submerged in sea water, arranged as shown in figure. Pipe A with length \\( L_A=1.5 \\, \\text{m} \\) and one open end, contains a small sound source that sets up the standing wave with the second lowest resonant frequency of that pipe. Sound from pipe A sets up resonance in pipe B, which has both ends open. The resonance is at the second lowest resonant frequency of pipe B. The length of the pipe B is:",
           options: ["(1) 1 m", "(2) 1.5 m", "(3) 2 m", "(4) 3 m"],
           correct: 2, 
@@ -5454,7 +5465,7 @@
         },
         {
           id: 33, topic: "Standing Waves",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhJZ0zIeyCp5DzwlNtOas9chYjdLWT6Yw0dNADTsvdqyMhz2z_hdNIM9Rcntq6OqqIkARDONR3aRGNLm_b3fLigJqxQUg_g4UgrDnK7Q5GdMQfNm1invJ5eYXGcRMlv9qAXwPz_SE5WHV1iKV70mbyYC5mLNQe3L503rOihrD0pnDJtvjuN_dJYfiazNGVE",
           q: "The length of the wire shown in figure between the pulleys is 1.5 m and its mass is 12.0g. The frequency of vibration with which the wire vibrates in three loops forming antinode at the mid point of the wire is:- (Take \\( g=9.8 \\, \\text{m/s}^2 \\) and blocks of 19 kg and 9 kg on ends)",
           options: ["(1) 210 Hz", "(2) 140 Hz", "(3) 70 Hz", "(4) None of these"],
           correct: 3, 
@@ -5479,11 +5490,11 @@
           q: "A sonometer wire carries a metal block at the other end, when the block is in air, the resonant length with a tuning fork is found to be 90 cm. When the block is wholly immersed in water the resonant length with same tuning fork decreases to 80 cm. The relative density of the block is :-",
           options: ["(1) \\( \\frac{81}{17} \\)", "(2) \\( \\frac{17}{81} \\)", "(3) \\( (\\frac{9}{8})^2 \\)", "(4) \\( (\\frac{8}{9})^2 \\)"],
           correct: 0, 
-          sol: "<b>Step 1: Relate Length to Tension</b><br>Frequency \\( f = \\frac{1}{2L} \\sqrt{\\frac{T}{\\mu}} \\). Since \\( f \\) and \\( \\mu \\) are constant, \\( L \propto \\sqrt{T} \\implies T \propto L^2 \\).<br>Therefore, \\( \\frac{T_{air}}{T_{water}} = \\left(\\frac{L_{air}}{L_{water}}\\right)^2 = \\left(\\frac{90}{80}\\right)^2 = \\frac{81}{64} \\).<br><br><b>Step 2: Relate Tension to Buoyancy</b><br>Tension in air \\( T_{air} = V \\rho g \\) (where \\( \\rho \\) is the density of the block).<br>Tension in water \\( T_{water} = V \\rho g - V \\rho_w g = V g (\\rho - \\rho_w) \\).<br>Ratio: \\( \\frac{T_{air}}{T_{water}} = \\frac{\\rho}{\\rho - \\rho_w} \\).<br><br><b>Step 3: Solve for Relative Density</b><br>\\( \\frac{\\rho}{\\rho - \\rho_w} = \\frac{81}{64} \\).<br>Cross-multiplying: \\( 64\\rho = 81\\rho - 81\\rho_w \\implies 17\\rho = 81\\rho_w \\).<br>Relative density \\( \\frac{\\rho}{\\rho_w} = \\frac{81}{17} \\)."
+          sol: "<b>Step 1: Relate Length to Tension</b><br>Frequency \\( f = \\frac{1}{2L} \\sqrt{\\frac{T}{\\mu}} \\). Since \\( f \\) and \\( \\mu \\) are constant, \\( L \\propto \\sqrt{T} \\implies T \\propto L^2 \\).<br>Therefore, \\( \\frac{T_{air}}{T_{water}} = \\left(\\frac{L_{air}}{L_{water}}\\right)^2 = \\left(\\frac{90}{80}\\right)^2 = \\frac{81}{64} \\).<br><br><b>Step 2: Relate Tension to Buoyancy</b><br>Tension in air \\( T_{air} = V \\rho g \\) (where \\( \\rho \\) is the density of the block).<br>Tension in water \\( T_{water} = V \\rho g - V \\rho_w g = V g (\\rho - \\rho_w) \\).<br>Ratio: \\( \\frac{T_{air}}{T_{water}} = \\frac{\\rho}{\\rho - \\rho_w} \\).<br><br><b>Step 3: Solve for Relative Density</b><br>\\( \\frac{\\rho}{\\rho - \\rho_w} = \\frac{81}{64} \\).<br>Cross-multiplying: \\( 64\\rho = 81\\rho - 81\\rho_w \\implies 17\\rho = 81\\rho_w \\).<br>Relative density \\( \\frac{\\rho}{\\rho_w} = \\frac{81}{17} \\)."
         },
         {
           id: 37, topic: "Standing Waves",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgS7Y0s_YdNPZpak1GdkdTiOKSxCReVz3RS0OHS8-giwkOvaZ_jidGNkn8rFKzXlkuHQYn9O4Hq5sjXY3ROgVjLbL8FY-Ag1I7RjAfy3RkP8fw5p0psXKGuOu7lS5Ooa1BLJlfHvVXpKT_HwxwAt9R_kdujNxbIQM6zTFdC0Fpiprs1Yv77EWp3nedjt-Q9",
           q: "A stretched string is vibrating in its \\( 5^{th} \\) harmonic as shown. Consider a particle 1. At an instant this particle is at mean positions and is moving towards its negative extreme. Which of the following set of particles, are in same phase with particle 1.",
           options: ["(1) 2, 4, 7", "(2) 3, 5, 6", "(3) 5, 7, 8", "(4) 2, 4, 6"],
           correct: 2, 
@@ -5492,9 +5503,9 @@
         {
           id: 38, topic: "Wave Dynamics",
           q: "In case of a transverse wave in a string",
-          options: ["(1) if \\( \\frac{\\lambda}{2\\pi}>A_0 \\), maximum particle speed is more than the wave speed", "(2) if \\( \\frac{\\lambda}{2\\pi}=A_0 \\), maximum particle speed is equal to the wave speed", "(3) In harmonic wave, wave velocity is variable", "(4) In harmonic wave, particle speed is constant"],
+          options: ["(1) if \\( \\frac{\\lambda}{2\\pi} \\gt A_0 \\), maximum particle speed is more than the wave speed", "(2) if \\( \\frac{\\lambda}{2\\pi}=A_0 \\), maximum particle speed is equal to the wave speed", "(3) In harmonic wave, wave velocity is variable", "(4) In harmonic wave, particle speed is constant"],
           correct: 1, 
-          sol: "<b>Step 1: Identify speed formulas</b><br>For a transverse harmonic wave \\( y = A_0 \\sin(\\omega t - kx) \\), the maximum speed of an oscillating particle on the string is \\( v_{p,max} = A_0 \\omega \\).<br>The propagation speed of the wave itself is \\( v_{wave} = \\frac{\\omega}{k} = \\frac{\\omega}{2\pi / \\lambda} = \\frac{\\omega \\lambda}{2\pi} \\).<br><br><b>Step 2: Compare the speeds</b><br>Set them equal to test the condition: \\( v_{p,max} = v_{wave} \\implies A_0 \\omega = \\frac{\\omega \\lambda}{2\\pi} \\).<br>Canceling \\( \\omega \\) yields \\( A_0 = \\frac{\\lambda}{2\\pi} \\). Therefore, if \\( \\frac{\\lambda}{2\\pi} = A_0 \\), the maximum particle speed is exactly equal to the wave speed."
+          sol: "<b>Step 1: Identify speed formulas</b><br>For a transverse harmonic wave \\( y = A_0 \\sin(\\omega t - kx) \\), the maximum speed of an oscillating particle on the string is \\( v_{p,max} = A_0 \\omega \\).<br>The propagation speed of the wave itself is \\( v_{wave} = \\frac{\\omega}{k} = \\frac{\\omega}{2\\pi / \\lambda} = \\frac{\\omega \\lambda}{2\\pi} \\).<br><br><b>Step 2: Compare the speeds</b><br>Set them equal to test the condition: \\( v_{p,max} = v_{wave} \\implies A_0 \\omega = \\frac{\\omega \\lambda}{2\\pi} \\).<br>Canceling \\( \\omega \\) yields \\( A_0 = \\frac{\\lambda}{2\\pi} \\). Therefore, if \\( \\frac{\\lambda}{2\\pi} = A_0 \\), the maximum particle speed is exactly equal to the wave speed."
         },
         {
           id: 39, topic: "Standing Waves",
@@ -5536,7 +5547,7 @@
           q: "A car has two horns having a difference in frequency of 180 Hz. The car is approaching a stationary observer with a speed of \\( 60 \\, \\text{m/s} \\). Calculate the difference in frequencies of the notes as heard by the observer, if velocity of sound in air is \\( 330 \\, \\text{m/s} \\).",
           options: ["(1) 220", "(2) 110", "(3) 100", "(4) 300"],
           correct: 0, 
-          sol: "<b>Step 1: Set up Doppler equations</b><br>Let the two horn frequencies be \\( f_1 \\) and \\( f_2 \\), so \\( f_1 - f_2 = 180 \\, \\text{Hz} \\).<br>The apparent frequencies heard by the stationary observer are \\( f_1' = f_1 \\left(\\frac{v}{v - v_s}\\right) \\) and \\( f_2' = f_2 \\left(\\frac{v}{v - v_s}\\right) \\).<br><br><b>Step 2: Find the difference in apparent frequencies</b><br>\\( f_1' - f_2' = (f_1 - f_2) \\left(\\frac{v}{v - v_s}\\right) \\).<br><br><b>Step 3: Calculate the value</b><br>Given \\( v = 330 \\, \\text{m/s} \\) and \\( v_s = 60 \\, \\text{m/s} \\).<br>\\( \Delta f' = 180 \\times \\left(\\frac{330}{330 - 60}\\right) = 180 \\times \\left(\\frac{330}{270}\\right) = 180 \\times \\left(\\frac{33}{27}\\right) = 180 \\times \\left(\\frac{11}{9}\\right) \\).<br>\\( \Delta f' = 20 \\times 11 = 220 \\, \\text{Hz} \\)."
+          sol: "<b>Step 1: Set up Doppler equations</b><br>Let the two horn frequencies be \\( f_1 \\) and \\( f_2 \\), so \\( f_1 - f_2 = 180 \\, \\text{Hz} \\).<br>The apparent frequencies heard by the stationary observer are \\( f_1' = f_1 \\left(\\frac{v}{v - v_s}\\right) \\) and \\( f_2' = f_2 \\left(\\frac{v}{v - v_s}\\right) \\).<br><br><b>Step 2: Find the difference in apparent frequencies</b><br>\\( f_1' - f_2' = (f_1 - f_2) \\left(\\frac{v}{v - v_s}\\right) \\).<br><br><b>Step 3: Calculate the value</b><br>Given \\( v = 330 \\, \\text{m/s} \\) and \\( v_s = 60 \\, \\text{m/s} \\).<br>\\( \\Delta f' = 180 \\times \\left(\\frac{330}{330 - 60}\\right) = 180 \\times \\left(\\frac{330}{270}\\right) = 180 \\times \\left(\\frac{33}{27}\\right) = 180 \\times \\left(\\frac{11}{9}\\right) \\).<br>\\( \\Delta f' = 20 \\times 11 = 220 \\, \\text{Hz} \\)."
         },
         {
           id: 46, topic: "Doppler Effect",
@@ -5554,7 +5565,7 @@
         },
         {
           id: 48, topic: "Doppler Effect",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjoQKtVjIkVuN6jXiD6L5kb7LhAzZPhW5J9tWGoozGHiZQ0P4ph_efIikfI-SlvVfGbFuMJHOSIf7OAgEnYauvnbILyPXRFECQgihm20x_o2PZdGJKEWmxvjyPjGwYAFd5LUlUtW-u8J-17X8Iwn6WddYHROfv06BKjdyArU8iF1KAwNOakMy5FjA8GGCKN",
           q: "Two identical stationary sound sources, emit sound waves of frequency 10 Hz, and speed 300 m/sec as shown. An observer is moving between the sources with a velocity 30 m/sec. Find the beat frequency as recorded by the observer (Hz).",
           options: ["(1) 2", "(2) 1", "(3) 4", "(4) 3"],
           correct: 0, 
@@ -5569,7 +5580,7 @@
         },
         {
           id: 50, topic: "Doppler Effect",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj-XgEOJJlFyAjW5V6Ixpc2VTEbUffmYnmXmQATDT0MYW1GnpCkF3f1ZnypjDwOK_kVpEuEHyY-jesoPejHceBB6IZPIsxSKt1Iwo_U0imyHP4oCHCPVPfOwAxfgDIYDm38UM7xVkQAwrYCXPysr3qTWJs1D5YB4Ee7-ido3AwiDawafP8dRf36kAhf0QZT",
           q: "A source of sound moves along a circle of radius 2 m with constant angular velocity 40 radian/s. Frequency of the source is 300 Hz. A detector is kept of some distance from the circle in the same plane of the circle (as shown in figure). Which of the following is not the possible value of frequency registered by the detector? (Speed of sound = 320 m/s)",
           options: ["(1) 250 Hz", "(2) 360 Hz", "(3) 396 Hz", "(4) 220 Hz"],
           correct: 3, 
@@ -9781,6 +9792,7 @@
       ]
     }
   };
+
 
 
 
