@@ -3003,7 +3003,7 @@
         },
         {
           id: 6, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjgQakbn-7No75p9rJNBm1praN50CdDY3kKe6PmuJEvJwkGsjGmDW20JPXYWD74L0UqBEH1ZNvZzV9LC1QuWC38hjZLLISll_vcm3syX46bvxUOWdDLezqwQgaFFtsGWn7AFDhVmc5UJad9ij_CtX-4ZJ0McH_kowwVyrZEScud6Qo5XCX2MAUzgBxfBUM6",
           q: "Two identical rings each of mass m and radius R with their planes mutually perpendicular are welded at their point of contact O. If the system is free to rotate about an axis passing through a point P (on the circumference of Ring 1 opposite to O) perpendicular to the plane of the paper (Ring 1's plane), then the moment of inertia of the system about this axis is equal to",
           options: ["(1) \\( 6.5 \\, mR^2 \\)", "(2) \\( 12 \\, mR^2 \\)", "(3) \\( 6 \\, mR^2 \\)", "(4) \\( 11.5 \\, mR^2 \\)"],
           correct: 3, 
@@ -3011,7 +3011,7 @@
         },
         {
           id: 7, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg4n0TJ-TXI6ooH5MY_A3kr3q3I_81Cx1GEml3ww2nBWFQjAN-RTTRAQmwY6z1E6IspYiKgIEHTedxUCUcoeyXh1fz4IhFPlv1S1eJirPM5XaLd6gRxYbRHK9qmlGm5VwrmeXrFiZNRztizPNNiN2Kd7rqfPq9c1ARkCReOLBqGjy7OxFIN-lEJbmWf73vr",
           q: "The moment of inertia of a uniform flat disc about its own axis is I. The radius of the disc is a. A section ABCD of the disc in the shape of a 30° sector is cut off and separated. The moment of inertia of the remaining part of the disc about the same axis will be",
           options: ["(1) \\( \\frac{5}{6}I \\)", "(2) \\( \\frac{11}{12}I \\)", "(3) \\( \\frac{4}{5}I \\)", "(4) \\( \\frac{2}{3}I \\)"],
           correct: 1, 
@@ -3019,7 +3019,7 @@
         },
         {
           id: 8, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEit2q1dpivQFK5fFCvbRO98L9TDtsFAs7CX0ZI-QdSkY_GrLDLgiyLGpzf764vFv3UDKzwRRDRLnlmE4k12Yb5b6MF6v2E2ptHLxaUDiO77qvMq3nOH8O-jr7_ez5CjSUcgIhq7WaTdVQlbXUWWhkvttLoQ8hNAqU2zALYm67xmP3GHBd7-sWa5--V8pHYW",
           q: "Figure shows the variation of the moment of inertia of a uniform rod, about an axis passing through its centre and inclined at an angle \\( \\theta \\) to the length. The maximum value on the graph is 0.6 kg-m². The moment of inertia of the rod about an axis passing through one of its ends and making an angle \\( \\theta=\\pi/3 \\) will be:",
           options: ["(1) \\( 0.45 \\, \\text{kg-m}^2 \\)", "(2) \\( 1.8 \\, \\text{kg-m}^2 \\)", "(3) \\( 2.4 \\, \\text{kg-m}^2 \\)", "(4) \\( 1.5 \\, \\text{kg-m}^2 \\)"],
           correct: 1, 
@@ -3034,7 +3034,7 @@
         },
         {
           id: 10, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhx8qWuVmraS82lAZxWYPDVvG5IQLzCPXdtrOGYoqoRzaPGwmrNqV05xhPDhz3Fg7YqUW_FJWYP8OLDhOLG6CDQLSHIlPDejobU9_EXwLnwsviBCA3T0EpwJUl_VekWL1Y6uqdY6fwyCnaQO8GGYC7v6gF-jEMuxLZOtdEQ8hjgSclgYt07QGovNY_10EKn",
           q: "Four point masses each of value m are placed at the corners of a square ABCD of side l. The moment of inertia of this system about an axis passing through A and parallel to BD is :-",
           options: ["(1) \\( 2ml^2 \\)", "(2) \\( \\sqrt{3}ml^2 \\)", "(3) \\( 3ml^2 \\)", "(4) \\( ml^2 \\)"],
           correct: 2, 
@@ -3042,7 +3042,7 @@
         },
         {
           id: 11, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhGSjAUYSlAM_UXWih6DcykNWFHVF-6d3En7UR9GjdMoLVPGU7Q2VDO1wFOq3F1ieL10ZGx7KD4rBspR8nLAs8OYlWOundSDQkLCgpU22T4J0-6LpZbUKX7I_j2IkIv_inNce3T8f1TygJdBd4Q1I6UNDlrihczX6RwTJMTVgjQcuXPUWVuWwtSx7IqrboS",
           q: "A thin wire of length L and uniform linear mass density \\( \\rho \\) is bent into a circular loop with centre at O as shown. The moment of inertia of loop about an in-plane tangent axis XX' is:",
           options: ["(1) \\( \\frac{\\rho L^3}{8\\pi^2} \\)", "(2) \\( \\frac{\\rho L^3}{16\\pi^2} \\)", "(3) \\( \\frac{5\\rho L^3}{16\\pi^2} \\)", "(4) \\( \\frac{3\\rho L^3}{8\\pi^2} \\)"],
           correct: 3, 
@@ -3064,7 +3064,7 @@
         },
         {
           id: 14, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhNfA985n4t7XWY3XptKM87Dho34WuF32npM4c9rOxPk6GNjGh3AysSyXYw7SoNn0SpLydLp6ocUs1bcmqNMksiJATTlxsaA-QryWX512tZ-2R7yjxXQ3pwTpJGqMqL3Gv8P8qUltDK9TMg8N9qc8g2jkqt8N29TWhf5En_ib4uiQNXl4dCZyoW4FO7kV0p",
           q: "Two identical rods each of mass M and length L are kept according to figure (forming an L-shape joint at O). The moment of inertia of rods about an axis passing through O and perpendicular to the plane of rods, is :-",
           options: ["(1) \\( \\frac{1}{3}ML^2 \\)", "(2) \\( \\frac{2}{3}ML^2 \\)", "(3) \\( 2ML^2 \\)", "(4) \\( \\frac{1}{2}ML^2 \\)"],
           correct: 1, 
@@ -3072,7 +3072,7 @@
         },
         {
           id: 15, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhMFxzov20USQODICq1mRJOXyCW_KK7L3nZMLyrMpkkCmFD6OcNvK4eKtBG9r_oKM1zTc1-wWzcbbRBsQm7adTulnzDavDwvRAaTog0sY9-2L4gUxMto8CcjF33u0q5LKDg-Czu_HNBSlKxXrBOGVrarQyd55I2jDkpuTrq3OmT3TsoKBNn8DrU4tmoceWr",
           q: "In a system of four thin uniform rods are each of mass m as shown. If AE=EB, AH=HD and BC=2AB then choose the CORRECT statement:- (EG connects AB and CD; HF connects AD and BC)",
           options: ["(1) Moment of inertia of the system is minimum about EG", "(2) Moment of inertia of the system is maximum about HF", "(3) Moment of inertia of the system is minimum about HF", "(4) Moment of inertia of the system is maximum about EG"],
           correct: 0, 
@@ -3080,7 +3080,7 @@
         },
         {
           id: 16, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEidcOuW9BauSOzvf2C_Yq6DXTHmKYsNHT0WbzbZ3cObMh7L9Hwz6_s24MDph1w3EcQEW-eW-K3YFXlQ-1VdhxIS_UoyXH_Nqywvrsw_qHvls0O9RahtmRQA4xXujyLG4i-5IHeFlUwPrYNJV9S2x3D-2d8wHx3XKwxnuo9JWkZw4ak8kfrxrr7vHr7aTN8b",
           q: "A solid hemisphere and a hemispherical shell are joined as shown. Both of them has mass m/2 individually. Find out moment of inertia about axis \\( I_1 \\) (the central vertical diameter axis).",
           options: ["(1) \\( \\frac{8mR^2}{15} \\)", "(2) \\( \\frac{2}{7}mR^2 \\)", "(3) \\( \\frac{2}{5}mR^2 \\)", "(4) \\( \\frac{2}{3}mR^2 \\)"],
           correct: 0, 
@@ -3088,7 +3088,7 @@
         },
         {
           id: 17, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhSbx6kWk1NY5INWQPkyEj-tiBGJXSjodzcQshbs7gyrambnXv2GwRbeAXgXJsiHS4Y9bONOOcAkKlK9pknJ5tmRyBLev_3k7eLlmoot8SakS3ZRaWOAjnxRE5Sll3bo13BeoH2wFQ3vhiVCU1vdirw3m78zNbWmsZ539LEhIkx9Uu7Ztl1Gx3ERgpLAK-v",
           q: "An isosceles triangular plate of mass M and base L has an angle at the apex of \\( 90^{\\circ} \\). The apex lies at the origin and the base is horizontally parallel to X-axis. The moment of inertia of the plate about its base parallel to the x-axis is",
           options: ["(1) \\( \\frac{ML^2}{18} \\)", "(2) \\( \\frac{ML^2}{36} \\)", "(3) \\( \\frac{ML^2}{24} \\)", "(4) none of these"],
           correct: 2, 
@@ -3096,7 +3096,7 @@
         },
         {
           id: 18, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhSbx6kWk1NY5INWQPkyEj-tiBGJXSjodzcQshbs7gyrambnXv2GwRbeAXgXJsiHS4Y9bONOOcAkKlK9pknJ5tmRyBLev_3k7eLlmoot8SakS3ZRaWOAjnxRE5Sll3bo13BeoH2wFQ3vhiVCU1vdirw3m78zNbWmsZ539LEhIkx9Uu7Ztl1Gx3ERgpLAK-v",
           q: "An isosceles triangular plate of mass M and base L has an angle at the apex of \\( 90^{\\circ} \\). The apex lies at the origin and the base is horizontally parallel to X-axis. The moment of inertia of the plate about the y-axis (axis of symmetry) is",
           options: ["(1) \\( \\frac{ML^2}{6} \\)", "(2) \\( \\frac{ML^2}{8} \\)", "(3) \\( \\frac{ML^2}{24} \\)", "(4) none of these"],
           correct: 2, 
@@ -3104,7 +3104,7 @@
         },
         {
           id: 19, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEieBmHl8QUPg4N-9TIgfLuwQr4LOorQlx5mu6gat37uLVhV-OzZQ94qxIK2ccG9ArzZrEwPBvbMviLMwzzyV_9-zRsCnMnnPvbSg2adGcQkvfmBUMMGv-rgpfkeM47I0z6M6niJ9HTnjrJYcmtn_E1wDUcSPGFCHXIS3h1DarwsUgxVFABpdhg2wirVBNZ7",
           q: "The diagram shows a uniform disc of mass M & radius 'a'. If the moment of inertia of the disc about the axis XY is I, its moment of inertia about an axis through O and perpendicular to the plane of the disc is",
           options: ["(1) \\( \\frac{4}{3}Ma^2 \\)", "(2) \\( I+\\frac{1}{4}Ma^2 \\)", "(3) 2I", "(4) \\( \\frac{I}{2} \\)"],
           correct: 1, 
@@ -3112,7 +3112,7 @@
         },
         {
           id: 20, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhRxQEQBryZtoED9jQSvKJMRkORfLxnCUHujP4YX6Vs9KVaFsi3OhzXUI7YscPSJuBvOOZ6Nu4VVELaHBrxM7UYR8gUPkOG86sq-uOg0xt6vDLoN5_L6SKsZw8JR4VZE_im7FDvlhtEH4iS17SalKbATG7iJpkeg1ICXbwxwCt6s92ankYW7gYnGbhZPlwX",
           q: "A semicircular lamina of mass m has radius r and centre C. Its centre of mass is at a distance x from C. Its moment of inertia about an axis through its centre of mass and perpendicular to its plane is-",
           options: ["(1) \\( \\frac{1}{2}mr^2 \\)", "(2) \\( \\frac{1}{4}mr^2 \\)", "(3) \\( \\frac{1}{4}mr^2+mx^2 \\)", "(4) \\( \\frac{1}{2}mr^2-mx^2 \\)"],
           correct: 3, 
@@ -3127,7 +3127,7 @@
         },
         {
           id: 22, topic: "Torque and Angular Acceleration",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi4Rzjp-hnPsrruvlsBv4j6r6QN_xVI_imlB0BwJI6jTCqB_6OCaQYYb9vWoHhJ8TUC7SAS7JQaa28hiyQ2tt93KujAQHN54K8ferbNHC1V32trr-EFvmFqPP_BGodfA5D6qGxI1G9GV1CKWOtullaPNbdB2-FFJ-hZ7MocdIRbgsWbsakk2E1283dtIuMJ",
           q: "A uniform rod of mass M and length l is pivoted at one end so that it can rotate in a vertical plane. There is negligible friction at the pivot. The free end is held vertically above the pivot and then released. The angular acceleration of the rod when it makes an angle \\( \\theta \\) with the vertical is:",
           options: ["(1) \\( \\frac{3g}{2l}\\sin\\theta \\)", "(2) \\( \\frac{2g}{3l}\\cos\\theta \\)", "(3) \\( \\frac{3g}{2l}\\cos\\theta \\)", "(4) \\( \\frac{2g}{3l}\\sin\\theta \\)"],
           correct: 0, 
@@ -3135,7 +3135,7 @@
         },
         {
           id: 23, topic: "Torque and Angular Acceleration",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhc4RuVSZG5Q5OQgRqYezodxPPyvGp3jqSx3NG_osD97Byu67xk41Y93CBjTqzqzneEHw2pCBCElTUuHHC1QL4UcV_Mtoz9S0WWqIWsNGuyQYgueBt0RujWgk8B9TKGprZHgmy_YbOgq3DpzgUeoebW_Fmw5iZMM0Mr_SWllEDHcfiSZqFL9zdnoCI1ocA5",
           q: "In an experiment with a beam balance an unknown mass m is balanced by two known masses of 16 kg and 4 kg as shown in figure. Find the value of the unknown mass m in kg.",
           options: ["(1) 2 kg", "(2) 4 kg", "(3) 8 kg", "(4) 12 kg"],
           correct: 2, 
@@ -3150,7 +3150,7 @@
         },
         {
           id: 25, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhsukBM2q9ekgvlyWlBzz9t71UQi8V-Q5Nw-KKtqNn6ikSh2DVk7AuZzMUnMv-2y0xtYYfiAEE4mDu3nlUoHcKvaefrF7oyB90aE8OsE9r56vZiee1F48tScPjYVGgbvYTtVNn6LpDPxaR_fBo5MWc7mEVw3kcQ5LIoH8EjtaE-_bf0FN-OEdnqLEargDRM",
           q: "A rod has non uniform mass distribution. The mass increases uniformly from left end (A) to right end (B). It is most difficult to rotate the rod about an axis",
           options: ["(1) Passing through A", "(2) Passing through B", "(3) Passing through x (center)", "(4) Passing through y"],
           correct: 0, 
@@ -3158,7 +3158,7 @@
         },
         {
           id: 26, topic: "Torque and Angular Acceleration",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiy4sgr6oayVz7whfE6A63CwdlWUEnq6fB3-eDPg1m2QvVnN-kRCT6cjfiu2sXFICBudEUt0bseV6OHpPVkaYiPTICTn_JJ0Gpo_bQG0VXzHV2lTtpvGVgxOEaV0q3s2h3v0xPPWFJGPTnV89X0TSzhCwvmLq50U5diKM_cuHcRUbBwyyV3HLLF6qP0qyPa",
           q: "In the balance machine shown in the figure, which arm will move downward after the system is released from rest (assuming string, arm of balance machine and the pulley to be light)",
           options: ["(1) Left", "(2) Right", "(3) remains stationary", "(4) none of these"],
           correct: 0, 
@@ -3166,7 +3166,7 @@
         },
         {
           id: 27, topic: "Torque and Angular Acceleration",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEguVSl0ECrjAq-rl1qX43LoTgshqYxzA2dtE-CvQAL-yvsC6yZLpOA09fXYl8RN5oVWZuAK9Uy9LMW3bqLKEWDDXTas0P9DzyvaCPuwbfnbkiqD8yLnQFMhsIhe-FH-A6WEEm7g0AmH7At2sxut_UuExwhGMnDJ-N7kIvUf1S0ffvjFzMLuzVrcWBQFQdHx",
           q: "A uniform disc of mass M=2.50 kg and radius R=0.20 m is mounted on an axle supported on fixed frictionless bearings. A light cord wrapped around the rim is pulled with a force 5N. On the same system of pulley and string, instead of pulling it down, a body of weight 5N is suspended. If the first process is termed A and the second B, the tangential acceleration of point P will be",
           options: ["(1) equal in the processes A and B.", "(2) greater in process A than in B.", "(3) greater in process B than in A.", "(4) independent of the two processes."],
           correct: 1, 
@@ -3174,7 +3174,7 @@
         },
         {
           id: 28, topic: "Torque and Angular Acceleration",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiZ0Bvrks8HM_yKMoNYOIc5LRKlRAByZZr5wKMazydPP11UAdx814mImCNJZqNtrNdQkJs0EqR2euF1RdStiZF9kOjyzs95RoJLp1ImLUE63Nh0MptXeeg3j3dmLdqMLTtWMKxQO441wCsmSyjoRhVeCw7HyZN-eCNP9IOzKKU-vNzCXPGkEGpodzg9K5VH",
           q: "A uniform beam of weight W is attached to a vertical wall by a hinge H. The beam is held horizontal by a rope as shown below. Which one of the following best shows the direction of the reaction force R at the hinge ?",
           options: ["(1) R pointing Up and Right", "(2) R pointing Straight Right", "(3) R pointing Down and Right", "(4) R pointing Straight Up"],
           correct: 0, 
@@ -3189,19 +3189,11 @@
         },
         {
           id: 30, topic: "Torque and Angular Acceleration",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh5PJ2AsD-fKG3Uwb9tbXsnQOgIBklQgSUMZZRTOeCPiTHByc1jgzBZzxfdJuBhZqr9V0ujfaIdsbFay-SgvwR4JVB-Ng7a_ccnChbadi-PqqSQlFxr-HISbD_1VBUsfV-uD7iFBHCHFB23ifUJFjj_hu125mvrIGOnL_22W50uDDiZrW35w6PU2HENHOay",
           q: "Two persons of equal height are carrying a long uniform wooden beam of length l. They are at distance l/4 and l/6 from nearest end of the rod. The ratio of normal reaction at their heads is",
           options: ["(1) 2:3", "(2) 3:2", "(3) 4:3", "(4) 3:4"],
           correct: 2, 
           sol: "<b>Step 1: Identify distances from the Center of Mass</b><br>Let the beam length be \\( l \\). Its Center of Mass (CM) is exactly at the middle: \\( l/2 \\).<br>Person A is at \\( l/4 \\) from the left end. Distance from CM: \\( d_A = l/2 - l/4 = l/4 \\).<br>Person B is at \\( l/6 \\) from the right end. Distance from CM: \\( d_B = l/2 - l/6 = 3l/6 - l/6 = 2l/6 = l/3 \\).<br><br><b>Step 2: Apply rotational equilibrium</b><br>To prevent the beam from rotating, the torque about the Center of Mass must be zero.<br>\\( N_A \times d_A = N_B \times d_B \\).<br><br><b>Step 3: Solve for the ratio</b><br>\\( N_A \left(\\frac{l}{4}\\right) = N_B \left(\\frac{l}{3}\\right) \\).<br>\\( \\frac{N_A}{N_B} = \frac{l/3}{l/4} = \frac{1/3}{1/4} = \frac{4}{3} \\). The ratio is 4:3."
-        },
-        {
-          id: 31, topic: "Torque and Angular Acceleration",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "A uniform beam of weight W is attached to a vertical wall by a hinge H. The beam is held horizontal by a rope as shown below. Which one of the following best shows the direction of the reaction force R at the hinge ?",
-          options: ["(1) R pointing Straight Right", "(2) R pointing Straight Up", "(3) R pointing Up and Right", "(4) R pointing Down and Right"],
-          correct: 2, 
-          sol: "<b>Step 1: Equilibrium conditions for rigid bodies</b><br>For a rigid body to be in static equilibrium under exactly three non-parallel coplanar forces, the lines of action of all three forces must intersect at a single common point.<br><br><b>Step 2: Trace the known force lines</b><br>The weight \\( W \\) acts vertically downward from the center of the beam. The tension \\( T \\) acts diagonally up and to the left along the rope from the end of the beam. The intersection of these two lines of action is a point vertically above the midpoint of the beam.<br><br><b>Step 3: Determine Reaction direction</b><br>The line of action for the hinge reaction force \\( R \\) must pass through this same intersection point. Drawing a line from the hinge H to that intersection point yields a vector that points Up and to the Right."
         },
         {
           id: 32, topic: "Torque and Angular Acceleration",
@@ -3219,7 +3211,7 @@
         },
         {
           id: 34, topic: "Torque and Angular Acceleration",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgIGZ0OngFi182zGqGbinkerXqtjQ3kTmmwRL9gPT1HWH6DRWNsBsGIu3OZxJQvATS3UotFZBnc7j_5ivNPCm41DL1aYWvDou0Ec5IdAYj0QM5msCHCEUvQ7wrFQnI6myBoE9wGz-eq1B19iFuEYVN8YLPXZf98hAp4GTLYqFvII6Usj_6p7rSgTaxJi1kx",
           q: "A 10 kg uniform rod OA is pivoted at O on a vertical wall with help of cable AB. (Cable makes 30° with rod). Find reaction force applied by pivot.",
           options: ["(1) 100 N", "(2) \\( 100\\sqrt{2} \\, \\text{N} \\)", "(3) 50 N", "(4) \\( 50\\sqrt{2} \\, \\text{N} \\)"],
           correct: 0, 
@@ -3234,7 +3226,7 @@
         },
         {
           id: 36, topic: "Torque and Angular Acceleration",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj6MAbNImTAVZxryJbeUn2Or22GuOEx_r3E3SD1RMRhWGh7apJWa_33_BCN36T3k7c0DOWIgwXFIqWdlZ7Eni_rnZLfS4MLH1ZWrZhHusjZeez3IXh4DfsmiZR476uVf96T9OmuL1uF4rLoqX9_85cviDxEB-FCRhGHeDFk43RKv29qViHGcSjS3AbkdC-c",
           q: "Same number of books are placed in four book cases as shown. Which bookcase is most likely to topple forward if pulled a little at the top towards right?",
           options: ["(1) Case 1 (Books at top shelf)", "(2) Case 2 (Books at bottom shelf)", "(3) Case 3 (Books at right side)", "(4) Case 4 (Books at left side)"],
           correct: 0, 
@@ -3249,7 +3241,7 @@
         },
         {
           id: 38, topic: "Torque and Angular Acceleration",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj7E86DkR0cxQztZlw7hdVV2O34l_sR-kgqbzisBX3IDvirES4dq8rZZIC7LUYXABl4GdZXIOKLBsfLyE6vd6gbz_9jcbxnUxwwLkAnOGORWm9PVx4Ot3Xmp-4fRc31MyYH14s8kS-7EqvqLJkTZIXRF8e1sp2OqO20GMHi-npg8kvsll-iP7ltajygyRBz",
           q: "Three parallel forces are acting on a rod at distances of 40 cm (F up), 60 cm (2F down) and 80 cm (F up) respectively from one end of the rod. Assuming no other forces, the rod will:",
           options: ["(1) be at rest", "(2) exhibit rotational motion only", "(3) exhibit translational motion", "(4) exhibit combined rotational and translational motion"],
           correct: 0, 
@@ -3306,19 +3298,11 @@
         },
         {
           id: 46, topic: "Angular Momentum",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiNJdBXRNkFYmLsD32uS_z8Gib4KY2Sm1aY0RfUpDkbtrQR-cYQ1pCqUIwCAW9zYYUP3xa-x1SEoSTz4Nd8SrmmsjuLqZrakox8gY5oaXCe3TC3ZWFYZWqCb3V5FvoBvfqRBthKJv6zPHncwflKgk3yXScf8JG6Y5NfMShwTD84sBBzEnrTQ7bcrKGcDDZg",
           q: "A mass m moves in a circle on a smooth horizontal plane with velocity \\( v_0 \\) at a radius \\( R_0 \\). The mass is attached to a string which passes through a smooth hole in the plane. The tension in the string is decreased gradually and finally m moves in a circle of radius \\( 2R_0 \\). The final value of the kinetic energy is:",
           options: ["(1) \\( \\frac{1}{4}mv_0^2 \\)", "(2) \\( 2mv_0^2 \\)", "(3) \\( \\frac{1}{2}mv_0^2 \\)", "(4) \\( \\frac{1}{8}mv_0^2 \\)"],
           correct: 3, 
           sol: "<b>Step 1: Apply Conservation of Angular Momentum</b><br>Since the tension force acts radially through the hole, the external torque about the hole is zero. Thus, angular momentum \\( L \\) is conserved.<br>\\( L_i = L_f \\implies m v_0 R_0 = m v_f (2R_0) \\).<br>\\( v_f = \\frac{v_0 R_0}{2R_0} = \\frac{v_0}{2} \\).<br><br><b>Step 2: Calculate Final Kinetic Energy</b><br>Final KE \\( K_f = \\frac{1}{2} m v_f^2 = \\frac{1}{2} m \\left(\\frac{v_0}{2}\\right)^2 \\).<br>\\( K_f = \\frac{1}{2} m \\frac{v_0^2}{4} = \\frac{1}{8} m v_0^2 \\)."
-        },
-        {
-          id: 47, topic: "Angular Momentum",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
-          q: "A mass m moves in a circle on a smooth horizontal plane with velocity \\( v_0 \\) at a radius \\( R_0 \\). The mass is attached to a string which passes through a smooth hole in the plane as shown. The tension in the string is decreased gradually and finally m moves in a circle of radius \\( 2R_0 \\). The final value of the kinetic energy is :-",
-          options: ["(1) \\( \\frac{1}{4}mv_0^2 \\)", "(2) \\( 2mv_0^2 \\)", "(3) \\( \\frac{1}{2}mv_0^2 \\)", "(4) \\( \\frac{1}{8}mv_0^2 \\)"],
-          correct: 3, 
-          sol: "<b>Step 1: Apply Conservation of Angular Momentum</b><br>Since the tension force acts radially towards the hole, it produces no torque about the hole. Thus, angular momentum \\( L \\) is strictly conserved.<br>\\( L_i = L_f \\implies m v_0 R_0 = m v_f (2R_0) \\).<br>\\( v_f = \\frac{v_0 R_0}{2R_0} = \\frac{v_0}{2} \\).<br><br><b>Step 2: Calculate Final Kinetic Energy</b><br>Final KE \\( K_f = \\frac{1}{2} m v_f^2 = \\frac{1}{2} m \\left(\\frac{v_0}{2}\\right)^2 \\).<br>\\( K_f = \\frac{1}{2} m \\frac{v_0^2}{4} = \\frac{1}{8} m v_0^2 \\)."
         },
         {
           id: 48, topic: "Angular Momentum",
@@ -3336,7 +3320,7 @@
         },
         {
           id: 50, topic: "Rolling Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgtKIkqaEfHqf_07WF0ucJB6NKJknJMpqeCgRwyvrcrKDyDsBs-J4luOjSWoRJ1DdWLR1PMJ9Jwmh0sWB81kdRItZU0f9Ycd0pjMVaku6M85hELVXsMwRSG2R_siqk8Hu1yoL9RQXsr0RHb-TO2TzTH4DCPT2VCtlk6BQZqsGbGpECamKFpIJ2ZZwzhNXKV",
           q: "A wheel of radius R=0.1 m is rolling without slipping on a horizontal surface as shown in the figure. Centre of the wheel moves with a constant speed \\( \\sqrt{3} \\, \\text{m/s} \\). The speed of the point P with respect to ground is",
           options: ["(1) \\( 2\\sqrt{3} \\, \\text{m/s} \\)", "(2) zero", "(3) \\( 3 \\, \\text{m/s} \\)", "(4) \\( \\sqrt{3} \\, \\text{m/s} \\)"],
           correct: 2, 
@@ -3344,7 +3328,7 @@
         },
         {
           id: 51, topic: "Rolling Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi3-RMIwPEBmiFX_E6R6bHiz3QYTcGl4PWAfcX1hzVD_Zfex7UeJnn2aLIwuLZvT1c0zmTby-CwMTwdoN-SZGZ4-BDTEkox68dgYhpU_x35h1k2mraTF7c8LQAA7z_DSjCo8TfW0SYR5H9NLkI0tlbJdy5W4TCrvdke3wRJ9a30YgZd3WIgqpUmbyrHOWSk",
           q: "A solid sphere of mass m is placed on a rough inclined plane as shown in figure. The coefficient of friction \\( \\mu \\) is not sufficient for pure rolling. The centre of sphere slides a length l on the incline from rest and its kinetic energy becomes K. Then work done by friction will be :-",
           options: ["(1) \\( \\mu mgl \\cos\\theta \\)", "(2) \\( K - mgl \\sin\\theta \\)", "(3) \\( -\\frac{2}{5} \\mu mgl \\sin\\theta + K \\)", "(4) \\( -\\frac{2}{5} mgl \\sin\\theta \\)"],
           correct: 1, 
@@ -3387,7 +3371,7 @@
         },
         {
           id: 57, topic: "Rolling Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgvpGYupJtsT3q-iw0mpjkJl2fgcyoC1-OELX9suKF4g1Cuv0IxitS9fk1mQ91p27mQoRUE5xw4PLLoAjc4ansEtpbOshPMU8lDKXhCcfjf4vbwWhD9BsSLxgnpvf9TeUP22MaF10ni7Xt46sN6acTYXZQBzc3NrxZKfpCE5eLso7-2d7ozNwAL26W_-n4q",
           q: "In the following figure, a sphere of radius 3 m rolls on a plank. The accelerations of the sphere and the plank are indicated. The value of \\( \\alpha \\) is (Given \\( a_1=3 \\, \\text{m/s}^2 \\) for sphere CM, and \\( a_2=6 \\, \\text{m/s}^2 \\) for plank, both to the right)",
           options: ["(1) \\( 3 \\, \\text{rad/s}^2 \\)", "(2) \\( 6 \\, \\text{rad/s}^2 \\)", "(3) \\( 3 \\, \\text{rad/s}^2 \\) (opposite to the direction shown in figure)", "(4) \\( 1 \\, \\text{rad/s}^2 \\)"],
           correct: 3, 
@@ -3395,7 +3379,7 @@
         },
         {
           id: 58, topic: "Rolling Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj7olFzbltXwlP7Me4qiyHBRqBvoOVPqdDR8fOTgFcmphYwo44hydIsFBF5ukXkBo3yXSd51ud_HfSfZ7DTFSzjt6Y4jstYrStfEvFIph8A1aHXmlLMnRJqjOWrqvf7hkRmdO-bRB0-jBGoylgGYrljjgvDNBaJvd7YfYJl9771bGI42HUOtg-QR-qcD_3V",
           q: "A disc of the radius R is confined to roll without slipping at A and B. If the plates have the velocities v and 2v as shown, the angular velocity of the disc is (Top plate A moves left with 2v, bottom plate B moves right with v)",
           options: ["(1) \\( \\frac{3v}{2R} \\) Anticlockwise", "(2) \\( \\frac{3v}{2R} \\) Clockwise", "(3) \\( \\frac{v}{2R} \\) Anticlockwise", "(4) \\( \\frac{v}{2R} \\) Clockwise"],
           correct: 0, 
@@ -3417,7 +3401,7 @@
         },
         {
           id: 61, topic: "Rolling Motion",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgqutCQxvkn-fypOUZVsDrBsjZXRB6lTwCNjnbBcrIML8DYUFZdsogGrGBD1v5UYZLLi7sBKGkqmQzOsodoQHldqu0LQgX48yCvCvhoan7FJ8Wsy9b-fEmbxRWstmSTbFS3MoGXeMMKjBEF7-ZCrSrewzOGAeio26zyddiFuKzY5MZtB2z_FZAK6hjAHVVT",
           q: "Figure shows a smooth inclined plane of inclination \\( \\theta \\) fixed in a car. A sphere is set in pure rolling on the incline. For what value of 'a' (the acceleration of car in horizontal direction) the sphere will continue pure rolling?",
           options: ["(1) g", "(2) \\( g \\sin\\theta \\)", "(3) \\( g \\cot\\theta \\)", "(4) \\( g \\tan\\theta \\)"],
           correct: 3, 
@@ -9798,6 +9782,7 @@
       ]
     }
   };
+
 
 
 
