@@ -3313,7 +3313,7 @@
         },
         {
           id: 49, topic: "Angular Momentum",
-          q: "A uniform smooth rod of mass M and length L rotating about own axis with angular speed \\( \\omega \\). There are two beads each of mass m \\( (m<<M) \\) at the centre and its opposite sides to rotational axis. During rotation of rod beads starts to slide on opposite ends of rod. Then angular speed of system when beads reached up to ends of rod.",
+          q: "A uniform smooth rod of mass M and length L rotating about own axis with angular speed \\( \\omega \\). There are two beads each of mass m (m<<M) at the centre and its opposite sides to rotational axis. During rotation of rod beads starts to slide on opposite ends of rod. Then angular speed of system when beads reached up to ends of rod.",
           options: ["(1) \\( \\frac{M\\omega}{M+6m} \\)", "(2) \\( \\frac{M\\omega}{M+2m} \\)", "(3) \\( \\omega \\)", "(4) None of these"],
           correct: 0, 
           sol: "<b>Step 1: Initial Moment of Inertia</b><br>Initial system MOI includes the rod and the beads at the center (r=0).<br>\\( I_i = I_{rod} + 2m(0)^2 = \\frac{ML^2}{12} \\).<br><br><b>Step 2: Final Moment of Inertia</b><br>Final system MOI includes the rod and the beads at the extreme ends (r=L/2).<br>\\( I_f = \\frac{ML^2}{12} + 2m\\left(\\frac{L}{2}\\right)^2 = \\frac{ML^2}{12} + \\frac{2mL^2}{4} = \\frac{ML^2}{12} + \\frac{mL^2}{2} \\).<br>Factor out \\( L^2/12 \\): \\( I_f = \\frac{L^2}{12} (M + 6m) \\).<br><br><b>Step 3: Conservation of Angular Momentum</b><br>\\( I_i \\omega_i = I_f \\omega_f \\implies \\left(\\frac{ML^2}{12}\\right) \\omega = \\left(\\frac{L^2(M+6m)}{12}\\right) \\omega_f \\).<br>\\( \\omega_f = \\frac{M\\omega}{M+6m} \\)."
@@ -9782,6 +9782,7 @@
       ]
     }
   };
+
 
 
 
