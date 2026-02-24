@@ -2962,7 +2962,7 @@
     // ==========================================
     "Rotational Motion": { 
       classTarget: "Class 11", 
-      totalQs: 60, 
+      totalQs: 61, 
       topics: ["Moment of Inertia", "Kinematics of Rotational Motion", "Torque and Angular Acceleration", "Angular Momentum", "Rolling Motion"],
       questions: [
         {
@@ -3601,7 +3601,7 @@
       questions: [
         {
           id: 16, topic: "Fluid Statics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhetBkl33y4f941aQC3XbhhehGbv160WEFR0gZRjGrdfzhIsZC5uxNS-wmA7CjYlrGi-AEm8YrdJSkrFwzYCDxVG7g_St7CP6-gntYoQWYJX0WGToFpvLLUEsqOVBDZx_AnjYwbvFeSqow8xC-S01_2dINCzIwUIFeku3eQNiPIw3kKYmOLX3tlxHs2ybuz",
           q: "The area of cross-section of the two vertical arms of a hydraulic press are \\( 1 \\, \\text{cm}^2 \\) and \\( 10 \\, \\text{cm}^2 \\) respectively. A force of 10 N applied, as shown in the figure, to a tight fitting light piston in the thinner arm balances a force F applied to the corresponding piston in the thicker arm. Assuming that the levels of water in both the arms are the same, we can conclude:-",
           options: ["(1) \\( F=100 \\, \\text{N} \\)", "(2) \\( F=50 \\, \\text{N} \\)", "(3) \\( F=25 \\, \\text{N} \\)", "(4) F, as applied, cannot balance the effect of the force on the first piston"],
           correct: 0, 
@@ -3609,7 +3609,7 @@
         },
         {
           id: 17, topic: "Fluid Statics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiuPcW_LTPshsKufXV6q_tEm6wG9o3jD3ZA9ok8_6mVd8VqL_kBlSE6Vt-Ys68rMvXhigOMGq1ZR4t6UU0raBaUdClBA_I6gv1KRMgiH_SNbTtC-sKWYr8mQVNoKohmJ-4ats87qop3cePFyHbjnF7nPyVHJbX3qSai1OD44nWVtymx0halPlCo_tuP_wtI",
           q: "Rank in order, from largest to smallest, the magnitudes of the forces \\( \\vec{F}_a \\), \\( \\vec{F}_b \\) and \\( \\vec{F}_c \\) required to balance the masses. The masses (on same area) are in kilograms.",
           options: ["(1) \\( F_a=F_b=F_c \\)", "(2) \\( F_a>F_b=F_c \\)", "(3) \\( F_b>F_a=F_c \\)", "(4) \\( F_c>F_a>F_b \\)"],
           correct: 2, 
@@ -3617,7 +3617,7 @@
         },
         {
           id: 18, topic: "Fluid Statics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj9dacCIL3EpwNqBS_hLHqjCmIuGJnoe1KTgIvMxzk-8OFjIWZgThob56EP0zIrdHxasZjgXaa7fnR7SrPZZzrRJVbYFWVQ5JQwmRm-JguzsJmLXqXKlZw5RDOieMFyxjuXkhuUSC5KJlfiXGSEBxDJyctZaYACgsw6UKOB5d-EhTqRQmmLdP6GtagTV4Tx",
           q: "The limbs of a U-tube glass are lowered into vessels A and B, A containing water. Some air is pumped out through the top of the tube C. The liquids in the left hand limb A and the right hand limb B rise to heights of 10 cm and 12 cm respectively. The density of liquid B is",
           options: ["(1) \\( 0.75 \\, \\text{g/cm}^3 \\)", "(2) \\( 0.83 \\, \\text{g/cm}^3 \\)", "(3) \\( 1.2 \\, \\text{g/cm}^3 \\)", "(4) \\( 0.25 \\, \\text{g/cm}^3 \\)"],
           correct: 1, 
@@ -3625,7 +3625,7 @@
         },
         {
           id: 19, topic: "Fluid Statics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjqKE0Vnpvw3O8AoC3Tb7FU0O_offAjI-9uhq6xDGjgRU3N5L3WMRRJIy9aphUfYzh2T0k8TZRYj-C14NFDLe_B5sfNZ3iaMpOGZDD83ppN6r5BMj8Tg7hj1Yhw-K5L5pa6fbDudiQlz4bnMgdJ5ZI3p0i5zODFAzwaZNIVPERuCw4gB5MVU21J1AXdEErW",
           q: "A liquid of mass 1 kg is filled in a flask as shown in figure. The force exerted by the flask on the liquid is \\( (g=10 \\, \\text{m/s}^2) \\) [Neglect atmospheric pressure]:",
           options: ["(1) 10 N", "(2) greater than 10 N", "(3) less than 10 N", "(4) zero"],
           correct: 0, 
@@ -3633,7 +3633,7 @@
         },
         {
           id: 20, topic: "Fluid Statics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEicnosihJQPVM7kpJ9nKiNT1IWuDL9aKBQ4DbkV8E5R4zOQ7uLjeOfl2mkiLOk4JimrR2WLWPpfy21zAX6uFvEKmMgDY4hEuSkPp2Ye4sz9LdeLDBPOgO9m91aBW9eq2cawFYaTf01IYVZrjpzjFl51IG57SXz3MVkihA0X7sYkgSvts9u1KeN8oSPYZVuD",
           q: "The area of cross section of the widest tube shown in the figure is \\( 800 \\, \\text{cm}^2 \\). If a mass of 12 kg is placed on the massless piston, the difference in the heights h in the level of water in two tubes :",
           options: ["(1) 10 m", "(2) 6 cm", "(3) 15 cm", "(4) 2 cm"],
           correct: 2, 
@@ -3655,7 +3655,7 @@
         },
         {
           id: 23, topic: "Buoyancy & Archimedes Principle",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgS8ycvIL-O_0f59i2uIfztQrn79hSUSWOCxnd4MNMeHQcFORDxrDJfXPejZM2AxTEyB-IPq8zec7MFudCM4cCgA3NQ3Db31WdUGCTTTMEKFkUlhme6Wfw6EYlC55zbpzG-JFQYfi5sA6JXU030Ce9YBuLyaZFDSNYa2F0PocSjGI03_OhOfeDPM38yiDRf",
           q: "A solid sphere of density \\( \\eta \\) (>1) times lighter than water is suspended in a water tank by a string tied to its base as shown in the figure. If the mass of sphere is m then tension in the string is given by:-",
           options: ["(1) \\( \\left(\\frac{\\eta-1}{\\eta}\\right)mg \\)", "(2) \\( \\eta mg \\)", "(3) \\( \\frac{mg}{(\\eta-1)} \\)", "(4) \\( (\\eta-1)mg \\)"],
           correct: 3, 
@@ -3663,7 +3663,7 @@
         },
         {
           id: 24, topic: "Buoyancy & Archimedes Principle",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEggb2nkBXvS3HuFf5aMYUWD565KdvrYgb6zvJX6RGxWa49vbgLx4QJXysDMBy3WWvxrKlzsjPcKH9cG2Mln1tgUwj8ZNrevTUKiCjYeLIIKmN4phvRMv8cwhEGosNf5OfZKLXApE8CECNyv2WGMSiXDJIkFwPJ5MQgrGzziCyPTTQpbGScX-38puivSFaG6",
           q: "A cube of mass m and density D is suspended from a point P by a spring of stiffness k. the system is kept inside a beaker filled with a liquid of density d. The elongation in the spring, assuming D>d, is:",
           options: ["(1) \\( \\frac{mg}{k}\\left(1-\\frac{d}{D}\\right) \\)", "(2) \\( \\frac{mg}{k}\\left(1-\\frac{D}{d}\\right) \\)", "(3) \\( \\frac{mg}{k}\\left(1+\\frac{d}{D}\\right) \\)", "(4) \\( \\frac{mg}{k}\\left(1+\\frac{D}{d}\\right) \\)"],
           correct: 0, 
@@ -3706,7 +3706,7 @@
         },
         {
           id: 30, topic: "Fluid Statics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg6smU4D3Jc7_u5dyQ9KKifXzKBpMmEQArYXNxTxqjNtH9OVatyFX55GcKUTQSJ9wBfGwrBphEovPy07q4bPjoq9NY0wdFs0Qn2yHMLPfhzCix24iM1Lb2FP_plJVyKBrrejeN3F_UjoEYwYJZmE3ZitYaa0p7WrXDRClf4DINQZaphEyAx9TmWKzNyk5QF",
           q: "In the figure shown water is filled in a symmetrical container. Four pistons of equal area A are used at the four opening to keep the water in equilibrium. Now an additional force F is applied at each piston. The increase in the pressure at the centre of the container due to this addition is",
           options: ["(1) \\( \\frac{F}{A} \\)", "(2) \\( \\frac{2F}{A} \\)", "(3) \\( \\frac{4F}{A} \\)", "(4) 0"],
           correct: 0, 
@@ -3714,7 +3714,7 @@
         },
         {
           id: 31, topic: "Buoyancy & Archimedes Principle",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEheB3AUowJ2Cqf6ug_Mb7WaULld_HGGaFgCNHA7XrH4O6KD_8ht8_-NXlXrOEZqXLexaaatO7UCayIHJ2JnAAmjVbtq0aY7W2AsgTqwArZOgAfU-oi3WxkN5iMqibcy6qOpcV5IG4sQNoqZS6zsbze7shTF5QsryLHSl5QXO8Wu47ARpJbdTmk4sQXMCBq-",
           q: "An empty glass jar is submerged in tank of water with open mouth of the jar downwards, so that air inside the jar is trapped and cannot get out. As the jar is pushed down slowly, the magnitude of net buoyant force on the system of volume of gas trapped in the jar and on the jar:",
           options: ["(1) increases", "(2) decreases", "(3) remains same", "(4) Information is insufficient to draw inference."],
           correct: 1, 
@@ -3722,7 +3722,7 @@
         },
         {
           id: 32, topic: "Buoyancy & Archimedes Principle",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEibSZ112JBlarHvChz9Z0Yg8lyEY9JoJIS1aD3HFlDcWub7nHyhqe1mzkqHZMC8CTx7XPWwlFsb64m52jbgq2jwv4XOJFZYdzORYKRe9mdhCEyWEUQD8ra9DdEuK9SJ6jF4d5v8IGxptAwhbtgrOxWOlPniuj5wHGqC0W5ZtkyUzZ5hthjSL-fMBNVVMKeB",
           q: "A vessel filled with water is kept on a weighing pan and the scale adjusted to zero. A block of mass m and density \\( \\rho \\) is suspended by a massless spring of spring constant K. This block is submerged into the water in the vessel. What is the reading of the scale. (volume submerged is V and density of water is \\( \\rho_w \\))",
           options: ["(1) \\( V\\rho_w g \\)", "(2) \\( V\\rho g \\)", "(3) \\( m_{vessel}+m_{water} \\)", "(4) None of these"],
           correct: 0, 
@@ -3737,7 +3737,7 @@
         },
         {
           id: 34, topic: "Fluid Statics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi9mZ0RDxssctRNMqCYSfJQG-vOHlWWHgBkAtk4QS4Lf9TZYgWNeCpeA9j8DJ7miOTQ1CRe9yvIvwOQy5y8rcIfkqUqKgO4g-0lz5nhXqJDX54LrtKk4KFyBuvEb0iUGZROPjXYql9QicA9XR1fwUFEeKeKQYB-fRBqLSsvMle4GQdBpK1mdN9nz-g34jLZ",
           q: "For the L shaped vessel shown in the figure, determine the value of acceleration a so that pressure at point A becomes equal to \\( p_0/2 \\). [\\( p_0 \\) is the atmospheric pressure.]",
           options: ["(1) \\( g \\)", "(2) \\( \\frac{g}{2}+\\frac{p_0}{2\\rho H} \\)", "(3) \\( \\frac{p_0}{2\\rho H}+g \\)", "(4) \\( \\frac{3p_0}{2\\rho H}+g \\)"],
           correct: 2, 
@@ -3745,7 +3745,7 @@
         },
         {
           id: 35, topic: "Fluid Statics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhFS9AcAsKIkPFt82INoF3YcgfTJHyU3QhkvFqcu1mlsPBS40NSRiK9oJ3vDigc-f677C7vrDM8_IV8pdsttdeL0r56z8UHm-ryyVCzU1Onj5b1iz451THKVY9e5Vh6HMe0Uqh2KT7DRC0ugXkDUsuyV9F_yhRMJjR2XYekclt5LtufZkpvikDeRRSeKswE",
           q: "A liquid stands at the plane level in the U-tube when at rest. If area of cross-section of both the limbs are equal, what will be the difference in heights h of the liquid in the two limbs of U-tube, when the system is given an acceleration a in horizontal direction towards right as shown? (L = length of horizontal portion of tube, H = initial height of liquid in both limbs)",
           options: ["(1) \\( \\frac{g}{a}\\frac{L^2}{H} \\)", "(2) \\( \\frac{La}{g} \\)", "(3) \\( \\frac{L^2}{H}\\frac{a}{g} \\)", "(4) \\( \\frac{Hg}{a} \\)"],
           correct: 1, 
@@ -3753,7 +3753,7 @@
         },
         {
           id: 36, topic: "Fluid Statics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjHHJGwKTsvbf6cLTYVzPJ2W-CMRYHAofDjTTlxOmJCAsNltMiuCQo1azkOZJ7w3VZqEf4cEX5H7MWjY6n5eNm-aU_m0fRaa70AA7c20rvEVVAVqHoM_a3XoGBoyU9hrEp0i3jBc9o_IY768AE9C_7gTO0Qg96sDAUyZZHujsGqofwB2Q031ibqpLWJ4xS5",
           q: "A cylinder of radius R and height H is filled with a liquid to an unknown height h when it is rotated at an unknown constant angular velocity \\( \\omega \\), the base of the cylinder gets exposed when the liquid just starts spilling out as shown. Find angular speed \\( \\omega \\) of cylinder :-",
           options: ["(1) \\( \\frac{\\sqrt{gH}}{R} \\)", "(2) \\( \\frac{\\sqrt{2gH}}{R} \\)", "(3) \\( \\frac{2\\sqrt{gH}}{R} \\)", "(4) None of these"],
           correct: 1, 
@@ -3761,15 +3761,15 @@
         },
         {
           id: 37, topic: "Fluid Dynamics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhDhabKDnfKXqGSJD4B37ND6-50oSNpos43myiI7p6BPaKktvX8Hsn0K3wrIvcHsIJY7mqeRUvxzLBQV8pNDLh7c1E8DFOoUai3iTrglGjA5GBZ2EMKDuyrR1DctbO-cN0aNMUv3IcbFOG430ut_t9ALgdwjHlD60jQ8_0FmDcxOP47vjrB8X8zDSiu5Kwc",
           q: "Which of the following diagrams does not represent a streamline flow :-",
-          options: ["(1) Parallel curved lines", "(2) Straight diverging lines", "(3) Parallel downward curved lines", "(4) Intersecting lines"],
+          options: ["(1) 1", "(2) 2", "(3) 3", "(4) 4"],
           correct: 3, 
           sol: "<b>Step 1: Define Streamline Flow</b><br>By definition, the tangent to a streamline at any given point indicates the exact direction of the fluid's velocity at that point.<br><br><b>Step 2: Evaluate intersecting lines</b><br>If two streamlines were to cross or intersect (as shown in Option 4), it would imply that a single fluid particle at that intersection point possesses two completely different instantaneous velocities at the same time.<br><br><b>Step 3: Conclusion</b><br>Because a particle cannot travel in two directions simultaneously, intersecting lines violate the fundamental principles of fluid dynamics and cannot represent a streamline flow."
         },
         {
           id: 38, topic: "Fluid Dynamics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhcSJFtILYQN458Le7hsl-VW0EwFu5gwT04MyNG8gYt1KaZFHczF_0Wtm7w38qy_uNBbUqOifB1-JU3c2O6_IVj_4tnykg20Y-7RL0ejtEdXv_9M-Aj7nfCmmrMaw02f3Utbg8ADcMkxLubJf06m4xUSIUlkfo-6I3v3eP120LTToxfpy93l-yKWRmupzVd",
           q: "A vent tank of large cross-sectional area has a horizontal pipe 0.12 m in diameter at the bottom. This holds a liquid whose density is \\( 1500 \\, \\text{kg/m}^3 \\) to a height of 4.0 m. Assume the liquid is an ideal fluid in laminar flow. In figure, the velocity with which fluid flows out is",
           options: ["(1) \\( 2\\sqrt{5} \\, \\text{m/s} \\)", "(2) \\( \\sqrt{5} \\, \\text{m/s} \\)", "(3) \\( 4\\sqrt{5} \\, \\text{m/s} \\)", "(4) \\( \\sqrt{10} \\, \\text{m/s} \\)"],
           correct: 2, 
@@ -3812,7 +3812,7 @@
         },
         {
           id: 44, topic: "Fluid Dynamics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiRZihvskF3dMVk4m752XWz81o2Jmx3SEK6_QSC_fR7-v0JfWWbUiuqdP8TQZs_ZfvN_9Wm7oZgP6MJ3TiJEBb0el7VYD8Nsz-ZHyQCc0C5ZnG01uX6rfkoN9GuWW18b-mDdf1V_Vj3_5UHAw82Uk6eiyvTwS5qsVFRsbk3ymdgK2AYGBLdhY1js9vMgJK7",
           q: "A water tank stands on the roof of a building as shown. Then the value of h for which the distance covered by the water \\( x' \\) is greatest is",
           options: ["(1) 0.5 m", "(2) 0.67 m", "(3) 1 m", "(4) none of these"],
           correct: 2, 
@@ -3883,7 +3883,7 @@
         },
         {
           id: 55, topic: "Surface Tension",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgIZYFU0oUWiNGIWn2_mvX82bR_f4OmkPyulclI_GQl7qQtzdyCXLx9mpkLROO5heM6KbSQfbQZGaB1EiqNVmW0KhHbFhssOwrh-0VrpsreVyACAnuChGhxSmlN05AtlvrTJhyiZ7RZZiCY5VZ50ZzvrZqnzJnaFeXYrnV3PuRevtmfRttPITHe-OALOkFD",
           q: "A container of width 2m is filled with a liquid. A thin wire of mass per unit length \\( 10 \\, \\text{g/m} \\) is gently placed over the liquid surface in the middle. As a result, the liquid surface is depressed by a distance 1 cm. Determine the surface tension of the liquid. Assume suitable approximation.",
           options: ["(1) 5 N/m", "(2) 8 N/m", "(3) 6 N/m", "(4) 7 N/m"],
           correct: 0, 
@@ -3947,15 +3947,15 @@
         },
         {
           id: 64, topic: "Fluid Dynamics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg7dFNyA-ClvEFdmubrxCcA109wggTZo7wltzb_DW9SbNsy0bwQd76e5djznPY5ZNkmCZYBQTSrHg48qBGUjgrCPj0hRGDumT6nO6HktdtpOn_KmHiETJ64AOjnt-2zrOEC6RHBbvLcMlG8GObrMSwZ4cneEBcpF3syLfuTP5NYdxK13wpRl-9b8ObMU-6q",
           q: "Rank in order, from highest to lowest, the liquid heights \\( h_a \\) to \\( h_d \\). The air flow is from left to right. The liquid columns are not drawn to scale:-",
-          options: ["(1) \\( h_a>h_b=h_d>h_c \\)", "(2) \\( h_b=h_d>h_c>h_a \\)", "(3) \\( h_d>h_c>h_b>h_a \\)", "(4) \\( h_b>h_d>h_c>h_a \\)"],
+          options: ["(1) \\( h_a \\gt h_b = h_d \\gt h_c \\)", "(2) \\( h_b = h_d \\gt h_c \\gt h_a \\)", "(3) \\( h_d \\gt h_c \\gt h_b \\gt h_a \\)", "(4) \\( h_b \\gt h_d \\gt h_c \\gt h_a \\)"],
           correct: 3, 
-          sol: "<b>Step 1: Relate Pressure to Height</b><br>The height of the liquid pulled up in the manometer tubes is inversely related to the air pressure inside the main pipe above it. A lower air pressure pulls the liquid higher up. \\( h \\propto \\frac{1}{P_{air}} \\).<br><br><b>Step 2: Relate Area to Pressure (Bernoulli & Continuity)</b><br>By the Equation of Continuity, air velocity is highest where the cross-sectional area is smallest (\\( v \\propto 1/A \\)).<br>By Bernoulli's Principle, where velocity is highest, static pressure is lowest. Therefore, the narrowest sections have the lowest pressure and will pull the liquid to the highest levels.<br><br><b>Step 3: Analyze the Geometry</b><br>- Section A is open to the atmosphere (entry point), so its pressure \\( P_a \\) is the highest (closest to \\( P_{atm} \\)). Thus \\( h_a \\) must be the absolute minimum.<br>- Looking at the internal geometry, Gap B is visually the narrowest constriction, meaning it has the lowest pressure, making \\( h_b \\) the maximum.<br>- Gap D is slightly wider than B, so \\( h_d \\) is second highest.<br>- Gap C is a very wide expansion chamber, so velocity drops, pressure rises, making \\( h_c \\) relatively low (but higher than A).<br>Ranking heights: \\( h_b > h_d > h_c > h_a \\)."
+          sol: "<b>Step 1: Relate Pressure to Height</b><br>The height of the liquid pulled up in the manometer tubes is inversely related to the air pressure inside the main pipe above it. A lower air pressure pulls the liquid higher up. \\( h \\propto \\frac{1}{P_{air}} \\).<br><br><b>Step 2: Relate Area to Pressure (Bernoulli & Continuity)</b><br>By the Equation of Continuity, air velocity is highest where the cross-sectional area is smallest (\\( v \\propto 1/A \\)).<br>By Bernoulli's Principle, where velocity is highest, static pressure is lowest. Therefore, the narrowest sections have the lowest pressure and will pull the liquid to the highest levels.<br><br><b>Step 3: Analyze the Geometry</b><br>- Section A is open to the atmosphere (entry point), so its pressure \\( P_a \\) is the highest (closest to \\( P_{atm} \\)). Thus \\( h_a \\) must be the absolute minimum.<br>- Looking at the internal geometry, Gap B is visually the narrowest constriction, meaning it has the lowest pressure, making \\( h_b \\) the maximum.<br>- Gap D is slightly wider than B, so \\( h_d \\) is second highest.<br>- Gap C is a very wide expansion chamber, so velocity drops, pressure rises, making \\( h_c \\) relatively low (but higher than A).<br>Ranking heights: \\( h_b \\gt h_d \\gt h_c \\gt h_a \\)."
         },
         {
           id: 65, topic: "Fluid Dynamics",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhuxkuxxwdOeTWMZOK7Hk-wyHq0em326hLrAgGh9Dzm8_-1G0CQG2pK0rp9F_mtRgkmuo-2Zl78Fs17syfh1tZk9g2HfV3dU3VIeXfCnURQOJGnYRuRlPP23WDQ4fFSowO03Spi7c_eUayvvciJBsbaVisYZAJvQB7fBq2GDXp2QDAskWQLH9uny19UERDo",
           q: "Consider a tank containing a liquid of density \\( \\rho \\) with a small hole in its side at a height \\( y_1 \\) from the bottom. The air above the liquid, whose surface is at height \\( y_2 \\), is at pressure P. The velocity of fluid at \\( A_1 \\) is :-",
           options: ["(1) \\( \\sqrt{2gh+2(P-P_a)} \\)", "(2) \\( \\sqrt{2gh+(P-P_a)} \\)", "(3) \\( \\sqrt{2gh+\\frac{2(P-P_a)}{\\rho}} \\)", "(4) \\( \\sqrt{gh+\\frac{(P-P_a)}{\\rho}} \\)"],
           correct: 2, 
@@ -9782,6 +9782,7 @@
       ]
     }
   };
+
 
 
 
