@@ -5232,7 +5232,7 @@
     // ==========================================
     "Wave Motion and Doppler Effect": { 
       classTarget: "Class 11", 
-      totalQs: 53, 
+      totalQs: 52, 
       topics: ["Wave Kinematics", "Wave Dynamics", "Standing Waves", "Sound Waves", "Doppler Effect"],
       questions: [
         {
@@ -9792,6 +9792,7 @@
       ]
     }
   };
+
 
 
 
