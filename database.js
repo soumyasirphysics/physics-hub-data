@@ -2967,7 +2967,7 @@
       questions: [
         {
           id: 1, topic: "Moment of Inertia",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhq1hmQ8D-7Hw4OxrJKT-tx3Qq1dHWUeBva7muYxQaobi7qEjYCsi0Zd3CYNsIiTxln593sA5O4Ol6Qz9eFvEFJIEqKu6ihyayDL1sn6dghtXPtbPo-osU9muVWHJNIl_-l_DEaKoBLrc8x2DMKHsIBLRjARbcc8RPsqNaj9x8f0RGfzSAOgzrtJFtc5IOy",
           q: "A triangular metal sheet of uniform thickness 10 cm and uniform density \\( 5000 \\, \\text{kg/m}^3 \\). The lengths of sides AB, BC and CA are 5 m, 6 m and 5 m respectively. The moment of inertia about the side BC is:",
           options: ["(1) \\( 12\\times 10^3 \\, \\text{kg m}^2 \\)", "(2) \\( 14\\times 10^3 \\, \\text{kg m}^2 \\)", "(3) \\( 16\\times 10^3 \\, \\text{kg m}^2 \\)", "(4) \\( 18\\times 10^3 \\, \\text{kg m}^2 \\)"],
           correct: 2, 
@@ -9798,6 +9798,7 @@
       ]
     }
   };
+
 
 
 
