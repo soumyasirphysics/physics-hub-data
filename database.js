@@ -3994,6 +3994,7 @@
         },
         {
           id: 5, topic: "Thermal Expansion",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgJLIF2EZ9yEGWuXn8IRGRjQkcGy4pGiJrfiUDQaAOlrS1o2ND3L-f9uJTF9Lq6kGTedv-h0w-XEz3pY_-zqErmyfmpC5u4gEGsx529Z2DUBOpQ-yMFb84Zb9cNsUjhTegc3a1hjH9z__aXhfeCWaQOAZsRJf_fVPpORZyvvsOMhCZdOc9Hv0nsNG6zgUU-",
           q: "A plate composed of welded sheets of aluminum and iron is connected to an electrical circuit as shown in the figure. What will happen if a fairly strong current be passed through the circuit? Given that relation between linear coefficients of expansion is \\( (\\alpha_{Fe} < \\alpha_{Al}) \\). ",
           options: ["(1) Strip bends upward", "(2) Strip bends downward", "(3) Strip remains in its initial condition", "(4) None of the above"],
           correct: 0, 
@@ -4085,6 +4086,7 @@
         },
         {
           id: 18, topic: "Calorimetry & Heat Transfer",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEic0uvk292VYlL4ksxlho02qRxS6bVfNazJnqC09zCc8opP7Vq_sGdX_Q4IXehc9Ee1-AKvw1NCT2n4JhCwXwGPjjfVDu_dR1N0oTaSY2ro9I_nevyGW3IvH1nxK8TGRB9JNlqN-teK45aqwMzDqWe_7eIH7mZrDO7xasL8KNrM-QC130vfrkn7mB1nvdBa",
           q: "Two rectangular blocks A and B of different metals have the same length and same area of cross section. They are kept in such a way that their cross sectional areas are in contact. The temperature at one end of A is \\( 100^{\\circ}\\text{C} \\) and that of B at the other end is \\( 0^{\\circ}\\text{C} \\). If the ratio of their thermal conductivity is 1:3, then under steady state, the temperature of junction in contact will be ",
           options: ["(1) \\( 25^{\\circ}\\text{C} \\)", "(2) \\( 50^{\\circ}\\text{C} \\)", "(3) \\( 75^{\\circ}\\text{C} \\)", "(4) \\( 100^{\\circ}\\text{C} \\)"],
           correct: 0, 
@@ -4155,6 +4157,7 @@
         },
         {
           id: 28, topic: "Thermodynamics",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhf8-mOXlU0Gt5180iggXCIGl6IVKWbkn4tsFud2GfWzHjpngNNFF8xS8Z7Gxo9x3eCrSfzbGFprW8l4yM-ZWNgDWnWramyWdnUJdrCMSUrx-R4VqmUS43kO0gGnFexbGBQhPg-AO1sH8ax_vP0kOpr9xKX3jsFX4BGpHyDdGYaa9VUqM28MwF3cQtibB1A",
           q: "An ideal gas is taken around the cycle ABCA as shown in the P-V diagram. The total work done by the gas during the cycle is ",
           options: ["(1) PV", "(2) 2PV", "(3) 4PV", "(4) 3PV"],
           correct: 3, 
@@ -4197,6 +4200,7 @@
         },
         {
           id: 34, topic: "Kinetic Theory of Gases",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj_5hrfdhXG96yOyfLx7S9szb17JCxxt1OJ581qfMy27IykXAxrPyVskyAVlsHBPwZ50V_OnHM6koqZoi1o4r40AYsi3mS4h15KrZR2LCiqlYUfZl7wCjtOytYiacIE2v_eFBmFahn6PecPqgmNK0L3fbbwPZqDe-hRrpch7dIGMXDFHBbAh8piW6_sbb5k",
           q: "Pressure versus temperature graph of an ideal gas is shown, the density of gas at point A is \\( \\rho_0 \\) then the density of gas at point B would be ",
           options: ["(1) \\( \\frac{3}{4}\\rho_0 \\)", "(2) \\( \\frac{3}{2}\\rho_0 \\)", "(3) \\( \\frac{4}{3}\\rho_0 \\)", "(4) \\( 2\\rho_0 \\)"],
           correct: 1, 
@@ -4211,6 +4215,7 @@
         },
         {
           id: 37, topic: "Thermodynamics",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgwjKJATSB9EvBpTF9LB0x1LrRkYS7tUe1uZ0BQhBtC8QZ5QLOvsxTrBNsxgksrdxy5yGc22Pb2oTGyMQ4Jf6s7Y-tZBiww0CRHRGrW2QAG2vrzKsYsHCrT0WKxkB363RcelP0_xI-VZngzSu7WMt3ccV8GCtRmBgA5TYxSid3hE9bVFqnYrqJOKPofW0bN",
           q: "An ideal gas (1 mole, monatomic) is in the initial state P (see diagram) on an isothermal curve A at a temperature \\( T_0 \\). It is brought under a constant volume \\( (2V_0) \\) process to Q which lies on an adiabatic curve B intersecting the isothermal curve A at \\( (P_0, V_0, T_0) \\). The change in the internal energy of the gas (in terms of \\( T_0 \\)) during the process is \\( (2^{2/3}=1.587) \\) ",
           options: ["(1) \\( 2.3T_0 \\)", "(2) \\( -4.6T_0 \\)", "(3) \\( -2.3T_0 \\)", "(4) \\( 4.6T_0 \\)"],
           correct: 1, 
@@ -4253,6 +4258,7 @@
         },
         {
           id: 43, topic: "Thermodynamics",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg-1F2Q27A0GcrwwxA2bYM7-qyM6fh_AW3J4fVRg2A5qVXc-n8cIGehUS9PEfsQxWvn_nSzBrD4LNaWYQoaOuzhHcXvzT-yfWGOHycaWWdU-MIejFQ36FVnEun4ceF5jV53SH3hW1yDvNxk2sKZipGNPSICm3-Xe6vdRl0HdfseHpJJGLquYmhnoN_vN2-U",
           q: "An ideal gas is taken through the cycle A->B->C->A, as shown in the figure. If the net heat supplied to the gas in the cycle is 5 J, the work done by the gas in the process C->A is ",
           options: ["(1) -5 J", "(2) -10 J", "(3) -15 J", "(4) -20 J"],
           correct: 0, 
@@ -4260,6 +4266,7 @@
         },
         {
           id: 45, topic: "Thermodynamics",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi1Y9LQsZNqbzjsDgATPbLnJmrZoA4u2A6rSPCeua0ZCXRFvwNJf2oSbz64fHDcX1GqijMlhm7NZEOfYtaxd7xeHrHst00JnAE5E5nzUgtH1nqq6baRJ2eWfpxXEM2RTmT7Txo-gAdv0-oZOIBGR8bmdLNDrW5bB4hvZU5X1NxKG4A0XuGhoUu-u8UUPtLJ",
           q: "The P-V diagram of a system undergoing thermodynamic transformation is shown in the figure. The work done on the system in going from A->B->C is 50 J and 20 cal heat is given to the system. The change in internal energy between A and C is ",
           options: ["(1) 34 J", "(2) 70 J", "(3) 84 J", "(4) 134 J"],
           correct: 0, 
@@ -4330,6 +4337,7 @@
         },
         {
           id: 55, topic: "Kinetic Theory of Gases",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhOI6PylN-kEZMR35BVAOZykPAFo4Wq_daA_d2cmTEJb2OdBOSmZ8FzoQfCDm1iLZYK7eZjddqgsEdkYyW2xXzcVVzFF8a2Qj-yjOtOQoBWxEbx6uUIUpi0Br6v2hWtWivbnx2K4JhnGduNKX8hKSNTBXZurh8Hs22fggPWuJ0vKpFpAqgWtbWL2ZUaaJP_",
           q: "1 mole of an ideal gas is contained in a cubical volume V, ABCDEFGH at 300 K. One face of the cube (EFGH) is made up of a material which totally absorbs any gas molecule incident on it. At any given time. ",
           options: ["(1) the pressure on EFGH would be zero.", "(2) the pressure on all the faces will the equal.", "(3) the pressure on EFGH would be double the pressure on ABCD.", "(4) the pressure on EFGH would be half that on ABCD"],
           correct: 3, 
@@ -4379,6 +4387,7 @@
         },
         {
           id: 62, topic: "Thermodynamics",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjQeIH-DS9DgLI3_WbUCLSGcuVD5yPOsCCZxv1i0zXPRD1XicGUJtBnWyOh4-VscbITEK59IPxyS0_dSi_d0-Vvy5I38gumYkyNWjLRQCgI2DF7O1rmU2-ZjunMwrv1daLK8YWQpuSruF_HhKjpKE1BlC-NDI-BTUr4lFufH85GcJrSKCHOe3KqNK7wbSSo",
           q: "An ideal monoatomic gas is taken through the thermodynamic states A -> B -> C -> D via the paths shown in the figure. If \\( U_A, U_B, U_C \\) and \\( U_D \\) represent the internal energy of the gas in state A, B C and D respectively, then which of the following is not true? ",
           options: ["(1) \\( U_A - U_D = 0 \\)", "(2) \\( U_B - U_C = 0 \\)", "(3) \\( U_C - U_D > 0 \\)", "(4) \\( U_B - U_A < 0 \\)"],
           correct: 3, 
@@ -4390,7 +4399,129 @@
           options: ["(1) 25/7", "(2) 48/11", "(3) 52/11", "(4) 50/11"],
           correct: 3, 
           sol: "<b>Step 1: Identify degrees of freedom for each gas</b><br>Monoatomic (5n moles): \\( f_1 = 3 \\).<br>Diatomic (n moles): \\( f_2 = 5 \\) (at room temp, vibrational modes are inactive).<br>Non-linear polyatomic (5n moles): \\( f_3 = 6 \\).<br><br><b>Step 2: Apply the equivalent DOF formula</b><br>The equivalent degree of freedom for a mixture is the weighted average based on the number of moles:<br>\\( f_{eq} = \\frac{n_1 f_1 + n_2 f_2 + n_3 f_3}{n_1 + n_2 + n_3} \\).<br><br><b>Step 3: Calculate</b><br>\\( f_{eq} = \\frac{(5n \\times 3) + (n \\times 5) + (5n \\times 6)}{5n + n + 5n} \\)<br>\\( f_{eq} = \\frac{15n + 5n + 30n}{11n} = \\frac{50n}{11n} = \\frac{50}{11} \\)."
-        }
+        },
+        {
+                id: 64, topic: "Thermal Expansion",
+                q: "A composite rod is made by joining a copper rod of length \\( L_1 \\) and an iron rod of length \\( L_2 \\). Their coefficients of linear expansion are \\( \\alpha_1 \\) and \\( \\alpha_2 \\) respectively. If the difference in their lengths remains constant at all temperatures, then the ratio \\( L_1/L_2 \\) must be:",
+                imgUrl: "set8_3.png",
+                options: ["\\( \\alpha_1 / \\alpha_2 \\)", "\\( \\sqrt{\\alpha_2 / \\alpha_1} \\)", "\\( \\alpha_2 / \\alpha_1 \\)", "\\( \\alpha_1^2 / \\alpha_2^2 \\)"],
+                correct: 2, 
+                sol: "<b>Step 1: Condition for Constant Difference</b><br>For the difference in lengths \\( (L_2 - L_1) \\) to be constant at any temperature, their absolute expansions must be exactly equal.<br>\\( \\Delta L_1 = \\Delta L_2 \\).<br><br><b>Step 2: Apply Expansion Formula</b><br>\\( L_1 \\alpha_1 \\Delta T = L_2 \\alpha_2 \\Delta T \\).<br><br><b>Step 3: Find Ratio</b><br>\\( L_1 \\alpha_1 = L_2 \\alpha_2 \\implies \\frac{L_1}{L_2} = \\frac{\\alpha_2}{\\alpha_1} \\)."
+            },
+            {
+                id: 65, topic: "Calorimetry & Heat Transfer",
+                q: "Three identical rods A, B, and C of equal lengths and equal diameters are joined at a common point forming a 'Y' shape. Their thermal conductivities are \\( K, 2K, \\) and \\( 3K \\) respectively. The free ends of A, B, and C are maintained at temperatures \\( 100^\\circ\\text{C}, 50^\\circ\\text{C}, \\) and \\( 0^\\circ\\text{C} \\) respectively. The steady-state temperature of the junction is:",
+                imgUrl: "set8_4.png",
+                options: ["\\( 40^\\circ\\text{C} \\)", "\\( 33.3^\\circ\\text{C} \\)", "\\( 50^\\circ\\text{C} \\)", "\\( 60^\\circ\\text{C} \\)"],
+                correct: 1, 
+                sol: "<b>Step 1: Kirchhoff's Law for Heat Flow</b><br>At steady state, the net rate of heat flow into the junction is zero. Let junction temperature be \\( T_0 \\).<br>\\( H_A + H_B + H_C = 0 \\).<br><br><b>Step 2: Setup Equations</b><br>\\( \\frac{K A (100 - T_0)}{L} + \\frac{2K A (50 - T_0)}{L} + \\frac{3K A (0 - T_0)}{L} = 0 \\).<br><br><b>Step 3: Solve for Junction Temperature</b><br>Cancel out common terms \\( (KA/L) \\):<br>\\( 100 - T_0 + 100 - 2T_0 - 3T_0 = 0 \\).<br>\\( 200 = 6T_0 \\implies T_0 = 33.3^\\circ\\text{C} \\)."
+            },
+            {
+                id: 66, topic: "Calorimetry & Heat Transfer",
+                q: "Two perfectly black spherical bodies A and B of radii \\( R_1 \\) and \\( R_2 \\) are maintained at temperatures \\( T_1 \\) and \\( T_2 \\) respectively. If they radiate equal total power, and the peak emission wavelength for A is \\( \\lambda_0 \\), the peak emission wavelength for B will be:",
+                options: ["\\( \\lambda_0 \\sqrt{R_1/R_2} \\)", "\\( \\lambda_0 (R_1/R_2)^2 \\)", "\\( \\lambda_0 \\sqrt{R_2/R_1} \\)", "\\( \\lambda_0 (R_2/R_1) \\)"],
+                correct: 2, 
+                sol: "<b>Step 1: Stefan-Boltzmann Law</b><br>Power \\( P = \\sigma A T^4 = \\sigma (4\\pi R^2) T^4 \\).<br>Since \\( P_A = P_B \\), \\( R_1^2 T_1^4 = R_2^2 T_2^4 \\implies \\frac{T_1}{T_2} = \\sqrt{\\frac{R_2}{R_1}} \\).<br><br><b>Step 2: Wien's Displacement Law</b><br>\\( \\lambda_{max} T = \\text{constant} \\implies \\lambda_1 T_1 = \\lambda_2 T_2 \\).<br>\\( \\lambda_2 = \\lambda_1 \\frac{T_1}{T_2} \\).<br><br><b>Step 3: Substitute Ratio</b><br>\\( \\lambda_2 = \\lambda_0 \\sqrt{\\frac{R_2}{R_1}} \\)."
+            },
+            {
+                id: 67, topic: "Calorimetry & Heat Transfer",
+                q: "The solar constant (intensity of solar radiation) at Earth's orbit is \\( S \\). If the absolute surface temperature of the Sun were to theoretically increase by 2% and its radius decrease by 1%, the new solar constant measured at Earth would approximately:",
+                options: ["Increase by 6%", "Increase by 8%", "Increase by 4%", "Decrease by 2%"],
+                correct: 0, 
+                sol: "<b>Step 1: Solar Constant Formula</b><br>The solar constant \\( S \\) is the power received per unit area at distance \\( d \\):<br>\\( S = \\frac{P_{sun}}{4\\pi d^2} \\).<br><br><b>Step 2: Apply Stefan's Law</b><br>The total power radiated by the Sun is \\( P_{sun} = \\sigma A T^4 = \\sigma (4\\pi R^2) T^4 \\).<br>Substituting this, we get: \\( S = \\frac{\\sigma (4\\pi R^2) T^4}{4\\pi d^2} \\implies S \\propto R^2 T^4 \\).<br><br><b>Step 3: Percentage Change Approximation</b><br>For small percentage changes, we can use the derivative/error analysis method:<br>\\( \\frac{\\Delta S}{S} \\times 100 = 2 \\left(\\frac{\\Delta R}{R} \\times 100\\right) + 4 \\left(\\frac{\\Delta T}{T} \\times 100\\right) \\).<br>Given: \\( \\%\\Delta R = -1\\% \\) (decrease) and \\( \\%\\Delta T = +2\\% \\) (increase).<br>\\( \\%\\Delta S = 2(-1\\%) + 4(+2\\%) = -2\\% + 8\\% = +6\\% \\).<br>The positive sign indicates a **6% increase**."
+            },
+            {
+                id: 68, topic: "Calorimetry & Heat Transfer",
+                q: "The plots of intensity vs wavelength for three black bodies at temperatures \\( T_1, T_2, \\) and \\( T_3 \\) are shown. Their maximum intensities occur at wavelengths corresponding to the visible region. Which of the following is true?",
+                imgUrl: "set8_13.png",
+                options: ["\\( T_1 > T_2 > T_3 \\)", "\\( T_1 < T_2 < T_3 \\)", "\\( T_1 = T_2 = T_3 \\)", "Cannot be determined without peak values"],
+                correct: 0, 
+                sol: "<b>Concept: Wien's Displacement Law</b><br>The peak emission wavelength \\( \\lambda_{max} \\) is inversely proportional to the absolute temperature \\( T \\) (\\( \\lambda_{max} \\propto 1/T \\)).<br>In standard spectral graphs, the curve with the highest peak is also shifted furthest to the left (smallest \\( \\lambda_{max} \\)).<br>Therefore, smaller \\( \\lambda_{max} \\implies \\) Higher Temperature.<br>Assuming standard graph structure: \\( \\lambda_{m1} < \\lambda_{m2} < \\lambda_{m3} \\implies T_1 > T_2 > T_3 \\)."
+            },
+            {
+                id: 69, topic: "Calorimetry & Heat Transfer",
+                q: "A piece of ice falls from a height \\( h \\) so that it completely melts upon hitting the ground. If only one-quarter of the heat produced is absorbed by the ice, and all its energy converts to heat on impact, the value of \\( h \\) is: (Latent heat of ice \\( L = 3.4 \\times 10^5 \\text{ J/kg} \\), \\( g = 10 \\text{ m/s}^2 \\))",
+                options: ["136 km", "34 km", "68 km", "272 km"],
+                correct: 0, 
+                sol: "<b>Step 1: Energy Transformation</b><br>Total potential energy converted to heat = \\( mgh \\).<br>Heat absorbed by ice \\( Q = \\frac{1}{4} (mgh) \\).<br><br><b>Step 2: Melting Condition</b><br>Heat required to melt completely \\( Q = mL \\).<br>\\( \\frac{1}{4} mgh = mL \\implies h = \\frac{4L}{g} \\).<br><br><b>Step 3: Calculate</b><br>\\( h = \\frac{4 \\times 3.4 \\times 10^5}{10} = 13.6 \\times 10^4 \\text{ m} = 136 \\text{ km} \\)."
+            },
+            {
+                id: 70, topic: "Calorimetry & Heat Transfer",
+                q: "A solid sphere and a hollow sphere of the same material and same size are heated to the same temperature and allowed to cool in the same surroundings. If the temperature difference between the body and surroundings is small, the ratio of their initial rates of cooling is:",
+                options: ["\\( > 1 \\)", "\\( < 1 \\)", "\\( = 1 \\)", "Depends on their actual mass"],
+                correct: 1, 
+                sol: "<b>Step 1: Newton's Law of Cooling</b><br>Rate of cooling \\( \\frac{dT}{dt} = \\frac{4\\sigma e A T_s^3}{ms} \\Delta T \\).<br>Since size (Area A) and material (specific heat s, emissivity e) are same, \\( \\frac{dT}{dt} \\propto \\frac{1}{m} \\).<br><br><b>Step 2: Compare Masses</b><br>A solid sphere has more mass than a hollow sphere of the same size (\\( m_{solid} > m_{hollow} \\)).<br>Therefore, Rate(solid) < Rate(hollow).<br>Ratio (Solid/Hollow) is \\( < 1 \\)."
+            },
+            {
+                id: 71, topic: "Calorimetry & Heat Transfer",
+                q: "A solid copper sphere of density \\( \\rho \\), specific heat \\( c \\), and radius \\( r \\) is at temperature \\( T \\). It cools in a vacuum enclosure at absolute zero. The time taken to cool from \\( T \\) to \\( T/2 \\) is:",
+                options: ["\\( \\frac{\\rho r c}{3 \\sigma T^3} \\)", "\\( \\frac{7 \\rho r c}{3 \\sigma T^3} \\)", "\\( \\frac{7 \\rho r c}{9 \\sigma T^3} \\)", "\\( \\frac{8 \\rho r c}{9 \\sigma T^3} \\)"],
+                correct: 2, 
+                sol: "<b>Step 1: Stefan's Law for Cooling</b><br>\\( -m c \\frac{dT}{dt} = \\sigma A T^4 \\).<br>\\( dt = \\frac{-m c}{\\sigma A} T^{-4} dT \\).<br><br><b>Step 2: Integration</b><br>\\( \\Delta t = \\int_{T}^{T/2} \\frac{-(\\rho \\cdot \\frac{4}{3}\\pi r^3) c}{\\sigma (4\\pi r^2)} T^{-4} dT = \\frac{-\\rho r c}{3\\sigma} [\\frac{T^{-3}}{-3}]_{T}^{T/2} \\).<br>\\( \\Delta t = \\frac{\\rho r c}{9\\sigma} [ (T/2)^{-3} - T^{-3} ] \\).<br>\\( \\Delta t = \\frac{\\rho r c}{9\\sigma} [ \\frac{8}{T^3} - \\frac{1}{T^3} ] = \\frac{7 \\rho r c}{9 \\sigma T^3} \\)."
+            },
+            {
+                id: 72, topic: "Thermal Expansion",
+                q: "A pendulum clock gives correct time at 20°C. Its pendulum is made of Invar (\\( \\alpha = 10^{-6} /^\\circ\\text{C} \\)). How many seconds will it lose or gain per day if the temperature drops to 0°C? (1 day = 86400 s)",
+                options: ["Gains 1.728 s", "Loses 0.864 s", "Loses 1.728 s", "Gains 0.864 s"],
+                correct: 3, 
+                sol: "<b>Step 1: Formula</b><br>\\( \\Delta t = \\frac{1}{2} \\alpha \\Delta \\theta \\times \\text{Time} \\).<br><br><b>Step 2: Calculate</b><br>\\( \\Delta t = 0.5 \\times 10^{-6} \\times 20 \\times 86400 \\).<br>\\( \\Delta t = 10 \\times 10^{-6} \\times 86400 = 0.864 \\text{ s} \\).<br><br><b>Step 3: Gain or Lose</b><br>When temperature drops, length decreases, time period decreases, so the clock goes faster. It **gains** 0.864 seconds."
+            },
+            {
+                id: 73, topic: "Calorimetry & Heat Transfer",
+                q: "10g of ice at 0°C, 20g of water at 20°C and \\( m \\) g of steam at 100°C are mixed in a calorimeter. If the final temperature is 40°C, what is \\( m \\)? (\\( L_v = 540 \\text{ cal/g}, L_f = 80 \\text{ cal/g}, s_w = 1 \\text{ cal/g}^\\circ\\text{C} \\))",
+                options: ["1.33 g", "2.67 g", "3.20 g", "5.33 g"],
+                correct: 1, 
+                sol: "<b>Step 1: Heat Gained (Cold bodies to 40°C)</b><br>Ice to 40°C water: \\( 10 \\times 80 + 10 \\times 1 \\times 40 = 800 + 400 = 1200 \\text{ cal} \\).<br>20°C water to 40°C: \\( 20 \\times 1 \\times (40 - 20) = 400 \\text{ cal} \\).<br>Total heat gained = 1600 cal.<br><br><b>Step 2: Heat Lost (Steam to 40°C)</b><br>Steam to 40°C water: \\( m \\times 540 + m \\times 1 \\times (100 - 40) = 540m + 60m = 600m \\).<br><br><b>Step 3: Equate</b><br>\\( 600m = 1600 \\implies m = 16/6 = 8/3 \\approx 2.67 \\text{ g} \\)."
+            },
+            {
+                id: 74, topic: "Calorimetry & Heat Transfer",
+                q: "A hollow cylinder of length \\( L \\), inner radius \\( R_1 \\), and outer radius \\( R_2 \\) has a thermal conductivity \\( K \\). The inner surface is at \\( T_1 \\) and outer at \\( T_2 \\) (\\( T_1 > T_2 \\)). The thermal resistance of the cylinder is:",
+                options: ["\\( \\frac{R_2 - R_1}{K \\pi (R_2^2 - R_1^2)} \\)", "\\( \\frac{R_2 - R_1}{2\\pi K L} \\)", "\\( \\frac{\\ln(R_2/R_1)}{2\\pi K L} \\)", "\\( \\frac{1}{2\\pi K L \\ln(R_2/R_1)} \\)"],
+                correct: 2, 
+                sol: "<b>Step 1: Setup Integral</b><br>Heat flows radially. Consider a thin cylindrical shell of radius \\( r \\) and thickness \\( dr \\).<br>Area \\( A = 2\\pi r L \\). Thermal resistance of this shell \\( dR_{th} = \\frac{dr}{K A} = \\frac{dr}{K(2\\pi r L)} \\).<br><br><b>Step 2: Integrate</b><br>\\( R_{th} = \\int_{R_1}^{R_2} \\frac{dr}{2\\pi K L r} = \\frac{1}{2\\pi K L} [\\ln r]_{R_1}^{R_2} \\).<br>\\( R_{th} = \\frac{\\ln(R_2/R_1)}{2\\pi K L} \\)."
+            },
+            {
+                id: 75, topic: "Calorimetry & Heat Transfer",
+                q: "A liquid takes 5 minutes to cool from 80°C to 50°C. The temperature of the surroundings is 20°C. The time taken to cool from 60°C to 30°C is:",
+                options: ["12 min", "6 min", "15 min", "9 min"],
+                correct: 3, 
+                sol: "<b>Step 1: First Case (Newton's Law of Cooling)</b><br>\\( \\frac{80-50}{5} = k (\\frac{80+50}{2} - 20) \\).<br>\\( 6 = k(65-20) = 45k \\implies k = 6/45 = 2/15 \\).<br><br><b>Step 2: Second Case</b><br>\\( \\frac{60-30}{t} = k (\\frac{60+30}{2} - 20) \\).<br>\\( \\frac{30}{t} = (\\frac{2}{15}) \\times (45-20) = (\\frac{2}{15}) \\times 25 = \\frac{50}{15} = \\frac{10}{3} \\).<br>\\( t = \\frac{30 \\times 3}{10} = 9 \\text{ min} \\)."
+            },
+            {
+                id: 76, topic: "Calorimetry & Heat Transfer",
+                q: "A spherical cavity of radius \\( R \\) is maintained at temperature \\( T \\). It has a small circular hole of radius \\( r \\) (where \\( r \\ll R \\)). The power radiated through the hole is:",
+                options: ["\\( 4\\pi R^2 \\sigma T^4 \\)", "\\( \\frac{r^2}{R^2} \\sigma T^4 \\)", "\\( 4\\pi r^2 \\sigma T^4 \\)", "\\( \\pi r^2 \\sigma T^4 \\)"],
+                correct: 3, 
+                sol: "<b>Concept:</b><br>A small hole in an isothermal cavity behaves as a **perfect black body** (emissivity \\( e=1 \\)).<br>The area radiating the energy is the area of the hole itself, \\( A = \\pi r^2 \\).<br>Using Stefan-Boltzmann law: Power \\( P = \\sigma A T^4 = \\sigma (\\pi r^2) T^4 \\)."
+            },
+            {
+                id: 77, topic: "Thermal Expansion",
+                q: "Two metallic strips of different materials A and B have identical dimensions: length \\( L \\) and thickness \\( d \\). They are welded together to form a bimetallic strip. Their coefficients of linear expansion are \\( \\alpha_A \\) and \\( \\alpha_B \\) (\\( \\alpha_A > \\alpha_B \\)). If the temperature is increased by \\( \\Delta T \\), the strip bends into a circular arc. The radius of curvature of the central interface is approximately:",
+                options: ["\\( \\frac{2d}{(\\alpha_A - \\alpha_B)\\Delta T} \\)", "\\( \\frac{d}{(\\alpha_A + \\alpha_B)\\Delta T} \\)", "\\( \\frac{d}{(\\alpha_A - \\alpha_B)\\Delta T} \\)", "\\( \\frac{L^2}{d(\\alpha_A - \\alpha_B)\\Delta T} \\)"],
+                correct: 2, 
+                sol: "<b>Step 1: Lengths of Arcs</b><br>Let radius of interface be R. Length of interface \\( L' \\approx L \\).<br>Length of A (outer arc) is \\( L_A = (R + d/2)\\theta = L(1 + \\alpha_A \\Delta T) \\).<br>Length of B (inner arc) is \\( L_B = (R - d/2)\\theta = L(1 + \\alpha_B \\Delta T) \\).<br><br><b>Step 2: Difference</b><br>Subtracting equations: \\( d \\cdot \\theta = L (\\alpha_A - \\alpha_B) \\Delta T \\).<br>Using \\( \\theta = L/R \\) (approx), we get \\( d(L/R) = L(\\alpha_A - \\alpha_B)\\Delta T \\).<br><br><b>Step 3: Solve for R</b><br>\\( R = \\frac{d}{(\\alpha_A - \\alpha_B)\\Delta T} \\)."
+            },
+            {
+                id: 78, topic: "Calorimetry & Heat Transfer",
+                q: "A body cools in a surrounding of constant temperature \\( \\theta_0 \\). If \\( \\theta \\) is the temperature of the body at time \\( t \\), the graph of \\( \\ln(\\theta - \\theta_0) \\) versus \\( t \\) is:",
+                options: ["An exponential decay curve", "A parabola", "A straight line with positive slope", "A straight line with negative slope"],
+                correct: 3, 
+                sol: "<b>Step 1: Newton's Law of Cooling</b><br>\\( \\frac{d\\theta}{dt} = -k(\\theta - \\theta_0) \\).<br>Integrating both sides: \\( \\int \\frac{d\\theta}{\\theta - \\theta_0} = -\\int k dt \\).<br>\\( \\ln(\\theta - \\theta_0) = -kt + C \\).<br><br><b>Step 2: Graph Analysis</b><br>Comparing to \\( y = mx + c \\), the y-axis is \\( \\ln(\\theta - \\theta_0) \\) and x-axis is \\( t \\).<br>The slope \\( m = -k \\), which represents a **straight line with a negative slope**."
+            },
+            {
+                id: 79, topic: "Calorimetry & Heat Transfer",
+                q: "A lake is covered with a layer of ice of thickness \\( x \\). The temperature of the air is \\( -T^\\circ\\text{C} \\). The rate at which the thickness of ice increases is given by (\\( K \\) is thermal conductivity of ice, \\( \\rho \\) is density, \\( L \\) is latent heat):",
+                options: ["\\( \\frac{K T x}{\\rho L} \\)", "\\( \\frac{\\rho L x}{K T} \\)", "\\( \\frac{\\rho L}{K T x} \\)", "\\( \\frac{K T}{\\rho L x} \\)"],
+                correct: 3, 
+                sol: "<b>Step 1: Heat Conduction</b><br>Heat flows from water at 0°C to air at -T°C through ice of thickness \\( x \\).<br>Rate of heat flow \\( \\frac{dQ}{dt} = \\frac{K A (0 - (-T))}{x} = \\frac{K A T}{x} \\).<br><br><b>Step 2: Latent Heat of Freezing</b><br>The heat extracted causes a mass \\( dm \\) of water to freeze into ice thickness \\( dx \\).<br>\\( dQ = dm \\cdot L = (\\rho A dx) L \\).<br>So \\( \\frac{dQ}{dt} = \\rho A L \\frac{dx}{dt} \\).<br><br><b>Step 3: Equate</b><br>\\( \\rho A L \\frac{dx}{dt} = \\frac{K A T}{x} \\implies \\frac{dx}{dt} = \\frac{K T}{\\rho L x} \\)."
+            },
+            {
+                id: 80, topic: "Thermal Expansion",
+                q: "A glass flask of volume \\( V_0 \\) is completely filled with a liquid at temperature \\( T \\). When the system is heated by \\( \\Delta T \\), a volume \\( \\Delta V \\) of liquid overflows. If \\( \\gamma_L \\) and \\( \\gamma_g \\) are the volume expansivities of the liquid and glass respectively, then \\( \\Delta V \\) is equal to:",
+                options: ["\\( V_0(\\gamma_L - \\gamma_g)\\Delta T \\)", "\\( V_0(\\gamma_L + \\gamma_g)\\Delta T \\)", "\\( V_0 \\gamma_L \\Delta T \\)", "\\( V_0 \\gamma_g \\Delta T \\)"],
+                correct: 0, 
+                sol: "<b>Step 1: Concept of Apparent Expansion</b><br>Both the container (glass) and the liquid expand when heated.<br>New volume of liquid \\( V_L = V_0(1 + \\gamma_L \\Delta T) \\).<br>New volume of flask \\( V_g = V_0(1 + \\gamma_g \\Delta T) \\).<br><br><b>Step 2: Overflow Volume</b><br>The overflow is the difference between the new liquid volume and the new container volume.<br>\\( \\Delta V = V_L - V_g = V_0(1 + \\gamma_L \\Delta T) - V_0(1 + \\gamma_g \\Delta T) \\).<br>\\( \\Delta V = V_0(\\gamma_L - \\gamma_g)\\Delta T \\)."
+            }
       ]
     },
     
@@ -8961,140 +9092,7 @@
         }
       ]
     },
-    
-    // ==========================================
-    // CHAPTER: THERMAL PROPERTIES OF MATTER
-    // ==========================================
-    "Thermal Properties of Matter": { 
-      classTarget: "Class 11", 
-      totalQs: 17, 
-      topics: ["Thermal Expansion", "Calorimetry & Heat Transfer"],
-      questions: [
-        {
-                id: 1, topic: "Thermal Expansion",
-                q: "A composite rod is made by joining a copper rod of length \\( L_1 \\) and an iron rod of length \\( L_2 \\). Their coefficients of linear expansion are \\( \\alpha_1 \\) and \\( \\alpha_2 \\) respectively. If the difference in their lengths remains constant at all temperatures, then the ratio \\( L_1/L_2 \\) must be:",
-                imgUrl: "set8_3.png",
-                options: ["\\( \\alpha_1 / \\alpha_2 \\)", "\\( \\sqrt{\\alpha_2 / \\alpha_1} \\)", "\\( \\alpha_2 / \\alpha_1 \\)", "\\( \\alpha_1^2 / \\alpha_2^2 \\)"],
-                correct: 2, 
-                sol: "<b>Step 1: Condition for Constant Difference</b><br>For the difference in lengths \\( (L_2 - L_1) \\) to be constant at any temperature, their absolute expansions must be exactly equal.<br>\\( \\Delta L_1 = \\Delta L_2 \\).<br><br><b>Step 2: Apply Expansion Formula</b><br>\\( L_1 \\alpha_1 \\Delta T = L_2 \\alpha_2 \\Delta T \\).<br><br><b>Step 3: Find Ratio</b><br>\\( L_1 \\alpha_1 = L_2 \\alpha_2 \\implies \\frac{L_1}{L_2} = \\frac{\\alpha_2}{\\alpha_1} \\)."
-            },
-            {
-                id: 2, topic: "Calorimetry & Heat Transfer",
-                q: "Three identical rods A, B, and C of equal lengths and equal diameters are joined at a common point forming a 'Y' shape. Their thermal conductivities are \\( K, 2K, \\) and \\( 3K \\) respectively. The free ends of A, B, and C are maintained at temperatures \\( 100^\\circ\\text{C}, 50^\\circ\\text{C}, \\) and \\( 0^\\circ\\text{C} \\) respectively. The steady-state temperature of the junction is:",
-                imgUrl: "set8_4.png",
-                options: ["\\( 40^\\circ\\text{C} \\)", "\\( 33.3^\\circ\\text{C} \\)", "\\( 50^\\circ\\text{C} \\)", "\\( 60^\\circ\\text{C} \\)"],
-                correct: 1, 
-                sol: "<b>Step 1: Kirchhoff's Law for Heat Flow</b><br>At steady state, the net rate of heat flow into the junction is zero. Let junction temperature be \\( T_0 \\).<br>\\( H_A + H_B + H_C = 0 \\).<br><br><b>Step 2: Setup Equations</b><br>\\( \\frac{K A (100 - T_0)}{L} + \\frac{2K A (50 - T_0)}{L} + \\frac{3K A (0 - T_0)}{L} = 0 \\).<br><br><b>Step 3: Solve for Junction Temperature</b><br>Cancel out common terms \\( (KA/L) \\):<br>\\( 100 - T_0 + 100 - 2T_0 - 3T_0 = 0 \\).<br>\\( 200 = 6T_0 \\implies T_0 = 33.3^\\circ\\text{C} \\)."
-            },
-            {
-                id: 3, topic: "Calorimetry & Heat Transfer",
-                q: "Two perfectly black spherical bodies A and B of radii \\( R_1 \\) and \\( R_2 \\) are maintained at temperatures \\( T_1 \\) and \\( T_2 \\) respectively. If they radiate equal total power, and the peak emission wavelength for A is \\( \\lambda_0 \\), the peak emission wavelength for B will be:",
-                options: ["\\( \\lambda_0 \\sqrt{R_1/R_2} \\)", "\\( \\lambda_0 (R_1/R_2)^2 \\)", "\\( \\lambda_0 \\sqrt{R_2/R_1} \\)", "\\( \\lambda_0 (R_2/R_1) \\)"],
-                correct: 2, 
-                sol: "<b>Step 1: Stefan-Boltzmann Law</b><br>Power \\( P = \\sigma A T^4 = \\sigma (4\\pi R^2) T^4 \\).<br>Since \\( P_A = P_B \\), \\( R_1^2 T_1^4 = R_2^2 T_2^4 \\implies \\frac{T_1}{T_2} = \\sqrt{\\frac{R_2}{R_1}} \\).<br><br><b>Step 2: Wien's Displacement Law</b><br>\\( \\lambda_{max} T = \\text{constant} \\implies \\lambda_1 T_1 = \\lambda_2 T_2 \\).<br>\\( \\lambda_2 = \\lambda_1 \\frac{T_1}{T_2} \\).<br><br><b>Step 3: Substitute Ratio</b><br>\\( \\lambda_2 = \\lambda_0 \\sqrt{\\frac{R_2}{R_1}} \\)."
-            },
-            {
-                id: 4, topic: "Calorimetry & Heat Transfer",
-                q: "The solar constant (intensity of solar radiation) at Earth's orbit is \\( S \\). If the absolute surface temperature of the Sun were to theoretically increase by 2% and its radius decrease by 1%, the new solar constant measured at Earth would approximately:",
-                options: ["Increase by 6%", "Increase by 8%", "Increase by 4%", "Decrease by 2%"],
-                correct: 0, 
-                sol: "<b>Step 1: Solar Constant Formula</b><br>The solar constant \\( S \\) is the power received per unit area at distance \\( d \\):<br>\\( S = \\frac{P_{sun}}{4\\pi d^2} \\).<br><br><b>Step 2: Apply Stefan's Law</b><br>The total power radiated by the Sun is \\( P_{sun} = \\sigma A T^4 = \\sigma (4\\pi R^2) T^4 \\).<br>Substituting this, we get: \\( S = \\frac{\\sigma (4\\pi R^2) T^4}{4\\pi d^2} \\implies S \\propto R^2 T^4 \\).<br><br><b>Step 3: Percentage Change Approximation</b><br>For small percentage changes, we can use the derivative/error analysis method:<br>\\( \\frac{\\Delta S}{S} \\times 100 = 2 \\left(\\frac{\\Delta R}{R} \\times 100\\right) + 4 \\left(\\frac{\\Delta T}{T} \\times 100\\right) \\).<br>Given: \\( \\%\\Delta R = -1\\% \\) (decrease) and \\( \\%\\Delta T = +2\\% \\) (increase).<br>\\( \\%\\Delta S = 2(-1\\%) + 4(+2\\%) = -2\\% + 8\\% = +6\\% \\).<br>The positive sign indicates a **6% increase**."
-            },
-            {
-                id: 5, topic: "Calorimetry & Heat Transfer",
-                q: "The plots of intensity vs wavelength for three black bodies at temperatures \\( T_1, T_2, \\) and \\( T_3 \\) are shown. Their maximum intensities occur at wavelengths corresponding to the visible region. Which of the following is true?",
-                imgUrl: "set8_13.png",
-                options: ["\\( T_1 > T_2 > T_3 \\)", "\\( T_1 < T_2 < T_3 \\)", "\\( T_1 = T_2 = T_3 \\)", "Cannot be determined without peak values"],
-                correct: 0, 
-                sol: "<b>Concept: Wien's Displacement Law</b><br>The peak emission wavelength \\( \\lambda_{max} \\) is inversely proportional to the absolute temperature \\( T \\) (\\( \\lambda_{max} \\propto 1/T \\)).<br>In standard spectral graphs, the curve with the highest peak is also shifted furthest to the left (smallest \\( \\lambda_{max} \\)).<br>Therefore, smaller \\( \\lambda_{max} \\implies \\) Higher Temperature.<br>Assuming standard graph structure: \\( \\lambda_{m1} < \\lambda_{m2} < \\lambda_{m3} \\implies T_1 > T_2 > T_3 \\)."
-            },
-            {
-                id: 6, topic: "Calorimetry & Heat Transfer",
-                q: "A piece of ice falls from a height \\( h \\) so that it completely melts upon hitting the ground. If only one-quarter of the heat produced is absorbed by the ice, and all its energy converts to heat on impact, the value of \\( h \\) is: (Latent heat of ice \\( L = 3.4 \\times 10^5 \\text{ J/kg} \\), \\( g = 10 \\text{ m/s}^2 \\))",
-                options: ["136 km", "34 km", "68 km", "272 km"],
-                correct: 0, 
-                sol: "<b>Step 1: Energy Transformation</b><br>Total potential energy converted to heat = \\( mgh \\).<br>Heat absorbed by ice \\( Q = \\frac{1}{4} (mgh) \\).<br><br><b>Step 2: Melting Condition</b><br>Heat required to melt completely \\( Q = mL \\).<br>\\( \\frac{1}{4} mgh = mL \\implies h = \\frac{4L}{g} \\).<br><br><b>Step 3: Calculate</b><br>\\( h = \\frac{4 \\times 3.4 \\times 10^5}{10} = 13.6 \\times 10^4 \\text{ m} = 136 \\text{ km} \\)."
-            },
-            {
-                id: 7, topic: "Calorimetry & Heat Transfer",
-                q: "A solid sphere and a hollow sphere of the same material and same size are heated to the same temperature and allowed to cool in the same surroundings. If the temperature difference between the body and surroundings is small, the ratio of their initial rates of cooling is:",
-                options: ["\\( > 1 \\)", "\\( < 1 \\)", "\\( = 1 \\)", "Depends on their actual mass"],
-                correct: 1, 
-                sol: "<b>Step 1: Newton's Law of Cooling</b><br>Rate of cooling \\( \\frac{dT}{dt} = \\frac{4\\sigma e A T_s^3}{ms} \\Delta T \\).<br>Since size (Area A) and material (specific heat s, emissivity e) are same, \\( \\frac{dT}{dt} \\propto \\frac{1}{m} \\).<br><br><b>Step 2: Compare Masses</b><br>A solid sphere has more mass than a hollow sphere of the same size (\\( m_{solid} > m_{hollow} \\)).<br>Therefore, Rate(solid) < Rate(hollow).<br>Ratio (Solid/Hollow) is \\( < 1 \\)."
-            },
-            {
-                id: 8, topic: "Calorimetry & Heat Transfer",
-                q: "A solid copper sphere of density \\( \\rho \\), specific heat \\( c \\), and radius \\( r \\) is at temperature \\( T \\). It cools in a vacuum enclosure at absolute zero. The time taken to cool from \\( T \\) to \\( T/2 \\) is:",
-                options: ["\\( \\frac{\\rho r c}{3 \\sigma T^3} \\)", "\\( \\frac{7 \\rho r c}{3 \\sigma T^3} \\)", "\\( \\frac{7 \\rho r c}{9 \\sigma T^3} \\)", "\\( \\frac{8 \\rho r c}{9 \\sigma T^3} \\)"],
-                correct: 2, 
-                sol: "<b>Step 1: Stefan's Law for Cooling</b><br>\\( -m c \\frac{dT}{dt} = \\sigma A T^4 \\).<br>\\( dt = \\frac{-m c}{\\sigma A} T^{-4} dT \\).<br><br><b>Step 2: Integration</b><br>\\( \\Delta t = \\int_{T}^{T/2} \\frac{-(\\rho \\cdot \\frac{4}{3}\\pi r^3) c}{\\sigma (4\\pi r^2)} T^{-4} dT = \\frac{-\\rho r c}{3\\sigma} [\\frac{T^{-3}}{-3}]_{T}^{T/2} \\).<br>\\( \\Delta t = \\frac{\\rho r c}{9\\sigma} [ (T/2)^{-3} - T^{-3} ] \\).<br>\\( \\Delta t = \\frac{\\rho r c}{9\\sigma} [ \\frac{8}{T^3} - \\frac{1}{T^3} ] = \\frac{7 \\rho r c}{9 \\sigma T^3} \\)."
-            },
-            {
-                id: 9, topic: "Thermal Expansion",
-                q: "A pendulum clock gives correct time at 20°C. Its pendulum is made of Invar (\\( \\alpha = 10^{-6} /^\\circ\\text{C} \\)). How many seconds will it lose or gain per day if the temperature drops to 0°C? (1 day = 86400 s)",
-                options: ["Gains 1.728 s", "Loses 0.864 s", "Loses 1.728 s", "Gains 0.864 s"],
-                correct: 3, 
-                sol: "<b>Step 1: Formula</b><br>\\( \\Delta t = \\frac{1}{2} \\alpha \\Delta \\theta \\times \\text{Time} \\).<br><br><b>Step 2: Calculate</b><br>\\( \\Delta t = 0.5 \\times 10^{-6} \\times 20 \\times 86400 \\).<br>\\( \\Delta t = 10 \\times 10^{-6} \\times 86400 = 0.864 \\text{ s} \\).<br><br><b>Step 3: Gain or Lose</b><br>When temperature drops, length decreases, time period decreases, so the clock goes faster. It **gains** 0.864 seconds."
-            },
-            {
-                id: 10, topic: "Calorimetry & Heat Transfer",
-                q: "10g of ice at 0°C, 20g of water at 20°C and \\( m \\) g of steam at 100°C are mixed in a calorimeter. If the final temperature is 40°C, what is \\( m \\)? (\\( L_v = 540 \\text{ cal/g}, L_f = 80 \\text{ cal/g}, s_w = 1 \\text{ cal/g}^\\circ\\text{C} \\))",
-                options: ["1.33 g", "2.67 g", "3.20 g", "5.33 g"],
-                correct: 1, 
-                sol: "<b>Step 1: Heat Gained (Cold bodies to 40°C)</b><br>Ice to 40°C water: \\( 10 \\times 80 + 10 \\times 1 \\times 40 = 800 + 400 = 1200 \\text{ cal} \\).<br>20°C water to 40°C: \\( 20 \\times 1 \\times (40 - 20) = 400 \\text{ cal} \\).<br>Total heat gained = 1600 cal.<br><br><b>Step 2: Heat Lost (Steam to 40°C)</b><br>Steam to 40°C water: \\( m \\times 540 + m \\times 1 \\times (100 - 40) = 540m + 60m = 600m \\).<br><br><b>Step 3: Equate</b><br>\\( 600m = 1600 \\implies m = 16/6 = 8/3 \\approx 2.67 \\text{ g} \\)."
-            },
-            {
-                id: 11, topic: "Calorimetry & Heat Transfer",
-                q: "A hollow cylinder of length \\( L \\), inner radius \\( R_1 \\), and outer radius \\( R_2 \\) has a thermal conductivity \\( K \\). The inner surface is at \\( T_1 \\) and outer at \\( T_2 \\) (\\( T_1 > T_2 \\)). The thermal resistance of the cylinder is:",
-                options: ["\\( \\frac{R_2 - R_1}{K \\pi (R_2^2 - R_1^2)} \\)", "\\( \\frac{R_2 - R_1}{2\\pi K L} \\)", "\\( \\frac{\\ln(R_2/R_1)}{2\\pi K L} \\)", "\\( \\frac{1}{2\\pi K L \\ln(R_2/R_1)} \\)"],
-                correct: 2, 
-                sol: "<b>Step 1: Setup Integral</b><br>Heat flows radially. Consider a thin cylindrical shell of radius \\( r \\) and thickness \\( dr \\).<br>Area \\( A = 2\\pi r L \\). Thermal resistance of this shell \\( dR_{th} = \\frac{dr}{K A} = \\frac{dr}{K(2\\pi r L)} \\).<br><br><b>Step 2: Integrate</b><br>\\( R_{th} = \\int_{R_1}^{R_2} \\frac{dr}{2\\pi K L r} = \\frac{1}{2\\pi K L} [\\ln r]_{R_1}^{R_2} \\).<br>\\( R_{th} = \\frac{\\ln(R_2/R_1)}{2\\pi K L} \\)."
-            },
-            {
-                id: 12, topic: "Calorimetry & Heat Transfer",
-                q: "A liquid takes 5 minutes to cool from 80°C to 50°C. The temperature of the surroundings is 20°C. The time taken to cool from 60°C to 30°C is:",
-                options: ["12 min", "6 min", "15 min", "9 min"],
-                correct: 3, 
-                sol: "<b>Step 1: First Case (Newton's Law of Cooling)</b><br>\\( \\frac{80-50}{5} = k (\\frac{80+50}{2} - 20) \\).<br>\\( 6 = k(65-20) = 45k \\implies k = 6/45 = 2/15 \\).<br><br><b>Step 2: Second Case</b><br>\\( \\frac{60-30}{t} = k (\\frac{60+30}{2} - 20) \\).<br>\\( \\frac{30}{t} = (\\frac{2}{15}) \\times (45-20) = (\\frac{2}{15}) \\times 25 = \\frac{50}{15} = \\frac{10}{3} \\).<br>\\( t = \\frac{30 \\times 3}{10} = 9 \\text{ min} \\)."
-            },
-            {
-                id: 13, topic: "Calorimetry & Heat Transfer",
-                q: "A spherical cavity of radius \\( R \\) is maintained at temperature \\( T \\). It has a small circular hole of radius \\( r \\) (where \\( r \\ll R \\)). The power radiated through the hole is:",
-                options: ["\\( 4\\pi R^2 \\sigma T^4 \\)", "\\( \\frac{r^2}{R^2} \\sigma T^4 \\)", "\\( 4\\pi r^2 \\sigma T^4 \\)", "\\( \\pi r^2 \\sigma T^4 \\)"],
-                correct: 3, 
-                sol: "<b>Concept:</b><br>A small hole in an isothermal cavity behaves as a **perfect black body** (emissivity \\( e=1 \\)).<br>The area radiating the energy is the area of the hole itself, \\( A = \\pi r^2 \\).<br>Using Stefan-Boltzmann law: Power \\( P = \\sigma A T^4 = \\sigma (\\pi r^2) T^4 \\)."
-            },
-            {
-                id: 14, topic: "Thermal Expansion",
-                q: "Two metallic strips of different materials A and B have identical dimensions: length \\( L \\) and thickness \\( d \\). They are welded together to form a bimetallic strip. Their coefficients of linear expansion are \\( \\alpha_A \\) and \\( \\alpha_B \\) (\\( \\alpha_A > \\alpha_B \\)). If the temperature is increased by \\( \\Delta T \\), the strip bends into a circular arc. The radius of curvature of the central interface is approximately:",
-                options: ["\\( \\frac{2d}{(\\alpha_A - \\alpha_B)\\Delta T} \\)", "\\( \\frac{d}{(\\alpha_A + \\alpha_B)\\Delta T} \\)", "\\( \\frac{d}{(\\alpha_A - \\alpha_B)\\Delta T} \\)", "\\( \\frac{L^2}{d(\\alpha_A - \\alpha_B)\\Delta T} \\)"],
-                correct: 2, 
-                sol: "<b>Step 1: Lengths of Arcs</b><br>Let radius of interface be R. Length of interface \\( L' \\approx L \\).<br>Length of A (outer arc) is \\( L_A = (R + d/2)\\theta = L(1 + \\alpha_A \\Delta T) \\).<br>Length of B (inner arc) is \\( L_B = (R - d/2)\\theta = L(1 + \\alpha_B \\Delta T) \\).<br><br><b>Step 2: Difference</b><br>Subtracting equations: \\( d \\cdot \\theta = L (\\alpha_A - \\alpha_B) \\Delta T \\).<br>Using \\( \\theta = L/R \\) (approx), we get \\( d(L/R) = L(\\alpha_A - \\alpha_B)\\Delta T \\).<br><br><b>Step 3: Solve for R</b><br>\\( R = \\frac{d}{(\\alpha_A - \\alpha_B)\\Delta T} \\)."
-            },
-            {
-                id: 15, topic: "Calorimetry & Heat Transfer",
-                q: "A body cools in a surrounding of constant temperature \\( \\theta_0 \\). If \\( \\theta \\) is the temperature of the body at time \\( t \\), the graph of \\( \\ln(\\theta - \\theta_0) \\) versus \\( t \\) is:",
-                options: ["An exponential decay curve", "A parabola", "A straight line with positive slope", "A straight line with negative slope"],
-                correct: 3, 
-                sol: "<b>Step 1: Newton's Law of Cooling</b><br>\\( \\frac{d\\theta}{dt} = -k(\\theta - \\theta_0) \\).<br>Integrating both sides: \\( \\int \\frac{d\\theta}{\\theta - \\theta_0} = -\\int k dt \\).<br>\\( \\ln(\\theta - \\theta_0) = -kt + C \\).<br><br><b>Step 2: Graph Analysis</b><br>Comparing to \\( y = mx + c \\), the y-axis is \\( \\ln(\\theta - \\theta_0) \\) and x-axis is \\( t \\).<br>The slope \\( m = -k \\), which represents a **straight line with a negative slope**."
-            },
-            {
-                id: 16, topic: "Calorimetry & Heat Transfer",
-                q: "A lake is covered with a layer of ice of thickness \\( x \\). The temperature of the air is \\( -T^\\circ\\text{C} \\). The rate at which the thickness of ice increases is given by (\\( K \\) is thermal conductivity of ice, \\( \\rho \\) is density, \\( L \\) is latent heat):",
-                options: ["\\( \\frac{K T x}{\\rho L} \\)", "\\( \\frac{\\rho L x}{K T} \\)", "\\( \\frac{\\rho L}{K T x} \\)", "\\( \\frac{K T}{\\rho L x} \\)"],
-                correct: 3, 
-                sol: "<b>Step 1: Heat Conduction</b><br>Heat flows from water at 0°C to air at -T°C through ice of thickness \\( x \\).<br>Rate of heat flow \\( \\frac{dQ}{dt} = \\frac{K A (0 - (-T))}{x} = \\frac{K A T}{x} \\).<br><br><b>Step 2: Latent Heat of Freezing</b><br>The heat extracted causes a mass \\( dm \\) of water to freeze into ice thickness \\( dx \\).<br>\\( dQ = dm \\cdot L = (\\rho A dx) L \\).<br>So \\( \\frac{dQ}{dt} = \\rho A L \\frac{dx}{dt} \\).<br><br><b>Step 3: Equate</b><br>\\( \\rho A L \\frac{dx}{dt} = \\frac{K A T}{x} \\implies \\frac{dx}{dt} = \\frac{K T}{\\rho L x} \\)."
-            },
-            {
-                id: 17, topic: "Thermal Expansion",
-                q: "A glass flask of volume \\( V_0 \\) is completely filled with a liquid at temperature \\( T \\). When the system is heated by \\( \\Delta T \\), a volume \\( \\Delta V \\) of liquid overflows. If \\( \\gamma_L \\) and \\( \\gamma_g \\) are the volume expansivities of the liquid and glass respectively, then \\( \\Delta V \\) is equal to:",
-                options: ["\\( V_0(\\gamma_L - \\gamma_g)\\Delta T \\)", "\\( V_0(\\gamma_L + \\gamma_g)\\Delta T \\)", "\\( V_0 \\gamma_L \\Delta T \\)", "\\( V_0 \\gamma_g \\Delta T \\)"],
-                correct: 0, 
-                sol: "<b>Step 1: Concept of Apparent Expansion</b><br>Both the container (glass) and the liquid expand when heated.<br>New volume of liquid \\( V_L = V_0(1 + \\gamma_L \\Delta T) \\).<br>New volume of flask \\( V_g = V_0(1 + \\gamma_g \\Delta T) \\).<br><br><b>Step 2: Overflow Volume</b><br>The overflow is the difference between the new liquid volume and the new container volume.<br>\\( \\Delta V = V_L - V_g = V_0(1 + \\gamma_L \\Delta T) - V_0(1 + \\gamma_g \\Delta T) \\).<br>\\( \\Delta V = V_0(\\gamma_L - \\gamma_g)\\Delta T \\)."
-            }
-      ]
-    },
-
+    /*
     // ==========================================
     // CHAPTER: KTG & THERMODYNAMICS
     // ==========================================
@@ -9306,7 +9304,7 @@
                 sol: "<b>Step 1: Isothermal Bulk Modulus</b><br>\\( PV = \\text{const} \\implies P dV + V dP = 0 \\implies B_{iso} = -\\frac{dP}{dV/V} = P \\).<br><br><b>Step 2: Adiabatic Bulk Modulus</b><br>\\( PV^\\gamma = \\text{const} \\implies dP \\cdot V^\\gamma + P \\cdot \\gamma V^{\\gamma-1} dV = 0 \\implies B_{adia} = -\\frac{dP}{dV/V} = \\gamma P \\).<br><br><b>Step 3: Ratio</b><br>\\( \\frac{B_{adia}}{B_{iso}} = \\frac{\\gamma P}{P} = \\gamma \\)."
             }
       ]
-    },
+    },*/
     
     // ==========================================
     // CHAPTER: GRAVITATION
@@ -9782,6 +9780,7 @@
       ]
     }
   };
+
 
 
 
