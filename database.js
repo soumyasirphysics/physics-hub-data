@@ -3963,12 +3963,399 @@
         }
       ]
     },
+
+    // ==========================================
+    // CHAPTER: GRAVITATION
+    // ==========================================
+    "Gravitation": { 
+      classTarget: "Class 11", 
+      totalQs: 45, 
+      topics: [
+        "Gravitational Force & Shell Theorems", 
+        "Acceleration due to Gravity (g)", 
+        "Gravitational Potential & Energy", 
+        "Satellites & Kepler's Laws", 
+        "Tricky & Advanced Concepts"
+      ],
+      questions: [
+        // --- TOPIC 1: Gravitational Force & Shell Theorems ---
+        {
+          id: 1,
+          topic: "Gravitational Force & Shell Theorems",
+          q: "Three identical particles each of mass M are located at the vertices of an equilateral triangle of side L. They move in a circle under their mutual gravitational attraction. The speed of each particle is:",
+          options: ["\\( \\sqrt{\\frac{GM}{L}} \\)", "\\( \\sqrt{\\frac{GM}{3L}} \\)", "\\( \\sqrt{\\frac{2GM}{L}} \\)", "\\( \\sqrt{\\frac{GM}{\\sqrt{3}L}} \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Net Force</b><br>Force on one particle due to other two:<br>\\( F_{net} = \\sqrt{F^2 + F^2 + 2F^2 \\cos 60^\\circ} = \\sqrt{3} F \\).<br>Where \\( F = \\frac{GM^2}{L^2} \\). So, \\( F_{net} = \\frac{\\sqrt{3}GM^2}{L^2} \\).<br><br><b>Step 2: Centripetal Force</b><br>Radius of circle \\( R = \\frac{L}{\\sqrt{3}} \\) (Distance from centroid to vertex).<br>\\( \\frac{Mv^2}{R} = F_{net} \\).<br>\\( \\frac{Mv^2}{L/\\sqrt{3}} = \\frac{\\sqrt{3}GM^2}{L^2} \\).<br><br><b>Step 3: Solve</b><br>\\( \\frac{\\sqrt{3} M v^2}{L} = \\frac{\\sqrt{3} GM^2}{L^2} \\).<br>\\( v^2 = \\frac{GM}{L} \\implies v = \\sqrt{\\frac{GM}{L}} \\)."
+        },
+        {
+          id: 2,
+          topic: "Gravitational Force & Shell Theorems",
+          q: "A solid sphere of mass M and radius R has a spherical cavity of radius R/2 such that the center of the cavity is at a distance R/2 from the center of the sphere. A point mass m is placed inside the cavity at a distance R/4 from the center of the sphere. The gravitational force on m is:",
+          options: ["Zero", "\\( \\frac{GMm}{R^2} \\)", "\\( \\frac{GMm}{2R^2} \\)", "Non-zero but constant"],
+          correct: 3,
+          sol: "<b>Concept:</b><br>The gravitational field inside a spherical cavity made within a solid uniform sphere is **uniform** (constant in magnitude and direction) and non-zero.<br><b>Formula:</b> \\( \\vec{E} = \\frac{2}{3} \\pi G \\rho \\vec{a} \\), where \\( \\vec{a} \\) is the vector joining the center of the sphere to the center of the cavity.<br>Since \\( \\vec{E} \\) is constant, Force \\( \\vec{F} = m\\vec{E} \\) is also **non-zero and constant** at all points inside the cavity."
+        },
+        {
+          id: 3,
+          topic: "Gravitational Force & Shell Theorems",
+          q: "A straight rod of length L extends from \\( x = a \\) to \\( x = L+a \\). The gravitational force it exerts on a point mass 'm' at \\( x = 0 \\) is (Linear mass density \\( \\lambda = M/L \\)):",
+          options: ["\\( \\frac{GMm}{a(L+a)} \\)", "\\( \\frac{GMm}{L^2} \\)", "\\( \\frac{GMm}{a^2} \\)", "\\( \\frac{GMm}{L(L+a)} \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Integration</b><br>Consider element dx at distance x. Mass \\( dm = \\lambda dx = (M/L) dx \\).<br>Force \\( dF = \\frac{G m (dm)}{x^2} = \\frac{G m M}{L} \\frac{dx}{x^2} \\).<br><br><b>Step 2: Limits</b><br>Integrate from \\( x = a \\) to \\( x = L+a \\).<br>\\( F = \\frac{GmM}{L} \\int_a^{L+a} x^{-2} dx = \\frac{GmM}{L} [ -1/x ]_a^{L+a} \\).<br><br><b>Step 3: Result</b><br>\\( F = \\frac{GmM}{L} ( \\frac{1}{a} - \\frac{1}{L+a} ) = \\frac{GmM}{L} \\frac{L+a-a}{a(L+a)} \\).<br>\\( F = \\frac{GmM}{a(L+a)} \\)."
+        },
+        {
+          id: 4,
+          topic: "Gravitational Force & Shell Theorems",
+          q: "Two concentric spherical shells have masses \\( M_1, M_2 \\) and radii \\( R_1, R_2 \\) (\\( R_1 < R_2 \\)). What is the force experienced by a particle of mass m placed at a distance r such that \\( R_1 < r < R_2 \\)?",
+          options: ["\\( \\frac{G(M_1+M_2)m}{r^2} \\)", "\\( \\frac{GM_1m}{r^2} \\)", "\\( \\frac{GM_2m}{r^2} \\)", "Zero"],
+          correct: 1,
+          sol: "<b>Step 1: Shell Theorem</b><br>For a point *inside* a shell, the shell exerts **zero force**.<br>For a point *outside* a shell, it behaves like a point mass at the center.<br><br><b>Step 2: Analyze Position</b><br>The particle is **outside** the inner shell \\( M_1 \\) -> Force is \\( \\frac{GM_1m}{r^2} \\).<br>The particle is **inside** the outer shell \\( M_2 \\) -> Force is 0.<br><br><b>Step 3: Net Force</b><br>Total F = \\( \\frac{GM_1m}{r^2} + 0 = \\frac{GM_1m}{r^2} \\)."
+        },
+
+        // --- TOPIC 2: Acceleration due to Gravity (g) ---
+        {
+          id: 5,
+          topic: "Acceleration due to Gravity (g)",
+          q: "The acceleration due to gravity at a height h above the earth is the same as at a depth d below the surface. Assuming \\( h << R \\) and \\( d << R \\), then:",
+          options: ["d = h", "d = 2h", "h = 2d", "d = 4h"],
+          correct: 1,
+          sol: "<b>Step 1: Formulas</b><br>At height h: \\( g_h = g(1 - 2h/R) \\).<br>At depth d: \\( g_d = g(1 - d/R) \\).<br><br><b>Step 2: Equate</b><br>\\( 1 - 2h/R = 1 - d/R \\).<br>\\( 2h/R = d/R \\).<br>\\( d = 2h \\)."
+        },
+        {
+          id: 6,
+          topic: "Acceleration due to Gravity (g)",
+          q: "If the earth were to stop rotating, the value of g at the equator would:",
+          options: ["Increase by \\( R\\omega^2 \\)", "Decrease by \\( R\\omega^2 \\)", "Remain same", "Increase by \\( g/2 \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Formula</b><br>\\( g' = g - R\\omega^2 \\cos^2 \\lambda \\).<br>At equator, \\( \\lambda = 0 \\), so \\( g_{eq} = g - R\\omega^2 \\).<br><br><b>Step 2: Stop Rotating</b><br>If \\( \\omega = 0 \\), then new \\( g'_{eq} = g \\).<br>Change = Final - Initial = \\( g - (g - R\\omega^2) = R\\omega^2 \\).<br>It **increases**."
+        },
+        {
+          id: 7,
+          topic: "Acceleration due to Gravity (g)",
+          q: "A body weighs 63 N on the surface of the earth. What is the gravitational force on it due to the earth at a height equal to half the radius of the earth?",
+          options: ["28 N", "35 N", "42 N", "10 N"],
+          correct: 0,
+          sol: "<b>Step 1: Variation of g</b><br>\\( g' = \\frac{g}{(1+h/R)^2} \\).<br>Here \\( h = R/2 \\).<br>\\( g' = \\frac{g}{(1+1/2)^2} = \\frac{g}{(3/2)^2} = \\frac{4g}{9} \\).<br><br><b>Step 2: Force</b><br>\\( F' = m g' = m (4g/9) = \\frac{4}{9} (mg) \\).<br>Given \\( mg = 63 \\).<br>\\( F' = \\frac{4}{9} \\times 63 = 4 \\times 7 = 28 \\text{ N} \\)."
+        },
+        {
+          id: 8,
+          topic: "Acceleration due to Gravity (g)",
+          q: "Assuming earth to be a sphere of uniform density, what is the value of 'g' in a mine 100 km below the surface? (Radius of earth = 6400 km, g = 9.8 m/s²)",
+          options: ["9.65 m/s²", "7.8 m/s²", "9.8 m/s²", "10.2 m/s²"],
+          correct: 0,
+          sol: "<b>Step 1: Formula</b><br>\\( g_d = g(1 - d/R) \\).<br><br><b>Step 2: Calculate</b><br>\\( d/R = 100 / 6400 = 1/64 \\).<br>\\( g_d = 9.8 (1 - 1/64) = 9.8 (63/64) \\).<br>\\( g_d \\approx 9.8 \\times 0.984 \\approx 9.65 \\text{ m/s}^2 \\)."
+        },
+
+        // --- TOPIC 3: Gravitational Potential & Energy ---
+        {
+          id: 9,
+          topic: "Gravitational Potential & Energy",
+          q: "A particle is fired vertically upwards with a speed of \\( v = \\sqrt{gR} \\). The maximum height attained by the particle is:",
+          options: ["R", "2R", "R/2", "Infinity"],
+          correct: 0,
+          sol: "<b>Step 1: Energy Conservation</b><br>\\( K_i + U_i = K_f + U_f \\).<br>\\( \\frac{1}{2}m v^2 - \\frac{GMm}{R} = 0 - \\frac{GMm}{R+h} \\).<br><br><b>Step 2: Substitute v</b><br>\\( v^2 = gR = \\frac{GM}{R} \\).<br>\\( \\frac{1}{2}m (\\frac{GM}{R}) - \\frac{GMm}{R} = -\\frac{GMm}{R+h} \\).<br>\\( -\\frac{GMm}{2R} = -\\frac{GMm}{R+h} \\).<br><br><b>Step 3: Solve</b><br>\\( \\frac{1}{2R} = \\frac{1}{R+h} \\implies 2R = R+h \\implies h = R \\)."
+        },
+        {
+          id: 10,
+          topic: "Gravitational Potential & Energy",
+          q: "Two stars of masses \\( m \\) and \\( 2m \\) are at a distance \\( d \\). They rotate about their common center of mass. The period of revolution is:",
+          options: ["\\( 2\\pi \\sqrt{\\frac{d^3}{3Gm}} \\)", "\\( 2\\pi \\sqrt{\\frac{d^3}{2Gm}} \\)", "\\( 2\\pi \\sqrt{\\frac{d^3}{Gm}} \\)", "\\( 2\\pi \\sqrt{\\frac{3d^3}{Gm}} \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Effective Force</b><br>Gravitational force provides centripetal force for both.<br>Mutual force \\( F = \\frac{G(m)(2m)}{d^2} \\).<br><br><b>Step 2: Radius of Orbit</b><br>Radius for mass m (distance from COM): \\( r_1 = \\frac{2m}{m+2m} d = \\frac{2d}{3} \\).<br><br><b>Step 3: Centripetal Equation</b><br>\\( m \\omega^2 r_1 = F \\).<br>\\( m \\omega^2 (\\frac{2d}{3}) = \\frac{2Gm^2}{d^2} \\).<br>\\( \\omega^2 \\frac{d}{3} = \\frac{Gm}{d^2} \\implies \\omega^2 = \\frac{3Gm}{d^3} \\).<br><br><b>Step 4: Time Period</b><br>\\( T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{d^3}{3Gm}} \\)."
+        },
+        {
+          id: 11,
+          topic: "Gravitational Potential & Energy",
+          q: "A body of mass m is taken from the surface of the earth to a height equal to the radius of the earth. The change in gravitational potential energy is:",
+          options: ["mgR", "2mgR", "0.5 mgR", "0.25 mgR"],
+          correct: 2,
+          sol: "<b>Step 1: Formula</b><br>\\( \\Delta U = U_f - U_i \\).<br>\\( U_i = -\\frac{GMm}{R} \\).<br>\\( U_f = -\\frac{GMm}{R+h} = -\\frac{GMm}{2R} \\) (since h=R).<br><br><b>Step 2: Calculate Change</b><br>\\( \\Delta U = -\\frac{GMm}{2R} - (-\\frac{GMm}{R}) = \\frac{GMm}{2R} \\).<br><br><b>Step 3: Relate to g</b><br>Since \\( GM/R^2 = g \\), we have \\( \\frac{GMm}{2R} = \\frac{GM}{R^2} \\cdot \\frac{mR}{2} = \\frac{mgR}{2} \\)."
+        },
+        {
+          id: 12,
+          topic: "Gravitational Potential & Energy",
+          q: "The gravitational potential at the center of a square of side 'a' with four identical masses 'm' at the corners is:",
+          options: ["\\( -4\\sqrt{2} \\frac{Gm}{a} \\)", "\\( -2\\sqrt{2} \\frac{Gm}{a} \\)", "\\( -4 \\frac{Gm}{a} \\)", "Zero"],
+          correct: 0,
+          sol: "<b>Step 1: Distance to Center</b><br>Diagonal \\( D = a\\sqrt{2} \\). Distance \\( r = D/2 = a/\\sqrt{2} \\).<br><br><b>Step 2: Potential Sum</b><br>Potential is scalar. \\( V = 4 \\times (-\\frac{Gm}{r}) \\).<br>\\( V = -4 \\frac{Gm}{a/\\sqrt{2}} = -4\\sqrt{2} \\frac{Gm}{a} \\)."
+        },
+        {
+          id: 13,
+          topic: "Gravitational Potential & Energy",
+          q: "A particle of mass M is situated at the center of a spherical shell of same mass M and radius R. The gravitational potential at a point situated at R/2 distance from the center will be:",
+          options: ["\\( -3\\frac{GM}{R} \\)", "\\( -2\\frac{GM}{R} \\)", "\\( -4\\frac{GM}{R} \\)", "\\( -1.5\\frac{GM}{R} \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Superposition</b><br>Potential = V(due to particle) + V(due to shell).<br><br><b>Step 2: V due to Shell</b><br>Inside a shell, potential is constant and equal to surface potential.<br>\\( V_{shell} = -\\frac{GM}{R} \\).<br><br><b>Step 3: V due to Particle</b><br>At distance \\( r = R/2 \\): \\( V_{particle} = -\\frac{GM}{R/2} = -\\frac{2GM}{R} \\).<br><br><b>Step 4: Total</b><br>\\( V = -\\frac{GM}{R} - \\frac{2GM}{R} = -\\frac{3GM}{R} \\)."
+        },
+        {
+          id: 14,
+          topic: "Gravitational Potential & Energy",
+          q: "The escape velocity from the earth is 11.2 km/s. If a body is projected with a velocity twice its escape velocity, the velocity of the body at infinity will be:",
+          options: ["11.2 km/s", "19.4 km/s", "22.4 km/s", "Infinite"],
+          correct: 1,
+          sol: "<b>Step 1: Energy Conservation</b><br>\\( \\frac{1}{2}mv^2 - \\frac{GMm}{R} = \\frac{1}{2}mv_{\\infty}^2 + 0 \\).<br>We know \\( \\frac{GMm}{R} = \\frac{1}{2}m v_e^2 \\).<br><br><b>Step 2: Substitute</b><br>\\( \\frac{1}{2}m(2v_e)^2 - \\frac{1}{2}mv_e^2 = \\frac{1}{2}mv_{\\infty}^2 \\).<br>\\( 4v_e^2 - v_e^2 = v_{\\infty}^2 \\).<br>\\( v_{\\infty} = \\sqrt{3} v_e \\).<br><br><b>Step 3: Calculate</b><br>\\( v_{\\infty} = 1.732 \\times 11.2 \\approx 19.4 \\text{ km/s} \\)."
+        },
+
+        // --- TOPIC 4: Satellites & Kepler's Laws ---
+        {
+          id: 15,
+          topic: "Satellites & Kepler's Laws",
+          q: "A satellite is moving in an elliptical orbit around the earth. The mass of the satellite is very small compared to the mass of the earth. Then:",
+          options: ["The angular momentum of the satellite about the center of the earth is conserved", "The linear momentum of the satellite is conserved", "The total mechanical energy varies", "The acceleration of S is always towards the center of the earth"],
+          correct: 0,
+          sol: "<b>Concept:</b><br>Gravitational force is a **central force** (passes through the center of the earth).<br>Torque \\( \\tau = \\vec{r} \\times \\vec{F} = 0 \\) (since r and F are parallel/anti-parallel).<br>Therefore, **Angular Momentum is conserved**."
+        },
+        {
+          id: 16,
+          topic: "Satellites & Kepler's Laws",
+          q: "The orbital velocity of an artificial satellite in a circular orbit just above the earth's surface is \\( v_0 \\). For a satellite orbiting at an altitude of half of the earth's radius, the orbital velocity is:",
+          options: ["\\( \\frac{3}{2}v_0 \\)", "\\( \\sqrt{\\frac{3}{2}}v_0 \\)", "\\( \\sqrt{\\frac{2}{3}}v_0 \\)", "\\( \\frac{2}{3}v_0 \\)"],
+          correct: 2,
+          sol: "<b>Step 1: Formula</b><br>\\( v_{orb} = \\sqrt{\\frac{GM}{r}} \\).<br>Case 1: \\( r = R \\). \\( v_0 = \\sqrt{\\frac{GM}{R}} \\).<br>Case 2: \\( r = R + R/2 = 3R/2 \\). \\( v' = \\sqrt{\\frac{GM}{3R/2}} \\).<br><br><b>Step 2: Ratio</b><br>\\( v' = \\sqrt{\\frac{2GM}{3R}} = \\sqrt{\\frac{2}{3}} \\sqrt{\\frac{GM}{R}} \\).<br>\\( v' = \\sqrt{\\frac{2}{3}} v_0 \\)."
+        },
+        {
+          id: 17,
+          topic: "Satellites & Kepler's Laws",
+          q: "A satellite is launched from earth in a direction making an angle \\( \\theta \\) with the vertical (where \\( 0 < \\theta < 90^\\circ \\)). If its initial speed \\( v \\) is less than escape velocity \\( v_e \\) but sufficient to maintain a closed orbit, the maximum distance from the earth's center depends on:",
+          options: ["Only v", "Only \\( \\theta \\)", "Both v and \\( \\theta \\)", "Neither v nor \\( \\theta \\)"],
+          correct: 2,
+          sol: "<b>Step 1: Conservation Laws</b><br>1. Energy Conservation depends only on magnitude \\( v \\).<br>2. Angular Momentum Conservation \\( L = mvr \\sin \\theta \\) depends on \\( \\theta \\).<br><br><b>Step 2: Orbit Equation</b><br>The maximum distance (apogee) is determined by solving the quadratic equation formed by combining E and L conservation.<br>Since L depends on \\( \\theta \\), the shape (eccentricity) and orientation of the ellipse depend on \\( \\theta \\).<br>Thus, \\( r_{max} \\) depends on **both**."
+        },
+        {
+          id: 18,
+          topic: "Satellites & Kepler's Laws",
+          q: "A satellite S is moving in an elliptical orbit around the earth. The mass of the satellite is very small compared to the mass of the earth. The acceleration of S is:",
+          options: ["Always towards the center of the earth", "Constant in magnitude", "Zero", "Tangent to the orbit"],
+          correct: 0,
+          sol: "<b>Concept:</b><br>The only force acting is Gravity, which is always directed towards the source mass (Earth's center).<br>Thus, acceleration is always directed towards the center."
+        },
+        {
+          id: 19,
+          topic: "Satellites & Kepler's Laws",
+          q: "Two satellites of masses \\( m \\) and \\( 3m \\) revolve around the earth in circular orbits of radii \\( r \\) and \\( 3r \\) respectively. The ratio of their kinetic energies is:",
+          options: ["3:1", "9:1", "1:1", "1:3"],
+          correct: 2,
+          sol: "<b>Step 1: Kinetic Energy Formula</b><br>\\( K = \\frac{GMm}{2r} \\).<br><br><b>Step 2: Ratio</b><br>\\( K_1 = \\frac{GM(m)}{2r} \\).<br>\\( K_2 = \\frac{GM(3m)}{2(3r)} = \\frac{3GMm}{6r} = \\frac{GMm}{2r} \\).<br><br><b>Step 3: Comparison</b><br>\\( K_1 = K_2 \\).<br>Ratio is **1:1**."
+        },
+        {
+          id: 20,
+          topic: "Satellites & Kepler's Laws",
+          q: "What is the minimum energy required to launch a satellite of mass m from the surface of a planet of mass M and radius R in a circular orbit at an altitude of 2R?",
+          options: ["\\( \\frac{5GMm}{6R} \\)", "\\( \\frac{2GMm}{3R} \\)", "\\( \\frac{GMm}{2R} \\)", "\\( \\frac{GMm}{3R} \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Total Energy Analysis</b><br>Initial Energy (Surface): \\( E_i = U_i + K_i = -\\frac{GMm}{R} + E_{supplied} \\).<br>Final Energy (Orbit at h=2R -> r=3R):<br>\\( E_f = -\\frac{GMm}{2r} = -\\frac{GMm}{2(3R)} = -\\frac{GMm}{6R} \\).<br><br><b>Step 2: Solve</b><br>\\( -\\frac{GMm}{R} + E_{supplied} = -\\frac{GMm}{6R} \\).<br>\\( E_{supplied} = \\frac{GMm}{R} - \\frac{GMm}{6R} = \\frac{5GMm}{6R} \\)."
+        },
+
+        // --- TOPIC 5: Tricky & Advanced Concepts ---
+        {
+          id: 21,
+          topic: "Tricky & Advanced Concepts",
+          q: "A black hole is an object whose gravitational field is so strong that even light cannot escape from it. To what radius must the earth be compressed to be a black hole? (Mass \\( = 5.98 \\times 10^{24} \\) kg)",
+          options: ["\\( 10^{-2} \\) m", "\\( 100 \\) m", "\\( 10^{-1} \\) m", "\\( 10^{-3} \\) m"],
+          correct: 0,
+          sol: "<b>Step 1: Schwarzschild Radius</b><br>Escape velocity \\( v_e = c \\).<br>\\( c = \\sqrt{\\frac{2GM}{R}} \\implies R = \\frac{2GM}{c^2} \\).<br><br><b>Step 2: Substitute</b><br>\\( R = \\frac{2 \\times 6.67 \\times 10^{-11} \\times 6 \\times 10^{24}}{(3 \\times 10^8)^2} \\).<br>\\( R = \\frac{80 \\times 10^{13}}{9 \\times 10^{16}} \\approx 9 \\times 10^{-3} \\text{ m} \\).<br>Approx \\( 0.9 \\text{ cm} \\approx 10^{-2} \\text{ m} \\)."
+        },
+        {
+          id: 22,
+          topic: "Tricky & Advanced Concepts",
+          q: "If the gravitational force between two objects were proportional to \\( 1/R \\) (and not as \\( 1/R^2 \\)), then a particle in a circular orbit would have its orbital speed \\( v \\) proportional to:",
+          options: ["\\( R \\)", "\\( R^0 \\) (independent of R)", "\\( 1/R \\)", "\\( 1/\\sqrt{R} \\)"],
+          correct: 1,
+          sol: "<b>Step 1: Force Equation</b><br>\\( F = \\frac{k}{R} \\).<br><br><b>Step 2: Centripetal Force</b><br>\\( \\frac{mv^2}{R} = \\frac{k}{R} \\).<br><br><b>Step 3: Solve for v</b><br>\\( mv^2 = k \\implies v = \\sqrt{k/m} = \\text{Constant} \\).<br>\\( v \\propto R^0 \\)."
+        },
+        {
+          id: 23,
+          topic: "Tricky & Advanced Concepts",
+          q: "A thin rod of length L is bent to form a semicircle. The gravitational potential at the center of the semicircle is:",
+          options: ["\\( -\\frac{\\pi GM}{L} \\)", "\\( -\\frac{GM}{L} \\)", "\\( -\\frac{\\pi GM}{2L} \\)", "Zero"],
+          correct: 0,
+          sol: "<b>Step 1: Geometry</b><br>Length \\( L = \\pi R \\implies R = L/\\pi \\).<br><br><b>Step 2: Potential</b><br>All mass elements \\( dm \\) are at the same distance R from center.<br>\\( V = \\int -\\frac{G dm}{R} = -\\frac{G}{R} \\int dm = -\\frac{GM}{R} \\).<br><br><b>Step 3: Substitute R</b><br>\\( V = -\\frac{GM}{L/\\pi} = -\\frac{\\pi GM}{L} \\)."
+        },
+        {
+          id: 24,
+          topic: "Tricky & Advanced Concepts",
+          q: "A uniform thin rod of mass M and length L is placed on the x-axis with its center at the origin. A point mass m is placed on the y-axis at a distance 'a' from the origin. The gravitational force exerted by the rod on the mass m is:",
+          options: ["\\( \\frac{GMm}{a \\sqrt{a^2 + (L/2)^2}} \\)", "\\( \\frac{GMm}{a^2} \\)", "\\( \\frac{GMm}{L \\sqrt{a^2 + L^2}} \\)", "\\( \\frac{GMm}{a(a+L)} \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Integration Setup</b><br>Consider element \\( dx \\) on rod at distance \\( x \\). Mass \\( dm = (M/L)dx \\).<br>Distance to m is \\( r = \\sqrt{x^2 + a^2} \\).<br>Force \\( dF = \\frac{G m dm}{x^2 + a^2} \\).<br><br><b>Step 2: Symmetry</b><br>X-components cancel. Y-component adds up.<br>\\( dF_y = dF \\cos \\theta = dF \\frac{a}{\\sqrt{x^2+a^2}} \\).<br>\\( F = \\int_{-L/2}^{L/2} \\frac{G m (M/L) a}{(x^2+a^2)^{3/2}} dx \\).<br><br><b>Step 3: Solve Integral</b><br>Using substitution \\( x = a \\tan \\theta \\).<br>Result: \\( F = \\frac{GMm}{a \\sqrt{a^2 + (L/2)^2}} \\)."
+        },
+        {
+          id: 25,
+          topic: "Tricky & Advanced Concepts",
+          q: "The change in the gravitational potential energy when a body of mass m is raised to a height nR from the earth's surface is (R = Radius of earth):",
+          options: ["\\( mgR \\frac{n}{n+1} \\)", "\\( mgR \\frac{n}{n-1} \\)", "\\( nmgR \\)", "\\( \\frac{mgR}{n} \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Initial & Final U</b><br>\\( U_i = -\\frac{GMm}{R} \\).<br>\\( U_f = -\\frac{GMm}{R+nR} = -\\frac{GMm}{R(n+1)} \\).<br><br><b>Step 2: Change</b><br>\\( \\Delta U = -\\frac{GMm}{R(n+1)} - (-\\frac{GMm}{R}) \\).<br>\\( \\Delta U = \\frac{GMm}{R} (1 - \\frac{1}{n+1}) = \\frac{GMm}{R} (\\frac{n}{n+1}) \\).<br><br><b>Step 3: Convert to g</b><br>\\( \\frac{GMm}{R} = mgR \\).<br>\\( \\Delta U = mgR \\frac{n}{n+1} \\)."
+        },
+        {
+          id: 26,
+          topic: "Tricky & Advanced Concepts",
+          q: "A planet has twice the radius but the mean density is the same as that of earth. The ratio of escape velocity from the planet to that from earth is:",
+          options: ["1:1", "2:1", "4:1", "\\( \\sqrt{2}:1 \\)"],
+          correct: 1,
+          sol: "<b>Step 1: Formula in terms of Density</b><br>\\( v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{\\frac{2G (\\frac{4}{3}\\pi R^3 \\rho)}{R}} = R \\sqrt{\\frac{8}{3}\\pi G \\rho} \\).<br>So \\( v_e \\propto R \\sqrt{\\rho} \\).<br><br><b>Step 2: Ratio</b><br>Since \\( \\rho \\) is same, \\( v_e \\propto R \\).<br>\\( \\frac{v_p}{v_e} = \\frac{2R}{R} = 2 \\)."
+        },
+        {
+          id: 27,
+          topic: "Tricky & Advanced Concepts",
+          q: "Orbital velocity of an artificial satellite does not depend upon:",
+          options: ["Mass of the earth", "Mass of the satellite", "Radius of the earth", "Acceleration due to gravity"],
+          correct: 1,
+          sol: "<b>Concept:</b><br>\\( v_o = \\sqrt{\\frac{GM}{r}} \\).<br>It depends on Source Mass (Earth) and radius.<br>It is **independent of the mass of the satellite**."
+        },
+        {
+          id: 28,
+          topic: "Tricky & Advanced Concepts",
+          q: "The kinetic energy needed to project a body of mass m from the earth surface to infinity is:",
+          options: ["mgR/2", "2mgR", "mgR", "mgR/4"],
+          correct: 2,
+          sol: "<b>Step 1: Binding Energy</b><br>Potential Energy at surface \\( U = -\\frac{GMm}{R} \\).<br>To escape to infinity (Energy = 0), Kinetic Energy K required must satisfy \\( K + U = 0 \\).<br>\\( K = \\frac{GMm}{R} \\).<br><br><b>Step 2: Convert to g</b><br>\\( K = m \\frac{GM}{R^2} R = mgR \\)."
+        },
+        {
+          id: 29,
+          topic: "Tricky & Advanced Concepts",
+          q: "Consider a ring of mass M and radius R. A particle of mass m is placed on its axis at a distance \\( x = \\sqrt{3}R \\). The force between them is:",
+          options: ["\\( \\frac{GMm}{8R^2} \\)", "\\( \\frac{\\sqrt{3}GMm}{8R^2} \\)", "\\( \\frac{GMm}{4R^2} \\)", "\\( \\frac{\\sqrt{3}GMm}{4R^2} \\)"],
+          correct: 1,
+          sol: "<b>Step 1: Field on Axis of Ring</b><br>\\( E = \\frac{G M x}{(R^2 + x^2)^{3/2}} \\).<br><br><b>Step 2: Substitute x</b><br>\\( x = \\sqrt{3}R \\). Denom: \\( (R^2 + 3R^2)^{3/2} = (4R^2)^{3/2} = 8R^3 \\).<br>Numerator: \\( G M \\sqrt{3}R \\).<br><br><b>Step 3: Force</b><br>\\( F = mE = \\frac{G M m \\sqrt{3}R}{8R^3} = \\frac{\\sqrt{3}GMm}{8R^2} \\)."
+        },
+        {
+          id: 30,
+          topic: "Tricky & Advanced Concepts",
+          q: "A solid sphere of uniform density and radius 4 units is located with its center at the origin O. Two spheres of equal radii 1 unit, with their centers at A(-2, 0, 0) and B(2, 0, 0) respectively, are taken out of the solid sphere leaving behind a cavity. The gravitational field at the origin O is:",
+          options: ["Zero", "Non-zero along +x", "Non-zero along -x", "Infinite"],
+          correct: 0,
+          sol: "<b>Step 1: Principle of Superposition</b><br>Field = Field(Full Sphere) - Field(Removed Sphere A) - Field(Removed Sphere B).<br><br><b>Step 2: Field at Origin</b><br>1. Full Sphere at its own center: \\( E_{full} = 0 \\).<br>2. Removed Sphere A (Center at -2): At Origin (dist 2 to right), it creates field towards -x.<br>3. Removed Sphere B (Center at +2): At Origin (dist 2 to left), it creates field towards +x.<br><br><b>Step 3: Symmetry</b><br>The cavities are symmetric. The 'missing mass' pull from left cancels the 'missing mass' pull from right.<br>Net Field is **Zero**."
+        },
+        {
+          id: 31,
+          topic: "Tricky & Advanced Concepts",
+          q: "For a satellite in circular orbit, the ratio of Kinetic Energy to Potential Energy (magnitude) is:",
+          options: ["1:2", "2:1", "1:1", "1:4"],
+          correct: 0,
+          sol: "<b>Step 1: Formulas</b><br>\\( U = -\\frac{GMm}{r} \\).<br>\\( K = \\frac{GMm}{2r} \\).<br><br><b>Step 2: Ratio</b><br>\\( |K| / |U| = \\frac{GMm/2r}{GMm/r} = 1/2 \\)."
+        },
+        {
+          id: 32,
+          topic: "Tricky & Advanced Concepts",
+          q: "If the earth shrinks to half its radius without change in mass, the duration of the day will be:",
+          options: ["24 hours", "12 hours", "6 hours", "48 hours"],
+          correct: 2,
+          sol: "<b>Step 1: Angular Momentum Conservation</b><br>\\( I_1 \\omega_1 = I_2 \\omega_2 \\).<br>Sphere \\( I = \\frac{2}{5}MR^2 \\).<br>\\( R_2 = R/2 \\implies I_2 = I_1/4 \\).<br><br><b>Step 2: Relation</b><br>\\( I_1 \\frac{2\\pi}{T_1} = (I_1/4) \\frac{2\\pi}{T_2} \\).<br>\\( 1/24 = 1/(4T_2) \\).<br>\\( 4T_2 = 24 \\implies T_2 = 6 \\text{ hours} \\)."
+        },
+        {
+          id: 33,
+          topic: "Tricky & Advanced Concepts",
+          q: "A tunnel is dug along a diameter of the earth. If a particle of mass m is dropped into it, the time period of oscillation is:",
+          options: ["\\( 2\\pi \\sqrt{R/g} \\)", "\\( 2\\pi \\sqrt{g/R} \\)", "\\( \\pi \\sqrt{R/g} \\)", "It will not oscillate"],
+          correct: 0,
+          sol: "<b>Step 1: Restoring Force</b><br>Inside earth \\( g' = g(r/R) \\).<br>Force \\( F = -mg(r/R) \\). This is SHM form \\( F = -kx \\) with \\( k = mg/R \\).<br><br><b>Step 2: Time Period</b><br>\\( T = 2\\pi \\sqrt{m/k} = 2\\pi \\sqrt{m/(mg/R)} = 2\\pi \\sqrt{R/g} \\)."
+        },
+        {
+          id: 34,
+          topic: "Tricky & Advanced Concepts",
+          q: "If 'g' is the acceleration due to gravity on the earth's surface, the gain in potential energy of an object of mass m raised from the surface of the earth to a height equal to the radius R of the earth is:",
+          options: ["2mgR", "mgR", "1/2 mgR", "1/4 mgR"],
+          correct: 2,
+          sol: "<b>Step 1: Formula</b><br>\\( \\Delta U = \\frac{mgh}{1+h/R} \\).<br>Here \\( h = R \\).<br><br><b>Step 2: Substitute</b><br>\\( \\Delta U = \\frac{mgR}{1+1} = \\frac{1}{2} mgR \\)."
+        },
+        {
+          id: 35,
+          topic: "Tricky & Advanced Concepts",
+          q: "Two bodies of masses m and 4m are placed at a distance r. The gravitational potential at a point on the line joining them where the gravitational field is zero is:",
+          options: ["\\( -4Gm/r \\)", "\\( -6Gm/r \\)", "\\( -9Gm/r \\)", "\\( -3Gm/r \\)"],
+          correct: 2,
+          sol: "<b>Step 1: Find Null Point</b><br>\\( \\frac{Gm}{x^2} = \\frac{G(4m)}{(r-x)^2} \\).<br>\\( \\frac{1}{x} = \\frac{2}{r-x} \\implies r-x = 2x \\implies x = r/3 \\).<br>Distance from m is r/3, from 4m is 2r/3.<br><br><b>Step 2: Calculate Potential</b><br>\\( V = -\\frac{Gm}{r/3} - \\frac{G(4m)}{2r/3} \\).<br>\\( V = -\\frac{3Gm}{r} - \\frac{12Gm}{2r} = -\\frac{3Gm}{r} - \\frac{6Gm}{r} = -\\frac{9Gm}{r} \\)."
+        },
+        {
+          id: 36,
+          topic: "Tricky & Advanced Concepts",
+          q: "A satellite orbits the earth at a height of 400 km. Energy to be expended to send it out of the earth's gravitational influence is (Energy E is total energy in orbit):",
+          options: ["2E", "E", "-E", "-E/2"],
+          correct: 2,
+          sol: "<b>Step 1: Total Energy</b><br>Total Energy in orbit \\( E = -\\frac{GMm}{2r} \\). (Negative).<br>Energy at infinity = 0.<br><br><b>Step 2: Energy Required</b><br>\\( E_{req} = E_{final} - E_{initial} = 0 - E = -E \\).<br>(Since E is negative, -E is a positive quantity equal to Binding Energy)."
+        },
+        {
+          id: 37,
+          topic: "Tricky & Advanced Concepts",
+          q: "The mean radius of earth is R, its angular speed on its own axis is \\( \\omega \\) and the acceleration due to gravity at earth's surface is g. What will be the radius of the orbit of a geostationary satellite?",
+          options: ["\\( (R^2 g / \\omega^2)^{1/3} \\)", "\\( (Rg / \\omega^2)^{1/3} \\)", "\\( (R^2 g / \\omega)^{1/3} \\)", "\\( (R^2 g^2 / \\omega^2)^{1/3} \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Orbital Condition</b><br>\\( r \\omega^2 = \\frac{GM}{r^2} \\implies r^3 = \\frac{GM}{\\omega^2} \\).<br><br><b>Step 2: Eliminate GM</b><br>\\( g = GM/R^2 \\implies GM = gR^2 \\).<br><br><b>Step 3: Solve</b><br>\\( r^3 = \\frac{gR^2}{\\omega^2} \\).<br>\\( r = (gR^2 / \\omega^2)^{1/3} \\)."
+        },
+        {
+          id: 38,
+          topic: "Tricky & Advanced Concepts",
+          q: "Dependence of intensity of gravitational field (E) of earth with distance (r) from center of earth is correctly represented by:",
+          options: ["Rectangular Hyperbola", "Linear", "Linear then Hyperbolic", "Parabola"],
+          correct: 2,
+          sol: "<b>Concept:</b><br>Inside Earth (solid sphere): \\( E \\propto r \\) (Linear).<br>Outside Earth: \\( E \\propto 1/r^2 \\) (Hyperbolic/Inverse Square).<br>Graph is Linear then Inverse Square."
+        },
+        {
+          id: 39,
+          topic: "Tricky & Advanced Concepts",
+          q: "Maximum height reached by a rocket fired with a speed equal to 50% of the escape velocity from earth's surface is:",
+          options: ["R/2", "R/3", "R/4", "R"],
+          correct: 1,
+          sol: "<b>Step 1: Velocity</b><br>\\( v = 0.5 v_e = \\frac{1}{2} \\sqrt{\\frac{2GM}{R}} = \\sqrt{\\frac{GM}{2R}} \\).<br><br><b>Step 2: Conservation</b><br>\\( \\frac{1}{2}m(\\frac{GM}{2R}) - \\frac{GMm}{R} = -\\frac{GMm}{R+h} \\).<br>\\( \\frac{GMm}{4R} - \\frac{GMm}{R} = -\\frac{GMm}{R+h} \\).<br>\\( -\\frac{3}{4R} = -\\frac{1}{R+h} \\).<br>\\( 4R = 3(R+h) \\implies R = 3h \\implies h = R/3 \\)."
+        },
+        {
+          id: 40,
+          topic: "Tricky & Advanced Concepts",
+          q: "A satellite is launched into a circular orbit of radius R around the earth. A second satellite is launched into an orbit of radius (1.01)R. The period of the second satellite is larger than the first one by approximately:",
+          options: ["1.5%", "1.0%", "3.0%", "0.5%"],
+          correct: 0,
+          sol: "<b>Step 1: Kepler's Law</b><br>\\( T^2 \\propto R^3 \\).<br>Taking logs: \\( 2 \\ln T = 3 \\ln R \\).<br>Differentiating: \\( 2 \\frac{\\Delta T}{T} = 3 \\frac{\\Delta R}{R} \\).<br><br><b>Step 2: Calculate</b><br>\\( \\frac{\\Delta R}{R} = 0.01 \\) (1%).<br>\\( \\frac{\\Delta T}{T} = \\frac{3}{2} (1\\%) = 1.5\\% \\)."
+        },
+        {
+          id: 41,
+          topic: "Tricky & Advanced Concepts",
+          q: "Which one of the following graphs represents correctly the variation of the gravitational potential (V) with distance (r) from the center of a solid sphere of radius R?",
+          options: ["V is constant inside", "V is zero at r=0", "Parabolic inside, Hyperbolic outside", "Linear inside"],
+          correct: 2,
+          sol: "<b>Concept:</b><br>Inside solid sphere: \\( V = -\\frac{GM}{2R^3}(3R^2 - r^2) \\) (Parabolic).<br>Outside: \\( V = -\\frac{GM}{r} \\) (Hyperbolic).<br>At center \\( V = -1.5 GM/R \\). Surface \\( -GM/R \\)."
+        },
+        {
+          id: 42,
+          topic: "Tricky & Advanced Concepts",
+          q: "A body starts from rest from a point distance \\( R_0 \\) from the center of the earth. The velocity acquired by the body when it reaches the surface of the earth will be (R is radius):",
+          options: ["\\( \\sqrt{2GM(1/R - 1/R_0)} \\)", "\\( \\sqrt{2GM(1/R_0 - 1/R)} \\)", "\\( \\sqrt{GM(1/R - 1/R_0)} \\)", "\\( 2GM \\sqrt{1/R - 1/R_0} \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Energy Conservation</b><br>\\( 0 - \\frac{GMm}{R_0} = \\frac{1}{2}mv^2 - \\frac{GMm}{R} \\).<br>\\( \\frac{1}{2}v^2 = GM(\\frac{1}{R} - \\frac{1}{R_0}) \\).<br>\\( v = \\sqrt{2GM(\\frac{1}{R} - \\frac{1}{R_0})} \\)."
+        },
+        {
+          id: 43,
+          topic: "Tricky & Advanced Concepts",
+          q: "The escape velocity for a planet is \\( v_e \\). A tunnel is dug along a diameter of the planet and a small body is dropped into it at the surface. When the body reaches the center of the planet, its speed will be:",
+          options: ["\\( v_e \\)", "\\( v_e / \\sqrt{2} \\)", "\\( v_e / 2 \\)", "\\( Zero \\)"],
+          correct: 1,
+          sol: "<b>Step 1: Potentials</b><br>Surface \\( V_s = -\\frac{GM}{R} \\).<br>Center \\( V_c = -\\frac{3GM}{2R} \\).<br><br><b>Step 2: Conservation</b><br>\\( m V_s = \\frac{1}{2}mv^2 + m V_c \\).<br>\\( -\\frac{GM}{R} = \\frac{1}{2}v^2 - \\frac{3GM}{2R} \\).<br>\\( \\frac{1}{2}v^2 = \\frac{GM}{2R} \\implies v^2 = \\frac{GM}{R} \\).<br><br><b>Step 3: Relate to Escape</b><br>\\( v_e = \\sqrt{\\frac{2GM}{R}} \\).<br>\\( v = \\sqrt{\\frac{GM}{R}} = \\frac{v_e}{\\sqrt{2}} \\)."
+        },
+        {
+          id: 44,
+          topic: "Tricky & Advanced Concepts",
+          q: "Two particles of equal mass 'm' go around a circle of radius R under the action of their mutual gravitational attraction. The speed of each particle is:",
+          options: ["\\( \\frac{1}{2} \\sqrt{\\frac{Gm}{R}} \\)", "\\( \\sqrt{\\frac{Gm}{2R}} \\)", "\\( \\frac{1}{2} \\sqrt{\\frac{Gm}{2R}} \\)", "\\( \\sqrt{\\frac{4Gm}{R}} \\)"],
+          correct: 0,
+          sol: "<b>Step 1: Force</b><br>Distance between particles = 2R.<br>\\( F = \\frac{Gmm}{(2R)^2} = \\frac{Gm^2}{4R^2} \\).<br><br><b>Step 2: Centripetal Force</b><br>\\( \\frac{mv^2}{R} = \\frac{Gm^2}{4R^2} \\).<br>\\( v^2 = \\frac{Gm}{4R} \\).<br>\\( v = \\frac{1}{2} \\sqrt{\\frac{Gm}{R}} \\)."
+        },
+        {
+          id: 45,
+          topic: "Tricky & Advanced Concepts",
+          q: "The distance between the centers of the earth and the moon is d. The mass of the earth is 81 times the mass of the moon. At what distance from the center of the earth is the gravitational field zero?",
+          options: ["d/10", "9d/10", "d/9", "9d"],
+          correct: 1,
+          sol: "<b>Step 1: Null Point Formula</b><br>Distance from larger mass \\( x = \\frac{d}{1 + \\sqrt{M_2/M_1}} \\).<br>Here \\( M_1 = 81M \\) (Earth), \\( M_2 = M \\) (Moon).<br>Wait, standard formula gives dist from smaller mass? No, let's derive.<br>\\( \\frac{G(81M)}{x^2} = \\frac{GM}{(d-x)^2} \\).<br>\\( \\frac{9}{x} = \\frac{1}{d-x} \\).<br>\\( 9(d-x) = x \\implies 9d = 10x \\implies x = 0.9d \\).<br>Answer is 9d/10."
+        }
+      ]
+    },
+    
     // ==========================================
     // CHAPTER: THERMAL PHYSICS (PART 1)
     // ==========================================
     "Thermal Physics": { 
       classTarget: "Class 11", 
-      totalQs: 60, 
+      totalQs: 77, 
       topics: ["Thermal Expansion", "Calorimetry & Heat Transfer", "Kinetic Theory of Gases", "Thermodynamics"],
       questions: [
         {
@@ -9306,393 +9693,7 @@
       ]
     },*/
     
-    // ==========================================
-    // CHAPTER: GRAVITATION
-    // ==========================================
-    "Gravitation": { 
-      classTarget: "Class 11", 
-      totalQs: 45, 
-      topics: [
-        "Gravitational Force & Shell Theorems", 
-        "Acceleration due to Gravity (g)", 
-        "Gravitational Potential & Energy", 
-        "Satellites & Kepler's Laws", 
-        "Tricky & Advanced Concepts"
-      ],
-      questions: [
-        // --- TOPIC 1: Gravitational Force & Shell Theorems ---
-        {
-          id: 1,
-          topic: "Gravitational Force & Shell Theorems",
-          q: "Three identical particles each of mass M are located at the vertices of an equilateral triangle of side L. They move in a circle under their mutual gravitational attraction. The speed of each particle is:",
-          options: ["\\( \\sqrt{\\frac{GM}{L}} \\)", "\\( \\sqrt{\\frac{GM}{3L}} \\)", "\\( \\sqrt{\\frac{2GM}{L}} \\)", "\\( \\sqrt{\\frac{GM}{\\sqrt{3}L}} \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Net Force</b><br>Force on one particle due to other two:<br>\\( F_{net} = \\sqrt{F^2 + F^2 + 2F^2 \\cos 60^\\circ} = \\sqrt{3} F \\).<br>Where \\( F = \\frac{GM^2}{L^2} \\). So, \\( F_{net} = \\frac{\\sqrt{3}GM^2}{L^2} \\).<br><br><b>Step 2: Centripetal Force</b><br>Radius of circle \\( R = \\frac{L}{\\sqrt{3}} \\) (Distance from centroid to vertex).<br>\\( \\frac{Mv^2}{R} = F_{net} \\).<br>\\( \\frac{Mv^2}{L/\\sqrt{3}} = \\frac{\\sqrt{3}GM^2}{L^2} \\).<br><br><b>Step 3: Solve</b><br>\\( \\frac{\\sqrt{3} M v^2}{L} = \\frac{\\sqrt{3} GM^2}{L^2} \\).<br>\\( v^2 = \\frac{GM}{L} \\implies v = \\sqrt{\\frac{GM}{L}} \\)."
-        },
-        {
-          id: 2,
-          topic: "Gravitational Force & Shell Theorems",
-          q: "A solid sphere of mass M and radius R has a spherical cavity of radius R/2 such that the center of the cavity is at a distance R/2 from the center of the sphere. A point mass m is placed inside the cavity at a distance R/4 from the center of the sphere. The gravitational force on m is:",
-          options: ["Zero", "\\( \\frac{GMm}{R^2} \\)", "\\( \\frac{GMm}{2R^2} \\)", "Non-zero but constant"],
-          correct: 3,
-          sol: "<b>Concept:</b><br>The gravitational field inside a spherical cavity made within a solid uniform sphere is **uniform** (constant in magnitude and direction) and non-zero.<br><b>Formula:</b> \\( \\vec{E} = \\frac{2}{3} \\pi G \\rho \\vec{a} \\), where \\( \\vec{a} \\) is the vector joining the center of the sphere to the center of the cavity.<br>Since \\( \\vec{E} \\) is constant, Force \\( \\vec{F} = m\\vec{E} \\) is also **non-zero and constant** at all points inside the cavity."
-        },
-        {
-          id: 3,
-          topic: "Gravitational Force & Shell Theorems",
-          q: "A straight rod of length L extends from \\( x = a \\) to \\( x = L+a \\). The gravitational force it exerts on a point mass 'm' at \\( x = 0 \\) is (Linear mass density \\( \\lambda = M/L \\)):",
-          options: ["\\( \\frac{GMm}{a(L+a)} \\)", "\\( \\frac{GMm}{L^2} \\)", "\\( \\frac{GMm}{a^2} \\)", "\\( \\frac{GMm}{L(L+a)} \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Integration</b><br>Consider element dx at distance x. Mass \\( dm = \\lambda dx = (M/L) dx \\).<br>Force \\( dF = \\frac{G m (dm)}{x^2} = \\frac{G m M}{L} \\frac{dx}{x^2} \\).<br><br><b>Step 2: Limits</b><br>Integrate from \\( x = a \\) to \\( x = L+a \\).<br>\\( F = \\frac{GmM}{L} \\int_a^{L+a} x^{-2} dx = \\frac{GmM}{L} [ -1/x ]_a^{L+a} \\).<br><br><b>Step 3: Result</b><br>\\( F = \\frac{GmM}{L} ( \\frac{1}{a} - \\frac{1}{L+a} ) = \\frac{GmM}{L} \\frac{L+a-a}{a(L+a)} \\).<br>\\( F = \\frac{GmM}{a(L+a)} \\)."
-        },
-        {
-          id: 4,
-          topic: "Gravitational Force & Shell Theorems",
-          q: "Two concentric spherical shells have masses \\( M_1, M_2 \\) and radii \\( R_1, R_2 \\) (\\( R_1 < R_2 \\)). What is the force experienced by a particle of mass m placed at a distance r such that \\( R_1 < r < R_2 \\)?",
-          options: ["\\( \\frac{G(M_1+M_2)m}{r^2} \\)", "\\( \\frac{GM_1m}{r^2} \\)", "\\( \\frac{GM_2m}{r^2} \\)", "Zero"],
-          correct: 1,
-          sol: "<b>Step 1: Shell Theorem</b><br>For a point *inside* a shell, the shell exerts **zero force**.<br>For a point *outside* a shell, it behaves like a point mass at the center.<br><br><b>Step 2: Analyze Position</b><br>The particle is **outside** the inner shell \\( M_1 \\) -> Force is \\( \\frac{GM_1m}{r^2} \\).<br>The particle is **inside** the outer shell \\( M_2 \\) -> Force is 0.<br><br><b>Step 3: Net Force</b><br>Total F = \\( \\frac{GM_1m}{r^2} + 0 = \\frac{GM_1m}{r^2} \\)."
-        },
-
-        // --- TOPIC 2: Acceleration due to Gravity (g) ---
-        {
-          id: 5,
-          topic: "Acceleration due to Gravity (g)",
-          q: "The acceleration due to gravity at a height h above the earth is the same as at a depth d below the surface. Assuming \\( h << R \\) and \\( d << R \\), then:",
-          options: ["d = h", "d = 2h", "h = 2d", "d = 4h"],
-          correct: 1,
-          sol: "<b>Step 1: Formulas</b><br>At height h: \\( g_h = g(1 - 2h/R) \\).<br>At depth d: \\( g_d = g(1 - d/R) \\).<br><br><b>Step 2: Equate</b><br>\\( 1 - 2h/R = 1 - d/R \\).<br>\\( 2h/R = d/R \\).<br>\\( d = 2h \\)."
-        },
-        {
-          id: 6,
-          topic: "Acceleration due to Gravity (g)",
-          q: "If the earth were to stop rotating, the value of g at the equator would:",
-          options: ["Increase by \\( R\\omega^2 \\)", "Decrease by \\( R\\omega^2 \\)", "Remain same", "Increase by \\( g/2 \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Formula</b><br>\\( g' = g - R\\omega^2 \\cos^2 \\lambda \\).<br>At equator, \\( \\lambda = 0 \\), so \\( g_{eq} = g - R\\omega^2 \\).<br><br><b>Step 2: Stop Rotating</b><br>If \\( \\omega = 0 \\), then new \\( g'_{eq} = g \\).<br>Change = Final - Initial = \\( g - (g - R\\omega^2) = R\\omega^2 \\).<br>It **increases**."
-        },
-        {
-          id: 7,
-          topic: "Acceleration due to Gravity (g)",
-          q: "A body weighs 63 N on the surface of the earth. What is the gravitational force on it due to the earth at a height equal to half the radius of the earth?",
-          options: ["28 N", "35 N", "42 N", "10 N"],
-          correct: 0,
-          sol: "<b>Step 1: Variation of g</b><br>\\( g' = \\frac{g}{(1+h/R)^2} \\).<br>Here \\( h = R/2 \\).<br>\\( g' = \\frac{g}{(1+1/2)^2} = \\frac{g}{(3/2)^2} = \\frac{4g}{9} \\).<br><br><b>Step 2: Force</b><br>\\( F' = m g' = m (4g/9) = \\frac{4}{9} (mg) \\).<br>Given \\( mg = 63 \\).<br>\\( F' = \\frac{4}{9} \\times 63 = 4 \\times 7 = 28 \\text{ N} \\)."
-        },
-        {
-          id: 8,
-          topic: "Acceleration due to Gravity (g)",
-          q: "Assuming earth to be a sphere of uniform density, what is the value of 'g' in a mine 100 km below the surface? (Radius of earth = 6400 km, g = 9.8 m/s²)",
-          options: ["9.65 m/s²", "7.8 m/s²", "9.8 m/s²", "10.2 m/s²"],
-          correct: 0,
-          sol: "<b>Step 1: Formula</b><br>\\( g_d = g(1 - d/R) \\).<br><br><b>Step 2: Calculate</b><br>\\( d/R = 100 / 6400 = 1/64 \\).<br>\\( g_d = 9.8 (1 - 1/64) = 9.8 (63/64) \\).<br>\\( g_d \\approx 9.8 \\times 0.984 \\approx 9.65 \\text{ m/s}^2 \\)."
-        },
-
-        // --- TOPIC 3: Gravitational Potential & Energy ---
-        {
-          id: 9,
-          topic: "Gravitational Potential & Energy",
-          q: "A particle is fired vertically upwards with a speed of \\( v = \\sqrt{gR} \\). The maximum height attained by the particle is:",
-          options: ["R", "2R", "R/2", "Infinity"],
-          correct: 0,
-          sol: "<b>Step 1: Energy Conservation</b><br>\\( K_i + U_i = K_f + U_f \\).<br>\\( \\frac{1}{2}m v^2 - \\frac{GMm}{R} = 0 - \\frac{GMm}{R+h} \\).<br><br><b>Step 2: Substitute v</b><br>\\( v^2 = gR = \\frac{GM}{R} \\).<br>\\( \\frac{1}{2}m (\\frac{GM}{R}) - \\frac{GMm}{R} = -\\frac{GMm}{R+h} \\).<br>\\( -\\frac{GMm}{2R} = -\\frac{GMm}{R+h} \\).<br><br><b>Step 3: Solve</b><br>\\( \\frac{1}{2R} = \\frac{1}{R+h} \\implies 2R = R+h \\implies h = R \\)."
-        },
-        {
-          id: 10,
-          topic: "Gravitational Potential & Energy",
-          q: "Two stars of masses \\( m \\) and \\( 2m \\) are at a distance \\( d \\). They rotate about their common center of mass. The period of revolution is:",
-          options: ["\\( 2\\pi \\sqrt{\\frac{d^3}{3Gm}} \\)", "\\( 2\\pi \\sqrt{\\frac{d^3}{2Gm}} \\)", "\\( 2\\pi \\sqrt{\\frac{d^3}{Gm}} \\)", "\\( 2\\pi \\sqrt{\\frac{3d^3}{Gm}} \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Effective Force</b><br>Gravitational force provides centripetal force for both.<br>Mutual force \\( F = \\frac{G(m)(2m)}{d^2} \\).<br><br><b>Step 2: Radius of Orbit</b><br>Radius for mass m (distance from COM): \\( r_1 = \\frac{2m}{m+2m} d = \\frac{2d}{3} \\).<br><br><b>Step 3: Centripetal Equation</b><br>\\( m \\omega^2 r_1 = F \\).<br>\\( m \\omega^2 (\\frac{2d}{3}) = \\frac{2Gm^2}{d^2} \\).<br>\\( \\omega^2 \\frac{d}{3} = \\frac{Gm}{d^2} \\implies \\omega^2 = \\frac{3Gm}{d^3} \\).<br><br><b>Step 4: Time Period</b><br>\\( T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{d^3}{3Gm}} \\)."
-        },
-        {
-          id: 11,
-          topic: "Gravitational Potential & Energy",
-          q: "A body of mass m is taken from the surface of the earth to a height equal to the radius of the earth. The change in gravitational potential energy is:",
-          options: ["mgR", "2mgR", "0.5 mgR", "0.25 mgR"],
-          correct: 2,
-          sol: "<b>Step 1: Formula</b><br>\\( \\Delta U = U_f - U_i \\).<br>\\( U_i = -\\frac{GMm}{R} \\).<br>\\( U_f = -\\frac{GMm}{R+h} = -\\frac{GMm}{2R} \\) (since h=R).<br><br><b>Step 2: Calculate Change</b><br>\\( \\Delta U = -\\frac{GMm}{2R} - (-\\frac{GMm}{R}) = \\frac{GMm}{2R} \\).<br><br><b>Step 3: Relate to g</b><br>Since \\( GM/R^2 = g \\), we have \\( \\frac{GMm}{2R} = \\frac{GM}{R^2} \\cdot \\frac{mR}{2} = \\frac{mgR}{2} \\)."
-        },
-        {
-          id: 12,
-          topic: "Gravitational Potential & Energy",
-          q: "The gravitational potential at the center of a square of side 'a' with four identical masses 'm' at the corners is:",
-          options: ["\\( -4\\sqrt{2} \\frac{Gm}{a} \\)", "\\( -2\\sqrt{2} \\frac{Gm}{a} \\)", "\\( -4 \\frac{Gm}{a} \\)", "Zero"],
-          correct: 0,
-          sol: "<b>Step 1: Distance to Center</b><br>Diagonal \\( D = a\\sqrt{2} \\). Distance \\( r = D/2 = a/\\sqrt{2} \\).<br><br><b>Step 2: Potential Sum</b><br>Potential is scalar. \\( V = 4 \\times (-\\frac{Gm}{r}) \\).<br>\\( V = -4 \\frac{Gm}{a/\\sqrt{2}} = -4\\sqrt{2} \\frac{Gm}{a} \\)."
-        },
-        {
-          id: 13,
-          topic: "Gravitational Potential & Energy",
-          q: "A particle of mass M is situated at the center of a spherical shell of same mass M and radius R. The gravitational potential at a point situated at R/2 distance from the center will be:",
-          options: ["\\( -3\\frac{GM}{R} \\)", "\\( -2\\frac{GM}{R} \\)", "\\( -4\\frac{GM}{R} \\)", "\\( -1.5\\frac{GM}{R} \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Superposition</b><br>Potential = V(due to particle) + V(due to shell).<br><br><b>Step 2: V due to Shell</b><br>Inside a shell, potential is constant and equal to surface potential.<br>\\( V_{shell} = -\\frac{GM}{R} \\).<br><br><b>Step 3: V due to Particle</b><br>At distance \\( r = R/2 \\): \\( V_{particle} = -\\frac{GM}{R/2} = -\\frac{2GM}{R} \\).<br><br><b>Step 4: Total</b><br>\\( V = -\\frac{GM}{R} - \\frac{2GM}{R} = -\\frac{3GM}{R} \\)."
-        },
-        {
-          id: 14,
-          topic: "Gravitational Potential & Energy",
-          q: "The escape velocity from the earth is 11.2 km/s. If a body is projected with a velocity twice its escape velocity, the velocity of the body at infinity will be:",
-          options: ["11.2 km/s", "19.4 km/s", "22.4 km/s", "Infinite"],
-          correct: 1,
-          sol: "<b>Step 1: Energy Conservation</b><br>\\( \\frac{1}{2}mv^2 - \\frac{GMm}{R} = \\frac{1}{2}mv_{\\infty}^2 + 0 \\).<br>We know \\( \\frac{GMm}{R} = \\frac{1}{2}m v_e^2 \\).<br><br><b>Step 2: Substitute</b><br>\\( \\frac{1}{2}m(2v_e)^2 - \\frac{1}{2}mv_e^2 = \\frac{1}{2}mv_{\\infty}^2 \\).<br>\\( 4v_e^2 - v_e^2 = v_{\\infty}^2 \\).<br>\\( v_{\\infty} = \\sqrt{3} v_e \\).<br><br><b>Step 3: Calculate</b><br>\\( v_{\\infty} = 1.732 \\times 11.2 \\approx 19.4 \\text{ km/s} \\)."
-        },
-
-        // --- TOPIC 4: Satellites & Kepler's Laws ---
-        {
-          id: 15,
-          topic: "Satellites & Kepler's Laws",
-          q: "A satellite is moving in an elliptical orbit around the earth. The mass of the satellite is very small compared to the mass of the earth. Then:",
-          options: ["The angular momentum of the satellite about the center of the earth is conserved", "The linear momentum of the satellite is conserved", "The total mechanical energy varies", "The acceleration of S is always towards the center of the earth"],
-          correct: 0,
-          sol: "<b>Concept:</b><br>Gravitational force is a **central force** (passes through the center of the earth).<br>Torque \\( \\tau = \\vec{r} \\times \\vec{F} = 0 \\) (since r and F are parallel/anti-parallel).<br>Therefore, **Angular Momentum is conserved**."
-        },
-        {
-          id: 16,
-          topic: "Satellites & Kepler's Laws",
-          q: "The orbital velocity of an artificial satellite in a circular orbit just above the earth's surface is \\( v_0 \\). For a satellite orbiting at an altitude of half of the earth's radius, the orbital velocity is:",
-          options: ["\\( \\frac{3}{2}v_0 \\)", "\\( \\sqrt{\\frac{3}{2}}v_0 \\)", "\\( \\sqrt{\\frac{2}{3}}v_0 \\)", "\\( \\frac{2}{3}v_0 \\)"],
-          correct: 2,
-          sol: "<b>Step 1: Formula</b><br>\\( v_{orb} = \\sqrt{\\frac{GM}{r}} \\).<br>Case 1: \\( r = R \\). \\( v_0 = \\sqrt{\\frac{GM}{R}} \\).<br>Case 2: \\( r = R + R/2 = 3R/2 \\). \\( v' = \\sqrt{\\frac{GM}{3R/2}} \\).<br><br><b>Step 2: Ratio</b><br>\\( v' = \\sqrt{\\frac{2GM}{3R}} = \\sqrt{\\frac{2}{3}} \\sqrt{\\frac{GM}{R}} \\).<br>\\( v' = \\sqrt{\\frac{2}{3}} v_0 \\)."
-        },
-        {
-          id: 17,
-          topic: "Satellites & Kepler's Laws",
-          q: "A satellite is launched from earth in a direction making an angle \\( \\theta \\) with the vertical (where \\( 0 < \\theta < 90^\\circ \\)). If its initial speed \\( v \\) is less than escape velocity \\( v_e \\) but sufficient to maintain a closed orbit, the maximum distance from the earth's center depends on:",
-          options: ["Only v", "Only \\( \\theta \\)", "Both v and \\( \\theta \\)", "Neither v nor \\( \\theta \\)"],
-          correct: 2,
-          sol: "<b>Step 1: Conservation Laws</b><br>1. Energy Conservation depends only on magnitude \\( v \\).<br>2. Angular Momentum Conservation \\( L = mvr \\sin \\theta \\) depends on \\( \\theta \\).<br><br><b>Step 2: Orbit Equation</b><br>The maximum distance (apogee) is determined by solving the quadratic equation formed by combining E and L conservation.<br>Since L depends on \\( \\theta \\), the shape (eccentricity) and orientation of the ellipse depend on \\( \\theta \\).<br>Thus, \\( r_{max} \\) depends on **both**."
-        },
-        {
-          id: 18,
-          topic: "Satellites & Kepler's Laws",
-          q: "A satellite S is moving in an elliptical orbit around the earth. The mass of the satellite is very small compared to the mass of the earth. The acceleration of S is:",
-          options: ["Always towards the center of the earth", "Constant in magnitude", "Zero", "Tangent to the orbit"],
-          correct: 0,
-          sol: "<b>Concept:</b><br>The only force acting is Gravity, which is always directed towards the source mass (Earth's center).<br>Thus, acceleration is always directed towards the center."
-        },
-        {
-          id: 19,
-          topic: "Satellites & Kepler's Laws",
-          q: "Two satellites of masses \\( m \\) and \\( 3m \\) revolve around the earth in circular orbits of radii \\( r \\) and \\( 3r \\) respectively. The ratio of their kinetic energies is:",
-          options: ["3:1", "9:1", "1:1", "1:3"],
-          correct: 2,
-          sol: "<b>Step 1: Kinetic Energy Formula</b><br>\\( K = \\frac{GMm}{2r} \\).<br><br><b>Step 2: Ratio</b><br>\\( K_1 = \\frac{GM(m)}{2r} \\).<br>\\( K_2 = \\frac{GM(3m)}{2(3r)} = \\frac{3GMm}{6r} = \\frac{GMm}{2r} \\).<br><br><b>Step 3: Comparison</b><br>\\( K_1 = K_2 \\).<br>Ratio is **1:1**."
-        },
-        {
-          id: 20,
-          topic: "Satellites & Kepler's Laws",
-          q: "What is the minimum energy required to launch a satellite of mass m from the surface of a planet of mass M and radius R in a circular orbit at an altitude of 2R?",
-          options: ["\\( \\frac{5GMm}{6R} \\)", "\\( \\frac{2GMm}{3R} \\)", "\\( \\frac{GMm}{2R} \\)", "\\( \\frac{GMm}{3R} \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Total Energy Analysis</b><br>Initial Energy (Surface): \\( E_i = U_i + K_i = -\\frac{GMm}{R} + E_{supplied} \\).<br>Final Energy (Orbit at h=2R -> r=3R):<br>\\( E_f = -\\frac{GMm}{2r} = -\\frac{GMm}{2(3R)} = -\\frac{GMm}{6R} \\).<br><br><b>Step 2: Solve</b><br>\\( -\\frac{GMm}{R} + E_{supplied} = -\\frac{GMm}{6R} \\).<br>\\( E_{supplied} = \\frac{GMm}{R} - \\frac{GMm}{6R} = \\frac{5GMm}{6R} \\)."
-        },
-
-        // --- TOPIC 5: Tricky & Advanced Concepts ---
-        {
-          id: 21,
-          topic: "Tricky & Advanced Concepts",
-          q: "A black hole is an object whose gravitational field is so strong that even light cannot escape from it. To what radius must the earth be compressed to be a black hole? (Mass \\( = 5.98 \\times 10^{24} \\) kg)",
-          options: ["\\( 10^{-2} \\) m", "\\( 100 \\) m", "\\( 10^{-1} \\) m", "\\( 10^{-3} \\) m"],
-          correct: 0,
-          sol: "<b>Step 1: Schwarzschild Radius</b><br>Escape velocity \\( v_e = c \\).<br>\\( c = \\sqrt{\\frac{2GM}{R}} \\implies R = \\frac{2GM}{c^2} \\).<br><br><b>Step 2: Substitute</b><br>\\( R = \\frac{2 \\times 6.67 \\times 10^{-11} \\times 6 \\times 10^{24}}{(3 \\times 10^8)^2} \\).<br>\\( R = \\frac{80 \\times 10^{13}}{9 \\times 10^{16}} \\approx 9 \\times 10^{-3} \\text{ m} \\).<br>Approx \\( 0.9 \\text{ cm} \\approx 10^{-2} \\text{ m} \\)."
-        },
-        {
-          id: 22,
-          topic: "Tricky & Advanced Concepts",
-          q: "If the gravitational force between two objects were proportional to \\( 1/R \\) (and not as \\( 1/R^2 \\)), then a particle in a circular orbit would have its orbital speed \\( v \\) proportional to:",
-          options: ["\\( R \\)", "\\( R^0 \\) (independent of R)", "\\( 1/R \\)", "\\( 1/\\sqrt{R} \\)"],
-          correct: 1,
-          sol: "<b>Step 1: Force Equation</b><br>\\( F = \\frac{k}{R} \\).<br><br><b>Step 2: Centripetal Force</b><br>\\( \\frac{mv^2}{R} = \\frac{k}{R} \\).<br><br><b>Step 3: Solve for v</b><br>\\( mv^2 = k \\implies v = \\sqrt{k/m} = \\text{Constant} \\).<br>\\( v \\propto R^0 \\)."
-        },
-        {
-          id: 23,
-          topic: "Tricky & Advanced Concepts",
-          q: "A thin rod of length L is bent to form a semicircle. The gravitational potential at the center of the semicircle is:",
-          options: ["\\( -\\frac{\\pi GM}{L} \\)", "\\( -\\frac{GM}{L} \\)", "\\( -\\frac{\\pi GM}{2L} \\)", "Zero"],
-          correct: 0,
-          sol: "<b>Step 1: Geometry</b><br>Length \\( L = \\pi R \\implies R = L/\\pi \\).<br><br><b>Step 2: Potential</b><br>All mass elements \\( dm \\) are at the same distance R from center.<br>\\( V = \\int -\\frac{G dm}{R} = -\\frac{G}{R} \\int dm = -\\frac{GM}{R} \\).<br><br><b>Step 3: Substitute R</b><br>\\( V = -\\frac{GM}{L/\\pi} = -\\frac{\\pi GM}{L} \\)."
-        },
-        {
-          id: 24,
-          topic: "Tricky & Advanced Concepts",
-          q: "A uniform thin rod of mass M and length L is placed on the x-axis with its center at the origin. A point mass m is placed on the y-axis at a distance 'a' from the origin. The gravitational force exerted by the rod on the mass m is:",
-          options: ["\\( \\frac{GMm}{a \\sqrt{a^2 + (L/2)^2}} \\)", "\\( \\frac{GMm}{a^2} \\)", "\\( \\frac{GMm}{L \\sqrt{a^2 + L^2}} \\)", "\\( \\frac{GMm}{a(a+L)} \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Integration Setup</b><br>Consider element \\( dx \\) on rod at distance \\( x \\). Mass \\( dm = (M/L)dx \\).<br>Distance to m is \\( r = \\sqrt{x^2 + a^2} \\).<br>Force \\( dF = \\frac{G m dm}{x^2 + a^2} \\).<br><br><b>Step 2: Symmetry</b><br>X-components cancel. Y-component adds up.<br>\\( dF_y = dF \\cos \\theta = dF \\frac{a}{\\sqrt{x^2+a^2}} \\).<br>\\( F = \\int_{-L/2}^{L/2} \\frac{G m (M/L) a}{(x^2+a^2)^{3/2}} dx \\).<br><br><b>Step 3: Solve Integral</b><br>Using substitution \\( x = a \\tan \\theta \\).<br>Result: \\( F = \\frac{GMm}{a \\sqrt{a^2 + (L/2)^2}} \\)."
-        },
-        {
-          id: 25,
-          topic: "Tricky & Advanced Concepts",
-          q: "The change in the gravitational potential energy when a body of mass m is raised to a height nR from the earth's surface is (R = Radius of earth):",
-          options: ["\\( mgR \\frac{n}{n+1} \\)", "\\( mgR \\frac{n}{n-1} \\)", "\\( nmgR \\)", "\\( \\frac{mgR}{n} \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Initial & Final U</b><br>\\( U_i = -\\frac{GMm}{R} \\).<br>\\( U_f = -\\frac{GMm}{R+nR} = -\\frac{GMm}{R(n+1)} \\).<br><br><b>Step 2: Change</b><br>\\( \\Delta U = -\\frac{GMm}{R(n+1)} - (-\\frac{GMm}{R}) \\).<br>\\( \\Delta U = \\frac{GMm}{R} (1 - \\frac{1}{n+1}) = \\frac{GMm}{R} (\\frac{n}{n+1}) \\).<br><br><b>Step 3: Convert to g</b><br>\\( \\frac{GMm}{R} = mgR \\).<br>\\( \\Delta U = mgR \\frac{n}{n+1} \\)."
-        },
-        {
-          id: 26,
-          topic: "Tricky & Advanced Concepts",
-          q: "A planet has twice the radius but the mean density is the same as that of earth. The ratio of escape velocity from the planet to that from earth is:",
-          options: ["1:1", "2:1", "4:1", "\\( \\sqrt{2}:1 \\)"],
-          correct: 1,
-          sol: "<b>Step 1: Formula in terms of Density</b><br>\\( v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{\\frac{2G (\\frac{4}{3}\\pi R^3 \\rho)}{R}} = R \\sqrt{\\frac{8}{3}\\pi G \\rho} \\).<br>So \\( v_e \\propto R \\sqrt{\\rho} \\).<br><br><b>Step 2: Ratio</b><br>Since \\( \\rho \\) is same, \\( v_e \\propto R \\).<br>\\( \\frac{v_p}{v_e} = \\frac{2R}{R} = 2 \\)."
-        },
-        {
-          id: 27,
-          topic: "Tricky & Advanced Concepts",
-          q: "Orbital velocity of an artificial satellite does not depend upon:",
-          options: ["Mass of the earth", "Mass of the satellite", "Radius of the earth", "Acceleration due to gravity"],
-          correct: 1,
-          sol: "<b>Concept:</b><br>\\( v_o = \\sqrt{\\frac{GM}{r}} \\).<br>It depends on Source Mass (Earth) and radius.<br>It is **independent of the mass of the satellite**."
-        },
-        {
-          id: 28,
-          topic: "Tricky & Advanced Concepts",
-          q: "The kinetic energy needed to project a body of mass m from the earth surface to infinity is:",
-          options: ["mgR/2", "2mgR", "mgR", "mgR/4"],
-          correct: 2,
-          sol: "<b>Step 1: Binding Energy</b><br>Potential Energy at surface \\( U = -\\frac{GMm}{R} \\).<br>To escape to infinity (Energy = 0), Kinetic Energy K required must satisfy \\( K + U = 0 \\).<br>\\( K = \\frac{GMm}{R} \\).<br><br><b>Step 2: Convert to g</b><br>\\( K = m \\frac{GM}{R^2} R = mgR \\)."
-        },
-        {
-          id: 29,
-          topic: "Tricky & Advanced Concepts",
-          q: "Consider a ring of mass M and radius R. A particle of mass m is placed on its axis at a distance \\( x = \\sqrt{3}R \\). The force between them is:",
-          options: ["\\( \\frac{GMm}{8R^2} \\)", "\\( \\frac{\\sqrt{3}GMm}{8R^2} \\)", "\\( \\frac{GMm}{4R^2} \\)", "\\( \\frac{\\sqrt{3}GMm}{4R^2} \\)"],
-          correct: 1,
-          sol: "<b>Step 1: Field on Axis of Ring</b><br>\\( E = \\frac{G M x}{(R^2 + x^2)^{3/2}} \\).<br><br><b>Step 2: Substitute x</b><br>\\( x = \\sqrt{3}R \\). Denom: \\( (R^2 + 3R^2)^{3/2} = (4R^2)^{3/2} = 8R^3 \\).<br>Numerator: \\( G M \\sqrt{3}R \\).<br><br><b>Step 3: Force</b><br>\\( F = mE = \\frac{G M m \\sqrt{3}R}{8R^3} = \\frac{\\sqrt{3}GMm}{8R^2} \\)."
-        },
-        {
-          id: 30,
-          topic: "Tricky & Advanced Concepts",
-          q: "A solid sphere of uniform density and radius 4 units is located with its center at the origin O. Two spheres of equal radii 1 unit, with their centers at A(-2, 0, 0) and B(2, 0, 0) respectively, are taken out of the solid sphere leaving behind a cavity. The gravitational field at the origin O is:",
-          options: ["Zero", "Non-zero along +x", "Non-zero along -x", "Infinite"],
-          correct: 0,
-          sol: "<b>Step 1: Principle of Superposition</b><br>Field = Field(Full Sphere) - Field(Removed Sphere A) - Field(Removed Sphere B).<br><br><b>Step 2: Field at Origin</b><br>1. Full Sphere at its own center: \\( E_{full} = 0 \\).<br>2. Removed Sphere A (Center at -2): At Origin (dist 2 to right), it creates field towards -x.<br>3. Removed Sphere B (Center at +2): At Origin (dist 2 to left), it creates field towards +x.<br><br><b>Step 3: Symmetry</b><br>The cavities are symmetric. The 'missing mass' pull from left cancels the 'missing mass' pull from right.<br>Net Field is **Zero**."
-        },
-        {
-          id: 31,
-          topic: "Tricky & Advanced Concepts",
-          q: "For a satellite in circular orbit, the ratio of Kinetic Energy to Potential Energy (magnitude) is:",
-          options: ["1:2", "2:1", "1:1", "1:4"],
-          correct: 0,
-          sol: "<b>Step 1: Formulas</b><br>\\( U = -\\frac{GMm}{r} \\).<br>\\( K = \\frac{GMm}{2r} \\).<br><br><b>Step 2: Ratio</b><br>\\( |K| / |U| = \\frac{GMm/2r}{GMm/r} = 1/2 \\)."
-        },
-        {
-          id: 32,
-          topic: "Tricky & Advanced Concepts",
-          q: "If the earth shrinks to half its radius without change in mass, the duration of the day will be:",
-          options: ["24 hours", "12 hours", "6 hours", "48 hours"],
-          correct: 2,
-          sol: "<b>Step 1: Angular Momentum Conservation</b><br>\\( I_1 \\omega_1 = I_2 \\omega_2 \\).<br>Sphere \\( I = \\frac{2}{5}MR^2 \\).<br>\\( R_2 = R/2 \\implies I_2 = I_1/4 \\).<br><br><b>Step 2: Relation</b><br>\\( I_1 \\frac{2\\pi}{T_1} = (I_1/4) \\frac{2\\pi}{T_2} \\).<br>\\( 1/24 = 1/(4T_2) \\).<br>\\( 4T_2 = 24 \\implies T_2 = 6 \\text{ hours} \\)."
-        },
-        {
-          id: 33,
-          topic: "Tricky & Advanced Concepts",
-          q: "A tunnel is dug along a diameter of the earth. If a particle of mass m is dropped into it, the time period of oscillation is:",
-          options: ["\\( 2\\pi \\sqrt{R/g} \\)", "\\( 2\\pi \\sqrt{g/R} \\)", "\\( \\pi \\sqrt{R/g} \\)", "It will not oscillate"],
-          correct: 0,
-          sol: "<b>Step 1: Restoring Force</b><br>Inside earth \\( g' = g(r/R) \\).<br>Force \\( F = -mg(r/R) \\). This is SHM form \\( F = -kx \\) with \\( k = mg/R \\).<br><br><b>Step 2: Time Period</b><br>\\( T = 2\\pi \\sqrt{m/k} = 2\\pi \\sqrt{m/(mg/R)} = 2\\pi \\sqrt{R/g} \\)."
-        },
-        {
-          id: 34,
-          topic: "Tricky & Advanced Concepts",
-          q: "If 'g' is the acceleration due to gravity on the earth's surface, the gain in potential energy of an object of mass m raised from the surface of the earth to a height equal to the radius R of the earth is:",
-          options: ["2mgR", "mgR", "1/2 mgR", "1/4 mgR"],
-          correct: 2,
-          sol: "<b>Step 1: Formula</b><br>\\( \\Delta U = \\frac{mgh}{1+h/R} \\).<br>Here \\( h = R \\).<br><br><b>Step 2: Substitute</b><br>\\( \\Delta U = \\frac{mgR}{1+1} = \\frac{1}{2} mgR \\)."
-        },
-        {
-          id: 35,
-          topic: "Tricky & Advanced Concepts",
-          q: "Two bodies of masses m and 4m are placed at a distance r. The gravitational potential at a point on the line joining them where the gravitational field is zero is:",
-          options: ["\\( -4Gm/r \\)", "\\( -6Gm/r \\)", "\\( -9Gm/r \\)", "\\( -3Gm/r \\)"],
-          correct: 2,
-          sol: "<b>Step 1: Find Null Point</b><br>\\( \\frac{Gm}{x^2} = \\frac{G(4m)}{(r-x)^2} \\).<br>\\( \\frac{1}{x} = \\frac{2}{r-x} \\implies r-x = 2x \\implies x = r/3 \\).<br>Distance from m is r/3, from 4m is 2r/3.<br><br><b>Step 2: Calculate Potential</b><br>\\( V = -\\frac{Gm}{r/3} - \\frac{G(4m)}{2r/3} \\).<br>\\( V = -\\frac{3Gm}{r} - \\frac{12Gm}{2r} = -\\frac{3Gm}{r} - \\frac{6Gm}{r} = -\\frac{9Gm}{r} \\)."
-        },
-        {
-          id: 36,
-          topic: "Tricky & Advanced Concepts",
-          q: "A satellite orbits the earth at a height of 400 km. Energy to be expended to send it out of the earth's gravitational influence is (Energy E is total energy in orbit):",
-          options: ["2E", "E", "-E", "-E/2"],
-          correct: 2,
-          sol: "<b>Step 1: Total Energy</b><br>Total Energy in orbit \\( E = -\\frac{GMm}{2r} \\). (Negative).<br>Energy at infinity = 0.<br><br><b>Step 2: Energy Required</b><br>\\( E_{req} = E_{final} - E_{initial} = 0 - E = -E \\).<br>(Since E is negative, -E is a positive quantity equal to Binding Energy)."
-        },
-        {
-          id: 37,
-          topic: "Tricky & Advanced Concepts",
-          q: "The mean radius of earth is R, its angular speed on its own axis is \\( \\omega \\) and the acceleration due to gravity at earth's surface is g. What will be the radius of the orbit of a geostationary satellite?",
-          options: ["\\( (R^2 g / \\omega^2)^{1/3} \\)", "\\( (Rg / \\omega^2)^{1/3} \\)", "\\( (R^2 g / \\omega)^{1/3} \\)", "\\( (R^2 g^2 / \\omega^2)^{1/3} \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Orbital Condition</b><br>\\( r \\omega^2 = \\frac{GM}{r^2} \\implies r^3 = \\frac{GM}{\\omega^2} \\).<br><br><b>Step 2: Eliminate GM</b><br>\\( g = GM/R^2 \\implies GM = gR^2 \\).<br><br><b>Step 3: Solve</b><br>\\( r^3 = \\frac{gR^2}{\\omega^2} \\).<br>\\( r = (gR^2 / \\omega^2)^{1/3} \\)."
-        },
-        {
-          id: 38,
-          topic: "Tricky & Advanced Concepts",
-          q: "Dependence of intensity of gravitational field (E) of earth with distance (r) from center of earth is correctly represented by:",
-          options: ["Rectangular Hyperbola", "Linear", "Linear then Hyperbolic", "Parabola"],
-          correct: 2,
-          sol: "<b>Concept:</b><br>Inside Earth (solid sphere): \\( E \\propto r \\) (Linear).<br>Outside Earth: \\( E \\propto 1/r^2 \\) (Hyperbolic/Inverse Square).<br>Graph is Linear then Inverse Square."
-        },
-        {
-          id: 39,
-          topic: "Tricky & Advanced Concepts",
-          q: "Maximum height reached by a rocket fired with a speed equal to 50% of the escape velocity from earth's surface is:",
-          options: ["R/2", "R/3", "R/4", "R"],
-          correct: 1,
-          sol: "<b>Step 1: Velocity</b><br>\\( v = 0.5 v_e = \\frac{1}{2} \\sqrt{\\frac{2GM}{R}} = \\sqrt{\\frac{GM}{2R}} \\).<br><br><b>Step 2: Conservation</b><br>\\( \\frac{1}{2}m(\\frac{GM}{2R}) - \\frac{GMm}{R} = -\\frac{GMm}{R+h} \\).<br>\\( \\frac{GMm}{4R} - \\frac{GMm}{R} = -\\frac{GMm}{R+h} \\).<br>\\( -\\frac{3}{4R} = -\\frac{1}{R+h} \\).<br>\\( 4R = 3(R+h) \\implies R = 3h \\implies h = R/3 \\)."
-        },
-        {
-          id: 40,
-          topic: "Tricky & Advanced Concepts",
-          q: "A satellite is launched into a circular orbit of radius R around the earth. A second satellite is launched into an orbit of radius (1.01)R. The period of the second satellite is larger than the first one by approximately:",
-          options: ["1.5%", "1.0%", "3.0%", "0.5%"],
-          correct: 0,
-          sol: "<b>Step 1: Kepler's Law</b><br>\\( T^2 \\propto R^3 \\).<br>Taking logs: \\( 2 \\ln T = 3 \\ln R \\).<br>Differentiating: \\( 2 \\frac{\\Delta T}{T} = 3 \\frac{\\Delta R}{R} \\).<br><br><b>Step 2: Calculate</b><br>\\( \\frac{\\Delta R}{R} = 0.01 \\) (1%).<br>\\( \\frac{\\Delta T}{T} = \\frac{3}{2} (1\\%) = 1.5\\% \\)."
-        },
-        {
-          id: 41,
-          topic: "Tricky & Advanced Concepts",
-          q: "Which one of the following graphs represents correctly the variation of the gravitational potential (V) with distance (r) from the center of a solid sphere of radius R?",
-          options: ["V is constant inside", "V is zero at r=0", "Parabolic inside, Hyperbolic outside", "Linear inside"],
-          correct: 2,
-          sol: "<b>Concept:</b><br>Inside solid sphere: \\( V = -\\frac{GM}{2R^3}(3R^2 - r^2) \\) (Parabolic).<br>Outside: \\( V = -\\frac{GM}{r} \\) (Hyperbolic).<br>At center \\( V = -1.5 GM/R \\). Surface \\( -GM/R \\)."
-        },
-        {
-          id: 42,
-          topic: "Tricky & Advanced Concepts",
-          q: "A body starts from rest from a point distance \\( R_0 \\) from the center of the earth. The velocity acquired by the body when it reaches the surface of the earth will be (R is radius):",
-          options: ["\\( \\sqrt{2GM(1/R - 1/R_0)} \\)", "\\( \\sqrt{2GM(1/R_0 - 1/R)} \\)", "\\( \\sqrt{GM(1/R - 1/R_0)} \\)", "\\( 2GM \\sqrt{1/R - 1/R_0} \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Energy Conservation</b><br>\\( 0 - \\frac{GMm}{R_0} = \\frac{1}{2}mv^2 - \\frac{GMm}{R} \\).<br>\\( \\frac{1}{2}v^2 = GM(\\frac{1}{R} - \\frac{1}{R_0}) \\).<br>\\( v = \\sqrt{2GM(\\frac{1}{R} - \\frac{1}{R_0})} \\)."
-        },
-        {
-          id: 43,
-          topic: "Tricky & Advanced Concepts",
-          q: "The escape velocity for a planet is \\( v_e \\). A tunnel is dug along a diameter of the planet and a small body is dropped into it at the surface. When the body reaches the center of the planet, its speed will be:",
-          options: ["\\( v_e \\)", "\\( v_e / \\sqrt{2} \\)", "\\( v_e / 2 \\)", "\\( Zero \\)"],
-          correct: 1,
-          sol: "<b>Step 1: Potentials</b><br>Surface \\( V_s = -\\frac{GM}{R} \\).<br>Center \\( V_c = -\\frac{3GM}{2R} \\).<br><br><b>Step 2: Conservation</b><br>\\( m V_s = \\frac{1}{2}mv^2 + m V_c \\).<br>\\( -\\frac{GM}{R} = \\frac{1}{2}v^2 - \\frac{3GM}{2R} \\).<br>\\( \\frac{1}{2}v^2 = \\frac{GM}{2R} \\implies v^2 = \\frac{GM}{R} \\).<br><br><b>Step 3: Relate to Escape</b><br>\\( v_e = \\sqrt{\\frac{2GM}{R}} \\).<br>\\( v = \\sqrt{\\frac{GM}{R}} = \\frac{v_e}{\\sqrt{2}} \\)."
-        },
-        {
-          id: 44,
-          topic: "Tricky & Advanced Concepts",
-          q: "Two particles of equal mass 'm' go around a circle of radius R under the action of their mutual gravitational attraction. The speed of each particle is:",
-          options: ["\\( \\frac{1}{2} \\sqrt{\\frac{Gm}{R}} \\)", "\\( \\sqrt{\\frac{Gm}{2R}} \\)", "\\( \\frac{1}{2} \\sqrt{\\frac{Gm}{2R}} \\)", "\\( \\sqrt{\\frac{4Gm}{R}} \\)"],
-          correct: 0,
-          sol: "<b>Step 1: Force</b><br>Distance between particles = 2R.<br>\\( F = \\frac{Gmm}{(2R)^2} = \\frac{Gm^2}{4R^2} \\).<br><br><b>Step 2: Centripetal Force</b><br>\\( \\frac{mv^2}{R} = \\frac{Gm^2}{4R^2} \\).<br>\\( v^2 = \\frac{Gm}{4R} \\).<br>\\( v = \\frac{1}{2} \\sqrt{\\frac{Gm}{R}} \\)."
-        },
-        {
-          id: 45,
-          topic: "Tricky & Advanced Concepts",
-          q: "The distance between the centers of the earth and the moon is d. The mass of the earth is 81 times the mass of the moon. At what distance from the center of the earth is the gravitational field zero?",
-          options: ["d/10", "9d/10", "d/9", "9d"],
-          correct: 1,
-          sol: "<b>Step 1: Null Point Formula</b><br>Distance from larger mass \\( x = \\frac{d}{1 + \\sqrt{M_2/M_1}} \\).<br>Here \\( M_1 = 81M \\) (Earth), \\( M_2 = M \\) (Moon).<br>Wait, standard formula gives dist from smaller mass? No, let's derive.<br>\\( \\frac{G(81M)}{x^2} = \\frac{GM}{(d-x)^2} \\).<br>\\( \\frac{9}{x} = \\frac{1}{d-x} \\).<br>\\( 9(d-x) = x \\implies 9d = 10x \\implies x = 0.9d \\).<br>Answer is 9d/10."
-        }
-      ]
-    },
-    
-    "Thermal Physics (KTG & Thermo)": { 
+    "Thermal Physics (2)": { 
       classTarget: "Class 11", 
       totalQs: 10, 
       topics: ["Kinetic Theory of Gases", "Thermodynamics", "Calorimetry & Heat Transfer"],
@@ -9780,6 +9781,7 @@
       ]
     }
   };
+
 
 
 
