@@ -458,7 +458,7 @@
           q: "The characteristic distance at which quantum gravitational effects are significant, the Planck length, can be determind from a suitable combination of the fundamental physical constants G, \\( \\hbar \\) and c. Which of the following correctly gives the Planck length:",
           options: ["(1) \\( G\\hbar^2c^3 \\)", "(2) \\( G^2\\hbar c \\)", "(3) \\( G^{1/2}\\hbar^2c \\)", "(4) \\( (\\frac{G\\hbar}{c^3})^{1/2} \\)"],
           correct: 3, 
-          sol: "<b>Step 1: Set up the relation</b><br>Assume Planck length \\( L_P \\propto G^x \\hbar^y c^z \\).<br>Dimensions: \\( [L_P] = [L] \\).<br>\\( G = [M^{-1}L^3T^{-2}] \\), \\( \\hbar = [ML^2T^{-1}] \\), \\( c = [LT^{-1}] \\).<br><br><b>Step 2: Equate powers of M, L, T</b><br>\\( M^0 L^1 T^0 = [M^{-1}L^3T^{-2}]^x [ML^2T^{-1}]^y [LT^{-1}]^z \\).<br>M: \\( -x + y = 0 \\implies y = x \\).<br>T: \\( -2x - y - z = 0 \\implies -3x = z \\) (substituting \\( y=x \\)).<br>L: \\( 3x + 2y + z = 1 \\implies 3x + 2x - 3x = 1 \\implies 2x = 1 \\implies x = 1/2 \\).<br><br><b>Step 3: Determine final powers</b><br>Since \\( x = 1/2 \\), we get \\( y = 1/2 \\) and \\( z = -3/2 \\).<br>Thus, \\( L_P \propto G^{1/2} \\hbar^{1/2} c^{-3/2} = \\sqrt{\\frac{G\\hbar}{c^3}} \\)."
+          sol: "<b>Step 1: Set up the relation</b><br>Assume Planck length \\( L_P \\propto G^x \\hbar^y c^z \\).<br>Dimensions: \\( [L_P] = [L] \\).<br>\\( G = [M^{-1}L^3T^{-2}] \\), \\( \\hbar = [ML^2T^{-1}] \\), \\( c = [LT^{-1}] \\).<br><br><b>Step 2: Equate powers of M, L, T</b><br>\\( M^0 L^1 T^0 = [M^{-1}L^3T^{-2}]^x [ML^2T^{-1}]^y [LT^{-1}]^z \\).<br>M: \\( -x + y = 0 \\implies y = x \\).<br>T: \\( -2x - y - z = 0 \\implies -3x = z \\) (substituting \\( y=x \\)).<br>L: \\( 3x + 2y + z = 1 \\implies 3x + 2x - 3x = 1 \\implies 2x = 1 \\implies x = 1/2 \\).<br><br><b>Step 3: Determine final powers</b><br>Since \\( x = 1/2 \\), we get \\( y = 1/2 \\) and \\( z = -3/2 \\).<br>Thus, \\( L_P \\propto G^{1/2} \\hbar^{1/2} c^{-3/2} = \\sqrt{\\frac{G\\hbar}{c^3}} \\)."
         },
         {
           id: 27, topic: "Dimensional Analysis",
@@ -9792,6 +9792,7 @@
       ]
     }
   };
+
 
 
 
