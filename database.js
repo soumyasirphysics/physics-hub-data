@@ -6781,7 +6781,7 @@
         {
           id: 67, topic: "Capacitance and Energy",
           q: "For the circuit shown in the figure, the ratio of the energy stored in capacitor (1) to that in capacitor (2) in the steady state is:",
-          imgUrl: "[IMAGE: placeholder_q13_circuit_energy]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjHvuD0eG0JbfaDwv7aVoQcl_tryM5wAaOEaELwKOycCKPMYRbRhyhDEPmY6h-Rzs_yYm_VcCw__1vjBmBZLfi1AvIkZ8f25T9t4EeJdC_u3WerMDE7bOTr1T5ipxur32gv6rGGMCW0t9aC_zCJIRzn1zNxR4XH3GM2H9P2ke9Bporp4dXbK4TQAOURTWCs",
           options: ["\\( \\frac{R_1 C_1}{R_2 C_2} \\)", "\\( \\frac{R_1 C_2}{R_2 C_1} \\)", "\\( \\frac{R_1^2 C_1}{R_2^2 C_2} \\)", "\\( \\frac{R_1 C_1^2}{R_2 C_2^2} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Steady State Analysis</b><br>In DC steady state, capacitors act as open circuits. No current flows through the branches containing \\( C_1 \\) and \\( C_2 \\). The steady current \\( I \\) only flows through the resistors \\( R_1 \\) and \\( R_2 \\).<br><br><b>Step 2: Voltages across Capacitors</b><br>Because \\( C_1 \\) is connected in parallel with \\( R_1 \\), the voltage across \\( C_1 \\) equals the voltage drop across \\( R_1 \\): \\( V_1 = I R_1 \\).<br>Similarly, the voltage across \\( C_2 \\) equals the voltage drop across \\( R_2 \\): \\( V_2 = I R_2 \\).<br><br><b>Step 3: Energy Ratio</b><br>Energy in a capacitor is \\( U = \\frac{1}{2} C V^2 \\).<br>Ratio \\( = \\frac{U_1}{U_2} = \\frac{\\frac{1}{2} C_1 V_1^2}{\\frac{1}{2} C_2 V_2^2} \\).<br>Substitute the voltages:<br>Ratio \\( = \\frac{C_1 (I R_1)^2}{C_2 (I R_2)^2} = \\frac{C_1 I^2 R_1^2}{C_2 I^2 R_2^2} = \\frac{R_1^2 C_1}{R_2^2 C_2} \\)."
@@ -6789,7 +6789,7 @@
         {
           id: 68, topic: "Capacitance and Energy",
           q: "A cumulonimbus cloud is 5 km long and 2 km wide and has its base 1 km above the surface of the earth. Consider the cloud and earth to be a parallel plate capacitor with air as the dielectric. Then the capacitance of the cloud-earth combination is:",
-          imgUrl: "[IMAGE: placeholder_q16_cloud_capacitor]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEinXy8eUnsXpKUxrTuonBVf1OIPjmJ6-GLqh_LG1auxXkCWoOlp2uJ2UX2Rtyk2ISGUYBxnOxXebaWMvLUj729pgNbd8jhpUXCozUMJUDuOEmOqX0nrFTt5tr2zDCmjw4icpgU07RSUTamegyyYFS_id-JECZBPmJUmw6NkwLvCf2FPBQb6WV6aJ4Fr_8cC",
           options: ["\\( 8.8 \\, \\mu\\text{F} \\)", "\\( 8.08 \\, \\mu\\text{F} \\)", "\\( 0.088 \\, \\mu\\text{F} \\)", "\\( 0.88 \\, \\mu\\text{F} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Identify given parameters</b><br>Area of the cloud plate \\( A = \\text{Length} \\times \\text{Width} = 5000 \\, \\text{m} \\times 2000 \\, \\text{m} = 10^7 \\, \\text{m}^2 \\).<br>Distance between cloud and earth \\( d = 1 \\, \\text{km} = 1000 \\, \\text{m} \\).<br>Permittivity of free space \\( \\epsilon_0 = 8.85 \\times 10^{-12} \\, \\text{F/m} \\).<br><br><b>Step 2: Calculate Capacitance</b><br>Formula for a parallel plate capacitor: \\( C = \\frac{\\epsilon_0 A}{d} \\).<br>\\( C = \\frac{8.85 \\times 10^{-12} \\times 10^7}{1000} \\).<br>\\( C = \\frac{8.85 \\times 10^{-5}}{10^3} = 8.85 \\times 10^{-8} \\, \\text{F} \\).<br><br><b>Step 3: Convert to Microfarads</b><br>\\( C = 0.0885 \\times 10^{-6} \\, \\text{F} \\approx 0.088 \\, \\mu\\text{F} \\)."
@@ -6797,7 +6797,7 @@
         {
           id: 69, topic: "Dielectrics in Capacitors",
           q: "A parallel plate capacitor is made of two dielectric blocks in series. One of the blocks has thickness \\( d_1 \\) and dielectric constant \\( k_1 \\), and the other has thickness \\( d_2 \\) and dielectric constant \\( k_2 \\) as shown in the figure. This arrangement can be thought of as a single dielectric slab of thickness \\( d = (d_1 + d_2) \\) and effective dielectric constant \\( k \\). The value of \\( k \\) is:",
-          imgUrl: "[IMAGE: placeholder_q40_series_dielectrics]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiX8yDpKYYn7NHDZTGNcJKsCWYVz3JbMyNQSJA07cET1puq9e7iGiIisEvb2Q-Pb_tVQfJ2s7A3MMvoV4l0j223671z9aqkEHgybTrIhjn_anKC1ZRDe4bvXOzVsuBKgN89U88viL6unIJN5urborNAi1DvxFkVeqyCZhRgu28Yrbd9L5ssdRaRA-Cf0Gwi",
           options: ["\\( \\frac{k_1 d_1 + k_2 d_2}{d_1 + d_2} \\)", "\\( \\frac{k_1 d_1 + k_2 d_2}{k_1 + k_2} \\)", "\\( \\frac{k_1 k_2 (d_1 + d_2)}{k_1 d_2 + k_2 d_1} \\)", "\\( \\frac{2k_1 k_2}{k_1 + k_2} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Capacitors in Series</b><br>The arrangement acts as two capacitors in series:<br>\\( C_1 = \\frac{k_1 \\epsilon_0 A}{d_1} \\) and \\( C_2 = \\frac{k_2 \\epsilon_0 A}{d_2} \\).<br>The equivalent capacitance is \\( \\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} \\).<br>\\( \\frac{1}{C_{eq}} = \\frac{d_1}{k_1 \\epsilon_0 A} + \\frac{d_2}{k_2 \\epsilon_0 A} = \\frac{k_2 d_1 + k_1 d_2}{k_1 k_2 \\epsilon_0 A} \\).<br>So, \\( C_{eq} = \\frac{k_1 k_2 \\epsilon_0 A}{k_1 d_2 + k_2 d_1} \\).<br><br><b>Step 2: Equivalent Single Capacitor</b><br>If this were a single capacitor of thickness \\( d_1 + d_2 \\) and constant \\( k \\):<br>\\( C_{eq} = \\frac{k \\epsilon_0 A}{(d_1 + d_2)} \\).<br><br><b>Step 3: Equate and Solve for k</b><br>\\( \\frac{k \\epsilon_0 A}{d_1 + d_2} = \\frac{k_1 k_2 \\epsilon_0 A}{k_1 d_2 + k_2 d_1} \\).<br>\\( k = \\frac{k_1 k_2 (d_1 + d_2)}{k_1 d_2 + k_2 d_1} \\)."
@@ -6805,7 +6805,7 @@
         {
           id: 70, topic: "Capacitance and Energy",
           q: "Three identical capacitors are given a charge \\( Q \\) each and they are then allowed to discharge through resistances \\( R_1 \\), \\( R_2 \\), and \\( R_3 \\) separately. Their charges as a function of time are shown in the graph below. The smallest of the three resistances is:",
-          imgUrl: "[IMAGE: placeholder_q49_discharge_graph]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgfy_Jv-vuUCKnJqywkGZIXAZkZYbI6Y8xT1fIvAl5Jy-z2QiTKd1KBhtcQqzvoaOj1vbv72-FaP35L0WEgYNtDbMvqogb4lBWkK3ICWfC5G3_cmIJzpp3lnbUNjvHkMWKhmE1-60vShtBlQrr7LGX8wUXWzO4euRJfF2EpZ-_qqbYRXVTIvvY9U7VEj3Z3",
           options: ["\\( R_3 \\)", "\\( R_2 \\)", "\\( R_1 \\)", "Cannot be predicted"],
           correct: 2, 
           sol: "<b>Step 1: RC Discharge Equation</b><br>The charge on a discharging capacitor follows the exponential decay equation: \\( Q(t) = Q_0 e^{-t/RC} \\).<br>The term \\( \\tau = RC \\) is called the time constant. It represents how slowly the capacitor discharges.<br><br><b>Step 2: Analyze the Time Constant</b><br>Since all three capacitors are identical, their capacitance \\( C \\) is the same. Therefore, the time constant \\( \\tau \\) depends directly on the resistance \\( R \\).<br>A smaller resistance \\( R \\) results in a smaller time constant, meaning the capacitor loses its charge much faster (steeper decay curve).<br><br><b>Step 3: Graph Interpretation</b><br>Looking at the graph, the curve corresponding to \\( R_1 \\) drops to zero the fastest. This proves it has the shortest time constant, and consequently, the smallest resistance."
@@ -6813,7 +6813,7 @@
         {
           id: 71, topic: "Dielectrics in Capacitors",
           q: "In the figure shown, \\( \\sigma \\) is the surface charge density on the upper metallic plate. The space between the plates is filled with two dielectrics of constants \\( k_1 = 3 \\) (thickness \\( d/3 \\)) and \\( k_2 = 6 \\) (thickness \\( 2d/3 \\)). Which of the following statements is true regarding the energy densities in the two dielectrics?",
-          imgUrl: "[IMAGE: placeholder_q31_dielectric_energy]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjPmpm8p91a6NfRp14Q1mXI4P2qte09qRdMRHx-YMwjQz57KvcPEyWL8KunzKOxzen56N8wxNorGcBOvPBPeUGn1rwwJzdy52n_DFUytfToNu6-g2bFe7RGQVaRsyGbuf1j33d0ii9u8WMRITMLPKGN_tmh7xCU2DgzETXYCPtR4x-AGibc5th7Xx6St5P7",
           options: ["The ratio of energy density in dielectric I to dielectric II is 2", "The ratio of energy density in dielectric I to dielectric II is 4", "The ratio of energy density in dielectric I to dielectric II is 1", "None of these"],
           correct: 0, 
           sol: "<b>Step 1: Electric Field in Dielectrics</b><br>The electric field inside a dielectric is reduced by a factor of \\( k \\).<br>Field in Dielectric 1: \\( E_1 = \\frac{\\sigma}{k_1 \\epsilon_0} = \\frac{\\sigma}{3\\epsilon_0} \\).<br>Field in Dielectric 2: \\( E_2 = \\frac{\\sigma}{k_2 \\epsilon_0} = \\frac{\\sigma}{6\\epsilon_0} \\).<br><br><b>Step 2: Energy Density Formula</b><br>The energy density (energy per unit volume) is given by \\( u = \\frac{1}{2} k \\epsilon_0 E^2 \\).<br><br><b>Step 3: Calculate the Ratio</b><br>\\( u_1 = \\frac{1}{2} (3) \\epsilon_0 \\left(\\frac{\\sigma}{3\\epsilon_0}\\right)^2 = \\frac{1}{2} \\epsilon_0 \\frac{3\\sigma^2}{9\\epsilon_0^2} = \\frac{\\sigma^2}{6\\epsilon_0} \\).<br>\\( u_2 = \\frac{1}{2} (6) \\epsilon_0 \\left(\\frac{\\sigma}{6\\epsilon_0}\\right)^2 = \\frac{1}{2} \\epsilon_0 \\frac{6\\sigma^2}{36\\epsilon_0^2} = \\frac{\\sigma^2}{12\\epsilon_0} \\).<br>The ratio \\( \\frac{u_1}{u_2} = \\frac{1/6}{1/12} = 2 \\)."
@@ -6821,7 +6821,7 @@
         {
           id: 72, topic: "Combination of Capacitors",
           q: "In the given bridge circuit with capacitors and resistors, if no current flows through the galvanometer when the key K is closed, the bridge is balanced. The balancing condition for this bridge is:",
-          imgUrl: "[IMAGE: placeholder_q25_rc_bridge]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiOdhP8ONxbPZbtWdf67En6Y-4A-sbsy6yxdIiHYv-8_r8Gai9zkOo7xUqWrz5f47InNy3IryxtpF763K201QREUAjE_uEyd5znAwNNkmtD3N-SnX8f5cZ13hivvy--jjaF-7gXGTao2EpTBLHn3Qc5_UJLpeN8tI-0cI6puwNKzXjSVffD8hCG98kjYX2r",
           options: ["\\( \\frac{C_1}{C_2} = \\frac{R_1}{R_2} \\)", "\\( \\frac{C_1}{C_2} = \\frac{R_2}{R_1} \\)", "\\( \\frac{C_1^2}{C_2^2} = \\frac{R_1^2}{R_2^2} \\)", "\\( \\frac{C_1^2}{C_2^2} = \\frac{R_2}{R_1} \\)"],
           correct: 1, 
           sol: "<b>Step 1: Bridge Balance Principle</b><br>For no current to flow through the galvanometer, the electrical potential at the nodes on both sides of the galvanometer must be exactly equal. This implies that the voltage drop across the top components must equal the voltage drop across the bottom components.<br><br><b>Step 2: Compare Voltages</b><br>Let the transient/AC voltages across the resistors be \\( V_{R1} \\) and \\( V_{R2} \\). Their ratio is proportional to resistance: \\( \\frac{V_{R1}}{V_{R2}} = \\frac{R_1}{R_2} \\).<br>Let the voltages across the capacitors be \\( V_{C1} \\) and \\( V_{C2} \\). Since \\( V = \\frac{Q}{C} \\), and charge \\( Q \\) accumulates equally in the branches, their ratio is inversely proportional to capacitance: \\( \\frac{V_{C1}}{V_{C2}} = \\frac{C_2}{C_1} \\).<br><br><b>Step 3: Equate the Ratios</b><br>For balance, \\( \\frac{V_{R1}}{V_{R2}} = \\frac{V_{C1}}{V_{C2}} \\).<br>\\( \\frac{R_1}{R_2} = \\frac{C_2}{C_1} \\implies \\frac{C_1}{C_2} = \\frac{R_2}{R_1} \\)."
@@ -6829,7 +6829,7 @@
         {
           id: 73, topic: "Combination of Capacitors",
           q: "In the given circuit, ammeters \\( A_1 \\) and \\( A_2 \\) are ideal and the voltmeter (V) has very large resistance. In the steady state, the readings of ammeters \\( A_1 \\), \\( A_2 \\), and voltmeter (V) will be respectively:",
-          imgUrl: "[IMAGE: placeholder_q42_steady_state_dc]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgyoy_qJY6Ke78MNa421AaUfxa3fJDK8J9IlOO4_5qhE1sHHW_Dwm6pw7AKHJ747t31-SNzd2ip9JKVF3J0WMtRSDL8jW08CT68Gj3hiWKE0v-R0vGl2au5O1TlLnLGhhWAF-W3_B42awEIFz7c8Ti8ishOd_31M8z-BmMVV52u4-boX48Ts8Q4HH2qEfeM",
           options: ["0, \\( \\frac{\\epsilon}{2R} \\) and \\( \\frac{\\epsilon}{2} \\)", "0, \\( \\frac{\\epsilon}{R} \\) and \\( \\frac{\\epsilon}{2} \\)", "0, \\( \\frac{\\epsilon}{2R} \\) and \\( \\frac{5\\epsilon}{2} \\)", "0, \\( \\frac{\\epsilon}{2R} \\) and \\( \\frac{3\\epsilon}{2} \\)"],
           correct: 0, 
           sol: "<b>Step 1: Steady State Capacitor Behavior</b><br>In a DC circuit at steady state, a fully charged capacitor acts as an open circuit (infinite resistance). Therefore, absolutely <b>no current flows</b> through the middle branch containing the capacitor and ammeter \\( A_1 \\). So, \\( A_1 = 0 \\).<br><br><b>Step 2: Calculate Active Circuit Current</b><br>The current only flows in the outer loop, which contains two batteries (\\( \\epsilon \\) and \\( 2\\epsilon \\) opposing each other) and two resistors (total resistance \\( 2R \\)).<br>Net EMF = \\( 2\\epsilon - \\epsilon = \\epsilon \\).<br>Current \\( I \\) (read by \\( A_2 \\)) = \\( \\frac{\\text{Net EMF}}{\\text{Total } R} = \\frac{\\epsilon}{2R} \\).<br><br><b>Step 3: Calculate Voltmeter Reading</b><br>The voltmeter is connected across the capacitor. By applying Kirchhoff's Voltage Law to the top loop:<br>Voltage across capacitor \\( V_C = \\text{Battery } \\epsilon - \\text{Voltage drop across } R \\).<br>\\( V_C = \\epsilon - I R = \\epsilon - \\left(\\frac{\\epsilon}{2R}\\right) R = \\epsilon - \\frac{\\epsilon}{2} = \\frac{\\epsilon}{2} \\)."
@@ -6837,7 +6837,7 @@
         {
           id: 74, topic: "Combination of Capacitors",
           q: "In the circuit shown in the figure, key \\( K_1 \\) is initially open. The charge on capacitor C in steady state is \\( q_1 \\). Now the key is closed and at steady state the charge on C is \\( q_2 \\). The ratio of charges \\( q_1 / q_2 \\) is:",
-          imgUrl: "[IMAGE: placeholder_q44_switch_capacitor]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEixKCaJqCJ-i8gXl9J3qPSenoGYpsxG602mNL1zOjO2tECwyR4Rnsax1O5PEeeElYvl8IWhFttlNCPMLVSJmNEVreyp4ytl5ENuSy175A15D2oY3G0dExdf1PLM93reRhitrCTmdufyOFA1WN89RX4FtYRntg7iFnm_NY-B26ug-4g2IjEi2r-AFGWcDS9Q",
           options: ["5/3", "3/5", "1", "2/3"],
           correct: 0, 
           sol: "<b>Step 1: Key Open (Initial State)</b><br>When \\( K_1 \\) is open, the branch with \\( R_2 \\) is disconnected. In steady state, the capacitor blocks all DC current. Since no current flows through \\( R_1 \\), there is no voltage drop across it.<br>The capacitor charges to the full battery voltage: \\( V_1 = E \\).<br>Initial charge \\( q_1 = CE \\).<br><br><b>Step 2: Key Closed (Final State)</b><br>When \\( K_1 \\) is closed, steady current flows through the outer loop (through \\( R_1 \\) and \\( R_2 \\)). The capacitor still blocks current in its own branch.<br>Current \\( I = \\frac{E}{R_1 + R_2} = \\frac{E}{2 + 3} = \\frac{E}{5} \\).<br>The capacitor is in parallel with \\( R_2 \\), so it reads the voltage across \\( R_2 \\):<br>\\( V_2 = I \\times R_2 = \\left(\\frac{E}{5}\\right) \\times 3 = \\frac{3E}{5} \\).<br>Final charge \\( q_2 = C \\left(\\frac{3E}{5}\\right) = \\frac{3}{5} CE \\).<br><br><b>Step 3: Find Ratio</b><br>\\( \\frac{q_1}{q_2} = \\frac{CE}{\\frac{3}{5} CE} = \\frac{5}{3} \\)."
@@ -6845,7 +6845,7 @@
         {
           id: 75, topic: "Combination of Capacitors",
           q: "Find the equivalent capacitance of the infinite circuit section between points A and B. The circuit consists of parallel branches with capacitances C, 2C, 4C, 8C... and transverse capacitors C, C, C...",
-          imgUrl: "[IMAGE: placeholder_q23_infinite_capacitors]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEixK2VdV03Yc4lARJiXEgMDCME7GswlndTaAQ5DRXtV5yi14fXCse11jm64IzGmoV_lNr7TBrBWLP-Z-g5SvP27KYcOKhZmcUTZcV9osGc5uOWh4XiN5uTVeeDG6-3YDjqTJx7NRAVVbcFEWmsWwYDcGHcMl-ASQ-IQr0k__Bz8kYD4wnkdSw7yl5_Utpmy",
           options: ["\\( \\frac{C}{3} \\)", "\\( \\frac{C}{8} \\)", "\\( C \\)", "\\( \\frac{C}{32} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Analyze the Infinite Ladder</b><br>In standard infinite ladder problems, we assume the equivalent capacitance of the entire infinite network is \\( C_{eq} \\).<br>Because the network goes on to infinity, removing the very first repeating unit leaves a network that still looks exactly like the original, and thus still has an equivalent capacitance of \\( C_{eq} \\).<br><br><b>Step 2: Set up the Equation</b><br>We construct the equation by placing the 'remaining infinite ladder' (\\( C_{eq} \\)) in parallel or series with the first standard unit of the circuit.<br>By applying the standard series-parallel rules (\\( C_{series} = \\frac{C_1 C_2}{C_1 + C_2} \\) and \\( C_{parallel} = C_1 + C_2 \\)) and equating the result to \\( C_{eq} \\), we form a quadratic equation.<br><br><b>Step 3: Solve</b><br>Solving this specific quadratic topological equation yields the root \\( C_{eq} = C \\)."
@@ -6853,7 +6853,7 @@
         {
           id: 76, topic: "Combination of Capacitors",
           q: "In the given circuit, \\( R_1 = 2\\Omega \\), \\( R_2 = 3\\Omega \\), \\( \\epsilon = 6\\text{V} \\), \\( C_1 = 1\\mu\\text{F} \\) and \\( C_2 = 2\\mu\\text{F} \\). In steady state, the ratio of energy stored in the capacitors \\( C_2 \\) and \\( C_1 \\) is:",
-          imgUrl: "[IMAGE: placeholder_q3_rc_steady_state]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEijvE9SVsbdsVADJ3a4SZ8K6nSRhTs7MyMMByY9AALxHDfuhmGfUewZOgEej3mN-4EQMKyt7DPMnQ7YYbi1P_qMAnRPMj4RcFqMZ0ptFgFN76fUbxOhE1xoSgCg7eFKbEYFL7J9AkTrh_Nl1a17NaMNfv33d4VVJudfQqQbsmEo0eYffe6QPZFHr2pcssKc",
           options: ["\\( 6/9 \\)", "\\( 9/6 \\)", "\\( 8/9 \\)", "\\( 1 \\)"],
           correct: 2, 
           sol: "<b>Step 1: Steady State Analysis</b><br>In a DC steady state, capacitors act as open circuits. The steady current flows entirely through the resistors \\( R_1 \\) and \\( R_2 \\).<br>Since \\( C_1 \\) is connected in parallel with \\( R_2 \\), the voltage across \\( C_1 \\) is \\( V_1 = V_{R2} \\propto R_2 = 3\\text{V}_0 \\).<br>Since \\( C_2 \\) is connected in parallel with \\( R_1 \\), the voltage across \\( C_2 \\) is \\( V_2 = V_{R1} \\propto R_1 = 2\\text{V}_0 \\).<br><br><b>Step 2: Energy Ratio</b><br>The energy stored in a capacitor is \\( U = \\frac{1}{2} C V^2 \\).<br>Ratio \\( = \\frac{U_2}{U_1} = \\frac{\\frac{1}{2}C_2 V_2^2}{\\frac{1}{2}C_1 V_1^2} \\).<br>Substitute the values: Ratio \\( = \\frac{2 \\times (2)^2}{1 \\times (3)^2} = \\frac{2 \\times 4}{9} = \\frac{8}{9} \\)."
@@ -6861,7 +6861,7 @@
         {
           id: 77, topic: "Combination of Capacitors",
           q: "In the circuit shown, \\( C_1 = 6\\mu\\text{F} \\), \\( C_2 = 3\\mu\\text{F} \\) and battery \\( B = 20\\text{V} \\). The switch \\( S_1 \\) is first closed. It is opened after a long time and \\( S_2 \\) is then closed. What is the final charge on \\( C_2 \\)?",
-          imgUrl: "[IMAGE: placeholder_q9_capacitor_switches]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj4pDeq330RQqP8atqxeGG7iHamVvl7mz9gKdV8YEess7IUS_6tl0ZLVrraydjJy2x2Hxy9nNKWZxfDezwUrbuc0d1qKbWzq4QSX6r2wNN3MlUi4Ol8C2CnVkMUmt0yxgQcf3ImQ0c3fqdhiiczAQQRWZS1H_LyQh3-jwiEFbUP8GfM47KDD94PnFBuLL3R",
           options: ["120 \\( \\mu\\text{C} \\)", "80 \\( \\mu\\text{C} \\)", "40 \\( \\mu\\text{C} \\)", "20 \\( \\mu\\text{C} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Initial Charge</b><br>When \\( S_1 \\) is closed, only \\( C_1 \\) is connected to the 20V battery.<br>Initial charge on \\( C_1 \\) is \\( Q_1 = C_1 \\times V = 6\\mu\\text{F} \\times 20\\text{V} = 120\\mu\\text{C} \\).<br><br><b>Step 2: Charge Redistribution</b><br>When \\( S_1 \\) is opened and \\( S_2 \\) is closed, the battery is removed and \\( C_1 \\) is connected in parallel with the uncharged \\( C_2 \\).<br>Total charge remains conserved: \\( Q_{total} = 120\\mu\\text{C} \\).<br>Equivalent capacitance \\( C_p = C_1 + C_2 = 6\\mu\\text{F} + 3\\mu\\text{F} = 9\\mu\\text{F} \\).<br><br><b>Step 3: Final State</b><br>Common potential \\( V_c = \\frac{Q_{total}}{C_p} = \\frac{120}{9} = \\frac{40}{3} \\text{V} \\).<br>Final charge on \\( C_2 \\) is \\( Q_2 = C_2 \\times V_c = 3\\mu\\text{F} \\times \\left(\\frac{40}{3}\\text{V}\\right) = 40\\mu\\text{C} \\)."
@@ -6869,7 +6869,7 @@
         {
           id: 78, topic: "Capacitance and Energy",
           q: "A capacitor of capacitance \\( 5\\mu\\text{F} \\) is connected to a source of constant emf of 200V for a long time, then the switch was shifted to contact 2 from contact 1, connecting it across two resistors of \\( 500\\Omega \\) and \\( 300\\Omega \\) in series. The total amount of heat generated in the \\( 500\\Omega \\) resistance thereafter is:",
-          imgUrl: "[IMAGE: placeholder_q41_rc_discharge_heat]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEje6LmztlD7YMM2QQ9kuw4bdPY960Eisf7LuMK35itJYyKk2pzssxw1KfkrUhzNeqaBy_I32Wc7b0jwjcYq7JJTN91z9heZS3ka-DCu7g8g2ZpO_CcFTdYHTMsLfQsfwc5X5SaVnMQqwq5uuL41J3J3dwnctkTeewJYTpDGjg821AvGqAiyagOKoB07GI2N",
           options: ["1/32 J", "3/32 J", "2/32 J", "5/32 J"],
           correct: 2, 
           sol: "<b>Step 1: Initial Energy</b><br>The energy initially stored in the fully charged capacitor is:<br>\\( U_i = \\frac{1}{2} C V^2 = \\frac{1}{2} \\times 5 \\times 10^{-6} \\times (200)^2 = 0.1 \\, \\text{J} \\).<br><br><b>Step 2: Heat Distribution</b><br>When the switch shifts, the capacitor discharges completely through the series combination of the \\( 500\\Omega \\) and \\( 300\\Omega \\) resistors.<br>Total resistance \\( R_{eq} = 500 + 300 = 800\\Omega \\).<br>In a series circuit, the heat dissipated is directly proportional to the resistance (\\( H = I^2 R t \\)).<br><br><b>Step 3: Calculate Heat in 500 Ohm Resistor</b><br>Heat in \\( 500\\Omega \\) resistor = \\( \\left(\\frac{500}{800}\\right) \\times U_i = \\frac{5}{8} \\times 0.1 \\, \\text{J} = 0.0625 \\, \\text{J} \\).<br>Convert to fraction: \\( 0.0625 = \\frac{1}{16} = \\frac{2}{32} \\, \\text{J} \\)."
@@ -6877,7 +6877,7 @@
         {
           id: 79, topic: "Combination of Capacitors",
           q: "In a given capacitive network, the potential of point A is greater than that of point B by 19 volts. What is the potential difference in volts across the \\( 3\\mu\\text{F} \\) capacitor?",
-          imgUrl: "[IMAGE: placeholder_q30_capacitor_network]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgBwrmeT1FMCVVKHXb03SY9BVjSoalJxPBXmm9hMYmgbI2FsF380mnrJnXTyQdhZf7-xPTKSEGdB6KNC0RwbzgGycVelwEQQZqziVpANYBXFCykEpoWPSJqKGZmqKrrmbIKJSi189XcbKLQYQHUbDvZ6J-tB4RopY4jeTsBnBQhODdXWmfObMCBnu9mBg5B",
           options: ["7 V", "8 V", "23 V", "4 V"],
           correct: 1, 
           sol: "<b>Step 1: Network Analysis</b><br>Assume the standard configuration shown in the diagram where the potential difference of 19V is applied across a mixed series-parallel combination of capacitors.<br><b>Step 2: Charge Distribution</b><br>By calculating the equivalent capacitance of the specific branches, we can determine the total charge flowing from node A to node B.<br><b>Step 3: Voltage Drop</b><br>Using Kirchhoff's voltage loop rules and the formula \\( V = \\frac{Q}{C} \\), the potential drop across the specific branch containing the \\( 3\\mu\\text{F} \\) capacitor resolves to exactly <b>8 V</b> to satisfy the 19V total constraint."
@@ -10509,6 +10509,7 @@
       ]
     }
   };
+
 
 
 
