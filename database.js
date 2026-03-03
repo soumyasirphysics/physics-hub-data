@@ -5930,49 +5930,49 @@
           sol: "<b>Concept: Law of Conservation of Charge</b><br>When a charge is brought near an isolated conductor, it induces charge separation (polarization) on the surface of the metal cube. The side closer to the charge becomes negative, and the farther side becomes positive. However, because the cube is completely isolated and no charges have been added or removed, the <b>net total charge</b> of the cube must remain exactly zero (neutral)."
         },
         {
-          id: 46, topic: "Electric Charges & Fields",
+          id: 46, topic: "Electric Charges and Fields",
           q: "Millikan's oil drop experiment attempts to measure the charge on a single electron, \\( e \\), by measuring the charge on tiny oil drops suspended in an electrostatic field. It is assumed that the charge on the oil drops is due to just a small number of excess electrons. The charges \\( 3.90 \\times 10^{-19} \\, \\text{C} \\), \\( 6.50 \\times 10^{-19} \\, \\text{C} \\) and \\( 9.10 \\times 10^{-19} \\, \\text{C} \\) are measured on three drops of oil. The charge of an electron is deduced to be:",
           options: ["\\( 1.3 \\times 10^{-19} \\, \\text{C} \\)", "\\( 1.6 \\times 10^{-19} \\, \\text{C} \\)", "\\( 2.6 \\times 10^{-19} \\, \\text{C} \\)", "\\( 3.9 \\times 10^{-19} \\, \\text{C} \\)"],
           correct: 0, 
           sol: "According to the principle of quantization of charge, the total charge on a body is always an integral multiple of the elementary charge \\( e \\) (i.e., \\( Q = ne \\)).<br>The measured charges are:<br>\\( q_1 = 3.90 \\times 10^{-19} \\, \\text{C} = 3 \\times (1.3 \\times 10^{-19} \\, \\text{C}) \\)<br>\\( q_2 = 6.50 \\times 10^{-19} \\, \\text{C} = 5 \\times (1.3 \\times 10^{-19} \\, \\text{C}) \\)<br>\\( q_3 = 9.10 \\times 10^{-19} \\, \\text{C} = 7 \\times (1.3 \\times 10^{-19} \\, \\text{C}) \\)<br>The highest common factor of these charges is \\( 1.3 \\times 10^{-19} \\, \\text{C} \\), which is the deduced charge of an electron."
         },
         {
-          id: 47, topic: "Electric Charges & Fields",
+          id: 47, topic: "Electric Charges and Fields",
           q: "In quark model, a proton and a neutron consist of three quarks each. Two types of quarks, the so called 'up' quark (denoted by u) of charge \\( +\\frac{2}{3}e \\) and the 'down' quark (denoted by d) of charge \\( -\\frac{1}{3}e \\), together with electrons build up ordinary matter. A possible quark composition of a proton and neutron is:",
           options: ["udd, udd", "uud, udd", "uud, uud", "ddd, uuu"],
           correct: 1, 
           sol: "A proton has a net charge of \\( +1e \\). Let's check the combination 'uud':<br>Charge = \\( \\frac{2}{3}e + \\frac{2}{3}e - \\frac{1}{3}e = +1e \\). So, a proton is made of <b>uud</b>.<br>A neutron has a net charge of \\( 0 \\). Let's check the combination 'udd':<br>Charge = \\( \\frac{2}{3}e - \\frac{1}{3}e - \\frac{1}{3}e = 0 \\). So, a neutron is made of <b>udd</b>."
         },
         {
-          id: 48, topic: "Electric Charges & Fields",
+          id: 48, topic: "Electric Charges and Fields",
           q: "Five balls, numbered 1 to 5 are suspended using separate threads. Pairs (1, 2), (2, 4), and (4, 1) show electrostatics attraction, while pairs (2, 3) and (4, 5) show electrostatics repulsion. Therefore, the ball 1 must be:",
           options: ["positively charged", "negatively charged", "neutral", "made of metal"],
           correct: 2, 
           sol: "Repulsion is the sure test of electrification. Since pairs (2, 3) and (4, 5) repel, balls 2, 3, 4, and 5 are definitely charged.<br>Since (2, 4) attract, balls 2 and 4 must have opposite charges (e.g., if 2 is positive, then 4 is negative).<br>We are given that ball 1 attracts BOTH ball 2 (+) and ball 4 (-). A charged body cannot attract both positive and negative charges. The only way ball 1 can be attracted to both opposite charges is if ball 1 is <b>neutral</b> (it gets attracted due to dielectric polarization/induction)."
         },
         {
-          id: 49, topic: "Electric Charges & Fields",
+          id: 49, topic: "Electric Charges and Fields",
           q: "A positively charged insulator is brought near (but does not touch) two metallic spheres that are in contact. The metallic spheres are then separated. The sphere, which was initially farthest from the insulator, will have:",
           options: ["no net charge", "a negative charge", "a positive charge", "either a positive or negative charge"],
           correct: 2, 
           sol: "When the positively charged insulator is brought near the two conducting spheres in contact, it attracts free electrons towards it. This induces a negative charge on the closer sphere and leaves a deficiency of electrons (positive charge) on the farther sphere.<br>When the spheres are separated while the insulator is still present, these induced charges become trapped. Therefore, the sphere that was farthest from the insulator will possess a <b>positive charge</b>."
         },
         {
-          id: 50, topic: "Electric Charges & Fields",
+          id: 50, topic: "Electric Charges and Fields",
           q: "Two identical blocks are kept on a frictionless horizontal table and connected by a spring of stiffness \\( k \\) and of natural length \\( l_0 \\). A total charge \\( Q \\) is distributed on the blocks in a way such that in equilibrium the spring elongates by a maximum value. If this maximum elongation is equal to \\( x \\), then the value of \\( Q \\) is:",
           options: ["\\( 2l_0\\sqrt{4\\pi\\epsilon_0 k (l_0+x)} \\)", "\\( 2x\\sqrt{4\\pi\\epsilon_0 k (l_0+x)} \\)", "\\( 2(l_0+x)\\sqrt{4\\pi\\epsilon_0 k x} \\)", "\\( (l_0+x)\\sqrt{4\\pi\\epsilon_0 k x} \\)"],
           correct: 2, 
           sol: "For the electrostatic force to be maximum (and thus maximum elongation), the total charge \\( Q \\) must be distributed equally between the two blocks. So, each block gets a charge of \\( Q/2 \\).<br>In equilibrium, the electrostatic repulsion equals the spring restoring force:<br>\\( F_e = F_{spring} \\)<br>\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{(Q/2)^2}{(l_0+x)^2} = kx \\)<br>\\( \\frac{Q^2}{16\\pi\\epsilon_0(l_0+x)^2} = kx \\)<br>\\( Q^2 = 16\\pi\\epsilon_0 kx (l_0+x)^2 \\)<br>Taking the square root:<br>\\( Q = 4(l_0+x)\\sqrt{\\pi\\epsilon_0 kx} = 2(l_0+x)\\sqrt{4\\pi\\epsilon_0 kx} \\)."
         },
         {
-          id: 51, topic: "Electric Charges & Fields",
+          id: 51, topic: "Electric Charges and Fields",
           q: "A point charge +Q is placed at the centroid of an equilateral triangle. When a second charge +Q is placed at a vertex of the triangle, the magnitude of the electrostatic force on the central charge is 4 N. What is the magnitude of the net force on the central charge when a third charge +Q is placed at another vertex of the triangle?",
           options: ["Zero", "4 N", "\\( 4\\sqrt{2} \\, \\text{N} \\)", "8 N"],
           correct: 1, 
           sol: "Let the force exerted by one vertex charge on the central charge be \\( F \\). We are given \\( F = 4 \\, \\text{N} \\).<br>When a third charge +Q is placed at another vertex, there are now two forces of magnitude \\( F \\) acting on the central charge.<br>The angle between the lines joining the centroid to any two vertices of an equilateral triangle is \\( 120^{\\circ} \\).<br>The resultant of two equal forces \\( F \\) acting at an angle of \\( 120^{\\circ} \\) is given by:<br>\\( R = \\sqrt{F^2 + F^2 + 2F^2 \\cos(120^{\\circ})} \\)<br>Since \\( \\cos(120^{\\circ}) = -1/2 \\):<br>\\( R = \\sqrt{2F^2 - F^2} = F \\).<br>Therefore, the net force remains \\( 4 \\, \\text{N} \\)."
         },
         {
-          id: 52, topic: "Electric Charges & Fields",
+          id: 52, topic: "Electric Charges and Fields",
           q: "Three charges +q, +2q and +4q are connected by strings of equal length \\( d \\) placed in a straight line. What is the ratio of tensions in the string connecting (+q and +2q) and the string connecting (+2q and +4q)?",
           imgUrl: "[IMAGE: placeholder_for_q52_string_charges]",
           options: ["1 : 2", "1 : 3", "4 : 1", "4 : 3"],
@@ -5980,133 +5980,133 @@
           sol: "Let's analyze the forces on the system. The charges are arranged as: A(+q) --d-- B(+2q) --d-- C(+4q).<br>The tension \\( T_{AB} \\) in string AB is responsible for holding charge A in equilibrium. The forces pulling A to the right are the repulsions from B and C:<br>\\( T_{AB} = F_{BA} + F_{CA} = \\frac{k(q)(2q)}{d^2} + \\frac{k(q)(4q)}{(2d)^2} = \\frac{2kq^2}{d^2} + \\frac{4kq^2}{4d^2} = \\frac{3kq^2}{d^2} \\).<br>The tension \\( T_{BC} \\) in string BC is responsible for holding charge C in equilibrium. The forces pulling C to the left are the repulsions from A and B:<br>\\( T_{BC} = F_{AC} + F_{BC} = \\frac{k(q)(4q)}{(2d)^2} + \\frac{k(2q)(4q)}{d^2} = \\frac{kq^2}{d^2} + \\frac{8kq^2}{d^2} = \\frac{9kq^2}{d^2} \\).<br>The ratio of tensions is:<br>\\( \\frac{T_{AB}}{T_{BC}} = \\frac{3}{9} = \\frac{1}{3} \\), or 1:3."
         },
         {
-          id: 53, topic: "Electric Charges & Fields",
+          id: 53, topic: "Electric Charges and Fields",
           q: "Two identical charged spheres are suspended by strings of equal lengths. The strings make an angle of \\( 30^{\\circ} \\) with each other. When suspended in a liquid of density \\( 1 \\, \\text{g/cm}^3 \\), the angle remains the same. If the density of the material of the sphere is \\( 4/3 \\, \\text{g/cm}^3 \\), the dielectric constant of the liquid is:",
           options: ["4", "3", "2", "1"],
           correct: 0, 
           sol: "In air, the restoring force is weight \\( mg \\), and electrostatic force is \\( F \\). The angle depends on \\( \\tan\\theta = \\frac{F}{mg} \\).<br>In liquid, the electrostatic force decreases to \\( F' = \\frac{F}{K} \\) (where \\( K \\) is dielectric constant). The effective weight decreases due to buoyant force: \\( W' = mg - V\\rho_{liquid}g = mg(1 - \\frac{\\rho_{liquid}}{\\rho_{sphere}}) \\).<br>Since the angle remains the same, \\( \\frac{F'}{W'} = \\frac{F}{mg} \\).<br>Substitute the values:<br>\\( \\frac{F/K}{mg(1 - \\rho_{liquid}/\\rho_{sphere})} = \\frac{F}{mg} \\)<br>\\( \\frac{1}{K(1 - 1 / (4/3))} = 1 \\)<br>\\( \\frac{1}{K(1 - 3/4)} = 1 \\implies \\frac{1}{K(1/4)} = 1 \\implies K = 4 \\)."
         },
         {
-          id: 54, topic: "Electric Potential & Capacitance",
+          id: 54, topic: "Electrostatic Potential and Capacitance",
           q: "A metallic spherical shell has inner radius \\( R_1 \\) and outer radius \\( R_2 \\). A charge +Q is placed at the centre of the spherical cavity. The surface charge density on the inner and outer surfaces respectively are:",
           options: ["\\( \\frac{-Q}{4\\pi R_1^2}, \\frac{+Q}{4\\pi R_2^2} \\)", "\\( \\frac{+Q}{4\\pi R_1^2}, \\frac{-Q}{4\\pi R_2^2} \\)", "Zero, Zero", "\\( \\frac{-Q}{4\\pi R_1^2}, \\frac{+2Q}{4\\pi R_2^2} \\)"],
           correct: 0, 
           sol: "The net electric field inside the conducting material of the shell must be zero. To achieve this, a charge of \\( -Q \\) is induced on the inner surface of the cavity (radius \\( R_1 \\)) to perfectly cancel the field of the central \\( +Q \\) charge.<br>Since the metallic shell is originally neutral and isolated, an equal and opposite charge \\( +Q \\) must appear on the outer surface (radius \\( R_2 \\)) to conserve charge.<br>Therefore, the inner surface charge density is \\( \\sigma_{inner} = \\frac{-Q}{4\\pi R_1^2} \\).<br>The outer surface charge density is \\( \\sigma_{outer} = \\frac{+Q}{4\\pi R_2^2} \\)."
         },
         {
-          id: 55, topic: "Electric Potential & Capacitance",
+          id: 55, topic: "Electrostatic Potential and Capacitance",
           q: "Two metal spheres, one of radius \\( R \\) and the other of radius \\( 2R \\), both have the same surface charge density \\( \\sigma \\). They are brought in contact and separated. The new surface charge densities on them will respectively be:",
           options: ["\\( \\frac{5\\sigma}{3}, \\frac{5\\sigma}{6} \\)", "\\( \\frac{5\\sigma}{6}, \\frac{5\\sigma}{3} \\)", "\\( \\frac{\\sigma}{3}, \\frac{2\\sigma}{3} \\)", "\\( \\frac{2\\sigma}{3}, \\frac{\\sigma}{3} \\)"],
           correct: 0, 
           sol: "Initial charge on sphere 1: \\( q_1 = \\sigma (4\\pi R^2) \\)<br>Initial charge on sphere 2: \\( q_2 = \\sigma (4\\pi (2R)^2) = 16\\pi R^2 \\sigma \\)<br>Total charge: \\( Q_{total} = q_1 + q_2 = 20\\pi R^2 \\sigma \\).<br>When they are brought in contact, they reach a common potential \\( V \\).<br>\\( V = \\frac{k q_1'}{R} = \\frac{k q_2'}{2R} \\implies q_2' = 2q_1' \\).<br>Using charge conservation: \\( q_1' + q_2' = 3q_1' = 20\\pi R^2 \\sigma \\implies q_1' = \\frac{20\\pi R^2 \\sigma}{3} \\) and \\( q_2' = \\frac{40\\pi R^2 \\sigma}{3} \\).<br>New surface charge density of sphere 1:<br>\\( \\sigma_1' = \\frac{q_1'}{4\\pi R^2} = \\frac{20\\pi R^2 \\sigma / 3}{4\\pi R^2} = \\frac{5\\sigma}{3} \\).<br>New surface charge density of sphere 2:<br>\\( \\sigma_2' = \\frac{q_2'}{4\\pi (2R)^2} = \\frac{40\\pi R^2 \\sigma / 3}{16\\pi R^2} = \\frac{5\\sigma}{6} \\)."
         },
         {
-          id: 56, topic: "Electric Charges & Fields",
+          id: 56, topic: "Electric Charges and Fields",
           q: "Two point charges \\( -4Q \\) and \\( 9Q \\) are placed at a distance of \\( 2 \\, \\text{m} \\) from each other. The position at which the net electric field is zero from the charge \\( -4Q \\) is \\( x \\) (in m). What is the value of \\( x \\)?",
           options: ["3", "4", "2", "1"],
           correct: 1, 
           sol: "The null point (where the net electric field is zero) for two opposite charges lies outside the region between them, on the side of the charge with the smaller magnitude.<br>Let the null point be at a distance \\( x \\) from \\( -4Q \\). Its distance from \\( 9Q \\) will be \\( (2 + x) \\).<br>At the null point, the magnitudes of the electric fields must be equal:<br>\\( \\frac{k(4Q)}{x^2} = \\frac{k(9Q)}{(2+x)^2} \\)<br>Taking the square root of both sides:<br>\\( \\frac{2}{x} = \\frac{3}{2+x} \\)<br>\\( 4 + 2x = 3x \\implies x = 4 \\, \\text{m} \\)."
         },
         {
-          id: 57, topic: "Electric Charges & Fields",
+          id: 57, topic: "Electric Charges and Fields",
           q: "Consider a regular cube with positive point charge \\( +Q \\) in all corners except for one which has a negative point charge \\( -Q \\). Let the distance from any corner to the center of the cube be \\( r \\). What is the magnitude of electric field at point P, the center of the cube?",
           options: ["\\( E = 0 \\)", "\\( E = 1 \\frac{kQ}{r^2} \\)", "\\( E = 2 \\frac{kQ}{r^2} \\)", "\\( E = 6 \\frac{kQ}{r^2} \\)"],
           correct: 2, 
           sol: "Using the principle of superposition, we can imagine the configuration as a complete cube with \\( +Q \\) at all 8 corners, PLUS an extra charge of \\( -2Q \\) at the specific corner that actually has \\( -Q \\) (since \\( +Q - 2Q = -Q \\)).<br>The electric field at the center of a cube with identical charges at all 8 corners is exactly zero due to symmetry.<br>Therefore, the net electric field at the center is purely due to the superimposed \\( -2Q \\) charge.<br>Magnitude of the field \\( E = \\frac{k|-2Q|}{r^2} = 2\\frac{kQ}{r^2} \\)."
         },
         {
-          id: 58, topic: "Electric Charges & Fields",
+          id: 58, topic: "Electric Charges and Fields",
           q: "A point charge of \\( 25 \\, \\mu\\text{C} \\) is located in the XY plane at the point of position vector \\( \\vec{r}_0 = (\\hat{i} + \\hat{j}) \\, \\text{m} \\). What is the magnitude of the electric field at the point of position vector \\( \\vec{r}_1 = (4\\hat{i} + 5\\hat{j}) \\, \\text{m} \\)?",
           options: ["\\( 900 \\, \\text{V/m} \\)", "\\( 9 \\, \\text{V/m} \\)", "\\( 90 \\, \\text{V/m} \\)", "\\( 9000 \\, \\text{V/m} \\)"],
           correct: 3, 
           sol: "The displacement vector from the charge to the point is:<br>\\( \\vec{r} = \\vec{r}_1 - \\vec{r}_0 = (4\\hat{i} + 5\\hat{j}) - (\\hat{i} + \\hat{j}) = 3\\hat{i} + 4\\hat{j} \\).<br>The distance \\( r \\) is the magnitude of the displacement vector:<br>\\( r = \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5 \\, \\text{m} \\).<br>The magnitude of the electric field is \\( E = \\frac{kq}{r^2} \\).<br>\\( E = \\frac{9 \\times 10^9 \\times 25 \\times 10^{-6}}{5^2} = \\frac{9 \\times 10^9 \\times 25 \\times 10^{-6}}{25} \\).<br>\\( E = 9 \\times 10^3 = 9000 \\, \\text{V/m} \\)."
         },
         {
-          id: 59, topic: "Electric Charges & Fields",
+          id: 59, topic: "Electric Charges and Fields",
           q: "A ring of radius \\( r \\) has a uniform total charge \\( Q \\). It is cut by a small length \\( dl \\). Find the magnitude of the electric field at the centre of the ring:",
           options: ["Zero", "\\( \\frac{Q \\cdot dl}{2\\pi r^2 \\epsilon_0} \\)", "\\( \\frac{Q \\cdot dl}{2\\pi r^3 \\epsilon_0} \\)", "\\( \\frac{Q \\cdot dl}{8\\pi^2 \\epsilon_0 r^3} \\)"],
           correct: 3, 
           sol: "A complete, uniform ring produces zero electric field at its center because the fields from opposite elements cancel each other out.<br>If a small length \\( dl \\) is removed, the remaining part of the ring must produce an electric field exactly equal and opposite to the field that the missing piece *would* have produced (so that their sum would be zero).<br>The charge on the missing length \\( dl \\) is \\( dq = \\frac{Q}{2\\pi r} dl \\).<br>The electric field due to this missing element at the center is \\( E = \\frac{k(dq)}{r^2} = \\frac{1}{4\\pi\\epsilon_0} \\frac{\\frac{Q \\cdot dl}{2\\pi r}}{r^2} \\).<br>\\( E = \\frac{Q \\cdot dl}{8\\pi^2 \\epsilon_0 r^3} \\)."
         },
         {
-          id: 60, topic: "Electric Potential & Capacitance",
+          id: 60, topic: "Electrostatic Potential and Capacitance",
           q: "The electric potential at the surface of a uniformly charged solid sphere is \\( 4 \\, \\text{V} \\). Find the electric potential at the centre of the sphere.",
           options: ["\\( 2 \\, \\text{V} \\)", "\\( 6 \\, \\text{V} \\)", "\\( 4 \\, \\text{V} \\)", "\\( 3 \\, \\text{V} \\)"],
           correct: 1, 
           sol: "For a uniformly charged solid non-conducting sphere, the potential at the surface is given by \\( V_s = \\frac{kQ}{R} \\). We are given \\( V_s = 4 \\, \\text{V} \\).<br>The potential at the center of a uniformly charged solid sphere is \\( 1.5 \\) times the potential at the surface.<br>\\( V_c = \\frac{3}{2} V_s = 1.5 \\times \\frac{kQ}{R} \\).<br>\\( V_c = 1.5 \\times 4 \\, \\text{V} = 6 \\, \\text{V} \\)."
         },
         {
-          id: 61, topic: "Electric Potential & Capacitance",
+          id: 61, topic: "Electrostatic Potential and Capacitance",
           q: "A solid sphere of radius \\( R \\) is charged uniformly throughout its volume. At what distance from its surface is the electric potential \\( \\frac{1}{4} \\) of the potential at the centre?",
           options: ["\\( \\frac{8R}{3} \\)", "\\( \\frac{R}{3} \\)", "\\( \\frac{5R}{3} \\)", "\\( \\frac{2R}{3} \\)"],
           correct: 2, 
           sol: "The potential at the center of a solid sphere is \\( V_c = \\frac{3}{2} \\frac{kQ}{R} \\).<br>We need to find a point where \\( V = \\frac{1}{4} V_c = \\frac{1}{4} \\left(\\frac{3}{2} \\frac{kQ}{R}\\right) = \\frac{3}{8} \\frac{kQ}{R} \\).<br>Since this target potential is less than the surface potential (\\( \\frac{kQ}{R} \\)), the point must lie outside the sphere.<br>The potential outside a sphere at distance \\( r \\) from the center is \\( V_{out} = \\frac{kQ}{r} \\).<br>Equating the two: \\( \\frac{kQ}{r} = \\frac{3}{8} \\frac{kQ}{R} \\implies r = \\frac{8R}{3} \\).<br>The question asks for the distance <b>from the surface</b>, which is \\( r - R \\).<br>Distance = \\( \\frac{8R}{3} - R = \\frac{5R}{3} \\)."
         },
         {
-          id: 62, topic: "Electric Potential & Capacitance",
+          id: 62, topic: "Electrostatic Potential and Capacitance",
           q: "The electric potential in a particular region of space is \\( V = 12x - 3x^2y + 2yz^2 \\). The magnitude of the electric field at point P \\( (1, 0, -2) \\) is:",
           options: ["12 unit", "13 unit", "5 unit", "Zero"],
           correct: 1, 
           sol: "The electric field components are the negative partial derivatives of the potential: \\( \\vec{E} = -\\nabla V \\).<br>\\( E_x = -\\frac{\\partial V}{\\partial x} = -(12 - 6xy) \\). At P(1, 0, -2), \\( E_x = -(12 - 0) = -12 \\).<br>\\( E_y = -\\frac{\\partial V}{\\partial y} = -(-3x^2 + 2z^2) \\). At P(1, 0, -2), \\( E_y = -(-3(1)^2 + 2(-2)^2) = -(-3 + 8) = -5 \\).<br>\\( E_z = -\\frac{\\partial V}{\\partial z} = -(4yz) \\). At P(1, 0, -2), \\( E_z = -(0) = 0 \\).<br>The electric field vector is \\( \\vec{E} = -12\\hat{i} - 5\\hat{j} \\).<br>Magnitude \\( E = \\sqrt{(-12)^2 + (-5)^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13 \\, \\text{units} \\)."
         },
         {
-          id: 63, topic: "Electric Potential & Capacitance",
+          id: 63, topic: "Electrostatic Potential and Capacitance",
           q: "The electric potential due to an infinite sheet of positive charge density \\( \\sigma \\) at a point located at a perpendicular distance \\( Z \\) from the sheet is (Assume \\( V_0 \\) to be the potential at the surface of the sheet):",
           options: ["\\( V_0 \\)", "\\( V_0 - \\frac{\\sigma Z}{\\epsilon_0} \\)", "\\( V_0 + \\frac{\\sigma Z}{2\\epsilon_0} \\)", "\\( V_0 - \\frac{\\sigma Z}{2\\epsilon_0} \\)"],
           correct: 3, 
           sol: "The electric field due to an infinite sheet of charge is uniform and given by \\( E = \\frac{\\sigma}{2\\epsilon_0} \\).<br>The relationship between potential difference and a uniform electric field is \\( \\Delta V = -E \\cdot \\Delta d \\).<br>Let the potential at distance \\( Z \\) be \\( V(Z) \\).<br>\\( V(Z) - V_0 = -E \\cdot Z = -\\left(\\frac{\\sigma}{2\\epsilon_0}\\right) Z \\).<br>Therefore, \\( V(Z) = V_0 - \\frac{\\sigma Z}{2\\epsilon_0} \\)."
         },
         {
-          id: 64, topic: "Electric Potential & Capacitance",
+          id: 64, topic: "Electrostatic Potential and Capacitance",
           q: "The potential energy of a system comprising point charges is \\( U_1 \\). When a new charge \\( q \\) is added into the system without disturbing the other charges, the potential energy becomes \\( U_2 \\). The electric potential of the point where the charge \\( q \\) is placed in the system is:",
           options: ["\\( \\frac{U_2 - U_1}{q} \\)", "\\( \\frac{U_1 - U_2}{q} \\)", "\\( \\frac{U_1 + U_2}{2q} \\)", "\\( \\frac{U_2 - U_1}{2q} \\)"],
           correct: 0, 
           sol: "The total potential energy of the new system (\\( U_2 \\)) is equal to the initial potential energy (\\( U_1 \\)) plus the interaction energy of the newly added charge \\( q \\) with all the existing charges.<br>The interaction energy of the new charge is \\( qV \\), where \\( V \\) is the net electric potential created by all original charges at that specific point.<br>\\( U_2 = U_1 + qV \\)<br>\\( qV = U_2 - U_1 \\implies V = \\frac{U_2 - U_1}{q} \\)."
         },
         {
-          id: 65, topic: "Electric Charges & Fields",
+          id: 65, topic: "Electric Charges and Fields",
           q: "An electric dipole is placed at the origin O such that its equator is the y-axis. At a point P far away from the dipole, the electric field direction is exactly along the y-direction. If the line OP makes an angle \\( \\alpha \\) with the x-axis, then:",
           options: ["\\( \\tan \\alpha = \\sqrt{3} \\)", "\\( \\tan \\alpha = \\sqrt{2} \\)", "\\( \\tan \\alpha = 1 \\)", "\\( \\tan \\alpha = \\frac{1}{\\sqrt{2}} \\)"],
           correct: 1, 
           sol: "If the equator is the y-axis, the dipole moment \\( \\vec{p} \\) must be aligned along the x-axis.<br>Let the position vector of point P make an angle \\( \\alpha \\) with the x-axis (dipole axis).<br>The angle \\( \\theta \\) that the electric field vector makes with the position vector OP is given by: \\( \\tan\\theta = \\frac{1}{2} \\tan\\alpha \\).<br>We are given that the electric field is along the y-axis. This means the angle between the electric field and the x-axis is \\( 90^{\\circ} \\).<br>From geometry, the total angle with the x-axis is \\( \\alpha + \\theta = 90^{\\circ} \\implies \\theta = 90^{\\circ} - \\alpha \\).<br>Substitute into the formula: \\( \\tan(90^{\\circ} - \\alpha) = \\frac{1}{2} \\tan\\alpha \\).<br>\\( \\cot\\alpha = \\frac{1}{2} \\tan\\alpha \\implies \\frac{1}{\\tan\\alpha} = \\frac{1}{2} \\tan\\alpha \\implies \\tan^2\\alpha = 2 \\).<br>Therefore, \\( \\tan\\alpha = \\sqrt{2} \\)."
         },
         {
-          id: 66, topic: "Electric Potential & Capacitance",
+          id: 66, topic: "Electrostatic Potential and Capacitance",
           q: "An electric charge of \\( 10 \\, \\text{nC} \\) is placed at the point O \\( (4\\text{m}, 7\\text{m}, 2\\text{m}) \\). At the point P \\( (1\\text{m}, 3\\text{m}, 2\\text{m}) \\):",
           options: ["The electric potential is 18 volt.", "The electric field has no z-component.", "The magnitude of electric field is \\( 3.6 \\, \\text{V/m} \\)", "All of these"],
           correct: 3, 
           sol: "Let's check all the statements.<br>The displacement vector \\( \\vec{r} = \\vec{r}_P - \\vec{r}_O = (1-4)\\hat{i} + (3-7)\\hat{j} + (2-2)\\hat{k} = -3\\hat{i} - 4\\hat{j} + 0\\hat{k} \\).<br>The distance \\( r = \\sqrt{(-3)^2 + (-4)^2 + 0} = 5 \\, \\text{m} \\).<br><b>Potential:</b> \\( V = \\frac{kq}{r} = \\frac{9 \\times 10^9 \\times 10 \\times 10^{-9}}{5} = \\frac{90}{5} = 18 \\, \\text{V} \\) (Statement 1 is true).<br><b>z-component of Field:</b> Since both points have the same z-coordinate (\\( 2\\text{m} \\)), the field is entirely in the xy-plane. So, the z-component is zero (Statement 2 is true).<br><b>Magnitude of Field:</b> \\( E = \\frac{kq}{r^2} = \\frac{90}{25} = 3.6 \\, \\text{V/m} \\) (Statement 3 is true).<br>Therefore, all statements are correct."
         },
         {
-          id: 67, topic: "Electric Potential & Capacitance",
+          id: 67, topic: "Electrostatic Potential and Capacitance",
           q: "The ratio of the magnitude of the electric field due to \\( +q \\) and \\( -2q \\) at a point between the charges where the net potential is zero on the x-axis is \\( \\beta : 1 \\). Then \\( \\beta \\) will be:",
           options: ["2", "4", "0.5", "0.25"],
           correct: 0, 
           sol: "Let the distance of the null potential point from \\( +q \\) be \\( x_1 \\), and from \\( -2q \\) be \\( x_2 \\).<br>For net potential to be zero: \\( \\frac{k(q)}{x_1} + \\frac{k(-2q)}{x_2} = 0 \\implies \\frac{q}{x_1} = \\frac{2q}{x_2} \\implies x_2 = 2x_1 \\).<br>Now, find the ratio of the magnitudes of their electric fields at this point.<br>\\( E_1 \\) (due to \\( +q \\)) \\( = \\frac{kq}{x_1^2} \\).<br>\\( E_2 \\) (due to \\( -2q \\)) \\( = \\frac{k(2q)}{x_2^2} = \\frac{2kq}{(2x_1)^2} = \\frac{2kq}{4x_1^2} = \\frac{kq}{2x_1^2} \\).<br>Ratio \\( \\frac{E_1}{E_2} = \\frac{kq / x_1^2}{kq / 2x_1^2} = 2 \\).<br>Since the ratio is \\( \\beta : 1 \\), we get \\( \\beta = 2 \\)."
         },
         {
-          id: 68, topic: "Electric Potential & Capacitance",
+          id: 68, topic: "Electrostatic Potential and Capacitance",
           q: "Four charges \\( 2\\text{C}, -3\\text{C}, -4\\text{C} \\) and \\( 5\\text{C} \\) respectively are placed at all the corners of a square. Which of the following statements is true for the point of intersection of the diagonals?",
           options: ["Electric field is zero but electric potential is non-zero", "Electric field is non-zero but electric potential is zero", "Both electric field and electric potential are zero", "Neither electric field nor electric potential is zero"],
           correct: 1, 
           sol: "The electric potential \\( V \\) at the center is a scalar sum: \\( V = \\frac{k}{r}(q_1 + q_2 + q_3 + q_4) \\), where \\( r \\) is the distance from any corner to the center.<br>Sum of charges = \\( 2 - 3 - 4 + 5 = 0 \\). Therefore, the net electric potential at the center is <b>zero</b>.<br>The electric field is a vector sum. The fields from opposite corners (\\( 2\\text{C} \\) and \\( -4\\text{C} \\)) do not cancel out; they add up pointing towards the \\( -4\\text{C} \\) charge. Similarly, fields from \\( -3\\text{C} \\) and \\( 5\\text{C} \\) add up pointing towards the \\( -3\\text{C} \\) charge. Thus, the net electric field is <b>non-zero</b>."
         },
         {
-          id: 69, topic: "Electric Potential & Capacitance",
+          id: 69, topic: "Electrostatic Potential and Capacitance",
           q: "Two point-charges, each with a charge of \\( +1 \\, \\mu\\text{C} \\), lie some finite distance apart. On which of the segments of an infinite line going through the charges is there a point, a finite distance away from the charges, where the electric potential is zero, assuming that it vanishes at infinity?",
           options: ["Between the charges only", "On either side outside the system", "Impossible to tell without knowing the distance between the charges", "No where"],
           correct: 3, 
           sol: "The electric potential due to a point charge is given by \\( V = \\frac{kq}{r} \\).<br>Since both charges are positive (\\( +1 \\, \\mu\\text{C} \\)), the potential contributed by each charge at any finite distance is strictly positive.<br>Because potential is a scalar quantity, the sum of two positive numbers is always positive.<br>Therefore, the net potential can never be zero anywhere at a finite distance from the charges. It will only approach zero at infinity."
         },
         {
-          id: 70, topic: "Electric Potential & Capacitance",
+          id: 70, topic: "Electrostatic Potential and Capacitance",
           q: "Charge \\( Q \\) coulombs is uniformly distributed throughout the volume of a solid hemisphere of radius \\( R \\) metres. Then the potential at the centre O of the flat surface of the hemisphere in volts is:",
           options: ["\\( \\frac{1}{4\\pi\\epsilon_0}\\frac{3Q}{2R} \\)", "\\( \\frac{1}{4\\pi\\epsilon_0}\\frac{3Q}{4R} \\)", "\\( \\frac{1}{4\\pi\\epsilon_0}\\frac{Q}{4R} \\)", "\\( \\frac{1}{4\\pi\\epsilon_0}\\frac{Q}{8R} \\)"],
           correct: 0, 
           sol: "By the principle of superposition, if we place an identical hemisphere below this one, we get a full solid sphere of radius \\( R \\) and total charge \\( 2Q \\).<br>The potential at the center of a uniformly charged full solid sphere of charge \\( q_{total} \\) is \\( V_{center} = \\frac{3}{2}\\frac{k(q_{total})}{R} \\).<br>Here, \\( q_{total} = 2Q \\), so \\( V_{full} = \\frac{3}{2}\\frac{k(2Q)}{R} = \\frac{3kQ}{R} \\).<br>By symmetry, the top hemisphere and the bottom hemisphere contribute equally to the potential at the center.<br>So, \\( V_{hemi} = \\frac{1}{2} V_{full} = \\frac{1}{2} \\left(\\frac{3kQ}{R}\\right) = \\frac{3kQ}{2R} \\).<br>Substitute \\( k = \\frac{1}{4\\pi\\epsilon_0} \\) to get \\( V_{hemi} = \\frac{1}{4\\pi\\epsilon_0}\\frac{3Q}{2R} \\)."
         },
         {
-          id: 71, topic: "Electric Potential & Capacitance",
+          id: 71, topic: "Electrostatic Potential and Capacitance",
           q: "A charge \\( Q \\) is given to a uniform hemispherical charge distribution of radius \\( R \\). The potential at two diametrically opposite points on the rim are \\( V_A \\) and \\( V_B \\). Then \\( (V_A + V_B) \\) is equal to:",
           imgUrl: "[IMAGE: placeholder_for_q74_hemisphere_potential]",
           options: ["\\( \\frac{KQ}{R} \\)", "\\( \\frac{KQ}{2R} \\)", "\\( \\frac{2KQ}{R} \\)", "\\( \\frac{KQ}{3R} \\)"],
@@ -6114,35 +6114,35 @@
           sol: "Let the top hemisphere have charge \\( Q \\). Imagine completing the sphere by attaching an identical bottom hemisphere with charge \\( Q \\).<br>The potential at point A (the top pole) due to the top hemisphere is \\( V_A \\). The potential at point A due to the bottom hemisphere is exactly equal to the potential at point B (the bottom pole) due to the top hemisphere, which is \\( V_B \\).<br>Therefore, the total potential at point A due to the full sphere is \\( V_{full} = V_A + V_B \\).<br>For a full spherical shell of charge \\( 2Q \\), the potential anywhere on its surface is \\( V_{full} = \\frac{K(2Q)}{R} \\).<br>Thus, \\( V_A + V_B = \\frac{2KQ}{R} \\)."
         },
         {
-          id: 72, topic: "Electric Potential & Capacitance",
+          id: 72, topic: "Electrostatic Potential and Capacitance",
           q: "The electric potential inside a charged solid spherical conductor in electrostatic condition:",
           options: ["is always zero", "decreases from its value at the surface to a value of zero at the centre", "is constant and equal to its value at the surface", "increases from its value at the surface to a higher value at the centre"],
           correct: 2, 
           sol: "In electrostatic conditions, the electric field inside a solid conductor is always zero (\\( E = 0 \\)).<br>Since electric field is the negative gradient of potential (\\( E = -\\frac{dV}{dr} \\)), if \\( E = 0 \\), then \\( \\frac{dV}{dr} = 0 \\).<br>This implies that the potential \\( V \\) must be constant throughout the entire volume of the conductor. Since there is no potential difference between the surface and the inside, the potential inside is constant and exactly equal to its value on the surface."
         },
         {
-          id: 73, topic: "Electric Potential & Capacitance",
+          id: 73, topic: "Electrostatic Potential and Capacitance",
           q: "Consider a finite insulated, uncharged conductor placed near a finite positively charged conductor. The uncharged body must have a potential:",
           options: ["less than the charged conductor and more than at infinity.", "more than the charged conductor and less than at infinity.", "more than the charged conductor and more than at infinity.", "less than the charged conductor and less than at infinity."],
           correct: 0, 
           sol: "The positively charged conductor creates a positive electric potential in the space around it. The potential decreases as you move further away from it, eventually reaching zero at infinity.<br>When an uncharged conductor is placed in this space, it undergoes polarization (negative charge shifts towards the positive conductor, positive charge shifts away). However, because it is a conductor, its entire volume must reach a single equipotential state.<br>Since it resides in the positive potential field of the charged conductor, its potential will be positive (greater than the zero potential at infinity), but it will be lower than the potential of the actual charged conductor itself."
         },
         {
-          id: 74, topic: "Electric Potential & Capacitance",
+          id: 74, topic: "Electrostatic Potential and Capacitance",
           q: "An electric field \\( (-30\\hat{i} + 20\\hat{j}) \\, \\text{V/m} \\) exists in the space. If the potential at the origin is zero, then find the potential at the point \\( (5\\text{m}, 3\\text{m}) \\) in volts.",
           options: ["110 V", "90 V", "100 V", "95 V"],
           correct: 1, 
           sol: "The relationship between potential difference and a uniform electric field is given by \\( \\Delta V = -\\vec{E} \\cdot \\Delta\\vec{r} \\).<br>Here, \\( \\vec{E} = -30\\hat{i} + 20\\hat{j} \\) and the displacement vector from the origin is \\( \\Delta\\vec{r} = 5\\hat{i} + 3\\hat{j} \\).<br>\\( V_{final} - V_{initial} = -(-30\\hat{i} + 20\\hat{j}) \\cdot (5\\hat{i} + 3\\hat{j}) \\)<br>\\( V(5,3) - 0 = -[(-30)(5) + (20)(3)] \\)<br>\\( V(5,3) = -[-150 + 60] = -[-90] \\)<br>\\( V(5,3) = 90 \\, \\text{V} \\)."
         },
         {
-          id: 75, topic: "Electric Potential & Capacitance",
+          id: 75, topic: "Electrostatic Potential and Capacitance",
           q: "Uniform electric field of magnitude \\( 100 \\, \\text{V/m} \\) in space is directed along the line \\( y = 3 + x \\). Find the potential difference between point A \\( (3, 1) \\) and point B \\( (1, 3) \\).",
           options: ["100 V", "200\\sqrt{2} V", "200 V", "zero"],
           correct: 3, 
           sol: "The direction of the electric field is along the line \\( y = x + 3 \\), which has a slope of \\( m = 1 \\). A slope of 1 means the field points at a \\( 45^{\\circ} \\) angle to the x-axis. So the direction vector is \\( \\hat{i} + \\hat{j} \\).<br>Let's find the displacement vector between points A and B:<br>\\( \\vec{r}_{AB} = \\vec{r}_B - \\vec{r}_A = (1 - 3)\\hat{i} + (3 - 1)\\hat{j} = -2\\hat{i} + 2\\hat{j} \\).<br>Now, check the dot product of the displacement vector and the field direction vector:<br>\\( (-2\\hat{i} + 2\\hat{j}) \\cdot (\\hat{i} + \\hat{j}) = (-2)(1) + (2)(1) = -2 + 2 = 0 \\).<br>Since the dot product is zero, the displacement is perfectly perpendicular to the electric field. This means points A and B lie on the same equipotential surface.<br>Therefore, the potential difference \\( V_B - V_A = 0 \\)."
         },
         {
-          id: 76, topic: "Electric Potential & Capacitance",
+          id: 76, topic: "Electrostatic Potential and Capacitance",
           q: "Figure shows the variation of electric field intensity \\( E \\) with distance \\( x \\). What is the magnitude of the potential difference between the points at \\( x = 2 \\, \\text{m} \\) and \\( x = 6 \\, \\text{m} \\) from the origin?",
           imgUrl: "[IMAGE: placeholder_for_q89_Ex_graph]",
           options: ["30 V", "60 V", "40 V", "80 V"],
@@ -6150,7 +6150,7 @@
           sol: "The potential difference is the negative of the area under the \\( E-x \\) graph. Since we need the magnitude, we simply calculate the total area from \\( x = 2 \\) to \\( x = 6 \\).<br>The region from \\( x=2 \\) to \\( x=4 \\) is a rectangle. Area 1 = width \\( \\times \\) height = \\( 2 \\times 10 = 20 \\, \\text{V} \\).<br>The region from \\( x=4 \\) to \\( x=6 \\) is a triangle. Area 2 = \\( \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 2 \\times 10 = 10 \\, \\text{V} \\).<br>Total magnitude of potential difference = \\( 20 + 10 = 30 \\, \\text{V} \\)."
         },
         {
-          id: 77, topic: "Electric Potential & Capacitance",
+          id: 77, topic: "Electrostatic Potential and Capacitance",
           q: "If we have an irregularly shaped conductor and a charge is given to it, choose the correct statement regarding point P (which is located at a sharp, pointed end of the conductor).",
           imgUrl: "[IMAGE: placeholder_for_q90_irregular_conductor]",
           options: ["The electric field and electric potential at P are maximum among all points of the conductor.", "The electric field at P is maximum and electric potential is same at all points of the conductor.", "The electric field and electric potential at P are same at all points of the conductor.", "The electric field and electric potential at P are minimum among all points of the conductor."],
@@ -6158,7 +6158,7 @@
           sol: "For any charged conductor in electrostatics, the entire volume and surface form a single equipotential region. Therefore, the <b>electric potential is the same</b> everywhere on the conductor.<br>However, the surface charge density \\( \\sigma \\) is inversely proportional to the radius of curvature. At sharp points (like point P), the radius of curvature is minimum, making \\( \\sigma \\) maximum. Since \\( E = \\frac{\\sigma}{\\epsilon_0} \\) just outside a conductor, the <b>electric field is maximum</b> at the sharp point."
         },
         {
-          id: 78, topic: "Electric Potential & Capacitance",
+          id: 78, topic: "Electrostatic Potential and Capacitance",
           q: "Charges are placed on the vertices of a square: +q at A, +q at B, -q at C, and -q at D. Let \\( \\vec{E} \\) be the electric field and \\( V \\) the potential at the centre. If the charges on A and B are interchanged with those on D and C respectively, then:",
           imgUrl: "[IMAGE: placeholder_for_q91_square_charges]",
           options: ["\\( \\vec{E} \\) remains unchanged, \\( V \\) changes", "Both \\( \\vec{E} \\) and \\( V \\) change", "\\( \\vec{E} \\) and \\( V \\) remain unchanged", "\\( \\vec{E} \\) changes, \\( V \\) remains unchanged"],
@@ -6166,21 +6166,21 @@
           sol: "<b>Initially:</b> The net potential at the center is the scalar sum of potentials due to all four charges: \\( V = \\frac{k}{r}(q + q - q - q) = 0 \\).<br>When charges are interchanged, the top becomes -q, -q and the bottom becomes +q, +q. The net potential is still \\( \\frac{k}{r}(-q - q + q + q) = 0 \\). So, \\( V \\) <b>remains unchanged</b>.<br><b>Electric Field:</b> Initially, the electric field points from the positive top charges towards the negative bottom charges (pointing downwards).<br>After the interchange, the positive charges are at the bottom and negative at the top, so the electric field will point upwards. Thus, \\( \\vec{E} \\) <b>changes direction</b>."
         },
         {
-          id: 79, topic: "Electric Potential & Capacitance",
+          id: 79, topic: "Electrostatic Potential and Capacitance",
           q: "A spherical conductor A of radius \\( r \\) is placed concentrically inside a conducting shell B of radius \\( R \\) (where \\( R > r \\)). A charge \\( Q \\) is given to A, and then A is joined to B by a metal wire. The charge flowing from A to B will be:",
           options: ["\\( Q \\left(\\frac{R}{R+r}\\right) \\)", "\\( Q \\left(\\frac{r}{R+r}\\right) \\)", "\\( Q \\)", "0"],
           correct: 2, 
           sol: "When a smaller concentric conducting sphere is connected to a larger outer conducting shell by a wire, all the charge from the inner sphere will flow to the outer shell.<br>This happens because the potential of the inner sphere is always higher than the outer shell as long as it holds any positive charge. Since charge resides entirely on the outermost surface of a connected conductor system, the <b>entire charge \\( Q \\) flows from A to B</b>."
         },
         {
-          id: 80, topic: "Electric Potential & Capacitance",
+          id: 80, topic: "Electrostatic Potential and Capacitance",
           q: "A spherical shell of radius \\( R \\) is uniformly charged with a charge \\( q \\). A point charge \\( q \\) is placed at its center. The work done by electric forces upon the expansion of the shell from radius \\( R \\) to \\( 2R \\) is:",
           options: ["\\( \\frac{3q^2}{16\\pi\\epsilon_0 R} \\)", "\\( \\frac{q^2}{8\\pi\\epsilon_0 R} \\)", "\\( \\frac{q^2}{16\\pi\\epsilon_0 R} \\)", "\\( \\frac{q^2}{4\\pi\\epsilon_0 R} \\)"],
           correct: 0, 
           sol: "The initial potential energy of the system consists of the self-energy of the shell and the interaction energy between the shell and the center charge:<br>\\( U_i = \\frac{kq^2}{2R} + \\frac{k(q)(q)}{R} = \\frac{3kq^2}{2R} \\).<br>The final potential energy when the radius expands to \\( 2R \\) is:<br>\\( U_f = \\frac{kq^2}{2(2R)} + \\frac{k(q)(q)}{2R} = \\frac{kq^2}{4R} + \\frac{2kq^2}{4R} = \\frac{3kq^2}{4R} \\).<br>The work done by electric forces is equal to the decrease in potential energy:<br>\\( W = U_i - U_f = \\frac{3kq^2}{2R} - \\frac{3kq^2}{4R} = \\frac{3kq^2}{4R} \\).<br>Substituting \\( k = \\frac{1}{4\\pi\\epsilon_0} \\):<br>\\( W = \\frac{3q^2}{4(4\\pi\\epsilon_0)R} = \\frac{3q^2}{16\\pi\\epsilon_0 R} \\)."
         },
         {
-          id: 81, topic: "Electric Potential & Capacitance",
+          id: 81, topic: "Electrostatic Potential and Capacitance",
           q: "What is the work done required to put four charges together at the corners of a square of side \\( a \\), with charges +q at corners A and C, and -q at corners B and D (alternating charges)?",
           imgUrl: "[IMAGE: placeholder_for_q97_square_work]",
           options: ["\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{q^2}{a} \\)", "\\( \\frac{-2.6}{4\\pi\\epsilon_0} \\frac{q^2}{a} \\)", "\\( \\frac{+2.6}{4\\pi\\epsilon_0} \\frac{q^2}{a} \\)", "none of these"],
@@ -6188,7 +6188,7 @@
           sol: "The total work done to assemble the system is equal to its total electrostatic potential energy. There are 6 pairs of interactions in a square (4 sides, 2 diagonals).<br>Let side length be \\( a \\), so the diagonal length is \\( a\\sqrt{2} \\).<br><b>Pairs along the 4 sides:</b> All 4 sides have opposite charges (+q, -q).<br>Energy for sides = \\( 4 \\times \\left( -\\frac{kq^2}{a} \\right) = -4 \\frac{kq^2}{a} \\).<br><b>Pairs along the 2 diagonals:</b> The diagonals have identical charges (+q, +q) and (-q, -q).<br>Energy for diagonals = \\( \\frac{k(q)(q)}{a\\sqrt{2}} + \\frac{k(-q)(-q)}{a\\sqrt{2}} = \\frac{2kq^2}{a\\sqrt{2}} = +\\sqrt{2} \\frac{kq^2}{a} \\).<br>Total Energy \\( U = \\frac{kq^2}{a} (-4 + \\sqrt{2}) = \\frac{kq^2}{a} (-4 + 1.414) = -2.586 \\frac{kq^2}{a} \\).<br>Approximating, we get \\( W = \\frac{-2.6}{4\\pi\\epsilon_0}\\frac{q^2}{a} \\)."
         },
         {
-          id: 82, topic: "Electric Charges & Fields",
+          id: 82, topic: "Electric Charges and Fields",
           q: "Four charges are placed on a circle of radius R: +Q at the top, +Q at the left, +Q at the right, and -3Q at the bottom. Find the net dipole moment of this configuration if \\( P = QR \\).",
           imgUrl: "[IMAGE: placeholder_for_q100_dipole_circle]",
           options: ["3P", "\\( 2\\sqrt{2}P \\)", "\\( 3\\sqrt{2}P \\)", "4P"],
@@ -6196,91 +6196,91 @@
           sol: "We can find the net dipole moment by using the vector formula for a system of point charges: \\( \\vec{p} = \\sum q_i \\vec{r}_i \\).<br>Let the center of the circle be the origin \\( (0,0) \\).<br>Positions of the charges:<br>+Q at top: \\( \\vec{r}_1 = R\\hat{j} \\)<br>+Q at left: \\( \\vec{r}_2 = -R\\hat{i} \\)<br>+Q at right: \\( \\vec{r}_3 = R\\hat{i} \\)<br>-3Q at bottom: \\( \\vec{r}_4 = -R\\hat{j} \\)<br>Calculating the sum:<br>\\( \\vec{p} = Q(R\\hat{j}) + Q(-R\\hat{i}) + Q(R\\hat{i}) - 3Q(-R\\hat{j}) \\)<br>The x-components cancel out: \\( -QR\\hat{i} + QR\\hat{i} = 0 \\).<br>\\( \\vec{p} = QR\\hat{j} + 3QR\\hat{j} = 4QR\\hat{j} \\).<br>The magnitude is \\( 4QR \\). Since \\( P = QR \\), the net dipole moment is \\( 4P \\)."
         },
         {
-          id: 83, topic: "Electric Charges & Fields",
+          id: 83, topic: "Electric Charges and Fields",
           q: "Two point dipoles of dipole moment \\( \\vec{p}_1 \\) and \\( \\vec{p}_2 \\) are at a distance \\( x \\) from each other such that their axes are collinear and \\( \\vec{p}_1 \\parallel \\vec{p}_2 \\). The magnitude of the force between the dipoles is:",
           options: ["\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{4p_1 p_2}{x^4} \\)", "\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{3p_1 p_2}{x^3} \\)", "\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{6p_1 p_2}{x^4} \\)", "\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{8p_1 p_2}{x^4} \\)"],
           correct: 2, 
           sol: "The electric field produced by the first dipole \\( p_1 \\) at an axial distance \\( x \\) is \\( E = \\frac{1}{4\\pi\\epsilon_0} \\frac{2p_1}{x^3} \\).<br>The potential energy of the second dipole \\( p_2 \\) in this non-uniform field is \\( U = -\\vec{p}_2 \\cdot \\vec{E} = -p_2 E \\) (since they are parallel).<br>\\( U = -\\frac{1}{4\\pi\\epsilon_0} \\frac{2p_1 p_2}{x^3} \\).<br>The force between them is the negative gradient of potential energy: \\( F = -\\frac{dU}{dx} \\).<br>\\( F = -\\frac{d}{dx} \\left( -\\frac{1}{4\\pi\\epsilon_0} \\frac{2p_1 p_2}{x^3} \\right) \\).<br>\\( F = \\frac{1}{4\\pi\\epsilon_0} (2p_1 p_2) \\left(\\frac{-3}{x^4}\\right) = -\\frac{1}{4\\pi\\epsilon_0} \\frac{6p_1 p_2}{x^4} \\).<br>The negative sign indicates an attractive force. The magnitude is \\( \\frac{1}{4\\pi\\epsilon_0} \\frac{6p_1 p_2}{x^4} \\)."
         },
         {
-          id: 84, topic: "Electric Potential & Capacitance",
+          id: 84, topic: "Electrostatic Potential and Capacitance",
           q: "The electric potential at a point due to an electric dipole is given by the vector formula:",
           options: ["\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{\\vec{p} \\cdot \\vec{r}}{r^3} \\)", "\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{\\vec{p} \\cdot \\vec{r}}{r^2} \\)", "\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{|\\vec{p} \\times \\vec{r}|}{r} \\)", "\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{|\\vec{p} \\times \\vec{r}|}{r^2} \\)"],
           correct: 0, 
           sol: "The standard scalar formula for the electric potential due to a dipole at a distance \\( r \\) making an angle \\( \\theta \\) with the dipole moment \\( p \\) is \\( V = \\frac{1}{4\\pi\\epsilon_0} \\frac{p \\cos\\theta}{r^2} \\).<br>We know from vector algebra that the dot product is \\( \\vec{p} \\cdot \\vec{r} = p r \\cos\\theta \\), which rearranges to \\( p \\cos\\theta = \\frac{\\vec{p} \\cdot \\vec{r}}{r} \\).<br>Substitute this relationship back into the potential formula:<br>\\( V = \\frac{1}{4\\pi\\epsilon_0} \\frac{\\left(\\frac{\\vec{p} \\cdot \\vec{r}}{r}\\right)}{r^2} = \\frac{1}{4\\pi\\epsilon_0} \\frac{\\vec{p} \\cdot \\vec{r}}{r^3} \\)."
         },
         {
-          id: 85, topic: "Electric Potential & Capacitance",
+          id: 85, topic: "Electrostatic Potential and Capacitance",
           q: "The work done to move a charge slowly along an equipotential surface from point A to point B:",
           options: ["cannot be defined as \\( -\\int_A^B \\vec{E} \\cdot d\\vec{l} \\)", "must be defined as \\( -\\int_A^B \\vec{E} \\cdot d\\vec{l} \\)", "is exactly zero", "both (2) and (3)"],
           correct: 3, 
           sol: "By definition, the electric potential difference between two points A and B is given by \\( V_B - V_A = -\\int_A^B \\vec{E} \\cdot d\\vec{l} \\) (Statement 2 is true).<br>The work done by an external agent to move a charge \\( q \\) slowly between these points is \\( W = q(V_B - V_A) \\).<br>Because the path lies entirely on an equipotential surface, the potential is constant, meaning \\( V_A = V_B \\), and thus \\( V_B - V_A = 0 \\).<br>Therefore, the work done is exactly zero (Statement 3 is true). Both (2) and (3) are correct."
         },
         {
-          id: 86, topic: "Electric Charges & Fields",
+          id: 86, topic: "Electric Charges and Fields",
           q: "Tick the incorrect statement:",
           options: ["There is a lower limit to the electrostatic force between two particles placed at a separation of 1 m.", "A gravitational field can be added vectorially to an electric field to get a total field.", "The force on a charge due to another charge does not depend on the charges present nearby.", "A charged particle in uniform circular motion always radiates energy."],
           correct: 1, 
           sol: "Gravitational field (force per unit mass) and electric field (force per unit charge) have different dimensions and represent completely different physical quantities. By the principle of dimensional homogeneity, they cannot be added together to form a 'total field'. Thus, statement 2 is incorrect.<br>Note: Statement 1 is true because the minimum possible charge is the elementary charge \\( e \\), giving a non-zero minimum force limit."
         },
         {
-          id: 87, topic: "Electric Charges & Fields",
+          id: 87, topic: "Electric Charges and Fields",
           q: "A positive point charge +Q is placed at \\( x=0 \\) and a negative point charge -Q is placed at \\( x=a \\). The magnitude of the electrostatic force between the two is \\( F \\). If another point charge +Q is placed at \\( x=-a \\), the net force on the charge at the origin \\( (x=0) \\) is:",
           options: ["2F in the negative x-direction", "F in the positive x-direction", "\\( \\frac{5F}{4} \\) in the positive x-direction", "2F in the positive x-direction"],
           correct: 3, 
           sol: "Initially, the force on the charge at the origin (+Q) due to the charge at \\( x=a \\) (-Q) is attractive and points towards the positive x-direction. Its magnitude is \\( F = \\frac{kQ^2}{a^2} \\).<br>When a new charge +Q is placed at \\( x=-a \\), it repels the central charge +Q. This repulsive force is also directed towards the positive x-direction with exactly the same magnitude \\( F = \\frac{kQ^2}{a^2} \\).<br>The net force on the central charge is the sum of these two forces: \\( F_{net} = F + F = 2F \\) in the positive x-direction."
         },
         {
-          id: 88, topic: "Electric Charges & Fields",
+          id: 88, topic: "Electric Charges and Fields",
           q: "Four point positive charges of same magnitude (Q) are placed at four corners of a rigid square frame in the xy-plane. The plane of the frame is perpendicular to the z-axis. If a negative point charge is placed at a distance z away from the above frame (\\( z \\ll L \\)) on the z-axis, then:",
           options: ["the negative charge oscillates along the z-axis", "it moves away from the frame", "it moves slowly towards the frame and stays in the plane of the frame", "it passes through the frame only once"],
           correct: 0, 
           sol: "The four positive charges create a net electric field along the z-axis that points away from the center of the square. When a negative charge is placed on the z-axis, it experiences a restoring force directed exactly towards the origin (the center of the square).<br>Since the force is directed towards the equilibrium position, the negative charge will accelerate towards the center, pass through it due to inertia, slow down on the other side, and be pulled back again. This results in continuous oscillatory motion along the z-axis."
         },
         {
-          id: 89, topic: "Electric Charges & Fields",
+          id: 89, topic: "Electric Charges and Fields",
           q: "Pick the incorrect statement:",
           options: ["If a point charge is placed off-centre inside an electrically neutral spherical metal shell, then induced charge on its inner surface is uniformly distributed.", "If a point charge is placed off-centre inside an electrically neutral, isolated spherical metal shell, then induced charge on its outer surface is uniformly distributed.", "A non-metal spherical shell of uniform charge attracts or repels a charged particle that is outside the shell as if all the shell's charge were concentrated at the centre.", "If a charged particle is located inside a non-metal spherical shell of uniform charge, there is no electrostatic force on the particle due to the shell."],
           correct: 0, 
           sol: "When a point charge is placed <b>off-centre</b> inside a metal shell, the induced charge on the inner surface must arrange itself to perfectly cancel the internal electric field within the bulk of the conductor. Because the source charge is closer to one side, the induced inner surface charge will be highly non-uniform (more concentrated near the point charge).<br>The outer surface charge, however, remains uniformly distributed because it is completely shielded from the internal asymmetry. Thus, statement 1 is incorrect."
         },
         {
-          id: 90, topic: "Electric Charges & Fields",
+          id: 90, topic: "Electric Charges and Fields",
           q: "A ring carries a linear charge density on one half and a linear charge density of the same magnitude but opposite sign on the other half. Which of the following is correct?",
           options: ["The component of electric field along the axis of the ring, at all points on the axis, is non-zero.", "The component of electric field along the axis of the ring at any point on the axis is zero only at the centre.", "The resultant field at the centre is zero.", "The electric field at all points on the axis of the ring is perpendicular to the axis."],
           correct: 3, 
           sol: "Consider any point on the central axis of the ring. Every small positively charged element \\( dq \\) on one half has a diametrically opposite negatively charged element \\( -dq \\) on the other half.<br>The axial components (along the axis) of the electric fields produced by these two opposite elements will perfectly cancel each other out.<br>The equatorial components (perpendicular to the axis), however, will add up. Therefore, at <b>all</b> points on the axis, the net electric field has zero axial component and points strictly perpendicular to the axis."
         },
         {
-          id: 91, topic: "Electric Charges & Fields",
+          id: 91, topic: "Electric Charges and Fields",
           q: "Mark the CORRECT statement regarding conductors in electrostatic conditions:",
           options: ["The tangential component of electric field at the surface of an electrostatic conductor is continuous.", "The normal component of electric field at the surface of an electrostatic conductor is discontinuous.", "Work function is zero for an electrostatic conductor.", "All free electrons reside on the surface of the conductor."],
           correct: 1, 
           sol: "According to electrostatic boundary conditions, the electric field just inside a conductor is exactly zero. Just outside the conductor, the electric field is strictly normal to the surface with magnitude \\( E = \\frac{\\sigma}{\\epsilon_0} \\).<br>Because the field jumps from 0 inside to \\( \\frac{\\sigma}{\\epsilon_0} \\) outside in the normal direction, the <b>normal component is discontinuous</b>. <br>The tangential component is 0 both inside and outside, meaning it is continuous. Statement 2 explicitly and correctly states this normal discontinuity."
         },
         {
-          id: 92, topic: "Electric Charges & Fields",
+          id: 92, topic: "Electric Charges and Fields",
           q: "Select the incorrect statement:",
           options: ["Electrostatic lines of force cannot form closed loops.", "Gauss's law is valid for any arbitrary charge distribution.", "Electrostatic field is a conservative field.", "Coulomb's law is valid for cylindrical symmetry of charge."],
           correct: 3, 
           sol: "Coulomb's Law (\\( F = \\frac{kq_1q_2}{r^2} \\)) is strictly defined and valid only for <b>point charges</b> at rest. For extended continuous charge distributions (like cylinders, infinite planes, or solid spheres), we cannot apply Coulomb's Law directly without using complex integration.<br>Instead, Gauss's Law is the correct tool to use for cylindrical symmetry. Therefore, statement 4 is technically incorrect as a general standalone rule."
         },
         {
-          id: 93, topic: "Electric Charges & Fields",
+          id: 93, topic: "Electric Charges and Fields",
           q: "A hollow charged conductor having surface charge density \\( \\sigma \\), has a tiny hole cut into its surface. The magnitude of the electric field in the hole is:",
           options: ["\\( \\frac{\\sigma}{\\epsilon_0} \\)", "\\( \\frac{\\sigma}{2\\epsilon_0} \\)", "\\( \\frac{\\sigma}{4\\epsilon_0} \\)", "Zero"],
           correct: 1, 
           sol: "The electric field just outside a charged conductor is \\( \\frac{\\sigma}{\\epsilon_0} \\), and just inside it is zero.<br>By the principle of superposition, this field is made of two parts: the field due to the tiny plug of area cut out (which acts locally like a flat sheet, \\( E_{plug} = \\frac{\\sigma}{2\\epsilon_0} \\)), and the field due to the rest of the conductor \\( E_{rest} \\).<br>Outside: \\( E_{rest} + E_{plug} = \\frac{\\sigma}{\\epsilon_0} \\).<br>Inside: \\( E_{rest} - E_{plug} = 0 \\implies E_{rest} = E_{plug} = \\frac{\\sigma}{2\\epsilon_0} \\).<br>When the hole is cut, the plug is removed, so the only field remaining in the hole is \\( E_{rest} \\), which is \\( \\frac{\\sigma}{2\\epsilon_0} \\)."
         },
         {
-          id: 94, topic: "Electric Potential & Capacitance",
+          id: 94, topic: "Electrostatic Potential and Capacitance",
           q: "Consider the following statements about the relation between electric field and potential: <br>(A) Electric field is in the direction in which the potential increases steepest. <br>(B) Electric field is in the direction in which the potential decreases steepest. <br>(C) Magnitude of electric field is given by the change in the magnitude of potential per unit displacement normal to the equipotential surface at that point. <br>Select the correct alternative:",
           options: ["A and B", "B and C", "A and C", "All of the above"],
           correct: 1, 
           sol: "The fundamental relationship between electric field and potential is given by the equation \\( \\vec{E} = -\\nabla V \\).<br>The negative gradient mathematically signifies that the electric field vectors point in the direction of the <b>steepest decrease</b> of electric potential (Making Statement B true).<br>The magnitude of the field is exactly the rate of change of potential with respect to distance measured perpendicular (normal) to the equipotential surfaces: \\( E = -\\frac{dV}{dr} \\) (Making Statement C true)."
         },
         {
-          id: 95, topic: "Electric Charges & Fields",
+          id: 95, topic: "Electric Charges and Fields",
           q: "In an ink-jet printer, an ink droplet of mass \\( m \\) is given a negative charge \\( q \\) and enters at speed \\( v \\) in the region between two deflecting parallel plates of length \\( L \\) separated by distance \\( d \\). A uniform downward electric field \\( E \\) exists in this region. Neglecting gravity, what is the maximum charge it can be given so that it will not hit a plate?",
           imgUrl: "[IMAGE: placeholder_for_inkjet_printer_deflection]",
           options: ["\\( \\frac{mv^2 E}{dL^2} \\)", "\\( \\frac{mv^2 d}{EL^2} \\)", "\\( \\frac{md}{E(vL)^2} \\)", "\\( \\frac{m(vL)^2}{Ed} \\)"],
@@ -10134,6 +10134,7 @@
       ]
     }
   };
+
 
 
 
