@@ -5620,7 +5620,7 @@
         {
           id: 1, topic: "Electric Charges and Fields",
           q: "The figure shows the electric lines of force emerging from a charged body. If the electric field at A and B are \\( E_A \\) and \\( E_B \\). If the distance between A and B is r, then",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEibVpxNJZ1KR292uvHnR8e9ed-RprqPPD3cMhp49l0OQk0oq0TP8c392xe-uSfsY--EWkkW9k-yUko6p31Yrh3-Gr50AW5mWJ1RzVzj2YDse4wEI20S6_0_LOxnyIE1yxQExoimwy1NSdaJeejHH-cwd26hdVRIIfGCdIB9Ht_dOCSzXeQdKrDzDdTaVX81",
           options: ["\\( E_A > E_B \\)", "\\( E_A < E_B \\)", "\\( E_A = \\frac{E_B}{r} \\)", "\\( E_A = \\frac{E_B}{r^2} \\)"],
           correct: 0, 
           sol: "<b>Concept:</b><br>The density (closeness) of electric field lines indicates the magnitude of the electric field. <br>Since the electric field lines are closer together at point A than at point B, the electric field is stronger at A. Therefore, \\( E_A > E_B \\)."
@@ -9792,6 +9792,7 @@
       ]
     }
   };
+
 
 
 
