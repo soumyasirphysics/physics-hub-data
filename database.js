@@ -5614,7 +5614,7 @@
     // ==========================================
     "Electrostatics": { 
       classTarget: "Class 12", 
-      totalQs: 45, 
+      totalQs: 93, 
       topics: ["Electric Charges and Fields", "Electrostatic Potential and Capacitance"],
       questions: [
         {
@@ -5974,7 +5974,7 @@
         {
           id: 52, topic: "Electric Charges and Fields",
           q: "Three charges +q, +2q and +4q are connected by strings of equal length \\( d \\) placed in a straight line. What is the ratio of tensions in the string connecting (+q and +2q) and the string connecting (+2q and +4q)?",
-          imgUrl: "[IMAGE: placeholder_for_q52_string_charges]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgwDK9mZO6GsHaq9KxEKu0pxjGjRauCfpOFIyKDMurpzIo8RiofEnxDe-S_27DJI1icehff_basEW-iLb2BqZ8_oDjI1Sb5xXPqgo-iqIDGFBAEFBSca93adcyGqNkO4et_1-mVOG2D9ZTgtzjcSoFd8VD8bVdDBgicMh5hrJWtE-xXgruQbdIuw8YTzEEd",
           options: ["1 : 2", "1 : 3", "4 : 1", "4 : 3"],
           correct: 1, 
           sol: "Let's analyze the forces on the system. The charges are arranged as: A(+q) --d-- B(+2q) --d-- C(+4q).<br>The tension \\( T_{AB} \\) in string AB is responsible for holding charge A in equilibrium. The forces pulling A to the right are the repulsions from B and C:<br>\\( T_{AB} = F_{BA} + F_{CA} = \\frac{k(q)(2q)}{d^2} + \\frac{k(q)(4q)}{(2d)^2} = \\frac{2kq^2}{d^2} + \\frac{4kq^2}{4d^2} = \\frac{3kq^2}{d^2} \\).<br>The tension \\( T_{BC} \\) in string BC is responsible for holding charge C in equilibrium. The forces pulling C to the left are the repulsions from A and B:<br>\\( T_{BC} = F_{AC} + F_{BC} = \\frac{k(q)(4q)}{(2d)^2} + \\frac{k(2q)(4q)}{d^2} = \\frac{kq^2}{d^2} + \\frac{8kq^2}{d^2} = \\frac{9kq^2}{d^2} \\).<br>The ratio of tensions is:<br>\\( \\frac{T_{AB}}{T_{BC}} = \\frac{3}{9} = \\frac{1}{3} \\), or 1:3."
@@ -6108,7 +6108,7 @@
         {
           id: 71, topic: "Electrostatic Potential and Capacitance",
           q: "A charge \\( Q \\) is given to a uniform hemispherical charge distribution of radius \\( R \\). The potential at two diametrically opposite points on the rim are \\( V_A \\) and \\( V_B \\). Then \\( (V_A + V_B) \\) is equal to:",
-          imgUrl: "[IMAGE: placeholder_for_q74_hemisphere_potential]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiiOCkbJsNm8KWj-2lmGiEsb74jrtsDIWq5OccpF4_7_WFAzBYZdgrX9X2RE8TxSC_Ky98yl1s_n1N5SW3cegnu4t4aHwRIJV-gKW8geBnSM0Qs-maDn1Y1ljMj7-1-CYVwGWor7_VYRalOu21r1jT0vGHgJxBB-RpkDfvh8GFu8XjENSnAgZhhSG7wpG3j",
           options: ["\\( \\frac{KQ}{R} \\)", "\\( \\frac{KQ}{2R} \\)", "\\( \\frac{2KQ}{R} \\)", "\\( \\frac{KQ}{3R} \\)"],
           correct: 2, 
           sol: "Let the top hemisphere have charge \\( Q \\). Imagine completing the sphere by attaching an identical bottom hemisphere with charge \\( Q \\).<br>The potential at point A (the top pole) due to the top hemisphere is \\( V_A \\). The potential at point A due to the bottom hemisphere is exactly equal to the potential at point B (the bottom pole) due to the top hemisphere, which is \\( V_B \\).<br>Therefore, the total potential at point A due to the full sphere is \\( V_{full} = V_A + V_B \\).<br>For a full spherical shell of charge \\( 2Q \\), the potential anywhere on its surface is \\( V_{full} = \\frac{K(2Q)}{R} \\).<br>Thus, \\( V_A + V_B = \\frac{2KQ}{R} \\)."
@@ -6144,7 +6144,7 @@
         {
           id: 76, topic: "Electrostatic Potential and Capacitance",
           q: "Figure shows the variation of electric field intensity \\( E \\) with distance \\( x \\). What is the magnitude of the potential difference between the points at \\( x = 2 \\, \\text{m} \\) and \\( x = 6 \\, \\text{m} \\) from the origin?",
-          imgUrl: "[IMAGE: placeholder_for_q89_Ex_graph]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiJSVeL1bSy96-0OjjB4Yl_6-4Rl-51O8D5UHV64kGSpja2cnQxCdwbz91KiHwbx2SJvcpBIJPvhvE6Wpyg0DbJQaA85Ea37D95imnAfQ7BTXZq3cHMWmBO1velaEngFVtzuD-Q-ZFGq9szORezFE4yc21hN_wHEwZZtWbYe-9K8-3nhVc6OGFiRMdwnRor",
           options: ["30 V", "60 V", "40 V", "80 V"],
           correct: 0, 
           sol: "The potential difference is the negative of the area under the \\( E-x \\) graph. Since we need the magnitude, we simply calculate the total area from \\( x = 2 \\) to \\( x = 6 \\).<br>The region from \\( x=2 \\) to \\( x=4 \\) is a rectangle. Area 1 = width \\( \\times \\) height = \\( 2 \\times 10 = 20 \\, \\text{V} \\).<br>The region from \\( x=4 \\) to \\( x=6 \\) is a triangle. Area 2 = \\( \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 2 \\times 10 = 10 \\, \\text{V} \\).<br>Total magnitude of potential difference = \\( 20 + 10 = 30 \\, \\text{V} \\)."
@@ -6152,7 +6152,7 @@
         {
           id: 77, topic: "Electrostatic Potential and Capacitance",
           q: "If we have an irregularly shaped conductor and a charge is given to it, choose the correct statement regarding point P (which is located at a sharp, pointed end of the conductor).",
-          imgUrl: "[IMAGE: placeholder_for_q90_irregular_conductor]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjU7ZwqkFGOlN2MEtd_XIJf8Kr8EsAoipLhoSfR9i0PPLzJ1UZfqY8bmR-qNv_zhvXKjPe31RlSIyIRfnwNYzlld1hw9hSwk3hgo43PODYQoyXHQ9Nv187hfoWs_3sYtR7reO88OuYVzlkuUjrxSssIE_Xwu6_0uzH3W38UIuluawSB1LrFHAoDgh9ARamB",
           options: ["The electric field and electric potential at P are maximum among all points of the conductor.", "The electric field at P is maximum and electric potential is same at all points of the conductor.", "The electric field and electric potential at P are same at all points of the conductor.", "The electric field and electric potential at P are minimum among all points of the conductor."],
           correct: 1, 
           sol: "For any charged conductor in electrostatics, the entire volume and surface form a single equipotential region. Therefore, the <b>electric potential is the same</b> everywhere on the conductor.<br>However, the surface charge density \\( \\sigma \\) is inversely proportional to the radius of curvature. At sharp points (like point P), the radius of curvature is minimum, making \\( \\sigma \\) maximum. Since \\( E = \\frac{\\sigma}{\\epsilon_0} \\) just outside a conductor, the <b>electric field is maximum</b> at the sharp point."
@@ -6160,7 +6160,7 @@
         {
           id: 78, topic: "Electrostatic Potential and Capacitance",
           q: "Charges are placed on the vertices of a square: +q at A, +q at B, -q at C, and -q at D. Let \\( \\vec{E} \\) be the electric field and \\( V \\) the potential at the centre. If the charges on A and B are interchanged with those on D and C respectively, then:",
-          imgUrl: "[IMAGE: placeholder_for_q91_square_charges]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhrBR6RWUH0YPO5fZj-R29P5kVrGh7aTICB-9oSWwbNYBnovfrVPqEuRAHi_UOzKPCaufe_16iFrkGpwrKPUEaIwtoNm_YgAv8oy2Oj5vMRVm_Z_bQxETAhBWA2g8DZX-uFsyjWh9PIHofTKKJXH5WNSgtjvRbbgE3zt2u1iAOcMAU0ZRfRQbVNkV9UJU6R",
           options: ["\\( \\vec{E} \\) remains unchanged, \\( V \\) changes", "Both \\( \\vec{E} \\) and \\( V \\) change", "\\( \\vec{E} \\) and \\( V \\) remain unchanged", "\\( \\vec{E} \\) changes, \\( V \\) remains unchanged"],
           correct: 3, 
           sol: "<b>Initially:</b> The net potential at the center is the scalar sum of potentials due to all four charges: \\( V = \\frac{k}{r}(q + q - q - q) = 0 \\).<br>When charges are interchanged, the top becomes -q, -q and the bottom becomes +q, +q. The net potential is still \\( \\frac{k}{r}(-q - q + q + q) = 0 \\). So, \\( V \\) <b>remains unchanged</b>.<br><b>Electric Field:</b> Initially, the electric field points from the positive top charges towards the negative bottom charges (pointing downwards).<br>After the interchange, the positive charges are at the bottom and negative at the top, so the electric field will point upwards. Thus, \\( \\vec{E} \\) <b>changes direction</b>."
@@ -6182,7 +6182,7 @@
         {
           id: 81, topic: "Electrostatic Potential and Capacitance",
           q: "What is the work done required to put four charges together at the corners of a square of side \\( a \\), with charges +q at corners A and C, and -q at corners B and D (alternating charges)?",
-          imgUrl: "[IMAGE: placeholder_for_q97_square_work]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjH8xEDMDAFYtWPfU7DwRP6UMiAj2jxig_W1JFsxJFuLf9327xmnk5sz_lDgVY2ohdneNkde8e6zOZvQKxwORUIQGmp1zVM4Exf5hAanAmx7zTeySjEb-sYnurYwHTC0goBbOMj1vpVJLJnMHlpaTo0HzCuSnH5zxMvhNnGboBubDMdlje9m3ISIgD_vwY9",
           options: ["\\( \\frac{1}{4\\pi\\epsilon_0} \\frac{q^2}{a} \\)", "\\( \\frac{-2.6}{4\\pi\\epsilon_0} \\frac{q^2}{a} \\)", "\\( \\frac{+2.6}{4\\pi\\epsilon_0} \\frac{q^2}{a} \\)", "none of these"],
           correct: 1, 
           sol: "The total work done to assemble the system is equal to its total electrostatic potential energy. There are 6 pairs of interactions in a square (4 sides, 2 diagonals).<br>Let side length be \\( a \\), so the diagonal length is \\( a\\sqrt{2} \\).<br><b>Pairs along the 4 sides:</b> All 4 sides have opposite charges (+q, -q).<br>Energy for sides = \\( 4 \\times \\left( -\\frac{kq^2}{a} \\right) = -4 \\frac{kq^2}{a} \\).<br><b>Pairs along the 2 diagonals:</b> The diagonals have identical charges (+q, +q) and (-q, -q).<br>Energy for diagonals = \\( \\frac{k(q)(q)}{a\\sqrt{2}} + \\frac{k(-q)(-q)}{a\\sqrt{2}} = \\frac{2kq^2}{a\\sqrt{2}} = +\\sqrt{2} \\frac{kq^2}{a} \\).<br>Total Energy \\( U = \\frac{kq^2}{a} (-4 + \\sqrt{2}) = \\frac{kq^2}{a} (-4 + 1.414) = -2.586 \\frac{kq^2}{a} \\).<br>Approximating, we get \\( W = \\frac{-2.6}{4\\pi\\epsilon_0}\\frac{q^2}{a} \\)."
@@ -6190,7 +6190,7 @@
         {
           id: 82, topic: "Electric Charges and Fields",
           q: "Four charges are placed on a circle of radius R: +Q at the top, +Q at the left, +Q at the right, and -3Q at the bottom. Find the net dipole moment of this configuration if \\( P = QR \\).",
-          imgUrl: "[IMAGE: placeholder_for_q100_dipole_circle]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjo7AneKwAETBGVepVfOtlTJ3iHS9G76jMIJkbMTh3zDurq6vtgDySl7IK0D2yYy99RhkJUCu2oEyR9OZPSJ0D8BhKFD7Jec6fJokvPDyVZ1FUGqFKCrarsEyji2sRPoRqO5yMs_G6oeu715MSnnLvdt3gNVGdHz8almGR80pNQx25kf3QMkqZXDaz4g5lg",
           options: ["3P", "\\( 2\\sqrt{2}P \\)", "\\( 3\\sqrt{2}P \\)", "4P"],
           correct: 3, 
           sol: "We can find the net dipole moment by using the vector formula for a system of point charges: \\( \\vec{p} = \\sum q_i \\vec{r}_i \\).<br>Let the center of the circle be the origin \\( (0,0) \\).<br>Positions of the charges:<br>+Q at top: \\( \\vec{r}_1 = R\\hat{j} \\)<br>+Q at left: \\( \\vec{r}_2 = -R\\hat{i} \\)<br>+Q at right: \\( \\vec{r}_3 = R\\hat{i} \\)<br>-3Q at bottom: \\( \\vec{r}_4 = -R\\hat{j} \\)<br>Calculating the sum:<br>\\( \\vec{p} = Q(R\\hat{j}) + Q(-R\\hat{i}) + Q(R\\hat{i}) - 3Q(-R\\hat{j}) \\)<br>The x-components cancel out: \\( -QR\\hat{i} + QR\\hat{i} = 0 \\).<br>\\( \\vec{p} = QR\\hat{j} + 3QR\\hat{j} = 4QR\\hat{j} \\).<br>The magnitude is \\( 4QR \\). Since \\( P = QR \\), the net dipole moment is \\( 4P \\)."
@@ -6282,7 +6282,7 @@
         {
           id: 95, topic: "Electric Charges and Fields",
           q: "In an ink-jet printer, an ink droplet of mass \\( m \\) is given a negative charge \\( q \\) and enters at speed \\( v \\) in the region between two deflecting parallel plates of length \\( L \\) separated by distance \\( d \\). A uniform downward electric field \\( E \\) exists in this region. Neglecting gravity, what is the maximum charge it can be given so that it will not hit a plate?",
-          imgUrl: "[IMAGE: placeholder_for_inkjet_printer_deflection]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEioFJl46Mos53TtnfqOCQfZidKfNogEBDWJoH7sn0Qri8AK1kYgCU9YLkslyis5tjXDqkVllElruI6c5xvVioZaPvB-Oc78XQVCbdjhKoseEHc7KEcTJO0ragJs1uw4eZLe1XimVWrngc87wLNqtZx9-MEEGPwJx7xjkYlEtNf-CA_eejJNIrz1qG2zf8R4",
           options: ["\\( \\frac{mv^2 E}{dL^2} \\)", "\\( \\frac{mv^2 d}{EL^2} \\)", "\\( \\frac{md}{E(vL)^2} \\)", "\\( \\frac{m(vL)^2}{Ed} \\)"],
           correct: 1, 
           sol: "The droplet travels horizontally through the plates with constant speed \\( v \\). The time spent between the plates is \\( t = \\frac{L}{v} \\).<br>Vertically, the electric force provides an upward acceleration (since the charge is negative and the field is downward): \\( a = \\frac{qE}{m} \\).<br>Assuming the droplet enters perfectly midway between the plates, the maximum vertical deflection it can undergo before hitting the top plate is \\( y = \\frac{d}{2} \\).<br>Using kinematics (\\( s = ut + \\frac{1}{2}at^2 \\)):<br>\\( \\frac{d}{2} = \\frac{1}{2} \\left(\\frac{qE}{m}\\right) \\left(\\frac{L}{v}\\right)^2 \\)<br>\\( d = \\frac{qE L^2}{mv^2} \\)<br>Solving for the maximum allowable charge \\( q \\):<br>\\( q = \\frac{mv^2 d}{EL^2} \\)."
@@ -10134,6 +10134,7 @@
       ]
     }
   };
+
 
 
 
