@@ -6295,7 +6295,7 @@
     // ==========================================
     "Capacitor": { 
       classTarget: "Class 12", 
-      totalQs: 45, 
+      totalQs: 95, 
       topics: ["Capacitance and Energy", "Combination of Capacitors", "Dielectrics in Capacitors"],
       questions: [
         {
@@ -10509,6 +10509,7 @@
       ]
     }
   };
+
 
 
 
