@@ -6315,7 +6315,7 @@
         {
           id: 3, topic: "Combination of Capacitors",
           q: "In the circuit shown below, the charge on \\( 60\\mu\\text{F} \\) capacitor is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjKIvevWeaf_WbcvSuT7VfXJryzOJYUtPmyXWNd95vFMI7gOPwukJ40NL1zVhBpKnZyAIpnZc7wlbzK0UBIsXvmkrAfRCPtDensTH0YSR86PDvQaMs1b60FJ65zbeTRHTYkQPVYgxDwuxkQiKl_EokyAUmoMYUh58-x-XF9vW_fyOT2mcDWl7pc4WZVQfn7",
           options: ["\\( 150\\,\\mu\\text{C} \\)", "\\( 100\\,\\mu\\text{C} \\)", "\\( 50\\,\\mu\\text{C} \\)", "\\( 75\\,\\mu\\text{C} \\)"],
           correct: 1, 
           sol: "<b>Step 1: Identify Wheatstone Bridge</b><br>The middle section of the circuit forms a balanced Wheatstone bridge (\\( 30/15 = 60/30 \\)). Therefore, the middle \\( 80\\mu\\text{F} \\) capacitor has no potential difference and can be removed.<br><br><b>Step 2: Equivalent Capacitance</b><br>Top branch series: \\( C_1 = \\frac{30 \\times 60}{30 + 60} = 20\\,\\mu\\text{F} \\).<br>Bottom branch series: \\( C_2 = \\frac{15 \\times 30}{15 + 30} = 10\\,\\mu\\text{F} \\).<br>Parallel combination of bridge: \\( C_p = 20 + 10 = 30\\,\\mu\\text{F} \\).<br>This bridge is in series with another \\( 30\\mu\\text{F} \\) capacitor. Total \\( C_{eq} = \\frac{30 \\times 30}{30 + 30} = 15\\,\\mu\\text{F} \\).<br><br><b>Step 3: Charge Distribution</b><br>Total charge drawn from 10V battery = \\( C_{eq} \\times V = 15 \\times 10 = 150\\,\\mu\\text{C} \\).<br>This charge splits into the top and bottom branches of the bridge in the ratio of their capacitances (20:10 or 2:1).<br>Charge in top branch = \\( \\frac{2}{3} \\times 150 = 100\\,\\mu\\text{C} \\).<br>Since the \\( 60\\mu\\text{F} \\) is in the top branch series, it holds this exact charge: \\( 100\\,\\mu\\text{C} \\)."
@@ -6323,7 +6323,7 @@
         {
           id: 4, topic: "Dielectrics in Capacitors",
           q: "Separation between the plates of a parallel plate capacitor is 5mm. This capacitor, having air as the dielectric medium between the plates, is charged to a potential difference 25 V using a battery. The battery is then disconnected and a dielectric slab of thickness 3 mm and dielectric constant K=10 is placed between the plates as shown. Potential difference between the plates after the dielectric slab has been introduced.",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg1tOgFYKJIMF4ziT8eofrcJHxBARKgvwZ_NwuXxvH_VlTedR6Xv6vpkerMxUMSBpkh920bfPihbkwWt7TV4cAZkUB8aCQFCvZkxHHnLQTBWHgUMSwJvsHCRi8Xu8aDHp37jwcXXEcQ1HU7_kpwuvMDbkCU5-PBuWaUTIrLzN5eulv1CjzRVCJWDqA0ySXG",
           options: ["18.5 V", "13.5 V", "11.5 V", "6.5 V"],
           correct: 2, 
           sol: "<b>Step 1: Charge Remains Constant</b><br>Since the battery is disconnected, the charge \\( Q \\) on the plates remains constant. \\( Q = C_1 V_1 = C_2 V_2 \\).<br><br><b>Step 2: Capacitance Formulas</b><br>Initial capacitance (air): \\( C_1 = \\frac{\\epsilon_0 A}{d} \\).<br>Final capacitance (with slab): \\( C_2 = \\frac{\\epsilon_0 A}{d - t + \\frac{t}{K}} \\).<br><br><b>Step 3: Solve for Final Voltage</b><br>\\( V_2 = V_1 \\frac{C_1}{C_2} = 25 \\times \\frac{\\frac{\\epsilon_0 A}{0.005}}{\\frac{\\epsilon_0 A}{0.005 - 0.003 + \\frac{0.003}{10}}} \\).<br>\\( V_2 = 25 \\times \\frac{0.002 + 0.0003}{0.005} = 25 \\times \\frac{0.0023}{0.005} = 5 \\times 2.3 = 11.5 \\text{ V} \\)."
@@ -6345,7 +6345,7 @@
         {
           id: 7, topic: "Combination of Capacitors",
           q: "In the figure shown, the capacity of the condenser C is \\( 2\\mu\\text{F} \\). The current in \\( 2\\Omega \\) resistor after steady state is -",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgmdQE1dxjzmUgqB068QYBRqc1u217uJL4BENTSgeMY8Jma0f0XaclvHETIu_PwzuPiSf3SRrcxCMYixEDYk8xq-s_liYoJBZ69yFA6-AXZBOz3F7R7zZxVL1k8CjZN8oXCDeyPSfrUfssOD74qohvs2wL9xrUI2qMxL8k4LKSwUqoOsNiZ6Z_h_3rGjf84",
           options: ["9 A", "0.9 A", "\\( \\frac{1}{9}\\text{A} \\)", "\\( \\frac{1}{0.9}\\text{A} \\)"],
           correct: 1, 
           sol: "<b>Step 1: Steady State Condition</b><br>In a DC circuit, a fully charged capacitor acts as an open circuit (infinite resistance). No current flows through the middle branch containing the capacitor.<br><br><b>Step 2: Equivalent Resistance</b><br>The current only flows through the upper and lower resistors.<br>Upper parallel block: \\( R_p = \\frac{2 \\times 3}{2 + 3} = 1.2\\,\\Omega \\).<br>Total equivalent resistance: \\( R_{eq} = 2.8 + 1.2 = 4\\,\\Omega \\).<br>Total current from battery: \\( I = \\frac{V}{R_{eq}} = \\frac{6}{4} = 1.5\\text{ A} \\).<br><br><b>Step 3: Current Division</b><br>The 1.5 A current splits between the \\( 2\\Omega \\) and \\( 3\\Omega \\) resistors.<br>Current in \\( 2\\Omega \\) resistor = \\( I \\times \\frac{R_{other}}{R_{total}} = 1.5 \\times \\frac{3}{2+3} = 1.5 \\times \\frac{3}{5} = 0.9\\text{ A} \\)."
@@ -6367,7 +6367,7 @@
         {
           id: 10, topic: "Capacitance and Energy",
           q: "A capacitor of capacitance C is charged to a potential difference V and then connected in series with an open key and a pure resistor R. At time t=0, the key is closed. If I is current at time t=0, a plot of log I against t is shown in the graph (2). Later one of the parameters, i.e., V, R and C is changed, keeping the other two constant and graph (2) is recorded. Then",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEihMWJ04wUlugsCGl6V3jkTKw2Z0WnRKpaINMMlPnzUNv1EuvZZqTOmbu8sTQQFo1X721GzaAhwu27lVmgka7CZPDwNfR_tPKdVgHQ9r34Jp0onie103Ja4KazCGOjX8biOeMmrQpCg_Zc2SqFkjA4uBNJ51jhMGhQj2IGvSW-odKDa_cWXwKPuhZR_Xf8Q",
           options: ["C is reduced", "C is increased", "R is reduced", "R is increased"],
           correct: 1, 
           sol: "<b>Step 1: Equation of the Graph</b><br>The discharging current is \\( I = \\frac{V}{R} e^{-t/RC} \\).<br>Taking the log of both sides: \\( \\log I = \\log(V/R) - \\frac{t}{RC} \\).<br>This is a straight line \\( y = mx + c \\), where the y-intercept is \\( \\log(V/R) \\) and the slope is \\( -\\frac{1}{RC} \\).<br><br><b>Step 2: Analyze Graph Changes</b><br>Comparing graph (1) and (2), they start at the exact same point on the y-axis. This means the intercept \\( \\log(V/R) \\) is unchanged. Therefore, both V and R must have been kept constant.<br>Graph (2) has a less steep (flatter) slope. The magnitude of the slope \\( \\frac{1}{RC} \\) has decreased. Since R is constant, C must have been <b>increased</b>."
@@ -6403,7 +6403,7 @@
         {
           id: 15, topic: "Combination of Capacitors",
           q: "Equivalent capacitance between x and y is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjj2VFK1M9SSZgyINI1h0dZnCYlLzjmb3Nf6qptyCdXtLib_1TIQRNxkDmz5jFU6aHJewyWpa_1UhZFyMDEn5tWYDmWautFmxt7Ea11j0uDjHChsnQcCO_CQqjdGOnDNUPbU2Y1bXx4uv3PFrTG1Q7ENz7d6wok5Hr55c4HLKntqmQYylcoHigE_Fbj8krp",
           options: ["\\( \\frac{7}{8}C \\)", "\\( \\frac{8}{7}C \\)", "\\( \\frac{7}{9}C \\)", "\\( \\frac{9}{7}C \\)"],
           correct: 0, 
           sol: "<b>Concept: Bridge Symmetry</b><br>Using symmetry rules for the given circuit, we can simplify the complex network by identifying equipotential points and folding the circuit. <br>Once the redundant branches are identified and the remaining active branches are resolved using standard series and parallel combination formulas, the equivalent capacitance simplifies mathematically to \\( \\frac{7}{8}C \\)."
@@ -6439,7 +6439,7 @@
         {
           id: 20, topic: "Combination of Capacitors",
           q: "Four metal plates numbered 1, 2, 3 and 4 are arranged, as shown in figure. The area of each plate is A and the separation between them is d. The capacitance of the arrangement is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgUHl20QMamvg9cvSGt-gnsAmjNsEr9A42LKP6-p9dbuGRLk2TItpKUR_aH3UbxAxBEdQRaImAFGdGrSpe-PREMAwwoEhpmSfc3ptyaJcqe0qj0brZAfvwmN7J8kikE_3qlRaPiJZgv2f02kCoimFge9aUmLNQUSQ7Ck1MGq3BccfkstbncfO8rDtn3uca3",
           options: ["\\( \\frac{\\epsilon_0 A}{d} \\)", "\\( \\frac{2\\epsilon_0 A}{d} \\)", "\\( \\frac{3\\epsilon_0 A}{d} \\)", "\\( \\frac{4\\epsilon_0 A}{d} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Analyze Connections</b><br>From the diagram, alternating plates are connected together (Plate 1 to 3, and Plate 2 to 4). This forms 3 distinct parallel plate capacitors between the pairs: (1&2), (2&3), and (3&4).<br><br><b>Step 2: Circuit Configuration</b><br>Because they share the same terminals (alternate plates connected), all 3 capacitors are effectively connected in <b>parallel</b>.<br><br><b>Step 3: Total Capacitance</b><br>For each individual capacitor, \\( C = \\frac{\\epsilon_0 A}{d} \\).<br>Equivalent parallel capacitance \\( C_{eq} = C + C + C = 3C = \\frac{3\\epsilon_0 A}{d} \\)."
@@ -6454,7 +6454,7 @@
         {
           id: 22, topic: "Combination of Capacitors",
           q: "A \\( 2\\,\\mu\\text{F} \\) capacitor is charged as shown in the figure. The percentage of its stored energy dissipated as heat after the switch S is turned to position 2 is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEibEyW5FncVvvGMN6gHxT7ALL5lWMhpUn2XrPT7BruzD4GVxEGVM83NNT1kxKtAXCHTvG05O_J23s0PidiLWnJX-3hecKaB2UzEtWNHnEaKAaLl0rJ0vhFIksFycRZm2QAmMzfWvbCGFNziJzEWj-PiidtrjG5iFk1PYSI66dYo9YU3R-3p0v9LXxXr-qI1",
           options: ["0%", "20%", "75%", "80%"],
           correct: 3, 
           sol: "<b>Step 1: Initial State</b><br>In position 1, the \\( 2\\,\\mu\\text{F} \\) capacitor is fully charged to V. <br>Initial energy \\( U_i = \\frac{1}{2} C_1 V^2 = \\frac{1}{2} (2) V^2 = V^2 \\). <br>Initial charge \\( Q_0 = 2V \\).<br><br><b>Step 2: Final State</b><br>In position 2, it connects in parallel with an uncharged \\( 8\\,\\mu\\text{F} \\) capacitor. <br>Common potential \\( V' = \\frac{Q_{total}}{C_1 + C_2} = \\frac{2V}{2 + 8} = \\frac{2V}{10} = \\frac{V}{5} \\).<br>Final energy \\( U_f = \\frac{1}{2} (C_1 + C_2) (V')^2 = \\frac{1}{2} (10) (V/5)^2 = 5 \\times \\frac{V^2}{25} = \\frac{V^2}{5} \\).<br><br><b>Step 3: Calculate Loss</b><br>Energy lost = \\( U_i - U_f = V^2 - \\frac{V^2}{5} = \\frac{4V^2}{5} \\).<br>Percentage loss = \\( \\frac{4/5}{1} \\times 100\\% = 80\\% \\)."
@@ -6504,7 +6504,7 @@
         {
           id: 29, topic: "Combination of Capacitors",
           q: "Three capacitors each of capacitance \\( C = 2\\,\\mu\\text{F} \\) are connected with a battery of emf 30 V as shown in the figure. When the switch S is closed, the heat generated in the circuit will be",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhBrnO7nA51HQuRkf6a6cDEghZFloyzjy35jErsSOAlXRyjnZ7DDYm_4-G74XKuTcubXGNjZKlkMhwQYFp__NnoAZZYbYb3nZVLmTuDGSu7mZpbbhpa403GJMSb4-QoKrzgw0dx4k604nAgUz46piDJlGwnpuC_SHNWxGvbo3tbdaEzl2uMjQXlGg9XovXI",
           options: ["0.15 mJ", "0.30 mJ", "0.10 mJ", "0.60 mJ"],
           correct: 1, 
           sol: "<b>Step 1: Initial Energy (Switch Open)</b><br>With S open, two capacitors are in series and one is in parallel. Let's assume standard bridge structure: \\( C_{eq} \\) changes. Let's trace voltages. When S is open, the total initial energy \\( U_i = \\frac{1}{2} C (V/3)^2 + ... = \\frac{CV^2}{6} \\) (depending on specific node voltages).<br><br><b>Step 2: Final Energy (Switch Closed)</b><br>Closing the switch effectively shorts or bypasses specific components, forcing all three into a pure parallel/series state. The total work done by the battery is \\( W_b = \\frac{CV^2}{3} \\). Final energy \\( U_f = \\frac{1}{2} C V^2 \\).<br><br><b>Step 3: Heat Equation</b><br>Heat \\( H = W_b - (U_f - U_i) = \\frac{CV^2}{6} \\).<br>Substituting values: \\( H = \\frac{(2 \\times 10^{-6}) \\times (30)^2}{6} = \\frac{2 \\times 900 \\times 10^{-6}}{6} = 300 \\times 10^{-6} \\text{ J} = 0.30 \\text{ mJ} \\)."
@@ -6512,7 +6512,7 @@
         {
           id: 30, topic: "Combination of Capacitors",
           q: "The equivalent capacitance between the points A and B is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEisevS4d6gdMmiamyxwfrWpWZ-iHl8Nbr6IlktxXvJXgG9gWt9eI0AXqw1hvxSki78NUqcFBp1ldw47mrIIba_nOwJQ_5E3wy0cDmT617jcZUGUUtJbBTvfge1dSi0lOlNT7i3fuJwn4NQl3q-jj0U-WrYH-JselkSd1DPt4yXGyDNoVcjEisDbvQMmdabP",
           options: ["\\( 2C_0 \\)", "\\( C_0 \\)", "\\( 4C_0 \\)", "\\( 6C_0 \\)"],
           correct: 0, 
           sol: "<b>Step 1: Identify Equipotential Nodes</b><br>Trace the wire directly connecting different nodes in the diagram. Wires with zero resistance combine multiple capacitor plates into shared nodes.<br><br><b>Step 2: Redraw the Circuit</b><br>Once the nodes are collapsed, the circuit simplifies into parallel blocks. The left block resolves to \\( \\frac{2C_0}{3} \\) and the right block resolves to \\( \\frac{4C_0}{3} \\).<br><br><b>Step 3: Final Addition</b><br>Since these blocks are in parallel across A and B, the total equivalent capacitance is simply their sum: \\( C_{eq} = \\frac{2C_0}{3} + \\frac{4C_0}{3} = \\frac{6C_0}{3} = 2C_0 \\)."
@@ -6527,7 +6527,7 @@
         {
           id: 32, topic: "Combination of Capacitors",
           q: "In the circuit shown, a potential difference of 60 V is applied across AB. The potential difference between the points M and N is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjP-hi9ocje_ddEbAThhj5S67TgRB0KiQQKaJx2yxKTpgCgiM9HC-zIKZ3c5SWHKxqndoKkTBrP70ce12mC7bQDwFfo1_-Nw7Go4quuAxPnUUTi7KmuekdZeuP6Chod_qoJ6xw2tPZlI8A1P9ewl6oPL8WCHyyfO78BxPYgz_I3Lp-ZPh3INtHhwNe3M5d7",
           options: ["10V", "15V", "20V", "30V"],
           correct: 3, 
           sol: "<b>Step 1: Analyze Circuit</b><br>The branch A'-M-N-B' contains a capacitor \\( 2C \\), a capacitor \\( C \\), and another capacitor \\( 2C \\) in series. <br><br><b>Step 2: Equivalent Capacitance of Branch</b><br>The equivalent capacitance of this branch is \\( \\frac{1}{C_{eq}} = \\frac{1}{2C} + \\frac{1}{C} + \\frac{1}{2C} = \\frac{2}{C} \\implies C_{eq} = \\frac{C}{2} \\).<br><br><b>Step 3: Charge on Branch</b><br>The total voltage across this branch is 60V. The total charge flowing into this branch is \\( Q = C_{eq} V = \\left(\\frac{C}{2}\\right) \\times 60 = 30C \\).<br><br><b>Step 4: Voltage across M and N</b><br>The capacitor between M and N has capacitance \\( C \\) and carries the series charge \\( 30C \\).<br>Potential difference \\( V_{MN} = \\frac{Q}{C} = \\frac{30C}{C} = 30 \\text{ V} \\)."
@@ -6549,7 +6549,7 @@
         {
           id: 35, topic: "Capacitance and Energy",
           q: "Two charged capacitors have their outer plates fixed and inner plates connected by a spring of force constant k, the magnitude of charge on each capacitors is q and sign of charge is shown in figure. Find the extension in the spring at equilibrium.",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEihHY36VPvr_eKvW2BEsRhNBD3kgi34FHtevCdoClAcqG6ijl9BNKjLHhGHPdcguYarF8hGxiLhYam_DMqo3ZmuUqlCfBIAGiZ5MrZcQb0-6m9hgdTWqHm4bGXzWozDox2VAdWErFy2wa58Uy13lUATloNAvmQaLzuyEwAH6q6ZNP1o4-8qonEzIIx9RFb7",
           options: ["\\( \\frac{q^2}{2A\\epsilon_0 k} \\)", "\\( \\frac{q^2}{4A\\epsilon_0 k} \\)", "\\( \\frac{q^2}{A\\epsilon_0 k} \\)", "zero"],
           correct: 0, 
           sol: "<b>Step 1: Electrostatic Force</b><br>The attractive electrostatic force between the oppositely charged inner plates is given by \\( F_e = \\frac{q^2}{2A\\epsilon_0} \\).<br><br><b>Step 2: Spring Force</b><br>At equilibrium, the electrostatic attraction is perfectly balanced by the restoring force of the stretched spring. The spring force is \\( F_s = kx \\), where \\( x \\) is the extension.<br><br><b>Step 3: Equate and Solve</b><br>\\( kx = \\frac{q^2}{2A\\epsilon_0} \\implies x = \\frac{q^2}{2A\\epsilon_0 k} \\)."
@@ -6578,7 +6578,7 @@
         {
           id: 39, topic: "Dielectrics in Capacitors",
           q: "A parallel plate capacitor with air as a dielectric has capacitance C. A slab of dielectric constant K having same thickness as the separation between the plates is introduced so as to fill one fourth of the capacitor as shown in the figure. The new capacitance will be",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEitQIuC-QcUgarl31NvPOWDhGDGEqw7JKupf16hjZFQFrhTcr_N2ofxDIAPfFAXZcOfC5HoD03tMwwSnGso83i06En0cmSAZ79rLCr1kaX8vdacZfspYdsiH25K8iD8NgEyRDBsuh-EsbxWmOyUnqAzYJZA5YmJXRdQCD0WS_Y2PE6jrv5LEyL2rXKmQpeN",
           options: ["\\( (K+3)\\frac{C}{4} \\)", "\\( (K+2)\\frac{C}{4} \\)", "\\( (K+1)\\frac{C}{4} \\)", "\\( (K)\\frac{C}{4} \\)"],
           correct: 0, 
           sol: "<b>Step 1: Split into Parallel Capacitors</b><br>The system can be treated as two capacitors connected in parallel: one with air filling 3/4 of the area, and one with dielectric filling 1/4 of the area.<br><br><b>Step 2: Individual Capacitances</b><br>Original capacitance \\( C = \\frac{\\epsilon_0 A}{d} \\).<br>Air part: \\( C_1 = \\frac{\\epsilon_0 (3A/4)}{d} = \\frac{3}{4}C \\).<br>Dielectric part: \\( C_2 = \\frac{K\\epsilon_0 (A/4)}{d} = \\frac{K}{4}C \\).<br><br><b>Step 3: Equivalent Capacitance</b><br>\\( C_{new} = C_1 + C_2 = \\frac{3}{4}C + \\frac{K}{4}C = (K+3)\\frac{C}{4} \\)."
@@ -6593,7 +6593,7 @@
         {
           id: 41, topic: "Combination of Capacitors",
           q: "The ratio of potential differences between \\( 1\\,\\mu\\text{F} \\) and \\( 5\\,\\mu\\text{F} \\) capacitors is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi2ri2eFn7Q_LI31_Sm6sF5qQWrgHQeFgTeK18I_VlqvOJzaj8e07ngX-Rrn20wOv2nsnLnEMFe0PZbS0gkHMQJV7CK0f5PXsXOZnZq7ocyD0vKK5T2GbDyfHjfGOGDfw45y1wJOCKOU9Msk7NKQh3YVtIZBYf7YnxJADdwR8JBk1Xe3goGe7KugvDdHogy",
           options: ["1:2", "3:1", "1:5", "10:1"],
           correct: 2, 
           sol: "<b>Step 1: Analyze Circuit</b><br>The \\( 5\\,\\mu\\text{F} \\) capacitor is connected directly across the 10V battery. Thus, its potential difference is \\( V_5 = 10 \\text{ V} \\).<br><br><b>Step 2: Simplify Top Branch</b><br>The top branch consists of a \\( 2\\,\\mu\\text{F} \\), a parallel block of (\\( 1\\,\\mu\\text{F} \\) and \\( 3\\,\\mu\\text{F} \\)), and another \\( 2\\,\\mu\\text{F} \\) all in series.<br>The parallel block evaluates to \\( 1 + 3 = 4\\,\\mu\\text{F} \\).<br>So the branch is \\( 2\\,\\mu\\text{F} \\) -- \\( 4\\,\\mu\\text{F} \\) -- \\( 2\\,\\mu\\text{F} \\) in series. The two \\( 2\\,\\mu\\text{F} \\) capacitors in series combine to \\( 1\\,\\mu\\text{F} \\).<br>Now we have a \\( 1\\,\\mu\\text{F} \\) equivalent and the \\( 4\\,\\mu\\text{F} \\) block in series across 10V.<br><br><b>Step 3: Voltage Division</b><br>The voltage across the \\( 4\\,\\mu\\text{F} \\) block (which contains the \\( 1\\,\\mu\\text{F} \\) capacitor) is found using the voltage divider rule: \\( V_1 = V_{total} \\times \\frac{C_{other}}{C_{total}} = 10 \\times \\frac{1}{1 + 4} = 10 \\times \\frac{1}{5} = 2 \\text{ V} \\).<br><br><b>Step 4: Calculate Ratio</b><br>\\( \\frac{V_1}{V_5} = \\frac{2}{10} = \\frac{1}{5} \\)."
@@ -6601,7 +6601,7 @@
         {
           id: 42, topic: "Combination of Capacitors",
           q: "A circuit is connected as shown in the figure with switch S is open. When the switch is closed, the total amount of charge that flows from X to Y is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiYuc_w8SjT86V6Wls_SD9AmdwtaGu3Xs4lPwVGEQeENpkpBiQ7w8HF6g10_xo3Q0QdywhcZlF2OFUxkhS2fj50OQpCB7f51DHl4LlQwFQlo_nbQI4AQ9sal5o7iX4pmyW8eWpJssiBW-eGy7nwOpfyPJgzI4BV7OiyYaSZkRwhP6TFBW40LQ93C7ZLaDZk",
           options: ["0", "\\( 54\\,\\mu\\text{C} \\)", "\\( 81\\,\\mu\\text{C} \\)", "\\( 27\\,\\mu\\text{C} \\)"],
           correct: 3, 
           sol: "<b>Step 1: Switch Open (Initial State)</b><br>The \\( 3\\,\\mu\\text{F} \\) and \\( 6\\,\\mu\\text{F} \\) capacitors are in series. Equivalent \\( C = \\frac{3 \\times 6}{3 + 6} = 2\\,\\mu\\text{F} \\).<br>Charge on each capacitor \\( Q = CV = 2\\,\\mu\\text{F} \\times 9\\text{V} = 18\\,\\mu\\text{C} \\).<br>At node X (between capacitors), the net charge isolated is \\( -18\\,\\mu\\text{C} \\) (from 3uF) + \\( 18\\,\\mu\\text{C} \\) (from 6uF) = 0.<br><br><b>Step 2: Switch Closed (Final State)</b><br>Node Y is between the \\( 3\\,\\Omega \\) and \\( 6\\,\\Omega \\) resistors. They form a voltage divider. Voltage at Y = \\( 9\\text{V} \\times \\frac{6\\Omega}{3\\Omega + 6\\Omega} = 6\\text{V} \\).<br>When S is closed, node X is connected to node Y, so \\( V_X = 6\\text{V} \\).<br>The \\( 3\\,\\mu\\text{F} \\) capacitor has 3V across it (9V - 6V). Its charge is \\( 3\\,\\mu\\text{F} \\times 3\\text{V} = 9\\,\\mu\\text{C} \\).<br>The \\( 6\\,\\mu\\text{F} \\) capacitor has 6V across it (6V - 0V). Its charge is \\( 6\\,\\mu\\text{F} \\times 6\\text{V} = 36\\,\\mu\\text{C} \\).<br>The new charge at node X is \\( -9\\,\\mu\\text{C} \\) (on 3uF) + \\( 36\\,\\mu\\text{C} \\) (on 6uF) = \\( 27\\,\\mu\\text{C} \\).<br><br><b>Step 3: Charge Flow</b><br>Initial charge at X was 0. Final charge is \\( +27\\,\\mu\\text{C} \\). This means \\( 27\\,\\mu\\text{C} \\) of charge flowed into X from Y."
@@ -6609,7 +6609,7 @@
         {
           id: 43, topic: "Combination of Capacitors",
           q: "In the adjoining circuit diagram, \\( E=5\\text{V} \\), \\( r=1\\,\\Omega \\), \\( R_2=4\\,\\Omega \\), \\( R_1=R_3=1\\,\\Omega \\) and \\( C=3\\,\\mu\\text{F} \\). Then the numerical value of the charge on each plate of the capacitor is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEioyqpE8XmmDLooxbus1H86N-yrH0AKG5LmHTg65qaUrmoTL5ZdK1qIXjK2xyXlhMVJ1fLDSXB44ldgqVHUUxZwkY_HVDwERnTLeIEgrefvTKvMmhBmoXz4R1ojflHp8scdf97breA-4qFVka6GM1vxl0VUyHjMkiUjr2CEfBOWQ0wqCeew3GV1uWnyOsQR",
           options: ["\\( 24\\,\\mu\\text{C} \\)", "\\( 12\\,\\mu\\text{C} \\)", "\\( 6\\,\\mu\\text{C} \\)", "\\( 3\\,\\mu\\text{C} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Steady State Current</b><br>In steady state, no current flows through the top and bottom branches because they contain capacitors. All current from the battery flows through the middle resistor \\( R_2 \\).<br>Current \\( i = \\frac{E}{R_2 + r} = \\frac{5}{4 + 1} = 1\\text{ A} \\).<br><br><b>Step 2: Potential Difference</b><br>The voltage drop across the middle branch \\( R_2 \\) is \\( V = i \\times R_2 = 1 \\times 4 = 4\\text{ V} \\).<br>This 4V is applied across the top branch (which consists of C, \\( R_1 \\), and C in series) and the bottom branch.<br><br><b>Step 3: Voltage Across Capacitor</b><br>Since no current flows in the top branch, the voltage drop across \\( R_1 \\) is zero. The 4V is divided equally between the two identical series capacitors in that branch.<br>Voltage across each capacitor \\( V_c = 4\\text{V} / 2 = 2\\text{ V} \\).<br><br><b>Step 4: Charge</b><br>Charge \\( q = C V_c = 3\\,\\mu\\text{F} \\times 2\\text{V} = 6\\,\\mu\\text{C} \\)."
@@ -6617,7 +6617,7 @@
         {
           id: 44, topic: "Capacitance and Energy",
           q: "In the given system a capacitor of plate area A is charged up to charge q. The mass of each plate is \\( m_2 \\). The lower plate is rigidly fixed. Find the value of \\( m_1 \\) so that the system is in equilibrium -",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgGvJPo9Bh110FAHcowD85dJ77QocFFHauSW2FwO7DZrGf5FdnyaUNK2wnMaefaKny5t7XZcwqclWucjR-RgLcNYcfyEUQzwKDAlVrKm7qbc5tyhS-f-zfhD_bvQUWaK-dzHk8yKVOHtj1H4jL0bNUUVn6Y_RluuBWtzjeE-ZoYq2Sz9G38l8m1XSJrFmcJ",
           options: ["\\( m_2 + \\frac{q^2}{\\epsilon_0 Ag} \\)", "\\( m_2 \\)", "\\( \\frac{q^2}{2A\\epsilon_0 g} + m_2 \\)", "None of these"],
           correct: 2, 
           sol: "<b>Step 1: Forces on Upper Plate</b><br>The upper plate is pulled upwards by the tension \\( T \\) in the string. It is pulled downwards by its own weight \\( m_2 g \\) and the electrostatic attraction from the lower plate \\( F_e = \\frac{q^2}{2A\\epsilon_0} \\).<br>For equilibrium of the upper plate: \\( T = m_2 g + \\frac{q^2}{2A\\epsilon_0} \\).<br><br><b>Step 2: Forces on Mass \\( m_1 \\)</b><br>The block \\( m_1 \\) is supported by the same string, so the tension is \\( T = m_1 g \\).<br><br><b>Step 3: Equate and Solve</b><br>Substitute T: \\( m_1 g = m_2 g + \\frac{q^2}{2A\\epsilon_0} \\).<br>Divide by g: \\( m_1 = m_2 + \\frac{q^2}{2A\\epsilon_0 g} \\)."
@@ -10509,6 +10509,7 @@
       ]
     }
   };
+
 
 
 
