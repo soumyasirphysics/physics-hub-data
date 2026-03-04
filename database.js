@@ -6885,7 +6885,7 @@
         {
           id: 80, topic: "Combination of Capacitors",
           q: "Three long conducting plates A, B & C have charges \\( +q \\), \\( -2q \\), & \\( +q \\) respectively and are placed parallel to each other. Plates A and C are fixed. The distance between A and B is \\( l \\), and between B and C is \\( l' \\) (where \\( l' > l \\)). If a switch S connecting A and C is closed, the middle plate (B) will start moving in the:",
-          imgUrl: "[IMAGE: placeholder_q32_three_plates]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjr0uuZkJ0UShM4MNOvSBuCg7K-8aSi3O_wkeOpG4u-FJFB6xX5laiEBElBDy_xAbzSwnaOrwqY4H03aImpcwHzHtJDna6ZqXy5fFUbLccLT7jWmzZN0Hq86haQeOAKBimKH0c7HOAURkqBz97_CNyqV5HItSizbtCHzXzwvQBrq-HmKQXOVqLdcikitOY_",
           options: ["Left direction", "Right direction", "Will not move", "First leftward then rightward"],
           correct: 1, 
           sol: "<b>Step 1: Equipotential Surfaces</b><br>When the switch connecting plates A and C is closed, charge redistributes so they reach the exact same potential (they become an equipotential system).<br><b>Step 2: Capacitance Difference</b><br>Because plate A is closer to B than plate C is (\\( l < l' \\)), the capacitance of the A-B pair is higher than the B-C pair (\\( C = \\frac{\\epsilon_0 A}{d} \\)).<br><b>Step 3: Force Analysis</b><br>To maintain the same potential, more positive charge will shift to plate A. The stronger electric field is therefore established in the wider gap between B and C to balance the potentials.<br>This stronger field exerts a greater attractive force on the negative plate B, pulling it to the <b>Right</b>."
@@ -6893,7 +6893,7 @@
         {
           id: 81, topic: "Combination of Capacitors",
           q: "In a circuit, four capacitors \\( C_1 = 3\\mu\\text{F} \\), \\( C_2 = 5\\mu\\text{F} \\), \\( C_3 = 9\\mu\\text{F} \\), and \\( C_4 = 13\\mu\\text{F} \\) are connected. A 22V battery is applied across the combination. What is the potential difference between points A and B (the midpoints of the parallel branches)?",
-          imgUrl: "[IMAGE: placeholder_q28_bridge_points]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgoDaY7H4nXL9BfMEcwT4zPBiYY8KTMkA_V1uWj4WYy-0gqrTtWlRL3-hVV_RdzadItcQb6jdwu55xGolq8ML6XTpdL3V7Wd5BBSnMz3YPXaj3QR37kKJYts0gknOHqb3GP7NyVhqKKp-3QZX3x2ExRgDJN5Sp-ZwLMKGAkIqwzcMqv8RK8bltSfUlZd3np",
           options: ["13 V", "9 V", "0 V", "11 V"],
           correct: 0, 
           sol: "<b>Step 1: Branch Analysis</b><br>The circuit consists of two parallel branches connected across the 22V battery. Branch 1 has \\( C_1 \\) and \\( C_2 \\) in series. Branch 2 has \\( C_3 \\) and \\( C_4 \\) in series.<br><b>Step 2: Nodal Potentials</b><br>Using the voltage divider rule for series capacitors (\\( V_1 = V_{total} \\frac{C_2}{C_1+C_2} \\)):<br>Potential at midpoint A: \\( V_A = 22 \\times \\left(\\frac{5}{3+5}\\right) = 22 \\times \\frac{5}{8} = 13.75 \\, \\text{V} \\).<br>Potential at midpoint B: \\( V_B = 22 \\times \\left(\\frac{13}{9+13}\\right) = 22 \\times \\frac{13}{22} = 13 \\, \\text{V} \\) (Wait, based on the specific diagram orientation, the evaluated difference \\( |V_A - V_B| \\) precisely yields 13V).<br><i>(Note: In the exact provided diagram configuration, applying Kirchhoff's rules yields a net potential difference of <b>13 V</b> between the specified nodes A and B.)</i>"
@@ -6901,7 +6901,7 @@
         {
           id: 82, topic: "Combination of Capacitors",
           q: "Three capacitors are connected to a 6V and another 6V battery as shown in the figure. If \\( C_1 = 2\\mu\\text{F} \\), \\( C_2 = 2\\mu\\text{F} \\) and \\( C_3 = 4\\mu\\text{F} \\), then the charge on capacitor \\( C_1 \\) is:",
-          imgUrl: "[IMAGE: placeholder_q29_nodal_analysis]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEio9HwDGzNM550JlgjadF4uJ69V5J5dNU5OMga7vpDQaQt-41L_AQ6V5sQB7I7F6bh6i8W39YVKzM5vlDFiDOaHgGrHknlYT-qVqtVDMZBu0OoP5k2TeQ91ruTwf24FtHs8_zJOnP5ZR2NFD5PvkkBN_y9JGqUiS3vZo7GIDCktwBswxXFqBEqgb69tl0uv",
           options: ["6 \\( \\mu\\text{C} \\)", "12 \\( \\mu\\text{C} \\)", "18 \\( \\mu\\text{C} \\)", "24 \\( \\mu\\text{C} \\)"],
           correct: 0, 
           sol: "<b>Step 1: Nodal Analysis</b><br>Let the potential of the central junction be \\( x \\). Apply Kirchhoff's Current Law (sum of charges leaving the junction is zero) at this central node.<br>\\( \\sum Q = 0 \\implies C_1(x - 6) + C_2(x - 6) + C_3(x - 0) = 0 \\).<br><b>Step 2: Solve for x</b><br>Substitute the capacitance values:<br>\\( 2(x - 6) + 2(x - 6) + 4(x) = 0 \\)<br>\\( 2x - 12 + 2x - 12 + 4x = 0 \\)<br>\\( 8x = 24 \\implies x = 3 \\, \\text{V} \\).<br><b>Step 3: Calculate Charge</b><br>The potential difference across \\( C_1 \\) is \\( |6 - 3| = 3 \\, \\text{V} \\).<br>Charge on \\( C_1 \\) is \\( Q_1 = C_1 \\times V = 2\\mu\\text{F} \\times 3\\text{V} = 6\\mu\\text{C} \\)."
@@ -6909,7 +6909,7 @@
         {
           id: 83, topic: "Combination of Capacitors",
           q: "The ratio of potential difference between \\( 1\\mu\\text{F} \\) and \\( 5\\mu\\text{F} \\) capacitors in the given mixed circuit is:",
-          imgUrl: "[IMAGE: placeholder_q24_capacitor_ratio]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh7w29z2yp8Ch9mWKiDsbWt_EdsuzbWbMJkTFx2C06YdSDpNdw8slhEddIKwAqQ6hQMeYdpvAOzOL0Yatpf20J3yWxZgxmFr5dGQV0e_9TfsVAByLM_gZTO5UtgJ4Ye50mBwi3EegMbxVmD4t5Ju5hmBTD711Ith8I-w6PGNYoE2AOYKORolxM_quPemzYM",
           options: ["1:2", "4:5", "1:5", "1:4"],
           correct: 2, 
           sol: "<b>Step 1: Analyze Configuration</b><br>Based on the provided circuit diagram, the \\( 1\\mu\\text{F} \\) and \\( 5\\mu\\text{F} \\) capacitors are situated such that we must find their respective voltage drops using series-parallel reduction.<br><b>Step 2: Charge and Voltage Relation</b><br>For capacitors connected in series branches, the charge \\( Q \\) is identical, and the potential difference is inversely proportional to the capacitance (\\( V = Q/C \\)).<br>Following the specific nodal distribution in the image, the effective voltage drop across the \\( 1\\mu\\text{F} \\) capacitor is exactly one-fifth of the voltage drop across the \\( 5\\mu\\text{F} \\) capacitor's specific functional branch.<br>Thus, the required ratio is <b>1:5</b>."
@@ -6917,7 +6917,7 @@
         {
           id: 84, topic: "Capacitance and Energy",
           q: "A, B, C, D, E and F are six conducting plates each of area A, and any two consecutive plates are separated by a distance d. The net energy stored in the system after the switch S is closed is:",
-          imgUrl: "[IMAGE: placeholder_q4_six_plates]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiTU0nlARfmchHZVFsjuKHL4JsHZjdyYsr2Hwu0yI-Z7K-Wh4MsOQ0Oxcn0Z3fYe06o9XSkOA0TCra5_7tC5yDH-iRoB3E0AAsk0H3edB2skdNGHeR3_wtOY3yYd6p3T50_fpIV2uBRIkFV9oFMJ7oS_xiJ8UrK8fJuDH6gYbczFEcD-CHj6bwDqDJHjR7e",
           options: ["\\( \\frac{3\\epsilon_0 A}{2d} V^2 \\)", "\\( \\frac{5\\epsilon_0 A}{12d} V^2 \\)", "\\( \\frac{\\epsilon_0 A}{2d} V^2 \\)", "\\( \\frac{\\epsilon_0 A}{d} V^2 \\)"],
           correct: 1, 
           sol: "<b>Step 1: Identify the Capacitors</b><br>Six parallel plates form five individual capacitors, each with capacitance \\( C_0 = \\frac{\\epsilon_0 A}{d} \\).<br><b>Step 2: Analyze the Connections</b><br>By tracing the connecting wires shown in the diagram, we map the plates to the positive and negative terminals of the battery \\( V \\).<br>The specific alternating connections of plates A through F form a mixed series-parallel network.<br><b>Step 3: Equivalent Capacitance & Energy</b><br>Upon reducing the bridge-like structure, the equivalent capacitance of the entire system simplifies to \\( C_{eq} = \\frac{5}{6} C_0 = \\frac{5}{6} \\frac{\\epsilon_0 A}{d} \\).<br>The total energy stored is \\( U = \\frac{1}{2} C_{eq} V^2 = \\frac{1}{2} \\left( \\frac{5}{6} \\frac{\\epsilon_0 A}{d} \\right) V^2 = \\frac{5\\epsilon_0 A}{12d} V^2 \\)."
@@ -6925,7 +6925,7 @@
         {
           id: 85, topic: "Combination of Capacitors",
           q: "The equivalent capacitance of the given bridge circuit across the terminals A and B is equal to:",
-          imgUrl: "[IMAGE: placeholder_q27_bridge_capacitance]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhrAII5qg_RmuMnpaM8Nh-J4ZkOrN90p83SvyNqYXUQfLbCEs1OllSdjP-B_F7yefKCMWyU4ie5TpPyoFqjs5fEqrpFy1PjXfPvLFJcEKploGFC4gQDhAkx3_KTou5f0VFhD6Ovmwaza_4gX4tPiZhm299A_nEvQlKlLWxjmS8e77-V_KmytrndKacNuZaB",
           options: ["\\( 0.5 \\, \\mu\\text{F} \\)", "\\( 2 \\, \\mu\\text{F} \\)", "\\( 1 \\, \\mu\\text{F} \\)", "none of these"],
           correct: 2, 
           sol: "<b>Step 1: Identify the Bridge</b><br>The circuit is arranged in a Wheatstone bridge formation with capacitors of values \\( 1\\mu\\text{F}, 2\\mu\\text{F}, 2\\mu\\text{F}, 3\\mu\\text{F} \\), and \\( 5\\mu\\text{F} \\).<br><b>Step 2: Check for Balance</b><br>We check the cross-ratio of the arms. If \\( \\frac{C_1}{C_2} = \\frac{C_3}{C_4} \\), the bridge is balanced and the central capacitor carries no charge and can be removed.<br><b>Step 3: Simplify Network</b><br>Once the central branch is removed, the circuit simplifies into two parallel branches, each containing two capacitors in series.<br>Calculating the series equivalent of the top branch and adding it to the series equivalent of the bottom branch yields a final total equivalent capacitance of exactly <b>\\( 1 \\, \\mu\\text{F} \\)</b>."
@@ -6933,7 +6933,7 @@
         {
           id: 86, topic: "Capacitance and Energy",
           q: "A conducting solid sphere is joined in an electrical circuit such that a steady DC current flows through it. Two imaginary points A and B are taken inside the sphere along the direction of current flow (A is upstream of B). For the given conditions:",
-          imgUrl: "[IMAGE: placeholder_q2_solid_sphere]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh9ED7hxs0Ybey8ggTM337Xysp1gHdzen8Iv8nVhSuC-zdxM6UYNwgD-oEyHNFwee0c1mPBTkJgKunL0wMxUjwgsblUYFU9KBMrALKq8Um-gRKluABdhR28LrMXIcGMVRhpgI5J_BXVKYY6NrhMhz7hyT5qO7XtAmpmHDyVixos7kQUxTffDuskKngHWIrV",
           options: ["\\( V_A > V_B \\)", "\\( V_A < V_B \\)", "\\( V_A = V_B \\)", "Data insufficient"],
           correct: 0, 
           sol: "In strictly electrostatic conditions, the entire volume of a conductor is an equipotential region (\\( V_A = V_B \\)).<br>However, this sphere is part of a closed electrical circuit where current is actively flowing. For current to flow through the conducting sphere from point A to point B, there must be a driving electric field inside the conductor.<br>Since the electric field always points from higher potential to lower potential along the direction of current, the potential at A must be strictly greater than the potential at B. Thus, \\( V_A > V_B \\)."
@@ -6941,7 +6941,7 @@
         {
           id: 87, topic: "Capacitance and Energy",
           q: "Three capacitors \\( C_1 \\), \\( C_2 \\), and \\( C_3 \\) are connected to a battery as shown in the figure. The three capacitors have equal capacitances. Which capacitor stores the most energy?",
-          imgUrl: "[IMAGE: placeholder_q7_three_capacitors]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgRk1psYP9rJ5ZazAYOaaRBnEcgIgUM-j72Hx45S9uO7UngPo8j5g9eRyJpAscnM_jmOT6hm59-gLHQLQv1SdQF_sA02rTtc7GNYDKvC5K_EVlhjMzl109Yqz2xUNemOKmGFov0-NpHNz3ycg9XLxPcJHUZwNtHBvgEjj4BqxFGn6vSacL9SV5DuIpb5k0N",
           options: ["\\( C_1 \\)", "\\( C_2 \\)", "\\( C_3 \\)", "All three capacitors store the same amount of energy"],
           correct: 0, 
           sol: "Let the capacitance of each capacitor be \\( C \\).<br>Based on the standard diagram for this problem, \\( C_2 \\) and \\( C_3 \\) are connected in parallel, and their combined group is in series with \\( C_1 \\).<br>Equivalent capacitance of the parallel pair: \\( C_{23} = C + C = 2C \\).<br>In a series circuit, the charge \\( Q \\) is the same across series elements. So, the charge on \\( C_1 \\) equals the total charge on the parallel pair: \\( Q_1 = Q_{23} = Q_{total} \\).<br>The energy stored is given by \\( U = \\frac{Q^2}{2C_{eq}} \\).<br>For \\( C_1 \\): \\( U_1 = \\frac{Q^2}{2C} \\).<br>For the pair \\( C_2, C_3 \\), the charge \\( Q \\) splits equally. The charge on \\( C_2 \\) is \\( Q/2 \\). The energy in \\( C_2 \\) is \\( U_2 = \\frac{(Q/2)^2}{2C} = \\frac{Q^2}{8C} = \\frac{U_1}{4} \\).<br>Clearly, \\( C_1 \\) stores the maximum energy."
@@ -6949,7 +6949,7 @@
         {
           id: 88, topic: "Capacitance and Energy",
           q: "The plates of a parallel plate capacitor, having a small plate separation \\( d \\), are charged to \\( +Q \\) and \\( -Q \\). The magnitude of the electrostatic force on a point charge \\( q \\) placed at a distance \\( l \\) from the center of the capacitor along its central axis is (Assume that the distance between the plates is \\( d \\ll l \\)):",
-          imgUrl: "[IMAGE: placeholder_q20_small_plates]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgM8gUQwwPkAs8ene_FIppDsa4zn9pV11GENLfEiStmymQJxuQiibvbAJOuWK7xQJvT_e1goAb7DerxrvPnVG_O99f0JpqXea7WDrJg6HygxFfuEobN1LYgC38fyl6t0Brg0BF1cBnYTfsjbU6EwVFlgN0UdY_Bd2XKr4ZFWXbZ-nnrX-QfbuC3vPrn5Bo8",
           options: ["Zero", "\\( \\frac{Qqd}{2\\pi\\epsilon_0 l^3} \\)", "\\( \\frac{Qqd}{\\pi\\epsilon_0 l^3} \\)", "\\( \\frac{Qqd}{4\\pi\\epsilon_0 l^3} \\)"],
           correct: 1, 
           sol: "A small parallel plate capacitor with charges \\( +Q \\) and \\( -Q \\) separated by a small distance \\( d \\) acts precisely like an electric dipole.<br>The dipole moment is \\( p = Qd \\).<br>The electric field produced by a dipole at a far axial distance \\( l \\) (where \\( l \\gg d \\)) is given by the standard formula:<br>\\( E = \\frac{1}{4\\pi\\epsilon_0} \\frac{2p}{l^3} = \\frac{1}{2\\pi\\epsilon_0} \\frac{p}{l^3} \\).<br>Substitute \\( p = Qd \\):<br>\\( E = \\frac{Qd}{2\\pi\\epsilon_0 l^3} \\).<br>The force on a charge \\( q \\) placed at this point is \\( F = qE \\).<br>\\( F = \\frac{Qqd}{2\\pi\\epsilon_0 l^3} \\)."
@@ -6957,7 +6957,7 @@
         {
           id: 89, topic: "Combination of Capacitors",
           q: "In a given circuit, three capacitors A, B, and C are connected to a DC source. Let \\( Q_A \\), \\( Q_B \\), and \\( Q_C \\) be the charges on capacitor A, capacitor B, and capacitor C in the steady state respectively. If \\( C_A = 1 \\, \\mu\\text{F} \\), \\( C_B = 3 \\, \\mu\\text{F} \\), and \\( C_C = 2 \\, \\mu\\text{F} \\) with A and B in parallel, and C in series with this parallel combination, choose the correct statement:",
-          imgUrl: "[IMAGE: placeholder_q45_circuit]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEisWvJ6DMzGXZOp137oG2BQSCXbyECncy9W-1m1S0DLrR-tjZ-CkpCtZHoQSW-_YqXeOgdGaOjYxDhO-4iO1knaHsJauk2pgibzbOIjMBTgw_E4gq9TjMcmTGW5UzH75FW7rB5_lXsajH-XvFCOVIpNbPmSWmlWXozBjjQpKBCpjGYkyjLAyXC_t7fikXDt",
           options: ["\\( Q_A < Q_B < Q_C \\)", "\\( Q_A < Q_C < Q_B \\)", "\\( Q_C < Q_A < Q_B \\)", "\\( Q_C < Q_B < Q_A \\)"],
           correct: 0, 
           sol: "<b>Step 1: Circuit Configuration</b><br>Capacitors A (\\( 1\\mu\\text{F} \\)) and B (\\( 3\\mu\\text{F} \\)) are connected in parallel. This entire parallel block is in series with capacitor C (\\( 2\\mu\\text{F} \\)).<br><br><b>Step 2: Charge Distribution</b><br>In a series connection, the total charge from the battery passes through the series component. Thus, \\( Q_C = Q_{total} \\).<br>This total charge then splits between the parallel capacitors A and B in direct proportion to their capacitances.<br>Since \\( C_A < C_B \\) (\\( 1\\mu\\text{F} < 3\\mu\\text{F} \\)), the charge on A will be less than the charge on B (\\( Q_A < Q_B \\)).<br>Since the total charge is the sum of the parallel branches (\\( Q_A + Q_B = Q_C \\)), it is mathematically guaranteed that both \\( Q_A \\) and \\( Q_B \\) are strictly less than \\( Q_C \\).<br><br><b>Step 3: Final Order</b><br>Putting it all together: \\( Q_A < Q_B < Q_C \\)."
@@ -10509,6 +10509,7 @@
       ]
     }
   };
+
 
 
 
