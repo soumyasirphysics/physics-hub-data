@@ -7012,13 +7012,13 @@
     // ==========================================
     "Magnetic Effect of Current & Magnetism": { 
       classTarget: "Class 12", 
-      totalQs: 45, 
+      totalQs: 44, 
       topics: ["Magnetic Force", "Biot-Savart & Ampere's Law", "Earth's Magnetism & Properties"],
       questions: [
         {
           id: 1, topic: "Magnetic Force",
           q: "Three straight parallel current carrying conductors are shown in figure. The force experienced by the middle conductor of length 25 cm is-",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhU5mhbjcJhdRLoVoPv4exKthATs214a6KDJ6cQdZryfY8Nr6YDjwmNV-VCRDfDlmV9NIv3zZXD_g6QaoTiMjdRAkg9F4G6g-7uHqJnP1rV8_R5v4t7mcOuFbfPO3dC79cis53EDtSPnlYr6Ws3i-RAYaBoqW8mFfLduVxQ5dB7QVJScsWhzEHJhevrpgZ5",
           options: ["\\( 9 \\times 10^{-4} \\text{ N} \\) towards left", "\\( 3 \\times 10^{-4} \\text{ N} \\) towards right", "\\( 6 \\times 10^{-4} \\text{ N} \\) towards right", "Zero"],
           correct: 1, 
           sol: "<b>Step 1: Force Formula</b><br>The force between two parallel current-carrying wires of length \\( L \\) is \\( F = \\frac{\\mu_0 I_1 I_2}{2\\pi d} L \\).<br><br><b>Step 2: Force from Left Wire (A)</b><br>Currents \\( I_1 = 30\\text{ A} \\) and \\( I = 10\\text{ A} \\) are in opposite directions, so they repel. Force is towards the right.<br>\\( F_A = \\frac{4\\pi \\times 10^{-7} \\times 30 \\times 10}{2\\pi \\times 0.03} \\times 0.25 = 2 \\times 10^{-7} \\times 10000 \\times 0.25 = 5 \\times 10^{-4} \\text{ N} \\).<br><br><b>Step 3: Force from Right Wire (C)</b><br>Currents \\( I_2 = 20\\text{ A} \\) and \\( I = 10\\text{ A} \\) are in opposite directions, so they repel. Force is towards the left.<br>\\( F_C = \\frac{4\\pi \\times 10^{-7} \\times 20 \\times 10}{2\\pi \\times 0.05} \\times 0.25 = 2 \\times 10^{-7} \\times 4000 \\times 0.25 = 2 \\times 10^{-4} \\text{ N} \\).<br><br><b>Step 4: Net Force</b><br>Net force = \\( F_A - F_C = 5 \\times 10^{-4} - 2 \\times 10^{-4} = 3 \\times 10^{-4} \\text{ N} \\) towards the right."
@@ -7033,7 +7033,7 @@
         {
           id: 3, topic: "Earth's Magnetism & Properties",
           q: "The B-H curve (i) and (ii) shown in the figure is associated with",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjjbPRJEV1eoLljsfbmNGnHSzKY9NcpdK7A4gVtaRn4VsW4rfRcM3z8xS1GqoLqpeyJMRkUhMsO8iIIabe8EmZCqfkYmHjFLMsxlfr-wkzeQNhmR821d-xYsRs5HLaLSAKg04lK-jYqKIRDVfnle2dcGe5Bw5p9EZ5RXOS0HlaVjQTWhaq8ayeSLX6TA6-E",
           options: ["(i) diamagnetic and (ii) paramagnetic substance", "(i) paramagnetic and (ii) ferromagnetic substance", "(i) soft iron and (ii) steel respectively", "(i) steel and (ii) soft iron respectively"],
           correct: 2, 
           sol: "<b>Concept:</b><br>From the hysteresis curves, soft iron has high retentivity (high Y-intercept) but a very narrow hysteresis loop (low coercive force or narrow X-intercept). Steel has a wider loop indicating higher coercivity.<br>In the given figure, loop (i) is tall and narrow, representing Soft Iron. Loop (ii) is wider, representing Steel."
@@ -7132,7 +7132,6 @@
         {
           id: 17, topic: "Magnetic Force",
           q: "A particle of mass m and charge q moving with constant velocity v along positive x-direction enters in a region containing a uniform magnetic field B directed along negative z direction, extending from x = a to x = b. For the particle to enter the region x > b, the minimum value of v is",
-          imgUrl: "placeholder_image.jpg",
           options: ["\\( \\frac{qbB}{m} \\)", "\\( \\frac{q(b-a)B}{m} \\)", "\\( \\frac{qaB}{m} \\)", "\\( \\frac{q(b+a)B}{2m} \\)"],
           correct: 1, 
           sol: "<b>Step 1: Radius of Trajectory</b><br>When the charge enters the perpendicular magnetic field, it moves in a circular path of radius \\( r = \\frac{mv}{qB} \\).<br><br><b>Step 2: Condition to Cross the Region</b><br>The thickness of the magnetic field region is \\( (b - a) \\).<br>To successfully cross this region and emerge on the other side (\\( x > b \\)), the radius of the circular path must be greater than or equal to the width of the region: \\( r \\ge (b - a) \\).<br><br><b>Step 3: Solve for Velocity</b><br>\\( \\frac{mv}{qB} \\ge (b - a) \\implies v \\ge \\frac{qB(b - a)}{m} \\).<br>Therefore, the minimum velocity is \\( \\frac{q(b-a)B}{m} \\)."
@@ -7140,7 +7139,7 @@
         {
           id: 18, topic: "Magnetic Force",
           q: "A rectangular conducting loop carrying a current \\( i_1 \\) situated near a long straight wire carrying a steady current \\( i_2 \\). The wire is parallel to one of the sides of the loop and is placed in the same plane as that of the loop as shown in figure. Then, the current loop will",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiZJJXBkPM9zvg4qcPSFgUyofvZLiTiDwWvWcFnfodcGtAj1iV1_Mc90BmxuyWBXRiXextcD_pj4EKkSh0Vgt5d--hxfIpe5qGSbFMPmvrje3iIsYJ9DLLKgmfk3YP9ZQ_qZ0ob_NnV0VQP63F7Kwe7cQrj7abVRPwZin6ygJ6XtFL2D1QNoEcJbWXXK-3Z",
           options: ["Move away from the wire", "Move towards the wire", "Remain stationary", "Rotate about an axis parallel to the wire"],
           correct: 1, 
           sol: "<b>Step 1: Force Formula</b><br>The magnetic force between two parallel current-carrying wires is \\( F = \\frac{\\mu_0 i_1 i_2}{2\\pi d} l \\). Note that force is inversely proportional to the distance \\( d \\).<br><br><b>Step 2: Analyze the Loop Sides</b><br>The side of the loop closest to the straight wire carries current in the <b>same direction</b> as the wire, resulting in an <b>attractive force</b>.<br>The side of the loop farthest from the straight wire carries current in the <b>opposite direction</b>, resulting in a <b>repulsive force</b>.<br><br><b>Step 3: Net Force</b><br>Since the attractive force acts over a much smaller distance than the repulsive force, its magnitude is much greater. Therefore, the net force is attractive, and the loop will move towards the wire."
@@ -7148,7 +7147,7 @@
         {
           id: 19, topic: "Biot-Savart & Ampere's Law",
           q: "What will be the magnetic field at point P in the figure below?",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgBoyJ9AbX4IT_mt2-R-zdb-P54hmca-euC4CPrmaU451w10lieX0HvoPeH_5qbmjY_fdK9F9rfm7qN2UFH4BMxRshvyCHXOEWqBTs2SrDMp8b4LxweXqn-MD-1mRtfRXdtk7HNjppcFcYcfjzoCzE2FoG8rZ67kmE_aJTQxJcfjVcIeQ37I_wEMHY9rRJv",
           options: ["\\( \\frac{\\mu_0}{4R}\\frac{3i}{4} \\)", "\\( \\frac{\\mu_0 i}{4R}\\left(\\frac{2}{\\pi}+1\\right) \\)", "\\( \\frac{\\mu_0 i}{2R}\\left(\\frac{2}{\\pi}+1\\right) \\)", "\\( \\frac{\\mu_0 i}{R}\\left(\\frac{2}{\\pi}+1\\right) \\)"],
           correct: 1, 
           sol: "<b>Step 1: Field due to Semi-Infinite Straight Wires</b><br>The wire consists of two semi-infinite straight sections. The magnetic field at point P (which aligns with one end of the wires) due to one semi-infinite wire is \\( B = \\frac{\\mu_0 i}{4\\pi R} \\). Both straight sections produce a field pointing <b>outwards</b>.<br>\\( B_{straight} = 2 \\times \\frac{\\mu_0 i}{4\\pi R} = \\frac{\\mu_0 i}{2\\pi R} \\).<br><br><b>Step 2: Field due to Semi-Circular Arc</b><br>The field at the center of a semi-circular arc is \\( B_{arc} = \\frac{\\mu_0 i}{4R} \\). By the right-hand rule, this field also points <b>outwards</b>.<br><br><b>Step 3: Net Magnetic Field</b><br>Since all fields point in the same direction, we add them:<br>\\( B_{net} = \\frac{\\mu_0 i}{2\\pi R} + \\frac{\\mu_0 i}{4R} = \\frac{\\mu_0 i}{4R}\\left(\\frac{2}{\\pi} + 1\\right) \\)."
@@ -7163,7 +7162,7 @@
         {
           id: 21, topic: "Magnetic Force",
           q: "An electron moving with velocity v along the axis of a circular current carrying loop as shown in the figure. The magnitude of magnetic force on electron at this instant is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgHV-u5JhpNKytR17TfPcJinE57ekdhIznVy9PDzqeq_l9Uc5PJusQh4at9zz8F_pQf6TZIrCfAZ_CRcUpggpgByIg2rhrCh9SzkP4L30OQXzLwc177kPaAepKUJdiC6gCAh90YyjpX9iTsLkO_uW5gXsWuXkp_yAsuqbNAH3DtlF7kLuSIKB8beJFqTF8n",
           options: ["\\( \\frac{\\mu_0}{4}\\frac{eviR^2 x}{(x^2+R^2)^{3/2}} \\)", "\\( \\mu_0\\frac{eviR^2 x}{(x^2+R^2)^{3/2}} \\)", "\\( \\frac{\\mu_0}{4\\pi}\\frac{eviR^2 x}{(x^2+R^2)^{3/2}} \\)", "Zero"],
           correct: 3, 
           sol: "<b>Concept: Cross Product of Parallel Vectors</b><br>The magnetic field produced by a circular loop on its central axis is always directed <b>along the axis</b>.<br>The electron is moving with velocity \\( v \\) directly <b>along the axis</b>.<br>Since the velocity vector \\( \\vec{v} \\) and the magnetic field vector \\( \\vec{B} \\) are perfectly parallel (or anti-parallel), the angle between them is \\( 0^\\circ \\) (or \\( 180^\\circ \\)).<br>The magnetic force \\( F = qvB\\sin(0^\\circ) = 0 \\)."
@@ -7171,7 +7170,7 @@
         {
           id: 22, topic: "Magnetic Force",
           q: "A circular coil carrying current i is placed in a region of uniform magnetic field acting perpendicular to the coil as shown in the figure. Mark the correct option",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgbcy8O6fBoRETyU8LNAaZYsE-WDB4J8xhQ4VQmWWj6LgCvyBsINvFm0A7lR1dyk3rV-XMG40qX1bGsBFdHBa6w_E4uLkBE7thuxI0EA2xA58W9WRu_IqwdjPHYwu1kbt9ZlzBd9YMGTYeH2CWonFB1HfoKHA2I8pu5pKu6DdKcA-dzoelHgAGe7S8RrQiO",
           options: ["Coil expands", "Coil contracts", "Coil moves left", "Coil moves right"],
           correct: 0, 
           sol: "<b>Concept: Fleming's Left-Hand Rule</b><br>The diagram shows the magnetic field lines pointing <b>into the plane</b> (crosses) and a current flowing in an <b>anti-clockwise</b> direction.<br>Take any small segment of the circular wire. Using Fleming's Left-Hand Rule (or the right-hand cross product \\( \\vec{dl} \\times \\vec{B} \\)), the magnetic force on every segment of the wire points <b>radially outwards</b> away from the center.<br>Because a uniform outward force acts on the entire circumference simultaneously, the coil will tend to expand."
@@ -7186,7 +7185,7 @@
         {
           id: 24, topic: "Biot-Savart & Ampere's Law",
           q: "Figure shows an amperian path ABCDA. Part ABC is in vertical plane PSTU while part CDA is in horizontal plane PQRS. Direction of circulation along the path is shown by an arrow near point B and at D. \\( \\oint \\vec{B} \\cdot d\\vec{l} \\) for this path according to Ampere's law will be",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhlIsaRXZVnrSSkv6RANJMvh9ffsvGTtRSRcSDqbda-yrH-KiJTUTY1tDje0Q0HwtCVHZm3T6y8QsM9B16NOVedopzlrvzgnibDJ_4hYKpPvAC3Aht1_fynlTXVvEB7Fz6WsspFdiRSJTu3DNy4U3uYzICiyPwukaLsvZXlXBmNNFU1DBYP1Qpvwguw3VpD",
           options: ["\\( \\mu_0(i_1 - i_2 + i_3) \\)", "\\( \\mu_0(-i_1 + i_2) \\)", "\\( \\mu_0 i_3 \\)", "\\( \\mu_0(i_1 + i_2) \\)"],
           correct: 3, 
           sol: "<b>Step 1: Apply Ampere's Law</b><br>Ampere's law states that \\( \\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enclosed} \\). We must determine the net current piercing the surface bounded by the 3D loop ABCDA.<br><br><b>Step 2: Sign Convention</b><br>By curling the fingers of your right hand along the direction of the path arrows (A to B to C to D to A), your thumb points in the direction of the \"positive\" current.<br>Using this rule, currents \\( i_1 \\) and \\( i_2 \\) both pierce the surface in the positive direction.<br>Current \\( i_3 \\) enters the surface but then loops back and exits the surface, meaning its net contribution enclosed by the path is zero (\\( +i_3 - i_3 = 0 \\)).<br><br><b>Step 3: Result</b><br>Net current enclosed is \\( (i_1 + i_2) \\). Therefore, the integral evaluates to \\( \\mu_0(i_1 + i_2) \\)."
@@ -7215,7 +7214,7 @@
         {
           id: 28, topic: "Magnetic Force",
           q: "Two charged particles M and N are projected with same velocity in a uniform magnetic field. Then M and N respectively",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjnbxkJn6k_Kh5Nr6b_sYS5_IvcQp7NePF5T0Z5rSaJOn9crEJuog9I0jzbGiv3MG9LAkf7MUsrNJs8Bk3rUyM8iYgFpCAP_V56PHsct8_Vb2ZByh9Xy9zsbFQYJSkkuth37wUXGpPTk-NzBm34Ht6MoMOuypBWKUNR6gOduovxjLQza57Cxilq26SzFuju",
           options: ["An electron and a proton", "A deuteron and a proton", "A deuteron and an electron", "A proton and an \\( \\alpha \\) particle"],
           correct: 3, 
           sol: "<b>Step 1: Check Trajectory Direction</b><br>Both particles curve in the exact same direction upon entering the magnetic field. By the right-hand rule, they must have the same sign of charge. This eliminates options 1 and 3 (which mix positive and negative charges).<br><br><b>Step 2: Compare Radii</b><br>From the figure, particle M makes a tighter turn than particle N, meaning \\( r_M < r_N \\).<br>The radius of the path is given by \\( r = \\frac{mv}{qB} \\). Since \\( v \\) and \\( B \\) are identical for both, \\( r \\propto \\frac{m}{q} \\).<br><br><b>Step 3: Compare Mass-to-Charge Ratios</b><br>For a proton: \\( \\frac{m}{q} = \\frac{1}{1} = 1 \\).<br>For an \\( \\alpha \\) particle: \\( \\frac{m}{q} = \\frac{4}{2} = 2 \\).<br>Since \\( 1 < 2 \\), the radius of the proton is smaller. Therefore, M is the proton and N is the \\( \\alpha \\) particle."
@@ -7272,7 +7271,7 @@
         {
           id: 36, topic: "Earth's Magnetism & Properties",
           q: "The following figure show the variation of intensity of magnetisation I verses the applied magnetic field intensity H for the two magnetic materials A and B. Which of the material have a larger susceptibility for a given field at constant temperature?",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjYWBY0kQZPCPx_QBH0mKYCes9FX3BggDihCY8NkuaBFWCkdCKC2Q6jUuMk2abTkVi-BbzRbbKp0wqRRMG2aOWdIxYMoFfS-ENP6T2pIuCPbVr2g8ExPvutsY1HsCklcUCTNG92MXkIrvFylSxN-O3iTS0R0e8B1S_949uWQnr4gHtZwyiTnb8_zH4jpB77",
           options: ["Material B", "Material B and material A have the same susceptibility", "Material A", "None of these"],
           correct: 0, 
           sol: "<b>Step 1: Formula for Susceptibility</b><br>Magnetic susceptibility is defined as \\( \\chi_m = \\frac{I}{H} \\).<br><br><b>Step 2: Graphical Interpretation</b><br>On an I-H graph, the susceptibility is directly represented by the <b>slope</b> of the line (\\( \\frac{\\Delta I}{\\Delta H} \\)).<br><br><b>Step 3: Conclusion</b><br>Looking at the graph, line B is steeper (has a higher slope) than line A. Therefore, material B has a larger magnetic susceptibility."
@@ -7294,7 +7293,7 @@
         {
           id: 39, topic: "Magnetic Force",
           q: "An electron moves with a constant velocity inside a charged parallel plate capacitor as shown in the figure. The space between the plates is filled with a constant magnetic field B. The plates are having surface charge densities \\( +\\sigma \\) and \\( -\\sigma \\) respectively. The time in which the electron comes out from the capacitor is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg99ApHHj1ZM_qJoDiiY_wXXuKaoLA-8QzXjsKrogVVwudJMElvGyL0lQpU02nBwCL7Ysblc1tov2SwJQIe6y7VhsunnvRxfXf9p_Ms7_WXXlwUp04vm_ydgrmKVOVM5kw9PY3KfP07CVu9neemY9M-XPFEtDEeTLnPAJ7ooD6ajJZYUBpfepmhweVf6fi9",
           options: ["\\( \\frac{el\\sigma}{\\epsilon_0 lB} \\)", "\\( \\frac{\\epsilon_0 lB}{\\sigma} \\)", "\\( \\frac{el\\sigma}{\\epsilon_0 B} \\)", "\\( \\frac{\\epsilon_0 lB}{3\\sigma} \\)"],
           correct: 1, 
           sol: "<b>Step 1: Zero Net Force</b><br>The electron moves with constant velocity, meaning it is undeflected. This occurs when the electric force perfectly balances the magnetic force (Velocity Selector condition).<br>\\( F_e = F_m \\implies eE = evB \\implies v = \\frac{E}{B} \\).<br><br><b>Step 2: Electric Field in Capacitor</b><br>The uniform electric field between capacitor plates is \\( E = \\frac{\\sigma}{\\epsilon_0} \\).<br>Substitute this into the velocity equation: \\( v = \\frac{\\sigma}{\\epsilon_0 B} \\).<br><br><b>Step 3: Calculate Time</b><br>Time taken to cross the plates of length \\( l \\) is \\( t = \\frac{l}{v} \\).<br>\\( t = \\frac{l}{\\frac{\\sigma}{\\epsilon_0 B}} = \\frac{\\epsilon_0 l B}{\\sigma} \\)."
@@ -7321,14 +7320,6 @@
           sol: "<b>Concept: Lorentz Force</b><br>When a charged particle moves through a region containing both electric and magnetic fields, the total force acting on it is the vector sum of the electric force and the magnetic force.<br>Electric Force: \\( \\vec{F}_E = q\\vec{E} \\).<br>Magnetic Force: \\( \\vec{F}_B = q(\\vec{v} \\times \\vec{B}) \\).<br>Total Lorentz Force: \\( \\vec{F} = q\\vec{E} + q(\\vec{v} \\times \\vec{B}) \\)."
         },
         {
-          id: 43, topic: "Biot-Savart & Ampere's Law",
-          q: "A current I is uniformly distributed over the cross-section of a long hollow cylindrical wire of inner radius \\( R_1 \\) and outer radius \\( R_2 \\). Magnetic field B varies with distance r from the axis of the cylinder as",
-          imgUrl: "placeholder_image.jpg",
-          options: ["Graph 1 (Zero inside, curves up, curves down outside)", "Graph 2 (Linear inside, 1/r outside)", "Graph 3 (Constant inside)", "Graph 4 (Linearly increasing everywhere)"],
-          correct: 0, 
-          sol: "<b>Step 1: Region 1 (Inside cavity, \\( r < R_1 \\))</b><br>Using Ampere's Law, the enclosed current is zero. Therefore, \\( B = 0 \\).<br><br><b>Step 2: Region 2 (Inside material, \\( R_1 < r < R_2 \\))</b><br>The enclosed current increases non-linearly with r. \\( B = \\frac{\\mu_0 I(r^2 - R_1^2)}{2\\pi r(R_2^2 - R_1^2)} \\). This creates a rising curved graph.<br><br><b>Step 3: Region 3 (Outside wire, \\( r > R_2 \\))</b><br>The wire acts as a standard straight conductor. \\( B = \\frac{\\mu_0 I}{2\\pi r} \\), which means \\( B \\propto \\frac{1}{r} \\), producing a decaying hyperbolic curve. Graph 1 correctly depicts these three distinct regions."
-        },
-        {
           id: 44, topic: "Magnetic Force",
           q: "Two circular coils mounted parallel to each other on the same axis carry steady currents. If an observer between the coils reports that one coil is carrying a clockwise current \\( i_1 \\) while the other is carrying a counter clockwise current \\( i_2 \\) then the two coils experience",
           options: ["A steady repulsive force", "Zero force", "A repulsive force", "A steady attractive force"],
@@ -7338,7 +7329,7 @@
         {
           id: 45, topic: "Biot-Savart & Ampere's Law",
           q: "A current-carrying loop is dropped from the position as shown in figure. The loop starts entering into a region of uniform magnetic field, directed into the plane. Which of the following statements is correct? Neglect effects of self-induction and take g = acceleration due to gravity",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg5iiwSIeh3e76MHxHl_KaE3Sk1vndVV_ZmW7KozRQPli8uM80wjQypurr3CVRfc10kMYj4tQJvrzcdxkXL0Q5qEueTcqF-VcZ99rwnwUeD_vpUE7YCfjPIp795onfzHJ4RftPltCXDpJUKdhum84UK_NBIEfZSFRG6EfpjCkYAIq08TWk5TW-rzxuFv5Jt",
           options: ["The loop will fall with an acceleration more than g", "The loop will fall with an acceleration less than g", "The magnitude of acceleration of loop will increase as it moves down", "The magnitude of acceleration of loop will remain constant as it moves down"],
           correct: 1, 
           sol: "<b>Step 1: Lenz's Law</b><br>As the conducting loop falls into the magnetic field region, the downward magnetic flux linking the loop begins to rapidly increase.<br><br><b>Step 2: Induced Effects</b><br>According to Lenz's law, an induced current will flow in a direction that opposes this change. To fight the increasing downward flux, it creates an upward magnetic force.<br><br><b>Step 3: Net Acceleration</b><br>The net force on the loop is \\( F_{net} = mg - F_{magnetic} \\). Since the net force is less than the force of pure gravity, the resulting downward acceleration must be less than \\( g \\)."
@@ -7351,7 +7342,7 @@
     // ==========================================
     "Electromagnetic Induction": { 
       classTarget: "Class 12", 
-      totalQs: 45, 
+      totalQs: 44, 
       topics: ["Magnetic Flux & Faraday's Law", "Motional EMF", "Self and Mutual Inductance", "LR Circuits & Energy"],
       questions: [
         {
@@ -7378,7 +7369,7 @@
         {
           id: 4, topic: "Magnetic Flux & Faraday's Law",
           q: "Consider the situation shown in the figure. If the current I in the long straight wire XY is increased at a steady rate then the induced current in loops A and B will be",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgcBsan32g_Ily0vRFjRaDdVPh9Oz3vdbkAIeQOU_LlFKC7wNRK8HZRLWrSSxBaz_BBJzV2JzKP3bjjkayQHGDmN-NNRKPrPZV00HQ03leX7NCrS84r44-aYGP0LE79HTYaKb_1EdulRz6Ru-ppT0CJk0RyPj35V5WA9SM0GGkp_oJh8TE9mgYY9CoIhBpq",
           options: ["Clockwise in A, anticlockwise in B", "Anticlockwise in A, Clockwise in B", "Clockwise in both A and B", "Anticlockwise in both A and B"],
           correct: 0, 
           sol: "<b>Detailed Solution:</b><br>Both coils oppose the increase in current in the straight wire, due to which change in magnetic flux is increased through the two coils. Hence current in coil A is clockwise and current in coil B is anticlockwise."
@@ -7386,7 +7377,7 @@
         {
           id: 5, topic: "Motional EMF",
           q: "Consider the situation shown in the figure. The wire AB is sliding on the fixed rails with constant velocity v. If the wire AB is replaced by a semicircular wire, the magnitude of the induced current will-",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiDnGDrgjip3P4MfJ7chUo_OS_-KpbloqquCeDc7mX9wqP79-DAWfmNpINrUxPhAcQwBe8DYC3hp3vdkKVPKqehKm1rsbwMRkNcH3mi1LysYB_72R2WTEIauidCq5c10suhdhdYNRsrxHNp9ry9qRrDnQfIp0h3k5POTienxqzRiV5an3nBEqTi-DiqQtbG",
           options: ["increase", "remain the same", "decrease", "increase or decrease depending on semicircle direction"],
           correct: 1, 
           sol: "<b>Detailed Solution:</b><br>As we have to consider the length perpendicular to velocity vector and magnetic field vector independent of shape and length of wire, the perpendicular length between two rails is constant hence value of induced current will remain constant."
@@ -7464,7 +7455,7 @@
         {
           id: 16, topic: "Motional EMF",
           q: "A conducting rod AB of length \\( l=1 \\, \\text{m} \\) is moving at a velocity \\( v=4 \\, \\text{m} \\, \\text{s}^{-1} \\) making an angle of \\( 30^{\\circ} \\) with its length. A uniform magnetic field \\( B=2 \\, \\text{T} \\) exists in a direction perpendicular to the plane of motion, then",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi2w5fPWLKnsQ8_6mVw6DN1vbDvWxe2CZ7m-toS2phVOpVgFy4MJjdkeYwFTgfQ9458T-qZ2ZQc7_ezSQXDJ9563U7ziDtNEOsqunNhgiVtsNyuzui-tzz3oD2DNNrPDyyCUUmzbZo3KkeyGcXHLl5rYRI7bmIVjX0hMuzbFR7V2o6T9VRO61TJ7J7bFN1P",
           options: ["\\( V_{A}-V_{B}=8V \\)", "\\( V_{A}-V_{B}=4V \\)", "\\( V_{B}-V_{A}=8V \\)", "\\( V_{B}-V_{A}=4V \\)"],
           correct: 1, 
           sol: "<b>Detailed Solution:</b><br>\\( e = B(v \\sin 30^{\\circ})l = 4 \\, \\text{V} \\). Using Fleming's Right-Hand Rule, the induced current direction is from B to A, so \\( V_{A}-V_{B}=4V \\)."
@@ -7472,7 +7463,7 @@
         {
           id: 17, topic: "Magnetic Flux & Faraday's Law",
           q: "A non-conducting cylindrical rod is inserted within two coils of insulated wires, as shown in the given figure. A battery is connected to coil 1, while a galvanometer is connected to coil 2 On switching on the current in coil 1",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj6Yg71RL6Pm3VKGfAEtgveVYsSQjvTZph4KggS5jkaVWX7vnMjwU6KvUIbw91Jpu4VNB1G9-oesHAugTB8bmYSEKIPpnG_8mZxm0NxppYCmMccss5SrPJ9Qj9kgDfpr3rAYPJPBKATZqaTe4OGCnMD2n1BKkGr53EDapJL8LtDUYUD4QQjgF7J8AYN9T27",
           options: ["Coil 2 will move towards it", "Coil 2 will move away from it", "The pointer of the galvanometer will remain at zero", "The pointer of the galvanometer will show a deflection"],
           correct: 3, 
           sol: "<b>Detailed Solution:</b><br>On closing the switch, current begins flowing through coil 1, creating a changing magnetic field that induces a current in coil 2. This current will deflect the pointer of the galvanometer."
@@ -7501,7 +7492,7 @@
         {
           id: 21, topic: "Magnetic Flux & Faraday's Law",
           q: "Two concentric and coplanar circular coils have radii a and b (>>a) as shown in the figure. The resistance of the inner coil is R and the current in the outer coil is increased from 0 to i, then the total charge circulating in the inner coil is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEivcqQeqRYmFf5e1D2JoXBhB3b8fjsVWzK-EI-F6WEAUzyFjY1BQtq0kZ4HXexUfvfurzUsCifY5mTLVgNgcJlghI-8e99_zW7qGZok5A_4Bty7Rfb7hSY7GSMR6Z18YdDu5HKrpzpvwIw3I67s6MDmRtizTxrXl38vX82p-zbF2LWy9C-l273trR4Ag7CQ",
           options: ["\\( (\\frac{2\\mu_{0}i}{\\pi b})\\frac{a^{2}}{R} \\)", "\\( (\\frac{2\\mu_{0}i}{b})\\frac{\\pi a^{2}}{R} \\)", "\\( (\\frac{\\mu_{o}i}{b})\\frac{\\pi a^{2}}{R} \\)", "\\( (\\frac{\\mu_{o}i}{2b})\\frac{\\pi a^{2}}{R} \\)"],
           correct: 3, 
           sol: "<b>Detailed Solution:</b><br>Final flux \\( \\phi = (\\frac{\\mu_{0}i}{2b}) \\pi a^{2} \\). Circulating charge \\( \\Delta q = \\frac{\\Delta \\phi}{R} = (\\frac{\\mu_{0}i}{2b}) \\frac{\\pi a^{2}}{R} \\)."
@@ -7516,7 +7507,7 @@
         {
           id: 23, topic: "Magnetic Flux & Faraday's Law",
           q: "An electron moves along the line AB with constant velocity V which lies in the same plane as a circular loop of conducting wire, as shown in the figure. What will be the direction of current induced in the loop?",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgOWc2mAFdde7o3n9lAw7E80hxJTPSzkeO7YAFJMO2loeZct1EauqzbBKLgxbfCRCFL4AxqSmUrWJwGEQ74DJbcXEFN4djRFt0bzKBON1WgymOI21XoKjON1AePNStVrbSas5q-dGUIKoOFc4m_hn7jpO4LEeh2nrJcysokYhoee-NzGqMPcbNEdRJVoErN",
           options: ["no current will be induced", "induced current will be clockwise", "induced current will be anti clockwise", "The current will change direction as the electron passes by the loop"],
           correct: 3, 
           sol: "<b>Detailed Solution:</b><br>As electron approaches the loop flux linked with the loop first increases and then decreases as electron passes by. Therefore direction of induced current changes."
@@ -7531,7 +7522,7 @@
         {
           id: 25, topic: "Magnetic Flux & Faraday's Law",
           q: "A conducting wire frame is placed in a magnetic field, which is directed into the paper. The magnetic field is increasing at a constant rate. The directions of induced currents in wires AB and CD are",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiY0KbURHOFNaRqJT1Q8DNhp81EgS3QbpSn9hpvlkp4fsPMjKbeGlZ6Cb4E80Cd7ywwXTuKyoA3uhFlWx1NGlj3cQMSFcaKTjPxJWCc2B1meRmdclG2jDtFmueIHqlKd5CXcijAEHrwC5ZxnPJ3ToTXvbF5cAumsUE7OPYT6JHAFicBXhhXQRzm35zme76C",
           options: ["A to B and C to D", "B to A and C to D", "A to B and D to C", "B to A and D to C"],
           correct: 3, 
           sol: "<b>Detailed Solution:</b><br>Inward field is increasing, so induced current must produce an outward field (anticlockwise). EMF on the right is more due to larger area. Net current is along DCBAD, so B to A and D to C."
@@ -7546,23 +7537,15 @@
         {
           id: 27, topic: "LR Circuits & Energy",
           q: "In the circuit shown in figure, time constant and steady state current will be",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiR29dxO0aiyPpfJoZNiBPZTx20L0_IGNM3N5nfAVdTz7iOKzVvu2iFC4uVcU_ZoM3Xx5LMAHC9Bswg4ZN3zwU9FpJ3tqP-i-2aqwMxiY_mbQBTPwvHFddt3OPL1c1OIcCFiUysBsJlCVQt6fZeusp-GaeRobdRtHeh8rALemY0sBY6SJ58AXBny4lt2Rno",
           options: ["0.25 s, 0.75 A", "0.75 s, 0.25 A", "0.25 s, 0.25 A", "0.5 s, 0.5 A"],
           correct: 0, 
           sol: "<b>Detailed Solution:</b><br>Equivalent resistance is \\( 8 \\, \\Omega \\). Time constant \\( \\tau = \\frac{L}{R_{eq}} = \\frac{2}{8} = 0.25 \\, \\text{s} \\). Steady state current \\( i_{0} = \\frac{\\epsilon}{R} = \\frac{6}{8} = 0.75 \\, \\text{A} \\)."
         },
         {
-          id: 28, topic: "LR Circuits & Energy",
-          q: "Plot the variation of emf across the inductor with respect to time",
-          imgUrl: "placeholder_image.jpg",
-          options: ["Graph 1 (Linear)", "Graph 2 (Curve Up)", "Graph 3 (Exponential Decay)", "Graph 4 (Constant)"],
-          correct: 2, 
-          sol: "<b>Detailed Solution:</b><br>\\( \\epsilon_{L} = \\epsilon_{0} e^{-\\frac{t}{\\tau}} \\). This represents an exponential decay of EMF over time when current flows."
-        },
-        {
           id: 29, topic: "LR Circuits & Energy",
           q: "Find the steady state current through \\( L_{1} \\) in the figure",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg5K9wLhC6ZQFKWhN_8ld6aH831Ic5M7xoHZH0LZh5aHbNdt2Swz6bV7vCBrNeXpm6HeWu7qNPubwkUcS4l6Hg9Iak6dUNkHExwUkvENbJjDYigTCXTj8gQvKI3WA6lB4XdjTrjjCCwSI9em7bMK7unjep1-5ER0qw5pNyhkHeDvCw2YHyK6EXwKcExw87w",
           options: ["\\( \\frac{V_{0}}{R} \\)", "\\( \\frac{V_{0}L_{1}}{R(L_{1}+L_{2})} \\)", "\\( \\frac{V_{0}L_{2}}{R(L_{1}+L_{2})} \\)", "none of these"],
           correct: 2, 
           sol: "<b>Detailed Solution:</b><br>In steady state, inductors are short circuits. Current \\( I_{0} = \\frac{V_{0}}{R} \\) divides as \\( I_{1} = I_{0} \\frac{L_{2}}{L_{1} + L_{2}} = \\frac{V_{0}L_{2}}{R(L_{1}+L_{2})} \\)."
@@ -7598,7 +7581,7 @@
         {
           id: 34, topic: "Magnetic Flux & Faraday's Law",
           q: "P and Q are two circular thin coils of same radius and subjected to the same rate of change of flux. If coil P is made up of copper and Q is made up of iron, then the wrong statement is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiMppk7U6In-gW8GlmerzluqcB8UgAhS0F8Lulgy7MJQZNmWZonIUdk2IuHMEGoep3qJsPbnUZC0RwaGvcizHLC9TlFuZbQ6b1oBBl8F0KLI93MNJ9ingD32z0Pi_DZsiayyBnb5Ax8OAbpkjRvXivVjTiQPsbQpN0rc8HITP_mJBUKgzdxT9JBRO4upVST",
           options: ["emf induced in the two coils is the same", "The induced current in P is more than that in Q", "The induced current in P and Q are in the same direction", "The induced currents are the same in both the coils."],
           correct: 3, 
           sol: "<b>Detailed Solution:</b><br>Induced EMF and direction are same, but copper has lower resistance, so current in copper (P) is more. Hence Statement 4 is wrong."
@@ -7606,7 +7589,7 @@
         {
           id: 35, topic: "Motional EMF",
           q: "A wire is bent to form a semicircle of radius a. The wire rotates about its one end with angular velocity \\( \\omega \\). Axis of rotation being perpendicular to the plane of the semicircle. In the space, a uniform magnetic field of induction B exists along the axis of rotation, as shown in figure. Then -",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh_htZJT9DKjR8L0KF2YvWSwGiG1NkCbcmloPipVucbh-5jZhvqf2RFGzPNqydmfrzKhZqg-k3gq4r4cej1ASa1BBHfidrdh15SE4yl7jdKMdXGIwwE0eigntwev3g3QRdiyr5R9eh-EcaAsq2l_6TPz6qIfzd_fwNHXIZKW8-YxyUppmYgY_wyloF6sxrU",
           options: ["Potential difference between P and Q is equal to \\( 2B\\omega a^{2} \\)", "Potential difference between P and Q is equal to \\( 2\\pi^{2}B\\omega a^{2} \\)", "P is at higher potential than Q", "None of these"],
           correct: 0, 
           sol: "<b>Detailed Solution:</b><br>\\( e = \\frac{1}{2}B\\omega l^{2} \\). Here effective length \\( l = 2a \\), so \\( e = \\frac{1}{2}B\\omega(2a)^{2} = 2B\\omega a^{2} \\)."
@@ -7702,7 +7685,7 @@
         {
           id: 3, topic: "LCR Circuits",
           q: "A 100V, Ac source of frequency 500Hz is connected to an LCR circuit with \\( L=8.1mH, \\) \\( C=12.5\\mu F \\) \\( R=10\\Omega \\) all connected in series as shown in figure. What is quality factor of circuit?",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjkkCIaBT6u-LuzokUTibKu-i4jP3NmQSdjMsOzInbUrK9D-8ta13zIP6vsf0SO6tLYNTKlZ5nCHQQmy1oWEjrnhV7oOTcusfSOewBQ4cMxXJJ3vvf0FSsogHCtA5K0hvbm_uY8JdIgjp4G2fM82pl_CpiwNxZJEYr9_ZplACRx8vbW2xiG65i5PLmi6gbx",
           options: ["(1) 2.02", "(2) 50.54", "(3) 2.54", "(4) 200.54"],
           correct: 2, 
           sol: "\\( Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}} = \\frac{1}{10}\\sqrt{\\frac{8.1\\times10^{-3}}{12.5\\times10^{-6}}} = \\frac{1}{10}\\sqrt{\\frac{81\\times1000}{125}} = 2.54 \\)."
@@ -7710,7 +7693,7 @@
         {
           id: 4, topic: "LCR Circuits",
           q: "In the series L-C-R circuit shown in the figure, the rms voltage across the resistor and inductor are 400 V and 700 V respectively. If the applied voltage is \\( E=500\\sqrt{2}\\sin(\\omega t). \\) then the peak voltage across the capacitor is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhqUOSreigNIIySXGZ19l2Nmza_CcARggGX7gYkwppfkegaSz0TUjdZZLPbELyT9s5U4FSVIkODUYilA7gX0-jEZm173AAuK-vYgepb4fRM-8rEdOZeC15H0PZrENoIhUcYZwCPkA_puugyh7RxTDW-iwAZzvGz3LaPscKSdhvVDOBfSDQYAJwcqb_fidnN",
           options: ["(1) 1200 V", "(2) \\( 1200\\sqrt{2}V \\)", "(3) 400 V", "(4) \\( 400\\sqrt{2}V \\)"],
           correct: 3, 
           sol: "\\( V_{R}^{2}+(V_{L}-V_{C})^{2}=E_{rms}^{2} \\).<br>\\( (V_{L}-V_{C})^{2} = (500)^{2} - (400)^{2} \\).<br>\\( V_{L}-V_{C} = \\sqrt{(500)^{2}-(400)^{2}} = 300 \\).<br>\\( V_{C} = V_{L} - 300 = 700 - 300 = 400 \\, \\text{V} \\).<br>\\( \\therefore V_{C}(\\text{peak}) = \\sqrt{2}V_{C} = 400\\sqrt{2}V \\)."
@@ -7753,7 +7736,7 @@
         {
           id: 11, topic: "LCR Circuits",
           q: "When induced emf in inductor coil is 50% of its maximum value then stored energy in inductor coil in the given circuit will be",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjLsTG4agtANDoFOU6zSkISo27g6Mf8RzrSXwSDmeLMaVVuYiEMZbnkXsghqs-s3PKHGLO9DaQIA-oUTw3jm8ZbTnMdcgHJdfxDK7mPdx-gCfmqJsaCnKEtGSgQ-3VBHSWI-o20-A4Ri4NHyaMnFq6NTBrbRFbJHkIwPD9HcXdzz9k2ZUpiyyRm5AR2X-Ao",
           options: ["(1) 2.5 mJ", "(2) 5 mJ", "(3) 15 mJ", "(4) 20 mJ"],
           correct: 0, 
           sol: "If the maximum value of induced EMF is V, then 50% of induced EMF is \\( V/2 \\). Also, at this moment voltage across resistor will be \\( V/2 \\).<br>\\( E = \\frac{1}{2}Li^{2} = \\frac{1}{2}L(\\frac{V/2}{R})^{2} = \\frac{1}{2}(5\\times10^{-3})(\\frac{2/2}{1})^{2} = 2.5 \\, \\text{mJ} \\)."
@@ -7768,7 +7751,7 @@
         {
           id: 14, topic: "LC Oscillations",
           q: "At the moment \\( t=0 \\), when the charge on the capacitor \\( C_{1} \\) is zero, the switch is closed. If \\( I_{0} \\) be the current through inductor at \\( t=0 \\), then for \\( t>0 \\) (initially \\( C_{2} \\) is uncharged)",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgOrwXnkPZ_rcloAD0mRLweYOJ343ZeKq1ZYZi9LjQhcXMiFKFSJAQBQPbERxOysqMXVOlQe8Y0vh4NarWppQ9aszS_ofzDQFPCQ0n668ACZVS7lkP14dBrGTH916z6ELLgfxWDvM7Map6jo9bNYITLu2HBKxik_p8G6iFV3llRYGz2F1Au4z8Qt9c8x-y_",
           options: [
             "(1) Maximum current through inductor equals \\( I_{0}/2 \\)",
             "(2) Maximum current through inductor equals \\( \\frac{C_{1}I_{0}}{C_{1}+C_{2}} \\)",
@@ -7781,7 +7764,7 @@
         {
           id: 15, topic: "LCR Circuits",
           q: "The network shown in the figure is part of a complete circuit. If at a certain instant the current (I) is 5 A and is decreasing at a rate of \\( 10^{3} \\, \\text{A s}^{-1} \\) then the value of \\( V_{B}-V_{A} \\) is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjzqUcjFdDfLzoZaZClZwC1OkNLe1iQlSPOShEqA-9_ChE41opiZJ96unKoaJssakaq-T8aTRr4jH-FjJ-RS0bLgz4taZAscl7Ii7sLU7y5yZCmZ-3nkcpzUDjiXzL0Dx_-2U9A1BnTFwZ0RdRYUFQKU6UACVdxza-Q1DKHINfiW0qGRD4wq2GvOT_dOujs",
           options: ["(1) 10 V", "(2) 20 V", "(3) 15 V", "(4) 25 V"],
           correct: 2, 
           sol: "\\( |\\frac{di}{dt}| = 10^{3} \\, \\text{A/s} \\). Induced emf across inductance, \\( |e| = L|\\frac{di}{dt}| = (5\\times10^{-3})(10^{3}) = 5 \\, \\text{V} \\).<br>Since, the current is decreasing, the polarity of this emf would be so as to increase the existing current. The circuit redrawn gives: \\( V_{A} - (5)(1) + 15 + 5 = V_{B} \\implies V_{B} - V_{A} = 15 \\, \\text{V} \\)."
@@ -7831,7 +7814,7 @@
         {
           id: 24, topic: "LCR Circuits",
           q: "The reading of the ammeter and voltmeters are (Both the instruments are AC meters and measures RMS value)",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiNcGxnn2NDx348L752NfzEoVGuXpl8RQGyQV6SnOT8I2a__Sl2QY-XY87SAZvi17m9_xTodpVpNPeKKoZNEWhTVMciMsj13VxocVmiRksUItK_kv9fCged627muyBRMJlGIgwrgDV3B-UWq5-eFKmC2mRsHvRS9b2utwc5jq0ywESf0ISTxq8anXQH9dRX",
           options: ["(1) 2 A, 110 V", "(2) 2 A, 0 V", "(3) 2 A, 55 V", "(4) 1 A, 0 V"],
           correct: 1, 
           sol: "The circuit is RLC resonant circuit because \\( X_L = X_C \\). Reading of voltmeter \\( = V_L - V_C = 0 \\). Reading of ammeter \\( = \\frac{E_{rms}}{R} = \\frac{110}{55} = 2 \\, \\text{A} \\)."
@@ -7846,7 +7829,7 @@
         {
           id: 26, topic: "Power in AC",
           q: "The power dissipated in the circuit shown in figure is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhcdEGWj6IXjDGHZ1g_sJjuRhdYSDElQJsj6rH7bydBSM7MXAjMtOZEuVzxrLVefDTr1zGOJrxM1xXhUMX020Wmef-SvL9LRQVKC-BJo_OziIvW6O5JRVgGf8YxsqEcW6cDjRGMZ4CsrpB7T5TAwvBtU2lfqMAHryE4NuF-dkst0XbkZEGEDRM32ltchgfT",
           options: ["(1) \\( \\frac{V_{0}^{2}}{2R} \\)", "(2) \\( \\frac{V_{0}^{2}}{5R} \\)", "(3) \\( \\frac{V_{0}^{2}}{\\sqrt{5}R} \\)", "(4) \\( \\frac{V_{0}^{2}}{10R} \\)"],
           correct: 3, 
           sol: "\\( Z = \\sqrt{(X_{C}-X_{L})^{2}+R^{2}} = \\sqrt{(2R)^{2}+R^{2}} = \\sqrt{5}R \\).<br>\\( P_{avg} = (\\frac{V_{rms}}{Z})^{2}R = (\\frac{V_{0}}{\\sqrt{2}\\sqrt{5}R})^{2}R = \\frac{V_{0}^{2}}{10R} \\)."
@@ -7889,7 +7872,7 @@
         {
           id: 33, topic: "LCR Circuits",
           q: "If resistance \\( R=100\Omega \\), inductance \\( L=\\frac{2}{\\pi}H \\) and capacitance \\( C=\\frac{8}{\\pi}\mu F \\) are connected in series with an AC source of 200 volt and frequency f as shown in the circuit. If the readings of the hot wire voltmeters \\( V_{1} \\) and \\( V_{2} \\) are same then which among the following statements is wrong?",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgISnrT-ZLj1TjSwbJxRexW486jqErJK8_2mb0p4kJIHgTMYiT4R6MCUF77iL_QKbmqc728EtNkyJOtDWTNvDRIYfycTMC7dCFkHgqgVidK2rx0Ryc1CeIOUmclkD-4fdoxMMsdRJc7o0TL0UsQnS3q0_XjXX6q3UB9MJgyDZ4LQnpf77xTtjg_BuECB3jg",
           options: ["(1) \\( f=125 \\, \\text{Hz} \\)", "(2) \\( f=250\pi \\, \\text{Hz} \\)", "(3) current through R is 2A", "(4) \\( V_{1}=V_{2}=1000 \\, \\text{volt} \\)"],
           correct: 1, 
           sol: "\\( V_1 = V_2 \\) implies resonance. \\( X_L = X_C \\implies 2\\pi f L = \\frac{1}{2\\pi f C} \\).<br>\\( f = \\frac{1}{2\\pi\\sqrt{LC}} = \\frac{1}{2\\pi\\sqrt{\\frac{2}{\\pi} \\cdot \\frac{8}{\\pi} \\times 10^{-6}}} = 125 \\, \\text{Hz} \\).<br>Current \\( I = V/R = 200/100 = 2 \\, \\text{A} \\).<br>\\( V_L = I X_L = 2(2\\pi \\cdot 125 \\cdot \\frac{2}{\\pi}) = 1000 \\, \\text{V} \\). Thus (2) is wrong."
@@ -7897,7 +7880,7 @@
         {
           id: 35, topic: "LCR Circuits",
           q: "In the adjacent circuit, the instantaneous current equation is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgjIxYQLQfuh6VqX76thPwZkdIgKZkGLsL6G85b-othcgFZC1gc8EjpOrIRcDQa2YWR_sK5g3kl0vZXcWVa8PI1eDoO9J4I5YLgAntW4PLlcUDKzCfF1vcyUHXSqu3RwuruB33u3xZxcTWi-VlEmtyJgOrWB4jM7x6bNiUD2it7oP4N1aUf3bhuyJf_Uasi",
           options: ["(1) \\( 2\\sin(100t-\\frac{\pi}{4}) \\)", "(2) \\( \\sqrt{2}\\sin(100t-\\frac{\pi}{4}) \\)", "(3) \\( \\sqrt{2}\\sin(200t-\\frac{\pi}{4}) \\)", "(4) \\( \\sqrt{2}\\sin(200t+\\frac{\pi}{4}) \\)"],
           correct: 1, 
           sol: "\\( \\tan\\phi = \\frac{X_L}{R} = \\frac{\\omega L}{R} = \\frac{100\\times1}{100} = 1 \\implies \\phi = \\frac{\\pi}{4} \\). Current lags voltage by \\( \\pi/4 \\).<br>\\( i_0 = \\frac{V_0}{Z} = \\frac{200}{\\sqrt{100^2 + 100^2}} = \\sqrt{2} \\).<br>\\( i = \\sqrt{2}\\sin(100t - \\frac{\\pi}{4}) \\)."
@@ -7941,7 +7924,6 @@
         {
           id: 39, topic: "Resonance",
           q: "In a series resonant LCR circuit, the voltage across R is 100 V and \\( R=1k\\Omega \\) with \\( C=2\mu F \\) The resonant frequency w is 200 rad \\( s^{-1} \\) At resonance the voltage across L is",
-          imgUrl: "placeholder_image.jpg",
           options: ["(1) \\( 4\\times10^{-3}V \\)", "(2) \\( 2.5\\times10^{-2}V \\)", "(3) 40 V", "(4) 250 V"],
           correct: 3, 
           sol: "At resonance \\( Z=R, V_{L}=V_{C} \\).<br>\\( I = \\frac{E}{R} = \\frac{100}{1000} = 0.1 \\, \\text{A} \\).<br>\\( V_{L} = I(\\frac{1}{\\omega C}) = \\frac{0.1}{(200)(2\\times10^{-6})} = 250 \\, \\text{V} \\)."
@@ -10509,6 +10491,7 @@
       ]
     }
   };
+
 
 
 
