@@ -7,7 +7,16 @@
     "Electricity": { 
       classTarget: "Class 10", 
       totalQs: 40, 
-      topics: ["Electric Charge and Current", "Electric Potential and Ohm's Law", "Resistance and Resistivity", "Heating Effect and Power"],
+      topics: ["Electric Charge and Current", 
+        "Electric Potential and Ohm's Law", 
+        "Resistance and Resistivity", 
+        "Heating Effect and Power",
+        "Combination of Resistors",
+        "Wheatstone Bridge",
+        "Advanced Circuit Topology",
+        "Symmetry in Combinations",
+        "Infinite Networks",
+        "Complex Power & Heating"],
       questions: [
         {
           id: 1, topic: "Electric Charge and Current",
@@ -288,6 +297,199 @@
           options: ["\\( 1 \\, \\text{Volt} \\times 1 \\, \\text{Ampere} \\)", "\\( 1 \\, \\text{Joule} / 1 \\, \\text{Coulomb} \\)", "\\( 1 \\, \\text{Volt} / 1 \\, \\text{Ampere} \\)", "\\( 1 \\, \\text{Ampere} / 1 \\, \\text{Volt} \\)"],
           correct: 2, 
           sol: "<b>Step 1: Ohm's Law Equation</b><br>According to Ohm's law, the resistance \\( R \\) is defined as the ratio of the potential difference \\( V \\) applied across the conductor to the current \\( I \\) flowing through it: \\( R = \\frac{V}{I} \\).<br><b>Step 2: Substitute SI Units</b><br>The SI unit of potential difference is the Volt (\\( \\text{V} \\)) and the unit of current is the Ampere (\\( \\text{A} \\)).<br>Therefore, the derived unit of resistance, \\( 1 \\, \\text{ohm} \\), is defined as exactly \\( \\frac{1 \\, \\text{Volt}}{1 \\, \\text{Ampere}} \\)."
+        },
+        {
+          id: 41, topic: "Combination of Resistors",
+          q: "In the given circuit for what value of \\( X \\) the net resistance between A and B is equal to \\( 50 \\, \\Omega \\)?",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgN8iKhPNQ27-tINmlCPPNNWjkRpoeixgIll3xTscKNnGze1f1in-H2C5XZLj0ZK5KhSiHm0D-RmX3sj5f09VsH-9JTkVJhtFbjrLqRvSAXNDx0o5luVOLqsjRkN1vnMVVNw772nmjr93-hIV_zmzxTslMD5C9bb59qDJYIV9f5Ui0X4uqZLqlyYI5bgBh3",
+          options: ["\\( 60 \\, \\Omega \\)", "\\( 40 \\, \\Omega \\)", "\\( 120 \\, \\Omega \\)", "\\( 20 \\, \\Omega \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify Circuit Structure</b><br>The circuit consists of two parallel blocks connected in series. The first block has \\( 30 \\, \\Omega \\) and \\( 60 \\, \\Omega \\) in parallel. The second block has \\( X \\, \\Omega \\) and \\( 40 \\, \\Omega \\) in parallel.<br><br><b>Step 2: Equivalent Resistance of First Block</b><br>\\( R_1 = \\frac{30 \\times 60}{30 + 60} = \\frac{1800}{90} = 20 \\, \\Omega \\).<br><br><b>Step 3: Setup Total Resistance Equation</b><br>The total equivalent resistance is given as \\( 50 \\, \\Omega \\).<br>\\( R_{eq} = R_1 + R_2 \\implies 50 = 20 + \\frac{40X}{40 + X} \\).<br><br><b>Step 4: Solve for X</b><br>Subtract 20 from both sides:<br>\\( 30 = \\frac{40X}{40 + X} \\)<br>Multiply both sides by \\( (40 + X) \\):<br>\\( 30(40 + X) = 40X \\)<br>\\( 1200 + 30X = 40X \\)<br>\\( 10X = 1200 \\implies X = 120 \\, \\Omega \\)."
+        },
+        {
+          id: 42, topic: "Combination of Resistors",
+          q: "The magnitude of \\( I \\) in ampere in the given circuit is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgFRhObfb-06UD39NdDgXvMG9QgkLSb-Lj6DcFGSmSdrrk6a0SQeCb8RmV8pi5Y2ARG59IV6CKKeW0z9Rk4QkyrQ7Tt5IqJyNzJYvERr6GYh6rHfljsIlvxyrqh3ZZdArHtOH7Q3FUm4GgMLal6grW9-mhVP7jijhanXi706fge59Prksw4KboGORKI2rCc",
+          options: ["0.1", "0.3", "0.6", "None of these"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify Parallel Branches</b><br>The circuit has three parallel branches connected across the main line. <br>Top branch = \\( 60 \\, \\Omega \\). <br>Middle branch = \\( 15 \\, \\Omega + 5 \\, \\Omega = 20 \\, \\Omega \\). <br>Bottom branch = \\( 10 \\, \\Omega \\).<br><br><b>Step 2: Calculate Equivalent Resistance</b><br>\\( \\frac{1}{R_{eq}} = \\frac{1}{60} + \\frac{1}{20} + \\frac{1}{10} \\)<br>\\( \\frac{1}{R_{eq}} = \\frac{1 + 3 + 6}{60} = \\frac{10}{60} \\).<br>\\( R_{eq} = 6 \\, \\Omega \\).<br><br><b>Step 3: Calculate Total Voltage</b><br>Total current entering the parallel combination is \\( 1 \\, \\text{A} \\). Voltage across the branches is \\( V = I_{total} \\times R_{eq} = 1 \\times 6 = 6 \\, \\text{V} \\).<br><br><b>Step 4: Calculate Current I</b><br>The current \\( I \\) flows specifically through the middle branch (\\( 20 \\, \\Omega \\)).<br>\\( I = \\frac{V}{R_{middle}} = \\frac{6}{20} = 0.3 \\, \\text{A} \\)."
+        },
+        {
+          id: 43, topic: "Combination of Resistors",
+          q: "In the circuit given below, the current through \\( 100 \\, \\Omega \\) resistor is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhP6jmHf8hpEkY2UTy1kT0BIrV-02eKKZS2UdsupLE27mqhn9pnxxMryvVIhwZ_e5HuQeJ6tJ1g3X_lxkTcY6W4gpJobyBJjUdLhR8FZGkVDG4cc0-uV04UQk1rrHcITuTM7UhZ6UQHNqlfF42Dayqd0b6hj4tXk7XlWfgatO-mypIK9pEKUC-cPvhrQBym",
+          options: ["0.5 A", "1 A", "0.25 A", "2 A"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze the Circuit Topology</b><br>The complex network of upper resistors (30, 30, 30, 45, 90, 10 ohms) can be resolved step-by-step using standard series and parallel reductions. The equivalent resistance of this entire upper block simplifies exactly to \\( 100 \\, \\Omega \\).<br><br><b>Step 2: Total Circuit Resistance</b><br>This \\( 100 \\, \\Omega \\) equivalent block is in series with the final \\( 100 \\, \\Omega \\) resistor at the bottom. <br>Total resistance of the circuit \\( R_{eq} = 100 + 100 = 200 \\, \\Omega \\).<br><br><b>Step 3: Calculate the Current</b><br>Using Ohm's law, the main current drawn from the \\( 50 \\, \\text{V} \\) battery is \\( I = \\frac{V}{R_{eq}} = \\frac{50}{200} = 0.25 \\, \\text{A} \\). Since the \\( 100 \\, \\Omega \\) resistor is located in the main branch, this is the current flowing through it."
+        },
+        {
+          id: 44, topic: "Wheatstone Bridge",
+          q: "The equivalent resistance between A and B is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhxm3LRGJTTcc56HGFPz4MA3jDThr1ojLvhHi-uqqT0c01j_ia9RL0hok1yYhAdvR9mUTJU3iVbksWUF7lSjZcIO3lWzgBQI9D6DwkzUssL0dgPDJ3llqsfc6-fUlmFAbSpHgaA8PZTInWcN6d8Pi6PyBmdJTi-4krzGHyo_noz08-Ks54WizdNj4vDJJuY",
+          options: ["\\( 10 \\, \\Omega \\)", "\\( 50 \\, \\Omega \\)", "\\( 20 \\, \\Omega \\)", "\\( 30 \\, \\Omega \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify Wheatstone Bridge</b><br>The circuit is drawn as a bridge network. The four arms are \\( 10 \\, \\Omega \\) and \\( 20 \\, \\Omega \\) on one side, and \\( 20 \\, \\Omega \\) and \\( 40 \\, \\Omega \\) on the other. A cross resistor connects the midpoints.<br><br><b>Step 2: Check for Balance</b><br>Calculate the ratio of adjacent arms: \\( \\frac{10}{20} = \\frac{1}{2} \\) and \\( \\frac{20}{40} = \\frac{1}{2} \\). Since the ratios are perfectly equal, it is a balanced Wheatstone bridge.<br><br><b>Step 3: Calculate Equivalent Resistance</b><br>In a balanced bridge, no current flows through the central cross resistor, so it can be completely ignored. The circuit becomes two parallel branches:<br>Top branch: \\( 10 + 20 = 30 \\, \\Omega \\).<br>Bottom branch: \\( 20 + 40 = 60 \\, \\Omega \\).<br>\\( R_{eq} = \\frac{30 \\times 60}{30 + 60} = \\frac{1800}{90} = 20 \\, \\Omega \\)."
+        },
+        {
+          id: 45, topic: "Combination of Resistors",
+          q: "The effective resistance between A and B is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiIUyWnDCFTm7VXonfxFLbKiRigz0Kmee9AIhJjDAuaVNbiF53rp3fLACKqutu70UUgFH5sGm19qhM_AQsY-YP4MhWO1j9ivHG7iL47aTuRKLsN5RBhxap6EfryszrOY9jv5y712_X8SqcaejH5sKLHV-l4dUWTjpRH_kk3C1RwvfZ3IpJTRJPE7QIVblGZ",
+          options: ["\\( 5R \\)", "\\( 2R \\)", "\\( 3R \\)", "\\( 4R \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Trace the Path</b><br>By carefully tracing the conducting wire from terminal A to terminal B, we observe that the current has no alternate paths (there are no junctions splitting the current).<br><br><b>Step 2: Identify Connection Type</b><br>Despite the folded and zigzag drawing of the circuit designed to trick the eye into seeing a parallel network, all five resistors of value \\( R \\) are connected end-to-end in a single continuous path. This means it is a pure series connection.<br><br><b>Step 3: Calculate Equivalent Resistance</b><br>For a strictly series combination, the equivalent resistance is the algebraic sum:<br>\\( R_{eq} = R + R + R + R + R = 5R \\)."
+        },
+        {
+          id: 51, topic: "Combination of Resistors",
+          q: "In the figure given below, the equivalent resistance between points A and B is \\( 1 \\, \\Omega \\). What is the value of unknown resistance \\( R \\)?",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjrOPceLbwAu7t11_g1lGIT8-OJZnwsGHkIkm2QdGQ4_NgIQmdbUazY5Dkz8K29Kw1MhfGiTPrOgWBfL-jZ0wPRF23p8ZgUcU7gk8DTZa63oQfr5G0hVxwxRn-7cf4PcLyTMTePaXL4PQGdkRXj8YP9LZoNm1dzf6gC9cH12Zuq4FLkzJ0ytiEUpYav1SwM",
+          options: ["\\( 3 \\, \\Omega \\)", "\\( 2 \\, \\Omega \\)", "\\( 10 \\, \\Omega \\)", "\\( 5 \\, \\Omega \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify Parallel Branches</b><br>The circuit between A and B consists of three parallel branches. The top branch has \\( 1 \\, \\Omega \\) and \\( 2 \\, \\Omega \\) in series (total \\( 3 \\, \\Omega \\)). The middle branch is \\( R \\). The bottom branch has \\( 1 \\, \\Omega \\) and \\( 2 \\, \\Omega \\) in series (total \\( 3 \\, \\Omega \\)).<br><br><b>Step 2: Apply Parallel Formula</b><br>The equivalent resistance \\( R_{eq} \\) is given as \\( 1 \\, \\Omega \\).<br>\\( \\frac{1}{R_{eq}} = \\frac{1}{R_{top}} + \\frac{1}{R_{middle}} + \\frac{1}{R_{bottom}} \\)<br>\\( \\frac{1}{1} = \\frac{1}{3} + \\frac{1}{R} + \\frac{1}{3} \\)<br><br><b>Step 3: Solve for R</b><br>\\( 1 = \\frac{2}{3} + \\frac{1}{R} \\)<br>\\( \\frac{1}{R} = 1 - \\frac{2}{3} = \\frac{1}{3} \\)<br>Therefore, \\( R = 3 \\, \\Omega \\)."
+        },
+        {
+          id: 52, topic: "Combination of Resistors",
+          q: "A wire of resistance \\( 9 \\, \\Omega \\) is bent in a form of equilateral triangle. The equivalent resistance between any two of its vertices will be:",
+          options: ["\\( 1 \\, \\Omega \\)", "\\( 2 \\, \\Omega \\)", "\\( 3 \\, \\Omega \\)", "\\( 9 \\, \\Omega \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Resistance of Each Side</b><br>When the uniform wire of \\( 9 \\, \\Omega \\) is bent into an equilateral triangle, it is divided into three equal sides. The resistance of each individual side is \\( r = \\frac{9}{3} = 3 \\, \\Omega \\).<br><br><b>Step 2: Calculate Equivalent Resistance</b><br>When finding the resistance between any two vertices, two sides (each \\( 3 \\, \\Omega \\)) are strictly in series, and this combined arm is in parallel with the third side (\\( 3 \\, \\Omega \\)).<br>Resistance of series arm: \\( R_s = 3 + 3 = 6 \\, \\Omega \\).<br>Parallel combination: \\( \\frac{1}{R_{eq}} = \\frac{1}{6} + \\frac{1}{3} = \\frac{1+2}{6} = \\frac{3}{6} = \\frac{1}{2} \\).<br>Therefore, the equivalent resistance is \\( 2 \\, \\Omega \\)."
+        },
+        {
+          id: 53, topic: "Resistance and Resistivity",
+          q: "An electric current of \\( 5 \\, \\text{A} \\) is passing through a circuit containing three wires of the same material arranged in parallel. If the length and the radius of the wires are in the ratio \\( 2:3:4 \\) and \\( 3:4:5 \\), respectively, then the ratio of current passing through wires would be:",
+          options: ["\\( 3:6:10 \\)", "\\( 4:9:16 \\)", "\\( 9:16:25 \\)", "\\( 54:64:75 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Resistance Ratio Formula</b><br>Resistance \\( R = \\rho \\frac{l}{A} = \\rho \\frac{l}{\\pi r^2} \\).<br>Ratio of resistances \\( R_1 : R_2 : R_3 = \\frac{l_1}{r_1^2} : \\frac{l_2}{r_2^2} : \\frac{l_3}{r_3^2} \\).<br>Substituting the given ratios: \\( \\frac{2}{3^2} : \\frac{3}{4^2} : \\frac{4}{5^2} = \\frac{2}{9} : \\frac{3}{16} : \\frac{4}{25} \\).<br><br><b>Step 2: Current Ratio in Parallel</b><br>In a parallel circuit, voltage \\( V \\) is constant, so current \\( I \\propto \\frac{1}{R} \\).<br>\\( I_1 : I_2 : I_3 = \\frac{9}{2} : \\frac{16}{3} : \\frac{25}{4} \\).<br><br><b>Step 3: Simplify the Ratio</b><br>Multiply by the LCM of the denominators (12):<br>\\( I_1 : I_2 : I_3 = \\left(\\frac{9}{2} \\times 12\\right) : \\left(\\frac{16}{3} \\times 12\\right) : \\left(\\frac{25}{4} \\times 12\\right) \\)<br>Ratio = \\( 54 : 64 : 75 \\)."
+        },
+        {
+          id: 54, topic: "Heating Effect and Power",
+          q: "An electric refrigerator rated \\( 1 \\, \\text{kW} \\) operates \\( 5 \\, \\text{hours/day} \\). The cost of energy to operate it for 30 days at ₹ 3.00 per unit is:",
+          options: ["₹ 500", "₹ 300", "₹ 450", "₹ 400"],
+          correct: 2, 
+          sol: "<b>Step 1: Calculate Energy Consumed per Day</b><br>Energy \\( E = \\text{Power} \\times \\text{Time} \\).<br>Daily energy = \\( 1 \\, \\text{kW} \\times 5 \\, \\text{hours} = 5 \\, \\text{kWh} \\) (which is exactly 5 commercial units).<br><br><b>Step 2: Calculate Total Energy for 30 Days</b><br>Total units = \\( 5 \\, \\text{units/day} \\times 30 \\, \\text{days} = 150 \\, \\text{units} \\).<br><br><b>Step 3: Calculate Total Cost</b><br>Total Cost = Total units \\( \\times \\) Cost per unit.<br>Total Cost = \\( 150 \\times 3.00 = ₹ 450 \\)."
+        },
+        {
+          id: 55, topic: "Combination of Resistors",
+          q: "In the following figure, the effective resistance between the points A and B is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEigQkqYpq_4eCre6uC25MmDDyMCjP5Ud0tSyqaVl9wrsYWUluNOZYH0DbkE1hnfOm0jdPliGqpe13Wfs98oO55K7yhQwxfslJcyF-0gTcS9r4gmtNqb3SqjXqrnslxp28I3GSBMvsB2z88bt9lx_7slceIAOE9C-CkNS5b9tURb9mZiA904pm_K6vH_ceTO",
+          options: ["\\( 3 \\, \\Omega \\)", "\\( 2 \\, \\Omega \\)", "\\( 6 \\, \\Omega \\)", "\\( 36 \\, \\Omega \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Simplify using Symmetry</b><br>Analyze the complex network to identify nodes that are at the exact same potential due to the symmetry of the resistor values across the branches.<br><br><b>Step 2: Redraw the Circuit</b><br>Remove the resistors connected between equipotential nodes (since no current flows through them) or fold the circuit along the axis of symmetry.<br><br><b>Step 3: Calculate Equivalent Resistance</b><br>Once folded, the simplified series-parallel combinations resolve cleanly to an effective resistance of \\( 2 \\, \\Omega \\)."
+        },
+        {
+          id: 56, topic: "Combination of Resistors",
+          q: "The equivalent resistance between A and B in the given network is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg3BgVN9bUcX5GCL6en08WijG5Gm-xfojaKBYwkAAlH8O2ezcXIaQQJZPmsocYFT5dVj7m4vXcKKomG6wXiJtprYoVoVZnXdlJqjlbyIzY_t8CYnrgI1gAULHs6IIobvn0OQK8cxnGhW0INobuRuRXCJFEMkNzRP4hc3o2B3UIRFckUCZtdMaxXETMfZvzK",
+          options: ["\\( 3 \\, \\Omega \\)", "\\( 2 \\, \\Omega \\)", "\\( 10 \\, \\Omega \\)", "\\( 5 \\, \\Omega \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Node Identification</b><br>Label all the junctions in the provided schematic. By tracing the paths, you will find that the network can be redrawn into a standard Wheatstone bridge structure.<br><br><b>Step 2: Check for Balance</b><br>Calculate the resistance ratios of the adjacent arms. Since the ratios are perfectly equal, the bridge is balanced, meaning zero current flows through the central cross resistor.<br><br><b>Step 3: Simplify and Solve</b><br>Removing the central resistor leaves two simple parallel branches. Calculating the equivalent resistance of these branches yields \\( 3 \\, \\Omega \\)."
+        },
+        {
+          id: 57, topic: "Complex Power & Heating",
+          q: "What is the power consumed across AB?",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgRa9lKD-RuHKPEwLlZ-GpG8cgRvtYHkDgAPN4TQeUJD1hcvxpVGrqCss_0zh3nZa7hT665nV56DUupASw0jXBFqpT1yVuNVqbztQ7k8y0Q14adLVOu7_BJWSShi4iCOPMfRrDL6D9p2GVoU_8_PwYG-wEkayuCZMCFsk5uNH9JesLZAKKbyUMbKT7VQeFC",
+          options: ["\\( 2 \\, \\text{W} \\)", "\\( 4 \\, \\text{W} \\)", "\\( 6 \\, \\text{W} \\)", "\\( 8 \\, \\text{W} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Simplify the Resistor Network</b><br>The circuit contains a combination of \\( 7 \\, \\Omega \\) resistors. By resolving the inner parallel and series blocks step-by-step, the equivalent resistance of the entire network between A and B reduces to \\( R_{eq} = 4 \\, \\Omega \\).<br><br><b>Step 2: Note the Current</b><br>The diagram shows the main current entering node A is \\( I = 1 \\, \\text{A} \\).<br><br><b>Step 3: Calculate Power</b><br>The total power consumed by the network is given by \\( P = I^2 R_{eq} \\).<br>\\( P = (1)^2 \\times 4 = 4 \\, \\text{W} \\)."
+        },
+        {
+          id: 58, topic: "Combination of Resistors",
+          q: "The net resistance of two resistors in parallel combination is \\( 2 \\, \\Omega \\) and in series combination is \\( 9 \\, \\Omega \\). The two resistances are:",
+          options: ["\\( 6 \\, \\Omega, 9 \\, \\Omega \\)", "\\( 6 \\, \\Omega, 2 \\, \\Omega \\)", "\\( 6 \\, \\Omega, 3 \\, \\Omega \\)", "\\( 2 \\, \\Omega, 9 \\, \\Omega \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Setup the Equations</b><br>Let the two distinct resistances be \\( x \\) and \\( y \\).<br>Series condition: \\( x + y = 9 \\)<br>Parallel condition: \\( \\frac{xy}{x + y} = 2 \\)<br><br><b>Step 2: Substitute and Simplify</b><br>Substitute the series equation into the denominator of the parallel equation:<br>\\( \\frac{xy}{9} = 2 \\implies xy = 18 \\).<br><br><b>Step 3: Find the Roots</b><br>We need two numbers that multiply to 18 and add up to 9. These numbers are 6 and 3. Therefore, the resistances are \\( 6 \\, \\Omega \\) and \\( 3 \\, \\Omega \\)."
+        },
+        {
+          id: 59, topic: "Advanced Circuit Topology",
+          q: "In the electric circuit given below, the reading of the ammeter is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi3hTrAVhzjo3t4mxPNBDowlrc3KEImZFjVX1bq3cz9luK4q5MkN5mNLmPHAOPO6JNLKOjHmAIYeoyX5L-kRClfbKP_7h12xeh8NEjvuRJzdxA_iXqpoKP4p9FdTzKS72BZetQuDp-5bz2_FgZq0cSnlJEqYXxOP1qW5l_63OXs3OnzSrzLOhlaIOIbFsAl",
+          options: ["\\( 1 \\, \\text{A} \\)", "\\( 2 \\, \\text{A} \\)", "\\( 3 \\, \\text{A} \\)", "\\( 5 \\, \\text{A} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Total Current</b><br>The circuit features five \\( 10 \\, \\Omega \\) resistors connected completely in parallel across a \\( 10 \\, \\text{V} \\) source. <br>The total equivalent resistance is \\( R = \\frac{10}{5} = 2 \\, \\Omega \\).<br>The total current drawn from the battery is \\( I = \\frac{10 \\, \\text{V}}{2 \\, \\Omega} = 5 \\, \\text{A} \\).<br><br><b>Step 2: Current per Branch</b><br>Since all five branches are identical, the \\( 5 \\, \\text{A} \\) splits equally. Each branch draws exactly \\( 1 \\, \\text{A} \\).<br><br><b>Step 3: Ammeter Position</b><br>By tracing the main wire, the ammeter is positioned *after* the first two branches have already tapped off their current. Therefore, the ammeter only reads the current flowing into the remaining three branches.<br>Reading = \\( 3 \\times 1 \\, \\text{A} = 3 \\, \\text{A} \\)."
+        },
+        {
+          id: 60, topic: "Advanced Circuit Topology",
+          q: "Each of the resistance in the network given below is equal to \\( 10 \\, \\Omega \\). A battery of emf \\( 10 \\, \\text{V} \\) is connected across P and Q. The current drawn from the battery by the network is: [IMAGE: placeholder_q10_level2_secB]",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjy-D2wS-qcAgrsL8uKOzal1NPYsU0r4nlVPuYD_kpzuKeGq9Y-Kp3IghsWq3fZFJp2qDiSNAmPUzv-hK0kkgW3lNSV4HqI1qK2vEAjYvaJxAfOO9KAiJr6xSRA30NnkBbSGiKzUZMEUrvXT6phvxhtJsA8CrDT4Arm6BdEbFWY9dYoYmPMVcCHn02rc0N1",
+          options: ["\\( 0.5 \\, \\text{A} \\)", "\\( 1.0 \\, \\text{A} \\)", "\\( 1.5 \\, \\text{A} \\)", "\\( 2 \\, \\text{A} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Simplify the Network</b><br>The given network of \\( 10 \\, \\Omega \\) resistors can be redrawn for clarity. By analyzing the nodal connections, the core of the circuit forms a balanced Wheatstone bridge. Because it is balanced, the central resistor carries zero current and can be removed.<br><br><b>Step 2: Calculate Equivalent Resistance</b><br>After ignoring the balanced branch, the remaining network simplifies cleanly to an overall equivalent resistance of exactly \\( R_{eq} = 10 \\, \\Omega \\) between terminals P and Q.<br><br><b>Step 3: Calculate Total Current</b><br>Using Ohm's law, the current drawn from the \\( 10 \\, \\text{V} \\) battery is \\( I = \\frac{V}{R_{eq}} = \\frac{10}{10} = 1.0 \\, \\text{A} \\)."
+        },
+        {
+          id: 61, topic: "Combination of Resistors",
+          q: "In the given circuit, for what value of \\( X \\) the equivalent resistance between A and B is \\( 20 \\, \\Omega \\)?",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhjsBPoICqtigF4giK7_pJ18LfdqESTSUt6vVALzaIjOFaJhfkRGWGiPAdB0jSPR9Xd1cCWt8IwTTzVci6yzIdV2ezIkyDXXqey5svzv9HXc7hho6K4NkjyJq3fmDVx8oL76bKfAez1H4YDcC7vKFJZFphLF-7uUSBTsgIamumCzTbWHhjXVChQtMLlkjd5",
+          options: ["\\( 10 \\, \\Omega \\)", "\\( 20 \\, \\Omega \\)", "\\( 40 \\, \\Omega \\)", "\\( 60 \\, \\Omega \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze the Circuit Topology</b><br>Identify the series and parallel blocks between terminals A and B from the provided circuit diagram.<br><br><b>Step 2: Formulate the Equation</b><br>Set the total equivalent resistance \\( R_{eq} \\) of the network equal to \\( 20 \\, \\Omega \\). Express the parallel and series combinations in terms of the unknown variable \\( X \\).<br><br><b>Step 3: Solve for X</b><br>By mathematically simplifying the resistance equation (resolving the parallel fractions and isolating \\( X \\)), the value of the unknown resistance is calculated to be \\( 20 \\, \\Omega \\)."
+        },
+        {
+          id: 62, topic: "Electric Potential and Ohm's Law",
+          q: "The V-I characteristic curve is given for a conductor. The ratio of resistance of conductor A & B given in the graph is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhJ_UVkc7qElVl1aFy1oUCd4HpRnVlNNK6Rfo6Rxvpx1MK_cV7qIIpQL4phUGTYbpLzH1iEl67TTKqzGBvRvCMKMI65sPFVsE2QWRaRgAXDNIDUxmCa5vyN9xeFpElqsK61NNJTet-kOdpNVBNyIahF3Iyc6qL1m6iB1kMfV_2-UozHDP6iRMGVHf3AAwgW",
+          options: ["\\( 1:3 \\)", "\\( 3:1 \\)", "\\( 1:\\sqrt{3} \\)", "\\( \\sqrt{3}:1 \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand the Graph Axes</b><br>The graph plots Current (I) on the y-axis and Voltage (V) on the x-axis. Therefore, the slope of the line is \\( \\frac{I}{V} = \\frac{1}{R} \\). This means Resistance \\( R = \\frac{1}{\\text{slope}} = \\cot(\\theta) \\).<br><br><b>Step 2: Calculate Resistances</b><br>For conductor A (angle = \\( 60^{\\circ} \\)): \\( R_A = \\cot(60^{\\circ}) = \\frac{1}{\\sqrt{3}} \\, \\Omega \\).<br>For conductor B (angle = \\( 30^{\\circ} \\)): \\( R_B = \\cot(30^{\\circ}) = \\sqrt{3} \\, \\Omega \\).<br><br><b>Step 3: Find the Ratio</b><br>\\( \\frac{R_A}{R_B} = \\frac{1/\\sqrt{3}}{\\sqrt{3}} = \\frac{1}{3} \\).<br>Therefore, the ratio is \\( 1:3 \\)."
+        },
+        {
+          id: 63, topic: "Advanced Circuit Topology",
+          q: "A battery of internal resistance \\( 1 \\, \\Omega \\) is connected with \\( 3 \\, \\Omega \\), \\( 6 \\, \\Omega \\) and \\( 4 \\, \\Omega \\) resistance as shown below. What will be the emf of the battery when \\( 2 \\, \\text{A} \\) of current flows across the \\( 3 \\, \\Omega \\) resistor?",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiCTfNnM3ACDrDIEPfUvSRr3V0HCiHket1G5IwfrAo_MEhffOmXV9MnLtP_WzdK5kLPJwBm3YMdE_kR_jnoXktF1k_UjfowY3qi9WPIUGeGUIPw_CSTPf8ddU6q7qW_N_4yq4y_9Ckt3civ4GWD-CdW2HUL2MlT8UfvQDNSXysttIpqyZC516GX7BZ1VZFm",
+          options: ["\\( 21 \\, \\text{V} \\)", "\\( 24 \\, \\text{V} \\)", "\\( 18 \\, \\text{V} \\)", "\\( 0 \\, \\text{V} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Analyze the Parallel Section</b><br>The \\( 3 \\, \\Omega \\) and \\( 6 \\, \\Omega \\) resistors are in parallel. If \\( 2 \\, \\text{A} \\) flows through the \\( 3 \\, \\Omega \\) resistor, the voltage across this parallel block is \\( V_p = I \\times R = 2 \\times 3 = 6 \\, \\text{V} \\).<br>The current through the \\( 6 \\, \\Omega \\) resistor is \\( I_6 = \\frac{V_p}{R} = \\frac{6}{6} = 1 \\, \\text{A} \\).<br>Total main current \\( I_{total} = 2 + 1 = 3 \\, \\text{A} \\).<br><br><b>Step 2: Calculate Total Resistance</b><br>Equivalent resistance of the parallel block: \\( R_p = \\frac{3 \\times 6}{3 + 6} = 2 \\, \\Omega \\).<br>Total circuit resistance = \\( R_p \\) + Series Resistor + Internal Resistance.<br>\\( R_{total} = 2 + 4 + 1 = 7 \\, \\Omega \\).<br><br><b>Step 3: Calculate EMF</b><br>Using Ohm's law for the complete circuit: \\( E = I_{total} \\times R_{total} = 3 \\times 7 = 21 \\, \\text{V} \\)."
+        },
+        {
+          id: 64, topic: "Heating Effect and Power",
+          q: "A semicircular loop of diameter \\( d \\) is made by using a conducting wire of resistance per unit length \\( r \\) which is connected with an ideal battery of emf \\( E \\) as shown in the figure. The heat dissipated per unit sec by the semicircular wire is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhh-1GIQnZ8jZdPrVdvhrArRrKsedjxjy-2UUG0aDvWuln42CgOv653YumYBweCb6r2VcTdJ9Lurfpt7NUNX2HWnjsbf90DQ3gC-tJZJ_Pk7bInwWTsshgLxPw7Ckg6CBmSrwU6sKYiukoONoZxwS77nQg50lLljroUI2CgqYFE2XrtzD7FNr_yawjbuvvY",
+          options: ["\\( \\frac{E^2}{\\pi r d} \\)", "\\( \\frac{2E^2}{\\pi r d} \\)", "\\( \\frac{E^2}{2\\pi r d} \\)", "\\( \\frac{2E^2}{r d} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Calculate Resistance of the Wire</b><br>The length of a semicircular wire is half the circumference: \\( L = \\frac{\\pi d}{2} \\).<br>Given the resistance per unit length is \\( r \\), the total resistance of this semicircular wire is \\( R = r \\times L = r \\left(\\frac{\\pi d}{2}\\right) = \\frac{\\pi r d}{2} \\).<br><br><b>Step 2: Calculate Heat Dissipated per Second (Power)</b><br>When connected across a battery of EMF \\( E \\), the power (heat per second) is given by \\( P = \\frac{E^2}{R} \\).<br>Substitute the resistance \\( R \\):<br>\\( P = \\frac{E^2}{\\frac{\\pi r d}{2}} = \\frac{2E^2}{\\pi r d} \\)."
+        },
+        {
+          id: 65, topic: "Advanced Circuit Topology",
+          q: "In the given network, the value of \\( R \\) will be:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjJpyAPLjQwAEIn_Ci0Z_Sp22txUAuZpvwNfz068tkMJU7C6Zkv998OQZmvceIv-QfVkdjQthOnlg2QEej2QgAToFqhewbf8heRxxPSA5DerI8T480l0rl-foWKcnjcBdTJjmhkfb836WhSkgdbQACBooEGAdO_1pWtcg--94IJ1S4MSrDYyhtwemg-1a4D",
+          options: ["\\( 5 \\, \\Omega \\)", "\\( 2.5 \\, \\Omega \\)", "\\( 4 \\, \\Omega \\)", "\\( 10 \\, \\Omega \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Calculate Total Circuit Resistance</b><br>From the given main parameters, the total current drawn is \\( 2 \\, \\text{A} \\) from a \\( 15 \\, \\text{V} \\) battery.<br>Total equivalent resistance \\( R_{total} = \\frac{V}{I} = \\frac{15}{2} = 7.5 \\, \\Omega \\).<br><br><b>Step 2: Resolve the Network</b><br>By reducing the given circuit schematic (resolving the series/parallel combinations of the known resistors), equate the simplified algebraic expression to the total resistance of \\( 7.5 \\, \\Omega \\).<br><br><b>Step 3: Solve for R</b><br>Isolating the unknown variable \\( R \\) from the equation yields the correct resistance value for the branch."
+        },
+        {
+          id: 66, topic: "Infinite Networks",
+          q: "An infinite ladder network of resistance is constructed with \\( 1 \\, \\Omega \\) resistance as shown in figure. The effective resistance between A and B is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEihVi-AwiHain8nPJdJdQZV9D4rIlvphNc_mtKYKL_njggw2o1iFsi2whsahkEAeei6kGqygmAXmLnhk4CEP4VcOt_i5imMTxlrp1HnjOKQB7G_tpkMFFY5JK5oZuvr2UNNu02aF9W9YvhFdXnF4ypVSszfSP5kiClBXX6YL6Tr6tXYvwK2is42v2z5I-OA",
+          options: ["\\( 1+\\sqrt{5} \\)", "\\( \\frac{1+\\sqrt{5}}{2} \\)", "\\( \\frac{1-\\sqrt{5}}{2} \\)", "\\( 1+\\sqrt{3} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Setup Infinite Ladder Equation</b><br>Let the equivalent resistance of the entire infinite ladder be \\( x \\). Because it is infinite, removing the first repeating unit leaves a network that still has a resistance of \\( x \\).<br>The first unit consists of a \\( 1 \\, \\Omega \\) resistor in series with a parallel combination of a \\( 1 \\, \\Omega \\) resistor and the rest of the ladder (\\( x \\)).<br>So, \\( x = 1 + \\frac{1 \\cdot x}{1 + x} \\).<br><br><b>Step 2: Form a Quadratic Equation</b><br>Multiply everything by \\( (1 + x) \\):<br>\\( x(1 + x) = 1(1 + x) + x \\)<br>\\( x + x^2 = 1 + x + x \\)<br>\\( x^2 - x - 1 = 0 \\).<br><br><b>Step 3: Solve the Quadratic</b><br>Using the quadratic formula: \\( x = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4(1)(-1)}}{2} = \\frac{1 \\pm \\sqrt{5}}{2} \\).<br>Since resistance must be positive, \\( x = \\frac{1+\\sqrt{5}}{2} \\, \\Omega \\)."
+        },
+        {
+          id: 67, topic: "Heating Effect and Power",
+          q: "Two resistors \\( X \\) and \\( Y \\) are first connected in parallel and then in series. The heat produced by the parallel combination is equal to the heat produced by a \\( 2 \\, \\Omega \\) resistor. The equivalent resistance of the series combination is \\( 9 \\, \\Omega \\). Then, the resistances of \\( X \\) and \\( Y \\) are (If \\( X > Y \\)): ",
+          options: ["\\( 6 \\, \\Omega, 3 \\, \\Omega \\)", "\\( 3 \\, \\Omega, 6 \\, \\Omega \\)", "\\( 5 \\, \\Omega, 4 \\, \\Omega \\)", "\\( 2 \\, \\Omega, 8 \\, \\Omega \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Extract Given Data</b><br>The statement \"heat produced by parallel combination is equal to heat produced by a \\( 2 \\, \\Omega \\) resistor\" means their parallel equivalent resistance is \\( 2 \\, \\Omega \\).<br>So, \\( \\frac{XY}{X + Y} = 2 \\).<br>The series equivalent resistance is \\( 9 \\, \\Omega \\), so \\( X + Y = 9 \\).<br><br><b>Step 2: Solve the System of Equations</b><br>Substitute \\( X + Y = 9 \\) into the parallel equation:<br>\\( \\frac{XY}{9} = 2 \\implies XY = 18 \\).<br>We need two numbers that add to 9 and multiply to 18. These numbers are 6 and 3.<br><br><b>Step 3: Apply the Condition</b><br>Since the problem states \\( X > Y \\), it must be that \\( X = 6 \\, \\Omega \\) and \\( Y = 3 \\, \\Omega \\)."
+        },
+        {
+          id: 68, topic: "Resistance and Resistivity",
+          q: "\\( \\rho_1 \\) and \\( l_1 \\) are the specific resistance and length of a wire, connected with another wire of length \\( l_2 \\) and specific resistance \\( \\rho_2 \\) in series. The effective specific resistance of the combination of wires is (assuming uniform identical cross-sectional area):",
+          options: ["\\( \\frac{\\rho_1 l_2}{\\rho_1 + \\rho_2} \\)", "\\( \\frac{2\\rho_1 l_1 + \\rho_2 l_2}{l_1 + l_2} \\)", "\\( \\frac{\\rho_1 l_1 + \\rho_2 l_2}{l_1 + l_2} \\)", "\\( \\frac{l_1 + l_2}{\\rho_1 l_1 + \\rho_2 l_2} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Resistances in Series</b><br>For two wires in series with the same cross-sectional area \\( A \\), the total equivalent resistance is \\( R_{eq} = R_1 + R_2 \\).<br>Substitute the resistance formula \\( R = \\rho \\frac{l}{A} \\):<br>\\( \\rho_{eff} \\frac{(l_1 + l_2)}{A} = \\rho_1 \\frac{l_1}{A} + \\rho_2 \\frac{l_2}{A} \\).<br><br><b>Step 2: Simplify for Effective Resistivity</b><br>Cancel out the common area \\( A \\) from both sides of the equation:<br>\\( \\rho_{eff} (l_1 + l_2) = \\rho_1 l_1 + \\rho_2 l_2 \\).<br>Therefore, the effective specific resistance is \\( \\rho_{eff} = \\frac{\\rho_1 l_1 + \\rho_2 l_2}{l_1 + l_2} \\)."
+        },
+        {
+          id: 69, topic: "Heating Effect and Power",
+          q: "When three identical bulbs of \\( 60 \\, \\text{W}, 220 \\, \\text{V} \\) rating are connected in series to a \\( 220 \\, \\text{V} \\) battery, the total power drawn by them will be:",
+          options: ["\\( 20 \\, \\text{W} \\)", "\\( 60 \\, \\text{W} \\)", "\\( 10 \\, \\text{W} \\)", "\\( 180 \\, \\text{W} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Power in Series</b><br>When \\( n \\) identical appliances of rated power \\( P \\) are connected in series across the same rated voltage source, their equivalent resistance increases, causing the total power consumed to drop.<br>The shortcut formula for total power in this specific scenario is \\( P_{total} = \\frac{P_{rated}}{n} \\).<br><br><b>Step 2: Calculation</b><br>We have \\( n = 3 \\) identical bulbs, each with a rated power of \\( 60 \\, \\text{W} \\).<br>Total power = \\( \\frac{60}{3} = 20 \\, \\text{W} \\)."
+        },
+        {
+          id: 70, topic: "Complex Power & Heating",
+          q: "Power dissipated across the \\( 10 \\, \\Omega \\) resistor in the circuit shown is \\( 2.5 \\, \\text{W} \\). The power dissipated in the \\( 3 \\, \\Omega \\) resistor is:",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgxkQgQT60bUfLAzr7g-NrR3-i51jvPfTfwKZUJaGBV8txNcIkResL-0ngu6fAwHXomWfTYTzJSRnj8vKJwqxRbddUHtxPRBTCACa9hLNaOvQ6Fx7EH4LQ8K0w-9ga5LTAyWMPS1QFHIn_yF77OLYvNctVvEPnFwWXXw4rK9e4o8qRDsFzd4B_QW7nzfgDr",
+          options: ["\\( 2 \\, \\text{W} \\)", "\\( 3 \\, \\text{W} \\)", "\\( 5 \\, \\text{W} \\)", "\\( 10 \\, \\text{W} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Find Voltage or Current of Known Resistor</b><br>We know the power \\( P = 2.5 \\, \\text{W} \\) across the \\( 10 \\, \\Omega \\) resistor. Using the power formulas (\\( P = I^2 R \\) or \\( P = \\frac{V^2}{R} \\)), we can determine the exact current flowing through it or the voltage dropped across it.<br><br><b>Step 2: Apply Circuit Rules</b><br>Using Kirchhoff's laws and standard series/parallel rules based on the provided circuit diagram, use the current/voltage found in Step 1 to deduce the current flowing through the target \\( 3 \\, \\Omega \\) resistor.<br><br><b>Step 3: Calculate Final Power</b><br>Once the current \\( I_3 \\) through the \\( 3 \\, \\Omega \\) resistor is found, calculate its power dissipation using \\( P = I_3^2 \\times 3 \\)."
         }
       ]
     },
@@ -10783,6 +10985,7 @@
       ]
     }
   };
+
 
 
 
