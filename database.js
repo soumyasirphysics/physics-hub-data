@@ -6,7 +6,7 @@
     // ==========================================
     "Electricity": { 
       classTarget: "Class 10", 
-      totalQs: 40, 
+      totalQs: 65, 
       topics: ["Electric Charge and Current", 
         "Electric Potential and Ohm's Law", 
         "Resistance and Resistivity", 
@@ -14,7 +14,6 @@
         "Combination of Resistors",
         "Wheatstone Bridge",
         "Advanced Circuit Topology",
-        "Symmetry in Combinations",
         "Infinite Networks",
         "Complex Power & Heating"],
       questions: [
@@ -10985,6 +10984,7 @@
       ]
     }
   };
+
 
 
 
