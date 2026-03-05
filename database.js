@@ -407,7 +407,7 @@
         },
         {
           id: 60, topic: "Advanced Circuit Topology",
-          q: "Each of the resistance in the network given below is equal to \\( 10 \\, \\Omega \\). A battery of emf \\( 10 \\, \\text{V} \\) is connected across P and Q. The current drawn from the battery by the network is: [IMAGE: placeholder_q10_level2_secB]",
+          q: "Each of the resistance in the network given below is equal to \\( 10 \\, \\Omega \\). A battery of emf \\( 10 \\, \\text{V} \\) is connected across P and Q. The current drawn from the battery by the network is:",
           imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjy-D2wS-qcAgrsL8uKOzal1NPYsU0r4nlVPuYD_kpzuKeGq9Y-Kp3IghsWq3fZFJp2qDiSNAmPUzv-hK0kkgW3lNSV4HqI1qK2vEAjYvaJxAfOO9KAiJr6xSRA30NnkBbSGiKzUZMEUrvXT6phvxhtJsA8CrDT4Arm6BdEbFWY9dYoYmPMVcCHn02rc0N1",
           options: ["\\( 0.5 \\, \\text{A} \\)", "\\( 1.0 \\, \\text{A} \\)", "\\( 1.5 \\, \\text{A} \\)", "\\( 2 \\, \\text{A} \\)"],
           correct: 1, 
@@ -620,7 +620,7 @@
         },
         {
           id: 17, topic: "Resolution & Resultant",
-          q: "Two forces (shown in figure) act on a body simultaneously. Among the given options which force when added will give resultant in North-East direction? [Image showing two forces: 4N acting North and 3N acting East]",
+          q: "Two forces (shown in figure) act on a body simultaneously. Among the given options which force when added will give resultant in North-East direction?",
           imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj5TevDmgm9ZuUb-R-7vv8tIcGw1OhVWnUFdK5UO6Nbq4d6sWlB64sYgrgQENEImW7v0djFCoP2Im9x5CmWZlUX43CT1XUBPCdBfFbM-VJd8wAjUU5duHWuNKMJw_6ZrBxdMSoA0QOiaSDNPoDhAz-yY3uAABRaRSaQb924DHDVq2qBbM-EwQBsMmzNhbyN",
           options: ["(1) 1 N in North direction", "(2) 1 N in East direction", "(3) 3 N in West direction", "(4) 1 N in North-East direction"],
           correct: 1, 
@@ -1631,7 +1631,7 @@
         },
         {
           id: 80, topic: "Relative Motion",
-          q: "A car is standing 200m behind a bus, which is also at rest. The two start moving at the same instant but with different forward accelerations. The bus has acceleration 2 \\( \\text{m/s}^2 \\) and the car has acceleration 4 \\( \\text{m/s}^2 \\). The car will catch up with the bus after time: [Image of car and bus]",
+          q: "A car is standing 200m behind a bus, which is also at rest. The two start moving at the same instant but with different forward accelerations. The bus has acceleration 2 \\( \\text{m/s}^2 \\) and the car has acceleration 4 \\( \\text{m/s}^2 \\). The car will catch up with the bus after time:",
           options: ["(1) \\( \\sqrt{120} \\text{s} \\)", "(2) 15 s", "(3) \\( \\sqrt{110} \\text{s} \\)", "(4) \\( 10\\sqrt{2} \\text{s} \\)"],
           correct: 3, 
           sol: "Using relative motion, let the car be catching up relative to the bus.<br>Relative initial velocity \\( u_{rel} = 0 \\).<br>Relative acceleration \\( a_{rel} = a_{car} - a_{bus} = 4 - 2 = 2 \\, \\text{m/s}^2 \\).<br>The relative distance to cover is \\( S_{rel} = 200 \\, \\text{m} \\).<br>Using \\( S_{rel} = u_{rel}t + \\frac{1}{2}a_{rel}t^2 \\)<br>\\( \\implies 200 = 0 + \\frac{1}{2}(2)t^2 \\)<br>\\( \\implies 200 = t^2 \\implies t = \\sqrt{200} = 10\\sqrt{2} \\, \\text{s} \\)."
@@ -3338,7 +3338,6 @@
         },
         {
           id: 37, topic: "Inelastic Collisions",
-          imgUrl: "INSERT_IMAGE_LINK_HERE",
           q: "A 6.0 kg mass is moving to the right at 10 m/s. A 0.25 kg mass is fired towards left at the larger mass. What speed (v) must the smaller mass have to completely stop both masses?",
           options: ["(1) 4.2 m/s", "(2) 15 m/s", "(3) 150 m/s", "(4) 240 m/s"],
           correct: 3, 
@@ -5611,7 +5610,7 @@
         {
           id: 32, topic: "Spring-Mass Systems",
           imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjsA13MfUIU3rWQ7m45A8yXAcQkQ3ap-b7lgpDWsBVfJi9eBox8BXamderNkDIS41PZ935Kc5YD_48gnEioNJqTu0G0AdXOtv4Na4xqcp205zJihaf4zoZggR3kXt8yZHnMZi9JJnTkGaqA28BugOCOyDGe5nzIsacvoMtLS8ol3jZa4GLPqIw5iQjH2VWZ",
-          q: "A mass is suspended separately by two different springs in successive order then time periods is \\( t_1 \\) and \\( t_2 \\) respectively. If its is connected by both spring in parallel, then time period is \\( t_0 \\) the correct relation is :- [Image showing two springs in parallel holding a mass]",
+          q: "A mass is suspended separately by two different springs in successive order then time periods is \\( t_1 \\) and \\( t_2 \\) respectively. If its is connected by both spring in parallel, then time period is \\( t_0 \\) the correct relation is :-",
           options: ["(1) \\( {t_0}^2={t_1}^2+{t_2}^2 \\)", "(2) \\( t_0^{-2}=t_1^{-2}+t_2^{-2} \\)", "(3) \\( {t_0}^{-1}={t_1}^{-1}+{t_2}^{-1} \\)", "(4) \\( t_0=t_1+t_2 \\)"],
           correct: 1, 
           sol: "<b>Step 1: Express spring constants via time periods</b><br>Time period \\( T = 2\\pi\\sqrt{m/k} \\implies k = \\frac{4\\pi^2 m}{T^2} \\).<br>Thus, \\( k_1 = \\frac{4\\pi^2 m}{t_1^2} \\) and \\( k_2 = \\frac{4\\pi^2 m}{t_2^2} \\).<br><br><b>Step 2: Equivalent constant for parallel springs</b><br>For springs in parallel, the equivalent stiffness is additive: \\( k_{eq} = k_1 + k_2 \\).<br><br><b>Step 3: Substitute and simplify</b><br>The new time period \\( t_0 \\) satisfies \\( k_{eq} = \\frac{4\\pi^2 m}{t_0^2} \\).<br>Therefore, \\( \\frac{4\\pi^2 m}{t_0^2} = \\frac{4\\pi^2 m}{t_1^2} + \\frac{4\\pi^2 m}{t_2^2} \\).<br>Dividing out the common terms yields \\( \\frac{1}{t_0^2} = \\frac{1}{t_1^2} + \\frac{1}{t_2^2} \\), which is \\( t_0^{-2} = t_1^{-2} + t_2^{-2} \\)."
@@ -10984,6 +10983,7 @@
       ]
     }
   };
+
 
 
 
