@@ -1,5 +1,297 @@
 // --- MOCK DATABASE (REAL DATA WITH LATEX) ---
   const chapterDatabase = {
+
+    // ==========================================
+    // CHAPTER: Current Electricity for Class 10
+    // ==========================================
+    "Electricity": { 
+      classTarget: "Class 10", 
+      totalQs: 40, 
+      topics: ["Electric Charge and Current", "Electric Potential and Ohm's Law", "Resistance and Resistivity", "Heating Effect and Power"],
+      questions: [
+        {
+          id: 1, topic: "Electric Charge and Current",
+          q: "The number of electrons constituting \\( 10 \\, \\text{C} \\) of charge is:",
+          options: ["\\( 6.25 \\times 10^{24} \\)", "\\( 6.25 \\times 10^{19} \\)", "\\( 6.0 \\times 10^{25} \\)", "\\( 6.0 \\times 10^{19} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Quantization of Charge Formula</b><br>According to the quantization of charge principle, the total charge is \\( Q = ne \\).<br><b>Step 2: Substitute Values</b><br>Given charge \\( Q = 10 \\, \\text{C} \\) and elementary charge \\( e = 1.6 \\times 10^{-19} \\, \\text{C} \\).<br>\\( n = \\frac{Q}{e} = \\frac{10}{1.6 \\times 10^{-19}} \\).<br><b>Step 3: Calculation</b><br>\\( n = \\frac{10}{1.6} \\times 10^{19} = 6.25 \\times 10^{19} \\) electrons."
+        },
+        {
+          id: 2, topic: "Electric Charge and Current",
+          q: "A current of \\( 0.5 \\, \\text{A} \\) is drawn by a filament of an electric bulb for \\( 60 \\, \\text{s} \\). The amount of electric charge that flows through the circuit is:",
+          options: ["\\( 30.0 \\, \\text{C} \\)", "\\( 300 \\, \\text{C} \\)", "\\( 3.00 \\, \\text{C} \\)", "\\( 30.0 \\, \\mu\\text{C} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Current Formula</b><br>Electric current is defined as the rate of flow of charge: \\( I = \\frac{Q}{t} \\).<br><b>Step 2: Calculate Charge</b><br>Rearranging the formula gives \\( Q = I \\times t \\).<br>Given current \\( I = 0.5 \\, \\text{A} \\) and time \\( t = 60 \\, \\text{s} \\).<br>\\( Q = 0.5 \\times 60 = 30.0 \\, \\text{C} \\)."
+        },
+        {
+          id: 3, topic: "Electric Potential and Ohm's Law",
+          q: "The work done in moving a charge of \\( 2 \\, \\text{C} \\) across two points having a potential difference of \\( 12 \\, \\text{V} \\) is:",
+          options: ["\\( 42 \\, \\text{J} \\)", "\\( 24 \\, \\text{J} \\)", "\\( 12 \\, \\text{J} \\)", "\\( 20 \\, \\text{J} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Potential Difference Formula</b><br>The potential difference \\( V \\) between two points is the work done \\( W \\) per unit charge \\( Q \\): \\( V = \\frac{W}{Q} \\).<br><b>Step 2: Calculate Work Done</b><br>Rearranging the formula gives \\( W = V \\times Q \\).<br>Given \\( V = 12 \\, \\text{V} \\) and \\( Q = 2 \\, \\text{C} \\).<br>\\( W = 12 \\times 2 = 24 \\, \\text{J} \\)."
+        },
+        {
+          id: 4, topic: "Electric Potential and Ohm's Law",
+          q: "If \\( 50 \\, \\text{J} \\) of work must be done to move an electric charge of \\( 2 \\, \\text{C} \\) from a point, where the potential is \\( -10 \\, \\text{V} \\) to another point where the potential is \\( V \\) volt. Then, the value of \\( V \\) is:",
+          options: ["\\( 5 \\, \\text{V} \\)", "\\( -15 \\, \\text{V} \\)", "\\( +15 \\, \\text{V} \\)", "\\( +10 \\, \\text{V} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for Work in Moving Charge</b><br>Work done \\( W = Q \\times (V_{final} - V_{initial}) \\).<br><b>Step 2: Substitute Values</b><br>Given \\( W = 50 \\, \\text{J} \\), \\( Q = 2 \\, \\text{C} \\), \\( V_{initial} = -10 \\, \\text{V} \\), and \\( V_{final} = V \\).<br>\\( 50 = 2 \\times (V - (-10)) \\).<br><b>Step 3: Solve for V</b><br>\\( 25 = V + 10 \\)<br>\\( V = 25 - 10 = +15 \\, \\text{V} \\)."
+        },
+        {
+          id: 5, topic: "Resistance and Resistivity",
+          q: "Two wires are made up of two different materials, whose specific resistances are in the ratio \\( 3:2 \\), length \\( 4:3 \\) and area \\( 5:4 \\). The ratio of their resistances is:",
+          options: ["\\( \\frac{5}{8} \\)", "\\( \\frac{8}{5} \\)", "\\( \\frac{10}{8} \\)", "\\( \\frac{8}{10} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Resistance Formula</b><br>The resistance of a wire is given by \\( R = \\rho \\frac{l}{A} \\), where \\( \\rho \\) is the specific resistance.<br><b>Step 2: Setup Ratio Equation</b><br>The ratio of their resistances is \\( \\frac{R_1}{R_2} = \\left(\\frac{\\rho_1}{\\rho_2}\\right) \\times \\left(\\frac{l_1}{l_2}\\right) \\times \\left(\\frac{A_2}{A_1}\\right) \\).<br><b>Step 3: Substitute and Calculate</b><br>Given ratios: \\( \\frac{\\rho_1}{\\rho_2} = \\frac{3}{2} \\), \\( \\frac{l_1}{l_2} = \\frac{4}{3} \\), and \\( \\frac{A_1}{A_2} = \\frac{5}{4} \\implies \\frac{A_2}{A_1} = \\frac{4}{5} \\).<br>\\( \\frac{R_1}{R_2} = \\left(\\frac{3}{2}\\right) \\times \\left(\\frac{4}{3}\\right) \\times \\left(\\frac{4}{5}\\right) = \\frac{12}{6} \\times \\frac{4}{5} = 2 \\times \\frac{4}{5} = \\frac{8}{5} \\)."
+        },
+        {
+          id: 6, topic: "Resistance and Resistivity",
+          q: "The specific resistance (resistivity) of a thick rod of copper as compared to that of a thin wire of copper is:",
+          options: ["More", "Less", "Same", "Depends upon the length and area of the wire"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand Specific Resistance</b><br>Specific resistance, also known as resistivity, is an intrinsic property of the material itself.<br><b>Step 2: Conclusion</b><br>It depends only on the nature of the material and its temperature, not on the physical dimensions like length, thickness, or cross-sectional area. Since both the thick rod and the thin wire are made of the exact same material (copper), their specific resistance remains the <b>same</b>."
+        },
+        {
+          id: 7, topic: "Resistance and Resistivity",
+          q: "If the length of a conductor is doubled without changing its cross-sectional area, then the value of its resistance becomes:",
+          options: ["\\( \\frac{1}{2} \\) time", "4 times", "2 times", "Remains same"],
+          correct: 2, 
+          sol: "<b>Step 1: Resistance Formula</b><br>Resistance is mathematically given by \\( R = \\rho \\frac{l}{A} \\).<br><b>Step 2: Analyze Changes</b><br>If the length \\( l \\) is doubled (\\( l' = 2l \\)) and the area \\( A \\) remains strictly constant, the new resistance is \\( R' = \\rho \\frac{2l}{A} \\).<br><b>Step 3: Conclusion</b><br>Rearranging gives \\( R' = 2 \\left(\\rho \\frac{l}{A}\\right) = 2R \\). Therefore, the resistance becomes exactly 2 times the original value."
+        },
+        {
+          id: 8, topic: "Resistance and Resistivity",
+          q: "If a copper wire is stretched to make it \\( 0.1\\% \\) longer, then the percentage change in its resistance is approximately:",
+          options: ["0.1%", "0.2%", "0.4%", "0.8%"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for Stretched Wire</b><br>When a wire is stretched, its total volume remains constant (as length increases, area decreases). For a stretched wire, resistance varies directly with the square of the length: \\( R \\propto l^2 \\).<br><b>Step 2: Error Approximation</b><br>For very small percentage changes, we can use the approximation formula: \\( \\frac{\\Delta R}{R} \\times 100 = 2 \\times \\left(\\frac{\\Delta l}{l} \\times 100\\right) \\).<br><b>Step 3: Calculate Percentage</b><br>Percentage change in resistance = \\( 2 \\times \\text{Percentage change in length} \\).<br>\\( \\% \\Delta R = 2 \\times 0.1\\% = 0.2\\% \\)."
+        },
+        {
+          id: 9, topic: "Heating Effect and Power",
+          q: "A resistance of \\( 12 \\, \\Omega \\) is connected to a battery of \\( 10 \\, \\text{V} \\). The heat energy in joules generated per minute is:",
+          options: ["\\( 345 \\, \\text{J} \\)", "\\( 415 \\, \\text{J} \\)", "\\( 500 \\, \\text{J} \\)", "\\( 575 \\, \\text{J} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for Heat Energy</b><br>The heat produced by a resistor is given by Joule's Law of Heating in terms of voltage: \\( H = \\frac{V^2}{R} t \\).<br><b>Step 2: Substitute Values</b><br>Given Voltage \\( V = 10 \\, \\text{V} \\), Resistance \\( R = 12 \\, \\Omega \\), and time \\( t = 1 \\text{ minute} = 60 \\, \\text{s} \\).<br>\\( H = \\frac{(10)^2}{12} \\times 60 \\).<br><b>Step 3: Calculation</b><br>\\( H = \\frac{100}{12} \\times 60 = 100 \\times 5 = 500 \\, \\text{J} \\)."
+        },
+        {
+          id: 10, topic: "Heating Effect and Power",
+          q: "A \\( 1500 \\, \\text{W} \\) electric geyser is used everyday for \\( 2 \\, \\text{hrs} \\). Calculate the electrical energy consumed for a day:",
+          options: ["\\( 90 \\, \\text{kWh} \\)", "\\( 3.0 \\, \\text{kWh} \\)", "\\( 7.50 \\, \\text{kWh} \\)", "\\( 10.0 \\, \\text{kWh} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Energy Formula</b><br>Electrical energy consumed is the product of power and time: \\( E = P \\times t \\).<br><b>Step 2: Convert Power to Kilowatts</b><br>Since the options are in kWh, convert power to kW: \\( P = 1500 \\, \\text{W} = \\frac{1500}{1000} \\, \\text{kW} = 1.5 \\, \\text{kW} \\).<br><b>Step 3: Calculate Energy</b><br>Time used per day \\( t = 2 \\, \\text{hours} \\).<br>\\( E = 1.5 \\, \\text{kW} \\times 2 \\, \\text{h} = 3.0 \\, \\text{kWh} \\)."
+        },
+        {
+          id: 11, topic: "Heating Effect and Power",
+          q: "An electric bulb rated \\( 100 \\, \\text{V} \\) and \\( 100 \\, \\text{W} \\), is operated on \\( 110 \\, \\text{V} \\). The power consumed will be:",
+          options: ["\\( 100 \\, \\text{W} \\)", "\\( 120 \\, \\text{W} \\)", "\\( 110 \\, \\text{W} \\)", "\\( 121 \\, \\text{W} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Find the Resistance of the Bulb</b><br>The resistance of the bulb is fixed and depends on its rating. Using the power formula \\( P = \\frac{V^2}{R} \\), we get \\( R = \\frac{V^2}{P} \\).<br>\\( R = \\frac{100 \\times 100}{100} = 100 \\, \\Omega \\).<br><br><b>Step 2: Calculate New Power Consumption</b><br>When connected to a \\( 110 \\, \\text{V} \\) supply, the new power consumed is \\( P' = \\frac{(V')^2}{R} \\).<br>\\( P' = \\frac{110 \\times 110}{100} = \\frac{12100}{100} \\).<br>\\( P' = 121 \\, \\text{W} \\)."
+        },
+        {
+          id: 12, topic: "Heating Effect and Power",
+          q: "Which of the following is the SI unit of electrical power?",
+          options: ["\\( \\text{kJ/s} \\)", "\\( \\text{kWh} \\)", "watt", "\\( \\text{J-s} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Define Power</b><br>Electrical power is the rate at which electrical energy is consumed or dissipated in a circuit. Mathematically, \\( P = \\frac{W}{t} \\).<br><br><b>Step 2: Identify the Unit</b><br>The SI unit of work/energy is the Joule (\\( \\text{J} \\)) and time is seconds (\\( \\text{s} \\)). Therefore, the unit is Joule per second (\\( \\text{J/s} \\)), which is officially named the <b>watt (W)</b> in honor of James Watt.<br><i>Note: \\( \\text{kWh} \\) is the commercial unit of energy, not power.</i>"
+        },
+        {
+          id: 13, topic: "Resistance and Resistivity",
+          q: "Select the odd one out among the following materials based on their electrical properties:",
+          options: ["Mica", "Glass", "Distilled water", "Graphite"],
+          correct: 3, 
+          sol: "<b>Step 1: Analyze the Materials</b><br>Mica, glass, and distilled water are all materials that do not allow electric charges to flow through them easily. They are classified as <b>insulators</b>.<br><br><b>Step 2: Identify the Exception</b><br>Graphite (an allotrope of carbon) has free electrons and is a very good <b>conductor</b> of electricity. Therefore, graphite is the odd one out."
+        },
+        {
+          id: 14, topic: "Resistance and Resistivity",
+          q: "Among the following materials, the electrical resistivity is maximum for:",
+          options: ["Copper", "Ebonite", "Silicon", "Iron"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Resistivity Categories</b><br>Resistivity represents how strongly a material opposes the flow of electric current. <br>Conductors (like Copper and Iron) have very low resistivity (\\( 10^{-8} \\, \\Omega\\text{m} \\)).<br>Semiconductors (like Silicon) have intermediate resistivity.<br>Insulators have extremely high resistivity (\\( 10^{10} \\) to \\( 10^{17} \\, \\Omega\\text{m} \\)).<br><br><b>Step 2: Identify the Insulator</b><br>Ebonite (hard rubber) is a strong insulator and thus possesses the highest electrical resistivity among the given options."
+        },
+        {
+          id: 15, topic: "Electric Potential and Ohm's Law",
+          q: "The kinetic energy of an electron, which is accelerated by a potential difference of \\( 100 \\, \\text{V} \\), is:",
+          options: ["\\( 1.6 \\times 10^{-17} \\, \\text{J} \\)", "\\( 1.6 \\times 10^{-14} \\, \\text{J} \\)", "\\( 1.6 \\times 10^{-10} \\, \\text{J} \\)", "\\( 1.6 \\times 10^{-8} \\, \\text{J} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Kinetic Energy</b><br>When a charge \\( q \\) is accelerated through a potential difference \\( V \\), the electrical work done on it is converted into its kinetic energy. <br>\\( K.E. = q \\times V \\).<br><br><b>Step 2: Substitute Values</b><br>The charge of an electron is \\( q = 1.6 \\times 10^{-19} \\, \\text{C} \\). The potential difference is \\( V = 100 \\, \\text{V} \\).<br>\\( K.E. = (1.6 \\times 10^{-19}) \\times 100 \\).<br>\\( K.E. = 1.6 \\times 10^{-17} \\, \\text{J} \\)."
+        },
+        {
+          id: 16, topic: "Resistance and Resistivity",
+          q: "By increasing the temperature, the specific resistance (resistivity) of a conductor and a semiconductor respectively:",
+          options: ["Increases for both", "Decreases for both", "Increases, decreases", "Decreases, increases"],
+          correct: 2, 
+          sol: "<b>Step 1: Conductor Behavior</b><br>For metallic conductors, as temperature increases, the thermal vibrations of atoms increase, causing more frequent collisions with free electrons. This increases the obstruction to current, meaning resistivity <b>increases</b>.<br><br><b>Step 2: Semiconductor Behavior</b><br>For semiconductors (like Silicon or Germanium), increasing the temperature breaks covalent bonds, releasing significantly more charge carriers (electrons and holes). This massive increase in charge carriers causes their overall resistivity to <b>decrease</b>."
+        },
+        {
+          id: 17, topic: "Electric Potential and Ohm's Law",
+          q: "If \\( 15 \\, \\text{J} \\) of work has to be done to take a charge of \\( 0.01 \\, \\text{C} \\) from point A to point B, the potential difference \\( (V_B - V_A) \\) is:",
+          options: ["\\( 1500 \\, \\text{V} \\)", "\\( -1500 \\, \\text{V} \\)", "\\( 0.15 \\, \\text{V} \\)", "None of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Potential Difference</b><br>The potential difference between two points is defined as the work done per unit charge.<br>\\( V_B - V_A = \\frac{W}{q} \\).<br><br><b>Step 2: Substitute Values</b><br>Given work done \\( W = 15 \\, \\text{J} \\) and charge \\( q = 0.01 \\, \\text{C} \\).<br>\\( V_B - V_A = \\frac{15}{0.01} = \\frac{15}{1/100} \\).<br>\\( V_B - V_A = 1500 \\, \\text{V} \\)."
+        },
+        {
+          id: 18, topic: "Resistance and Resistivity",
+          q: "As the temperature of a metallic resistor is increased, the product of its resistivity and conductivity:",
+          options: ["Increases", "Decreases", "Remains constant", "May increase or decrease"],
+          correct: 2, 
+          sol: "<b>Step 1: Define the Relationship</b><br>Conductivity (\\( \\sigma \\)) is mathematically defined as the exact reciprocal of resistivity (\\( \\rho \\)).<br>\\( \\sigma = \\frac{1}{\\rho} \\).<br><br><b>Step 2: Calculate the Product</b><br>The product of resistivity and conductivity is: \\( \\rho \\times \\sigma = \\rho \\times \\frac{1}{\\rho} = 1 \\).<br>Since this product is always equal to 1, it is entirely independent of temperature or material properties. Thus, it <b>remains constant</b>."
+        },
+        {
+          id: 19, topic: "Heating Effect and Power",
+          q: "A fuse wire used in domestic electrical wiring should inherently possess:",
+          options: ["High resistance and high melting point", "Low resistance and high melting point", "Low resistance and low melting point", "High resistance and low melting point"],
+          correct: 3, 
+          sol: "<b>Step 1: Purpose of a Fuse</b><br>A fuse is a safety device designed to break the circuit (melt) when excessive current flows through it, protecting other appliances.<br><br><b>Step 2: Required Properties</b><br>To generate enough heat quickly during a short circuit (\\( H = I^2Rt \\)), it must have relatively <b>high resistance</b> compared to standard copper wiring.<br>To ensure it breaks the circuit before the wires catch fire, it must melt easily, meaning it needs a <b>low melting point</b>. (Often made of alloys like Lead and Tin)."
+        },
+        {
+          id: 20, topic: "Heating Effect and Power",
+          q: "The metal which can tolerate temperatures of about \\( 3300^{\\circ}\\text{C} \\) without melting, commonly used in electric bulb filaments, is:",
+          options: ["Copper", "Aluminium", "Tungsten", "Iron"],
+          correct: 2, 
+          sol: "<b>Step 1: Application of Electric Heating</b><br>In an incandescent electric bulb, the filament must retain as much generated heat as possible to become very hot and emit light.<br><br><b>Step 2: Identify the Material</b><br>To prevent it from melting at such intense incandescent temperatures, a strong metal with an exceptionally high melting point is required. <b>Tungsten</b> has a melting point of approximately \\( 3380^{\\circ}\\text{C} \\), making it the perfect choice."
+        },
+        {
+          id: 21, topic: "Electric Potential and Ohm's Law",
+          q: "A cell converts:",
+          options: ["Heat energy into mechanical energy", "Electrical energy into mechanical energy", "Electrical energy into sound energy", "Chemical energy into electrical energy"],
+          correct: 3, 
+          sol: "<b>Step 1: Understand the Function of a Cell</b><br>An electrochemical cell is a source of electromotive force (EMF). It produces electrical energy by undergoing internal chemical reactions.<br><b>Step 2: Identify Energy Conversion</b><br>During its operation, the stored chemical energy of the electrolyte and electrodes is converted into the electrical energy that drives current through a circuit. Therefore, it converts chemical energy into electrical energy."
+        },
+        {
+          id: 22, topic: "Resistance and Resistivity",
+          q: "The internal resistance of a cell is the resistance of:",
+          options: ["Electrolyte used in cell", "Electrodes of the cell", "Both electrolyte and electrodes", "None of these"],
+          correct: 2, 
+          sol: "<b>Step 1: Define Internal Resistance</b><br>The internal resistance of a real cell is the obstruction offered to the flow of electric current inside the cell itself.<br><b>Step 2: Identify the Causes</b><br>As charge carriers move through the inside of the cell, they encounter resistance from both the material of the electrodes and the chemical electrolyte solution. Therefore, both contribute to the internal resistance of the cell."
+        },
+        {
+          id: 23, topic: "Resistance and Resistivity",
+          q: "A piece of wire of resistance \\( R \\) is cut into \\( n \\) equal parts. These parts are then connected in parallel. If the equivalent resistance of the parallel combination is \\( R' \\), then the ratio \\( \\frac{R}{R'} \\) is:",
+          options: ["\\( \\frac{1}{n} \\)", "\\( n \\)", "\\( n^2 \\)", "\\( \\frac{1}{n^2} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Resistance of each part</b><br>When a uniform wire of resistance \\( R \\) is cut into \\( n \\) equal parts, the length of each part becomes \\( 1/n \\) of the original length. Since resistance is directly proportional to length (\\( R \\propto l \\)), each part has a resistance of \\( r = \\frac{R}{n} \\).<br><b>Step 2: Equivalent resistance in parallel</b><br>When these \\( n \\) identical parts are connected in parallel, the equivalent resistance \\( R' \\) is given by \\( \\frac{1}{R'} = \\frac{n}{r} \\).<br>Substituting \\( r \\): \\( \\frac{1}{R'} = \\frac{n}{R/n} = \\frac{n^2}{R} \\).<br>So, \\( R' = \\frac{R}{n^2} \\).<br><b>Step 3: Find the Ratio</b><br>The ratio \\( \\frac{R}{R'} = \\frac{R}{R/n^2} = n^2 \\)."
+        },
+        {
+          id: 24, topic: "Resistance and Resistivity",
+          q: "In a circuit containing two unequal resistances connected in parallel:",
+          options: ["Same current will flow in both the resistances", "A large amount of current flows through the large resistor", "Voltage drop across both the resistances will be the same", "Smaller resistance has smaller conductance"],
+          correct: 2, 
+          sol: "<b>Step 1: Rules for Parallel Circuits</b><br>In a parallel combination, the terminals of all resistors are connected to the exact same two common nodes.<br><b>Step 2: Analyze Voltage and Current</b><br>Because they are connected across the same nodes, the potential difference (voltage drop) across all branches is strictly identical, regardless of their resistance values. The current, however, divides inversely proportional to the resistance (\\( I = V/R \\)), meaning more current flows through the smaller resistor."
+        },
+        {
+          id: 25, topic: "Electric Charge and Current",
+          q: "Which of the following is NOT true about an electric charge?",
+          options: ["Charge on a body is an integral multiple of elementary charge", "Charge is a scalar quantity", "Net charge on an isolated system is always conserved", "Charge can be converted into energy and vice versa"],
+          correct: 3, 
+          sol: "<b>Step 1: Analyze Statements</b><br>1. Charge is always quantized (\\( Q = ne \\)). This is true.<br>2. Charge is a fundamental scalar quantity. This is true.<br>3. For an isolated system, the net charge can neither be created nor destroyed. This is true.<br><b>Step 2: Identify the False Statement</b><br>Unlike mass and energy, which are interconvertible (\\( E = mc^2 \\)), electric charge cannot be converted into pure energy, nor can energy be converted into a net electric charge. This makes the fourth statement incorrect."
+        },
+        {
+          id: 26, topic: "Electric Potential and Ohm's Law",
+          q: "The potential at a point \\( 0.1 \\, \\text{m} \\) from an isolated point charge is \\( +100 \\, \\text{V} \\). The nature of the point charge is:",
+          options: ["Positive", "Negative", "Zero", "Either negative or zero"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Potential</b><br>The electric potential \\( V \\) due to a point charge \\( Q \\) at a distance \\( r \\) is given by the formula \\( V = \\frac{kQ}{r} \\).<br><b>Step 2: Determine Sign</b><br>Since the distance \\( r \\) and the electrostatic constant \\( k \\) are inherently positive values, the algebraic sign of the potential \\( V \\) depends entirely on the sign of the source charge \\( Q \\). Because the potential is given as \\( +100 \\, \\text{V} \\) (positive), the point charge must be <b>Positive</b>."
+        },
+        {
+          id: 27, topic: "Electric Potential and Ohm's Law",
+          q: "The work done in moving an electric charge \\( q \\) in an electric circuit does not depend upon:",
+          options: ["The mass of the charge", "The potential difference between two points", "The magnitude of the charge", "All of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Work Done</b><br>In electrostatics, the work done by external forces in moving a charge \\( q \\) between two points is mathematically defined as \\( W = q \\times \\Delta V \\), where \\( \\Delta V \\) is the potential difference between those points.<br><b>Step 2: Identify the Irrelevant Factor</b><br>This specific electrical work depends strictly on the magnitude of the charge (\\( q \\)) and the potential difference (\\( \\Delta V \\)). It is completely independent of the physical mass of the charged particle."
+        },
+        {
+          id: 28, topic: "Heating Effect and Power",
+          q: "Which appliance will consume more energy: a \\( 600 \\, \\text{W} \\) refrigerator working for \\( 2 \\, \\text{hours} \\) or a bulb of \\( 100 \\, \\text{W} \\) working for \\( 14 \\, \\text{hours} \\)?",
+          options: ["Bulb", "Refrigerator", "Both will consume the same energy", "Data is insufficient"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Energy</b><br>Electrical energy consumed is calculated as \\( E = P \\times t \\).<br><b>Step 2: Calculate Refrigerator Energy</b><br>Energy of refrigerator \\( E_{ref} = 600 \\, \\text{W} \\times 2 \\, \\text{h} = 1200 \\, \\text{Wh} \\).<br><b>Step 3: Calculate Bulb Energy</b><br>Energy of bulb \\( E_{bulb} = 100 \\, \\text{W} \\times 14 \\, \\text{h} = 1400 \\, \\text{Wh} \\).<br><b>Step 4: Compare</b><br>Since \\( 1400 \\, \\text{Wh} > 1200 \\, \\text{Wh} \\), the electric bulb will consume more total energy."
+        },
+        {
+          id: 29, topic: "Resistance and Resistivity",
+          q: "A uniform wire of resistance \\( 9 \\, \\Omega \\) is bent in the form of an equilateral triangle. The equivalent resistance between any two of its vertices will be:",
+          options: ["\\( 1 \\, \\Omega \\)", "\\( 2 \\, \\Omega \\)", "\\( 3 \\, \\Omega \\)", "\\( 9 \\, \\Omega \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Resistance of each side</b><br>When the uniform wire of \\( 9 \\, \\Omega \\) is bent into an equilateral triangle, it is divided into three equal sides. The resistance of each individual side is \\( r = \\frac{9}{3} = 3 \\, \\Omega \\).<br><b>Step 2: Calculate Equivalent Resistance</b><br>When finding the resistance between any two vertices, two sides (each \\( 3 \\, \\Omega \\)) are strictly in series, and this combined arm is in parallel with the third side (\\( 3 \\, \\Omega \\)).<br>Resistance of series arm: \\( R_s = 3 + 3 = 6 \\, \\Omega \\).<br>Parallel combination: \\( \\frac{1}{R_{eq}} = \\frac{1}{6} + \\frac{1}{3} = \\frac{1+2}{6} = \\frac{3}{6} = \\frac{1}{2} \\).<br>Therefore, the equivalent resistance \\( R_{eq} = 2 \\, \\Omega \\)."
+        },
+        {
+          id: 30, topic: "Heating Effect and Power",
+          q: "An electric refrigerator rated \\( 1 \\, \\text{kW} \\) operates \\( 5 \\, \\text{hours/day} \\). The cost of electrical energy to operate it for 30 days at ₹ 3.00 per unit is:",
+          options: ["₹ 500", "₹ 300", "₹ 450", "₹ 400"],
+          correct: 2, 
+          sol: "<b>Step 1: Calculate Energy Consumed</b><br>Energy consumed per day \\( = P \\times t = 1 \\, \\text{kW} \\times 5 \\, \\text{h} = 5 \\, \\text{kWh} \\) (which is equal to 5 standard units).<br>Total energy consumed in 30 days \\( = 5 \\, \\text{units/day} \\times 30 \\, \\text{days} = 150 \\, \\text{units} \\).<br><b>Step 2: Calculate Total Cost</b><br>Total commercial cost \\( = \\text{Total units} \\times \\text{Cost per unit} \\).<br>Total cost \\( = 150 \\times 3.00 = 450 \\).<br>Therefore, the total cost is ₹ 450."
+        },
+        {
+          id: 31, topic: "Heating Effect and Power",
+          q: "Four bulbs having powers \\( 25 \\, \\text{W} \\), \\( 40 \\, \\text{W} \\), \\( 60 \\, \\text{W} \\), and \\( 100 \\, \\text{W} \\) are connected in series across a mains supply. Which bulb will have the highest potential difference across it?",
+          options: ["\\( 25 \\, \\text{W} \\) bulb", "\\( 40 \\, \\text{W} \\) bulb", "\\( 60 \\, \\text{W} \\) bulb", "\\( 100 \\, \\text{W} \\) bulb"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify Series Characteristics</b><br>In a series circuit, the current \\( I \\) is strictly the same through all connected components. The potential difference across any component is \\( V = IR \\).<br><b>Step 2: Relate Resistance to Power</b><br>The resistance of a bulb based on its rating is \\( R = \\frac{V_{rated}^2}{P_{rated}} \\). This shows that resistance \\( R \\) is inversely proportional to the power rating \\( P_{rated} \\).<br><b>Step 3: Conclusion</b><br>The bulb with the lowest power rating (\\( 25 \\, \\text{W} \\)) possesses the highest resistance. Since \\( V \propto R \\) in series, it will consequently have the highest potential difference across it."
+        },
+        {
+          id: 32, topic: "Heating Effect and Power",
+          q: "When three identical bulbs of \\( 60 \\, \\text{W}, 220 \\, \\text{V} \\) rating are connected in series to a \\( 220 \\, \\text{V} \\) battery, the total power drawn by them will be:",
+          options: ["\\( 180 \\, \\text{W} \\)", "\\( 60 \\, \\text{W} \\)", "\\( 20 \\, \\text{W} \\)", "\\( 10 \\, \\text{W} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Resistance of a Single Bulb</b><br>The resistance of one bulb is \\( R = \\frac{V^2}{P} \\).<br><b>Step 2: Equivalent Resistance in Series</b><br>When three identical bulbs are connected in series, their equivalent resistance becomes \\( R_{eq} = R + R + R = 3R \\).<br><b>Step 3: Calculate Total Power</b><br>The total power drawn from the same voltage source is \\( P_{total} = \\frac{V^2}{R_{eq}} = \\frac{V^2}{3R} \\).<br>Since \\( \\frac{V^2}{R} = P \\) (original power), we get \\( P_{total} = \\frac{P}{3} \\).<br>Therefore, the total power is \\( \\frac{60}{3} = 20 \\, \\text{W} \\)."
+        },
+        {
+          id: 33, topic: "Heating Effect and Power",
+          q: "Two bulbs \\( P \\) and \\( Q \\) are rated \\( 100 \\, \\text{W}, 220 \\, \\text{V} \\) and \\( 50 \\, \\text{W}, 220 \\, \\text{V} \\) respectively. If they are connected in parallel across a \\( 220 \\, \\text{V} \\) source, the current flowing in the two bulbs \\( P \\) and \\( Q \\) will be respectively:",
+          options: ["\\( \\frac{5}{22} \\, \\text{A}, \\frac{5}{11} \\, \\text{A} \\)", "\\( \\frac{5}{11} \\, \\text{A}, \\frac{5}{22} \\, \\text{A} \\)", "\\( \\frac{10}{11} \\, \\text{A}, \\frac{5}{22} \\, \\text{A} \\)", "\\( \\frac{5}{22} \\, \\text{A}, \\frac{10}{11} \\, \\text{A} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Parallel Voltage</b><br>In a parallel connection, the voltage across each branch is perfectly equal to the source voltage (\\( 220 \\, \\text{V} \\)).<br><b>Step 2: Use the Power Formula</b><br>The current drawn by each bulb is calculated using the formula \\( I = \\frac{P}{V} \\).<br><b>Step 3: Calculate Currents</b><br>For bulb P: \\( I_P = \\frac{100}{220} = \\frac{5}{11} \\, \\text{A} \\).<br>For bulb Q: \\( I_Q = \\frac{50}{220} = \\frac{5}{22} \\, \\text{A} \\)."
+        },
+        {
+          id: 34, topic: "Electric Potential and Ohm's Law",
+          q: "The maximum current that can be drawn from a cell of electromotive force (EMF) \\( 5 \\, \\text{V} \\) and internal resistance \\( 1 \\, \\Omega \\) is:",
+          options: ["\\( 5 \\, \\text{A} \\)", "\\( 2 \\, \\text{A} \\)", "\\( 3 \\, \\text{A} \\)", "Zero"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Cell Current</b><br>The current drawn from a real cell is given by \\( I = \\frac{E}{R + r} \\), where \\( E \\) is the EMF, \\( r \\) is the internal resistance, and \\( R \\) is the external circuit resistance.<br><b>Step 2: Condition for Maximum Current</b><br>Maximum current is drawn when the external resistance \\( R = 0 \\) (a perfect short circuit).<br><b>Step 3: Calculation</b><br>\\( I_{max} = \\frac{E}{r} = \\frac{5 \\, \\text{V}}{1 \\, \\Omega} = 5 \\, \\text{A} \\)."
+        },
+        {
+          id: 35, topic: "Resistance and Resistivity",
+          q: "The specific resistance (resistivity) of a conducting wire depends upon:",
+          options: ["Its length", "Its area of cross-section", "Its mass", "The nature of its material and temperature"],
+          correct: 3, 
+          sol: "<b>Step 1: Distinguish Resistance and Resistivity</b><br>Resistance depends on physical dimensions (length and area). However, specific resistance (resistivity, \\( \\rho \\)) is a fundamental, intrinsic property of the material itself.<br><b>Step 2: Identifying Factors</b><br>It does not depend on the physical dimensions like length, area of cross-section, or mass. It strictly depends on the <b>nature of the material</b> (electron density and relaxation time) and the ambient <b>temperature</b>."
+        },
+        {
+          id: 36, topic: "Electric Charge and Current",
+          q: "Two point charges \\( Q_1 \\) and \\( Q_2 \\) are separated by a distance \\( D \\). If the distance between them is doubled, the electrostatic force between them is:",
+          options: ["Increased by a factor of 2", "Decreased by a factor of 2", "Decreased by a factor of 4", "Remains the same"],
+          correct: 2, 
+          sol: "<b>Step 1: Coulomb's Law</b><br>According to Coulomb's Law, the electrostatic force between two point charges is inversely proportional to the square of the distance between them: \\( F = \\frac{kQ_1Q_2}{D^2} \\). This means \\( F \propto \\frac{1}{D^2} \\).<br><b>Step 2: Apply the Change</b><br>If the initial distance \\( D \\) is doubled to \\( 2D \\), the new force becomes \\( F' \propto \\frac{1}{(2D)^2} = \\frac{1}{4D^2} \\).<br><b>Step 3: Conclusion</b><br>Therefore, the new force is \\( \\frac{1}{4} \\) of the original force, meaning it has <b>decreased by a factor of 4</b>."
+        },
+        {
+          id: 37, topic: "Electric Potential and Ohm's Law",
+          q: "A free positive charge placed in an electric field will naturally tend to move:",
+          options: ["From a lower potential to a higher potential", "From a higher potential to a lower potential", "In a circular path", "It remains stationary"],
+          correct: 1, 
+          sol: "<b>Step 1: Direction of Electric Field</b><br>Electric field lines always originate from higher electric potential and point towards lower electric potential.<br><b>Step 2: Force on a Positive Charge</b><br>A positive charge experiences an electrostatic force pointing in the exact same direction as the electric field vectors.<br><b>Step 3: Conclusion</b><br>Therefore, it will naturally accelerate and move along the field lines, going <b>from a higher potential to a lower potential</b>."
+        },
+        {
+          id: 38, topic: "Electric Charge and Current",
+          q: "In an electric circuit, what is the fundamental difference between an active element and a passive element?",
+          options: ["Active elements consume energy, passive elements provide energy", "Active elements provide electrical energy, passive elements consume or store it", "Active elements have resistance, passive elements have zero resistance", "There is no difference; both provide energy"],
+          correct: 1, 
+          sol: "<b>Step 1: Define Active Elements</b><br>According to electrical circuit principles, an <b>active element</b> (like a battery, cell, or generator) acts as a primary source and continuously supplies electrical energy into the circuit.<br><b>Step 2: Define Passive Elements</b><br>A <b>passive element</b> (like a resistor, capacitor, or inductor) lacks the ability to generate power. It receives energy and either consumes it (dissipates it as heat) or temporarily stores it."
+        },
+        {
+          id: 39, topic: "Resistance and Resistivity",
+          q: "Which of the following correctly represents the equivalent resistance \\( R_{eq} \\) when three resistors \\( R_1 \\), \\( R_2 \\), and \\( R_3 \\) are connected in series?",
+          options: ["\\( \\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3} \\)", "\\( R_{eq} = \\frac{R_1 R_2 R_3}{R_1 + R_2 + R_3} \\)", "\\( R_{eq} = R_1 + R_2 + R_3 \\)", "\\( R_{eq} = \\frac{R_1 + R_2 + R_3}{3} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Series Connection</b><br>In a series combination, the same current (\\( I \\)) flows through each resistor sequentially. The total applied voltage is the sum of the individual potential differences across each resistor: \\( V = V_1 + V_2 + V_3 \\).<br><b>Step 2: Apply Ohm's Law</b><br>By applying Ohm's law (\\( V = IR \\)) to the equation, we get \\( I R_{eq} = I R_1 + I R_2 + I R_3 \\).<br><b>Step 3: Simplify</b><br>Canceling the common current \\( I \\) from both sides gives the linear addition formula: \\( R_{eq} = R_1 + R_2 + R_3 \\)."
+        },
+        {
+          id: 40, topic: "Electric Potential and Ohm's Law",
+          q: "The property of a conductor to resist the flow of charges through it is known as resistance. Its SI unit is the ohm (\\( \\Omega \\)). One ohm is perfectly equal to:",
+          options: ["\\( 1 \\, \\text{Volt} \\times 1 \\, \\text{Ampere} \\)", "\\( 1 \\, \\text{Joule} / 1 \\, \\text{Coulomb} \\)", "\\( 1 \\, \\text{Volt} / 1 \\, \\text{Ampere} \\)", "\\( 1 \\, \\text{Ampere} / 1 \\, \\text{Volt} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Ohm's Law Equation</b><br>According to Ohm's law, the resistance \\( R \\) is defined as the ratio of the potential difference \\( V \\) applied across the conductor to the current \\( I \\) flowing through it: \\( R = \\frac{V}{I} \\).<br><b>Step 2: Substitute SI Units</b><br>The SI unit of potential difference is the Volt (\\( \\text{V} \\)) and the unit of current is the Ampere (\\( \\text{A} \\)).<br>Therefore, the derived unit of resistance, \\( 1 \\, \\text{ohm} \\), is defined as exactly \\( \\frac{1 \\, \\text{Volt}}{1 \\, \\text{Ampere}} \\)."
+        }
+      ]
+    },
+
     
     // ==========================================
     // CHAPTER: VECTORS
@@ -10491,6 +10783,7 @@
       ]
     }
   };
+
 
 
 
