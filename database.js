@@ -2055,6 +2055,460 @@
         }
       ]
     },
+    "Force": { 
+      classTarget: "Class 10", 
+      totalQs: 60, 
+      topics: [
+        "Translational and Rotational Motion",
+        "Moment of Force", 
+        "Couple", 
+        "Equilibrium",
+        "Principle of Moments", 
+        "Centre of Gravity", 
+        "Uniform Circular Motion"
+      ],
+      questions: [
+        {
+          id: 1, topic: "Moment of Force",
+          q: "A mechanic can open a tight nut by applying a minimum force of 'F' Newtons at the end of a wrench of length 'L'. If he uses a different wrench of length '2L', the force required to produce the same turning effect will be",
+          options: ["F", "F / 2", "2F", "F / 4"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand the Principle of Moments</b><br>The turning effect of a force is determined by its moment (Torque). Moment of Force = Force \\( \\times \\) Perpendicular distance from pivot.<br><b>Step 2: Set up the Initial Equation</b><br>Initial Moment = \\( F \\times L \\). This is the required turning effect to open the nut.<br><b>Step 3: Set up the New Equation</b><br>Let the new force be \\( F' \\). The new length is \\( 2L \\). Since the required turning effect remains constant: \\( F' \\times 2L = F \\times L \\).<br><b>Step 4: Solve for F'</b><br>\\( F' = \\frac{F \\times L}{2L} = \\frac{F}{2} \\)."
+        },
+        {
+          id: 2, topic: "Principle of Moments",
+          q: "A uniform meter rule of weight 10 gf is pivoted at its zero mark. What force must be applied at the 100 cm mark to keep the rule perfectly horizontal?",
+          imgUrl: "",
+          options: ["5 gf downwards", "5 gf upwards", "10 gf upwards", "2.5 gf downwards"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify the Forces and Pivot</b><br>The pivot is at the 0 cm mark. The weight of the uniform meter rule (10 gf) acts entirely at its Center of Gravity, which is at the 50 cm mark.<br><b>Step 2: Calculate the Moment of the Rule's Weight</b><br>The weight acts downwards, creating a clockwise moment. Clockwise Moment = \\( 10 \\text{ gf} \\times 50 \\text{ cm} = 500 \\text{ gf cm} \\).<br><b>Step 3: Apply the Principle of Moments</b><br>To balance the rule horizontally, an equal anticlockwise moment must be applied. An upward force (F) at the 100 cm mark will create this anticlockwise moment.<br><b>Step 4: Calculate the Required Force</b><br>Anticlockwise Moment = \\( F \\times 100 \\text{ cm} \\). Equating the moments: \\( F \\times 100 = 500 \\implies F = 5 \\text{ gf} \\) acting upwards."
+        },
+        {
+          id: 3, topic: "Couple",
+          q: "Which of the following actions is NOT an example of a couple?",
+          options: ["Opening a water tap", "Turning the steering wheel of a car", "Pushing a heavy door to open it", "Winding a mechanical watch"],
+          correct: 2, 
+          sol: "<b>Step 1: Define a Couple</b><br>A couple consists of two equal, opposite, and parallel forces acting on a body along different lines of action, producing a pure rotational motion.<br><b>Step 2: Analyze the Options</b><br>Opening a tap, turning a steering wheel, and winding a watch all require two fingers/hands applying equal and opposite forces at two different points.<br><b>Step 3: Conclusion</b><br>Pushing a door to open it requires only a single applied force pushing against the hinges (the pivot). Therefore, it is a moment of a single force, not a couple."
+        },
+        {
+          id: 4, topic: "Centre of Gravity",
+          q: "A hollow cylinder and a solid cylinder are made of different materials but possess the exact same height (h) and base radius. Which of the following statements is true regarding their centers of gravity?",
+          options: ["CG of solid cylinder is at a higher position", "CG of hollow cylinder is at a higher position", "Both have their CG at exactly the same geometric center", "CG depends on the density ratio of the two materials"],
+          correct: 2, 
+          sol: "<b>Step 1: Define Center of Gravity for Regular Shapes</b><br>The center of gravity of a uniform, symmetrically shaped body relies strictly on its geometric shape and symmetry, assuming the mass distribution is uniform throughout the body.<br><b>Step 2: Analyze the Cylinders</b><br>For any uniform right circular cylinder, whether it is completely solid or completely hollow, its center of gravity lies exactly at the mid-point of its geometric axis.<br><b>Step 3: Conclusion</b><br>Therefore, for both cylinders, the CG is located at a height of \\( h/2 \\) from the base along the central axis."
+        },
+        {
+          id: 5, topic: "Uniform Circular Motion",
+          q: "A small coin placed on a rapidly rotating gramophone disc eventually flies off the edge. From the frame of reference of an observer sitting on the rotating disc, which force is responsible for pushing the coin radially outward?",
+          options: ["Centripetal force", "Centrifugal force", "Frictional force", "Gravitational force"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Frames of Reference</b><br>The observer is sitting on the rotating disc, which means they are in a non-inertial (accelerating) frame of reference.<br><b>Step 2: Identify the Pseudo Force</b><br>In a rotating frame of reference, bodies experience a fictitious outward force called the Centrifugal Force. It is this apparent force that seemingly acts radially outwards, pushing the coin away from the center until it overcomes the static friction."
+        },
+        {
+          id: 6, topic: "Principle of Moments",
+          q: "A uniform half-meter rule balances perfectly horizontally on a knife-edge placed at the 29 cm mark when a weight of 20 gf is suspended from one of its ends. What is the weight of the half-meter rule?",
+          imgUrl: "",
+          options: ["105 gf", "50 gf", "100 gf", "125 gf"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify Key Points</b><br>A half-meter rule is 50 cm long. Its Center of Gravity (CG) lies at the 25 cm mark. Let the weight of the rule be 'W'. The pivot is at 29 cm.<br><b>Step 2: Determine Moments</b><br>The weight of the rule 'W' acts at 25 cm. Distance from pivot = \\( 29 - 25 = 4 \\text{ cm} \\). This creates an anticlockwise moment. To balance this, the 20 gf weight must be hung on the other side of the pivot, exactly at the 50 cm end. Distance from pivot = \\( 50 - 29 = 21 \\text{ cm} \\).<br><b>Step 3: Apply Principle of Moments</b><br>Anticlockwise Moment = Clockwise Moment.<br>\\( W \\times 4 \\text{ cm} = 20 \\text{ gf} \\times 21 \\text{ cm} \\).<br><b>Step 4: Calculate W</b><br>\\( 4W = 420 \\implies W = \\frac{420}{4} = 105 \\text{ gf} \\)."
+        },
+        {
+          id: 7, topic: "Moment of Force",
+          q: "To produce the maximum turning effect for a specific applied force on a pivoted body, the angle between the applied force and the position vector (radius vector) from the pivot should be:",
+          options: ["\\( 0^{\\circ} \\)", "\\( 45^{\\circ} \\)", "\\( 90^{\\circ} \\)", "\\( 180^{\\circ} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Recall the Moment Formula</b><br>The turning effect (Moment of force) is given by the cross product of the position vector (r) and the force vector (F). Magnitude \\( \\tau = rF \\sin(\\theta) \\), where \\( \\theta \\) is the angle between them.<br><b>Step 2: Maximize the Expression</b><br>The moment will be maximum when the value of \\( \\sin(\\theta) \\) is maximum. The maximum value of sine is 1, which occurs at \\( \\theta = 90^{\\circ} \\). Therefore, the force must be applied perpendicularly to the radius vector."
+        },
+        {
+          id: 8, topic: "Centre of Gravity",
+          q: "A uniform cylindrical beaker is fully filled with water. As the water slowly leaks out from a small hole at the bottom, what happens to the center of gravity of the entire system (beaker + water)?",
+          options: ["It continuously moves downwards.", "It continuously moves upwards.", "It first moves downwards and then moves upwards.", "It first moves upwards and then moves downwards."],
+          correct: 2, 
+          sol: "<b>Step 1: Initial State</b><br>When the beaker is completely full, the system is symmetric, and the CG is exactly in the middle.<br><b>Step 2: Intermediate State</b><br>As water leaks out, the top half of the beaker becomes lighter (empty) while the bottom half still contains water. The mass distribution shifts downwards, causing the CG of the system to initially move downwards.<br><b>Step 3: Final State</b><br>When the water is almost completely drained, the system behaves purely like the empty uniform beaker again, and its CG shifts back up to the exact geometric center of the beaker. Therefore, the CG first moves downwards, then upwards."
+        },
+        {
+          id: 9, topic: "Couple",
+          q: "Two forces, each of magnitude 10 N, act vertically upwards and downwards respectively on the two opposite ends of a uniform metallic rod of length 4 m. If the rod is pivoted exactly at its center, the moment of the couple acting on it is:",
+          imgUrl: "",
+          options: ["0 Nm", "20 Nm", "40 Nm", "80 Nm"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify the Couple</b><br>The two 10 N forces are equal, opposite, and parallel, acting at two different points separated by the length of the rod. They form a couple.<br><b>Step 2: Recall the Couple Formula</b><br>The moment of a couple is calculated as the product of the magnitude of either one of the forces and the perpendicular distance between their lines of action.<br><b>Step 3: Calculate</b><br>Moment of couple = Force \\( \\times \\) perpendicular distance = \\( 10 \\text{ N} \\times 4 \\text{ m} = 40 \\text{ Nm} \\)."
+        },
+        {
+          id: 10, topic: "Moment of Force",
+          q: "Which of the following mathematical relationships correctly links the S.I. unit and the C.G.S. unit of the moment of a force?",
+          options: ["\\( 1 \\text{ Nm} = 10^5 \\text{ dyne cm} \\)", "\\( 1 \\text{ Nm} = 10^7 \\text{ dyne cm} \\)", "\\( 1 \\text{ kgf m} = 10^7 \\text{ dyne cm} \\)", "\\( 1 \\text{ Nm} = 10^9 \\text{ dyne cm} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify the Units</b><br>The S.I. unit of moment of force is Newton-meter (Nm). The C.G.S. unit is dyne-centimeter (dyne cm).<br><b>Step 2: Perform Conversions</b><br>We know that \\( 1 \\text{ Newton} = 10^5 \\text{ dynes} \\).<br>We know that \\( 1 \\text{ meter} = 10^2 \\text{ cm} \\).<br><b>Step 3: Combine</b><br>\\( 1 \\text{ Nm} = (10^5 \\text{ dynes}) \\times (10^2 \\text{ cm}) = 10^7 \\text{ dyne cm} \\)."
+        },
+        {
+          id: 11, topic: "Uniform Circular Motion",
+          q: "A body of mass 2 kg is moving in a circular path of radius 1.5 m with a constant speed of 5 m/s. The work done by the centripetal force acting on the body during half a revolution is:",
+          options: ["15 J", "7.5 J", "0 J", "30 J"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand Work Done in Physics</b><br>Work is calculated as the dot product of Force and Displacement vectors: \\( W = F \\cdot s \\cdot \\cos(\\theta) \\), where \\( \\theta \\) is the angle between force and displacement.<br><b>Step 2: Analyze Uniform Circular Motion</b><br>In any circular motion, the centripetal force acts strictly towards the center of the circle along the radius. The instantaneous displacement (velocity direction) of the body is always tangential to the circular path.<br><b>Step 3: Conclusion</b><br>Since the radius and the tangent are always perfectly perpendicular to each other, the angle \\( \\theta \\) is \\( 90^{\\circ} \\). Since \\( \\cos(90^{\\circ}) = 0 \\), the work done by the centripetal force is always exactly 0 J, regardless of the distance traveled."
+        },
+        {
+          id: 12, topic: "Equilibrium",
+          q: "Which of the following scenarios is a perfect example of 'Dynamic Equilibrium'?",
+          options: ["A heavy book resting perfectly still on a flat table.", "A paratrooper falling through the sky with a constant terminal velocity.", "A simple pendulum momentarily pausing at its extreme position.", "A racing car accelerating uniformly on a straight highway."],
+          correct: 1, 
+          sol: "<b>Step 1: Define Dynamic Equilibrium</b><br>A body is in dynamic equilibrium when it continues to move in a straight line with a constant velocity (zero acceleration), meaning the net resultant force acting on it is zero.<br><b>Step 2: Evaluate Options</b><br>The book and the pausing pendulum are in 'Static Equilibrium' (at rest). The accelerating car has a net force acting on it, so it is not in equilibrium.<br><b>Step 3: Conclusion</b><br>The paratrooper falling at terminal velocity experiences a downward gravitational force perfectly balanced by an upward air resistance force. Since net force is zero but the body is in motion, it is in dynamic equilibrium."
+        },
+        {
+          id: 13, topic: "Centre of Gravity",
+          q: "For a uniform solid right circular cone of vertical height 'h', where exactly is its center of gravity located relative to its base?",
+          options: ["At a height of \\( h/2 \\) from the base", "At a height of \\( h/3 \\) from the base", "At a height of \\( h/4 \\) from the base", "At a height of \\( 2h/3 \\) from the base"],
+          correct: 2, 
+          sol: "<b>Step 1: Recall CG Definitions for Standard Shapes</b><br>The center of gravity is the point where the entire weight of the body is considered to act.<br><b>Step 2: Identify the Solid Cone</b><br>By mathematical integration and symmetry, for a completely solid right circular cone, the mass is concentrated closer to the wide base. Its center of gravity lies on its central vertical axis at a height of exactly \\( h/4 \\) from the base."
+        },
+        {
+          id: 14, topic: "Couple",
+          q: "A uniform circular disc of mass 2 kg and radius 10 cm can rotate freely about its center 'O'. Two forces \\( F_1 = 5 \\text{ N} \\) and \\( F_2 = 5 \\text{ N} \\) act tangentially to the disc in opposite directions at opposite ends of a diameter. The net moment acting on the disc is:",
+          imgUrl: "",
+          options: ["Zero", "0.5 Nm", "1.0 Nm", "2.0 Nm"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify the Force System</b><br>Two equal (5 N), parallel, and opposite forces acting along different tangential lines form a couple.<br><b>Step 2: Determine Perpendicular Distance</b><br>The forces act at opposite ends of a diameter. The perpendicular distance between their lines of action is equal to the diameter of the disc. Radius = 10 cm, so Diameter = 20 cm = 0.2 m.<br><b>Step 3: Calculate the Moment</b><br>Moment of a couple = Magnitude of one force \\( \\times \\) perpendicular distance between them = \\( 5 \\text{ N} \\times 0.2 \\text{ m} = 1.0 \\text{ Nm} \\)."
+        },
+        {
+          id: 15, topic: "Uniform Circular Motion",
+          q: "In Uniform Circular Motion, which of the following physical quantities remains strictly constant throughout the entire motion?",
+          options: ["Velocity", "Acceleration", "Momentum", "Kinetic Energy"],
+          correct: 3, 
+          sol: "<b>Step 1: Analyze Uniform Circular Motion (UCM)</b><br>In UCM, the speed (magnitude of velocity) of the particle remains constant, but the direction of motion changes continuously at every point on the circle.<br><b>Step 2: Evaluate Vector Quantities</b><br>Velocity, Acceleration (centripetal), and Momentum are all vector quantities. Since their direction is continuously changing, these vectors are NOT constant.<br><b>Step 3: Evaluate Scalar Quantities</b><br>Kinetic energy is a scalar quantity defined as \\( \\frac{1}{2}mv^2 \\). Since both mass (m) and speed (v) are constant, the Kinetic Energy remains strictly constant."
+        },
+        {
+          id: 16, topic: "Principle of Moments",
+          q: "A uniform meter scale of mass 100 g is balanced horizontally on a fulcrum placed at the 40 cm mark by suspending an unknown mass 'm' at the 20 cm mark. Find the exact value of the unknown mass 'm'.",
+          imgUrl: "",
+          options: ["50 g", "100 g", "20 g", "200 g"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify Forces and Pivot</b><br>The pivot is at the 40 cm mark. The weight of the uniform meter scale (100 g) acts at its Center of Gravity (the 50 cm mark). The unknown mass 'm' acts at the 20 cm mark.<br><b>Step 2: Calculate Moments</b><br>Clockwise moment is caused by the scale's mass: \\( 100 \\text{ g} \\times (50 - 40) \\text{ cm} = 100 \\times 10 = 1000 \\text{ gf cm} \\).<br>Anticlockwise moment is caused by mass 'm': \\( m \\times (40 - 20) \\text{ cm} = m \\times 20 \\text{ gf cm} \\).<br><b>Step 3: Apply Principle of Moments</b><br>For horizontal balance, Anticlockwise Moment = Clockwise Moment.<br>\\( 20m = 1000 \\implies m = \\frac{1000}{20} = 50 \\text{ g} \\)."
+        },
+        {
+          id: 17, topic: "Centre of Gravity",
+          q: "If a uniform solid sphere is completely melted and recast into a uniform solid right circular cone of height 'h', where will the new Center of Gravity be located relative to the base of the cone?",
+          options: ["At a height of \\( h/2 \\) on the axis", "At a height of \\( h/3 \\) on the axis", "At a height of \\( h/4 \\) on the axis", "At a height of \\( 3h/4 \\) on the axis"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand the Physics Principle</b><br>The location of the Center of Gravity of a regular, uniform geometric body depends exclusively on its final shape and mass distribution, regardless of what it was melted from.<br><b>Step 2: Apply the Rule</b><br>The final object is a uniform solid right circular cone. As established by geometric principles, the CG of any solid cone lies on its central axis at a distance of one-fourth of its total height (\\( h/4 \\)) from the flat base."
+        },
+        {
+          id: 18, topic: "Moment of Force",
+          q: "It is practically much easier to push a heavy door open by applying force near its free edge rather than pushing near the hinges because:",
+          options: ["Less physical work is done on the door.", "The applied force is artificially multiplied by the hinges.", "A significantly larger moment of force is produced for the exact same applied force.", "The friction at the hinges is substantially reduced."],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze the Mechanics of a Door</b><br>A door operates on the principle of turning forces. The hinges act as the pivot point. The turning effect is determined by the Moment of Force.<br><b>Step 2: Apply the Formula</b><br>Moment of Force = Force \\( \\times \\) perpendicular distance from the pivot. Pushing near the free edge maximizes the perpendicular distance.<br><b>Step 3: Conclusion</b><br>By maximizing the distance, you generate a much larger moment of force (turning effect) with the exact same amount of physical effort (force), making the door significantly easier to open."
+        },
+        {
+          id: 19, topic: "Uniform Circular Motion",
+          q: "Which of the following statements regarding Centrifugal Force is entirely scientifically correct?",
+          options: ["It is a real physical force that perfectly balances the centripetal force.", "It acts as a direct action-reaction pair to the centripetal force according to Newton's Third Law.", "It is a fictitious pseudo-force that is experienced only when observing from a rotating (non-inertial) frame of reference.", "It acts inwards towards the exact center of the circular path."],
+          correct: 2, 
+          sol: "<b>Step 1: Evaluate Real vs. Pseudo Forces</b><br>Centripetal force is a real force (like tension, gravity, or friction) required to keep a body in a circular path. <br><b>Step 2: Define Centrifugal Force</b><br>Centrifugal force is not a real force. It is a 'pseudo-force' introduced purely to make Newton's laws of motion hold true in a non-inertial, accelerating frame of reference (like sitting inside a rotating car or a merry-go-round). It appears to push objects radially outward."
+        },
+        {
+          id: 20, topic: "Principle of Moments",
+          q: "A uniform meter scale of weight 50 gf is found to be perfectly balanced horizontally on a knife-edge at the 60 cm mark when a weight of \\( W \\) gf is suspended at the 10 cm mark and a weight of 40 gf is suspended at the 90 cm mark. What is the exact value of \\( W \\)?",
+          imgUrl: "",
+          options: ["14 gf", "10 gf", "20 gf", "12 gf"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify all Forces and their Distances from Pivot (60 cm)</b><br>1. Weight \\( W \\) is at 10 cm. Distance = \\( 60 - 10 = 50 \\text{ cm} \\) (Anticlockwise).<br>2. Weight of scale (50 gf) acts at CG (50 cm). Distance = \\( 60 - 50 = 10 \\text{ cm} \\) (Anticlockwise).<br>3. 40 gf weight is at 90 cm. Distance = \\( 90 - 60 = 30 \\text{ cm} \\) (Clockwise).<br><b>Step 2: Calculate Total Moments</b><br>Total Anticlockwise Moment = \\( (W \\times 50) + (50 \\times 10) = 50W + 500 \\).<br>Total Clockwise Moment = \\( 40 \\times 30 = 1200 \\).<br><b>Step 3: Equate and Solve</b><br>According to the principle of moments: \\( 50W + 500 = 1200 \\).<br>\\( 50W = 700 \\implies W = \\frac{700}{50} = 14 \\text{ gf} \\)."
+        },
+        {
+          id: 21, topic: "Moment of Force",
+          q: "Mathematically, the moment of a force (Torque, \\( \\vec{\\tau} \\)) acting on a particle is defined as the cross product of its position vector (\\( \\vec{r} \\)) and the force vector (\\( \\vec{F} \\)). Which of the following represents the correct order?",
+          options: ["\\( \\vec{\\tau} = \\vec{F} \\times \\vec{r} \\)", "\\( \\vec{\\tau} = \\vec{r} \\times \\vec{F} \\)", "\\( \\vec{\\tau} = \\vec{r} \\cdot \\vec{F} \\)", "It is a scalar quantity, so order does not matter."],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Torque as a Vector</b><br>Moment of a force is a vector quantity because it has both magnitude and a specific direction (determined by the right-hand thumb rule).<br><b>Step 2: Vector Cross Product Rule</b><br>By convention in physics, the torque vector is strictly defined as the cross product of the position vector from the axis of rotation (\\( \\vec{r} \\)) and the applied force (\\( \\vec{F} \\)). The correct mathematical representation is \\( \\vec{\\tau} = \\vec{r} \\times \\vec{F} \\). Commutativity does not apply (\\( \\vec{r} \\times \\vec{F} \\neq \\vec{F} \\times \\vec{r} \\))."
+        },
+        {
+          id: 22, topic: "Principle of Moments",
+          q: "A uniform meter scale balances horizontally at the 40 cm mark when a mass of 20 g is suspended from the 10 cm mark. What is the mass of the meter scale?",
+          imgUrl: "",
+          options: ["40 g", "50 g", "60 g", "80 g"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify the Pivot and Forces</b><br>The pivot (fulcrum) is located at the 40 cm mark. The 20 g mass acts at the 10 cm mark. The unknown mass of the scale (m) acts exactly at its Center of Gravity, which is the 50 cm mark.<br><b>Step 2: Calculate Moments</b><br>Anticlockwise Moment = Mass \\( \\times \\) Distance = \\( 20 \\text{ g} \\times (40 - 10) \\text{ cm} = 20 \\times 30 = 600 \\text{ gf cm} \\).<br>Clockwise Moment = Mass of scale \\( \\times \\) Distance = \\( m \\times (50 - 40) \\text{ cm} = m \\times 10 \\text{ gf cm} \\).<br><b>Step 3: Apply the Principle of Moments</b><br>In equilibrium, Anticlockwise Moment = Clockwise Moment.<br>\\( 600 = 10m \\implies m = 60 \\text{ g} \\)."
+        },
+        {
+          id: 23, topic: "Uniform Circular Motion",
+          q: "A boy whirls a stone tied to a string in a horizontal circle. If the string suddenly breaks, the stone will fly off along the tangent to the circular path. This happens purely because of:",
+          options: ["Centrifugal force acting outwards", "Centripetal force pushing it tangentially", "Inertia of direction", "The sudden increase in gravitational pull"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze the Forces</b><br>While moving in a circle, the tension in the string provides the necessary centripetal force pulling the stone inward. There is no outward physical force pushing it.<br><b>Step 2: Effect of Breaking the String</b><br>When the string breaks, the centripetal force instantaneously becomes zero. According to Newton's First Law of Motion, an object will continue to move in a straight line unless acted upon by an external force.<br><b>Step 3: Conclusion</b><br>Due to its 'Inertia of Direction', the stone retains its instantaneous velocity at the moment the string snaps, causing it to fly off tangentially."
+        },
+        {
+          id: 24, topic: "Centre of Gravity",
+          q: "If a solid cylinder of base radius 'r' and height 'h' is placed exactly over another identical cylinder to form a taller combined cylinder, the center of gravity of this new combined system will be at a height of:",
+          imgUrl: "",
+          options: ["\\( h/2 \\) from the base", "\\( h \\) from the base", "\\( 3h/2 \\) from the base", "\\( 2h \\) from the base"],
+          correct: 1, 
+          sol: "<b>Step 1: Determine the New Dimensions</b><br>By stacking two identical cylinders of height 'h', we create a new single, uniform cylinder with a total height of \\( H = 2h \\).<br><b>Step 2: Apply CG Rule for a Cylinder</b><br>The center of gravity of any uniform solid cylinder always lies exactly at the geometric midpoint of its central axis.<br><b>Step 3: Calculate</b><br>Midpoint of the new total height = \\( H / 2 = (2h) / 2 = h \\). The CG is at a height 'h' from the bottom base, which happens to be exactly at the contact surface between the two cylinders."
+        },
+        {
+          id: 25, topic: "Translational and Rotational Motion",
+          q: "A single unbalanced force applied to a free-floating rigid body at a point OTHER than its Center of Gravity will produce:",
+          options: ["Only translational motion", "Only rotational motion", "Both translational and rotational motion", "Neither translational nor rotational motion"],
+          correct: 2, 
+          sol: "<b>Step 1: Force through CG</b><br>If a force is applied perfectly through the center of gravity of a free rigid body, it produces pure translational (straight-line) motion.<br><b>Step 2: Force away from CG</b><br>If the force acts at a distance from the CG, it creates a turning moment (Torque = Force \\( \\times \\) Perpendicular distance to CG).<br><b>Step 3: Conclusion</b><br>Because the force provides a net push, the body moves forward (translation). Because it acts at a distance from the CG, it also creates a moment, causing the body to spin (rotation). Thus, it produces both motions simultaneously."
+        },
+        {
+          id: 26, topic: "Centre of Gravity",
+          q: "A uniform L-shaped wooden lamina has equal leg lengths and uniform thickness. Its center of gravity lies:",
+          imgUrl: "",
+          options: ["Inside the material, at the corner intersection", "Outside the material of the lamina", "Exactly on the longest outer edge", "At the geometric center of one of the arms"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Center of Gravity Location</b><br>The Center of Gravity is the mathematical point where the total weight is concentrated. It relies entirely on mass distribution.<br><b>Step 2: Analyze the L-Shape</b><br>Because the mass is distributed heavily along the two arms forming the 'L', the geometric balance point (average position of all mass points) falls into the empty space between the two inner edges of the shape.<br><b>Step 3: Conclusion</b><br>Therefore, the CG of an L-shaped lamina lies outside its actual physical material."
+        },
+        {
+          id: 27, topic: "Uniform Circular Motion",
+          q: "A body moves with a constant speed in a circular path. Which of the following statements is mathematically true for the acceleration of the body?",
+          options: ["It is completely zero.", "It is constant in both magnitude and direction.", "It is constant in magnitude but continuously changes direction.", "It is variable in both magnitude and direction."],
+          correct: 2, 
+          sol: "<b>Step 1: Define Uniform Circular Motion</b><br>In uniform circular motion, the speed \\( v \\) is constant.<br><b>Step 2: Analyze Acceleration</b><br>Acceleration is the rate of change of velocity (a vector). Since the direction of motion changes at every point, the velocity vector is constantly changing, meaning the body is continuously accelerating.<br><b>Step 3: Evaluate the Centripetal Acceleration</b><br>The magnitude of this acceleration is \\( a = v^2/r \\), which is a constant numerical value. However, it always points towards the center of the circle. As the body moves, the physical direction of the 'center' relative to the body keeps changing. Thus, magnitude is constant, but direction continuously changes."
+        },
+        {
+          id: 28, topic: "Principle of Moments",
+          q: "A boy of mass 30 kg sits at a distance of 2 m from the pivot of a see-saw. At what distance should a man of mass 80 kg sit on the opposite side to balance it perfectly?",
+          options: ["0.75 m", "1.25 m", "1.50 m", "0.50 m"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify the Moments</b><br>Anticlockwise Moment = Boy's Mass \\( \\times \\) Distance = \\( 30 \\text{ kg} \\times 2 \\text{ m} = 60 \\text{ kgf m} \\).<br>Let the man sit at a distance 'x'. Clockwise Moment = \\( 80 \\text{ kg} \\times x \\text{ m} = 80x \\text{ kgf m} \\).<br><b>Step 2: Apply Principle of Moments</b><br>To balance the see-saw: Anticlockwise Moment = Clockwise Moment.<br>\\( 60 = 80x \\).<br><b>Step 3: Solve for x</b><br>\\( x = \\frac{60}{80} = \\frac{3}{4} = 0.75 \\text{ m} \\)."
+        },
+        {
+          id: 29, topic: "Principle of Moments",
+          q: "A non-uniform meter scale weighing 40 gf has its center of gravity at the 40 cm mark. If it is pivoted at the 50 cm mark, what external weight must be hung at the 80 cm mark to balance it horizontally?",
+          imgUrl: "",
+          options: ["13.33 gf", "20.00 gf", "10.00 gf", "15.00 gf"],
+          correct: 0, 
+          sol: "<b>Step 1: Map the Forces relative to Pivot (50 cm)</b><br>Because the scale is non-uniform, its entire weight (40 gf) acts at the given CG (40 cm mark).<br>Distance of CG from pivot = \\( 50 - 40 = 10 \\text{ cm} \\). This creates an Anticlockwise moment.<br>The unknown weight \\( W \\) is hung at the 80 cm mark.<br>Distance of \\( W \\) from pivot = \\( 80 - 50 = 30 \\text{ cm} \\). This creates a Clockwise moment.<br><b>Step 2: Equate Moments</b><br>Anticlockwise Moment = Clockwise Moment<br>\\( 40 \\text{ gf} \\times 10 \\text{ cm} = W \\times 30 \\text{ cm} \\).<br><b>Step 3: Solve for W</b><br>\\( 400 = 30W \\implies W = \\frac{400}{30} = 13.33 \\text{ gf} \\)."
+        },
+        {
+          id: 30, topic: "Uniform Circular Motion",
+          q: "When a car takes a sharp turn on an unbanked, level road, the necessary centripetal force required to keep the car in the circular path is primarily provided by:",
+          options: ["The gravitational pull of the Earth", "The normal reaction force of the road", "The static frictional force between the tires and the road", "The outward centrifugal force"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand the Requirement</b><br>Any object taking a circular turn requires a real, inward-pointing centripetal force to constantly change its direction.<br><b>Step 2: Identify the Real Forces</b><br>On a level road, gravity acts downwards, and normal reaction acts upwards (they balance each other out).<br><b>Step 3: Conclusion</b><br>The only lateral force capable of pushing the car horizontally toward the center of the curve is the force of static friction between the rubber tires and the asphalt road. If this friction is lost (e.g., on ice), the car will skid straight off the road."
+        },
+        {
+          id: 31, topic: "Principle of Moments",
+          q: "A uniform meter rule is pivoted exactly at the 50 cm mark. A weight of 10 gf is hung at the 10 cm mark, and another weight of 20 gf is hung at the 40 cm mark. Where should a single 20 gf weight be hung to balance the rule?",
+          options: ["70 cm mark", "80 cm mark", "90 cm mark", "60 cm mark"],
+          correct: 1, 
+          sol: "<b>Step 1: Calculate Total Anticlockwise Moment</b><br>Both existing weights are to the left of the pivot (50 cm), causing anticlockwise turning.<br>Moment 1 = \\( 10 \\text{ gf} \\times (50 - 10) \\text{ cm} = 10 \\times 40 = 400 \\text{ gf cm} \\).<br>Moment 2 = \\( 20 \\text{ gf} \\times (50 - 40) \\text{ cm} = 20 \\times 10 = 200 \\text{ gf cm} \\).<br>Total ACW Moment = \\( 400 + 200 = 600 \\text{ gf cm} \\).<br><b>Step 2: Setup the Balancing Force</b><br>We must place a 20 gf weight on the right side to create a clockwise moment.<br>Let its distance from the pivot be 'x'. CW Moment = \\( 20 \\times x \\).<br><b>Step 3: Solve</b><br>\\( 20x = 600 \\implies x = 30 \\text{ cm} \\).<br>The position mark on the ruler = Pivot + Distance = \\( 50 + 30 = 80 \\text{ cm} \\) mark."
+        },
+        {
+          id: 32, topic: "Centre of Gravity",
+          q: "The center of gravity of a uniform thin ring and a uniform solid circular disc of the exact same radii are respectively located:",
+          options: ["Both exactly at their geometric centers", "At the geometric center and at the rim", "Outside the physical material and inside the physical material", "Inside the physical material and outside the physical material"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze the Ring</b><br>A uniform thin ring has all its mass concentrated at the circumference. However, by symmetry, its Center of Gravity is exactly in the middle of the circle. Since the middle is hollow air, the CG lies *outside* its actual physical material.<br><b>Step 2: Analyze the Disc</b><br>A uniform solid disc also has its CG exactly in the middle. Because it is a solid plate, this geometric center is completely surrounded by *inside* its physical material.<br><b>Step 3: Conclusion</b><br>Therefore, the CG of the ring is outside its material, and the CG of the disc is inside its material."
+        },
+        {
+          id: 33, topic: "Equilibrium",
+          q: "A uniform wooden rod 120 cm long and weighing 50 gf rests horizontally on two sharp-edged supports placed at the 20 cm and 100 cm marks. What is the upward reaction force acting exactly at the 20 cm support?",
+          imgUrl: "",
+          options: ["25 gf", "50 gf", "20 gf", "30 gf"],
+          correct: 0, 
+          sol: "<b>Step 1: Locate the CG and Supports</b><br>The rod is uniform and 120 cm long, so its weight (50 gf) acts downwards perfectly at its center: the 60 cm mark.<br>The supports are at 20 cm and 100 cm.<br><b>Step 2: Analyze Symmetry</b><br>Distance of the left support from the CG = \\( 60 - 20 = 40 \\text{ cm} \\).<br>Distance of the right support from the CG = \\( 100 - 60 = 40 \\text{ cm} \\).<br><b>Step 3: Conclusion</b><br>Because the CG is exactly halfway between the two supports, the downward weight is shared equally between them. Reaction at the 20 cm support = \\( 50 / 2 = 25 \\text{ gf} \\)."
+        },
+        {
+          id: 34, topic: "Uniform Circular Motion",
+          q: "A body of mass 'm' is moving in a uniform circular path. The work done by the resultant centripetal force acting on the body after completing exactly one-quarter (1/4) of a revolution is:",
+          options: ["\\( \\frac{1}{2}mv^2 \\)", "Zero", "\\( \\pi m v^2 \\)", "Maximum"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for Work Done</b><br>Work Done \\( (W) = \\vec{F} \\cdot \\vec{s} = F \\cdot s \\cdot \\cos(\\theta) \\).<br><b>Step 2: Angle between Force and Displacement</b><br>In uniform circular motion, the centripetal force always points directly toward the center of the circle. The instantaneous displacement (and velocity) is always tangential to the circle at that specific point.<br><b>Step 3: Conclusion</b><br>The tangent is always perpendicular to the radius. Therefore, the angle \\( \\theta = 90^{\\circ} \\). Since \\( \\cos(90^{\\circ}) = 0 \\), the work done is strictly Zero, regardless of how much of the circle has been completed."
+        },
+        {
+          id: 35, topic: "Centre of Gravity",
+          q: "For a uniform triangular lamina (a flat plate), the exact position of its center of gravity is geometrically located at its:",
+          options: ["Orthocenter", "Circumcenter", "Centroid (intersection of medians)", "Incenter"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand Mass Distribution</b><br>A uniform triangular lamina can be thought of as being made up of thin strips parallel to its base. The midpoints of all these strips lie on the median.<br><b>Step 2: Intersecting Medians</b><br>Since the triangle balances along any of its three medians, the unique point where all three medians intersect must be the balance point for the entire shape.<br><b>Step 3: Conclusion</b><br>The intersection point of the medians is geometrically called the Centroid. This is the Center of Gravity of the triangular lamina."
+        },
+        {
+          id: 36, topic: "Centre of Gravity",
+          q: "When a person carries a heavy load on their back, they naturally lean forward. This physical adjustment is primarily done to:",
+          options: ["Reduce the actual weight of the load.", "Ensure the combined center of gravity falls within their base of support.", "Increase the frictional force with the ground to prevent slipping.", "Decrease the moment of force exerted on their knees."],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Stability</b><br>For a body to remain in stable equilibrium without toppling over, the vertical line drawn straight down from its Center of Gravity must pass through its base of support (the area between the feet).<br><b>Step 2: Effect of the Load</b><br>Adding a heavy bag to the back shifts the combined CG of the person + bag backwards. If the person stands perfectly straight, this vertical line might fall behind their heels, causing them to fall backward.<br><b>Step 3: Conclusion</b><br>By leaning forward, they shift the combined CG back toward the front, ensuring the vertical line drops safely between their feet, restoring stable equilibrium."
+        },
+        {
+          id: 37, topic: "Moment of Force",
+          q: "A force of 50 N acts at the extreme end of a 20 cm long wrench. If the direction of the force applied makes an angle of \\( 30^{\\circ} \\) with the handle of the wrench, the turning moment produced is:",
+          options: ["10.0 Nm", "5.0 Nm", "8.66 Nm", "100.0 Nm"],
+          correct: 1, 
+          sol: "<b>Step 1: Unit Conversion</b><br>Length of wrench (r) = 20 cm = 0.2 m.<br><b>Step 2: Use the Vector Cross Product Formula</b><br>Magnitude of Moment (Torque) = \\( r \\times F \\times \\sin(\\theta) \\).<br>Here, \\( F = 50 \\text{ N} \\), \\( r = 0.2 \\text{ m} \\), and \\( \\theta = 30^{\\circ} \\).<br><b>Step 3: Calculate</b><br>Moment = \\( 0.2 \\times 50 \\times \\sin(30^{\\circ}) \\).<br>Moment = \\( 10 \\times 0.5 = 5.0 \\text{ Nm} \\)."
+        },
+        {
+          id: 38, topic: "Uniform Circular Motion",
+          q: "If the earth orbits the sun in a perfectly circular path, the gravitational force responsible for this motion does NO physical work because:",
+          options: ["The force is counteracted exactly by centrifugal force.", "The overall displacement over one full year is mathematically zero.", "The gravitational force vector is always perfectly perpendicular to the instantaneous velocity vector.", "Space is a vacuum, meaning there is zero air friction to do work against."],
+          correct: 2, 
+          sol: "<b>Step 1: Identify the Force and Motion</b><br>The gravitational pull of the sun acts as the centripetal force, pulling the earth inwards along the radius. The earth's instantaneous velocity is always tangential to the orbit.<br><b>Step 2: Evaluate Work Equation</b><br>Work \\( W = F \\cdot s \\cdot \\cos(\\theta) \\).<br><b>Step 3: Conclusion</b><br>Since the radius is always perpendicular to the tangent at every single point on the circle, the angle \\( \\theta \\) is strictly \\( 90^{\\circ} \\). Because \\( \\cos(90^{\\circ}) = 0 \\), the work done by gravity is zero at every instant of the orbit."
+        },
+        {
+          id: 39, topic: "Couple",
+          q: "Two equal and opposite parallel forces, each of magnitude 'F', act on a rigid wheel of radius 'R' at opposite ends of its diameter. The moment of the couple formed is:",
+          imgUrl: "",
+          options: ["F \\( \\times \\) R", "2F \\( \\times \\) R", "Zero", "F \\( \\times \\) (R/2)"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify the System</b><br>Two equal, parallel, and opposite forces acting along different lines form a couple.<br><b>Step 2: Define Moment of a Couple</b><br>Moment of a couple = Magnitude of either force \\( \\times \\) the perpendicular distance between their lines of action.<br><b>Step 3: Determine the Distance</b><br>The forces act tangentially at opposite ends of a diameter. The perpendicular distance between them is the full diameter of the wheel, which is \\( 2R \\).<br><b>Step 4: Calculate</b><br>Moment = \\( F \\times 2R = 2FR \\)."
+        },
+        {
+          id: 40, topic: "Principle of Moments",
+          q: "A uniform meter scale rests horizontally on a single knife-edge placed exactly at the 60 cm mark when a mass of 20 g is suspended from one of its ends. At which end must this mass be suspended to achieve balance?",
+          options: ["At the 0 cm mark", "At the 100 cm mark", "At the 50 cm mark", "At the 80 cm mark"],
+          correct: 1, 
+          sol: "<b>Step 1: Locate the Pivot and CG</b><br>The pivot is at the 60 cm mark. The weight of the uniform meter scale acts at its CG, which is the 50 cm mark.<br><b>Step 2: Determine Moments</b><br>The scale's weight acts at 50 cm. Since 50 cm is to the left of the pivot (60 cm), this weight creates an Anticlockwise turning moment.<br><b>Step 3: Conclusion</b><br>To balance this anticlockwise moment, the external 20 g mass must be placed on the *right* side of the pivot to create a balancing Clockwise moment. The only end available on the right side of the 60 cm mark is the 100 cm mark."
+        },
+        {
+          id: 41, topic: "Principle of Moments",
+          q: "A uniform meter scale of mass 50 g is pivoted at the 40 cm mark. A mass of 20 g is suspended at the 5 cm mark. What mass must be suspended at the 100 cm mark to balance the scale horizontally?",
+          imgUrl: "",
+          options: ["3.33 g", "10.0 g", "5.0 g", "12.5 g"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify all forces and distances from the pivot (40 cm)</b><br>1. 20 g mass at 5 cm. Distance = \\( 40 - 5 = 35 \\text{ cm} \\) (Anticlockwise).<br>2. Mass of the scale (50 g) acts at its CG (50 cm). Distance = \\( 50 - 40 = 10 \\text{ cm} \\) (Clockwise).<br>3. Unknown mass 'm' at 100 cm. Distance = \\( 100 - 40 = 60 \\text{ cm} \\) (Clockwise).<br><b>Step 2: Calculate Moments</b><br>Total ACW Moment = \\( 20 \\times 35 = 700 \\text{ gf cm} \\).<br>Total CW Moment = \\( (50 \\times 10) + (m \\times 60) = 500 + 60m \\).<br><b>Step 3: Equate and Solve</b><br>\\( 700 = 500 + 60m \\implies 200 = 60m \\).<br>\\( m = \\frac{200}{60} = 3.33 \\text{ g} \\)."
+        },
+        {
+          id: 42, topic: "Centre of Gravity",
+          q: "A uniform solid cone of vertical height 40 cm and a uniform hollow cone of vertical height 40 cm are placed upright on a flat table. What is the vertical distance between their respective centers of gravity?",
+          options: ["3.33 cm", "6.67 cm", "10.0 cm", "0 cm"],
+          correct: 0, 
+          sol: "<b>Step 1: Locate CG of Solid Cone</b><br>The center of gravity of a uniform solid cone lies at a height of \\( h/4 \\) from its base. Height = \\( 40/4 = 10 \\text{ cm} \\).<br><b>Step 2: Locate CG of Hollow Cone</b><br>The center of gravity of a uniform hollow cone lies at a height of \\( h/3 \\) from its base. Height = \\( 40/3 = 13.33 \\text{ cm} \\).<br><b>Step 3: Calculate the Difference</b><br>Distance between them = \\( 13.33 \\text{ cm} - 10.0 \\text{ cm} = 3.33 \\text{ cm} \\)."
+        },
+        {
+          id: 43, topic: "Moment of Force",
+          q: "In a nutcracker, the nut is placed at a distance of 4 cm from the hinge (fulcrum), and the effort is applied at a distance of 20 cm from the hinge. If the resistance offered by the nut is 100 N, what is the minimum effort required to crack it?",
+          imgUrl: "",
+          options: ["20 N", "500 N", "25 N", "10 N"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify the Lever Class and Principle</b><br>A nutcracker is a Class II lever. By the principle of moments: Load \\( \\times \\) Load Arm = Effort \\( \\times \\) Effort Arm.<br><b>Step 2: Assign Values</b><br>Load (Resistance of nut) = 100 N. Load Arm = 4 cm.<br>Effort = E. Effort Arm = 20 cm.<br><b>Step 3: Solve for Effort</b><br>\\( 100 \\times 4 = E \\times 20 \\).<br>\\( 400 = 20E \\implies E = \\frac{400}{20} = 20 \\text{ N} \\)."
+        },
+        {
+          id: 44, topic: "Principle of Moments",
+          q: "A uniform meter scale balances horizontally on a knife-edge placed exactly at the 55 cm mark when a mass of 25 g is suspended from one end. What is the mass of the meter scale?",
+          options: ["125 g", "225 g", "100 g", "250 g"],
+          correct: 1, 
+          sol: "<b>Step 1: Locate the Pivot and CG</b><br>The pivot is at the 55 cm mark. The unknown mass of the scale (M) acts at its CG (50 cm). Since 50 cm is to the left of the pivot, this creates an Anticlockwise moment.<br><b>Step 2: Determine Position of Suspended Mass</b><br>To balance this, the 25 g mass must be placed on the right side. The only 'end' on the right side is the 100 cm mark.<br><b>Step 3: Apply Principle of Moments</b><br>ACW Moment = \\( M \\times (55 - 50) = M \\times 5 \\).<br>CW Moment = \\( 25 \\times (100 - 55) = 25 \\times 45 = 1125 \\).<br>Equating them: \\( 5M = 1125 \\implies M = \\frac{1125}{5} = 225 \\text{ g} \\)."
+        },
+        {
+          id: 45, topic: "Translational and Rotational Motion",
+          q: "A rigid body is acted upon by two unequal forces in strictly opposite directions, but not along the same line of action. The resulting motion of the body will be:",
+          options: ["Only translational", "Only rotational", "Both translational and rotational", "The body will remain in equilibrium"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Translational Motion</b><br>Because the two forces are unequal and in opposite directions, there will be a net non-zero resultant force (\\( F_{net} = F_1 - F_2 \\)). This net force will cause the body's center of mass to accelerate, producing translational motion.<br><b>Step 2: Analyze Rotational Motion</b><br>Because the forces do not act along the same line of action, they produce a net turning effect (torque) about the center of mass. This will cause the body to rotate.<br><b>Step 3: Conclusion</b><br>The body will undergo simultaneous translational and rotational motion."
+        },
+        {
+          id: 46, topic: "Uniform Circular Motion",
+          q: "A stone of mass 'm' is tied to a string and whirled in a horizontal circle of radius 'r' with a constant velocity 'v'. If the length of the string is halved but the velocity is kept identical, the required centripetal force will:",
+          options: ["Remain the same", "Become half", "Become double", "Become four times"],
+          correct: 2, 
+          sol: "<b>Step 1: Recall the Formula</b><br>The magnitude of the centripetal force required to maintain uniform circular motion is given by \\( F = \\frac{mv^2}{r} \\).<br><b>Step 2: Analyze the Change</b><br>The mass 'm' and velocity 'v' are kept constant. The radius 'r' (length of the string) is changed to \\( r/2 \\).<br><b>Step 3: Calculate New Force</b><br>New Force \\( F' = \\frac{mv^2}{(r/2)} = 2 \\times \\left(\\frac{mv^2}{r}\\right) = 2F \\). The force required becomes double."
+        },
+        {
+          id: 47, topic: "Moment of Force",
+          q: "A wheel of diameter 2 m has an axle at its center 'O'. A tangential force F = 2 N is applied at a point 'B' on the rim. What is the moment of this force about the center 'O' and about the diametrically opposite point 'A' on the rim, respectively?",
+          imgUrl: "",
+          options: ["2 Nm, 4 Nm", "4 Nm, 2 Nm", "2 Nm, 2 Nm", "4 Nm, 4 Nm"],
+          correct: 0, 
+          sol: "<b>Step 1: Determine Dimensions</b><br>Diameter = 2 m, therefore Radius (r) = 1 m.<br><b>Step 2: Moment about Center 'O'</b><br>Perpendicular distance from O to the line of action at B is the radius (1 m).<br>Moment about O = \\( F \\times r = 2 \\text{ N} \\times 1 \\text{ m} = 2 \\text{ Nm} \\).<br><b>Step 3: Moment about Point 'A'</b><br>Point A is diametrically opposite to B. The perpendicular distance from A to the line of action of the force at B is the full diameter (2 m).<br>Moment about A = \\( F \\times 2r = 2 \\text{ N} \\times 2 \\text{ m} = 4 \\text{ Nm} \\)."
+        },
+        {
+          id: 48, topic: "Centre of Gravity",
+          q: "A uniform circular disc of radius 'r' has a smaller circular hole cleanly cut out of it from near its right edge. The center of gravity of the remaining shape will:",
+          imgUrl: "",
+          options: ["Remain exactly at the geometric center", "Shift towards the right edge", "Shift towards the left edge (away from the hole)", "Shift outside the physical boundaries of the disc"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand Mass Distribution</b><br>The center of gravity is the balance point of the mass. For a uniform intact disc, it is exactly in the center.<br><b>Step 2: Effect of Removing Mass</b><br>When a piece is cut out from the right side, the right side becomes lighter, and the left side becomes relatively heavier.<br><b>Step 3: Conclusion</b><br>To maintain balance, the point of equilibrium (CG) must shift towards the heavier side. Therefore, the CG shifts to the left, away from the hole."
+        },
+        {
+          id: 49, topic: "Equilibrium",
+          q: "A uniform rigid rod of length 1 m and weight W is supported horizontally by two vertical parallel strings attached at its ends. A load of 3W is placed on the rod at a distance of 25 cm from the left end. The tension in the right string is:",
+          imgUrl: "",
+          options: ["1.25 W", "2.75 W", "2.00 W", "0.75 W"],
+          correct: 0, 
+          sol: "<b>Step 1: Set up the Geometry</b><br>Let the left end be pivot point A (0 cm) and the right end be point B (100 cm). The tension in the right string is \\( T_2 \\), acting upwards at 100 cm.<br><b>Step 2: Identify Downward Forces and Moments about A</b><br>1. Load 3W acts downwards at 25 cm. Moment = \\( 3W \\times 0.25 \\text{ m} = 0.75W \\).<br>2. Weight of rod W acts downwards at its CG (50 cm). Moment = \\( W \\times 0.50 \\text{ m} = 0.50W \\).<br>Total downward (clockwise) moment about A = \\( 0.75W + 0.50W = 1.25W \\).<br><b>Step 3: Calculate Tension</b><br>The upward (anticlockwise) moment is provided by \\( T_2 \\) at 100 cm (1 m).<br>\\( T_2 \\times 1 = 1.25W \\implies T_2 = 1.25W \\)."
+        },
+        {
+          id: 50, topic: "Couple",
+          q: "Two parallel forces \\( F_1 = 10 \\text{ N} \\) and \\( F_2 = 10 \\text{ N} \\) act in opposite directions at points A and B separated by 2 m, forming a couple. To completely balance this system, a counter-couple is applied at a separation distance of 0.5 m. What must be the magnitude of the force for this counter-couple?",
+          options: ["10 N", "20 N", "40 N", "80 N"],
+          correct: 2, 
+          sol: "<b>Step 1: Calculate the Moment of the Original Couple</b><br>Moment of Couple = Force \\( \\times \\) perpendicular separation.<br>Moment = \\( 10 \\text{ N} \\times 2 \\text{ m} = 20 \\text{ Nm} \\).<br><b>Step 2: Set up the Counter-Couple Equation</b><br>To balance the system, the counter-couple must generate an equal and opposite moment of 20 Nm.<br>Let the force of the counter-couple be \\( F_c \\). Its separation is 0.5 m.<br><b>Step 3: Solve for Force</b><br>\\( F_c \\times 0.5 = 20 \\implies F_c = \\frac{20}{0.5} = 40 \\text{ N} \\)."
+        },
+        {
+          id: 51, topic: "Equilibrium",
+          q: "Which of the following conditions is mathematically and physically required for a rigid body to be in complete static equilibrium?",
+          options: ["Only the vector sum of all forces must be zero.", "Only the algebraic sum of all moments must be zero.", "The vector sum of forces must be zero AND the algebraic sum of moments about any point must be zero.", "The center of gravity must lie outside the body."],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Translational Equilibrium</b><br>For a body to not accelerate in a straight line, the net external force acting on it must be zero (\\( \\Sigma F = 0 \\)).<br><b>Step 2: Analyze Rotational Equilibrium</b><br>For a body to not start rotating (or to maintain a constant rotational speed), the net turning effect must be zero. This means the algebraic sum of moments (torques) about *any* point must be zero (\\( \\Sigma \\tau = 0 \\)).<br><b>Step 3: Conclusion</b><br>Complete static equilibrium requires both conditions to be met simultaneously."
+        },
+        {
+          id: 52, topic: "Principle of Moments",
+          q: "A uniform meter scale balances horizontally on a knife edge placed at the 60 cm mark when a mass of 'M' is placed at the 90 cm mark. If the actual mass of the scale itself is 60 g, find the exact value of M.",
+          options: ["10 g", "20 g", "30 g", "40 g"],
+          correct: 1, 
+          sol: "<b>Step 1: Map the Forces relative to Pivot (60 cm)</b><br>The mass of the scale (60 g) acts at its Center of Gravity (50 cm).<br>Distance from pivot = \\( 60 - 50 = 10 \\text{ cm} \\). This creates an Anticlockwise moment.<br>The unknown mass M is at the 90 cm mark.<br>Distance from pivot = \\( 90 - 60 = 30 \\text{ cm} \\). This creates a Clockwise moment.<br><b>Step 2: Equate Moments</b><br>Anticlockwise Moment = Clockwise Moment<br>\\( 60 \\text{ g} \\times 10 \\text{ cm} = M \\times 30 \\text{ cm} \\).<br><b>Step 3: Solve for M</b><br>\\( 600 = 30M \\implies M = \\frac{600}{30} = 20 \\text{ g} \\)."
+        },
+        {
+          id: 53, topic: "Moment of Force",
+          q: "A heavy metallic door requires a minimum moment of 15 Nm to open. If the handle is located exactly 0.5 m away from the hinges, what is the minimum perpendicular force required to open the door?",
+          options: ["7.5 N", "15.0 N", "30.0 N", "60.0 N"],
+          correct: 2, 
+          sol: "<b>Step 1: State the Formula</b><br>The turning effect required is the Moment of Force. Moment = Force \\( \\times \\) perpendicular distance from the pivot (hinges).<br><b>Step 2: Insert Known Values</b><br>Required Moment = 15 Nm.<br>Distance (r) = 0.5 m.<br>\\( 15 = F \\times 0.5 \\).<br><b>Step 3: Solve for Force</b><br>\\( F = \\frac{15}{0.5} = 30 \\text{ N} \\)."
+        },
+        {
+          id: 54, topic: "Principle of Moments",
+          q: "A uniform half-meter rule (50 cm long) is pivoted at its 25 cm mark. A 20 gf weight is suspended at the 10 cm mark. Where exactly must a 30 gf weight be suspended to balance the rule horizontally?",
+          imgUrl: "",
+          options: ["At the 10 cm mark on the right", "At the 35 cm mark of the ruler", "At the 40 cm mark of the ruler", "At the 45 cm mark of the ruler"],
+          correct: 1, 
+          sol: "<b>Step 1: Calculate the Anticlockwise Moment</b><br>Pivot is at 25 cm. 20 gf weight is at 10 cm.<br>Distance = \\( 25 - 10 = 15 \\text{ cm} \\).<br>ACW Moment = \\( 20 \\times 15 = 300 \\text{ gf cm} \\).<br><b>Step 2: Set up the Clockwise Moment</b><br>To balance, the 30 gf weight must create an equal CW moment. Let its distance from the pivot be 'x'.<br>\\( 30 \\times x = 300 \\implies x = 10 \\text{ cm} \\) from the pivot.<br><b>Step 3: Find the Ruler Mark</b><br>Since it must be on the right side to create a CW moment, we add this distance to the pivot position: \\( 25 + 10 = 35 \\text{ cm} \\) mark."
+        },
+        {
+          id: 55, topic: "Uniform Circular Motion",
+          q: "A boy sits on a rapidly rotating merry-go-round. The force that seemingly pushes him outwards, threatening to throw him off the ride, is called _________, and it is physically classified as a _________ force.",
+          options: ["Centripetal, Real", "Centrifugal, Pseudo", "Gravitational, Real", "Frictional, Pseudo"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify the Outward Sensation</b><br>When observing from the rotating frame of reference (sitting on the ride), the person feels a force pushing them radially outwards away from the center. This is termed the Centrifugal force.<br><b>Step 2: Classify the Force</b><br>According to Newtonian mechanics, this outward force does not actually exist; there is no physical interaction causing it. It is a 'pseudo' or fictitious force that arises purely because the observer is in an accelerating (non-inertial) frame of reference."
+        },
+        {
+          id: 56, topic: "Centre of Gravity",
+          q: "Which of the following bodies is capable of having its Center of Gravity perfectly located in empty space, entirely outside of its actual physical material?",
+          options: ["A uniform solid cylinder", "A uniform rectangular lamina", "A uniform circular ring", "A uniform solid sphere"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Solid Shapes</b><br>For solid, uniform geometric shapes (like a cylinder, rectangle, or sphere), mass is distributed evenly throughout. Their geometric centers, which act as the Center of Gravity, are buried deep inside their physical material.<br><b>Step 2: Analyze the Ring</b><br>A uniform circular ring has mass only along its outer perimeter. Due to symmetry, the Center of Gravity must be exactly in the center of the circle. Because the center is hollow, the CG lies in empty space, outside the physical material."
+        },
+        {
+          id: 57, topic: "Moment of Force",
+          q: "The S.I. unit of the moment of a force is the Newton-meter (Nm). Which of the following physical quantities shares this exact same S.I. unit?",
+          options: ["Power", "Work", "Momentum", "Pressure"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze Moment of Force</b><br>Moment = Force \\( \\times \\) Distance. Unit = Newton \\( \\times \\) meter = Nm.<br><b>Step 2: Analyze the Options</b><br>Work is defined as Force \\( \\times \\) Displacement. Its unit is also Newton \\( \\times \\) meter (Nm), which is commonly referred to as a Joule (J).<br><b>Step 3: Note the Distinction</b><br>Although they share the same dimensional unit (Nm), they represent entirely different physical concepts. Work is a scalar quantity, while Moment is a vector quantity."
+        },
+        {
+          id: 58, topic: "Principle of Moments",
+          q: "A uniform meter scale balances horizontally when pivoted at the 50 cm mark. If a 10 gf weight is fully immersed in a beaker of water while still suspended from the 20 cm mark, what will happen to the scale?",
+          imgUrl: "",
+          options: ["It will remain perfectly balanced horizontally.", "It will tilt anti-clockwise.", "It will tilt clockwise.", "The pivot point will automatically shift to the 40 cm mark."],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Initial State</b><br>Before immersion, the system is in equilibrium. The ACW moment from the weight at 20 cm is perfectly balanced by some CW moment on the other side.<br><b>Step 2: Effect of Water Immersion</b><br>When the weight is immersed in water, it experiences an upward buoyant force (upthrust). This effectively reduces the apparent weight (downward force) of the mass at the 20 cm mark.<br><b>Step 3: Conclusion</b><br>Because the force on the left side (ACW moment) has decreased, the ACW moment becomes smaller than the CW moment. The unbalanced CW moment will cause the scale to tilt clockwise."
+        },
+        {
+          id: 59, topic: "Principle of Moments",
+          q: "A physical balance has arms of slightly unequal length. When a body is placed in the left pan, it weighs 18 g. When placed in the right pan, it weighs 8 g. What is the true mathematical weight of the body?",
+          options: ["13 g", "10 g", "12 g", "144 g"],
+          correct: 2, 
+          sol: "<b>Step 1: Recall the Formula for Unequal Arms</b><br>When a physical balance has arms of unequal lengths (let's say \\( L_1 \\) and \\( L_2 \\)), the true weight (W) of an object is the geometric mean of its apparent weights in both pans.<br><b>Step 2: Apply the Formula</b><br>\\( W = \\sqrt{W_1 \\times W_2} \\).<br>Given \\( W_1 = 18 \\text{ g} \\) and \\( W_2 = 8 \\text{ g} \\).<br><b>Step 3: Calculate</b><br>\\( W = \\sqrt{18 \\times 8} = \\sqrt{144} = 12 \\text{ g} \\)."
+        },
+        {
+          id: 60, topic: "Uniform Circular Motion",
+          q: "A geostationary satellite revolves around the Earth in a circular orbit at a constant speed. Is its motion considered an example of uniform circular motion, and does its acceleration remain constant?",
+          options: ["Yes, UCM; Yes, acceleration is constant.", "No, not UCM; Yes, acceleration is constant.", "Yes, UCM; No, acceleration continuously changes direction.", "No, not UCM; No, acceleration is zero."],
+          correct: 2, 
+          sol: "<b>Step 1: Evaluate the Motion Type</b><br>The satellite moves in a circular path with a constant speed. This perfectly fits the definition of Uniform Circular Motion (UCM).<br><b>Step 2: Evaluate the Acceleration</b><br>Because the direction of the velocity vector is continuously changing at every point along the orbit, the satellite is constantly accelerating.<br><b>Step 3: Conclusion</b><br>While the *magnitude* of this centripetal acceleration remains constant (\\( a = v^2/r \\)), its *direction* always points towards the center of the Earth, which means the direction vector is continuously shifting. Therefore, the acceleration vector is not constant."
+        }
+      ]
+    },
     // ==========================================
     // CHAPTER: VECTORS
     // ==========================================
@@ -12544,6 +12998,7 @@
       ]
     }
   };
+
 
 
 
