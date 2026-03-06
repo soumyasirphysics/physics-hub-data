@@ -492,6 +492,513 @@
         }
       ]
     },
+
+    "Magnetic Effect of Electric Current": { 
+      classTarget: "Class 10", 
+      totalQs: 55, 
+      topics: [
+        "Magnetic Field and Field Lines", 
+        "Magnetic Field due to Current Carrying Conductors",
+        "Force on a Moving Charge in a Magnetic Field",
+        "Force on a Current Carrying Conductor",
+        "Electric Motor and Electromagnetic Induction",
+        "Domestic Electric Circuits"
+      ],
+      questions: [
+       {
+          id: 1, topic: "Magnetic Field and Field Lines",
+          q: "Magnetic field lines are always",
+          options: ["Straight lines", "Zig-zag lines", "Hyperbola", "Closed loops"],
+          correct: 3, 
+          sol: "<b>Step 1: Understand Magnetic Field Lines</b><br>Magnetic field lines are continuous, imaginary curves used to visually represent a magnetic field.<br><b>Step 2: Trace the Path</b><br>They emerge from the North pole and merge at the South pole outside the magnet, and travel from the South pole to the North pole inside the magnet, thereby forming continuous, closed loops."
+        },
+        {
+          id: 2, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "Looking from one side towards the face of a coil, the current in it flows in clockwise direction. On looking from the opposite side towards the second face of the coil, the face has ______ polarity.",
+          options: ["North", "South", "Both (1) & (2)", "No polarity will be formed"],
+          correct: 0, 
+          sol: " <br><b>Step 1: Apply the Clock Face Rule</b><br>According to the clock face rule, if the current around the face of a circular wire flows in a clockwise direction, that face acts as a South pole.<br><b>Step 2: Analyze the Opposite Face</b><br>When you look at the exact same coil from the opposite side, the direction of the current will appear reversed (anti-clockwise). An anti-clockwise current direction corresponds to a North polarity."
+        },
+        {
+          id: 4, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "The magnetic field inside a long straight solenoid carrying current is",
+          options: ["Zero", "Nearly uniform", "Increases as we move towards its ends", "Fluctuates continuously"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze the Solenoid's Interior</b><br>Inside a long straight current-carrying solenoid, the magnetic field lines are parallel, straight lines.<br><b>Step 2: Conclusion</b><br>Parallel and evenly spaced field lines indicate that the magnetic field is nearly uniform (the same magnitude and direction) at all points well inside the solenoid."
+        },
+        {
+          id: 5, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "A beam of \\( \\alpha \\)-particles is projected into a magnetic field. If the direction of magnetic field is along the velocity of charged particles, the particles get",
+          options: ["Accelerated", "Decelerated", "Deflected", "No change in velocity"],
+          correct: 3, 
+          sol: "<b>Step 1: Formula for Magnetic Force</b><br>The magnitude of magnetic force on a moving charge is given by \\( F_B = qvB \\sin(\\theta) \\), where \\( \\theta \\) is the angle between velocity (v) and magnetic field (B).<br><b>Step 2: Calculate Force</b><br>Since the particles are moving *along* (parallel to) the magnetic field, \\( \\theta = 0^{\\circ} \\). Because \\( \\sin(0^{\\circ}) = 0 \\), the magnetic force acting on the particles is zero.<br><b>Step 3: Conclusion</b><br>With no external force acting on them, there is no change in velocity (neither magnitude nor direction)."
+        },
+        {
+          id: 6, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "An electron is moving in the north direction. It experiences a force in the vertically upward direction. The magnetic field at that region is towards",
+          options: ["East", "West", "North", "South"],
+          correct: 0, 
+          sol: " <br><b>Step 1: Determine Current Direction</b><br>An electron is negatively charged. Since it moves North, the conventional current direction is opposite to the electron's motion, which is South.<br><b>Step 2: Apply Fleming's Left-Hand Rule</b><br>Stretch the thumb, forefinger, and middle finger of your left hand mutually perpendicular. Point the thumb (Force) vertically upward, and the middle finger (Current) towards the South.<br><b>Step 3: Result</b><br>Your forefinger, which represents the Magnetic Field, will naturally point towards the East."
+        },
+        {
+          id: 7, topic: "Force on a Current Carrying Conductor",
+          q: "A vertical wire carrying a current in the upward direction is placed in a horizontal magnetic field directed towards east. The wire will experience a force directed towards",
+          options: ["East", "West", "North", "South"],
+          correct: 2, 
+          sol: " <br><b>Step 1: Setup Directions</b><br>Current is flowing vertically upward. The Magnetic Field is pointing East.<br><b>Step 2: Apply Fleming's Left-Hand Rule</b><br>Using your left hand, point the middle finger (Current) upward, and the forefinger (Magnetic Field) towards the East.<br><b>Step 3: Result</b><br>Your thumb, representing the direction of the Force, will point towards the North."
+        },
+        {
+          id: 8, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "Which of the following is not true in case of motion of a charged particle which is projected perpendicularly in a magnetic field?",
+          options: ["Its kinetic energy remains constant", "Its momentum remains constant", "Its speed remains constant", "Its velocity will change"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze the Motion</b><br>When a charged particle enters a magnetic field perpendicularly, the magnetic force acts strictly as a centripetal force, altering only the direction of the particle to form a circular path.<br><b>Step 2: Evaluate Quantities</b><br>Because the force is perpendicular to velocity, no work is done. Therefore, speed and kinetic energy remain constant. However, because the *direction* of motion is continuously changing, both velocity and momentum (which are vector quantities) are continuously changing. Thus, saying 'momentum remains constant' is false."
+        },
+        {
+          id: 9, topic: "Electric Motor and Electromagnetic Induction",
+          q: "For a DC motor, choose the correct option.",
+          options: ["The split rings acts as a commutator", "The reversing of the current is repeated at each half rotation", "Soft iron core on which the coil is wound, plus the coil is called armature", "All of these"],
+          correct: 3, 
+          sol: "<b>Step 1: Evaluate Statement 1 & 2</b><br>In a DC motor, split rings (commutator) reverse the direction of current flowing through the rectangular loop every half rotation to ensure continuous rotation in the same direction.<br><b>Step 2: Evaluate Statement 3</b><br>The soft iron core (which enhances the magnetic field) combined with the numerous turns of the coil wound around it is collectively known as the armature. Since all statements accurately describe a DC motor, 'All of these' is correct."
+        },
+        {
+          id: 10, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "A charged particle is moved along a magnetic field line. The magnetic force on the particle is",
+          options: ["Zero", "Along its velocity", "Opposite to its velocity", "Perpendicular to its velocity"],
+          correct: 0, 
+          sol: "<b>Step 1: Set up the Formula</b><br>The magnetic force is \\( F_B = qvB \\sin(\\theta) \\).<br><b>Step 2: Determine the Angle</b><br>If the particle moves 'along' a magnetic field line, it is moving parallel to the field, meaning the angle \\( \\theta \\) is \\( 0^{\\circ} \\) (or \\( 180^{\\circ} \\)).<br><b>Step 3: Calculate</b><br>Since \\( \\sin(0^{\\circ}) = 0 \\), the total magnetic force acting on the particle is exactly zero."
+        },
+        {
+          id: 11, topic: "Electric Motor and Electromagnetic Induction",
+          q: "In a DC motor, current in armature changes its direction of flow in every",
+          options: ["\\( 90^{\\circ} \\)", "\\( 360^{\\circ} \\)", "\\( 180^{\\circ} \\)", "\\( 50^{\\circ} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand DC Motor Operation</b><br>In a direct current (DC) motor, the armature coil rotates within a magnetic field. To ensure the coil continues to rotate in the same direction, the force on its arms must reverse periodically.<br><b>Step 2: Role of the Commutator</b><br>A split-ring commutator is used to reverse the direction of the current in the armature coil. This reversal happens exactly every half rotation, which corresponds to an angle of \\( 180^{\\circ} \\)."
+        },
+        {
+          id: 12, topic: "Force on a Current Carrying Conductor",
+          q: "An elastic circular wire of length x carries a current i. It is placed in a uniform magnetic field \\( \\vec{B} \\) (out of paper) such that its plane is perpendicular to the direction of B. Force experienced by the wire is",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiHQ4GOWs2o2mbjqUPHsaMZnJTb_Wcr3CHYk71OmwDO6LXW0rtX3p5l84MeYus85IVazcr_Ok-LNk73IZJmFZatTBiuqZLmd0Y2ywMhg4bicgwz_9zHM1RMmovYoQCr7DVSbQAzwQgvokhqDIPrLsLzhcvP6ikdJqfw8JhG6ljlMCUj2iDkN5-5LIlx9pha",
+          options: ["Compressive force", "Stretching force", "Torque", "No force"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze the Setup</b><br>The circular wire is in the plane of the paper, and the magnetic field \\( \\vec{B} \\) is coming <i>out</i> of the paper.<br><b>Step 2: Apply Fleming's Left-Hand Rule</b><br>Take any small segment of the circular wire. If the current flows in a specific direction (e.g., anti-clockwise), point your middle finger along the tangent (current) and forefinger outwards (field). The thumb (force) will point radially outward from the center.<br><b>Step 3: Conclusion</b><br>Because every small segment of the wire experiences a force pointing radially outward from the center, the overall effect on the elastic wire is a <b>stretching force</b> trying to expand its radius."
+        },
+        {
+          id: 13, topic: "Electric Motor and Electromagnetic Induction",
+          q: "In a D.C. motor, current in armature charges its direction of flow every ______ rotation of armature.",
+          options: ["\\( 90^{\\circ} \\)", "\\( 360^{\\circ} \\)", "\\( 180^{\\circ} \\)", "\\( 50^{\\circ} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Commutator Function</b><br>Similar to the previous concept, a DC motor relies on a split-ring commutator to maintain unidirectional torque.<br><b>Step 2: Frequency of Reversal</b><br>The split rings swap contact with the carbon brushes exactly halfway through a full spin. Therefore, the current reverses its direction every half rotation, or \\( 180^{\\circ} \\)."
+        },
+        {
+          id: 14, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "When a charged particle enters in a uniform magnetic field, its kinetic energy",
+          options: ["Remains constant", "Increases", "Decreases", "Becomes zero"],
+          correct: 0, 
+          sol: "<b>Step 1: Direction of Magnetic Force</b><br>The magnetic force acting on a moving charged particle is always perpendicular to its velocity vector (\\( F = q(\\vec{v} \\times \\vec{B}) \\)).<br><b>Step 2: Work-Energy Theorem</b><br>Because the force is perpendicular to the displacement, the work done by the magnetic field on the particle is zero (\\( W = F \\cdot d \\cos(90^{\\circ}) = 0 \\)).<br><b>Step 3: Conclusion</b><br>Since no work is done, the particle's speed does not change. Consequently, its kinetic energy (\\( \\frac{1}{2}mv^2 \\)) remains constant."
+        },
+        {
+          id: 15, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "When a positive charged particle enters in a uniform magnetic field normally, then the path of the particle will be",
+          options: ["Circular", "Elliptical", "Helical", "Straight"],
+          correct: 0, 
+          sol: "<b>Step 1: Analyze the Angle of Entry</b><br>The particle enters \"normally,\" meaning its velocity is completely perpendicular (\\( 90^{\\circ} \\)) to the magnetic field lines.<br><b>Step 2: Nature of the Force</b><br>The magnetic force will act as a constant centripetal force, continuously pulling the particle perpendicular to its direction of motion without changing its speed.<br><b>Step 3: Resulting Trajectory</b><br>This constant perpendicular force forces the particle to travel in a perfect two-dimensional circular path."
+        },
+        {
+          id: 16, topic: "Electric Motor and Electromagnetic Induction",
+          q: "How many times does an alternating current (AC) with frequency 50 Hz changes its direction?",
+          options: ["25", "75", "50", "100"],
+          correct: 3, 
+          sol: " <br><b>Step 1: Define AC Frequency</b><br>A frequency of 50 Hz means the alternating current completes 50 full cycles in one second.<br><b>Step 2: Direction Changes per Cycle</b><br>In one complete AC cycle (a sine wave), the current starts from zero, goes to a positive peak, crosses zero to reverse direction, goes to a negative peak, and returns to zero. Thus, it changes direction exactly 2 times per cycle.<br><b>Step 3: Calculate Total Changes</b><br>Total changes in one second = \\( 50 \\text{ cycles} \\times 2 \\text{ changes/cycle} = 100 \\text{ times} \\)."
+        },
+        {
+          id: 19, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "Magnetic field is produced by the flow of current in a straight wire. This phenomenon was discovered by",
+          options: ["Faraday", "Maxwell", "Coulomb", "Oersted"],
+          correct: 3, 
+          sol: "<b>Step 1: Historical Context</b><br>The fundamental link between electricity and magnetism was discovered accidentally during a classroom lecture in 1820.<br><b>Step 2: Identify the Scientist</b><br>Hans Christian Oersted observed that a compass needle deflected when placed near a wire carrying an electric current, proving that moving charges produce magnetic fields."
+        },
+        {
+          id: 20, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "Magnetic field inside a current carrying solenoid is",
+          options: ["Directly proportional to its length", "Directly proportional to the current", "Inversely proportional to number of turns", "Inversely proportional to the current"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for Solenoid Magnetic Field</b><br>The magnetic field \\( B \\) well inside a long solenoid is given by the formula \\( B = \\mu_0 n I \\), where \\( n \\) is the number of turns per unit length and \\( I \\) is the current.<br><b>Step 2: Analyze the Relationships</b><br>From the formula, \\( B \\) is directly proportional to the number of turns per unit length (\\( n \\)) and directly proportional to the current (\\( I \\)) flowing through the wire."
+        },
+        {
+          id: 21, topic: "Magnetic Field and Field Lines",
+          q: "SI unit of magnetic field intensity is",
+          options: ["tesla", "gauss", "weber", "Both (1) & (2)"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify SI Unit</b><br>The internationally accepted standard (SI) unit for magnetic field intensity (or magnetic flux density) is the tesla (T).<br><b>Step 2: Check other units</b><br>Gauss is the CGS unit for magnetic field, and Weber is the SI unit for magnetic flux, not field intensity."
+        },
+        {
+          id: 22, topic: "Force on a Current Carrying Conductor",
+          q: "Magnetic field in a region is directed into the page. A wire placed in that region which carrying a current in vertically upward direction will experience a force",
+          options: ["Zero", "Due left", "Upwards", "Downwards"],
+          correct: 1, 
+          sol: "<br><b>Step 1: Understand the Setup</b><br>The magnetic field is pointing directly into the page, and the current is flowing vertically upwards.<br><b>Step 2: Apply Fleming's Left-Hand Rule</b><br>Stretch the thumb, forefinger, and middle finger of your left hand mutually perpendicular. Point your forefinger into the page (Field) and your middle finger pointing up (Current).<br><b>Step 3: Result</b><br>Your thumb, representing the magnetic force, will point horizontally to the left. <i>(Note: Corrected from an apparent OCR typo in the original option list)</i>."
+        },
+        {
+          id: 23, topic: "Electric Motor and Electromagnetic Induction",
+          q: "An electric generator converts",
+          options: ["Electric energy into mechanical energy", "Mechanical energy into electrical energy", "Kinetic energy into potential energy", "Electrical energy into sound and light energy"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Generator Principle</b><br>An electric generator works on the principle of electromagnetic induction.<br><b>Step 2: Identify Energy Conversion</b><br>It involves physically rotating a coil inside a magnetic field to induce an electric current. Therefore, it actively converts the input mechanical energy (used to rotate the coil) into useful electrical energy."
+        },
+        {
+          id: 25, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "An electron projected towards north is deflected towards west by a magnetic field. The direction of the field is",
+          options: ["Upward", "Downward", "Eastward", "Southward"],
+          correct: 0, 
+          sol: "<b>Step 1: Determine Current Direction</b><br>Since an electron (which holds a negative charge) is moving North, the direction of conventional current is inherently opposite, which is South.<br><b>Step 2: Identify Force Direction</b><br>The problem clearly states the deflection (force) is directed towards the West.<br><b>Step 3: Apply Fleming's Left-Hand Rule</b><br>Point the middle finger (Current) South, and the thumb (Force) West. Your forefinger (Magnetic Field) will naturally be forced to point vertically upward."
+        },
+        {
+          id: 26, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "A long solenoid is shown in figure. If \\( B_A, B_B, B_C \\) and \\( B_D \\) are magnetic fields at internal points A, B, C and D respectively. Then",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjg-Z3WtThT6OQx9yNBySATHF3kbMDm2dEiiARg2Jw92eB3qNhcSPEoXU5gWxdOSNwhu0G9f0zWMf2NC5wM9h7Vd22DhXSolMe1Tt2IB2GWOe47aP3Z23swH8tVVwxFZ9ssPzQC8FILUQuWyA-G2HtQCkwd9aXpAKfyuyrfA5Gq7ezKJ2mfDUH0JTebwmHs",
+          options: ["\\( B_A = B_B = B_C \\)", "\\( B_A > B_C \\)", "\\( B_D > B_A \\)", "All of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand Solenoid Field</b><br>A long, tightly wound current-carrying solenoid generates a magnetic field inside it that consists of parallel, straight lines.<br><b>Step 2: Conclusion</b><br>Because the field lines are parallel and equidistant everywhere well inside the core of the solenoid, the magnetic field is uniform. Thus, the field strength at any internal points A, B, and C is perfectly identical: \\( B_A = B_B = B_C \\)."
+        },
+        {
+          id: 27, topic: "Electric Motor and Electromagnetic Induction",
+          q: "An electric motor",
+          options: ["Is based on the principle that force acts on a current carrying coil in a magnetic field", "Converts electrical energy into mechanical energy", "Is based on magnetic effect of current", "All of these"],
+          correct: 3, 
+          sol: "<b>Step 1: Evaluate the Principles</b><br>An electric motor heavily relies on the magnetic effect of electric current. Specifically, when a current-carrying coil is placed in a strong magnetic field, it experiences a magnetic force (torque) that makes it rotate.<br><b>Step 2: Evaluate the Function</b><br>Through this continuous rotation, the motor successfully converts input electrical energy into useful mechanical energy. Since all three statements accurately describe the motor, 'All of these' is the right answer."
+        },
+        {
+          id: 28, topic: "Electric Motor and Electromagnetic Induction",
+          q: "As shown in the figure when the switch S is closed, if current in coil A is clockwise, then induced current in coil B is",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjIxzVz__cemprX6PLmcymAaPWnqoD8KmupjiUUMHDVqPczSQCuudYM9AqhOSNjoQsgBwbFn7GW1QoaCoN5Kto9UTSMmB4RG__0Hrnh4so6Pmu__2o2RR11COU0VKYnKLagZNNXirwf7Nq0OJyFOOgGMXnd6jWH9h7VFXKcLOFLHdgmfKTmwMVk_rBxtJ9Z",
+          options: ["Zero", "Clockwise", "Anticlockwise", "None of these"],
+          correct: 2, 
+          sol: "<b>Step 1: Apply Lenz's Law</b><br>When the switch is closed, the clockwise current in coil A increases rapidly from zero to maximum, creating a growing magnetic field.<br><b>Step 2: Determine Induced Direction</b><br>According to Lenz's law, coil B will induce a current specifically to oppose this growing magnetic flux. To successfully oppose the change coming from A, coil B must induce a current that circulates in an anti-clockwise direction."
+        },
+        {
+          id: 29, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "The magnetic field inside a straight current carrying solenoid is independent of",
+          options: ["Number of turns in the solenoid", "Current flowing through it", "The radius of the solenoid", "Length of the solenoid"],
+          correct: 2, 
+          sol: "<b>Step 1: Recall the Formula</b><br>The magnitude of the magnetic field inside a long, straight solenoid is given by \\( B = \\mu_0 n I \\), where \\( n \\) is the number of turns per unit length (\\( N/L \\)) and \\( I \\) is the current.<br><b>Step 2: Identify the Independent Variable</b><br>The formula clearly depends on the number of turns, the length, and the current. It fundamentally does not depend on the cross-sectional radius of the tightly wound solenoid."
+        },
+        {
+          id: 30, topic: "Electric Motor and Electromagnetic Induction",
+          q: "Which of the following is most suitable for the core of electromagnet?",
+          options: ["Air", "Soft iron", "Steel", "Cu-Ni alloy"],
+          correct: 1, 
+          sol: "<b>Step 1: Properties of an Electromagnet Core</b><br>An electromagnet requires a core material that can be easily and strongly magnetized when current flows, and completely demagnetized the instant the current is switched off.<br><b>Step 2: Material Selection</b><br>Soft iron is universally the most suitable material because it has high magnetic permeability (strengthens the field significantly) and low magnetic retentivity (loses its magnetism immediately when the current stops), unlike steel which retains magnetism and becomes a permanent magnet."
+        },
+        {
+          id: 31, topic: "Electric Motor and Electromagnetic Induction",
+          q: "At the time of short circuit, the current in the circuit",
+          options: ["Reduces substantially", "Does not change", "Increases heavily", "Vary continuously"],
+          correct: 2, 
+          sol: "<b>Step 1: Define Short Circuit</b><br>A short circuit occurs when the live wire and the neutral wire come into direct contact due to damaged insulation or a fault in the appliance.<br><b>Step 2: Apply Ohm's Law</b><br>This direct contact creates a path of extremely low resistance. According to Ohm's Law (\\( I = \\frac{V}{R} \\)), a sudden drop in resistance causes the current in the circuit to increase heavily, which can lead to overheating or fires."
+        },
+        {
+          id: 32, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "A long wire carries a steady current it is bent into a circle of one turn and magnetic field at centre of coil is B. It is then bent into a circular loop of n-turns. The magnetic field at center of coil will be",
+          options: ["\\( nB \\)", "\\( n^2B \\)", "\\( 2nB \\)", "\\( 2n^2B \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Original Magnetic Field</b><br>For a single turn of radius \\( R \\), the magnetic field is \\( B = \\frac{\\mu_0 I}{2R} \\). The length of the wire is \\( L = 2\\pi R \\).<br><b>Step 2: New Radius for n-turns</b><br>When bent into \\( n \\) turns, the total length remains the same: \\( L = n(2\\pi r) \\). Therefore, the new radius is \\( r = \\frac{R}{n} \\).<br><b>Step 3: Calculate New Magnetic Field</b><br>The magnetic field for an \\( n \\)-turn coil is \\( B' = \\frac{n\\mu_0 I}{2r} \\). Substitute \\( r \\):<br>\\( B' = \\frac{n\\mu_0 I}{2(R/n)} = n^2 \\left(\\frac{\\mu_0 I}{2R}\\right) = n^2B \\)."
+        },
+        {
+          id: 33, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "A wire as shown in the figure carries a current 2 A. The semicircle has radius 4 cm the magnetic field at the center C will be",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiPmpJfL2VGaWFTLYIoVuS6DWdwDQ-yaaD73w62xg8awfrEN-nj3IuATK7YxFcXENjvqQb7op5YscV9BVXs8g047WrzidIOyfLTeYmT1kylJF53rojhY9nIZzefYrWxIwxbvPswdsrL-X8iO_zvxPm1lM2Tcx2GoeVI06Ya0wcaL8Vz9_mgYGGe4Q39SXI6",
+          options: ["\\( \\frac{3\\pi}{2} \\times 10^{-7} \\text{ T} \\)", "\\( \\frac{4\\pi}{3} \\times 10^{-7} \\text{ T} \\)", "\\( \\frac{\\pi}{2} \\times 10^{-5} \\text{ T} \\)", "\\( \\frac{6\\pi}{5} \\times 10^{-5} \\text{ T} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for Semicircle</b><br>The magnetic field at the center of a semicircular arc is exactly half that of a full circular loop: \\( B = \\frac{1}{2} \\left(\\frac{\\mu_0 I}{2R}\\right) = \\frac{\\mu_0 I}{4R} \\).<br><b>Step 2: Substitute Values</b><br>Given \\( I = 2 \\text{ A} \\), \\( R = 4 \\text{ cm} = 0.04 \\text{ m} \\), and \\( \\mu_0 = 4\\pi \\times 10^{-7} \\text{ T$\\cdot$m/A} \\).<br>\\( B = \\frac{4\\pi \\times 10^{-7} \\times 2}{4 \\times 0.04} \\).<br><b>Step 3: Final Calculation</b><br>\\( B = \\frac{8\\pi \\times 10^{-7}}{0.16} = 50\\pi \\times 10^{-7} = \\frac{\\pi}{2} \\times 10^{-5} \\text{ T} \\)."
+        },
+        {
+          id: 34, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "The magnetic field outside a long solenoid is",
+          options: ["Half the value of field inside", "Double the value of field inside", "Equal to the value of field inside", "Zero"],
+          correct: 3, 
+          sol: "<b>Step 1: Analyze the Ideal Solenoid</b><br>An ideal, infinitely long solenoid tightly concentrates its magnetic field lines purely within its core.<br><b>Step 2: External Field</b><br>Because the field lines spread out over an infinitely large volume outside the solenoid, the magnetic field strength outside a long ideal solenoid is considered to be virtually zero."
+        },
+        {
+          id: 37, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "An electron and a proton having equal momentum enter in a uniform magnetic field normal to the field lines. If the radii of their circular paths be \\( r_e \\) and \\( r_p \\) respectively, then",
+          options: ["\\( \\frac{r_e}{r_p} = \\frac{m_e}{m_p} \\)", "\\( \\frac{r_e}{r_p} = \\sqrt{\\frac{m_e}{m_p}} \\)", "\\( \\frac{r_e}{r_p} = \\sqrt{\\frac{m_p}{m_e}} \\)", "\\( \\frac{r_e}{r_p} = \\frac{1}{1} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Formula for Radius</b><br>When a charged particle enters a magnetic field normally, it moves in a circular path. The radius is given by equating centripetal and magnetic forces: \\( \\frac{mv^2}{r} = qvB \\implies r = \\frac{mv}{qB} = \\frac{p}{qB} \\), where \\( p \\) is momentum.<br><b>Step 2: Compare the Particles</b><br>The electron and proton have the same magnitude of charge (\\( q \\)) and are given to have the same momentum (\\( p \\)). The magnetic field (\\( B \\)) is also uniform for both.<br><b>Step 3: Calculate Ratio</b><br>Since \\( p, q, \\) and \\( B \\) are identical for both particles, their radii must be identical. Therefore, \\( \\frac{r_e}{r_p} = \\frac{1}{1} \\)."
+        },
+        {
+          id: 38, topic: "Force on a Current Carrying Conductor",
+          q: "Two parallel conductors A and B of equal lengths carry currents i and 2i, respectively, in the opposite direction. Then",
+          options: ["A and B will repel each other with same force", "A and B will attract each other with different force", "A and B will repel each other with different force", "A and B will attract each other with same force"],
+          correct: 0, 
+          sol: "<b>Step 1: Determine Force Direction</b><br>When two parallel conductors carry currents in opposite directions, the magnetic field produced by one wire pushes the other wire away, resulting in a repulsive force.<br><b>Step 2: Determine Force Magnitude</b><br>The force between them is an action-reaction pair. According to Newton's Third Law (and Ampere's force law \\( F = \\frac{\\mu_0 i_1 i_2 L}{2\\pi d} \\)), the magnitude of the force exerted by A on B is exactly equal to the force exerted by B on A, regardless of the difference in their current values.<br><b>Step 3: Conclusion</b><br>Therefore, they will repel each other with the exact same magnitude of force."
+        },
+        {
+          id: 39, topic: "Force on a Current Carrying Conductor",
+          q: "Two parallel current carrying conductors carrying the same current I in the same direction are separated by a distance r. Force experienced per unit length by each conductor would be",
+          options: ["Repulsive and \\( F = \\frac{\\mu_0 I^2}{4\\pi r} \\)", "Attractive and \\( F = \\frac{\\mu_0 2I^2}{4\\pi r} \\)", "Repulsive and \\( F = \\frac{\\mu_0 2I^2}{4\\pi r} \\)", "Attractive and \\( F = \\frac{\\mu_0 I^2}{4\\pi r} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Determine Force Direction</b><br>Parallel conductors carrying currents in the same direction always attract each other.<br><b>Step 2: Calculate Force Magnitude</b><br>The magnetic force per unit length between two parallel wires is \\( F = \\frac{\\mu_0 I_1 I_2}{2\\pi r} \\).<br><b>Step 3: Substitute Values</b><br>Since both wires carry current \\( I \\) (so \\( I_1 = I_2 = I \\)):<br>\\( F = \\frac{\\mu_0 I^2}{2\\pi r} \\). Multiplying numerator and denominator by 2 gives the equivalent expression \\( F = \\frac{\\mu_0 2I^2}{4\\pi r} \\)."
+        },
+        {
+          id: 40, topic: "Electric Motor and Electromagnetic Induction",
+          q: "When a magnet moves away from the loops as shown in the figure, the direction of induced current as seen from the magnet's side is",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhmpowlQUAcnDgJGNaa2quXALJHlDTMz16CWZV6sBKzPqwcR3DSlZgn3y0H7h753GEAdYaNkla9YXlFcGM1cizOBG3SxBtD4LwrpyqJCCbw_SgToexDBfsLq6qrGVZfN47Rf3y1mG6WLXXpTcWrAMrBThb9TnSR3T4UbVuiuOh4Lsuf0y9-DZFqBvMgpsSX",
+          options: ["Clockwise", "First clockwise then anticlockwise", "Anti-clockwise", "First anti-clockwise then clockwise"],
+          correct: 0, 
+          sol: "<b>Step 1: Apply Lenz's Law</b><br>According to Lenz's law, the induced current in the loop will always oppose the cause that produced it (i.e., it will oppose the relative motion of the magnet).<br><b>Step 2: Determine Polarity</b><br>If the North pole of the magnet is facing the loop and moving away, the loop will try to attract it back. To do this, the face of the loop nearest the magnet must behave as a South pole.<br><b>Step 3: Apply Clock Face Rule</b><br><br>For the face of the coil to act as a South pole, the induced electric current must flow in a clockwise direction."
+        },
+        {
+          id: 41, topic: "Force on a Current Carrying Conductor",
+          q: "A wire of length \\( 0.02 \\text{ m} \\) is placed perpendicular to a uniform magnetic field of magnitude \\( 0.60 \\text{ T} \\). The force on the wire, when current through it is \\( 5 \\text{ A} \\), will be",
+          options: ["\\( 0.12 \\text{ N} \\)", "\\( 0.06 \\text{ N} \\)", "\\( 0.03 \\text{ N} \\)", "\\( 0.24 \\text{ N} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify the Formula</b><br>The magnetic force on a straight current-carrying conductor is given by \\( F = I L B \\sin(\\theta) \\).<br><b>Step 2: Substitute the Values</b><br>Given: Current \\( I = 5 \\text{ A} \\), Length \\( L = 0.02 \\text{ m} \\), Magnetic Field \\( B = 0.60 \\text{ T} \\). Since it is placed perpendicularly, \\( \\theta = 90^{\\circ} \\) and \\( \\sin(90^{\\circ}) = 1 \\).<br><b>Step 3: Calculate</b><br>\\( F = 5 \\times 0.02 \\times 0.60 \\times 1 = 0.1 \\times 0.60 = 0.06 \\text{ N} \\)."
+        },
+        {
+          id: 42, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "A particle with charge \\( 2 \\, \\mu\\text{C} \\) and moving with velocity \\( 2 \\times 10^6 \\text{ m/s} \\) enters normally in a magnetic field of \\( 4 \\text{ T} \\). The force experienced by it is",
+          options: ["\\( 4 \\text{ N} \\)", "\\( 8 \\text{ N} \\)", "\\( 12 \\text{ N} \\)", "\\( 16 \\text{ N} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Identify the Formula</b><br>The magnetic force on a moving charge is \\( F = q v B \\sin(\\theta) \\).<br><b>Step 2: Convert Units and Substitute</b><br>Charge \\( q = 2 \\, \\mu\\text{C} = 2 \\times 10^{-6} \\text{ C} \\). Velocity \\( v = 2 \\times 10^6 \\text{ m/s} \\). Magnetic field \\( B = 4 \\text{ T} \\). Entering 'normally' means \\( \\theta = 90^{\\circ} \\).<br><b>Step 3: Calculate</b><br>\\( F = (2 \\times 10^{-6}) \\times (2 \\times 10^6) \\times 4 \\times 1 \\)<br>\\( F = 4 \\times 4 = 16 \\text{ N} \\)."
+        },
+        {
+          id: 43, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "A long straight wire of diameter \\( 0.5 \\text{ mm} \\) carrying a current of \\( 1 \\text{ ampere} \\) is replaced by another wire of \\( 1 \\text{ mm} \\) diameter carrying the same current. The strength of magnetic field far away is",
+          options: ["Twice the earlier value", "One half of the earlier value", "One quarter of the earlier value", "Same as the earlier value"],
+          correct: 3, 
+          sol: "<b>Step 1: Formula for Magnetic Field</b><br>The magnetic field produced by a long straight wire at a distance \\( r \\) is \\( B = \\frac{\\mu_0 I}{2\\pi r} \\).<br><b>Step 2: Analyze the Dependency</b><br>The magnetic field at a point \"far away\" depends only on the total current \\( I \\) flowing through the wire and the distance \\( r \\) from the center of the wire.<br><b>Step 3: Conclusion</b><br>Since the current remains exactly the same (\\( 1 \\text{ A} \\)), the thickness (diameter) of the wire does not affect the magnetic field outside it. Therefore, the field strength remains the same."
+        },
+        {
+          id: 44, topic: "Electric Motor and Electromagnetic Induction",
+          q: "A rectangular conducting coil moves in a uniform magnetic field perpendicular to the plane of the paper directed downward (shown in the figure). Then",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhikMWwmgihGbfw5enGEYK-niGwsHe68N3OALZlExYWn77Vu1esoEDDHcicny3QI008sJmsv5AqMQMyLahxJ9jpIGqFApkpfpU14gxsGi3tD9Lfl8bM-zEGrQmynajCkK_38pr42hpnCpygySep-nw0aJ4zatUIuf5lYdQu66acB12pBEe_p2ll3EsIy-ai",
+          options: ["Current is induced along ABCD", "Current is induced along ADCB", "No current will be induced in the coil", "The current will be induced but the direction cannot be predicted"],
+          correct: 2, 
+          sol: "<b>Step 1: Conditions for Electromagnetic Induction</b><br>According to Faraday's law of induction, an EMF (and consequently a current) is only induced when the magnetic flux linking a closed loop changes over time.<br><b>Step 2: Analyze the Setup</b><br>The rectangular coil is moving entirely *within* a steady, uniform magnetic field.<br><b>Step 3: Conclusion</b><br>Because the magnetic field is uniform and the area of the coil doesn't change, the total magnetic flux passing through the loop remains perfectly constant. With zero change in flux, no current will be induced in the coil."
+        },
+        {
+          id: 45, topic: "Force on a Current Carrying Conductor",
+          q: "A current carrying loop is placed near a long straight wire which also conducts a current. The direction of currents are shown in figure, then which of the following options is correct?",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhDgo596RlKJWsCXtF770TYD_hoW5n-1FUWM2zRohcaks2nutqQJQ3TqyZiABeZQRKOCfYZ4MFJ7RYMrYZ_fgLJLrXSrB4amekjvCw4hIi0uQ5ogy00wDcQVvgrn6OHBMI2HvST02sT36mP-JoVsz0vlfRrEDhmaVA6acIDFElMv-aNk54aa5oDbTF2njlt",
+          options: ["The wire is attracted towards the loop", "The wire is repelled from the loop", "The wire does not experience any force", "The wire will have attraction or repulsion depending on the magnitudes of the currents"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze Parallel Conductors Rule</b><br>Currents flowing in the same direction attract each other, while currents flowing in opposite directions repel each other.<br><b>Step 2: Apply to the Loop</b><br>The straight wire has an upward current. The side of the loop *closest* to the wire has a downward current (opposite direction -> repulsion). The side of the loop *farthest* from the wire has an upward current (same direction -> attraction).<br><b>Step 3: Net Force</b><br>Because magnetic force is stronger at closer distances, the repulsive force on the near side overpowers the attractive force on the far side. Thus, the loop is repelled. By Newton's Third Law, the wire is equally repelled from the loop."
+        },
+        {
+          id: 46, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "A proton and an \\( \\alpha \\)-particle, moving with the same velocity, enter into a uniform magnetic field, acting normal to the plane of their motion. The ratio of the radii of the circular paths described by the proton and \\( \\alpha \\)-particle is",
+          options: ["\\( 1:2 \\)", "\\( 1:4 \\)", "\\( 2:1 \\)", "\\( 4:1 \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Radius</b><br>The radius of the circular path is given by \\( r = \\frac{mv}{qB} \\).<br><b>Step 2: Compare Particles</b><br>A proton has mass \\( m \\) and charge \\( e \\). An \\( \\alpha \\)-particle (Helium nucleus) has mass \\( 4m \\) and charge \\( 2e \\). They share the same velocity \\( v \\) and magnetic field \\( B \\).<br><b>Step 3: Calculate the Ratio</b><br>\\( r_p = \\frac{mv}{eB} \\).<br>\\( r_\\alpha = \\frac{(4m)v}{(2e)B} = 2 \\left(\\frac{mv}{eB}\\right) = 2 r_p \\).<br>Therefore, the ratio \\( r_p : r_\\alpha = 1 : 2 \\)."
+        },
+        {
+          id: 47, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "A charged particle is released from rest in a region of steady and uniform electric and magnetic fields which are parallel to each other. The particle will move a",
+          options: ["Circle", "Helix", "Cycloid", "Straight line"],
+          correct: 3, 
+          sol: "<b>Step 1: Initial State</b><br>The particle is released from rest, so its initial velocity \\( v = 0 \\).<br><b>Step 2: Action of Fields</b><br>Because \\( v = 0 \\), the initial magnetic force (\\( F_m = qvB \\sin\\theta \\)) is zero. However, the electric field exerts a force (\\( F_e = qE \\)) that accelerates the particle parallel to the electric field lines.<br><b>Step 3: Subsequent Motion</b><br>Since the electric and magnetic fields are parallel, the particle gains velocity *strictly parallel* to the magnetic field. Because its velocity vector remains parallel to \\( B \\) (angle \\( \\theta = 0^{\\circ} \\)), the magnetic force continues to be exactly zero. The particle simply accelerates in a straight line."
+        },
+        {
+          id: 48, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "The value of the magnetic field at a distance x from a long straight current carrying conductor is proportional to",
+          options: ["\\( x \\)", "\\( x^2 \\)", "\\( \\frac{1}{x} \\)", "\\( \\frac{1}{x^2} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Recall the Formula</b><br>The magnetic field generated by a long straight conductor at a radial distance \\( x \\) from it is mathematically expressed as \\( B = \\frac{\\mu_0 I}{2\\pi x} \\).<br><b>Step 2: Determine Proportionality</b><br>From this expression, it is evident that the magnetic field strength \\( B \\) is inversely proportional to the distance \\( x \\). Thus, \\( B \\propto \\frac{1}{x} \\)."
+        },
+        {
+          id: 49, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "A charge particle moves in a uniform magnetic field. The velocity of the particle at some instant makes right angle with the magnetic field. The path of the particle will be",
+          options: ["A straight line", "A circle", "Any curved path", "Zig-zag"],
+          correct: 1, 
+          sol: " <br><b>Step 1: Nature of Magnetic Force</b><br>When a charged particle moves at a right angle (\\( 90^{\\circ} \\)) to a uniform magnetic field, it experiences a maximum magnetic force perpendicular to both its velocity and the field.<br><b>Step 2: Resulting Motion</b><br>Because this perpendicular force alters the direction of the velocity continuously without changing its magnitude, it acts perfectly as a centripetal force. This forces the particle into a closed circular path."
+        },
+        {
+          id: 50, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "Two ions having masses in the ratio 1:1 and charges 1:2 are projected from the same points into a uniform magnetic field with speed in the ratio 2:3 perpendicular to field. The ratio of radii of circles along which the two particles move is",
+          options: ["\\( 4:3 \\)", "\\( 3:2 \\)", "\\( 2:3 \\)", "\\( 3:4 \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Radius</b><br>When projected perpendicularly into a magnetic field, the radius of the circular path is \\( r = \\frac{mv}{qB} \\).<br><b>Step 2: Setup the Ratio</b><br>We want the ratio \\( \\frac{r_1}{r_2} = \\left(\\frac{m_1}{m_2}\\right) \\times \\left(\\frac{v_1}{v_2}\\right) \\times \\left(\\frac{q_2}{q_1}\\right) \\). Note that charge is inversely proportional, so it flips to \\( \\frac{q_2}{q_1} \\).<br><b>Step 3: Substitute and Solve</b><br>Given: \\( m_1/m_2 = 1/1 \\), \\( v_1/v_2 = 2/3 \\), and \\( q_1/q_2 = 1/2 \\) (so \\( q_2/q_1 = 2/1 \\)).<br>\\( \\frac{r_1}{r_2} = \\left(\\frac{1}{1}\\right) \\times \\left(\\frac{2}{3}\\right) \\times \\left(\\frac{2}{1}\\right) = \\frac{4}{3} \\)."
+        },
+        {
+          id: 51, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "Magnetic force on a charged particle in a magnetic field does not depend on",
+          options: ["Mass of the charged particle", "Charge on the particle", "Magnitude of the magnetic field", "Velocity of the charged particle"],
+          correct: 0, 
+          sol: "<b>Step 1: State the Force Formula</b><br>The magnetic force acting on a moving charged particle is mathematically given by \\( F_B = qvB \\sin(\\theta) \\).<br><b>Step 2: Identify the Variables</b><br>From the formula, the force directly depends on the charge of the particle (\\( q \\)), its velocity (\\( v \\)), the strength of the magnetic field (\\( B \\)), and the angle of incidence.<br><b>Step 3: Conclusion</b><br>The mass (\\( m \\)) of the particle does not appear in the magnetic force equation, meaning the magnetic force itself is completely independent of the particle's mass."
+        },
+        {
+          id: 52, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "An electron at point A in figure has a speed \\( v_0 \\) of magnitude \\( 1.41 \\times 10^6 \\text{ m/s} \\). It enters into a uniform magnetic field and follows a semicircular path in it as shown. The magnitude of the magnetic field that will cause the electron to follow the semicircular path from A to B is",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi9DlTCgiaZnrsviDVbeIHF7EFrpnTjiIca1U2y6PMTnJzpdjlb6pYY9ji5j2BUjyUjNQK5VRKHWb1MlcKlTFpGLe1D8icAq7KEUQMzu3P8jWvw_kBaEk9yWYr9Xl_CDnlPQsCwyI_I_Y8BdQlcrV3yWQNkUBRbTczlYYP28iP9zsEWsvKVGcc_LTdmgOee",
+          options: ["\\( 1.60 \\times 10^{-4} \\text{ T} \\)", "\\( 1.6 \\times 10^{-2} \\text{ T} \\)", "\\( 1.6 \\text{ T} \\)", "\\( 1.6 \\times 10^{-3} \\text{ T} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify Path Radius</b><br>The distance from A to B is the diameter of the semicircular path, which is \\( 10.0 \\text{ cm} \\). Therefore, the radius \\( r = 5.0 \\text{ cm} = 0.05 \\text{ m} \\).<br><b>Step 2: Formula for Radius</b><br>The radius of a charged particle in a magnetic field is \\( r = \\frac{mv}{qB} \\). Rearranging for the magnetic field gives \\( B = \\frac{mv}{qr} \\).<br><b>Step 3: Substitute and Calculate</b><br>For an electron, mass \\( m \\approx 9.1 \\times 10^{-31} \\text{ kg} \\) and charge \\( q \\approx 1.6 \\times 10^{-19} \\text{ C} \\).<br>\\( B = \\frac{9.1 \\times 10^{-31} \\times 1.41 \\times 10^6}{1.6 \\times 10^{-19} \\times 0.05} \\).<br>\\( B = \\frac{12.831 \\times 10^{-25}}{0.08 \\times 10^{-19}} \\approx 1.60 \\times 10^{-4} \\text{ T} \\)."
+        },
+        {
+          id: 53, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "Two protons enter a region of transverse magnetic field. What will be ratio of time period of revolution if the ratio of energy is \\( 2\\sqrt{2}:\\sqrt{3} \\)?",
+          options: ["\\( 2\\sqrt{2}:\\sqrt{3} \\)", "\\( \\sqrt{3}:2\\sqrt{2} \\)", "\\( 3:8 \\)", "\\( 1:1 \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Formula for Time Period</b><br>The time period of revolution for a charged particle in a uniform magnetic field is given by \\( T = \\frac{2\\pi m}{qB} \\).<br><b>Step 2: Analyze the Dependencies</b><br>The formula reveals that the time period depends strictly on the particle's mass (\\( m \\)), its charge (\\( q \\)), and the magnetic field strength (\\( B \\)). It is completely independent of the particle's velocity or kinetic energy.<br><b>Step 3: Conclusion</b><br>Since both particles are protons (same mass and charge) entering the same magnetic field, their time periods must be exactly equal, making the ratio \\( 1:1 \\)."
+        },
+        {
+          id: 54, topic: "Force on a Current Carrying Conductor",
+          q: "Two long conductors, separated by a distance d carry current \\( i_1 \\) and \\( i_2 \\) in the same direction. They exert a force \\( \\overline{F} \\) each other. Now the current in one of them is increased to two times and its direction is reversed. The distance is also increased to 3d. The new value of the force between them",
+          options: ["\\( -\\frac{2\\overline{F}}{3} \\)", "\\( -2\\overline{F} \\)", "\\( -\\frac{\\overline{F}}{3} \\)", "None of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Initial Force Equation</b><br>The initial force per unit length between the conductors is attractive (let's define attractive as positive \\( \\overline{F} \\)): \\( \\overline{F} = \\frac{\\mu_0 i_1 i_2}{2\\pi d} \\).<br><b>Step 2: Apply the Changes</b><br>The new current is \\( -2i_2 \\) (reversed direction means negative sign for repulsion, magnitude doubled). The new distance is \\( 3d \\).<br><b>Step 3: Calculate New Force</b><br>The new force \\( F' = \\frac{\\mu_0 i_1 (-2i_2)}{2\\pi (3d)} = -\\frac{2}{3} \\left( \\frac{\\mu_0 i_1 i_2}{2\\pi d} \\right) \\).<br>Therefore, the new force is \\( -\\frac{2\\overline{F}}{3} \\)."
+        },
+        {
+          id: 55, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "Two long conductors A and B are placed at right angles at x-axis at points (3, 0) and (9, 0), as shown in the given figure. They carry currents of 1 A and 2 A respectively in same direction. They will produce zero magnetic field at",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg5qtOtkyEKg0EJAbzDFNLHKz8r01rRTRezT16fiKDz_5bq_LVx-MbZDLfMTv5BcFyf6IuLQpopkTzrpJCPRzD_B8Vj6etzs_7c75sLCa9xO5gMwkwJTnXeQOK-H5-miHHVIubuUUWEUEdmAlDaHu5rz1yw-yB-z7uP-dZi692ns5L7AULQ3cZ69fBJVAiW",
+          options: ["(4, 0)", "(4.5, 0)", "(5, 0)", "(6, 0)"],
+          correct: 2, 
+          sol: "<b>Step 1: Setup the Neutral Point Condition</b><br>For the net magnetic field to be zero, the magnetic fields from both wires must cancel each other out. This means their magnitudes must be equal: \\( B_A = B_B \\). Let the neutral point be at a coordinate \\( x \\) between the wires.<br><b>Step 2: Apply the Formula</b><br>Distance from wire A (at \\( x=3 \\)) is \\( (x - 3) \\). Distance from wire B (at \\( x=9 \\)) is \\( (9 - x) \\).<br>\\( \\frac{\\mu_0 I_A}{2\\pi(x - 3)} = \\frac{\\mu_0 I_B}{2\\pi(9 - x)} \\).<br><b>Step 3: Solve for x</b><br>Substitute the currents \\( I_A = 1 \\text{ A} \\) and \\( I_B = 2 \\text{ A} \\):<br>\\( \\frac{1}{x - 3} = \\frac{2}{9 - x} \\)<br>\\( 9 - x = 2(x - 3) \\)<br>\\( 9 - x = 2x - 6 \\implies 3x = 15 \\implies x = 5 \\).<br>The coordinates of the neutral point are \\( (5, 0) \\)."
+        },
+        {
+          id: 56, topic: "Electric Motor and Electromagnetic Induction",
+          q: "The phenomenon of electromagnetic induction was discovered by:",
+          options: ["Hans Christian Oersted", "Michael Faraday", "Andre-Marie Ampere", "James Clerk Maxwell"],
+          correct: 1, 
+          sol: "<b>Step 1: Historical Context</b><br>While Oersted discovered that electricity produces magnetism, the reverse effect—generating electricity from magnetism—was investigated shortly after.<br><b>Step 2: Identify the Scientist</b><br>In 1831, the English physicist Michael Faraday made the breakthrough discovery of electromagnetic induction by demonstrating that a changing magnetic field can induce an electric current in a closed circuit."
+        },
+        {
+          id: 57, topic: "Domestic Electric Circuits",
+          q: "In domestic electric wiring, to ensure safety and independent operation, all the electrical appliances are connected in:",
+          options: ["Series", "Parallel", "A combination of series and parallel", "Any configuration depending on the appliance"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Circuit Types</b><br>In a series circuit, if one appliance fails or is switched off, the entire circuit breaks. The voltage also drops across each appliance.<br><b>Step 2: Benefit of Parallel Circuits</b><br>In a parallel circuit, each appliance is connected across the same main voltage (220V in India) and has its own individual switch. If one appliance stops working, the others continue to operate normally."
+        },
+        {
+          id: 58, topic: "Force on a Current Carrying Conductor",
+          q: "The force exerted on a current-carrying wire placed in a uniform magnetic field is zero when the angle between the wire and the direction of the magnetic field is:",
+          options: ["\\( 0^{\\circ} \\)", "\\( 45^{\\circ} \\)", "\\( 60^{\\circ} \\)", "\\( 90^{\\circ} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Force</b><br>The magnetic force on a straight current-carrying conductor is \\( F = ILB \\sin(\\theta) \\).<br><b>Step 2: Determine Minimum Force</b><br>For the force to be zero, \\( \\sin(\\theta) \\) must be zero. This occurs when \\( \\theta = 0^{\\circ} \\) or \\( 180^{\\circ} \\). Therefore, a wire experiences zero force when it is placed perfectly parallel to the magnetic field lines."
+        },
+        {
+          id: 59, topic: "Electric Motor and Electromagnetic Induction",
+          q: "Which of the following rules is used to determine the direction of the induced current in an AC generator?",
+          options: ["Maxwell's Right-Hand Thumb Rule", "Fleming's Left-Hand Rule", "Fleming's Right-Hand Rule", "Ampere's Swimming Rule"],
+          correct: 2, 
+          sol: "<br><b>Step 1: Identify the Application</b><br>An AC generator relies on electromagnetic induction, where motion and a magnetic field produce a current.<br><b>Step 2: Choose the Correct Rule</b><br>Fleming's Right-Hand Rule is specifically used for generators. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger indicates the direction of the induced current."
+        },
+        {
+          id: 60, topic: "Electric Motor and Electromagnetic Induction",
+          q: "The essential difference between an AC generator and a DC generator is that:",
+          options: ["AC generator has an electromagnet while a DC generator has a permanent magnet", "DC generator generates higher voltage", "AC generator has slip rings while the DC generator has a split-ring commutator", "DC generator has slip rings while the AC generator has a split-ring commutator"],
+          correct: 2, 
+          sol: "<b>Step 1: Structure of Generators</b><br>Both AC and DC generators work on the principle of electromagnetic induction and use a rotating armature coil in a magnetic field.<br><b>Step 2: The Key Difference</b><br>An AC generator uses full, continuous slip rings that allow the current to alternate directions in the external circuit. A DC generator uses a split-ring commutator to reverse the connections every half cycle, keeping the external current flowing in only one direction."
+        },
+        {
+          id: 61, topic: "Force on a Moving Charge in a Magnetic Field",
+          q: "An alpha particle and a neutron enter a uniform magnetic field with the exact same velocity, perpendicular to the field lines. Which particle will experience the maximum magnetic force?",
+          options: ["Alpha particle", "Neutron", "Both experience the same maximum force", "Neither experiences any force"],
+          correct: 0, 
+          sol: "<b>Step 1: Magnetic Force Formula</b><br>The magnetic force on a moving particle is \\( F = qvB \\sin(\\theta) \\). It depends directly on the charge (\\( q \\)) of the particle.<br><b>Step 2: Analyze the Particles</b><br>An alpha particle is a helium nucleus and carries a positive charge of \\( +2e \\). A neutron, however, is a neutral particle and has a charge of \\( q = 0 \\).<br><b>Step 3: Conclusion</b><br>Since the neutron has no charge, it experiences zero magnetic force. The positively charged alpha particle will experience a force and be deflected."
+        },
+        {
+          id: 62, topic: "Magnetic Field due to Current Carrying Conductors",
+          q: "If the current flowing through a circular coil is doubled, and the number of turns in the coil is halved, the magnetic field at the center of the coil will:",
+          options: ["Double", "Halve", "Remain the same", "Become four times stronger"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for Circular Coil</b><br>The magnetic field at the center of an \\( n \\)-turn circular coil is \\( B = \\frac{\\mu_0 n I}{2r} \\).<br><b>Step 2: Apply the Changes</b><br>Let the new current be \\( I' = 2I \\) and the new number of turns be \\( n' = \\frac{n}{2} \\).<br><b>Step 3: Calculate New Field</b><br>The new magnetic field is \\( B' = \\frac{\\mu_0 (n/2) (2I)}{2r} = \\frac{\\mu_0 n I}{2r} = B \\). The changes perfectly cancel each other out, so the field remains exactly the same."
+        },
+        {
+          id: 63, topic: "Domestic Electric Circuits",
+          q: "In India, what is the standard frequency of the alternating current (AC) supplied for domestic use?",
+          options: ["0 Hz", "50 Hz", "60 Hz", "100 Hz"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand AC Supply</b><br>Alternating current periodically reverses direction. The frequency dictates how many complete cycles occur in one second.<br><b>Step 2: Standard Values</b><br>While countries like the USA use a 60 Hz standard, the standard frequency for the AC mains supply in India is strictly 50 Hz (with a voltage of 220V)."
+        },
+        {
+          id: 64, topic: "Magnetic Field and Field Lines",
+          q: "What happens to the strength of the magnetic field produced by a long straight current-carrying wire if the distance from the wire is doubled?",
+          options: ["It becomes double", "It becomes half", "It becomes one-fourth", "It becomes four times"],
+          correct: 1, 
+          sol: "<b>Step 1: State the Relationship</b><br>The magnetic field \\( B \\) produced by a long straight wire is inversely proportional to the radial distance \\( r \\) from the wire (\\( B \\propto \\frac{1}{r} \\)).<br><b>Step 2: Apply the Change</b><br>If the distance \\( r \\) is doubled to \\( 2r \\), the denominator becomes twice as large.<br><b>Step 3: Conclusion</b><br>Therefore, the new magnetic field \\( B' \\propto \\frac{1}{2r} \\), meaning the strength of the magnetic field is exactly halved."
+        },
+        {
+          id: 65, topic: "Electric Motor and Electromagnetic Induction",
+          q: "The phenomenon of electromagnetic induction is defined as:",
+          options: ["The process of charging a body", "The process of generating a magnetic field due to a current passing through a wire", "Producing an induced current in a coil due to relative motion between a magnet and the coil", "The process of rotating a coil placed in a magnetic field"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze the Options</b><br>Option A is static electricity. Option B is Oersted's discovery of the magnetic effect of current. Option D describes the working principle of an electric motor.<br><b>Step 2: Define the Phenomenon</b><br>Electromagnetic induction is specifically the process of generating an electromotive force (EMF), and hence an induced current, across a closed electrical conductor when it is exposed to a varying magnetic field (usually achieved by relative motion between the coil and a magnet)."
+        },
+        {
+          id: 66, topic: "Domestic Electric Circuits",
+          q: "What is the internationally accepted color coding for the insulation of the earth wire in domestic electrical circuits?",
+          options: ["Red or Brown", "Black or Light Blue", "Green or Yellow-Green", "White or Grey"],
+          correct: 2, 
+          sol: " <br><b>Step 1: Understand Wire Types</b><br>A standard domestic cable contains three wires: Live, Neutral, and Earth. <br><b>Step 2: Identify Color Codes</b><br>According to modern international conventions, the Live wire is Brown (formerly Red), the Neutral wire is Light Blue (formerly Black), and the Earth wire is Green or Yellow-Green for easy safety identification."
+        },
+        {
+          id: 67, topic: "Domestic Electric Circuits",
+          q: "The primary purpose of connecting the metallic body of high-power electrical appliances to the earth wire is to:",
+          options: ["Reduce power consumption", "Protect the appliance from high voltage", "Ensure the user does not get a severe electric shock", "Provide a return path for the main current"],
+          correct: 2, 
+          sol: " <br><b>Step 1: Identify the Hazard</b><br>If the insulation of the live wire melts or breaks, it can touch the metallic casing of the appliance, making the whole body 'live' at 220V.<br><b>Step 2: Role of Earthing</b><br>The earth wire provides a low-resistance path directly to the ground. If a fault occurs, the heavy fault current flows through the earth wire rather than through the body of a person touching the appliance, preventing a severe electric shock."
+        },
+        {
+          id: 68, topic: "Domestic Electric Circuits",
+          q: "In a domestic electric circuit, the electric fuse is always connected in series with the:",
+          options: ["Neutral wire", "Live wire", "Earth wire", "Any of the above"],
+          correct: 1, 
+          sol: "<b>Step 1: Function of a Fuse</b><br>A fuse is a safety device that breaks the circuit if the current exceeds a safe value.<br><b>Step 2: Placement Logic</b><br>It must be connected in series with the Live wire. This ensures that if the fuse melts and breaks, the appliance is completely disconnected from the high-voltage supply, making it safe to touch or repair."
+        },
+        {
+          id: 69, topic: "Domestic Electric Circuits",
+          q: "An electric iron of 1 kW is operated at 220 V. Which of the following fuse ratings is most appropriate for this specific appliance?",
+          options: ["3 A", "5 A", "10 A", "15 A"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for Current</b><br>Using the power equation \\( P = VI \\), we can find the current drawn by the appliance: \\( I = \\frac{P}{V} \\).<br><b>Step 2: Calculate the Current</b><br>Power \\( P = 1000 \\text{ W} \\) and Voltage \\( V = 220 \\text{ V} \\).<br>\\( I = \\frac{1000}{220} \\approx 4.54 \\text{ A} \\).<br><b>Step 3: Select the Fuse</b><br>The fuse rating should be just slightly higher than the normal operating current. Therefore, a 5 A fuse is the most appropriate choice to protect the 4.54 A appliance."
+        },
+        {
+          id: 70, topic: "Domestic Electric Circuits",
+          q: "Which of the following is NOT a common cause of 'overloading' in a domestic electric circuit?",
+          options: ["Connecting too many appliances to a single socket", "Accidental touching of live and neutral wires", "A sudden hike in the supply voltage", "Connecting appliances in parallel rather than series"],
+          correct: 3, 
+          sol: "<b>Step 1: Define Overloading</b><br>Overloading occurs when the total current drawn by the appliances exceeds the capacity of the wiring.<br><b>Step 2: Evaluate the Options</b><br>Connecting multiple heavy appliances to one socket, voltage spikes, or a short circuit (live touching neutral) all cause a massive surge in current. However, connecting appliances in parallel is the standard, correct, and safe method for domestic wiring and does not inherently cause overloading."
+        },
+        {
+          id: 71, topic: "Domestic Electric Circuits",
+          q: "A 'short circuit' in a domestic wiring system occurs when:",
+          options: ["The live wire and earth wire come in direct contact", "The live wire and neutral wire come in direct contact", "The neutral wire and earth wire come in direct contact", "The voltage of the power supply suddenly drops to zero"],
+          correct: 1, 
+          sol: "<b>Step 1: Normal Circuit Flow</b><br>Normally, current flows from the live wire, through the high resistance of an appliance, and returns via the neutral wire.<br><b>Step 2: The Short Circuit Condition</b><br>If the plastic insulation wears off and the Live wire directly touches the Neutral wire, it creates a path of almost zero resistance. According to Ohm's law (\\( I = \\frac{V}{R} \\)), a tiny resistance causes a dangerously huge current to flow, causing a short circuit."
+        },
+        {
+          id: 72, topic: "Domestic Electric Circuits",
+          q: "If three identical bulbs are connected in parallel across the domestic mains, and one bulb suddenly fuses (blows out), what happens to the other two bulbs?",
+          options: ["They will stop glowing completely", "They will glow dimmer than before", "They will glow brighter than before", "They will continue to glow with the exact same brightness"],
+          correct: 3, 
+          sol: " <br><b>Step 1: Parallel Circuit Characteristics</b><br>In a parallel circuit, the voltage across each branch is identical to the source voltage, and each branch operates independently.<br><b>Step 2: Analyze the Failure</b><br>If one bulb fuses, it breaks its own specific branch, but the other branches remain fully connected to the 220V mains. Because their voltage and individual resistance haven't changed, they draw the same current and glow with the exact same brightness."
+        },
+        {
+          id: 73, topic: "Domestic Electric Circuits",
+          q: "In India, the potential difference maintained between the live wire and the neutral wire in domestic electric circuits is strictly:",
+          options: ["110 V", "220 V", "240 V", "440 V"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand the Wires</b><br>The electrical power is supplied to houses via two main wires: the Live (Phase) wire, which is at a high potential, and the Neutral wire, which is grounded at the substation and sits at zero potential.<br><b>Step 2: Standard Voltage</b><br>In India, the standard grid supplies the live wire at a potential of 220 Volts. Therefore, the potential difference (\\( 220 \\text{ V} - 0 \\text{ V} \\)) is exactly 220 V."
+        },
+        {
+          id: 74, topic: "Domestic Electric Circuits",
+          q: "The electricity meter in houses measures the electrical energy consumed in 'units'. One commercial unit of electrical energy is equivalent to:",
+          options: ["1 Watt-hour", "1 Kilowatt-hour", "1 Joule", "1 Kilojoule"],
+          correct: 1, 
+          sol: "<b>Step 1: Defining Electrical Energy</b><br>Electrical energy is the product of power and time (\\( E = P \\times t \\)).<br><b>Step 2: Commercial Measurement</b><br>Because the Joule (Watt-second) is too small for practical domestic measurement, the commercial unit used globally by power companies is the Kilowatt-hour (kWh). 1 Unit on your electricity bill exactly equals 1 kWh (or \\( 3.6 \\times 10^6 \\text{ Joules} \\))."
+        },
+        {
+          id: 75, topic: "Domestic Electric Circuits",
+          q: "In modern domestic circuits, Miniature Circuit Breakers (MCBs) are often used instead of traditional fuses. The primary advantage of an MCB over a fuse is that it:",
+          options: ["Operates entirely on the heating effect of electric current", "Automatically turns off a switch when current exceeds the safe limit and can be easily reset", "Reduces the total electricity bill of the house", "Prevents the occurrence of a short circuit entirely"],
+          correct: 1, 
+          sol: "<br><b>Step 1: Compare the Devices</b><br>Both fuses and MCBs protect the circuit from overloading and short circuits.<br><b>Step 2: Identify the Advantage</b><br>A traditional fuse uses a wire that permanently melts and must be physically replaced after every fault. An MCB uses electromagnetic principles to automatically trip (switch off) during a fault. Once the fault is fixed, the MCB can simply be switched back on (reset) without needing replacement."
+        }
+      ]
+    },
     // ==========================================
     // CHAPTER: Human eye and Colourful World for Class 10
     // ==========================================
@@ -11456,6 +11963,7 @@
       ]
     }
   };
+
 
 
 
