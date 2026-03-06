@@ -2078,7 +2078,7 @@
         {
           id: 2, topic: "Principle of Moments",
           q: "A uniform meter rule of weight 10 gf is pivoted at its zero mark. What force must be applied at the 100 cm mark to keep the rule perfectly horizontal?",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi0sHXlNlAGWr3MeicXIxCfbAuT8SqQlwMkRtWy2BuEdDfFv3JWl_8yHqHPHLMwCzCRmO3xTT5hfxgq6C9oQrYHi-9ebLOC-BDBTzPvp9Ug9lE_Ab3UpUb8fZhwXoGKXbgr98P7FxAOU2iu_gXLkNgA3KiGwqLANPt_Ar1ynjH_iKg0RcVyemUbXbuWsc0V",
           options: ["5 gf downwards", "5 gf upwards", "10 gf upwards", "2.5 gf downwards"],
           correct: 1, 
           sol: "<b>Step 1: Identify the Forces and Pivot</b><br>The pivot is at the 0 cm mark. The weight of the uniform meter rule (10 gf) acts entirely at its Center of Gravity, which is at the 50 cm mark.<br><b>Step 2: Calculate the Moment of the Rule's Weight</b><br>The weight acts downwards, creating a clockwise moment. Clockwise Moment = \\( 10 \\text{ gf} \\times 50 \\text{ cm} = 500 \\text{ gf cm} \\).<br><b>Step 3: Apply the Principle of Moments</b><br>To balance the rule horizontally, an equal anticlockwise moment must be applied. An upward force (F) at the 100 cm mark will create this anticlockwise moment.<br><b>Step 4: Calculate the Required Force</b><br>Anticlockwise Moment = \\( F \\times 100 \\text{ cm} \\). Equating the moments: \\( F \\times 100 = 500 \\implies F = 5 \\text{ gf} \\) acting upwards."
@@ -2107,7 +2107,7 @@
         {
           id: 6, topic: "Principle of Moments",
           q: "A uniform half-meter rule balances perfectly horizontally on a knife-edge placed at the 29 cm mark when a weight of 20 gf is suspended from one of its ends. What is the weight of the half-meter rule?",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhaJG9L_uYLuXSBTnk1X1Bdt0kPYHtBRmVTr4liRZ2MaH6Wll7pII9wTSOLuOzJBYWNTV_MtDjPmq9S-rxyj_RgSIPP-8xAN6GpiUjqXJGE7mKbFh8a3bfrRPouKLFwnLxx0EjkttUnwECDywXQ1WIPxF1o-6pueh6AlPK_fnvqDmM5DBec8A2MnzHX12ot",
           options: ["105 gf", "50 gf", "100 gf", "125 gf"],
           correct: 0, 
           sol: "<b>Step 1: Identify Key Points</b><br>A half-meter rule is 50 cm long. Its Center of Gravity (CG) lies at the 25 cm mark. Let the weight of the rule be 'W'. The pivot is at 29 cm.<br><b>Step 2: Determine Moments</b><br>The weight of the rule 'W' acts at 25 cm. Distance from pivot = \\( 29 - 25 = 4 \\text{ cm} \\). This creates an anticlockwise moment. To balance this, the 20 gf weight must be hung on the other side of the pivot, exactly at the 50 cm end. Distance from pivot = \\( 50 - 29 = 21 \\text{ cm} \\).<br><b>Step 3: Apply Principle of Moments</b><br>Anticlockwise Moment = Clockwise Moment.<br>\\( W \\times 4 \\text{ cm} = 20 \\text{ gf} \\times 21 \\text{ cm} \\).<br><b>Step 4: Calculate W</b><br>\\( 4W = 420 \\implies W = \\frac{420}{4} = 105 \\text{ gf} \\)."
@@ -2129,7 +2129,7 @@
         {
           id: 9, topic: "Couple",
           q: "Two forces, each of magnitude 10 N, act vertically upwards and downwards respectively on the two opposite ends of a uniform metallic rod of length 4 m. If the rod is pivoted exactly at its center, the moment of the couple acting on it is:",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjLpNxpKbrzruOsRz2CPoD-qyNCbULPA7cnrJ8h-imcS4JYHh6AxoaXGiNHdKcknjsobZ_VBTQTCjN3IxZJSaOqSKVfiDjZ6v9uwrruI0AGgCggWae9V0xSbndagEwF33MexpbD1X8IdtTiRvxKm2trLdv6uG6pHYfAXHX9drXxNjoFaJn6wv6tpb5ZsJu3",
           options: ["0 Nm", "20 Nm", "40 Nm", "80 Nm"],
           correct: 2, 
           sol: "<b>Step 1: Identify the Couple</b><br>The two 10 N forces are equal, opposite, and parallel, acting at two different points separated by the length of the rod. They form a couple.<br><b>Step 2: Recall the Couple Formula</b><br>The moment of a couple is calculated as the product of the magnitude of either one of the forces and the perpendicular distance between their lines of action.<br><b>Step 3: Calculate</b><br>Moment of couple = Force \\( \\times \\) perpendicular distance = \\( 10 \\text{ N} \\times 4 \\text{ m} = 40 \\text{ Nm} \\)."
@@ -2165,7 +2165,7 @@
         {
           id: 14, topic: "Couple",
           q: "A uniform circular disc of mass 2 kg and radius 10 cm can rotate freely about its center 'O'. Two forces \\( F_1 = 5 \\text{ N} \\) and \\( F_2 = 5 \\text{ N} \\) act tangentially to the disc in opposite directions at opposite ends of a diameter. The net moment acting on the disc is:",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiI3lf2Yy5koMSGPVlyPHr0cOlZS-zDAXqeDhKlAFEuK6_i79e1YiJi2Yb5pTEMNUz9AueDLxpLKeBZh1W6K4EtJ_k-NBX7kC7nRmb6EosuTusElpFgJWTptNjYsZ_C0E2GHPN7zpY3DuXcYAR-juNgm8RdJLZBVb2ptGiXaFe8RGkYaUmUF9MnfrmNTDeJ",
           options: ["Zero", "0.5 Nm", "1.0 Nm", "2.0 Nm"],
           correct: 2, 
           sol: "<b>Step 1: Identify the Force System</b><br>Two equal (5 N), parallel, and opposite forces acting along different tangential lines form a couple.<br><b>Step 2: Determine Perpendicular Distance</b><br>The forces act at opposite ends of a diameter. The perpendicular distance between their lines of action is equal to the diameter of the disc. Radius = 10 cm, so Diameter = 20 cm = 0.2 m.<br><b>Step 3: Calculate the Moment</b><br>Moment of a couple = Magnitude of one force \\( \\times \\) perpendicular distance between them = \\( 5 \\text{ N} \\times 0.2 \\text{ m} = 1.0 \\text{ Nm} \\)."
@@ -2180,7 +2180,7 @@
         {
           id: 16, topic: "Principle of Moments",
           q: "A uniform meter scale of mass 100 g is balanced horizontally on a fulcrum placed at the 40 cm mark by suspending an unknown mass 'm' at the 20 cm mark. Find the exact value of the unknown mass 'm'.",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhYero_g6noHlJHxzM1U8V7mLBrGGlUjefCTWG2cZ7r6-0akAUSFje5LvxxCi8RhfeYYB8Qv9EppDin_5eg1OlLoH56aJhMHh7uN63eePbTXm77Q1wYOyWqXNV6_mERovOmPoGE6W5Fwgcv1xDVx3rG9nVHhlcZqDw8GX33UL4N76qPcMr-1WZnMzs5fScN",
           options: ["50 g", "100 g", "20 g", "200 g"],
           correct: 0, 
           sol: "<b>Step 1: Identify Forces and Pivot</b><br>The pivot is at the 40 cm mark. The weight of the uniform meter scale (100 g) acts at its Center of Gravity (the 50 cm mark). The unknown mass 'm' acts at the 20 cm mark.<br><b>Step 2: Calculate Moments</b><br>Clockwise moment is caused by the scale's mass: \\( 100 \\text{ g} \\times (50 - 40) \\text{ cm} = 100 \\times 10 = 1000 \\text{ gf cm} \\).<br>Anticlockwise moment is caused by mass 'm': \\( m \\times (40 - 20) \\text{ cm} = m \\times 20 \\text{ gf cm} \\).<br><b>Step 3: Apply Principle of Moments</b><br>For horizontal balance, Anticlockwise Moment = Clockwise Moment.<br>\\( 20m = 1000 \\implies m = \\frac{1000}{20} = 50 \\text{ g} \\)."
@@ -2209,7 +2209,7 @@
         {
           id: 20, topic: "Principle of Moments",
           q: "A uniform meter scale of weight 50 gf is found to be perfectly balanced horizontally on a knife-edge at the 60 cm mark when a weight of \\( W \\) gf is suspended at the 10 cm mark and a weight of 40 gf is suspended at the 90 cm mark. What is the exact value of \\( W \\)?",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjGE93H3TQH_yogEXTOp6vBXeSG-00eDQC3BUqjLYpE2GrXLZCpZsUea5XV-EyS4TEZO-X5jTiAS10i2dlpY4mb5AN4RKdi06STJvEmLtrlljSKuTlQPh_4t03wfySffH1gUCpThg361CF-oobGRwmeAUcgx6hRSWwWC5VzE7JL9AJpUWc221oY-MNjUmcN",
           options: ["14 gf", "10 gf", "20 gf", "12 gf"],
           correct: 0, 
           sol: "<b>Step 1: Identify all Forces and their Distances from Pivot (60 cm)</b><br>1. Weight \\( W \\) is at 10 cm. Distance = \\( 60 - 10 = 50 \\text{ cm} \\) (Anticlockwise).<br>2. Weight of scale (50 gf) acts at CG (50 cm). Distance = \\( 60 - 50 = 10 \\text{ cm} \\) (Anticlockwise).<br>3. 40 gf weight is at 90 cm. Distance = \\( 90 - 60 = 30 \\text{ cm} \\) (Clockwise).<br><b>Step 2: Calculate Total Moments</b><br>Total Anticlockwise Moment = \\( (W \\times 50) + (50 \\times 10) = 50W + 500 \\).<br>Total Clockwise Moment = \\( 40 \\times 30 = 1200 \\).<br><b>Step 3: Equate and Solve</b><br>According to the principle of moments: \\( 50W + 500 = 1200 \\).<br>\\( 50W = 700 \\implies W = \\frac{700}{50} = 14 \\text{ gf} \\)."
@@ -2224,7 +2224,6 @@
         {
           id: 22, topic: "Principle of Moments",
           q: "A uniform meter scale balances horizontally at the 40 cm mark when a mass of 20 g is suspended from the 10 cm mark. What is the mass of the meter scale?",
-          imgUrl: "",
           options: ["40 g", "50 g", "60 g", "80 g"],
           correct: 2, 
           sol: "<b>Step 1: Identify the Pivot and Forces</b><br>The pivot (fulcrum) is located at the 40 cm mark. The 20 g mass acts at the 10 cm mark. The unknown mass of the scale (m) acts exactly at its Center of Gravity, which is the 50 cm mark.<br><b>Step 2: Calculate Moments</b><br>Anticlockwise Moment = Mass \\( \\times \\) Distance = \\( 20 \\text{ g} \\times (40 - 10) \\text{ cm} = 20 \\times 30 = 600 \\text{ gf cm} \\).<br>Clockwise Moment = Mass of scale \\( \\times \\) Distance = \\( m \\times (50 - 40) \\text{ cm} = m \\times 10 \\text{ gf cm} \\).<br><b>Step 3: Apply the Principle of Moments</b><br>In equilibrium, Anticlockwise Moment = Clockwise Moment.<br>\\( 600 = 10m \\implies m = 60 \\text{ g} \\)."
@@ -2239,7 +2238,6 @@
         {
           id: 24, topic: "Centre of Gravity",
           q: "If a solid cylinder of base radius 'r' and height 'h' is placed exactly over another identical cylinder to form a taller combined cylinder, the center of gravity of this new combined system will be at a height of:",
-          imgUrl: "",
           options: ["\\( h/2 \\) from the base", "\\( h \\) from the base", "\\( 3h/2 \\) from the base", "\\( 2h \\) from the base"],
           correct: 1, 
           sol: "<b>Step 1: Determine the New Dimensions</b><br>By stacking two identical cylinders of height 'h', we create a new single, uniform cylinder with a total height of \\( H = 2h \\).<br><b>Step 2: Apply CG Rule for a Cylinder</b><br>The center of gravity of any uniform solid cylinder always lies exactly at the geometric midpoint of its central axis.<br><b>Step 3: Calculate</b><br>Midpoint of the new total height = \\( H / 2 = (2h) / 2 = h \\). The CG is at a height 'h' from the bottom base, which happens to be exactly at the contact surface between the two cylinders."
@@ -2254,7 +2252,7 @@
         {
           id: 26, topic: "Centre of Gravity",
           q: "A uniform L-shaped wooden lamina has equal leg lengths and uniform thickness. Its center of gravity lies:",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhPnxraXCaglnplYOhHRFc_emtR_8hqaGU51YrKGakHrgbi0Dyk1aXrV2NtOuaPaFgy4sET6g9hW-OHpU2aj62ubSYQj5fWz8TWgwn1qhJaRLAunb0VAZRt5LDSawXJE1V6Nbf_NBlw6Y6KxAGBdMtwGoCQLJGy4roOFVqAeU_hE8WAEs1KEggsIAs8wESC",
           options: ["Inside the material, at the corner intersection", "Outside the material of the lamina", "Exactly on the longest outer edge", "At the geometric center of one of the arms"],
           correct: 1, 
           sol: "<b>Step 1: Understand Center of Gravity Location</b><br>The Center of Gravity is the mathematical point where the total weight is concentrated. It relies entirely on mass distribution.<br><b>Step 2: Analyze the L-Shape</b><br>Because the mass is distributed heavily along the two arms forming the 'L', the geometric balance point (average position of all mass points) falls into the empty space between the two inner edges of the shape.<br><b>Step 3: Conclusion</b><br>Therefore, the CG of an L-shaped lamina lies outside its actual physical material."
@@ -2276,7 +2274,7 @@
         {
           id: 29, topic: "Principle of Moments",
           q: "A non-uniform meter scale weighing 40 gf has its center of gravity at the 40 cm mark. If it is pivoted at the 50 cm mark, what external weight must be hung at the 80 cm mark to balance it horizontally?",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEi8sCAchVX-V55wLMXK5tLtqYcFNzULxJQJCrxo8BBsUyPnIz1ULLP-2ObQlc5xak6F3REieGNsZvkyH8aW-0iQip5Kn7kz6ZD4xKeXey3uv7us5JYwbYmPLfBOgY1qIKaxWp1BGa-K1L5CydtxQp76wZVQkrZU7Y1yZxVA77kuD7u11do639ZZXMGTgvp6",
           options: ["13.33 gf", "20.00 gf", "10.00 gf", "15.00 gf"],
           correct: 0, 
           sol: "<b>Step 1: Map the Forces relative to Pivot (50 cm)</b><br>Because the scale is non-uniform, its entire weight (40 gf) acts at the given CG (40 cm mark).<br>Distance of CG from pivot = \\( 50 - 40 = 10 \\text{ cm} \\). This creates an Anticlockwise moment.<br>The unknown weight \\( W \\) is hung at the 80 cm mark.<br>Distance of \\( W \\) from pivot = \\( 80 - 50 = 30 \\text{ cm} \\). This creates a Clockwise moment.<br><b>Step 2: Equate Moments</b><br>Anticlockwise Moment = Clockwise Moment<br>\\( 40 \\text{ gf} \\times 10 \\text{ cm} = W \\times 30 \\text{ cm} \\).<br><b>Step 3: Solve for W</b><br>\\( 400 = 30W \\implies W = \\frac{400}{30} = 13.33 \\text{ gf} \\)."
@@ -2305,7 +2303,7 @@
         {
           id: 33, topic: "Equilibrium",
           q: "A uniform wooden rod 120 cm long and weighing 50 gf rests horizontally on two sharp-edged supports placed at the 20 cm and 100 cm marks. What is the upward reaction force acting exactly at the 20 cm support?",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh10cU6xyVjKKfmNFEcx4xhCzt26nND4c12iZyibVU_aVViIS4d4I5QNR6AGN1KJc9VHsC_6Ug8w7s7wUPWWLTF85Gz4qZoBPngfI8mfGU13QpmfpEZPebFMcrOnBfFTtcE8IRU6a_Qqww3y3ShIZCuirWXB6RmvAppPbWP2WcyQ9pDn0No-eq1zUcA1dUl",
           options: ["25 gf", "50 gf", "20 gf", "30 gf"],
           correct: 0, 
           sol: "<b>Step 1: Locate the CG and Supports</b><br>The rod is uniform and 120 cm long, so its weight (50 gf) acts downwards perfectly at its center: the 60 cm mark.<br>The supports are at 20 cm and 100 cm.<br><b>Step 2: Analyze Symmetry</b><br>Distance of the left support from the CG = \\( 60 - 20 = 40 \\text{ cm} \\).<br>Distance of the right support from the CG = \\( 100 - 60 = 40 \\text{ cm} \\).<br><b>Step 3: Conclusion</b><br>Because the CG is exactly halfway between the two supports, the downward weight is shared equally between them. Reaction at the 20 cm support = \\( 50 / 2 = 25 \\text{ gf} \\)."
@@ -2348,7 +2346,7 @@
         {
           id: 39, topic: "Couple",
           q: "Two equal and opposite parallel forces, each of magnitude 'F', act on a rigid wheel of radius 'R' at opposite ends of its diameter. The moment of the couple formed is:",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiGpjBhhzuZhhzALa1owrScpG7zdKd-EhTr-mMJWqe8k0YZ-Z7MSFqukI-cd99isnpCXAKms2lJp0ZpbOz_gxE56I1bPKLcG2GiC_ml963AZhmogMImgtj8P-5xQTKOB3FNIYhjLnuaGAy3fmDu1XXoWUyy-1h7-e-ffxY9m32jAXvRNs_lMdTmI-ZhzHAd",
           options: ["F \\( \\times \\) R", "2F \\( \\times \\) R", "Zero", "F \\( \\times \\) (R/2)"],
           correct: 1, 
           sol: "<b>Step 1: Identify the System</b><br>Two equal, parallel, and opposite forces acting along different lines form a couple.<br><b>Step 2: Define Moment of a Couple</b><br>Moment of a couple = Magnitude of either force \\( \\times \\) the perpendicular distance between their lines of action.<br><b>Step 3: Determine the Distance</b><br>The forces act tangentially at opposite ends of a diameter. The perpendicular distance between them is the full diameter of the wheel, which is \\( 2R \\).<br><b>Step 4: Calculate</b><br>Moment = \\( F \\times 2R = 2FR \\)."
@@ -2363,7 +2361,6 @@
         {
           id: 41, topic: "Principle of Moments",
           q: "A uniform meter scale of mass 50 g is pivoted at the 40 cm mark. A mass of 20 g is suspended at the 5 cm mark. What mass must be suspended at the 100 cm mark to balance the scale horizontally?",
-          imgUrl: "",
           options: ["3.33 g", "10.0 g", "5.0 g", "12.5 g"],
           correct: 0, 
           sol: "<b>Step 1: Identify all forces and distances from the pivot (40 cm)</b><br>1. 20 g mass at 5 cm. Distance = \\( 40 - 5 = 35 \\text{ cm} \\) (Anticlockwise).<br>2. Mass of the scale (50 g) acts at its CG (50 cm). Distance = \\( 50 - 40 = 10 \\text{ cm} \\) (Clockwise).<br>3. Unknown mass 'm' at 100 cm. Distance = \\( 100 - 40 = 60 \\text{ cm} \\) (Clockwise).<br><b>Step 2: Calculate Moments</b><br>Total ACW Moment = \\( 20 \\times 35 = 700 \\text{ gf cm} \\).<br>Total CW Moment = \\( (50 \\times 10) + (m \\times 60) = 500 + 60m \\).<br><b>Step 3: Equate and Solve</b><br>\\( 700 = 500 + 60m \\implies 200 = 60m \\).<br>\\( m = \\frac{200}{60} = 3.33 \\text{ g} \\)."
@@ -2378,7 +2375,7 @@
         {
           id: 43, topic: "Moment of Force",
           q: "In a nutcracker, the nut is placed at a distance of 4 cm from the hinge (fulcrum), and the effort is applied at a distance of 20 cm from the hinge. If the resistance offered by the nut is 100 N, what is the minimum effort required to crack it?",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhOz6HhzgjneuDDJ1tm3hC-q19cvSls36E3N7UJFBvioJy4pVN7sik-suRJLsq0wXM5EAyeh3Ac4LjNR7hUOCDoNyL9E8zKMeB70yEWa0M742yr7oNsPhQfEvVkVoKSvckj2w8gHVyr3QtS86hGpbYc4g6aCyoa3sJ9olDDsyAQ0KWL_xtPs0gz5c-AUJpZ",
           options: ["20 N", "500 N", "25 N", "10 N"],
           correct: 0, 
           sol: "<b>Step 1: Identify the Lever Class and Principle</b><br>A nutcracker is a Class II lever. By the principle of moments: Load \\( \\times \\) Load Arm = Effort \\( \\times \\) Effort Arm.<br><b>Step 2: Assign Values</b><br>Load (Resistance of nut) = 100 N. Load Arm = 4 cm.<br>Effort = E. Effort Arm = 20 cm.<br><b>Step 3: Solve for Effort</b><br>\\( 100 \\times 4 = E \\times 20 \\).<br>\\( 400 = 20E \\implies E = \\frac{400}{20} = 20 \\text{ N} \\)."
@@ -2407,7 +2404,7 @@
         {
           id: 47, topic: "Moment of Force",
           q: "A wheel of diameter 2 m has an axle at its center 'O'. A tangential force F = 2 N is applied at a point 'B' on the rim. What is the moment of this force about the center 'O' and about the diametrically opposite point 'A' on the rim, respectively?",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEj2sFkrlo8CsEEllpBvIkhgJHkCHH2zGdBT76sr_ksmk6Pnw1d1_t46wZ0MZtQpGlHsXO7id1liuJSL1DMzUexrLszSAbSq7f7oHD6ySWvopWkTwRmR-tK1sKdXIfSA34mYy30Leks1riUoI2-qgFey_Zvza8mH0vYipmTK_2ctLg6QA1Duf5D7A5cOh4D4",
           options: ["2 Nm, 4 Nm", "4 Nm, 2 Nm", "2 Nm, 2 Nm", "4 Nm, 4 Nm"],
           correct: 0, 
           sol: "<b>Step 1: Determine Dimensions</b><br>Diameter = 2 m, therefore Radius (r) = 1 m.<br><b>Step 2: Moment about Center 'O'</b><br>Perpendicular distance from O to the line of action at B is the radius (1 m).<br>Moment about O = \\( F \\times r = 2 \\text{ N} \\times 1 \\text{ m} = 2 \\text{ Nm} \\).<br><b>Step 3: Moment about Point 'A'</b><br>Point A is diametrically opposite to B. The perpendicular distance from A to the line of action of the force at B is the full diameter (2 m).<br>Moment about A = \\( F \\times 2r = 2 \\text{ N} \\times 2 \\text{ m} = 4 \\text{ Nm} \\)."
@@ -2415,7 +2412,6 @@
         {
           id: 48, topic: "Centre of Gravity",
           q: "A uniform circular disc of radius 'r' has a smaller circular hole cleanly cut out of it from near its right edge. The center of gravity of the remaining shape will:",
-          imgUrl: "",
           options: ["Remain exactly at the geometric center", "Shift towards the right edge", "Shift towards the left edge (away from the hole)", "Shift outside the physical boundaries of the disc"],
           correct: 2, 
           sol: "<b>Step 1: Understand Mass Distribution</b><br>The center of gravity is the balance point of the mass. For a uniform intact disc, it is exactly in the center.<br><b>Step 2: Effect of Removing Mass</b><br>When a piece is cut out from the right side, the right side becomes lighter, and the left side becomes relatively heavier.<br><b>Step 3: Conclusion</b><br>To maintain balance, the point of equilibrium (CG) must shift towards the heavier side. Therefore, the CG shifts to the left, away from the hole."
@@ -2423,7 +2419,7 @@
         {
           id: 49, topic: "Equilibrium",
           q: "A uniform rigid rod of length 1 m and weight W is supported horizontally by two vertical parallel strings attached at its ends. A load of 3W is placed on the rod at a distance of 25 cm from the left end. The tension in the right string is:",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjIWP65X0M_YEQyetAJzsRB94L0_X1JHK8CJMKdHjsAwTI-sz5H8zDKynUR8JGu-TDiezNoMMgmwSm2ss84S_Xa8rzGkdwiJvZjAFFYq82Hvn5wi7CjE6rZlcMISsLjQm_A2cgt9yeuQDV00QEC3zNdnPdzdzmXPbyB4KQgt-vAm9NJs8OuBxPb9CtPOOwf",
           options: ["1.25 W", "2.75 W", "2.00 W", "0.75 W"],
           correct: 0, 
           sol: "<b>Step 1: Set up the Geometry</b><br>Let the left end be pivot point A (0 cm) and the right end be point B (100 cm). The tension in the right string is \\( T_2 \\), acting upwards at 100 cm.<br><b>Step 2: Identify Downward Forces and Moments about A</b><br>1. Load 3W acts downwards at 25 cm. Moment = \\( 3W \\times 0.25 \\text{ m} = 0.75W \\).<br>2. Weight of rod W acts downwards at its CG (50 cm). Moment = \\( W \\times 0.50 \\text{ m} = 0.50W \\).<br>Total downward (clockwise) moment about A = \\( 0.75W + 0.50W = 1.25W \\).<br><b>Step 3: Calculate Tension</b><br>The upward (anticlockwise) moment is provided by \\( T_2 \\) at 100 cm (1 m).<br>\\( T_2 \\times 1 = 1.25W \\implies T_2 = 1.25W \\)."
@@ -2459,7 +2455,6 @@
         {
           id: 54, topic: "Principle of Moments",
           q: "A uniform half-meter rule (50 cm long) is pivoted at its 25 cm mark. A 20 gf weight is suspended at the 10 cm mark. Where exactly must a 30 gf weight be suspended to balance the rule horizontally?",
-          imgUrl: "",
           options: ["At the 10 cm mark on the right", "At the 35 cm mark of the ruler", "At the 40 cm mark of the ruler", "At the 45 cm mark of the ruler"],
           correct: 1, 
           sol: "<b>Step 1: Calculate the Anticlockwise Moment</b><br>Pivot is at 25 cm. 20 gf weight is at 10 cm.<br>Distance = \\( 25 - 10 = 15 \\text{ cm} \\).<br>ACW Moment = \\( 20 \\times 15 = 300 \\text{ gf cm} \\).<br><b>Step 2: Set up the Clockwise Moment</b><br>To balance, the 30 gf weight must create an equal CW moment. Let its distance from the pivot be 'x'.<br>\\( 30 \\times x = 300 \\implies x = 10 \\text{ cm} \\) from the pivot.<br><b>Step 3: Find the Ruler Mark</b><br>Since it must be on the right side to create a CW moment, we add this distance to the pivot position: \\( 25 + 10 = 35 \\text{ cm} \\) mark."
@@ -2488,7 +2483,7 @@
         {
           id: 58, topic: "Principle of Moments",
           q: "A uniform meter scale balances horizontally when pivoted at the 50 cm mark. If a 10 gf weight is fully immersed in a beaker of water while still suspended from the 20 cm mark, what will happen to the scale?",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhTKYJlBB_tzXKxFzm0PCW8KbIU46Au3B19tH7z-MmlW_4GVOQxSdMo0hoD9RlLd1XlIenqxs9j9mA2fKUzcw68B8jiiY05eZSZj2ptNehnxImIRx18_a_9mQ0GpSwTrHhP5890YZosxKH0f8GLcMnOprDrks2ovaF15fsIVI8yLUf-lBieXLKBUG9Ge0IQ",
           options: ["It will remain perfectly balanced horizontally.", "It will tilt anti-clockwise.", "It will tilt clockwise.", "The pivot point will automatically shift to the 40 cm mark."],
           correct: 2, 
           sol: "<b>Step 1: Analyze Initial State</b><br>Before immersion, the system is in equilibrium. The ACW moment from the weight at 20 cm is perfectly balanced by some CW moment on the other side.<br><b>Step 2: Effect of Water Immersion</b><br>When the weight is immersed in water, it experiences an upward buoyant force (upthrust). This effectively reduces the apparent weight (downward force) of the mass at the 20 cm mark.<br><b>Step 3: Conclusion</b><br>Because the force on the left side (ACW moment) has decreased, the ACW moment becomes smaller than the CW moment. The unbalanced CW moment will cause the scale to tilt clockwise."
@@ -12998,6 +12993,7 @@
       ]
     }
   };
+
 
 
 
