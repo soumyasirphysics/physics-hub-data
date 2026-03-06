@@ -1019,7 +1019,7 @@
         {
           id: 2, topic: "Reflection of Light",
           q: "Consider the figure shown. The reflected ray is perpendicular to the incident ray. Angle of incidence for the ray is",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgf9Ez4vWrSZXgkAlsP5r4s9Tq0j3FmpKQXkf9LhxEfLoVqMC_B8g6xSv-cGjdJGZMAm5ecLZIDXOBBvAt6dxmpooszUBbxiR2-CrvcdHTvF0ff-aGErSMTUlifSh0ZyYuG5j183bZ_MjlSMsiRqiGsIGRsoC9RdYJ3gs6EYXJH-eB3mh_SNiLqd1CFs_ny",
           options: ["\\( 30^{\\circ} \\)", "\\( 45^{\\circ} \\)", "\\( 60^{\\circ} \\)", "\\( 75^{\\circ} \\)"],
           correct: 1, 
           sol: "<b>Step 1: Analyze the Given Information</b><br>The problem states that the total angle between the incident ray and the reflected ray is exactly \\( 90^{\\circ} \\) (they are perpendicular).<br><b>Step 2: Apply the Law of Reflection</b><br>According to the law of reflection, the angle of incidence (\\( i \\)) is always equal to the angle of reflection (\\( r \\)). Therefore, \\( i + r = 90^{\\circ} \\).<br><b>Step 3: Calculate</b><br>Substituting \\( r \\) with \\( i \\), we get \\( 2i = 90^{\\circ} \\), which simplifies to \\( i = 45^{\\circ} \\)."
@@ -1027,7 +1027,7 @@
         {
           id: 3, topic: "Reflection of Light",
           q: "Two plane mirrors are placed parallel to each other as shown in the figure. There is an object O placed between the mirrors, at 10 cm from mirror \\( M_2 \\). What are the distances of first two images formed by \\( M_2 \\) from \\( M_1 \\)?",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEigGiPGBcUEo8vxJdpTIqF9CdW2mhiYUCzNR45PKLtGgW1ANauCSVRFNix0Z0Ej-V1A_HEA71nnB56WHFxyqNEzaFU5we5-e6DKveuoxGSaGgwYgW5wOcLT2zQJryDqOsGUOabXs7QP_0ZGu__UDo9rhp2j2aZLyXvDNgbr-PLMX9UaUZ28eolgUe4ySL0W",
           options: ["5 cm, 30 cm", "10 cm, 10 cm", "10 cm, 30 cm", "10 cm, 20 cm"],
           correct: 2, 
           sol: "<b>Step 1: Identify Mirror Properties</b><br>In a plane mirror, the image distance behind the mirror is always equal to the object distance in front of it.<br><b>Step 2: First Image by \\( M_2 \\)</b><br>The object is 10 cm in front of \\( M_2 \\). Thus, \\( M_2 \\) forms its first image 10 cm behind it.<br><b>Step 3: Distances Relative to the other mirror</b><br>Since the total distance between mirrors is 20 cm, the distance of this first image from \\( M_1 \\) is \\( 20 \\text{ cm} + 10 \\text{ cm} = 30 \\text{ cm} \\)."
@@ -1077,7 +1077,6 @@
         {
           id: 10, topic: "Refraction of Light",
           q: "When light travels obliquely from glass to air",
-          imgUrl: "",
           options: ["It proceeds undeviated", "It bends towards the normal at the point of incidence", "It bends away from the normal at the point of incidence", "It is reflected back for all angle of incidence"],
           correct: 2, 
           sol: "<b>Step 1: Identify the Mediums</b><br>Glass is an optically denser medium, while air is an optically rarer medium.<br><b>Step 2: Apply the Rule of Refraction</b><br>According to Snell's law and the principles of refraction, when a ray of light travels obliquely from a denser medium into a rarer medium, it speeds up and bends away from the normal line at the point of incidence."
@@ -1344,7 +1343,7 @@
         {
           id: 48, topic: "Spherical Mirrors",
           q: "A ray AB travelling parallel to principal axis incident on a concave mirror as shown below. If \\( \\angle BFC = 120^{\\circ} \\), then angle of incidence is",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgE4Tx17Vsd9VKqKVhFPr7dSaeHOBMdVC6qgx6Wf5gpC68gOEJ4mF8AL-SxbqkGjIVBocsjjzlolQY9jjC-O2i5fBAAvii94KNq2xiidtZb8Bo4v5u_9VHtFnRDCK2UnNcHq0tee3uHmhesX3G0UmGUmnPCbUDyLSF1yqK6HDX2GMUyYeufjQXMK6qKzxqr",
           options: ["\\( 30^{\\circ} \\)", "\\( 60^{\\circ} \\)", "\\( 15^{\\circ} \\)", "\\( 45^{\\circ} \\)"],
           correct: 0, 
           sol: "<b>Step 1: Trace the Geometry</b><br>The ray AB is parallel to the principal axis and reflects through the focus F. A line drawn from the center of curvature C to the point of incidence B acts as the normal.<br><b>Step 2: Apply Angle Properties</b><br>Let the angle of incidence be \\( i \\). By the law of reflection, \\( \\angle CBF = i \\). Because AB is parallel to the principal axis, alternate interior angles dictate that \\( \\angle BCF \\) is also equal to \\( i \\).<br><b>Step 3: Calculate</b><br>In triangle BCF, the sum of angles is \\( 180^{\\circ} \\). \\( \\angle BCF + \\angle CBF + \\angle BFC = 180^{\\circ} \\). \\( i + i + 120^{\\circ} = 180^{\\circ} \\implies 2i = 60^{\\circ} \\implies i = 30^{\\circ} \\)."
@@ -1380,7 +1379,6 @@
         {
           id: 53, topic: "Refraction of Light",
           q: "The length of a vertical stick at the surface of a lake appears 12 cm to a fish under water. If refractive index of water is \\( \\frac{4}{3} \\) then actual length of stick above water surface is",
-          imgUrl: "",
           options: ["16 cm", "9 cm", "12 cm", "3 cm"],
           correct: 1, 
           sol: "<b>Step 1: Understand Apparent Height</b><br>When an object in a rarer medium (air) is viewed from a denser medium (water), it appears taller or further away than it actually is. The mathematical relation is \\( \\text{Apparent Height} = \\text{Actual Height} \\times n_{\\text{relative}} \\).<br><b>Step 2: Apply the Formula</b><br>Given the apparent height \\( h_{\\text{app}} = 12 \\text{ cm} \\) and the refractive index of water \\( n = \\frac{4}{3} \\). \\( 12 = h_{\\text{actual}} \\times \\frac{4}{3} \\).<br><b>Step 3: Solve for Actual Height</b><br>\\( h_{\\text{actual}} = 12 \\times \\frac{3}{4} = 9 \\text{ cm} \\)."
@@ -1388,7 +1386,6 @@
         {
           id: 54, topic: "Refraction of Light",
           q: "A 30 cm high bucket is completely filled with a liquid. A coin at its bottom appears to be raised by 12 cm. The refractive index of the liquid is",
-          imgUrl: "",
           options: ["3.0", "1.33", "1.67", "1.25"],
           correct: 2, 
           sol: "<b>Step 1: Identify Actual and Apparent Depths</b><br>The actual depth of the coin (\\( d_{\\text{actual}} \\)) is the total height of the liquid in the bucket, which is 30 cm. Because the coin appears raised by 12 cm, its apparent depth from the surface is \\( d_{\\text{apparent}} = 30 - 12 = 18 \\text{ cm} \\).<br><b>Step 2: Formula for Refractive Index</b><br>The refractive index (\\( n \\)) of the liquid is the ratio of real depth to apparent depth: \\( n = \\frac{d_{\\text{actual}}}{d_{\\text{apparent}}} \\).<br><b>Step 3: Calculate</b><br>\\( n = \\frac{30}{18} = \\frac{5}{3} \\approx 1.67 \\)."
@@ -1396,7 +1393,7 @@
         {
           id: 55, topic: "Refraction of Light",
           q: "In the given figure, a ray of light falls obliquely on a vertical glass slab at an angle of \\( 30^{\\circ} \\) and after refraction from slab falls on a vertical plane mirror at angle x. The value of x is",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgkgc87uywlov_5kRcUnrY-MHFlO5TBhITi5x-EsBgWJenLP-jf4Cmzu_w8A68uihxn1czOvQqRBfacX2g603YksqGWZhVFy7q9ZdeHsokf6d1z5JNmknxY63I1R-u4ruD_OFJXsq725rQGtB-rdj7ZjwvTL2muOmo_y5ODb86gQJfHUwnqd2nUCMM0Ef-H",
           options: ["\\( 30^{\\circ} \\)", "\\( 60^{\\circ} \\)", "\\( 45^{\\circ} \\)", "\\( 70^{\\circ} \\)"],
           correct: 0, 
           sol: "<b>Step 1: Analyze Refraction through a Slab</b><br>When a light ray passes through a rectangular glass slab with perfectly parallel sides, the emergent ray suffers lateral displacement but always emerges strictly parallel to the original incident ray.<br><b>Step 2: Determine Emergent Angle</b><br>Since the initial incident ray makes an angle of \\( 30^{\\circ} \\) with the horizontal normal, the emergent ray exiting the slab will also make an angle of \\( 30^{\\circ} \\) with the horizontal normal.<br><b>Step 3: Apply to the Mirror</b><br>Because the plane mirror is mounted vertically (just like the slab), its normal is also perfectly horizontal. Thus, the incident angle \\( x \\) on the mirror is exactly equal to the emergent angle, which is \\( 30^{\\circ} \\)."
@@ -1404,7 +1401,6 @@
         {
           id: 56, topic: "Reflection of Light",
           q: "Angle of incident ray with normal is \\( 30^{\\circ} \\). The incident ray after reflection will deviate through an angle",
-          imgUrl: "",
           options: ["\\( 60^{\\circ} \\)", "\\( 120^{\\circ} \\)", "\\( 150^{\\circ} \\)", "\\( 90^{\\circ} \\)"],
           correct: 1, 
           sol: "<b>Step 1: Formula for Deviation</b><br>The angle of deviation (\\( \\delta \\)) for a single reflection from a plane mirror is the angle between the original path of the incident ray and the path of the reflected ray. It is given by the formula \\( \\delta = 180^{\\circ} - 2i \\), where \\( i \\) is the angle of incidence.<br><b>Step 2: Calculate</b><br>Given the angle of incidence \\( i = 30^{\\circ} \\). \\( \\delta = 180^{\\circ} - 2(30^{\\circ}) = 180^{\\circ} - 60^{\\circ} = 120^{\\circ} \\)."
@@ -1468,7 +1464,7 @@
         {
           id: 65, topic: "Spherical Lenses",
           q: "A convex lens is made up of three different materials as shown in the figure. For a point object placed on its axis, the number of images formed are",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEiqtvtFZTSM_C73BNEmhU1xttqJxoYxVpiVFnme5XPh9EpaRNND6l1LfAqSars_err4_3OAANpcfumHT5scmr0JpMSeL9CHGoZbWh6FG-CMMeNLYQim6cWOrfluMeKDVBbFIUAbBb84Qjl646ecdKtXFiay2_qQXn6dj5sEgttG54Ac4AnxB6omKvawDqyQ",
           options: ["1", "3", "4", "5"],
           correct: 1, 
           sol: "<b>Step 1: Analyze Lens Composition</b><br>The lens is constructed using three horizontal strips of entirely different optical materials.<br><b>Step 2: Refractive Index and Focal Length</b><br>Each different material possesses a unique refractive index. Because the focal length of a lens depends directly on the refractive index of its material, this single composite lens will effectively have three distinct focal lengths.<br><b>Step 3: Image Formation</b><br>As light from the point object passes through these three sections, it converges at three different focal points, thereby forming exactly 3 separate images."
@@ -1490,7 +1486,7 @@
         {
           id: 68, topic: "Spherical Lenses",
           q: "In the figure, there are two convex lenses \\( L_1 \\) and \\( L_2 \\) having focal lengths \\( f_1 \\) and \\( f_2 \\) respectively. To achieve emergent ray from lens \\( L_2 \\) to be parallel to incident ray, the distance between \\( L_1 \\) and \\( L_2 \\) will be",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgtYXqqxXLm23qUyiRl43MyhZCPb6RWVwtxC9x7bZcjpuuTIOiwpvoEui_2VXAS95OF3aR0iOHP60_3jQN0iIl7hY9xgVs-Tr462b-DaYNsn7qbPpJSpQBRldlfCKc4Z9NHUr4hYR3A7hMCpiUyM4dE03m36nINST_4TCnHr-AnMVhGZ77ZaEfY3haewCON",
           options: ["\\( f_1 \\)", "\\( f_2 \\)", "\\( f_1 + f_2 \\)", "\\( f_1 - f_2 \\)"],
           correct: 2, 
           sol: "<b>Step 1: Trace the Ray Path</b><br>Parallel rays entering the first convex lens (\\( L_1 \\)) will converge exactly at its principal focus, which is at a distance of \\( f_1 \\) from it.<br><b>Step 2: Condition for Parallel Emergence</b><br>For the rays to emerge parallel from the second lens (\\( L_2 \\)), they must appear to diverge from or pass through its principal focus. Therefore, the focal point of \\( L_1 \\) must perfectly coincide with the focal point of \\( L_2 \\).<br><b>Step 3: Determine Distance</b><br>Since the shared focal point is \\( f_1 \\) away from the first lens and \\( f_2 \\) away from the second lens, the total physical distance between the two lenses must be \\( f_1 + f_2 \\)."
@@ -1498,7 +1494,7 @@
         {
           id: 69, topic: "Spherical Lenses",
           q: "A convex lens is made of two different materials as shown in the figure (top half \\( n_1 \\), bottom half \\( n_2 \\)). A beam of light is coming from infinity as shown. Which of the following is true?",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgtIw5nXjeZPHtAIEjpDGgyCHvU680qdRe5MUERxhUkaX4IZ_OKhPl7vuLpPVby7NQDacerZ-QvawHQ8ksL-4azwk8Z9T4CLczGuQsFzGvnKWx10zixvN2gAsxHvQVuqnKI7LMt0Tz18FzIRi36IohD-rqWJg24vFYJmzqw4UvHVpR05FyhdWB79T_4gWA5",
           options: ["Two images are formed", "Continuous image is formed between focal points of lower lens and infinity", "One image is formed", "No image is formed"],
           correct: 0, 
           sol: "<b>Step 1: Analyze Lens Composition</b><br>The lens is horizontally split into two distinct halves, each made from a material with a different refractive index (\\( n_1 \\) and \\( n_2 \\)).<br><b>Step 2: Refractive Property</b><br>Because focal length strictly depends on the refractive index, the upper half acts as a lens with one focal length, and the lower half acts as a lens with a different focal length.<br><b>Step 3: Image Formation</b><br>Incoming parallel rays hitting the top half will converge at the first focal point, and rays hitting the bottom half will converge at the second focal point, resulting in exactly two separate images being formed."
@@ -1549,7 +1545,7 @@
         {
           id: 76, topic: "Refraction of Light",
           q: "A double convex lens, made of material of refractive index \\( n_1 \\) is placed inside two liquids of refractive indices \\( n_2 \\) and \\( n_3 \\) as shown (top half in \\( n_2 \\), bottom half in \\( n_3 \\)). Given that \\( n_2 > n_1 > n_3 \\). A wide, parallel beam of light is incident on the lens from the left. The lens will give rise to",
-          imgUrl: "",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgqgAYgyTgqt1PG44PbGyDN6Myw0vNtU4hEg6dmLTk2mn6JxOZGKtxq_vVXQ5TrlBoC75fNYkqiZS3N-iLVMh4oVpK55vX2yltQJ2Rvma24Ik5okwlrowuG7w9hP-YR1aqWy4quigTYbuGjLtmDYLKpm0yjRxowzOYixVSVWdCX6AGxwaU7L4hc8L5gCy4c",
           options: ["A single convergent beam", "Two different convergent beams", "Two different divergent beams", "A convergent and a divergent beam"],
           correct: 3, 
           sol: "<b>Step 1: Analyze the Top Half</b><br>The top half of the lens (\\( n_1 \\)) is immersed in a medium with a higher refractive index (\\( n_2 > n_1 \\)). According to optical rules, a convex lens placed in a denser medium changes its nature and behaves as a diverging (concave) lens, producing a divergent beam.<br><b>Step 2: Analyze the Bottom Half</b><br>The bottom half of the lens (\\( n_1 \\)) is immersed in a medium with a lower refractive index (\\( n_1 > n_3 \\)). It retains its normal nature and continues to behave as a converging (convex) lens, producing a convergent beam.<br><b>Step 3: Conclusion</b><br>The system will simultaneously give rise to a convergent and a divergent beam."
@@ -12548,6 +12544,7 @@
       ]
     }
   };
+
 
 
 
