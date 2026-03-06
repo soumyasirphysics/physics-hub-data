@@ -492,8 +492,481 @@
         }
       ]
     },
-
-    
+    // ==========================================
+    // CHAPTER: Human eye and Colourful World for Class 10
+    // ==========================================
+    "Human Eye and Colourful World": { 
+      classTarget: "Class 10", 
+      totalQs: 65, 
+      topics: [
+        "The Human Eye and its Defects", 
+        "Atmospheric Refraction", 
+        "Scattering of Light", 
+        "Refraction and Dispersion through a Prism",
+        "Total Internal Reflection"
+      ],
+      questions: [
+       {
+          id: 1, topic: "The Human Eye and its Defects",
+          q: "The least distance of distinct vision for an adult man/woman is",
+          options: ["25 cm", "2.5 m", "25 m", "2.5 cm"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand Distinct Vision</b><br>The least distance of distinct vision is the minimum distance at which an eye can see objects clearly without any strain.<br><b>Step 2: Identify the Value</b><br>For a normal adult human eye, this minimum comfortable viewing distance is exactly 25 cm."
+        },
+        {
+          id: 2, topic: "The Human Eye and its Defects",
+          q: "The human eye can focus objects at different distances by adjusting the focal length of the eye lens. This is known as",
+          options: ["Presbyopia", "Accommodation", "Myopia", "Astigmatism"],
+          correct: 1, 
+          sol: "<b>Step 1: Define the Process</b><br>The eye lens has the remarkable ability to adjust its focal length to form sharp images of objects located at varying distances.<br><b>Step 2: Identify the Term</b><br>This specific physiological ability of the eye is technically called the power of accommodation."
+        },
+        {
+          id: 3, topic: "The Human Eye and its Defects",
+          q: "To correct myopic defect, the focal length of the concave lens should be",
+          options: ["Equal to the distance of far point", "Less than the distance of far point", "Less than the distance of near point", "Equal to the distance of near point"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand Myopia</b><br>In a myopic (short-sighted) eye, the far point is closer than infinity. Distant objects appear blurry because their images form in front of the retina.<br><b>Step 2: Lens Correction Principle</b><br>A concave lens is used to diverge incoming parallel rays so they appear to come from the person's actual far point. Therefore, its focal length must be exactly equal to the distance of the myopic far point."
+        },
+        {
+          id: 4, topic: "The Human Eye and its Defects",
+          q: "Hypermetropia is the defect of vision due to which a person finds difficulty in seeing the",
+          options: ["Distant objects", "Nearby objects", "Objects at all distances", "Colours"],
+          correct: 1, 
+          sol: "<b>Step 1: Define Hypermetropia</b><br>Hypermetropia is also known as far-sightedness.<br><b>Step 2: Identify the Difficulty</b><br>A hypermetropic eye can see distant objects clearly but faces difficulty in focusing on nearby objects because the image forms behind the retina."
+        },
+        {
+          id: 5, topic: "The Human Eye and its Defects",
+          q: "The change in the focal length of the eye lens is caused by the action of the",
+          options: ["Pupil", "Retina", "Ciliary muscles", "Iris"],
+          correct: 2, 
+          sol: "<b>Step 1: Anatomy of the Eye</b><br>The eye lens is held in position and controlled by specific muscular structures.<br><b>Step 2: Identify the Muscles</b><br>The ciliary muscles contract and relax to alter the curvature of the eye lens, which directly changes its focal length for accommodation."
+        },
+        {
+          id: 6, topic: "The Human Eye and its Defects",
+          q: "A person is suffering from the defect of astigmatism. Its main reason is",
+          options: ["Decrease in the focal length of the eye lens", "Power of accommodation of the eye is decreased", "Irregular shape of cornea or the imperfect spherical nature of the eye lens", "Increase in the focal length of the eye lens"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand Astigmatism</b><br>Astigmatism is a defect where light fails to come to a single focus on the retina to produce clear vision.<br><b>Step 2: Identify the Cause</b><br>This occurs primarily due to the irregular shape of the cornea or the imperfect spherical nature of the eye lens, causing rays in different planes to focus at different points."
+        },
+        {
+          id: 7, topic: "Refraction and Dispersion through a Prism",
+          q: "When sunlight is incident on a prism, it produces a spectrum due to",
+          options: ["Atmospheric refraction", "Reflection", "TIR", "Variation in speeds of different colours of light in the prism"],
+          correct: 3, 
+          sol: "<b>Step 1: Define Dispersion</b><br>A spectrum is formed when white light splits into its component colours (dispersion) upon entering a refractive medium.<br><b>Step 2: Mechanism of Dispersion</b><br>This splitting occurs entirely because different colours of light (which have different wavelengths) travel at different speeds inside the glass prism, causing them to bend at slightly different angles."
+        },
+        {
+          id: 9, topic: "Refraction and Dispersion through a Prism",
+          q: "Rainbow is formed due to",
+          options: ["Dispersion and total internal reflection", "Refraction and absorption", "Dispersion and scattering", "Refraction and scattering"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify the Phenomena</b><br>A rainbow is a natural spectrum appearing in the sky after a rain shower.<br><b>Step 2: Explain the Process</b><br>It is caused by the dispersion of sunlight by tiny water droplets, which act like small prisms. The light is refracted, dispersed into its colours, undergoes total internal reflection inside the droplet, and finally refracts again as it comes out."
+        },
+        {
+          id: 10, topic: "Scattering of Light",
+          q: "When a beam of light passes through an unknown solution, its path becomes visible. The unknown solution among the following is",
+          options: ["Water", "Vinegar", "Blood", "Salt solution"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand the Phenomenon</b><br>The scattering of light by particles in a medium, making the path of light visible, is known as the Tyndall effect.<br><b>Step 2: Identify the Mixture</b><br>The Tyndall effect is exhibited by colloidal solutions, not true solutions. Among the given options, water, vinegar, and salt solution are true solutions. Blood is a colloidal solution and will scatter light."
+        },
+        {
+          id: 11, topic: "Scattering of Light",
+          q: "The reddish appearance of the sun at sunrise and sunset is due to",
+          options: ["Scattering", "Dispersion", "Total internal reflection", "All of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Light Path at Horizon</b><br>During sunrise and sunset, sunlight must travel a significantly longer distance through the Earth's atmosphere to reach our eyes.<br><b>Step 2: Role of Scattering</b><br>Shorter wavelengths (blue and violet) are scattered away by atmospheric particles. The longer wavelengths (like red) successfully penetrate the atmosphere and reach the observer, giving the sun a reddish appearance due to this selective scattering."
+        },
+        {
+          id: 12, topic: "Atmospheric Refraction",
+          q: "It is said that the sun becomes visible before the actual rise and remains visible even after the actual sunset. This makes the day a bit longer. It happens due to",
+          options: ["Scattering of sunlight", "Atmospheric reflection of sunlight", "Atmospheric refraction of sunlight", "Dispersion of sunlight"],
+          correct: 2, 
+          sol: "<b>Step 1: Path of Light</b><br>As sunlight enters the Earth's atmosphere, it travels from a less dense medium (space) to a progressively denser medium (atmosphere).<br><b>Step 2: Optical Phenomenon</b><br>This continuous bending of light towards the normal is called atmospheric refraction. It causes the sun to appear slightly raised above its actual physical position, resulting in advanced sunrise and delayed sunset."
+        },
+        {
+          id: 13, topic: "Refraction and Dispersion through a Prism",
+          q: "After a shower of rain, a colourful spectrum is seen",
+          options: ["Towards the sun", "Opposite to the sun", "Anywhere in the sky", "Even in absence of the sun"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Rainbow Formation</b><br>A rainbow is a natural spectrum formed by the dispersion of sunlight by water droplets present in the atmosphere.<br><b>Step 2: Position of the Rainbow</b><br>Because the water droplets act like tiny prisms that refract and reflect the sunlight back towards the observer, a rainbow is always observed in a direction opposite to that of the sun."
+        },
+        {
+          id: 14, topic: "Scattering of Light",
+          q: "It is observed that \"danger\" signal lights are red in colour. This is because",
+          options: ["The red colour is most scattered by fog or smoke", "The red colour has lower wavelength than violet", "The red colour is least scattered by the fog or smoke", "Frequency of red colour is greater than other colours"],
+          correct: 2, 
+          sol: "<b>Step 1: Wavelength Principle</b><br>According to the laws of scattering, the intensity of scattered light is inversely proportional to the fourth power of its wavelength. Red light has the longest wavelength in the visible spectrum.<br><b>Step 2: Application to Signals</b><br>Because of its long wavelength, red colour is least scattered by atmospheric obstacles like fog, smoke, or rain. This allows it to travel vast distances without losing intensity, making it ideal for danger signals."
+        },
+        {
+          id: 15, topic: "The Human Eye and its Defects",
+          q: "A person cannot see clearly the objects beyond \\( 50 \\, \\text{cm} \\). What should be the power of the lens to correct his vision?",
+          options: ["\\( -0.5 \\, \\text{D} \\)", "\\( -1.0 \\, \\text{D} \\)", "\\( -1.5 \\, \\text{D} \\)", "\\( -2.0 \\, \\text{D} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Identify the Defect</b><br>Since the person cannot see beyond a close distance (\\( 50 \\, \\text{cm} \\)), they are suffering from myopia (short-sightedness).<br><b>Step 2: Calculate Power</b><br>For myopia, the focal length of the corrective concave lens must equal the far point (with a negative sign). Here, \\( f = -50 \\, \\text{cm} = -0.5 \\, \\text{m} \\).<br>Power \\( P = \\frac{1}{f \\, (\\text{in meters})} = \\frac{1}{-0.5} = -2.0 \\, \\text{D} \\)."
+        },
+        {
+          id: 16, topic: "Refraction and Dispersion through a Prism",
+          q: "The correct arrangement of colours in the descending order of their wavelength is",
+          options: ["Yellow, Violet, Green, Orange", "Orange, Yellow, Green, Violet", "Violet, Green, Yellow, Orange", "Orange, Green, Yellow, Violet"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand the Spectrum</b><br>The visible spectrum follows the sequence ROYGBIV (Red, Orange, Yellow, Green, Blue, Indigo, Violet).<br><b>Step 2: Compare Wavelengths</b><br>Red possesses the longest wavelength, while Violet possesses the shortest. Arranging the given options in descending order (longest to shortest) results in the sequence: Orange, Yellow, Green, Violet."
+        },
+        {
+          id: 17, topic: "The Human Eye and its Defects",
+          q: "If a person closes his one eye, the world appears to him as",
+          options: ["One dimensional", "Two dimensional", "Three dimensional", "All of these"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Binocular Vision</b><br>Human beings have two eyes positioned on the front of their heads, which provides stereoscopic (3D) vision and depth perception.<br><b>Step 2: Effect of Closing One Eye</b><br>When one eye is closed, the brain loses the slightly different angles provided by two eyes. Consequently, depth perception is severely compromised, making the world largely appear two dimensional."
+        },
+        {
+          id: 18, topic: "The Human Eye and its Defects",
+          q: "In human eye, the focusing of the image of an object is done by",
+          options: ["To and fro movement of the eye lens", "To and fro movement of the retina", "Change in the convexity of the eye lens", "Change in the refractive index of the eye fluids"],
+          correct: 2, 
+          sol: "<b>Step 1: Mechanism of Focusing</b><br>Unlike a camera that moves its lens back and forth to focus, the human eye has a fixed distance between the lens and the retina.<br><b>Step 2: Action of Ciliary Muscles</b><br>Focusing is achieved by the ciliary muscles, which contract and relax to alter the curvature (convexity) and thickness of the flexible crystalline eye lens, thus changing its focal length."
+        },
+        {
+          id: 19, topic: "Scattering of Light",
+          q: "C.V. Raman got Nobel prize for his experiment on",
+          options: ["Dispersion of light", "Reflection of light", "Refraction of light", "Scattering of light"],
+          correct: 3, 
+          sol: "<b>Step 1: Historical Fact</b><br>Sir C.V. Raman was an eminent Indian physicist who conducted groundbreaking research in the field of optics.<br><b>Step 2: Identify the Phenomenon</b><br>He was awarded the Nobel Prize in Physics in 1930 for his discovery of the Raman Effect, which deals with the inelastic scattering of light by molecules."
+        },
+        {
+          id: 20, topic: "The Human Eye and its Defects",
+          q: "A doctor advises a patient to use spectacles with a convex lens of focal length \\( 40 \\, \\text{cm} \\) in contact with a concave lens of focal length \\( 25 \\, \\text{cm} \\). The power of the combination is",
+          options: ["\\( -6.5 \\, \\text{D} \\)", "\\( -1.5 \\, \\text{D} \\)", "\\( 6.5 \\, \\text{D} \\)", "\\( 1.5 \\, \\text{D} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Calculate Individual Powers</b><br>Power of convex lens \\( P_1 = \\frac{100}{f_1 (\\text{in cm})} = \\frac{100}{+40} = +2.5 \\, \\text{D} \\).<br>Power of concave lens \\( P_2 = \\frac{100}{f_2 (\\text{in cm})} = \\frac{100}{-25} = -4.0 \\, \\text{D} \\).<br><b>Step 2: Calculate Power of Combination</b><br>When lenses are in contact, their powers add up algebraically: \\( P_{total} = P_1 + P_2 \\).<br>\\( P_{total} = +2.5 + (-4.0) = -1.5 \\, \\text{D} \\)."
+        },
+        {
+          id: 21, topic: "Scattering of Light",
+          q: "Stars are not visible in the day time because",
+          options: ["Stars are behind the sun", "Stars do not reflect the sun's ray during day", "Atmosphere scatters sunlight as a blanket of extreme brightness through which faint stars cannot be visible", "Stars vanish during the day"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand Daytime Sky</b><br>During the day, the sun's intense light enters the Earth's atmosphere.<br><b>Step 2: Role of Scattering</b><br>The atmospheric particles scatter this bright sunlight (especially the blue wavelengths) in all directions, creating a highly luminous \"blanket\" across the sky. The relatively faint light coming from distant stars is completely drowned out by this extreme brightness, making them invisible to the naked eye."
+        },
+        {
+          id: 22, topic: "Atmospheric Refraction",
+          q: "The atmospheric refraction occurs in a medium of gradually changing refractive index which causes",
+          options: ["Scattering of light", "Blue colour of sky", "Twinkling of stars", "Tyndall effect"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand the Atmosphere</b><br>The Earth's atmosphere consists of layers of varying optical densities (and varying temperatures), leading to a constantly shifting refractive index.<br><b>Step 2: Effect on Starlight</b><br>As starlight passes through these turbulent layers, it undergoes continuous atmospheric refraction. The path of the light rays deviates slightly back and forth, causing the apparent position and brightness of the star to fluctuate, which we perceive as twinkling."
+        },
+        {
+          id: 23, topic: "Refraction and Dispersion through a Prism",
+          q: "Who was the first to use a glass prism to obtain the spectrum of sunlight?",
+          options: ["Galileo", "Newton", "Einstein", "Raman"],
+          correct: 1, 
+          sol: "<b>Step 1: Historical Context</b><br>The phenomenon of white light splitting into a spectrum of colours (dispersion) was a major optical discovery.<br><b>Step 2: Identify the Scientist</b><br>Sir Isaac Newton was the first scientist to perform the famous experiment using a triangular glass prism to demonstrate that sunlight is composed of seven constituent colours."
+        },
+        {
+          id: 24, topic: "The Human Eye and its Defects",
+          q: "If a person is using a concave lens to restore his vision, then he is suffering from",
+          options: ["Short-sightedness", "Long-sightedness", "Astigmatism", "Night-blindness"],
+          correct: 0, 
+          sol: "<b>Step 1: Function of a Concave Lens</b><br>A concave (diverging) lens is used to spread out incoming light rays before they enter the eye.<br><b>Step 2: Match to the Defect</b><br>This divergence is required when the eye's natural lens converges light too strongly, causing images of distant objects to form in front of the retina. This defect is known as myopia, or short-sightedness."
+        },
+        {
+          id: 25, topic: "Atmospheric Refraction",
+          q: "Illumination of the sun at noon is maximum because",
+          options: ["Scattering of sunlight is increased at noon", "The sun is nearer to the earth at noon", "Rays are incident almost normally", "Reflection of light is minimum at noon"],
+          correct: 2, 
+          sol: "<b>Step 1: Position of the Sun</b><br>At noon, the sun is positioned directly overhead.<br><b>Step 2: Optical Impact</b><br>Because the sun's rays are incident almost normally (perpendicularly) to the Earth's surface, they travel through the shortest possible path in the atmosphere. This minimizes scattering and absorption, and the light energy is concentrated over a smaller area, leading to maximum illumination."
+        },
+        {
+          id: 26, topic: "The Human Eye and its Defects",
+          q: "A person uses a spectacles of power \\( +2 \\, \\text{D} \\), he is suffering from",
+          options: ["Myopia", "Presbyopia", "Astigmatism", "Hypermetropia"],
+          correct: 3, 
+          sol: "<b>Step 1: Analyze the Lens Power</b><br>The positive sign of the power (\\( +2 \\, \\text{D} \\)) indicates that the prescribed lens is a convex (converging) lens.<br><b>Step 2: Identify the Defect</b><br>Convex lenses are used to correct hypermetropia (far-sightedness), a condition where the eye lens is too weak or the eyeball is too short, causing images of nearby objects to form behind the retina."
+        },
+        {
+          id: 27, topic: "The Human Eye and its Defects",
+          q: "A person with defective eye cannot see a closer objects clearly because the image is formed",
+          options: ["On the eye lens", "Between eye lens and retina", "On the retina", "Beyond retina"],
+          correct: 3, 
+          sol: "<b>Step 1: Identify the Defect</b><br>The inability to see closer objects clearly while distant objects remain visible is the defining characteristic of hypermetropia (long-sightedness).<br><b>Step 2: Locate the Image</b><br>In a hypermetropic eye, the converging power of the eye lens is insufficient. As a result, the light rays from a nearby object converge at a point behind (or beyond) the retina, rather than directly on it."
+        },
+        {
+          id: 28, topic: "Scattering of Light",
+          q: "One cannot see through fog. This is because",
+          options: ["Fog absorbs light", "The refractive index of fog is infinity", "Light suffers total internal reflection in the fog", "Light is scattered by the droplets in the fog"],
+          correct: 3, 
+          sol: "<b>Step 1: Composition of Fog</b><br>Fog consists of a dense concentration of microscopic water droplets suspended in the air.<br><b>Step 2: Interaction with Light</b><br>When light travels through fog, it encounters these dense droplets and undergoes multiple random scattering events. Because the light is scattered in all directions (Tyndall effect), it prevents the transmission of a coherent image to the observer's eyes."
+        },
+        {
+          id: 29, topic: "Refraction and Dispersion through a Prism",
+          q: "When sunlight is passed through a triangular glass prism, the colour which deviates least is",
+          options: ["Blue", "Red", "Green", "Violet"],
+          correct: 1, 
+          sol: "<b>Step 1: Relationship between Wavelength and Deviation</b><br>In a dispersive medium like glass, the angle of deviation is inversely proportional to the wavelength of the light (Cauchy's equation).<br><b>Step 2: Identify the Colour</b><br>Since red light has the maximum wavelength in the visible spectrum, it travels faster in the glass compared to other colours and consequently deviates the least from its original incident path."
+        },
+        {
+          id: 30, topic: "The Human Eye and its Defects",
+          q: "The maximum focal length of the eye lens of a person is greater than its distance from the retina. The eye is",
+          options: ["Strained for an object at short distance only", "Always strained in looking at an object", "Unstrained for all distances", "Strained for object at large distances only"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Normal Eye Function</b><br>For a normal, unstrained eye looking at infinity, the maximum focal length exactly equals the distance between the lens and the retina, allowing parallel rays to focus precisely on the retina.<br><b>Step 2: Analyze the Defective Condition</b><br>If the maximum focal length is strictly greater than the distance to the retina, parallel rays from distant objects will tend to focus behind the retina (Hypermetropia). To see even distant objects clearly, the ciliary muscles must contract to increase the lens's curvature and reduce its focal length. Therefore, the eye must accommodate (strain) constantly, making it always strained in looking at any object."
+        },
+        {
+          id: 31, topic: "The Human Eye and its Defects",
+          q: "The muscles of a normal eye are least strained when the eye is focused on an object",
+          options: ["Very close to eye", "Far away from the eye", "At 25 cm from the eye", "At 1 m from the eye"],
+          correct: 1, 
+          sol: "<b>Step 1: Eye Accommodation</b><br>When the eye focuses on distant objects (infinity), the ciliary muscles are fully relaxed.<br><b>Step 2: Conclusion</b><br>This relaxed state means the eye lens becomes thin and its focal length is at a maximum, causing the least strain on the eye muscles. Therefore, viewing objects far away is least straining."
+        },
+        {
+          id: 32, topic: "The Human Eye and its Defects",
+          q: "A person with glasses cannot see the object at the distance more than 60 cm from his eye. In order to see the object clearly he must use the lens of power",
+          options: ["-60 D", "+60 D", "-1.66 D", "+1.66 D"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify Defect</b><br>The person cannot see beyond 60 cm, indicating myopia (short-sightedness). The far point is located at 60 cm.<br><b>Step 2: Calculate Power</b><br>The focal length required is \\( f = -60 \\, \\text{cm} = -0.6 \\, \\text{m} \\).<br>Power \\( P = \\frac{1}{f} = \\frac{1}{-0.6} = -1.66 \\, \\text{D} \\)."
+        },
+        {
+          id: 33, topic: "The Human Eye and its Defects",
+          q: "Myopia is due to",
+          options: ["Irregular change in focal length of the eye lens", "Elongation of eyeball", "Older eye", "Shortening of eyeball"],
+          correct: 1, 
+          sol: "<b>Step 1: Define Myopia</b><br>Myopia is a condition where the image of a distant object is formed in front of the retina.<br><b>Step 2: Identify Causes</b><br>It is primarily caused by excessive curvature of the eye lens or the elongation of the eyeball, which increases the distance between the lens and the retina."
+        },
+        {
+          id: 34, topic: "The Human Eye and its Defects",
+          q: "Name the defect of the eye in which person cannot see near and far objects clearly",
+          options: ["Presbyopia", "Myopia", "Hypermetropia", "Astigmatism"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify the Symptoms</b><br>The inability to clearly see both near and far objects simultaneously is a defect that typically happens as people age.<br><b>Step 2: Define the Defect</b><br>This combined defect is known as presbyopia (though presbyopia specifically diminishes near vision, aging individuals frequently suffer from both myopia and hypermetropia, requiring bifocal lenses)."
+        },
+        {
+          id: 35, topic: "Refraction and Dispersion through a Prism",
+          q: "Which phenomenon of light is involved in the rainbow formation?",
+          options: ["Scattering of sunlight", "Atmospheric refraction of sunlight", "Dispersion of sunlight", "Reflection of sunlight"],
+          correct: 2, 
+          sol: "<b>Step 1: Rainbow Basics</b><br>A rainbow is a natural spectrum appearing in the sky after rainfall.<br><b>Step 2: Key Phenomenon</b><br>It is primarily formed by the dispersion of sunlight by tiny water droplets acting as prisms, which break the white light into its constituent colours."
+        },
+        {
+          id: 36, topic: "Atmospheric Refraction",
+          q: "The stars sometimes appears brighter, and at some other time fainter. This is because",
+          options: ["Of atmosphere refraction", "Of scattering of light", "The stars are the point sources of light", "The refractive index of atmosphere is uniform"],
+          correct: 0, 
+          sol: "<b>Step 1: Analyze the Phenomenon</b><br>The apparent fluctuation in the brightness of stars is commonly known as twinkling.<br><b>Step 2: Identify the Cause</b><br>This occurs due to atmospheric refraction. As the physical conditions of the earth's atmosphere continuously change, the path of starlight deviates, causing the amount of light entering our eyes to fluctuate."
+        },
+        {
+          id: 37, topic: "The Human Eye and its Defects",
+          q: "A defect of vision in which lines in one plane of an object appear in focus while those in another plane are out of focus is called",
+          options: ["Astigmatism", "Presbyopia", "Myopia", "Hypermetropia"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand the Defect</b><br>When the cornea or eye lens has an irregular, non-spherical curvature, it refracts light differently in different planes.<br><b>Step 2: Identify the Term</b><br>This results in blurry vision where horizontal lines might be in focus while vertical lines are not (or vice versa). This specific defect is known as astigmatism."
+        },
+        {
+          id: 38, topic: "The Human Eye and its Defects",
+          q: "A person has a horizontal field of view of about x with one eye and y with two eyes. The value of x and y respectively are",
+          options: ["\\( 180^{\\circ}, 150^{\\circ} \\)", "\\( 130^{\\circ}, 150^{\\circ} \\)", "\\( 150^{\\circ}, 170^{\\circ} \\)", "\\( 150^{\\circ}, 180^{\\circ} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Single Eye Vision</b><br>A human being has a horizontal field of view of approximately \\( 150^{\\circ} \\) when looking through just one eye.<br><b>Step 2: Binocular Vision</b><br>When both eyes are open, the overlapping visual fields increase the total horizontal field of view to approximately \\( 180^{\\circ} \\)."
+        },
+        {
+          id: 39, topic: "The Human Eye and its Defects",
+          q: "In the given figure, the image is formed at the back of retina. The eye is",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjVER6SW51IhPVL1h3Pkc-Q7-JKkBpMMN3eOiI0m7VIE98E_6UF_-SjuNRKMotJu1RDw7CI_1PKBD3amkhmc6ApzL_OEFJQC8U297sOfoXlEEtLWcBXIQEjQnzt1IFc-GzXJBggiPyRhdc9NiHuSLWAjLH3F9rQ4C__0tTG4Y_WwP7gkF4VHZXGgg_s2Oc0",
+          options: ["Normal", "Myopic", "Hypermetropic", "Astigmate"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Image Formation</b><br>The diagram shows light rays converging at a point located behind (at the back of) the retina.<br><b>Step 2: Identify the Defect</b><br>This occurs when the eye lens has too little converging power or the eyeball is too short, which is the exact definition of a hypermetropic (far-sighted) eye."
+        },
+        {
+          id: 40, topic: "Refraction and Dispersion through a Prism",
+          q: "A ray of light passing through a prism P suffers minimum deviation in the equilateral prism P. If additional prisms Q and R of identical shape and of the same material as P are now added to P, as shown in the figure. The ray will now suffer",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgKdabZIyjecrwbS5RMEz48Myj3aPXPc7B7IPp4mNCjLIV5NXQmvVfc0nmi-cm1uocJxlrfCNhXFYSp0LAKgSzBylUT0Dhj5vUm2THQftvZGP-w3E2t6t0vjVQTvwiWBXXRjFnoXgZIo7q5hzTNrl4fJMjzHBFHxxpeJlrNO5IoJ5S_guJEbOWOdc0Icadv",
+          options: ["Same deviation as before", "Greater deviation", "Lesser deviation", "No deviation"],
+          correct: 0, 
+          sol: "<b>Step 1: Factors Affecting Deviation</b><br>The angle of deviation produced by a prism depends entirely on the angle of incidence, the refracting angle of the prism, and the refractive index of its material.<br><b>Step 2: Conclusion</b><br>Adding prisms Q and R effectively creates a larger prism with the exact same angles and material properties. Since deviation does not depend on the physical size of the prism, the ray will suffer the exact same deviation as before."
+        },
+        {
+          id: 41, topic: "The Human Eye and its Defects",
+          q: "Myopia is due to",
+          options: ["Excessive positive diopters of the eye lens", "Excessive negative diopters of the eye lens", "Irregular change in focal length of eye lens", "None of these"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand Myopia</b><br>Myopia (short-sightedness) is caused when the converging power of the eye lens is too high, or the eyeball is too long.<br><b>Step 2: Relate Power to Diopters</b><br>A converging lens has a positive power. Therefore, an excessively strong converging eye lens translates to excessive positive diopters, causing images to form in front of the retina."
+        },
+        {
+          id: 42, topic: "Total Internal Reflection",
+          q: "A ray of light may suffer total internal reflection when it goes from",
+          options: ["Air to water", "Water to glass", "Air to glass", "Oil to air"],
+          correct: 3, 
+          sol: "<b>Step 1: Conditions for TIR</b><br>Total Internal Reflection can only occur when light travels from an optically denser medium to an optically rarer medium.<br><b>Step 2: Evaluate the Options</b><br>Air to water, water to glass, and air to glass are all rarer-to-denser transitions. Oil has a higher refractive index than air, making 'Oil to air' the only denser-to-rarer scenario."
+        },
+        {
+          id: 43, topic: "Total Internal Reflection",
+          q: "Diamond shines due to",
+          options: ["Reflection", "Refraction", "Total internal reflection", "Polarisation"],
+          correct: 2, 
+          sol: "<b>Step 1: Optical Properties of Diamond</b><br>A diamond has a remarkably high refractive index, which results in a very small critical angle.<br><b>Step 2: Identify the Phenomenon</b><br>Because of this small critical angle and specific cut, light entering the diamond repeatedly suffers total internal reflection at its inner facets before emerging, causing the intense shining effect."
+        },
+        {
+          id: 44, topic: "Total Internal Reflection",
+          q: "For an angle of incidence of \\( 45^{\\circ} \\) at the top surface of a glass slab as shown in figure, what is the maximum refractive index of glass for total internal reflection? For water \\( \\mu=\\frac{4}{3} \\)",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhyQnHQgLqyMtEp_COL2sHfebqhn0p7XjG84PuLG-1rsLBlDt0CnOnz6QeXiwd7ckVKhmAPOtBcHLb4VK_ox7b6LLjhG5_0cnNG0lZbJVCTLgKqdF7IIp7nJtUL57lPuDcU_7w9NbWi4whdjRpd88rvwBpgGgVxLCGDcD1HZhOAbUJ4fb7H5u9MOH0Awdit",
+          options: ["\\( \\frac{4}{3\\sqrt{2}} \\)", "\\( \\frac{4\\sqrt{2}}{3} \\)", "\\( \\frac{3}{4\\sqrt{2}} \\)", "\\( \\frac{3\\sqrt{2}}{4} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Establish the TIR Condition</b><br>For a ray inside the glass striking the glass-water interface to undergo Total Internal Reflection, the angle of incidence must be greater than or equal to the critical angle.<br><b>Step 2: Setup the Equation</b><br>Given angle of incidence \\( i = 45^{\\circ} \\).<br>\\( \\sin(45^{\\circ}) \\geq \\sin(i_c) = \\frac{\\mu_{water}}{\\mu_{glass}} \\).<br><b>Step 3: Solve for Refractive Index</b><br>\\( \\frac{1}{\\sqrt{2}} \\geq \\frac{4/3}{\\mu_{glass}} \\).<br>\\( \\mu_{glass} \\geq \\frac{4\\sqrt{2}}{3} \\). The limit value represents the refractive index bound."
+        },
+        {
+          id: 45, topic: "Total Internal Reflection",
+          q: "If the refractive index of water is \\( \\frac{4}{3} \\) and that of the slab in previous problem is \\( \\frac{5}{3} \\), then find the sine of critical angle of incidence \\( (i_c) \\) for the interface of the slab and water",
+          options: ["\\( \\sin i_c = \\frac{5}{4} \\)", "\\( \\sin i_c = \\frac{4}{5} \\)", "\\( \\sin i_c = \\frac{1}{5} \\)", "\\( \\sin i_c = \\frac{1}{4} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for Critical Angle</b><br>The sine of the critical angle for an interface between two media is the ratio of the refractive index of the rarer medium to the denser medium: \\( \\sin(i_c) = \\frac{\\mu_{rarer}}{\\mu_{denser}} \\).<br><b>Step 2: Calculation</b><br>Here, water is the rarer medium (\\( 4/3 \\)) and the slab is the denser medium (\\( 5/3 \\)).<br>\\( \\sin(i_c) = \\frac{4/3}{5/3} = \\frac{4}{5} \\)."
+        },
+        {
+          id: 46, topic: "Total Internal Reflection",
+          q: "A ray of light may suffer total internal reflection when it goes from",
+          options: ["Air to water", "Water to glass", "Air to glass", "Glass to water"],
+          correct: 3, 
+          sol: "<b>Step 1: Define TIR Rules</b><br>Total internal reflection occurs exclusively when a light ray attempts to move from an optically denser material into an optically rarer material.<br><b>Step 2: Evaluate the Options</b><br>Glass has a higher refractive index (approx 1.5) than water (1.33). Thus, 'Glass to water' is the only scenario where light travels from a denser to a rarer medium."
+        },
+        {
+          id: 47, topic: "Total Internal Reflection",
+          q: "A fish looking up through the water sees that the outside world is contained in a circular horizon. If the refractive index of water is \\( \\frac{4}{3} \\) and the fish is \\( 12 \\, \\text{cm} \\) below the surface of water, the radius of the circle (in centimeter) is",
+          options: ["\\( 36\\sqrt{5} \\)", "\\( \\frac{36}{\\sqrt{5}} \\)", "\\( 36\\sqrt{7} \\)", "\\( \\frac{36}{\\sqrt{7}} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Formula for Radius of Vision</b><br>Due to total internal reflection, the radius of the circular field of vision for an underwater observer is given by \\( r = \\frac{h}{\\sqrt{\\mu^2 - 1}} \\).<br><b>Step 2: Substitute Values</b><br>Given depth \\( h = 12 \\, \\text{cm} \\) and \\( \\mu = 4/3 \\).<br>\\( r = \\frac{12}{\\sqrt{(4/3)^2 - 1}} = \\frac{12}{\\sqrt{16/9 - 1}} \\).<br><b>Step 3: Calculation</b><br>\\( r = \\frac{12}{\\sqrt{7/9}} = \\frac{12 \\times 3}{\\sqrt{7}} = \\frac{36}{\\sqrt{7}} \\, \\text{cm} \\)."
+        },
+        {
+          id: 48, topic: "Total Internal Reflection",
+          q: "Optical fibres are based on the phenomenon of",
+          options: ["Total internal reflection", "Refraction", "Total dispersion of light", "Scattering of light"],
+          correct: 0, 
+          sol: "<b>Step 1: Structure of Optical Fibres</b><br>An optical fibre is constructed with a high-refractive-index core surrounded by a lower-refractive-index cladding.<br><b>Step 2: Working Principle</b><br>When light signals enter the core, they repeatedly reflect off the core-cladding boundary without escaping, perfectly confined by the phenomenon of total internal reflection."
+        },
+        {
+          id: 49, topic: "Total Internal Reflection",
+          q: "The cause of mirage observed in a desert is",
+          options: ["Refraction", "Reflection", "Scattering", "Total internal reflection"],
+          correct: 3, 
+          sol: "<b>Step 1: Understand the Phenomenon</b><br>A mirage is an optical illusion that creates the appearance of water on hot ground.<br><b>Step 2: Identify the Cause</b><br>It is caused by light rays from the sky bending upwards as they pass through layers of increasingly hot (and therefore optically rarer) air near the surface, eventually undergoing total internal reflection."
+        },
+        {
+          id: 50, topic: "Total Internal Reflection",
+          q: "If critical angle of a material w.r.t. air is \\( 30^{\\circ} \\), then refractive index of the material will be",
+          options: ["1.0", "1.5", "2.0", "2.5"],
+          correct: 2, 
+          sol: "<b>Step 1: Formula for Refractive Index</b><br>The absolute refractive index \\( \\mu \\) of a material is related to its critical angle \\( i_c \\) by the equation: \\( \\mu = \\frac{1}{\\sin(i_c)} \\).<br><b>Step 2: Calculation</b><br>Given the critical angle \\( i_c = 30^{\\circ} \\).<br>\\( \\sin(30^{\\circ}) = 0.5 \\).<br>Therefore, \\( \\mu = \\frac{1}{0.5} = 2.0 \\)."
+        },
+        {
+          id: 51, topic: "Refraction and Dispersion through a Prism",
+          q: "A ray is incident at a small angle \\( i \\) on one surface of a prism of small angle \\( A \\) and emerges normally from the opposite surface of the prism as shown in the figure. (For small value of \\( \\theta \\), \\( \\sin\\theta = \\theta \\)). If the refractive index of the material of the prism is \\( n \\), then angle of incidence \\( i \\) is equal to",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEg8bKbd6VePQKtyhrSoCcL6QtHerODQMboDEwQ2j0ynwngB0dnZUIPpOLQUq7ZSNivmvDuTBOHGms3CJxrV6EnZjqoA8VAOVjL1osuFiGrOc3AUGuw7bbOU3LqjnYOMCk36UnUVK8CG5M9Fy1pPeiUp0XC2qw3WyH2fKSpq_sinelMcgZ3IDzSHJoTgFbma",
+          options: ["\\( \\frac{A}{2n} \\)", "\\( \\frac{A}{n} \\)", "\\( nA \\)", "\\( \\frac{nA}{2} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Normal Emergence Condition</b><br>Since the ray emerges normally from the second surface, the angle of emergence \\( e = 0 \\) and the second angle of refraction \\( r_2 = 0 \\).<br><b>Step 2: Prism Angle Relation</b><br>We know that \\( r_1 + r_2 = A \\). Since \\( r_2 = 0 \\), it follows that \\( r_1 = A \\).<br><b>Step 3: Apply Snell's Law</b><br>At the first surface, \\( \\sin(i) = n \\cdot \\sin(r_1) \\). For small angles, \\( \\sin(\\theta) \\approx \\theta \\).<br>Therefore, \\( i = n \\cdot r_1 = nA \\)."
+        },
+        {
+          id: 52, topic: "Total Internal Reflection",
+          q: "Which of the following are the essential conditions of TIR?<br>A. Ray of light should travel from rarer medium to denser medium<br>B. Ray of light should travel from denser medium to rarer medium<br>C. Angle of incidence should be greater than the critical angle<br>D. Critical angle must be greater than the angle of incidence",
+          options: ["A, B, C, D", "B, D", "B, C", "A, D"],
+          correct: 2, 
+          sol: "<b>Step 1: Medium Requirement</b><br>For Total Internal Reflection (TIR) to occur, the ray must attempt to speed up by bending away from the normal, which only happens when traveling from a denser medium to a rarer medium (Condition B).<br><b>Step 2: Angle Requirement</b><br>The angle of incidence at the boundary must exceed the critical angle so that the ray reflects entirely back into the denser medium (Condition C). Therefore, B and C are the correct essential conditions."
+        },
+        {
+          id: 53, topic: "Total Internal Reflection",
+          q: "Due to which phenomenon of light, an empty test tube immersed in water appears silvery white when viewed from the top?",
+          options: ["Reflection", "Refraction", "Total internal reflection", "Dispersion"],
+          correct: 2, 
+          sol: "<b>Step 1: Setup the Mediums</b><br>An empty test tube contains air. When immersed in water, light rays traveling through the water (denser medium) hit the glass-air boundary of the test tube (air is the rarer medium).<br><b>Step 2: The Silvery Effect</b><br>If the rays strike the boundary at an angle greater than the critical angle, they undergo Total Internal Reflection. The reflected light reaches the observer's eyes, making the surface of the test tube shine like a silver mirror."
+        },
+        {
+          id: 54, topic: "Scattering of Light",
+          q: "The primary colour among the following is",
+          options: ["Green", "Cyan", "Magenta", "Yellow"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify Primary Colours</b><br>In the additive colour model (light), the three fundamental primary colours that can be mixed to create all other colours are Red, Green, and Blue (RGB).<br><b>Step 2: Evaluate Options</b><br>Among the given options, Cyan, Magenta, and Yellow are secondary colours (formed by mixing two primary colours). Green is the only primary colour listed."
+        },
+        {
+          id: 55, topic: "Scattering of Light",
+          q: "If yellow light falls on a red object. It appears",
+          options: ["Yellow", "Green", "Red", "Black"],
+          correct: 3, 
+          sol: "<b>Step 1: Understand Object Colour</b><br>An object's colour is determined by the wavelengths of light it reflects. A red object reflects red light and strongly absorbs all other wavelengths (like green and blue).<br><b>Step 2: Interaction with Light</b><br>In physics problems, \"yellow light\" typically refers to monochromatic sodium light. Since monochromatic yellow light contains no red wavelengths, the red object absorbs it entirely and reflects nothing. Thus, it appears Black."
+        },
+        {
+          id: 56, topic: "Scattering of Light",
+          q: "The secondary colour among the following is",
+          options: ["Cyan", "Blue", "Red", "Green"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify Colour Types</b><br>Red, Green, and Blue are the three primary additive colours of light.<br><b>Step 2: Find the Secondary Colour</b><br>A secondary colour is formed by mixing two primary colours. Cyan is formed by mixing Green and Blue light, making it the only secondary colour in the given list."
+        },
+        {
+          id: 57, topic: "Refraction and Dispersion through a Prism",
+          q: "A ray of light is inclined to one face of the prism at an angle of \\( 50^{\\circ} \\). If the angle of prism is \\( 70^{\\circ} \\) and the ray is deviated through an angle of \\( 46^{\\circ} \\), then the angle which the emergent ray makes with the second face of the prism is",
+          options: ["\\( 28^{\\circ} \\)", "\\( 74^{\\circ} \\)", "\\( 14^{\\circ} \\)", "\\( 46^{\\circ} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Find Angle of Incidence</b><br>The ray is inclined to the face at \\( 50^{\\circ} \\). Therefore, the angle of incidence (with the normal) is \\( i = 90^{\\circ} - 50^{\\circ} = 40^{\\circ} \\).<br><b>Step 2: Use Deviation Formula</b><br>The deviation equation is \\( \\delta = i + e - A \\).<br>Substitute the values: \\( 46^{\\circ} = 40^{\\circ} + e - 70^{\\circ} \\).<br>Solving for emergence angle: \\( e = 46^{\\circ} + 30^{\\circ} = 76^{\\circ} \\).<br><b>Step 3: Angle with Second Face</b><br>The angle the emergent ray makes with the second physical face is \\( 90^{\\circ} - e = 90^{\\circ} - 76^{\\circ} = 14^{\\circ} \\)."
+        },
+        {
+          id: 58, topic: "Refraction and Dispersion through a Prism",
+          q: "A ray of light incident on an equilateral glass prism shows minimum deviation of \\( 30^{\\circ} \\). The speed of light in the glass prism is",
+          options: ["\\( 2.12 \\times 10^8 \\, \\text{m/s} \\)", "\\( 1.5 \\times 10^8 \\, \\text{m/s} \\)", "\\( 1.414 \\times 10^8 \\, \\text{m/s} \\)", "\\( 1.73 \\times 10^8 \\, \\text{m/s} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Find Refractive Index</b><br>For an equilateral prism, \\( A = 60^{\\circ} \\). Given minimum deviation \\( \\delta_m = 30^{\\circ} \\).<br>Refractive index \\( \\mu = \\frac{\\sin((A+\\delta_m)/2)}{\\sin(A/2)} = \\frac{\\sin(45^{\\circ})}{\\sin(30^{\\circ})} = \\frac{1/\\sqrt{2}}{1/2} = \\sqrt{2} \\approx 1.414 \\).<br><b>Step 2: Calculate Speed of Light</b><br>Speed of light in glass \\( v = \\frac{c}{\\mu} \\).<br>\\( v = \\frac{3 \\times 10^8}{1.414} \\approx 2.12 \\times 10^8 \\, \\text{m/s} \\)."
+        },
+        {
+          id: 59, topic: "Total Internal Reflection",
+          q: "The critical angle for a glass air surface, if a ray of light which is incident in air on the surface is deviated through \\( 15^{\\circ} \\), when its angle of incidence is \\( 45^{\\circ} \\) is",
+          options: ["\\( 45^{\\circ} \\)", "\\( 30^{\\circ} \\)", "\\( 60^{\\circ} \\)", "\\( 37^{\\circ} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Find Angle of Refraction</b><br>Incident angle \\( i = 45^{\\circ} \\). The ray bends towards the normal, so deviation \\( \\delta = i - r \\).<br>\\( 15^{\\circ} = 45^{\\circ} - r \\implies r = 30^{\\circ} \\).<br><b>Step 2: Calculate Refractive Index</b><br>By Snell's law: \\( \\mu = \\frac{\\sin(i)}{\\sin(r)} = \\frac{\\sin(45^{\\circ})}{\\sin(30^{\\circ})} = \\frac{1/\\sqrt{2}}{1/2} = \\sqrt{2} \\).<br><b>Step 3: Calculate Critical Angle</b><br>\\( \\sin(i_c) = \\frac{1}{\\mu} = \\frac{1}{\\sqrt{2}} \\).<br>Therefore, the critical angle \\( i_c = 45^{\\circ} \\)."
+        },
+        {
+          id: 60, topic: "Total Internal Reflection",
+          q: "A ray of light incident on horizontal surface of a glass slab at \\( 60^{\\circ} \\) just grazes the adjacent vertical surface after refraction. The critical angle for glass-air interface is",
+          options: ["\\( \\sin^{-1}\\left(\\frac{2}{\\sqrt{3}}\\right) \\)", "\\( \\tan^{-1}\\left(\\frac{2}{\\sqrt{3}}\\right) \\)", "\\( \\sin^{-1}\\left(\\frac{3}{4}\\right) \\)", "\\( \\sin^{-1}\\left(\\frac{2}{3}\\right) \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Refraction at Horizontal Surface</b><br>By Snell's law: \\( \\sin(60^{\\circ}) = \\mu \\cdot \\sin(r_1) \\implies \\frac{\\sqrt{3}}{2} = \\mu \\cdot \\sin(r_1) \\).<br><b>Step 2: Grazing at Vertical Surface</b><br>For the ray to just graze the vertical surface, it must strike it at exactly the critical angle \\( i_c \\). Since the horizontal and vertical surfaces are perpendicular, \\( r_1 + i_c = 90^{\\circ} \\), which means \\( \\sin(r_1) = \\cos(i_c) \\).<br><b>Step 3: Solve for Critical Angle</b><br>Substitute \\( \\sin(r_1) \\): \\( \\frac{\\sqrt{3}}{2} = \\mu \\cdot \\cos(i_c) \\).<br>Since \\( \\mu = \\frac{1}{\\sin(i_c)} \\), we get \\( \\frac{\\sqrt{3}}{2} = \\frac{\\cos(i_c)}{\\sin(i_c)} = \\cot(i_c) \\).<br>Therefore, \\( \\tan(i_c) = \\frac{2}{\\sqrt{3}} \\implies i_c = \\tan^{-1}\\left(\\frac{2}{\\sqrt{3}}\\right) \\)."
+        },
+        {
+          id: 61, topic: "Refraction and Dispersion through a Prism",
+          q: "In refraction of light through a prism, the light ray:",
+          options: ["Suffers refraction only at one face of the prism", "Emerges out from the prism in a direction parallel to the incident ray", "Bends at both the surface of prism towards its base", "Bends at both the surfaces of prism opposite to its base"],
+          correct: 2, 
+          sol: "<b>Step 1: First Refraction</b><br>When a light ray enters the glass prism from air, it travels from a rarer to a denser medium, bending towards the normal. Because of the prism's triangular geometry, this effectively bends the ray towards the thicker part (the base) of the prism.<br><b>Step 2: Second Refraction</b><br>When the ray exits the prism back into the air, it travels from a denser to a rarer medium, bending away from the normal. Again, due to the slant of the second face, this bending is further directed towards the base of the prism. Thus, it bends towards the base at both surfaces."
+        },
+        {
+          id: 62, topic: "Refraction and Dispersion through a Prism",
+          q: "A ray of light suffers refraction through an equilateral prism. The deviation produced by the prism don't depend on",
+          options: ["Angle of incidence", "Colour of light", "Material of prism", "Size of prism"],
+          correct: 3, 
+          sol: "<b>Step 1: Identify Factors Affecting Deviation</b><br>The angle of deviation \\( \\delta \\) in a prism depends on the angle of incidence \\( i \\), the angle of the prism \\( A \\), and the refractive index of the material \\( \\mu \\). The refractive index itself depends on the colour (wavelength) of the incident light.<br><b>Step 2: Eliminate the Irrelevant Factor</b><br>The physical size or dimensions of the prism have absolutely no effect on the angles of refraction or the resulting deviation, as long as the refracting angle \\( A \\) remains constant."
+        },
+        {
+          id: 63, topic: "Refraction and Dispersion through a Prism",
+          q: "A ray light incident at an angle of incidence \\( i \\) passes an equilateral glass prism such that the refracted ray inside the prism is parallel to its base and emerges at an angle of emergence 'e'. Then",
+          options: ["\\( \\angle i = \\angle e \\)", "\\( \\angle e = \\frac{\\angle i}{2} \\)", "\\( \\angle e = 2\\angle i - A \\)", "\\( \\angle e = 2\\angle i \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Condition for Minimum Deviation</b><br>In a prism, when the refracted ray travelling inside the glass is perfectly parallel to the base of the prism, the prism is in the position of minimum deviation.<br><b>Step 2: Property of Minimum Deviation</b><br>A key mathematical property of the minimum deviation state is that the angle of incidence is exactly equal to the angle of emergence. Therefore, \\( \\angle i = \\angle e \\)."
+        },
+        {
+          id: 64, topic: "Refraction and Dispersion through a Prism",
+          q: "A ray of light incident normally on one face of an equilateral glass prism. The angle of refraction from the first face of the prism is",
+          options: ["\\( 90^{\\circ} \\)", "\\( 60^{\\circ} \\)", "\\( 45^{\\circ} \\)", "\\( 0^{\\circ} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Define Normal Incidence</b><br>When a light ray is incident \"normally\" on a surface, it means it strikes the surface perpendicularly, traveling directly along the normal line.<br><b>Step 2: Apply Snell's Law</b><br>Because it lies exactly on the normal, the angle of incidence \\( i = 0^{\\circ} \\). According to Snell's law (\\( \\sin(i) = \\mu \\sin(r) \\)), if \\( \\sin(0) = 0 \\), then \\( \\sin(r) \\) must also be 0. Thus, the ray passes undeviated through the first interface, making the angle of refraction \\( r_1 = 0^{\\circ} \\)."
+        },
+        {
+          id: 65, topic: "Total Internal Reflection",
+          q: "A scuba diver is wearing a head lamp and looking up at the surface of water. If the minimum angle to the vertical resulting in total internal reflection is \\( 45^{\\circ} \\) then the refractive index of water is",
+          options: ["1.414", "1.23", "1.73", "1.82"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify the Critical Angle</b><br>The \"minimum angle to the vertical resulting in total internal reflection\" is the definition of the critical angle, \\( i_c \\). So, \\( i_c = 45^{\\circ} \\).<br><b>Step 2: Calculate Refractive Index</b><br>The relationship between the refractive index \\( \\mu \\) and the critical angle is \\( \\mu = \\frac{1}{\\sin(i_c)} \\).<br>\\( \\mu = \\frac{1}{\\sin(45^{\\circ})} = \\frac{1}{1/\\sqrt{2}} = \\sqrt{2} \\).<br>Since \\( \\sqrt{2} \\approx 1.414 \\), the refractive index of water in this scenario is 1.414."
+        },
+        {
+          id: 66, topic: "Total Internal Reflection",
+          q: "Light is confined within the core of a simple optical fiber by",
+          options: ["Refraction", "Total internal reflection at the outer edge of the cladding", "Total internal reflection at the core cladding boundary", "Reflection from the fibre's plastic coating"],
+          correct: 2, 
+          sol: "<b>Step 1: Optical Fiber Construction</b><br>An optical fiber consists of a central glass or plastic core with a high refractive index, surrounded by a cladding layer with a slightly lower refractive index.<br><b>Step 2: Confinement Mechanism</b><br>As light signals travel through the denser core and hit the boundary of the rarer cladding at an angle greater than the critical angle, they undergo total internal reflection. This perfectly reflects the light back into the core at the core-cladding boundary, trapping it inside the fiber."
+        }
+      ]
+    },
     // ==========================================
     // CHAPTER: VECTORS
     // ==========================================
@@ -10983,6 +11456,7 @@
       ]
     }
   };
+
 
 
 
