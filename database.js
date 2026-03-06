@@ -999,6 +999,591 @@
         }
       ]
     },
+    "Light: Reflection and Refraction": { 
+      classTarget: "Class 10", 
+      totalQs: 80, 
+      topics: [
+        "Reflection of Light", 
+        "Spherical Mirrors", 
+        "Refraction of Light",
+        "Spherical Lenses"
+      ],
+      questions: [
+        {
+          id: 1, topic: "Reflection of Light",
+          q: "The laws of reflection are applicable for",
+          options: ["Regular reflection", "Diffused reflection", "Both (1) & (2)", "Glass slab"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand the Laws of Reflection</b><br>The laws of reflection state that the angle of incidence equals the angle of reflection, and the incident ray, reflected ray, and normal all lie in the same plane.<br><b>Step 2: Evaluate the Surfaces</b><br>These fundamental laws of physics apply universally to all reflecting surfaces, regardless of whether the surface is perfectly smooth (causing regular reflection) or rough and irregular (causing diffused reflection)."
+        },
+        {
+          id: 2, topic: "Reflection of Light",
+          q: "Consider the figure shown. The reflected ray is perpendicular to the incident ray. Angle of incidence for the ray is",
+          imgUrl: "",
+          options: ["\\( 30^{\\circ} \\)", "\\( 45^{\\circ} \\)", "\\( 60^{\\circ} \\)", "\\( 75^{\\circ} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze the Given Information</b><br>The problem states that the total angle between the incident ray and the reflected ray is exactly \\( 90^{\\circ} \\) (they are perpendicular).<br><b>Step 2: Apply the Law of Reflection</b><br>According to the law of reflection, the angle of incidence (\\( i \\)) is always equal to the angle of reflection (\\( r \\)). Therefore, \\( i + r = 90^{\\circ} \\).<br><b>Step 3: Calculate</b><br>Substituting \\( r \\) with \\( i \\), we get \\( 2i = 90^{\\circ} \\), which simplifies to \\( i = 45^{\\circ} \\)."
+        },
+        {
+          id: 3, topic: "Reflection of Light",
+          q: "Two plane mirrors are placed parallel to each other as shown in the figure. There is an object O placed between the mirrors, at 10 cm from mirror \\( M_2 \\). What are the distances of first two images formed by \\( M_2 \\) from \\( M_1 \\)?",
+          imgUrl: "",
+          options: ["5 cm, 30 cm", "10 cm, 10 cm", "10 cm, 30 cm", "10 cm, 20 cm"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify Mirror Properties</b><br>In a plane mirror, the image distance behind the mirror is always equal to the object distance in front of it.<br><b>Step 2: First Image by \\( M_2 \\)</b><br>The object is 10 cm in front of \\( M_2 \\). Thus, \\( M_2 \\) forms its first image 10 cm behind it.<br><b>Step 3: Distances Relative to the other mirror</b><br>Since the total distance between mirrors is 20 cm, the distance of this first image from \\( M_1 \\) is \\( 20 \\text{ cm} + 10 \\text{ cm} = 30 \\text{ cm} \\)."
+        },
+        {
+          id: 4, topic: "Spherical Mirrors",
+          q: "An object is placed at a distance 2f from the pole of a convex mirror of focal length f. The magnification is",
+          options: ["\\( \\frac{1}{3} \\)", "\\( \\frac{2}{3} \\)", "\\( \\frac{3}{4} \\)", "1"],
+          correct: 0, 
+          sol: "<b>Step 1: Note the Sign Conventions</b><br>For a convex mirror, the focal length is positive (\\( +f \\)). The object distance is always negative (\\( u = -2f \\)).<br><b>Step 2: Apply the Mirror Formula</b><br>\\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\implies \\frac{1}{v} - \\frac{1}{2f} = \\frac{1}{f} \\). \\( \\frac{1}{v} = \\frac{1}{f} + \\frac{1}{2f} = \\frac{3}{2f} \\implies v = \\frac{2f}{3} \\).<br><b>Step 3: Calculate Magnification</b><br>Magnification \\( m = -\\frac{v}{u} = -\\frac{2f/3}{-2f} = \\frac{1}{3} \\)."
+        },
+        {
+          id: 5, topic: "Spherical Mirrors",
+          q: "A concave mirror of focal length 20 cm produces an image twice the height of the object. If the image is real, then the distance of the object from the mirror is",
+          options: ["20 cm", "60 cm", "10 cm", "30 cm"],
+          correct: 3, 
+          sol: "<b>Step 1: Identify the Given Data</b><br>For a concave mirror, focal length \\( f = -20 \\text{ cm} \\). A real image is inverted, so the magnification \\( m = -2 \\).<br><b>Step 2: Use the Magnification Formula</b><br>We can use the relation \\( m = \\frac{f}{f - u} \\). Substitute the values: \\( -2 = \\frac{-20}{-20 - u} \\).<br><b>Step 3: Solve for u</b><br>\\( -2(-20 - u) = -20 \\implies 40 + 2u = -20 \\implies 2u = -60 \\implies u = -30 \\text{ cm} \\). The distance of the object is 30 cm."
+        },
+        {
+          id: 6, topic: "Spherical Mirrors",
+          q: "If the image of an object formed by a concave mirror is inverted and smaller than the object, then",
+          options: ["\\( u < 2f \\)", "\\( u > 2f \\)", "\\( u \\ge 2f \\)", "\\( u = 2f \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Concave Mirror Cases</b><br>A concave mirror forms a real, inverted, and diminished (smaller) image only when the object is placed beyond the center of curvature (C).<br><b>Step 2: Relate to Focal Length</b><br>The center of curvature is located at a distance of \\( 2f \\) from the pole. Therefore, for the object to be beyond C, its distance \\( u \\) must be strictly greater than \\( 2f \\)."
+        },
+        {
+          id: 7, topic: "Spherical Mirrors",
+          q: "A concave mirror of focal length 18 cm forms an erect image, three times the size of the object. How far is the object from the mirror?",
+          options: ["36 cm", "18 cm", "15 cm", "12 cm"],
+          correct: 3, 
+          sol: "<b>Step 1: Identify the Given Data</b><br>Focal length of concave mirror \\( f = -18 \\text{ cm} \\). Since the image is erect (and virtual), magnification is positive: \\( m = +3 \\).<br><b>Step 2: Use the Magnification Formula</b><br>Using \\( m = \\frac{f}{f - u} \\), we substitute the values: \\( 3 = \\frac{-18}{-18 - u} \\).<br><b>Step 3: Solve for u</b><br>\\( 3(-18 - u) = -18 \\implies -54 - 3u = -18 \\implies -3u = 36 \\implies u = -12 \\text{ cm} \\). The object is 12 cm from the mirror."
+        },
+        {
+          id: 8, topic: "Spherical Mirrors",
+          q: "A point object is placed at a distance of 30 cm from a convex mirror of focal length 30 cm. The image will be formed at",
+          options: ["Pole", "Infinity", "15 cm behind the mirror", "15 cm in front of the mirror"],
+          correct: 2, 
+          sol: "<b>Step 1: Note the Sign Conventions</b><br>Object distance \\( u = -30 \\text{ cm} \\). Focal length of a convex mirror is positive, so \\( f = +30 \\text{ cm} \\).<br><b>Step 2: Apply the Mirror Formula</b><br>\\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\implies \\frac{1}{v} - \\frac{1}{30} = \\frac{1}{30} \\).<br><b>Step 3: Solve for v</b><br>\\( \\frac{1}{v} = \\frac{1}{30} + \\frac{1}{30} = \\frac{2}{30} = \\frac{1}{15} \\). Therefore, \\( v = +15 \\text{ cm} \\). The positive sign indicates the image is formed 15 cm behind the mirror."
+        },
+        {
+          id: 9, topic: "Refraction of Light",
+          q: "On entering in an optically rarer medium from an optically denser medium",
+          options: ["Speed of light increases", "Speed of light decreases", "Frequency of light increases", "Wavelength of light decreases"],
+          correct: 0, 
+          sol: "<b>Step 1: Define Optical Density</b><br>An optically denser medium has a higher refractive index, which slows down the speed of light. An optically rarer medium has a lower refractive index.<br><b>Step 2: Conclusion</b><br>When a light ray transitions from a denser medium (where it is traveling slower) into a rarer medium (where there is less optical resistance), its speed naturally increases. Frequency remains constant across mediums."
+        },
+        {
+          id: 10, topic: "Refraction of Light",
+          q: "When light travels obliquely from glass to air",
+          imgUrl: "",
+          options: ["It proceeds undeviated", "It bends towards the normal at the point of incidence", "It bends away from the normal at the point of incidence", "It is reflected back for all angle of incidence"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify the Mediums</b><br>Glass is an optically denser medium, while air is an optically rarer medium.<br><b>Step 2: Apply the Rule of Refraction</b><br>According to Snell's law and the principles of refraction, when a ray of light travels obliquely from a denser medium into a rarer medium, it speeds up and bends away from the normal line at the point of incidence."
+        },
+        {
+          id: 11, topic: "Refraction of Light",
+          q: "A ray of light of red colour travelling in air enters into water \\( [n=\\frac{4}{3}] \\) its colour will become/remain",
+          options: ["Red", "Blue", "Yellow", "Green"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand the Nature of Colour</b><br>The colour of light is fundamentally determined by its frequency, not its wavelength or speed.<br><b>Step 2: Apply to Refraction</b><br>When light passes from one medium to another (like from air to water), its speed and wavelength change, but its frequency remains absolutely constant. Therefore, the red light will remain Red."
+        },
+        {
+          id: 12, topic: "Refraction of Light",
+          q: "Refractive indices of water and glass are \\( \\frac{4}{3} \\) and \\( \\frac{3}{2} \\) respectively. A light ray travelling in water is incident on water-glass interface at \\( 30^{\\circ} \\). The sine of angle of refraction is",
+          options: ["\\( \\frac{4}{9} \\)", "\\( \\frac{8}{9} \\)", "\\( \\frac{9}{16} \\)", "\\( \\frac{2}{3} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Apply Snell's Law</b><br>Snell's Law states that \\( n_1 \\sin(i) = n_2 \\sin(r) \\).<br><b>Step 2: Substitute the Values</b><br>Here, medium 1 is water (\\( n_w = \\frac{4}{3} \\)) and medium 2 is glass (\\( n_g = \\frac{3}{2} \\)). The angle of incidence \\( i = 30^{\\circ} \\). \\( \\frac{4}{3} \\sin(30^{\\circ}) = \\frac{3}{2} \\sin(r) \\).<br><b>Step 3: Calculate</b><br>\\( \\frac{4}{3} \\times \\frac{1}{2} = \\frac{3}{2} \\sin(r) \\). \\( \\frac{2}{3} = \\frac{3}{2} \\sin(r) \\implies \\sin(r) = \\frac{4}{9} \\)."
+        },
+        {
+          id: 13, topic: "Refraction of Light",
+          q: "If the refractive indices of alcohol and benzene with respect to air are 1.36 and 1.50 respectively, then the refractive index of benzene with respect to alcohol is",
+          options: ["1.10", "1.20", "0.90", "1.00"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Relative Refractive Index</b><br>The refractive index of medium 2 with respect to medium 1 is given by \\( n_{21} = \\frac{n_2}{n_1} \\).<br><b>Step 2: Calculate</b><br>We need the refractive index of benzene (medium 2) with respect to alcohol (medium 1). \\( n_{ba} = \\frac{n_b}{n_a} = \\frac{1.50}{1.36} \\). \\( n_{ba} \\approx 1.10 \\)."
+        },
+        {
+          id: 14, topic: "Refraction of Light",
+          q: "When a ray of light is incident at angle \\( 60^{\\circ} \\) to a medium of refractive index n, it is observed that the angle of refraction is half the angle of incidence. The value of n is",
+          options: ["\\( \\frac{1}{\\sqrt{3}} \\)", "\\( \\frac{\\sqrt{3}}{2} \\)", "\\( \\sqrt{3} \\)", "\\( \\frac{2}{\\sqrt{3}} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify Given Data</b><br>Angle of incidence \\( i = 60^{\\circ} \\). The angle of refraction is half of this, so \\( r = 30^{\\circ} \\).<br><b>Step 2: Apply Snell's Law</b><br>Assuming the ray comes from air (\\( n_1 = 1 \\)), the refractive index \\( n = \\frac{\\sin(i)}{\\sin(r)} \\).<br><b>Step 3: Calculate</b><br>\\( n = \\frac{\\sin(60^{\\circ})}{\\sin(30^{\\circ})} = \\frac{\\sqrt{3}/2}{1/2} = \\sqrt{3} \\)."
+        },
+        {
+          id: 15, topic: "Refraction of Light",
+          q: "Two thin lenses of focal lengths 10 cm and 20 cm are placed in contact. The effective power of combination is",
+          options: ["\\( \\frac{1}{15} \\text{ D} \\)", "15 D", "\\( \\frac{1}{30} \\text{ D} \\)", "30 D"],
+          correct: 1, 
+          sol: "<b>Step 1: Calculate Individual Powers</b><br>Power \\( P = \\frac{100}{f \\text{ (in cm)}} \\). Both lenses are convex (positive focal lengths). \\( P_1 = \\frac{100}{10} = +10 \\text{ D} \\). \\( P_2 = \\frac{100}{20} = +5 \\text{ D} \\).<br><b>Step 2: Calculate Total Power</b><br>For thin lenses in contact, \\( P_{total} = P_1 + P_2 \\). \\( P_{total} = 10 + 5 = 15 \\text{ D} \\)."
+        },
+        {
+          id: 16, topic: "Refraction of Light",
+          q: "An object is put at a distance 25 cm from the optical centre of a convex lens. If its real image is formed at a distance 30 cm from the lens then its focal length is about",
+          options: ["10 cm", "14 cm", "12 cm", "20 cm"],
+          correct: 1, 
+          sol: "<b>Step 1: Assign Sign Conventions</b><br>Object distance \\( u = -25 \\text{ cm} \\). Since it's a real image formed by a convex lens, it forms on the opposite side, so \\( v = +30 \\text{ cm} \\).<br><b>Step 2: Apply the Lens Formula</b><br>\\( \\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u} \\). \\( \\frac{1}{f} = \\frac{1}{30} - \\left(\\frac{1}{-25}\\right) = \\frac{1}{30} + \\frac{1}{25} \\).<br><b>Step 3: Solve for f</b><br>\\( \\frac{1}{f} = \\frac{5 + 6}{150} = \\frac{11}{150} \\). \\( f = \\frac{150}{11} \\approx 13.6 \\text{ cm} \\), which is approximately 14 cm."
+        },
+        {
+          id: 17, topic: "Refraction of Light",
+          q: "A convex lens of focal length 10 cm forms a virtual image of an object at 30 cm from the lens. The magnification produced will be",
+          options: ["2", "3", "3.5", "4"],
+          correct: 3, 
+          sol: "<b>Step 1: Assign Sign Conventions</b><br>Focal length of convex lens \\( f = +10 \\text{ cm} \\). A virtual image forms on the same side as the object, so \\( v = -30 \\text{ cm} \\).<br><b>Step 2: Find Object Distance (u)</b><br>\\( \\frac{1}{u} = \\frac{1}{v} - \\frac{1}{f} = \\frac{1}{-30} - \\frac{1}{10} = \\frac{-1 - 3}{30} = \\frac{-4}{30} \\). \\( u = -7.5 \\text{ cm} \\).<br><b>Step 3: Calculate Magnification</b><br>\\( m = \\frac{v}{u} = \\frac{-30}{-7.5} = +4 \\)."
+        },
+        {
+          id: 18, topic: "Refraction of Light",
+          q: "An object is placed at a distance of 10 cm from a convex lens of power 5 D. The position of the image is",
+          options: ["-20 cm", "40 cm", "45 cm", "-10 cm"],
+          correct: 0, 
+          sol: "<b>Step 1: Find Focal Length</b><br>Focal length \\( f = \\frac{100}{P} = \\frac{100}{+5} = +20 \\text{ cm} \\).<br><b>Step 2: Use Lens Formula</b><br>Object distance \\( u = -10 \\text{ cm} \\). \\( \\frac{1}{v} = \\frac{1}{f} + \\frac{1}{u} = \\frac{1}{20} + \\frac{1}{-10} \\).<br><b>Step 3: Solve for v</b><br>\\( \\frac{1}{v} = \\frac{1 - 2}{20} = \\frac{-1}{20} \\). Therefore, \\( v = -20 \\text{ cm} \\)."
+        },
+        {
+          id: 19, topic: "Refraction of Light",
+          q: "The distance between an object and a divergent lens is x-times the focal length of the lens. The magnification m produced by the lens will be",
+          options: ["\\( x \\)", "\\( x+1 \\)", "\\( \\frac{1}{x} \\)", "\\( \\frac{1}{(x+1)} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Set up the Variables</b><br>For a divergent (concave) lens, focal length is negative, let's call it \\( -f \\). Object distance is negative, so \\( u = -xf \\).<br><b>Step 2: Express v in terms of f and x</b><br>\\( \\frac{1}{v} = \\frac{1}{-f} + \\frac{1}{-xf} = \\frac{-x - 1}{xf} = \\frac{-(x+1)}{xf} \\). So, \\( v = \\frac{-xf}{x+1} \\).<br><b>Step 3: Calculate Magnification</b><br>\\( m = \\frac{v}{u} = \\frac{\\frac{-xf}{x+1}}{-xf} = \\frac{1}{x+1} \\)."
+        },
+        {
+          id: 20, topic: "Reflection of Light",
+          q: "A virtual image of same size as object is produced by",
+          options: ["Convex mirror", "Concave mirror", "Plane mirror", "Concave lens"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze the Options</b><br>Convex mirrors and concave lenses always produce virtual images that are diminished (smaller). Concave mirrors produce virtual images that are magnified (larger) when the object is close.<br><b>Step 2: Conclusion</b><br>A plane mirror is the only optical device that consistently forms a virtual image that is exactly the same size as the original object."
+        },
+        {
+          id: 21, topic: "Refraction of Light",
+          q: "The time taken by light to travel through a glass plate of thickness t and having refractive index n is (c is the velocity of light)",
+          options: ["\\( \\frac{t}{nc} \\)", "\\( \\frac{t}{n^2c} \\)", "\\( \\frac{nt}{c} \\)", "\\( \\frac{n^2t}{c} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Relate Refractive Index to Speed</b><br>The speed of light in a medium (\\( v \\)) is given by the ratio of the speed of light in a vacuum (\\( c \\)) to the refractive index (\\( n \\)): \\( v = \\frac{c}{n} \\).<br><b>Step 2: Calculate Time</b><br>Time taken is distance divided by speed. Here, distance is the thickness \\( t \\). \\( \\text{Time} = \\frac{t}{v} = \\frac{t}{(c/n)} = \\frac{nt}{c} \\)."
+        },
+        {
+          id: 22, topic: "Spherical Lenses",
+          q: "In case of a converging lens",
+          options: ["Image formed by it is always real", "The sun's rays can be brought to a focus", "Both faces of the lens must be of same radius", "It must not produce a virtual image"],
+          correct: 1, 
+          sol: "<b>Step 1: Evaluate Lens Properties</b><br>A converging (convex) lens can form both real and virtual images depending on the object's distance, so options 1 and 4 are incorrect. The radii of curvature do not have to be equal (e.g., plano-convex lens).<br><b>Step 2: Practical Application</b><br>Parallel rays of light coming from an infinite distance (like the sun's rays) will successfully converge and be brought to a sharp real focus at the principal focus of the lens."
+        },
+        {
+          id: 23, topic: "Refraction of Light",
+          q: "Light travel fastest in",
+          options: ["Water", "Air", "Glass", "Diamond"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Optical Density</b><br>The speed of light in a medium is inversely proportional to its refractive index (optical density). The lower the refractive index, the faster light travels.<br><b>Step 2: Compare the Mediums</b><br>Among the given options, Air has the lowest refractive index (approximately 1.0003), which is very close to a vacuum. Therefore, light travels fastest in air compared to water, glass, or diamond."
+        },
+        {
+          id: 24, topic: "Spherical Mirrors",
+          q: "A concave mirror forms the image of an object on a screen. If the lower half of the mirror is covered with an opaque card, the effect would be",
+          options: ["The image is less brighter", "The lower half of the image disappears", "The upper half of the image disappears", "The image is more bright"],
+          correct: 0, 
+          sol: "<b>Step 1: Image Formation Principle</b><br>Every small part of a spherical mirror forms a complete image of the object because rays from every point on the object strike all parts of the mirror and converge at the image position.<br><b>Step 2: Effect of Blocking</b><br>If half the mirror is covered, the complete image will still form using the rays reflecting off the uncovered half. However, because fewer light rays are contributing to the image, the overall intensity or brightness of the image will be reduced."
+        },
+        {
+          id: 25, topic: "Spherical Mirrors",
+          q: "The image formed by a concave mirror is",
+          options: ["Always real", "Always virtual", "Virtual for the object placed between pole and focus", "Virtual if the object is at infinity"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Image Cases</b><br>A concave mirror forms real and inverted images for most object positions (e.g., at infinity, beyond C, at C, between C and F).<br><b>Step 2: Identify the Exception</b><br>The only exception occurs when the object is placed very close to the mirror, specifically between the pole (P) and the principal focus (F). In this case, the reflected rays diverge, forming a virtual, erect, and magnified image behind the mirror."
+        },
+        {
+          id: 26, topic: "Reflection of Light",
+          q: "Select the wrong statement",
+          options: ["Light travels rectilinearly", "Light is a wave in nature", "Light has greater speed than sound in air", "Light cannot travel through vacuum"],
+          correct: 3, 
+          sol: "<b>Step 1: Nature of Light</b><br>Light is an electromagnetic wave. Unlike mechanical waves (like sound), electromagnetic waves do not require a material medium for propagation.<br><b>Step 2: Conclusion</b><br>Because light does not need a medium, it travels perfectly well (and at its absolute maximum speed) through a vacuum. Therefore, the statement \"Light cannot travel through vacuum\" is entirely wrong."
+        },
+        {
+          id: 27, topic: "Refraction of Light",
+          q: "Light of two colours, A and B is passed through a plane boundary. If A is bent more than B, then which colour travels more slowly in the second medium which is denser?",
+          options: ["B", "A", "Both travel with same speed", "Nothing can be said"],
+          correct: 1, 
+          sol: "<b>Step 1: Relate Bending to Refractive Index</b><br>The amount of bending (deviation) depends on the refractive index of the medium for that specific wavelength. If colour A bends more towards the normal than B, the medium offers a higher refractive index for colour A.<br><b>Step 2: Relate Refractive Index to Speed</b><br>Since speed \\( v = \\frac{c}{n} \\), a higher refractive index \\( n \\) means a slower speed. Because the medium has a higher refractive index for A, colour A travels more slowly."
+        },
+        {
+          id: 28, topic: "Refraction of Light",
+          q: "Time taken by a ray of light to travel through a glass slab of thickness 4 cm and refractive index 1.5 will be (Take c, speed of light \\( = 3 \\times 10^8 \\text{ m/s} \\))",
+          options: ["\\( 10^{-8} \\text{ s} \\)", "\\( 2 \\times 10^{-10} \\text{ s} \\)", "\\( 2 \\times 10^{-8} \\text{ s} \\)", "\\( 10^{-12} \\text{ s} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify Given Values</b><br>Thickness (distance) \\( t = 4 \\text{ cm} = 0.04 \\text{ m} \\). Refractive index \\( n = 1.5 \\).<br><b>Step 2: Apply the Time Formula</b><br>As derived earlier, \\( \\text{Time } = \\frac{nt}{c} \\).<br><b>Step 3: Calculate</b><br>\\( \\text{Time} = \\frac{1.5 \\times 0.04}{3 \\times 10^8} = \\frac{0.06}{3 \\times 10^8} = 0.02 \\times 10^{-8} \\text{ s} \\). This is equivalent to \\( 2 \\times 10^{-10} \\text{ s} \\)."
+        },
+        {
+          id: 29, topic: "Spherical Mirrors",
+          q: "A person standing in front of a mirror finds his image larger than himself. It implies that the mirror is",
+          options: ["Plane mirror", "Convex mirror", "Concave mirror", "Any one of these"],
+          correct: 2, 
+          sol: "<b>Step 1: Analyze Mirror Types</b><br>A plane mirror always forms an image of the exact same size. A convex mirror always forms an image that is diminished (smaller).<br><b>Step 2: Conclusion</b><br>A concave mirror is the only type of mirror capable of forming an enlarged, magnified virtual image (which happens when the person stands very close to it, inside the focal length)."
+        },
+        {
+          id: 30, topic: "Spherical Mirrors",
+          q: "Convex mirror forms inverted image of a real object",
+          options: ["Under no circumstances", "When the object is very far from the mirror", "When object is at distance equal to focal length", "When object is at distance equal to radius of mirror"],
+          correct: 0, 
+          sol: "<b>Step 1: Properties of a Convex Mirror</b><br>A convex mirror is a diverging mirror. When parallel light rays from a real object hit the mirror, they diverge outward.<br><b>Step 2: Image Formation</b><br>Because the actual rays diverge, they can only meet when traced backward virtually behind the mirror. This means a convex mirror will strictly always form a virtual, erect, and diminished image for any real object, under no circumstances will it form an inverted (real) image."
+        },
+        {
+          id: 31, topic: "Spherical Mirrors",
+          q: "An object is placed at a distance 4.5 m from convex mirror of radius of curvature 1 m. then the",
+          options: ["Image is \\( \\frac{1}{10} \\) in size of object", "Image is virtual and erect", "Image is at 45 cm behind the mirror", "All of these"],
+          correct: 3, 
+          sol: "<b>Step 1: Note the Sign Conventions</b><br>Object distance \\( u = -4.5 \\text{ m} \\). Radius of curvature for a convex mirror is positive, so \\( R = +1 \\text{ m} \\), which means focal length \\( f = +0.5 \\text{ m} \\).<br><b>Step 2: Apply the Mirror Formula</b><br>\\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\implies \\frac{1}{v} - \\frac{1}{4.5} = \\frac{1}{0.5} \\). \\( \\frac{1}{v} = 2 + \\frac{1}{4.5} = 2 + \\frac{2}{9} = \\frac{20}{9} \\). \\( v = \\frac{9}{20} \\text{ m} = 0.45 \\text{ m} = 45 \\text{ cm} \\). The positive sign means it is formed 45 cm behind the mirror.<br><b>Step 3: Calculate Magnification</b><br>\\( m = -\\frac{v}{u} = -\\frac{0.45}{-4.5} = +\\frac{1}{10} \\). A positive magnification indicates the image is virtual and erect, and \\( \\frac{1}{10} \\) means it is \\( \\frac{1}{10} \\) the size of the object. Since all statements are correct, 'All of these' is the right answer."
+        },
+        {
+          id: 32, topic: "Spherical Mirrors",
+          q: "The nature of the image of a candle flame located 40 cm from a concave spherical mirror is real, inverted and magnified four times. Then the radius of curvature of the mirror is",
+          options: ["32 cm", "64 cm", "48 cm", "80 cm"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify Given Values</b><br>Object distance \\( u = -40 \\text{ cm} \\). Since the image is real and inverted, the magnification is negative: \\( m = -4 \\).<br><b>Step 2: Find Focal Length</b><br>Using the magnification formula \\( m = \\frac{f}{f - u} \\):<br>\\( -4 = \\frac{f}{f - (-40)} \\implies -4(f + 40) = f \\).<br>\\( -4f - 160 = f \\implies -5f = 160 \\implies f = -32 \\text{ cm} \\).<br><b>Step 3: Calculate Radius of Curvature</b><br>The radius of curvature is twice the focal length: \\( R = 2f = 2 \\times 32 = 64 \\text{ cm} \\)."
+        },
+        {
+          id: 33, topic: "Spherical Lenses",
+          q: "For real extended objects if the image formed by a single lens, is erect, then image",
+          options: ["Must be real", "May be real", "Must be virtual", "May be real or virtual"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand Lens Properties</b><br>In optics, real images are always formed by the actual intersection of light rays and are always inverted with respect to the original object.<br><b>Step 2: Conclusion</b><br>Conversely, virtual images are formed when diverging rays are extended backwards, and they are always erect. Therefore, if a single lens forms an erect image of a real object, that image must absolutely be virtual."
+        },
+        {
+          id: 34, topic: "Spherical Lenses",
+          q: "For real extended object, if the image formed by a single lens is inverted, then",
+          options: ["Image is real", "Lens is convergent", "Image is either diminished or enlarged", "All of these"],
+          correct: 3, 
+          sol: "<b>Step 1: Analyze the Image</b><br>An inverted image of a real object is strictly a real image. (Option 1 is correct).<br><b>Step 2: Analyze the Lens</b><br>A concave (divergent) lens can only form virtual, erect, and diminished images. Only a convex (convergent) lens is capable of forming real, inverted images. (Option 2 is correct).<br><b>Step 3: Analyze the Size</b><br>Depending on whether the object is beyond 2F, at 2F, or between F and 2F, the real image can be diminished, same size, or enlarged. (Option 3 is correct). Therefore, 'All of these' is the right choice."
+        },
+        {
+          id: 35, topic: "Refraction of Light",
+          q: "A ray of light is incident on a glass slab \\( (n_g=1.5) \\), thickness t, in such a manner that the angle of refraction is \\( 30^{\\circ} \\), then the sine of angle of incidence will be",
+          options: ["\\( \\frac{\\sqrt{3}}{4} \\)", "\\( \\frac{\\sqrt{3}}{2} \\)", "\\( \\frac{3}{4} \\)", "\\( \\frac{3\\sqrt{3}}{8} \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Apply Snell's Law</b><br>Snell's Law states that \\( n_1 \\sin(i) = n_2 \\sin(r) \\).<br><b>Step 2: Substitute the Values</b><br>Assuming the light is incident from air (\\( n_1 = 1 \\)) onto the glass (\\( n_2 = 1.5 = \\frac{3}{2} \\)), and the angle of refraction \\( r = 30^{\\circ} \\). \\( 1 \\cdot \\sin(i) = 1.5 \\cdot \\sin(30^{\\circ}) \\).<br><b>Step 3: Calculate</b><br>\\( \\sin(i) = \\frac{3}{2} \\times \\frac{1}{2} = \\frac{3}{4} \\)."
+        },
+        {
+          id: 36, topic: "Refraction of Light",
+          q: "Why is refractive index of any transparent medium other than air greater than one?",
+          options: ["Because the speed of light in vacuum is always less than its speed in a transparent medium", "Because the speed of light in vacuum is always greater than its speed in a transparent medium", "Frequency of wave changes when it crosses the medium", "Because speed of light in transparent medium does not change"],
+          correct: 1, 
+          sol: "<b>Step 1: Define Absolute Refractive Index</b><br>The absolute refractive index (\\( n \\)) of a medium is the ratio of the speed of light in a vacuum (\\( c \\)) to the speed of light in that medium (\\( v \\)), expressed as \\( n = \\frac{c}{v} \\).<br><b>Step 2: Compare Speeds</b><br>Nothing in the universe travels faster than light in a perfect vacuum. Therefore, for any material medium, the speed of light \\( v \\) is strictly less than \\( c \\). Because the numerator (\\( c \\)) is always greater than the denominator (\\( v \\)), the ratio \\( n \\) is always greater than 1."
+        },
+        {
+          id: 37, topic: "Spherical Lenses",
+          q: "What change will occur in an image produced by a lens, if half of the lens is wrapped in a black paper?",
+          options: ["The size of the image will be reduced to one half", "The brightness of image will be reduced", "There will be no effect", "The image will disappear"],
+          correct: 1, 
+          sol: "<b>Step 1: Lens Functionality</b><br>Every small segment of a lens has the ability to refract light and contribute to the formation of a complete image at the focal plane.<br><b>Step 2: Analyze the Effect</b><br>If half of the lens is blocked by black paper, the remaining uncovered half will still form the complete, full-sized image of the object. However, because only half the number of light rays are now passing through the lens to form that image, the overall intensity or brightness of the image will be noticeably reduced."
+        },
+        {
+          id: 38, topic: "Spherical Lenses",
+          q: "A convex lens and a concave lens, each having same focal length of 25 cm are placed coaxially in close contact to form a combination of lenses. The power of the combination will be",
+          options: ["25 dioptre", "50 dioptre", "Zero", "Infinite dioptre"],
+          correct: 2, 
+          sol: "<b>Step 1: Calculate Individual Powers</b><br>Power \\( P = \\frac{100}{f \\text{ (in cm)}} \\). Power of the convex lens \\( P_1 = \\frac{100}{+25} = +4 \\text{ D} \\). Power of the concave lens \\( P_2 = \\frac{100}{-25} = -4 \\text{ D} \\).<br><b>Step 2: Combine Powers</b><br>When lenses are placed in close contact, their net power is the algebraic sum of their individual powers. \\( P_{net} = P_1 + P_2 = +4 \\text{ D} - 4 \\text{ D} = 0 \\). This combination effectively behaves like a plain glass slab."
+        },
+        {
+          id: 39, topic: "Refraction of Light",
+          q: "A light of wavelength \\( \\lambda \\) gets refracted from vacuum to a medium of refractive index n. The ratio of wavelengths of incident and refracted wave is",
+          options: ["\\( 1:n \\)", "\\( 1:1 \\)", "\\( n:1 \\)", "\\( n^2:1 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Relate Wavelength to Refractive Index</b><br>When light enters a medium of refractive index \\( n \\), its speed decreases by a factor of \\( n \\). Since its frequency remains constant, its wavelength must also decrease by the exact same factor. Therefore, \\( \\lambda_{medium} = \\frac{\\lambda_{vacuum}}{n} \\).<br><b>Step 2: Set up the Ratio</b><br>The ratio of incident wavelength to refracted wavelength is \\( \\frac{\\lambda_{vacuum}}{\\lambda_{medium}} \\). Substitute the relationship: \\( \\frac{\\lambda}{\\lambda / n} = \\frac{n}{1} \\). The ratio is \\( n:1 \\)."
+        },
+        {
+          id: 40, topic: "Spherical Mirrors",
+          q: "A real, inverted and image of same size as an object is formed when the object is placed x cm from a concave mirror, then x is equal to [where f is focal length, R is radius of curvature]",
+          options: ["\\( f \\)", "\\( R \\)", "\\( \\frac{R}{2} \\)", "\\( \\frac{R}{4} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Identify Image Properties</b><br>A concave mirror forms a real, inverted image that is exactly the same size as the object only in one specific position.<br><b>Step 2: Locate the Position</b><br>This occurs when the object is placed exactly at the center of curvature (C). The distance from the pole of the mirror to the center of curvature is defined as the radius of curvature, \\( R \\). Therefore, the object distance \\( x \\) must be equal to \\( R \\)."
+        },
+        {
+          id: 41, topic: "Spherical Mirrors",
+          q: "An object of height 6 cm is placed on the principal axis of a concave mirror of focal length f at a distance of 4f. The length of the image will be",
+          options: ["2 cm", "12 cm", "4 cm", "1.2 cm"],
+          correct: 0, 
+          sol: "<b>Step 1: Assign Sign Conventions</b><br>For a concave mirror, focal length is \\( -f \\). The object distance is \\( u = -4f \\).<br><b>Step 2: Apply the Mirror Formula</b><br>\\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\implies \\frac{1}{v} - \\frac{1}{4f} = -\\frac{1}{f} \\). \\( \\frac{1}{v} = \\frac{1}{4f} - \\frac{1}{f} = \\frac{1 - 4}{4f} = -\\frac{3}{4f} \\implies v = -\\frac{4f}{3} \\).<br><b>Step 3: Calculate Image Size</b><br>Magnification \\( m = -\\frac{v}{u} = -\\frac{-4f/3}{-4f} = -\\frac{1}{3} \\). Length of image \\( h' = m \\times h = -\\frac{1}{3} \\times 6 \\text{ cm} = -2 \\text{ cm} \\). The magnitude is 2 cm."
+        },
+        {
+          id: 42, topic: "Spherical Lenses",
+          q: "A diminished image of an object is to be obtained on a screen 1.0 m from it. This can be achieved by appropriately placing",
+          options: ["A convex mirror of suitable focal length", "A concave mirror of suitable focal length", "A concave lens of suitable focal length", "A convex lens of suitable focal length"],
+          correct: 3, 
+          sol: "<b>Step 1: Identify the Type of Image</b><br>Since the image is to be obtained on a physical screen, it must be a real image.<br><b>Step 2: Evaluate the Devices</b><br>Convex mirrors and concave lenses strictly form virtual images, which cannot be captured on a screen. A concave mirror forms real images on the *same side* as the object, reflecting light backward.<br><b>Step 3: Conclusion</b><br>A convex lens allows light to pass through and converge on a screen placed on the opposite side of the object, making it the only appropriate choice for this setup."
+        },
+        {
+          id: 43, topic: "Reflection of Light",
+          q: "Two plane mirrors are inclined at an angle of \\( 75^{\\circ} \\). A ray of light is incident on one of the mirrors. The ray undergo total deviation of",
+          options: ["\\( 210^{\\circ} \\)", "\\( 150^{\\circ} \\)", "\\( 105^{\\circ} \\)", "\\( 75^{\\circ} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Total Deviation</b><br>When a light ray undergoes two successive reflections from two plane mirrors inclined at an angle \\( \\theta \\), the total deviation \\( \\delta \\) is independent of the angle of incidence and is given by \\( \\delta = 360^{\\circ} - 2\\theta \\).<br><b>Step 2: Calculate</b><br>Given the angle of inclination \\( \\theta = 75^{\\circ} \\). \\( \\delta = 360^{\\circ} - 2(75^{\\circ}) = 360^{\\circ} - 150^{\\circ} = 210^{\\circ} \\)."
+        },
+        {
+          id: 44, topic: "Reflection of Light",
+          q: "The minimum height of a plane mirror to enable a boy of height 4 feet to see his full image is",
+          options: ["6 feet", "4 feet", "3 feet", "2 feet"],
+          correct: 3, 
+          sol: "<b>Step 1: Geometric Principle of Plane Mirrors</b><br>By the laws of reflection and similar triangles, the minimum vertical length of a plane mirror required for a person to view their entire body (from head to toe) is exactly half of the person's actual height.<br><b>Step 2: Calculate</b><br>The boy's height is 4 feet. Minimum mirror height = \\( \\frac{4}{2} = 2 \\text{ feet} \\)."
+        },
+        {
+          id: 45, topic: "Reflection of Light",
+          q: "The number of images formed of a bulb placed between two plane mirrors inclined at an angle of \\( 60^{\\circ} \\) is",
+          options: ["2", "6", "4", "5"],
+          correct: 3, 
+          sol: "<b>Step 1: Identify the Formula</b><br>To find the number of images (n) formed by two inclined mirrors, we first calculate the ratio \\( k = \\frac{360^{\\circ}}{\\theta} \\).<br><b>Step 2: Apply the Rules</b><br>Given \\( \\theta = 60^{\\circ} \\), \\( k = \\frac{360}{60} = 6 \\). If \\( k \\) is an even integer, the formula for the number of images is \\( n = k - 1 \\) for all positions of the object.<br><b>Step 3: Calculate</b><br>\\( n = 6 - 1 = 5 \\) images."
+        },
+        {
+          id: 46, topic: "Reflection of Light",
+          q: "How many images of a person are formed who is in a room whose two adjacent walls and ceiling are plane mirrors?",
+          options: ["4", "5", "6", "7"],
+          correct: 3, 
+          sol: "<b>Step 1: Images from the Walls</b><br>The two adjacent walls act as two plane mirrors inclined at exactly \\( 90^{\\circ} \\). The number of images formed by them is \\( (\\frac{360}{90}) - 1 = 4 - 1 = 3 \\) images.<br><b>Step 2: Role of the Ceiling</b><br>The person plus these 3 wall images now act as 4 distinct objects for the ceiling mirror. The ceiling mirror will reflect all 4 of them, creating 4 additional images above.<br><b>Step 3: Total Images</b><br>Total number of images = 3 (from walls) + 4 (from ceiling) = 7 images."
+        },
+        {
+          id: 47, topic: "Reflection of Light",
+          q: "A man runs towards mirror with a speed of \\( 10 \\text{ m/s} \\). Then the speed of his image with respect to himself will be",
+          options: ["\\( 20 \\text{ m/s} \\)", "\\( 10 \\text{ m/s} \\)", "Zero", "\\( 100 \\text{ m/s} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Analyze Relative Motion</b><br>If a person runs towards a stationary plane mirror at a speed \\( v \\) (10 m/s), their image also approaches the mirror from the opposite side at the exact same speed \\( v \\) (10 m/s in the opposite direction).<br><b>Step 2: Calculate Speed Relative to Self</b><br>Because they are moving towards each other, the relative speed of the image with respect to the man is the sum of their speeds: \\( v + v = 2v \\). Relative speed = \\( 10 + 10 = 20 \\text{ m/s} \\)."
+        },
+        {
+          id: 48, topic: "Spherical Mirrors",
+          q: "A ray AB travelling parallel to principal axis incident on a concave mirror as shown below. If \\( \\angle BFC = 120^{\\circ} \\), then angle of incidence is",
+          imgUrl: "",
+          options: ["\\( 30^{\\circ} \\)", "\\( 60^{\\circ} \\)", "\\( 15^{\\circ} \\)", "\\( 45^{\\circ} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Trace the Geometry</b><br>The ray AB is parallel to the principal axis and reflects through the focus F. A line drawn from the center of curvature C to the point of incidence B acts as the normal.<br><b>Step 2: Apply Angle Properties</b><br>Let the angle of incidence be \\( i \\). By the law of reflection, \\( \\angle CBF = i \\). Because AB is parallel to the principal axis, alternate interior angles dictate that \\( \\angle BCF \\) is also equal to \\( i \\).<br><b>Step 3: Calculate</b><br>In triangle BCF, the sum of angles is \\( 180^{\\circ} \\). \\( \\angle BCF + \\angle CBF + \\angle BFC = 180^{\\circ} \\). \\( i + i + 120^{\\circ} = 180^{\\circ} \\implies 2i = 60^{\\circ} \\implies i = 30^{\\circ} \\)."
+        },
+        {
+          id: 49, topic: "Spherical Mirrors",
+          q: "An object is placed in front of a convex mirror of focal length 30 cm. If the image formed is half the size of the object, then the position of the image from the mirror is",
+          options: ["15 cm", "18 cm", "60 cm", "45 cm"],
+          correct: 0, 
+          sol: "<b>Step 1: Identify Parameters</b><br>For a convex mirror, \\( f = +30 \\text{ cm} \\). It forms a virtual, erect image, so the magnification is positive: \\( m = +\\frac{1}{2} \\).<br><b>Step 2: Relate Object and Image Distance</b><br>Using \\( m = -\\frac{v}{u} \\), we get \\( \\frac{1}{2} = -\\frac{v}{u} \\implies u = -2v \\).<br><b>Step 3: Apply Mirror Formula</b><br>\\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\implies \\frac{1}{v} - \\frac{1}{2v} = \\frac{1}{30} \\). \\( \\frac{1}{2v} = \\frac{1}{30} \\implies 2v = 30 \\implies v = 15 \\text{ cm} \\)."
+        },
+        {
+          id: 50, topic: "Spherical Mirrors",
+          q: "The range of value of m for inverted and diminished image formed by a concave mirror of a real object is",
+          options: ["\\( m > 1 \\)", "\\( 0 > m > -1 \\)", "\\( 1 > m > 0 \\)", "\\( 1 > m > -1 \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze Inverted Condition</b><br>An inverted image is real, and by sign convention, its magnification \\( m \\) must be mathematically negative (\\( m < 0 \\)).<br><b>Step 2: Analyze Diminished Condition</b><br>A diminished image means the size of the image is smaller than the object, so the absolute value of magnification must be strictly less than 1 (\\( |m| < 1 \\)).<br><b>Step 3: Combine Conditions</b><br>Combining \\( m < 0 \\) and \\( m > -1 \\), the valid range is \\( -1 < m < 0 \\), which is expressed as \\( 0 > m > -1 \\)."
+        },
+        {
+          id: 51, topic: "Spherical Mirrors",
+          q: "Select the correct relation between magnification m, object distance u and focal length f for a spherical mirror",
+          options: ["\\( mf = f - mu \\)", "\\( mf = f + u \\)", "\\( mf = f - u \\)", "\\( mf = mu + f \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Write the Mirror Formula</b><br>The standard mirror formula is \\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\).<br><b>Step 2: Multiply by u</b><br>Multiplying the entire equation by \\( u \\) gives: \\( \\frac{u}{v} + 1 = \\frac{u}{f} \\). We know that magnification \\( m = -\\frac{v}{u} \\), which means \\( \\frac{u}{v} = -\\frac{1}{m} \\).<br><b>Step 3: Substitute and Rearrange</b><br>Substitute this into the equation: \\( -\\frac{1}{m} + 1 = \\frac{u}{f} \\). \\( \\frac{m-1}{m} = \\frac{u}{f} \\implies f(m-1) = mu \\implies mf - f = mu \\). Rearranging gives the final relation: \\( mf = mu + f \\)."
+        },
+        {
+          id: 52, topic: "Spherical Mirrors",
+          q: "A point object is placed at a distance of 15 cm from a convex mirror of focal length 30 cm. The image will be formed at",
+          options: ["Pole", "Infinity", "10 cm behind the mirror", "10 cm in front of the mirror"],
+          correct: 2, 
+          sol: "<b>Step 1: Sign Conventions</b><br>For a convex mirror, the focal length is positive, so \\( f = +30 \\text{ cm} \\). The object distance is negative, so \\( u = -15 \\text{ cm} \\).<br><b>Step 2: Apply the Mirror Formula</b><br>\\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\implies \\frac{1}{v} - \\frac{1}{15} = \\frac{1}{30} \\).<br><b>Step 3: Solve for v</b><br>\\( \\frac{1}{v} = \\frac{1}{30} + \\frac{1}{15} = \\frac{1 + 2}{30} = \\frac{3}{30} = \\frac{1}{10} \\). Therefore, \\( v = +10 \\text{ cm} \\). The positive sign confirms the virtual image is formed 10 cm behind the mirror."
+        },
+        {
+          id: 53, topic: "Refraction of Light",
+          q: "The length of a vertical stick at the surface of a lake appears 12 cm to a fish under water. If refractive index of water is \\( \\frac{4}{3} \\) then actual length of stick above water surface is",
+          imgUrl: "",
+          options: ["16 cm", "9 cm", "12 cm", "3 cm"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Apparent Height</b><br>When an object in a rarer medium (air) is viewed from a denser medium (water), it appears taller or further away than it actually is. The mathematical relation is \\( \\text{Apparent Height} = \\text{Actual Height} \\times n_{\\text{relative}} \\).<br><b>Step 2: Apply the Formula</b><br>Given the apparent height \\( h_{\\text{app}} = 12 \\text{ cm} \\) and the refractive index of water \\( n = \\frac{4}{3} \\). \\( 12 = h_{\\text{actual}} \\times \\frac{4}{3} \\).<br><b>Step 3: Solve for Actual Height</b><br>\\( h_{\\text{actual}} = 12 \\times \\frac{3}{4} = 9 \\text{ cm} \\)."
+        },
+        {
+          id: 54, topic: "Refraction of Light",
+          q: "A 30 cm high bucket is completely filled with a liquid. A coin at its bottom appears to be raised by 12 cm. The refractive index of the liquid is",
+          imgUrl: "",
+          options: ["3.0", "1.33", "1.67", "1.25"],
+          correct: 2, 
+          sol: "<b>Step 1: Identify Actual and Apparent Depths</b><br>The actual depth of the coin (\\( d_{\\text{actual}} \\)) is the total height of the liquid in the bucket, which is 30 cm. Because the coin appears raised by 12 cm, its apparent depth from the surface is \\( d_{\\text{apparent}} = 30 - 12 = 18 \\text{ cm} \\).<br><b>Step 2: Formula for Refractive Index</b><br>The refractive index (\\( n \\)) of the liquid is the ratio of real depth to apparent depth: \\( n = \\frac{d_{\\text{actual}}}{d_{\\text{apparent}}} \\).<br><b>Step 3: Calculate</b><br>\\( n = \\frac{30}{18} = \\frac{5}{3} \\approx 1.67 \\)."
+        },
+        {
+          id: 55, topic: "Refraction of Light",
+          q: "In the given figure, a ray of light falls obliquely on a vertical glass slab at an angle of \\( 30^{\\circ} \\) and after refraction from slab falls on a vertical plane mirror at angle x. The value of x is",
+          imgUrl: "",
+          options: ["\\( 30^{\\circ} \\)", "\\( 60^{\\circ} \\)", "\\( 45^{\\circ} \\)", "\\( 70^{\\circ} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Analyze Refraction through a Slab</b><br>When a light ray passes through a rectangular glass slab with perfectly parallel sides, the emergent ray suffers lateral displacement but always emerges strictly parallel to the original incident ray.<br><b>Step 2: Determine Emergent Angle</b><br>Since the initial incident ray makes an angle of \\( 30^{\\circ} \\) with the horizontal normal, the emergent ray exiting the slab will also make an angle of \\( 30^{\\circ} \\) with the horizontal normal.<br><b>Step 3: Apply to the Mirror</b><br>Because the plane mirror is mounted vertically (just like the slab), its normal is also perfectly horizontal. Thus, the incident angle \\( x \\) on the mirror is exactly equal to the emergent angle, which is \\( 30^{\\circ} \\)."
+        },
+        {
+          id: 56, topic: "Reflection of Light",
+          q: "Angle of incident ray with normal is \\( 30^{\\circ} \\). The incident ray after reflection will deviate through an angle",
+          imgUrl: "",
+          options: ["\\( 60^{\\circ} \\)", "\\( 120^{\\circ} \\)", "\\( 150^{\\circ} \\)", "\\( 90^{\\circ} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for Deviation</b><br>The angle of deviation (\\( \\delta \\)) for a single reflection from a plane mirror is the angle between the original path of the incident ray and the path of the reflected ray. It is given by the formula \\( \\delta = 180^{\\circ} - 2i \\), where \\( i \\) is the angle of incidence.<br><b>Step 2: Calculate</b><br>Given the angle of incidence \\( i = 30^{\\circ} \\). \\( \\delta = 180^{\\circ} - 2(30^{\\circ}) = 180^{\\circ} - 60^{\\circ} = 120^{\\circ} \\)."
+        },
+        {
+          id: 57, topic: "Spherical Lenses",
+          q: "An object is placed at a distance \\( \\frac{f}{2} \\) from a convex lens. The distance of image from the lens will be",
+          options: ["\\( f \\)", "\\( \\frac{f}{2} \\)", "\\( \\frac{f}{3} \\)", "\\( \\frac{3}{2}f \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Sign Conventions</b><br>For a convex lens, the focal length is positive (\\( +f \\)). The object is placed in front of the lens, so the object distance is negative: \\( u = -\\frac{f}{2} \\).<br><b>Step 2: Apply Lens Formula</b><br>\\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\implies \\frac{1}{v} - \\left(\\frac{1}{-f/2}\\right) = \\frac{1}{f} \\). \\( \\frac{1}{v} + \\frac{2}{f} = \\frac{1}{f} \\).<br><b>Step 3: Solve for v</b><br>\\( \\frac{1}{v} = \\frac{1}{f} - \\frac{2}{f} = -\\frac{1}{f} \\). Therefore, \\( v = -f \\). The magnitude of the image distance from the lens is exactly \\( f \\)."
+        },
+        {
+          id: 58, topic: "Refraction of Light",
+          q: "When light is refracted, which of its following properties does not change?",
+          options: ["Speed", "Frequency", "Wavelength", "Intensity"],
+          correct: 1, 
+          sol: "<b>Step 1: Understand Refraction</b><br>Refraction is the bending of light as it passes from one medium to another. This bending occurs fundamentally because the speed of light changes depending on the optical density of the medium.<br><b>Step 2: Identify the Constant Property</b><br>While the speed and the wavelength of the light wave both change proportionally during refraction, the frequency of the light wave is an inherent property of the source that produced it, and it remains absolutely unchanged regardless of the medium it travels through."
+        },
+        {
+          id: 59, topic: "Refraction of Light",
+          q: "Colour of light is determined by its",
+          options: ["Speed", "Wavelength", "Frequency", "Intensity"],
+          correct: 2, 
+          sol: "<b>Step 1: The Nature of Light Colour</b><br>The colour of light we perceive is a fundamental characteristic of the electromagnetic wave itself.<br><b>Step 2: The Key Determinant</b><br>When light enters a different medium (like glass or water), its wavelength and speed alter significantly. However, its perceived colour does not change. This proves that the colour of light is intrinsically determined by its frequency, which is the only property that remains perfectly constant across all mediums."
+        },
+        {
+          id: 60, topic: "Reflection of Light",
+          q: "For a ray, incident at an angle \\( 45^{\\circ} \\) on a plane mirror the deviation produced in its path will be",
+          options: ["\\( 45^{\\circ} \\)", "\\( 90^{\\circ} \\)", "\\( 120^{\\circ} \\)", "\\( 150^{\\circ} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for Deviation</b><br>The angle of deviation \\( \\delta \\) for a single reflection is the angle through which the incident ray turns from its original straight-line path. The mathematical formula is \\( \\delta = 180^{\\circ} - 2i \\), where \\( i \\) is the angle of incidence.<br><b>Step 2: Calculate</b><br>Given that the angle of incidence \\( i = 45^{\\circ} \\). \\( \\delta = 180^{\\circ} - 2(45^{\\circ}) = 180^{\\circ} - 90^{\\circ} = 90^{\\circ} \\)."
+        },
+        {
+          id: 61, topic: "Reflection of Light",
+          q: "An object is initially at a distance of 160 cm from a plane mirror. If the mirror approaches the object at a speed of 10 cm/s, then after 4 s the distance between the object and its image will be",
+          options: ["320 cm", "280 cm", "240 cm", "120 cm"],
+          correct: 2, 
+          sol: "<b>Step 1: Determine the New Mirror Position</b><br>The mirror moves towards the object at a speed of 10 cm/s for 4 seconds. The distance covered by the mirror is \\( d = 10 \\text{ cm/s} \\times 4 \\text{ s} = 40 \\text{ cm} \\).<br><b>Step 2: Calculate New Object Distance</b><br>The initial distance was 160 cm. The new distance of the object from the mirror is \\( u' = 160 - 40 = 120 \\text{ cm} \\).<br><b>Step 3: Calculate Total Distance</b><br>In a plane mirror, the image is formed at the same distance behind the mirror as the object is in front. Therefore, the distance between the object and its image is \\( 2 \\times 120 = 240 \\text{ cm} \\)."
+        },
+        {
+          id: 62, topic: "Reflection of Light",
+          q: "An object is placed between two plane mirrors inclined at \\( 30^{\\circ} \\) to each other. The maximum number of images seen for an object placed between them, will be",
+          options: ["10", "11", "12", "Infinite"],
+          correct: 1, 
+          sol: "<b>Step 1: Formula for Inclined Mirrors</b><br>The number of images formed by two mirrors inclined at an angle \\( \\theta \\) depends on the ratio \\( k = \\frac{360^{\\circ}}{\\theta} \\).<br><b>Step 2: Calculate the Ratio</b><br>Here, \\( \\theta = 30^{\\circ} \\), so \\( k = \\frac{360}{30} = 12 \\).<br><b>Step 3: Apply the Rule</b><br>Since 12 is an even integer, the number of images formed is given by \\( n = k - 1 \\) for all positions of the object.<br>\\( n = 12 - 1 = 11 \\)."
+        },
+        {
+          id: 63, topic: "Spherical Mirrors",
+          q: "A concave mirror of radius of curvature R produces a real image n times the size of the object, then distance of the object from the mirror is",
+          options: ["\\( -2(n-1)R \\)", "\\( \\frac{-(n-1)}{2n}R \\)", "\\( \\frac{-(n+1)R}{2n} \\)", "\\( \\frac{-(n+1)}{2}R \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Setup the Parameters</b><br>For a concave mirror, focal length \\( f = -\\frac{R}{2} \\). Since it produces a real image, the magnification is negative: \\( m = -n \\).<br><b>Step 2: Use the Magnification Formula</b><br>The relation is \\( m = \\frac{f}{f - u} \\).<br>Substitute the values: \\( -n = \\frac{-R/2}{-R/2 - u} \\).<br><b>Step 3: Solve for u</b><br>Multiply both sides by the denominator: \\( -n\\left(-\\frac{R}{2} - u\\right) = -\\frac{R}{2} \\).<br>\\( \\frac{nR}{2} + nu = -\\frac{R}{2} \\implies nu = -\\frac{R}{2} - \\frac{nR}{2} \\).<br>\\( nu = -\\frac{R(n+1)}{2} \\implies u = -\\frac{(n+1)R}{2n} \\)."
+        },
+        {
+          id: 64, topic: "Spherical Mirrors",
+          q: "If for a spherical mirror object distance is u, image distance is v and focal length is f then correct relation for magnification m is",
+          options: ["\\( m = \\frac{f-v}{f} \\)", "\\( m = \\frac{f}{f-v} \\)", "\\( m = \\frac{f-u}{f} \\)", "\\( m = \\frac{f}{f+u} \\)"],
+          correct: 0, 
+          sol: "<b>Step 1: Write the Mirror Formula</b><br>The mirror formula is \\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\).<br><b>Step 2: Relate to Magnification</b><br>Multiply the entire equation by \\( v \\): \\( 1 + \\frac{v}{u} = \\frac{v}{f} \\).<br>We know magnification \\( m = -\\frac{v}{u} \\), which means \\( \\frac{v}{u} = -m \\).<br><b>Step 3: Substitute and Simplify</b><br>\\( 1 - m = \\frac{v}{f} \\implies m = 1 - \\frac{v}{f} \\).<br>Taking the common denominator: \\( m = \\frac{f - v}{f} \\)."
+        },
+        {
+          id: 65, topic: "Spherical Lenses",
+          q: "A convex lens is made up of three different materials as shown in the figure. For a point object placed on its axis, the number of images formed are",
+          imgUrl: "",
+          options: ["1", "3", "4", "5"],
+          correct: 1, 
+          sol: "<b>Step 1: Analyze Lens Composition</b><br>The lens is constructed using three horizontal strips of entirely different optical materials.<br><b>Step 2: Refractive Index and Focal Length</b><br>Each different material possesses a unique refractive index. Because the focal length of a lens depends directly on the refractive index of its material, this single composite lens will effectively have three distinct focal lengths.<br><b>Step 3: Image Formation</b><br>As light from the point object passes through these three sections, it converges at three different focal points, thereby forming exactly 3 separate images."
+        },
+        {
+          id: 66, topic: "Reflection of Light",
+          q: "Nine images are formed when two mirrors are held at an angle",
+          options: ["\\( 30^{\\circ} \\)", "\\( 60^{\\circ} \\)", "\\( 45^{\\circ} \\)", "\\( 36^{\\circ} \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Formula for Number of Images</b><br>The number of images \\( n \\) is given by \\( n = \\frac{360^{\\circ}}{\\theta} - 1 \\) (assuming an even ratio or symmetrical placement).<br><b>Step 2: Set up the Equation</b><br>Given \\( n = 9 \\).<br>\\( 9 = \\frac{360^{\\circ}}{\\theta} - 1 \\).<br><b>Step 3: Solve for Theta</b><br>\\( 10 = \\frac{360^{\\circ}}{\\theta} \\implies \\theta = \\frac{360^{\\circ}}{10} = 36^{\\circ} \\)."
+        },
+        {
+          id: 67, topic: "Refraction of Light",
+          q: "A substance is behaving as convex lens in air and concave in water, then its refractive index is",
+          options: ["Smaller than air", "Greater than both air and water", "Greater than air, but less than water", "Almost equal to water"],
+          correct: 2, 
+          sol: "<b>Step 1: Rule for Lenses in Different Mediums</b><br>A lens maintains its fundamental nature (e.g., a convex lens remains converging) as long as it is placed in a medium with a lower refractive index than the lens material itself.<br><b>Step 2: Analyze the Behavior Change</b><br>If a lens behaves as convex in air but suddenly behaves as concave (diverging) when immersed in water, it means the nature of the lens has been completely reversed.<br><b>Step 3: Conclusion</b><br>This reversal occurs strictly when the refractive index of the surrounding medium is greater than that of the lens material. Therefore, the lens's refractive index is greater than air but less than water."
+        },
+        {
+          id: 68, topic: "Spherical Lenses",
+          q: "In the figure, there are two convex lenses \\( L_1 \\) and \\( L_2 \\) having focal lengths \\( f_1 \\) and \\( f_2 \\) respectively. To achieve emergent ray from lens \\( L_2 \\) to be parallel to incident ray, the distance between \\( L_1 \\) and \\( L_2 \\) will be",
+          imgUrl: "",
+          options: ["\\( f_1 \\)", "\\( f_2 \\)", "\\( f_1 + f_2 \\)", "\\( f_1 - f_2 \\)"],
+          correct: 2, 
+          sol: "<b>Step 1: Trace the Ray Path</b><br>Parallel rays entering the first convex lens (\\( L_1 \\)) will converge exactly at its principal focus, which is at a distance of \\( f_1 \\) from it.<br><b>Step 2: Condition for Parallel Emergence</b><br>For the rays to emerge parallel from the second lens (\\( L_2 \\)), they must appear to diverge from or pass through its principal focus. Therefore, the focal point of \\( L_1 \\) must perfectly coincide with the focal point of \\( L_2 \\).<br><b>Step 3: Determine Distance</b><br>Since the shared focal point is \\( f_1 \\) away from the first lens and \\( f_2 \\) away from the second lens, the total physical distance between the two lenses must be \\( f_1 + f_2 \\)."
+        },
+        {
+          id: 69, topic: "Spherical Lenses",
+          q: "A convex lens is made of two different materials as shown in the figure (top half \\( n_1 \\), bottom half \\( n_2 \\)). A beam of light is coming from infinity as shown. Which of the following is true?",
+          imgUrl: "",
+          options: ["Two images are formed", "Continuous image is formed between focal points of lower lens and infinity", "One image is formed", "No image is formed"],
+          correct: 0, 
+          sol: "<b>Step 1: Analyze Lens Composition</b><br>The lens is horizontally split into two distinct halves, each made from a material with a different refractive index (\\( n_1 \\) and \\( n_2 \\)).<br><b>Step 2: Refractive Property</b><br>Because focal length strictly depends on the refractive index, the upper half acts as a lens with one focal length, and the lower half acts as a lens with a different focal length.<br><b>Step 3: Image Formation</b><br>Incoming parallel rays hitting the top half will converge at the first focal point, and rays hitting the bottom half will converge at the second focal point, resulting in exactly two separate images being formed."
+        },
+        {
+          id: 70, topic: "Reflection of Light",
+          q: "When a plane mirror is rotated through an angle \\( \\theta \\), then the reflected rays rotate through an angle \\( 2\\theta \\). The size of the image",
+          options: ["Becomes half", "Double", "Remains unchanged", "Is quadrupled"],
+          correct: 2, 
+          sol: "<b>Step 1: Plane Mirror Image Properties</b><br>A plane mirror always forms a virtual, erect image that is laterally inverted but absolutely identical in size to the original object.<br><b>Step 2: Effect of Rotation</b><br>While rotating the mirror changes the angle of incidence (and subsequently sweeps the reflected ray across a larger angle of \\( 2\\theta \\)), the fundamental geometric property of the plane mirror—producing a 1:1 magnification—remains completely unaffected. Thus, the size of the image remains unchanged."
+        },
+        {
+          id: 71, topic: "Spherical Lenses",
+          q: "A convex lens of focal length f produces a real image \\( \\frac{1}{n} \\) times of the size of the object. The distance of the object from the lens is",
+          options: ["\\( -\\frac{f}{n} \\)", "\\( nf \\)", "\\( -(n-1)f \\)", "\\( (n+1)f \\)"],
+          correct: 3, 
+          sol: "<b>Step 1: Sign Conventions and Magnification</b><br>For a real image formed by a convex lens, magnification is negative: \\( m = -\\frac{1}{n} \\).<br><b>Step 2: Relate v and u</b><br>Using \\( m = \\frac{v}{u} \\), we get \\( -\\frac{1}{n} = \\frac{v}{u} \\implies v = -\\frac{u}{n} \\).<br><b>Step 3: Apply the Lens Formula</b><br>\\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\implies \\frac{1}{-u/n} - \\frac{1}{u} = \\frac{1}{f} \\).<br>\\( -\\frac{n}{u} - \\frac{1}{u} = \\frac{1}{f} \\implies \\frac{-(n+1)}{u} = \\frac{1}{f} \\).<br>Therefore, the object distance \\( u = -(n+1)f \\). The magnitude of the distance is \\( (n+1)f \\)."
+        },
+        {
+          id: 72, topic: "Spherical Lenses",
+          q: "Two lenses x and y are placed in close contact with each other. If the power of y-lens is -10 D and focal length of this combination is -16.6 cm, then x and y are respectively",
+          options: ["Concave lens (f=20 cm), convex lens (f=10 cm)", "Convex lens (f=25 cm), concave lens (f=10 cm)", "Concave lens (f=20 cm), concave lens (f=10 cm)", "Convex lens (f=25 cm), convex lens (f=10 cm)"],
+          correct: 1, 
+          sol: "<b>Step 1: Find Power of Combination</b><br>Focal length of the combination \\( F = -16.6 \\text{ cm} \\approx -\\frac{100}{6} \\text{ cm} \\).<br>Power of combination \\( P = \\frac{100}{F} = \\frac{100}{-100/6} = -6 \\text{ D} \\).<br><b>Step 2: Find Power of Lens x</b><br>Using \\( P = P_x + P_y \\implies -6 = P_x + (-10) \\implies P_x = +4 \\text{ D} \\).<br><b>Step 3: Identify the Lenses</b><br>Lens x has positive power (+4 D), so it is a convex lens with \\( f = \\frac{100}{4} = +25 \\text{ cm} \\).<br>Lens y has negative power (-10 D), so it is a concave lens with \\( f = \\frac{100}{-10} = -10 \\text{ cm} \\)."
+        },
+        {
+          id: 73, topic: "Spherical Lenses",
+          q: "The magnification of an object placed in front of a convex lens of focal length 20 cm is +2. To obtain a magnification of -2, the object has to be moved a distance equal to",
+          options: ["10 cm", "30 cm", "20 cm", "40 cm"],
+          correct: 2, 
+          sol: "<b>Step 1: Find Initial Object Distance (u1)</b><br>For \\( m = +2 \\), the image is virtual. \\( m = \\frac{v}{u} \\implies v = 2u_1 \\).<br>Using lens formula: \\( \\frac{1}{2u_1} - \\frac{1}{u_1} = \\frac{1}{20} \\implies -\\frac{1}{2u_1} = \\frac{1}{20} \\implies u_1 = -10 \\text{ cm} \\).<br><b>Step 2: Find Final Object Distance (u2)</b><br>For \\( m = -2 \\), the image is real. \\( m = \\frac{v}{u} \\implies v = -2u_2 \\).<br>Using lens formula: \\( \\frac{1}{-2u_2} - \\frac{1}{u_2} = \\frac{1}{20} \\implies -\\frac{3}{2u_2} = \\frac{1}{20} \\implies u_2 = -30 \\text{ cm} \\).<br><b>Step 3: Calculate the Distance Moved</b><br>The object must be moved from 10 cm in front of the lens to 30 cm in front of the lens. Distance moved = \\( |u_2| - |u_1| = 30 - 10 = 20 \\text{ cm} \\)."
+        },
+        {
+          id: 74, topic: "Spherical Lenses",
+          q: "If a lens is cut into two pieces by a plane perpendicular to the principal axis and only one part is used, the intensity of the image",
+          options: ["Becomes (1/2) times", "Becomes 2 times", "Remains the same", "Becomes infinite"],
+          correct: 2, 
+          sol: "<b>Step 1: Understand Lens Cutting</b><br>Cutting a biconvex lens by a plane perpendicular to its principal axis divides it into two plano-convex lenses.<br><b>Step 2: Analyze Intensity</b><br>The intensity (brightness) of an image depends on the amount of light passing through the lens, which is determined by the surface area of the lens's aperture. Since cutting the lens this way does not reduce its circular aperture size, the amount of light gathered remains the same, meaning the intensity of the image remains the same. (Only the focal length changes)."
+        },
+        {
+          id: 75, topic: "Spherical Lenses",
+          q: "A convex lens \\( L_1 \\) of focal length 20 cm and a concave lens \\( L_2 \\) of focal length 5 cm are kept along the same axis as shown in figure. To achieve emergent ray from lens \\( L_2 \\) to be parallel to incident ray, the distance between two lenses should be equal to",
+          imgUrl: "",
+          options: ["15 cm", "22.5 cm", "25 cm", "20 cm"],
+          correct: 0, 
+          sol: "<b>Step 1: Understand the Optical System</b><br>For the final emergent ray to be parallel to the initial incident ray, the system must act like a telescope focused at infinity. This means the principal focus of the first lens must exactly coincide with the principal focus of the second lens.<br><b>Step 2: Set up the Geometry</b><br>The focal point of \\( L_1 \\) is at +20 cm. The focal point of \\( L_2 \\) (concave) is at -5 cm (5 cm in front of it).<br><b>Step 3: Calculate the Distance</b><br>For the focal points to overlap, the distance \\( d \\) between the lenses must be the algebraic sum of their focal lengths: \\( d = f_1 + f_2 \\).<br>\\( d = 20 + (-5) = 15 \\text{ cm} \\)."
+        },
+        {
+          id: 76, topic: "Refraction of Light",
+          q: "A double convex lens, made of material of refractive index \\( n_1 \\) is placed inside two liquids of refractive indices \\( n_2 \\) and \\( n_3 \\) as shown (top half in \\( n_2 \\), bottom half in \\( n_3 \\)). Given that \\( n_2 > n_1 > n_3 \\). A wide, parallel beam of light is incident on the lens from the left. The lens will give rise to",
+          imgUrl: "",
+          options: ["A single convergent beam", "Two different convergent beams", "Two different divergent beams", "A convergent and a divergent beam"],
+          correct: 3, 
+          sol: "<b>Step 1: Analyze the Top Half</b><br>The top half of the lens (\\( n_1 \\)) is immersed in a medium with a higher refractive index (\\( n_2 > n_1 \\)). According to optical rules, a convex lens placed in a denser medium changes its nature and behaves as a diverging (concave) lens, producing a divergent beam.<br><b>Step 2: Analyze the Bottom Half</b><br>The bottom half of the lens (\\( n_1 \\)) is immersed in a medium with a lower refractive index (\\( n_1 > n_3 \\)). It retains its normal nature and continues to behave as a converging (convex) lens, producing a convergent beam.<br><b>Step 3: Conclusion</b><br>The system will simultaneously give rise to a convergent and a divergent beam."
+        },
+        {
+          id: 77, topic: "Refraction of Light",
+          q: "A air bubble inside water behave like a",
+          options: ["Converging lens", "Diverging lens", "Cylindrical lens", "Cannot behave like a lens"],
+          correct: 1, 
+          sol: "<b>Step 1: Compare Refractive Indices</b><br>An air bubble is essentially a sphere of air (refractive index \\( \\approx 1.0 \\)) surrounded by water (refractive index \\( \\approx 1.33 \\)).<br><b>Step 2: Apply Lens Principle</b><br>The bubble has a convex physical shape. However, because the material inside the \"lens\" (air) is optically rarer than the surrounding medium (water), the lens undergoes a reversal of its nature. Therefore, the convex-shaped air bubble will behave as a diverging (concave) lens."
+        },
+        {
+          id: 78, topic: "Spherical Lenses",
+          q: "Which of the following quantities related to a lens does not depend on the wavelength of the incident light?",
+          options: ["Refractive index", "Focal length", "Power", "Radii of curvature"],
+          correct: 3, 
+          sol: "<b>Step 1: Analyze the Dependencies</b><br>By Cauchy's equation, the refractive index of a material changes depending on the wavelength of light passing through it. Because focal length and power are mathematically derived from the refractive index (via the Lens Maker's Formula), they also vary with wavelength.<br><b>Step 2: Identify the Independent Property</b><br>The radii of curvature, however, are purely geometric properties defining the physical, structural shape of the glass spheres from which the lens was cut. They are completely independent of the type of light hitting the lens."
+        },
+        {
+          id: 79, topic: "Reflection of Light",
+          q: "If two mirrors are kept at \\( 60^{\\circ} \\) to each other, then the number of images formed by them is",
+          options: ["5", "6", "7", "8"],
+          correct: 0, 
+          sol: "<b>Step 1: Formula for Number of Images</b><br>The number of images \\( n \\) formed by two mirrors inclined at an angle \\( \\theta \\) is determined by the ratio \\( k = \\frac{360^{\\circ}}{\\theta} \\).<br><b>Step 2: Calculate the Ratio</b><br>Here, \\( \\theta = 60^{\\circ} \\), so \\( k = \\frac{360}{60} = 6 \\).<br><b>Step 3: Apply the Rule</b><br>Since 6 is an even integer, the formula is strictly \\( n = k - 1 \\).<br>\\( n = 6 - 1 = 5 \\) images."
+        },
+        {
+          id: 80, topic: "Reflection of Light",
+          q: "To get three images of a single object, one should have two plane mirrors at an angle of",
+          options: ["\\( 60^{\\circ} \\)", "\\( 90^{\\circ} \\)", "\\( 120^{\\circ} \\)", "\\( 30^{\\circ} \\)"],
+          correct: 1, 
+          sol: "<b>Step 1: Work Backwards from the Formula</b><br>Assuming an even ratio for symmetrical placement, the number of images is \\( n = \\frac{360^{\\circ}}{\\theta} - 1 \\).<br><b>Step 2: Substitute and Solve</b><br>Given that we want exactly 3 images, \\( n = 3 \\).<br>\\( 3 = \\frac{360^{\\circ}}{\\theta} - 1 \\implies 4 = \\frac{360^{\\circ}}{\\theta} \\).<br>\\( \\theta = \\frac{360^{\\circ}}{4} = 90^{\\circ} \\). Therefore, the mirrors must be placed perpendicular to each other."
+        }
+      ]
+    },
     // ==========================================
     // CHAPTER: Human eye and Colourful World for Class 10
     // ==========================================
@@ -11963,6 +12548,7 @@
       ]
     }
   };
+
 
 
 
