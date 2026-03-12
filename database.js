@@ -3301,6 +3301,150 @@
       }
     ]
   },
+
+    "Machines": {
+    classTarget: "Class 10",
+    totalQs: 10,
+    topics: [
+      "Technical Terms & Principles",
+      "Levers & Their Classes",
+      "Single Pulleys",
+      "Block and Tackle System"
+    ],
+    questions: [
+      {
+        "id": "MAC_001",
+        "topic": "Technical Terms & Principles",
+        "q": "A machine is considered an 'ideal machine' if its efficiency is exactly \\( 100\\% \\). Which of the following conditions must be met for a machine to be ideal?",
+        "options": [
+          "The machine must act as a force multiplier",
+          "The mechanical advantage must be strictly greater than the velocity ratio",
+          "The work output must be exactly equal to the work input",
+          "The effort must be applied directly at the center of gravity"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> An ideal machine is a theoretical concept where the machine is free from friction and the weight of its moving parts is strictly negligible.<br><b>Conclusion:</b> Because there is no loss of energy to friction or moving internal parts, the Useful Work Output perfectly equals the Work Input (\\( \\eta = 100\\% \\))."
+      },
+      {
+        "id": "MAC_002",
+        "topic": "Technical Terms & Principles",
+        "q": "What is the correct mathematical relationship between Mechanical Advantage (M.A.), Velocity Ratio (V.R.), and Efficiency (\\( \\eta \\))?",
+        "options": [
+          "\\( \\eta = \\frac{V.R.}{M.A.} \\)",
+          "\\( M.A. = V.R. \\times \\eta \\)",
+          "\\( V.R. = M.A. \\times \\eta \\)",
+          "\\( \\eta = M.A. + V.R. \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Recall definitions.</b> Efficiency \\( \\eta = \\frac{\\text{Work Output}}{\\text{Work Input}} \\).<br><b>Step 2: Substitute expressions.</b> \\( \\eta = \\frac{L \\times d_L}{E \\times d_E} = \\left(\\frac{L}{E}\\right) \\times \\left(\\frac{d_L}{d_E}\\right) \\).<br><b>Step 3: Relate to M.A. and V.R.</b> Since \\( M.A. = \\frac{L}{E} \\) and \\( V.R. = \\frac{d_E}{d_L} \\), we get \\( \\eta = M.A. \\times \\frac{1}{V.R.} \\implies \\eta = \\frac{M.A.}{V.R.} \\). Rearranging gives \\( M.A. = V.R. \\times \\eta \\)."
+      },
+      {
+        "id": "MAC_003",
+        "topic": "Technical Terms & Principles",
+        "q": "A machine has a velocity ratio of \\( 4 \\) and an efficiency of \\( 75\\% \\). What effort is required to overcome a load of \\( 150 \\text{ kgf} \\)?",
+        "options": [
+          "\\( 37.5 \\text{ kgf} \\)",
+          "\\( 50 \\text{ kgf} \\)",
+          "\\( 200 \\text{ kgf} \\)",
+          "\\( 450 \\text{ kgf} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Find Mechanical Advantage.</b> \\( M.A. = V.R. \\times \\eta = 4 \\times 0.75 = 3 \\).<br><b>Step 2: Calculate Effort.</b> The formula is \\( M.A. = \\frac{\\text{Load}}{\\text{Effort}} \\implies 3 = \\frac{150}{\\text{Effort}} \\).<br><b>Step 3: Solve.</b> Effort = \\( \\frac{150}{3} = 50 \\text{ kgf} \\)."
+      },
+      {
+        "id": "MAC_004",
+        "topic": "Levers & Their Classes",
+        "q": "Which class of lever always has a mechanical advantage strictly less than \\( 1 \\), and acts primarily as a speed/distance multiplier?",
+        "options": [
+          "Class I lever",
+          "Class II lever",
+          "Class III lever",
+          "It depends entirely on the fulcrum's exact position"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> In a Class III lever, the Effort is always positioned between the Fulcrum and the Load.<br><b>Analysis:</b> This geometry dictates that the effort arm is always shorter than the load arm. Since \\( M.A. = \\frac{\\text{Effort Arm}}{\\text{Load Arm}} \\), the M.A. is always \\( < 1 \\). These levers are used to multiply speed and displacement, not force (e.g., a fishing rod or a sugar tong)."
+      },
+      {
+        "id": "MAC_005",
+        "topic": "Levers & Their Classes",
+        "q": "Identify the class of lever for a common pair of scissors and a nutcracker, respectively.",
+        "options": [
+          "Class I and Class II",
+          "Class II and Class I",
+          "Class I and Class III",
+          "Class III and Class II"
+        ],
+        "correct": 0,
+        "sol": "<b>Scissors:</b> The fulcrum (pivot screw) is in the middle, sitting between the handle (effort) and the cutting blades (load). This makes it a <b>Class I</b> lever.<br><b>Nutcracker:</b> The nut (load) is placed in the middle, between the hinge (fulcrum) and the handles (effort). Because the load is central, it is a <b>Class II</b> lever."
+      },
+      {
+        "id": "MAC_006",
+        "topic": "Levers & Their Classes",
+        "q": "A crowbar of total length \\( 1.5 \\text{ m} \\) is used to lift a heavy stone. The fulcrum is placed at a distance of \\( 0.3 \\text{ m} \\) from the stone. Calculate the mechanical advantage of the crowbar.",
+        "options": [
+          "\\( 5 \\)",
+          "\\( 4 \\)",
+          "\\( 0.25 \\)",
+          "\\( 0.2 \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Identify the arms.</b> Total length = \\( 1.5 \\text{ m} \\). The load arm (distance from the fulcrum to the stone) = \\( 0.3 \\text{ m} \\).<br><b>Step 2: Calculate Effort arm.</b> Since the fulcrum is between the effort and load (Class I), the Effort arm = Total length - Load arm = \\( 1.5 - 0.3 = 1.2 \\text{ m} \\).<br><b>Step 3: Calculate M.A.</b> \\( M.A. = \\frac{\\text{Effort arm}}{\\text{Load arm}} = \\frac{1.2}{0.3} = 4 \\)."
+      },
+      {
+        "id": "MAC_007",
+        "topic": "Levers & Their Classes",
+        "q": "In the human body, the action of raising the entire weight of the body on the toes represents which class of lever?",
+        "options": [
+          "Class I",
+          "Class II",
+          "Class III",
+          "It does not act as a lever"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> When you stand firmly on your toes, the fulcrum is situated at the toes. The effort is applied by the calf muscles pulling upwards at the heel. The entire weight of the body (the load) rests centrally at the ankle joint. Because the Load is perfectly in the middle, this biological mechanism acts as a <b>Class II</b> lever."
+      },
+      {
+        "id": "MAC_008",
+        "topic": "Levers & Their Classes",
+        "q": "Look at the diagram of the lever system provided. What is the minimum effort \\( E \\) required to lift the load of \\( 100 \\text{ N} \\)?",
+        "imgUrl": "https://placehold.co/600x300/e2e8f0/005CAA?text=Lever+Diagram%5CnLoad+(100N)+at+20cm%5CnEffort+(E)+at+80cm%5CnFulcrum+at+0cm",
+        "options": [
+          "\\( 20 \\text{ N} \\)",
+          "\\( 25 \\text{ N} \\)",
+          "\\( 400 \\text{ N} \\)",
+          "\\( 50 \\text{ N} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Identify lever type and arms from the image.</b> The diagram depicts a Class II lever where the Load is situated in the middle. The Load arm = \\( 20 \\text{ cm} \\), and the total Effort arm = \\( 80 \\text{ cm} \\).<br><b>Step 2: Apply the Principle of Moments.</b> \\( \\text{Load} \\times \\text{Load Arm} = \\text{Effort} \\times \\text{Effort Arm} \\).<br><b>Step 3: Calculate.</b> \\( 100 \\times 20 = E \\times 80 \\implies E = \\frac{2000}{80} = 25 \\text{ N} \\)."
+      },
+      {
+        "id": "MAC_009",
+        "topic": "Technical Terms & Principles",
+        "q": "A machine is driven by a falling mass of \\( 20 \\text{ kg} \\) moving downwards through a distance of \\( 4 \\text{ m} \\). It successfully lifts a load of \\( 50 \\text{ kg} \\) through a vertical distance of \\( 1 \\text{ m} \\). What is the work done against friction by this machine? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 800 \\text{ J} \\)",
+          "\\( 500 \\text{ J} \\)",
+          "\\( 300 \\text{ J} \\)",
+          "\\( 0 \\text{ J} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Calculate Total Work Input.</b> Input = Effort Force \\( \\times \\) Displacement of Effort = \\( (20 \\times 10) \\text{ N} \\times 4 \\text{ m} = 800 \\text{ J} \\).<br><b>Step 2: Calculate Useful Work Output.</b> Output = Load Force \\( \\times \\) Displacement of Load = \\( (50 \\times 10) \\text{ N} \\times 1 \\text{ m} = 500 \\text{ J} \\).<br><b>Step 3: Calculate lost work.</b> The energy dissipated as Work against friction = Work Input - Work Output = \\( 800 - 500 = 300 \\text{ J} \\)."
+      },
+      {
+        "id": "MAC_010",
+        "topic": "Technical Terms & Principles",
+        "q": "<b>[Topper Challenge]</b> A boy uses a heavy lever to lift a \\( 50 \\text{ kgf} \\) rock. If he applies an effort of \\( 10 \\text{ kgf} \\) and the effort arm moves \\( 1.5 \\text{ m} \\) downwards while the rock moves \\( 0.2 \\text{ m} \\) upwards, what is the efficiency of this lever system?",
+        "options": [
+          "\\( 80\\% \\)",
+          "\\( 66.6\\% \\)",
+          "\\( 75\\% \\)",
+          "\\( 90\\% \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate Mechanical Advantage.</b> \\( M.A. = \\frac{\\text{Load}}{\\text{Effort}} = \\frac{50}{10} = 5 \\).<br><b>Step 2: Calculate Velocity Ratio.</b> \\( V.R. = \\frac{d_E}{d_L} = \\frac{1.5}{0.2} = 7.5 \\).<br><b>Step 3: Calculate Efficiency.</b> \\( \\eta = \\frac{M.A.}{V.R.} = \\frac{5}{7.5} = \\frac{2}{3} \\).<br><b>Step 4: Convert to percentage.</b> \\( \\frac{2}{3} \\times 100\\% = 66.67\\% \\)."
+      }
+    ]
+  },
     
     // ==========================================
     // CHAPTER: VECTORS
@@ -13791,6 +13935,7 @@
       ]
     }
   };
+
 
 
 
