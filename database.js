@@ -2507,7 +2507,7 @@
 
     "Work, Energy and Power": {
     classTarget: "Class 10",
-    totalQs: 15,
+    totalQs: 45,
     topics: [
       "Measurement of Work",
       "Power",
@@ -2712,6 +2712,396 @@
         ],
         "correct": 0,
         "sol": "<b>Step 1: Initial Kinetic Energy.</b> Convert mass: \\( m = 0.05 \\text{ kg} \\). \\( K = \\frac{1}{2} \\times 0.05 \\times (500)^2 = 6250 \\text{ J} \\).<br><b>Step 2: Work-Energy relation.</b> Work done against resistance = Loss of KE. \\( F \\times S = K \\).<br><b>Step 3: Solve for F.</b> Convert distance: \\( S = 10 \\text{ cm} = 0.1 \\text{ m} \\). \\( F \\times 0.1 = 6250 \\implies F = 62500 \\text{ N} \\)."
+      },
+      {
+        "id": "WEP_016",
+        "topic": "Power",
+        "q": "The power of a motor is \\( 40 \\text{ kW} \\). At what constant speed can the motor raise a load of \\( 20,000 \\text{ N} \\)?",
+        "options": [
+          "\\( 2 \\text{ m s}^{-1} \\)",
+          "\\( 0.5 \\text{ m s}^{-1} \\)",
+          "\\( 8 \\text{ m s}^{-1} \\)",
+          "\\( 500 \\text{ m s}^{-1} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Relate Power, Force, and Velocity.</b> We know \\( P = F \\times v \\).<br><b>Step 2: Convert Units.</b> Power \\( P = 40 \\text{ kW} = 40,000 \\text{ W} \\).<br><b>Step 3: Solve for velocity.</b> \\( 40,000 = 20,000 \\times v \\implies v = \\frac{40000}{20000} = 2 \\text{ m s}^{-1} \\)."
+      },
+      {
+        "id": "WEP_017",
+        "topic": "Measurement of Work",
+        "q": "A boy weighing \\( 350 \\text{ N} \\) climbs up \\( 30 \\) steps, each \\( 20 \\text{ cm} \\) high in \\( 1 \\text{ minute} \\). What is the power spent by the boy?",
+        "options": [
+          "\\( 2100 \\text{ W} \\)",
+          "\\( 35 \\text{ W} \\)",
+          "\\( 70 \\text{ W} \\)",
+          "\\( 105 \\text{ W} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate total height.</b> \\( h = 30 \\times 0.20 \\text{ m} = 6 \\text{ m} \\).<br><b>Step 2: Calculate Work Done.</b> \\( W = F \\times h = 350 \\text{ N} \\times 6 \\text{ m} = 2100 \\text{ J} \\).<br><b>Step 3: Calculate Power.</b> Time \\( t = 60 \\text{ s} \\). \\( P = \\frac{W}{t} = \\frac{2100}{60} = 35 \\text{ W} \\)."
+      },
+      {
+        "id": "WEP_018",
+        "topic": "Power",
+        "q": "It takes \\( 20 \\text{ s} \\) for person A of mass \\( 50 \\text{ kg} \\) to climb up the stairs, while another person B of the same mass does the same in \\( 15 \\text{ s} \\). What is the ratio of the power developed by person A to person B?",
+        "options": [
+          "\\( 4:3 \\)",
+          "\\( 3:4 \\)",
+          "\\( 1:1 \\)",
+          "\\( 16:9 \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Understand the relation.</b> Since the mass and height are identical, the work done by both is the same.<br><b>Step 2: Relate Power and Time.</b> Power is inversely proportional to time (\\( P \\propto \\frac{1}{t} \\)).<br><b>Step 3: Calculate Ratio.</b> \\( \\frac{P_A}{P_B} = \\frac{t_B}{t_A} = \\frac{15}{20} = \\frac{3}{4} \\). The ratio is \\( 3:4 \\)."
+      },
+      {
+        "id": "WEP_019",
+        "topic": "Kinetic Energy",
+        "q": "Two bodies of equal masses are moving with uniform velocities \\( v \\) and \\( 2v \\). Find the ratio of their kinetic energies.",
+        "options": [
+          "\\( 1:2 \\)",
+          "\\( 2:1 \\)",
+          "\\( 1:4 \\)",
+          "\\( 4:1 \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Kinetic energy is given by \\( K = \\frac{1}{2}mv^2 \\). Therefore, \\( K \\propto v^2 \\) for a constant mass.<br><b>Calculation:</b> Ratio \\( = \\frac{v^2}{(2v)^2} = \\frac{v^2}{4v^2} = \\frac{1}{4} \\). The ratio is \\( 1:4 \\)."
+      },
+      {
+        "id": "WEP_020",
+        "topic": "Kinetic Energy",
+        "q": "A light mass and a heavy mass have equal momentum. Which one will have more kinetic energy?",
+        "options": [
+          "The light mass",
+          "The heavy mass",
+          "Both have equal kinetic energy",
+          "Depends on their volumes"
+        ],
+        "correct": 0,
+        "sol": "<b>Concept:</b> The relationship between Kinetic Energy (\\( K \\)) and momentum (\\( p \\)) is \\( K = \\frac{p^2}{2m} \\).<br><b>Analysis:</b> Since momentum (\\( p \\)) is constant for both, \\( K \\propto \\frac{1}{m} \\). This means kinetic energy is inversely proportional to mass. Therefore, the lighter mass will possess more kinetic energy."
+      },
+      {
+        "id": "WEP_021",
+        "topic": "Work-Energy Theorem",
+        "q": "A body of mass \\( 10 \\text{ kg} \\) is moving with a velocity of \\( 20 \\text{ m s}^{-1} \\). If the mass of the body is doubled and its velocity is halved, what is its new kinetic energy?",
+        "options": [
+          "\\( 2000 \\text{ J} \\)",
+          "\\( 4000 \\text{ J} \\)",
+          "\\( 1000 \\text{ J} \\)",
+          "\\( 500 \\text{ J} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Find new parameters.</b> New mass \\( m' = 2 \\times 10 = 20 \\text{ kg} \\). New velocity \\( v' = \\frac{20}{2} = 10 \\text{ m s}^{-1} \\).<br><b>Step 2: Calculate new KE.</b> \\( K' = \\frac{1}{2} m' (v')^2 = \\frac{1}{2} \\times 20 \\times (10)^2 = 10 \\times 100 = 1000 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_022",
+        "topic": "Potential Energy",
+        "q": "What is the increase in potential energy when \\( 500 \\text{ liters} \\) of water is raised from a height of \\( 4 \\text{ m} \\) to \\( 12 \\text{ m} \\)? (Take \\( g = 10 \\text{ m s}^{-2} \\), Density of water = \\( 1 \\text{ kg liter}^{-1} \\))",
+        "options": [
+          "\\( 4 \\times 10^4 \\text{ J} \\)",
+          "\\( 6 \\times 10^4 \\text{ J} \\)",
+          "\\( 2 \\times 10^4 \\text{ J} \\)",
+          "\\( 8 \\times 10^4 \\text{ J} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Calculate Mass.</b> Mass = Volume \\( \\times \\) Density = \\( 500 \\text{ L} \\times 1 \\text{ kg/L} = 500 \\text{ kg} \\).<br><b>Step 2: Change in height.</b> \\( \\Delta h = 12 \\text{ m} - 4 \\text{ m} = 8 \\text{ m} \\).<br><b>Step 3: Calculate Gain in PE.</b> \\( \\Delta U = mg\\Delta h = 500 \\times 10 \\times 8 = 40,000 \\text{ J} = 4 \\times 10^4 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_023",
+        "topic": "Measurement of Work",
+        "q": "The area enclosed by a force-displacement graph and the displacement axis gives:",
+        "options": [
+          "Power",
+          "Acceleration",
+          "Work done",
+          "Momentum"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> In a force-displacement graph, the force is plotted on the Y-axis and displacement on the X-axis.<br><b>Conclusion:</b> Since Work = Force \\( \\times \\) Displacement, the area under the curve (which is the mathematical product of the Y and X axes) represents the total work done by the force."
+      },
+      {
+        "id": "WEP_024",
+        "topic": "Conservation of Energy",
+        "q": "A simple pendulum rises to a maximum vertical height of \\( 5 \\text{ cm} \\) from its rest position. What is the velocity of the bob at its mean position? (Assume no energy is lost to air friction, \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 5 \\text{ m s}^{-1} \\)",
+          "\\( 1 \\text{ m s}^{-1} \\)",
+          "\\( 0.5 \\text{ m s}^{-1} \\)",
+          "\\( 10 \\text{ m s}^{-1} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Conservation of Energy.</b> Maximum Potential Energy at extreme position = Maximum Kinetic Energy at mean position.<br><b>Step 2: Set up equation.</b> \\( mgh = \\frac{1}{2}mv^2 \\implies v = \\sqrt{2gh} \\).<br><b>Step 3: Calculate.</b> Convert height: \\( 5 \\text{ cm} = 0.05 \\text{ m} \\). \\( v = \\sqrt{2 \\times 10 \\times 0.05} = \\sqrt{1} = 1 \\text{ m s}^{-1} \\)."
+      },
+      {
+        "id": "WEP_025",
+        "topic": "Conservation of Energy",
+        "q": "A ball of mass \\( 20 \\text{ g} \\) falls from a height of \\( 10 \\text{ m} \\). It strikes the ground and rebounds to a height of \\( 8 \\text{ m} \\). What is the loss in kinetic energy upon striking the ground? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 2.0 \\text{ J} \\)",
+          "\\( 1.6 \\text{ J} \\)",
+          "\\( 0.4 \\text{ J} \\)",
+          "\\( 0.2 \\text{ J} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Initial Energy.</b> Energy before striking = PE at \\( 10 \\text{ m} = mgh_1 = 0.02 \\times 10 \\times 10 = 2.0 \\text{ J} \\).<br><b>Step 2: Rebound Energy.</b> Energy after striking = PE at \\( 8 \\text{ m} = mgh_2 = 0.02 \\times 10 \\times 8 = 1.6 \\text{ J} \\).<br><b>Step 3: Calculate Loss.</b> Loss = \\( 2.0 - 1.6 = 0.4 \\text{ J} \\). (This energy is converted into heat and sound)."
+      },
+      {
+        "id": "WEP_026",
+        "topic": "Forms of Energy",
+        "q": "Which of the following devices converts electrical energy into sound energy?",
+        "options": [
+          "Microphone",
+          "Electric Bell",
+          "Thermocouple",
+          "Dynamo"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> An <b>Electric Bell</b> (or a loudspeaker) takes in electrical signals and produces mechanical vibrations, releasing Sound Energy. Conversely, a <b>Microphone</b> does the opposite: it takes Sound Energy and converts it into Electrical Energy."
+      },
+      {
+        "id": "WEP_027",
+        "topic": "Conservation of Energy",
+        "q": "A freely falling body has a total mechanical energy of \\( 100 \\text{ J} \\) at the start of its fall. When it has fallen exactly halfway to the ground, what is its kinetic energy? (Ignore air resistance)",
+        "options": [
+          "\\( 0 \\text{ J} \\)",
+          "\\( 100 \\text{ J} \\)",
+          "\\( 50 \\text{ J} \\)",
+          "\\( 25 \\text{ J} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Total Mechanical Energy (\\( K + U \\)) is conserved. At the halfway point, the body has lost exactly half of its initial Potential Energy.<br><b>Analysis:</b> The lost Potential Energy is converted entirely into Kinetic Energy. Therefore, exactly halfway down, \\( K = U = 50 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_028",
+        "topic": "Work-Energy Theorem",
+        "q": "If a moving truck's speed is halved, its kinetic energy becomes:",
+        "options": [
+          "Half",
+          "Double",
+          "One-fourth",
+          "One-eighth"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Kinetic energy is directly proportional to the square of the velocity (\\( K \\propto v^2 \\)).<br><b>Analysis:</b> If the velocity is reduced to \\( \\frac{1}{2} \\), the new kinetic energy becomes \\( (\\frac{1}{2})^2 = \\frac{1}{4} \\) of its original value."
+      },
+      {
+        "id": "WEP_029",
+        "topic": "Kinetic Energy",
+        "q": "<b>[Topper Challenge]</b> If the momentum of a moving body is increased by \\( 20\\% \\), what will be the percentage increase in its kinetic energy?",
+        "options": [
+          "\\( 20\\% \\)",
+          "\\( 40\\% \\)",
+          "\\( 44\\% \\)",
+          "\\( 100\\% \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Formula.</b> \\( K = \\frac{p^2}{2m} \\). So, \\( K \\propto p^2 \\).<br><b>Step 2: Apply Increase.</b> Let initial momentum = \\( p \\). New momentum = \\( 1.20p \\).<br><b>Step 3: New KE.</b> New \\( K' \\propto (1.20p)^2 = 1.44 p^2 = 1.44 K \\).<br><b>Step 4: Percentage Change.</b> The kinetic energy is now \\( 1.44 \\) times the original, which represents an increase of \\( 44\\% \\)."
+      },
+      {
+        "id": "WEP_030",
+        "topic": "Power",
+        "q": "<b>[Topper Challenge]</b> A water pump lifts \\( 500 \\text{ kg} \\) of water from a depth of \\( 80 \\text{ m} \\) in \\( 10 \\text{ s} \\). If the overall efficiency of the pump is \\( 40\\% \\), what is the input power rating of the pump? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 40 \\text{ kW} \\)",
+          "\\( 100 \\text{ kW} \\)",
+          "\\( 16 \\text{ kW} \\)",
+          "\\( 200 \\text{ kW} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate Useful Work.</b> \\( W = mgh = 500 \\times 10 \\times 80 = 4,00,000 \\text{ J} \\).<br><b>Step 2: Calculate Useful Output Power.</b> \\( P_{\\text{out}} = \\frac{4,00,000}{10} = 40,000 \\text{ W} = 40 \\text{ kW} \\).<br><b>Step 3: Apply Efficiency.</b> \\( \\text{Efficiency} = \\frac{\\text{Output Power}}{\\text{Input Power}} \\implies 0.40 = \\frac{40 \\text{ kW}}{\\text{Input}} \\).<br>Input Power = \\( \\frac{40}{0.40} = 100 \\text{ kW} \\)."
+      },
+      {
+        "id": "WEP_031",
+        "topic": "Units of Energy",
+        "q": "Express \\( 5 \\text{ kWh} \\) of electrical energy into Joules.",
+        "options": [
+          "\\( 1.8 \\times 10^7 \\text{ J} \\)",
+          "\\( 3.6 \\times 10^6 \\text{ J} \\)",
+          "\\( 1.8 \\times 10^6 \\text{ J} \\)",
+          "\\( 5.0 \\times 10^3 \\text{ J} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Know the conversion factor.</b> \\( 1 \\text{ kWh} = 3.6 \\times 10^6 \\text{ J} \\).<br><b>Step 2: Multiply.</b> \\( 5 \\text{ kWh} = 5 \\times 3.6 \\times 10^6 \\text{ J} \\).<br><b>Step 3: Solve.</b> \\( 5 \\times 3.6 = 18 \\). So, the energy is \\( 18 \\times 10^6 \\text{ J} = 1.8 \\times 10^7 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_032",
+        "topic": "Units of Energy",
+        "q": "The energy of an atomic particle is measured to be \\( 4.0 \\times 10^{-19} \\text{ J} \\). Express this energy in electron volts (eV).",
+        "options": [
+          "\\( 2.5 \\text{ eV} \\)",
+          "\\( 4.0 \\text{ eV} \\)",
+          "\\( 1.6 \\text{ eV} \\)",
+          "\\( 6.4 \\text{ eV} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Know the conversion factor.</b> \\( 1 \\text{ eV} = 1.6 \\times 10^{-19} \\text{ J} \\).<br><b>Step 2: Divide.</b> Energy in eV = \\( \\frac{4.0 \\times 10^{-19}}{1.6 \\times 10^{-19}} \\).<br><b>Step 3: Solve.</b> \\( \\frac{4.0}{1.6} = 2.5 \\text{ eV} \\)."
+      },
+      {
+        "id": "WEP_033",
+        "topic": "Measurement of Work",
+        "q": "A coolie X carrying a load on his head climbs up a slope, and another coolie Y carrying the identical load moves the same distance on a horizontal platform. Who does more work against gravity?",
+        "options": [
+          "Coolie X",
+          "Coolie Y",
+          "Both do equal work",
+          "Neither does any work"
+        ],
+        "correct": 0,
+        "sol": "<b>Concept:</b> Work against gravity depends on vertical displacement (height).<br><b>Analysis:</b> Coolie X climbs a slope, gaining vertical height, so he does work against gravity. Coolie Y moves horizontally, so his vertical displacement is zero (\\( \\theta = 90^\\circ \\)), meaning he does zero work against gravity."
+      },
+      {
+        "id": "WEP_034",
+        "topic": "Forms of Energy",
+        "q": "In a thermocouple, what is the primary energy conversion taking place?",
+        "options": [
+          "Heat energy to Electrical energy",
+          "Electrical energy to Heat energy",
+          "Chemical energy to Electrical energy",
+          "Light energy to Electrical energy"
+        ],
+        "correct": 0,
+        "sol": "<b>Explanation:</b> A thermocouple consists of two junctions of different metals. When one junction is kept hot and the other cold, a current flows. Thus, it converts <b>Heat energy into Electrical energy</b>."
+      },
+      {
+        "id": "WEP_035",
+        "topic": "Power",
+        "q": "A water pump raises \\( 50 \\text{ liters} \\) of water through a height of \\( 25 \\text{ m} \\) in \\( 5 \\text{ s} \\). Calculate the power of the pump required. (Take \\( g = 10 \\text{ m s}^{-2} \\), Density of water = \\( 1 \\text{ kg L}^{-1} \\))",
+        "options": [
+          "\\( 2500 \\text{ W} \\)",
+          "\\( 12500 \\text{ W} \\)",
+          "\\( 500 \\text{ W} \\)",
+          "\\( 250 \\text{ W} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Find Mass.</b> \\( 50 \\text{ L} \\) of water = \\( 50 \\text{ kg} \\).<br><b>Step 2: Calculate Work (PE).</b> \\( W = mgh = 50 \\times 10 \\times 25 = 12500 \\text{ J} \\).<br><b>Step 3: Calculate Power.</b> \\( P = \\frac{W}{t} = \\frac{12500}{5} = 2500 \\text{ W} \\)."
+      },
+      {
+        "id": "WEP_036",
+        "topic": "Kinetic Energy",
+        "q": "How fast should a man weighing \\( 600 \\text{ N} \\) run so that his kinetic energy is \\( 750 \\text{ J} \\)? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 5 \\text{ m s}^{-1} \\)",
+          "\\( 2.5 \\text{ m s}^{-1} \\)",
+          "\\( 10 \\text{ m s}^{-1} \\)",
+          "\\( 25 \\text{ m s}^{-1} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Find Mass.</b> Weight \\( W = mg \\implies 600 = m \\times 10 \\implies m = 60 \\text{ kg} \\).<br><b>Step 2: Use KE Formula.</b> \\( K = \\frac{1}{2}mv^2 \\implies 750 = \\frac{1}{2} \\times 60 \\times v^2 \\).<br><b>Step 3: Solve for velocity.</b> \\( 750 = 30v^2 \\implies v^2 = \\frac{750}{30} = 25 \\implies v = 5 \\text{ m s}^{-1} \\)."
+      },
+      {
+        "id": "WEP_037",
+        "topic": "Kinetic Energy",
+        "q": "A truck weighing \\( 5000 \\text{ kgf} \\) and a cart weighing \\( 500 \\text{ kgf} \\) are moving with the same speed. What is the ratio of their kinetic energies?",
+        "options": [
+          "\\( 10:1 \\)",
+          "\\( 1:10 \\)",
+          "\\( 100:1 \\)",
+          "\\( 1:1 \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Concept:</b> Since their speeds (\\( v \\)) are the same, Kinetic Energy is directly proportional to mass (\\( K \\propto m \\)).<br><b>Calculation:</b> \\( \\frac{K_{\\text{truck}}}{K_{\\text{cart}}} = \\frac{m_{\\text{truck}}}{m_{\\text{cart}}} = \\frac{5000}{500} = \\frac{10}{1} \\). The ratio is \\( 10:1 \\)."
+      },
+      {
+        "id": "WEP_038",
+        "topic": "Potential Energy",
+        "q": "A box of weight \\( 150 \\text{ kgf} \\) has gravitational potential energy stored in it equal to \\( 14700 \\text{ J} \\). Find the height of the box above the ground. (Take \\( g = 9.8 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 10 \\text{ m} \\)",
+          "\\( 9.8 \\text{ m} \\)",
+          "\\( 100 \\text{ m} \\)",
+          "\\( 15 \\text{ m} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Understand Weight.</b> The weight (\\( mg \\)) is given as \\( 150 \\text{ kgf} \\). In Newtons, \\( F = mg = 150 \\times 9.8 = 1470 \\text{ N} \\).<br><b>Step 2: Use PE Formula.</b> \\( U = mgh \\implies 14700 = 1470 \\times h \\).<br><b>Step 3: Solve for h.</b> \\( h = \\frac{14700}{1470} = 10 \\text{ m} \\)."
+      },
+      {
+        "id": "WEP_039",
+        "topic": "Power",
+        "q": "An electric motor of power \\( 100 \\text{ W} \\) is used to drive the stirrer in a water bath. If \\( 50\\% \\) of the energy supplied is spent in stirring the water, calculate the work done on the water in \\( 1 \\text{ minute} \\).",
+        "options": [
+          "\\( 3000 \\text{ J} \\)",
+          "\\( 6000 \\text{ J} \\)",
+          "\\( 1500 \\text{ J} \\)",
+          "\\( 50 \\text{ J} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Calculate Useful Power.</b> Power used for stirring = \\( 50\\% \\) of \\( 100 \\text{ W} = 50 \\text{ W} \\).<br><b>Step 2: Calculate Work Done.</b> \\( W = P \\times t \\). Time = \\( 60 \\text{ s} \\).<br><b>Step 3: Solve.</b> \\( W = 50 \\text{ W} \\times 60 \\text{ s} = 3000 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_040",
+        "topic": "Conservation of Energy",
+        "q": "A ball of mass \\( 50 \\text{ g} \\) is thrown vertically upwards with an initial velocity of \\( 20 \\text{ m s}^{-1} \\). What is the maximum height reached if air friction is neglected? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 20 \\text{ m} \\)",
+          "\\( 10 \\text{ m} \\)",
+          "\\( 40 \\text{ m} \\)",
+          "\\( 5 \\text{ m} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Conservation of Energy.</b> Initial Kinetic Energy = Maximum Potential Energy.<br><b>Step 2: Set up equation.</b> \\( \\frac{1}{2}mv^2 = mgh \\implies h = \\frac{v^2}{2g} \\).<br><b>Step 3: Calculate.</b> \\( h = \\frac{20^2}{2 \\times 10} = \\frac{400}{20} = 20 \\text{ m} \\)."
+      },
+      {
+        "id": "WEP_041",
+        "topic": "Conservation of Energy",
+        "q": "A ball is thrown vertically upwards with an initial velocity of \\( 20 \\text{ m s}^{-1} \\). What is the maximum height reached if \\( 40\\% \\) of its initial energy is lost against air friction? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 12 \\text{ m} \\)",
+          "\\( 8 \\text{ m} \\)",
+          "\\( 20 \\text{ m} \\)",
+          "\\( 16 \\text{ m} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Energy Available.</b> Since \\( 40\\% \\) is lost, only \\( 60\\% \\) of the initial KE converts to PE.<br><b>Step 2: Set up equation.</b> \\( mgh = 0.60 \\times \\left(\\frac{1}{2}mv^2\\right) \\).<br><b>Step 3: Solve for h.</b> Mass cancels out. \\( 10 \\times h = 0.60 \\times 0.5 \\times 20^2 = 0.30 \\times 400 = 120 \\). Therefore, \\( h = 12 \\text{ m} \\)."
+      },
+      {
+        "id": "WEP_042",
+        "topic": "Work-Energy Theorem",
+        "q": "A truck weighing \\( 1000 \\text{ kgf} \\) changes its speed from \\( 36 \\text{ km h}^{-1} \\) to \\( 72 \\text{ km h}^{-1} \\) in \\( 2 \\text{ minutes} \\). Calculate the work done by the engine. (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 1.5 \\times 10^5 \\text{ J} \\)",
+          "\\( 3.0 \\times 10^5 \\text{ J} \\)",
+          "\\( 1.5 \\times 10^4 \\text{ J} \\)",
+          "\\( 2.5 \\times 10^5 \\text{ J} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Convert velocities.</b> \\( u = 36 \\times \\frac{5}{18} = 10 \\text{ m s}^{-1} \\). \\( v = 72 \\times \\frac{5}{18} = 20 \\text{ m s}^{-1} \\).<br><b>Step 2: Identify mass.</b> Weight is \\( 1000 \\text{ kgf} \\), so mass \\( m = 1000 \\text{ kg} \\).<br><b>Step 3: Work-Energy Theorem.</b> \\( W = \\frac{1}{2}m(v^2 - u^2) = \\frac{1}{2} \\times 1000 \\times (20^2 - 10^2) \\).<br>\\( W = 500 \\times 300 = 150000 \\text{ J} = 1.5 \\times 10^5 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_043",
+        "topic": "Forms of Energy",
+        "q": "When water falls from a height in a waterfall, its temperature at the bottom is slightly higher than at the top. Why?",
+        "options": [
+          "A part of the kinetic energy is converted into heat energy.",
+          "The water absorbs heat from the sun during the fall.",
+          "The potential energy increases during the fall.",
+          "Friction with the air completely destroys the energy."
+        ],
+        "correct": 0,
+        "sol": "<b>Explanation:</b> As water falls, its potential energy changes into kinetic energy. On striking the bottom, a part of this kinetic energy is dissipated and transformed into heat energy, causing a slight rise in the water's temperature."
+      },
+      {
+        "id": "WEP_044",
+        "topic": "Power",
+        "q": "<b>[Topper Challenge]</b> The work done by a human heart is \\( 1 \\text{ J} \\) per beat. Calculate the power of the heart if it beats \\( 72 \\) times in \\( 1 \\text{ minute} \\).",
+        "options": [
+          "\\( 1.2 \\text{ W} \\)",
+          "\\( 72 \\text{ W} \\)",
+          "\\( 12 \\text{ W} \\)",
+          "\\( 0.6 \\text{ W} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Total Work in 1 minute.</b> \\( W = 1 \\text{ J/beat} \\times 72 \\text{ beats} = 72 \\text{ J} \\).<br><b>Step 2: Convert Time.</b> \\( t = 1 \\text{ minute} = 60 \\text{ s} \\).<br><b>Step 3: Calculate Power.</b> \\( P = \\frac{W}{t} = \\frac{72}{60} = 1.2 \\text{ W} \\)."
+      },
+      {
+        "id": "WEP_045",
+        "topic": "Conservation of Energy",
+        "q": "<b>[Topper Challenge]</b> A skier weighing \\( 60 \\text{ kgf} \\) stands at the top of a ski jump at a height of \\( 75 \\text{ m} \\). He moves down and takes off for his jump at a height of \\( 15 \\text{ m} \\). If \\( 75\\% \\) of his lost potential energy becomes kinetic energy at the take-off point, what is his speed? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 30 \\text{ m s}^{-1} \\)",
+          "\\( 15 \\text{ m s}^{-1} \\)",
+          "\\( 45 \\text{ m s}^{-1} \\)",
+          "\\( 60 \\text{ m s}^{-1} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Calculate Change in PE.</b> Height difference \\( \\Delta h = 75 - 15 = 60 \\text{ m} \\). Loss in PE = \\( mgh = 60 \\times 10 \\times 60 = 36000 \\text{ J} \\).<br><b>Step 2: Calculate KE.</b> \\( 75\\% \\) of this energy becomes KE. \\( K = 0.75 \\times 36000 = 27000 \\text{ J} \\).<br><b>Step 3: Find Speed.</b> \\( \\frac{1}{2}mv^2 = 27000 \\implies \\frac{1}{2} \\times 60 \\times v^2 = 27000 \\).<br>\\( 30v^2 = 27000 \\implies v^2 = 900 \\implies v = 30 \\text{ m s}^{-1} \\)."
       }
     ]
   },
@@ -13205,6 +13595,7 @@
       ]
     }
   };
+
 
 
 
