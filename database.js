@@ -3304,7 +3304,7 @@
 
     "Machines": {
     classTarget: "Class 10",
-    totalQs: 10,
+    totalQs: 45,
     topics: [
       "Technical Terms & Principles",
       "Levers & Their Classes",
@@ -3442,6 +3442,464 @@
         ],
         "correct": 1,
         "sol": "<b>Step 1: Calculate Mechanical Advantage.</b> \\( M.A. = \\frac{\\text{Load}}{\\text{Effort}} = \\frac{50}{10} = 5 \\).<br><b>Step 2: Calculate Velocity Ratio.</b> \\( V.R. = \\frac{d_E}{d_L} = \\frac{1.5}{0.2} = 7.5 \\).<br><b>Step 3: Calculate Efficiency.</b> \\( \\eta = \\frac{M.A.}{V.R.} = \\frac{5}{7.5} = \\frac{2}{3} \\).<br><b>Step 4: Convert to percentage.</b> \\( \\frac{2}{3} \\times 100\\% = 66.67\\% \\)."
+      },
+      {
+        "id": "MAC_011",
+        "topic": "Single Pulleys",
+        "q": "A single fixed pulley has an ideal mechanical advantage of 1. What is the primary practical reason for using this type of pulley?",
+        "options": [
+          "It multiplies the effort applied",
+          "It changes the direction of the applied effort to a more convenient one",
+          "It multiplies the speed of the load",
+          "It reduces the work done to zero"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A single fixed pulley does not act as a force multiplier or a speed multiplier (M.A. = 1, V.R. = 1). Its sole practical purpose is to change the direction of the effort (e.g., pulling downwards instead of lifting upwards), allowing the user to conveniently utilize their own body weight to apply the effort."
+      },
+      {
+        "id": "MAC_012",
+        "topic": "Single Pulleys",
+        "q": "What are the ideal Mechanical Advantage (M.A.) and Velocity Ratio (V.R.) of a single movable pulley system?",
+        "options": [
+          "M.A. = 1, V.R. = 1",
+          "M.A. = 2, V.R. = 1",
+          "M.A. = 2, V.R. = 2",
+          "M.A. = 1, V.R. = 2"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> In a single movable pulley, the load is supported by two vertical segments of the string. Therefore, the effort required is half the load (\\( M.A. = 2 \\)). Consequently, to lift the load by a distance \\( d \\), the effort string must be pulled by a distance \\( 2d \\) (\\( V.R. = 2 \\))."
+      },
+      {
+        "id": "MAC_013",
+        "topic": "Single Pulleys",
+        "q": "A woman uses a combination of one fixed pulley and one movable pulley to lift a bucket of water weighing \\( 200 \\text{ N} \\). If the efficiency of the system is \\( 80\\% \\), calculate the effort she must apply.",
+        "options": [
+          "\\( 125 \\text{ N} \\)",
+          "\\( 100 \\text{ N} \\)",
+          "\\( 160 \\text{ N} \\)",
+          "\\( 250 \\text{ N} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Identify V.R.</b> A single movable pulley system (with one fixed pulley just to change direction) always has a Velocity Ratio \\( V.R. = 2 \\).<br><b>Step 2: Calculate M.A.</b> \\( M.A. = V.R. \\times \\eta = 2 \\times 0.80 = 1.6 \\).<br><b>Step 3: Calculate Effort.</b> \\( M.A. = \\frac{\\text{Load}}{\\text{Effort}} \\implies 1.6 = \\frac{200}{E} \\implies E = \\frac{200}{1.6} = 125 \\text{ N} \\)."
+      },
+      {
+        "id": "MAC_014",
+        "topic": "Block and Tackle System",
+        "q": "In a block and tackle system consisting of 5 pulleys, what is the distance moved by the effort when the load is raised by \\( 2 \\text{ m} \\)?",
+        "options": [
+          "\\( 2 \\text{ m} \\)",
+          "\\( 5 \\text{ m} \\)",
+          "\\( 10 \\text{ m} \\)",
+          "\\( 0.4 \\text{ m} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Identify Velocity Ratio.</b> For a standard block and tackle system, \\( V.R. = n \\) (the total number of pulleys). So, \\( V.R. = 5 \\).<br><b>Step 2: Use V.R. formula.</b> \\( V.R. = \\frac{d_E}{d_L} \\implies 5 = \\frac{d_E}{2 \\text{ m}} \\).<br><b>Step 3: Solve.</b> \\( d_E = 5 \\times 2 = 10 \\text{ m} \\)."
+      },
+      {
+        "id": "MAC_015",
+        "topic": "Block and Tackle System",
+        "q": "Observe the block and tackle system in the diagram. If the total load \\( L \\) is supported by \\( 4 \\) strands of the string, what is the tension \\( T \\) in each strand when in equilibrium? (Assume ideal pulleys)",
+        "imgUrl": "https://placehold.co/600x300/e2e8f0/005CAA?text=Block+and+Tackle%5Cn4+Pulleys%5CnLoad+L+suspended",
+        "options": [
+          "\\( T = 4L \\)",
+          "\\( T = L/4 \\)",
+          "\\( T = L/2 \\)",
+          "\\( T = L \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> In an ideal string, the tension \\( T \\) is uniform throughout. In equilibrium, the total upward force acting on the lower block must equal the downward force (Load).<br><b>Calculation:</b> If \\( 4 \\) strands pull upwards on the movable block, the total upward force is \\( 4T \\). Thus, \\( 4T = L \\implies T = \\frac{L}{4} \\)."
+      },
+      {
+        "id": "MAC_016",
+        "topic": "Block and Tackle System",
+        "q": "A block and tackle system has 3 pulleys. A load of \\( 600 \\text{ N} \\) is lifted by applying an effort of \\( 250 \\text{ N} \\). What are the mechanical advantage and efficiency of the system?",
+        "options": [
+          "M.A. = 3, Efficiency = 100%",
+          "M.A. = 2.4, Efficiency = 80%",
+          "M.A. = 2.5, Efficiency = 83.3%",
+          "M.A. = 2.4, Efficiency = 75%"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate M.A.</b> \\( M.A. = \\frac{\\text{Load}}{\\text{Effort}} = \\frac{600}{250} = 2.4 \\).<br><b>Step 2: Identify V.R.</b> Total number of pulleys \\( n = 3 \\), so \\( V.R. = 3 \\).<br><b>Step 3: Calculate Efficiency.</b> \\( \\eta = \\frac{M.A.}{V.R.} = \\frac{2.4}{3} = 0.80 = 80\\% \\)."
+      },
+      {
+        "id": "MAC_017",
+        "topic": "Block and Tackle System",
+        "q": "In a practical block and tackle system, why is the mechanical advantage always less than the total number of pulleys (\\( n \\))?",
+        "options": [
+          "Because the string is completely weightless",
+          "Because the lower movable block has weight and friction is present",
+          "Because the effort is applied upwards",
+          "Because the velocity ratio inherently decreases over time"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> In a real-world system, the applied effort must overcome not only the useful external load but also the internal weight of the lower movable block of pulleys (\\( w \\)) and the friction in the pulley bearings. Mathematically, \\( M.A. = n - \\frac{w}{E} \\), making it always less than \\( n \\)."
+      },
+      {
+        "id": "MAC_018",
+        "topic": "Block and Tackle System",
+        "q": "When constructing a block and tackle system with an odd number of pulleys (e.g., 5 pulleys total), where MUST the string be tied initially to rig it correctly?",
+        "options": [
+          "To the hook of the upper fixed block",
+          "To the hook of the lower movable block",
+          "To the effort string directly",
+          "It does not matter, either block works"
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> For a block and tackle system with an odd number of pulleys (e.g., 3 in the upper block, 2 in the lower block), the string must always start by being tied to the hook of the <b>lower movable block</b>. This ensures the strands properly loop through all pulleys and that the final effort can be applied in the downward direction."
+      },
+      {
+        "id": "MAC_019",
+        "topic": "Block and Tackle System",
+        "q": "<b>[Topper Challenge]</b> A block and tackle system has 5 pulleys. If the internal weight of the lower block itself is \\( 50 \\text{ N} \\), what effort is required to lift an external load of \\( 450 \\text{ N} \\)? (Assume no friction)",
+        "options": [
+          "\\( 100 \\text{ N} \\)",
+          "\\( 90 \\text{ N} \\)",
+          "\\( 80 \\text{ N} \\)",
+          "\\( 500 \\text{ N} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Calculate Total Load.</b> The effort must lift both the external load and the dead weight of the lower block. Total Load = \\( 450 \\text{ N} + 50 \\text{ N} = 500 \\text{ N} \\).<br><b>Step 2: Relate Tension to Total Load.</b> In a 5-pulley system, 5 strands support the movable block. So, \\( 5T = \\text{Total Load} \\).<br><b>Step 3: Calculate Effort.</b> Since Effort \\( E = T \\) (ignoring friction), \\( 5E = 500 \\implies E = 100 \\text{ N} \\)."
+      },
+      {
+        "id": "MAC_020",
+        "topic": "Block and Tackle System",
+        "q": "<b>[Topper Challenge]</b> A man uses a block and tackle system with a velocity ratio of 4 to lift a load of \\( 100 \\text{ kgf} \\) through a vertical height of \\( 15 \\text{ m} \\) in \\( 25 \\text{ s} \\). If the efficiency of the system is \\( 75\\% \\), calculate the average power generated by the man. (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 600 \\text{ W} \\)",
+          "\\( 800 \\text{ W} \\)",
+          "\\( 450 \\text{ W} \\)",
+          "\\( 1000 \\text{ W} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate Useful Output Work.</b> \\( W_{\\text{load}} = mgh = 100 \\text{ kg} \\times 10 \\times 15 \\text{ m} = 15000 \\text{ J} \\).<br><b>Step 2: Relate to Input Work.</b> Efficiency \\( \\eta = \\frac{\\text{Output Work}}{\\text{Input Work}} \\implies 0.75 = \\frac{15000}{W_{\\text{input}}} \\implies W_{\\text{input}} = \\frac{15000}{0.75} = 20000 \\text{ J} \\).<br><b>Step 3: Calculate Power of Man.</b> Power is the rate of Work Input. \\( P = \\frac{W_{\\text{input}}}{t} = \\frac{20000}{25} = 800 \\text{ W} \\)."
+      },
+      {
+        "id": "MAC_021",
+        "topic": "Levers & Their Classes",
+        "q": "A uniform meter rule rests horizontally on a knife-edge placed at the \\( 60 \\text{ cm} \\) mark when a mass of \\( 10 \\text{ g} \\) is suspended from the \\( 100 \\text{ cm} \\) end. What is the mass of the meter rule?",
+        "options": [
+          "\\( 40 \\text{ g} \\)",
+          "\\( 50 \\text{ g} \\)",
+          "\\( 60 \\text{ g} \\)",
+          "\\( 20 \\text{ g} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Locate the center of gravity.</b> A uniform meter rule has its mass acting exactly at its center (the \\( 50 \\text{ cm} \\) mark).<br><b>Step 2: Apply Principle of Moments.</b> The fulcrum is at \\( 60 \\text{ cm} \\).<br>Anticlockwise moment (rule's mass \\( M \\)) = \\( M \\times (60 - 50) = M \\times 10 \\).<br>Clockwise moment (suspended mass) = \\( 10 \\text{ g} \\times (100 - 60) = 10 \\times 40 = 400 \\).<br><b>Step 3: Solve.</b> \\( M \\times 10 = 400 \\implies M = 40 \\text{ g} \\)."
+      },
+      {
+        "id": "MAC_022",
+        "topic": "Levers & Their Classes",
+        "q": "A pair of scissors has blades that are \\( 15 \\text{ cm} \\) long and handles that are \\( 7.5 \\text{ cm} \\) long. What is the mechanical advantage of the scissors, and what is its primary function?",
+        "options": [
+          "M.A. = 2, Force Multiplier",
+          "M.A. = 0.5, Force Multiplier",
+          "M.A. = 0.5, Speed Multiplier",
+          "M.A. = 2, Speed Multiplier"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Identify arms.</b> Effort arm (handles) = \\( 7.5 \\text{ cm} \\). Load arm (blades) = \\( 15 \\text{ cm} \\).<br><b>Step 2: Calculate M.A.</b> \\( M.A. = \\frac{\\text{Effort Arm}}{\\text{Load Arm}} = \\frac{7.5}{15} = 0.5 \\).<br><b>Step 3: Conclusion.</b> Since \\( M.A. < 1 \\), the machine acts as a <b>Speed/Distance Multiplier</b> (the tips of the blades move faster and further than your fingers)."
+      },
+      {
+        "id": "MAC_023",
+        "topic": "Block and Tackle System",
+        "q": "If a block and tackle system consists of 4 pulleys, but the string is rigged such that the effort is applied by pulling <b>upwards</b>, what is the Velocity Ratio (V.R.) of the system?",
+        "options": [
+          "\\( 3 \\)",
+          "\\( 4 \\)",
+          "\\( 5 \\)",
+          "\\( 2 \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> In a standard block and tackle system pulled <i>downwards</i>, \\( V.R. = n \\) (number of pulleys). However, if the effort is applied <i>upwards</i>, the effort string itself also helps support the movable block.<br><b>Rule:</b> For an upward pull, \\( V.R. = n + 1 \\). Therefore, \\( V.R. = 4 + 1 = 5 \\)."
+      },
+      {
+        "id": "MAC_024",
+        "topic": "Levers & Their Classes",
+        "q": "Observe the diagram of the wheelbarrow. Which class of lever does it represent, and why?",
+        "imgUrl": "https://placehold.co/600x300/e2e8f0/005CAA?text=Wheelbarrow+Diagram%5CnWheel+(Fulcrum)+at+front%5CnLoad+in+the+bucket%5CnHandles+(Effort)+at+back",
+        "options": [
+          "Class I: Fulcrum is in the middle",
+          "Class II: Load is in the middle",
+          "Class III: Effort is in the middle",
+          "Class II: Effort is in the middle"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> In a wheelbarrow, the wheel resting on the ground acts as the <b>Fulcrum</b>. The heavy dirt in the bucket is the <b>Load</b>. The person lifts the handles at the back, which is the <b>Effort</b>. Because the Load is situated exactly between the Fulcrum and the Effort, it is a <b>Class II lever</b>."
+      },
+      {
+        "id": "MAC_025",
+        "topic": "Block and Tackle System",
+        "q": "In a practical block and tackle system, what happens to the Mechanical Advantage (M.A.) and Velocity Ratio (V.R.) if the weight of the lower movable block is significantly increased?",
+        "options": [
+          "M.A. increases, V.R. remains the same",
+          "M.A. decreases, V.R. remains the same",
+          "M.A. decreases, V.R. decreases",
+          "Both remain unchanged"
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> Velocity Ratio is purely determined by the geometry (number of strands/pulleys) and remains entirely unaffected by weight or friction.<br><b>Analysis:</b> The effort must lift both the external load AND the heavy movable block. This wastes more effort, lowering the useful Mechanical Advantage (\\( M.A. = n - \\frac{w}{E} \\))."
+      },
+      {
+        "id": "MAC_026",
+        "topic": "Technical Terms & Principles",
+        "q": "A machine with a mechanical advantage of 5 is used to lift a load of \\( 500 \\text{ N} \\) to a height of \\( 10 \\text{ m} \\). If the efficiency of the machine is \\( 80\\% \\), what is the total work input done by the effort?",
+        "options": [
+          "\\( 5000 \\text{ J} \\)",
+          "\\( 4000 \\text{ J} \\)",
+          "\\( 6250 \\text{ J} \\)",
+          "\\( 1000 \\text{ J} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Calculate Useful Work (Output).</b> \\( W_{\\text{out}} = \\text{Load} \\times d_L = 500 \\text{ N} \\times 10 \\text{ m} = 5000 \\text{ J} \\).<br><b>Step 2: Relate to Input via Efficiency.</b> \\( \\eta = \\frac{W_{\\text{out}}}{W_{\\text{input}}} \\implies 0.80 = \\frac{5000}{W_{\\text{input}}} \\).<br><b>Step 3: Calculate Input.</b> \\( W_{\\text{input}} = \\frac{5000}{0.80} = 6250 \\text{ J} \\)."
+      },
+      {
+        "id": "MAC_027",
+        "topic": "Block and Tackle System",
+        "q": "A block and tackle system has a velocity ratio of 4. An effort of \\( 50 \\text{ N} \\) is applied to lift a load of \\( 150 \\text{ N} \\). What is the efficiency of this system?",
+        "options": [
+          "\\( 100\\% \\)",
+          "\\( 80\\% \\)",
+          "\\( 75\\% \\)",
+          "\\( 60\\% \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Calculate M.A.</b> \\( M.A. = \\frac{\\text{Load}}{\\text{Effort}} = \\frac{150}{50} = 3 \\).<br><b>Step 2: Use Efficiency Formula.</b> \\( \\eta = \\frac{M.A.}{V.R.} \\).<br><b>Step 3: Calculate.</b> \\( \\eta = \\frac{3}{4} = 0.75 = 75\\% \\)."
+      },
+      {
+        "id": "MAC_028",
+        "topic": "Levers & Their Classes",
+        "q": "Which of the following is an example of a Class III lever?",
+        "options": [
+          "Crowbar",
+          "Nutcracker",
+          "Sugar tongs",
+          "Water pump handle"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> In a <b>Class III lever</b>, the effort is applied in the middle. When you use sugar tongs (or tweezers/fishing rods), you squeeze the middle (Effort), the joined end is the pivot (Fulcrum), and the sugar cube is at the far end (Load)."
+      },
+      {
+        "id": "MAC_029",
+        "topic": "Block and Tackle System",
+        "q": "<b>[Topper Challenge]</b> A block and tackle system containing 4 pulleys is used to lift a load. If the internal weight of the lower movable block is \\( 40 \\text{ N} \\) and an effort of \\( 100 \\text{ N} \\) is applied, what is the maximum <b>external</b> load it can lift? (Assume pulleys are frictionless)",
+        "options": [
+          "\\( 400 \\text{ N} \\)",
+          "\\( 360 \\text{ N} \\)",
+          "\\( 440 \\text{ N} \\)",
+          "\\( 100 \\text{ N} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate Total Supported Load.</b> In an ideal 4-pulley system, the total upward force is \\( 4 \\times E \\). Total Load = \\( 4 \\times 100 = 400 \\text{ N} \\).<br><b>Step 2: Subtract internal weight.</b> The effort is busy lifting the lower block (\\( 40 \\text{ N} \\)) as well. <br><b>Step 3: Solve.</b> Useful External Load = Total Load - Weight of lower block = \\( 400 - 40 = 360 \\text{ N} \\)."
+      },
+      {
+        "id": "MAC_030",
+        "topic": "Levers & Their Classes",
+        "q": "<b>[Topper Challenge]</b> A uniform see-saw is \\( 2 \\text{ m} \\) long and pivoted exactly at its center. A boy weighing \\( 40 \\text{ kgf} \\) sits at a distance of \\( 0.6 \\text{ m} \\) from the center. At what distance from the center must a girl weighing \\( 30 \\text{ kgf} \\) sit on the opposite side to balance it?",
+        "options": [
+          "\\( 1.0 \\text{ m} \\)",
+          "\\( 0.8 \\text{ m} \\)",
+          "\\( 0.45 \\text{ m} \\)",
+          "\\( 0.6 \\text{ m} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Set up Principle of Moments.</b> To balance the see-saw, the clockwise moment must equal the anticlockwise moment.<br><b>Step 2: Formulate equation.</b> \\( W_{\\text{boy}} \\times d_{\\text{boy}} = W_{\\text{girl}} \\times d_{\\text{girl}} \\).<br><b>Step 3: Substitute values.</b> \\( 40 \\times 0.6 = 30 \\times d_{\\text{girl}} \\).<br><b>Step 4: Solve.</b> \\( 24 = 30 \\times d_{\\text{girl}} \\implies d_{\\text{girl}} = \\frac{24}{30} = 0.8 \\text{ m} \\)."
+      },
+      {
+        "id": "MAC_031",
+        "topic": "Levers & Their Classes",
+        "q": "When a person lifts a load on the palm of their hand, the elbow joint acts as the fulcrum and the biceps muscle applies the effort. Which class of lever does this represent?",
+        "options": [
+          "Class I",
+          "Class II",
+          "Class III",
+          "It is not a lever"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The elbow is the <b>Fulcrum</b> at one end. The load is in the palm at the other end. The biceps muscle attaches to the forearm just just in front of the elbow, applying the <b>Effort in the middle</b>. Because the Effort is strictly between the Fulcrum and Load, it is a <b>Class III lever</b>."
+      },
+      {
+        "id": "MAC_032",
+        "topic": "Technical Terms & Principles",
+        "q": "Which of the following statements about a 'Speed Multiplier' machine is correct?",
+        "options": [
+          "Its Mechanical Advantage is always greater than 1.",
+          "Its Effort arm is always longer than its Load arm.",
+          "Its Velocity Ratio is always strictly less than 1.",
+          "It multiplies the applied force by reducing the speed."
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> A speed multiplier sacrifices force to gain distance/speed (like a pair of tweezers or a fishing rod).<br><b>Conclusion:</b> Because the load moves a greater distance than the effort (\\( d_L > d_E \\)), the Velocity Ratio (\\( V.R. = \\frac{d_E}{d_L} \\)) is always less than 1. Consequently, its M.A. is also less than 1."
+      },
+      {
+        "id": "MAC_033",
+        "topic": "Block and Tackle System",
+        "q": "A block and tackle system has a Velocity Ratio of 5. If its efficiency is \\( 70\\% \\), what is the maximum load that can be lifted by applying an effort of \\( 200 \\text{ N} \\)?",
+        "options": [
+          "\\( 1000 \\text{ N} \\)",
+          "\\( 700 \\text{ N} \\)",
+          "\\( 140 \\text{ N} \\)",
+          "\\( 350 \\text{ N} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Find Mechanical Advantage.</b> \\( M.A. = V.R. \\times \\eta = 5 \\times 0.70 = 3.5 \\).<br><b>Step 2: Calculate Load.</b> \\( M.A. = \\frac{\\text{Load}}{\\text{Effort}} \\implies 3.5 = \\frac{\\text{Load}}{200} \\).<br><b>Step 3: Solve.</b> Load = \\( 3.5 \\times 200 = 700 \\text{ N} \\)."
+      },
+      {
+        "id": "MAC_034",
+        "topic": "Levers & Their Classes",
+        "q": "A uniform meter scale balances horizontally on a knife edge placed at the \\( 40 \\text{ cm} \\) mark when a weight of \\( 50 \\text{ gf} \\) is suspended from the \\( 10 \\text{ cm} \\) mark. What is the weight of the meter scale?",
+        "options": [
+          "\\( 150 \\text{ gf} \\)",
+          "\\( 100 \\text{ gf} \\)",
+          "\\( 50 \\text{ gf} \\)",
+          "\\( 200 \\text{ gf} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Set up the moments.</b> The fulcrum is at \\( 40 \\text{ cm} \\). The weight of the rule (\\( W \\)) acts at its center of gravity (the \\( 50 \\text{ cm} \\) mark).<br><b>Step 2: Anticlockwise Moment.</b> The \\( 50 \\text{ gf} \\) weight is at \\( 10 \\text{ cm} \\). Distance from fulcrum = \\( 40 - 10 = 30 \\text{ cm} \\). Moment = \\( 50 \\times 30 = 1500 \\).<br><b>Step 3: Clockwise Moment.</b> The rule's weight is at \\( 50 \\text{ cm} \\). Distance = \\( 50 - 40 = 10 \\text{ cm} \\). Moment = \\( W \\times 10 \\).<br><b>Step 4: Solve.</b> \\( W \\times 10 = 1500 \\implies W = 150 \\text{ gf} \\)."
+      },
+      {
+        "id": "MAC_035",
+        "topic": "Single Pulleys",
+        "q": "Look at the diagram showing a single movable pulley. If the load is \\( 100 \\text{ kgf} \\) and the system is ideal, what is the tension \\( T \\) in the string?",
+        "imgUrl": "https://placehold.co/600x300/e2e8f0/005CAA?text=Single+Movable+Pulley%5CnLoad+100kgf+suspended%5CnTwo+vertical+strands",
+        "options": [
+          "\\( 100 \\text{ kgf} \\)",
+          "\\( 50 \\text{ kgf} \\)",
+          "\\( 200 \\text{ kgf} \\)",
+          "\\( 25 \\text{ kgf} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> In a single movable pulley, the load is equally supported by the two vertical segments of the string.<br><b>Calculation:</b> Total upward force = \\( 2T \\). Downward force = Load = \\( 100 \\text{ kgf} \\).<br>\\( 2T = 100 \\implies T = 50 \\text{ kgf} \\). Since Effort \\( E = T \\), the effort required is also \\( 50 \\text{ kgf} \\)."
+      },
+      {
+        "id": "MAC_036",
+        "topic": "Block and Tackle System",
+        "q": "A boy applies an effort of \\( 100 \\text{ N} \\) to a block and tackle system consisting of 4 pulleys to lift a load of \\( 300 \\text{ N} \\). What is the efficiency of the system?",
+        "options": [
+          "\\( 75\\% \\)",
+          "\\( 100\\% \\)",
+          "\\( 80\\% \\)",
+          "\\( 60\\% \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Velocity Ratio.</b> For 4 pulleys, \\( V.R. = 4 \\).<br><b>Step 2: Mechanical Advantage.</b> \\( M.A. = \\frac{\\text{Load}}{\\text{Effort}} = \\frac{300}{100} = 3 \\).<br><b>Step 3: Efficiency.</b> \\( \\eta = \\frac{M.A.}{V.R.} = \\frac{3}{4} = 0.75 \\). The efficiency is \\( 75\\% \\)."
+      },
+      {
+        "id": "MAC_037",
+        "topic": "Technical Terms & Principles",
+        "q": "Is it possible for a machine to have a Mechanical Advantage greater than its Velocity Ratio?",
+        "options": [
+          "Yes, if the machine is completely frictionless.",
+          "Yes, in Class II levers.",
+          "No, because efficiency cannot exceed 100%.",
+          "No, because velocity ratio is always constant."
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Efficiency is defined as \\( \\eta = \\frac{M.A.}{V.R.} \\).<br><b>Explanation:</b> According to the Principle of Conservation of Energy, Work Output can never exceed Work Input. Therefore, efficiency can never be greater than 1 (or 100%). Consequently, M.A. can never be mathematically greater than V.R."
+      },
+      {
+        "id": "MAC_038",
+        "topic": "Levers & Their Classes",
+        "q": "A crowbar of length \\( 120 \\text{ cm} \\) has its fulcrum situated at a distance of \\( 20 \\text{ cm} \\) from the load. Calculate the Velocity Ratio (V.R.) of the crowbar.",
+        "options": [
+          "\\( 6 \\)",
+          "\\( 5 \\)",
+          "\\( 4 \\)",
+          "\\( 0.2 \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Identify Arms.</b> Load arm = \\( 20 \\text{ cm} \\).<br><b>Step 2: Calculate Effort Arm.</b> Effort arm = Total length - Load arm = \\( 120 - 20 = 100 \\text{ cm} \\).<br><b>Step 3: Calculate V.R.</b> By geometry, \\( V.R. = \\frac{\\text{Effort Arm}}{\\text{Load Arm}} = \\frac{100}{20} = 5 \\)."
+      },
+      {
+        "id": "MAC_039",
+        "topic": "Block and Tackle System",
+        "q": "In a block and tackle system, why is it recommended to use a lightweight material for the lower movable block?",
+        "options": [
+          "To increase the Velocity Ratio of the system",
+          "To ensure the effort can be applied upwards",
+          "To maximize the Mechanical Advantage and Efficiency",
+          "To reduce the tension in the individual strings"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The applied effort has to lift both the external load AND the dead weight of the lower movable block. If the lower block is heavy, a significant portion of the effort is wasted lifting the machine itself, which drastically reduces both the useful Mechanical Advantage and the overall Efficiency."
+      },
+      {
+        "id": "MAC_040",
+        "topic": "Levers & Their Classes",
+        "q": "A nutcracker is an example of a Class II lever because:",
+        "options": [
+          "The fulcrum is exactly in the center.",
+          "The effort is applied between the fulcrum and the load.",
+          "The load is placed between the fulcrum and the effort.",
+          "It acts as a speed multiplier."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> In a nutcracker, the hinge is the fulcrum at one end. The handles where you squeeze are the effort at the other end. The nut (the load) is placed perfectly in the middle. A lever with the load in the middle is defined as a Class II lever."
+      },
+      {
+        "id": "MAC_041",
+        "topic": "Single Pulleys",
+        "q": "A single movable pulley acts as a force multiplier because its Mechanical Advantage is 2. However, what is the major practical disadvantage of using a single movable pulley by itself?",
+        "options": [
+          "It requires the effort to be applied in an upward direction, which is highly inconvenient.",
+          "It reduces the velocity ratio to 0.5.",
+          "It requires two separate strings to operate.",
+          "It cannot lift loads greater than 50 kgf."
+        ],
+        "correct": 0,
+        "sol": "<b>Explanation:</b> To lift a load using only a single movable pulley, you must pull the effort string upwards. It is very difficult for a human to comfortably apply a strong upward force (you cannot use your body weight). This is why a single fixed pulley is almost always added to change the direction of the effort downwards."
+      },
+      {
+        "id": "MAC_042",
+        "topic": "Technical Terms & Principles",
+        "q": "If a machine has an efficiency of \\( 85\\% \\), what happens to the remaining \\( 15\\% \\) of the input energy?",
+        "options": [
+          "It is destroyed according to the Work-Energy theorem.",
+          "It is stored in the load as potential energy.",
+          "It is dissipated as heat due to friction and used to move the parts of the machine.",
+          "It is converted into kinetic energy of the load."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> No practical machine is 100% efficient. The 'lost' \\( 15\\% \\) of the input energy is not destroyed; it is expended in overcoming friction between the moving parts and lifting the weight of the machine's moving components (like the lower block in a pulley). This energy generally dissipates as heat."
+      },
+      {
+        "id": "MAC_043",
+        "topic": "Levers & Their Classes",
+        "q": "A force of \\( 5 \\text{ N} \\) is applied at one end of a spanner of length \\( 20 \\text{ cm} \\) to unscrew a nut. What is the moment of force produced?",
+        "options": [
+          "\\( 100 \\text{ N m} \\)",
+          "\\( 1 \\text{ N m} \\)",
+          "\\( 0.25 \\text{ N m} \\)",
+          "\\( 10 \\text{ N m} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Convert units.</b> The perpendicular distance from the fulcrum (the nut) is the length of the spanner: \\( d = 20 \\text{ cm} = 0.2 \\text{ m} \\).<br><b>Step 2: Formula.</b> Moment of Force = Force \\( \\times \\) Perpendicular Distance.<br><b>Step 3: Calculate.</b> Moment = \\( 5 \\text{ N} \\times 0.2 \\text{ m} = 1.0 \\text{ N m} \\)."
+      },
+      {
+        "id": "MAC_044",
+        "topic": "Block and Tackle System",
+        "q": "<b>[Topper Challenge]</b> A block and tackle system has a Velocity Ratio of 3. A load of \\( 50 \\text{ kgf} \\) is lifted using an effort of \\( 20 \\text{ kgf} \\). Assuming the friction in the bearings is negligible, what is the weight of the lower movable block?",
+        "options": [
+          "\\( 10 \\text{ kgf} \\)",
+          "\\( 5 \\text{ kgf} \\)",
+          "\\( 15 \\text{ kgf} \\)",
+          "\\( 2.5 \\text{ kgf} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Ideal vs Real Load.</b> In an ideal 3-pulley system, an effort of \\( 20 \\text{ kgf} \\) should lift a total load of \\( V.R. \\times E = 3 \\times 20 = 60 \\text{ kgf} \\).<br><b>Step 2: Compare with External Load.</b> The external load lifted is only \\( 50 \\text{ kgf} \\).<br><b>Step 3: Find the difference.</b> The 'missing' \\( 10 \\text{ kgf} \\) (\\( 60 - 50 \\)) of lifting capacity is the effort being wasted to lift the dead weight of the lower block itself. Therefore, the block weighs \\( 10 \\text{ kgf} \\)."
+      },
+      {
+        "id": "MAC_045",
+        "topic": "Technical Terms & Principles",
+        "q": "<b>[Topper Challenge]</b> A machine with a velocity ratio of 5 lifts a load of \\( 1000 \\text{ N} \\) through a height of \\( 2 \\text{ m} \\) in \\( 5 \\text{ seconds} \\). If its efficiency is \\( 80\\% \\), what is the input power supplied to the machine?",
+        "options": [
+          "\\( 400 \\text{ W} \\)",
+          "\\( 500 \\text{ W} \\)",
+          "\\( 250 \\text{ W} \\)",
+          "\\( 312.5 \\text{ W} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate Useful Work Output.</b> \\( W_{\\text{out}} = \\text{Load} \\times h = 1000 \\times 2 = 2000 \\text{ J} \\).<br><b>Step 2: Calculate Work Input.</b> Efficiency = \\( \\frac{W_{\\text{out}}}{W_{\\text{input}}} \\implies 0.80 = \\frac{2000}{W_{\\text{input}}} \\implies W_{\\text{input}} = \\frac{2000}{0.80} = 2500 \\text{ J} \\).<br><b>Step 3: Calculate Power Input.</b> Power = \\( \\frac{W_{\\text{input}}}{t} = \\frac{2500}{5} = 500 \\text{ W} \\)."
       }
     ]
   },
@@ -13935,6 +14393,7 @@
       ]
     }
   };
+
 
 
 
