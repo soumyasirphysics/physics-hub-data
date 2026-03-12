@@ -2504,6 +2504,218 @@
         }
       ]
     },
+
+    "Work, Energy and Power": {
+    classTarget: "Class 10",
+    totalQs: 15,
+    topics: [
+      "Measurement of Work",
+      "Power",
+      "Units of Energy",
+      "Potential Energy",
+      "Kinetic Energy",
+      "Work-Energy Theorem",
+      "Conservation of Energy"
+    ],
+    questions: [
+      {
+        "id": "WEP_001",
+        "topic": "Measurement of Work",
+        "q": "A force of \\( 20 \\text{ N} \\) displaces a body by \\( 3 \\text{ m} \\) in the direction of the force. What is the work done?",
+        "options": [
+          "\\( 60 \\text{ J} \\)",
+          "\\( 20 \\text{ J} \\)",
+          "\\( 23 \\text{ J} \\)",
+          "\\( 0 \\text{ J} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Formula.</b> Work done \\( W = F \\times S \\cos(\\theta) \\).<br><b>Step 2: Calculate.</b> Since the displacement is in the direction of the force, \\( \\theta = 0^\\circ \\) and \\( \\cos(0^\\circ) = 1 \\).<br>\\( W = 20 \\times 3 = 60 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_002",
+        "topic": "Measurement of Work",
+        "q": "A force of \\( 50 \\text{ N} \\) acts on a body and displaces it by \\( 4 \\text{ m} \\) at an angle of \\( 60^\\circ \\) to the direction of the force. Calculate the work done.",
+        "options": [
+          "\\( 200 \\text{ J} \\)",
+          "\\( 100 \\text{ J} \\)",
+          "\\( 0 \\text{ J} \\)",
+          "\\( 173.2 \\text{ J} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Set up the equation.</b> \\( W = F \\times S \\cos(\\theta) \\).<br><b>Step 2: Substitute values.</b> \\( W = 50 \\times 4 \\times \\cos(60^\\circ) \\).<br>Since \\( \\cos(60^\\circ) = \\frac{1}{2} \\), \\( W = 200 \\times 0.5 = 100 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_003",
+        "topic": "Measurement of Work",
+        "q": "A ball of mass \\( 0.5 \\text{ kg} \\) is thrown vertically upwards to a height of \\( 5 \\text{ m} \\). What is the work done by the force of gravity? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 25 \\text{ J} \\)",
+          "\\( -25 \\text{ J} \\)",
+          "\\( 50 \\text{ J} \\)",
+          "\\( -50 \\text{ J} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Identify directions.</b> The displacement is upwards, but the force of gravity acts downwards. Thus, \\( \\theta = 180^\\circ \\).<br><b>Step 2: Calculate.</b> \\( W = F \\times S \\cos(180^\\circ) = -(mg) \\times h = -(0.5 \\times 10) \\times 5 = -25 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_004",
+        "topic": "Measurement of Work",
+        "q": "A satellite revolves around the earth in a circular orbit. The work done by the gravitational force over one complete revolution is:",
+        "options": [
+          "Positive",
+          "Negative",
+          "Zero",
+          "Infinite"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> In a circular path, the gravitational (centripetal) force is directed towards the center, while the displacement is tangential at any instant.<br><b>Conclusion:</b> Since the angle between force and displacement is always \\( 90^\\circ \\) and \\( \\cos(90^\\circ) = 0 \\), the work done is strictly \\( 0 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_005",
+        "topic": "Power",
+        "q": "A machine raises a load of \\( 500 \\text{ N} \\) through a height of \\( 10 \\text{ m} \\) in \\( 10 \\text{ s} \\). Calculate the power of the machine.",
+        "options": [
+          "\\( 50 \\text{ W} \\)",
+          "\\( 500 \\text{ W} \\)",
+          "\\( 5000 \\text{ W} \\)",
+          "\\( 5 \\text{ W} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate Work.</b> \\( W = F \\times S = 500 \\text{ N} \\times 10 \\text{ m} = 5000 \\text{ J} \\).<br><b>Step 2: Calculate Power.</b> \\( P = \\frac{W}{t} = \\frac{5000}{10} = 500 \\text{ W} \\)."
+      },
+      {
+        "id": "WEP_006",
+        "topic": "Power",
+        "q": "A car engine applies a forward force of \\( 1500 \\text{ N} \\) to maintain a constant speed of \\( 20 \\text{ m s}^{-1} \\). What is the power developed by the engine?",
+        "options": [
+          "\\( 30 \\text{ kW} \\)",
+          "\\( 15 \\text{ kW} \\)",
+          "\\( 75 \\text{ kW} \\)",
+          "\\( 300 \\text{ W} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Use the Power-Velocity formula.</b> \\( P = F \\times v \\).<br><b>Step 2: Calculate.</b> \\( P = 1500 \\times 20 = 30000 \\text{ W} \\).<br><b>Step 3: Convert units.</b> \\( 30000 \\text{ W} = 30 \\text{ kW} \\)."
+      },
+      {
+        "id": "WEP_007",
+        "topic": "Units of Energy",
+        "q": "Which of the following is NOT a unit of energy?",
+        "options": [
+          "Joule",
+          "Kilowatt-hour",
+          "Electron volt",
+          "Kilowatt"
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> Joule (S.I. unit), Kilowatt-hour (commercial unit), and Electron volt (atomic unit) are all valid units of work or energy. <b>Kilowatt (kW)</b> is a unit of <b>Power</b> (rate of doing work)."
+      },
+      {
+        "id": "WEP_008",
+        "topic": "Potential Energy",
+        "q": "A boy weighing \\( 40 \\text{ kgf} \\) climbs up \\( 20 \\) stairs, each \\( 20 \\text{ cm} \\) high. Calculate the increase in his gravitational potential energy. (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 160 \\text{ J} \\)",
+          "\\( 1600 \\text{ J} \\)",
+          "\\( 800 \\text{ J} \\)",
+          "\\( 3200 \\text{ J} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Total vertical height.</b> \\( h = 20 \\times 20 \\text{ cm} = 400 \\text{ cm} = 4 \\text{ m} \\).<br><b>Step 2: Force of gravity.</b> A weight of \\( 40 \\text{ kgf} \\) implies a mass \\( m = 40 \\text{ kg} \\).<br><b>Step 3: Calculate PE.</b> \\( U = mgh = 40 \\times 10 \\times 4 = 1600 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_009",
+        "topic": "Kinetic Energy",
+        "q": "If the velocity of a moving cart is reduced to \\( \\frac{1}{3} \\)rd of its initial velocity, how is its kinetic energy affected?",
+        "options": [
+          "Becomes \\( \\frac{1}{3} \\)rd",
+          "Becomes \\( 3 \\) times",
+          "Becomes \\( \\frac{1}{9} \\)th",
+          "Remains same"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Kinetic energy is directly proportional to the square of velocity (\\( K = \\frac{1}{2}mv^2 \\)).<br><b>Analysis:</b> If \\( v \\) becomes \\( \\frac{v}{3} \\), then \\( K_{\\text{new}} = \\frac{1}{2}m\\left(\\frac{v}{3}\\right)^2 = \\frac{1}{9} \\left(\\frac{1}{2}mv^2\\right) \\). The new kinetic energy is \\( \\frac{1}{9} \\)th the original."
+      },
+      {
+        "id": "WEP_010",
+        "topic": "Kinetic Energy",
+        "q": "A body of mass \\( 0.1 \\text{ kg} \\) has a momentum of \\( 20 \\text{ kg m s}^{-1} \\). What is its kinetic energy?",
+        "options": [
+          "\\( 200 \\text{ J} \\)",
+          "\\( 2000 \\text{ J} \\)",
+          "\\( 400 \\text{ J} \\)",
+          "\\( 1000 \\text{ J} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Use the Momentum-KE formula.</b> The relationship is \\( K = \\frac{p^2}{2m} \\).<br><b>Step 2: Substitute values.</b> \\( K = \\frac{20^2}{2 \\times 0.1} = \\frac{400}{0.2} = 2000 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_011",
+        "topic": "Work-Energy Theorem",
+        "q": "A force is applied to a car of mass \\( 1000 \\text{ kg} \\), increasing its speed from \\( 10 \\text{ m s}^{-1} \\) to \\( 20 \\text{ m s}^{-1} \\). What is the work done by the force?",
+        "options": [
+          "\\( 1.5 \\times 10^5 \\text{ J} \\)",
+          "\\( 1.0 \\times 10^5 \\text{ J} \\)",
+          "\\( 2.0 \\times 10^5 \\text{ J} \\)",
+          "\\( 5.0 \\times 10^4 \\text{ J} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Work-Energy Theorem.</b> Work done = Change in Kinetic Energy (\\( K_f - K_i \\)).<br><b>Step 2: Calculate.</b> \\( W = \\frac{1}{2}m(v^2 - u^2) = \\frac{1}{2} \\times 1000 \\times (20^2 - 10^2) \\).<br>\\( W = 500 \\times (400 - 100) = 500 \\times 300 = 150000 \\text{ J} = 1.5 \\times 10^5 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_012",
+        "topic": "Conservation of Energy",
+        "q": "A body of mass \\( 1 \\text{ kg} \\) falls freely from a height of \\( 10 \\text{ m} \\). What is its kinetic energy just before hitting the ground? (Take \\( g = 9.8 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 98 \\text{ J} \\)",
+          "\\( 49 \\text{ J} \\)",
+          "\\( 0 \\text{ J} \\)",
+          "\\( 19.6 \\text{ J} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Concept: Conservation of Mechanical Energy.</b> As the body falls, its initial potential energy at the top converts entirely into kinetic energy just before impact.<br><b>Calculation:</b> \\( K_{\\text{final}} = U_{\\text{initial}} = mgh = 1 \\times 9.8 \\times 10 = 98 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_013",
+        "topic": "Conservation of Energy",
+        "q": "The bob of a simple pendulum is imparted a velocity of \\( 5 \\text{ m s}^{-1} \\) when it is at its mean position. To what maximum vertical height will it rise if \\( 60\\% \\) of its energy is lost in overcoming air friction? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 1.25 \\text{ m} \\)",
+          "\\( 0.50 \\text{ m} \\)",
+          "\\( 0.75 \\text{ m} \\)",
+          "\\( 0.25 \\text{ m} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Energy available.</b> If \\( 60\\% \\) is lost, only \\( 40\\% \\) of the initial KE converts to PE at the extreme position.<br><b>Step 2: Set up Equation.</b> \\( mgh = 0.40 \\times \\left(\\frac{1}{2}mv^2\\right) \\).<br><b>Step 3: Solve for h.</b> The mass \\( m \\) cancels out. \\( 10 \\times h = 0.40 \\times 0.5 \\times 25 = 5 \\). Thus, \\( h = \\frac{5}{10} = 0.50 \\text{ m} \\)."
+      },
+      {
+        "id": "WEP_014",
+        "topic": "Measurement of Work",
+        "q": "<b>[Topper Challenge]</b> A block of mass \\( 30 \\text{ kg} \\) is pulled up a slope of length \\( 5 \\text{ m} \\) to a vertical height of \\( 1.5 \\text{ m} \\) by a constant force of \\( 200 \\text{ N} \\) parallel to the slope. What is the work done against friction? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 1000 \\text{ J} \\)",
+          "\\( 450 \\text{ J} \\)",
+          "\\( 600 \\text{ J} \\)",
+          "\\( 550 \\text{ J} \\)"
+        ],
+        "correct": 3,
+        "sol": "<b>Step 1: Total Work Done.</b> \\( W_{\\text{total}} = F \\times d = 200 \\text{ N} \\times 5 \\text{ m} = 1000 \\text{ J} \\).<br><b>Step 2: Useful Work (PE Gain).</b> The work used to lift the block vertically is \\( U = mgh = 30 \\times 10 \\times 1.5 = 450 \\text{ J} \\).<br><b>Step 3: Work Against Friction.</b> Difference between total work and useful work: \\( 1000 - 450 = 550 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_015",
+        "topic": "Work-Energy Theorem",
+        "q": "<b>[Topper Challenge]</b> A bullet of mass \\( 50 \\text{ g} \\) is moving with a velocity of \\( 500 \\text{ m s}^{-1} \\). It penetrates \\( 10 \\text{ cm} \\) into a still wooden target and comes to rest. What is the average retarding force offered by the target?",
+        "options": [
+          "\\( 62500 \\text{ N} \\)",
+          "\\( 6250 \\text{ N} \\)",
+          "\\( 125000 \\text{ N} \\)",
+          "\\( 31250 \\text{ N} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Initial Kinetic Energy.</b> Convert mass: \\( m = 0.05 \\text{ kg} \\). \\( K = \\frac{1}{2} \\times 0.05 \\times (500)^2 = 6250 \\text{ J} \\).<br><b>Step 2: Work-Energy relation.</b> Work done against resistance = Loss of KE. \\( F \\times S = K \\).<br><b>Step 3: Solve for F.</b> Convert distance: \\( S = 10 \\text{ cm} = 0.1 \\text{ m} \\). \\( F \\times 0.1 = 6250 \\implies F = 62500 \\text{ N} \\)."
+      }
+    ]
+  },
+    
     // ==========================================
     // CHAPTER: VECTORS
     // ==========================================
@@ -12993,6 +13205,7 @@
       ]
     }
   };
+
 
 
 
