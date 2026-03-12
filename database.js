@@ -2507,7 +2507,7 @@
 
     "Work, Energy and Power": {
     classTarget: "Class 10",
-    totalQs: 45,
+    totalQs: 60,
     topics: [
       "Measurement of Work",
       "Power",
@@ -3103,6 +3103,201 @@
         ],
         "correct": 0,
         "sol": "<b>Step 1: Calculate Change in PE.</b> Height difference \\( \\Delta h = 75 - 15 = 60 \\text{ m} \\). Loss in PE = \\( mgh = 60 \\times 10 \\times 60 = 36000 \\text{ J} \\).<br><b>Step 2: Calculate KE.</b> \\( 75\\% \\) of this energy becomes KE. \\( K = 0.75 \\times 36000 = 27000 \\text{ J} \\).<br><b>Step 3: Find Speed.</b> \\( \\frac{1}{2}mv^2 = 27000 \\implies \\frac{1}{2} \\times 60 \\times v^2 = 27000 \\).<br>\\( 30v^2 = 27000 \\implies v^2 = 900 \\implies v = 30 \\text{ m s}^{-1} \\)."
+      },
+      {
+        "id": "WEP_046",
+        "topic": "Measurement of Work",
+        "q": "A force of \\( 10 \\text{ N} \\) acts on a body and displaces it by \\( 2 \\text{ m} \\). If the work done is \\( 10 \\text{ J} \\), calculate the angle between the direction of the force and the displacement.",
+        "options": [
+          "\\( 0^\\circ \\)",
+          "\\( 30^\\circ \\)",
+          "\\( 45^\\circ \\)",
+          "\\( 60^\\circ \\)"
+        ],
+        "correct": 3,
+        "sol": "<b>Step 1: Write the formula.</b> \\( W = F \\times S \\cos(\\theta) \\).<br><b>Step 2: Substitute values.</b> \\( 10 = 10 \\times 2 \\times \\cos(\\theta) \\).<br><b>Step 3: Solve for angle.</b> \\( 10 = 20 \\cos(\\theta) \\implies \\cos(\\theta) = 0.5 \\). The angle whose cosine is \\( 0.5 \\) is \\( 60^\\circ \\)."
+      },
+      {
+        "id": "WEP_047",
+        "topic": "Potential Energy",
+        "q": "Two bodies A and B of masses \\( 2 \\text{ kg} \\) and \\( 4 \\text{ kg} \\) respectively are kept at the same height above the ground. What is the ratio of their gravitational potential energies?",
+        "options": [
+          "\\( 1:4 \\)",
+          "\\( 1:2 \\)",
+          "\\( 2:1 \\)",
+          "\\( 1:1 \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> Gravitational Potential Energy \\( U = mgh \\).<br><b>Analysis:</b> Since \\( g \\) and height \\( h \\) are the same for both, \\( U \\propto m \\).<br><b>Calculation:</b> \\( \\frac{U_A}{U_B} = \\frac{m_A}{m_B} = \\frac{2}{4} = \\frac{1}{2} \\). The ratio is \\( 1:2 \\)."
+      },
+      {
+        "id": "WEP_048",
+        "topic": "Power",
+        "q": "A human heart does \\( 1.5 \\text{ J} \\) of work per beat. If it beats \\( 60 \\) times in one minute, what is its power output?",
+        "options": [
+          "\\( 1.5 \\text{ W} \\)",
+          "\\( 90 \\text{ W} \\)",
+          "\\( 15 \\text{ W} \\)",
+          "\\( 0.5 \\text{ W} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Total Work.</b> \\( W = 1.5 \\text{ J} \\times 60 \\text{ beats} = 90 \\text{ J} \\).<br><b>Step 2: Time.</b> \\( 1 \\text{ minute} = 60 \\text{ s} \\).<br><b>Step 3: Calculate Power.</b> \\( P = \\frac{W}{t} = \\frac{90}{60} = 1.5 \\text{ W} \\)."
+      },
+      {
+        "id": "WEP_049",
+        "topic": "Work-Energy Theorem",
+        "q": "A bullet of mass \\( 20 \\text{ g} \\) enters a target at \\( 100 \\text{ m s}^{-1} \\) and emerges with a velocity of \\( 50 \\text{ m s}^{-1} \\). What is the loss of kinetic energy?",
+        "options": [
+          "\\( 75 \\text{ J} \\)",
+          "\\( 100 \\text{ J} \\)",
+          "\\( 50 \\text{ J} \\)",
+          "\\( 25 \\text{ J} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Convert Mass.</b> \\( m = 0.02 \\text{ kg} \\).<br><b>Step 2: Initial KE.</b> \\( K_i = \\frac{1}{2} \\times 0.02 \\times (100)^2 = 100 \\text{ J} \\).<br><b>Step 3: Final KE.</b> \\( K_f = \\frac{1}{2} \\times 0.02 \\times (50)^2 = 25 \\text{ J} \\).<br><b>Step 4: Loss.</b> \\( \\Delta K = 100 - 25 = 75 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_050",
+        "topic": "Units of Energy",
+        "q": "Convert \\( 1 \\text{ MeV} \\) (Mega electron-volt) into Joules.",
+        "options": [
+          "\\( 1.6 \\times 10^{-19} \\text{ J} \\)",
+          "\\( 1.6 \\times 10^{-13} \\text{ J} \\)",
+          "\\( 3.6 \\times 10^{6} \\text{ J} \\)",
+          "\\( 1.6 \\times 10^{-16} \\text{ J} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Know the base conversion.</b> \\( 1 \\text{ eV} = 1.6 \\times 10^{-19} \\text{ J} \\).<br><b>Step 2: Understand the prefix.</b> 'Mega' (M) means \\( 10^6 \\).<br><b>Step 3: Multiply.</b> \\( 1 \\text{ MeV} = 10^6 \\times 1.6 \\times 10^{-19} = 1.6 \\times 10^{-13} \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_051",
+        "topic": "Forms of Energy",
+        "q": "Which form of energy is stored in a compressed or stretched spring?",
+        "options": [
+          "Gravitational potential energy",
+          "Kinetic energy",
+          "Elastic potential energy",
+          "Rest energy"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The energy stored in a body due to a change in its shape or size (like stretching a bow string or compressing a spring) is called <b>Elastic Potential Energy</b>."
+      },
+      {
+        "id": "WEP_052",
+        "topic": "Conservation of Energy",
+        "q": "A ball of mass \\( 100 \\text{ g} \\) falls from a height of \\( 10 \\text{ m} \\). What will be its kinetic energy exactly at a height of \\( 4 \\text{ m} \\) above the ground? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 10 \\text{ J} \\)",
+          "\\( 4 \\text{ J} \\)",
+          "\\( 6 \\text{ J} \\)",
+          "\\( 14 \\text{ J} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Principle of Conservation.</b> Loss in Potential Energy = Gain in Kinetic Energy.<br><b>Step 2: Calculate height lost.</b> The ball has fallen \\( 10 \\text{ m} - 4 \\text{ m} = 6 \\text{ m} \\).<br><b>Step 3: Calculate gained KE.</b> \\( K = mg(\\Delta h) = 0.1 \\text{ kg} \\times 10 \\times 6 = 6 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_053",
+        "topic": "Power",
+        "q": "A machine operates at a power of \\( 200 \\text{ W} \\) for \\( 5 \\text{ minutes} \\). How much work is done by the machine?",
+        "options": [
+          "\\( 1000 \\text{ J} \\)",
+          "\\( 60,000 \\text{ J} \\)",
+          "\\( 10,000 \\text{ J} \\)",
+          "\\( 6,000 \\text{ J} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Convert time to seconds.</b> \\( t = 5 \\times 60 = 300 \\text{ s} \\).<br><b>Step 2: Formula.</b> \\( W = P \\times t \\).<br><b>Step 3: Calculate.</b> \\( W = 200 \\times 300 = 60,000 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_054",
+        "topic": "Kinetic Energy",
+        "q": "Two bodies of masses \\( 1 \\text{ kg} \\) and \\( 4 \\text{ kg} \\) possess the same kinetic energy. What is the ratio of their momentums?",
+        "options": [
+          "\\( 1:4 \\)",
+          "\\( 1:2 \\)",
+          "\\( 2:1 \\)",
+          "\\( 4:1 \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> The relation between momentum (\\( p \\)) and Kinetic Energy (\\( K \\)) is \\( p = \\sqrt{2mK} \\).<br><b>Analysis:</b> Since \\( K \\) is constant for both, \\( p \\propto \\sqrt{m} \\).<br><b>Calculation:</b> \\( \\frac{p_1}{p_2} = \\sqrt{\\frac{m_1}{m_2}} = \\sqrt{\\frac{1}{4}} = \\frac{1}{2} \\). The ratio is \\( 1:2 \\)."
+      },
+      {
+        "id": "WEP_055",
+        "topic": "Work-Energy Theorem",
+        "q": "A cyclist of mass \\( 40 \\text{ kg} \\) (including the bicycle) is riding at \\( 5 \\text{ m s}^{-1} \\). He applies the brakes and comes to a stop. What is the total work done by the braking force?",
+        "options": [
+          "\\( 500 \\text{ J} \\)",
+          "\\( -500 \\text{ J} \\)",
+          "\\( 1000 \\text{ J} \\)",
+          "\\( -1000 \\text{ J} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Work-Energy Theorem.</b> Work done = Change in Kinetic Energy (\\( K_f - K_i \\)).<br><b>Step 2: Calculate.</b> Since he stops, \\( K_f = 0 \\).<br>\\( W = 0 - \\frac{1}{2}mv^2 = - \\frac{1}{2} \\times 40 \\times (5)^2 = -500 \\text{ J} \\). The negative sign indicates the force acted opposite to the motion."
+      },
+      {
+        "id": "WEP_056",
+        "topic": "Measurement of Work",
+        "q": "A boy pushes a heavy, immovable wall with a force of \\( 100 \\text{ N} \\) for \\( 5 \\text{ minutes} \\). The work done by the boy is:",
+        "options": [
+          "\\( 500 \\text{ J} \\)",
+          "\\( 30000 \\text{ J} \\)",
+          "\\( 0 \\text{ J} \\)",
+          "Infinite"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> In physics, Work = Force \\( \\times \\) Displacement.<br><b>Conclusion:</b> Since the wall is immovable, the displacement \\( S = 0 \\). Therefore, regardless of how much force or time is spent, the mechanical work done is \\( 0 \\text{ J} \\)."
+      },
+      {
+        "id": "WEP_057",
+        "topic": "Forms of Energy",
+        "q": "When an arrow is released from a drawn bow, the primary energy transformation involved is:",
+        "options": [
+          "Kinetic energy into Elastic potential energy",
+          "Elastic potential energy into Kinetic energy",
+          "Heat energy into Kinetic energy",
+          "Gravitational potential energy into Kinetic energy"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> When you pull the bow string back, you store <b>Elastic Potential Energy</b> in it. When you release it, that stored energy is instantly transferred to the arrow as <b>Kinetic Energy</b>, causing it to fly forward."
+      },
+      {
+        "id": "WEP_058",
+        "topic": "Kinetic Energy",
+        "q": "If the mass of an object is halved and its velocity is doubled, what happens to its kinetic energy?",
+        "options": [
+          "Remains the same",
+          "Halved",
+          "Doubled",
+          "Quadrupled"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Original KE.</b> \\( K = \\frac{1}{2}mv^2 \\).<br><b>Step 2: Apply changes.</b> New mass = \\( \\frac{m}{2} \\), New velocity = \\( 2v \\).<br><b>Step 3: Calculate new KE.</b> \\( K' = \\frac{1}{2} \\left(\\frac{m}{2}\\right) (2v)^2 = \\frac{1}{2} \\left(\\frac{m}{2}\\right) 4v^2 = 2 \\times \\left(\\frac{1}{2}mv^2\\right) \\). The kinetic energy is doubled."
+      },
+      {
+        "id": "WEP_059",
+        "topic": "Power",
+        "q": "<b>[Topper Challenge]</b> An electric engine pumps \\( 30,000 \\text{ kg} \\) of water to a vertical height of \\( 45 \\text{ m} \\) in \\( 10 \\text{ minutes} \\). If the efficiency of the engine is \\( 80\\% \\), what is the input power of the engine? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
+        "options": [
+          "\\( 22.5 \\text{ kW} \\)",
+          "\\( 28.1 \\text{ kW} \\)",
+          "\\( 18.0 \\text{ kW} \\)",
+          "\\( 36.5 \\text{ kW} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Useful Work.</b> \\( W = mgh = 30000 \\times 10 \\times 45 = 1.35 \\times 10^7 \\text{ J} \\).<br><b>Step 2: Output Power.</b> Time = \\( 600 \\text{ s} \\). \\( P_{\\text{out}} = \\frac{1.35 \\times 10^7}{600} = 22500 \\text{ W} = 22.5 \\text{ kW} \\).<br><b>Step 3: Input Power.</b> Efficiency = \\( \\frac{\\text{Output}}{\\text{Input}} \\implies 0.80 = \\frac{22.5}{\\text{Input}} \\implies \\text{Input} = \\frac{22.5}{0.80} = 28.125 \\text{ kW} \\)."
+      },
+      {
+        "id": "WEP_060",
+        "topic": "Work-Energy Theorem",
+        "q": "<b>[Topper Challenge]</b> A bullet of mass \\( 50 \\text{ g} \\) moving at \\( 200 \\text{ m s}^{-1} \\) strikes a wooden block and comes to rest after penetrating \\( 20 \\text{ cm} \\) into it. Calculate the average resistive force exerted by the wooden block.",
+        "options": [
+          "\\( 5000 \\text{ N} \\)",
+          "\\( 2500 \\text{ N} \\)",
+          "\\( 10000 \\text{ N} \\)",
+          "\\( 1000 \\text{ N} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Calculate Kinetic Energy.</b> \\( m = 0.05 \\text{ kg} \\). \\( K = \\frac{1}{2}mv^2 = \\frac{1}{2} \\times 0.05 \\times (200)^2 = 1000 \\text{ J} \\).<br><b>Step 2: Work-Energy Theorem.</b> The work done by the resistive force stops the bullet. \\( W = K \\implies F \\times S = 1000 \\).<br><b>Step 3: Solve for F.</b> \\( S = 20 \\text{ cm} = 0.2 \\text{ m} \\). \\( F \\times 0.2 = 1000 \\implies F = \\frac{1000}{0.2} = 5000 \\text{ N} \\)."
       }
     ]
   },
@@ -13596,6 +13791,7 @@
       ]
     }
   };
+
 
 
 
