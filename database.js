@@ -5181,6 +5181,539 @@
       }
     ]
   },
+    "Spectrum": {
+    classTarget: "Class 10",
+    totalQs: 40,
+    topics: [
+      "Deviation, Dispersion & Visible Spectrum",
+      "Electromagnetic Spectrum & Properties",
+      "Infrared & Ultraviolet Radiations",
+      "Scattering of Light & Applications"
+    ],
+    questions: [
+      {
+        "id": "SPC_001",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "The phenomenon of splitting of white light by a prism into its constituent colours is scientifically termed as:",
+        "options": [
+          "Deviation",
+          "Scattering",
+          "Dispersion",
+          "Diffraction"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> When white light passes through a prism, different colours travel at different speeds and bend by different amounts. This separation of white light into its component colours (VIBGYOR) is called <b>Dispersion</b>. (Deviation is just the bending of light, while dispersion is the specific splitting effect)."
+      },
+      {
+        "id": "SPC_002",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "The approximate wavelength range of the visible spectrum of light for the normal human eye is:",
+        "options": [
+          "\\( 1000 \\text{ \\AA} \\) to \\( 3000 \\text{ \\AA} \\)",
+          "\\( 4000 \\text{ \\AA} \\) to \\( 8000 \\text{ \\AA} \\)",
+          "\\( 8000 \\text{ \\AA} \\) to \\( 12000 \\text{ \\AA} \\)",
+          "\\( 100 \\text{ nm} \\) to \\( 400 \\text{ nm} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The visible spectrum starts from Violet and ends at Red. The wavelength of Violet light is approximately \\( 4000 \\text{ \\AA} \\) (or \\( 400 \\text{ nm} \\)) and the wavelength of Red light is approximately \\( 8000 \\text{ \\AA} \\) (or \\( 800 \\text{ nm} \\)). Therefore, the visible range is <b>\\( 4000 \\text{ \\AA} \\) to \\( 8000 \\text{ \\AA} \\)</b>."
+      },
+      {
+        "id": "SPC_003",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "Which of the following colours of white light suffers the maximum angle of deviation when it passes through a glass prism?",
+        "options": [
+          "Red",
+          "Yellow",
+          "Green",
+          "Violet"
+        ],
+        "correct": 3,
+        "sol": "<b>Concept:</b> The angle of deviation is inversely related to the wavelength of light.<br><b>Explanation:</b> <b>Violet</b> light has the shortest wavelength in the visible spectrum. Because it has the shortest wavelength, it travels the slowest in glass, encounters the highest refractive index, and therefore suffers the maximum deviation (bends the most towards the base of the prism)."
+      },
+      {
+        "id": "SPC_004",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "Observe the ray diagram showing a narrow beam of white light passing through a glass prism. The emergent beam forms a spectrum on a screen. Identify the colours corresponding to the rays marked 'X' (topmost ray, least deviated) and 'Y' (bottommost ray, most deviated).",
+        "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz_PyHoC55WwsjHerpCRJmbH24iZL5SSKeH6CYW9cGtng2a5xpZREu2kKlMoy57fG2oK683Uyv98IZ1DMEGfEldTPko0GgDpsEyeOyZcLT9GOXWDn1D2pBJyRZ_0CStU9YiMWFHwyqZvitIVOR9Z0Y501SRoPc0cVJKx-ovIpISP-YcPjI_kWl_GAsc6Id/s320/Gemini_Generated_Image_9npck89npck89npc.png",
+        "options": [
+          "X = Violet, Y = Red",
+          "X = Red, Y = Violet",
+          "X = Green, Y = Yellow",
+          "X = Blue, Y = Orange"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Analyze the bending.</b> Ray X is at the top, meaning it deviated (bent) the least. Ray Y is at the bottom, meaning it deviated the most towards the base.<br><b>Step 2: Relate deviation to colour.</b> Red light has the longest wavelength and suffers the least deviation. Violet light has the shortest wavelength and suffers the maximum deviation.<br><b>Conclusion:</b> Therefore, the topmost ray <b>X is Red</b>, and the bottommost ray <b>Y is Violet</b>."
+      },
+      {
+        "id": "SPC_005",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "What is the fundamental physical cause of the dispersion of white light as it travels from air into a glass prism?",
+        "options": [
+          "Different colours have different amplitudes in glass.",
+          "Different colours travel at the exact same speed in glass.",
+          "Different colours travel at different speeds in glass.",
+          "The prism absorbs certain wavelengths and emits others."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> In a vacuum or air, all colours of white light travel at the same speed (\\( c = 3 \\times 10^8 \\text{ m/s} \\)). However, when white light enters a denser transparent medium like glass, <b>different colours travel at different speeds</b> (Red travels fastest, Violet slowest). This difference in speed leads to different refractive indices for each colour, causing them to bend by different angles and separate."
+      },
+      {
+        "id": "SPC_006",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "In empty space (vacuum), how do the speeds of Red light (\\( V_r \\)) and Violet light (\\( V_v \\)) compare?",
+        "options": [
+          "\\( V_r > V_v \\)",
+          "\\( V_r < V_v \\)",
+          "\\( V_r = V_v \\)",
+          "The relationship depends on the intensity of the light source."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> It is a fundamental law of physics that in a pure vacuum (empty space), all electromagnetic waves—regardless of their wavelength, frequency, or colour—travel at the exact same speed, which is \\( 3 \\times 10^8 \\text{ m/s} \\). Therefore, in a vacuum, <b>\\( V_r = V_v \\)</b>. (They only travel at different speeds when inside a material medium like glass or water)."
+      },
+      {
+        "id": "SPC_007",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "A student arranges two identical glass prisms such that the second prism is placed in an inverted position with respect to the first. If a beam of white light enters the first prism, what will emerge from the second prism?",
+        "options": [
+          "A highly magnified spectrum of seven colours.",
+          "Only a single beam of red light.",
+          "A single beam of white light.",
+          "Total internal reflection will trap all light inside."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> This is Newton's classic recombination experiment. The first prism disperses the white light into its seven constituent colours (bending them downwards). The second, inverted prism receives these separated colours and bends them equally upwards. The equal and opposite dispersion exactly cancels out, <b>recombining the colours back into a single emergent beam of white light</b>."
+      },
+      {
+        "id": "SPC_008",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "Which of the following physical quantities remains absolutely unchanged when a monochromatic ray of green light travels from air into a glass prism?",
+        "options": [
+          "Velocity",
+          "Wavelength",
+          "Frequency",
+          "Amplitude"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> This is a core rule of wave mechanics.<br><b>Explanation:</b> When light transitions between different media, its speed changes, which directly causes its wavelength to change (since \\( V = f \\lambda \\)). However, <b>Frequency</b> depends strictly on the original source of the light. Once the photon is emitted, its frequency never changes regardless of the medium it enters."
+      },
+      {
+        "id": "SPC_009",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "<b>[Topper Challenge]</b> The refractive index of a specific type of flint glass is \\( 1.613 \\) for blue light and \\( 1.632 \\) for violet light. Based on this data and the relation between refractive index and wavelength, which of the following statements is mathematically true?",
+        "options": [
+          "Blue light travels slower than violet light in this glass.",
+          "The wavelength of blue light is shorter than the wavelength of violet light.",
+          "Violet light undergoes greater deviation than blue light in this glass.",
+          "The frequency of blue light is higher than the frequency of violet light."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Analyze Refractive Index (\\( \\mu \\)).</b> The data shows \\( \\mu_{\\text{violet}} (1.632) > \\mu_{\\text{blue}} (1.613) \\).<br><b>Step 2: Relate \\( \\mu \\) to deviation.</b> A higher refractive index means the glass slows the light down more and bends it more sharply.<br><b>Conclusion:</b> Since violet has a higher refractive index than blue in this glass, the <b>violet light will undergo greater deviation</b> than the blue light. (Also, blue has a longer wavelength and lower frequency than violet, making the other options false)."
+      },
+      {
+        "id": "SPC_010",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "<b>[Topper Challenge]</b> A beam of white light falls on a glass prism. The angular dispersion produced by the prism is defined as the difference in the angles of deviation of the two extreme colours (Violet and Red). Which of the following formulas correctly represents angular dispersion?",
+        "options": [
+          "\\( \\delta_v + \\delta_r \\)",
+          "\\( \\delta_v - \\delta_r \\)",
+          "\\( \\frac{\\delta_v}{\\delta_r} \\)",
+          "\\( \\delta_r - \\delta_v \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Angular dispersion measures how widely the spectrum is spread out. It is the angle between the emergent violet ray and the emergent red ray. Since violet deviates the most (\\( \\delta_v \\)) and red deviates the least (\\( \\delta_r \\)), the angular spread between them is simply the difference: <b>\\( \\delta_v - \\delta_r \\)</b>."
+      },
+      {
+        "id": "SPC_011",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "Arrange the following electromagnetic radiations in strictly increasing order of their wavelengths: Microwaves, X-rays, Infrared rays, Ultraviolet rays.",
+        "options": [
+          "X-rays, Ultraviolet rays, Infrared rays, Microwaves",
+          "Microwaves, Infrared rays, Ultraviolet rays, X-rays",
+          "Ultraviolet rays, X-rays, Microwaves, Infrared rays",
+          "X-rays, Infrared rays, Ultraviolet rays, Microwaves"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Recall the EM Spectrum order.</b> From shortest wavelength to longest wavelength, the order is: Gamma rays, X-rays, Ultraviolet (UV), Visible Light, Infrared (IR), Microwaves, Radio waves.<br><b>Step 2: Apply to the given options.</b> The shortest here is X-rays, followed by UV, then IR, and the longest is Microwaves.<br><b>Conclusion:</b> The correct increasing order is exactly <b>X-rays, Ultraviolet rays, Infrared rays, Microwaves</b>."
+      },
+      {
+        "id": "SPC_012",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "Which of the following is NOT a common physical property shared by all electromagnetic waves?",
+        "options": [
+          "They do not require any material medium for their propagation.",
+          "They all travel at a speed of \\( 3 \\times 10^8 \\text{ m/s} \\) in a vacuum.",
+          "They are all longitudinal waves in nature.",
+          "They are not deflected by electric or magnetic fields."
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Electromagnetic waves consist of oscillating electric and magnetic fields that are perpendicular to each other and to the direction of propagation.<br><b>Explanation:</b> Because the oscillations are perpendicular to the direction of travel, all electromagnetic waves are strictly <b>Transverse waves</b>. They are NEVER longitudinal waves (like sound is)."
+      },
+      {
+        "id": "SPC_013",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "Gamma rays are located at the extreme left end of the electromagnetic spectrum, possessing the shortest wavelengths. What does this physically imply about their frequency and energy?",
+        "options": [
+          "Lowest frequency and lowest energy",
+          "Highest frequency and lowest energy",
+          "Highest frequency and highest energy",
+          "Lowest frequency and highest energy"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Relate wavelength and frequency.</b> Since \\( c = f \\lambda \\), frequency (\\( f \\)) is inversely proportional to wavelength (\\( \\lambda \\)). The shortest wavelength means the <b>highest frequency</b>.<br><b>Step 2: Relate frequency to energy.</b> The energy of an electromagnetic wave is directly proportional to its frequency (\\( E = hf \\)).<br><b>Conclusion:</b> Therefore, Gamma rays possess the <b>highest frequency and highest energy</b> of all EM waves."
+      },
+      {
+        "id": "SPC_014",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "If various regions of the electromagnetic spectrum are arranged in strictly decreasing order of their frequencies (from highest frequency to lowest frequency), which of the following sequences is absolutely correct?",
+        "options": [
+          "Gamma rays, X-rays, Ultraviolet rays, Visible light",
+          "Radio waves, Microwaves, Infrared rays, Visible light",
+          "Visible light, Ultraviolet rays, X-rays, Gamma rays",
+          "Infrared rays, Microwaves, Radio waves, Ultraviolet rays"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Relate frequency and wavelength.</b> Frequency is inversely proportional to wavelength. Therefore, arranging waves in 'decreasing order of frequency' is exactly the same as arranging them in 'increasing order of wavelength'.<br><b>Step 2: Recall the EM Spectrum order.</b> From the shortest wavelength (highest frequency) to the longest wavelength (lowest frequency), the standard order is: Gamma rays, X-rays, Ultraviolet, Visible light, Infrared, Microwaves, and Radio waves.<br><b>Conclusion:</b> The sequence that perfectly matches this decreasing frequency order is <b>Gamma rays, X-rays, Ultraviolet rays, Visible light</b>."
+      },
+      {
+        "id": "SPC_015",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "An X-ray and a visible green light ray are both emitted simultaneously and travel through the empty vacuum of space towards Earth. How do their velocities compare?",
+        "options": [
+          "The X-ray travels much faster due to its high energy.",
+          "The green light travels faster due to its longer wavelength.",
+          "Both travel at exactly the same speed.",
+          "It depends entirely on the intensity of the source emitting them."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> A universal property of ALL electromagnetic radiations (whether they are high-energy Gamma rays or low-energy Radio waves) is that they travel at exactly the same speed in a vacuum: <b>\\( c = 3 \\times 10^8 \\text{ m/s} \\)</b>. Therefore, their velocities are perfectly identical."
+      },
+      {
+        "id": "SPC_016",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "Which of the following invisible electromagnetic radiations is found immediately just beyond the violet end of the visible spectrum, and is strongly absorbed by the Earth's ozone layer?",
+        "options": [
+          "Infrared radiation",
+          "X-rays",
+          "Ultraviolet radiation",
+          "Gamma rays"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The visible spectrum ranges from Red to Violet. The prefix 'Ultra' means 'beyond'. The radiation with a wavelength just slightly shorter than visible violet light is <b>Ultraviolet (UV) radiation</b>. The Earth's ozone layer is crucial because it absorbs the harmful, high-energy components of these UV rays from the sun."
+      },
+      {
+        "id": "SPC_017",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "In 1800, William Herschel discovered a specific type of invisible radiation by moving a thermometer just beyond the red end of the visible spectrum produced by a prism. He noticed the temperature rose significantly. Which radiation was he detecting?",
+        "options": [
+          "Ultraviolet rays",
+          "Infrared rays",
+          "Microwaves",
+          "Radio waves"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The prefix 'Infra' means 'below' (in terms of frequency). The invisible radiation found just beyond the red end of the visible spectrum is <b>Infrared radiation</b>. These are essentially heat waves, which is why Herschel's thermometer registered a sharp increase in temperature when placed in that invisible region."
+      },
+      {
+        "id": "SPC_018",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "Which type of electromagnetic wave has the longest wavelength (and lowest frequency) and is primarily utilized for television broadcasting and cellular communication?",
+        "options": [
+          "Microwaves",
+          "Radio waves",
+          "Infrared waves",
+          "X-rays"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> At the extreme right end of the electromagnetic spectrum lie the waves with the longest wavelengths (ranging from a few millimeters to several kilometers) and the lowest frequencies. These are <b>Radio waves</b>, which are standardly used in radar, television, and radio communication systems."
+      },
+      {
+        "id": "SPC_019",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "<b>[Topper Challenge]</b> A local FM radio station broadcasts its signal at a frequency of \\( 100 \\text{ MHz} \\) (\\( 100 \\times 10^6 \\text{ Hz} \\)). Given that the speed of electromagnetic waves in air is approximately \\( 3 \\times 10^8 \\text{ m/s} \\), calculate the exact wavelength of these radio waves.",
+        "options": [
+          "\\( 0.33 \\text{ m} \\)",
+          "\\( 3.0 \\text{ m} \\)",
+          "\\( 30.0 \\text{ m} \\)",
+          "\\( 300 \\text{ m} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Write down the wave equation.</b> Speed \\( c = f \\times \\lambda \\).<br><b>Step 2: Rearrange for wavelength (\\( \\lambda \\)).</b> \\( \\lambda = \\frac{c}{f} \\).<br><b>Step 3: Substitute the values.</b> \\( c = 3 \\times 10^8 \\text{ m/s} \\), and \\( f = 100 \\times 10^6 \\text{ Hz} = 10^8 \\text{ Hz} \\).<br><b>Step 4: Solve.</b> \\( \\lambda = \\frac{3 \\times 10^8}{10^8} = 3.0 \\text{ m} \\)."
+      },
+      {
+        "id": "SPC_020",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "<b>[Topper Challenge]</b> Gamma rays are highly dangerous to living organisms, while visible light from a bulb is harmless. Physically, why do Gamma rays have a significantly higher penetrating power through human tissue compared to visible light?",
+        "options": [
+          "Because they have a much longer wavelength.",
+          "Because they have a much lower frequency.",
+          "Because their extremely short wavelength corresponds to very high photon energy.",
+          "Because they travel much faster than visible light in a vacuum."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Eliminate false properties.</b> All EM waves travel at the exact same speed in a vacuum, so option D is false.<br><b>Step 2: Relate wavelength and energy.</b> Penetrating power depends on the energy of the individual photons. Energy \\( E = \\frac{hc}{\\lambda} \\), meaning energy is inversely proportional to wavelength.<br><b>Conclusion:</b> Gamma rays have an <b>extremely short wavelength</b>, which gives them an extremely high frequency and consequently, <b>very high energy</b>. This massive energy allows them to easily penetrate deep into dense human tissue and damage cells."
+      },
+      {
+        "id": "SPC_021",
+        "topic": "Infrared & Ultraviolet Radiations",
+        "q": "Which of the following optical materials MUST be used to make a prism if you want to successfully obtain and study the spectrum of Ultraviolet (UV) radiation?",
+        "options": [
+          "Standard Crown Glass",
+          "Flint Glass",
+          "Quartz",
+          "Rock Salt"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Ordinary glass strongly absorbs Ultraviolet radiation, meaning a standard glass prism would block the UV rays from passing through entirely. <b>Quartz</b>, however, is highly transparent to UV radiation, making it the essential material for prisms and lenses in UV spectrometers."
+      },
+      {
+        "id": "SPC_022",
+        "topic": "Infrared & Ultraviolet Radiations",
+        "q": "If a thermometer with a blackened bulb is moved through the visible spectrum from violet towards red, and then placed just beyond the red end, what will happen to its temperature reading?",
+        "options": [
+          "It will drop sharply to zero.",
+          "It will remain completely unchanged.",
+          "It will show a rapid and significant increase.",
+          "It will decrease slightly due to lack of visible light."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Just beyond the red end of the visible spectrum lies the <b>Infrared (IR) region</b>. Infrared radiations are essentially heat waves. The blackened bulb of the thermometer acts as a perfect absorber of this heat, causing the temperature reading to <b>increase rapidly and significantly</b> compared to the visible spectrum."
+      },
+      {
+        "id": "SPC_023",
+        "topic": "Infrared & Ultraviolet Radiations",
+        "q": "Why are Infrared (IR) radiations extensively used in wildlife photography during the night and for long-distance photography through fog and mist?",
+        "options": [
+          "Because they travel faster than visible light in fog.",
+          "Because they are highly scattered by the large water droplets.",
+          "Because their long wavelength allows them to suffer minimal scattering and penetrate dense fog.",
+          "Because they emit a bright red glow that illuminates the subject."
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Scattering of light is inversely proportional to the wavelength.<br><b>Explanation:</b> Infrared radiations have a much longer wavelength than visible light. Because of this <b>long wavelength</b>, they are scattered the least by atmospheric particles, fog, and mist. This allows them to penetrate through dense atmospheric conditions where visible light would simply blur out."
+      },
+      {
+        "id": "SPC_024",
+        "topic": "Infrared & Ultraviolet Radiations",
+        "q": "Ultraviolet (UV) radiations are chemically highly active. Which of the following is a classic chemical test used to instantly detect the presence of UV rays?",
+        "options": [
+          "They turn blue litmus paper red.",
+          "They turn a solution of Silver Chloride (AgCl) from white to dark brown or black.",
+          "They cause water to instantly boil.",
+          "They bleach the colour of a green leaf to yellow."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> UV rays possess high energy that can easily trigger chemical reactions. When invisible UV radiation falls on a paper coated with white <b>Silver Chloride (AgCl)</b>, it causes a rapid photochemical decomposition, instantly turning the paper dark brown or black. This is a standard detection test."
+      },
+      {
+        "id": "SPC_025",
+        "topic": "Scattering of Light & Applications",
+        "q": "According to Rayleigh's law of scattering, the intensity of scattered light (\\( I \\)) is related to its wavelength (\\( \\lambda \\)) by which of the following mathematical proportions? (Assuming the scattering particles are smaller than the wavelength of light).",
+        "options": [
+          "\\( I \\propto \\lambda^2 \\)",
+          "\\( I \\propto \\frac{1}{\\lambda^2} \\)",
+          "\\( I \\propto \\lambda^4 \\)",
+          "\\( I \\propto \\frac{1}{\\lambda^4} \\)"
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> Rayleigh's law states that the intensity of scattered light is inversely proportional to the fourth power of its wavelength: <b>\\( I \\propto \\frac{1}{\\lambda^4} \\)</b>. This formula is the core reason why colours with shorter wavelengths (like blue and violet) scatter immensely more than colours with longer wavelengths (like red)."
+      },
+      {
+        "id": "SPC_026",
+        "topic": "Scattering of Light & Applications",
+        "q": "If an astronaut looks up at the sky while standing on the surface of the Moon, what colour will the sky appear to be during the daytime, and why?",
+        "options": [
+          "Blue, because of the reflection of Earth's oceans.",
+          "White, because all sunlight reaches the surface unscattered.",
+          "Black, because there is no atmosphere to scatter the sunlight.",
+          "Red, because only long wavelengths can travel that far."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The sky appears blue from Earth because our atmosphere contains air molecules that scatter the blue wavelengths of sunlight. The Moon has no atmosphere (no air molecules or dust particles). Without an atmosphere to scatter the light, the sunlight travels straight to the surface, and the surrounding sky appears completely <b>dark/black</b>, even during the day."
+      },
+      {
+        "id": "SPC_027",
+        "topic": "Scattering of Light & Applications",
+        "q": "During noon, the Sun appears dazzling white or slightly yellowish, but during sunrise or sunset, it appears distinctly reddish-orange. Which of the following optical reasons best explains this striking change in colour?",
+        "options": [
+          "The actual surface temperature of the Sun drops significantly during the evening.",
+          "The Earth's magnetic field bends longer wavelengths more strongly near the horizon.",
+          "At the horizon, sunlight travels through a thicker layer of the atmosphere, scattering away most of the shorter wavelengths and leaving primarily red light.",
+          "The atmosphere completely absorbs all the red light at noon and only transmits it during sunset."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Compare the path lengths.</b> At noon, the Sun is directly overhead, and its light travels through a relatively thin layer of the Earth's atmosphere. At sunrise or sunset, the Sun is at the horizon, forcing the light to travel a much longer distance through a significantly thicker layer of the atmosphere.<br><b>Step 2: Apply Rayleigh's Law of Scattering.</b> As light makes this long journey through the thick atmosphere at the horizon, almost all the shorter wavelengths (blue, indigo, violet) are heavily scattered away in different directions by air molecules.<br><b>Conclusion:</b> Because red light has the longest wavelength, it is scattered the least. It survives the long journey through the atmosphere to reach our eyes, making the sun appear reddish-orange."
+      },
+      {
+        "id": "SPC_028",
+        "topic": "Scattering of Light & Applications",
+        "q": "Why are the prominent danger signal lights (like those on tall towers or traffic stops) always painted or illuminated in RED colour?",
+        "options": [
+          "Because the human eye is most sensitive to red light.",
+          "Because red light travels faster than other colours in the air.",
+          "Because red light has the longest wavelength and is scattered the least, allowing it to be seen from a great distance.",
+          "Because red light absorbs the fog and smoke in the atmosphere."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Danger signals must be visible from very far away, even in bad weather (fog, smoke, rain). According to Rayleigh scattering, red light, having the <b>longest wavelength</b> in the visible spectrum, is scattered the absolute least by atmospheric particles. Therefore, it travels straight through without being dispersed, remaining clearly visible over long distances."
+      },
+      {
+        "id": "SPC_029",
+        "topic": "Infrared & Ultraviolet Radiations",
+        "q": "<b>[Topper Challenge]</b> A research scientist is building a spectrometer to analyze the thermal emission (Infrared rays) of a new material. She realizes she cannot use a standard glass prism or even a quartz prism. Which specific material must she use for the prism to successfully transmit the Infrared spectrum without absorbing it?",
+        "options": [
+          "Diamond",
+          "Rock Salt",
+          "Flint Glass",
+          "Pyrex"
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> Different invisible radiations require specialized optical materials for transmission.<br><b>Explanation:</b> Ordinary glass absorbs both UV and IR rays. While Quartz is excellent for transmitting UV rays, it strongly absorbs Infrared (IR) rays. To study the Infrared spectrum, prisms and lenses must be carved out of <b>Rock Salt (NaCl)</b>, which is highly transparent to thermal IR radiations."
+      },
+      {
+        "id": "SPC_030",
+        "topic": "Scattering of Light & Applications",
+        "q": "<b>[Topper Challenge]</b> The wavelength of red light is approximately \\( 8000 \\text{ \\AA} \\), and the wavelength of violet light is approximately \\( 4000 \\text{ \\AA} \\). Based on Rayleigh's law of scattering, approximately how many times more intensely is the violet light scattered by air molecules compared to the red light?",
+        "options": [
+          "2 times",
+          "4 times",
+          "8 times",
+          "16 times"
+        ],
+        "correct": 3,
+        "sol": "<b>Step 1: Write down Rayleigh's Law.</b> Intensity \\( I \\propto \\frac{1}{\\lambda^4} \\).<br><b>Step 2: Set up the ratio.</b> \\( \\frac{I_v}{I_r} = \\left(\\frac{\\lambda_r}{\\lambda_v}\\right)^4 \\).<br><b>Step 3: Substitute the wavelengths.</b> \\( \\lambda_r = 8000 \\), \\( \\lambda_v = 4000 \\).<br><b>Step 4: Solve.</b> \\( \\frac{I_v}{I_r} = \\left(\\frac{8000}{4000}\\right)^4 = (2)^4 = 16 \\).<br><b>Conclusion:</b> Violet light is scattered <b>16 times</b> more intensely than red light, which is why the sky has such a strong bluish-violet tint!"
+      },
+      {
+        "id": "SPC_031",
+        "topic": "Infrared & Ultraviolet Radiations",
+        "q": "Which invisible electromagnetic radiation is universally used in the remote controls of televisions and air conditioners to transmit signals to the device?",
+        "options": [
+          "Ultraviolet rays",
+          "X-rays",
+          "Microwaves",
+          "Infrared rays"
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> Remote controls operate using small LED bulbs that emit <b>Infrared (IR) rays</b>. These rays are completely invisible to the human eye, meaning they won't cause a distracting glare in a dark room, and their relatively long wavelengths allow them to easily carry digital pulse signals over short distances to the appliance's receiver."
+      },
+      {
+        "id": "SPC_032",
+        "topic": "Infrared & Ultraviolet Radiations",
+        "q": "Bank tellers and forensic experts often use a specialized lamp to verify the authenticity of currency notes and detect forged documents. Which invisible radiation does this lamp emit to cause hidden security threads to glow brightly?",
+        "options": [
+          "Gamma rays",
+          "Ultraviolet (UV) radiation",
+          "Infrared (IR) radiation",
+          "Radio waves"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Authentic currency notes contain special fluorescent inks and security threads. <b>Ultraviolet (UV) radiation</b> has the unique property of causing certain materials to fluoresce (absorb the high-energy invisible UV light and re-emit it as lower-energy visible light), making the hidden security features instantly glow."
+      },
+      {
+        "id": "SPC_033",
+        "topic": "Scattering of Light & Applications",
+        "q": "While the clear sky appears blue due to the intense scattering of shorter wavelengths by tiny air molecules, why do large clouds in the sky appear completely white?",
+        "options": [
+          "Because clouds emit their own white light.",
+          "Because clouds are closer to the sun.",
+          "Because the large water droplets in clouds scatter all colours of sunlight almost equally.",
+          "Because clouds completely absorb the blue light."
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Rayleigh's law of scattering (\\( I \\propto 1/\\lambda^4 \\)) only applies when the scattering particles are much smaller than the wavelength of light.<br><b>Explanation:</b> The water droplets and ice crystals that make up clouds are relatively large (much larger than the wavelength of visible light). These large particles do not obey Rayleigh's law; instead, they <b>scatter all wavelengths (colours) of white light equally</b>. When all colours are scattered equally and reach our eyes, we perceive the colour as white."
+      },
+      {
+        "id": "SPC_034",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "Which of the following highly penetrating electromagnetic radiations is primarily utilized in the medical field to study crystal structures and detect fractures in human bones?",
+        "options": [
+          "Ultraviolet rays",
+          "Gamma rays",
+          "X-rays",
+          "Infrared rays"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> <b>X-rays</b> have a very short wavelength and high energy, allowing them to easily penetrate soft tissues like skin and muscle. However, they are absorbed by denser materials like the calcium in bones. This creates a shadow-like image on a photographic plate, making them perfect for detecting bone fractures."
+      },
+      {
+        "id": "SPC_035",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "Why does a standard rectangular glass slab NOT produce a visible band of seven colours on a screen when a beam of white light passes through it, unlike a triangular glass prism?",
+        "options": [
+          "Because the glass slab absorbs all the colours except white.",
+          "Because dispersion does not occur at all inside a rectangular slab.",
+          "Because the parallel boundaries cause the dispersed colours to recombine before emerging.",
+          "Because the refractive index of a slab is lower than that of a prism."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Dispersion *does* actually happen at the first surface of the glass slab! The white light splits into colours. However, because the two opposite faces of a rectangular slab are perfectly parallel, the bending caused by the first surface is exactly reversed by the second surface. The colours emerge perfectly parallel to each other, overlapping so tightly that they <b>recombine to appear as a single beam of white light</b> to the naked eye."
+      },
+      {
+        "id": "SPC_036",
+        "topic": "Scattering of Light & Applications",
+        "q": "In a classroom demonstration, a teacher shines a strong beam of white light through a rectangular glass tank filled with clear water mixed with a small amount of milk. If students look at the tank from the side, the liquid appears to have a bluish glow. However, if they look at the light that successfully passes completely through the tank and hits a white screen placed in front of it, what colour does the spot of light predominantly appear to be?",
+        "options": [
+          "Pure White",
+          "Bright Blue",
+          "Reddish-Orange",
+          "Violet"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand side scattering.</b> According to Rayleigh's law, shorter wavelengths (blue/violet) are scattered the most by the suspended milk particles, causing the liquid to glow blue from the side.<br><b>Step 2: Understand transmitted light.</b> Since the blue/violet light has been scattered away out the sides, the beam that continues straight through the tank is heavily depleted of these shorter wavelengths. What remains are the longer, unscattered wavelengths. Therefore, the transmitted light hitting the screen appears <b>Reddish-Orange</b>."
+      },
+      {
+        "id": "SPC_037",
+        "topic": "Infrared & Ultraviolet Radiations",
+        "q": "Welders always wear special face masks equipped with very dark glass windows while working. Aside from protecting their eyes from the bright visible sparks, which harmful, high-energy electromagnetic radiation emitted by the welding arc are these masks primarily designed to block?",
+        "options": [
+          "Microwaves",
+          "Ultraviolet (UV) radiation",
+          "Radio waves",
+          "Gamma rays"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Electric arcs (like those in arc welding) are extremely powerful sources of <b>Ultraviolet (UV) radiation</b>. Prolonged exposure to these high-energy rays can cause severe burns to the retina and a painful condition known as 'welder's flash'. The dark glass safely absorbs these harmful UV rays before they reach the eyes."
+      },
+      {
+        "id": "SPC_038",
+        "topic": "Electromagnetic Spectrum & Properties",
+        "q": "While all electromagnetic waves travel at exactly \\( 3 \\times 10^8 \\text{ m/s} \\) in a pure vacuum, their speeds differ when passing through a material medium like glass. Which of the following EM waves will travel the FASTEST through a thick glass block?",
+        "options": [
+          "Ultraviolet rays",
+          "Violet visible light",
+          "Red visible light",
+          "Infrared rays"
+        ],
+        "correct": 3,
+        "sol": "<b>Concept:</b> The speed of light in a medium is related to its refractive index (\\( v = c/\\mu \\)), and refractive index decreases as wavelength increases.<br><b>Analysis:</b> The wave with the longest wavelength experiences the lowest refractive index and therefore travels the fastest. Out of the given options, <b>Infrared rays</b> have the longest wavelength. Therefore, they are slowed down the least by the glass and travel the fastest."
+      },
+      {
+        "id": "SPC_039",
+        "topic": "Deviation, Dispersion & Visible Spectrum",
+        "q": "<b>[Topper Challenge]</b> A monochromatic beam of red laser light has a frequency of \\( 4.5 \\times 10^{14} \\text{ Hz} \\) as it travels through a vacuum. It then enters a dense glass block with an absolute refractive index of \\( 1.5 \\). What will be the exact frequency of this red laser light while it is travelling inside the glass block?",
+        "options": [
+          "\\( 3.0 \\times 10^{14} \\text{ Hz} \\)",
+          "\\( 6.75 \\times 10^{14} \\text{ Hz} \\)",
+          "\\( 4.5 \\times 10^{14} \\text{ Hz} \\)",
+          "It depends on the exact thickness of the glass."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand what changes during refraction.</b> When light enters a denser medium, its speed decreases. Because speed decreases, its wavelength must also proportionally decrease (\\( v = f \\lambda \\)).<br><b>Step 2: Apply the fundamental rule of frequency.</b> The frequency of any wave is entirely dependent on the source that generated it, NOT the medium it is travelling through. Therefore, the frequency of the light remains <b>absolutely constant at \\( 4.5 \\times 10^{14} \\text{ Hz} \\)</b>, regardless of the refractive index of the glass!"
+      },
+      {
+        "id": "SPC_040",
+        "topic": "Scattering of Light & Applications",
+        "q": "<b>[Topper Challenge]</b> According to Rayleigh's law of scattering, violet light is scattered roughly 16 times more intensely than red light, and nearly 3 times more intensely than blue light. Given this massive amount of scattered violet light in the atmosphere, why does the clear daytime sky appear predominantly BLUE rather than VIOLET to a human observer?",
+        "options": [
+          "Because violet light is completely absorbed by atmospheric nitrogen.",
+          "Because the Sun does not emit any violet light at all.",
+          "Because the human eye is significantly more sensitive to blue light than to violet light.",
+          "Because violet light travels too fast to be seen by the human eye."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Acknowledge the physics.</b> It is true that there is more scattered violet light in the sky than blue light.<br><b>Step 2: Factor in biology.</b> The perception of colour is a biological process. The cone cells in the human retina are highly sensitive to blue, green, and red light, but they are very poorly sensitive to violet light.<br><b>Conclusion:</b> Even though there is abundant scattered violet light, our eyes process the incoming mixture of blue and violet by heavily favoring the blue. Therefore, <b>the human eye's sensitivity makes the sky appear blue</b>."
+      }
+    ]
+  },
     
     // ==========================================
     // CHAPTER: VECTORS
