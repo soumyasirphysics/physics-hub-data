@@ -4516,6 +4516,671 @@
       }
     ]
   },
+
+    "Refraction Through a Lens": {
+    classTarget: "Class 10",
+    totalQs: 50,
+    topics: [
+      "Technical Terms & Lens Action",
+      "Principal Foci & Focal Length",
+      "Rules for Ray Diagrams",
+      "Image Formation by Lenses",
+      "Lens Formula, Magnification & Power"
+    ],
+    questions: [
+      {
+        "id": "LEN_001",
+        "topic": "Technical Terms & Lens Action",
+        "q": "A convex lens can be considered to be made up of a very large number of extremely thin prisms. In a convex lens, how are the bases of these constituent prisms oriented?",
+        "options": [
+          "The bases are directed away from the principal axis.",
+          "The bases are directed towards the principal axis.",
+          "The bases alternate randomly.",
+          "The bases are strictly parallel to the principal axis."
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> A prism always bends light towards its base.<br><b>Explanation:</b> A convex (converging) lens bends parallel rays of light towards the principal axis to converge them at a focal point. Therefore, it behaves like a set of prisms whose <b>bases are directed towards the principal axis</b>."
+      },
+      {
+        "id": "LEN_002",
+        "topic": "Technical Terms & Lens Action",
+        "q": "Which specific point associated with a thin spherical lens has the property that any ray of light directed towards it passes through the lens undeviated?",
+        "options": [
+          "The first principal focus",
+          "The centre of curvature",
+          "The optical centre",
+          "The pole"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The <b>Optical Centre</b> is a specific point on the principal axis of a thin lens. When a ray of light passes through this exact point, the emergent ray is strictly parallel to the incident ray. For a very thin lens, the lateral displacement is negligible, so the ray passes virtually <b>undeviated</b>."
+      },
+      {
+        "id": "LEN_003",
+        "topic": "Principal Foci & Focal Length",
+        "q": "For a biconcave lens, the Second Principal Focus (\\( F_2 \\)) is a point on the principal axis where:",
+        "options": [
+          "Rays of light starting from it become parallel to the principal axis after refraction.",
+          "Rays of light incident parallel to the principal axis appear to diverge from after refraction.",
+          "Rays of light incident parallel to the principal axis actually converge after refraction.",
+          "Rays of light passing through it undergo total internal reflection."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A concave lens is a diverging lens. When light rays travel parallel to the principal axis and strike the lens, they diverge outward. If you trace these diverging refracted rays backward, they all appear to meet at a single virtual point on the principal axis on the same side as the incident light. This specific point is the <b>Second Principal Focus (\\( F_2 \\))</b>."
+      },
+      {
+        "id": "LEN_004",
+        "topic": "Principal Foci & Focal Length",
+        "q": "How does the focal length of a given convex lens change if it is made significantly thicker?",
+        "options": [
+          "The focal length increases.",
+          "The focal length decreases.",
+          "The focal length remains entirely unchanged.",
+          "The focal length becomes negative."
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> The focal length of a lens depends on the radii of curvature of its surfaces.<br><b>Analysis:</b> A thicker convex lens has surfaces with smaller radii of curvature (they are more sharply curved). More curvature means the lens bends the light more strongly. Stronger bending causes the rays to converge closer to the lens, which <b>decreases the focal length</b>."
+      },
+      {
+        "id": "LEN_005",
+        "topic": "Principal Foci & Focal Length",
+        "q": "A student measures the focal length of a convex lens using red light and then repeats the experiment using violet light. How will the focal length using violet light (\\( f_v \\)) compare to the focal length using red light (\\( f_r \\))?",
+        "options": [
+          "\\( f_v > f_r \\)",
+          "\\( f_v < f_r \\)",
+          "\\( f_v = f_r \\)",
+          "It depends on the thickness of the lens."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Relate color to refractive index.</b> Violet light slows down more in glass than red light, so the refractive index of glass for violet light (\\( \\mu_v \\)) is greater than for red light (\\( \\mu_r \\)).<br><b>Step 2: Relate refractive index to bending.</b> A higher refractive index means the lens bends the violet light more sharply.<br><b>Step 3: Conclusion.</b> Because violet light is bent more strongly, it converges closer to the lens. Therefore, the focal length for violet light is <b>shorter</b> (\\( f_v < f_r \\))."
+      },
+      {
+        "id": "LEN_006",
+        "topic": "Rules for Ray Diagrams",
+        "q": "According to the standard rules for drawing ray diagrams for lenses, a ray of light passing through the first principal focus (\\( F_1 \\)) of a convex lens will:",
+        "options": [
+          "Emerge undeviated through the optical centre.",
+          "Emerge parallel to the principal axis after refraction.",
+          "Pass through the second principal focus (\\( F_2 \\)) after refraction.",
+          "Reflect back along its original path."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> This is one of the three fundamental rules for constructing ray diagrams. By the principle of reversibility of light, since parallel rays converge at the focus, rays originating from (or passing through) the <b>first principal focus (\\( F_1 \\))</b> will become <b>parallel to the principal axis</b> after refracting through a convex lens."
+      },
+      {
+        "id": "LEN_007",
+        "topic": "Principal Foci & Focal Length",
+        "q": "Observe the provided ray diagram. Which specific point on the principal axis does the point \\( F_2 \\) represent for this particular lens?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhFI_EjSpvY1MrJ1Zzs-1Gsp6BFuYt1GVMowx5dOqsr5jLuADblUeXUTuI1ugH6In4CXqvSJy48WhUalRRXVEFbOmdfVAZ5T3PgZnkTLISGRlo98duN52PtFCfs3InTN_Syky5VvsQYkJlCvyF9ZjZFIgwes0TjfCyI0Lrwnw1SJhs-8vymfpRrJYR2mNzc",
+        "options": [
+          "The first principal focus of a convex lens",
+          "The second principal focus of a convex lens",
+          "The first principal focus of a concave lens",
+          "The second principal focus of a concave lens"
+        ],
+        "correct": 3,
+        "sol": "<b>Step 1: Identify the lens.</b> The rays diverge after passing through the lens, identifying it as a <b>concave lens</b>.<br><b>Step 2: Identify the focal point.</b> Rays incident parallel to the principal axis appear to diverge from a point on the same side. By definition, the point where rays originally parallel to the principal axis appear to diverge from is the <b>second principal focus (\\( F_2 \\))</b> of a concave lens."
+      },
+      {
+        "id": "LEN_008",
+        "topic": "Technical Terms & Lens Action",
+        "q": "If a biconvex lens made of glass (refractive index = \\( 1.5 \\)) is completely immersed in water (refractive index = \\( 1.33 \\)), what happens to its focal length compared to its focal length in air?",
+        "options": [
+          "It remains exactly the same.",
+          "It decreases.",
+          "It increases.",
+          "The lens begins to act as a concave lens."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand Relative Refractive Index.</b> The bending capability of a lens depends on the relative refractive index of the lens material with respect to its surrounding medium.<br><b>Step 2: Compare media.</b> The refractive index of glass with respect to water (\\( 1.5 / 1.33 \\approx 1.12 \\)) is much smaller than glass with respect to air (\\( 1.5 / 1.0 = 1.5 \\)).<br><b>Step 3: Conclusion.</b> Because the optical difference is smaller underwater, the lens bends the light less strongly. Less bending means the rays travel further before converging, which <b>increases the focal length</b>."
+      },
+      {
+        "id": "LEN_009",
+        "topic": "Technical Terms & Lens Action",
+        "q": "What is the 'Focal Plane' of a lens?",
+        "options": [
+          "A plane passing through the optical centre and parallel to the principal axis.",
+          "A plane passing through the focus and perpendicular to the principal axis.",
+          "A plane passing through the centre of curvature and perpendicular to the principal axis.",
+          "The exact physical surface of the lens itself."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> By standard definition in geometrical optics, a <b>Focal Plane</b> is an imaginary plane that passes directly through the principal focus (\\( F_1 \\) or \\( F_2 \\)) and is oriented exactly perpendicular to the principal axis. Parallel rays that are incident obliquely (at an angle) to the principal axis will converge at a point somewhere on this focal plane."
+      },
+      {
+        "id": "LEN_010",
+        "topic": "Image Formation by Lenses",
+        "q": "<b>[Topper Challenge]</b> A student forms a sharp image of a distant tree on a screen using a convex lens. If the lower half of the convex lens is completely covered with an opaque black paper, how will the image on the screen be affected?",
+        "options": [
+          "Only the upper half of the tree's image will be formed.",
+          "Only the lower half of the tree's image will be formed.",
+          "The complete image will be formed, but it will be less bright.",
+          "No image will be formed at all."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand Image Formation.</b> An image is formed by millions of light rays originating from every point on the object. These rays pass through *all* exposed parts of the lens and converge on the screen.<br><b>Step 2: Analyze the blockage.</b> Covering half the lens merely blocks half of the light rays. The remaining rays passing through the top half are still perfectly sufficient to converge and construct the <b>complete image</b>.<br><b>Step 3: Conclusion.</b> Since fewer light rays are contributing to the final image, the image will appear complete but its <b>intensity (brightness) will be significantly reduced</b>."
+      },
+      {
+        "id": "LEN_011",
+        "topic": "Image Formation by Lenses",
+        "q": "Where must an object be placed in front of a convex lens so that the image formed is real, inverted, and exactly the same size as the object?",
+        "options": [
+          "At the first principal focus (\\( F_1 \\))",
+          "At infinity",
+          "At a distance equal to twice the focal length (At \\( 2F_1 \\))",
+          "Between the optical centre (\\( O \\)) and the first focus (\\( F_1 \\))"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> According to the ray diagrams for a convex lens, when an object is placed exactly at \\( 2F_1 \\) (twice the focal length), the refracted rays converge exactly at \\( 2F_2 \\) on the opposite side. The resulting image is real, inverted, and of the exact same size (magnification \\( m = -1 \\)) as the object."
+      },
+      {
+        "id": "LEN_012",
+        "topic": "Image Formation by Lenses",
+        "q": "A student wants to use a convex lens as a simple magnifying glass to read small text. Where should she place the lens relative to the text?",
+        "options": [
+          "Beyond \\( 2F_1 \\)",
+          "Exactly at \\( F_1 \\)",
+          "Between \\( F_1 \\) and \\( 2F_1 \\)",
+          "Between the optical centre (\\( O \\)) and the first focus (\\( F_1 \\))"
+        ],
+        "correct": 3,
+        "sol": "<b>Concept:</b> A magnifying glass must produce an image that is virtual, erect, and magnified.<br><b>Explanation:</b> A convex lens only produces a virtual and erect image when the object is placed extremely close to the lens—specifically, between the <b>optical centre and the first principal focus (\\( F_1 \\))</b>. In all other positions, it forms a real and inverted image."
+      },
+      {
+        "id": "LEN_013",
+        "topic": "Image Formation by Lenses",
+        "q": "Which of the following statements perfectly describes the nature of the image formed by a concave lens for a real object, regardless of the object's distance from the lens?",
+        "options": [
+          "Real, inverted, and magnified",
+          "Virtual, erect, and diminished",
+          "Virtual, erect, and magnified",
+          "Real, inverted, and diminished"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A concave lens is a diverging lens. Because it spreads light rays outward, the refracted rays never actually meet on the other side. When traced backwards, they always intersect between the optical centre and the focus on the same side as the object. Thus, the image is ALWAYS <b>virtual, erect, and diminished</b>."
+      },
+      {
+        "id": "LEN_014",
+        "topic": "Image Formation by Lenses",
+        "q": "In a laboratory experiment, a student uses a convex lens to form a sharp, real, and inverted image of a candle flame on a screen. Without moving the candle or the screen, the student replaces the convex lens with a concave lens of the exact same focal length. What will be observed on the screen?",
+        "options": [
+          "A virtual, erect, and diminished image of the flame.",
+          "A real, erect, and magnified image of the flame.",
+          "A highly blurred, out-of-focus image of the flame.",
+          "No image of the flame will be formed on the screen."
+        ],
+        "correct": 3,
+        "sol": "<b>Concept:</b> A convex lens converges light to form a real image that can be captured on a screen. A concave lens is a diverging lens.<br><b>Explanation:</b> A concave lens always spreads out the light rays passing through it, forming a virtual, erect, and diminished image on the <i>same side</i> as the object. Since the refracted rays physically diverge on the other side, they will never meet, and absolutely <b>no image</b> will be formed on the screen."
+      },
+      {
+        "id": "LEN_015",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "According to the New Cartesian Sign Convention, what are the standard signs for the focal lengths of a convex lens and a concave lens, respectively?",
+        "options": [
+          "Negative, Negative",
+          "Positive, Positive",
+          "Positive, Negative",
+          "Negative, Positive"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> All distances are measured from the optical centre. Distances measured in the direction of incident light are positive.<br><b>Explanation:</b> For a convex lens, parallel rays converge at the second focus (\\( F_2 \\)) on the right side (positive direction), so its focal length is <b>Positive</b>. For a concave lens, parallel rays appear to diverge from the second focus (\\( F_2 \\)) on the left side (negative direction), making its focal length <b>Negative</b>."
+      },
+      {
+        "id": "LEN_016",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "The linear magnification (\\( m \\)) produced by a lens is mathematically defined as the ratio of the height of the image to the height of the object. Which of the following formulas correctly relates magnification to image distance (\\( v \\)) and object distance (\\( u \\)) for a spherical lens?",
+        "options": [
+          "\\( m = -\\frac{v}{u} \\)",
+          "\\( m = \\frac{v}{u} \\)",
+          "\\( m = \\frac{u}{v} \\)",
+          "\\( m = -\\frac{u}{v} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> For lenses, the linear magnification is given by the formula <b>\\( m = \\frac{v}{u} \\)</b>. (Note: This is different from spherical mirrors, where the formula is \\( m = -\\frac{v}{u} \\)). A negative value of \\( m \\) indicates a real and inverted image, while a positive value indicates a virtual and erect image."
+      },
+      {
+        "id": "LEN_017",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "What is the power of a convex lens having a focal length of \\( 20 \\text{ cm} \\)?",
+        "options": [
+          "\\( +2.0 \\text{ D} \\)",
+          "\\( -5.0 \\text{ D} \\)",
+          "\\( +5.0 \\text{ D} \\)",
+          "\\( +0.05 \\text{ D} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Convert focal length to meters.</b> Power must be calculated with focal length in meters. \\( f = +20 \\text{ cm} = +0.2 \\text{ m} \\) (Positive because it's a convex lens).<br><b>Step 2: Use the Power formula.</b> \\( P = \\frac{1}{f(\\text{in meters})} \\).<br><b>Step 3: Calculate.</b> \\( P = \\frac{1}{0.2} = +5.0 \\text{ D} \\)."
+      },
+      {
+        "id": "LEN_018",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "Two thin lenses of powers \\( +3.5 \\text{ D} \\) and \\( -2.5 \\text{ D} \\) are placed in close contact with each other. What is the focal length of this lens combination?",
+        "options": [
+          "\\( +10 \\text{ cm} \\)",
+          "\\( +100 \\text{ cm} \\)",
+          "\\( -100 \\text{ cm} \\)",
+          "\\( +1.0 \\text{ cm} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Find total power.</b> When lenses are in contact, their powers add algebraically: \\( P = P_1 + P_2 = (+3.5) + (-2.5) = +1.0 \\text{ D} \\).<br><b>Step 2: Find total focal length.</b> \\( f = \\frac{1}{P} = \\frac{1}{+1.0} = +1.0 \\text{ m} \\).<br><b>Step 3: Convert to cm.</b> \\( +1.0 \\text{ m} = +100 \\text{ cm} \\). The combination acts as a convex lens."
+      },
+      {
+        "id": "LEN_019",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "<b>[Topper Challenge]</b> An object is placed at a distance of \\( 30 \\text{ cm} \\) from a convex lens of focal length \\( 20 \\text{ cm} \\). Find the position and nature of the image formed.",
+        "options": [
+          "\\( +60 \\text{ cm} \\), Real and inverted",
+          "\\( -60 \\text{ cm} \\), Virtual and erect",
+          "\\( +12 \\text{ cm} \\), Real and inverted",
+          "\\( -12 \\text{ cm} \\), Virtual and erect"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Write given values with sign convention.</b> Object distance \\( u = -30 \\text{ cm} \\), Focal length \\( f = +20 \\text{ cm} \\) (convex).<br><b>Step 2: Use Lens Formula.</b> \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\).<br><b>Step 3: Substitute and solve.</b> \\( \\frac{1}{v} - \\frac{1}{-30} = \\frac{1}{20} \\implies \\frac{1}{v} + \\frac{1}{30} = \\frac{1}{20} \\implies \\frac{1}{v} = \\frac{1}{20} - \\frac{1}{30} \\).<br>LCM is 60: \\( \\frac{1}{v} = \\frac{3 - 2}{60} = \\frac{1}{60} \\). So, \\( v = +60 \\text{ cm} \\).<br><b>Conclusion:</b> Since \\( v \\) is positive, the image is formed on the other side, making it <b>Real and inverted</b>."
+      },
+      {
+        "id": "LEN_020",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "<b>[Topper Challenge]</b> A concave lens has a focal length of \\( 15 \\text{ cm} \\). At what distance should an object be placed from the lens so that it forms an image at \\( 10 \\text{ cm} \\) from the lens?",
+        "options": [
+          "\\( -5 \\text{ cm} \\)",
+          "\\( -30 \\text{ cm} \\)",
+          "\\( +30 \\text{ cm} \\)",
+          "\\( -15 \\text{ cm} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Apply sign convention.</b> For a concave lens, focal length \\( f = -15 \\text{ cm} \\). Since a concave lens always forms a virtual image on the same side as the object, image distance \\( v = -10 \\text{ cm} \\).<br><b>Step 2: Use Lens Formula.</b> \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\).<br><b>Step 3: Substitute and solve.</b> \\( \\frac{1}{-10} - \\frac{1}{u} = \\frac{1}{-15} \\implies -\\frac{1}{u} = -\\frac{1}{15} + \\frac{1}{10} \\).<br>LCM of 15 and 10 is 30. \\( -\\frac{1}{u} = \\frac{-2 + 3}{30} = \\frac{1}{30} \\). Therefore, \\( u = -30 \\text{ cm} \\)."
+      },
+      {
+        "id": "LEN_021",
+        "topic": "Image Formation by Lenses",
+        "q": "Where must an object be placed in front of a convex lens to produce a real, inverted, and highly magnified image at infinity?",
+        "options": [
+          "At the optical centre (\\( O \\))",
+          "Exactly at the first principal focus (\\( F_1 \\))",
+          "Between \\( F_1 \\) and \\( 2F_1 \\)",
+          "Beyond \\( 2F_1 \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> According to the standard ray diagrams, when an object is placed exactly at the first principal focus (\\( F_1 \\)) of a convex lens, the refracted rays become perfectly parallel to each other. Because parallel rays meet at infinity, the image is formed at infinity and is highly magnified, real, and inverted."
+      },
+      {
+        "id": "LEN_022",
+        "topic": "Image Formation by Lenses",
+        "q": "In an optical bench experiment, a student places an illuminated object at the \\( 10 \\text{ cm} \\) mark and a fixed screen at the \\( 90 \\text{ cm} \\) mark. She obtains a sharp, magnified image on the screen when a convex lens is placed exactly at the \\( 40 \\text{ cm} \\) mark. If she leaves the object and screen completely undisturbed, at what other mark on the optical bench can she place the lens to obtain another sharp, real image?",
+        "options": [
+          "The \\( 60 \\text{ cm} \\) mark",
+          "The \\( 50 \\text{ cm} \\) mark",
+          "The \\( 70 \\text{ cm} \\) mark",
+          "No other position will form a sharp image"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Calculate initial distances.</b> The object is at \\( 10 \\text{ cm} \\) and the lens is at \\( 40 \\text{ cm} \\), so the object distance \\( u = 40 - 10 = 30 \\text{ cm} \\). The screen is at \\( 90 \\text{ cm} \\), so the image distance \\( v = 90 - 40 = 50 \\text{ cm} \\).<br><b>Step 2: Apply the Conjugate Foci principle.</b> Due to the reversibility of light, a convex lens can form a real image on a fixed screen in two distinct positions by simply swapping the object and image distances. Thus, for the second position, the new object distance \\( u_2 \\) must be \\( 50 \\text{ cm} \\) and the new image distance \\( v_2 \\) must be \\( 30 \\text{ cm} \\).<br><b>Step 3: Find the new lens mark.</b> To make the object distance \\( 50 \\text{ cm} \\) from the object placed at the \\( 10 \\text{ cm} \\) mark, the lens must be moved to the \\( 10 + 50 = 60 \\text{ cm} \\) mark. (Notice the new distance to the screen is exactly \\( 90 - 60 = 30 \\text{ cm} \\), which perfectly matches \\( v_2 \\)!)."
+      },
+      {
+        "id": "LEN_023",
+        "topic": "Image Formation by Lenses",
+        "q": "Which type of lens is used as a 'burning glass' to focus the sun's rays onto a piece of paper to ignite it, and where must the paper be placed?",
+        "options": [
+          "A concave lens; paper at the optical centre",
+          "A convex lens; paper at the second principal focus",
+          "A concave lens; paper at the first principal focus",
+          "A convex lens; paper at twice the focal length (\\( 2F_2 \\))"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> To concentrate the sun's heat, we need to converge the parallel light rays coming from the distant sun. A <b>convex (converging) lens</b> does this. Since rays coming from infinity converge exactly at the <b>second principal focus (\\( F_2 \\))</b>, the paper must be placed exactly there to catch the concentrated light and heat."
+      },
+      {
+        "id": "LEN_024",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "An object is placed \\( 15 \\text{ cm} \\) in front of a convex lens of focal length \\( 10 \\text{ cm} \\). Find the image distance (\\( v \\)).",
+        "options": [
+          "\\( +6 \\text{ cm} \\)",
+          "\\( -30 \\text{ cm} \\)",
+          "\\( +30 \\text{ cm} \\)",
+          "\\( -6 \\text{ cm} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Write given values with sign convention.</b> Object distance \\( u = -15 \\text{ cm} \\), Focal length \\( f = +10 \\text{ cm} \\).<br><b>Step 2: Use the Lens Formula.</b> \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\).<br><b>Step 3: Substitute and solve.</b> \\( \\frac{1}{v} - \\frac{1}{-15} = \\frac{1}{10} \\implies \\frac{1}{v} + \\frac{1}{15} = \\frac{1}{10} \\implies \\frac{1}{v} = \\frac{1}{10} - \\frac{1}{15} \\).<br>LCM of 10 and 15 is 30. \\( \\frac{1}{v} = \\frac{3 - 2}{30} = \\frac{1}{30} \\). Therefore, \\( v = +30 \\text{ cm} \\)."
+      },
+      {
+        "id": "LEN_025",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "A convex lens of focal length \\( 20 \\text{ cm} \\) forms a real and inverted image that is twice the size of the object. At what distance from the lens is the object placed?",
+        "options": [
+          "\\( -30 \\text{ cm} \\)",
+          "\\( -10 \\text{ cm} \\)",
+          "\\( -40 \\text{ cm} \\)",
+          "\\( -15 \\text{ cm} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Analyze Magnification.</b> The image is real and inverted, so magnification \\( m = -2 \\). Since \\( m = \\frac{v}{u} \\), we have \\( \\frac{v}{u} = -2 \\implies v = -2u \\).<br><b>Step 2: Use Lens Formula.</b> \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\). Here, \\( f = +20 \\text{ cm} \\).<br><b>Step 3: Substitute and solve.</b> \\( \\frac{1}{-2u} - \\frac{1}{u} = \\frac{1}{20} \\).<br>Find common denominator: \\( \\frac{-1 - 2}{2u} = \\frac{1}{20} \\implies \\frac{-3}{2u} = \\frac{1}{20} \\).<br>Cross multiply: \\( 2u = -60 \\implies u = -30 \\text{ cm} \\)."
+      },
+      {
+        "id": "LEN_026",
+        "topic": "Image Formation by Lenses",
+        "q": "In a simple microscope (magnifying glass), how can the magnifying power be increased?",
+        "options": [
+          "By using a convex lens of larger focal length",
+          "By using a convex lens of shorter focal length",
+          "By using a concave lens instead",
+          "By moving the object further away from the lens"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The magnifying power of a simple microscope is inversely proportional to its focal length. A convex lens with a <b>shorter focal length</b> bends light more strongly (has higher optical power), allowing the user to bring the object closer to the eye and thus creating a larger, more highly magnified virtual image."
+      },
+      {
+        "id": "LEN_027",
+        "topic": "Image Formation by Lenses",
+        "q": "As an object is moved from infinity towards the first principal focus (\\( F_1 \\)) of a convex lens, what happens to the real image formed on the other side?",
+        "options": [
+          "It moves towards the lens and its size decreases.",
+          "It moves away from the lens and its size increases.",
+          "It moves towards the lens and its size increases.",
+          "It moves away from the lens and its size decreases."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Let's trace the positions. Object at infinity \u2192 Image at \\( F_2 \\) (highly diminished). Object at \\( 2F_1 \\) \u2192 Image at \\( 2F_2 \\) (same size). Object between \\( 2F_1 \\) and \\( F_1 \\) \u2192 Image beyond \\( 2F_2 \\) (magnified).<br><b>Conclusion:</b> As the object approaches the lens (up to the focus), the image continuously <b>moves away from the lens</b> and its size <b>increases</b>."
+      },
+      {
+        "id": "LEN_028",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "What is the equivalent focal length of a combination of a convex lens of focal length \\( 20 \\text{ cm} \\) and a concave lens of focal length \\( 40 \\text{ cm} \\) placed in close contact?",
+        "options": [
+          "\\( +20 \\text{ cm} \\)",
+          "\\( -40 \\text{ cm} \\)",
+          "\\( +40 \\text{ cm} \\)",
+          "\\( +60 \\text{ cm} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Calculate Powers.</b> Power of convex lens \\( P_1 = \\frac{100}{+20} = +5.0 \\text{ D} \\). Power of concave lens \\( P_2 = \\frac{100}{-40} = -2.5 \\text{ D} \\).<br><b>Step 2: Total Power.</b> \\( P_{\\text{total}} = P_1 + P_2 = +5.0 - 2.5 = +2.5 \\text{ D} \\).<br><b>Step 3: Calculate Equivalent Focal Length.</b> \\( F = \\frac{100}{P_{\\text{total}}} = \\frac{100}{+2.5} = +40 \\text{ cm} \\). The combination acts as a convex lens."
+      },
+      {
+        "id": "LEN_029",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "<b>[Topper Challenge]</b> An object and its real image (formed by a convex lens) are separated by a total distance of \\( 90 \\text{ cm} \\). If the image is exactly twice the size of the object, calculate the focal length of the convex lens.",
+        "options": [
+          "\\( +15 \\text{ cm} \\)",
+          "\\( +20 \\text{ cm} \\)",
+          "\\( +30 \\text{ cm} \\)",
+          "\\( +45 \\text{ cm} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Use Magnification.</b> The image is real and magnified twice, so \\( m = -2 \\). \\( \\frac{v}{u} = -2 \\implies v = -2u \\).<br><b>Step 2: Use Distance.</b> The total distance is the magnitude of the object distance plus the image distance: \\( |u| + v = 90 \\). Since \\( u \\) is negative, \\( |u| = -u \\). So, \\( -u + v = 90 \\).<br><b>Step 3: Substitute \\( v \\).</b> \\( -u + (-2u) = 90 \\) is wrong because \\( v \\) is positive. Let's use \\( -u + v = 90 \\implies -u + (-2u) \\) wait, \\( m=v/u \\implies v = -2u \\). Since \\( u \\) is negative, \\( -2u \\) is positive. So \\( -u - 2u = 90 \\) is wrong. Let's do magnitude: \\( x + 2x = 90 \\implies 3x = 90 \\implies x = 30 \\). So \\( u = -30 \\text{ cm} \\), \\( v = +60 \\text{ cm} \\).<br><b>Step 4: Find Focal Length.</b> \\( \\frac{1}{f} = \\frac{1}{60} - \\frac{1}{-30} = \\frac{1}{60} + \\frac{2}{60} = \\frac{3}{60} \\implies f = 20 \\text{ cm} \\)."
+      },
+      {
+        "id": "LEN_030",
+        "topic": "Image Formation by Lenses",
+        "q": "<b>[Topper Challenge]</b> A converging lens forms a virtual image of an object. Which of the following conditions MUST be mathematically true regarding the object distance (\\( u \\)), focal length (\\( f \\)), and image distance (\\( v \\))?",
+        "options": [
+          "\\( |u| > f \\) and \\( v \\) is positive",
+          "\\( |u| = f \\) and \\( v \\) is at infinity",
+          "\\( |u| < f \\) and \\( v \\) is negative",
+          "\\( |u| > 2f \\) and \\( v \\) is negative"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Analyze the Lens.</b> A converging (convex) lens only forms a virtual image when the object is placed strictly between the optical centre and the first principal focus.<br><b>Step 2: Apply to variables.</b> This means the magnitude of the object distance must be strictly less than the focal length: <b>\\( |u| < f \\)</b>.<br><b>Step 3: Image properties.</b> For a virtual image in a convex lens, the image is formed on the same side as the object, meaning the image distance <b>\\( v \\) is negative</b> according to the sign convention."
+      },
+      {
+        "id": "LEN_031",
+        "topic": "Technical Terms & Lens Action",
+        "q": "How can you differentiate between a convex lens and a concave lens simply by looking at a printed page through them, without touching the lenses?",
+        "options": [
+          "If the letters appear diminished and inverted, it is a convex lens.",
+          "If the letters appear magnified and erect when held close, it is a convex lens.",
+          "If the letters appear magnified and inverted, it is a concave lens.",
+          "If the letters appear diminished and erect when held close, it is a convex lens."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> When a lens is held close to a printed page (object distance less than the focal length), a <b>convex lens</b> acts as a simple microscope, forming a virtual, <b>erect, and magnified</b> image. Conversely, a <b>concave lens</b> will always form a virtual, <b>erect, and diminished</b> image, making the letters look smaller."
+      },
+      {
+        "id": "LEN_032",
+        "topic": "Principal Foci & Focal Length",
+        "q": "In an experiment to determine the focal length of a convex lens using a plane mirror, a vertical pin is adjusted in front of the lens until its inverted real image coincides with the pin itself without any parallax. At this specific position, the distance between the pin and the optical centre of the lens is exactly equal to:",
+        "options": [
+          "Half the focal length (\\( f/2 \\))",
+          "Twice the focal length (\\( 2f \\))",
+          "The focal length (\\( f \\))",
+          "Infinity"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> For the image to coincide with the object, the light rays must hit the plane mirror normally (at \\( 90^\\circ \\)) and retrace their path. This only happens if the rays emerging from the convex lens are perfectly parallel. Rays emerge parallel only when the object (the pin) is placed exactly at the <b>first principal focus (\\( F_1 \\))</b>. Therefore, the distance is the focal length (\\( f \\))."
+      },
+      {
+        "id": "LEN_033",
+        "topic": "Image Formation by Lenses",
+        "q": "A student uses a convex lens to focus the rays of the sun onto a piece of paper, finding that the paper burns most rapidly when placed exactly \\( 15 \\text{ cm} \\) from the lens. If she then takes this exact same lens into a dark room and places a lit candle at a distance of \\( 30 \\text{ cm} \\) from it, where will the sharp image of the candle be formed?",
+        "options": [
+          "\\( 15 \\text{ cm} \\) on the other side of the lens",
+          "\\( 30 \\text{ cm} \\) on the other side of the lens",
+          "\\( 60 \\text{ cm} \\) on the same side as the candle",
+          "At infinity"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Deduced the focal length.</b> The sun is effectively at an infinite distance. Rays coming from infinity converge exactly at the principal focus of a convex lens. Since the paper burns at \\( 15 \\text{ cm} \\), the focal length of the lens is \\( f = 15 \\text{ cm} \\).<br><b>Step 2: Analyze the new object position.</b> The candle is placed at \\( 30 \\text{ cm} \\). Notice that \\( 30 \\text{ cm} \\) is exactly twice the focal length (\\( 2f \\)).<br><b>Step 3: Conclusion.</b> According to the fundamental rules of ray optics, when an object is placed exactly at \\( 2F_1 \\), its real and inverted image is formed exactly at \\( 2F_2 \\) on the opposite side. Therefore, the image forms at \\( 2 \\times 15 = 30 \\text{ cm} \\) on the other side."
+      },
+      {
+        "id": "LEN_034",
+        "topic": "Image Formation by Lenses",
+        "q": "For a convex lens, what is the absolute minimum distance possible between a real object and its corresponding real image?",
+        "options": [
+          "\\( f \\)",
+          "\\( 2f \\)",
+          "\\( 3f \\)",
+          "\\( 4f \\)"
+        ],
+        "correct": 3,
+        "sol": "<b>Concept:</b> Let's test the standard positions. If object is at \\( 2F_1 \\), image is at \\( 2F_2 \\).<br><b>Calculation:</b> The distance from the object to the lens is \\( 2f \\), and the distance from the lens to the image is \\( 2f \\). The total distance is \\( 2f + 2f = 4f \\). Calculus and graphical analysis prove that it is impossible to form a real image if the screen is placed any closer than <b>\\( 4f \\)</b> from the object."
+      },
+      {
+        "id": "LEN_035",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "A lens produces a linear magnification of \\( +\\frac{1}{3} \\) when an object is placed \\( 30 \\text{ cm} \\) in front of it. Identify the type of lens and its focal length.",
+        "options": [
+          "Convex lens, \\( f = +15 \\text{ cm} \\)",
+          "Concave lens, \\( f = -15 \\text{ cm} \\)",
+          "Concave lens, \\( f = -10 \\text{ cm} \\)",
+          "Convex lens, \\( f = +10 \\text{ cm} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Identify lens type.</b> The magnification is positive (virtual/erect) and less than 1 (diminished). Only a <b>concave lens</b> can form a virtual, diminished image.<br><b>Step 2: Use magnification formula.</b> \\( m = \\frac{v}{u} \\implies +\\frac{1}{3} = \\frac{v}{-30} \\implies v = -10 \\text{ cm} \\).<br><b>Step 3: Use Lens formula.</b> \\( \\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{-10} - \\frac{1}{-30} = -\\frac{3}{30} + \\frac{1}{30} = -\\frac{2}{30} \\).<br><b>Step 4: Solve.</b> \\( f = -15 \\text{ cm} \\)."
+      },
+      {
+        "id": "LEN_036",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "An object is placed \\( 10 \\text{ cm} \\) in front of a convex lens of focal length \\( 20 \\text{ cm} \\). Calculate the linear magnification produced by the lens.",
+        "options": [
+          "\\( +2 \\)",
+          "\\( -2 \\)",
+          "\\( +0.5 \\)",
+          "\\( -0.5 \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Write given values.</b> \\( u = -10 \\text{ cm} \\), \\( f = +20 \\text{ cm} \\).<br><b>Step 2: Find image distance (\\( v \\)).</b> \\( \\frac{1}{v} - \\frac{1}{-10} = \\frac{1}{20} \\implies \\frac{1}{v} = \\frac{1}{20} - \\frac{1}{10} = \\frac{1 - 2}{20} = -\\frac{1}{20} \\). So, \\( v = -20 \\text{ cm} \\).<br><b>Step 3: Calculate Magnification.</b> \\( m = \\frac{v}{u} = \\frac{-20}{-10} = +2 \\). The image is virtual, erect, and magnified twice."
+      },
+      {
+        "id": "LEN_037",
+        "topic": "Technical Terms & Lens Action",
+        "q": "If a symmetrical biconvex lens of focal length \\( f \\) is cut perfectly in half along its vertical axis (passing through the optical centre), what will be the focal length of each of the two resulting plano-convex lenses?",
+        "options": [
+          "\\( f \\)",
+          "\\( f/2 \\)",
+          "\\( 2f \\)",
+          "Zero"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> A biconvex lens bends light using both of its curved surfaces. If you cut it vertically, the new plano-convex lens only has one curved surface to bend the light. Because it has half the bending power, the light will travel twice as far before converging. Therefore, the focal length doubles to <b>\\( 2f \\)</b>."
+      },
+      {
+        "id": "LEN_038",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "The power of a lens is defined as the reciprocal of its focal length expressed in meters. What does a higher positive power mathematically and physically indicate about a lens?",
+        "options": [
+          "It is a concave lens that diverges light more strongly.",
+          "It is a convex lens with a shorter focal length that converges light more strongly.",
+          "It is a convex lens with a longer focal length that converges light less strongly.",
+          "It is a flat glass slab."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A positive power indicates a converging (convex) lens. Since \\( P = 1/f \\), a higher power means a smaller denominator (shorter focal length). Physically, this means the lens has a sharp curvature and bends the light rays more violently, bringing them to a focus much closer to the optical centre."
+      },
+      {
+        "id": "LEN_039",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "<b>[Topper Challenge]</b> A convex lens forms a sharp image of an object on a screen placed \\( 60 \\text{ cm} \\) away from the lens. If the linear magnification produced is \\( -2 \\), calculate the focal length and the power of the lens.",
+        "options": [
+          "\\( f = +20 \\text{ cm}, P = +5.0 \\text{ D} \\)",
+          "\\( f = +30 \\text{ cm}, P = +3.33 \\text{ D} \\)",
+          "\\( f = +40 \\text{ cm}, P = +2.5 \\text{ D} \\)",
+          "\\( f = +15 \\text{ cm}, P = +6.67 \\text{ D} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Analyze variables.</b> Since the image is on a screen, it's real, so \\( v = +60 \\text{ cm} \\). Magnification \\( m = -2 \\).<br><b>Step 2: Find Object Distance (\\( u \\)).</b> \\( m = \\frac{v}{u} \\implies -2 = \\frac{60}{u} \\implies u = -30 \\text{ cm} \\).<br><b>Step 3: Use Lens Formula for \\( f \\).</b> \\( \\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{60} - \\left(\\frac{1}{-30}\\right) = \\frac{1}{60} + \\frac{2}{60} = \\frac{3}{60} \\implies f = 20 \\text{ cm} \\) (or \\( 0.2 \\text{ m} \\)).<br><b>Step 4: Calculate Power.</b> \\( P = \\frac{1}{f(\\text{in m})} = \\frac{1}{0.2} = +5.0 \\text{ D} \\)."
+      },
+      {
+        "id": "LEN_040",
+        "topic": "Image Formation by Lenses",
+        "q": "<b>[Topper Challenge]</b> An object is placed in front of a convex lens of focal length \\( 15 \\text{ cm} \\). The lens forms a virtual and erect image that is exactly three times the size of the object. Determine the exact position of the object relative to the optical centre.",
+        "options": [
+          "\\( 10 \\text{ cm} \\) in front of the lens",
+          "\\( 5 \\text{ cm} \\) in front of the lens",
+          "\\( 20 \\text{ cm} \\) in front of the lens",
+          "\\( 30 \\text{ cm} \\) in front of the lens"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Use Magnification.</b> A virtual, erect image has positive magnification. \\( m = +3 \\).<br><b>Step 2: Relate \\( v \\) and \\( u \\).</b> \\( m = \\frac{v}{u} \\implies 3 = \\frac{v}{u} \\implies v = 3u \\).<br><b>Step 3: Use Lens Formula.</b> \\( \\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u} \\). Here \\( f = +15 \\text{ cm} \\).<br><b>Step 4: Substitute and solve.</b> \\( \\frac{1}{15} = \\frac{1}{3u} - \\frac{1}{u} = \\frac{1 - 3}{3u} = \\frac{-2}{3u} \\).<br>Cross multiply: \\( 3u = -30 \\implies u = -10 \\text{ cm} \\). The object is placed \\( 10 \\text{ cm} \\) in front of the lens."
+      },
+      {
+        "id": "LEN_041",
+        "topic": "Image Formation by Lenses",
+        "q": "When a convex lens is used as a simple magnifying glass, the image formed is virtual, erect, and magnified. Where does this image generally form to be seen most clearly by the human eye?",
+        "options": [
+          "At infinity",
+          "Exactly at the optical centre",
+          "At the least distance of distinct vision (approx. 25 cm)",
+          "At the second principal focus (\\( F_2 \\))"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> To see the magnified virtual image most distinctly without excessive eye strain, the user adjusts the distance of the lens so that the image is formed at the eye's <b>least distance of distinct vision</b> (denoted by \\( D \\), which is approximately \\( 25 \\text{ cm} \\) for a normal eye)."
+      },
+      {
+        "id": "LEN_042",
+        "topic": "Technical Terms & Lens Action",
+        "q": "A biconvex lens of focal length \\( f \\) and power \\( P \\) is cut exactly in half horizontally (along its principal axis). What is the focal length and power of each resulting half-lens?",
+        "options": [
+          "Focal length = \\( f \\), Power = \\( P/2 \\)",
+          "Focal length = \\( f/2 \\), Power = \\( 2P \\)",
+          "Focal length = \\( 2f \\), Power = \\( P/2 \\)",
+          "Focal length = \\( f \\), Power = \\( P \\)"
+        ],
+        "correct": 3,
+        "sol": "<b>Concept:</b> Cutting a lens horizontally along the principal axis does not change the radius of curvature of its refracting surfaces.<br><b>Explanation:</b> Because the curvature remains exactly the same, the light-bending ability (Power) and the <b>Focal Length remain completely unchanged</b>. The only difference is that the physical aperture (area) is halved, meaning the lens collects less light, so the resulting image will simply be less bright."
+      },
+      {
+        "id": "LEN_043",
+        "topic": "Image Formation by Lenses",
+        "q": "An object is placed in front of a convex lens, and a sharp, real image is obtained on a screen on the other side. If the object is slowly moved closer to the lens (but remains beyond the focus), what must be done to the screen to keep the image perfectly sharp?",
+        "options": [
+          "Move the screen closer to the lens.",
+          "Move the screen further away from the lens.",
+          "Keep the screen perfectly stationary.",
+          "Replace the screen with a larger one."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> For a convex lens, as the object distance (\\( u \\)) decreases (moving closer to the lens), the image distance (\\( v \\)) increases. The image forms further and further away. Therefore, you must <b>move the screen further away</b> from the lens to catch the sharp image."
+      },
+      {
+        "id": "LEN_044",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "A convex lens of power \\( +4.0 \\text{ D} \\) and a concave lens of power \\( -6.0 \\text{ D} \\) are placed in close contact. What is the focal length and nature of this lens combination?",
+        "options": [
+          "\\( +50 \\text{ cm} \\), Convex",
+          "\\( -50 \\text{ cm} \\), Concave",
+          "\\( -20 \\text{ cm} \\), Concave",
+          "\\( +20 \\text{ cm} \\), Convex"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate Total Power.</b> When lenses are in contact, \\( P = P_1 + P_2 = +4.0 + (-6.0) = -2.0 \\text{ D} \\).<br><b>Step 2: Determine nature.</b> Since the total power is negative, the combination acts as a <b>Concave (diverging) lens</b>.<br><b>Step 3: Calculate Focal Length.</b> \\( f = \\frac{100}{P} = \\frac{100}{-2.0} = -50 \\text{ cm} \\)."
+      },
+      {
+        "id": "LEN_045",
+        "topic": "Image Formation by Lenses",
+        "q": "As an object is moved from infinity towards the optical centre of a concave lens, what happens to the size and position of the virtual image formed?",
+        "options": [
+          "The image moves towards the focus and its size decreases.",
+          "The image moves towards the optical centre and its size increases.",
+          "The image moves towards infinity and its size increases.",
+          "The image remains completely stationary at the focus."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> When the object is at infinity, the image is a tiny point exactly at the focus. As you bring the object closer and closer to the concave lens, the virtual image <b>moves away from the focus towards the optical centre</b>, and its <b>size gradually increases</b> (though it always remains diminished compared to the actual object)."
+      },
+      {
+        "id": "LEN_046",
+        "topic": "Technical Terms & Lens Action",
+        "q": "How can a blindfolded person distinguish between a convex lens and a concave lens simply by touching them?",
+        "options": [
+          "A convex lens is thicker at the edges and thinner in the middle.",
+          "A concave lens is completely flat on one side.",
+          "A convex lens is thicker in the middle and thinner at the edges.",
+          "Both lenses feel perfectly identical due to their smooth polishing."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> By definition and physical construction, a <b>convex (converging) lens bulges outwards</b>, making it thickest in the centre and thin at the edges. A concave (diverging) lens curves inwards, making it thinnest in the centre and thicker at the edges."
+      },
+      {
+        "id": "LEN_047",
+        "topic": "Principal Foci & Focal Length",
+        "q": "A student is given an asymmetrical biconvex lens, meaning one surface is physically much more curved than the other (radius \\( R_1 \\neq R_2 \\)). If the lens is kept in the air, how will the magnitude of its first focal length (\\( f_1 \\)) compare to its second focal length (\\( f_2 \\))?",
+        "options": [
+          "\\( f_1 \\) will be greater than \\( f_2 \\)",
+          "\\( f_1 \\) will be less than \\( f_2 \\)",
+          "\\( f_1 \\) will be strictly equal to \\( f_2 \\)",
+          "It depends entirely on which surface faces the incident light"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> The focal length of a thin lens depends on its refractive index and the optical density of the surrounding medium.<br><b>Explanation:</b> As long as the medium on <i>both sides</i> of the lens is absolutely identical (in this case, air), the principle of reversibility dictates that the optical light path is perfectly symmetric. Therefore, the magnitude of the first focal length is <b>always exactly equal</b> to the second focal length (\\( f_1 = f_2 \\)), regardless of the physical asymmetry of the two glass surfaces!"
+      },
+      {
+        "id": "LEN_048",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "The graph of \\( \\frac{1}{v} \\) plotted against \\( \\frac{1}{u} \\) for a convex lens forming real images is a straight line. What mathematical constant does the intercept of this line on the \\( \\frac{1}{v} \\) axis represent?",
+        "options": [
+          "The optical power of the lens (\\( 1/f \\))",
+          "The magnification of the lens (\\( m \\))",
+          "The focal length of the lens (\\( f \\))",
+          "The velocity of light in the lens"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Use the lens formula.</b> \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\).<br><b>Step 2: Rearrange into the equation of a straight line (\\( y = mx + c \\)).</b> \\( \\frac{1}{v} = 1 \\left(\\frac{1}{u}\\right) + \\frac{1}{f} \\).<br><b>Step 3: Analyze intercepts.</b> Plotting \\( \\frac{1}{v} \\) on the y-axis and \\( \\frac{1}{u} \\) on the x-axis, the y-intercept (\\( c \\)) is exactly \\( \\frac{1}{f} \\). Since \\( P = \\frac{1}{f} \\), the intercept represents the <b>optical power</b> of the lens."
+      },
+      {
+        "id": "LEN_049",
+        "topic": "Lens Formula, Magnification & Power",
+        "q": "<b>[Topper Challenge]</b> A convex lens of focal length \\( 15 \\text{ cm} \\) forms a real and inverted image that is exactly three times the size of the object. Calculate the distance of the object from the optical centre of the lens.",
+        "options": [
+          "\\( 10 \\text{ cm} \\)",
+          "\\( 20 \\text{ cm} \\)",
+          "\\( 30 \\text{ cm} \\)",
+          "\\( 45 \\text{ cm} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Set up Magnification.</b> The image is real and inverted, so \\( m = -3 \\). Since \\( m = \\frac{v}{u} \\), we know \\( v = -3u \\).<br><b>Step 2: Use the Lens Formula.</b> \\( \\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u} \\). Here, \\( f = +15 \\text{ cm} \\).<br><b>Step 3: Substitute and solve.</b> \\( \\frac{1}{15} = \\frac{1}{-3u} - \\frac{1}{u} \\). Find a common denominator: \\( \\frac{1}{15} = \\frac{-1 - 3}{3u} = \\frac{-4}{3u} \\).<br><b>Step 4: Cross multiply.</b> \\( 3u = -60 \\implies u = -20 \\text{ cm} \\). The object is placed \\( 20 \\text{ cm} \\) in front of the lens."
+      },
+      {
+        "id": "LEN_050",
+        "topic": "Image Formation by Lenses",
+        "q": "<b>[Topper Challenge]</b> An object and a screen are kept perfectly fixed at a distance of \\( 80 \\text{ cm} \\) from each other. A student finds that a convex lens forms a sharp image of the object on the screen in two distinct positions. If the linear magnification of the image in the first lens position is \\( -3 \\), what MUST be the linear magnification of the image in the second lens position?",
+        "options": [
+          "\\( -3 \\)",
+          "\\( +3 \\)",
+          "\\( -\\frac{1}{3} \\)",
+          "\\( +\\frac{1}{3} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> This relies on the <b>Principle of Reversibility</b> and Conjugate Foci. If a lens forms a real image on a fixed screen in two positions, the object and image distances simply swap between the two positions (i.e., \\( u_2 = v_1 \\) and \\( v_2 = u_1 \\)).<br><b>Step 1: First position magnification.</b> \\( m_1 = \\frac{v_1}{u_1} = -3 \\).<br><b>Step 2: Second position magnification.</b> \\( m_2 = \\frac{v_2}{u_2} = \\frac{u_1}{v_1} \\).<br><b>Step 3: Conclusion.</b> Since \\( m_2 \\) is the mathematical reciprocal of \\( m_1 \\), \\( m_2 = -\\frac{1}{3} \\)."
+      }
+    ]
+  },
     
     // ==========================================
     // CHAPTER: VECTORS
