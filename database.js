@@ -3304,7 +3304,7 @@
 
     "Machines": {
     classTarget: "Class 10",
-    totalQs: 45,
+    totalQs: 41,
     topics: [
       "Technical Terms & Principles",
       "Levers & Their Classes",
@@ -3844,6 +3844,675 @@
         ],
         "correct": 1,
         "sol": "<b>Step 1: Calculate Useful Work Output.</b> \\( W_{\\text{out}} = \\text{Load} \\times h = 1000 \\times 2 = 2000 \\text{ J} \\).<br><b>Step 2: Calculate Work Input.</b> Efficiency = \\( \\frac{W_{\\text{out}}}{W_{\\text{input}}} \\implies 0.80 = \\frac{2000}{W_{\\text{input}}} \\implies W_{\\text{input}} = \\frac{2000}{0.80} = 2500 \\text{ J} \\).<br><b>Step 3: Calculate Power Input.</b> Power = \\( \\frac{W_{\\text{input}}}{t} = \\frac{2500}{5} = 500 \\text{ W} \\)."
+      }
+    ]
+  },
+
+    "Refraction of Light at Plane Surfaces": {
+    classTarget: "Class 10",
+    totalQs: 50,
+    topics: [
+      "Laws of Refraction & Refractive Index",
+      "Refraction through a Glass Block",
+      "Real and Apparent Depth",
+      "Refraction through a Prism",
+      "Critical Angle & Total Internal Reflection"
+    ],
+    questions: [
+      {
+        "id": "REF_001",
+        "topic": "Laws of Refraction & Refractive Index",
+        "q": "When a ray of monochromatic light passes from air into a glass block, which of its fundamental properties remains absolutely unchanged?",
+        "options": [
+          "Speed",
+          "Wavelength",
+          "Frequency",
+          "Intensity"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> When light travels from one medium to another, its speed and wavelength change due to the optical density of the new medium. However, <b>Frequency</b> is a fundamental characteristic of the source of the light and remains completely unaffected during refraction."
+      },
+      {
+        "id": "REF_002",
+        "topic": "Laws of Refraction & Refractive Index",
+        "q": "The speed of light in vacuum is \\( 3 \\times 10^8 \\text{ m s}^{-1} \\). If the absolute refractive index of diamond is \\( 2.4 \\), what is the speed of light inside the diamond?",
+        "options": [
+          "\\( 1.25 \\times 10^8 \\text{ m s}^{-1} \\)",
+          "\\( 7.20 \\times 10^8 \\text{ m s}^{-1} \\)",
+          "\\( 1.50 \\times 10^8 \\text{ m s}^{-1} \\)",
+          "\\( 2.40 \\times 10^8 \\text{ m s}^{-1} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Write the formula.</b> Absolute Refractive Index \\( \\mu = \\frac{c}{V} \\).<br><b>Step 2: Rearrange for speed in medium (V).</b> \\( V = \\frac{c}{\\mu} \\).<br><b>Step 3: Calculate.</b> \\( V = \\frac{3 \\times 10^8}{2.4} = 1.25 \\times 10^8 \\text{ m s}^{-1} \\)."
+      },
+      {
+        "id": "REF_003",
+        "topic": "Laws of Refraction & Refractive Index",
+        "q": "A monochromatic ray of light of wavelength \\( 6000 \\text{ \\AA} \\) travels from air into glass. If the refractive index of glass is \\( 1.5 \\), calculate the wavelength of light inside the glass.",
+        "options": [
+          "\\( 9000 \\text{ \\AA} \\)",
+          "\\( 4000 \\text{ \\AA} \\)",
+          "\\( 6000 \\text{ \\AA} \\)",
+          "\\( 3000 \\text{ \\AA} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Understand the relationship.</b> The refractive index relates to wavelength as \\( \\mu = \\frac{\\lambda_{\\text{vacuum}}}{\\lambda_{\\text{medium}}} \\).<br><b>Step 2: Set up the equation.</b> \\( 1.5 = \\frac{6000}{\\lambda_{\\text{glass}}} \\).<br><b>Step 3: Solve.</b> \\( \\lambda_{\\text{glass}} = \\frac{6000}{1.5} = 4000 \\text{ \\AA} \\)."
+      },
+      {
+        "id": "REF_004",
+        "topic": "Laws of Refraction & Refractive Index",
+        "q": "The absolute refractive index of water is \\( \\frac{4}{3} \\) and that of glass is \\( \\frac{3}{2} \\). What is the refractive index of glass with respect to water?",
+        "options": [
+          "\\( \\frac{8}{9} \\)",
+          "\\( \\frac{9}{8} \\)",
+          "\\( 2 \\)",
+          "\\( 0.5 \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Formula for Relative Refractive Index.</b> The refractive index of medium 2 with respect to medium 1 is \\( _{1}\\mu_{2} = \\frac{\\mu_2}{\\mu_1} \\).<br><b>Step 2: Substitute values.</b> We need glass with respect to water: \\( _{w}\\mu_{g} = \\frac{\\mu_g}{\\mu_w} = \\frac{3/2}{4/3} \\).<br><b>Step 3: Solve.</b> \\( \\frac{3}{2} \\times \\frac{3}{4} = \\frac{9}{8} \\)."
+      },
+      {
+        "id": "REF_005",
+        "topic": "Laws of Refraction & Refractive Index",
+        "q": "According to Snell's law, the ratio of the sine of the angle of incidence to the sine of the angle of refraction is a constant. For light traveling from Medium 1 to Medium 2, what does this constant physically represent?",
+        "options": [
+          "The absolute refractive index of Medium 1",
+          "The absolute refractive index of Medium 2",
+          "The refractive index of Medium 2 with respect to Medium 1",
+          "The refractive index of Medium 1 with respect to Medium 2"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Snell's Law states that \\( \\frac{\\sin i}{\\sin r} = \\text{constant} \\).<br><b>Explanation:</b> When light travels from Medium 1 to Medium 2, this constant is denoted as \\( _{1}\\mu_{2} \\), which is specifically defined as <b>the refractive index of the second medium with respect to the first medium</b>."
+      },
+      {
+        "id": "REF_006",
+        "topic": "Refraction through a Glass Block",
+        "q": "When a ray of light passes obliquely through a rectangular glass block with parallel faces, the emergent ray is parallel to the incident ray but shifted sideways. What is this perpendicular distance between the original path of the incident ray and the emergent ray called?",
+        "options": [
+          "Angle of deviation",
+          "Lateral displacement",
+          "Apparent shift",
+          "Normal shift"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Because the two opposite faces of the rectangular glass block are parallel, the bending of the ray at the first surface is exactly undone at the second surface. The ray emerges parallel to its original path but shifted to the side. This perpendicular shift is officially termed <b>Lateral Displacement</b>."
+      },
+      {
+        "id": "REF_007",
+        "topic": "Refraction through a Glass Block",
+        "q": "The lateral displacement of a light ray passing through a rectangular glass slab does NOT depend on which of the following factors?",
+        "options": [
+          "Thickness of the glass slab",
+          "Angle of incidence",
+          "Refractive index of the glass",
+          "Intensity of the incident light"
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> Lateral displacement increases with an increase in the thickness of the block, the angle of incidence, and the refractive index of the material. It has absolutely nothing to do with the brightness or <b>Intensity</b> of the light beam."
+      },
+      {
+        "id": "REF_008",
+        "topic": "Refraction through a Glass Block",
+        "q": "Observe the ray diagram showing a light ray passing through a rectangular glass slab. If the angle of incidence is \\( 45^\\circ \\) and the angle of refraction at the first air-glass surface is \\( 28^\\circ \\), what will be the angle of emergence?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPylRQiusmXecFfxiuaPf75a2gzFATvtR2JcPm5ACe9sF1jS_UNh_uWkZ6_EdCnHCidnQB-Gd_cIOIxduQ_arxIHclEjYfUrYobUPmHZYqJ84zD3fNeBJxy-x7F3r83fsFnV9ngSgn4E26D7SuuBUEFyh3Sqc2Qzvr6xy7uUEG-SXGFJvRsB_iaTwNUPrO/s320/Gemini_Generated_Image_zeqc1ezeqc1ezeqc.png",
+        "options": [
+          "\\( 28^\\circ \\)",
+          "\\( 90^\\circ \\)",
+          "\\( 45^\\circ \\)",
+          "\\( 17^\\circ \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Analyze the geometry.</b> For a rectangular glass block, the two refracting surfaces (top and bottom) are parallel.<br><b>Step 2: Apply the Principle of Reversibility.</b> Because the surfaces are parallel, the total bending at the first interface is perfectly canceled by the un-bending at the second interface. Therefore, the angle of emergence (\\( e \\)) must always exactly equal the angle of incidence (\\( i \\)).<br><b>Conclusion:</b> Since \\( i = 45^\\circ \\), then \\( e = 45^\\circ \\)."
+      },
+      {
+        "id": "REF_009",
+        "topic": "Refraction through a Glass Block",
+        "q": "When a brightly illuminated object is placed in front of a thick glass mirror, multiple images are formed due to multiple reflections inside the glass. Which of these images is the brightest?",
+        "options": [
+          "The first image",
+          "The second image",
+          "The third image",
+          "All images have equal brightness"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The first image is formed by partial reflection (about 4%) from the front, un-silvered surface of the glass. The transmitted light then strikes the silvered back surface, suffering a strong reflection. It then emerges to form the <b>second image</b>. Because this reflection at the silvered back is nearly complete, the second image is significantly the brightest."
+      },
+      {
+        "id": "REF_010",
+        "topic": "Laws of Refraction & Refractive Index",
+        "q": "Which colour of white light suffers the maximum bending (has the highest refractive index) when it passes from air into a glass block?",
+        "options": [
+          "Red",
+          "Yellow",
+          "Green",
+          "Violet"
+        ],
+        "correct": 3,
+        "sol": "<b>Concept:</b> The refractive index of a medium depends on the speed of the specific color of light in that medium (\\( \\mu = c/v \\)).<br><b>Explanation:</b> <b>Violet</b> light has the shortest wavelength and travels the slowest in glass compared to other colors. Because its speed drops the most, it has the highest refractive index and consequently suffers the maximum bending."
+      },
+      {
+        "id": "REF_011",
+        "topic": "Real and Apparent Depth",
+        "q": "A coin placed at the bottom of a beaker appears to be raised when water is poured into it. This optical illusion is primarily due to:",
+        "options": [
+          "Total Internal Reflection",
+          "Refraction of light",
+          "Dispersion of light",
+          "Scattering of light"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> When light rays travel from the denser medium (water) to the rarer medium (air), they bend away from the normal. When these diverging refracted rays reach our eyes, they appear to come from a point higher than the actual position of the coin. This phenomenon is a direct consequence of the <b>Refraction of light</b>."
+      },
+      {
+        "id": "REF_012",
+        "topic": "Real and Apparent Depth",
+        "q": "A swimming pool appears to be \\( 3 \\text{ m} \\) deep when viewed normally from above. If the absolute refractive index of water is \\( \\frac{4}{3} \\), what is the actual depth of the pool?",
+        "options": [
+          "\\( 4 \\text{ m} \\)",
+          "\\( 2.25 \\text{ m} \\)",
+          "\\( 9 \\text{ m} \\)",
+          "\\( 3.33 \\text{ m} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Write the formula.</b> Refractive Index \\( \\mu = \\frac{\\text{Real Depth}}{\\text{Apparent Depth}} \\).<br><b>Step 2: Substitute values.</b> \\( \\frac{4}{3} = \\frac{\\text{Real Depth}}{3 \\text{ m}} \\).<br><b>Step 3: Solve.</b> Real Depth = \\( \\frac{4}{3} \\times 3 = 4 \\text{ m} \\)."
+      },
+      {
+        "id": "REF_013",
+        "topic": "Real and Apparent Depth",
+        "q": "A thick glass block of thickness \\( 12 \\text{ cm} \\) and refractive index \\( 1.5 \\) is placed directly over a printed page. By what perpendicular distance do the letters appear to be raised (the apparent shift)?",
+        "options": [
+          "\\( 8 \\text{ cm} \\)",
+          "\\( 4 \\text{ cm} \\)",
+          "\\( 6 \\text{ cm} \\)",
+          "\\( 18 \\text{ cm} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Use the Apparent Shift formula.</b> Shift = \\( \\text{Real Depth} \\times \\left(1 - \\frac{1}{\\mu}\\right) \\).<br><b>Step 2: Substitute values.</b> Real Depth (thickness) = \\( 12 \\text{ cm} \\), \\( \\mu = 1.5 = \\frac{3}{2} \\).<br><b>Step 3: Calculate.</b> Shift = \\( 12 \\times \\left(1 - \\frac{2}{3}\\right) = 12 \\times \\frac{1}{3} = 4 \\text{ cm} \\)."
+      },
+      {
+        "id": "REF_014",
+        "topic": "Refraction through a Prism",
+        "q": "The angle of deviation produced by a glass prism does NOT depend on which of the following?",
+        "options": [
+          "The angle of incidence",
+          "The refracting angle of the prism (Angle A)",
+          "The refractive index of the prism's material",
+          "The physical thickness of the base of the prism"
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> The angle of deviation (\\( \\delta \\)) depends purely on optical and geometric properties: the angle of incidence (\\( i \\)), the angle of the prism (\\( A \\)), the color/wavelength of the light, and the refractive index (\\( \\mu \\)) of the material. The mere physical thickness of the base plays no mathematical role."
+      },
+      {
+        "id": "REF_015",
+        "topic": "Refraction through a Prism",
+        "q": "Observe the ray diagram of light passing through an equilateral glass prism. If the prism is perfectly set in the position of <b>minimum deviation</b>, which of the following geometric conditions must be mathematically true?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjGb589M2giEeuWv1ULQBuWjS_INpXT_bQPATNijamVIZP_VZgEyatgsJ-C6-dszFups5v34yfOT2HW46Sqp9gujfqHjGXQocl-YHdgu_5G_-Lo97dL6VKUWwpY_e-q9wvieWbfyFU8q9FqwR2dSC4qe-ZGkaIvGRzhibKOJzp0JYTP_aPwrjIEHdP8Oyc_",
+        "options": [
+          "The angle of incidence is strictly greater than the angle of emergence.",
+          "The angle of incidence is exactly equal to the angle of emergence.",
+          "The refracted ray inside the prism is perpendicular to the base.",
+          "The total angle of deviation is zero."
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> Minimum deviation occurs when the ray passes symmetrically through the prism.<br><b>Explanation:</b> In the position of minimum deviation, the refracted ray inside the prism travels perfectly parallel to the base (in an equilateral prism), and the angle of incidence (\\( i \\)) becomes exactly equal to the angle of emergence (\\( e \\))."
+      },
+      {
+        "id": "REF_016",
+        "topic": "Refraction through a Prism",
+        "q": "For a light ray undergoing refraction through a triangular glass prism, what is the fundamental mathematical relationship between the angle of incidence (\\( i \\)), angle of emergence (\\( e \\)), angle of the prism (\\( A \\)), and the angle of deviation (\\( \\delta \\))?",
+        "options": [
+          "\\( i + e = A - \\delta \\)",
+          "\\( i + \\delta = A + e \\)",
+          "\\( i + e = A + \\delta \\)",
+          "\\( i - e = A + \\delta \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> By applying the geometry of quadrilaterals and exterior angles of triangles to the ray diagram of a prism, we derive the standard relation.<br><b>Conclusion:</b> The sum of the angle of incidence and the angle of emergence is always equal to the sum of the angle of the prism and the angle of deviation: <b>\\( i + e = A + \\delta \\)</b>."
+      },
+      {
+        "id": "REF_017",
+        "topic": "Refraction through a Prism",
+        "q": "A ray of light is incident at an angle of \\( 48^\\circ \\) on one face of an equilateral glass prism (Angle of prism = \\( 60^\\circ \\)). If the prism is currently in the position of minimum deviation, calculate the angle of minimum deviation.",
+        "options": [
+          "\\( 36^\\circ \\)",
+          "\\( 48^\\circ \\)",
+          "\\( 60^\\circ \\)",
+          "\\( 24^\\circ \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Identify the condition for minimum deviation.</b> When deviation is minimum (\\( \\delta_{\\min} \\)), the angle of incidence (\\( i \\)) equals the angle of emergence (\\( e \\)). So, \\( i = e = 48^\\circ \\).<br><b>Step 2: Use the prism equation.</b> \\( i + e = A + \\delta_{\\min} \\).<br><b>Step 3: Substitute and solve.</b> \\( 48^\\circ + 48^\\circ = 60^\\circ + \\delta_{\\min} \\implies 96^\\circ = 60^\\circ + \\delta_{\\min} \\implies \\delta_{\\min} = 36^\\circ \\)."
+      },
+      {
+        "id": "REF_018",
+        "topic": "Real and Apparent Depth",
+        "q": "When viewed from the air, a fish resting at the bottom of a water tank appears to be at a depth of \\( x \\). If the water is completely replaced by an optically denser transparent liquid, what will happen to the apparent depth of the fish?",
+        "options": [
+          "It will increase (appear deeper).",
+          "It will decrease (appear closer to the surface).",
+          "It will remain exactly \\( x \\).",
+          "It depends entirely on the size of the tank."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Look at the formula.</b> Apparent Depth = \\( \\frac{\\text{Real Depth}}{\\mu} \\).<br><b>Step 2: Analyze the relationship.</b> Apparent depth is inversely proportional to the refractive index (\\( \\mu \\)).<br><b>Conclusion:</b> Because the new liquid is optically denser, its \\( \\mu \\) is higher. A higher denominator means the Apparent Depth becomes smaller, causing the fish to appear even closer to the surface."
+      },
+      {
+        "id": "REF_019",
+        "topic": "Real and Apparent Depth",
+        "q": "<b>[Topper Challenge]</b> A coin is kept at the bottom of a beaker containing water (\\( \\mu = \\frac{4}{3} \\)) to a real depth of \\( 12 \\text{ cm} \\). A glass slab (\\( \\mu = \\frac{3}{2} \\)) of thickness \\( 9 \\text{ cm} \\) is then floated gently on the surface of the water. What is the total apparent shift of the coin as seen from vertically above?",
+        "options": [
+          "\\( 3 \\text{ cm} \\)",
+          "\\( 4 \\text{ cm} \\)",
+          "\\( 6 \\text{ cm} \\)",
+          "\\( 7 \\text{ cm} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Calculate shift due to water.</b> \\( S_w = t_w \\left(1 - \\frac{1}{\\mu_w}\\right) = 12 \\times \\left(1 - \\frac{3}{4}\\right) = 12 \\times \\frac{1}{4} = 3 \\text{ cm} \\).<br><b>Step 2: Calculate shift due to glass.</b> \\( S_g = t_g \\left(1 - \\frac{1}{\\mu_g}\\right) = 9 \\times \\left(1 - \\frac{2}{3}\\right) = 9 \\times \\frac{1}{3} = 3 \\text{ cm} \\).<br><b>Step 3: Total Shift.</b> The total shift is simply the sum of individual shifts: \\( 3 \\text{ cm} + 3 \\text{ cm} = 6 \\text{ cm} \\)."
+      },
+      {
+        "id": "REF_020",
+        "topic": "Refraction through a Glass Block",
+        "q": "<b>[Topper Challenge]</b> When a thick glass mirror is used to reflect a point object placed in front of it, a series of multiple images are formed. If the second image is the brightest due to the strong reflection at the silvered back surface, what physical mechanism causes the formation of the third and all subsequent fainter images?",
+        "options": [
+          "Total internal reflection inside the glass",
+          "Repeated partial internal reflections between the front and back surfaces of the glass",
+          "Dispersion of light at the silvered surface",
+          "Scattering of light by the glass molecules"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> After the strong reflection from the back silvered surface creates the bright second image, a small portion of that light reflects internally off the inside of the <b>front, un-silvered surface</b> back towards the silvered mirror. This light bounces back and forth inside the glass block, emerging partially on each pass to form the 3rd, 4th, and increasingly fainter subsequent images."
+      },
+      {
+        "id": "REF_021",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "The critical angle for light traveling from a denser medium to a rarer medium is defined as the specific angle of incidence for which the angle of refraction is exactly:",
+        "options": [
+          "\\( 0^\\circ \\)",
+          "\\( 45^\\circ \\)",
+          "\\( 90^\\circ \\)",
+          "\\( 180^\\circ \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> As the angle of incidence increases in the denser medium, the refracted ray in the rarer medium bends further away from the normal.<br><b>Conclusion:</b> At a certain angle of incidence (the critical angle), the refracted ray bends so much that it grazes the boundary surface between the two media, making the angle of refraction exactly \\( 90^\\circ \\)."
+      },
+      {
+        "id": "REF_022",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "If the critical angle for a glass-air interface is \\( 42^\\circ \\), what is the correct mathematical relationship used to find the absolute refractive index (\\( \\mu \\)) of the glass?",
+        "options": [
+          "\\( \\mu = \\sin(42^\\circ) \\)",
+          "\\( \\mu = \\frac{1}{\\sin(42^\\circ)} \\)",
+          "\\( \\mu = \\cos(42^\\circ) \\)",
+          "\\( \\mu = \\tan(42^\\circ) \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Use Snell's Law at the critical boundary.</b> \\( \\frac{\\sin i}{\\sin r} = _{g}\\mu_{a} \\).<br><b>Step 2: Apply critical conditions.</b> When \\( i = C = 42^\\circ \\), \\( r = 90^\\circ \\). So, \\( \\frac{\\sin(42^\\circ)}{\\sin(90^\\circ)} = \\frac{1}{_{a}\\mu_{g}} \\).<br><b>Step 3: Solve.</b> Since \\( \\sin(90^\\circ) = 1 \\), the absolute refractive index of glass is \\( \\mu = \\frac{1}{\\sin(42^\\circ)} \\)."
+      },
+      {
+        "id": "REF_023",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "Which of the following describes the two absolutely essential conditions for Total Internal Reflection (TIR) to take place?",
+        "options": [
+          "Light must travel from rarer to denser medium AND angle of incidence > critical angle",
+          "Light must travel from denser to rarer medium AND angle of incidence < critical angle",
+          "Light must travel from denser to rarer medium AND angle of incidence > critical angle",
+          "Light must travel from rarer to denser medium AND angle of incidence = critical angle"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> For TIR to occur, the light must be trying to speed up and bend away from the normal, which only happens when going from a <b>denser to a rarer medium</b>. Secondly, the angle at which it hits the boundary must be <b>greater than the critical angle</b> (\\( i > C \\)), otherwise, it will just refract out."
+      },
+      {
+        "id": "REF_024",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "Observe the ray diagram showing a ray of light incident normally on one face of a right-angled isosceles prism. What is the total angle of deviation suffered by the light ray?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjK9j86mAfW4OAu4sgxs88JDHYZnQiv3cjTzEq52NvKGYo6NCFigpJwYWUqW4lAbyxEbv0RZ7_hsIDhPmgDVM9ckUt65xaABw8i4XoImJ91K5Fc-X8aObH9Snc74S_MoL7eRZ2u8kW8AFcBQIdS5IW7dLB7IWHsJWHPsqHukHK-qUpwys4yzlh0jkvVotb/s320/Untitled.png",
+        "options": [
+          "\\( 45^\\circ \\)",
+          "\\( 90^\\circ \\)",
+          "\\( 180^\\circ \\)",
+          "\\( 0^\\circ \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: First Face.</b> The ray enters normally (\\( i = 0^\\circ \\)), so it passes undeviated.<br><b>Step 2: Inside the Prism.</b> It strikes the hypotenuse at \\( 45^\\circ \\). Since \\( 45^\\circ \\) is greater than the critical angle of glass (approx \\( 42^\\circ \\)), it suffers Total Internal Reflection.<br><b>Step 3: Conclusion.</b> The reflection turns the ray by exactly \\( 90^\\circ \\), allowing it to emerge straight out of the second face."
+      },
+      {
+        "id": "REF_025",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "To deviate a ray of light through exactly \\( 180^\\circ \\) (to send it straight back) using a total reflecting right-angled isosceles prism, how must the incident ray strike the prism?",
+        "options": [
+          "Normally on one of the shorter perpendicular faces",
+          "Obliquely on the hypotenuse face",
+          "Normally on the hypotenuse face",
+          "Parallel to the base of the prism"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> If the ray enters normally through the hypotenuse, it travels straight in, hits the first shorter face at \\( 45^\\circ \\) (TIR), bounces across to the second shorter face at \\( 45^\\circ \\) (TIR again), and emerges out of the hypotenuse exactly parallel to its original path, but in the opposite direction (\\( 180^\\circ \\) deviation)."
+      },
+      {
+        "id": "REF_026",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "Why is a totally reflecting glass prism often preferred over a standard plane mirror in high-quality optical instruments like periscopes and binoculars?",
+        "options": [
+          "Prisms are lighter in weight.",
+          "Prisms absorb 100% of the light.",
+          "Prisms reflect 100% of light without multiple images or silvering degradation.",
+          "Prisms produce virtual and highly magnified images."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> A standard mirror loses some light to absorption, suffers from tarnishing of the silver coating over time, and forms faint multiple images due to the thick glass in front of the silver. A totally reflecting prism relies on TIR, which reflects virtually <b>100% of the light</b> continuously without ever degrading or forming ghost images."
+      },
+      {
+        "id": "REF_027",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "How does the critical angle of a transparent medium change if its temperature is significantly increased?",
+        "options": [
+          "It increases",
+          "It decreases",
+          "It remains exactly the same",
+          "It drops to zero"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Relate temperature to refractive index.</b> Heating a medium decreases its optical density, which decreases its refractive index (\\( \\mu \\)).<br><b>Step 2: Relate refractive index to critical angle.</b> Since \\( \\sin C = \\frac{1}{\\mu} \\), the critical angle is inversely related to \\( \\mu \\).<br><b>Step 3: Conclusion.</b> If \\( \\mu \\) decreases due to heat, the critical angle (\\( C \\)) must <b>increase</b>."
+      },
+      {
+        "id": "REF_028",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "For which colour of white light is the critical angle for a given glass-air interface the maximum?",
+        "options": [
+          "Violet",
+          "Red",
+          "Green",
+          "Yellow"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Understand dispersion properties.</b> Red light travels faster in glass than violet light, so glass has the minimum refractive index (\\( \\mu \\)) for Red light.<br><b>Step 2: Apply the Critical Angle formula.</b> \\( \\sin C = \\frac{1}{\\mu} \\). To maximize \\( C \\), we need the minimum \\( \\mu \\).<br><b>Step 3: Conclusion.</b> Since Red has the lowest refractive index, it has the highest (maximum) critical angle."
+      },
+      {
+        "id": "REF_029",
+        "topic": "Real and Apparent Depth",
+        "q": "<b>[Topper Challenge]</b> A water pond originally appears to be \\( 2.7 \\text{ m} \\) deep. If the refractive index of water is \\( \\frac{4}{3} \\), and an immiscible layer of transparent oil (\\( \\mu = 1.2 \\)) of actual thickness \\( 1.2 \\text{ m} \\) is poured on top of the water, what will be the total apparent depth of the pond when viewed from exactly above?",
+        "options": [
+          "\\( 3.7 \\text{ m} \\)",
+          "\\( 3.9 \\text{ m} \\)",
+          "\\( 4.8 \\text{ m} \\)",
+          "\\( 2.7 \\text{ m} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Find real depth of water.</b> \\( D_w = \\text{Apparent Depth} \\times \\mu_w = 2.7 \\times \\frac{4}{3} = 3.6 \\text{ m} \\).<br><b>Step 2: Use the total apparent depth formula.</b> For multiple layers, Apparent Depth = \\( \\frac{D_w}{\\mu_w} + \\frac{D_{\\text{oil}}}{\\mu_{\\text{oil}}} \\).<br><b>Step 3: Calculate.</b> \\( \\frac{3.6}{4/3} + \\frac{1.2}{1.2} = 2.7 + 1.0 = 3.7 \\text{ m} \\)."
+      },
+      {
+        "id": "REF_030",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "<b>[Topper Challenge]</b> The speed of light in a specific transparent liquid is \\( 2 \\times 10^8 \\text{ m s}^{-1} \\). What is the critical angle of this liquid with respect to air? (Take speed of light in vacuum = \\( 3 \\times 10^8 \\text{ m s}^{-1} \\))",
+        "options": [
+          "\\( \\sin^{-1}(0.50) \\)",
+          "\\( \\sin^{-1}(0.66) \\)",
+          "\\( \\sin^{-1}(0.75) \\)",
+          "\\( \\sin^{-1}(1.5) \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate Refractive Index (\\( \\mu \\)).</b> \\( \\mu = \\frac{c}{v} = \\frac{3 \\times 10^8}{2 \\times 10^8} = 1.5 \\).<br><b>Step 2: Use Critical Angle formula.</b> \\( \\sin C = \\frac{1}{\\mu} = \\frac{1}{1.5} \\).<br><b>Step 3: Simplify.</b> \\( \\frac{1}{1.5} = \\frac{2}{3} \\approx 0.66 \\). Therefore, the critical angle \\( C = \\sin^{-1}(0.66) \\)."
+      },
+      {
+        "id": "REF_031",
+        "topic": "Real and Apparent Depth",
+        "q": "A straight stick partially immersed in water appears to be bent upwards at the water surface. This optical illusion occurs because the light rays traveling from the immersed part of the stick to the observer's eye undergo refraction from:",
+        "options": [
+          "A rarer medium to a denser medium, bending towards the normal",
+          "A denser medium to a rarer medium, bending towards the normal",
+          "A denser medium to a rarer medium, bending away from the normal",
+          "A rarer medium to a denser medium, bending away from the normal"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The light rays originate from the tip of the stick underwater (denser medium) and travel out into the air (rarer medium). During this transition, they speed up and bend <b>away from the normal</b>. When the observer's eyes trace these diverging rays backward, they appear to come from a point higher up, making the stick look bent."
+      },
+      {
+        "id": "REF_032",
+        "topic": "Real and Apparent Depth",
+        "q": "An ink mark on a piece of paper is viewed through a rectangular glass slab of thickness \\( 15 \\text{ cm} \\) and absolute refractive index \\( 1.5 \\). By what vertical distance does the ink mark appear to be raised?",
+        "options": [
+          "\\( 10 \\text{ cm} \\)",
+          "\\( 5 \\text{ cm} \\)",
+          "\\( 7.5 \\text{ cm} \\)",
+          "\\( 15 \\text{ cm} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Formula for Apparent Shift.</b> Shift = \\( \\text{Thickness} \\times \\left(1 - \\frac{1}{\\mu}\\right) \\).<br><b>Step 2: Substitute values.</b> Thickness = \\( 15 \\text{ cm} \\), \\( \\mu = 1.5 = \\frac{3}{2} \\).<br><b>Step 3: Calculate.</b> Shift = \\( 15 \\times \\left(1 - \\frac{2}{3}\\right) = 15 \\times \\frac{1}{3} = 5 \\text{ cm} \\)."
+      },
+      {
+        "id": "REF_033",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "The refractive index of a particular dense transparent medium is \\( \\sqrt{2} \\). What is the critical angle for light traveling from this medium into the air?",
+        "options": [
+          "\\( 30^\\circ \\)",
+          "\\( 45^\\circ \\)",
+          "\\( 60^\\circ \\)",
+          "\\( 90^\\circ \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Formula for Critical Angle.</b> \\( \\sin C = \\frac{1}{\\mu} \\).<br><b>Step 2: Substitute value.</b> \\( \\sin C = \\frac{1}{\\sqrt{2}} \\).<br><b>Step 3: Solve.</b> The sine of an angle is \\( \\frac{1}{\\sqrt{2}} \\) exactly when the angle is \\( 45^\\circ \\). Therefore, \\( C = 45^\\circ \\)."
+      },
+      {
+        "id": "REF_034",
+        "topic": "Laws of Refraction & Refractive Index",
+        "q": "The absolute refractive index of water is \\( \\frac{4}{3} \\) and that of glass is \\( \\frac{3}{2} \\). If a light ray travels from water directly into glass, what is the ratio of its speed in water to its speed in glass?",
+        "options": [
+          "\\( 8:9 \\)",
+          "\\( 9:8 \\)",
+          "\\( 1:1 \\)",
+          "\\( 4:3 \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Understand the relation between speed and refractive index.</b> Speed of light in a medium is inversely proportional to its absolute refractive index: \\( V = \\frac{c}{\\mu} \\).<br><b>Step 2: Set up the ratio.</b> \\( \\frac{v_w}{v_g} = \\frac{\\mu_g}{\\mu_w} \\).<br><b>Step 3: Substitute and solve.</b> \\( \\frac{v_w}{v_g} = \\frac{3/2}{4/3} = \\frac{3}{2} \\times \\frac{3}{4} = \\frac{9}{8} \\). The ratio is \\( 9:8 \\)."
+      },
+      {
+        "id": "REF_035",
+        "topic": "Refraction through a Prism",
+        "q": "Observe the ray diagram below showing a monochromatic ray of light striking one face of an equilateral glass prism (Refractive Index = \\( 1.5 \\)). The incident ray strikes exactly at \\( 90^\\circ \\) to the first surface. What will happen when it strikes the second surface inside the prism?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhHew4IEWhXkiXGTjOBQDV3kmU8q4CyY-a3o0sHvE-X0qGCMAqQ217cpvbID24kwLqBInAznItQ4Dp7EDKh46PeXuchyKzyVt0uWwTYOobyz3RniFIG0R20ovVYLYu96PHHySXs041Y6260cYog5duvzhNm_6DN2bY9Yvgbs8f3cP2B10eO2EeZSGegSkU1",
+        "options": [
+          "It will refract out into the air, bending away from the normal.",
+          "It will refract out into the air, bending towards the normal.",
+          "It will undergo Total Internal Reflection.",
+          "It will pass straight through undeviated."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Analyze the first face.</b> The ray enters normally (\\( i = 0^\\circ \\)), so it passes straight into the prism without bending.<br><b>Step 2: Analyze the second face.</b> Using geometry, the angle of incidence at the second face becomes \\( 60^\\circ \\) (since it's an equilateral prism).<br><b>Step 3: Conclusion.</b> The critical angle for glass is approximately \\( 42^\\circ \\). Since \\( 60^\\circ \\) is much greater than \\( 42^\\circ \\), the ray suffers <b>Total Internal Reflection</b> and bounces back inside the prism."
+      },
+      {
+        "id": "REF_036",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "Which of the following optical devices strictly utilizes the phenomenon of Total Internal Reflection to transmit signals over long distances without energy loss?",
+        "options": [
+          "Magnifying Glass",
+          "Optical Fibre",
+          "Astronomical Telescope",
+          "Simple Microscope"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> An <b>Optical Fibre</b> is a thin, flexible thread of high-quality glass or plastic. When light enters one end at a specific angle, it strikes the inner walls of the fibre at angles continuously greater than the critical angle, causing a series of Total Internal Reflections that guide the light signal out the other end with virtually zero intensity loss."
+      },
+      {
+        "id": "REF_037",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "If the absolute refractive index of glass is \\( \\frac{3}{2} \\) and that of water is \\( \\frac{4}{3} \\), calculate the critical angle for light traveling specifically from the glass-water interface.",
+        "options": [
+          "\\( \\sin^{-1}\\left(\\frac{3}{4}\\right) \\)",
+          "\\( \\sin^{-1}\\left(\\frac{8}{9}\\right) \\)",
+          "\\( \\sin^{-1}\\left(\\frac{9}{8}\\right) \\)",
+          "\\( \\sin^{-1}\\left(\\frac{1}{2}\\right) \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Understand Relative Refractive Index.</b> When light travels between two dense media, \\( \\sin C = \\frac{\\mu_{\\text{rarer}}}{\\mu_{\\text{denser}}} \\).<br><b>Step 2: Identify the media.</b> Water is the rarer medium (\\( \\frac{4}{3} \\)) and glass is denser (\\( \\frac{3}{2} \\)).<br><b>Step 3: Substitute and solve.</b> \\( \\sin C = \\frac{4/3}{3/2} = \\frac{4}{3} \\times \\frac{2}{3} = \\frac{8}{9} \\). Therefore, \\( C = \\sin^{-1}\\left(\\frac{8}{9}\\right) \\)."
+      },
+      {
+        "id": "REF_038",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "A crack in a glass window pane often appears bright and silvery when viewed from certain angles. This is primarily an example of:",
+        "options": [
+          "Dispersion of light",
+          "Scattering of light",
+          "Total internal reflection",
+          "Diffraction of light"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> When a crack forms in glass, a tiny layer of air is trapped between the two broken glass surfaces. Light traveling through the denser glass hits this rarer air boundary at angles greater than the critical angle, undergoing <b>Total Internal Reflection</b> and bouncing strongly back to our eyes, making the crack shine intensely like silver."
+      },
+      {
+        "id": "REF_039",
+        "topic": "Real and Apparent Depth",
+        "q": "<b>[Topper Challenge]</b> An ink mark on a piece of paper is viewed vertically through a glass slab of thickness \\( 15 \\text{ cm} \\) and refractive index \\( 1.5 \\). If the glass slab is lifted vertically upwards by \\( 2 \\text{ cm} \\) off the paper, what will be the new apparent shift of the ink mark?",
+        "options": [
+          "\\( 3 \\text{ cm} \\)",
+          "\\( 5 \\text{ cm} \\)",
+          "\\( 7 \\text{ cm} \\)",
+          "\\( 4.5 \\text{ cm} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Formula for Apparent Shift.</b> The vertical shift of the image is given purely by \\( \\text{Shift} = t \\left(1 - \\frac{1}{\\mu}\\right) \\).<br><b>Step 2: Identify variables.</b> Thickness \\( t = 15 \\text{ cm} \\), \\( \\mu = 1.5 \\). Notice that the shift formula does NOT depend on the distance between the glass and the object!<br><b>Step 3: Calculate.</b> Shift = \\( 15 \\times \\left(1 - \\frac{1}{1.5}\\right) = 15 \\times \\frac{1}{3} = 5 \\text{ cm} \\). The shift remains exactly \\( 5 \\text{ cm} \\) no matter how high the slab is lifted."
+      },
+      {
+        "id": "REF_040",
+        "topic": "Refraction through a Prism",
+        "q": "<b>[Topper Challenge]</b> A light ray passes through an equilateral glass prism such that its angle of incidence is exactly equal to its angle of emergence. If each of these angles equals \\( \\frac{3}{4} \\)th of the angle of the prism, calculate the angle of deviation.",
+        "options": [
+          "\\( 15^\\circ \\)",
+          "\\( 30^\\circ \\)",
+          "\\( 45^\\circ \\)",
+          "\\( 60^\\circ \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Identify given variables.</b> Since it is an equilateral prism, the angle of the prism \\( A = 60^\\circ \\).<br><b>Step 2: Calculate i and e.</b> The problem states \\( i = e = \\frac{3}{4} \\times A = \\frac{3}{4} \\times 60^\\circ = 45^\\circ \\).<br><b>Step 3: Use the Prism Equation.</b> \\( i + e = A + \\delta \\).<br><b>Step 4: Solve.</b> \\( 45^\\circ + 45^\\circ = 60^\\circ + \\delta \\implies 90^\\circ = 60^\\circ + \\delta \\implies \\delta = 30^\\circ \\)."
+      },
+      {
+        "id": "REF_041",
+        "topic": "Refraction through a Prism",
+        "q": "Which colour of white light suffers the minimum angle of deviation when passed through a glass prism?",
+        "options": [
+          "Violet",
+          "Green",
+          "Yellow",
+          "Red"
+        ],
+        "correct": 3,
+        "sol": "<b>Concept:</b> The angle of deviation depends on the refractive index of the glass, which in turn depends on the speed of the specific colour.<br><b>Explanation:</b> <b>Red</b> light has the longest wavelength and travels the fastest in glass compared to other colours. Because its speed drops the least, it has the lowest refractive index and consequently suffers the minimum bending (deviation)."
+      },
+      {
+        "id": "REF_042",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "White light is incident on a glass-air interface. If the green light is just totally internally reflected (i.e., it grazes the surface), which of the following colours will successfully refract out into the air?",
+        "options": [
+          "Violet",
+          "Indigo",
+          "Blue",
+          "Red"
+        ],
+        "correct": 3,
+        "sol": "<b>Step 1: Understand Critical Angle and Wavelength.</b> The critical angle (\\( C \\)) increases with an increase in wavelength. Therefore, \\( C_{\\text{red}} > C_{\\text{green}} > C_{\\text{blue}} \\).<br><b>Step 2: Analyze the incident angle.</b> The incident angle (\\( i \\)) is exactly equal to \\( C_{\\text{green}} \\).<br><b>Step 3: Conclusion.</b> Since \\( i = C_{\\text{green}} \\), this means \\( i < C_{\\text{red}} \\). Because the incident angle is less than the critical angle for Red, the <b>Red</b> light will safely refract out into the air. (Violet, Indigo, and Blue have smaller critical angles and will undergo TIR)."
+      },
+      {
+        "id": "REF_043",
+        "topic": "Laws of Refraction & Refractive Index",
+        "q": "According to the Principle of Reversibility of light, if the refractive index of glass with respect to water is \\( \\frac{9}{8} \\), what is the refractive index of water with respect to glass?",
+        "options": [
+          "\\( \\frac{9}{8} \\)",
+          "\\( \\frac{8}{9} \\)",
+          "\\( \\frac{3}{4} \\)",
+          "\\( \\frac{4}{3} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: State the Principle.</b> The Principle of Reversibility states that the path of a light ray is completely reversible. Mathematically, \\( _{1}\\mu_{2} = \\frac{1}{_{2}\\mu_{1}} \\).<br><b>Step 2: Apply to the problem.</b> If \\( _{w}\\mu_{g} = \\frac{9}{8} \\), then \\( _{g}\\mu_{w} = \\frac{1}{9/8} \\).<br><b>Step 3: Solve.</b> \\( _{g}\\mu_{w} = \\frac{8}{9} \\)."
+      },
+      {
+        "id": "REF_044",
+        "topic": "Refraction through a Glass Block",
+        "q": "How does the lateral displacement of a light ray passing through a glass slab change if the incident white light is replaced by a monochromatic red laser beam?",
+        "options": [
+          "It increases",
+          "It decreases",
+          "It remains exactly the same",
+          "It becomes zero"
+        ],
+        "correct": 1,
+        "sol": "<b>Concept:</b> Lateral displacement is directly proportional to the refractive index of the glass block.<br><b>Analysis:</b> Red light has the longest wavelength and experiences the minimum refractive index in glass compared to the average of white light. Because the refractive index drops, the bending is less severe, and thus the lateral displacement <b>decreases</b>."
+      },
+      {
+        "id": "REF_045",
+        "topic": "Real and Apparent Depth",
+        "q": "Observe the ray diagram showing an object O placed at the bottom of a rectangular glass block. Two rays are drawn: one normal and one oblique. The oblique ray bends away from the normal and is extended backward with a dashed line to meet the normal ray at point I. What does the vertical distance between O and I physically represent?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjI88jf084cCvUblRBhYoUS_YlRyrNNDBddHiLO8bF2-hGIGAzMdaqNBcAIuY6ZryTJjcJQaSzM6Y9w6crV0SlUWRH9Qb074stN4XSjZr6ofDvUG-fipiuKkAUi3Q7FUB6eI-DH0msSZa5H6XIO2lwc0xWjfiWrk8tceusyFf0Xmj8ldZZOX4v4-gisILCU",
+        "options": [
+          "Real Depth",
+          "Apparent Depth",
+          "Apparent Shift",
+          "Lateral Displacement"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The actual position of the object is O (Real Depth). The virtual image is formed at I, which is the Apparent Depth. The specific vertical distance that the object appears to have been raised (the distance from O to I) is formally defined as the <b>Apparent Shift</b>."
+      },
+      {
+        "id": "REF_046",
+        "topic": "Critical Angle & Total Internal Reflection",
+        "q": "An empty test tube placed obliquely in a beaker of water often appears silvery and mirror-like when viewed from above. What optical phenomenon is primarily responsible for this?",
+        "options": [
+          "Reflection from the outer glass surface",
+          "Total internal reflection at the glass-air interface inside the tube",
+          "Dispersion of light by the water",
+          "Refraction of light at the water-glass interface"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Light travels through the water and glass (denser media) and strikes the air inside the empty test tube (rarer medium). When the light strikes this inner glass-air boundary at an angle greater than the critical angle, it undergoes <b>Total Internal Reflection</b>. This intensely reflected light reaches our eyes, making the surface look like a shiny silver mirror."
+      },
+      {
+        "id": "REF_047",
+        "topic": "Laws of Refraction & Refractive Index",
+        "q": "Light travels from Medium A to Medium B. If the speed of light in Medium A is \\( 2.5 \\times 10^8 \\text{ m s}^{-1} \\) and in Medium B is \\( 2.0 \\times 10^8 \\text{ m s}^{-1} \\), what is the refractive index of Medium B with respect to Medium A?",
+        "options": [
+          "\\( 0.80 \\)",
+          "\\( 1.25 \\)",
+          "\\( 1.50 \\)",
+          "\\( 0.75 \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Formula.</b> The refractive index of Medium B with respect to Medium A is given by the ratio of their speeds: \\( _{A}\\mu_{B} = \\frac{V_A}{V_B} \\).<br><b>Step 2: Substitute values.</b> \\( _{A}\\mu_{B} = \\frac{2.5 \\times 10^8}{2.0 \\times 10^8} \\).<br><b>Step 3: Solve.</b> \\( \\frac{2.5}{2.0} = 1.25 \\)."
+      },
+      {
+        "id": "REF_048",
+        "topic": "Refraction through a Prism",
+        "q": "A ray of monochromatic light passes through a glass prism. If the angle of incidence is gradually increased from a very small angle up to \\( 90^\\circ \\), how does the angle of deviation (\\( \\delta \\)) behave?",
+        "options": [
+          "It continuously increases",
+          "It continuously decreases",
+          "It first increases to a maximum, then decreases",
+          "It first decreases to a minimum, then increases"
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> Experimental graphs of the angle of deviation versus the angle of incidence show a distinct 'U' shape. As the angle of incidence increases, the angle of deviation <b>first decreases</b> until it reaches a specific lowest point (the angle of minimum deviation, \\( \\delta_{\\min} \\)). If the angle of incidence is increased further, the angle of deviation <b>begins to increase</b> again."
+      },
+      {
+        "id": "REF_049",
+        "topic": "Real and Apparent Depth",
+        "q": "<b>[Topper Challenge]</b> A bird is flying vertically downwards towards the surface of a pond at a height of \\( 12 \\text{ m} \\). A fish is swimming exactly vertically below the bird at a depth of \\( 3 \\text{ m} \\). If the refractive index of water is \\( \\frac{4}{3} \\), what is the apparent distance of the bird as observed by the fish?",
+        "options": [
+          "\\( 15 \\text{ m} \\)",
+          "\\( 12 \\text{ m} \\)",
+          "\\( 19 \\text{ m} \\)",
+          "\\( 16 \\text{ m} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand the viewpoint.</b> The observer is the fish (in denser medium), looking at the bird (in rarer medium). When viewing from denser to rarer, the object appears further away. Apparent Height = \\( \\text{Real Height} \\times \\mu \\).<br><b>Step 2: Calculate Apparent Height of Bird.</b> \\( 12 \\text{ m} \\times \\frac{4}{3} = 16 \\text{ m} \\) above the water surface.<br><b>Step 3: Calculate Total Distance.</b> The fish is already \\( 3 \\text{ m} \\) below the surface. Total apparent distance = Apparent Height of Bird + Depth of Fish = \\( 16 + 3 = 19 \\text{ m} \\)."
+      },
+      {
+        "id": "REF_050",
+        "topic": "Laws of Refraction & Refractive Index",
+        "q": "<b>[Topper Challenge]</b> A rectangular glass slab has a thickness of \\( 6 \\text{ cm} \\) and an absolute refractive index of \\( 1.5 \\). How much time does a ray of light take to travel completely through the thickness of the glass slab? (Speed of light in vacuum = \\( 3 \\times 10^8 \\text{ m s}^{-1} \\))",
+        "options": [
+          "\\( 3 \\times 10^{-10} \\text{ s} \\)",
+          "\\( 2 \\times 10^{-10} \\text{ s} \\)",
+          "\\( 1.5 \\times 10^{-10} \\text{ s} \\)",
+          "\\( 4.5 \\times 10^{-10} \\text{ s} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Find the speed of light in glass.</b> \\( V = \\frac{c}{\\mu} = \\frac{3 \\times 10^8}{1.5} = 2 \\times 10^8 \\text{ m s}^{-1} \\).<br><b>Step 2: Convert thickness to meters.</b> Distance \\( d = 6 \\text{ cm} = 0.06 \\text{ m} \\).<br><b>Step 3: Calculate Time.</b> \\( t = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{0.06}{2 \\times 10^8} = 0.03 \\times 10^{-8} = 3 \\times 10^{-10} \\text{ s} \\)."
       }
     ]
   },
@@ -14337,6 +15006,7 @@
       ]
     }
   };
+
 
 
 
