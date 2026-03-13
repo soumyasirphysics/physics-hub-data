@@ -3404,20 +3404,6 @@
         "sol": "<b>Explanation:</b> When you stand firmly on your toes, the fulcrum is situated at the toes. The effort is applied by the calf muscles pulling upwards at the heel. The entire weight of the body (the load) rests centrally at the ankle joint. Because the Load is perfectly in the middle, this biological mechanism acts as a <b>Class II</b> lever."
       },
       {
-        "id": "MAC_008",
-        "topic": "Levers & Their Classes",
-        "q": "Look at the diagram of the lever system provided. What is the minimum effort \\( E \\) required to lift the load of \\( 100 \\text{ N} \\)?",
-        "imgUrl": "https://placehold.co/600x300/e2e8f0/005CAA?text=Lever+Diagram%5CnLoad+(100N)+at+20cm%5CnEffort+(E)+at+80cm%5CnFulcrum+at+0cm",
-        "options": [
-          "\\( 20 \\text{ N} \\)",
-          "\\( 25 \\text{ N} \\)",
-          "\\( 400 \\text{ N} \\)",
-          "\\( 50 \\text{ N} \\)"
-        ],
-        "correct": 1,
-        "sol": "<b>Step 1: Identify lever type and arms from the image.</b> The diagram depicts a Class II lever where the Load is situated in the middle. The Load arm = \\( 20 \\text{ cm} \\), and the total Effort arm = \\( 80 \\text{ cm} \\).<br><b>Step 2: Apply the Principle of Moments.</b> \\( \\text{Load} \\times \\text{Load Arm} = \\text{Effort} \\times \\text{Effort Arm} \\).<br><b>Step 3: Calculate.</b> \\( 100 \\times 20 = E \\times 80 \\implies E = \\frac{2000}{80} = 25 \\text{ N} \\)."
-      },
-      {
         "id": "MAC_009",
         "topic": "Technical Terms & Principles",
         "q": "A machine is driven by a falling mass of \\( 20 \\text{ kg} \\) moving downwards through a distance of \\( 4 \\text{ m} \\). It successfully lifts a load of \\( 50 \\text{ kg} \\) through a vertical distance of \\( 1 \\text{ m} \\). What is the work done against friction by this machine? (Take \\( g = 10 \\text{ m s}^{-2} \\))",
@@ -3494,20 +3480,6 @@
         ],
         "correct": 2,
         "sol": "<b>Step 1: Identify Velocity Ratio.</b> For a standard block and tackle system, \\( V.R. = n \\) (the total number of pulleys). So, \\( V.R. = 5 \\).<br><b>Step 2: Use V.R. formula.</b> \\( V.R. = \\frac{d_E}{d_L} \\implies 5 = \\frac{d_E}{2 \\text{ m}} \\).<br><b>Step 3: Solve.</b> \\( d_E = 5 \\times 2 = 10 \\text{ m} \\)."
-      },
-      {
-        "id": "MAC_015",
-        "topic": "Block and Tackle System",
-        "q": "Observe the block and tackle system in the diagram. If the total load \\( L \\) is supported by \\( 4 \\) strands of the string, what is the tension \\( T \\) in each strand when in equilibrium? (Assume ideal pulleys)",
-        "imgUrl": "https://placehold.co/600x300/e2e8f0/005CAA?text=Block+and+Tackle%5Cn4+Pulleys%5CnLoad+L+suspended",
-        "options": [
-          "\\( T = 4L \\)",
-          "\\( T = L/4 \\)",
-          "\\( T = L/2 \\)",
-          "\\( T = L \\)"
-        ],
-        "correct": 1,
-        "sol": "<b>Concept:</b> In an ideal string, the tension \\( T \\) is uniform throughout. In equilibrium, the total upward force acting on the lower block must equal the downward force (Load).<br><b>Calculation:</b> If \\( 4 \\) strands pull upwards on the movable block, the total upward force is \\( 4T \\). Thus, \\( 4T = L \\implies T = \\frac{L}{4} \\)."
       },
       {
         "id": "MAC_016",
@@ -3612,20 +3584,6 @@
         ],
         "correct": 2,
         "sol": "<b>Concept:</b> In a standard block and tackle system pulled <i>downwards</i>, \\( V.R. = n \\) (number of pulleys). However, if the effort is applied <i>upwards</i>, the effort string itself also helps support the movable block.<br><b>Rule:</b> For an upward pull, \\( V.R. = n + 1 \\). Therefore, \\( V.R. = 4 + 1 = 5 \\)."
-      },
-      {
-        "id": "MAC_024",
-        "topic": "Levers & Their Classes",
-        "q": "Observe the diagram of the wheelbarrow. Which class of lever does it represent, and why?",
-        "imgUrl": "https://placehold.co/600x300/e2e8f0/005CAA?text=Wheelbarrow+Diagram%5CnWheel+(Fulcrum)+at+front%5CnLoad+in+the+bucket%5CnHandles+(Effort)+at+back",
-        "options": [
-          "Class I: Fulcrum is in the middle",
-          "Class II: Load is in the middle",
-          "Class III: Effort is in the middle",
-          "Class II: Effort is in the middle"
-        ],
-        "correct": 1,
-        "sol": "<b>Explanation:</b> In a wheelbarrow, the wheel resting on the ground acts as the <b>Fulcrum</b>. The heavy dirt in the bucket is the <b>Load</b>. The person lifts the handles at the back, which is the <b>Effort</b>. Because the Load is situated exactly between the Fulcrum and the Effort, it is a <b>Class II lever</b>."
       },
       {
         "id": "MAC_025",
@@ -3756,20 +3714,6 @@
         ],
         "correct": 0,
         "sol": "<b>Step 1: Set up the moments.</b> The fulcrum is at \\( 40 \\text{ cm} \\). The weight of the rule (\\( W \\)) acts at its center of gravity (the \\( 50 \\text{ cm} \\) mark).<br><b>Step 2: Anticlockwise Moment.</b> The \\( 50 \\text{ gf} \\) weight is at \\( 10 \\text{ cm} \\). Distance from fulcrum = \\( 40 - 10 = 30 \\text{ cm} \\). Moment = \\( 50 \\times 30 = 1500 \\).<br><b>Step 3: Clockwise Moment.</b> The rule's weight is at \\( 50 \\text{ cm} \\). Distance = \\( 50 - 40 = 10 \\text{ cm} \\). Moment = \\( W \\times 10 \\).<br><b>Step 4: Solve.</b> \\( W \\times 10 = 1500 \\implies W = 150 \\text{ gf} \\)."
-      },
-      {
-        "id": "MAC_035",
-        "topic": "Single Pulleys",
-        "q": "Look at the diagram showing a single movable pulley. If the load is \\( 100 \\text{ kgf} \\) and the system is ideal, what is the tension \\( T \\) in the string?",
-        "imgUrl": "https://placehold.co/600x300/e2e8f0/005CAA?text=Single+Movable+Pulley%5CnLoad+100kgf+suspended%5CnTwo+vertical+strands",
-        "options": [
-          "\\( 100 \\text{ kgf} \\)",
-          "\\( 50 \\text{ kgf} \\)",
-          "\\( 200 \\text{ kgf} \\)",
-          "\\( 25 \\text{ kgf} \\)"
-        ],
-        "correct": 1,
-        "sol": "<b>Concept:</b> In a single movable pulley, the load is equally supported by the two vertical segments of the string.<br><b>Calculation:</b> Total upward force = \\( 2T \\). Downward force = Load = \\( 100 \\text{ kgf} \\).<br>\\( 2T = 100 \\implies T = 50 \\text{ kgf} \\). Since Effort \\( E = T \\), the effort required is also \\( 50 \\text{ kgf} \\)."
       },
       {
         "id": "MAC_036",
@@ -14393,6 +14337,7 @@
       ]
     }
   };
+
 
 
 
