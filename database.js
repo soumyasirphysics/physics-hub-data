@@ -5209,13 +5209,13 @@
         "topic": "Deviation, Dispersion & Visible Spectrum",
         "q": "The approximate wavelength range of the visible spectrum of light for the normal human eye is:",
         "options": [
-          "\\( 1000 \\text{ \\AA} \\) to \\( 3000 \\text{ \\AA} \\)",
-          "\\( 4000 \\text{ \\AA} \\) to \\( 8000 \\text{ \\AA} \\)",
-          "\\( 8000 \\text{ \\AA} \\) to \\( 12000 \\text{ \\AA} \\)",
-          "\\( 100 \\text{ nm} \\) to \\( 400 \\text{ nm} \\)"
+          "1000 Å to 3000 Å",
+          "4000 Å to 8000 Å",
+          "8000 Å to 12000 Å",
+          "100 nm to 400 nm"
         ],
         "correct": 1,
-        "sol": "<b>Explanation:</b> The visible spectrum starts from Violet and ends at Red. The wavelength of Violet light is approximately \\( 4000 \\text{ \\AA} \\) (or \\( 400 \\text{ nm} \\)) and the wavelength of Red light is approximately \\( 8000 \\text{ \\AA} \\) (or \\( 800 \\text{ nm} \\)). Therefore, the visible range is <b>\\( 4000 \\text{ \\AA} \\) to \\( 8000 \\text{ \\AA} \\)</b>."
+        "sol": "<b>Explanation:</b> The visible spectrum starts from Violet and ends at Red. The wavelength of Violet light is approximately 4000 Å (or 400 nm) and the wavelength of Red light is approximately 8000 Å (or 800 nm). Therefore, the visible range is <b>4000 Å to 8000 Å</b>."
       },
       {
         "id": "SPC_003",
@@ -5572,7 +5572,7 @@
       {
         "id": "SPC_030",
         "topic": "Scattering of Light & Applications",
-        "q": "<b>[Topper Challenge]</b> The wavelength of red light is approximately \\( 8000 \\text{ \\AA} \\), and the wavelength of violet light is approximately \\( 4000 \\text{ \\AA} \\). Based on Rayleigh's law of scattering, approximately how many times more intensely is the violet light scattered by air molecules compared to the red light?",
+        "q": "<b>[Topper Challenge]</b> The wavelength of red light is approximately 8000 Å, and the wavelength of violet light is approximately 4000 Å. Based on Rayleigh's law of scattering, approximately how many times more intensely is the violet light scattered by air molecules compared to the red light?",
         "options": [
           "2 times",
           "4 times",
