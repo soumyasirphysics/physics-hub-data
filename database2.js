@@ -6478,6 +6478,674 @@ const chapterDatabase2 = {
         "sol": "<b>Step 1: Analyze the Energy Transfer.</b> In both experiments, the water and calorimeters were identical. However, Metal Y raised the water's temperature to 40°C (a \\( \\Delta T \\) of 20°C), while Metal X only raised it to 30°C (a \\( \\Delta T \\) of 10°C).<br><b>Step 2: Relate Heat to Specific Heat.</b> Metal Y clearly released twice as much heat energy into the water as Metal X. Since both blocks had the exact same mass (200 g) and starting temperature (150°C), the only physical way Metal Y could hold and release more heat energy is if its inherent thermal storage capacity is higher.<br><b>Conclusion:</b> Therefore, <b>Metal Y must have a strictly higher Specific Heat Capacity</b>."
       }
     ]
+  },
+
+  "Radioactivity": {
+    classTarget: "Class 10",
+    totalQs: 50,
+    topics: [
+      "Atomic Structure & Nucleus",
+      "Nature of Radioactivity",
+      "Alpha, Beta & Gamma Radiations",
+      "Nuclear Changes & Decay Equations",
+      "Uses of Radioisotopes",
+      "Hazards, Safety & Background Radiation",
+      "Mass Defect & Nuclear Energy",
+      "Nuclear Fission & Fusion"
+    ],
+    questions: [
+      {
+        "id": "RAD_001",
+        "topic": "Atomic Structure & Nucleus",
+        "q": "Atoms of the same element that have the exact same atomic number (Z) but different mass numbers (A) are scientifically classified as:",
+        "options": [
+          "Isobars",
+          "Isotopes",
+          "Isotones",
+          "Isomers"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The atomic number (Z) represents the number of protons, which defines the chemical element. The mass number (A) is the sum of protons and neutrons. Atoms with the same number of protons but a different number of neutrons (hence different mass numbers) are called <b>Isotopes</b> (e.g., Carbon-12 and Carbon-14)."
+      },
+      {
+        "id": "RAD_002",
+        "topic": "Atomic Structure & Nucleus",
+        "q": "Sodium-24 (\\({}_{11}^{24}\\text{Na}\\)) and Magnesium-24 (\\({}_{12}^{24}\\text{Mg}\\)) have different atomic numbers but exactly the same mass number. What is the specific term used to describe such a pair of nuclei?",
+        "options": [
+          "Isotopes",
+          "Isotones",
+          "Isobars",
+          "Polymers"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Atoms of entirely different elements that happen to have the exact same mass number (A) but different atomic numbers (Z) are called <b>Isobars</b>. They have the same total number of nucleons (protons + neutrons), but a different specific mix of them."
+      },
+      {
+        "id": "RAD_003",
+        "topic": "Nature of Radioactivity",
+        "q": "Radioactivity is observed to be a purely spontaneous process. Which of the following physical or chemical changes can successfully speed up or slow down the rate of radioactive decay of a given uranium sample?",
+        "options": [
+          "Heating it to 5000°C.",
+          "Subjecting it to extreme hydraulic pressure.",
+          "Reacting it chemically with strong acids.",
+          "None of the above; radioactivity cannot be altered by any physical or chemical means."
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> Radioactivity is strictly a <b>nuclear phenomenon</b>. It occurs deep inside the nucleus. Physical changes (temperature, pressure) and chemical changes (bonding, oxidation) only affect the outer electron shells. Therefore, the rate of radioactive decay is <b>completely unaffected</b> by any external physical or chemical factors."
+      },
+      {
+        "id": "RAD_004",
+        "topic": "Alpha, Beta & Gamma Radiations",
+        "q": "Observe the described diagram. A radioactive sample is placed inside a lead block. The emitted radiations pass through a strong electric field created by two parallel plates (one positive, one negative). The beam splits into three distinct paths. Path 1 bends heavily towards the positive plate. Path 2 bends slightly towards the negative plate. Path 3 goes straight through undeflected. Identify the radiations.",
+        "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyoAO4rVhGgXguiBMJe3I5S_NboXDDWBtYv3EwnC3aurMEkJi_uAmt-Ei00i9K82kb9Y6MhiIFUhqO3-qSb5SER689dQyCCZIrbDFG81BudOKzX-nsBv0vQoYdIvcSOU8M0YieLft1TK-7eY7S0Fz4fXHlYwdn8TvbB-IxKLToUYOrXgvzlT2xQ7OSo44W/s320/CNX_Chem_21_03_Radiation.jpg",
+        "options": [
+          "1 = Alpha, 2 = Beta, 3 = Gamma",
+          "1 = Beta, 2 = Alpha, 3 = Gamma",
+          "1 = Gamma, 2 = Alpha, 3 = Beta",
+          "1 = Beta, 2 = Gamma, 3 = Alpha"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Analyze Path 1.</b> It bends towards the positive plate, so it must be negatively charged. This is the <b>Beta (\\( \\beta \\))</b> particle (an electron). It bends sharply because it is very light.<br><b>Step 2: Analyze Path 2.</b> It bends towards the negative plate, so it is positively charged. This is the <b>Alpha (\\( \\alpha \\))</b> particle (Helium nucleus). It bends less because it is massive and heavy.<br><b>Step 3: Analyze Path 3.</b> It is undeflected, meaning it has zero charge. This is the <b>Gamma (\\( \\gamma \\))</b> ray."
+      },
+      {
+        "id": "RAD_005",
+        "topic": "Alpha, Beta & Gamma Radiations",
+        "q": "Arrange the three radioactive emissions (Alpha, Beta, and Gamma) in tightly strict increasing order of their 'Ionizing Power' (from lowest to highest).",
+        "options": [
+          "Gamma < Beta < Alpha",
+          "Alpha < Beta < Gamma",
+          "Beta < Gamma < Alpha",
+          "Alpha < Gamma < Beta"
+        ],
+        "correct": 0,
+        "sol": "<b>Explanation:</b> Ionizing power is the ability to knock electrons out of gas atoms. It depends heavily on the particle's mass and charge. <b>Gamma (\\( \\gamma \\))</b> rays have zero mass and charge, so their ionizing power is minimal. <b>Beta (\\( \\beta \\))</b> particles are light electrons, having moderate ionizing power. <b>Alpha (\\( \\alpha \\))</b> particles are massive and highly charged (+2e), so they collide forcefully, giving them the maximum ionizing power (roughly 10,000 times that of Gamma)."
+      },
+      {
+        "id": "RAD_006",
+        "topic": "Alpha, Beta & Gamma Radiations",
+        "q": "Arrange the three radioactive emissions (Alpha, Beta, and Gamma) in strictly increasing order of their 'Penetrating Power' (from lowest to highest).",
+        "options": [
+          "Gamma < Beta < Alpha",
+          "Alpha < Beta < Gamma",
+          "Beta < Gamma < Alpha",
+          "Gamma < Alpha < Beta"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Penetrating power is inversely proportional to mass and ionizing power. <b>Alpha</b> particles are massive and lose energy quickly by ionizing air, so they are stopped by a mere sheet of paper (lowest penetration). <b>Beta</b> particles are smaller and can penetrate a few millimeters of aluminum. <b>Gamma</b> rays are massless, high-energy electromagnetic waves that require thick blocks of lead or concrete to be stopped (highest penetration)."
+      },
+      {
+        "id": "RAD_007",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "When a radioactive parent nucleus undergoes Alpha (\\( \\alpha \\)) decay, what are the exact numerical changes to its Mass Number (A) and Atomic Number (Z)?",
+        "options": [
+          "A decreases by 2; Z decreases by 4",
+          "A decreases by 4; Z decreases by 2",
+          "A remains unchanged; Z increases by 1",
+          "A decreases by 4; Z remains unchanged"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> An alpha particle is physically a Helium nucleus, represented as \\({}_{2}^{4}\\text{He}\\). Therefore, when it is ejected from the parent nucleus, it carries away 4 units of mass and 2 units of positive charge (protons). Consequently, the parent nucleus's <b>Mass Number (A) decreases by exactly 4</b>, and its <b>Atomic Number (Z) decreases by exactly 2</b>."
+      },
+      {
+        "id": "RAD_008",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "A Beta (\\( \\beta \\)) particle is essentially a high-speed electron emitted from the nucleus. Since the nucleus contains only protons and neutrons, how is an electron physically created inside the nucleus during Beta decay?",
+        "options": [
+          "An orbital electron falls into the nucleus and is immediately ejected.",
+          "A proton transforms into a neutron, releasing an electron.",
+          "A neutron spontaneously decays into a proton and an electron, and the electron is ejected.",
+          "The binding energy of the nucleus condenses into an electron."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> In a nucleus with an unstable excess of neutrons, a <b>neutron spontaneously transforms into a proton and an electron</b> (\\({}_{0}^{1}\\text{n} \\rightarrow {}_{1}^{1}\\text{p} + {}_{-1}^{0}\\text{e}\\)). The newly formed proton stays behind in the nucleus (increasing the atomic number), while the electron is violently ejected as a Beta particle."
+      },
+      {
+        "id": "RAD_009",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "When a radioactive nucleus emits a Beta (\\( \\beta \\)) particle, the newly formed daughter nucleus is related to the original parent nucleus as its:",
+        "options": [
+          "Isotope",
+          "Isotone",
+          "Isobar",
+          "Isomer"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> During Beta decay, a neutron turns into a proton. The total number of nucleons (protons + neutrons) remains exactly the same, so the <b>Mass Number (A) does not change</b>. However, because there is one more proton, the Atomic Number (Z) increases by 1. Since the parent and daughter have the same mass number but different atomic numbers, they are perfectly defined as <b>Isobars</b>."
+      },
+      {
+        "id": "RAD_010",
+        "topic": "Alpha, Beta & Gamma Radiations",
+        "q": "Gamma (\\( \\gamma \\)) rays are fundamentally different from Alpha and Beta particles. Physically, what exactly is a Gamma ray?",
+        "options": [
+          "A high-speed stream of protons.",
+          "A high-speed stream of neutrons.",
+          "A highly energetic electromagnetic wave (photon) of very short wavelength.",
+          "A negatively charged helium ion."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Unlike Alpha and Beta, which are tangible particles with rest mass, <b>Gamma rays are purely massless electromagnetic waves</b> (photons). They are physically similar to X-rays or visible light, but possess significantly higher energy and much shorter wavelengths. They are emitted when an excited nucleus sheds excess energy to drop to a stable ground state."
+      },
+      {
+        "id": "RAD_011",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "Uranium-238 (\\({}_{92}^{238}\\text{U}\\)) undergoes a single Alpha (\\( \\alpha \\)) decay. Identify the exact Mass Number (A) and Atomic Number (Z) of the resulting daughter nucleus, Thorium (Th).",
+        "options": [
+          "\\({}_{90}^{236}\\text{Th}\\)",
+          "\\({}_{90}^{234}\\text{Th}\\)",
+          "\\({}_{94}^{242}\\text{Th}\\)",
+          "\\({}_{91}^{238}\\text{Th}\\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Recall Alpha decay rules.</b> An alpha emission reduces Mass Number (A) by 4 and Atomic Number (Z) by 2.<br><b>Step 2: Calculate new Mass Number (A).</b> \\( 238 - 4 = 234 \\).<br><b>Step 3: Calculate new Atomic Number (Z).</b> \\( 92 - 2 = 90 \\).<br><b>Conclusion:</b> The resulting nucleus is strictly <b>\\({}_{90}^{234}\\text{Th}\\)</b>."
+      },
+      {
+        "id": "RAD_012",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "Carbon-14 (\\({}_{6}^{14}\\text{C}\\)) is unstable and undergoes a single Beta (\\( \\beta \\)) decay. Identify the exact element, Mass Number (A), and Atomic Number (Z) of the newly formed daughter nucleus.",
+        "options": [
+          "Nitrogen-14 (\\({}_{7}^{14}\\text{N}\\))",
+          "Boron-14 (\\({}_{5}^{14}\\text{B}\\))",
+          "Carbon-13 (\\({}_{6}^{13}\\text{C}\\))",
+          "Oxygen-18 (\\({}_{8}^{18}\\text{O}\\))"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Recall Beta decay rules.</b> A beta emission leaves the Mass Number (A) completely unchanged, but increases the Atomic Number (Z) by exactly 1.<br><b>Step 2: Calculate new A and Z.</b> New A = 14. New Z = \\( 6 + 1 = 7 \\).<br><b>Step 3: Identify the element.</b> The element with atomic number 7 is Nitrogen. Therefore, the resulting nucleus is <b>Nitrogen-14 (\\({}_{7}^{14}\\text{N}\\))</b>."
+      },
+      {
+        "id": "RAD_013",
+        "topic": "Hazards, Safety & Background Radiation",
+        "q": "Background radiation is a constant, low-level radiation present everywhere in our environment. Which of the following is a primary source of 'Internal' background radiation found directly inside the human body?",
+        "options": [
+          "Cosmic rays from deep space.",
+          "Radon gas in the atmosphere.",
+          "Radioactive Potassium-40 (K-40) and Carbon-14 (C-14) naturally present in human tissues and blood.",
+          "Uranium deposits in the Earth's crust."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Background radiation comes from both external and internal sources. External sources include cosmic rays and terrestrial rocks. Internal background radiation strictly refers to radioactive substances naturally ingested through food, water, and air that become part of the body's structure. The most prominent examples are <b>Potassium-40 (K-40) and Carbon-14 (C-14)</b> naturally woven into human cells."
+      },
+      {
+        "id": "RAD_014",
+        "topic": "Uses of Radioisotopes",
+        "q": "Radioisotopes are heavily utilized in the medical field for both diagnosis and therapy. Which specific radioisotope is universally used in hospitals as a powerful radiation source to destroy malignant cancerous tumors (Radiotherapy)?",
+        "options": [
+          "Iodine-131",
+          "Cobalt-60",
+          "Sodium-24",
+          "Carbon-14"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Different isotopes have specific uses. Iodine-131 is used to diagnose and treat thyroid gland issues. Sodium-24 is used to detect blood clots. <b>Cobalt-60 (Co-60)</b> emits highly penetrating Gamma rays that are precisely targeted to kill cancer cells, making it the primary isotope for <b>Radiotherapy</b>."
+      },
+      {
+        "id": "RAD_015",
+        "topic": "Hazards, Safety & Background Radiation",
+        "q": "Workers in nuclear power plants and X-ray technicians must wear protective aprons and use thick transparent shields. What specific heavy metal is universally used to manufacture these protective aprons and viewing windows due to its unmatched ability to absorb harmful penetrating radiations?",
+        "options": [
+          "Aluminium",
+          "Copper",
+          "Lead",
+          "Iron"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Gamma rays and X-rays are highly penetrating and can cause severe biological and genetic damage. They can only be effectively stopped by materials with an extremely high atomic density. <b>Lead (Pb)</b> is relatively cheap, dense, and has immense stopping power, making it the universal standard for radiation shielding (aprons, blocks, and lead-glass windows)."
+      },
+      {
+        "id": "RAD_016",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "<b>[Topper Challenge]</b> A radioactive nucleus 'X' undergoes a sequence of decays. It first emits one Alpha (\\( \\alpha \\)) particle, and then immediately emits two Beta (\\( \\beta \\)) particles in succession. What is the fundamental chemical relationship between the final resulting nucleus 'Y' and the original parent nucleus 'X'?",
+        "options": [
+          "They are Isobars.",
+          "They are Isotones.",
+          "They are Isotopes.",
+          "They are completely unrelated elements."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Track the Alpha decay.</b> Emitting 1 \\( \\alpha \\) decreases Atomic Number (Z) by 2 and Mass Number (A) by 4. (New Z = \\( Z - 2 \\), New A = \\( A - 4 \\)).<br><b>Step 2: Track the Beta decays.</b> Emitting 2 \\( \\beta \\) particles increases the Atomic Number by 2 (\\( +1 \\times 2 \\)), but leaves Mass Number unchanged.<br><b>Step 3: Calculate Final state.</b> Final Z = \\( (Z - 2) + 2 = Z \\). Final A = \\( A - 4 \\).<br><b>Conclusion:</b> Since the final nucleus 'Y' has the <b>exact same Atomic Number (Z)</b> as the original nucleus 'X', but a different mass number, they are chemically the same element. They are strictly defined as <b>Isotopes</b>."
+      },
+      {
+        "id": "RAD_017",
+        "topic": "Alpha, Beta & Gamma Radiations",
+        "q": "<b>[Topper Challenge]</b> An Alpha (\\( \\alpha \\)) particle and a Beta (\\( \\beta \\)) particle are both shot perpendicularly into a strong, uniform magnetic field with the exact same initial velocity. Which particle will experience a force causing it to deviate in a circular path of a noticeably *smaller* radius, and why?",
+        "options": [
+          "The Alpha particle, because it has a greater electric charge.",
+          "The Alpha particle, because it is much heavier.",
+          "The Beta particle, because its mass is phenomenally smaller than the Alpha particle.",
+          "Both will travel in paths of the exact same radius."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand circular motion in a magnetic field.</b> The radius of the path depends on the mass-to-charge ratio (inertial resistance vs. magnetic pull).<br><b>Step 2: Compare the particles.</b> An alpha particle is roughly 7300 times heavier than a beta particle (electron). Even though the alpha particle has twice the charge, its massive inertial bulk makes it very hard to turn.<br><b>Conclusion:</b> Because the <b>Beta particle is incredibly light</b>, the magnetic force can easily whip it around into a tight curve. Thus, the beta particle travels in a significantly <b>smaller radius</b>."
+      },
+      {
+        "id": "RAD_018",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "The radioactive nucleus \\({}_{92}^{238}\\text{U}\\) decays through a series of emissions until it finally becomes the stable, non-radioactive isotope Lead-206 (\\({}_{82}^{206}\\text{Pb}\\)). What is the physical significance of this specific Lead isotope in nature?",
+        "options": [
+          "It is the only isotope that can be used to build a nuclear reactor.",
+          "It represents the final stable end-product of the entire naturally occurring Uranium radioactive decay series.",
+          "It is the most radioactive substance known to man.",
+          "It is the only material that completely reflects Gamma rays."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Heavy radioactive elements (like Uranium and Thorium) do not become stable after a single decay. They undergo a long 'chain' or 'series' of multiple alpha and beta emissions. This continuous decay process only stops when it reaches a nucleus that is inherently stable. For the Uranium-238 series, the <b>final, perfectly stable end-product is Lead-206 (\\({}_{82}^{206}\\text{Pb}\\))</b>."
+      },
+      {
+        "id": "RAD_019",
+        "topic": "Atomic Structure & Nucleus",
+        "q": "The central nucleus of an atom is held tightly together despite the immense electrostatic repulsion between the positively charged protons packed inside it. Which fundamental force of nature is responsible for binding the protons and neutrons together?",
+        "options": [
+          "Gravitational Force",
+          "Electromagnetic Force",
+          "Strong Nuclear Force",
+          "Weak Nuclear Force"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Protons inherently repel each other due to the electromagnetic force. Gravity is vastly too weak to hold them. The force that overpowers this repulsion and binds nucleons (protons and neutrons) tightly together is the <b>Strong Nuclear Force</b>. It is the strongest force in the universe, but it only operates over incredibly short distances (roughly \\( 10^{-15} \\text{ m} \\)), exclusively inside the nucleus."
+      },
+      {
+        "id": "RAD_020",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "Write the generalized nuclear equation for Gamma (\\( \\gamma \\)) emission. If an excited parent nucleus is represented as \\({}_{Z}^{A}\\text{X}^{*}\\) (where the asterisk denotes an excited energy state), what is the resulting equation?",
+        "options": [
+          "\\({}_{Z}^{A}\\text{X}^{*} \\rightarrow {}_{Z-2}^{A-4}\\text{Y} + \\gamma\\)",
+          "\\({}_{Z}^{A}\\text{X}^{*} \\rightarrow {}_{Z+1}^{A}\\text{Y} + \\gamma\\)",
+          "\\({}_{Z}^{A}\\text{X}^{*} \\rightarrow {}_{Z}^{A}\\text{X} + \\gamma\\)",
+          "\\({}_{Z}^{A}\\text{X}^{*} \\rightarrow {}_{Z-1}^{A}\\text{Y} + \\gamma\\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> A gamma ray is a pure packet of energy (photon) with no mass and no charge. When a nucleus emits a gamma ray, it is merely dropping from a high-energy excited state to a stable ground state. It <b>does not change its Mass Number (A) or Atomic Number (Z)</b>, meaning it remains the exact same chemical element. The equation is strictly: <b>\\({}_{Z}^{A}\\text{X}^{*} \\rightarrow {}_{Z}^{A}\\text{X} + \\gamma\\)</b>."
+      },
+      {
+        "id": "RAD_021",
+        "topic": "Hazards, Safety & Background Radiation",
+        "q": "Biological damage caused by nuclear radiation is generally classified into two categories: Short-term (somatic) damage and Long-term (genetic) damage. Which of the following is a classic example of Long-term genetic damage?",
+        "options": [
+          "Severe skin burns and peeling.",
+          "Immediate loss of hair and nausea.",
+          "Alteration of DNA genes in chromosomes, leading to deformities and mutations in future generations.",
+          "Sudden drop in white blood cell count leading to death within weeks."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Short-term (somatic) damage affects the individual directly exposed to radiation, causing burns, radiation sickness, and immediate cell death. Long-term (genetic) damage occurs when radiation deeply penetrates the reproductive cells and <b>damages or mutates the DNA</b>. This mutated genetic code is then passed down, causing severe congenital deformities in the victim's future children."
+      },
+      {
+        "id": "RAD_022",
+        "topic": "Uses of Radioisotopes",
+        "q": "Carbon dating is an incredible scientific technique used by archaeologists to determine the age of ancient biological artifacts (like fossils or wooden ships). Which specific property of Carbon-14 (C-14) allows this process to work?",
+        "options": [
+          "C-14 becomes highly magnetic as it gets older.",
+          "C-14 continuously absorbs oxygen from the air after death.",
+          "C-14 decays radioactively at a known, constant rate after an organism dies, allowing scientists to estimate age by measuring the remaining amount of C-14.",
+          "C-14 changes color based on the number of centuries passed."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> While an organism is alive, the ratio of stable C-12 to radioactive C-14 in its body remains constant. When it dies, it stops absorbing new carbon. The existing C-14 <b>slowly and steadily decays into Nitrogen</b>. Because the rate of this radioactive decay (half-life) is perfectly known, measuring how much C-14 is left allows scientists to accurately calculate exactly how long the organism has been dead."
+      },
+      {
+        "id": "RAD_023",
+        "topic": "Alpha, Beta & Gamma Radiations",
+        "q": "When a radioactive substance emits an Alpha particle, the particle travels through the air at roughly \\( 10^7 \\text{ m/s} \\). How does the speed of emitted Gamma rays strictly compare to this?",
+        "options": [
+          "Gamma rays travel at the exact same speed as Alpha particles.",
+          "Gamma rays are slightly slower because they have no charge.",
+          "Gamma rays travel at exactly the speed of light in a vacuum (\\( 3 \\times 10^8 \\text{ m/s} \\)).",
+          "Gamma rays travel at the speed of sound."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Alpha and Beta are physical particles, so they travel at high speeds but always strictly less than the speed of light. <b>Gamma rays are electromagnetic waves</b> (like light or X-rays). Therefore, they inherently travel at the universal speed limit: the <b>speed of light (\\( c = 3 \\times 10^8 \\text{ m/s} \\))</b>."
+      },
+      {
+        "id": "RAD_024",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "<b>[Topper Challenge]</b> An unknown radioactive nucleus \\({}_{84}^{214}\\text{Po}\\) undergoes an emission and transforms into Lead \\({}_{82}^{210}\\text{Pb}\\). Identify the exact radiation emitted during this specific transformation.",
+        "options": [
+          "One Alpha (\\( \\alpha \\)) particle",
+          "One Beta (\\( \\beta \\)) particle",
+          "One Gamma (\\( \\gamma \\)) ray",
+          "Two Beta (\\( \\beta \\)) particles"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Check Mass Number (A).</b> Parent A = 214. Daughter A = 210. Difference = \\( 214 - 210 = 4 \\). A decrease of exactly 4 strongly indicates an Alpha decay.<br><b>Step 2: Check Atomic Number (Z).</b> Parent Z = 84. Daughter Z = 82. Difference = \\( 84 - 82 = 2 \\). A decrease of exactly 2 confirms it.<br><b>Conclusion:</b> Since the mass dropped by 4 and the atomic number dropped by 2, the emitted radiation is definitively <b>One Alpha (\\( \\alpha \\)) particle</b> (\\({}_{2}^{4}\\text{He}\\))."
+      },
+      {
+        "id": "RAD_025",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "<b>[Topper Challenge]</b> The parent nucleus Uranium-238 (\\({}_{92}^{238}\\text{U}\\)) eventually decays into stable Lead-206 (\\({}_{82}^{206}\\text{Pb}\\)) through a long series of multiple Alpha and Beta emissions. Calculate the exact total number of Alpha (\\( \\alpha \\)) particles and Beta (\\( \\beta \\)) particles emitted during this entire journey.",
+        "options": [
+          "4 Alpha and 6 Beta",
+          "8 Alpha and 6 Beta",
+          "6 Alpha and 8 Beta",
+          "8 Alpha and 8 Beta"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Find Number of Alpha particles.</b> Only Alpha particles change the Mass Number (A). Each alpha drops A by 4. Total change in A = \\( 238 - 206 = 32 \\). Number of Alphas = \\( 32 / 4 = 8 \\).<br><b>Step 2: Calculate expected Z after 8 Alphas.</b> Each Alpha drops Z by 2. \\( 8 \times 2 = 16 \\). Expected Z = \\( 92 - 16 = 76 \\).<br><b>Step 3: Find Number of Beta particles.</b> The actual final Z is 82. Beta particles increase Z by 1 each. Difference = \\( 82 - 76 = 6 \\). Therefore, 6 Beta particles were emitted to raise Z back up.<br><b>Conclusion:</b> Exactly <b>8 Alpha and 6 Beta particles</b> were emitted."
+      },
+      {
+        "id": "RAD_026",
+        "topic": "Mass Defect & Nuclear Energy",
+        "q": "When a stable atomic nucleus is carefully measured, its actual total mass is always found to be strictly *less* than the sum of the individual masses of all its constituent protons and neutrons. What is the scientific term for this missing mass?",
+        "options": [
+          "Critical Mass",
+          "Mass Defect",
+          "Binding Weight",
+          "Nuclear Void"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The actual mass of a nucleus is always slightly less than the sum of the masses of its individual, separated nucleons (protons and neutrons). This 'missing mass' is formally known as the <b>Mass Defect</b> (\\( \\Delta m \\))."
+      },
+      {
+        "id": "RAD_027",
+        "topic": "Mass Defect & Nuclear Energy",
+        "q": "According to Albert Einstein's revolutionary mass-energy equivalence principle (\\( E = \\Delta m c^2 \\)), what happens to the 'Mass Defect' during the formation of an atomic nucleus?",
+        "options": [
+          "It is completely destroyed and vanishes from the universe.",
+          "It is converted directly into binding energy, which holds the mutually repelling protons tightly together in the nucleus.",
+          "It is stored as kinetic energy, making the nucleus spin.",
+          "It transforms into extra electrons that orbit the nucleus."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Mass and energy are interchangeable. The missing mass (mass defect) is not lost; it is <b>converted into immense nuclear binding energy</b>. This released energy is what fundamentally overcomes the electrostatic repulsion between protons and binds the nucleus tightly together."
+      },
+      {
+        "id": "RAD_028",
+        "topic": "Mass Defect & Nuclear Energy",
+        "q": "In nuclear physics, subatomic masses are measured in 'atomic mass units' (a.m.u. or u). If exactly 1 a.m.u. of mass is completely converted into pure energy, what is the approximate energy released in Mega electron-Volts (MeV)?",
+        "options": [
+          "9.31 MeV",
+          "931.5 MeV",
+          "3 \times 10^8 MeV",
+          "1.6 \times 10^{-19} MeV"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Using Einstein's equation \\( E = mc^2 \\), converting 1 a.m.u. (\\( 1.66 \times 10^{-27} \\text{ kg} \\)) into Joules and then dividing by the charge of an electron to get electron-Volts yields exactly <b>931.5 MeV</b>. This is a standard conversion factor used globally in nuclear physics."
+      },
+      {
+        "id": "RAD_029",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "Which of the following statements perfectly defines the process of 'Nuclear Fission'?",
+        "options": [
+          "Two light nuclei combine at extreme temperatures to form a single heavy nucleus, absorbing energy.",
+          "A heavy, unstable nucleus completely evaporates into pure gamma radiation.",
+          "A heavy nucleus splits into two lighter nuclei of nearly equal mass when bombarded by a neutron, releasing a massive amount of energy.",
+          "The chemical separation of a radioactive atom into two stable ions."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> <b>Nuclear Fission</b> is the physical splitting of a heavy, unstable nucleus (like Uranium-235) into two roughly equal lighter nuclei (fragments like Barium and Krypton) upon absorbing a neutron. This splitting is accompanied by the release of secondary neutrons and a tremendous amount of energy."
+      },
+      {
+        "id": "RAD_030",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "To initiate the nuclear fission of Uranium-235 (\\({}_{92}^{235}\\text{U}\\)), it must be bombarded with a specific subatomic particle. Which particle is universally used as the 'bullet' for this process?",
+        "options": [
+          "A high-speed Alpha particle.",
+          "A slow-moving (thermal) neutron.",
+          "A fast-moving electron (Beta particle).",
+          "A high-energy Gamma ray."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Neutrons are neutral, so they are not electrically repelled by the positively charged nucleus, making them perfect 'bullets'. Specifically, a <b>slow-moving (thermal) neutron</b> is used because it spends enough time near the Uranium-235 nucleus to be captured, destabilizing it and triggering fission. Fast neutrons would simply bounce off or pass right through."
+      },
+      {
+        "id": "RAD_031",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "In a nuclear chain reaction, A single neutron strikes a Uranium-235 nucleus, causing it to split. Alongside the two large fragment nuclei and the released energy, what other critical particles are immediately ejected from the splitting nucleus to sustain the chain reaction?",
+        "options": [
+          "3 Alpha particles",
+          "1 massive Gamma ray",
+          "Approximately 3 secondary neutrons",
+          "2 Beta particles"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> When U-235 undergoes fission, it produces two lighter daughter nuclei, massive energy, and <b>roughly 3 secondary neutrons</b>. These newly born neutrons then strike three neighboring Uranium nuclei, which split and produce 9 neutrons, then 27, and so on. This rapid, self-sustaining multiplication is what creates a 'Chain Reaction'."
+      },
+      {
+        "id": "RAD_032",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "In a nuclear power plant, the fission chain reaction must be carefully 'controlled' to prevent an explosive meltdown. Which internal component of a nuclear reactor is specifically designed to absorb excess neutrons and regulate the reaction rate?",
+        "options": [
+          "The Moderator (Graphite or Heavy Water)",
+          "The Control Rods (Boron or Cadmium)",
+          "The Coolant (Liquid Sodium)",
+          "The Protective Shielding (Thick Concrete)"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> To keep the reaction steady (controlled), exactly one neutron from each fission event should trigger the next fission. The extra neutrons must be removed. <b>Control Rods made of Boron or Cadmium</b> are used because these specific metals are excellent absorbers of neutrons. By raising or lowering these rods into the reactor core, operators can precisely control the rate of fission."
+      },
+      {
+        "id": "RAD_033",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "What is the critical function of the 'Moderator' (such as Graphite or Heavy Water) inside the core of a commercial nuclear fission reactor?",
+        "options": [
+          "To speed up the neutrons so they hit the Uranium harder.",
+          "To completely absorb all neutrons and shut down the reactor during an emergency.",
+          "To physically cool down the uranium rods and prevent them from melting.",
+          "To slow down the fast secondary neutrons produced during fission, turning them into 'thermal neutrons' capable of causing further fission."
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> The secondary neutrons produced during fission are moving far too fast to be easily captured by other U-235 nuclei. If they aren't slowed down, the chain reaction will die out. The <b>Moderator</b> contains light atoms (like Carbon in graphite). When fast neutrons collide with these atoms, they lose kinetic energy and <b>slow down to thermal speeds</b>, making them perfect for triggering the next fission."
+      },
+      {
+        "id": "RAD_034",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "The immense, destructive power of an Atomic Bomb (A-Bomb) is based strictly on which uncontrolled nuclear phenomenon?",
+        "options": [
+          "Nuclear Fusion",
+          "Nuclear Fission",
+          "Alpha Decay",
+          "Spontaneous Gamma Emission"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> An Atomic Bomb relies on an <b>uncontrolled Nuclear Fission chain reaction</b>. A mass of highly enriched Uranium-235 or Plutonium-239 is forced together past its 'critical mass', causing an instantaneous, exponentially multiplying chain reaction that releases an incomprehensible amount of energy in a fraction of a second."
+      },
+      {
+        "id": "RAD_035",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "Which of the following statements perfectly describes the process of 'Nuclear Fusion'?",
+        "options": [
+          "A heavy nucleus splits into two lighter nuclei, releasing energy.",
+          "Two extremely light nuclei combine under immense heat and pressure to form a single heavier nucleus, releasing a massive amount of energy.",
+          "A stable nucleus naturally emits alpha particles over thousands of years.",
+          "An atom physically shares its valence electrons with a neighboring atom."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> <b>Nuclear Fusion</b> is the exact opposite of fission. It involves taking two very light atomic nuclei (like isotopes of Hydrogen: Deuterium and Tritium) and fusing them together to create a single, heavier nucleus (like Helium). This process results in a mass defect, which converts into an absolutely colossal release of energy."
+      },
+      {
+        "id": "RAD_036",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "The process of Nuclear Fusion cannot occur at normal room temperatures. It requires an environment of extreme, unimaginable heat (roughly \\( 10^7 \\text{ K} \\)). What is the primary physics reason for this extreme temperature requirement?",
+        "options": [
+          "To melt the neutrons into a liquid plasma state.",
+          "To provide the nuclei with enough immense kinetic energy to overcome the massive electrostatic force of repulsion between their positive charges.",
+          "To burn away the electrons so only the nucleus remains.",
+          "To increase the gravitational pull between the tiny atoms."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Atomic nuclei are positively charged. Like charges repel each other strongly. To get two nuclei close enough for the Strong Nuclear Force to grab them and fuse them together, they must be smashed into each other at staggering speeds. This requires extreme kinetic energy, which in thermodynamics translates directly to an <b>extremely high temperature (millions of degrees)</b> to overcome electrostatic repulsion."
+      },
+      {
+        "id": "RAD_037",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "What is the ultimate, continuous source of the virtually limitless energy produced by our Sun and all other actively glowing stars in the universe?",
+        "options": [
+          "The burning of dense fossil fuels in its core.",
+          "The continuous nuclear fission of heavy Uranium deposits.",
+          "The continuous nuclear fusion of light Hydrogen nuclei into heavier Helium nuclei.",
+          "The friction caused by the massive gravitational collapse of space dust."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The immense gravity of the Sun creates extreme pressure and temperatures (roughly 15 million Kelvin) at its core. These conditions are perfect for <b>Nuclear Fusion</b>. The Sun continuously fuses lightweight <b>Hydrogen isotopes into Helium</b>. The slight mass lost in every single fusion reaction is converted into the massive sunlight and heat that bathes the Earth."
+      },
+      {
+        "id": "RAD_038",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "When comparing the energy released by a single Nuclear Fission event versus a single Nuclear Fusion event, which of the following statements is scientifically accurate regarding energy yield per unit mass?",
+        "options": [
+          "Fission releases significantly more energy per unit mass than Fusion.",
+          "Fusion releases significantly more energy per unit mass than Fission.",
+          "Both processes release the exact same amount of energy per unit mass.",
+          "Fusion absorbs energy, while Fission releases energy."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> While a single fission of a massive Uranium atom releases more absolute energy than a single fusion of tiny Hydrogen atoms, you must look at it <i>per unit mass</i> (e.g., 1 kg of Uranium vs 1 kg of Hydrogen). Because Hydrogen atoms are so incredibly light, 1 kg contains vastly more reacting atoms. Therefore, <b>Fusion releases nearly 3 to 4 times more energy per unit mass</b> than Fission."
+      },
+      {
+        "id": "RAD_039",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "Which of the following is a universally recognized, long-term environmental hazard specifically associated with Nuclear Fission power plants, but NOT heavily associated with theoretical Nuclear Fusion reactors?",
+        "options": [
+          "The emission of massive amounts of greenhouse gases (CO2) causing global warming.",
+          "The generation of incredibly long-lived, highly radioactive and biologically toxic nuclear waste (spent fuel rods) that requires thousands of years of secure underground storage.",
+          "The depletion of atmospheric oxygen due to burning.",
+          "The risk of a massive hydrogen explosion."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Fission power plants split heavy elements, creating daughter fragments (like Barium and Krypton) that are incredibly unstable and dangerously radioactive for thousands of years. Safely storing this <b>long-lived radioactive waste</b> is the major hazard of fission. Fusion, however, fuses Hydrogen into stable, harmless Helium gas, generating almost zero long-term radioactive waste."
+      },
+      {
+        "id": "RAD_040",
+        "topic": "Mass Defect & Nuclear Energy",
+        "q": "<b>[Topper Challenge]</b> If exactly 1 milligram (0.001 kg) of pure mass is utterly and completely destroyed and converted into energy during a nuclear reaction, calculate the exact amount of energy released in Joules. (Take the speed of light \\( c = 3 \times 10^8 \\text{ m/s} \\)).",
+        "options": [
+          "\\( 9 \times 10^{10} \\text{ J} \\)",
+          "\\( 9 \times 10^{13} \\text{ J} \\)",
+          "\\( 3 \times 10^{10} \\text{ J} \\)",
+          "\\( 9 \times 10^{16} \\text{ J} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Write down Einstein's formula.</b> \\( E = \Delta m c^2 \\).<br><b>Step 2: Verify S.I. Units.</b> Mass \\( \Delta m = 0.001 \\text{ kg} = 10^{-3} \\text{ kg} \\). Speed of light \\( c = 3 \times 10^8 \\text{ m/s} \\).<br><b>Step 3: Calculate.</b> \\( E = 10^{-3} \times (3 \times 10^8)^2 \\).<br>\\( E = 10^{-3} \times (9 \times 10^{16}) \\).<br>\\( E = 9 \times 10^{(16 - 3)} = 9 \times 10^{13} \\text{ Joules} \\).<br><b>Conclusion:</b> The destruction of just 1 milligram of mass releases a colossal <b>\\( 9 \times 10^{13} \\text{ Joules} \\)</b> of energy (roughly equivalent to 21 kilotons of TNT!)."
+      },
+      {
+        "id": "RAD_041",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "<b>[Topper Challenge]</b> Analyze the following incomplete nuclear fission equation involving Uranium-235: <br> \\({}_{92}^{235}\\text{U} + {}_{0}^{1}\\text{n} \\rightarrow {}_{56}^{144}\\text{Ba} + {}_{36}^{X}\\text{Kr} + 3 {}_{0}^{1}\\text{n} + \\text{Energy}\\). <br> By strictly applying the universal laws of conservation of nucleons, calculate the exact unknown mass number (\\( X \\)) for the Krypton (Kr) fragment.",
+        "options": [
+          "88",
+          "89",
+          "90",
+          "92"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: State the Conservation Law.</b> In all nuclear reactions, the total sum of Mass Numbers (A) on the left side must exactly equal the total sum of Mass Numbers on the right side.<br><b>Step 2: Calculate Left Side Total (A).</b> Uranium(235) + Neutron(1) = 236.<br><b>Step 3: Set up Right Side equation.</b> Barium(144) + Krypton(X) + 3 Neutrons(3 \times 1) = \\( 144 + X + 3 = 147 + X \\).<br><b>Step 4: Equate and Solve.</b> \\( 236 = 147 + X \\implies X = 236 - 147 = 89 \\).<br><b>Conclusion:</b> The exact mass number of the Krypton fragment is <b>89</b>."
+      },
+      {
+        "id": "RAD_042",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "<b>[Topper Challenge]</b> Why is it currently a massive technological challenge to build a commercial, power-generating Nuclear Fusion reactor (like a Tokamak) on Earth, compared to building standard Nuclear Fission reactors?",
+        "options": [
+          "Hydrogen fuel is incredibly rare and expensive to find on Earth.",
+          "We currently lack the materials to build physical walls capable of safely containing and sustaining super-heated plasma at temperatures of over 100 million degrees Kelvin without the walls melting or the plasma collapsing.",
+          "Fusion reactions produce far too much radioactive waste to safely dispose of.",
+          "Fusion inherently violates the law of conservation of energy, making it unstable."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Fusion requires temperatures hotter than the center of the Sun. At these temperatures, matter turns into a super-heated gas called a plasma. No physical material on Earth can touch this plasma without instantly vaporizing and cooling the plasma, stopping the reaction. The technological nightmare is <b>using powerful magnetic fields to perfectly levitate and contain this churning 100-million-degree plasma inside a vacuum chamber</b> for long, sustained periods."
+      },
+      {
+        "id": "RAD_043",
+        "topic": "Mass Defect & Nuclear Energy",
+        "q": "<b>[Topper Challenge]</b> In a specific nuclear reaction, the total precise mass of the reactants is mathematically measured to be \\( 236.052 \\text{ a.m.u.} \\), and the total exact mass of all the products is measured to be \\( 235.842 \\text{ a.m.u.} \\). Calculate the approximate energy released by this specific reaction in MeV. (Take 1 a.m.u. = 931.5 MeV).",
+        "options": [
+          "2.10 MeV",
+          "19.56 MeV",
+          "195.6 MeV",
+          "0.21 MeV"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Calculate the Mass Defect (\\( \\Delta m \\)).</b> \\( \\Delta m = \\text{Reactant Mass} - \\text{Product Mass} \\).<br>\\( \\Delta m = 236.052 - 235.842 = 0.210 \\text{ a.m.u.} \\)<br><b>Step 2: Convert missing mass to Energy.</b> Using the standard conversion factor: Energy (MeV) = Mass Defect (a.m.u.) \\( \times 931.5 \\).<br><b>Step 3: Calculate.</b> \\( E = 0.210 \times 931.5 = 195.615 \\text{ MeV} \\).<br><b>Conclusion:</b> The total energy released by this single nuclear reaction is approximately <b>195.6 MeV</b>."
+      },
+      {
+        "id": "RAD_044",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "<b>[Topper Challenge]</b> The parent nucleus Uranium-238 (\\({}_{92}^{238}\\text{U}\\)) naturally decays over thousands of years to eventually become Radium-226 (\\({}_{88}^{226}\\text{Ra}\\)). Determine the exact number of Alpha (\\( \\alpha \\)) and Beta (\\( \\beta \\)) particles emitted to achieve this specific transformation.",
+        "options": [
+          "3 Alpha and 4 Beta",
+          "3 Alpha and 2 Beta",
+          "4 Alpha and 2 Beta",
+          "2 Alpha and 4 Beta"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate Alphas from Mass Number (A) change.</b> Parent A = 238, Target A = 226. Change = \\( 238 - 226 = 12 \\). Since each Alpha drops A by 4, Number of Alphas = \\( 12 / 4 = 3 \\).<br><b>Step 2: Calculate expected Atomic Number (Z) after 3 Alphas.</b> Each Alpha drops Z by 2. Total Z drop = 6. Expected Z = \\( 92 - 6 = 86 \\).<br><b>Step 3: Calculate Betas from Z discrepancy.</b> The target Radium has a Z of 88. Our expected Z is 86. To increase Z from 86 to 88, we need 2 Beta particles (each Beta increases Z by 1).<br><b>Conclusion:</b> The decay requires exactly <b>3 Alpha and 2 Beta particles</b>."
+      },
+      {
+        "id": "RAD_045",
+        "topic": "Nuclear Changes & Decay Equations",
+        "q": "<b>[Topper Challenge]</b> In all naturally occurring and artificial nuclear reactions (both Fission and Fusion), which of the following physical quantities is NOT strictly conserved across the equation?",
+        "options": [
+          "Total Mass Number (Number of Nucleons)",
+          "Total Atomic Number (Total Charge)",
+          "Total Rest Mass",
+          "Total Energy (including mass equivalent)"
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> In a nuclear reaction, you cannot gain or lose total protons/neutrons (Mass Number is conserved), and you cannot gain or lose total charge (Atomic Number is conserved). However, the <b>Total Rest Mass is strictly NOT conserved</b>. A small fraction of the rest mass physically vanishes (Mass Defect) and is converted entirely into Energy to balance the Total Energy conservation law."
+      },
+      {
+        "id": "RAD_046",
+        "topic": "Atomic Structure & Nucleus",
+        "q": "<b>[Topper Challenge]</b> When graphing the 'Average Binding Energy per Nucleon' against 'Mass Number (A)', the curve starts very low for light elements (Hydrogen), rises steeply, reaches a maximum peak, and then slowly drops off for very heavy elements (Uranium). At what approximate mass number does this curve reach its absolute peak (maximum stability)?",
+        "options": [
+          "Around A = 4 (Helium)",
+          "Around A = 56 (Iron)",
+          "Around A = 12 (Carbon)",
+          "Around A = 206 (Lead)"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Binding energy per nucleon dictates how tightly bound and stable a nucleus is. The higher the value, the more stable the atom. The curve peaks at <b>Mass Number A = 56, which corresponds to the Iron-56 (Fe) isotope</b>. Because Iron-56 has the highest binding energy per nucleon (roughly 8.8 MeV), it is the most physically stable nucleus in the entire universe. (This is why both fusion of lighter elements and fission of heavier elements aim towards becoming Iron)."
+      },
+      {
+        "id": "RAD_047",
+        "topic": "Alpha, Beta & Gamma Radiations",
+        "q": "<b>[Topper Challenge]</b> A radioactive sample emits a mixed beam of Alpha, Beta, and Gamma radiations into a thick cloud chamber. If an incredibly powerful uniform magnetic field is applied horizontally across the chamber, how will the physical trajectories of the three radiations differ?",
+        "options": [
+          "All three will curve in the exact same direction, but with different radii.",
+          "Alpha and Beta will curve in strictly opposite directions, while Gamma will travel completely straight and undeflected.",
+          "Gamma and Alpha will curve, while Beta travels straight.",
+          "All three will immediately stop and be absorbed by the magnetic field."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Magnetic fields only exert forces on <i>moving electric charges</i> (Fleming's Left-Hand Rule). Because Alpha is positive (+2) and Beta is negative (-1), their currents are technically flowing in opposite directions. Therefore, the magnetic force throws <b>Alpha and Beta in strictly opposite directions</b>. Since Gamma rays have zero electric charge, they experience zero force and pass <b>straight through undeflected</b>."
+      },
+      {
+        "id": "RAD_048",
+        "topic": "Nuclear Fission & Fusion",
+        "q": "<b>[Topper Challenge]</b> Analyze the following incomplete nuclear fusion equation representing the core reaction powering the Sun: <br> \\({}_{1}^{2}\\text{H} + {}_{1}^{3}\\text{H} \\rightarrow {}_{2}^{4}\\text{He} + X + \\text{Energy}\\). <br> By applying conservation laws, identify the exact subatomic particle represented by 'X' that is ejected during this fusion.",
+        "options": [
+          "A Proton (\\({}_{1}^{1}\\text{p}\\))",
+          "An Electron (\\({}_{-1}^{0}\\text{e}\\))",
+          "A Neutron (\\({}_{0}^{1}\\text{n}\\))",
+          "An Alpha particle (\\({}_{2}^{4}\\text{He}\\))"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Apply Conservation of Mass Number (Top Numbers).</b> Left side: \\( 2 + 3 = 5 \\). Right side: Helium is 4. Therefore, particle X must have a mass number of \\( 5 - 4 = 1 \\).<br><b>Step 2: Apply Conservation of Atomic Number (Bottom Numbers).</b> Left side: \\( 1 + 1 = 2 \\). Right side: Helium is 2. Therefore, particle X must have an atomic number of \\( 2 - 2 = 0 \\).<br><b>Step 3: Identify the particle.</b> The particle with Mass Number 1 and Atomic Number (Charge) 0 is the <b>Neutron (\\({}_{0}^{1}\\text{n}\\))</b>."
+      },
+      {
+        "id": "RAD_049",
+        "topic": "Uses of Radioisotopes",
+        "q": "<b>[Topper Challenge]</b> In modern agriculture and biology, scientists frequently use radioactive Phosphorus-32 (P-32) mixed into fertilizers. What is the specific technological purpose of using this radioactive isotope instead of normal stable Phosphorus?",
+        "options": [
+          "To genetically mutate the plants into growing larger fruits.",
+          "To act as a 'Radioactive Tracer', allowing scientists to use Geiger counters to literally map and track exactly how fast and where the fertilizer is absorbed into the plant's leaves and stems.",
+          "To heat up the soil during winter using the released beta radiation.",
+          "To kill microscopic pests and insects burrowing in the roots."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A plant biologically processes radioactive P-32 exactly the same way it processes normal Phosphorus. However, because P-32 continuously emits radiation, scientists can simply hold a radiation detector (like a Geiger-Muller counter) near the leaves to 'see' the exact pathway, speed, and distribution of the nutrient as it travels up the stem. This specific application is known as using a <b>Radioactive Tracer</b>."
+      },
+      {
+        "id": "RAD_050",
+        "topic": "Hazards, Safety & Background Radiation",
+        "q": "<b>[Topper Challenge]</b> According to international safety standards, personnel working in nuclear facilities (like X-ray technicians or reactor engineers) must wear a small device pinned to their chests called a 'Film Badge' (or Dosimeter) at all times. What is the critical function of this specific device?",
+        "options": [
+          "It physically repels incoming Alpha and Beta radiation from striking the heart.",
+          "It sounds a loud, immediate siren if the room's radiation levels spike dangerously high.",
+          "It contains special photographic film that permanently records the cumulative, total dose of invisible radiation the worker has been exposed to over weeks or months, ensuring they don't exceed safe biological limits.",
+          "It neutralizes the radiation in the air by emitting an opposing magnetic field."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Radiation damage to human tissue is cumulative over time. You cannot feel or see low-level gamma or X-rays hitting you. A Film Badge Dosimeter uses photographic film (which darkens when struck by radiation). By developing this badge at the end of the month, health officials can measure exactly how dark the film is, calculating the <b>total accumulated radiation dose</b> the worker absorbed, ensuring they stay safely below legal health limits."
+      }
+    ]
   }
   
 };
