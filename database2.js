@@ -4866,6 +4866,412 @@ const chapterDatabase2 = {
         "sol": "<b>Concept:</b> Power transfer optimization.<br><b>Explanation:</b> The power delivered to the external circuit is given by \\( P = I^2 R = \\left(\\frac{\\epsilon}{R+r}\\right)^2 R \\). Using calculus, it can be proven that this power value peaks (reaches its maximum limit) strictly when the external resistance is matched perfectly with the internal resistance of the power source. Therefore, maximum power is delivered when <b>\\( R = r \\)</b>."
       }
     ]
-  }
+  },
+
+  "Household Circuits": {
+    classTarget: "Class 10",
+    totalQs: 30,
+    topics: [
+      "Transmission of Power & House Wiring",
+      "Main Circuit & Wires",
+      "Colour Coding & Plugs",
+      "Fuses & Safety Devices",
+      "Switches & Staircase Wiring",
+      "Earthing & Safety"
+    ],
+    questions: [
+      {
+        "id": "HHC_001",
+        "topic": "Transmission of Power & House Wiring",
+        "q": "Electric power generated at power stations is transmitted over long-distance cables to city substations at extremely high voltages (like 132 kV). What is the primary physical reason for stepping up the voltage so high for transmission?",
+        "options": [
+          "To increase the speed of electrons so electricity reaches cities faster.",
+          "To reduce the magnitude of current, thereby minimizing \\( I^2R \\) heat energy losses in the cables.",
+          "To completely eliminate the electrical resistance of the transmission cables.",
+          "To prevent the cables from sagging under the extreme tension of the current."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Recall the power formula.</b> Electrical power \\( P = V \\times I \\). To transmit a fixed amount of power \\( P \\), if the voltage \\( V \\) is stepped up to a very high value, the current \\( I \\) drawn becomes very small.<br><b>Step 2: Relate current to heat loss.</b> According to Joule's law, heat loss in the cables is \\( H = I^2 R t \\). Since heat loss depends on the <i>square</i> of the current, reducing the current drastically minimizes the energy wasted as heat over long distances."
+      },
+      {
+        "id": "HHC_002",
+        "topic": "Transmission of Power & House Wiring",
+        "q": "In modern house wiring, the 'Ring System' is exclusively preferred over the traditional 'Tree System'. Which of the following is a fundamental advantage of the Ring System?",
+        "options": [
+          "All appliances are forced into a series connection, which saves wire.",
+          "It eliminates the need for an earth wire entirely.",
+          "Current divides into two parallel paths around the ring, allowing the use of a thinner wire with a lower current-carrying capacity.",
+          "Only one single, massive fuse is needed for the entire house."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> In a ring system, the wire forms a closed loop starting and ending at the distribution board. When an appliance is plugged in, the current from the mains has two separate parallel paths to reach the appliance. Because the current divides, the wire used for the ring doesn't have to carry the massive total current alone, meaning <b>thinner, cheaper wires with lower current ratings</b> can be safely used."
+      },
+      {
+        "id": "HHC_003",
+        "topic": "Colour Coding & Plugs",
+        "q": "According to the newly adopted international convention, what is the exact colour coding for the insulation of the Live, Neutral, and Earth wires respectively in a standard household flexible cable?",
+        "options": [
+          "Red, Black, Green",
+          "Brown, Light Blue, Green (or Green with Yellow stripes)",
+          "Black, Red, Green",
+          "Brown, Black, Yellow"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> To avoid confusion and standardize safety globally, the international colour code convention states: The Live wire is <b>Brown</b>, the Neutral wire is <b>Light Blue</b>, and the Earth wire is <b>Green</b> (or Green with Yellow stripes). (Note: Red, Black, and Green was the old convention)."
+      },
+      {
+        "id": "HHC_004",
+        "topic": "Main Circuit & Wires",
+        "q": "In a standard single-phase household power supply entering a home, what is the designated electrical potential of the Neutral wire and the Earth wire relative to the ground?",
+        "options": [
+          "Neutral is at 220 V, Earth is at 0 V.",
+          "Both Neutral and Earth are strictly at 0 V.",
+          "Neutral is at 0 V, Earth is at 220 V.",
+          "Both Neutral and Earth are at 110 V."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The Live (Phase) wire carries the alternating high voltage (220 V). The <b>Neutral wire</b> acts as the return path and is grounded at the local substation, making its potential exactly <b>0 V</b>. The <b>Earth wire</b> is connected to the local ground at the house itself, so it is also exactly at <b>0 V</b>. Only the Live wire poses a high-voltage shock hazard."
+      },
+      {
+        "id": "HHC_005",
+        "topic": "Fuses & Safety Devices",
+        "q": "An electrical fuse is a vital safety device. Based on the physical principles of heating, what two specific properties MUST the material of a high-quality fuse wire possess?",
+        "options": [
+          "High melting point and low specific resistance.",
+          "Low melting point and high specific resistance.",
+          "Low melting point and low specific resistance.",
+          "High melting point and high specific resistance."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A fuse wire must heat up rapidly when excess current flows and then melt immediately to break the circuit. To generate enough heat quickly, it needs a <b>high specific resistance</b>. To ensure it melts instantly and breaks the connection before appliances are damaged, it absolutely must have a <b>low melting point</b> (which is why alloys of lead and tin are often used)."
+      },
+      {
+        "id": "HHC_006",
+        "topic": "Fuses & Safety Devices",
+        "q": "What is the critical safety reason why a fuse must ALWAYS be connected strictly in the 'Live' wire of a circuit, and never in the 'Neutral' wire?",
+        "options": [
+          "If connected in the neutral, the appliance remains connected to the 220 V live wire even after the fuse blows, risking severe, fatal shocks.",
+          "The neutral wire does not carry any current at all, so a fuse there would never blow.",
+          "The live wire is physically thicker and can hold the fuse cartridge better.",
+          "Connecting it in the neutral wire causes the fuse to blow continuously due to ground loops."
+        ],
+        "correct": 0,
+        "sol": "<b>Explanation:</b> If a fuse is incorrectly placed in the neutral wire, an overload will still cause it to blow and stop the appliance from working. HOWEVER, the appliance is still physically connected to the Live wire (220 V). If a person opens the appliance to repair it, assuming it is safe because it is off, they will receive a fatal 220 V shock. Placing the fuse in the Live wire ensures that when it blows, the high voltage is <b>completely cut off</b> from the appliance."
+      },
+      {
+        "id": "HHC_007",
+        "topic": "Switches & Staircase Wiring",
+        "q": "There are two circuit arrangements described. In circuit A, a switch connected in the live wire. In circuit B, the switch connected in the neutral wire. Both switches are currently in the OFF (open) position. If a person accidentally touches the metallic casing of the appliance (assuming an internal fault) in both scenarios, what is the safety outcome?",
+        "options": [
+          "Both circuits are equally safe because the current path is broken.",
+          "Circuit A is highly dangerous, Circuit B is perfectly safe.",
+          "Circuit A is safe, Circuit B is highly dangerous because the appliance is still at a 220 V potential.",
+          "Neither is safe unless the earth wire is disconnected."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Analyze Circuit A (Switch in Live).</b> With the switch open, the high-voltage live wire is physically disconnected from the appliance. The appliance is at 0 V. Touching it is completely safe.<br><b>Step 2: Analyze Circuit B (Switch in Neutral).</b> The switch breaks the return path, so the bulb is off. However, the high-voltage Live wire is still directly connected to the appliance! The appliance sits at a deadly 220 V potential. Touching it gives a direct path to the ground, resulting in a severe shock.<br><b>Conclusion:</b> <b>Circuit A is safe, while Circuit B is dangerous.</b> (This is why switches must always be in the Live wire)."
+      },
+      {
+        "id": "HHC_008",
+        "topic": "Fuses & Safety Devices",
+        "q": "Miniature Circuit Breakers (MCBs) have largely replaced traditional porcelain fuses in modern household distribution boards. What is the primary operational advantage of an MCB over a standard melting fuse?",
+        "options": [
+          "It significantly reduces the total electricity bill.",
+          "It trips off the circuit in less than 25 milliseconds and can be easily reset with a switch, without requiring any wire replacement.",
+          "It acts as a permanent voltage stabilizer during lightning strikes.",
+          "It works on the principle of the chemical effect of current rather than magnetic or heating effects."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> When a short circuit occurs, a traditional fuse wire physically melts and must be manually unscrewed and replaced with a new wire, which is tedious and unsafe in the dark. An MCB uses magnetic and thermal tripping mechanisms to break the circuit almost instantaneously (within milliseconds). Its massive advantage is that it simply drops a switch lever, which can be <b>easily and safely pushed back up to reset</b> the circuit once the fault is cleared."
+      },
+      {
+        "id": "HHC_009",
+        "topic": "Switches & Staircase Wiring",
+        "q": "In a 'Staircase Wiring' setup, a single bulb can be independently turned ON or OFF from two different locations (e.g., the bottom and the top of the stairs). Which specific types of electrical switches are fundamentally required to wire this circuit?",
+        "options": [
+          "Two standard single-pole switches.",
+          "One heavy-duty double-pole switch.",
+          "Two separate single-pole, double-throw (Two-Way) switches.",
+          "One Miniature Circuit Breaker (MCB)."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Standard switches only have two terminals (ON/OFF). To create a dual-control circuit where toggling either switch changes the state of the bulb, we must use <b>Two-Way switches</b>. A two-way switch has three terminals (one common pole and two alternate outputs). Wiring two of these together creates alternate parallel paths that allow either switch to make or break the circuit."
+      },
+      {
+        "id": "HHC_010",
+        "topic": "Fuses & Safety Devices",
+        "q": "An electric geyser is stamped with the rating '3000 W, 220 V'. It is to be connected to a household circuit. Based on its calculated current draw, which of the following standard fuse ratings is the most appropriate and safe for this specific appliance?",
+        "options": [
+          "5 A",
+          "10 A",
+          "15 A",
+          "30 A"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Calculate the normal operating current.</b> Using the power formula \\( I = \\frac{P}{V} \\).<br><b>Step 2: Substitute the values.</b> \\( I = \\frac{3000}{220} \\approx 13.64 \\text{ A} \\).<br><b>Step 3: Select the fuse.</b> The fuse must have a rating slightly higher than the normal operating current to prevent it from blowing during normal use, but not too high, or it won't protect against moderate overloads. A <b>15 A</b> fuse is the standard and safest choice for a 13.6 A draw."
+      },
+      {
+        "id": "HHC_011",
+        "topic": "Earthing & Safety",
+        "q": "An electric iron has a heavy metallic outer casing. Suddenly, the internal insulation degrades, and the bare high-voltage Live wire touches the metal casing. If the appliance is properly 'Earthed' via a 3-pin plug, what happens immediately to prevent the user from getting a fatal shock?",
+        "options": [
+          "The earth wire absorbs the excess voltage and safely stores it as static electricity.",
+          "A massive short-circuit current flows through the low-resistance earth wire to the ground, causing the circuit's live fuse to blow instantly and cut the power.",
+          "The earth wire automatically signals the power station to drop the voltage.",
+          "The metal casing is transformed into a perfect insulator by the earth connection."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: The short circuit.</b> The earth wire provides a very low-resistance path directly to the ground. When the Live wire touches the earthed casing, current rushes down the earth wire instead of through a human body.<br><b>Step 2: The safeguard.</b> Because the resistance of this path is nearly zero, a massive surge of current flows. This huge current instantly exceeds the rating of the fuse in the Live wire. <b>The fuse melts immediately, completely cutting off the high voltage</b> from the appliance."
+      },
+      {
+        "id": "HHC_012",
+        "topic": "Earthing & Safety",
+        "q": "To construct a 'Local Earthing' connection for a house, a thick copper wire is welded to a large copper plate and buried deep underground. Why is a thick mixture of charcoal and salt specifically poured around this buried copper plate?",
+        "options": [
+          "To completely dry out the soil and prevent the copper plate from rusting.",
+          "To increase the electrical resistance of the ground, keeping the current localized.",
+          "To constantly absorb moisture from the surrounding soil, keeping the ground's electrical conductivity extremely high.",
+          "To generate a local magnetic field that protects the house from lightning strikes."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> For earthing to be effective, the connection to the earth must have incredibly low resistance. Dry soil is a poor conductor. Charcoal is porous and absorbs water excellently, while salt forms an electrolyte solution when wet. Together, the <b>charcoal and salt mixture holds moisture permanently</b>, ensuring the soil around the plate remains highly conductive (low resistance) year-round."
+      },
+      {
+        "id": "HHC_013",
+        "topic": "Transmission of Power & House Wiring",
+        "q": "The city electricity supply company installs a 'Company Fuse' (or Pole Fuse) on your premises. Where is this specific fuse physically located in the electrical sequence, and what is its typical current rating for an entire standard household?",
+        "options": [
+          "Immediately before the kWh energy meter; rated around 50 A.",
+          "Immediately after the kWh energy meter; rated around 5 A.",
+          "Inside the Distribution Board; rated around 15 A.",
+          "At the transformer substation; rated around 10,000 A."
+        ],
+        "correct": 0,
+        "sol": "<b>Explanation:</b> The very first component the supply cable connects to upon entering a house is the Company Fuse. It is placed <b>before the electric meter</b> to protect the meter and the entire house from massive external grid surges. Because it handles the total current drawn by the entire house simultaneously, it has a high rating, typically around <b>50 Amperes</b>. (Only the electricity board is authorized to touch it)."
+      },
+      {
+        "id": "HHC_014",
+        "topic": "Switches & Staircase Wiring",
+        "q": "Observe the described diagram of a dual switch (staircase) wiring setup. Switch 1 is at the bottom of the stairs, and Switch 2 is at the top. The circuit is currently closed, and the bulb is glowing brightly. If a person at the bottom of the stairs toggles Switch 1, what physical action immediately breaks the circuit?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgNPYwqaqmtMavUnXUNjturQojDyqXtbhoD4rCNI1HB0iziETp6pwv0ySqahwU5Dm1mIAfsk6ExTNB56wVegUv-5CWH3z6qsyHWGym031TaAUh4-cXRw3rmxxszLkfVzlK7tWh5sgl_zwLVB_1r8IGZqW3R4jO9llNDWPFcDregdZkyfKWifHxNublGbRLm",
+        "options": [
+          "The live wire gets connected directly to the neutral wire, intentionally blowing the fuse.",
+          "The toggle shifts the connection to the alternate parallel linkage wire, physically breaking the continuous path between the two switches.",
+          "The toggle completely disconnects the neutral wire from the mains.",
+          "The toggle sends the current backwards through the earth wire."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The two two-way switches are linked by two parallel wires. When the bulb is glowing, both switches are connected to the <i>same</i> linkage wire, forming a continuous path. Toggling Switch 1 shifts its connection to the <i>other</i>, empty linkage wire. Because Switch 2 is still connected to the first wire, the <b>continuous physical path is broken</b>, and the current stops, turning the bulb off."
+      },
+      {
+        "id": "HHC_015",
+        "topic": "Main Circuit & Wires",
+        "q": "The 'Main Switch' installed immediately after the electric meter in a household distribution system is a 'Double Pole' switch. What does this mean, and why is it a critical safety requirement?",
+        "options": [
+          "It requires two hands to operate, preventing accidental switching by children.",
+          "It connects two separate live wires simultaneously to double the power for heavy appliances.",
+          "It simultaneously breaks both the Live and Neutral connections, completely and safely isolating the entire house from the external supply grid.",
+          "It acts as both a standard switch and a local earth connection simultaneously."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> A standard single-pole switch only breaks the Live wire. A <b>Double Pole switch</b> has an iron link that physically toggles two separate switches at the exact same time. When pulled down, it <b>disconnects both the Live wire and the Neutral wire simultaneously</b>. This guarantees that the entire house is 100% electrically dead and isolated from the street grid, allowing safe maintenance on the main distribution board."
+      },
+      {
+        "id": "HHC_016",
+        "topic": "Colour Coding & Plugs",
+        "q": "Observe a standard 3-pin electrical plug. The top 'Earth' pin is deliberately designed to be noticeably thicker and longer than the Live and Neutral pins. What are the two primary safety reasons for this specific design?",
+        "options": [
+          "To carry more current and to fit tightly in the socket.",
+          "To ensure it connects to the earth first (before live power flows) and to prevent it from being accidentally inserted into the live hole.",
+          "To act as a physical handle for pulling and to absorb excess heat.",
+          "To complete the neutral circuit faster and stabilize the voltage."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Making the Earth pin <b>longer</b> ensures that the appliance is safely grounded <i>before</i> the Live pin makes contact with the high voltage, and remains grounded until <i>after</i> the Live pin is pulled out. Making it <b>thicker</b> ensures that even a careless user cannot possibly force the Earth pin into the Live or Neutral slots, preventing a catastrophic short circuit."
+      },
+      {
+        "id": "HHC_017",
+        "topic": "Colour Coding & Plugs",
+        "q": "When you look directly at the front face of a standard wall-mounted 3-pin socket in India (as per standard conventions), what is the correct spatial arrangement of the Live, Neutral, and Earth connections?",
+        "options": [
+          "Earth: Top Center, Live: Bottom Left, Neutral: Bottom Right",
+          "Earth: Top Center, Live: Bottom Right, Neutral: Bottom Left",
+          "Earth: Bottom Center, Live: Top Right, Neutral: Top Left",
+          "Live: Top Center, Earth: Bottom Right, Neutral: Bottom Left"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> According to the standard wiring convention for sockets (looking directly at the holes on the wall): The large hole at the <b>Top Center is Earth (E)</b>. The hole on the <b>Bottom Right is Live (L)</b>. The hole on the <b>Bottom Left is Neutral (N)</b>."
+      },
+      {
+        "id": "HHC_018",
+        "topic": "Earthing & Safety",
+        "q": "If a person accidentally touches a bare 220 V live wire while standing completely barefoot on a wet concrete floor, they will receive a severe, likely fatal electric shock. However, if they wear thick, dry rubber-soled shoes, they may feel only a mild tingle or nothing at all. Why?",
+        "options": [
+          "Rubber completely absorbs the 220 V potential and destroys the electrons.",
+          "Rubber has incredibly high electrical resistance, which breaks the circuit between the live wire and the earth, preventing current from flowing through the body.",
+          "The rubber shoes reverse the direction of the current back into the live wire.",
+          "Rubber acts as a superconductor, safely bypassing the body."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> For an electric shock to occur, current must actually flow <i>through</i> the body to the ground (completing the circuit). Thick, dry rubber is a near-perfect insulator (it has <b>massive electrical resistance</b>). Wearing rubber shoes prevents the current from finding a path to the earth, so the circuit remains open and the lethal current does not flow through the person's vital organs."
+      },
+      {
+        "id": "HHC_019",
+        "topic": "Earthing & Safety",
+        "q": "It is strictly advised never to operate electrical switches or touch appliances with wet hands. What is the core physics principle behind this safety warning?",
+        "options": [
+          "Water is a good insulator, which might trap the electricity in the switch.",
+          "Water reacts chemically with the plastic switch to produce explosive gases.",
+          "Normal tap water contains dissolved salts (ions), making it a good conductor. This water massively lowers the electrical resistance of human skin.",
+          "Wet hands cause the appliance to draw twice the amount of current."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Dry human skin actually has fairly high electrical resistance (around 100,000 Ω). However, normal tap water or sweat contains dissolved ions, making it a highly effective electrical conductor. Touching a faulty switch with wet hands creates a conductive liquid bridge that <b>drastically lowers the skin's resistance</b> (down to a few hundred ohms), allowing a massive, fatal current to easily pass into the body."
+      },
+      {
+        "id": "HHC_020",
+        "topic": "Fuses & Safety Devices",
+        "q": "An old household circuit is protected by a 5 A fuse. A user plugs in an electric iron rated at 1500 W (operating on 220 V). What will immediately happen when the iron is switched on?",
+        "options": [
+          "The iron will work perfectly without any issues.",
+          "The iron will only heat up to one-third of its maximum temperature.",
+          "The current drawn will exceed 5 A, causing the fuse to melt and break the circuit instantly.",
+          "The voltage will drop to compensate for the small fuse."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Calculate the current drawn by the iron.</b> Using \\( I = \\frac{P}{V} \\).<br><b>Step 2: Substitute the values.</b> \\( I = \\frac{1500}{220} \\approx 6.81 \\text{ A} \\).<br><b>Step 3: Compare with the fuse rating.</b> The appliance needs 6.81 A to operate. However, the circuit is protected by a 5 A fuse. Because 6.81 A is significantly greater than 5 A, the <b>fuse wire will overheat and melt (blow) instantly</b>, cutting off the power."
+      },
+      {
+        "id": "HHC_021",
+        "topic": "Transmission of Power & House Wiring",
+        "q": "Inside a house wired with the Ring System, why are appliances (like a TV, a fridge, and a fan) always connected in parallel to the ring rather than in series?",
+        "options": [
+          "Parallel connection ensures that each appliance receives the full 220 V mains voltage and operates completely independently of the others.",
+          "Parallel connection strictly reduces the total current drawn from the power station.",
+          "Parallel connection mathematically increases the total equivalent resistance of the house.",
+          "Parallel connection eliminates the need for Earth wires."
+        ],
+        "correct": 0,
+        "sol": "<b>Explanation:</b> If appliances were in series, turning one off would break the circuit and turn them all off, and the voltage would be divided among them. Connecting them in <b>parallel</b> ensures two critical things: 1) Each appliance gets the <b>full main voltage (220 V)</b> to operate correctly, and 2) Each appliance can be switched <b>ON or OFF independently</b> without affecting the rest of the house."
+      },
+      {
+        "id": "HHC_022",
+        "topic": "Main Circuit & Wires",
+        "q": "The 'Electricity Meter' (kWh meter) is installed outside a house by the state electricity board. Which specific wire(s) coming from the utility pole pass directly through this meter to accurately record the energy consumed?",
+        "options": [
+          "Only the Live wire.",
+          "Only the Neutral wire.",
+          "Both the Live and Neutral wires.",
+          "Only the Earth wire."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The electricity meter must measure the total electrical energy entering and leaving the household circuit. To do this, <b>both the Live wire and the Neutral wire</b> from the company's pole fuse must pass through the meter before they reach the main switch of the house. (The Earth wire is created locally at the house and does not come from the utility pole)."
+      },
+      {
+        "id": "HHC_023",
+        "topic": "Fuses & Safety Devices",
+        "q": "While replacing a blown fuse in an emergency, a homeowner decides to use a thick piece of standard copper wire instead of a proper fuse wire. Why is this an extremely dangerous practice?",
+        "options": [
+          "Copper wire will reverse the alternating current into direct current.",
+          "Copper has a very high melting point and low resistance, so it will not melt during a short circuit, potentially causing the house wiring to catch fire.",
+          "Copper wire will completely absorb the 220 V, leaving no voltage for appliances.",
+          "Copper wire is highly radioactive when subjected to 220 V."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A proper fuse wire (lead-tin alloy) has a low melting point so it breaks the circuit safely during an overload. Standard copper wire has an extremely <b>high melting point (1085°C) and very low resistance</b>. If a short circuit occurs, massive currents will flow, but the copper 'fuse' won't melt. Instead, the insulated wiring hidden inside the house walls will overheat and likely <b>catch fire</b>."
+      },
+      {
+        "id": "HHC_024",
+        "topic": "Switches & Staircase Wiring",
+        "q": "In the context of electrical switches, what does the term 'Single-Pole, Single-Throw' (SPST) practically mean?",
+        "options": [
+          "It is a standard ON/OFF switch that controls a single live wire.",
+          "It is a two-way switch used exclusively in staircase wiring.",
+          "It is a main switch that breaks both live and neutral simultaneously.",
+          "It is a circuit breaker that resets itself automatically."
+        ],
+        "correct": 0,
+        "sol": "<b>Explanation:</b> An SPST (Single-Pole, Single-Throw) switch is the most basic, common household switch. 'Single-Pole' means it connects to only one circuit wire (the Live wire). 'Single-Throw' means it has only one 'ON' position that completes the circuit (unlike a two-way switch, which is Single-Pole, Double-Throw / SPDT)."
+      },
+      {
+        "id": "HHC_025",
+        "topic": "Fuses & Safety Devices",
+        "q": "A Miniature Circuit Breaker (MCB) operates using two distinct physical principles to detect faults. It trips almost instantly during a massive 'short circuit', but takes a few seconds or minutes to trip during a mild 'overload'. Which two physics effects of electric current power these respective mechanisms?",
+        "options": [
+          "Chemical effect for short circuits; Heating effect for overloads.",
+          "Magnetic effect for short circuits; Heating (Thermal) effect for overloads.",
+          "Heating effect for both short circuits and overloads.",
+          "Electromagnetic induction for both mechanisms."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> An MCB uses a dual mechanism. 1) For massive current spikes (Short Circuits), it uses an electromagnet. The huge current creates a strong <b>magnetic field</b> that pulls a lever and trips the circuit <i>instantly</i>. 2) For slow, mild overloads (plugging in too many heaters), it uses a bimetallic strip. The excess current slowly <b>heats</b> the strip, causing it to bend and eventually trip the circuit after a delay."
+      },
+      {
+        "id": "HHC_026",
+        "topic": "Transmission of Power & House Wiring",
+        "q": "<b>[Topper Challenge]</b> A power plant generates 10 MW (\\( 10^7 \\text{ W} \\)) of power. It is transmitted through a cable having a total resistance of 20 Ω. If the power is transmitted at 100,000 V (100 kV), what is the total power wasted as heat in the transmission cable?",
+        "options": [
+          "20,000 W (20 kW)",
+          "200,000 W (200 kW)",
+          "10,000,000 W (10 MW)",
+          "2,000 W (2 kW)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate the current (I) in the cable.</b> Use \\( P = VI \\).<br>\\( I = \\frac{P}{V} = \\frac{10,000,000}{100,000} = 100 \\text{ A} \\).<br><b>Step 2: Calculate the power wasted as heat.</b> Use Joule's Law: Wasted Power = \\( I^2 R \\).<br><b>Step 3: Solve.</b> Wasted Power = \\( (100)^2 \\times 20 = 10,000 \\times 20 = 200,000 \\text{ W} \\) (or 200 kW).<br><b>Conclusion:</b> Only 200 kW (2% of the total generated power) is wasted, highlighting the incredible efficiency of high-voltage transmission."
+      },
+      {
+        "id": "HHC_027",
+        "topic": "Earthing & Safety",
+        "q": "<b>[Topper Challenge]</b> A washing machine with a metallic case is properly earthed with an earth wire having a very low resistance of exactly 1 Ω. The appliance is protected by a 15 A fuse in the live wire. Suddenly, a severe fault occurs: the 220 V live wire directly touches the metallic case. Assuming the resistance of the live wire is negligible, how much fault current will instantly flow, and what will happen?",
+        "options": [
+          "22 A; the 15 A fuse will blow instantly, saving the user.",
+          "220 A; the 15 A fuse will blow instantly, saving the user.",
+          "15 A; the fuse will safely regulate the current.",
+          "0 A; the earth wire neutralizes the voltage."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Understand the circuit path.</b> The fault creates a new, direct circuit from the 220V Live wire, through the metal case, directly down the Earth wire (1 Ω) to the ground (0V).<br><b>Step 2: Calculate the fault current.</b> Using Ohm's Law: \\( I_{fault} = \\frac{V}{R_{earth}} = \\frac{220}{1} = 220 \\text{ A} \\).<br><b>Step 3: Compare to the fuse.</b> A massive surge of <b>220 Amperes</b> instantly rushes through the Live wire. Since the fuse is only rated for 15 A, the <b>fuse blows violently and instantaneously</b>, disconnecting the live power before anyone can touch the machine and die."
+      },
+      {
+        "id": "HHC_028",
+        "topic": "Switches & Staircase Wiring",
+        "q": "<b>[Topper Challenge]</b> Consider a standard staircase wiring diagram using two Two-Way switches (Switch 1 and Switch 2). Switch 1 is connected to the live supply, and Switch 2 is connected to the bulb. There are two parallel linkage wires (Wire A and Wire B) connecting the switches. If Switch 1's pole is touching Wire A, and Switch 2's pole is touching Wire B, what is the current state of the bulb, and why?",
+        "options": [
+          "The bulb is ON because it is receiving dual voltage.",
+          "The bulb is OFF because the circuit path is physically broken.",
+          "The bulb is ON because parallel linkage wires always carry current.",
+          "The bulb is blinking rapidly."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Trace the path of the current.</b> The current enters Switch 1 and is directed exclusively into Linkage Wire A.<br><b>Step 2: Check the receiver.</b> Switch 2 is currently set to receive current from Linkage Wire B. Wire A simply hits a dead end at Switch 2's open terminal.<br><b>Conclusion:</b> Because the switches are aligned to different connecting wires, there is no continuous unbroken path for the electrons to reach the bulb. Therefore, the circuit is open, and the <b>bulb is OFF</b>."
+      },
+      {
+        "id": "HHC_029",
+        "topic": "Fuses & Safety Devices",
+        "q": "<b>[Topper Challenge]</b> An appliance needs exactly 4.5 A of current to function normally. You have three available fuses: 3 A, 5 A, and 13 A. Why must you specifically choose the 5 A fuse, and what is the scientific hazard of choosing the 13 A fuse?",
+        "options": [
+          "The 13 A fuse will force 13 Amps into the appliance, destroying it instantly.",
+          "The 13 A fuse will safely allow the appliance to work, but it will not blow if the appliance develops a moderate, dangerous fault (e.g., drawing 10 A).",
+          "The 13 A fuse has too high a resistance and will waste energy.",
+          "The 5 A fuse makes the electricity run faster."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A fuse rating must be slightly higher than the operating current (4.5 A). The 3 A fuse would blow during normal use. The 5 A fuse is perfect. If you use a 13 A fuse, the appliance will work fine (appliances only draw the current they need). HOWEVER, if a dangerous internal fault occurs causing the appliance to overheat and draw 10 Amps, the <b>13 A fuse will NOT blow</b>. The appliance will continue to overheat and eventually catch fire."
+      },
+      {
+        "id": "HHC_030",
+        "topic": "Transmission of Power & House Wiring",
+        "q": "<b>[Topper Challenge]</b> In the Ring System of house wiring, each appliance connected to the ring has its own individual fuse located directly inside its 3-pin plug. What is the fundamental functional advantage of this 'fused plug' design compared to a single central fuse for the whole room?",
+        "options": [
+          "It significantly reduces the electricity bill of the specific appliance.",
+          "It completely prevents voltage fluctuations from the power station.",
+          "If a short circuit occurs in one specific appliance, only its individual plug fuse blows, disconnecting only that faulty appliance while the rest of the room remains fully powered.",
+          "It forces the appliance to operate on Direct Current (DC)."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> In a traditional system, a fault in a TV might blow the central room fuse, plunging the entire room into darkness. In the Ring System, because every socket provides the full power of the ring, appliances are protected locally. If the TV shorts out, <b>only the 3 A fuse inside the TV's plug blows</b>. The ring itself remains perfectly active, so the lights and the fan in the same room continue to operate normally."
+      }
+    ]
+  },
   
 };
