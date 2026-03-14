@@ -5273,5 +5273,545 @@ const chapterDatabase2 = {
       }
     ]
   },
+
+  "Electromagnetism": {
+    classTarget: "Class 10",
+    totalQs: 40,
+    topics: [
+      "Magnetic Effect of Current (Oersted's Exp)",
+      "Magnetic Field: Straight Wire, Loop & Solenoid",
+      "Electromagnets & Permanent Magnets",
+      "Force on a Conductor & Fleming's Left-Hand Rule",
+      "D.C. Electric Motor",
+      "Electromagnetic Induction & Faraday's Laws",
+      "Fleming's Right-Hand Rule & A.C. Generator",
+      "Transformers"
+    ],
+    questions: [
+      {
+        "id": "ELM_001",
+        "topic": "Magnetic Effect of Current (Oersted's Exp)",
+        "q": "Oersted's historical experiment using a magnetic compass placed near a current-carrying wire conclusively proved which fundamental principle of physics?",
+        "options": [
+          "A changing magnetic field produces an electric current.",
+          "An electric current moving through a conductor produces a magnetic field around it.",
+          "Magnetic compasses are completely unaffected by direct electricity.",
+          "Static electric charges produce strong magnetic fields."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Hans Christian Oersted observed that a magnetic compass needle deflected whenever an electric current was switched on in a nearby wire. Since a compass needle is only deflected by magnetic forces, this proved beyond doubt that <b>an electric current produces a magnetic field</b> in its surrounding space."
+      },
+      {
+        "id": "ELM_002",
+        "topic": "Magnetic Field: Straight Wire, Loop & Solenoid",
+        "q": "According to the Right-Hand Thumb Rule, if a current-carrying straight conductor is held in the right hand such that the thumb points exactly in the direction of the current, what do the wrapped fingers physically represent?",
+        "options": [
+          "The direction of the induced electromotive force.",
+          "The direction of the circular magnetic field lines around the conductor.",
+          "The direction of the mechanical force acting on the conductor.",
+          "The direction of the flow of negative electrons."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The Right-Hand Thumb Rule is a geometrical memory aid. The straight thumb represents the straight path of the conventional current, and the natural curl of the fingers represents the <b>concentric circular path and direction of the magnetic field lines</b> wrapping around the wire."
+      },
+      {
+        "id": "ELM_003",
+        "topic": "Magnetic Field: Straight Wire, Loop & Solenoid",
+        "q": "Observe the diagram described below. A thick straight wire passes vertically through a horizontal cardboard plane. The electric current flows vertically *upwards*. What will be the specific geometric pattern and direction of the magnetic field lines drawn on the cardboard?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcp94JlSy-sy_1YjKMuJxHHJzfdfX3htXZk_bFoV8-G3dfI1CV87c1QlaToWGUvN0JRbkC-jXrbfl1Q1Wm6_g-4LvHf_muLhENLn6Qz4GUo6okqRQqKYfMRJiYshWCM_hRLrfwT2RSfkFJTeUN_dCOsldq-vBImEU-jzlc4GQkhiZc_JkoxOHJ2c-n_fTv/s320/Untitled.png",
+        "options": [
+          "Straight lines pointing radially outwards from the wire.",
+          "Concentric circles moving in a clockwise direction.",
+          "Concentric circles moving in an anticlockwise direction.",
+          "Elliptical paths aligned with the Earth's magnetic north."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Identify the shape.</b> A straight current-carrying wire always produces concentric circular magnetic field lines.<br><b>Step 2: Determine the direction.</b> Apply the Right-Hand Thumb Rule. Point your right thumb straight up (direction of current). Your fingers will naturally curl inwards towards the left, mapping out an <b>anticlockwise</b> circular path on the horizontal plane."
+      },
+      {
+        "id": "ELM_004",
+        "topic": "Magnetic Field: Straight Wire, Loop & Solenoid",
+        "q": "The magnitude of the magnetic field (B) produced by a straight current-carrying wire at a specific point in space is:",
+        "options": [
+          "Directly proportional to the distance from the wire.",
+          "Inversely proportional to the magnitude of the current flowing through the wire.",
+          "Inversely proportional to the perpendicular distance of the point from the wire.",
+          "Completely independent of the current magnitude."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The strength of the magnetic field (B) created by a straight wire depends on two factors: It is directly proportional to the current (\\( I \\)) flowing through it, and <b>inversely proportional to the distance (\\( r \\))</b> from the wire. (\\( B \\propto I/r \\)). As you move further away from the wire, the magnetic field gets weaker."
+      },
+      {
+        "id": "ELM_005",
+        "topic": "Magnetic Field: Straight Wire, Loop & Solenoid",
+        "q": "According to the Clock Rule, if you look at one flat face of a current-carrying circular loop and the current appears to be flowing in a *clockwise* direction, that specific face of the loop behaves electrically as a:",
+        "options": [
+          "North magnetic pole",
+          "South magnetic pole",
+          "Positive electric terminal",
+          "Neutral magnetic zone"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The Clock Rule is a simple convention to determine the magnetic polarity of a loop. If the current flows <b>Clockwise</b>, it acts as a <b>South Pole</b> (imagine the letters 'S' having arrows on its ends pointing clockwise). If the current flows Anticlockwise, it acts as a North Pole."
+      },
+      {
+        "id": "ELM_006",
+        "topic": "Magnetic Field: Straight Wire, Loop & Solenoid",
+        "q": "What is the specific spatial shape of the magnetic field lines passing exactly through the central axis of a current-carrying circular loop?",
+        "options": [
+          "They form perfectly concentric small circles.",
+          "They become straight lines running parallel to the plane of the loop.",
+          "They become a single straight line strictly perpendicular to the plane of the loop.",
+          "They intersect each other exactly at the geometric center."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Near the wire of the loop, the field lines are circular. As they move towards the center of the loop, the arcs become larger and flatter. Exactly at the central axis of the loop, the magnetic field line becomes a <b>straight line perpendicular to the plane of the loop</b>."
+      },
+      {
+        "id": "ELM_007",
+        "topic": "Magnetic Field: Straight Wire, Loop & Solenoid",
+        "q": "A solenoid is a long cylindrical coil containing a large number of close turns of insulated copper wire. The magnetic field produced strictly *inside* a long, tightly wound current-carrying solenoid is:",
+        "options": [
+          "Zero at all points.",
+          "Non-uniform, diverging rapidly towards the center.",
+          "Highly uniform, consisting of parallel straight lines along its axis.",
+          "Circular and concentric around the central axis."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Inside a tightly wound solenoid, the magnetic fields produced by each individual circular turn add up together. Because they reinforce each other perfectly along the center, the resulting interior magnetic field is <b>strong, uniform, and represented by parallel straight lines</b> moving from the South pole to the North pole inside the coil."
+      },
+      {
+        "id": "ELM_008",
+        "topic": "Electromagnets & Permanent Magnets",
+        "q": "Why is 'Soft Iron' universally preferred over steel as the core material for manufacturing a temporary electromagnet (like those used in electric bells or cranes)?",
+        "options": [
+          "Because soft iron is cheaper and physically prevents the copper wire from rusting.",
+          "Because soft iron has high retentivity and becomes permanently magnetized easily.",
+          "Because soft iron has low retentivity and loses its magnetism almost entirely the instant the current is switched off.",
+          "Because soft iron offers massive electrical resistance to the circuit, saving power."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> A temporary electromagnet must drop its payload or reset its mechanism the exact moment the electricity stops. Soft iron is used because it has <b>low magnetic retentivity</b>—it magnitizes powerfully when current flows, but loses that magnetism instantly when the current is turned off. Steel retains its magnetism and becomes a permanent magnet, ruining the temporary function."
+      },
+      {
+        "id": "ELM_009",
+        "topic": "Electromagnets & Permanent Magnets",
+        "q": "Which of the following is a distinct physical advantage that a temporary electromagnet holds over a traditional permanent bar magnet?",
+        "options": [
+          "Its polarity is totally fixed and can never be accidentally reversed.",
+          "It requires absolutely no energy source to maintain its magnetic field over time.",
+          "Its magnetic strength can be easily increased or decreased by simply varying the electric current.",
+          "It is completely unaffected by high temperatures or physical impacts."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> A permanent magnet has a fixed, unchangeable strength. An electromagnet's massive advantage is its flexibility: you can turn it on or off, reverse its North/South poles by reversing the current, and <b>change its exact lifting strength by simply adjusting the current magnitude</b> or the number of wire turns."
+      },
+      {
+        "id": "ELM_010",
+        "topic": "Electromagnets & Permanent Magnets",
+        "q": "<b>[Topper Challenge]</b> A student builds a simple electromagnet by winding 50 turns of copper wire around a soft iron nail and supplying 2 Amperes of direct current. Which of the following actions will specifically *decrease* the overall magnetic strength of this electromagnet?",
+        "options": [
+          "Increasing the current to 4 Amperes.",
+          "Winding 50 additional turns of wire tightly around the nail.",
+          "Removing the iron nail completely, leaving only an air core inside the coiled wire.",
+          "Cooling the copper wire to decrease its electrical resistance."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand the factors of strength.</b> The strength of an electromagnet depends directly on the current (\\( I \\)), the number of turns (\\( N \\)), and the permeability of the core material.<br><b>Step 2: Evaluate the core.</b> Soft iron has a very high magnetic permeability, which massively amplifies the field. Air has a very low magnetic permeability. <b>Removing the iron nail leaves an 'air core'</b>, which drastically collapses and decreases the magnetic strength."
+      },
+      {
+        "id": "ELM_011",
+        "topic": "Force on a Conductor & Fleming's Left-Hand Rule",
+        "q": "When a current-carrying conductor is placed in an external magnetic field, it experiences a mechanical force. According to Fleming's Left-Hand Rule, what specific physical quantity does the 'Forefinger' represent?",
+        "options": [
+          "The direction of the mechanical force (thrust).",
+          "The direction of the magnetic field.",
+          "The direction of the electric current.",
+          "The direction of the induced e.m.f."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Fleming's Left-Hand Rule assigns three mutually perpendicular directions to your fingers: The Thumb represents Thrust (Force). The <b>Forefinger represents the Magnetic Field</b> (North to South). The Middle finger represents the direction of the Current."
+      },
+      {
+        "id": "ELM_012",
+        "topic": "Force on a Conductor & Fleming's Left-Hand Rule",
+        "q": "A straight current-carrying wire is placed in a uniform magnetic field. Under what exact spatial orientation will the mechanical force acting on the wire be absolutely *zero*?",
+        "options": [
+          "When the wire is placed at an angle of 45° to the magnetic field.",
+          "When the wire is placed exactly perpendicular (90°) to the magnetic field.",
+          "When the wire is placed perfectly parallel (0° or 180°) to the direction of the magnetic field.",
+          "The force can never be zero as long as a steady current is flowing."
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> The magnitude of the force is \\( F = I l B \\sin \\theta \\).<br><b>Explanation:</b> The force relies on the angle (\\( \\theta \\)) between the current and the magnetic field. If the wire is placed <b>parallel</b> to the field, \\( \\theta = 0^{\\circ} \\) (or \\( 180^{\\circ} \\)). Since \\( \\sin(0) = 0 \\), the force drops to exactly zero. The force is maximum only when placed perpendicularly (\\( 90^{\\circ} \\))."
+      },
+      {
+        "id": "ELM_013",
+        "topic": "Force on a Conductor & Fleming's Left-Hand Rule",
+        "q": "Observe the setup described. An electron beam is shooting horizontally from West to East. A uniform magnetic field is directed vertically downwards (into the plane of the ground). According to Fleming's Left-Hand Rule, in which direction will the electron beam be physically deflected?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEixtWPoO7Rn-bHcPlPdejHvOQcyJVheIMnS5L41P8n2lEDP9OL7fNfatcYKx8RQhamAdlh8kT-EpcfOYuBlbvQRpE7mlhXMu5j5HYKp0h4MkSLu5zJW5E5gB8zGpK9YLHLcKFSHUJqYI8Bb44y5BAbMJiNRpiJPXETh1HwJgEqd9ia9bcPh6-Z1CC63x3fZ",
+        "options": [
+          "Towards the North.",
+          "Towards the South.",
+          "Straight upwards, out of the page.",
+          "It will not be deflected at all."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Find Current direction.</b> Electrons move West to East. Conventional current (\\( I \\)) always flows in the *opposite* direction of electrons, so Current is East to West.<br><b>Step 2: Find Field direction.</b> The Magnetic Field (B) is downwards (into the page).<br><b>Step 3: Apply Fleming's Left-Hand Rule.</b> Point your Forefinger into the page. Point your Middle finger West. Your Thumb is forced to point <b>Towards the South</b>. The beam deflects South."
+      },
+      {
+        "id": "ELM_014",
+        "topic": "D.C. Electric Motor",
+        "q": "What is the primary energy conversion principle upon which a Direct Current (D.C.) motor strictly operates?",
+        "options": [
+          "It converts mechanical energy into electrical energy.",
+          "It converts electrical energy into mechanical energy.",
+          "It converts magnetic energy into thermal energy.",
+          "It converts potential energy into kinetic energy."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A motor takes in electricity to spin a physical fan blade or wheel. Therefore, the principle of a D.C. motor is that a current-carrying coil placed in a magnetic field experiences a torque, which effectively <b>converts electrical energy supplied by a battery into rotational mechanical energy</b>."
+      },
+      {
+        "id": "ELM_015",
+        "topic": "D.C. Electric Motor",
+        "q": "In the construction of a standard D.C. motor, what is the exact physical and electrical function of the 'Split-ring Commutator'?",
+        "options": [
+          "To provide a stationary, rigid connection to the external battery.",
+          "To reverse the direction of current in the armature coil after every half rotation.",
+          "To dramatically increase the strength of the permanent magnetic field.",
+          "To step down the input voltage to prevent the coil from burning out."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> If the current in the coil flowed in one constant direction, the coil would only flip 180 degrees and get stuck. The split-ring commutator acts as an automatic switch. It physically <b>reverses the direction of the current in the armature coil after every half rotation</b>, ensuring that the magnetic force always pushes the coil in the same continuous circular direction."
+      },
+      {
+        "id": "ELM_016",
+        "topic": "D.C. Electric Motor",
+        "q": "The stationary 'Brushes' in a D.C. motor lightly press against the rotating split rings to pass current into the moving coil. Why is Carbon (graphite) specifically chosen for these brushes instead of a solid metal like copper?",
+        "options": [
+          "Carbon acts as a perfect electrical insulator to prevent dangerous short circuits.",
+          "Carbon is highly magnetic and enhances the motor's overall torque.",
+          "Carbon is self-lubricating, significantly reducing friction and wear on the rapidly rotating rings while still conducting electricity.",
+          "Carbon instantly melts if the motor draws too much current, acting as an internal fuse."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The brushes are constantly rubbing against the spinning split rings. Copper brushes would cause severe friction, sparking, and wear out the rings quickly. Carbon (in the form of graphite) is chosen because it is an adequate electrical conductor, but more importantly, it is <b>soft and self-lubricating</b>, which protects the expensive rotating commutator from mechanical damage."
+      },
+      {
+        "id": "ELM_017",
+        "topic": "D.C. Electric Motor",
+        "q": "An engineer wants to drastically increase the rotational speed of an experimental D.C. motor. Which of the following electrical or physical changes will completely *fail* to increase the motor's speed?",
+        "options": [
+          "Increasing the number of turns in the armature coil.",
+          "Increasing the strength of the external permanent magnetic field.",
+          "Reversing the polarity of the external battery.",
+          "Increasing the magnitude of the current flowing through the coil."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> The speed/torque of a motor depends on the Force equation (\\( F = I l B \\)). Increasing Current (\\( I \\)), Field Strength (\\( B \\)), or Length/Turns (\\( l \\)) will all increase the force and speed. However, <b>reversing the polarity of the battery</b> merely reverses the direction of the current, which will make the motor spin backwards at the exact same speed, not faster."
+      },
+      {
+        "id": "ELM_018",
+        "topic": "Force on a Conductor & Fleming's Left-Hand Rule",
+        "q": "<b>[Topper Challenge]</b> An alpha particle (which carries a heavy positive charge) is projected horizontally towards the North. It enters a uniform magnetic field and experiences a deflection directed vertically *upwards*. What must be the exact orientation of the uniform magnetic field?",
+        "options": [
+          "Towards the East.",
+          "Towards the West.",
+          "Towards the South.",
+          "Vertically downwards."
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Current direction.</b> An alpha particle is positive, so the conventional current (\\( I \\)) matches its motion: towards the North.<br><b>Step 2: Force direction.</b> The deflection (Force) is vertically UP.<br><b>Step 3: Apply Fleming's Left-Hand Rule.</b> Align your Middle finger to point North. Twist your wrist so your Thumb points straight UP. Notice your Forefinger. It is pointing exactly <b>Towards the East</b>, giving you the magnetic field's direction."
+      },
+      {
+        "id": "ELM_019",
+        "topic": "Magnetic Field: Straight Wire, Loop & Solenoid",
+        "q": "When looking directly at a current-carrying solenoid from one end, the current flows in an anticlockwise direction. If you slowly bring the North pole of a permanent bar magnet close to this exact end of the solenoid, what interaction will occur?",
+        "options": [
+          "The solenoid will powerfully attract the magnet.",
+          "The solenoid will visibly repel the magnet.",
+          "There will be absolutely no force between them since one is an electromagnet and one is permanent.",
+          "The magnet will instantly demagnetize the solenoid."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Find the Solenoid's polarity.</b> Apply the Clock Rule to the face of the solenoid. An anticlockwise current means that specific end behaves exactly as a North pole.<br><b>Step 2: Determine interaction.</b> You are bringing a North pole towards a North pole. Since like magnetic poles inherently repel each other, the <b>solenoid will visibly repel the magnet</b>."
+      },
+      {
+        "id": "ELM_020",
+        "topic": "Force on a Conductor & Fleming's Left-Hand Rule",
+        "q": "The magnitude of the magnetic force (\\( F \\)) acting on a straight conductor of length (\\( l \\)) carrying current (\\( I \\)) in a magnetic field (\\( B \\)) is mathematically given by \\( F = I l B \\sin \\theta \\). What exactly does the angle \\( \\theta \\) strictly represent in this equation?",
+        "options": [
+          "The angle between the magnetic field and the geographic North pole.",
+          "The angle between the length of the conductor (direction of current) and the direction of the magnetic field.",
+          "The angle of rotation of the armature coil inside a motor.",
+          "The phase angle of the alternating current entering the wire."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The formula \\( F = I l B \\sin \\theta \\) determines how much force a wire feels. The variable \\( \\theta \\) is explicitly defined as the geometric angle <b>between the direction of the current flowing through the conductor and the direction of the external magnetic field lines</b>. (This is why the force is zero at 0° and maximum at 90°)."
+      },
+      {
+        "id": "ELM_021",
+        "topic": "Electromagnetic Induction & Faraday's Laws",
+        "q": "The groundbreaking discovery that a changing magnetic field can induce an electric current in a closed circuit was made by which physicist?",
+        "options": [
+          "Hans Christian Oersted",
+          "Michael Faraday",
+          "Andre-Marie Ampere",
+          "Heinrich Lenz"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> While Oersted discovered that electricity creates magnetism, it was the English physicist <b>Michael Faraday</b> (in 1831) who discovered the exact reverse: that a changing magnetic field can generate an electric current. This phenomenon is known as Electromagnetic Induction."
+      },
+      {
+        "id": "ELM_022",
+        "topic": "Electromagnetic Induction & Faraday's Laws",
+        "q": "According to Faraday's laws of Electromagnetic Induction, what is the fundamental physical cause of an induced electromotive force (e.m.f.) in a coil?",
+        "options": [
+          "The mere presence of a strong permanent magnet near the coil.",
+          "The continuous rate of change of the magnetic flux linked with the coil.",
+          "The electrical resistance of the copper wire.",
+          "The static magnetic field of the Earth passing through the coil."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> Faraday's First Law states that an e.m.f. is induced only when there is a <i>change</i> in the magnetic flux. The Second Law states that the magnitude of this induced e.m.f. is directly proportional to the <b>rate of change of magnetic flux</b> linked with the coil. A stationary magnet, no matter how strong, induces zero current."
+      },
+      {
+        "id": "ELM_023",
+        "topic": "Electromagnetic Induction & Faraday's Laws",
+        "q": "Lenz's Law, which determines the direction of an induced current, is fundamentally a direct consequence of which universal law of physics?",
+        "options": [
+          "Law of Conservation of Charge",
+          "Law of Conservation of Momentum",
+          "Newton's Third Law of Motion",
+          "Law of Conservation of Energy"
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> Lenz's law states that the induced current always opposes the change that created it. This opposition means we have to do mechanical work against the magnetic force to move the magnet. This mechanical work is what gets converted into electrical energy. Thus, Lenz's Law is a strict consequence of the <b>Law of Conservation of Energy</b>."
+      },
+      {
+        "id": "ELM_024",
+        "topic": "Electromagnetic Induction & Faraday's Laws",
+        "q": "If you hold a coil of wire horizontally and drop the North pole of a strong bar magnet straight down into it, what will be the direction of the induced current when viewed from above the coil?",
+        "options": [
+          "Clockwise, to create a South pole and attract the magnet.",
+          "Anticlockwise, to create a North pole and repel the falling magnet.",
+          "Straight downwards along with the magnet.",
+          "There will be no induced current because gravity cancels it."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Apply Lenz's Law.</b> The induced current must oppose the motion of the incoming North pole.<br><b>Step 2: Determine polarity.</b> To oppose (repel) an approaching North pole, the top face of the coil must behave as a North magnetic pole.<br><b>Step 3: Apply the Clock Rule.</b> A North pole corresponds to an <b>Anticlockwise</b> current. Therefore, the current flows anticlockwise to oppose the magnet's fall."
+      },
+      {
+        "id": "ELM_025",
+        "topic": "Fleming's Right-Hand Rule & A.C. Generator",
+        "q": "Fleming's Right-Hand Rule is specifically used to find the direction of an induced current in a conductor moving through a magnetic field. In this rule, what does the Middle finger physically point towards?",
+        "options": [
+          "The direction of the mechanical motion (thrust) of the conductor.",
+          "The direction of the external magnetic field.",
+          "The direction of the induced electric current.",
+          "The direction of the geographic North pole."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> In Fleming's Right-Hand Rule (used for generators): The Thumb points to Motion (Thrust), the Forefinger points to the Magnetic Field, and the <b>Middle finger points in the direction of the Induced Current</b>."
+      },
+      {
+        "id": "ELM_026",
+        "topic": "Fleming's Right-Hand Rule & A.C. Generator",
+        "q": "Which of the following perfectly summarizes the difference in application between Fleming's Left-Hand Rule and Fleming's Right-Hand Rule?",
+        "options": [
+          "Left-Hand is for Motors (finding force); Right-Hand is for Generators (finding induced current).",
+          "Left-Hand is for Generators (finding induced current); Right-Hand is for Motors (finding force).",
+          "Left-Hand is for D.C. circuits; Right-Hand is for A.C. circuits.",
+          "Both rules are identical and can be used interchangeably."
+        ],
+        "correct": 0,
+        "sol": "<b>Explanation:</b> <b>Fleming's Left-Hand Rule</b> is used to predict the direction of mechanical force on a current-carrying wire (the principle of <b>Motors</b>). <b>Fleming's Right-Hand Rule</b> is used to predict the direction of an induced current when a wire is physically moved through a magnetic field (the principle of <b>Generators</b>)."
+      },
+      {
+        "id": "ELM_027",
+        "topic": "Fleming's Right-Hand Rule & A.C. Generator",
+        "q": "In a simple Alternating Current (A.C.) Generator, which specific mechanical component differentiates it from a D.C. Generator or D.C. Motor by allowing the current to reverse its direction in the external circuit?",
+        "options": [
+          "A split-ring commutator",
+          "A pair of continuous, unbroken Slip Rings",
+          "The carbon brushes",
+          "The permanent U-shaped magnet"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A D.C. motor/generator uses a split-ring commutator to reverse connections and keep current flowing in one direction. An A.C. generator uses two continuous, unbroken <b>Slip Rings</b>. Each end of the rotating armature coil is permanently welded to its own slip ring, meaning the alternating current generated in the coil is directly passed to the external circuit without being rectified."
+      },
+      {
+        "id": "ELM_028",
+        "topic": "Fleming's Right-Hand Rule & A.C. Generator",
+        "q": "Observe the described output graph of an electrical generator. The graph plots the induced electromotive force (e.m.f.) on the Y-axis against Time on the X-axis. The resulting curve is a continuous, smooth wave that alternates symmetrically above and below the zero-line (a sine wave). What does this specific graph represent?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiH47wjmEIDqWM1Sa3jbfv8332dlwUpPZf0_-I0PSk0m07ah1x4iWOj6DJ7I-boh6irz7nv4ejBtE1qDKtYgjTVO3tBujn1cjQOIa6KJl1hVLVFG0Q88RPEb9oh4bj-yrQ2QCB5wGncS71xwZ94AB-INr02fBajdLTL1pGRfvu2WZutVK525b3KKBlXl4Yr",
+        "options": [
+          "The steady output of a Direct Current (D.C.) battery.",
+          "The fluctuating but unidirectional output of a D.C. generator.",
+          "The bi-directional output of an Alternating Current (A.C.) generator.",
+          "The step-up voltage from a transformer."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> A smooth sine wave that crosses the zero-axis into the negative region indicates that the voltage (and current) physically reverses its direction periodically. This perfectly symmetrical, alternating positive-to-negative wave is the universal signature of an <b>Alternating Current (A.C.) generator</b>."
+      },
+      {
+        "id": "ELM_029",
+        "topic": "Fleming's Right-Hand Rule & A.C. Generator",
+        "q": "The standard frequency of the Alternating Current (A.C.) supplied to households in India is exactly 50 Hz. What does this mean regarding the direction of the electric current?",
+        "options": [
+          "The current flows steadily in one direction at 50 Amperes.",
+          "The armature coil in the power station generator completes 50 full rotations per second, meaning the current reverses its direction 100 times every second.",
+          "The current reverses its direction 50 times every minute.",
+          "The voltage fluctuates between 0 and 50 Volts continuously."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A frequency of 50 Hz means the massive turbines in the power station spin exactly 50 full revolutions per second. In a standard A.C. generator, the current reverses its direction twice during every single full rotation (once after every half-turn). Therefore, at 50 Hz, the current <b>reverses direction exactly 100 times every single second</b>."
+      },
+      {
+        "id": "ELM_030",
+        "topic": "Transformers",
+        "q": "A Transformer is an electrical device that strictly works on the principle of electromagnetic induction. Which of the following statements about a transformer is completely true?",
+        "options": [
+          "It can step up or step down both D.C. and A.C. voltages equally well.",
+          "It converts alternating current (A.C.) into direct current (D.C.).",
+          "It can ONLY step up or step down Alternating Current (A.C.) voltages.",
+          "It is used to increase the overall electrical power of a circuit."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> A transformer operates on Mutual Induction, which requires a continuously changing magnetic field to induce an e.m.f. in the secondary coil. Direct Current (D.C.) produces a constant, unchanging magnetic field, so it will induce exactly zero voltage in the secondary coil. Therefore, transformers <b>only work with Alternating Current (A.C.)</b>."
+      },
+      {
+        "id": "ELM_031",
+        "topic": "Transformers",
+        "q": "The core of a transformer is not made of a solid block of iron, but rather a large number of thin iron sheets (laminations) glued together with an insulating varnish. What is the critical physics reason for this laminated construction?",
+        "options": [
+          "To significantly reduce the weight of the transformer.",
+          "To drastically cut down energy losses caused by induced 'eddy currents' circulating inside the solid iron core.",
+          "To increase the overall electrical resistance of the primary coil.",
+          "To allow the primary and secondary coils to physically touch each other safely."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The alternating magnetic field doesn't just induce a current in the secondary coil; it also induces useless, swirling currents inside the iron core itself, called 'Eddy Currents'. These currents waste massive amounts of energy as heat. Slicing the core into thin, insulated laminations <b>breaks the paths of these eddy currents</b>, drastically reducing energy loss and keeping the transformer cool."
+      },
+      {
+        "id": "ELM_032",
+        "topic": "Transformers",
+        "q": "In a Step-Up transformer (designed to increase the voltage from the primary to the secondary coil), which of the following physical relationships between the number of turns in the primary coil (\\( N_p \\)) and the secondary coil (\\( N_s \\)) is correct?",
+        "options": [
+          "\\( N_s < N_p \\)",
+          "\\( N_s = N_p \\)",
+          "\\( N_s > N_p \\)",
+          "The number of turns has no effect on voltage."
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> The transformer turns ratio equation is \\( \\frac{V_s}{V_p} = \\frac{N_s}{N_p} \\).<br><b>Explanation:</b> To step up (increase) the voltage, the secondary voltage (\\( V_s \\)) must be greater than the primary voltage (\\( V_p \\)). According to the equation, this is only physically possible if the number of turns in the secondary coil is greater than the primary coil (<b>\\( N_s > N_p \\)</b>)."
+      },
+      {
+        "id": "ELM_033",
+        "topic": "Transformers",
+        "q": "A step-down transformer connected to a 220 V A.C. main supply has 800 turns in its primary coil and exactly 8 turns in its secondary coil. Assuming it is an ideal transformer, what will be the exact output voltage across the secondary coil?",
+        "options": [
+          "2.2 V",
+          "22 V",
+          "8 V",
+          "22000 V"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Write the transformer equation.</b> \\( \\frac{V_s}{V_p} = \\frac{N_s}{N_p} \\).<br><b>Step 2: Substitute the given values.</b> \\( V_p = 220 \\text{ V} \\), \\( N_p = 800 \\), \\( N_s = 8 \\).<br><b>Step 3: Solve for \\( V_s \\).</b> \\( V_s = 220 \\times \\left(\\frac{8}{800}\\right) \\).<br><b>Step 4: Calculate.</b> \\( V_s = 220 \\times \\frac{1}{100} = 2.2 \\text{ V} \\). The output is exactly <b>2.2 V</b>."
+      },
+      {
+        "id": "ELM_034",
+        "topic": "Transformers",
+        "q": "<b>[Topper Challenge]</b> An ideal step-up transformer increases the input voltage from 100 V to 1000 V. If a current of 10 A is flowing through the primary coil, what will be the exact current flowing through the secondary coil?",
+        "options": [
+          "100 A",
+          "10 A",
+          "1 A",
+          "0.1 A"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand Power Conservation.</b> A transformer cannot create energy. In an ideal transformer, Input Power = Output Power (\\( P_{in} = P_{out} \\)).<br><b>Step 2: Write the power equation.</b> \\( V_p \\times I_p = V_s \\times I_s \\).<br><b>Step 3: Substitute the values.</b> \\( 100 \\times 10 = 1000 \\times I_s \\).<br><b>Step 4: Solve for \\( I_s \\).</b> \\( 1000 = 1000 \\times I_s \\implies I_s = 1 \\text{ A} \\).<br><b>Conclusion:</b> A step-up transformer increases voltage but proportionally <i>decreases</i> current to conserve energy. The secondary current is exactly <b>1 A</b>."
+      },
+      {
+        "id": "ELM_035",
+        "topic": "Electromagnetic Induction & Faraday's Laws",
+        "q": "<b>[Topper Challenge]</b> A strong cylindrical bar magnet is dropped completely vertically through a hollow, highly conductive copper pipe. How will the downward acceleration of the magnet (\\( a \\)) compare to the standard acceleration due to gravity (\\( g \\)) while it is falling completely inside the pipe?",
+        "options": [
+          "\\( a = g \\)",
+          "\\( a > g \\)",
+          "\\( a < g \\)",
+          "It will accelerate upwards."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Recognize electromagnetic induction.</b> As the magnet falls, its moving magnetic field cuts the copper pipe, inducing eddy currents in the pipe.<br><b>Step 2: Apply Lenz's Law.</b> These induced currents create their own magnetic field that must <i>oppose</i> the motion of the falling magnet. <br><b>Step 3: Analyze forces.</b> This opposing magnetic force pushes upwards against gravity. Therefore, the net downward force is less than its full weight, making its acceleration <b>strictly less than \\( g \\) (\\( a < g \\))</b>."
+      },
+      {
+        "id": "ELM_036",
+        "topic": "Transformers",
+        "q": "<b>[Topper Challenge]</b> Why is Alternating Current (A.C.) universally preferred over Direct Current (D.C.) for transmitting electrical power from distant generating stations to modern cities?",
+        "options": [
+          "A.C. travels significantly faster than the speed of light.",
+          "A.C. can be easily and efficiently stepped up to very high voltages using transformers to minimize \\( I^2R \\) heat losses in cables, which is impossible with D.C.",
+          "A.C. cables do not require any physical insulation or earthing.",
+          "A.C. current physically cleans the wires and prevents rusting."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> The critical bottleneck of power transmission is heat loss in the wires (\\( H = I^2Rt \\)). To lower this loss, we must transmit power at extremely high voltages and incredibly low currents. <b>Transformers are the only simple, hyper-efficient way to step voltages up and down, but they strictly require A.C. to function.</b> Because D.C. cannot be stepped up/down easily, transmitting it over long distances would melt the cables or require impossibly thick wires."
+      },
+      {
+        "id": "ELM_037",
+        "topic": "Electromagnetic Induction & Faraday's Laws",
+        "q": "<b>[Topper Challenge]</b> A magnetic flux passing through a wire coil having exactly 100 turns decreases uniformly from \\( 5 \\text{ milliweber (mWb)} \\) to zero in exactly 5 seconds. Using Faraday's Law, calculate the exact magnitude of the e.m.f. induced in the coil.",
+        "options": [
+          "1 mV",
+          "10 mV",
+          "100 mV",
+          "500 mV"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Recall Faraday's Formula.</b> Induced e.m.f. \\( E = N \\times \\frac{\\Delta \\Phi}{\\Delta t} \\).<br><b>Step 2: Identify the variables.</b> \\( N = 100 \\). The change in flux \\( \\Delta \\Phi = 5 \\text{ mWb} = 5 \\times 10^{-3} \\text{ Wb} \\). Time taken \\( \\Delta t = 5 \\text{ s} \\).<br><b>Step 3: Calculate.</b> \\( E = 100 \\times \\left( \\frac{5 \\times 10^{-3}}{5} \\right) = 100 \\times 10^{-3} \\text{ Volts} \\).<br><b>Step 4: Convert units.</b> \\( 100 \\times 10^{-3} \\text{ V} \\) is exactly equal to <b>100 mV</b>."
+      },
+      {
+        "id": "ELM_038",
+        "topic": "Transformers",
+        "q": "What specific characteristic makes a transformer 'Ideal' in physics numericals?",
+        "options": [
+          "It has absolutely no primary coil.",
+          "It operates perfectly on 12-Volt D.C. batteries.",
+          "It transfers 100% of the electrical energy from the primary to the secondary coil without any loss to heat or magnetic leakage.",
+          "It steps up the voltage to infinity."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> Real transformers lose small amounts of energy due to copper wire resistance (copper loss), eddy currents (iron loss), and magnetic flux escaping the core (flux leakage). An <b>Ideal Transformer</b> is a theoretical model that assumes an impossible 100% efficiency, where Input Power exactly equals Output Power (\\( V_p I_p = V_s I_s \\)) with <b>absolutely zero energy wasted</b>."
+      },
+      {
+        "id": "ELM_039",
+        "topic": "Electromagnetic Induction & Faraday's Laws",
+        "q": "<b>[Topper Challenge]</b> A copper ring and a wooden ring of exactly the same dimensions are dropped simultaneously from the same height. Both fall through identical, localized uniform horizontal magnetic fields. Which ring will hit the ground first, and why?",
+        "options": [
+          "The copper ring, because it is heavier.",
+          "The wooden ring, because no opposing electromagnetic currents can be induced in an insulator.",
+          "Both will hit the ground at the exact same time due to gravity.",
+          "The copper ring, because the magnetic field accelerates it downwards."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Analyze Copper.</b> Copper is a conductor. As it falls through the magnetic field, a changing flux induces an e.m.f., which drives a current. By Lenz's Law, this current creates an opposing upward magnetic force, slowing the copper ring down.<br><b>Step 2: Analyze Wood.</b> Wood is an insulator. While an e.m.f. is induced, no actual current can flow. With no current, there is no opposing magnetic force. The wooden ring falls purely under gravity (at \\( g \\)).<br><b>Conclusion:</b> Because the copper ring is magnetically slowed down, the <b>wooden ring will hit the ground first</b>."
+      },
+      {
+        "id": "ELM_040",
+        "topic": "Electromagnets & Permanent Magnets",
+        "q": "Which of the following describes the 'Hysteresis' property of Soft Iron, making it the perfect core material for A.C. transformers and electromagnets?",
+        "options": [
+          "It permanently stores magnetic energy forever.",
+          "It is physically too hard to be cut by ordinary tools.",
+          "It has very low hysteresis loss, meaning very little energy is wasted as heat when its magnetic poles are constantly reversed by an alternating current.",
+          "It strongly repels all magnetic fields trying to enter it."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> In a transformer or an A.C. electromagnet, the magnetic field is constantly reversing direction (100 times a second at 50 Hz). Every time the iron core's atoms are forced to flip their magnetic alignment, friction generates heat. This wasted energy is called 'Hysteresis Loss'. Soft iron is explicitly chosen because it is incredibly easy to magnetize and demagnetize, resulting in <b>very low hysteresis loss</b> and high efficiency."
+      }
+    ]
+  },
   
 };
