@@ -10029,486 +10029,467 @@
     // CHAPTER: ELECTROMAGNETIC WAVES
     // ==========================================
     "Electromagnetic Waves": { 
-      classTarget: "Class 12", 
-      totalQs: 59, 
-      topics: [
-        "Displacement Current", 
-        "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor", 
-        "Wave Equation", 
-        "Relation Between B & E", 
-        "Momentum And Force", 
-        "Energy Density", 
-        "Intensity"
+  classTarget: "Class 12", 
+  totalQs: 57, 
+  topics: [
+    "Displacement Current", 
+    "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor", 
+    "Wave Equation", 
+    "Relation Between B & E", 
+    "Momentum And Force", 
+    "Energy Density", 
+    "Intensity"
+  ],
+  questions: [
+    {
+      id: 1, topic: "Displacement Current",
+      q: "A Parallel plate condenser of capacity 100 pF is connected to 230 V of AC supply of 300 rad/sec frequency. The rms value of displacement current.",
+      options: ["(1) \\( 6.9 \\, \\mu\\text{A} \\)", "(2) \\( 2.3 \\, \\mu\\text{A} \\)", "(3) \\( 9.2 \\, \\mu\\text{A} \\)", "(4) \\( 4.6 \\, \\mu\\text{A} \\)"],
+      correct: 0, 
+      sol: "\\( I_{d} = V_{rms} \\omega C = 230 \\times 300 \\times 100 \\times 10^{-12} = 6.9 \\times 10^{-6} \\, \\text{A} = 6.9 \\, \\mu\\text{A} \\)."
+    },
+    {
+      id: 2, topic: "Displacement Current",
+      q: "A parallel plate capacitor of plate separation 2 mm is connected in an electric circuit having source voltage 400V. If the plate area is 60 cm², then the value of displacement current for time period of 10⁻⁶ sec will be",
+      options: ["(1) 1.062 amp", "(2) \\( 1.062 \\times 10^{-2} \\, \\text{amp} \\)", "(3) \\( 1.062 \\times 10^{-3} \\, \\text{amp} \\)", "(4) \\( 1.062 \\times 10^{-4} \\, \\text{amp} \\)"],
+      correct: 1, 
+      sol: "\\( I_{d} = \\frac{\\epsilon_{0}A}{d} \\frac{V}{t} = \\frac{8.85 \\times 10^{-12} \\times 60 \\times 10^{-4}}{2 \\times 10^{-3}} \\times \\frac{400}{10^{-6}} = 1.062 \\times 10^{-2} \\, \\text{A} \\)."
+    },
+    {
+      id: 3, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
+      q: "The magnetic field between the plates of a capacitor when \\( r > R \\) is given by -",
+      options: ["(1) \\( \\frac{\\mu_{0}I_{D}}{2\\pi r} \\)", "(2) \\( \\frac{\\mu_{0}I_{D}}{2\\pi R} \\)", "(3) \\( \\frac{\\mu_{0}I_{D}r}{2\\pi R^{2}} \\)", "(4) zero"],
+      correct: 0, 
+      sol: "Outside the capacitor plates (\\( r > R \\)), the magnetic field is determined by the total displacement current \\( I_{D} \\). Applying Ampere-Maxwell's law gives \\( B = \\frac{\\mu_{0}I_{D}}{2\\pi r} \\)."
+    },
+    {
+      id: 4, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
+      q: "A condenser is charged using a constant current. The ratio of the magnetic fields at a distance of \\( \\frac{R}{2} \\) and R from the axis of condenser (R is the radius of plate) while charging is",
+      options: ["(1) 1:1", "(2) 2:1", "(3) 1:2", "(4) 1:4"],
+      correct: 2, 
+      sol: "Inside the capacitor plates, \\( B = \\frac{\\mu_{0}I_{D}r}{2\\pi R^{2}} \\). Thus, \\( B \\propto r \\). The ratio of magnetic fields at \\( r_{1} = R/2 \\) and \\( r_{2} = R \\) is \\( \\frac{R/2}{R} = 1:2 \\)."
+    },
+    {
+      id: 5, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
+      q: "The magnetic field between the circular plates of radius 12 cm separated by distance of 4 mm of a parallel plate capacitor of capacitance 100 pF, along the axis of plates having conduction current of 0.15 A is",
+      options: ["(1) zero", "(2) 1.5 T", "(3) 15 T", "(4) 0.15 T"],
+      correct: 0, 
+      sol: "Along the axis of the parallel plates, the distance from the axis is \\( r = 0 \\). Since \\( B \\propto r \\) for \\( r < R \\), the magnetic field is zero."
+    },
+    {
+      id: 6, topic: "Wave Equation",
+      q: "The wave function (in S.I unit) for an electromagnetic wave is given as \\( \\psi(x,t)=10^{3}\\sin \\pi(3\\times10^{6}x-9\\times10^{14}t) \\). The speed of the wave is",
+      options: ["(1) \\( 9\\times10^{14} \\, \\text{m/s} \\)", "(2) \\( 3\\times10^{8} \\, \\text{m/s} \\)", "(3) \\( 3\\times10^{6} \\, \\text{m/s} \\)", "(4) \\( 3\\times10^{7} \\, \\text{m/s} \\)"],
+      correct: 1, 
+      sol: "Comparing with \\( \\psi(x,t) = a\\sin(kx - \\omega t) \\), we get \\( k = 3\\times10^{6}\\pi \\) and \\( \\omega = 9\\times10^{14}\\pi \\). The speed \\( v = \\frac{\\omega}{k} = \\frac{9\\times10^{14}\\pi}{3\\times10^{6}\\pi} = 3\\times10^{8} \\, \\text{m/s} \\)."
+    },
+    {
+      id: 7, topic: "Wave Equation",
+      q: "The velocity of all radiowaves in free space is \\( 3\\times10^{8} \\, \\text{m/s} \\), the frequency of a wave of wavelength 150 m is",
+      options: ["(1) 45 MHz", "(2) 2 MHz", "(3) 2 KHz", "(4) 20 KHz"],
+      correct: 1, 
+      sol: "Using \\( v = \\nu \\lambda \\), the frequency is \\( \\nu = \\frac{v}{\\lambda} = \\frac{3\\times10^{8}}{150} = 2\\times10^{6} \\, \\text{Hz} = 2 \\, \\text{MHz} \\)."
+    },
+    {
+      id: 8, topic: "Wave Equation",
+      q: "The relative permeability of glass is 3/8 and the dielectric constant of glass is 8. The refractive index of glass is",
+      options: ["(1) 1.5", "(2) 1.1414", "(3) 1.732", "(4) 1.6"],
+      correct: 2, 
+      sol: "Refractive index \\( n = \\sqrt{\\mu_{r}\\epsilon_{r}} = \\sqrt{\\frac{3}{8} \\times 8} = \\sqrt{3} \\approx 1.732 \\)."
+    },
+    {
+      id: 9, topic: "Wave Equation",
+      q: "An electromagnetic wave of frequency 3 MHz passes from Vacuum into a dielectric medium with permittivity \\( \\epsilon_{r}=4.0 \\). Then",
+      options: ["(1) Wave length doubled and frequency remains unchanged", "(2) wave length is doubled and frequency becomes half", "(3) wave length is halved and frequency remains unchanged", "(4) wave length and frequency both remain unchanged"],
+      correct: 2, 
+      sol: "Frequency remains unchanged across mediums. Velocity in dielectric is \\( v = \\frac{c}{\\sqrt{\\epsilon_{r}}} = \\frac{c}{2} \\). Since \\( v = \\nu\\lambda \\), the new wavelength is halved."
+    },
+    {
+      id: 10, topic: "Relation Between B & E",
+      q: "In a plane electromagnetic wave, the electric field oscillates sinusoidally at a frequency of \\( 2\\times10^{10} \\, \\text{Hz} \\) and amplitude 48 V/m. The amplitude of oscillating magnetic field will be",
+      options: ["(1) \\( \\frac{1}{16} \\times 10^{-8} \\, \\text{Wb/m}^2 \\)", "(2) \\( 16 \\times 10^{-8} \\, \\text{Wb/m}^2 \\)", "(3) \\( 12 \\times 10^{-7} \\, \\text{Wb/m}^2 \\)", "(4) \\( \\frac{1}{12} \\times 10^{7} \\, \\text{Wb/m}^2 \\)"],
+      correct: 1, 
+      sol: "\\( B_{0} = \\frac{E_{0}}{c} = \\frac{48}{3 \\times 10^{8}} = 16 \\times 10^{-8} \\, \\text{Wb/m}^{2} \\)."
+    },
+    {
+      id: 11, topic: "Relation Between B & E",
+      q: "In a plane electromagnetic wave, the electric field oscillates sinusoidally at a frequency of \\( 2\\times10^{10} \\, \\text{Hz} \\) and amplitude 48 V/m, the wavelength of the wave will be -",
+      options: ["(1) 1.5 m", "(2) 66.6 m", "(3) 1.5 cm", "(4) 66.6 cm"],
+      correct: 2, 
+      sol: "\\( \\lambda = \\frac{c}{\\nu} = \\frac{3 \\times 10^{8}}{2 \\times 10^{10}} = 1.5 \\times 10^{-2} \\, \\text{m} = 1.5 \\, \\text{cm} \\)."
+    },
+    {
+      id: 12, topic: "Relation Between B & E",
+      q: "In an apparatus the electric field was found to oscillate with an amplitude of 18 V/m. The rms of the oscillating magnetic field is",
+      options: ["(1) \\( 6 \\times 10^{-8} \\, \\text{T} \\)", "(2) \\( 4.23 \\times 10^{-8} \\, \\text{T} \\)", "(3) \\( 9 \\times 10^{-8} \\, \\text{T} \\)", "(4) \\( 7.0 \\times 10^{-8} \\, \\text{T} \\)"],
+      correct: 1, 
+      sol: "\\( B_{0} = \\frac{E_{0}}{c} = \\frac{18}{3 \\times 10^{8}} = 6 \\times 10^{-8} \\, \\text{T} \\). The rms value is \\( B_{rms} = \\frac{B_{0}}{\\sqrt{2}} = \\frac{6 \\times 10^{-8}}{1.414} \\approx 4.23 \\times 10^{-8} \\, \\text{T} \\)."
+    },
+    {
+      id: 13, topic: "Relation Between B & E",
+      q: "The amplitude of the sinusoidally oscillating electric field of a plane wave is 60 V/m. Then the amplitude of the magnetic field is",
+      options: ["(1) \\( 12 \\times 10^{7} \\, \\text{T} \\)", "(2) \\( 6 \\times 10^{7} \\, \\text{T} \\)", "(3) \\( 6 \\times 10^{-7} \\, \\text{T} \\)", "(4) \\( 2 \\times 10^{-7} \\, \\text{T} \\)"],
+      correct: 3, 
+      sol: "\\( B_{0} = \\frac{E_{0}}{c} = \\frac{60}{3 \\times 10^{8}} = 2 \\times 10^{-7} \\, \\text{T} \\)."
+    },
+    {
+      id: 14, topic: "Momentum And Force",
+      q: "Light with energy flux of 18 W/cm² falls on a non reflecting surface of area 20 cm² at normal incidence. The momentum delivered in 30 minutes is",
+      options: ["(1) \\( 1.2 \\times 10^{-6} \\, \\text{kgms}^{-1} \\)", "(2) \\( 2.16 \\times 10^{-3} \\, \\text{kgms}^{-1} \\)", "(3) \\( 1.18 \\times 10^{-3} \\, \\text{kgms}^{-1} \\)", "(4) \\( 3.2 \\times 10^{-3} \\, \\text{kgms}^{-1} \\)"],
+      correct: 1, 
+      sol: "\\( p = \\frac{U}{c} = \\frac{IAt}{c} = \\frac{18 \\times 10^{4} \\times 20 \\times 10^{-4} \\times 1800}{3 \\times 10^{8}} = 2.16 \\times 10^{-3} \\, \\text{kgms}^{-1} \\)."
+    },
+    {
+      id: 15, topic: "Momentum And Force",
+      q: "Light with energy flux of 24 W/m² is incident on a well polished disc of radius 3.5cm for one hour. The momentum transferred to the disc is",
+      options: ["(1) \\( 1.1 \\, \\mu\\text{kg ms}^{-1} \\)", "(2) \\( 2.2 \\, \\mu\\text{kg ms}^{-1} \\)", "(3) \\( 3.3 \\, \\mu\\text{kg ms}^{-1} \\)", "(4) \\( 4.4 \\, \\mu\\text{kg ms}^{-1} \\)"],
+      correct: 1, 
+      sol: "\\( p = \\frac{2U}{c} = \\frac{2IAt}{c} = \\frac{2 \\times 24 \\times \\pi(0.035)^{2} \\times 3600}{3 \\times 10^{8}} \\approx 2.2 \\times 10^{-6} \\, \\text{kg ms}^{-1} = 2.2 \\, \\mu\\text{kg ms}^{-1} \\)."
+    },
+    {
+      id: 16, topic: "Energy Density",
+      q: "The maximum electric field of a plane electromagnetic wave is 88 V/m. The average energy density is",
+      options: ["(1) \\( 3.4 \\times 10^{-8} \\, \\text{Jm}^{-3} \\)", "(2) \\( 13.7 \\times 10^{-8} \\, \\text{Jm}^{-3} \\)", "(3) \\( 6.8 \\times 10^{-8} \\, \\text{Jm}^{-3} \\)", "(4) \\( 1.7 \\times 10^{-8} \\, \\text{Jm}^{-3} \\)"],
+      correct: 0, 
+      sol: "Average total energy density \\( U_{av} = \\frac{1}{2} \\epsilon_{0} E_{0}^{2} = 0.5 \\times 8.85 \\times 10^{-12} \\times (88)^{2} \\approx 3.4 \\times 10^{-8} \\, \\text{Jm}^{-3} \\)."
+    },
+    {
+      id: 17, topic: "Energy Density",
+      q: "The rms value of the electric field of a plane electromagnetic wave is 314 V/m. The average energy density of electric field and the average energy density are",
+      options: [
+        "(1) \\( 4.3 \\times 10^{-7} \\, \\text{Jm}^{-3} \\); \\( 2.15 \\times 10^{-7} \\, \\text{Jm}^{-3} \\)",
+        "(2) \\( 4.3 \\times 10^{-7} \\, \\text{Jm}^{-3} \\); \\( 8.6 \\times 10^{-7} \\, \\text{Jm}^{-3} \\)",
+        "(3) \\( 2.15 \\times 10^{-7} \\, \\text{Jm}^{-3} \\); \\( 4.3 \\times 10^{-7} \\, \\text{Jm}^{-3} \\)",
+        "(4) \\( 8.6 \\times 10^{-7} \\, \\text{Jm}^{-3} \\); \\( 4.3 \\times 10^{-7} \\, \\text{Jm}^{-3} \\)"
       ],
-      questions: [
-        {
-          id: 1, topic: "Displacement Current",
-          q: "A Parallel plate condenser of capacity 100 pF is connected to 230 V of AC supply of 300 rad/sec frequency. The rms value of displacement current.",
-          options: ["(1) \\( 6.9 \\, \\mu\\text{A} \\)", "(2) \\( 2.3 \\, \\mu\\text{A} \\)", "(3) \\( 9.2 \\, \\mu\\text{A} \\)", "(4) \\( 4.6 \\, \\mu\\text{A} \\)"],
-          correct: 0, 
-          sol: "\\( I_{d} = V_{rms} \\omega C = 230 \\times 300 \\times 100 \\times 10^{-12} = 6.9 \\times 10^{-6} \\, \\text{A} = 6.9 \\, \\mu\\text{A} \\)."
-        },
-        {
-          id: 2, topic: "Displacement Current",
-          q: "A parallel plate capacitor of plate separation 2 mm is connected in an electric circuit having source voltage 400V. If the plate area is 60 cm², then the value of displacement current for time period of 10⁻⁶ sec will be",
-          options: ["(1) 1.062 amp", "(2) \\( 1.062 \\times 10^{-2} \\, \\text{amp} \\)", "(3) \\( 1.062 \\times 10^{-3} \\, \\text{amp} \\)", "(4) \\( 1.062 \\times 10^{-4} \\, \\text{amp} \\)"],
-          correct: 1, 
-          sol: "\\( I_{d} = \\frac{\\epsilon_{0}A}{d} \\frac{V}{t} = \\frac{8.85 \\times 10^{-12} \\times 60 \\times 10^{-4}}{2 \\times 10^{-3}} \\times \\frac{400}{10^{-6}} = 1.062 \\times 10^{-2} \\, \\text{A} \\)."
-        },
-        {
-          id: 10, topic: "Relation Between B & E",
-          q: "In a plane electromagnetic wave, the electric field oscillates sinusoidally at a frequency of \\( 2\\times10^{10} \\, \\text{Hz} \\) and amplitude 48 V/m. The amplitude of oscillating magnetic field will be",
-          options: ["(1) \\( \\frac{1}{16} \\times 10^{-8} \\, \\text{Wb/m}^2 \\)", "(2) \\( 16 \\times 10^{-8} \\, \\text{Wb/m}^2 \\)", "(3) \\( 12 \\times 10^{-7} \\, \\text{Wb/m}^2 \\)", "(4) \\( \\frac{1}{12} \\times 10^{7} \\, \\text{Wb/m}^2 \\)"],
-          correct: 1, 
-          sol: "\\( B_{0} = \\frac{E_{0}}{c} = \\frac{48}{3 \\times 10^{8}} = 16 \\times 10^{-8} \\, \\text{Wb/m}^{2} \\)."
-        },
-        {
-          id: 11, topic: "Relation Between B & E",
-          q: "In a plane electromagnetic wave, the electric field oscillates sinusoidally at a frequency of \\( 2\\times10^{10} \\, \\text{Hz} \\) and amplitude 48 V/m, the wavelength of the wave will be -",
-          options: ["(1) 1.5 m", "(2) 66.6 m", "(3) 1.5 cm", "(4) 66.6 cm"],
-          correct: 2, 
-          sol: "\\( \\lambda = \\frac{c}{\\nu} = \\frac{3 \\times 10^{8}}{2 \\times 10^{10}} = 1.5 \\times 10^{-2} \\, \\text{m} = 1.5 \\, \\text{cm} \\)."
-        },
-        {
-          id: 12, topic: "Relation Between B & E",
-          q: "In an apparatus the electric field was found to oscillate with an amplitude of 18 V/m. The rms of the oscillating magnetic field is",
-          options: ["(1) \\( 6 \\times 10^{-8} \\, \\text{T} \\)", "(2) \\( 4.23 \\times 10^{-8} \\, \\text{T} \\)", "(3) \\( 9 \\times 10^{-8} \\, \\text{T} \\)", "(4) \\( 7.0 \\times 10^{-8} \\, \\text{T} \\)"],
-          correct: 1, 
-          sol: "\\( B_{0} = \\frac{E_{0}}{c} = \\frac{18}{3 \\times 10^{8}} = 6 \\times 10^{-8} \\, \\text{T} \\). The rms value is \\( B_{rms} = \\frac{B_{0}}{\\sqrt{2}} = \\frac{6 \\times 10^{-8}}{1.414} \\approx 4.23 \\times 10^{-8} \\, \\text{T} \\)."
-        },
-        {
-          id: 13, topic: "Relation Between B & E",
-          q: "The amplitude of the sinusoidally oscillating electric field of a plane wave is 60 V/m. Then the amplitude of the magnetic field is",
-          options: ["(1) \\( 12 \\times 10^{7} \\, \\text{T} \\)", "(2) \\( 6 \\times 10^{7} \\, \\text{T} \\)", "(3) \\( 6 \\times 10^{-7} \\, \\text{T} \\)", "(4) \\( 2 \\times 10^{-7} \\, \\text{T} \\)"],
-          correct: 3, 
-          sol: "\\( B_{0} = \\frac{E_{0}}{c} = \\frac{60}{3 \\times 10^{8}} = 2 \\times 10^{-7} \\, \\text{T} \\)."
-        },
-        {
-          id: 14, topic: "Momentum and Force",
-          q: "Light with energy flux of 18 W/cm² falls on a non reflecting surface of area 20 cm² at normal incidence. The momentum delivered in 30 minutes is",
-          options: ["(1) \\( 1.2 \\times 10^{-6} \\, \\text{kgms}^{-1} \\)", "(2) \\( 2.16 \\times 10^{-3} \\, \\text{kgms}^{-1} \\)", "(3) \\( 1.18 \\times 10^{-3} \\, \\text{kgms}^{-1} \\)", "(4) \\( 3.2 \\times 10^{-3} \\, \\text{kgms}^{-1} \\)"],
-          correct: 1, 
-          sol: "\\( p = \\frac{U}{c} = \\frac{IAt}{c} = \\frac{18 \\times 10^{4} \\times 20 \\times 10^{-4} \\times 30 \\times 60}{3 \\times 10^{8}} = 2.16 \\times 10^{-3} \\, \\text{kgms}^{-1} \\)."
-        },
-        {
-          id: 15, topic: "Momentum and Force",
-          q: "Light with energy flux of 24 W/m² is incident on a well polished disc of radius 3.5cm for one hour. The momentum transferred to the disc is",
-          options: ["(1) \\( 1.1 \\, \\mu\\text{kg ms}^{-1} \\)", "(2) \\( 2.2 \\, \\mu\\text{kg ms}^{-1} \\)", "(3) \\( 3.3 \\, \\mu\\text{kg ms}^{-1} \\)", "(4) \\( 4.4 \\, \\mu\\text{kg ms}^{-1} \\)"],
-          correct: 1, 
-          sol: "\\( p = \\frac{2U}{c} = \\frac{2IAt}{c} = \\frac{2 \\times 24 \\times \\pi(0.035)^{2} \\times 3600}{3 \\times 10^{8}} \\approx 2.2 \\times 10^{-6} \\, \\text{kg ms}^{-1} = 2.2 \\, \\mu\\text{kg ms}^{-1} \\)."
-        },
-        {
-          id: 16, topic: "Energy Density",
-          q: "The maximum electric field of a plane electromagnetic wave is 88 V/m. The average energy density is",
-          options: ["(1) \\( 3.4 \\times 10^{-8} \\, \\text{Jm}^{-3} \\)", "(2) \\( 13.7 \\times 10^{-8} \\, \\text{Jm}^{-3} \\)", "(3) \\( 6.8 \\times 10^{-8} \\, \\text{Jm}^{-3} \\)", "(4) \\( 1.7 \\times 10^{-8} \\, \\text{Jm}^{-3} \\)"],
-          correct: 0, 
-          sol: "Average total energy density \\( U_{av} = \\frac{1}{2} \\epsilon_{0} E_{0}^{2} = \\frac{1}{2} \\times 8.85 \\times 10^{-12} \\times (88)^{2} \\approx 3.4 \\times 10^{-8} \\, \\text{Jm}^{-3} \\)."
-        },
-        {
-          id: 17, topic: "Energy Density",
-          q: "The rms value of the electric field of a plane electromagnetic wave is 314 V/m. The average energy density of electric field and the average energy density are",
-          options: [
-            "(1) \\( 4.3 \\times 10^{-7} \\, \\text{Jm}^{-3} \\); \\( 2.15 \\times 10^{-7} \\, \\text{Jm}^{-3} \\)",
-            "(2) \\( 4.3 \\times 10^{-7} \\, \\text{Jm}^{-3} \\); \\( 8.6 \\times 10^{-7} \\, \\text{Jm}^{-3} \\)",
-            "(3) \\( 2.15 \\times 10^{-7} \\, \\text{Jm}^{-3} \\); \\( 4.3 \\times 10^{-7} \\, \\text{Jm}^{-3} \\)",
-            "(4) \\( 8.6 \\times 10^{-7} \\, \\text{Jm}^{-3} \\); \\( 4.3 \\times 10^{-7} \\, \\text{Jm}^{-3} \\)"
-          ],
-          correct: 1, 
-          sol: "Average electric energy density \\( U_{E} = \\frac{1}{2}\\epsilon_{0}E_{rms}^{2} = \\frac{1}{2} \\times 8.85 \\times 10^{-12} \\times (314)^{2} \\approx 4.3 \\times 10^{-7} \\, \\text{Jm}^{-3} \\). Total average energy density \\( U = 2U_{E} = 8.6 \\times 10^{-7} \\, \\text{Jm}^{-3} \\)."
-        },
-        {
-          id: 18, topic: "Relation Between B & E",
-          q: "The magnitudes of Poynting vector and electric field vector are respectively S and E, then",
-          options: [
-            "(1) \\( S = E^{2} \\sqrt{\\frac{\\epsilon_{0}}{\\mu_{0}}} \\)",
-            "(2) \\( S = E^{2} \\sqrt{\\epsilon_{0}\\mu_{0}} \\)",
-            "(3) \\( S = E^{2} \\sqrt{\\frac{\\mu_{0}}{\\epsilon_{0}}} \\)",
-            "(4) \\( S^{2} = \\frac{E^{2}}{\\mu_{0}} \\)"
-          ],
-          correct: 0, 
-          sol: "\\( S = \\frac{EB}{\\mu_{0}} \\). Since \\( B = \\frac{E}{c} = E\\sqrt{\\mu_{0}\\epsilon_{0}} \\), we have \\( S = \\frac{E^{2}\\sqrt{\\mu_{0}\\epsilon_{0}}}{\\mu_{0}} = E^{2}\\sqrt{\\frac{\\epsilon_{0}}{\\mu_{0}}} \\)."
-        },
-        {
-          id: 20, topic: "Intensity",
-          q: "The intensity of electromagnetic wave at a distance of 1 Km from a source of power 12.56 kW. is",
-          options: ["(1) \\( 10^{-3} \\, \\text{Wm}^{-2} \\)", "(2) \\( 4 \\times 10^{-3} \\, \\text{Wm}^{-2} \\)", "(3) \\( 12.56 \\times 10^{-3} \\, \\text{Wm}^{-2} \\)", "(4) \\( 1.256 \\times 10^{-3} \\, \\text{Wm}^{-2} \\)"],
-          correct: 0, 
-          sol: "\\( I = \\frac{P}{4\\pi r^{2}} = \\frac{12.56 \\times 10^{3}}{4 \\times 3.14 \\times (10^{3})^{2}} = \\frac{12.56 \\times 10^{3}}{12.56 \\times 10^{6}} = 10^{-3} \\, \\text{Wm}^{-2} \\)."
-        },
-        {
-          id: 21, topic: "Intensity",
-          q: "The sun delivers \\( 10^{3} \\, \\text{W/m}^{2} \\) of electromagnetic flux incident on a roof of dimensions \\( 8\\text{m} \\times 20\\text{m} \\), will be",
-          options: ["(1) \\( 6.4 \\times 10^{3} \\, \\text{W} \\)", "(2) \\( 3.4 \\times 10^{4} \\, \\text{W} \\)", "(3) \\( 1.6 \\times 10^{5} \\, \\text{W} \\)", "(4) \\( 3.2 \\times 10^{5} \\, \\text{W} \\)"],
-          correct: 2, 
-          sol: "Power \\( P = I \\times A = 10^{3} \\times (8 \\times 20) = 160 \\times 10^{3} = 1.6 \\times 10^{5} \\, \\text{W} \\)."
-        },
-        {
-          id: 22, topic: "Displacement Current",
-          q: "The voltage between the plates of a parallel plate condenser of capacity 2.0 \\( \\mu \\)F is charging at a rate of 10 Vs⁻¹. The displacement current is",
-          options: ["(1) 2 mA", "(2) 2 \\( \\mu \\)A", "(3) 20 \\( \\mu \\)A", "(4) 2 A"],
-          correct: 2, 
-          sol: "\\( I_{d} = C \\frac{dV}{dt} = 2.0 \\times 10^{-6} \\times 10 = 20 \\times 10^{-6} \\, \\text{A} = 20 \\, \\mu\\text{A} \\)."
-        },
-        {
-          id: 23, topic: "Displacement Current",
-          q: "A parallel plate condenser of capacity 10 \\( \\mu \\)F is charged with a constant charging current of 0.16A. The displacement current is",
-          options: ["(1) 0.16 \\( \\mu \\)A", "(2) 0.16 A", "(3) 0.96 A", "(4) 9.6 A"],
-          correct: 1, 
-          sol: "Displacement current \\( I_{d} \\) is equal to the conduction current \\( I_{c} \\) during charging. Therefore, \\( I_{d} = I_{c} = 0.16 \\, \\text{A} \\)."
-        },
-        {
-          id: 24, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
-          q: "The magnetic field between the plates of a capacitor when \\( r > R \\) is given by -",
-          options: ["(1) \\( \\frac{\\mu_{0}I_{D}}{2\\pi r} \\)", "(2) \\( \\frac{\\mu_{0}I_{D}}{2\\pi R} \\)", "(3) \\( \\frac{\\mu_{0}I_{D}r}{2\\pi R^{2}} \\)", "(4) zero"],
-          correct: 0, 
-          sol: "Outside the capacitor plates (\\( r > R \\)), the magnetic field is determined by the total displacement current \\( I_{D} \\). Applying Ampere-Maxwell's law, \\( \\oint B \\cdot dl = \\mu_{0} I_{D} \\Rightarrow B(2\\pi r) = \\mu_{0}I_{D} \\Rightarrow B = \\frac{\\mu_{0}I_{D}}{2\\pi r} \\)."
-        },
-        {
-          id: 25, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
-          q: "A condenser is charged using a constant current. The ratio of the magnetic fields at a distance of \\( \\frac{R}{2} \\) and R from the axis of condenser (R is the radius of plate) while charging is",
-          options: ["(1) 1:1", "(2) 2:1", "(3) 1:2", "(4) 1:4"],
-          correct: 2, 
-          sol: "Inside the capacitor plates (\\( r \\leq R \\)), the magnetic field is \\( B = \\frac{\\mu_{0}I_{D}r}{2\\pi R^{2}} \\). Thus, \\( B \\propto r \\). The ratio of magnetic fields at \\( r_{1} = R/2 \\) and \\( r_{2} = R \\) is \\( \\frac{B_{1}}{B_{2}} = \\frac{R/2}{R} = \\frac{1}{2} = 1:2 \\)."
-        },
-        {
-          id: 26, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
-          q: "The magnetic field between the circular plates of radius 12 cm separated by distance of 4 mm of a parallel plate capacitor of capacitance 100 pF, along the axis of plates having conduction current of 0.15 A is",
-          options: ["(1) zero", "(2) 1.5 T", "(3) 15 T", "(4) 0.15 T"],
-          correct: 0, 
-          sol: "Along the axis of the parallel plates, the distance from the axis is \\( r = 0 \\). Since \\( B = \\frac{\\mu_{0}I_{D}r}{2\\pi R^{2}} \\) for \\( r < R \\), putting \\( r = 0 \\) gives the magnetic field \\( B = 0 \\)."
-        },
-        {
-          id: 27, topic: "Wave Equation",
-          q: "The wave function (in S.I unit) for an electromagnetic wave is given as \\( \\psi(x,t)=10^{3}\\sin \\pi(3\\times10^{6}x-9\\times10^{14}t) \\). The speed of the wave is",
-          options: ["(1) \\( 9\\times10^{14} \\, \\text{m/s} \\)", "(2) \\( 3\\times10^{8} \\, \\text{m/s} \\)", "(3) \\( 3\\times10^{6} \\, \\text{m/s} \\)", "(4) \\( 3\\times10^{7} \\, \\text{m/s} \\)"],
-          correct: 1, 
-          sol: "Comparing the given equation with the standard wave equation \\( \\psi(x,t) = a\\sin(kx - \\omega t) \\), we get \\( k = 3\\times10^{6}\\pi \\) and \\( \\omega = 9\\times10^{14}\\pi \\). The speed of the wave is \\( v = \\frac{\\omega}{k} = \\frac{9\\times10^{14}\\pi}{3\\times10^{6}\\pi} = 3\\times10^{8} \\, \\text{m/s} \\)."
-        },
-        {
-          id: 28, topic: "Wave Equation",
-          q: "The velocity of all radiowaves in free space is \\( 3\\times10^{8} \\, \\text{m/s} \\), the frequency of a wave of wavelength 150 m is",
-          options: ["(1) 45 MHz", "(2) 2 MHz", "(3) 2 KHz", "(4) 20 KHz"],
-          correct: 1, 
-          sol: "Using the relation between velocity, frequency, and wavelength: \\( v = \\nu \\lambda \\). The frequency is \\( \\nu = \\frac{v}{\\lambda} = \\frac{3\\times10^{8}}{150} = 2\\times10^{6} \\, \\text{Hz} = 2 \\, \\text{MHz} \\)."
-        },
-        {
-          id: 29, topic: "Wave Equation",
-          q: "The relative permeability of glass is 3/8 and the dielectric constant of glass is 8. The refractive index of glass is",
-          options: ["(1) 1.5", "(2) 1.1414", "(3) 1.732", "(4) 1.6"],
-          correct: 2, 
-          sol: "The refractive index \\( n \\) of a medium is given by \\( n = \\sqrt{\\mu_{r}\\epsilon_{r}} \\). Substituting the given values, \\( n = \\sqrt{\\frac{3}{8} \\times 8} = \\sqrt{3} \\approx 1.732 \\)."
-        },
-        {
-          id: 30, topic: "Wave Equation",
-          q: "An electromagnetic wave of frequency 3 MHz passes from Vacuum into a dielectric medium with permittivity \\( \\epsilon_{r}=4.0 \\). Then",
-          options: ["(1) Wave length doubled and frequency remains unchanged", "(2) wave length is doubled and frequency becomes half", "(3) wave length is halved and frequency remains unchanged", "(4) wave length and frequency both remain unchanged"],
-          correct: 2, 
-          sol: "Frequency is a characteristic of the source and remains unchanged when a wave changes medium. The velocity in the dielectric is \\( v = \\frac{c}{\\sqrt{\\epsilon_{r}}} = \\frac{c}{\\sqrt{4}} = \\frac{c}{2} \\). Since \\( v = \\nu\\lambda \\), the new wavelength \\( \\lambda' = \\frac{v}{\\nu} = \\frac{c/2}{\\nu} = \\frac{\\lambda}{2} \\). Hence, wavelength is halved."
-        },
-        {
-          id: 31, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
-          q: "The electrical field in the gap of a condenser charges as \\( 10^{12} \\, \\text{V} \\, \\text{m}^{-1}\\text{s}^{-1} \\). If the radius of each plate of the condenser is 3 cm, the magnetic field at the edge of plate in the gap is",
-          options: ["(1) 1.67 mT", "(2) 0.167 \\( \\mu \\text{T} \\)", "(3) 0.5 \\( \\mu \\text{T} \\)", "(4) 5 \\( \\mu \\text{T} \\)"],
-          correct: 1, 
-          sol: "From Ampere-Maxwell's law at the edge (\\( r=R \\)), \\( B(2\\pi R) = \\mu_{0}\\epsilon_{0} \\frac{d\\Phi_{E}}{dt} = \\mu_{0}\\epsilon_{0}A \\frac{dE}{dt} \\). Thus, \\( B = \\frac{\\mu_{0}\\epsilon_{0}\\pi R^{2}}{2\\pi R} \\frac{dE}{dt} = \\frac{R}{2c^{2}} \\frac{dE}{dt} \\). Substituting \\( R=0.03 \\, \\text{m} \\), \\( \\frac{dE}{dt}=10^{12} \\), and \\( c=3\\times10^{8} \\): \\( B = \\frac{0.03 \\times 10^{12}}{2 \\times (3\\times10^{8})^{2}} = \\frac{3\\times10^{10}}{18\\times10^{16}} = \\frac{1}{6}\\times10^{-6} \\, \\text{T} \\approx 0.167 \\, \\mu \\text{T} \\)."
-        },
-        {
-          id: 32, topic: "Wave Equation",
-          q: "The wave length of the Green light of mercury is 550 nm. If the refractive index of the glass is 1.5, the time period of the electrical vector in glass nearly \\( (C_{0}=3\\times10^{8} \\, \\text{m/s}) \\)",
-          options: ["(1) \\( 1.8\\times10^{-9} \\, \\text{s} \\)", "(2) \\( 3.6\\times10^{-15} \\, \\text{s} \\)", "(3) \\( 9\\times10^{-15} \\, \\text{s} \\)", "(4) \\( 2.75\\times10^{-15} \\, \\text{s} \\)"],
-          correct: 3, 
-          sol: "Velocity of light in glass \\( v = \\frac{c}{n} = \\frac{3\\times10^{8}}{1.5} = 2\\times10^{8} \\, \\text{m/s} \\). The time period given in the context is calculated using \\( T = \\frac{\\lambda_{vacuum}}{v_{glass}} = \\frac{550\\times10^{-9}}{2\\times10^{8}} = 275\\times10^{-17} = 2.75\\times10^{-15} \\, \\text{s} \\)."
-        },
-        {
-          id: 33, topic: "Wave Equation",
-          q: "The all India Radio, station at Vijayawada transmits its signals at 840 K C/s. The length of the radio wave is",
-          options: ["(1) 35.7 m", "(2) 357 m", "(3) 35.7 km", "(4) 3.57 m"],
-          correct: 1, 
-          sol: "Wavelength \\( \\lambda = \\frac{c}{\\nu} \\). Given \\( \\nu = 840 \\, \\text{kHz} = 840\\times10^{3} \\, \\text{Hz} \\) and \\( c = 3\\times10^{8} \\, \\text{m/s} \\). Therefore, \\( \\lambda = \\frac{3\\times10^{8}}{840\\times10^{3}} = \\frac{3000}{8.4} \\approx 357 \\, \\text{m} \\)."
-        },
-        {
-          id: 34, topic: "Relation Between B & E",
-          q: "A point source of electromagnetic radiation has an average power output of 800 W. The maximum value of electric field at a distance 3.5 m from the source will be 62.6 V/m. The maximum value of magnetic field will be",
-          options: ["(1) \\( 2.09\\times10^{-5} \\, \\text{T} \\)", "(2) \\( 2.09\\times10^{-6} \\, \\text{T} \\)", "(3) \\( 2.09\\times10^{-7} \\, \\text{T} \\)", "(4) \\( 2.09\\times10^{-8} \\, \\text{T} \\)"],
-          correct: 2, 
-          sol: "The amplitude of the magnetic field \\( B_{0} \\) is related to the amplitude of the electric field \\( E_{0} \\) by the speed of light \\( c \\): \\( B_{0} = \\frac{E_{0}}{c} = \\frac{62.6}{3\\times10^{8}} = 20.86\\times10^{-8} \\, \\text{T} \\approx 2.09\\times10^{-7} \\, \\text{T} \\)."
-        },
-        {
-          id: 35, topic: "Relation Between B & E",
-          q: "A plane E.M. wave of frequency 40 MHz travels along X-axis. At same point at same instant, the electric field E has maximum value of 750 N/C in Y-direction. The magnitude and direction of magnetic field is",
-          options: ["(1) 2.5 \\( \\mu \\text{T} \\) along X-axis", "(2) 2.5 \\( \\mu \\text{T} \\) along Y-axis", "(3) 2.5 \\( \\mu \\text{T} \\) along Z-axis", "(4) 5 \\( \\mu \\text{T} \\) along Z-axis"],
-          correct: 2, 
-          sol: "Magnitude \\( B_{0} = \\frac{E_{0}}{c} = \\frac{750}{3\\times10^{8}} = 250\\times10^{-8} = 2.5\\times10^{-6} \\, \\text{T} = 2.5 \\, \\mu \\text{T} \\). Since wave propagation (\\( \\vec{v} \\)) is along +x (\\( \\hat{i} \\)) and \\( \\vec{E} \\) is along +y (\\( \\hat{j} \\)), from \\( \\hat{v} = \\hat{E} \\times \\hat{B} \\), we have \\( \\hat{i} = \\hat{j} \\times \\hat{B} \\). Hence \\( \\hat{B} \\) must be along +z (\\( \\hat{k} \\))."
-        },
-        {
-          id: 36, topic: "Relation Between B & E",
-          q: "A plane electromagnetic wave of frequency 25 MHz travels in free space along the x-direction. At a particular point in space and time \\( \\vec{E}=6.3\\hat{j} \\, \\text{V/m} \\). The magnetic field \\( \\vec{B} \\) at this point is",
-          options: ["(1) \\( 4.2\\times10^{-8}\\hat{k} \\, \\text{T} \\)", "(2) \\( 2.1\\times10^{-8}\\hat{k} \\, \\text{T} \\)", "(3) \\( 18.9\\times10^{8}\\hat{k} \\, \\text{T} \\)", "(4) \\( 2.1\\times10^{8}\\hat{k} \\, \\text{T} \\)"],
-          correct: 1, 
-          sol: "Magnitude \\( B = \\frac{E}{c} = \\frac{6.3}{3\\times10^{8}} = 2.1\\times10^{-8} \\, \\text{T} \\). Direction of propagation is \\( +\\hat{i} \\). Electric field is along \\( +\\hat{j} \\). Since \\( \\hat{i} = \\hat{j} \\times \\hat{k} \\), the magnetic field is along \\( +\\hat{k} \\). Thus, \\( \\vec{B} = 2.1\\times10^{-8}\\hat{k} \\, \\text{T} \\)."
-        },
-        {
-          id: 37, topic: "Momentum And Force",
-          q: "Light with energy flux \\( 36 \\, \\text{W/cm}^{2} \\) is incident on a well polished metal square plate of side 2 cm. The force experienced by it is",
-          options: ["(1) 0.96 \\( \\mu \\text{N} \\)", "(2) 0.24 \\( \\mu \\text{N} \\)", "(3) 0.12 \\( \\mu \\text{N} \\)", "(4) 0.36 \\( \\mu \\text{N} \\)"],
-          correct: 0, 
-          sol: "For a well polished (reflecting) surface, Force \\( F = \\frac{2IA}{c} \\). Intensity \\( I = 36 \\, \\text{W/cm}^{2} = 36\\times10^{4} \\, \\text{W/m}^{2} \\). Area \\( A = 2 \\, \\text{cm} \\times 2 \\, \\text{cm} = 4 \\, \\text{cm}^{2} = 4\\times10^{-4} \\, \\text{m}^{2} \\). \\( F = \\frac{2 \\times 36\\times10^{4} \\times 4\\times10^{-4}}{3\\times10^{8}} = \\frac{288}{3\\times10^{8}} = 96\\times10^{-8} \\, \\text{N} = 0.96 \\, \\mu \\text{N} \\)."
-        },
-        {
-          id: 38, topic: "Momentum And Force",
-          q: "Electromagnetic radiation with energy flux \\( 50 \\, \\text{W/cm}^{2} \\) is incident on a totally absorbing surface normally for 1 hour. If the surface has an area of \\( 0.05 \\, \\text{m}^{2} \\), then the average force due to the radiation pressure, on it is;",
-          options: ["(1) \\( 8.3\\times10^{-7} \\, \\text{N} \\)", "(2) \\( 8.3\\times10^{-5} \\, \\text{N} \\)", "(3) \\( 1.2\\times10^{-7} \\, \\text{N} \\)", "(4) \\( 1.2\\times10^{-5} \\, \\text{N} \\)"],
-          correct: 1, 
-          sol: "For a totally absorbing surface, Force \\( F = \\frac{IA}{c} \\). Intensity \\( I = 50 \\, \\text{W/cm}^{2} = 50\\times10^{4} \\, \\text{W/m}^{2} \\). Area \\( A = 0.05 \\, \\text{m}^{2} \\). \\( F = \\frac{50\\times10^{4} \\times 0.05}{3\\times10^{8}} = \\frac{2.5\\times10^{4}}{3\\times10^{8}} = \\frac{2.5}{3} \\times 10^{-4} \\approx 0.833\\times10^{-4} \\, \\text{N} = 8.3\\times10^{-5} \\, \\text{N} \\)."
-        },
-        {
-          id: 39, topic: "Energy Density",
-          q: "The rms value of the electric field of the light coming from the sun is 720 N/C. The average total energy density of the electromagnetic wave is",
-          options: ["(1) \\( 3.3\\times10^{-3} \\, \\text{J/m}^{3} \\)", "(2) \\( 4.58\\times10^{-6} \\, \\text{J/m}^{3} \\)", "(3) \\( 6.37\\times10^{-9} \\, \\text{J/m}^{3} \\)", "(4) \\( 81.35\\times10^{-12} \\, \\text{J/m}^{3} \\)"],
-          correct: 1, 
-          sol: "Average total energy density \\( U_{av} = \\epsilon_{0} E_{rms}^{2} = 8.85\\times10^{-12} \\times (720)^{2} = 8.85\\times10^{-12} \\times 518400 \\approx 4.58\\times10^{-6} \\, \\text{J/m}^{3} \\)."
-        },
-        {
-          id: 40, topic: "Energy Density",
-          q: "In an electromagnetic wave, the amplitude of electric field is 1 V/m. The frequency of wave is \\( 5\\times10^{14} \\, \\text{Hz} \\). The wave is propagating along z-axis. The average energy density of electric field, in Joule/m³, will be",
-          options: ["(1) \\( 1.1\\times10^{-11} \\)", "(2) \\( 2.2\\times10^{-12} \\)", "(3) \\( 3.3\\times10^{-13} \\)", "(4) \\( 4.4\\times10^{-14} \\)"],
-          correct: 1, 
-          sol: "Average energy density of the electric field is \\( (U_{av})_{E} = \\frac{1}{4} \\epsilon_{0} E_{0}^{2} = 0.25 \\times 8.85\\times10^{-12} \\times (1)^{2} \\approx 2.2\\times10^{-12} \\, \\text{J/m}^{3} \\)."
-        },
-        {
-          id: 41, topic: "Intensity",
-          q: "About 5% of the power of a 100 W light bulb is converted to visible radiation. The average intensity of visible radiation at a distance of 1 m from the bulb:",
-          options: ["(1) \\( 0.4 \\, \\text{W/m}^{2} \\)", "(2) \\( 0.5 \\, \\text{W/m}^{2} \\)", "(3) \\( 0.6 \\, \\text{W/m}^{2} \\)", "(4) \\( 0.8 \\, \\text{W/m}^{2} \\)"],
-          correct: 0, 
-          sol: "Power of visible radiation \\( P_{vis} = 5\\% \\text{ of } 100\\text{W} = 5\\text{W} \\). Intensity \\( I = \\frac{P}{4\\pi r^{2}} = \\frac{5}{4 \\times 3.14 \\times (1)^{2}} = \\frac{5}{12.56} \\approx 0.4 \\, \\text{W/m}^{2} \\)."
-        },
-        {
-          id: 42, topic: "Intensity",
-          q: "The sun radiates electromagnetic energy at the rate of \\( 3.9\\times10^{26} \\, \\text{W} \\). Its radius is \\( 6.96\\times10^{8} \\, \\text{m} \\). The intensity of sun light at the solar surface will be (in \\( \\text{W/m}^{2} \\))",
-          options: ["(1) \\( 1.4\\times10^{4} \\)", "(2) \\( 2.8\\times10^{3} \\)", "(3) \\( 6.4\\times10^{7} \\)", "(4) \\( 5.6\\times10^{7} \\)"],
-          correct: 2, 
-          sol: "Intensity \\( I = \\frac{P}{A} = \\frac{P}{4\\pi R^{2}} = \\frac{3.9\\times10^{26}}{4 \\times 3.14 \\times (6.96\\times10^{8})^{2}} \\approx 6.4\\times10^{7} \\, \\text{W/m}^{2} \\)."
-        },
-        {
-          id: 43, topic: "Intensity",
-          q: "The intensity of TV broad cast station of \\( E=800\\sin(10^{9}t-kx) \\, \\text{V/m} \\) is...... and the wave length in meter is",
-          options: ["(1) \\( 850 \\, \\text{W/m}^{2} ; 0.6\\pi \\)", "(2) \\( 425 \\, \\text{W/m}^{2} ; 0.6\\pi \\)", "(3) \\( 850 \\, \\text{W/m}^{2} ; 0.3\\pi \\)", "(4) \\( 425 \\, \\text{W/m}^{2} ; 0.3\\pi \\)"],
-          correct: 0, 
-          sol: "Intensity \\( I = \\frac{E_{0}^{2}}{2\\mu_{0}c} = \\frac{(800)^{2}}{2 \\times 4\\pi\\times10^{-7} \\times 3\\times10^{8}} = \\frac{640000}{24\\pi \\times 10} \\approx 850 \\, \\text{W/m}^{2} \\). Wavelength \\( \\lambda = \\frac{c}{\\nu} = \\frac{2\\pi c}{\\omega} = \\frac{2\\pi \\times 3\\times10^{8}}{10^{9}} = 0.6\\pi \\, \\text{m} \\)."
-        },
-        {
-          id: 44, topic: "Displacement Current",
-          q: "A parallel plate condenser consists of two circular plates each of radius 2cm separated by a distance of 0.1mm. A time varying potential difference of \\( 5\\times10^{13} \\, \\text{V/s} \\) is applied across the plates of the condenser. The displacement current is",
-          options: ["(1) 5.50 A", "(2) \\( 5.56\\times10^{2} \\, \\text{A} \\)", "(3) \\( 5.56\\times10^{3} \\, \\text{A} \\)", "(4) \\( 2.28\\times10^{4} \\, \\text{A} \\)"],
-          correct: 2, 
-          sol: "\\( I_{d} = C \\frac{dV}{dt} = \\left( \\frac{\\epsilon_{0}A}{d} \\right) \\frac{dV}{dt} = \\left( \\frac{8.85\\times10^{-12} \\times \\pi(0.02)^{2}}{10^{-4}} \\right) \\times 5\\times10^{13} \\approx 5558 \\, \\text{A} = 5.56\\times10^{3} \\, \\text{A} \\)."
-        },
-        {
-          id: 45, topic: "Displacement Current",
-          q: "A parallel plate condenser has conducting plates of radius 12cm separated by a distance of 5mm. It is charged with a constant charging current of 0.16 A, the rate at which the potential difference between the plate change is",
-          options: ["(1) \\( 1\\times10^{9} \\, \\text{V/s} \\)", "(2) \\( 2\\times10^{10} \\, \\text{V/s} \\)", "(3) \\( 3\\times10^{12} \\, \\text{V/s} \\)", "(4) \\( 2\\times10^{9} \\, \\text{V/s} \\)"],
-          correct: 3, 
-          sol: "\\( \\frac{dV}{dt} = \\frac{I_{d}}{C} = \\frac{I_{d}d}{\\epsilon_{0}A} = \\frac{0.16 \\times 5\\times10^{-3}}{8.85\\times10^{-12} \\times \\pi(0.12)^{2}} = \\frac{8\\times10^{-4}}{4\\times10^{-13}} = 2\\times10^{9} \\, \\text{V/s} \\)."
-        },
-        {
-          id: 46, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
-          q: "A condenser has two conducting plates of radius 10cm separated by a distance of 5mm. It is charged with a constant current of 0.15A. The magnetic field at a point 2cm from the axis in the gap is",
-          options: ["(1) \\( 1.5\\times10^{-6} \\, \\text{T} \\)", "(2) \\( 3\\times10^{-8} \\, \\text{T} \\)", "(3) \\( 6\\times10^{-8} \\, \\text{T} \\)", "(4) \\( 3\\times10^{-6} \\, \\text{T} \\)"],
-          correct: 2, 
-          sol: "Inside the plates (\\( r < R \\)), \\( B = \\frac{\\mu_{0}I_{d}r}{2\\pi R^{2}} = \\frac{4\\pi\\times10^{-7} \\times 0.15 \\times 0.02}{2\\pi \\times (0.1)^{2}} = \\frac{2\\times10^{-7} \\times 0.003}{0.01} = 6\\times10^{-8} \\, \\text{T} \\)."
-        },
-        {
-          id: 47, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
-          q: "An AC rms voltage of 2V having a frequency of 50 KHz is applied to a condenser of capacity of 10 \\( \\mu \\)F. The maximum value of the magnetic field between the plates of the condenser if the radius of plate is 10cm is",
-          options: ["(1) \\( 0.4\\pi \\, \\mu\\text{T} \\)", "(2) \\( 4\\pi \\, \\mu\\text{T} \\)", "(3) \\( 2 \\, \\mu\\text{T} \\)", "(4) \\( 40\\pi \\, \\mu\\text{T} \\)"],
-          correct: 2, 
-          sol: "Maximum displacement current \\( (I_{d})_{max} = V_{max} \\omega C \\). At the edge \\( r=R \\), \\( B_{max} = \\frac{\\mu_{0}(I_{d})_{max}}{2\\pi R} \\). Calculating with standard values yields approximately \\( 2 \\, \\mu\\text{T} \\)."
-        },
-        {
-          id: 48, topic: "Wave Equation",
-          q: "The wave emitted by any atom or molecule must have some finite total length which is known as the coherence length. For sodium light, this length is 2.4cm. The number of oscillations in this length will be Given \\( \\lambda=5900 \\mathring{A} \\)",
-          options: ["(1) \\( 4.068\\times10^{5} \\)", "(2) \\( 4.068\\times10^{4} \\)", "(3) \\( 4.068\\times10^{8} \\)", "(4) \\( 4.068\\times10^{6} \\)"],
-          correct: 1, 
-          sol: "Number of oscillations \\( n = \\frac{l}{\\lambda} = \\frac{0.024}{5900\\times10^{-10}} = \\frac{0.024}{5.9\\times10^{-7}} \\approx 4.068\\times10^{4} \\)."
-        },
-        {
-          id: 49, topic: "Wave Equation",
-          q: "A wave is propagating in a medium of dielectric constant 2 and relative permeability 50. The wave impedance is",
-          options: ["(1) 5 \\( \\Omega \\)", "(2) 376.6 \\( \\Omega \\)", "(3) 377 \\( \\Omega \\)", "(4) 1883 \\( \\Omega \\)"],
-          correct: 3, 
-          sol: "Wave impedance \\( Z = \\sqrt{\\frac{\\mu}{\\epsilon}} = Z_{0} \\sqrt{\\frac{\\mu_{r}}{\\epsilon_{r}}} = 377 \\sqrt{\\frac{50}{2}} = 377 \\times 5 = 1885 \\, \\Omega \\approx 1883 \\, \\Omega \\)."
-        },
-        {
-          id: 50, topic: "Relation Between B & E",
-          q: "The magnetic field in travelling EM wave has a peak value of 20nT. The peak value of electric field strength is",
-          options: ["(1) 6 V/m", "(2) 9 V/m", "(3) 12 V/m", "(4) 3 V/m"],
-          correct: 0, 
-          sol: "\\( E_{0} = B_{0}c = 20\\times10^{-9} \\times 3\\times10^{8} = 60\\times10^{-1} = 6 \\, \\text{V/m} \\)."
-        },
-        {
-          id: 51, topic: "Momentum And Force",
-          q: "A plane electromagnetic wave of wave intensity \\( 6 \\, \\text{W/m}^{2} \\) strikes a small mirror of area \\( 40 \\, \\text{cm}^{2} \\), held perpendicular to the approaching wave. The momentum transferred by the wave to the mirror each second will be",
-          options: ["(1) \\( 6.4\\times10^{-7} \\, \\text{kg-m/s} \\)", "(2) \\( 4.8\\times10^{-8} \\, \\text{kg-m/s} \\)", "(3) \\( 3.2\\times10^{-9} \\, \\text{kg-m/s} \\)", "(4) \\( 1.6\\times10^{-10} \\, \\text{kg-m/s} \\)"],
-          correct: 3, 
-          sol: "Momentum per second \\( \\frac{dp}{dt} = \\frac{2IA}{c} = \\frac{2 \\times 6 \\times 40\\times10^{-4}}{3\\times10^{8}} = \\frac{480\\times10^{-4}}{3\\times10^{8}} = 160\\times10^{-12} = 1.6\\times10^{-10} \\, \\text{kg-m/s} \\)."
-        },
-        {
-          id: 52, topic: "Momentum And Force",
-          q: "In the above question the radiation force on the mirror will be",
-          options: ["(1) \\( 6.4\\times10^{-7} \\, \\text{N} \\)", "(2) \\( 4.8\\times10^{-8} \\, \\text{N} \\)", "(3) \\( 3.2\\times10^{-9} \\, \\text{N} \\)", "(4) \\( 1.6\\times10^{-10} \\, \\text{N} \\)"],
-          correct: 3, 
-          sol: "Force is equal to the rate of change of momentum (momentum transferred per second). Therefore, \\( F = 1.6\\times10^{-10} \\, \\text{N} \\)."
-        },
-        {
-          id: 53, topic: "Energy Density",
-          q: "A point source of electromagnetic radiation has an average power output of 800W. The maximum value of electric field at a distance 3.5 m from the source will be 62.6 V/m, the energy density at a distance 3.5 m from the source will be - (in \\( \\text{joule/m}^{3} \\))",
-          options: ["(1) \\( 1.73\\times10^{-5} \\)", "(2) \\( 1.73\\times10^{-6} \\)", "(3) \\( 1.73\\times10^{-7} \\)", "(4) \\( 1.73\\times10^{-8} \\)"],
-          correct: 3, 
-          sol: "Average energy density \\( U_{av} = \\frac{1}{2}\\epsilon_{0}E_{0}^{2} = 0.5 \\times 8.85\\times10^{-12} \\times (62.6)^{2} \\approx 1.73\\times10^{-8} \\, \\text{J/m}^{3} \\)."
-        },
-        {
-          id: 54, topic: "Displacement Current",
-          q: "The area of each plate of a parallel plated condenser is \\( 144 \\, \\text{cm}^{2} \\). The electrical field in the gap between the plates changes at the rate of \\( 10^{12} \\, \\text{V} \\, \\text{m}^{-1}\\text{s}^{-1} \\). The displacement current is",
-          options: ["(1) \\( \\frac{4}{\\pi}\\text{A} \\)", "(2) \\( \\frac{0.4}{\\pi}\\text{A} \\)", "(3) \\( \\frac{40}{\\pi}\\text{A} \\)", "(4) \\( \\frac{1}{10\\pi}\\text{A} \\)"],
-          correct: 1, 
-          sol: "\\( I_{d} = \\epsilon_{0}A \\frac{dE}{dt} = \\left(\\frac{1}{4\\pi \\times 9\\times10^{9}}\\right) \\times (144\\times10^{-4}) \\times 10^{12} = \\frac{144\\times10^{8}}{36\\pi\\times10^{9}} = \\frac{4}{10\\pi} = \\frac{0.4}{\\pi} \\, \\text{A} \\)."
-        },
-        {
-          id: 55, topic: "Displacement Current",
-          q: "A condenser having circular plates having radius 2cm and separated by a distance of 3mm. It is charged with a current of 0.1 A. The rate at which the potential difference between the plates change is",
-          options: ["(1) \\( 9\\times10^{10} \\, \\text{V/s} \\)", "(2) \\( 1.8\\times10^{10} \\, \\text{V/s} \\)", "(3) \\( 2.7\\times10^{6} \\, \\text{V/s} \\)", "(4) \\( 2.7\\times10^{10} \\, \\text{V/s} \\)"],
-          correct: 3, 
-          sol: "\\( \\frac{dV}{dt} = \\frac{I}{C} = \\frac{I d}{\\epsilon_{0} \\pi r^{2}} = \\frac{0.1 \\times 3\\times10^{-3}}{\\left(\\frac{1}{36\\pi\\times10^{9}}\\right) \\times \\pi \\times (2\\times10^{-2})^{2}} = \\frac{0.3\\times10^{-3} \\times 36\\times10^{9}}{4\\times10^{-4}} = 2.7\\times10^{10} \\, \\text{V/s} \\)."
-        },
-        {
-          id: 56, topic: "Displacement Current",
-          q: "An AC source having a frequency of 50 Hz and voltage supply of 300v is applied directly to the condenser of capacity \\( 100\\mu \\text{F} \\). The peak and rms values of displacement current are",
-          options: [
-            "(1) \\( 9.42 \\, \\text{A} ; \\frac{9.42}{\\sqrt{2}} \\, \\text{A} \\)", 
-            "(2) \\( \\frac{9.42}{\\sqrt{2}} \\, \\text{A} ; 9.42\\sqrt{2} \\, \\text{A} \\)", 
-            "(3) \\( 9.42\\sqrt{2} \\, \\text{A} ; 9.42 \\, \\text{A} \\)", 
-            "(4) \\( 9.42 \\, \\text{A} ; 9.42 \\, \\text{A} \\)"
-          ],
-          correct: 2, 
-          sol: "\\( I_{rms} = V_{rms} \\omega C = 300 \\times (2\\pi \\times 50) \\times 100\\times10^{-6} = 300 \\times 314 \\times 10^{-4} = 9.42 \\, \\text{A} \\). Peak current \\( I_{0} = \\sqrt{2}I_{rms} = 9.42\\sqrt{2} \\, \\text{A} \\)."
-        },
-        {
-          id: 57, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
-          q: "The capacity of a parallel plate condenser is 50 pF. A magnetic field of \\( 4\\times10^{-7} \\, \\text{T} \\) is produced at a distance of 10cm from the axis of the gap. The charging current is",
-          options: ["(1) 0.1 A", "(2) 0.2 A", "(3) 0.3 A", "(4) 0.15 A"],
-          correct: 1, 
-          sol: "Outside the gap, \\( B = \\frac{\\mu_{0}I}{2\\pi r} \\). Rearranging for I: \\( I = \\frac{B(2\\pi r)}{\\mu_{0}} = \\frac{4\\times10^{-7} \\times 2\\pi \\times 0.1}{4\\pi\\times10^{-7}} = 0.2 \\, \\text{A} \\)."
-        },
-        {
-          id: 58, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
-          q: "The diameter of the condenser plate is 4cm. It is charged by an external current of 0.2A. The maximum magnetic field induced in the gap",
-          options: ["(1) \\( 2\\mu \\text{T} \\)", "(2) \\( 4\\mu \\text{T} \\)", "(3) \\( 6\\mu \\text{T} \\)", "(4) \\( 8\\mu \\text{T} \\)"],
-          correct: 0, 
-          sol: "Maximum magnetic field occurs at the edge of the plates (\\( r = R = 2\\text{cm} \\)). \\( B = \\frac{\\mu_{0}I}{2\\pi R} = \\frac{4\\pi\\times10^{-7} \\times 0.2}{2\\pi \\times 0.02} = 2\\times10^{-6} \\, \\text{T} = 2\\mu\\text{T} \\)."
-        },
-        {
-          id: 59, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
-          q: "A condenser of capacity 50 pF is connected to an AC supply of 220 V 50 Hz. The rms value of magnetic field at a distance of 5cm from the axis is",
-          options: [
-            "(1) \\( 22\\pi\\times10^{-14} \\, \\text{T} \\)", 
-            "(2) \\( 22\\pi\\times10^{-12} \\, \\text{T} \\)", 
-            "(3) \\( 44\\pi\\times10^{-13} \\, \\text{T} \\)", 
-            "(4) \\( \\frac{11}{5}\\pi\\times10^{-12} \\, \\text{T} \\)"
-          ],
-          correct: 2, 
-          sol: "First, find \\( I_{rms} = V_{rms}\\omega C = 220 \\times 100\\pi \\times 50\\times10^{-12} = 1.1\\pi\\times10^{-6} \\, \\text{A} \\). Then, \\( B_{rms} = \\frac{\\mu_{0}I_{rms}}{2\\pi r} = \\frac{4\\pi\\times10^{-7} \\times 1.1\\pi\\times10^{-6}}{2\\pi \\times 0.05} = 44\\pi\\times10^{-13} \\, \\text{T} \\)."
-        },
-        {
-          id: 60, topic: "Wave Equation",
-          q: "The velocity of an electromagnetic wave in a medium is \\( 2\\times10^{8} \\, \\text{m/s} \\). If the relative permeability is 1 the relative permittivity of the medium is \\( (C_{0}=3\\times10^{8} \\, \\text{m/s}) \\)",
-          options: ["(1) 2.25", "(2) 1.5", "(3) 4/9", "(4) 2/3"],
-          correct: 0, 
-          sol: "Velocity \\( v = \\frac{c}{\\sqrt{\\mu_{r}\\epsilon_{r}}} \\). So, \\( 2\\times10^{8} = \\frac{3\\times10^{8}}{\\sqrt{1 \\cdot \\epsilon_{r}}} \\Rightarrow \\sqrt{\\epsilon_{r}} = 1.5 \\Rightarrow \\epsilon_{r} = 2.25 \\)."
-        },
-        {
-          id: 61, topic: "Relation Between B & E",
-          q: "In a plane electromagnetic wave, the electric field oscillates sinusoidally at a frequency of \\( 2\\times10^{10} \\, \\text{Hz} \\) and amplitude 48 V/m. The amplitude of oscillating magnetic field will be",
-          options: [
-            "(1) \\( \\frac{1}{16}\\times10^{-8} \\, \\text{Wb/m}^{2} \\)", 
-            "(2) \\( 16\\times10^{-8} \\, \\text{Wb/m}^{2} \\)", 
-            "(3) \\( 12\\times10^{-7} \\, \\text{Wb/m}^{2} \\)", 
-            "(4) \\( \\frac{1}{12}\\times10^{-7} \\, \\text{Wb/m}^{2} \\)"
-          ],
-          correct: 1, 
-          sol: "\\( B_{0} = \\frac{E_{0}}{c} = \\frac{48}{3\\times10^{8}} = 16\\times10^{-8} \\, \\text{Wb/m}^{2} \\)."
-        },
-        {
-          id: 62, topic: "Relation Between B & E",
-          q: "In an apparatus, the electric field was found to oscillate with amplitude of 18 V/m. The amplitude of the oscillating magnetic field will be",
-          options: [
-            "(1) \\( 4\\times10^{-6} \\, \\text{T} \\)", 
-            "(2) \\( 6\\times10^{-8} \\, \\text{T} \\)", 
-            "(3) \\( 9\\times10^{-9} \\, \\text{T} \\)", 
-            "(4) \\( 11\\times10^{-11} \\, \\text{T} \\)"
-          ],
-          correct: 1, 
-          sol: "\\( B_{0} = \\frac{E_{0}}{c} = \\frac{18}{3\\times10^{8}} = 6\\times10^{-8} \\, \\text{T} \\)."
-        },
-        {
-          id: 63, topic: "Momentum And Force",
-          q: "Light with energy flux \\( 36 \\, \\text{W/m}^{2} \\) is incident on a circular part of radius 1.4 m of a perfectly black body. The force experienced by the body and the momentum delivered in 10 minutes are",
-          options: [
-            "(1) \\( 2.2\\mu \\text{N} ; 7.2\\mu \\text{kgms}^{-1} \\)", 
-            "(2) \\( 3.5\\mu \\text{N} ; 7.4\\mu \\text{kgms}^{-1} \\)", 
-            "(3) \\( 0.74\\mu \\text{N} ; 444\\mu \\text{kgms}^{-1} \\)", 
-            "(4) \\( 7.4\\mu \\text{N} ; 2.2\\mu \\text{kgms}^{-1} \\)"
-          ],
-          correct: 2, 
-          sol: "Area \\( A = \\pi r^{2} = \\frac{22}{7} \\times (1.4)^{2} = 6.16 \\, \\text{m}^{2} \\). Force \\( F = \\frac{IA}{c} = \\frac{36 \\times 6.16}{3\\times10^{8}} \\approx 0.74\\times10^{-6} \\, \\text{N} = 0.74\\mu\\text{N} \\). Momentum \\( p = F \\times t = 0.7392\\mu\\text{N} \\times 600\\text{s} = 443.5 \\, \\mu\\text{kgms}^{-1} \\approx 444\\mu\\text{kgms}^{-1} \\)."
-        },
-        {
-          id: 64, topic: "Momentum And Force",
-          q: "Light with energy flux \\( 18 \\, \\text{W/cm}^{2} \\) is incident on a mirror of size 2cm x 2cm normally. The force experienced by it and momentum delivered in one minute are",
-          options: [
-            "(1) \\( 0.48 \\, \\mu \\text{N} ; 28.8 \\, \\mu \\text{kgms}^{-1} \\)", 
-            "(2) \\( 48 \\, \\mu \\text{N} ; 2.88 \\, \\mu \\text{kgms}^{-1} \\)", 
-            "(3) \\( 28.8 \\, \\mu \\text{N} ; 4.8 \\, \\mu \\text{kgms}^{-1} \\)", 
-            "(4) \\( 0.24 \\, \\mu \\text{N} ; 28.8 \\, \\mu \\text{kgms}^{-1} \\)"
-          ],
-          correct: 0, 
-          sol: "For a reflecting mirror, \\( F = \\frac{2IA}{c} \\). Intensity \\( I = 18 \\, \\text{W/cm}^{2} \\), Area = \\( 4 \\, \\text{cm}^{2} \\). \\( F = \\frac{2 \\times 18 \\times 4}{3\\times10^{8}} = \\frac{144}{3\\times10^{8}} = 48\\times10^{-8} \\, \\text{N} = 0.48\\mu\\text{N} \\). Momentum \\( p = F \\times t = 0.48\\mu\\text{N} \\times 60\\text{s} = 28.8\\mu\\text{kgms}^{-1} \\)."
-        },
-        {
-          id: 65, topic: "Energy Density",
-          q: "Electromagnetic radiation with energy flux \\( 50 \\, \\text{W cm}^{-2} \\) is incident on a totally absorbing surface normally for 1 hour. If the surface has an area of \\( 0.05 \\, \\text{m}^{2} \\), then the average force due to the radiation pressure, on it is;",
-          options: [
-            "(1) \\( 8.3\\times10^{-7} \\, \\text{N} \\)", 
-            "(2) \\( 8.3\\times10^{-5} \\, \\text{N} \\)", 
-            "(3) \\( 1.2\\times10^{-7} \\, \\text{N} \\)", 
-            "(4) \\( 1.2\\times10^{-5} \\, \\text{N} \\)"
-          ],
-          correct: 1, 
-          sol: "Intensity \\( I = 50 \\times 10^{4} \\, \\text{W/m}^{2} \\). For a totally absorbing surface, \\( F = \\frac{IA}{c} = \\frac{50\\times10^{4} \\times 0.05}{3\\times10^{8}} = \\frac{25000}{3\\times10^{8}} = \\frac{2.5}{3}\\times10^{-4} \\approx 8.3\\times10^{-5} \\, \\text{N} \\)."
-        },
-        {
-          id: 66, topic: "Energy Density",
-          q: "In an electromagnetic wave in vacuum. The electrical and magnetic fields are \\( 40\\pi \\, \\text{V/m} \\) and \\( 0.4\\times10^{-7} \\, \\text{T} \\). The Poynting vector",
-          options: [
-            "(1) \\( 4.4 \\, \\text{W/m}^{2} \\)", 
-            "(2) \\( 0.44 \\, \\text{W/m}^{2} \\)", 
-            "(3) \\( 5.65 \\, \\text{W/m}^{2} \\)", 
-            "(4) \\( 4.0 \\, \\text{W/m}^{2} \\)"
-          ],
-          correct: 3, 
-          sol: "Poynting vector magnitude represents intensity. Assuming the given values are RMS, \\( S = \\frac{EB}{\\mu_{0}} = \\frac{40\\pi \\times 0.4\\times10^{-7}}{4\\pi\\times10^{-7}} = \\frac{16\\pi\\times10^{-7}}{4\\pi\\times10^{-7}} = 4.0 \\, \\text{W/m}^{2} \\)."
-        },
-        {
-          id: 67, topic: "Intensity",
-          q: "The amplitude of magnetic field at a region carried by an electromagnetic wave is \\( 0.1\\mu \\text{T} \\). The intensity of wave is",
-          options: [
-            "(1) \\( 4 \\mu \\text{W/m}^{2} \\)", 
-            "(2) \\( 1.2 \\, \\text{W/m}^{2} \\)", 
-            "(3) \\( 4 \\, \\text{W/m}^{2} \\)", 
-            "(4) \\( 1.2 \\mu \\text{W/m}^{2} \\)"
-          ],
-          correct: 1, 
-          sol: "Intensity \\( I = \\frac{B_{0}^{2}c}{2\\mu_{0}} = \\frac{(0.1\\times10^{-6})^{2} \\times 3\\times10^{8}}{2 \\times 4\\pi\\times10^{-7}} = \\frac{10^{-14} \\times 3\\times10^{8}}{8\\pi\\times10^{-7}} = \\frac{3\\times10^{-6}}{25.12\\times10^{-7}} \\approx 1.2 \\, \\text{W/m}^{2} \\)."
-        }
+      correct: 1, 
+      sol: "Average electric energy density \\( U_{E} = \\frac{1}{2}\\epsilon_{0}E_{rms}^{2} \\approx 4.3 \\times 10^{-7} \\, \\text{Jm}^{-3} \\). Total average energy density \\( U = 2U_{E} = 8.6 \\times 10^{-7} \\, \\text{Jm}^{-3} \\)."
+    },
+    {
+      id: 18, topic: "Intensity",
+      q: "The intensity of electromagnetic wave at a distance of 1 Km from a source of power 12.56 kW. is",
+      options: ["(1) \\( 10^{-3} \\, \\text{Wm}^{-2} \\)", "(2) \\( 4 \\times 10^{-3} \\, \\text{Wm}^{-2} \\)", "(3) \\( 12.56 \\times 10^{-3} \\, \\text{Wm}^{-2} \\)", "(4) \\( 1.256 \\times 10^{-3} \\, \\text{Wm}^{-2} \\)"],
+      correct: 0, 
+      sol: "\\( I = \\frac{P}{4\\pi r^{2}} = \\frac{12.56 \\times 10^{3}}{4 \\times 3.14 \\times (10^{3})^{2}} = \\frac{12.56 \\times 10^{3}}{12.56 \\times 10^{6}} = 10^{-3} \\, \\text{Wm}^{-2} \\)."
+    },
+    {
+      id: 19, topic: "Intensity",
+      q: "The sun delivers \\( 10^{3} \\, \\text{W/m}^{2} \\) of electromagnetic flux incident on a roof of dimensions \\( 8\\text{m} \\times 20\\text{m} \\), will be",
+      options: ["(1) \\( 6.4 \\times 10^{3} \\, \\text{W} \\)", "(2) \\( 3.4 \\times 10^{4} \\, \\text{W} \\)", "(3) \\( 1.6 \\times 10^{5} \\, \\text{W} \\)", "(4) \\( 3.2 \\times 10^{5} \\, \\text{W} \\)"],
+      correct: 2, 
+      sol: "Power \\( P = I \\times A = 10^{3} \\times (8 \\times 20) = 160 \\times 10^{3} = 1.6 \\times 10^{5} \\, \\text{W} \\)."
+    },
+    {
+      id: 20, topic: "Displacement Current",
+      q: "The voltage between the plates of a parallel plate condenser of capacity 2.0 \\( \\mu \\)F is charging at a rate of 10 Vs⁻¹. The displacement current is",
+      options: ["(1) 2 mA", "(2) 2 \\( \\mu \\)A", "(3) 20 \\( \\mu \\)A", "(4) 2 A"],
+      correct: 2, 
+      sol: "\\( I_{d} = C \\frac{dV}{dt} = 2.0 \\times 10^{-6} \\times 10 = 20 \\times 10^{-6} \\, \\text{A} = 20 \\, \\mu\\text{A} \\)."
+    },
+    {
+      id: 21, topic: "Displacement Current",
+      q: "A parallel plate condenser of capacity 10 \\( \\mu \\)F is charged with a constant charging current of 0.16A. The displacement current is",
+      options: ["(1) 0.16 \\( \\mu \\)A", "(2) 0.16 A", "(3) 0.96 A", "(4) 9.6 A"],
+      correct: 1, 
+      sol: "Displacement current \\( I_{d} \\) is equal to the conduction current \\( I_{c} \\) during charging. Therefore, \\( I_{d} = I_{c} = 0.16 \\, \\text{A} \\)."
+    },
+    {
+      id: 22, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
+      q: "The electrical field in the gap of a condenser charges as \\( 10^{12} \\, \\text{V} \\, \\text{m}^{-1}\\text{s}^{-1} \\). If the radius of each plate of the condenser is 3 cm, the magnetic field at the edge of plate in the gap is",
+      options: ["(1) 1.67 mT", "(2) 0.167 \\( \\mu \\text{T} \\)", "(3) 0.5 \\( \\mu \\text{T} \\)", "(4) 5 \\( \\mu \\text{T} \\)"],
+      correct: 1, 
+      sol: "At the edge, \\( B = \\frac{R}{2c^{2}} \\frac{dE}{dt} = \\frac{0.03 \\times 10^{12}}{2 \\times (3\\times10^{8})^{2}} = \\frac{3\\times10^{10}}{18\\times10^{16}} = \\frac{1}{6}\\times10^{-6} \\, \\text{T} \\approx 0.167 \\, \\mu \\text{T} \\)."
+    },
+    {
+      id: 23, topic: "Wave Equation",
+      q: "The wave length of the Green light of mercury is 550 nm. If the refractive index of the glass is 1.5, the time period of the electrical vector in glass nearly \\( (C_{0}=3\\times10^{8} \\, \\text{m/s}) \\)",
+      options: ["(1) \\( 1.8\\times10^{-9} \\, \\text{s} \\)", "(2) \\( 3.6\\times10^{-15} \\, \\text{s} \\)", "(3) \\( 9\\times10^{-15} \\, \\text{s} \\)", "(4) \\( 2.75\\times10^{-15} \\, \\text{s} \\)"],
+      correct: 3, 
+      sol: "Velocity in glass \\( v = \\frac{c}{n} = 2\\times10^{8} \\, \\text{m/s} \\). Time period \\( T = \\frac{\\lambda_{vacuum}}{v_{glass}} = \\frac{550\\times10^{-9}}{2\\times10^{8}} = 2.75\\times10^{-15} \\, \\text{s} \\)."
+    },
+    {
+      id: 24, topic: "Wave Equation",
+      q: "The all India Radio, station at Vijayawada transmits its signals at 840 K C/s. The length of the radio wave is",
+      options: ["(1) 35.7 m", "(2) 357 m", "(3) 35.7 km", "(4) 3.57 m"],
+      correct: 1, 
+      sol: "Wavelength \\( \\lambda = \\frac{c}{\\nu} = \\frac{3\\times10^{8}}{840\\times10^{3}} \\approx 357 \\, \\text{m} \\)."
+    },
+    {
+      id: 25, topic: "Relation Between B & E",
+      q: "A point source of electromagnetic radiation has an average power output of 800 W. The maximum value of electric field at a distance 3.5 m from the source will be 62.6 V/m. The maximum value of magnetic field will be",
+      options: ["(1) \\( 2.09\\times10^{-5} \\, \\text{T} \\)", "(2) \\( 2.09\\times10^{-6} \\, \\text{T} \\)", "(3) \\( 2.09\\times10^{-7} \\, \\text{T} \\)", "(4) \\( 2.09\\times10^{-8} \\, \\text{T} \\)"],
+      correct: 2, 
+      sol: "Amplitude of the magnetic field \\( B_{0} = \\frac{E_{0}}{c} = \\frac{62.6}{3\\times10^{8}} \\approx 2.09\\times10^{-7} \\, \\text{T} \\)."
+    },
+    {
+      id: 26, topic: "Relation Between B & E",
+      q: "A plane E.M. wave of frequency 40 MHz travels along X-axis. At same point at same instant, the electric field E has maximum value of 750 N/C in Y-direction. The magnitude and direction of magnetic field is",
+      options: ["(1) 2.5 \\( \\mu \\text{T} \\) along X-axis", "(2) 2.5 \\( \\mu \\text{T} \\) along Y-axis", "(3) 2.5 \\( \\mu \\text{T} \\) along Z-axis", "(4) 5 \\( \\mu \\text{T} \\) along Z-axis"],
+      correct: 2, 
+      sol: "Magnitude \\( B_{0} = \\frac{E_{0}}{c} = \\frac{750}{3\\times10^{8}} = 2.5 \\, \\mu \\text{T} \\). From \\( \\hat{v} = \\hat{E} \\times \\hat{B} \\), \\( \\hat{i} = \\hat{j} \\times \\hat{k} \\), so \\( \\hat{B} \\) is along Z-axis."
+    },
+    {
+      id: 27, topic: "Relation Between B & E",
+      q: "A plane electromagnetic wave of frequency 25 MHz travels in free space along the x-direction. At a particular point in space and time \\( \\vec{E}=6.3\\hat{j} \\, \\text{V/m} \\). The magnetic field \\( \\vec{B} \\) at this point is",
+      options: ["(1) \\( 4.2\\times10^{-8}\\hat{k} \\, \\text{T} \\)", "(2) \\( 2.1\\times10^{-8}\\hat{k} \\, \\text{T} \\)", "(3) \\( 18.9\\times10^{8}\\hat{k} \\, \\text{T} \\)", "(4) \\( 2.1\\times10^{8}\\hat{k} \\, \\text{T} \\)"],
+      correct: 1, 
+      sol: "Magnitude \\( B = \\frac{E}{c} = \\frac{6.3}{3\\times10^{8}} = 2.1\\times10^{-8} \\, \\text{T} \\). Direction is along \\( +\\hat{k} \\)."
+    },
+    {
+      id: 28, topic: "Momentum And Force",
+      q: "Light with energy flux \\( 36 \\, \\text{W/cm}^{2} \\) is incident on a well polished metal square plate of side 2 cm. The force experienced by it is",
+      options: ["(1) 0.96 \\( \\mu \\text{N} \\)", "(2) 0.24 \\( \\mu \\text{N} \\)", "(3) 0.12 \\( \\mu \\text{N} \\)", "(4) 0.36 \\( \\mu \\text{N} \\)"],
+      correct: 0, 
+      sol: "For a reflecting surface, Force \\( F = \\frac{2IA}{c} = \\frac{2 \\times 36\\times10^{4} \\times 4\\times10^{-4}}{3\\times10^{8}} = 0.96 \\, \\mu \\text{N} \\)."
+    },
+    {
+      id: 29, topic: "Energy Density",
+      q: "The rms value of the electric field of the light coming from the sun is 720 N/C. The average total energy density of the electromagnetic wave is",
+      options: ["(1) \\( 3.3\\times10^{-3} \\, \\text{J/m}^{3} \\)", "(2) \\( 4.58\\times10^{-6} \\, \\text{J/m}^{3} \\)", "(3) \\( 6.37\\times10^{-9} \\, \\text{J/m}^{3} \\)", "(4) \\( 81.35\\times10^{-12} \\, \\text{J/m}^{3} \\)"],
+      correct: 1, 
+      sol: "Average total energy density \\( U_{av} = \\epsilon_{0} E_{rms}^{2} = 8.85\\times10^{-12} \\times (720)^{2} \\approx 4.58\\times10^{-6} \\, \\text{J/m}^{3} \\)."
+    },
+    {
+      id: 30, topic: "Energy Density",
+      q: "In an electromagnetic wave, the amplitude of electric field is 1 V/m. The frequency of wave is \\( 5\\times10^{14} \\, \\text{Hz} \\). The wave is propagating along z-axis. The average energy density of electric field, in Joule/m³, will be",
+      options: ["(1) \\( 1.1\\times10^{-11} \\)", "(2) \\( 2.2\\times10^{-12} \\)", "(3) \\( 3.3\\times10^{-13} \\)", "(4) \\( 4.4\\times10^{-14} \\)"],
+      correct: 1, 
+      sol: "Average energy density of the electric field is \\( (U_{av})_{E} = \\frac{1}{4} \\epsilon_{0} E_{0}^{2} = 0.25 \\times 8.85\\times10^{-12} \\times (1)^{2} \\approx 2.2\\times10^{-12} \\, \\text{J/m}^{3} \\)."
+    },
+    {
+      id: 31, topic: "Intensity",
+      q: "About 5% of the power of a 100 W light bulb is converted to visible radiation. The average intensity of visible radiation at a distance of 1 m from the bulb:",
+      options: ["(1) \\( 0.4 \\, \\text{W/m}^{2} \\)", "(2) \\( 0.5 \\, \\text{W/m}^{2} \\)", "(3) \\( 0.6 \\, \\text{W/m}^{2} \\)", "(4) \\( 0.8 \\, \\text{W/m}^{2} \\)"],
+      correct: 0, 
+      sol: "Power of visible radiation \\( P_{vis} = 5\\text{W} \\). Intensity \\( I = \\frac{P}{4\\pi r^{2}} = \\frac{5}{12.56} \\approx 0.4 \\, \\text{W/m}^{2} \\)."
+    },
+    {
+      id: 32, topic: "Intensity",
+      q: "The sun radiates electromagnetic energy at the rate of \\( 3.9\\times10^{26} \\, \\text{W} \\). Its radius is \\( 6.96\\times10^{8} \\, \\text{m} \\). The intensity of sun light at the solar surface will be (in \\( \\text{W/m}^{2} \\))",
+      options: ["(1) \\( 1.4\\times10^{4} \\)", "(2) \\( 2.8\\times10^{3} \\)", "(3) \\( 6.4\\times10^{7} \\)", "(4) \\( 5.6\\times10^{7} \\)"],
+      correct: 2, 
+      sol: "Intensity \\( I = \\frac{P}{4\\pi R^{2}} = \\frac{3.9\\times10^{26}}{4 \\times 3.14 \\times (6.96\\times10^{8})^{2}} \\approx 6.4\\times10^{7} \\, \\text{W/m}^{2} \\)."
+    },
+    {
+      id: 33, topic: "Intensity",
+      q: "The intensity of TV broad cast station of \\( E=800\\sin(10^{9}t-kx) \\, \\text{V/m} \\) is...... and the wave length in meter is",
+      options: ["(1) \\( 850 \\, \\text{W/m}^{2} ; 0.6\\pi \\)", "(2) \\( 425 \\, \\text{W/m}^{2} ; 0.6\\pi \\)", "(3) \\( 850 \\, \\text{W/m}^{2} ; 0.3\\pi \\)", "(4) \\( 425 \\, \\text{W/m}^{2} ; 0.3\\pi \\)"],
+      correct: 0, 
+      sol: "Intensity \\( I = \\frac{E_{0}^{2}}{2\\mu_{0}c} = \\frac{(800)^{2}}{2 \\times 4\\pi\\times10^{-7} \\times 3\\times10^{8}} \\approx 850 \\, \\text{W/m}^{2} \\). Wavelength \\( \\lambda = \\frac{2\\pi c}{\\omega} = \\frac{2\\pi \\times 3\\times10^{8}}{10^{9}} = 0.6\\pi \\, \\text{m} \\)."
+    },
+    {
+      id: 34, topic: "Displacement Current",
+      q: "A parallel plate condenser consists of two circular plates each of radius 2cm separated by a distance of 0.1mm. A time varying potential difference of \\( 5\\times10^{13} \\, \\text{V/s} \\) is applied across the plates of the condenser. The displacement current is",
+      options: ["(1) 5.50 A", "(2) \\( 5.56\\times10^{2} \\, \\text{A} \\)", "(3) \\( 5.56\\times10^{3} \\, \\text{A} \\)", "(4) \\( 2.28\\times10^{4} \\, \\text{A} \\)"],
+      correct: 2, 
+      sol: "\\( I_{d} = \\left( \\frac{\\epsilon_{0}A}{d} \\right) \\frac{dV}{dt} = \\left( \\frac{8.85\\times10^{-12} \\times \\pi(0.02)^{2}}{10^{-4}} \\right) \\times 5\\times10^{13} = 5.56\\times10^{3} \\, \\text{A} \\)."
+    },
+    {
+      id: 35, topic: "Displacement Current",
+      q: "A parallel plate condenser has conducting plates of radius 12cm separated by a distance of 5mm. It is charged with a constant charging current of 0.16 A, the rate at which the potential difference between the plate change is",
+      options: ["(1) \\( 1\\times10^{9} \\, \\text{V/s} \\)", "(2) \\( 2\\times10^{10} \\, \\text{V/s} \\)", "(3) \\( 3\\times10^{12} \\, \\text{V/s} \\)", "(4) \\( 2\\times10^{9} \\, \\text{V/s} \\)"],
+      correct: 3, 
+      sol: "\\( \\frac{dV}{dt} = \\frac{I_{d}d}{\\epsilon_{0}A} = \\frac{0.16 \\times 5\\times10^{-3}}{8.85\\times10^{-12} \\times \\pi(0.12)^{2}} = 2\\times10^{9} \\, \\text{V/s} \\)."
+    },
+    {
+      id: 36, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
+      q: "A condenser has two conducting plates of radius 10cm separated by a distance of 5mm. It is charged with a constant current of 0.15A. The magnetic field at a point 2cm from the axis in the gap is",
+      options: ["(1) \\( 1.5\\times10^{-6} \\, \\text{T} \\)", "(2) \\( 3\\times10^{-8} \\, \\text{T} \\)", "(3) \\( 6\\times10^{-8} \\, \\text{T} \\)", "(4) \\( 3\\times10^{-6} \\, \\text{T} \\)"],
+      correct: 2, 
+      sol: "Inside the plates, \\( B = \\frac{\\mu_{0}I_{d}r}{2\\pi R^{2}} = \\frac{4\\pi\\times10^{-7} \\times 0.15 \\times 0.02}{2\\pi \\times (0.1)^{2}} = 6\\times10^{-8} \\, \\text{T} \\)."
+    },
+    {
+      id: 37, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
+      q: "An AC rms voltage of 2V having a frequency of 50 KHz is applied to a condenser of capacity of 10 \\( \\mu \\)F. The maximum value of the magnetic field between the plates of the condenser if the radius of plate is 10cm is",
+      options: ["(1) \\( 0.4\\pi \\, \\mu\\text{T} \\)", "(2) \\( 4\\pi \\, \\mu\\text{T} \\)", "(3) \\( 2 \\, \\mu\\text{T} \\)", "(4) \\( 40\\pi \\, \\mu\\text{T} \\)"],
+      correct: 2, 
+      sol: "Maximum displacement current \\( (I_{d})_{max} = V_{max} \\omega C \\). At the edge, \\( B_{max} = \\frac{\\mu_{0}(I_{d})_{max}}{2\\pi R} \\approx 2 \\, \\mu\\text{T} \\)."
+    },
+    {
+      id: 38, topic: "Relation Between B & E",
+      q: "The magnetic field in travelling EM wave has a peak value of 20nT. The peak value of electric field strength is",
+      options: ["(1) 6 V/m", "(2) 9 V/m", "(3) 12 V/m", "(4) 3 V/m"],
+      correct: 0, 
+      sol: "\\( E_{0} = B_{0}c = 20\\times10^{-9} \\times 3\\times10^{8} = 60\\times10^{-1} = 6 \\, \\text{V/m} \\)."
+    },
+    {
+      id: 39, topic: "Momentum And Force",
+      q: "A plane electromagnetic wave of wave intensity \\( 6 \\, \\text{W/m}^{2} \\) strikes a small mirror of area \\( 40 \\, \\text{cm}^{2} \\), held perpendicular to the approaching wave. The momentum transferred by the wave to the mirror each second will be",
+      options: ["(1) \\( 6.4\\times10^{-7} \\, \\text{kg-m/s} \\)", "(2) \\( 4.8\\times10^{-8} \\, \\text{kg-m/s} \\)", "(3) \\( 3.2\\times10^{-9} \\, \\text{kg-m/s} \\)", "(4) \\( 1.6\\times10^{-10} \\, \\text{kg-m/s} \\)"],
+      correct: 3, 
+      sol: "Momentum per second \\( = \\frac{2IA}{c} = \\frac{2 \\times 6 \\times 40\\times10^{-4}}{3\\times10^{8}} = 1.6\\times10^{-10} \\, \\text{kg-m/s} \\)."
+    },
+    {
+      id: 40, topic: "Momentum And Force",
+      q: "In the above question the radiation force on the mirror will be",
+      options: ["(1) \\( 6.4\\times10^{-7} \\, \\text{N} \\)", "(2) \\( 4.8\\times10^{-8} \\, \\text{N} \\)", "(3) \\( 3.2\\times10^{-9} \\, \\text{N} \\)", "(4) \\( 1.6\\times10^{-10} \\, \\text{N} \\)"],
+      correct: 3, 
+      sol: "Force is equal to the rate of change of momentum (momentum transferred per second). Therefore, \\( F = 1.6\\times10^{-10} \\, \\text{N} \\)."
+    },
+    {
+      id: 41, topic: "Energy Density",
+      q: "A point source of electromagnetic radiation has an average power output of 800W. The maximum value of electric field at a distance 3.5 m from the source will be 62.6 V/m, the energy density at a distance 3.5 m from the source will be - (in \\( \\text{joule/m}^{3} \\))",
+      options: ["(1) \\( 1.73\\times10^{-5} \\)", "(2) \\( 1.73\\times10^{-6} \\)", "(3) \\( 1.73\\times10^{-7} \\)", "(4) \\( 1.73\\times10^{-8} \\)"],
+      correct: 3, 
+      sol: "Average energy density \\( U_{av} = \\frac{1}{2}\\epsilon_{0}E_{0}^{2} = 0.5 \\times 8.85\\times10^{-12} \\times (62.6)^{2} \\approx 1.73\\times10^{-8} \\, \\text{J/m}^{3} \\)."
+    },
+    {
+      id: 42, topic: "Intensity",
+      q: "A laser beam can be focussed on an area equal to the square of its wavelength. A He-Ne laser radiates energy at the rate of 1mW and its wavelength is 600 nm. The intensity of focussed beam will be",
+      options: ["(1) \\( 3.2\\times10^{9} \\, \\text{W/m}^{2} \\)", "(2) \\( 2.8\\times10^{13} \\, \\text{W/m}^{2} \\)", "(3) \\( 2.7\\times10^{9} \\, \\text{W/m}^{2} \\)", "(4) \\( 3.2\\times10^{13} \\, \\text{W/m}^{2} \\)"],
+      correct: 2, 
+      sol: "Area \\( A = \\lambda^{2} = (600\\times10^{-9})^{2} = 360000\\times10^{-18} \\, \\text{m}^{2} \\). Intensity \\( I = \\frac{P}{A} = \\frac{1\\times10^{-3}}{3.6\\times10^{-13}} \\approx 2.7\\times10^{9} \\, \\text{W/m}^{2} \\)."
+    },
+    {
+      id: 43, topic: "Intensity",
+      q: "The intensity of solar radiation at the earths surface is \\( 1 \\, \\text{KWm}^{-2} \\). The power entering the pupil of an eye of diameter 0.5 cm is",
+      options: ["(1) 39.2 mw", "(2) 19.6 mw", "(3) 9.8 mw", "(4) 4.9 mw"],
+      correct: 1, 
+      sol: "Power \\( P = I \\times A = I \\times \\pi r^{2} = 1000 \\times 3.14 \\times (0.25\\times10^{-2})^{2} = 1000 \\times 3.14 \\times 6.25\\times10^{-6} \\approx 19.6\\times10^{-3} \\, \\text{W} = 19.6 \\, \\text{mw} \\)."
+    },
+    {
+      id: 44, topic: "Relation Between B & E",
+      q: "A lamp radiates power \\( P_{0} \\) in all directions, the amplitude of electric field strength \\( E_{0} \\) at a distance r from it is",
+      options: [
+        "(1) \\( E_{0}=\\frac{P_{0}}{2\\pi\\epsilon_{0}cr^{2}} \\)",
+        "(2) \\( E_{0}=\\sqrt{\\frac{P_{0}}{2\\pi\\epsilon_{0}cr^{2}}} \\)",
+        "(3) \\( E_{0}=\\sqrt{\\frac{P_{0}}{4\\pi\\epsilon_{0}cr^{2}}} \\)",
+        "(4) \\( E_{0}=\\sqrt{\\frac{P_{0}}{8\\pi\\epsilon_{0}cr}} \\)"
+      ],
+      correct: 1, 
+      sol: "Intensity \\( I = \\frac{P_{0}}{4\\pi r^{2}} = \\frac{1}{2}\\epsilon_{0}cE_{0}^{2} \\). Rearranging gives \\( E_{0} = \\sqrt{\\frac{2P_{0}}{4\\pi\\epsilon_{0}cr^{2}}} = \\sqrt{\\frac{P_{0}}{2\\pi\\epsilon_{0}cr^{2}}} \\)."
+    },
+    {
+      id: 45, topic: "Displacement Current",
+      q: "The area of each plate of a parallel plated condenser is \\( 144 \\, \\text{cm}^{2} \\). The electrical field in the gap between the plates changes at the rate of \\( 10^{12} \\, \\text{V} \\, \\text{m}^{-1}\\text{s}^{-1} \\). The displacement current is",
+      options: ["(1) \\( \\frac{4}{\\pi}\\text{A} \\)", "(2) \\( \\frac{0.4}{\\pi}\\text{A} \\)", "(3) \\( \\frac{40}{\\pi}\\text{A} \\)", "(4) \\( \\frac{1}{10\\pi}\\text{A} \\)"],
+      correct: 1, 
+      sol: "\\( I_{d} = \\epsilon_{0}A \\frac{dE}{dt} = \\left(\\frac{1}{4\\pi \\times 9\\times10^{9}}\\right) \\times (144\\times10^{-4}) \\times 10^{12} = \\frac{144\\times10^{8}}{36\\pi\\times10^{9}} = \\frac{0.4}{\\pi} \\, \\text{A} \\)."
+    },
+    {
+      id: 46, topic: "Displacement Current",
+      q: "A condenser having circular plates having radius 2cm and separated by a distance of 3mm. It is charged with a current of 0.1 A. The rate at which the potential difference between the plates change is",
+      options: ["(1) \\( 9\\times10^{10} \\, \\text{V/s} \\)", "(2) \\( 1.8\\times10^{10} \\, \\text{V/s} \\)", "(3) \\( 2.7\\times10^{6} \\, \\text{V/s} \\)", "(4) \\( 2.7\\times10^{10} \\, \\text{V/s} \\)"],
+      correct: 3, 
+      sol: "\\( \\frac{dV}{dt} = \\frac{I}{C} = \\frac{I d}{\\epsilon_{0} \\pi r^{2}} = 2.7\\times10^{10} \\, \\text{V/s} \\)."
+    },
+    {
+      id: 47, topic: "Displacement Current",
+      q: "An AC source having a frequency of 50 Hz and voltage supply of 300v is applied directly to the condenser of capacity \\( 100\\mu \\text{F} \\). The peak and rms values of displacement current are",
+      options: [
+        "(1) \\( 9.42 \\, \\text{A} ; \\frac{9.42}{\\sqrt{2}} \\, \\text{A} \\)", 
+        "(2) \\( \\frac{9.42}{\\sqrt{2}} \\, \\text{A} ; 9.42\\sqrt{2} \\, \\text{A} \\)", 
+        "(3) \\( 9.42\\sqrt{2} \\, \\text{A} ; 9.42 \\, \\text{A} \\)", 
+        "(4) \\( 9.42 \\, \\text{A} ; 9.42 \\, \\text{A} \\)"
+      ],
+      correct: 2, 
+      sol: "\\( I_{rms} = V_{rms} \\omega C = 300 \\times (2\\pi \\times 50) \\times 100\\times10^{-6} = 9.42 \\, \\text{A} \\). Peak current \\( I_{0} = \\sqrt{2}I_{rms} = 9.42\\sqrt{2} \\, \\text{A} \\)."
+    },
+    {
+      id: 48, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
+      q: "The capacity of a parallel plate condenser is 50 pF. A magnetic field of \\( 4\\times10^{-7} \\, \\text{T} \\) is produced at a distance of 10cm from the axis of the gap. The charging current is",
+      options: ["(1) 0.1 A", "(2) 0.2 A", "(3) 0.3 A", "(4) 0.15 A"],
+      correct: 1, 
+      sol: "Outside the gap, \\( B = \\frac{\\mu_{0}I}{2\\pi r} \\). Rearranging for I: \\( I = \\frac{B(2\\pi r)}{\\mu_{0}} = \\frac{4\\times10^{-7} \\times 2\\pi \\times 0.1}{4\\pi\\times10^{-7}} = 0.2 \\, \\text{A} \\)."
+    },
+    {
+      id: 49, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
+      q: "The diameter of the condenser plate is 4cm. It is charged by an external current of 0.2A. The maximum magnetic field induced in the gap",
+      options: ["(1) \\( 2\\mu \\text{T} \\)", "(2) \\( 4\\mu \\text{T} \\)", "(3) \\( 6\\mu \\text{T} \\)", "(4) \\( 8\\mu \\text{T} \\)"],
+      correct: 0, 
+      sol: "Maximum magnetic field occurs at the edge of the plates (\\( r = R = 2\\text{cm} \\)). \\( B = \\frac{\\mu_{0}I}{2\\pi R} = \\frac{4\\pi\\times10^{-7} \\times 0.2}{2\\pi \\times 0.02} = 2\\mu\\text{T} \\)."
+    },
+    {
+      id: 50, topic: "Magnetic Field Produced Between Plates Of Parallel Plate Capacitor",
+      q: "A condenser of capacity 50 pF is connected to an AC supply of 220 V 50 Hz. The rms value of magnetic field at a distance of 5cm from the axis is",
+      options: [
+        "(1) \\( 22\\pi\\times10^{-14} \\, \\text{T} \\)", 
+        "(2) \\( 22\\pi\\times10^{-12} \\, \\text{T} \\)", 
+        "(3) \\( 44\\pi\\times10^{-13} \\, \\text{T} \\)", 
+        "(4) \\( \\frac{11}{5}\\pi\\times10^{-12} \\, \\text{T} \\)"
+      ],
+      correct: 2, 
+      sol: "Find \\( I_{rms} = V_{rms}\\omega C = 220 \\times 100\\pi \\times 50\\times10^{-12} = 1.1\\pi\\times10^{-6} \\, \\text{A} \\). Then, \\( B_{rms} = \\frac{\\mu_{0}I_{rms}}{2\\pi r} = 44\\pi\\times10^{-13} \\, \\text{T} \\)."
+    },
+    {
+      id: 51, topic: "Relation Between B & E",
+      q: "In a plane electromagnetic wave, the electric field oscillates sinusoidally at a frequency of \\( 2\\times10^{10} \\, \\text{Hz} \\) and amplitude 48 V/m. The amplitude of oscillating magnetic field will be",
+      options: [
+        "(1) \\( \\frac{1}{16}\\times10^{-8} \\, \\text{Wb/m}^{2} \\)", 
+        "(2) \\( 16\\times10^{-8} \\, \\text{Wb/m}^{2} \\)", 
+        "(3) \\( 12\\times10^{-7} \\, \\text{Wb/m}^{2} \\)", 
+        "(4) \\( \\frac{1}{12}\\times10^{-7} \\, \\text{Wb/m}^{2} \\)"
+      ],
+      correct: 1, 
+      sol: "\\( B_{0} = \\frac{E_{0}}{c} = \\frac{48}{3\\times10^{8}} = 16\\times10^{-8} \\, \\text{Wb/m}^{2} \\)."
+    },
+    {
+      id: 52, topic: "Relation Between B & E",
+      q: "In an apparatus, the electric field was found to oscillate with amplitude of 18 V/m. The amplitude of the oscillating magnetic field will be",
+      options: [
+        "(1) \\( 4\\times10^{-6} \\, \\text{T} \\)", 
+        "(2) \\( 6\\times10^{-8} \\, \\text{T} \\)", 
+        "(3) \\( 9\\times10^{-9} \\, \\text{T} \\)", 
+        "(4) \\( 11\\times10^{-11} \\, \\text{T} \\)"
+      ],
+      correct: 1, 
+      sol: "\\( B_{0} = \\frac{E_{0}}{c} = \\frac{18}{3\\times10^{8}} = 6\\times10^{-8} \\, \\text{T} \\)."
+    },
+    {
+      id: 53, topic: "Momentum And Force",
+      q: "Light with energy flux \\( 36 \\, \\text{W/m}^{2} \\) is incident on a circular part of radius 1.4 m of a perfectly black body. The force experienced by the body and the momentum delivered in 10 minutes are",
+      options: [
+        "(1) \\( 2.2\\mu \\text{N} ; 7.2\\mu \\text{kgms}^{-1} \\)", 
+        "(2) \\( 3.5\\mu \\text{N} ; 7.4\\mu \\text{kgms}^{-1} \\)", 
+        "(3) \\( 0.74\\mu \\text{N} ; 444\\mu \\text{kgms}^{-1} \\)", 
+        "(4) \\( 7.4\\mu \\text{N} ; 2.2\\mu \\text{kgms}^{-1} \\)"
+      ],
+      correct: 2, 
+      sol: "Area \\( A = 6.16 \\, \\text{m}^{2} \\). Force \\( F = \\frac{IA}{c} = \\frac{36 \\times 6.16}{3\\times10^{8}} = 0.74\\mu\\text{N} \\). Momentum \\( p = F \\times t = 0.7392\\mu\\text{N} \\times 600\\text{s} \\approx 444\\mu\\text{kgms}^{-1} \\)."
+    },
+    {
+      id: 54, topic: "Momentum And Force",
+      q: "Light with energy flux \\( 18 \\, \\text{W/cm}^{2} \\) is incident on a mirror of size 2cm x 2cm normally. The force experienced by it and momentum delivered in one minute are",
+      options: [
+        "(1) \\( 0.48 \\, \\mu \\text{N} ; 28.8 \\, \\mu \\text{kgms}^{-1} \\)", 
+        "(2) \\( 48 \\, \\mu \\text{N} ; 2.88 \\, \\mu \\text{kgms}^{-1} \\)", 
+        "(3) \\( 28.8 \\, \\mu \\text{N} ; 4.8 \\, \\mu \\text{kgms}^{-1} \\)", 
+        "(4) \\( 0.24 \\, \\mu \\text{N} ; 28.8 \\, \\mu \\text{kgms}^{-1} \\)"
+      ],
+      correct: 0, 
+      sol: "For a reflecting mirror, \\( F = \\frac{2IA}{c} = \\frac{2 \\times 18\\times10^{4} \\times 4\\times10^{-4}}{3\\times10^{8}} = 0.48\\mu\\text{N} \\). Momentum \\( p = F \\times t = 0.48\\mu\\text{N} \\times 60\\text{s} = 28.8\\mu\\text{kgms}^{-1} \\)."
+    },
+    {
+      id: 55, topic: "Energy Density",
+      q: "Electromagnetic radiation with energy flux \\( 50 \\, \\text{W cm}^{-2} \\) is incident on a totally absorbing surface normally for 1 hour. If the surface has an area of \\( 0.05 \\, \\text{m}^{2} \\), then the average force due to the radiation pressure, on it is;",
+      options: [
+        "(1) \\( 8.3\\times10^{-7} \\, \\text{N} \\)", 
+        "(2) \\( 8.3\\times10^{-5} \\, \\text{N} \\)", 
+        "(3) \\( 1.2\\times10^{-7} \\, \\text{N} \\)", 
+        "(4) \\( 1.2\\times10^{-5} \\, \\text{N} \\)"
+      ],
+      correct: 1, 
+      sol: "Intensity \\( I = 50 \\times 10^{4} \\, \\text{W/m}^{2} \\). For a totally absorbing surface, \\( F = \\frac{IA}{c} = \\frac{50\\times10^{4} \\times 0.05}{3\\times10^{8}} \\approx 8.3\\times10^{-5} \\, \\text{N} \\)."
+    },
+    {
+      id: 56, topic: "Intensity",
+      q: "The amplitude of magnetic field at a region carried by an electromagnetic wave is \\( 0.1\\mu \\text{T} \\). The intensity of wave is",
+      options: [
+        "(1) \\( 4 \\mu \\text{W/m}^{2} \\)", 
+        "(2) \\( 1.2 \\, \\text{W/m}^{2} \\)", 
+        "(3) \\( 4 \\, \\text{W/m}^{2} \\)", 
+        "(4) \\( 1.2 \\mu \\text{W/m}^{2} \\)"
+      ],
+      correct: 1, 
+      sol: "Intensity \\( I = \\frac{B_{0}^{2}c}{2\\mu_{0}} = \\frac{(0.1\\times10^{-6})^{2} \\times 3\\times10^{8}}{2 \\times 4\\pi\\times10^{-7}} \\approx 1.2 \\, \\text{W/m}^{2} \\)."
+    },
+    {
+      id: 57, topic: "Wave Equation",
+      q: "The velocity of an electromagnetic wave in a medium is \\( 2\\times10^{8} \\, \\text{m/s} \\). If the relative permeability is 1 the relative permittivity of the medium is \\( (C_{0}=3\\times10^{8} \\, \\text{m/s}) \\)",
+      options: ["(1) 2.25", "(2) 1.5", "(3) 4/9", "(4) 2/3"],
+      correct: 0, 
+      sol: "Velocity \\( v = \\frac{c}{\\sqrt{\\mu_{r}\\epsilon_{r}}} \\). So, \\( 2\\times10^{8} = \\frac{3\\times10^{8}}{\\sqrt{1 \\cdot \\epsilon_{r}}} \\Rightarrow \\sqrt{\\epsilon_{r}} = 1.5 \\Rightarrow \\epsilon_{r} = 2.25 \\)."
+    }
       ]
     },
   
