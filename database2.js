@@ -3882,7 +3882,7 @@ const chapterDatabase2 = {
         "id": "SND_017",
         "topic": "Vibrations: Natural, Damped & Forced",
         "q": "Observe the given displacement-time graph of a vibrating body. Which specific type of vibration does this waveform represent?",
-        "imgUrl": "A clean 2D physics graph showing a displacement-time waveform. The horizontal axis is 'Time (t)' and the vertical axis is 'Displacement (y)'. A sine wave is drawn, but instead of maintaining a constant height, the peaks and troughs of the wave progressively get smaller and smaller as time goes on, eventually flattening out towards zero. Dashed envelope lines show the exponential decay of the amplitude. Standard textbook style, clean black lines on a white background.",
+        "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtQLdYSrKMS5DG2dKR3oMARjz9-IIx_OmqKmuTpschuzDB3zkv5-eKcuiLkbYdTVUST9Wd6JcchG2ha_llFnBGoheCsb3tYV4cjgYvHY5ECyQXHt2YSA6vpl8Jd2pj6h43euiTTRCN06gJWCOCAiAnzyd4HlOX9HaIJdKZ0DYn1GeWUzqVlQxM-b-4N5oG/s320/Gemini_Generated_Image_hf8dnlhf8dnlhf8d.png",
         "options": [
           "Natural (Free) Vibration",
           "Undamped Forced Vibration",
@@ -4000,7 +4000,7 @@ const chapterDatabase2 = {
         "id": "SND_026",
         "topic": "Resonance",
         "q": "Observe the diagram showing four pendulums (A, B, C, and D) suspended from the same elastic rubber string. Pendulums A and C have the exact same length, while B is shorter and D is longer. If pendulum A is displaced and set into vibration, what will be the resulting behavior of the other three pendulums?",
-        "imgUrl": "A clean 2D physics diagram showing a horizontal elastic string tied tightly between two rigid supports. Four simple pendulums are hanging vertically from this horizontal string, labeled A, B, C, and D from left to right. Pendulums A and C have identical string lengths. Pendulum B is noticeably shorter than A. Pendulum D is noticeably longer than A. The bobs are simple circles. Standard textbook style, clean black lines on a pure white background.",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhDMsJ6qFgsa0IkDSO6w-LLE4MsJ2nrdan4f-8MeF5JOMXsTqcmPz-d9DqhSTjzl0B_3JacPOHOnMbrMtk0s3-lLX8iL7HMqsXgZhFYJNGof5nC_Y9fJpkq6BJ6QHQteB1dTke451QoEIRJAE4vg-6RZYwHH9LvqV_UbYoJ1sgxDBVEgSJXtFrHZ4a1lQWh",
         "options": [
           "All pendulums will vibrate with the exact same amplitude.",
           "Only B and D will vibrate, while C remains stationary.",
@@ -4144,7 +4144,7 @@ const chapterDatabase2 = {
         "id": "SND_037",
         "topic": "Characteristics: Loudness, Pitch & Quality",
         "q": "Observe the diagram described below: Two sound waveforms, 'Wave A' and 'Wave B', are displayed on an oscilloscope. Both waves have the exact same vertical peak height and the exact same horizontal width per cycle. However, Wave A is a perfectly smooth sine curve, while Wave B has a jagged, sharp 'sawtooth' shape. How will these two sounds compare to a listener?",
-        "imgUrl": "A clean 2D physics diagram showing an oscilloscope screen with two sound waveforms, labeled 'Wave A' and 'Wave B', drawn one above the other. Both waves have the exact same vertical height (amplitude) and the exact same horizontal wavelength (frequency). However, Wave A is a perfectly smooth sine wave, while Wave B has a jagged, complex 'sawtooth' shape. Standard textbook style, clean black lines on a white background.",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgtuSoGM_dPkJDOTq-C-L-EoJCAbRbdyUHZmaNXa2Om2uQUNEZBSXW_fMmJhq09KiJ7bepSxEmSrZZsxhrktIVAme9GL0EmMmKVXQkstEZ7Z-cukD9FS1QSiKMoMI5TcZHDaoP1l2uC5TasVnuPzTnzOKPpFgGmVCL6up7mH-_jpyu7_5qw4rYFCyMkfSso",
         "options": [
           "They will have different loudness, but the same pitch and quality.",
           "They will have different pitch, but the same loudness and quality.",
@@ -4194,5 +4194,153 @@ const chapterDatabase2 = {
         "sol": "<b>Step 1: Recall the Inverse Square Law.</b> The intensity (\\( I \\)) of sound in an open space is inversely proportional to the square of the distance (\\( d \\)) from the source: \\( I \\propto \\frac{1}{d^2} \\).<br><b>Step 2: Compare the distances.</b> The distance to source B is 3 times greater than the distance to source A (\\( 3d \\) vs \\( d \\)).<br><b>Step 3: Calculate the ratio.</b> Because B is 3 times further away, its intensity drops by a factor of \\( 3^2 = 9 \\). Therefore, the closer source (A) will have an intensity exactly <b>9 times greater</b> than source B."
       }
     ]
+  },
+
+"Current Electricity": {
+    classTarget: "Class 10",
+    totalQs: 50,
+    topics: [
+      "Charge, Current & Potential Difference",
+      "Ohm's Law & Resistance",
+      "Specific Resistance & Material Choice",
+      "Electromotive Force (e.m.f) & Internal Resistance",
+      "Combination of Resistors",
+      "Electrical Energy & Power",
+      "Household Consumption & Heating Effect"
+    ],
+    questions: [
+      {
+        "id": "CEL_001",
+        "topic": "Charge, Current & Potential Difference",
+        "q": "A body is found to have a positive electrical charge of \\( 3.2 \\times 10^{-19} \\text{ C} \\). According to the principle of quantization of charge, which of the following statements perfectly describes the physical state of this body?",
+        "options": [
+          "It has an excess of 2 electrons.",
+          "It has a deficit of 2 electrons.",
+          "It has an excess of \\( 3.2 \\times 10^{19} \\) protons.",
+          "It has a deficit of 2 protons."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Use the quantization formula.</b> Charge \\( q = ne \\), where \\( e \\) is the elementary charge of one electron (\\( 1.6 \\times 10^{-19} \\text{ C} \\)).<br><b>Step 2: Calculate the number of electrons (n).</b> \\( n = \\frac{q}{e} = \\frac{3.2 \\times 10^{-19}}{1.6 \\times 10^{-19}} = 2 \\).<br><b>Conclusion:</b> Since the body has a <i>positive</i> charge, it means it has lost negative charges. Therefore, the body has a <b>deficit of exactly 2 electrons</b>."
+      },
+      {
+        "id": "CEL_002",
+        "topic": "Charge, Current & Potential Difference",
+        "q": "A steady current of \\( 1.6 \\text{ mA} \\) flows through a metallic copper wire. Approximately how many electrons cross a given cross-section of this wire in exactly one minute?",
+        "options": [
+          "\\( 10^{16} \\text{ electrons} \\)",
+          "\\( 6 \\times 10^{17} \\text{ electrons} \\)",
+          "\\( 6.25 \\times 10^{18} \\text{ electrons} \\)",
+          "\\( 9.6 \\times 10^{16} \\text{ electrons} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Convert units to standard SI.</b> Current \\( I = 1.6 \\text{ mA} = 1.6 \\times 10^{-3} \\text{ A} \\), and time \\( t = 60 \\text{ s} \\).<br><b>Step 2: Calculate total charge (Q).</b> \\( Q = I \\times t = 1.6 \\times 10^{-3} \\times 60 = 96 \\times 10^{-3} \\text{ C} \\).<br><b>Step 3: Find the number of electrons (n).</b> \\( n = \\frac{Q}{e} = \\frac{96 \\times 10^{-3}}{1.6 \\times 10^{-19}} = 60 \\times 10^{16} = 6 \\times 10^{17} \\).<br><b>Conclusion:</b> Exactly <b>\\( 6 \\times 10^{17} \\) electrons</b> flow through the wire."
+      },
+      {
+        "id": "CEL_003",
+        "topic": "Charge, Current & Potential Difference",
+        "q": "The potential difference between two points in an electric circuit is strictly stated to be \\( 1 \\text{ Volt} \\). Which of the following is the correct fundamental physical interpretation of this statement?",
+        "options": [
+          "\\( 1 \\text{ Joule} \\) of work is done in moving \\( 1 \\text{ Ampere} \\) of current between the two points.",
+          "\\( 1 \\text{ Coulomb} \\) of charge flows between the two points in \\( 1 \\text{ second} \\).",
+          "\\( 1 \\text{ Joule} \\) of work is done in moving \\( 1 \\text{ Coulomb} \\) of positive charge from one point to the other.",
+          "\\( 1 \\text{ Watt} \\) of power is consumed to move \\( 1 \\text{ Coulomb} \\) of charge between the points."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> By definition, Potential Difference (\\( V \\)) is the amount of work done (\\( W \\)) per unit charge (\\( Q \\)), written as \\( V = \\frac{W}{Q} \\). Therefore, a potential difference of \\( 1 \\text{ Volt} \\) means exactly <b>\\( 1 \\text{ Joule} \\) of work is done in transferring \\( 1 \\text{ Coulomb} \\) of charge</b> from the lower potential point to the higher potential point."
+      },
+      {
+        "id": "CEL_004",
+        "topic": "Ohm's Law & Resistance",
+        "q": "When a potential difference is applied across a metal wire, the free electrons accelerate. However, they do not acquire a continuously increasing speed, but rather drift with a constant average speed. What is the microscopic atomic reason for this resistance?",
+        "options": [
+          "The electrons are continuously repelled backward by the magnetic field they create.",
+          "The electrons suffer continuous collisions with the fixed positive ions of the metal lattice, losing their gained kinetic energy.",
+          "The applied potential difference automatically drops to zero periodically.",
+          "The mass of the electrons increases exponentially as they accelerate, naturally slowing them down."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> In a metallic conductor, free electrons accelerate due to the applied electric field. However, they <b>constantly collide with the stationary positive ions</b> in the metal. During these collisions, they lose their gained kinetic energy (which appears as heat) and are re-accelerated, resulting in a steady 'drift' speed. This collision process is the fundamental cause of electrical resistance."
+      },
+      {
+        "id": "CEL_005",
+        "topic": "Ohm's Law & Resistance",
+        "q": "Ohm's law states that the current flowing through a metallic conductor is directly proportional to the potential difference applied across its ends. Which of the following is an absolute prerequisite condition for this law to hold mathematically true?",
+        "options": [
+          "The physical conditions and the temperature of the conductor must remain strictly constant.",
+          "The conductor must be in the form of a highly coiled spring.",
+          "The applied potential difference must strictly be an alternating current (a.c.).",
+          "The resistance of the conductor must continuously increase with time."
+        ],
+        "correct": 0,
+        "sol": "<b>Explanation:</b> Ohm's law (\\( V \propto I \\)) is completely dependent on the Resistance (\\( R \\)) acting as a constant proportionality factor. Since the resistance of a metal changes dynamically with temperature and physical strain, the law is *only* obeyed if the <b>temperature and physical conditions of the conductor are kept strictly constant</b>."
+      },
+      {
+        "id": "CEL_006",
+        "topic": "Ohm's Law & Resistance",
+        "q": "Observe the described graphical plot. Two straight lines, A and B, are plotted on a Voltage-Current (\\( V-I \\)) graph for two different metallic conductors. If line A is significantly steeper (closer to the Voltage axis) than line B, what can be conclusively deduced?",
+        "imgUrl": "A clean 2D physics graph showing two straight lines, A and B, originating from the origin (0,0). The vertical Y-axis is labeled 'Potential Difference (V)' and the horizontal X-axis is labeled 'Current (I)'. Line A is drawn with a steep slope (closer to the V-axis), while Line B is drawn with a shallow slope (closer to the I-axis). Standard textbook style, clean black lines on a white background.",
+        "options": [
+          "Conductor A has a lower electrical resistance than Conductor B.",
+          "Conductor A has a significantly higher electrical resistance than Conductor B.",
+          "Both conductors have exactly the same resistance because they are both straight lines.",
+          "Conductor A is a non-ohmic resistor while B is an ohmic resistor."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Analyze the axes.</b> The slope of a \\( V-I \\) graph (with V on the Y-axis and I on the X-axis) is mathematically defined as \\( \\frac{\\Delta V}{\\Delta I} \\).<br><b>Step 2: Relate slope to resistance.</b> By Ohm's law, \\( R = \\frac{V}{I} \\). Therefore, the slope of the \\( V-I \\) graph directly equals the resistance (\\( R \\)).<br><b>Conclusion:</b> Since line A has a greater slope (it is steeper) than line B, <b>Conductor A must have a higher electrical resistance</b> than Conductor B."
+      },
+      {
+        "id": "CEL_007",
+        "topic": "Ohm's Law & Resistance",
+        "q": "Which of the following electrical components is a classic example of a 'non-ohmic' resistor, meaning its \\( V-I \\) graph is a distinct curve rather than a straight line passing through the origin?",
+        "options": [
+          "A pure copper wire",
+          "A nichrome heating element",
+          "Dilute sulphuric acid with copper electrodes",
+          "A semiconductor junction diode"
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> Ohmic resistors strictly obey Ohm's law, yielding a straight-line \\( V-I \\) graph (examples include copper, nichrome, and dilute acids at constant temperatures). Non-ohmic resistors do not obey Ohm's law; their resistance changes with the applied voltage. A <b>semiconductor junction diode</b>, an LED, and the filament of an electric bulb are standard non-ohmic resistors featuring a curved \\( V-I \\) relationship."
+      },
+      {
+        "id": "CEL_008",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "If the physical temperature of a pure metallic conductor (like a silver wire) is gradually increased, what happens to its electrical resistance, and why?",
+        "options": [
+          "It decreases because the free electrons move faster and cross the conductor more quickly.",
+          "It increases because the random thermal motion of electrons and the vibration of positive ions increase, causing more frequent collisions.",
+          "It remains absolutely constant because resistance is an inherent, unchangeable property of the metal.",
+          "It decreases because the positive ions melt slightly and clear the path for the electrons."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> In metals, an increase in temperature increases the kinetic energy and random thermal motion of the free electrons, as well as the vibrational amplitude of the fixed positive lattice ions. This leads to a significantly <b>higher rate of collisions</b> between the electrons and the positive ions, which directly increases the obstruction to the electron drift. Hence, the <b>resistance increases</b>."
+      },
+      {
+        "id": "CEL_009",
+        "topic": "Ohm's Law & Resistance",
+        "q": "<b>[Topper Challenge]</b> During a lab experiment verifying Ohm's law, a student records the following data for an unknown metallic resistor at a constant temperature: When \\( V = 1.5 \\text{ V} \\), \\( I = 0.3 \\text{ A} \\). When \\( V = 2.5 \\text{ V} \\), \\( I = 0.5 \\text{ A} \\). Based on this data, what will be the exact expected current flowing through this resistor if the potential difference is increased to \\( 4.0 \\text{ V} \\)?",
+        "options": [
+          "\\( 0.6 \\text{ A} \\)",
+          "\\( 0.8 \\text{ A} \\)",
+          "\\( 1.0 \\text{ A} \\)",
+          "\\( 1.2 \\text{ A} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Verify Ohmic nature and find Resistance.</b> For the first set, \\( R = \\frac{V}{I} = \\frac{1.5}{0.3} = 5 \\text{ } \\Omega \\). For the second set, \\( R = \\frac{2.5}{0.5} = 5 \\text{ } \\Omega \\). The resistance is perfectly constant at \\( 5 \\text{ } \\Omega \\).<br><b>Step 2: Apply Ohm's law for the new voltage.</b> Given \\( V = 4.0 \\text{ V} \\) and \\( R = 5 \\text{ } \\Omega \\).<br><b>Step 3: Calculate current.</b> \\( I = \\frac{V}{R} = \\frac{4.0}{5} = 0.8 \\text{ A} \\). Therefore, the expected current is exactly <b>\\( 0.8 \\text{ A} \\)</b>."
+      },
+      {
+        "id": "CEL_010",
+        "topic": "Ohm's Law & Resistance",
+        "q": "The electrical resistance of a specific copper conductor is carefully measured to be \\( 0.04 \\text{ } \\Omega \\). What is the 'Conductance' of this conductor, and what is its standard SI unit?",
+        "options": [
+          "\\( 25 \\text{ } \\Omega^{-1} \\) (or siemen)",
+          "\\( 0.04 \\text{ } \\Omega^{-1} \\) (or siemen)",
+          "\\( 400 \\text{ } \\Omega^{-1} \\) (or siemen)",
+          "\\( 2.5 \\text{ } \\Omega^{-1} \\) (or siemen)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Recall the definition of conductance.</b> Conductance is defined mathematically as the reciprocal of electrical resistance (\\( \\text{Conductance} = \\frac{1}{R} \\)).<br><b>Step 2: Calculate the value.</b> \\( \\text{Conductance} = \\frac{1}{0.04} = \\frac{100}{4} = 25 \\).<br><b>Step 3: Identify the units.</b> The unit is \\( \\text{ohm}^{-1} \\) (\\( \\Omega^{-1} \\)), which is also officially called the <b>siemen (S)</b>. Therefore, the conductance is exactly <b>\\( 25 \\text{ } \\Omega^{-1} \\)</b>."
+      }
+    ]
   }
+  
 };
