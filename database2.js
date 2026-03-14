@@ -4278,7 +4278,7 @@ const chapterDatabase2 = {
         "id": "CEL_006",
         "topic": "Ohm's Law & Resistance",
         "q": "Observe the described graphical plot. Two straight lines, A and B, are plotted on a Voltage-Current (\\( V-I \\)) graph for two different metallic conductors. If line A is significantly steeper (closer to the Voltage axis) than line B, what can be conclusively deduced?",
-        "imgUrl": "A clean 2D physics graph showing two straight lines, A and B, originating from the origin (0,0). The vertical Y-axis is labeled 'Potential Difference (V)' and the horizontal X-axis is labeled 'Current (I)'. Line A is drawn with a steep slope (closer to the V-axis), while Line B is drawn with a shallow slope (closer to the I-axis). Standard textbook style, clean black lines on a white background.",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEh_1laLXcfw9dyBT_VZxynf4Y5TcxytzN3dnRDD4_d1FRjOCu1CYF9SXxwNnvqReqaTPvDkzaGxidxLZqFRU69IAa6cIGh185dsDZUDb8hnwHw_x8szzrCuUkz70PysvP1Xd3ArExxngb7Axc-ZsIhU92UCnVOSen4mAbB6BkqqsZ-x4VZvf9U2PVJMMTxr",
         "options": [
           "Conductor A has a lower electrical resistance than Conductor B.",
           "Conductor A has a significantly higher electrical resistance than Conductor B.",
@@ -4339,6 +4339,531 @@ const chapterDatabase2 = {
         ],
         "correct": 0,
         "sol": "<b>Step 1: Recall the definition of conductance.</b> Conductance is defined mathematically as the reciprocal of electrical resistance (\\( \\text{Conductance} = \\frac{1}{R} \\)).<br><b>Step 2: Calculate the value.</b> \\( \\text{Conductance} = \\frac{1}{0.04} = \\frac{100}{4} = 25 \\).<br><b>Step 3: Identify the units.</b> The unit is \\( \\text{ohm}^{-1} \\) (\\( \\Omega^{-1} \\)), which is also officially called the <b>siemen (S)</b>. Therefore, the conductance is exactly <b>\\( 25 \\text{ } \\Omega^{-1} \\)</b>."
+      },
+      {
+        "id": "CEL_011",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "A given metallic wire of electrical resistance R is mechanically stretched so that its length is exactly doubled. Assuming its density and total volume remain completely unchanged during the stretching, what will be its new electrical resistance?",
+        "options": [
+          "It will remain R.",
+          "It will become 2R.",
+          "It will become 4R.",
+          "It will become R/2."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand the physical change.</b> When a wire is stretched to double its length (\\( l' = 2l \\)), its volume remains constant. Therefore, its area of cross-section must become exactly half (\\( A' = A/2 \\)) to compensate.<br><b>Step 2: Apply the resistance formula.</b> Original resistance \\( R = \\rho \\frac{l}{A} \\).<br><b>Step 3: Calculate new resistance.</b> New resistance \\( R' = \\rho \\frac{2l}{A/2} = 4 \\left( \\rho \\frac{l}{A} \\right) = 4R \\).<br><b>Conclusion:</b> The new resistance becomes exactly <b>4R</b>."
+      },
+      {
+        "id": "CEL_012",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "Specific resistance (also known as electrical resistivity) is a fundamental property of a material. Which of the following represents the correct standard SI unit for specific resistance?",
+        "options": [
+          "Ω m⁻¹",
+          "Ω m",
+          "Ω⁻¹ m⁻¹",
+          "Ω cm"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Write down the formula for specific resistance (\\( \\rho \\)).</b> From the resistance formula \\( R = \\rho \\frac{l}{A} \\), we get \\( \\rho = \\frac{R \\cdot A}{l} \\).<br><b>Step 2: Substitute the SI units.</b> The unit of R is ohm (Ω), Area is m², and length is m.<br><b>Step 3: Simplify.</b> Unit of \\( \\rho = \\frac{\\Omega \\cdot \\text{m}^2}{\\text{m}} = \\Omega \\cdot \\text{m} \\). Therefore, the SI unit is <b>Ω m</b> (ohm-metre)."
+      },
+      {
+        "id": "CEL_013",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "A thick copper wire used for laboratory connections is cut into two equal halves. How does the specific resistance of each newly cut half compare to the specific resistance of the original full-length wire?",
+        "options": [
+          "It becomes exactly half.",
+          "It becomes exactly double.",
+          "It becomes one-fourth.",
+          "It remains exactly the same."
+        ],
+        "correct": 3,
+        "sol": "<b>Concept:</b> Differentiate between Resistance and Specific Resistance.<br><b>Explanation:</b> Resistance depends on length and thickness, so cutting the wire halves its <i>resistance</i>. However, Specific Resistance (Resistivity) is an inherent characteristic property of the <i>material itself</i> (copper) and its temperature. Since the material hasn't changed, the specific resistance <b>remains exactly the same</b> regardless of how you cut or shape the wire."
+      },
+      {
+        "id": "CEL_014",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "Standard resistance coils used in high-precision laboratory experiments (like meter bridges) are generally made of specific alloys such as manganin or constantan. What are the primary physical reasons for this specific choice?",
+        "options": [
+          "They are highly ductile, cheap, and easily available.",
+          "They have high specific resistance and their resistance is almost entirely unaffected by changes in temperature.",
+          "They have exactly zero electrical resistance at room temperature.",
+          "They are exceptional conductors of heat and expand rapidly."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> For a standard resistance coil, we need a wire that can provide high resistance without being too long, and its resistance value must stay constant even if the room gets hot or current heats up the wire. Alloys like manganin and constantan are chosen because they possess a <b>high specific resistance</b> and a uniquely negligible temperature coefficient (meaning their <b>resistance remains practically unchanged as temperature varies</b>)."
+      },
+      {
+        "id": "CEL_015",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "Why is the alloy 'Nichrome' specifically chosen over standard copper or aluminium to serve as the heating element in electrical appliances like room heaters, geysers, and toasters?",
+        "options": [
+          "Because it has a very low melting point and acts as a safety fuse.",
+          "Because its specific resistance is very high, allowing it to produce a massive amount of heat without melting.",
+          "Because it is a semiconductor that cools down rapidly when switched off.",
+          "Because its specific resistance decreases sharply as it heats up, saving electricity."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A heating element must convert electrical energy into massive amounts of heat without destroying itself. Nichrome is chosen because its <b>specific resistance is very high</b> (so a reasonably short wire provides high resistance and generates ample heat) and it has a very high melting point, allowing it to glow red-hot safely without oxidizing or melting."
+      },
+      {
+        "id": "CEL_016",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "Certain specific metals and alloys, such as lead when cooled below 7.25 K, exhibit a bizarre physical phenomenon where their electrical resistance drops completely to absolute zero. What is the scientific term for such materials?",
+        "options": [
+          "Ohmic conductors",
+          "Superconductors",
+          "Ideal insulators",
+          "Hyper-semiconductors"
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A substance that exhibits exactly zero electrical resistance (or infinite conductance) when cooled to an extremely low critical temperature is scientifically classified as a <b>Superconductor</b>. Once a current is established in a superconducting loop, it can theoretically flow forever without any energy loss."
+      },
+      {
+        "id": "CEL_017",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "Observe the diagram described below showing two copper wires. Wire A and Wire B have the exact same physical length, but Wire B has a noticeably much larger cross-sectional area (it is thicker). If both are at the same room temperature, how do their electrical properties compare?",
+        "": "https://blogger.googleusercontent.com/img/a/AVvXsEipCJjmG-yS7vTXazXradX0hU3gIDwPnXVeI0jc0kcMuiWdCuMoVjklA3RSy2OFf7pi26PF0lSTyxQzYZIX3ND-uVQ9xTEqs_ZyJEdj8MMYcVbJUvxu6BPC7S3oMuNuDJZR8SavtIV-UENEP_XHjx-THpGuSnoAHL48u83OViAq2dgkmuSplOUAFjv3MN4T",
+        "options": [
+          "Wire A has a higher resistance, but both wires have the exact same specific resistance.",
+          "Wire B has a higher resistance, but both wires have the exact same specific resistance.",
+          "Wire A has both a higher resistance and a higher specific resistance.",
+          "Both wires have the exact same resistance and the exact same specific resistance."
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Analyze Resistance.</b> Resistance is inversely proportional to cross-sectional area (\\( R \\propto 1/A \\)). Since Wire A is thinner (smaller A), it offers more obstruction to electron flow. Thus, <b>Wire A has higher resistance</b>.<br><b>Step 2: Analyze Specific Resistance.</b> Specific resistance depends ONLY on the material and temperature, completely ignoring shape or size. Since both are copper at room temperature, their <b>specific resistance is perfectly identical</b>."
+      },
+      {
+        "id": "CEL_018",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "The physical quantity known as 'Conductivity' (denoted by \\( \\sigma \\)) is mathematically defined as the reciprocal of specific resistance. Based on this definition, what is the accepted SI unit for electrical conductivity?",
+        "options": [
+          "Ω m",
+          "Ω⁻¹ m⁻¹ (or siemen m⁻¹)",
+          "Volt Ampere⁻¹",
+          "Coulomb second⁻¹"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Write down the definition.</b> Conductivity \\( \\sigma = \\frac{1}{\\rho} \\).<br><b>Step 2: Apply the units.</b> The SI unit of specific resistance (\\( \\rho \\)) is ohm-metre (Ω m).<br><b>Step 3: Find the reciprocal unit.</b> Therefore, the unit of conductivity is \\( \\frac{1}{\\Omega \\cdot \\text{m}} \\), which is mathematically written as <b>Ω⁻¹ m⁻¹</b>. The term Ω⁻¹ is also officially called the 'siemen', so the unit can also be written as siemen m⁻¹."
+      },
+      {
+        "id": "CEL_019",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "<b>[Topper Challenge]</b> Two wires, X and Y, are made of the exact same material and share the exact same length. However, the radius of wire Y is strictly three times the radius of wire X (\\( r_Y = 3r_X \\)). If the electrical resistance of wire X is measured to be 45 Ω, what will be the exact resistance of wire Y?",
+        "options": [
+          "15 Ω",
+          "5 Ω",
+          "135 Ω",
+          "405 Ω"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Relate resistance to radius.</b> Resistance \\( R \\propto \\frac{1}{A} \\), and since \\( A = \\pi r^2 \\), we know \\( R \\propto \\frac{1}{r^2} \\).<br><b>Step 2: Establish the ratio.</b> \\( \\frac{R_Y}{R_X} = \\left(\\frac{r_X}{r_Y}\\right)^2 \\).<br><b>Step 3: Substitute known values.</b> Since \\( r_Y = 3r_X \\), the ratio \\( \\frac{r_X}{r_Y} = \\frac{1}{3} \\).<br><b>Step 4: Solve for \\( R_Y \\).</b> \\( \\frac{R_Y}{45} = \\left(\\frac{1}{3}\\right)^2 = \\frac{1}{9} \\). Thus, \\( R_Y = \\frac{45}{9} = 5 \\text{ } \\Omega \\). The resistance of the thicker wire Y is exactly <b>5 Ω</b>."
+      },
+      {
+        "id": "CEL_020",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "<b>[Topper Challenge]</b> A copper wire of initial resistance 16 Ω is taken by a student and tightly doubled on itself (folded exactly in half) to form a new, physically shorter and uniformly thicker wire. What will be the exact electrical resistance of this newly formed folded wire?",
+        "options": [
+          "8 Ω",
+          "4 Ω",
+          "32 Ω",
+          "16 Ω"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Understand the physical changes.</b> When a wire is folded exactly in half, its new length becomes half of the original (\\( l' = l/2 \\)). Simultaneously, the two halves sit side-by-side, making the new cross-sectional area exactly double the original (\\( A' = 2A \\)).<br><b>Step 2: Apply the resistance formula.</b> New resistance \\( R' = \\rho \\frac{l'}{A'} = \\rho \\frac{(l/2)}{(2A)} \\).<br><b>Step 3: Simplify.</b> \\( R' = \\frac{1}{4} \\left(\\rho \\frac{l}{A}\\right) = \\frac{R}{4} \\).<br><b>Conclusion:</b> The resistance drops to one-fourth of its original value. Since the original was 16 Ω, the new resistance is \\( 16 / 4 = \\) <b>4 Ω</b>."
+      },
+      {
+        "id": "CEL_021",
+        "topic": "Electromotive Force (e.m.f) & Internal Resistance",
+        "q": "When a chemical cell is in an open circuit (no current is drawn), the potential difference between its terminals is called its Electromotive Force (e.m.f.). When the cell is placed in a closed circuit and begins drawing current, what happens to the potential difference across its terminals compared to its e.m.f.?",
+        "options": [
+          "It becomes strictly greater than the e.m.f.",
+          "It becomes strictly less than the e.m.f.",
+          "It remains exactly equal to the e.m.f.",
+          "It drops immediately to absolute zero."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> In a closed circuit, some electrical work must be done to drive the charge through the electrolyte inside the cell against its own internal resistance. This internal energy usage causes a 'voltage drop' (\\( v \\)). Therefore, the terminal voltage (\\( V \\)) available to the external circuit is <b>less than the e.m.f.</b> (\\( \\epsilon \\)) by exactly that voltage drop amount (\\( V = \\epsilon - v \\))."
+      },
+      {
+        "id": "CEL_022",
+        "topic": "Electromotive Force (e.m.f) & Internal Resistance",
+        "q": "The internal resistance of a cell is the inherent obstruction offered by its electrolyte to the flow of current. Which of the following physical changes will specifically <b>decrease</b> the internal resistance of a given cell?",
+        "options": [
+          "Increasing the physical distance between the two electrodes.",
+          "Decreasing the surface area of the electrodes immersed in the electrolyte.",
+          "Decreasing the temperature of the electrolyte.",
+          "Increasing the surface area of the electrodes immersed in the electrolyte."
+        ],
+        "correct": 3,
+        "sol": "<b>Explanation:</b> Internal resistance depends heavily on the geometry of the cell and the electrolyte. A larger surface area of the electrodes gives a broader, wider path for the ions to flow through, thereby <b>decreasing the internal resistance</b>. (Conversely, increasing the distance between electrodes or decreasing the temperature both serve to increase internal resistance)."
+      },
+      {
+        "id": "CEL_023",
+        "topic": "Electromotive Force (e.m.f) & Internal Resistance",
+        "q": "A chemical cell of unknown e.m.f. (\\( \\epsilon \\)) and internal resistance (\\( r \\)) sends a current of 1.0 A when connected to an external resistance of 1.9 Ω. It sends a current of 0.5 A when connected to an external resistance of 3.9 Ω. What is the exact e.m.f. of the cell?",
+        "options": [
+          "1.5 V",
+          "2.0 V",
+          "2.5 V",
+          "3.0 V"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Set up the equation.</b> The formula relating these quantities is \\( \\epsilon = I(R + r) \\).<br><b>Step 2: Create two equations from the given cases.</b><br>Case 1: \\( \\epsilon = 1.0 \\times (1.9 + r) \\implies \\epsilon = 1.9 + r \\).<br>Case 2: \\( \\epsilon = 0.5 \\times (3.9 + r) \\implies \\epsilon = 1.95 + 0.5r \\).<br><b>Step 3: Solve for r, then \\( \\epsilon \\).</b> Equate both: \\( 1.9 + r = 1.95 + 0.5r \\implies 0.5r = 0.05 \\implies r = 0.1 \\text{ } \\Omega \\).<br>Substitute \\( r \\) back into Case 1: \\( \\epsilon = 1.9 + 0.1 = 2.0 \\text{ V} \\). The e.m.f. is exactly <b>2.0 V</b>."
+      },
+      {
+        "id": "CEL_024",
+        "topic": "Combination of Resistors",
+        "q": "Observe the graph described below. Two straight lines, A and B, represent the Voltage-Current (\\( V-I \\)) graphs for two identical resistors connected in series and in parallel combinations. Which line specifically represents the parallel combination, and why?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhHPpUiZqcJDVe3xhokB6gi6XU7lbUhynWlQYn98iV2oviBD5DpkEgM4JCk1dfdaxPzKq8GlLVqJDLW11M47nzaC2epnx6z5xcYfHZsK5el5s5Ipcyvc33Rwh6WbSdguu-BTYMT1UAKmwhsxVukS2IEgO06SXvJtuWDz7HbZR5fakexUynpfIV93WO8IPrm",
+        "options": [
+          "Line A, because parallel combination yields a higher equivalent resistance.",
+          "Line A, because parallel combination yields a lower equivalent resistance.",
+          "Line B, because parallel combination yields a lower equivalent resistance.",
+          "Line B, because parallel combination yields a higher equivalent resistance."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand the slope.</b> The slope of a \\( V-I \\) graph mathematically represents electrical resistance (\\( R = \\frac{V}{I} \\)). Line B has a smaller, flatter slope, meaning it represents a lower resistance.<br><b>Step 2: Apply combination rules.</b> When identical resistors are connected in parallel, their equivalent resistance is always strictly less than when they are connected in series.<br><b>Conclusion:</b> Because parallel circuits have lower resistance, <b>Line B represents the parallel combination</b>."
+      },
+      {
+        "id": "CEL_025",
+        "topic": "Combination of Resistors",
+        "q": "Three metallic resistors of 2 Ω, 3 Ω, and 5 Ω are connected purely in series across a battery. If the total main current flowing out of the battery is measured to be 1.5 A, what is the exact potential difference across the 3 Ω resistor?",
+        "options": [
+          "3.0 V",
+          "4.5 V",
+          "7.5 V",
+          "15.0 V"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: State the series circuit rule.</b> In a series circuit, the fundamental rule is that the <b>exact same current flows through every single component</b> in the line.<br><b>Step 2: Identify current for the specific resistor.</b> Therefore, the current (\\( I \\)) flowing through the 3 Ω resistor is also exactly 1.5 A.<br><b>Step 3: Calculate Voltage.</b> Using Ohm's law specifically for this resistor: \\( V = I \\times R = 1.5 \\times 3 = 4.5 \\text{ V} \\). The potential difference is <b>4.5 V</b>."
+      },
+      {
+        "id": "CEL_026",
+        "topic": "Combination of Resistors",
+        "q": "Three identical light bulbs, each possessing a filament resistance of 60 Ω, are connected strictly in parallel across a 120 V main power supply. What is the equivalent total resistance of this specific three-bulb combination?",
+        "options": [
+          "180 Ω",
+          "60 Ω",
+          "20 Ω",
+          "120 Ω"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Recall the identical parallel resistor shortcut.</b> For a parallel combination of \\( n \\) identical resistors, each of resistance \\( R \\), the equivalent resistance \\( R_p \\) is quickly calculated as \\( R_p = \\frac{R}{n} \\).<br><b>Step 2: Apply the values.</b> Here, \\( R = 60 \\text{ } \\Omega \\) and \\( n = 3 \\).<br><b>Step 3: Calculate.</b> \\( R_p = \\frac{60}{3} = 20 \\text{ } \\Omega \\). (Alternatively, you can use the long formula: \\( \\frac{1}{R_p} = \\frac{1}{60} + \\frac{1}{60} + \\frac{1}{60} = \\frac{3}{60} \\), which gives the same result: <b>20 Ω</b>)."
+      },
+      {
+        "id": "CEL_027",
+        "topic": "Combination of Resistors",
+        "q": "Two distinct resistors of 4 Ω and 6 Ω are connected in parallel across a 12 V battery (which has negligible internal resistance). How much electrical current flows specifically through the 6 Ω resistor?",
+        "options": [
+          "1.2 A",
+          "2.0 A",
+          "3.0 A",
+          "5.0 A"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: State the parallel circuit rule.</b> In a parallel combination, the <b>potential difference (Voltage) across each individual branch is exactly the same</b> and is equal to the voltage of the main source (12 V).<br><b>Step 2: Isolate the target resistor.</b> We only need to look at the 6 Ω resistor. It has a resistance \\( R = 6 \\text{ } \\Omega \\) and a voltage \\( V = 12 \\text{ V} \\) across it.<br><b>Step 3: Apply Ohm's Law.</b> \\( I = \\frac{V}{R} = \\frac{12}{6} = 2.0 \\text{ A} \\). The current through it is exactly <b>2.0 A</b>."
+      },
+      {
+        "id": "CEL_028",
+        "topic": "Combination of Resistors",
+        "q": "In a mixed circuit arrangement, two resistors of 4 Ω and 6 Ω are first connected in parallel. This entire parallel combination is then connected in series with a single 1.6 Ω resistor. What is the total equivalent resistance of this entire circuit arrangement?",
+        "options": [
+          "11.6 Ω",
+          "4.0 Ω",
+          "2.4 Ω",
+          "1.6 Ω"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Solve the parallel block first.</b> For the 4 Ω and 6 Ω resistors in parallel: \\( \\frac{1}{R_p} = \\frac{1}{4} + \\frac{1}{6} = \\frac{3+2}{12} = \\frac{5}{12} \\). Flipping this gives \\( R_p = \\frac{12}{5} = 2.4 \\text{ } \\Omega \\).<br><b>Step 2: Add the series block.</b> This 2.4 Ω equivalent block is connected in series with the 1.6 Ω resistor.<br><b>Step 3: Calculate final resistance.</b> Total series resistance \\( R_s = 2.4 + 1.6 = 4.0 \\text{ } \\Omega \\). The total resistance is <b>4.0 Ω</b>."
+      },
+      {
+        "id": "CEL_029",
+        "topic": "Electromotive Force (e.m.f) & Internal Resistance",
+        "q": "<b>[Topper Challenge]</b> A high-resistance voltmeter connected directly across the terminals of a battery reads 9.0 V when the circuit is completely open. When a 24 Ω external resistor is then connected across the battery, drawing a steady current, the voltmeter reading abruptly drops to 7.2 V. What is the exact internal resistance of this battery?",
+        "options": [
+          "1.5 Ω",
+          "3.0 Ω",
+          "6.0 Ω",
+          "9.0 Ω"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Identify given values.</b> The open-circuit reading gives the true e.m.f., so \\( \\epsilon = 9.0 \\text{ V} \\). The closed-circuit reading gives the terminal voltage, \\( V = 7.2 \\text{ V} \\). The external resistance \\( R = 24 \\text{ } \\Omega \\).<br><b>Step 2: Use the standard internal resistance formula.</b> \\( r = \\left(\\frac{\\epsilon}{V} - 1\\right) R \\).<br><b>Step 3: Calculate.</b> \\( r = \\left(\\frac{9.0}{7.2} - 1\\right) \\times 24 = (1.25 - 1) \\times 24 = 0.25 \\times 24 = 6.0 \\text{ } \\Omega \\). The internal resistance is <b>6.0 Ω</b>."
+      },
+      {
+        "id": "CEL_030",
+        "topic": "Combination of Resistors",
+        "q": "<b>[Topper Challenge]</b> You are given three completely identical resistors, each having a resistance of 2 Ω. If you are tasked to arrange all three of them to obtain a total equivalent electrical resistance of exactly 3 Ω, which specific combination method must you construct?",
+        "options": [
+          "Connect all three in series.",
+          "Connect all three in parallel.",
+          "Connect two in parallel, and then connect that combination in series with the third.",
+          "Connect two in series, and then connect that combination in parallel with the third."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Test basic combinations.</b> All in series = \\( 2+2+2 = 6 \\text{ } \\Omega \\). All in parallel = \\( 2/3 \\text{ } \\Omega \\). Neither of these works.<br><b>Step 2: Try the 'Two Parallel, One Series' arrangement.</b> Two 2 Ω resistors in parallel give an equivalent resistance of \\( R_p = \\frac{2 \\times 2}{2 + 2} = \\frac{4}{4} = 1 \\text{ } \\Omega \\). Connecting the third 2 Ω resistor in series with this 1 Ω block gives \\( 1 + 2 = 3 \\text{ } \\Omega \\).<br><b>Conclusion:</b> This arrangement perfectly matches the target. Therefore, you must <b>connect two in parallel, and put them in series with the third</b>."
+      },
+      {
+        "id": "CEL_031",
+        "topic": "Electrical Energy & Power",
+        "q": "Which of the following mathematical expressions does NOT represent the electrical power (\\( P \\)) consumed in a typical circuit?",
+        "options": [
+          "\\( P = VI \\)",
+          "\\( P = I^2 R \\)",
+          "\\( P = I R^2 \\)",
+          "\\( P = \\frac{V^2}{R} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Recall the core power formula.</b> Electrical power is the rate of doing work: \\( P = VI \\).<br><b>Step 2: Substitute Ohm's law (\\( V = IR \\)).</b> Substituting \\( V \\) gives \\( P = (IR) \\times I = I^2 R \\).<br><b>Step 3: Substitute for \\( I \\) (\\( I = V/R \\)).</b> Substituting \\( I \\) gives \\( P = V \\times \\left(\\frac{V}{R}\\right) = \\frac{V^2}{R} \\).<br><b>Conclusion:</b> The expression <b>\\( P = I R^2 \\)</b> is mathematically incorrect and does not represent electrical power."
+      },
+      {
+        "id": "CEL_032",
+        "topic": "Electrical Energy & Power",
+        "q": "An electric bulb is stamped with the rating '100 W, 220 V'. If this bulb is connected to a standard 220 V mains supply, what is the exact electrical resistance of its filament while it is glowing?",
+        "options": [
+          "2.2 Ω",
+          "22 Ω",
+          "220 Ω",
+          "484 Ω"
+        ],
+        "correct": 3,
+        "sol": "<b>Step 1: Identify the given rating values.</b> Power \\( P = 100 \\text{ W} \\), Voltage \\( V = 220 \\text{ V} \\).<br><b>Step 2: Select the correct formula.</b> To find resistance from Power and Voltage, use \\( P = \\frac{V^2}{R} \\).<br><b>Step 3: Rearrange and calculate.</b> \\( R = \\frac{V^2}{P} = \\frac{220 \\times 220}{100} = \\frac{48400}{100} = 484 \\text{ } \\Omega \\). The operating resistance of the hot filament is exactly <b>484 Ω</b>."
+      },
+      {
+        "id": "CEL_033",
+        "topic": "Household Consumption & Heating Effect",
+        "q": "According to Joule's Law of Heating, if the electrical current flowing through a metallic wire is suddenly doubled while the resistance and time remain exactly the same, how will the amount of heat produced be affected?",
+        "options": [
+          "It will become double the original heat.",
+          "It will become half of the original heat.",
+          "It will become four times the original heat.",
+          "It will remain completely unchanged."
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Joule's Law of Heating states that the heat produced \\( H = I^2 R t \\).<br><b>Explanation:</b> The heat produced is directly proportional to the <i>square</i> of the current (\\( H \\propto I^2 \\)). If the current is doubled (\\( 2I \\)), the new heat produced is \\( (2I)^2 R t = 4 I^2 R t \\). Therefore, the heat produced becomes <b>four times</b> the original amount."
+      },
+      {
+        "id": "CEL_034",
+        "topic": "Household Consumption & Heating Effect",
+        "q": "The commercial unit of electrical energy billed to households is the 'Board of Trade Unit' (B.O.T. unit), commonly known as the Kilowatt-hour (kWh). What is the exact equivalent of 1 kWh in the standard SI unit of energy (Joules)?",
+        "options": [
+          "3600 Joules",
+          "\\( 3.6 \\times 10^5 \\text{ Joules} \\)",
+          "\\( 3.6 \\times 10^6 \\text{ Joules} \\)",
+          "\\( 3.6 \\times 10^8 \\text{ Joules} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Break down the unit.</b> 1 Kilowatt-hour (kWh) means 1 Kilowatt of power consumed for exactly 1 Hour.<br><b>Step 2: Convert to fundamental SI units.</b> 1 Kilowatt = 1000 Watts (Joules/second). 1 Hour = 3600 seconds.<br><b>Step 3: Multiply them together.</b> \\( \\text{Energy} = \\text{Power} \\times \\text{Time} = 1000 \\text{ J/s} \\times 3600 \\text{ s} = 3,600,000 \\text{ Joules} \\).<br><b>Conclusion:</b> Written in standard scientific notation, this is exactly <b>\\( 3.6 \\times 10^6 \\text{ Joules} \\)</b> (or 3.6 Megajoules)."
+      },
+      {
+        "id": "CEL_035",
+        "topic": "Household Consumption & Heating Effect",
+        "q": "A family uses a 2000 W (2 kW) electric room heater for exactly 3 hours every day during the month of November (30 days). If the local electricity board charges ₹ 5.00 per unit (kWh), what will be the total cost of running this heater for the month?",
+        "options": [
+          "₹ 300",
+          "₹ 900",
+          "₹ 1800",
+          "₹ 450"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate energy consumed per day.</b> \\( \\text{Energy (kWh)} = \\text{Power (kW)} \\times \\text{Time (h)} = 2 \\text{ kW} \\times 3 \\text{ h} = 6 \\text{ kWh/day} \\).<br><b>Step 2: Calculate total energy for the month.</b> \\( \\text{Total Energy} = 6 \\text{ kWh/day} \\times 30 \\text{ days} = 180 \\text{ kWh} \\) (or 180 units).<br><b>Step 3: Calculate total cost.</b> \\( \\text{Total Cost} = \\text{Total Units} \\times \\text{Rate} = 180 \\times 5.00 = \\) <b>₹ 900</b>."
+      },
+      {
+        "id": "CEL_036",
+        "topic": "Electrical Energy & Power",
+        "q": "Observe the circuit diagram described below. Two incandescent light bulbs, Bulb A (rated 60 W, 220 V) and Bulb B (rated 100 W, 220 V), are connected purely in SERIES across a 220 V battery. When the switch is closed, which bulb will glow visibly brighter?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEj2xgKjLRQhRfuW4mtbssI_g90XzTmhqYFqpVOFQHz7HeIgIzCudC5slLSTBngbkv8IfbgaPN9M6066nJ8IRINgrtWMOK_Fqbc0-PlbZ60ZRMJ5L3dplQwT1wFGr2icNPFNs1DpbOcjZkVrc5MShAK78TU9e0cyRCQvuukI-ZzOQKX3I_KHvTbLUu264jKR",
+        "options": [
+          "Bulb B (100 W) will glow brighter because of its higher power rating.",
+          "Bulb A (60 W) will glow brighter because it has higher resistance and dissipates more power in series.",
+          "Both bulbs will glow with the exact same brightness since the current is identical.",
+          "Neither bulb will glow because the voltage is insufficient."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Compare their resistances.</b> From \\( R = V^2/P \\), resistance is inversely proportional to rated power. Therefore, Bulb A (60 W) has a significantly higher electrical resistance than Bulb B (100 W).<br><b>Step 2: Apply series circuit rules.</b> In a series circuit, the exact same current (\\( I \\)) flows through both bulbs.<br><b>Step 3: Determine actual power consumed.</b> The actual power dissipated as heat/light is given by \\( P' = I^2 R \\). Since \\( I \\) is constant for both, the bulb with the higher resistance dissipates more power.<br><b>Conclusion:</b> Because Bulb A has higher resistance, it dissipates more energy per second and therefore <b>Bulb A (60 W) glows visibly brighter</b> in a series setup."
+      },
+      {
+        "id": "CEL_037",
+        "topic": "Electrical Energy & Power",
+        "q": "An electric geyser is clearly rated '1500 W, 250 V'. If this geyser is connected to a 250 V supply, what is the exact magnitude of the steady current it will draw from the mains?",
+        "options": [
+          "3.0 A",
+          "4.5 A",
+          "6.0 A",
+          "15.0 A"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Identify given values.</b> Power \\( P = 1500 \\text{ W} \\), Voltage \\( V = 250 \\text{ V} \\).<br><b>Step 2: Select the correct formula.</b> We use the basic power equation: \\( P = VI \\).<br><b>Step 3: Rearrange to solve for current (I).</b> \\( I = \\frac{P}{V} \\).<br><b>Step 4: Calculate.</b> \\( I = \\frac{1500}{250} = 6.0 \\text{ A} \\). The geyser will draw a steady current of exactly <b>6.0 A</b>. (This means a standard 5 A fuse would instantly blow; a 10 A or 15 A fuse socket must be used)."
+      },
+      {
+        "id": "CEL_038",
+        "topic": "Electrical Energy & Power",
+        "q": "Why is the heating element of an electric iron deliberately enclosed between two thick layers of mica?",
+        "options": [
+          "Mica increases the electrical conductivity of the element.",
+          "Mica physically reflects the heat back into the element to prevent burning.",
+          "Mica is a very good conductor of heat but a near-perfect insulator of electricity, preventing fatal electric shocks while allowing heat transfer.",
+          "Mica absorbs moisture from the air to prevent short circuits."
+        ],
+        "correct": 2,
+        "sol": "<b>Explanation:</b> An electric iron requires the heavy metal base plate to get extremely hot, but the metal plate absolutely cannot have live electrical current flowing through it, or the user would be electrocuted. Mica has an incredibly unique physical property: it is an <b>excellent conductor of heat</b> (transferring the heat to the base plate) but a <b>fantastic insulator of electricity</b> (keeping the live current safely trapped in the wire)."
+      },
+      {
+        "id": "CEL_039",
+        "topic": "Household Consumption & Heating Effect",
+        "q": "<b>[Topper Challenge]</b> A straight nichrome heating wire produces an amount of heat \\( H \\) when connected to a V-volt battery for time \\( t \\). If this same wire is carefully cut into three equal pieces, and all three pieces are connected in parallel across the exact same V-volt battery for the same time \\( t \\), how much total heat will the new parallel combination produce?",
+        "options": [
+          "\\( H \\)",
+          "\\( 3H \\)",
+          "\\( 9H \\)",
+          "\\( H/9 \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Original Heat.</b> \\( H = \\frac{V^2}{R} t \\).<br><b>Step 2: Analyze the cut pieces.</b> Cutting the wire into 3 pieces gives three small resistors, each with resistance \\( R/3 \\).<br><b>Step 3: Find equivalent parallel resistance.</b> Connecting these three \\( R/3 \\) pieces in parallel gives \\( R_p = \\frac{(R/3)}{3} = \\frac{R}{9} \\).<br><b>Step 4: Calculate New Heat.</b> New heat \\( H_{new} = \\frac{V^2}{R_p} t = \\frac{V^2}{(R/9)} t = 9 \\left(\\frac{V^2}{R} t\\right) = 9H \\).<br><b>Conclusion:</b> The new parallel combination produces exactly <b>9 times</b> the original heat!"
+      },
+      {
+        "id": "CEL_040",
+        "topic": "Electrical Energy & Power",
+        "q": "<b>[Topper Challenge]</b> A light bulb is officially rated at '100 W, 200 V'. Due to a grid fluctuation, the supply voltage in a house suddenly drops to exactly 100 V. Assuming the resistance of the bulb's filament remains completely constant, what will be the actual power consumed by the bulb during this low-voltage period?",
+        "options": [
+          "50 W",
+          "25 W",
+          "100 W",
+          "12.5 W"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Find the bulb's fixed resistance.</b> Using the rated values: \\( R = \\frac{V_{rated}^2}{P_{rated}} = \\frac{200^2}{100} = \\frac{40000}{100} = 400 \\text{ } \\Omega \\). This 400 Ω is an inherent property of the filament.<br><b>Step 2: Calculate actual power at the new voltage.</b> The new applied voltage is \\( V_{new} = 100 \\text{ V} \\).<br><b>Step 3: Apply the formula.</b> \\( P_{actual} = \\frac{V_{new}^2}{R} = \\frac{100^2}{400} = \\frac{10000}{400} = 25 \\text{ W} \\).<br><b>Conclusion:</b> When the applied voltage is exactly halved, the power consumed drops to one-fourth (\\( 1/2^2 \\)). The bulb will only consume <b>25 W</b> and glow very dimly."
+      },
+      {
+        "id": "CEL_041",
+        "topic": "Specific Resistance & Material Choice",
+        "q": "<b>[Topper Challenge]</b> A given metallic wire of resistance \\( R \\) is drawn out through a die so that its radius is reduced to exactly half of its original value (\\( r' = r/2 \\)). Assuming the volume of the wire remains perfectly constant, what will be its new electrical resistance?",
+        "options": [
+          "\\( 2R \\)",
+          "\\( 4R \\)",
+          "\\( 8R \\)",
+          "\\( 16R \\)"
+        ],
+        "correct": 3,
+        "sol": "<b>Step 1: Analyze Area change.</b> The cross-sectional area is \\( A = \\pi r^2 \\). If the radius becomes half (\\( r/2 \\)), the new area becomes one-fourth (\\( A' = A/4 \\)).<br><b>Step 2: Analyze Length change.</b> Since volume (\\( V = A \\times l \\)) is constant, if Area becomes \\( 1/4 \\), the length must become 4 times longer (\\( l' = 4l \\)) to compensate.<br><b>Step 3: Calculate new Resistance.</b> \\( R' = \\rho \\frac{l'}{A'} = \\rho \\frac{4l}{(A/4)} = 16 \\left(\\rho \\frac{l}{A}\\right) = 16R \\).<br><b>Conclusion:</b> The new resistance is exactly <b>\\( 16R \\)</b>."
+      },
+      {
+        "id": "CEL_042",
+        "topic": "Electromotive Force (e.m.f) & Internal Resistance",
+        "q": "<b>[Topper Challenge]</b> Observe the graphical plot of Terminal Voltage (\\( V \\)) versus Current drawn (\\( I \\)) for a chemical cell discharging in a circuit. The graph is a straight line with a negative slope. What critical physical quantities of the cell are represented by the Y-intercept (where the line touches the V-axis) and the magnitude of the slope of this line?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEic8nHoDIjLE6VFwdK1haLYhGA603XINFFKJGWqhMY60r6rDC1Im0V6uEKCkkDO7qyaAqsGUiKjubeRGcZ2yk8kN8vKLZDYc6Acn41z7zKn3-SI5PeZQG-3yOlCFYGhKmKVJSqwS_-w-eDoTbn30YKlGPjjjotnjpcIBlIcSPyT6aLZ4xX8j1W2zwPEbaHg",
+        "options": [
+          "Y-intercept = Internal Resistance; Slope = e.m.f.",
+          "Y-intercept = e.m.f.; Slope = Internal Resistance",
+          "Y-intercept = e.m.f.; Slope = External Resistance",
+          "Y-intercept = Maximum Power; Slope = e.m.f."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Write the terminal voltage equation.</b> The formula is \\( V = \\epsilon - Ir \\).<br><b>Step 2: Match to the equation of a line.</b> This is in the form \\( y = mx + c \\), which rearranges to \\( V = (-r)I + \\epsilon \\).<br><b>Conclusion:</b> The y-intercept (\\( c \\)) is strictly the <b>e.m.f. (\\( \\epsilon \\))</b> of the cell (voltage when current is zero). The magnitude of the slope (\\( m \\)) is exactly the <b>Internal Resistance (\\( r \\))</b>."
+      },
+      {
+        "id": "CEL_043",
+        "topic": "Combination of Resistors",
+        "q": "<b>[Topper Challenge]</b> A uniform uniform piece of metallic wire has a total electrical resistance of 10 Ω. It is bent to form a perfect closed circle. What will be the equivalent electrical resistance measured between any two points situated exactly at the opposite ends of a diameter of this circle?",
+        "options": [
+          "10 Ω",
+          "5 Ω",
+          "2.5 Ω",
+          "20 Ω"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Understand the geometry.</b> Bending the wire into a circle and connecting across the diameter effectively splits the wire into two perfectly equal semicircular halves.<br><b>Step 2: Find the resistance of each half.</b> Since the total wire is 10 Ω, each semicircular half will have a resistance of exactly 5 Ω.<br><b>Step 3: Combine them.</b> These two 5 Ω halves are now connected in parallel between the two diametrically opposite points. \\( R_{eq} = \\frac{5 \\times 5}{5 + 5} = \\frac{25}{10} = 2.5 \\text{ } \\Omega \\).<br><b>Conclusion:</b> The equivalent resistance is <b>2.5 Ω</b>."
+      },
+      {
+        "id": "CEL_044",
+        "topic": "Electrical Energy & Power",
+        "q": "<b>[Topper Challenge]</b> Observe the circuit described below. Three absolutely identical incandescent light bulbs (A, B, and C) are connected to a battery. Bulbs B and C are connected in parallel to each other, and this parallel combination is connected in series with Bulb A. How will the brightness of the bulbs compare when the circuit is switched on?",
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEh9zgIe1FvzFQRJkj18RJ0C1l1BD3RIQH3n2X3j1IXgaH7NXVJYuhlXL4oioUBnXgQRrJyICZbJ4AJN5iQugPpvvwTS6UB_ICKyiNHW-RshxyM3RHLg3B-YWn9fer2GgmqvMQOhO8ko4FSGRzU5jb0WYPqlWw7LzjWqVieNPieQrHsYezvrcH8_9684xVzc",
+        "options": [
+          "All three bulbs will glow with the exact same brightness.",
+          "Bulb A will be the brightest; B and C will be equally dim.",
+          "Bulbs B and C will be the brightest; Bulb A will be dim.",
+          "Bulb C will be the brightest, followed by B, then A."
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Analyze Current.</b> Let the total current leaving the battery be \\( I \\). Because Bulb A is in the main series line, the full current \\( I \\) passes through A.<br><b>Step 2: Analyze the Parallel Split.</b> When the current \\( I \\) reaches the junction for B and C, it splits. Since B and C are identical (equal resistance), the current splits equally: \\( I/2 \\) goes through B, and \\( I/2 \\) goes through C.<br><b>Conclusion:</b> Brightness depends on power dissipated (\\( P = I^2R \\)). Since Bulb A receives the highest current (\\( I \\)), it dissipates the most power. <b>Bulb A will be the brightest</b>, while B and C receive half the current and will be equally dimmer."
+      },
+      {
+        "id": "CEL_045",
+        "topic": "Household Consumption & Heating Effect",
+        "q": "<b>[Topper Challenge]</b> An electric kettle contains a standard nichrome heating coil and takes exactly 15 minutes to boil a certain mass of water when connected to a 220 V supply. If the heating coil is taken out, cut exactly in half, and only one of the halves is connected back to the same 220 V supply, how long will it now take to boil the exact same mass of water?",
+        "options": [
+          "30 minutes",
+          "15 minutes",
+          "7.5 minutes",
+          "It will never boil."
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Analyze Resistance.</b> Cutting the coil in half reduces its electrical resistance to exactly half (\\( R' = R/2 \\)).<br><b>Step 2: Analyze Power.</b> Power drawn from a constant voltage supply is \\( P = \\frac{V^2}{R} \\). Since resistance is halved, the power (heat produced per second) becomes exactly double.<br><b>Step 3: Analyze Time.</b> The total heat energy required to boil the water (\\( H \\)) is constant. Since \\( H = P \\times t \\), and Power is now doubled, the time required must be halved.<br><b>Conclusion:</b> \\( 15 \\text{ minutes} / 2 = \\) <b>7.5 minutes</b>."
+      },
+      {
+        "id": "CEL_046",
+        "topic": "Ohm's Law & Resistance",
+        "q": "<b>[Topper Challenge]</b> The Voltage-Current (\\( V-I \\)) graph for the tungsten filament of a standard incandescent bulb is NOT a straight line. Instead, as the Voltage (V) on the Y-axis increases, the graph curves noticeably <i>towards the Voltage axis</i>. What is the fundamental physics reason for this specific curvature?",
+        "options": [
+          "The filament obeys Ohm's law, but the battery's e.m.f. drops.",
+          "As voltage increases, the filament heats up rapidly. This higher temperature significantly increases its resistance, causing the slope (V/I) to increase.",
+          "As current increases, the magnetic field restricts electron flow, pushing the curve upwards.",
+          "The tungsten filament becomes a superconductor at high voltages."
+        ],
+        "correct": 1,
+        "sol": "<b>Explanation:</b> A filament bulb is a non-ohmic resistor. As more voltage is applied, more current flows, which massively heats the tungsten filament to glowing temperatures. <b>In metals, resistance strictly increases with an increase in temperature</b>. Since the slope of a V-I graph represents Resistance (\\( R = V/I \\)), an increasing resistance forces the slope to become steeper, making the line curve distinctly towards the Voltage (Y) axis."
+      },
+      {
+        "id": "CEL_047",
+        "topic": "Electromotive Force (e.m.f) & Internal Resistance",
+        "q": "<b>[Topper Challenge]</b> Two perfectly identical chemical cells, each having an e.m.f. of \\( 1.5 \\text{ V} \\) and an internal resistance of \\( 0.4 \\text{ } \\Omega \\), are connected purely in parallel to each other. This combination is then connected to an external circuit. What is the equivalent e.m.f. and equivalent internal resistance of this parallel cell combination?",
+        "options": [
+          "e.m.f. = 3.0 V, Internal Resistance = 0.8 Ω",
+          "e.m.f. = 1.5 V, Internal Resistance = 0.2 Ω",
+          "e.m.f. = 3.0 V, Internal Resistance = 0.2 Ω",
+          "e.m.f. = 1.5 V, Internal Resistance = 0.8 Ω"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Equivalent e.m.f.</b> When identical cells are connected in parallel, the total potential difference available remains exactly the same as a single cell. Therefore, Equivalent e.m.f. = <b>1.5 V</b>.<br><b>Step 2: Equivalent Internal Resistance.</b> The internal resistances act strictly like standard parallel resistors. \\( \\frac{1}{r_{eq}} = \\frac{1}{0.4} + \\frac{1}{0.4} = \\frac{2}{0.4} \\). Solving this gives \\( r_{eq} = \\frac{0.4}{2} = \\) <b>0.2 Ω</b>."
+      },
+      {
+        "id": "CEL_048",
+        "topic": "Electrical Energy & Power",
+        "q": "<b>[Topper Challenge]</b> Two household appliances are rated at '100 W, 220 V' and '60 W, 220 V'. By mistake, a student connects these two appliances in SERIES across a standard 220 V mains supply. What will be the total electrical power consumed by this series combination?",
+        "options": [
+          "160 W",
+          "40 W",
+          "37.5 W",
+          "80 W"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Find individual resistances.</b> \\( R_1 = \\frac{220^2}{100} = 484 \\text{ } \\Omega \\). \\( R_2 = \\frac{220^2}{60} = 806.67 \\text{ } \\Omega \\).<br><b>Step 2: Find total series resistance.</b> \\( R_s = R_1 + R_2 = 484 + 806.67 = 1290.67 \\text{ } \\Omega \\).<br><b>Step 3: Calculate Total Power.</b> The combination is connected to 220 V. Total Power \\( P_{total} = \\frac{V^2}{R_s} = \\frac{220^2}{1290.67} = 37.5 \\text{ W} \\).<br><b>Shortcut Formula:</b> For rated power in series across the same rated voltage, \\( P_{total} = \\frac{P_1 \\times P_2}{P_1 + P_2} = \\frac{100 \\times 60}{160} = \\frac{6000}{160} = \\) <b>37.5 W</b>."
+      },
+      {
+        "id": "CEL_049",
+        "topic": "Combination of Resistors",
+        "q": "<b>[Topper Challenge]</b> Three identical resistors, each with a resistance of 6 Ω, are soldered together to form the three sides of a closed triangle (Vertices A, B, and C). What is the equivalent electrical resistance measured across any two vertices (e.g., between A and B)?",
+        "options": [
+          "18 Ω",
+          "9 Ω",
+          "4 Ω",
+          "2 Ω"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Visualize the circuit.</b> Connecting a battery across vertices A and B provides two paths for the current. Path 1 goes directly from A to B through one 6 Ω resistor. Path 2 goes from A to C, and then C to B.<br><b>Step 2: Resolve the series branch.</b> The path A $\\rightarrow$ C $\\rightarrow$ B consists of two 6 Ω resistors in series. Their combined resistance is \\( 6 + 6 = 12 \\text{ } \\Omega \\).<br><b>Step 3: Resolve the parallel combination.</b> This 12 Ω branch is strictly in parallel with the direct 6 Ω branch (A to B). \\( R_{eq} = \\frac{12 \\times 6}{12 + 6} = \\frac{72}{18} = \\) <b>4 Ω</b>."
+      },
+      {
+        "id": "CEL_050",
+        "topic": "Electromotive Force (e.m.f) & Internal Resistance",
+        "q": "<b>[Topper Challenge]</b> A battery having a fixed e.m.f. (\\( \\epsilon \\)) and a fixed internal resistance (\\( r \\)) is connected to a variable external resistor (\\( R \\)). According to the Maximum Power Transfer Theorem, under what exact condition will the battery deliver the absolute maximum electrical power to the external resistor?",
+        "options": [
+          "When the external resistance \\( R \\) is exactly zero (a short circuit).",
+          "When the external resistance \\( R \\) is made infinitely large.",
+          "When the external resistance \\( R \\) is perfectly equal to the internal resistance \\( r \\).",
+          "When the external resistance \\( R \\) is exactly half the internal resistance (\\( r/2 \\))."
+        ],
+        "correct": 2,
+        "sol": "<b>Concept:</b> Power transfer optimization.<br><b>Explanation:</b> The power delivered to the external circuit is given by \\( P = I^2 R = \\left(\\frac{\\epsilon}{R+r}\\right)^2 R \\). Using calculus, it can be proven that this power value peaks (reaches its maximum limit) strictly when the external resistance is matched perfectly with the internal resistance of the power source. Therefore, maximum power is delivered when <b>\\( R = r \\)</b>."
       }
     ]
   }
