@@ -3288,12 +3288,18 @@
           sol: "<b>Step 1: Relation between Force and Momentum</b><br>According to Newton's Second Law, the total change in momentum (Impulse) is simply the area under the Force-Time (F-t) curve.<br><br><b>Step 2: Calculate the area under the graph</b><br>The graph consists of a uniform rectangle from t=0 to t=5s and a descending triangle from t=5s to t=9s.<br>Area of rectangle = \\( \\text{base} \\times \\text{height} = 5 \\times 10 = 50 \\, \\text{N-s} \\).<br>Area of triangle = \\( \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times (9-5) \\times 10 = \\frac{1}{2} \\times 4 \\times 10 = 20 \\, \\text{N-s} \\).<br><br><b>Step 3: Total momentum</b><br>Total area = \\( 50 + 20 = 70 \\, \\text{N-s} \\). Therefore, the momentum acquired is 70 N-s."
         },
         {
-          id: 11, topic: "Laws of Motion",
-          q: "The graph shows the velocities of two objects as function of time. Mass of object-1 is twice of that of object-2. Net forces \\( F_A \\), \\( F_B \\), and \\( F_C \\) are acting on the objects during intervals A, B, and C, respectively. Which one of the following choices is the correct relationship between the magnitudes of the net forces? ",
-          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgul75ms14MGF7g3UohMzm6un5nWztHaMPWE8wQrLTLfrhXHZZJ0tmH8OtWu6CLRX75qDcFTOyHR7Foc3dFoxHQRY-l-lih78C_LDF5Wrs35tP6cXVY8De4vRqqv8W8XL9Z2Po3V9tZXS_gS6LFaYX5ytg2YaUT8oKEDpZHxl-ZWE13YgkPonxD5oT6RXuu",
-          options: ["(1) \\( F_B=F_C > F_A \\)", "(2) \\( F_C=F_B=F_A \\)", "(3) \\( F_A > F_B=F_C \\)", "(4) \\( F_A > F_B > F_C \\)"],
-          correct: 2, 
-          sol: "<b>Step 1: Analyze acceleration from slopes</b><br>The slope of a velocity-time graph represents acceleration.<br>In interval A, Object-1 has a positive slope, meaning it has a non-zero acceleration (\\( a_A > 0 \\)).<br>In interval B, Object-1's velocity is constant (horizontal line), so its acceleration is zero (\\( a_B = 0 \\)).<br>In interval C, Object-2's velocity is also constant (horizontal line), so its acceleration is zero (\\( a_C = 0 \\)).<br><br><b>Step 2: Relate acceleration to force</b><br>Using Newton's Second Law \\( F = ma \\):<br>\\( F_A = m_1 \\times a_A \\) (which is > 0).<br>\\( F_B = m_1 \\times 0 = 0 \\).<br>\\( F_C = m_2 \\times 0 = 0 \\).<br><br><b>Step 3: Compare magnitudes</b><br>Since \\( F_A > 0 \\) and \\( F_B = F_C = 0 \\), the correct mathematical relationship is \\( F_A > F_B = F_C \\)."
+        id: 11, 
+        topic: "Laws of Motion",
+        q: "The graph shows the velocities of two objects as function of time. Mass of object-1 is twice of that of object-2. Net forces \\( F_A \\), \\( F_B \\), and \\( F_C \\) are acting on the objects during intervals A, B, and C, respectively. Which one of the following choices is the correct relationship between the magnitudes of the net forces? ",
+        imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEgul75ms14MGF7g3UohMzm6un5nWztHaMPWE8wQrLTLfrhXHZZJ0tmH8OtWu6CLRX75qDcFTOyHR7Foc3dFoxHQRY-l-lih78C_LDF5Wrs35tP6cXVY8De4vRqqv8W8XL9Z2Po3V9tZXS_gS6LFaYX5ytg2YaUT8oKEDpZHxl-ZWE13YgkPonxD5oT6RXuu",
+        options: [
+        "(1) \\( F_B=F_C > F_A \\)", 
+        "(2) \\( F_C=F_B=F_A \\)", 
+        "(3) \\( F_A > F_B=F_C \\)", 
+        "(4) \\( F_A > F_B > F_C \\)"
+        ],
+        correct: 1, 
+        sol: "<b>Step 1: Analyze acceleration from slopes</b><br>The slope of a velocity-time graph represents acceleration. Let each grid unit of time be \\( \\Delta t \\) and each unit of velocity be \\( \\Delta v \\).<br>In interval A, Object-1 rises 1 unit over 4 time units, so \\( a_A = \\frac{1}{4} \\).<br>In interval B, Object-2 rises 1 unit over 2 time units, so \\( a_B = \\frac{1}{2} \\).<br>In interval C, Object-2 rises 1 unit over 2 time units, so \\( a_C = \\frac{1}{2} \\).<br><br><b>Step 2: Relate acceleration to force</b><br>Using Newton's Second Law \\( F = ma \\) and substituting \\( m_1 = 2m_2 \\):<br>\\( F_A = m_1 \\times a_A = (2m_2) \\times \\frac{1}{4} = 0.5m_2 \\).<br>\\( F_B = m_2 \\times a_B = (m_2) \\times \\frac{1}{2} = 0.5m_2 \\).<br>\\( F_C = m_2 \\times a_C = (m_2) \\times \\frac{1}{2} = 0.5m_2 \\).<br><br><b>Step 3: Compare magnitudes</b><br>Since all three calculated forces are equal to \\( 0.5m_2 \\), the correct relationship is \\( F_C = F_B = F_A \\)."
         },
         {
           id: 12, topic: "Laws of Motion",
