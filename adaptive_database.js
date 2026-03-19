@@ -219,6 +219,200 @@ const adaptiveDatabase = {
         ],
         "correct": 1,
         "sol": "<b>Step 1: Force Balance</b><br>For the ball to be in suspended equilibrium, the upward electrostatic force must exactly balance the downward gravitational force.<br>\\[ \\begin{aligned} F_e &= F_g \\\\ qE &= mg \\end{aligned} \\\\]<br><br><b>Step 2: Direction of Field</b><br>Since the charge is positive (\\( +5 \\mu\\text{C} \\)), the electric field must point in the same direction as the required electrostatic force (Upward).<br><br><b>Step 3: Calculate Magnitude</b><br>\\[ \\begin{aligned} E &= \\frac{mg}{q} \\\\ &= \\frac{9 \\times 10^{-5} \\times 10}{5 \\times 10^{-6}} \\\\ &= \\frac{90 \\times 10^{-5}}{5 \\times 10^{-6}} \\\\ &= 18 \\times 10^{-1} = 1.8 \\text{ V/m} \\end{aligned} \\\\]<br><i>Correction: Wait, let's recalculate carefully:</i><br>\\[ \\begin{aligned} E &= \\frac{90 \\times 10^{-5}}{50 \\times 10^{-7}} = \\frac{9 \\times 10^{-4}}{5 \\times 10^{-6}} = 180 \\text{ V/m} \\end{aligned} \\\\]<br><i>Wait, the options dictate:</i><br>\\[ \\begin{aligned} E &= \\frac{9 \\times 10^{-4}}{5 \\times 10^{-6}} = 1.8 \\times 10^2 \\text{ V/m} \\end{aligned} \\\\]<br><i>Re-evaluating math based on typical JEE errors:</i><br>\\[ \\begin{aligned} E &= \\frac{9 \\times 10^{-5} \\times 10}{5 \\times 10^{-6}} = 0.18 \\times 10^0 = 0.18 \\text{ V/m} \\end{aligned} \\\\]" // Corrected Option is 0.18 V/m
+      },
+      // --- BATCH 3: C.U.Q & LEVEL II MIX ---
+      {
+        "id": "ADP-ES-014",
+        "topic": "Coulomb's Law",
+        "difficulty": 1,
+        "tags": ["Charge Distribution", "Conceptual"],
+        "q": "A soap bubble is given a negative charge, then its radius:",
+        "imgUrl": "",
+        "options": [
+          "Decreases",
+          "Increases",
+          "Remains unchanged",
+          "Nothing can be predicted"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Understand Charge Distribution</b><br>When a soap bubble is given a charge (whether positive or negative), the charges distribute themselves uniformly over its outer surface.<br><br><b>Step 2: Electrostatic Repulsion</b><br>Because like charges repel each other, an outward electrostatic pressure is created on the entire surface of the bubble. This outward force causes the bubble to expand, meaning its radius <b>increases</b>."
+      },
+      {
+        "id": "ADP-ES-015",
+        "topic": "Electric Field",
+        "difficulty": 1,
+        "tags": ["Acceleration", "Specific Charge"],
+        "q": "The acceleration of a charged particle in a uniform electric field is:",
+        "imgUrl": "",
+        "options": [
+          "Proportional to its charge only",
+          "Inversely proportional to its mass only",
+          "Proportional to its specific charge",
+          "Inversely proportional to its specific charge"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Force and Acceleration</b><br>The electrostatic force experienced by a charged particle in a uniform electric field \\( E \\) is \\( F = qE \\). By Newton's second law, \\( F = ma \\).<br><br><b>Step 2: Calculate Acceleration</b><br>\\[ \\begin{aligned} ma &= qE \\\\ a &= \\left(\\frac{q}{m}\\right) E \\end{aligned} \\\\]<br>The ratio \\( \\frac{q}{m} \\) is a fundamental physics property known as the <b>specific charge</b>. Since \\( E \\) is constant, the acceleration is directly proportional to the specific charge."
+      },
+      {
+        "id": "ADP-ES-016",
+        "topic": "Electric Field",
+        "difficulty": 1,
+        "tags": ["Gauss's Law", "Conductors"],
+        "q": "The intensity of the electric field inside a uniformly charged hollow conducting sphere is:",
+        "imgUrl": "",
+        "options": [
+          "Zero",
+          "A non-zero constant",
+          "Changes with distance r",
+          "Inversely proportional to r"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Apply Gauss's Law</b><br>According to Gauss's Law, the total electric flux through a closed Gaussian surface is proportional to the enclosed charge.<br><br><b>Step 2: Evaluate Inside the Sphere</b><br>For a charged hollow conducting sphere, all the charge resides exclusively on its outer surface. If we draw a Gaussian surface inside the sphere, the enclosed charge \\( q_{enclosed} = 0 \\). Therefore, the electric field intensity inside the sphere is identically <b>zero</b> everywhere."
+      },
+      {
+        "id": "ADP-ES-017",
+        "topic": "Coulomb's Law",
+        "difficulty": 1,
+        "tags": ["Quantization of Charge"],
+        "q": "One million electrons are added to a glass rod. The total charge on the rod is:",
+        "imgUrl": "",
+        "options": [
+          "\\( 10^{-13} \\text{ C} \\)",
+          "\\( -1.6 \\times 10^{-13} \\text{ C} \\)",
+          "\\( +1.6 \\times 10^{-12} \\text{ C} \\)",
+          "\\( 10^{-12} \\text{ C} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Quantization of Charge Formula</b><br>The total charge \\( q \\) added or removed from a body is given by \\( q = ne \\), where \\( n \\) is the number of electrons and \\( e \\) is the fundamental charge of an electron (\\( -1.6 \\times 10^{-19} \\text{ C} \\)).<br><br><b>Step 2: Calculate Total Charge</b><br>We are adding \\( 1 \\text{ million} = 10^6 \\) electrons.<br>\\[ \\begin{aligned} q &= n \\times e \\\\ &= 10^6 \\times (-1.6 \\times 10^{-19}) \\\\ &= -1.6 \\times 10^{-13} \\text{ C} \\end{aligned} \\\\]"
+      },
+      {
+        "id": "ADP-ES-018",
+        "topic": "Electric Field",
+        "difficulty": 2,
+        "tags": ["Potential Gradient", "Force"],
+        "q": "The potential difference between two parallel plates separated by a distance of \\( 1 \\text{ mm} \\) is \\( 100 \\text{ V} \\). The force on an electron placed in between the plates is:",
+        "imgUrl": "",
+        "options": [
+          "\\( 10^5 \\text{ N} \\)",
+          "\\( 1.6 \\times 10^{-24} \\text{ N} \\)",
+          "\\( 1.6 \\times 10^{-14} \\text{ N} \\)",
+          "\\( 1.6 \\times 10^{-19} \\text{ N} \\)"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Calculate Electric Field</b><br>The uniform electric field \\( E \\) between parallel plates is given by the potential gradient \\( E = \\frac{V}{d} \\).<br>\\[ \\begin{aligned} E &= \\frac{100}{1 \\times 10^{-3}} \\\\ &= 10^5 \\text{ V/m} \\end{aligned} \\\\]<br><br><b>Step 2: Calculate Electrostatic Force</b><br>The force on the electron is \\( F = qE \\).<br>\\[ \\begin{aligned} F &= (1.6 \\times 10^{-19}) \\times 10^5 \\\\ &= 1.6 \\times 10^{-14} \\text{ N} \\end{aligned} \\\\]"
+      },
+      {
+        "id": "ADP-ES-019",
+        "topic": "Coulomb's Law",
+        "difficulty": 2,
+        "tags": ["Quantization of Charge", "Equating Forces"],
+        "q": "The excess (equal in number) electrons that must be placed on each of two small spheres spaced \\( 3 \\text{ cm} \\) apart for the force of repulsion between the spheres to be \\( 10^{-19} \\text{ N} \\) is:",
+        "imgUrl": "",
+        "options": [
+          "25",
+          "225",
+          "625",
+          "1250"
+        ],
+        "correct": 2,
+        "sol": "<b>Step 1: Find the Charge via Coulomb's Law</b><br>Let the charge on each sphere be \\( q \\).<br>\\[ \\begin{aligned} F &= \\frac{1}{4\\pi\\epsilon_0} \\frac{q^2}{r^2} \\\\ 10^{-19} &= (9 \\times 10^9) \\frac{q^2}{(3 \\times 10^{-2})^2} \\\\ 10^{-19} &= \\frac{9 \\times 10^9 \\times q^2}{9 \\times 10^{-4}} \\\\ q^2 &= 10^{-32} \\implies q = 10^{-16} \\text{ C} \\end{aligned} \\\\]<br><br><b>Step 2: Find Number of Electrons</b><br>Using quantization of charge \\( q = ne \\):<br>\\[ \\begin{aligned} n &= \\frac{q}{e} \\\\ &= \\frac{10^{-16}}{1.6 \\times 10^{-19}} \\\\ &= \\frac{1000}{1.6} = 625 \\end{aligned} \\\\]"
+      },
+      // --- BATCH 4: KINEMATICS & SUPERPOSITION (LEVEL 1 & 2) ---
+      {
+        "id": "ADP-ES-020",
+        "topic": "Coulomb's Law",
+        "difficulty": 2,
+        "tags": ["Null Point", "Coordinate System"],
+        "q": "A charge of \\( +2 \\mu\\text{C} \\) is placed at \\( x = 0 \\) and a charge of \\( -32 \\mu\\text{C} \\) at \\( x = 60 \\text{ cm} \\). A third charge \\( -Q \\) is placed on the x-axis such that it experiences no net force. The coordinate of this point on the x-axis is (in cm):",
+        "imgUrl": "",
+        "options": [
+          "-20",
+          "20",
+          "15",
+          "10"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Locate the Null Point Region</b><br>For two opposite charges, the null point (where net force is zero) always lies <b>outside</b> the region between them, on the side of the charge with the smaller magnitude (the \\( +2 \\mu\\text{C} \\) charge at \\( x = 0 \\)). Therefore, the coordinate must be negative.<br><br><b>Step 2: Equate the Forces</b><br>Let the distance from the \\( 2 \\mu\\text{C} \\) charge be \\( x \\). The distance from the \\( -32 \\mu\\text{C} \\) charge will be \\( (60 + x) \\).<br>\\[ \\begin{aligned} \\frac{k (2)}{x^2} &= \\frac{k (32)}{(60 + x)^2} \\\\ \\frac{1}{x^2} &= \\frac{16}{(60 + x)^2} \\end{aligned} \\\\]<br><br><b>Step 3: Solve for x</b><br>Taking the square root of both sides:<br>\\[ \\begin{aligned} \\frac{1}{x} &= \\frac{4}{60 + x} \\\\ 60 + x &= 4x \\\\ 3x &= 60 \\implies x = 20 \\text{ cm} \\end{aligned} \\\\]<br>Since it lies to the left of the origin, the exact coordinate is <b>-20 cm</b>."
+      },
+      {
+        "id": "ADP-ES-021",
+        "topic": "Electric Field",
+        "difficulty": 1,
+        "tags": ["Equilibrium", "Pendulum"],
+        "q": "A mass \\( m \\) carrying a charge \\( q \\) is suspended from a string and placed in a uniform horizontal electric field of intensity \\( E \\). The angle \\( \\theta \\) made by the string with the vertical in the equilibrium position is:",
+        "imgUrl": "",
+        "options": [
+          "\\( \\theta = \\tan^{-1}\\left(\\frac{mg}{Eq}\\right) \\)",
+          "\\( \\theta = \\tan^{-1}\\left(\\frac{m}{Eq}\\right) \\)",
+          "\\( \\theta = \\tan^{-1}\\left(\\frac{Eq}{m}\\right) \\)",
+          "\\( \\theta = \\tan^{-1}\\left(\\frac{Eq}{mg}\\right) \\)"
+        ],
+        "correct": 3,
+        "sol": "<b>Step 1: Identify the Forces</b><br>Three forces act on the suspended bob in equilibrium:<br>1. Tension \\( T \\) in the string.<br>2. Weight \\( mg \\) acting downwards.<br>3. Electrostatic force \\( F_e = qE \\) acting horizontally.<br><br><b>Step 2: Resolve Tension into Components</b><br>The vertical component of tension balances the weight, and the horizontal component balances the electric force:<br>\\[ \\begin{aligned} T \\cos\\theta &= mg \\\\ T \\sin\\theta &= qE \\end{aligned} \\\\]<br><br><b>Step 3: Solve for the Angle</b><br>Divide the second equation by the first:<br>\\[ \\begin{aligned} \\frac{T \\sin\\theta}{T \\cos\\theta} &= \\frac{qE}{mg} \\\\ \\tan\\theta &= \\frac{qE}{mg} \\\\ \\theta &= \\tan^{-1}\\left(\\frac{Eq}{mg}\\right) \\end{aligned} \\\\]"
+      },
+      {
+        "id": "ADP-ES-022",
+        "topic": "Electric Field",
+        "difficulty": 2,
+        "tags": ["Kinematics", "Time of Flight"],
+        "q": "A proton of mass \\( m \\) and charge \\( e \\) is released from rest in a uniform electric field of strength \\( E \\). The time taken by it to travel a distance \\( d \\) in the field is:",
+        "imgUrl": "",
+        "options": [
+          "\\( \\sqrt{\\frac{2de}{mE}} \\)",
+          "\\( \\sqrt{\\frac{2dm}{Ee}} \\)",
+          "\\( \\sqrt{\\frac{2dE}{me}} \\)",
+          "\\( \\sqrt{\\frac{2Ee}{dm}} \\)"
+        ],
+        "correct": 1,
+        "sol": "<b>Step 1: Calculate Acceleration</b><br>The electrostatic force on the proton is \\( F = eE \\). Using Newton's second law, the acceleration is:<br>\\[ \\begin{aligned} a &= \\frac{F}{m} = \\frac{eE}{m} \\end{aligned} \\\\]<br><br><b>Step 2: Apply Kinematics</b><br>The proton starts from rest (\\( u = 0 \\)). Using the second equation of motion \\( s = ut + \\frac{1}{2}at^2 \\):<br>\\[ \\begin{aligned} d &= 0 + \\frac{1}{2} \\left( \\frac{eE}{m} \\right) t^2 \\\\ t^2 &= \\frac{2dm}{eE} \\\\ t &= \\sqrt{\\frac{2dm}{Ee}} \\end{aligned} \\\\]"
+      },
+      {
+        "id": "ADP-ES-023",
+        "topic": "Electric Field",
+        "difficulty": 2,
+        "tags": ["Superposition", "Infinite Series"],
+        "q": "An infinite number of charges, each of magnitude \\( q \\), are placed on the x-axis at distances of 1, 2, 4, 8, ... meters from the origin. The intensity of the electric field at the origin is:",
+        "imgUrl": "",
+        "options": [
+          "\\( \\frac{q}{3\\pi\\epsilon_0} \\)",
+          "\\( \\frac{q}{6\\pi\\epsilon_0} \\)",
+          "\\( \\frac{q}{2\\pi\\epsilon_0} \\)",
+          "\\( \\frac{q}{4\\pi\\epsilon_0} \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Set up the Superposition Series</b><br>The total electric field at the origin is the sum of the fields from each individual charge.<br>\\[ \\begin{aligned} E &= \\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{1}{1^2} + \\frac{1}{2^2} + \\frac{1}{4^2} + \\frac{1}{8^2} + ... \\right] \\\\ &= \\frac{q}{4\\pi\\epsilon_0} \\left[ 1 + \\frac{1}{4} + \\frac{1}{16} + \\frac{1}{64} + ... \\right] \\end{aligned} \\\\]<br><br><b>Step 2: Sum the Infinite Geometric Progression</b><br>The series in the brackets is an infinite GP with first term \\( a = 1 \\) and common ratio \\( r = \\frac{1}{4} \\).<br>\\[ \\begin{aligned} S_{\\infty} &= \\frac{a}{1 - r} = \\frac{1}{1 - 1/4} = \\frac{1}{3/4} = \\frac{4}{3} \\end{aligned} \\\\]<br><br><b>Step 3: Final Calculation</b><br>\\[ \\begin{aligned} E &= \\frac{q}{4\\pi\\epsilon_0} \\times \\frac{4}{3} \\\\ &= \\frac{q}{3\\pi\\epsilon_0} \\end{aligned} \\\\]"
+      },
+      {
+        "id": "ADP-ES-024",
+        "topic": "Coulomb's Law",
+        "difficulty": 2,
+        "tags": ["Vector Addition", "Equilateral Triangle"],
+        "q": "Two charges of \\( +200 \\mu\\text{C} \\) and \\( -200 \\mu\\text{C} \\) are placed at the corners B and C of an equilateral triangle ABC of side 0.1 m. The force on a charge of \\( 5 \\mu\\text{C} \\) placed at A is:",
+        "imgUrl": "",
+        "options": [
+          "1800 N",
+          "\\( 1200\\sqrt{3} \\text{ N} \\)",
+          "\\( 600\\sqrt{3} \\text{ N} \\)",
+          "900 N"
+        ],
+        "correct": 3,
+        "sol": "<b>Step 1: Calculate Individual Force Magnitudes</b><br>The force \\( F_B \\) (repulsive) and \\( F_C \\) (attractive) on the \\( 5 \\mu\\text{C} \\) charge at A have the same magnitude because the distances and charge magnitudes are identical.<br>\\[ \\begin{aligned} F &= \\frac{k q_1 q_2}{r^2} \\\\ &= \\frac{9 \\times 10^9 \\times (200 \\times 10^{-6}) \\times (5 \\times 10^{-6})}{(0.1)^2} \\\\ &= \\frac{9 \\times 10^9 \\times 1000 \\times 10^{-12}}{0.01} \\\\ &= \\frac{9}{0.01} = 900 \\text{ N} \\end{aligned} \\\\]<br><br><b>Step 2: Vector Addition</b><br>The repulsive force \\( F_B \\) points away from B, and the attractive force \\( F_C \\) points towards C. Because it is an equilateral triangle, the angle between these two force vectors is \\( 120^\\circ \\).<br>\\[ \\begin{aligned} F_{net} &= \\sqrt{F^2 + F^2 + 2F^2 \\cos(120^\\circ)} \\\\ &= \\sqrt{2F^2 + 2F^2 (-0.5)} \\\\ &= \\sqrt{F^2} = F \\end{aligned} \\\\]<br>Therefore, the net force is exactly <b>900 N</b>."
+      },
+      {
+        "id": "ADP-ES-025",
+        "topic": "Electric Field",
+        "difficulty": 1,
+        "tags": ["Acceleration", "Direct Formula"],
+        "q": "An electron (mass = \\( 9.1 \\times 10^{-31} \\text{ kg} \\)) is sent into an electric field of intensity \\( 9.1 \\times 10^6 \\text{ N/C} \\). The acceleration produced is:",
+        "imgUrl": "",
+        "options": [
+          "\\( 1.6 \\times 10^{18} \\text{ m/s}^2 \\)",
+          "\\( 1.6 \\times 10^{16} \\text{ m/s}^2 \\)",
+          "\\( 1.6 \\times 10^{-18} \\text{ m/s}^2 \\)",
+          "\\( 1.6 \\times 10^{-6} \\text{ m/s}^2 \\)"
+        ],
+        "correct": 0,
+        "sol": "<b>Step 1: Formula for Acceleration</b><br>The acceleration of a charged particle in an electric field is derived from Newton's second law \\( (F = ma) \\) and the electrostatic force \\( (F = qE) \\).<br>\\[ \\begin{aligned} a &= \\frac{qE}{m} \\end{aligned} \\\\]<br><br><b>Step 2: Plug in the Values</b><br>Using the charge of an electron \\( e = 1.6 \\times 10^{-19} \\text{ C} \\):<br>\\[ \\begin{aligned} a &= \\frac{1.6 \\times 10^{-19} \\times 9.1 \\times 10^6}{9.1 \\times 10^{-31}} \\end{aligned} \\\\]<br><br><b>Step 3: Simplify</b><br>The \\( 9.1 \\) in the numerator and denominator perfectly cancel out!<br>\\[ \\begin{aligned} a &= 1.6 \\times 10^{-19 + 6 - (-31)} \\\\ &= 1.6 \\times 10^{18} \\text{ m/s}^2 \\end{aligned} \\\\]"
       }
     ]
   }
