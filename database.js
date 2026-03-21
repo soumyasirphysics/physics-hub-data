@@ -7759,6 +7759,7 @@
         {
           id: 12, topic: "Electric Charges and Fields",
           q: "A wooden block performing SHM on a frictionless surface has a frequency \\( \\nu_0 \\). The block carries a charge +Q on its surface. If now a uniform electric field \\( \\vec{E} \\) is switched-on as shown, then the SHM of the block will be",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh-Whw1UjNE6g7WEzTk1MPt-zGfAX5mKkchf_KzWGKzNWsDmJV6PU9IdkH1jjDyfyImPh_GrHLrTkviS13hyAiVyD85xtjjpGwLUtAY75meY8AX-sxCAj87YeL-JNuN_a17jU3CPYp-WsLnqGnVBTUwOsxr1h3eU_iowbIBiwcT0G-TlTwWhtzG8NYgShdD",
           options: ["of the same frequency and with shifted mean position", "of the same frequency and with the same mean position", "of changed frequency and with shifted mean position", "of changed frequency and with the same mean position"],
           correct: 0, 
           sol: "<b>Step 1: Frequency Dependency</b><br>The frequency of an SHM system (\\( \\nu = \\frac{1}{2\\pi}\\sqrt{\\frac{K}{m}} \\)) depends only on the mass \\( m \\) and the restoring force constant \\( K \\). It does not depend on constant external forces.<br><br><b>Step 2: Effect of Electric Field</b><br>Switching on the uniform electric field provides a constant electrostatic force \\( F = QE \\). This constant force shifts the equilibrium (mean) position by a distance \\( x_0 = \\frac{QE}{K} \\), but it does not change the spring stiffness \\( K \\).<br>Therefore, the frequency remains the same, but the mean position shifts."
