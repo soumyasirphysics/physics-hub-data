@@ -208,6 +208,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Potential and Potential Energy",
                 "difficulty": 2,
                 "tags": ["Uniform Field", "Conceptual"],
+                "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEj8b7_YwE0wvdU5br2mNbVhMbp1kWgo0zCOyQ5vOygfbxX4F2wwaR1O-m9PMWtMnavXcOo8iq1zPfyiOLqXjj7ExhlHtl4IW8QAdybeF_AaIcZtN2yae_vPxAPVBWLbHrsUGx8L8A3rZqI1RunYPmyAixUnutRAuop5MP1oWgtLQ8lreRMJfVdWhl0E8b4X",
                 "q": "The electric field at the origin is along the positive x-axis. A small circle is drawn with its center at the origin, cutting the axes at points A $(a, 0)$, B $(0, a)$, C $(-a, 0)$, and D $(0, -a)$. On the periphery of the circle, the potential is minimum at:",
                 "options": ["A", "B", "C", "D"],
                 "correct": 0,
@@ -225,6 +226,17 @@ const adaptiveDatabase = {
             },
             {
                 "id": "ES-TEST-023",
+                "topic": "Electric Dipole",
+                "difficulty": 3,
+                "tags": ["Dipole Moment", "Vector Addition"],
+                "imgUrl": ["https://blogger.googleusercontent.com/img/a/AVvXsEi86OqzcuyOAAcKU37Pn2gBrgBC72Jnln4AOk0pQa49PpRxddLMG5duxaLkbm1_mAQnY8Lqq-Aphps0noPSBCNTMpeJ_3CvGCj14JXfdXCA-y7e0t8S-sFlTILHjGSmARZB6ATdSlkcYlYUqxViRenN3GJvs73JflkZqaq9jcmrwfheRaP9rIVPeynaMrBc"],
+                "q": "The dipole moment of the given system is:",
+                "options": ["$\\sqrt{3}ql$ along perpendicular bisector of q-q line", "$2ql$ along perpendicular bisector of q-q line", "$ql\\sqrt{2}$ along perpendicular bisector of q-q line", "0"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The $-2q$ charge at the origin can be split into two separate $-q$ charges.<br><b>Step 2:</b> This forms two distinct dipoles, each of dipole moment $p = ql$, positioned at an angle of $60^{\\circ}$ to each other.<br><b>Step 3:</b> The resultant vector is $p_{net} = \\sqrt{p^2 + p^2 + 2p^2 \\cos 60^{\\circ}}$.<br><b>Step 4:</b> Since $\\cos 60^{\\circ} = 0.5$, $p_{net} = \\sqrt{3p^2} = \\sqrt{3}ql$."
+            },
+            {
+                "id": "ES-TEST-024",
                 "topic": "Coulomb's Law",
                 "difficulty": 3,
                 "tags": ["Maxima and Minima", "Calculus Based"],
@@ -234,7 +246,7 @@ const adaptiveDatabase = {
                 "sol": "<b>Step 1:</b> Let the two parts be $q$ and $Q-q$. According to Coulomb's law, Force $F \\propto q(Q-q)$.<br><b>Step 2:</b> For maximum force, we differentiate and equate to zero: $\\frac{dF}{dq} = Q - 2q = 0 \\implies q = \\frac{Q}{2}$.<br><b>Step 3:</b> Thus, $q_1 = \\frac{Q}{2}$ and $q_2 = \\frac{Q}{2}$. The ratio is $Q : \\frac{Q}{2} : \\frac{Q}{2}$ which simplifies to $2 : 1 : 1$."
             },
             {
-                "id": "ES-TEST-024",
+                "id": "ES-TEST-025",
                 "topic": "Coulomb's Law",
                 "difficulty": 2,
                 "tags": ["Vector Form", "3D Geometry"],
@@ -244,7 +256,7 @@ const adaptiveDatabase = {
                 "sol": "<b>Step 1:</b> Find the position vector $\\vec{r} = \\vec{r}_P - \\vec{r}_Q = (2-1)\\hat{i} + (3-1)\\hat{j} + (1 - (-1))\\hat{k} = \\hat{i} + 2\\hat{j} + 2\\hat{k}$.<br><b>Step 2:</b> Calculate the distance $r = |\\vec{r}| = \\sqrt{1^2 + 2^2 + 2^2} = \\sqrt{9} = 3$ m.<br><b>Step 3:</b> Force $F = \\frac{k q_1 q_2}{r^2} = \\frac{9 \\times 10^9 \\times (10^{-6})^2}{3^2} = 10^{-3}$ N.<br><b>Step 4:</b> Convert to dynes ($1 N = 10^5$ dyne): $F = 10^{-3} \\times 10^5 = 100$ dyne."
             },
             {
-                "id": "ES-TEST-025",
+                "id": "ES-TEST-026",
                 "topic": "Coulomb's Law",
                 "difficulty": 3,
                 "tags": ["Vector Resolution", "Superposition"],
@@ -254,7 +266,7 @@ const adaptiveDatabase = {
                 "sol": "<b>Step 1:</b> The force magnitude due to B is $F_1 = \\frac{9\\times 10^9 \\times 200\\times 10^{-6} \\times 5\\times 10^{-6}}{0.1^2} = 900$ N (Repulsive).<br><b>Step 2:</b> The force magnitude due to C is $F_2 = 900$ N (Attractive).<br><b>Step 3:</b> The angle between the attractive and repulsive force vectors is $120^{\\circ}$.<br><b>Step 4:</b> Resultant force $F_{net} = \\sqrt{F_1^2 + F_2^2 + 2F_1 F_2 \\cos 120^{\\circ}} = \\sqrt{900^2 + 900^2 - 900^2} = 900$ N."
             },
             {
-                "id": "ES-TEST-026",
+                "id": "ES-TEST-027",
                 "topic": "Coulomb's Law",
                 "difficulty": 1,
                 "tags": ["Equilibrium", "Basic Formula"],
@@ -264,7 +276,7 @@ const adaptiveDatabase = {
                 "sol": "<b>Step 1:</b> Use Coulomb's Law: $F = \\frac{k q^2}{r^2}$.<br><b>Step 2:</b> Plug in the given values: $4 \\times 10^{-5} = \\frac{9 \\times 10^9 \\times q^2}{(0.03)^2}$.<br><b>Step 3:</b> Simplify the equation: $4 \\times 10^{-5} = \\frac{9 \\times 10^9 \\times q^2}{9 \\times 10^{-4}} = 10^{13} q^2$.<br><b>Step 4:</b> Solving gives $q^2 = 4 \\times 10^{-18} \\implies q = 2 \\times 10^{-9}$ C."
             },
             {
-                "id": "ES-TEST-027",
+                "id": "ES-TEST-028",
                 "topic": "Electric Field",
                 "difficulty": 1,
                 "tags": ["Mechanics Mix", "Kinematics"],
@@ -274,7 +286,7 @@ const adaptiveDatabase = {
                 "sol": "<b>Step 1:</b> The electric force acting on the electron is $F = eE$.<br><b>Step 2:</b> From Newton's second law, acceleration is $a = \\frac{F}{m} = \\frac{eE}{m}$.<br><b>Step 3:</b> $a = \\frac{1.6 \\times 10^{-19} \\times 9.1 \\times 10^6}{9.1 \\times 10^{-31}} = 1.6 \\times 10^{18}$ m/s²."
             },
             {
-                "id": "ES-TEST-028",
+                "id": "ES-TEST-029",
                 "topic": "Electric Field",
                 "difficulty": 3,
                 "tags": ["Vector Form", "Coordinate Geometry"],
@@ -284,7 +296,7 @@ const adaptiveDatabase = {
                 "sol": "<b>Step 1:</b> Establish the position vector $\\vec{r} = 0.3\\hat{i} + 0.3\\hat{j}$ meters. Its magnitude is $r = 0.3\\sqrt{2}$ m.<br><b>Step 2:</b> The electric field in vector form is $\\vec{E} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r^3} \\vec{r}$.<br><b>Step 3:</b> $\\vec{E} = \\frac{9 \\times 10^9 \\times (-8 \\times 10^{-9}) \\times 0.3(\\hat{i}+\\hat{j})}{(0.3\\sqrt{2})^3}$.<br><b>Step 4:</b> $\\vec{E} = \\frac{-21.6(\\hat{i}+\\hat{j})}{0.054\\sqrt{2}} = \\frac{-400}{\\sqrt{2}}(\\hat{i}+\\hat{j}) = -200\\sqrt{2}(\\hat{i}+\\hat{j})$."
             },
             {
-                "id": "ES-TEST-029",
+                "id": "ES-TEST-030",
                 "topic": "Electric Field",
                 "difficulty": 2,
                 "tags": ["Null Point", "Equilibrium"],
@@ -292,16 +304,6 @@ const adaptiveDatabase = {
                 "options": ["12 cm", "24 cm", "36 cm", "48 cm"],
                 "correct": 0,
                 "sol": "<b>Step 1:</b> For opposite charges, the null point (zero field) lies outside the region between the charges, situated closer to the smaller magnitude charge.<br><b>Step 2:</b> Let this point be at a distance $x$ from the $10 \\mu C$ charge. Equating field magnitudes: $\\frac{k(10)}{x^2} = \\frac{k(90)}{(24+x)^2}$.<br><b>Step 3:</b> Taking square roots on both sides gives: $\\frac{1}{x} = \\frac{3}{24+x}$.<br><b>Step 4:</b> Cross-multiply: $24 + x = 3x \\implies 2x = 24 \\implies x = 12$ cm."
-            },
-            {
-                "id": "ES-TEST-030",
-                "topic": "Electric Field",
-                "difficulty": 2,
-                "tags": ["Superposition", "Symmetry"],
-                "q": "Two electric charges of $+10^{-9}$ C and $-10^{-9}$ C are placed at the corners A and B of an equilateral triangle ABC of side 5 cm. The electric intensity at corner C is:",
-                "options": ["1800 N/C", "3600 N/C", "900 N/C", "2700 N/C"],
-                "correct": 1,
-                "sol": "<b>Step 1:</b> Field magnitude generated by one charge at C: $E_1 = \\frac{k q}{a^2} = \\frac{9 \\times 10^9 \\times 10^{-9}}{(0.05)^2} = \\frac{9}{0.0025} = 3600$ N/C.<br><b>Step 2:</b> Because they are equal and opposite charges, the two field vectors at C form an angle of $120^{\\circ}$ (one points outward from A, one points inward toward B).<br><b>Step 3:</b> The resultant field is $E_{net} = \\sqrt{E_1^2 + E_1^2 + 2E_1^2 \\cos 120^{\\circ}}$.<br><b>Step 4:</b> Since $\\cos 120^{\\circ} = -0.5$, $E_{net} = \\sqrt{E_1^2} = 3600$ N/C."
             }
         ]
     }
