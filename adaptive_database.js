@@ -985,5 +985,162 @@ const adaptiveDatabase = {
                 "sol": "<b>Step 1:</b> The electric field $\\vec{E}$ is always perpendicular to equipotential surfaces and points in the direction of decreasing potential (from 30V towards 10V).<br><b>Step 2:</b> Find the perpendicular distance ($\\Delta r$) between two adjacent surfaces, such as the 10V and 20V lines. The distance along the x-axis is $\\Delta x = 10\\text{ cm} - 5\\text{ cm} = 5\\text{ cm} = 0.05\\text{ m}$.<br><b>Step 3:</b> From the right-angled triangle formed by $\\Delta x$ and the perpendicular distance, $\\Delta r = \\Delta x \\sin(30^{\\circ})$.<br><b>Step 4:</b> $\\Delta r = 0.05 \\times 0.5 = 0.025\\text{ m}$.<br><b>Step 5:</b> Calculate the magnitude of the electric field: $E = \\frac{|\\Delta V|}{\\Delta r} = \\frac{20 - 10}{0.025} = \\frac{10}{0.025} = 400\\text{ V/m}$.<br><b>Step 6:</b> The equipotential lines are tilted at $30^{\\circ}$ to the x-axis. The perpendicular direction pointing towards the lower potential (leftwards and upwards) makes an angle of $30^{\\circ} + 90^{\\circ} = 120^{\\circ}$ with the positive x-axis."
             }
         ]
+    },
+
+    "Units and Measurements": {
+        "classTarget": "Class 11",
+        "topics": ["ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS", "SIGNIFICANT FIGURES & ROUNDING OFF", "UNITS AND DIMENSIONAL FORMULAE", "PRINCIPLE OF HOMOGENEITY", "CONVERSION OF UNITS", "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS"],
+        "questions": [
+            {
+                "id": "UM-TEST-001",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Relative Error", "Least Count"],
+                "q": "The accuracy in the measurement of the diameter of hydrogen atom as $1.06\\times 10^{-10}$ m is:",
+                "options": ["0.01", "$106\\times 10^{-10}$", "$\\frac{1}{106}$", "$0.01\\times 10^{-10}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The measured value is $1.06 \\times 10^{-10}$ m.<br><b>Step 2:</b> The least count (absolute error) based on the significant figures given (two decimal places) is $0.01 \\times 10^{-10}$ m.<br><b>Step 3:</b> The accuracy or relative error is $\\frac{\\Delta d}{d} = \\frac{0.01 \\times 10^{-10}}{1.06 \\times 10^{-10}} = \\frac{1}{106}$."
+            },
+            {
+                "id": "UM-TEST-002",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 1,
+                "tags": ["Least Count", "Precision"],
+                "q": "The length of a rod is measured as 31.52 cm. Graduations on the scale are up to:",
+                "options": ["1 mm", "0.01 mm", "0.1 mm", "0.02 cm"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The measurement 31.52 cm has two decimal places, meaning the instrument measures precisely up to 0.01 cm.<br><b>Step 2:</b> This minimum measurable value is the least count or graduation of the scale.<br><b>Step 3:</b> Convert 0.01 cm to mm: $0.01 \\text{ cm} = 0.1 \\text{ mm}$."
+            },
+            {
+                "id": "UM-TEST-003",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Combination of Errors", "Division"],
+                "q": "If $L=(20\\pm 0.01)$ m and $B=(10\\pm 0.02)$ m then $L/B$ is:",
+                "options": ["$(2\\pm 0.03)$ m", "$(2\\pm 0.015)$ m", "$(2\\pm 0.01)$ m", "$(2\\pm 0.005)$ m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Calculate the central value: $x = \\frac{L}{B} = \\frac{20}{10} = 2$.<br><b>Step 2:</b> For division, relative errors add up: $\\frac{\\Delta x}{x} = \\frac{\\Delta L}{L} + \\frac{\\Delta B}{B}$.<br><b>Step 3:</b> Substitute the values: $\\frac{\\Delta x}{2} = \\frac{0.01}{20} + \\frac{0.02}{10} = 0.0005 + 0.002 = 0.0025$.<br><b>Step 4:</b> Absolute error $\\Delta x = 2 \\times 0.0025 = 0.005$.<br><b>Step 5:</b> The result is $(2\\pm 0.005)$ m."
+            },
+            {
+                "id": "UM-TEST-004",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Combination of Errors", "Powers"],
+                "q": "The radius of a sphere is measured as $(10\\pm 0.02\\%)$ cm. The error in the measurement of its volume is:",
+                "options": ["25.1 cc", "25.12 cc", "2.51 cc", "251.2 cc"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$.<br><b>Step 2:</b> The percentage error in volume is $3 \\times (\\text{percentage error in } r) = 3 \\times 0.02\\% = 0.06\\%$.<br><b>Step 3:</b> Calculate the actual volume: $V = \\frac{4}{3} \\times 3.14 \\times (10)^3 = \\frac{4000 \\times 3.14}{3} \\approx 4186.67$ cc.<br><b>Step 4:</b> Absolute error $\\Delta V = V \\times \\frac{0.06}{100} = 4186.67 \\times 0.0006 \\approx 2.51$ cc."
+            },
+            {
+                "id": "UM-TEST-005",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Combination of Errors", "Multiplication"],
+                "q": "If length and breadth of a plate are $(40\\pm 0.2)$ cm and $(30\\pm 0.1)$ cm the absolute error in measurement of area is:",
+                "options": ["$10\\text{ cm}^{2}$", "$8\\text{ cm}^{2}$", "$9\\text{ cm}^{2}$", "$7\\text{ cm}^{2}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The area is $A = L \\times B = 40 \\times 30 = 1200\\text{ cm}^2$.<br><b>Step 2:</b> For multiplication, $\\frac{\\Delta A}{A} = \\frac{\\Delta L}{L} + \\frac{\\Delta B}{B}$.<br><b>Step 3:</b> $\\Delta A = A \\left(\\frac{0.2}{40} + \\frac{0.1}{30}\\right) = 1200 \\left(\\frac{0.6 + 0.4}{120}\\right)$.<br><b>Step 4:</b> $\\Delta A = 1200 \\times \\frac{1}{120} = 10\\text{ cm}^2$."
+            },
+            {
+                "id": "UM-TEST-006",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 1,
+                "tags": ["Percentage Error"],
+                "q": "If the length of a cylinder is measured to be 4.28 cm with an error of 0.01 cm, the percentage error in the measured length is nearly:",
+                "options": ["0.4%", "0.5%", "0.2%", "0.1%"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Percentage error is given by $\\frac{\\Delta L}{L} \\times 100$.<br><b>Step 2:</b> Substitute the given values: $\\frac{0.01}{4.28} \\times 100$.<br><b>Step 3:</b> This equals $\\frac{1}{4.28} \\approx 0.233\\%$.<br><b>Step 4:</b> The closest option is $0.2\\%$."
+            },
+            {
+                "id": "UM-TEST-007",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Random Error", "Statistical Error"],
+                "q": "When 10 observations are taken, the random error is x. When 100 observations are taken, the random error becomes:",
+                "options": ["$x/10$", "$x^{2}$", "10 x", "$\\sqrt{x}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Random error is inversely proportional to the number of observations ($N$). Thus, $E \\propto \\frac{1}{N}$.<br><b>Step 2:</b> Therefore, $\\frac{E_2}{E_1} = \\frac{N_1}{N_2}$.<br><b>Step 3:</b> $\\frac{E_2}{x} = \\frac{10}{100} = \\frac{1}{10}$.<br><b>Step 4:</b> $E_2 = \\frac{x}{10}$."
+            },
+            {
+                "id": "UM-TEST-008",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Combination of Errors", "Addition"],
+                "q": "If $L_{1}=(2.02\\pm 0.01)$ m and $L_{2}=(1.02\\pm 0.01)$ m then $L_{1}+2L_{2}$ is (in m):",
+                "options": ["$4.06\\pm 0.02$", "$4.06\\pm 0.03$", "$4.06\\pm 0.005$", "$4.06\\pm 0.01$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Calculate the central value: $x = L_1 + 2L_2 = 2.02 + 2(1.02) = 2.02 + 2.04 = 4.06$ m.<br><b>Step 2:</b> For addition and scalar multiplication, the absolute errors add up: $\\Delta x = \\Delta L_1 + 2\\Delta L_2$.<br><b>Step 3:</b> $\\Delta x = 0.01 + 2(0.01) = 0.01 + 0.02 = 0.03$ m.<br><b>Step 4:</b> The final result is $(4.06\\pm 0.03)$ m."
+            },
+            {
+                "id": "UM-TEST-009",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Combination of Errors", "Division"],
+                "q": "A body travels uniformly a distance of $(20.0\\pm 0.2)$ m in time $(4.0\\pm 0.04)$ s. The velocity of the body is:",
+                "options": ["$(5.0\\pm 0.4)\\text{ ms}^{-1}$", "$(5.0\\pm 0.2)\\text{ ms}^{-1}$", "$(5.0\\pm 0.6)\\text{ ms}^{-1}$", "$(5.0\\pm 0.1)\\text{ ms}^{-1}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Velocity is $v = \\frac{s}{t} = \\frac{20.0}{4.0} = 5.0\\text{ ms}^{-1}$.<br><b>Step 2:</b> The relative error in velocity is $\\frac{\\Delta v}{v} = \\frac{\\Delta s}{s} + \\frac{\\Delta t}{t}$.<br><b>Step 3:</b> $\\frac{\\Delta v}{5.0} = \\frac{0.2}{20.0} + \\frac{0.04}{4.0} = 0.01 + 0.01 = 0.02$.<br><b>Step 4:</b> The absolute error $\\Delta v = 5.0 \\times 0.02 = 0.1\\text{ ms}^{-1}$.<br><b>Step 5:</b> The velocity is $(5.0\\pm 0.1)\\text{ ms}^{-1}$."
+            },
+            {
+                "id": "UM-TEST-010",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 1,
+                "tags": ["Rounding Off"],
+                "q": "If the value of 103.5 kg is rounded off to three significant figures, then the value is:",
+                "options": ["103", "103.0", "104", "10.3"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> We need to round 103.5 to three significant figures, which means dropping the 5.<br><b>Step 2:</b> According to rounding rules, if the digit to be dropped is exactly 5 and the preceding digit is odd, the preceding digit is increased by 1.<br><b>Step 3:</b> The preceding digit is 3 (odd), so it becomes 4.<br><b>Step 4:</b> The rounded value is 104 kg."
+            },
+            {
+                "id": "UM-TEST-011",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 1,
+                "tags": ["Scientific Notation", "Significant Figures"],
+                "q": "The number of significant figures in $6.023\\times 10^{23}\\text{ mole}^{-1}$ is:",
+                "options": ["4", "3", "2", "23"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> In scientific notation $A \\times 10^B$, the number of significant figures is determined solely by the coefficient $A$.<br><b>Step 2:</b> The coefficient here is 6.023.<br><b>Step 3:</b> All non-zero digits and zeros between them are significant. Thus, 6, 0, 2, and 3 are all significant.<br><b>Step 4:</b> There are 4 significant figures."
+            },
+            {
+                "id": "UM-TEST-012",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Propagation of Precision", "Powers"],
+                "q": "The side of a cube is 2.5 metre. The volume of the cube to the significant figures is:",
+                "options": ["15", "16", "1.5", "1.6"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The volume of a cube is $V = L^3 = (2.5)^3 = 15.625\\text{ m}^3$.<br><b>Step 2:</b> The measured length (2.5 m) has two significant figures.<br><b>Step 3:</b> The final result must be rounded to the same number of significant figures as the least precise measurement, which is two significant figures.<br><b>Step 4:</b> Rounding 15.625 to two significant figures gives 16."
+            },
+            {
+                "id": "UM-TEST-013",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 1,
+                "tags": ["Unit Conversion", "Significant Figures"],
+                "q": "When a force is expressed in dyne, the number of significant figures is four. If it is expressed in newton, the number of significant figures will become $(10^{5}\\text{ dyne}=1\\text{ N})$:",
+                "options": ["9", "5", "1", "4"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Changing the units of a physical quantity does not alter its precision or the number of significant figures.<br><b>Step 2:</b> A unit conversion is merely multiplying by an exact conversion factor (like $10^{-5}$), which has infinite significant figures.<br><b>Step 3:</b> Therefore, the number of significant figures remains 4."
+            },
+            {
+                "id": "UM-TEST-014",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Mathematical Operations", "Roots"],
+                "q": "$\\sqrt{2.0}$ is:",
+                "options": ["1.414", "1.4", "1.0", "1"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The number 2.0 has two significant figures.<br><b>Step 2:</b> The mathematical square root of 2 is approximately 1.41421...<br><b>Step 3:</b> Following the rules of significant figures, the result must be rounded to match the number of significant figures in the original value (two).<br><b>Step 4:</b> Rounding 1.414... to two significant figures gives 1.4."
+            },
+            {
+                "id": "UM-TEST-015",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 1,
+                "tags": ["Rules for Zeros", "Significant Figures"],
+                "q": "The number of significant figures in 0.010200 is:",
+                "options": ["6", "5", "3", "2"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> According to the rules of significant figures, leading zeros (zeros before the first non-zero digit) are not significant. So, '0.0' are not significant.<br><b>Step 2:</b> All non-zero digits are significant (1, 2).<br><b>Step 3:</b> Zeros between non-zero digits are significant (the 0 between 1 and 2).<br><b>Step 4:</b> Trailing zeros in a number with a decimal point are significant (the two 0s at the end).<br><b>Step 5:</b> Thus, 1, 0, 2, 0, 0 are significant, giving a total of 5 significant figures."
+            }
+        ]
     }
 };
