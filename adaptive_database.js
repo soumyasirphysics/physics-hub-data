@@ -2172,5 +2172,855 @@ const adaptiveDatabase = {
                 "sol": "<b>Step 1:</b> Write the dimensional formulas for the quantities: Velocity $V = [LT^{-1}]$, Pressure $P = [ML^{-1}T^{-2}]$, Density $d = [ML^{-3}]$.<br><b>Step 2:</b> Substitute into the proportional relation: $[LT^{-1}] = [ML^{-1}T^{-2}]^x [ML^{-3}]^y$.<br><b>Step 3:</b> Expand the right side: $[M^0L^1T^{-1}] = [M^{x+y} L^{-x-3y} T^{-2x}]$.<br><b>Step 4:</b> Equate powers of T: $-2x = -1 \\implies x = 1/2$.<br><b>Step 5:</b> Equate powers of M: $x + y = 0 \\implies 1/2 + y = 0 \\implies y = -1/2$.<br><b>Step 6:</b> The values are $x = 1/2$ and $y = -1/2$."
             }
         ]
+    },
+
+    "Vectors": {
+        "classTarget": "Class 11",
+        "topics": ["Addition, Subtraction and Resolution of Vectors", "Multiplication of a Vector by a Scalar", "Scalar Product (or) Dot Product", "Vector Product (or) Cross Product"],
+        "questions": [
+            {
+                "id": "VEC-TEST-001",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Addition", "Direction of Vectors"],
+                "q": "If $\\vec{A}=3\\hat{i}-4\\hat{j}$ and $\\vec{B}=-\\hat{i}-4\\hat{j}$, calculate the direction of $\\vec{A}+\\vec{B}$:",
+                "options": ["$\\tan^{-1}(4)$ with positive x-axis in clock wise", "$\\tan^{-1}(4)$ with negative x-axis in clock wise", "$\\tan^{-1}(4)$ with positive x-axis in anticlock wise", "$\\tan^{-1}(4)$ with negative x-axis in anticlock wise"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Find the resultant vector $\\vec{R} = \\vec{A} + \\vec{B}$.<br><b>Step 2:</b> $\\vec{R} = (3\\hat{i}-4\\hat{j}) + (-\\hat{i}-4\\hat{j}) = 2\\hat{i}-8\\hat{j}$.<br><b>Step 3:</b> The angle $\\theta$ with the x-axis is given by $\\tan\\theta = \\frac{|R_y|}{|R_x|} = \\frac{8}{2} = 4$.<br><b>Step 4:</b> Since the x-component is positive and y-component is negative, the vector lies in the fourth quadrant.<br><b>Step 5:</b> Therefore, the direction is $\\tan^{-1}(4)$ with the positive x-axis in the clockwise direction."
+            },
+            {
+                "id": "VEC-TEST-002",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Algebra", "3D Vectors"],
+                "q": "Two vectors are given by $\\vec{a}=-2\\hat{i}+\\hat{j}-3\\hat{k}$ and $\\vec{b}=5\\hat{i}+3\\hat{j}-2\\hat{k}$. If $3\\vec{a}+2\\vec{b}-\\vec{c}=0$ then third vector $\\vec{c}$ is:",
+                "options": ["$4\\hat{i}+9\\hat{j}-13\\hat{k}$", "$-4\\hat{i}-9\\hat{j}+13\\hat{k}$", "$4\\hat{i}-9\\hat{j}-13\\hat{k}$", "$2\\hat{i}-3\\hat{j}+13\\hat{k}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Rearrange the given equation to solve for $\\vec{c}$: $\\vec{c} = 3\\vec{a} + 2\\vec{b}$.<br><b>Step 2:</b> Substitute the given vectors: $\\vec{c} = 3(-2\\hat{i}+\\hat{j}-3\\hat{k}) + 2(5\\hat{i}+3\\hat{j}-2\\hat{k})$.<br><b>Step 3:</b> Distribute the scalars: $\\vec{c} = (-6\\hat{i}+3\\hat{j}-9\\hat{k}) + (10\\hat{i}+6\\hat{j}-4\\hat{k})$.<br><b>Step 4:</b> Add the corresponding components: $\\vec{c} = (-6+10)\\hat{i} + (3+6)\\hat{j} + (-9-4)\\hat{k} = 4\\hat{i}+9\\hat{j}-13\\hat{k}$."
+            },
+            {
+                "id": "VEC-TEST-003",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Resultant Magnitude", "Vector Properties"],
+                "q": "The vector sum of two vectors of magnitudes 10 units and 15 units can never be:",
+                "options": ["28 units", "22 units", "18 units", "8 units"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The magnitude of the resultant $\\vec{R}$ of two vectors $\\vec{A}$ and $\\vec{B}$ lies in the range $|\\vec{A} - \\vec{B}| \\le |\\vec{R}| \\le |\\vec{A} + \\vec{B}|$.<br><b>Step 2:</b> Minimum possible magnitude = $|15 - 10| = 5$ units.<br><b>Step 3:</b> Maximum possible magnitude = $15 + 10 = 25$ units.<br><b>Step 4:</b> The resultant must be strictly between 5 and 25 units. Therefore, it can never be 28 units."
+            },
+            {
+                "id": "VEC-TEST-004",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["2D Vectors", "Displacement"],
+                "q": "The car makes a displacement of 100 m towards east and then 200 m towards north. Find the magnitude and direction of the resultant.",
+                "options": ["223.7m, $\\tan^{-1}(2)$, N of E", "223.7m, $\\tan^{-1}(2)$ E of N", "300m, $\\tan^{-1}(2)$ N of E", "100m, $\\tan^{-1}(2)$, N of E"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Represent the displacements as vectors: $\\vec{S_1} = 100\\hat{i}$ (East) and $\\vec{S_2} = 200\\hat{j}$ (North).<br><b>Step 2:</b> The resultant displacement is $\\vec{S} = 100\\hat{i} + 200\\hat{j}$.<br><b>Step 3:</b> Magnitude $|\\vec{S}| = \\sqrt{100^2 + 200^2} = \\sqrt{10000 + 40000} = \\sqrt{50000} = 100\\sqrt{5} \\approx 223.6$ m.<br><b>Step 4:</b> Direction is given by $\\tan\\theta = \\frac{y}{x} = \\frac{200}{100} = 2$.<br><b>Step 5:</b> Thus, $\\theta = \\tan^{-1}(2)$ North of East."
+            },
+            {
+                "id": "VEC-TEST-005",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Components", "Direction Cosines"],
+                "q": "If a vector has an x-component of -25.0 units and a y-component of 40.0 units, then the magnitude and direction of this vector is:",
+                "options": ["$5\\sqrt{89}$ units; $\\sin^{-1}\\left(\\frac{5}{\\sqrt{89}}\\right)$ with -ve x-axis", "$5\\sqrt{89}$ units; $\\cos^{-1}\\left(\\frac{5}{\\sqrt{89}}\\right)$ with -ve x-axis", "45 units; $\\cos^{-1}\\left(\\frac{-5}{9}\\right)$ with x-axis", "45 units; $\\sin^{-1}\\left(\\frac{-5}{9}\\right)$ with x-axis"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The vector is $\\vec{A} = -25\\hat{i} + 40\\hat{j}$.<br><b>Step 2:</b> Magnitude $|\\vec{A}| = \\sqrt{(-25)^2 + 40^2} = \\sqrt{625 + 1600} = \\sqrt{2225} = 5\\sqrt{89}$ units.<br><b>Step 3:</b> Let $\\alpha$ be the angle made with the negative x-axis. The magnitude of the x-component on that axis is 25, and hypotenuse is $5\\sqrt{89}$.<br><b>Step 4:</b> $\\cos\\alpha = \\frac{25}{5\\sqrt{89}} = \\frac{5}{\\sqrt{89}}$.<br><b>Step 5:</b> Therefore, the direction is $\\cos^{-1}\\left(\\frac{5}{\\sqrt{89}}\\right)$ with the negative x-axis."
+            },
+            {
+                "id": "VEC-TEST-006",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Resolution of Vectors"],
+                "q": "A force of 10N is resolved into two perpendicular components. If the first component makes $30^{\\circ}$ with the force, the magnitudes of the components are:",
+                "options": ["5N, 5N", "$5\\sqrt{2}$N, 5N", "$5\\sqrt{3}$N, 5N", "10N, $10\\sqrt{3}$N"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> A force $F = 10$ N is resolved into two mutually perpendicular components.<br><b>Step 2:</b> The component adjacent to the $30^{\\circ}$ angle is $F_1 = F\\cos 30^{\\circ}$.<br><b>Step 3:</b> $F_1 = 10 \\times \\frac{\\sqrt{3}}{2} = 5\\sqrt{3}$ N.<br><b>Step 4:</b> The perpendicular component is $F_2 = F\\sin 30^{\\circ}$.<br><b>Step 5:</b> $F_2 = 10 \\times \\frac{1}{2} = 5$ N.<br><b>Step 6:</b> The magnitudes are $5\\sqrt{3}$ N and 5 N."
+            },
+            {
+                "id": "VEC-TEST-007",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Equilibrium", "Vector Addition"],
+                "imgUrl": "[IMAGE_URL_Q7]",
+                "q": "If the system is in equilibrium ($\\cos 53^{\\circ}=3/5$), then the value of 'P' is:",
+                "options": ["16N", "4N", "$\\sqrt{208}$N", "$\\sqrt{232}$N"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The system is in equilibrium, so the vector sum of all forces is zero: $\\vec{P} + \\vec{A} + \\vec{B} = \\vec{0}$.<br><b>Step 2:</b> From the diagram, force B is $6$ N along the y-axis ($\\vec{B} = 6\\hat{j}$).<br><b>Step 3:</b> Force A is $10$ N making an angle of $53^{\\circ}$ with the y-axis. Its x-component is $10\\sin 53^{\\circ} = 10(4/5) = 8\\hat{i}$. Its y-component is $10\\cos 53^{\\circ} = 10(3/5) = 6\\hat{j}$. So, $\\vec{A} = 8\\hat{i} + 6\\hat{j}$.<br><b>Step 4:</b> Substitute into the equilibrium equation: $\\vec{P} + (8\\hat{i} + 6\\hat{j}) + 6\\hat{j} = 0 \\implies \\vec{P} = -8\\hat{i} - 12\\hat{j}$.<br><b>Step 5:</b> Magnitude of P is $|\\vec{P}| = \\sqrt{(-8)^2 + (-12)^2} = \\sqrt{64 + 144} = \\sqrt{208}$ N."
+            },
+            {
+                "id": "VEC-TEST-008",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Relative Angle", "2D Vectors"],
+                "q": "Two billiard balls are moving on a table and their component velocities along the length and breadth are 5, 5 $\\text{ms}^{-1}$ for one ball and $2\\sqrt{3}$, 2 $\\text{ms}^{-1}$ for the other ball. The angle between the motion of balls is:",
+                "options": ["$30^{\\circ}$", "$60^{\\circ}$", "$40^{\\circ}$", "$15^{\\circ}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Express the velocities as vectors: $\\vec{v_1} = 5\\hat{i} + 5\\hat{j}$ and $\\vec{v_2} = 2\\sqrt{3}\\hat{i} + 2\\hat{j}$.<br><b>Step 2:</b> Find the angle $\\theta_1$ of the first ball with the x-axis: $\\tan\\theta_1 = \\frac{5}{5} = 1 \\implies \\theta_1 = 45^{\\circ}$.<br><b>Step 3:</b> Find the angle $\\theta_2$ of the second ball with the x-axis: $\\tan\\theta_2 = \\frac{2}{2\\sqrt{3}} = \\frac{1}{\\sqrt{3}} \\implies \\theta_2 = 30^{\\circ}$.<br><b>Step 4:</b> The angle between their paths is the difference between these angles: $\\theta = \\theta_1 - \\theta_2 = 45^{\\circ} - 30^{\\circ} = 15^{\\circ}$."
+            },
+            {
+                "id": "VEC-TEST-009",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["3D Vectors", "Planar Components"],
+                "q": "If $\\vec{A}=2\\hat{i}-3\\hat{j}+4\\hat{k}$, its components in YZ-plane and ZX-plane are respectively:",
+                "options": ["$\\sqrt{13}$ and 5", "5 and $2\\sqrt{5}$", "$2\\sqrt{5}$ and $\\sqrt{13}$", "$\\sqrt{13}$ and $\\sqrt{29}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The component of a vector $\\vec{A} = A_x\\hat{i} + A_y\\hat{j} + A_z\\hat{k}$ in the YZ-plane is determined by its y and z components. Magnitude = $\\sqrt{A_y^2 + A_z^2}$.<br><b>Step 2:</b> Component in YZ-plane = $\\sqrt{(-3)^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.<br><b>Step 3:</b> The component in the ZX-plane is determined by its z and x components. Magnitude = $\\sqrt{A_z^2 + A_x^2}$.<br><b>Step 4:</b> Component in ZX-plane = $\\sqrt{4^2 + 2^2} = \\sqrt{16 + 4} = \\sqrt{20} = 2\\sqrt{5}$.<br><b>Step 5:</b> The values are 5 and $2\\sqrt{5}$ respectively."
+            },
+            {
+                "id": "VEC-TEST-010",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Inclined Plane", "Resolution of Forces"],
+                "q": "A car weighing 100kg is on a slope that makes an angle $30^{\\circ}$ with the horizontal. The component of car's weight parallel to the slope is ($g=10\\text{ms}^{-2}$):",
+                "options": ["500N", "1000N", "15000N", "20000N"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The weight of the car acts vertically downwards: $W = mg = 100 \\times 10 = 1000$ N.<br><b>Step 2:</b> The component of the weight parallel to the inclined plane is given by $W_{parallel} = mg \\sin\\theta$.<br><b>Step 3:</b> Substitute the values: $W_{parallel} = 1000 \\times \\sin 30^{\\circ}$.<br><b>Step 4:</b> Since $\\sin 30^{\\circ} = 0.5$, the parallel component is $1000 \\times 0.5 = 500$ N."
+            },
+            {
+                "id": "VEC-TEST-011",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["3D Vectors", "Magnitude"],
+                "q": "A room has dimensions $3\\text{m}\\times 4\\text{m}\\times 5\\text{m}$. A fly starting at one corner ends up at the diametrically opposite corner. The magnitude of the displacement of the fly is:",
+                "options": ["12m", "60 m", "$2\\sqrt{5}$m", "$5\\sqrt{2}$m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The displacement from one corner of a cuboid to the diametrically opposite corner represents the body diagonal.<br><b>Step 2:</b> The length of the body diagonal is given by $S = \\sqrt{l^2 + b^2 + h^2}$.<br><b>Step 3:</b> Substitute the room dimensions: $S = \\sqrt{3^2 + 4^2 + 5^2}$.<br><b>Step 4:</b> $S = \\sqrt{9 + 16 + 25} = \\sqrt{50}$.<br><b>Step 5:</b> Simplify the surd: $\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$ m."
+            },
+            {
+                "id": "VEC-TEST-012",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Direction Cosines", "3D Vectors"],
+                "q": "If $\\vec{P}=\\hat{i}+2\\hat{j}+6\\hat{k}$, its direction cosines are:",
+                "options": ["$\\frac{1}{41},\\frac{2}{41}$ and $\\frac{6}{41}$", "$\\frac{1}{\\sqrt{41}},\\frac{2}{\\sqrt{41}}$ and $\\frac{6}{\\sqrt{41}}$", "$\\frac{3}{\\sqrt{41}},\\frac{8}{\\sqrt{41}}$ and $\\frac{7}{\\sqrt{41}}$", "1, 2 and 6"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Direction cosines are the components of the unit vector in the direction of $\\vec{P}$. First, find the magnitude $|\\vec{P}|$.<br><b>Step 2:</b> $|\\vec{P}| = \\sqrt{1^2 + 2^2 + 6^2} = \\sqrt{1 + 4 + 36} = \\sqrt{41}$.<br><b>Step 3:</b> The direction cosines $\\cos\\alpha, \\cos\\beta, \\cos\\gamma$ are given by $\\frac{P_x}{|\\vec{P}|}, \\frac{P_y}{|\\vec{P}|}, \\frac{P_z}{|\\vec{P}|}$.<br><b>Step 4:</b> Substituting the values, we get $\\frac{1}{\\sqrt{41}}, \\frac{2}{\\sqrt{41}}, \\frac{6}{\\sqrt{41}}$."
+            },
+            {
+                "id": "VEC-TEST-013",
+                "topic": "Multiplication of a Vector by a Scalar",
+                "difficulty": 2,
+                "tags": ["Parallel Vectors", "Vector Algebra"],
+                "q": "The value of 'm', if $\\hat{i}+2\\hat{j}-3\\hat{k}$ is parallel to $3\\hat{i}+m\\hat{j}-9\\hat{k}$ is:",
+                "options": ["12", "9", "6", "3"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> For two vectors $\\vec{A}$ and $\\vec{B}$ to be parallel, their corresponding components must be proportional: $\\frac{A_x}{B_x} = \\frac{A_y}{B_y} = \\frac{A_z}{B_z}$.<br><b>Step 2:</b> Substitute the components: $\\frac{1}{3} = \\frac{2}{m} = \\frac{-3}{-9}$.<br><b>Step 3:</b> Since $\\frac{-3}{-9}$ simplifies to $\\frac{1}{3}$, the proportionality holds.<br><b>Step 4:</b> Solve for m using $\\frac{1}{3} = \\frac{2}{m} \\implies m = 2 \\times 3 = 6$."
+            },
+            {
+                "id": "VEC-TEST-014",
+                "topic": "Multiplication of a Vector by a Scalar",
+                "difficulty": 2,
+                "tags": ["Newton's Second Law", "Kinematics with Vectors"],
+                "q": "A force $2\\hat{i}+\\hat{j}-\\hat{k}$ newton acts on a body which is initially at rest. If the velocity of the body at the end of 20 seconds is $4\\hat{i}+2\\hat{j}-2\\hat{k}\\text{ ms}^{-1}$, the mass of the body is:",
+                "options": ["20kg", "15kg", "10kg", "5kg"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Calculate the acceleration vector using $\\vec{v} = \\vec{u} + \\vec{a}t$. Since it starts from rest, $\\vec{u} = 0$.<br><b>Step 2:</b> $\\vec{a} = \\frac{\\vec{v}}{t} = \\frac{4\\hat{i}+2\\hat{j}-2\\hat{k}}{20} = 0.2\\hat{i} + 0.1\\hat{j} - 0.1\\hat{k}\\text{ m/s}^2$.<br><b>Step 3:</b> According to Newton's Second Law, $\\vec{F} = m\\vec{a}$.<br><b>Step 4:</b> $2\\hat{i}+\\hat{j}-\\hat{k} = m(0.2\\hat{i} + 0.1\\hat{j} - 0.1\\hat{k})$.<br><b>Step 5:</b> Compare the x-components to solve for m: $2 = 0.2m \\implies m = \\frac{2}{0.2} = 10\\text{ kg}$."
+            },
+            {
+                "id": "VEC-TEST-015",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 1,
+                "tags": ["Dot Product", "Work Done"],
+                "q": "When a force vector $\\vec{F}=(\\hat{i}+2\\hat{j}+\\hat{k})\\text{N}$ acts on a body and produces a displacement of $\\vec{S}=(4\\hat{i}+\\hat{j}+7\\hat{k})\\text{m}$ then the work done is:",
+                "options": ["9J", "13J", "5J", "1J"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Work done is the dot product of the force and displacement vectors: $W = \\vec{F} \\cdot \\vec{S}$.<br><b>Step 2:</b> Substitute the vectors: $W = (\\hat{i}+2\\hat{j}+\\hat{k}) \\cdot (4\\hat{i}+\\hat{j}+7\\hat{k})$.<br><b>Step 3:</b> Perform the dot product by multiplying corresponding components: $W = (1 \\times 4) + (2 \\times 1) + (1 \\times 7)$.<br><b>Step 4:</b> $W = 4 + 2 + 7 = 13\\text{ J}$."
+            },
+            {
+                "id": "VEC-TEST-016",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Dot Product", "Angle Between Vectors"],
+                "q": "The angle between the two vectors $\\vec{A}=\\hat{i}+2\\hat{j}-\\hat{k}$ and $\\vec{B}=-\\hat{i}+\\hat{j}-2\\hat{k}$ is:",
+                "options": ["$90^{\\circ}$", "$30^{\\circ}$", "$45^{\\circ}$", "$60^{\\circ}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The angle $\\theta$ between two vectors is given by $\\cos\\theta = \\frac{\\vec{A} \\cdot \\vec{B}}{|\\vec{A}| |\\vec{B}|}$.<br><b>Step 2:</b> Calculate the dot product: $\\vec{A} \\cdot \\vec{B} = (1)(-1) + (2)(1) + (-1)(-2) = -1 + 2 + 2 = 3$.<br><b>Step 3:</b> Calculate the magnitude of $\\vec{A}$: $|\\vec{A}| = \\sqrt{1^2 + 2^2 + (-1)^2} = \\sqrt{1 + 4 + 1} = \\sqrt{6}$.<br><b>Step 4:</b> Calculate the magnitude of $\\vec{B}$: $|\\vec{B}| = \\sqrt{(-1)^2 + 1^2 + (-2)^2} = \\sqrt{1 + 1 + 4} = \\sqrt{6}$.<br><b>Step 5:</b> Substitute into the formula: $\\cos\\theta = \\frac{3}{\\sqrt{6} \\times \\sqrt{6}} = \\frac{3}{6} = \\frac{1}{2}$.<br><b>Step 6:</b> Therefore, $\\theta = 60^{\\circ}$."
+            },
+            {
+                "id": "VEC-TEST-017",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Dot Product", "Perpendicular Vectors"],
+                "imgUrl": "[IMAGE_URL_Q17]",
+                "q": "In a right angled triangle the three vectors $\\vec{a},$ $\\vec{b}$ and $\\vec{c}$ add to zero. Then $\\vec{a}\\cdot\\vec{b}$ is:",
+                "options": ["-9", "+9", "0", "-3"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The problem states that the three vectors form a right-angled triangle and their vector sum is zero ($\\vec{a} + \\vec{b} + \\vec{c} = 0$).<br><b>Step 2:</b> Based on the provided diagram of the right-angled triangle, vectors $\\vec{a}$ and $\\vec{b}$ represent the base and height (the perpendicular sides).<br><b>Step 3:</b> The dot product of two perpendicular vectors is always zero because $\\cos 90^{\\circ} = 0$.<br><b>Step 4:</b> Therefore, $\\vec{a} \\cdot \\vec{b} = a b \\cos 90^{\\circ} = 0$."
+            },
+            {
+                "id": "VEC-TEST-018",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Perpendicular Vectors", "Vector Algebra"],
+                "q": "A vector perpendicular to the vector $(\\hat{i}+2\\hat{j})$ and having magnitude $3\\sqrt{5}$ units is:",
+                "options": ["$3\\hat{i}+6\\hat{j}$", "$6\\hat{i}-3\\hat{j}$", "$4\\hat{i}-2\\hat{j}$", "$\\hat{i}-2\\hat{j}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let the required vector be $\\vec{v} = x\\hat{i} + y\\hat{j}$.<br><b>Step 2:</b> Since it is perpendicular to $(\\hat{i}+2\\hat{j})$, their dot product must be zero: $x(1) + y(2) = 0 \\implies x = -2y$.<br><b>Step 3:</b> The magnitude is $3\\sqrt{5}$: $\\sqrt{x^2 + y^2} = 3\\sqrt{5}$.<br><b>Step 4:</b> Substitute $x = -2y$: $\\sqrt{(-2y)^2 + y^2} = \\sqrt{5y^2} = |y|\\sqrt{5}$.<br><b>Step 5:</b> Equate magnitudes: $|y|\\sqrt{5} = 3\\sqrt{5} \\implies y = \\pm 3$.<br><b>Step 6:</b> If $y = -3$, then $x = -2(-3) = 6$. The vector is $6\\hat{i}-3\\hat{j}$, which matches option 2."
+            },
+            {
+                "id": "VEC-TEST-019",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Vector Projection", "Component of Vector"],
+                "q": "If $\\vec{A}=2\\hat{i}+3\\hat{j}$ and $\\vec{B}=2\\hat{j}+3\\hat{k}$ the component of $\\vec{B}$ along $\\vec{A}$ is:",
+                "options": ["6", "$\\frac{1}{6}$", "$\\frac{6}{13}$", "$\\frac{6}{\\sqrt{13}}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The scalar component of vector $\\vec{B}$ along vector $\\vec{A}$ is given by the formula $\\frac{\\vec{A} \\cdot \\vec{B}}{|\\vec{A}|}$.<br><b>Step 2:</b> Calculate the dot product: $\\vec{A} \\cdot \\vec{B} = (2)(0) + (3)(2) + (0)(3) = 6$.<br><b>Step 3:</b> Calculate the magnitude of $\\vec{A}$: $|\\vec{A}| = \\sqrt{2^2 + 3^2} = \\sqrt{4 + 9} = \\sqrt{13}$.<br><b>Step 4:</b> Substitute these values into the formula: Component $= \\frac{6}{\\sqrt{13}}$."
+            },
+            {
+                "id": "VEC-TEST-020",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Orthogonal Vectors", "Dot Product"],
+                "q": "If the vectors $\\vec{A}=a\\hat{i}+a\\hat{j}+3\\hat{k}$ and $\\vec{B}=a\\hat{i}-2\\hat{j}-\\hat{k}$ are perpendicular to each other then the positive value of 'a' is:",
+                "options": ["Zero", "1", "2", "3"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> For two vectors to be perpendicular, their dot product must be equal to zero.<br><b>Step 2:</b> Calculate $\\vec{A} \\cdot \\vec{B} = (a)(a) + (a)(-2) + (3)(-1) = 0$.<br><b>Step 3:</b> This gives the quadratic equation: $a^2 - 2a - 3 = 0$.<br><b>Step 4:</b> Factor the equation: $(a - 3)(a + 1) = 0$.<br><b>Step 5:</b> The possible values for 'a' are 3 and -1. The positive value is 3."
+            },
+            {
+                "id": "VEC-TEST-021",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Work and Power", "Dot Product"],
+                "q": "A force of $2\\hat{i}+3\\hat{j}+2\\hat{k}$ N acts on a body for 4 s and produces a displacement of $3\\hat{i}+4\\hat{j}+5\\hat{k}$ m. Calculate the power:",
+                "options": ["5 W", "6 W", "7 W", "9 W"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Work done ($W$) is the dot product of Force ($\\vec{F}$) and Displacement ($\\vec{S}$).<br><b>Step 2:</b> $W = \\vec{F} \\cdot \\vec{S} = (2)(3) + (3)(4) + (2)(5)$.<br><b>Step 3:</b> $W = 6 + 12 + 10 = 28$ Joules.<br><b>Step 4:</b> Power ($P$) is the rate of doing work: $P = \\frac{W}{t}$.<br><b>Step 5:</b> $P = \\frac{28}{4} = 7$ Watts."
+            },
+            {
+                "id": "VEC-TEST-022",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 3,
+                "tags": ["Vector Identities", "Unit Vectors"],
+                "q": "If $\\theta$ is the angle between unit vectors $\\vec{A}$ and $\\vec{B}$, then $\\frac{(1-\\vec{A}\\cdot\\vec{B})}{(1+\\vec{A}\\cdot\\vec{B})}$ is equal to:",
+                "options": ["$\\tan^{2}(\\theta/2)$", "$\\sin^{2}(\\theta/2)$", "$\\cot^{2}(\\theta/2)$", "$\\cos^{2}(\\theta/2)$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> For unit vectors, $|\\vec{A}| = 1$ and $|\\vec{B}| = 1$. The dot product is $\\vec{A} \\cdot \\vec{B} = |\\vec{A}||\\vec{B}|\\cos\\theta = (1)(1)\\cos\\theta = \\cos\\theta$.<br><b>Step 2:</b> Substitute this into the given expression: $\\frac{1 - \\cos\\theta}{1 + \\cos\\theta}$.<br><b>Step 3:</b> Use the half-angle trigonometric identities: $1 - \\cos\\theta = 2\\sin^2(\\theta/2)$ and $1 + \\cos\\theta = 2\\cos^2(\\theta/2)$.<br><b>Step 4:</b> The expression becomes $\\frac{2\\sin^2(\\theta/2)}{2\\cos^2(\\theta/2)} = \\frac{\\sin^2(\\theta/2)}{\\cos^2(\\theta/2)}$.<br><b>Step 5:</b> This simplifies to $\\tan^2(\\theta/2)$."
+            },
+            {
+                "id": "VEC-TEST-023",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Torque", "Cross Product"],
+                "q": "Find the torque of a force $\\vec{F}=-3\\hat{i}+2\\hat{j}+\\hat{k}$ acting at the point $\\vec{r}=8\\hat{i}+2\\hat{j}+3\\hat{k}$ about origin:",
+                "options": ["$14\\hat{i}-38\\hat{j}+3\\hat{k}$", "$4\\hat{i}+4\\hat{j}+6\\hat{k}$", "$-14\\hat{i}+38\\hat{j}-16\\hat{k}$", "$-4\\hat{i}-17\\hat{j}+22\\hat{k}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Torque $\\vec{\\tau}$ about the origin is given by the cross product $\\vec{\\tau} = \\vec{r} \\times \\vec{F}$.<br><b>Step 2:</b> Set up the determinant: $\\vec{\\tau} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 8 & 2 & 3 \\\\ -3 & 2 & 1 \\end{vmatrix}$.<br><b>Step 3:</b> Expand along the first row: $\\hat{i}((2)(1) - (3)(2)) - \\hat{j}((8)(1) - (3)(-3)) + \\hat{k}((8)(2) - (2)(-3))$.<br><b>Step 4:</b> Simplify: $\\hat{i}(2 - 6) - \\hat{j}(8 + 9) + \\hat{k}(16 + 6)$.<br><b>Step 5:</b> $\\vec{\\tau} = -4\\hat{i} - 17\\hat{j} + 22\\hat{k}$."
+            },
+            {
+                "id": "VEC-TEST-024",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Area of Triangle", "Cross Product"],
+                "q": "The area of the triangle whose adjacent sides are represented by the vectors $(4\\hat{i}+3\\hat{j}+4\\hat{k})$ and $5\\hat{i}$ in sq. units is:",
+                "options": ["25", "12.5", "50", "45"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The area of a triangle formed by two vectors $\\vec{A}$ and $\\vec{B}$ is given by $\\frac{1}{2} |\\vec{A} \\times \\vec{B}|$.<br><b>Step 2:</b> Find the cross product: $\\vec{A} \\times \\vec{B} = (4\\hat{i}+3\\hat{j}+4\\hat{k}) \\times 5\\hat{i}$.<br><b>Step 3:</b> Using distributive property: $(4\\hat{i} \\times 5\\hat{i}) + (3\\hat{j} \\times 5\\hat{i}) + (4\\hat{k} \\times 5\\hat{i})$.<br><b>Step 4:</b> Since $\\hat{i}\\times\\hat{i}=0$, $\\hat{j}\\times\\hat{i}=-\\hat{k}$, and $\\hat{k}\\times\\hat{i}=\\hat{j}$, we get $0 - 15\\hat{k} + 20\\hat{j}$.<br><b>Step 5:</b> The magnitude is $\\sqrt{20^2 + (-15)^2} = \\sqrt{400 + 225} = \\sqrt{625} = 25$.<br><b>Step 6:</b> Area $= \\frac{25}{2} = 12.5$ sq. units."
+            },
+            {
+                "id": "VEC-TEST-025",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Dot and Cross Product", "Angle"],
+                "q": "The magnitude of scalar and vector products of two vectors are $48\\sqrt{3}$ and 144 respectively. What is the angle between the two vectors?",
+                "options": ["$30^{\\circ}$", "$45^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The magnitude of the scalar (dot) product is $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta = 48\\sqrt{3}$.<br><b>Step 2:</b> The magnitude of the vector (cross) product is $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta = 144$.<br><b>Step 3:</b> Divide the cross product magnitude by the dot product to find $\\tan\\theta$: $\\frac{AB\\sin\\theta}{AB\\cos\\theta} = \\frac{144}{48\\sqrt{3}}$.<br><b>Step 4:</b> Simplify: $\\tan\\theta = \\frac{3}{\\sqrt{3}} = \\sqrt{3}$.<br><b>Step 5:</b> Therefore, the angle $\\theta$ is $60^{\\circ}$."
+            },
+            {
+                "id": "VEC-TEST-026",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Area of Parallelogram", "Cross Product"],
+                "q": "The adjacent sides of a parallelogram are $\\vec{A}=2\\hat{i}-3\\hat{j}+\\hat{k}$ and $\\vec{B}=-2\\hat{i}+4\\hat{j}-\\hat{k}$. What is the area of the parallelogram?",
+                "options": ["4 units", "7 units", "$\\sqrt{5}$ units", "$\\sqrt{8}$ units"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The area of a parallelogram defined by adjacent vectors $\\vec{A}$ and $\\vec{B}$ is given by $|\\vec{A} \\times \\vec{B}|$.<br><b>Step 2:</b> Calculate the cross product: $\\vec{A} \\times \\vec{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & -3 & 1 \\\\ -2 & 4 & -1 \\end{vmatrix}$.<br><b>Step 3:</b> $\\vec{A} \\times \\vec{B} = \\hat{i}(3 - 4) - \\hat{j}(-2 - (-2)) + \\hat{k}(8 - 6)$.<br><b>Step 4:</b> $\\vec{A} \\times \\vec{B} = -1\\hat{i} + 0\\hat{j} + 2\\hat{k}$.<br><b>Step 5:</b> Find the magnitude: $\\text{Area} = \\sqrt{(-1)^2 + 0^2 + 2^2} = \\sqrt{1 + 4} = \\sqrt{5}$ units."
+            },
+            {
+                "id": "VEC-TEST-027",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Parallel Vectors", "Cross Product"],
+                "q": "What is the condition for the vectors $2\\hat{i}+3\\hat{j}-4\\hat{k}$ and $3\\hat{i}-a\\hat{j}+b\\hat{k}$ to be parallel?",
+                "options": ["$a=-9/2, b=-6$", "$a=-6, b=-9/2$", "$a=4, b=5$", "$a=8, b=2$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> For two vectors to be parallel, their corresponding components must be strictly proportional.<br><b>Step 2:</b> Set up the ratios: $\\frac{2}{3} = \\frac{3}{-a} = \\frac{-4}{b}$.<br><b>Step 3:</b> Solve for a: $\\frac{2}{3} = \\frac{3}{-a} \\implies -2a = 9 \\implies a = -\\frac{9}{2}$.<br><b>Step 4:</b> Solve for b: $\\frac{2}{3} = \\frac{-4}{b} \\implies 2b = -12 \\implies b = -6$."
+            },
+            {
+                "id": "VEC-TEST-028",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Vector Subtraction", "Direction"],
+                "q": "If $\\vec{A}=3\\hat{i}-4\\hat{j}$ and $\\vec{B}=-\\hat{i}-4\\hat{j}$ calculate the direction of $\\vec{A}-\\vec{B}$.",
+                "options": ["along positive x-axis", "along negative x-axis", "along positive y-axis", "along negative y-axis"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Calculate the difference vector $\\vec{R} = \\vec{A} - \\vec{B}$.<br><b>Step 2:</b> $\\vec{R} = (3\\hat{i}-4\\hat{j}) - (-\\hat{i}-4\\hat{j})$.<br><b>Step 3:</b> $\\vec{R} = (3 - (-1))\\hat{i} + (-4 - (-4))\\hat{j}$.<br><b>Step 4:</b> $\\vec{R} = 4\\hat{i} + 0\\hat{j}$.<br><b>Step 5:</b> Since the vector has only a positive x-component, its direction is directly along the positive x-axis."
+            },
+            {
+                "id": "VEC-TEST-029",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Vector Addition", "Resultant Magnitude"],
+                "q": "The resultant of the forces $\\vec{F_{1}}=4\\hat{i}-3\\hat{j}$ and $\\vec{F_{2}}=6\\hat{i}+8\\hat{j}$ is:",
+                "options": ["$5\\sqrt{5}$", "$10\\hat{i}-5\\hat{j}$", "125", "$-2\\hat{i}-3\\hat{j}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Find the resultant vector by adding the forces: $\\vec{R} = \\vec{F_1} + \\vec{F_2}$.<br><b>Step 2:</b> $\\vec{R} = (4\\hat{i}-3\\hat{j}) + (6\\hat{i}+8\\hat{j}) = 10\\hat{i} + 5\\hat{j}$.<br><b>Step 3:</b> Calculate the magnitude of the resultant: $|\\vec{R}| = \\sqrt{10^2 + 5^2}$.<br><b>Step 4:</b> $|\\vec{R}| = \\sqrt{100 + 25} = \\sqrt{125}$.<br><b>Step 5:</b> Simplify the square root: $\\sqrt{125} = \\sqrt{25 \\times 5} = 5\\sqrt{5}$."
+            },
+            {
+                "id": "VEC-TEST-030",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Vector Sum Range", "Inequalities"],
+                "q": "The vector sum of two vectors of magnitudes 10 units and 15 units can never be:",
+                "options": ["20 units", "22 units", "18 units", "3 units"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The magnitude of the resultant $\\vec{R}$ of two vectors $\\vec{A}$ and $\\vec{B}$ must lie within a specific range: $|\\vec{A} - \\vec{B}| \\le |\\vec{R}| \\le |\\vec{A} + \\vec{B}|$.<br><b>Step 2:</b> Calculate the minimum possible value: $|15 - 10| = 5$ units.<br><b>Step 3:</b> Calculate the maximum possible value: $15 + 10 = 25$ units.<br><b>Step 4:</b> The resultant magnitude must be between 5 and 25. Therefore, it can never be 3 units."
+            },
+            {
+                "id": "VEC-TEST-031",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["2D Vectors", "Displacement", "Vector Addition"],
+                "q": "A car moves 40m due east and turns towards north and moves 30m then turns $45^{\\circ}$ east of north and moves $20\\sqrt{2}\\text{m}$. The net displacement of car is (east is taken positive x-axis, North as positive y-axis):",
+                "options": ["$50\\hat{i}+60\\hat{j}$", "$60\\hat{i}+50\\hat{j}$", "$30\\hat{i}+40\\hat{j}$", "$40\\hat{i}+30\\hat{j}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Represent each leg of the journey as a displacement vector.<br><b>Step 2:</b> First leg (East): $\\vec{S_1} = 40\\hat{i}$.<br><b>Step 3:</b> Second leg (North): $\\vec{S_2} = 30\\hat{j}$.<br><b>Step 4:</b> Third leg ($45^{\\circ}$ East of North): $\\vec{S_3} = 20\\sqrt{2}(\\sin 45^{\\circ}\\hat{i} + \\cos 45^{\\circ}\\hat{j}) = 20\\sqrt{2}\\left(\\frac{1}{\\sqrt{2}}\\hat{i} + \\frac{1}{\\sqrt{2}}\\hat{j}\\right) = 20\\hat{i} + 20\\hat{j}$.<br><b>Step 5:</b> The net displacement is the vector sum: $\\vec{S} = \\vec{S_1} + \\vec{S_2} + \\vec{S_3}$.<br><b>Step 6:</b> $\\vec{S} = (40\\hat{i}) + (30\\hat{j}) + (20\\hat{i} + 20\\hat{j}) = 60\\hat{i} + 50\\hat{j}$."
+            },
+            {
+                "id": "VEC-TEST-032",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["3D Vectors", "Magnitude"],
+                "q": "A bird moves in such a way that it has a displacement of 12 m towards east, 5 m towards north and 9 m vertically upwards. Find the magnitude of its displacement:",
+                "options": ["$5\\sqrt{2}\\text{ m}$", "$5\\sqrt{10}\\text{ m}$", "$5\\sqrt{5}\\text{ m}$", "5 m"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Express the displacement as a 3D vector. Let East be $\\hat{i}$, North be $\\hat{j}$, and Upwards be $\\hat{k}$.<br><b>Step 2:</b> The displacement vector is $\\vec{S} = 12\\hat{i} + 5\\hat{j} + 9\\hat{k}$.<br><b>Step 3:</b> The magnitude of the displacement is $|\\vec{S}| = \\sqrt{12^2 + 5^2 + 9^2}$.<br><b>Step 4:</b> $|\\vec{S}| = \\sqrt{144 + 25 + 81} = \\sqrt{250}$.<br><b>Step 5:</b> Simplify the square root: $\\sqrt{250} = \\sqrt{25 \\times 10} = 5\\sqrt{10}\\text{ m}$."
+            },
+            {
+                "id": "VEC-TEST-033",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Resolution of Vectors", "Velocity Components"],
+                "q": "An aeroplane is heading north east at a speed of 141.4 $\\text{ms}^{-1}$. The northward component of its velocity is:",
+                "options": ["141.4 $\\text{ms}^{-1}$", "100 $\\text{ms}^{-1}$", "zero", "50 $\\text{ms}^{-1}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> \"North East\" means the velocity vector makes an angle of $45^{\\circ}$ with the North axis.<br><b>Step 2:</b> The northward component of the velocity is $v_{north} = v \\cos 45^{\\circ}$.<br><b>Step 3:</b> Substitute the given values: $v_{north} = 141.4 \\times \\frac{1}{\\sqrt{2}}$.<br><b>Step 4:</b> Since $\\sqrt{2} \\approx 1.414$, the value 141.4 can be approximated as $100\\sqrt{2}$.<br><b>Step 5:</b> $v_{north} = 100\\sqrt{2} \\times \\frac{1}{\\sqrt{2}} = 100\\text{ ms}^{-1}$."
+            },
+            {
+                "id": "VEC-TEST-034",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Unit Vectors", "Vector Addition"],
+                "q": "The unit vector parallel to the resultant of the vectors $\\vec{A}=4\\hat{i}+3\\hat{j}+6\\hat{k}$ and $\\vec{B}=-\\hat{i}+3\\hat{j}-8\\hat{k}$ is:",
+                "options": ["$\\frac{1}{7}(3\\hat{i}+6\\hat{j}-2\\hat{k})$", "$\\frac{1}{7}(3\\hat{i}+6\\hat{j}+2\\hat{k})$", "$\\frac{1}{49}(3\\hat{i}+6\\hat{j}-2\\hat{k})$", "$\\frac{1}{49}(3\\hat{i}-6\\hat{j}+2\\hat{k})$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Find the resultant vector $\\vec{R} = \\vec{A} + \\vec{B}$.<br><b>Step 2:</b> $\\vec{R} = (4\\hat{i}+3\\hat{j}+6\\hat{k}) + (-\\hat{i}+3\\hat{j}-8\\hat{k}) = 3\\hat{i} + 6\\hat{j} - 2\\hat{k}$.<br><b>Step 3:</b> Find the magnitude of the resultant: $|\\vec{R}| = \\sqrt{3^2 + 6^2 + (-2)^2}$.<br><b>Step 4:</b> $|\\vec{R}| = \\sqrt{9 + 36 + 4} = \\sqrt{49} = 7$.<br><b>Step 5:</b> The unit vector is $\\hat{R} = \\frac{\\vec{R}}{|\\vec{R}|} = \\frac{1}{7}(3\\hat{i}+6\\hat{j}-2\\hat{k})$."
+            },
+            {
+                "id": "VEC-TEST-035",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Vector Magnitude", "Parallel Vectors"],
+                "q": "The vector parallel to $4\\hat{i}-3\\hat{j}+5\\hat{k}$ and whose length is the arithmetic mean of lengths of two vectors $2\\hat{i}-4\\hat{j}+4\\hat{k}$ and $\\hat{i}+\\sqrt{6}\\hat{j}+3\\hat{k}$ is:",
+                "options": ["$4\\hat{i}-3\\hat{j}+5\\hat{k}$", "$(4\\hat{i}-3\\hat{j}+5\\hat{k})/\\sqrt{3}$", "$(4\\hat{i}-3\\hat{j}+5\\hat{k})/\\sqrt{2}$", "$(4\\hat{i}-3\\hat{j}+5\\hat{k})/\\sqrt{5}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Calculate the length of the first vector: $L_1 = \\sqrt{2^2 + (-4)^2 + 4^2} = \\sqrt{4 + 16 + 16} = \\sqrt{36} = 6$.<br><b>Step 2:</b> Calculate the length of the second vector: $L_2 = \\sqrt{1^2 + (\\sqrt{6})^2 + 3^2} = \\sqrt{1 + 6 + 9} = \\sqrt{16} = 4$.<br><b>Step 3:</b> The arithmetic mean of their lengths is $L = \\frac{6 + 4}{2} = 5$.<br><b>Step 4:</b> Let the reference vector be $\\vec{V} = 4\\hat{i}-3\\hat{j}+5\\hat{k}$. Its magnitude is $|\\vec{V}| = \\sqrt{16 + 9 + 25} = \\sqrt{50} = 5\\sqrt{2}$.<br><b>Step 5:</b> The required vector must be parallel to $\\vec{V}$ and have a length of 5. The unit vector of $\\vec{V}$ is $\\hat{V} = \\frac{\\vec{V}}{5\\sqrt{2}}$.<br><b>Step 6:</b> The required vector is $5 \\times \\hat{V} = 5 \\times \\frac{4\\hat{i}-3\\hat{j}+5\\hat{k}}{5\\sqrt{2}} = \\frac{4\\hat{i}-3\\hat{j}+5\\hat{k}}{\\sqrt{2}}$."
+            },
+            {
+                "id": "VEC-TEST-036",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Direction Cosines", "3D Vectors"],
+                "q": "The direction cosines of a vector $\\vec{A}$ are $\\cos\\alpha=\\frac{4}{5\\sqrt{2}}$, $\\cos\\beta=\\frac{1}{\\sqrt{2}}$, $\\cos\\gamma=\\frac{3}{5\\sqrt{2}}$ then the vector $\\vec{A}$ is:",
+                "options": ["$4\\hat{i}+\\hat{j}+3\\hat{k}$", "$4\\hat{i}+5\\hat{j}+3\\hat{k}$", "$4\\hat{i}-5\\hat{j}-3\\hat{k}$", "$\\hat{i}+5\\hat{j}-\\hat{k}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Direction cosines represent the components of a unit vector. To make comparison easier, let's establish a common denominator.<br><b>Step 2:</b> Multiply numerator and denominator of $\\cos\\beta$ by 5: $\\cos\\beta = \\frac{5}{5\\sqrt{2}}$.<br><b>Step 3:</b> Now the direction cosines are proportional to the components 4, 5, and 3.<br><b>Step 4:</b> The vector must be of the form $\\vec{A} = k(4\\hat{i} + 5\\hat{j} + 3\\hat{k})$. Let's check the base vector $4\\hat{i} + 5\\hat{j} + 3\\hat{k}$.<br><b>Step 5:</b> The magnitude of this base vector is $\\sqrt{4^2 + 5^2 + 3^2} = \\sqrt{16 + 25 + 9} = \\sqrt{50} = 5\\sqrt{2}$.<br><b>Step 6:</b> Since the magnitude matches the denominator perfectly, the vector is $4\\hat{i}+5\\hat{j}+3\\hat{k}$."
+            },
+            {
+                "id": "VEC-TEST-037",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Addition", "Angle with Axis"],
+                "q": "Given two vectors $\\vec{A}=\\hat{i}-2\\hat{j}-3\\hat{k}$ and $\\vec{B}=4\\hat{i}-2\\hat{j}+6\\hat{k}$. The angle made by $(\\vec{A}+\\vec{B})$ with the X-axis is:",
+                "options": ["$30^{\\circ}$", "$45^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> First, find the resultant vector $\\vec{R} = \\vec{A} + \\vec{B}$.<br><b>Step 2:</b> $\\vec{R} = (1+4)\\hat{i} + (-2-2)\\hat{j} + (-3+6)\\hat{k} = 5\\hat{i} - 4\\hat{j} + 3\\hat{k}$.<br><b>Step 3:</b> The angle $\\alpha$ made by a vector with the X-axis is given by $\\cos\\alpha = \\frac{R_x}{|\\vec{R}|}$.<br><b>Step 4:</b> Find the magnitude of $\\vec{R}$: $|\\vec{R}| = \\sqrt{5^2 + (-4)^2 + 3^2} = \\sqrt{25 + 16 + 9} = \\sqrt{50} = 5\\sqrt{2}$.<br><b>Step 5:</b> Calculate $\\cos\\alpha = \\frac{5}{5\\sqrt{2}} = \\frac{1}{\\sqrt{2}}$.<br><b>Step 6:</b> Therefore, the angle $\\alpha = 45^{\\circ}$."
+            },
+            {
+                "id": "VEC-TEST-038",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Vector Resolution", "Compass Directions"],
+                "q": "To go from town A to town B a plane must fly about 1780 km at an angle of $30^{\\circ}$ West of north. How far West of A is B?",
+                "options": ["1542 km", "1452 km", "1254 km", "890 km"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The displacement vector is 1780 km at $30^{\\circ}$ West of North.<br><b>Step 2:</b> This means the angle with the North axis (y-axis) is $30^{\\circ}$.<br><b>Step 3:</b> The component in the West direction (x-axis) is given by $D_{west} = D \\sin\\theta$.<br><b>Step 4:</b> $D_{west} = 1780 \\times \\sin 30^{\\circ} = 1780 \\times 0.5$.<br><b>Step 5:</b> Therefore, B is 890 km West of A."
+            },
+            {
+                "id": "VEC-TEST-039",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Rotation", "2D Vectors"],
+                "q": "A vector $\\hat{i}+\\sqrt{3}\\hat{j}$ rotates about its tail through an angle $60^{\\circ}$ in clockwise direction then the new vector is:",
+                "options": ["$\\hat{i}+\\sqrt{3}\\hat{j}$", "$3\\hat{i}-4\\hat{j}$", "$2\\hat{j}$", "$2\\hat{i}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Identify the initial magnitude and direction of the vector $\\vec{v} = \\hat{i} + \\sqrt{3}\\hat{j}$.<br><b>Step 2:</b> Magnitude $|\\vec{v}| = \\sqrt{1^2 + (\\sqrt{3})^2} = \\sqrt{1 + 3} = 2$.<br><b>Step 3:</b> Initial angle with the positive x-axis is $\\tan\\theta = \\frac{y}{x} = \\frac{\\sqrt{3}}{1} \\implies \\theta = 60^{\\circ}$.<br><b>Step 4:</b> Rotating $60^{\\circ}$ clockwise means subtracting $60^{\\circ}$ from the current angle. New angle $= 60^{\\circ} - 60^{\\circ} = 0^{\\circ}$.<br><b>Step 5:</b> The new vector lies entirely along the positive x-axis with the same magnitude (2).<br><b>Step 6:</b> Therefore, the new vector is $2\\hat{i}$."
+            },
+            {
+                "id": "VEC-TEST-040",
+                "topic": "Multiplication of a Vector by a Scalar",
+                "difficulty": 2,
+                "tags": ["Parallel Vectors"],
+                "q": "If $\\vec{a}=2\\hat{i}+6\\hat{j}+m\\hat{k}$ and $\\vec{b}=n\\hat{i}+18\\hat{j}+3\\hat{k}$ are parallel to each other then values of m, n are:",
+                "options": ["1, 6", "6, 1", "-1, 6", "-1, -6"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> For two vectors to be parallel, their corresponding scalar components must be proportional.<br><b>Step 2:</b> Establish the ratios: $\\frac{2}{n} = \\frac{6}{18} = \\frac{m}{3}$.<br><b>Step 3:</b> Simplify the known ratio: $\\frac{6}{18} = \\frac{1}{3}$.<br><b>Step 4:</b> Solve for n: $\\frac{2}{n} = \\frac{1}{3} \\implies n = 6$.<br><b>Step 5:</b> Solve for m: $\\frac{m}{3} = \\frac{1}{3} \\implies m = 1$.<br><b>Step 6:</b> The values of m and n are 1 and 6 respectively."
+            },
+            {
+                "id": "VEC-TEST-041",
+                "topic": "Multiplication of a Vector by a Scalar",
+                "difficulty": 2,
+                "tags": ["Kinematics with Vectors", "Velocity and Acceleration"],
+                "q": "A particle has an initial velocity $(6\\hat{i}+8\\hat{j})\\text{ ms}^{-1}$ and an acceleration of $(0.8\\hat{i}+0.6\\hat{j})\\text{ ms}^{-2}$. Its speed after 10s is:",
+                "options": ["$20\\text{ ms}^{-1}$", "$7\\sqrt{2}\\text{ ms}^{-1}$", "$10\\text{ ms}^{-1}$", "$14\\sqrt{2}\\text{ ms}^{-1}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Use the vector kinematic equation for velocity: $\\vec{v} = \\vec{u} + \\vec{a}t$.<br><b>Step 2:</b> Substitute the given vectors and time: $\\vec{v} = (6\\hat{i}+8\\hat{j}) + (0.8\\hat{i}+0.6\\hat{j}) \\times 10$.<br><b>Step 3:</b> Distribute the scalar: $\\vec{v} = (6\\hat{i}+8\\hat{j}) + (8\\hat{i}+6\\hat{j})$.<br><b>Step 4:</b> Add the components: $\\vec{v} = (6+8)\\hat{i} + (8+6)\\hat{j} = 14\\hat{i} + 14\\hat{j}$.<br><b>Step 5:</b> The speed is the magnitude of the final velocity vector: $|\\vec{v}| = \\sqrt{14^2 + 14^2}$.<br><b>Step 6:</b> $|\\vec{v}| = \\sqrt{196 + 196} = \\sqrt{392} = 14\\sqrt{2}\\text{ ms}^{-1}$."
+            },
+            {
+                "id": "VEC-TEST-042",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Dot Product", "Power Calculation"],
+                "q": "A motor boat is going in a river with velocity $\\vec{V}=4\\hat{i}-2\\hat{j}+\\hat{k}\\text{ ms}^{-1}$. If the resisting force due to stream is $\\vec{F}=(5\\hat{i}-10\\hat{j}+6\\hat{k})\\text{N}$. Then the power of the motor boat is:",
+                "options": ["100 W", "50 W", "46 W", "23 W"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Power ($P$) is defined as the dot product of Force ($\\vec{F}$) and Velocity ($\\vec{V}$).<br><b>Step 2:</b> $P = \\vec{F} \\cdot \\vec{V} = (5\\hat{i}-10\\hat{j}+6\\hat{k}) \\cdot (4\\hat{i}-2\\hat{j}+\\hat{k})$.<br><b>Step 3:</b> Multiply the corresponding components: $P = (5)(4) + (-10)(-2) + (6)(1)$.<br><b>Step 4:</b> Calculate the sum: $P = 20 + 20 + 6$.<br><b>Step 5:</b> Therefore, the power is 46 W."
+            },
+            {
+                "id": "VEC-TEST-043",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 1,
+                "tags": ["Angle Between Vectors", "Dot Product"],
+                "q": "The angle between the two vectors $-2\\hat{i}+3\\hat{j}-\\hat{k}$ and $\\hat{i}+2\\hat{j}+4\\hat{k}$ is:",
+                "options": ["$0^{\\circ}$", "$90^{\\circ}$", "$180^{\\circ}$", "$45^{\\circ}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The easiest way to check for special angles is to calculate the dot product.<br><b>Step 2:</b> $\\vec{A} \\cdot \\vec{B} = (-2)(1) + (3)(2) + (-1)(4)$.<br><b>Step 3:</b> $\\vec{A} \\cdot \\vec{B} = -2 + 6 - 4 = 0$.<br><b>Step 4:</b> Since the dot product of the two vectors is exactly zero, they are perpendicular to each other.<br><b>Step 5:</b> Therefore, the angle between them is $90^{\\circ}$."
+            },
+            {
+                "id": "VEC-TEST-044",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Perpendicular Vectors", "Algebraic Vectors"],
+                "q": "If a vector $\\vec{A}=2\\hat{i}+2\\hat{j}+3\\hat{k}$ and $\\vec{B}=3\\hat{i}+6\\hat{j}+n\\hat{k}$ are perpendicular to each other then the value of 'n' is:",
+                "options": ["4", "12", "6", "-6"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> If two vectors are mutually perpendicular, their dot product must be zero.<br><b>Step 2:</b> Setup the equation: $\\vec{A} \\cdot \\vec{B} = 0$.<br><b>Step 3:</b> Substitute the components: $(2)(3) + (2)(6) + (3)(n) = 0$.<br><b>Step 4:</b> Simplify: $6 + 12 + 3n = 0$.<br><b>Step 5:</b> Solve for n: $18 + 3n = 0 \\implies 3n = -18 \\implies n = -6$."
+            },
+            {
+                "id": "VEC-TEST-045",
+                "topic": "Multiplication of a Vector by a Scalar",
+                "difficulty": 2,
+                "tags": ["Parallel Vectors", "Vector Magnitude"],
+                "q": "A vector parallel to the vector $(\\hat{i}+2\\hat{j})$ and having magnitude $3\\sqrt{5}$ units is:",
+                "options": ["$3\\hat{i}+6\\hat{j}$", "$6\\hat{i}-3\\hat{j}$", "$4\\hat{i}-2\\hat{j}$", "$\\hat{i}-2\\hat{j}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> A vector parallel to $\\vec{v} = \\hat{i}+2\\hat{j}$ will be a scalar multiple of it, i.e., $k(\\hat{i}+2\\hat{j}) = k\\hat{i} + 2k\\hat{j}$.<br><b>Step 2:</b> The magnitude of this required vector is $\\sqrt{k^2 + (2k)^2} = \\sqrt{5k^2} = k\\sqrt{5}$.<br><b>Step 3:</b> We are given that the magnitude is $3\\sqrt{5}$, so $k\\sqrt{5} = 3\\sqrt{5}$.<br><b>Step 4:</b> Therefore, $k = 3$.<br><b>Step 5:</b> Substitute $k$ back into the parallel vector format: $3(\\hat{i}+2\\hat{j}) = 3\\hat{i} + 6\\hat{j}$."
+            },
+            {
+                "id": "VEC-TEST-046",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Vector Component", "Dot Product"],
+                "q": "If $\\vec{A}=5\\hat{i}-2\\hat{j}+3\\hat{k}$ and $\\vec{B}=2\\hat{i}+\\hat{j}+2\\hat{k}$, component of $\\vec{B}$ along $\\vec{A}$ is:",
+                "options": ["$\\frac{\\sqrt{14}}{38}$", "$\\frac{28}{\\sqrt{38}}$", "$\\frac{\\sqrt{28}}{38}$", "$\\frac{14}{\\sqrt{38}}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The component of a vector $\\vec{B}$ along vector $\\vec{A}$ is given by the formula $\\frac{\\vec{A} \\cdot \\vec{B}}{|\\vec{A}|}$.<br><b>Step 2:</b> Calculate the dot product: $\\vec{A} \\cdot \\vec{B} = (5)(2) + (-2)(1) + (3)(2) = 10 - 2 + 6 = 14$.<br><b>Step 3:</b> Calculate the magnitude of $\\vec{A}$: $|\\vec{A}| = \\sqrt{5^2 + (-2)^2 + 3^2} = \\sqrt{25 + 4 + 9} = \\sqrt{38}$.<br><b>Step 4:</b> Substitute these values into the formula: Component $= \\frac{14}{\\sqrt{38}}$."
+            },
+            {
+                "id": "VEC-TEST-047",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Perpendicular Vectors", "Quadratic Equation"],
+                "q": "If the vectors $\\vec{A}=a\\hat{i}+\\hat{j}-2\\hat{k}$ and $\\vec{B}=a\\hat{i}-a\\hat{j}+\\hat{k}$ are perpendicular to each other then the positive value of 'a' is:",
+                "options": ["Zero", "1", "2", "3"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> If two vectors are perpendicular, their dot product is zero: $\\vec{A} \\cdot \\vec{B} = 0$.<br><b>Step 2:</b> Calculate the dot product: $(a)(a) + (1)(-a) + (-2)(1) = 0$.<br><b>Step 3:</b> This simplifies to the quadratic equation: $a^2 - a - 2 = 0$.<br><b>Step 4:</b> Factor the equation: $(a - 2)(a + 1) = 0$.<br><b>Step 5:</b> The possible values are $a = 2$ and $a = -1$. The positive value is $2$."
+            },
+            {
+                "id": "VEC-TEST-048",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Work and Power", "Kinematics with Vectors"],
+                "q": "When a force $(8\\hat{i}+4\\hat{j})$ newton displaces a particle through $(3\\hat{i}-3\\hat{j})$ metre, the power is 0.6W. The time of action of the force is:",
+                "options": ["20s", "7.2s", "72s", "2s"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Work done ($W$) is the dot product of Force ($\\vec{F}$) and Displacement ($\\vec{S}$).<br><b>Step 2:</b> $W = \\vec{F} \\cdot \\vec{S} = (8)(3) + (4)(-3) = 24 - 12 = 12\\text{ J}$.<br><b>Step 3:</b> Power ($P$) is defined as Work done per unit time: $P = \\frac{W}{t}$.<br><b>Step 4:</b> Rearrange to solve for time: $t = \\frac{W}{P}$.<br><b>Step 5:</b> Substitute the values: $t = \\frac{12}{0.6} = 20\\text{ s}$."
+            },
+            {
+                "id": "VEC-TEST-049",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 3,
+                "tags": ["Vector Identities", "Unit Vectors"],
+                "q": "If $\\vec{a}$ and $\\vec{b}$ are two unit vectors and the angle between them is $60^{\\circ}$ then $\\frac{(1+\\vec{a}\\cdot\\vec{b})}{(1-\\vec{a}\\cdot\\vec{b})}$ is:",
+                "options": ["2", "3", "0", "1/2"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> For unit vectors, $|\\vec{a}| = 1$ and $|\\vec{b}| = 1$. The dot product is $\\vec{a} \\cdot \\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta$.<br><b>Step 2:</b> Calculate the dot product: $\\vec{a} \\cdot \\vec{b} = (1)(1)\\cos 60^{\\circ} = \\frac{1}{2}$.<br><b>Step 3:</b> Substitute this value into the given expression: $\\frac{1 + 1/2}{1 - 1/2}$.<br><b>Step 4:</b> Simplify the numerator and denominator: $\\frac{3/2}{1/2}$.<br><b>Step 5:</b> The result is $3$."
+            },
+            {
+                "id": "VEC-TEST-050",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Torque", "Cross Product"],
+                "q": "If $\\vec{F}=2\\hat{i}+3\\hat{j}-\\hat{k}$ and $\\vec{r}=\\hat{i}-\\hat{j}+6\\hat{k}$ find $\\vec{r}\\times\\vec{F}$:",
+                "options": ["$-17\\hat{i}+13\\hat{j}+5\\hat{k}$", "$-17\\hat{i}-13\\hat{j}-5\\hat{k}$", "$3\\hat{i}+4\\hat{j}-5\\hat{k}$", "$-3\\hat{i}-4\\hat{j}+5\\hat{k}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The cross product $\\vec{r} \\times \\vec{F}$ is calculated using a determinant: $\\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -1 & 6 \\\\ 2 & 3 & -1 \\end{vmatrix}$.<br><b>Step 2:</b> Expand along the first row: $\\hat{i}((-1)(-1) - (6)(3)) - \\hat{j}((1)(-1) - (6)(2)) + \\hat{k}((1)(3) - (-1)(2))$.<br><b>Step 3:</b> Simplify the terms: $\\hat{i}(1 - 18) - \\hat{j}(-1 - 12) + \\hat{k}(3 - (-2))$.<br><b>Step 4:</b> The result is $-17\\hat{i} + 13\\hat{j} + 5\\hat{k}$."
+            },
+            {
+                "id": "VEC-TEST-051",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Area of Triangle", "Cross Product"],
+                "q": "Two sides of a triangle are given by $\\hat{i}+\\hat{j}+\\hat{k}$ and $-\\hat{i}+2\\hat{j}+3\\hat{k}$, then area of triangle is:",
+                "options": ["$\\sqrt{26}$", "$\\sqrt{26}/2$", "$\\sqrt{46}$", "26"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let the side vectors be $\\vec{A} = \\hat{i}+\\hat{j}+\\hat{k}$ and $\\vec{B} = -\\hat{i}+2\\hat{j}+3\\hat{k}$. Area $= \\frac{1}{2} |\\vec{A} \\times \\vec{B}|$.<br><b>Step 2:</b> Calculate the cross product: $\\vec{A} \\times \\vec{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 1 & 1 \\\\ -1 & 2 & 3 \\end{vmatrix}$.<br><b>Step 3:</b> $\\vec{A} \\times \\vec{B} = \\hat{i}(3-2) - \\hat{j}(3 - (-1)) + \\hat{k}(2 - (-1)) = \\hat{i} - 4\\hat{j} + 3\\hat{k}$.<br><b>Step 4:</b> Find the magnitude: $|\\vec{A} \\times \\vec{B}| = \\sqrt{1^2 + (-4)^2 + 3^2} = \\sqrt{1 + 16 + 9} = \\sqrt{26}$.<br><b>Step 5:</b> Area $= \\frac{\\sqrt{26}}{2}$ sq. units."
+            },
+            {
+                "id": "VEC-TEST-052",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Dot and Cross Product", "Angle Between Vectors"],
+                "q": "The magnitude of scalar and vector products of two vectors are 144 and $48\\sqrt{3}$ respectively. What is the angle between the two vectors?",
+                "options": ["$30^{\\circ}$", "$45^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The magnitude of the scalar (dot) product is $AB\\cos\\theta = 144$.<br><b>Step 2:</b> The magnitude of the vector (cross) product is $AB\\sin\\theta = 48\\sqrt{3}$.<br><b>Step 3:</b> Divide the cross product magnitude by the dot product magnitude: $\\frac{AB\\sin\\theta}{AB\\cos\\theta} = \\frac{48\\sqrt{3}}{144}$.<br><b>Step 4:</b> $\\tan\\theta = \\frac{48\\sqrt{3}}{48 \\times 3} = \\frac{\\sqrt{3}}{3} = \\frac{1}{\\sqrt{3}}$.<br><b>Step 5:</b> Therefore, the angle $\\theta = 30^{\\circ}$."
+            },
+            {
+                "id": "VEC-TEST-053",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Area of Parallelogram", "Cross Product"],
+                "q": "Area of a parallelogram formed by vectors $(3\\hat{i}-2\\hat{j}+\\hat{k})\\text{m}$ and $(\\hat{i}+2\\hat{j}+3\\hat{k})\\text{m}$ as adjacent sides is:",
+                "options": ["$3\\sqrt{8}\\text{ m}^2$", "$24\\text{ m}^2$", "$8\\sqrt{3}\\text{ m}^2$", "$4\\sqrt{3}\\text{ m}^2$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The area of a parallelogram defined by adjacent vectors $\\vec{A}$ and $\\vec{B}$ is given by $|\\vec{A} \\times \\vec{B}|$.<br><b>Step 2:</b> Calculate the cross product: $\\vec{A} \\times \\vec{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & -2 & 1 \\\\ 1 & 2 & 3 \\end{vmatrix}$.<br><b>Step 3:</b> $\\vec{A} \\times \\vec{B} = \\hat{i}(-6 - 2) - \\hat{j}(9 - 1) + \\hat{k}(6 - (-2))$.<br><b>Step 4:</b> $\\vec{A} \\times \\vec{B} = -8\\hat{i} - 8\\hat{j} + 8\\hat{k}$.<br><b>Step 5:</b> Find the magnitude: $\\text{Area} = \\sqrt{(-8)^2 + (-8)^2 + 8^2} = \\sqrt{64 + 64 + 64} = \\sqrt{192} = \\sqrt{64 \\times 3} = 8\\sqrt{3}\\text{ m}^2$."
+            },
+            {
+                "id": "VEC-TEST-054",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Parallel Vectors", "Cross Product"],
+                "q": "Find the values of x and y for which vectors $\\vec{A}=6\\hat{i}+x\\hat{j}-2\\hat{k}$ and $\\vec{B}=5\\hat{i}-6\\hat{j}-y\\hat{k}$ may be parallel:",
+                "options": ["$x=0, y=2/3$", "$x=-36/5, y=5/3$", "$x=-15/3, y=23/5$", "$x=36/3, y=15/14$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> For two vectors to be parallel, their corresponding components must be proportional.<br><b>Step 2:</b> Setup the ratios: $\\frac{6}{5} = \\frac{x}{-6} = \\frac{-2}{-y}$.<br><b>Step 3:</b> Solve for x: $\\frac{6}{5} = \\frac{x}{-6} \\implies 5x = -36 \\implies x = -\\frac{36}{5}$.<br><b>Step 4:</b> Solve for y: $\\frac{6}{5} = \\frac{2}{y} \\implies 6y = 10 \\implies y = \\frac{10}{6} = \\frac{5}{3}$."
+            },
+            {
+                "id": "VEC-TEST-055",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["2D Vectors", "Displacement"],
+                "q": "A man travels 1 mile due east, then 5 miles due south, then 2 miles due east and finally 9 miles due north. His displacement is:",
+                "options": ["3 miles", "5 miles", "4 miles", "between 5 and 9 miles"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Represent each movement as a vector. Let East be $\\hat{i}$ and North be $\\hat{j}$.<br><b>Step 2:</b> $\\vec{s_1} = 1\\hat{i}$, $\\vec{s_2} = -5\\hat{j}$, $\\vec{s_3} = 2\\hat{i}$, $\\vec{s_4} = 9\\hat{j}$.<br><b>Step 3:</b> Total displacement $\\vec{S} = \\vec{s_1} + \\vec{s_2} + \\vec{s_3} + \\vec{s_4}$.<br><b>Step 4:</b> $\\vec{S} = (1+2)\\hat{i} + (-5+9)\\hat{j} = 3\\hat{i} + 4\\hat{j}$.<br><b>Step 5:</b> The magnitude of displacement is $|\\vec{S}| = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5$ miles."
+            },
+            {
+                "id": "VEC-TEST-056",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Equilibrium", "Vector Addition"],
+                "q": "Three forces $\\vec{F_{1}}=a(\\hat{i}-\\hat{j}+\\hat{k})$, $\\vec{F}_{2}=2\\hat{i}-3\\hat{j}+4\\hat{k}$ and $\\vec{F_{3}}=8\\hat{i}-7\\hat{j}+6\\hat{k}$ act simultaneously on a particle. If the particle is in equilibrium, the value of a is:",
+                "options": ["10", "-10", "8", "2"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> For a particle to be in equilibrium, the vector sum of all forces acting on it must be zero: $\\vec{F_1} + \\vec{F_2} + \\vec{F_3} = \\vec{0}$.<br><b>Step 2:</b> Write $\\vec{F_1}$ fully distributed: $a\\hat{i} - a\\hat{j} + a\\hat{k}$.<br><b>Step 3:</b> Add the x-components and set to zero: $a + 2 + 8 = 0$.<br><b>Step 4:</b> Solve for a: $a + 10 = 0 \\implies a = -10$.<br><b>Step 5:</b> (Verification with y-components: $-(-10) - 3 - 7 = 10 - 10 = 0$. Verification holds)."
+            },
+            {
+                "id": "VEC-TEST-057",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Vector Resolution", "Coordinate Geometry"],
+                "q": "If a particle is displaced from (0,0,0) to a point in XY-plane which is at a distance of 4 units in a direction making an angle clock wise $60^{\\circ}$ with the negative x-axis. What is the final position vector of the particle?",
+                "options": ["$-2\\hat{i}+2\\sqrt{3}\\hat{j}$", "$2\\hat{i}+2\\sqrt{3}\\hat{j}$", "$2\\hat{j}+2\\sqrt{3}\\hat{k}$", "$2\\sqrt{3}\\hat{j}+2\\hat{k}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The magnitude of the vector is $R = 4$. The reference line is the negative x-axis ($180^{\\circ}$).<br><b>Step 2:</b> \"Clockwise with the negative x-axis\" means rotating upwards into the second quadrant (from $+180^{\\circ}$ back towards $+90^{\\circ}$). The true angle with the positive x-axis is $180^{\\circ} - 60^{\\circ} = 120^{\\circ}$.<br><b>Step 3:</b> The x-component is $x = R\\cos(120^{\\circ}) = 4(-1/2) = -2$.<br><b>Step 4:</b> The y-component is $y = R\\sin(120^{\\circ}) = 4(\\sqrt{3}/2) = 2\\sqrt{3}$.<br><b>Step 5:</b> The final position vector is $-2\\hat{i} + 2\\sqrt{3}\\hat{j}$."
+            },
+            {
+                "id": "VEC-TEST-058",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Direction Cosines", "3D Vectors"],
+                "q": "Cosines of angles made by a vector with X, Y axes are $3/5\\sqrt{2}$, $4/5\\sqrt{2}$ respectively. If the magnitude of the vector is $10\\sqrt{2}$ then that vector is:",
+                "options": ["$8\\hat{i}+6\\hat{j}-10\\hat{k}$", "$6\\hat{i}-8\\hat{j}-10\\hat{k}$", "$-6\\hat{i}-8\\hat{j}+10\\hat{k}$", "$6\\hat{i}+8\\hat{j}+10\\hat{k}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Direction cosines must satisfy $\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$.<br><b>Step 2:</b> Calculate squares: $\\left(\\frac{3}{5\\sqrt{2}}\\right)^2 + \\left(\\frac{4}{5\\sqrt{2}}\\right)^2 + \\cos^2\\gamma = 1$.<br><b>Step 3:</b> $\\frac{9}{50} + \\frac{16}{50} + \\cos^2\\gamma = 1 \\implies \\frac{25}{50} + \\cos^2\\gamma = 1 \\implies 0.5 + \\cos^2\\gamma = 1$.<br><b>Step 4:</b> $\\cos^2\\gamma = 0.5 \\implies \\cos\\gamma = \\frac{1}{\\sqrt{2}} = \\frac{5}{5\\sqrt{2}}$.<br><b>Step 5:</b> The vector components are $A_x = A\\cos\\alpha, A_y = A\\cos\\beta, A_z = A\\cos\\gamma$.<br><b>Step 6:</b> Substitute $A = 10\\sqrt{2}$: $A_x = 10\\sqrt{2}(\\frac{3}{5\\sqrt{2}}) = 6$, $A_y = 10\\sqrt{2}(\\frac{4}{5\\sqrt{2}}) = 8$, $A_z = 10\\sqrt{2}(\\frac{5}{5\\sqrt{2}}) = 10$. The vector is $6\\hat{i}+8\\hat{j}+10\\hat{k}$."
+            },
+            {
+                "id": "VEC-TEST-059",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Direction Cosines", "3D Angles"],
+                "q": "If a vector $\\overline{A}$ makes angles $45^{\\circ}$ and $60^{\\circ}$ with x and y axis respectively then the angle made by it with z-axis is:",
+                "options": ["$30^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$", "$120^{\\circ}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let $\\alpha$, $\\beta$, and $\\gamma$ be the angles the vector makes with the x, y, and z axes respectively.<br><b>Step 2:</b> We know the fundamental relationship of direction cosines: $\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$.<br><b>Step 3:</b> Substitute the given angles: $\\cos^2(45^{\\circ}) + \\cos^2(60^{\\circ}) + \\cos^2\\gamma = 1$.<br><b>Step 4:</b> $\\left(\\frac{1}{\\sqrt{2}}\\right)^2 + \\left(\\frac{1}{2}\\right)^2 + \\cos^2\\gamma = 1 \\implies \\frac{1}{2} + \\frac{1}{4} + \\cos^2\\gamma = 1$.<br><b>Step 5:</b> $\\frac{3}{4} + \\cos^2\\gamma = 1 \\implies \\cos^2\\gamma = \\frac{1}{4} \\implies \\cos\\gamma = \\frac{1}{2}$.<br><b>Step 6:</b> Therefore, $\\gamma = 60^{\\circ}$."
+            },
+            {
+                "id": "VEC-TEST-060",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Vector Addition", "Pythagorean Theorem"],
+                "q": "A vector which has a magnitude of 8 is added to the vector $\\vec{P}$ which lies along the X-axis. The resultant of these two vectors is a third vector $\\vec{R}$ which lies along the Y-axis and has a magnitude twice that of $\\vec{P}$. The magnitude of $\\vec{P}$ is:",
+                "options": ["$\\frac{6}{\\sqrt{5}}$", "$\\frac{8}{\\sqrt{5}}$", "$\\frac{12}{\\sqrt{5}}$", "$\\frac{16}{\\sqrt{5}}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let $\\vec{Q}$ be the vector with magnitude 8 ($|\\vec{Q}|=8$).<br><b>Step 2:</b> We are given $\\vec{P} + \\vec{Q} = \\vec{R}$. We can rearrange this to $\\vec{Q} = \\vec{R} - \\vec{P}$.<br><b>Step 3:</b> We know $\\vec{P}$ lies on the X-axis, so $\\vec{P} = P\\hat{i}$.<br><b>Step 4:</b> We know $\\vec{R}$ lies on the Y-axis and $|\\vec{R}| = 2|\\vec{P}| = 2P$. So, $\\vec{R} = 2P\\hat{j}$.<br><b>Step 5:</b> Substitute into the equation: $\\vec{Q} = 2P\\hat{j} - P\\hat{i}$.<br><b>Step 6:</b> The magnitude of $\\vec{Q}$ is $\\sqrt{(-P)^2 + (2P)^2} = \\sqrt{P^2 + 4P^2} = \\sqrt{5P^2} = P\\sqrt{5}$.<br><b>Step 7:</b> Since $|\\vec{Q}| = 8$, we have $P\\sqrt{5} = 8 \\implies P = \\frac{8}{\\sqrt{5}}$."
+            },
+            {
+                "id": "VEC-TEST-061",
+                "topic": "Multiplication of a Vector by a Scalar",
+                "difficulty": 1,
+                "tags": ["Vector Magnitude", "Scalar Multiplication"],
+                "q": "If $\\vec{V}=3\\hat{i}+4\\hat{j}$ then, with what scalar 'C' must it be multiplied so that $|C\\vec{V}|=7.5$:",
+                "options": ["0.5", "2.5", "1.5", "3.5"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Calculate the initial magnitude of the vector: $|\\vec{V}| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = 5$.<br><b>Step 2:</b> We are given the condition $|C\\vec{V}| = 7.5$.<br><b>Step 3:</b> Since $|C\\vec{V}| = C|\\vec{V}|$, we can substitute the magnitude: $C(5) = 7.5$.<br><b>Step 4:</b> Solve for C: $C = \\frac{7.5}{5} = 1.5$."
+            },
+            {
+                "id": "VEC-TEST-062",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 3,
+                "tags": ["3D Geometry", "Dot Product", "Angle Between Vectors"],
+                "q": "The angle between the diagonals of a cube with edges of unit length is:",
+                "options": ["$\\sin^{-1}(1/3)$", "$\\cos^{-1}(1/3)$", "$\\tan^{-1}(1/3)$", "$\\cot^{-1}(1/3)$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Consider a cube with edges of length 1 aligned with the coordinate axes. Its vertices are at $(0,0,0)$ and $(1,1,1)$.<br><b>Step 2:</b> One body diagonal vector is $\\vec{d_1} = (1-0)\\hat{i} + (1-0)\\hat{j} + (1-0)\\hat{k} = \\hat{i}+\\hat{j}+\\hat{k}$.<br><b>Step 3:</b> Another body diagonal goes from $(1,0,0)$ to $(0,1,1)$, making the vector $\\vec{d_2} = -\\hat{i}+\\hat{j}+\\hat{k}$.<br><b>Step 4:</b> The magnitude of both diagonals is $\\sqrt{1^2 + 1^2 + 1^2} = \\sqrt{3}$.<br><b>Step 5:</b> Calculate the dot product: $\\vec{d_1} \\cdot \\vec{d_2} = (1)(-1) + (1)(1) + (1)(1) = -1 + 1 + 1 = 1$.<br><b>Step 6:</b> Use the dot product formula to find the angle: $\\cos\\theta = \\frac{\\vec{d_1} \\cdot \\vec{d_2}}{|\\vec{d_1}||\\vec{d_2}|} = \\frac{1}{\\sqrt{3}\\sqrt{3}} = \\frac{1}{3}$.<br><b>Step 7:</b> Therefore, $\\theta = \\cos^{-1}(1/3)$."
+            },
+            {
+                "id": "VEC-TEST-063",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["2D Vectors", "Direction Angle"],
+                "q": "The angle made by the vector $\\vec{A}=2\\hat{i}+3\\hat{j}$ with Y-axis is:",
+                "options": ["$\\tan^{-1}(3/2)$", "$\\tan^{-1}(2/3)$", "$\\sin^{-1}(2/3)$", "$\\cos^{-1}(3/2)$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let the angle made with the Y-axis be $\\alpha$.<br><b>Step 2:</b> From basic trigonometry for a 2D vector, $\\tan\\alpha = \\frac{\\text{Opposite}}{\\text{Adjacent}} = \\frac{A_x}{A_y}$.<br><b>Step 3:</b> Substitute the components: $A_x = 2$ and $A_y = 3$.<br><b>Step 4:</b> $\\tan\\alpha = \\frac{2}{3}$.<br><b>Step 5:</b> Therefore, the angle is $\\alpha = \\tan^{-1}\\left(\\frac{2}{3}\\right)$."
+            },
+            {
+                "id": "VEC-TEST-064",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Direction Cosines", "Dot Product"],
+                "q": "If $l_1, m_1, n_1$ and $l_2, m_2, n_2$ are the directional cosines of two vectors and $\\theta$ is the angle between them, then their value of $\\cos\\theta$ is:",
+                "options": ["$l_1 l_2 + m_1 m_2 + n_1 n_2$", "$l_1 m_1 + m_1 n_1 + n_1 l_1$", "$l_2 m_2 + m_2 n_2 + n_2 l_2$", "$m_1 l_2 + l_2 m_2 + n_1 m_2$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Direction cosines ($l, m, n$) are simply the components of a unit vector. <br><b>Step 2:</b> Let the two unit vectors be $\\hat{u_1} = l_1\\hat{i} + m_1\\hat{j} + n_1\\hat{k}$ and $\\hat{u_2} = l_2\\hat{i} + m_2\\hat{j} + n_2\\hat{k}$.<br><b>Step 3:</b> The angle between two unit vectors is given entirely by their dot product since their magnitudes are 1: $\\cos\\theta = \\frac{\\hat{u_1} \\cdot \\hat{u_2}}{(1)(1)}$.<br><b>Step 4:</b> Perform the dot product: $\\hat{u_1} \\cdot \\hat{u_2} = (l_1)(l_2) + (m_1)(m_2) + (n_1)(n_2)$.<br><b>Step 5:</b> Therefore, $\\cos\\theta = l_1 l_2 + m_1 m_2 + n_1 n_2$."
+            },
+            {
+                "id": "VEC-TEST-065",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 3,
+                "tags": ["Vector Properties", "Dot Product"],
+                "q": "If $\\vec{A}+\\vec{B}=\\vec{C}$, then magnitude of $\\vec{B}$ is:",
+                "options": ["$\\vec{C}-\\vec{A}$", "$C-A$", "$\\sqrt{\\vec{C}\\cdot\\vec{B}-\\vec{A}\\cdot\\vec{B}}$", "$\\sqrt{\\vec{C}\\cdot\\vec{A}-\\vec{B}\\cdot\\vec{A}}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Rearrange the given vector equation: $\\vec{B} = \\vec{C} - \\vec{A}$.<br><b>Step 2:</b> To find the magnitude of $\\vec{B}$, we can take the dot product of $\\vec{B}$ with itself: $|\\vec{B}|^2 = \\vec{B} \\cdot \\vec{B}$.<br><b>Step 3:</b> Substitute the rearranged equation into one of the $\\vec{B}$ vectors: $|\\vec{B}|^2 = \\vec{B} \\cdot (\\vec{C} - \\vec{A})$.<br><b>Step 4:</b> Distribute the dot product: $|\\vec{B}|^2 = \\vec{C} \\cdot \\vec{B} - \\vec{A} \\cdot \\vec{B}$.<br><b>Step 5:</b> Take the square root of both sides: $|\\vec{B}| = \\sqrt{\\vec{C}\\cdot\\vec{B} - \\vec{A}\\cdot\\vec{B}}$."
+            },
+            {
+                "id": "VEC-TEST-066",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 3,
+                "tags": ["Vector Algebra", "Dot Product"],
+                "q": "If $\\vec{a}=m\\vec{b}+\\vec{c}$. The scalar m is:",
+                "options": ["$\\frac{\\vec{a}\\cdot\\vec{b}-\\vec{b}\\cdot\\vec{c}}{b^2}$", "$\\frac{\\vec{c}\\cdot\\vec{b}-\\vec{a}\\cdot\\vec{c}}{a^2}$", "$\\frac{\\vec{c}\\cdot\\vec{a}-\\vec{b}\\cdot\\vec{c}}{c^2}$", "$\\frac{(\\vec{a}\\cdot\\vec{b})(\\vec{b}\\cdot\\vec{c})}{a^2}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> We are given the vector equation $\\vec{a} = m\\vec{b} + \\vec{c}$.<br><b>Step 2:</b> To isolate the scalar $m$, take the dot product of the entire equation with vector $\\vec{b}$.<br><b>Step 3:</b> $\\vec{a} \\cdot \\vec{b} = (m\\vec{b} + \\vec{c}) \\cdot \\vec{b}$.<br><b>Step 4:</b> Distribute the dot product: $\\vec{a} \\cdot \\vec{b} = m(\\vec{b} \\cdot \\vec{b}) + (\\vec{c} \\cdot \\vec{b})$.<br><b>Step 5:</b> Since $\\vec{b} \\cdot \\vec{b} = b^2$, we have $\\vec{a} \\cdot \\vec{b} = mb^2 + \\vec{b} \\cdot \\vec{c}$.<br><b>Step 6:</b> Rearrange and solve for $m$: $mb^2 = \\vec{a} \\cdot \\vec{b} - \\vec{b} \\cdot \\vec{c} \\implies m = \\frac{\\vec{a}\\cdot\\vec{b} - \\vec{b}\\cdot\\vec{c}}{b^2}$."
+            },
+            {
+                "id": "VEC-TEST-067",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Perpendicular Vectors", "Kinematics with Vectors"],
+                "q": "Velocity and acceleration vectors of charged particle moving perpendicular to the direction of magnetic field at a given instant of time are $\\vec{v}=2\\hat{i}+c\\hat{j}$ and $\\vec{a}=3\\hat{i}+4\\hat{j}$ respectively. Then the value of 'c' is:",
+                "options": ["3", "1.5", "-1.5", "-3"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The magnetic force on a moving charge is always perpendicular to its velocity.<br><b>Step 2:</b> Since acceleration is in the direction of the net force, the acceleration vector $\\vec{a}$ is perpendicular to the velocity vector $\\vec{v}$.<br><b>Step 3:</b> For perpendicular vectors, their dot product is zero: $\\vec{v} \\cdot \\vec{a} = 0$.<br><b>Step 4:</b> Calculate the dot product: $(2)(3) + (c)(4) = 0$.<br><b>Step 5:</b> $6 + 4c = 0 \\implies 4c = -6 \\implies c = -1.5$."
+            },
+            {
+                "id": "VEC-TEST-068",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 1,
+                "tags": ["Applications of Vectors", "Conceptual"],
+                "q": "Dot product is used in the determination of:<br>a) Work done by a force<br>b) Power developed by an automobile moving with uniform velocity.<br>c) The normal flux linked with a coil kept in magnetic field.<br>d) The force acting on a conductor carrying current kept in a magnetic field.",
+                "options": ["a, d are true", "b, d are true", "a, b, c are true", "c, d are true"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Evaluate (a): Work done is $W = \\vec{F} \\cdot \\vec{S}$. This uses the dot product.<br><b>Step 2:</b> Evaluate (b): Power is $P = \\vec{F} \\cdot \\vec{v}$. This uses the dot product.<br><b>Step 3:</b> Evaluate (c): Magnetic flux is $\\Phi = \\vec{B} \\cdot \\vec{A}$. This uses the dot product.<br><b>Step 4:</b> Evaluate (d): Magnetic force on a current-carrying conductor is $\\vec{F} = I(\\vec{L} \\times \\vec{B})$. This uses the CROSS product, not the dot product.<br><b>Step 5:</b> Therefore, statements a, b, and c are true."
+            },
+            {
+                "id": "VEC-TEST-069",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Unit Normal Vector", "Cross Product"],
+                "q": "The unit vector perpendicular to $\\vec{A}=2\\hat{i}+3\\hat{j}+\\hat{k}$ and $\\vec{B}=\\hat{i}-\\hat{j}+\\hat{k}$ is:",
+                "options": ["$\\frac{4\\hat{i}-\\hat{j}-5\\hat{k}}{\\sqrt{42}}$", "$\\frac{4\\hat{i}-\\hat{j}+5\\hat{k}}{\\sqrt{42}}$", "$\\frac{4\\hat{i}+\\hat{j}+5\\hat{k}}{\\sqrt{42}}$", "$\\frac{4\\hat{i}+\\hat{j}-5\\hat{k}}{\\sqrt{42}}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> A vector perpendicular to both $\\vec{A}$ and $\\vec{B}$ is found using their cross product $\\vec{A} \\times \\vec{B}$.<br><b>Step 2:</b> $\\vec{A} \\times \\vec{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & 1 \\\\ 1 & -1 & 1 \\end{vmatrix}$.<br><b>Step 3:</b> Expand the determinant: $\\hat{i}((3)(1) - (-1)(1)) - \\hat{j}((2)(1) - (1)(1)) + \\hat{k}((2)(-1) - (3)(1))$.<br><b>Step 4:</b> $\\vec{A} \\times \\vec{B} = \\hat{i}(3 + 1) - \\hat{j}(2 - 1) + \\hat{k}(-2 - 3) = 4\\hat{i} - 1\\hat{j} - 5\\hat{k}$.<br><b>Step 5:</b> Find the magnitude of this vector: $\\sqrt{4^2 + (-1)^2 + (-5)^2} = \\sqrt{16 + 1 + 25} = \\sqrt{42}$.<br><b>Step 6:</b> Divide the cross product by its magnitude to get the unit vector: $\\hat{n} = \\frac{4\\hat{i}-\\hat{j}-5\\hat{k}}{\\sqrt{42}}$."
+            },
+            {
+                "id": "VEC-TEST-070",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 3,
+                "tags": ["Vector Identities", "Cross Product"],
+                "q": "Find the value of $(\\vec{a}+\\vec{b})\\times(\\vec{a}-\\vec{b})$:",
+                "options": ["$(\\vec{a}\\times\\vec{b})$", "$2(\\vec{a}\\times\\vec{b})$", "$-2(\\vec{a}\\cdot\\vec{b})$", "$-2(\\vec{a}\\times\\vec{b})$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Distribute the cross product mathematically: $(\\vec{a} \\times \\vec{a}) - (\\vec{a} \\times \\vec{b}) + (\\vec{b} \\times \\vec{a}) - (\\vec{b} \\times \\vec{b})$.<br><b>Step 2:</b> Apply cross product properties: The cross product of any vector with itself is zero, so $\\vec{a} \\times \\vec{a} = 0$ and $\\vec{b} \\times \\vec{b} = 0$.<br><b>Step 3:</b> The expression simplifies to: $-\\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{a}$.<br><b>Step 4:</b> Apply the anti-commutative property of cross products: $\\vec{b} \\times \\vec{a} = -\\vec{a} \\times \\vec{b}$.<br><b>Step 5:</b> Substitute this back: $-\\vec{a} \\times \\vec{b} - \\vec{a} \\times \\vec{b} = -2(\\vec{a} \\times \\vec{b})$."
+            },
+            {
+                "id": "VEC-TEST-071",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["3D Vectors", "Resultant Magnitude"],
+                "q": "A particle has a displacement of 12 m towards east then 5 m towards north and then 6 m vertically upwards the resultant displacement is nearly:",
+                "options": ["10.04 m", "12.10 m", "14.32 m", "13.06 m"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Represent the displacement as a 3D vector. Let East be the x-axis, North be the y-axis, and Upwards be the z-axis.<br><b>Step 2:</b> The displacement vector is $\\vec{S} = 12\\hat{i} + 5\\hat{j} + 6\\hat{k}$.<br><b>Step 3:</b> The magnitude of the resultant displacement is $|\\vec{S}| = \\sqrt{x^2 + y^2 + z^2}$.<br><b>Step 4:</b> $|\\vec{S}| = \\sqrt{12^2 + 5^2 + 6^2} = \\sqrt{144 + 25 + 36} = \\sqrt{205}$.<br><b>Step 5:</b> Calculate the square root: $\\sqrt{205} \\approx 14.317$ m. The closest option is 14.32 m."
+            },
+            {
+                "id": "VEC-TEST-072",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Equilibrium", "Resolution of Vectors"],
+                "imgUrl": "[IMAGE_URL_LEVEL2_HW_Q2]",
+                "q": "Four co-planar concurrent forces are acting on a body as shown in the figure to keep it in equilibrium. Then the values of P and $\\theta$ are:",
+                "options": ["$P=4\\text{N}, \\theta=0^{\\circ}$", "$P=2\\text{N}, \\theta=90^{\\circ}$", "$P=2\\text{N}, \\theta=0^{\\circ}$", "$P=4\\text{N}, \\theta=90^{\\circ}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Analyze the forces from the diagram. A force of $\\sqrt{3}$ N points along the +y axis. A force of 1 N points along the +x axis. A force of 2 N points into the 4th quadrant, making an angle of $60^{\\circ}$ with the +x axis.<br><b>Step 2:</b> Vector P lies in the 2nd quadrant, making an angle $\\theta$ with the +y axis.<br><b>Step 3:</b> Because the body is in equilibrium, the sum of all x-components and y-components must independently equal zero.<br><b>Step 4:</b> Sum of x-components: $-P\\sin\\theta + 1 + 2\\cos 60^{\\circ} = 0$. Since $\\cos 60^{\\circ} = 0.5$, we get $-P\\sin\\theta + 1 + 1 = 0 \\implies P\\sin\\theta = 2$.<br><b>Step 5:</b> Sum of y-components: $P\\cos\\theta + \\sqrt{3} - 2\\sin 60^{\\circ} = 0$. Since $\\sin 60^{\\circ} = \\frac{\\sqrt{3}}{2}$, we get $P\\cos\\theta + \\sqrt{3} - \\sqrt{3} = 0 \\implies P\\cos\\theta = 0$.<br><b>Step 6:</b> The only way $P\\cos\\theta = 0$ while $P\\sin\\theta = 2$ is if $\\theta = 90^{\\circ}$ (making $\\cos 90^{\\circ}=0$ and $\\sin 90^{\\circ}=1$).<br><b>Step 7:</b> Substituting $\\theta = 90^{\\circ}$ gives $P(1) = 2 \\implies P = 2\\text{N}$."
+            },
+            {
+                "id": "VEC-TEST-073",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Addition", "Compass Directions"],
+                "q": "O is a point on the ground chosen as origin. A body first suffers a displacement of $10\\sqrt{2}\\text{ m}$ North-East, next 10 m north and finally $10\\sqrt{2}\\text{ m}$ North-West. How far it is from the origin?",
+                "options": ["30 m north", "30 m south", "30 m west", "30 m east"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Represent the displacements as vectors. Let East be $+x$ ($\\hat{i}$) and North be $+y$ ($\\hat{j}$).<br><b>Step 2:</b> North-East is exactly $45^{\\circ}$ between North and East. $\\vec{S_1} = 10\\sqrt{2}(\\cos 45^{\\circ}\\hat{i} + \\sin 45^{\\circ}\\hat{j}) = 10\\hat{i} + 10\\hat{j}$.<br><b>Step 3:</b> The second displacement is pure North. $\\vec{S_2} = 10\\hat{j}$.<br><b>Step 4:</b> North-West is $45^{\\circ}$ between North and West. $\\vec{S_3} = 10\\sqrt{2}(-\\cos 45^{\\circ}\\hat{i} + \\sin 45^{\\circ}\\hat{j}) = -10\\hat{i} + 10\\hat{j}$.<br><b>Step 5:</b> Sum the vectors: $\\vec{S} = (10\\hat{i} + 10\\hat{j}) + (10\\hat{j}) + (-10\\hat{i} + 10\\hat{j})$.<br><b>Step 6:</b> $\\vec{S} = (10 - 10)\\hat{i} + (10 + 10 + 10)\\hat{j} = 30\\hat{j}$.<br><b>Step 7:</b> The final displacement is 30 m North."
+            },
+            {
+                "id": "VEC-TEST-074",
+                "topic": "Addition, Subtraction and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Direction Cosines", "3D Vectors"],
+                "q": "If the two directional cosines of a vectors are $\\frac{1}{\\sqrt{2}}$ and $\\frac{1}{\\sqrt{3}}$ then the value of third directional cosine is:",
+                "options": ["$\\frac{1}{\\sqrt{6}}$", "$\\frac{1}{\\sqrt{5}}$", "$\\frac{1}{\\sqrt{7}}$", "$\\frac{1}{\\sqrt{10}}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The fundamental property of direction cosines is $\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$.<br><b>Step 2:</b> Substitute the given values: $\\left(\\frac{1}{\\sqrt{2}}\\right)^2 + \\left(\\frac{1}{\\sqrt{3}}\\right)^2 + \\cos^2\\gamma = 1$.<br><b>Step 3:</b> Square the fractions: $\\frac{1}{2} + \\frac{1}{3} + \\cos^2\\gamma = 1$.<br><b>Step 4:</b> Find a common denominator to add: $\\frac{3}{6} + \\frac{2}{6} + \\cos^2\\gamma = 1 \\implies \\frac{5}{6} + \\cos^2\\gamma = 1$.<br><b>Step 5:</b> Solve for $\\cos^2\\gamma$: $\\cos^2\\gamma = 1 - \\frac{5}{6} = \\frac{1}{6}$.<br><b>Step 6:</b> Take the square root: $\\cos\\gamma = \\frac{1}{\\sqrt{6}}$."
+            },
+            {
+                "id": "VEC-TEST-075",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Work Done", "Dot Product"],
+                "q": "A force $\\vec{F}=3\\hat{i}+c\\hat{j}+2\\hat{k}\\text{ N}$ acting on a particle causes a displacement $\\vec{S}=-4\\hat{i}+2\\hat{j}-3\\hat{k}\\text{ m}$. If the work done is 6 joule, the value of c is:",
+                "options": ["0", "1", "12", "6"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The work done ($W$) by a constant force is given by the dot product: $W = \\vec{F} \\cdot \\vec{S}$.<br><b>Step 2:</b> We are given $W = 6\\text{ J}$. Setup the equation: $\\vec{F} \\cdot \\vec{S} = 6$.<br><b>Step 3:</b> Perform the dot product: $(3)(-4) + (c)(2) + (2)(-3) = 6$.<br><b>Step 4:</b> Simplify the terms: $-12 + 2c - 6 = 6$.<br><b>Step 5:</b> Combine constant terms: $2c - 18 = 6$.<br><b>Step 6:</b> Solve for c: $2c = 24 \\implies c = 12$."
+            },
+            {
+                "id": "VEC-TEST-076",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 3,
+                "tags": ["Perpendicular Vectors", "Dot Product"],
+                "q": "If $\\vec{a}$ and $\\vec{b}$ are two unit vectors such that $\\vec{a}+2\\vec{b}$ and $5\\vec{a}-4\\vec{b}$ are perpendicular to each other then the angle between $\\vec{a}$ and $\\vec{b}$ is:",
+                "options": ["$120^{\\circ}$", "$90^{\\circ}$", "$60^{\\circ}$", "$45^{\\circ}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Since the two resultant vectors are perpendicular, their dot product must be zero: $(\\vec{a} + 2\\vec{b}) \\cdot (5\\vec{a} - 4\\vec{b}) = 0$.<br><b>Step 2:</b> Distribute the dot product: $5(\\vec{a}\\cdot\\vec{a}) - 4(\\vec{a}\\cdot\\vec{b}) + 10(\\vec{b}\\cdot\\vec{a}) - 8(\\vec{b}\\cdot\\vec{b}) = 0$.<br><b>Step 3:</b> Since $\\vec{a}$ and $\\vec{b}$ are unit vectors, $\\vec{a}\\cdot\\vec{a} = 1$ and $\\vec{b}\\cdot\\vec{b} = 1$. The equation simplifies to: $5(1) + 6(\\vec{a}\\cdot\\vec{b}) - 8(1) = 0$.<br><b>Step 4:</b> Combine constants: $-3 + 6(\\vec{a}\\cdot\\vec{b}) = 0 \\implies \\vec{a}\\cdot\\vec{b} = \\frac{1}{2}$.<br><b>Step 5:</b> We know $\\vec{a}\\cdot\\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta = (1)(1)\\cos\\theta$. Therefore, $\\cos\\theta = \\frac{1}{2}$.<br><b>Step 6:</b> The angle $\\theta$ is $60^{\\circ}$."
+            },
+            {
+                "id": "VEC-TEST-077",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Vector Identities", "Dot Product"],
+                "q": "If $\\vec{A}=9\\hat{i}-7\\hat{j}+5\\hat{k}$ and $\\vec{B}=3\\hat{i}-2\\hat{j}-6\\hat{k}$ then the value of $(\\vec{A}+\\vec{B})\\cdot(\\vec{A}-\\vec{B})$ is:",
+                "options": ["206", "128", "106", "-17"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Expand the dot product algebraically: $(\\vec{A}+\\vec{B}) \\cdot (\\vec{A}-\\vec{B}) = \\vec{A}\\cdot\\vec{A} - \\vec{A}\\cdot\\vec{B} + \\vec{B}\\cdot\\vec{A} - \\vec{B}\\cdot\\vec{B}$.<br><b>Step 2:</b> Because the dot product is commutative ($\\vec{A}\\cdot\\vec{B} = \\vec{B}\\cdot\\vec{A}$), the middle terms cancel out. This leaves $|\\vec{A}|^2 - |\\vec{B}|^2$.<br><b>Step 3:</b> Calculate $|\\vec{A}|^2 = 9^2 + (-7)^2 + 5^2 = 81 + 49 + 25 = 155$.<br><b>Step 4:</b> Calculate $|\\vec{B}|^2 = 3^2 + (-2)^2 + (-6)^2 = 9 + 4 + 36 = 49$.<br><b>Step 5:</b> Subtract the magnitudes squared: $155 - 49 = 106$."
+            },
+            {
+                "id": "VEC-TEST-078",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 2,
+                "tags": ["Work Done", "Displacement Vector"],
+                "q": "The work done by a force $2\\hat{i}-\\hat{j}+5\\hat{k}$ when it displaces the body from a point (3, 4, 6) to a point (7, 2, 5) is:",
+                "options": ["5 units", "7 units", "1 units", "15 units"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Calculate the displacement vector $\\vec{S} = \\vec{r_{final}} - \\vec{r_{initial}}$.<br><b>Step 2:</b> $\\vec{S} = (7-3)\\hat{i} + (2-4)\\hat{j} + (5-6)\\hat{k} = 4\\hat{i} - 2\\hat{j} - \\hat{k}$.<br><b>Step 3:</b> Work done is the dot product of Force and Displacement: $W = \\vec{F} \\cdot \\vec{S}$.<br><b>Step 4:</b> $W = (2\\hat{i}-\\hat{j}+5\\hat{k}) \\cdot (4\\hat{i}-2\\hat{j}-\\hat{k})$.<br><b>Step 5:</b> $W = (2)(4) + (-1)(-2) + (5)(-1) = 8 + 2 - 5 = 5$ units."
+            },
+            {
+                "id": "VEC-TEST-079",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 3,
+                "tags": ["Vector Component", "Ratio"],
+                "q": "The component of $\\vec{A}$ along $\\vec{B}$ is $\\sqrt{3}$ times that of the component of $\\vec{B}$ along $\\vec{A}$. Then $A:B$ is:",
+                "options": ["$1:\\sqrt{3}$", "$\\sqrt{3}:1$", "$2:\\sqrt{3}$", "$\\sqrt{3}:2$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The scalar component of $\\vec{A}$ along $\\vec{B}$ is given by $\\frac{\\vec{A}\\cdot\\vec{B}}{B} = A\\cos\\theta$.<br><b>Step 2:</b> The scalar component of $\\vec{B}$ along $\\vec{A}$ is given by $\\frac{\\vec{A}\\cdot\\vec{B}}{A} = B\\cos\\theta$.<br><b>Step 3:</b> We are given the condition: $A\\cos\\theta = \\sqrt{3}(B\\cos\\theta)$.<br><b>Step 4:</b> Assuming $\\cos\\theta \\neq 0$, we can cancel it from both sides to get $A = \\sqrt{3}B$.<br><b>Step 5:</b> Therefore, the ratio $A:B$ is $\\sqrt{3}:1$."
+            },
+            {
+                "id": "VEC-TEST-080",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 3,
+                "tags": ["Orthogonal Projection", "2D Vectors"],
+                "q": "If $\\vec{A}=(2\\hat{i}+3\\hat{j})$ and $\\vec{B}=(\\hat{i}-\\hat{j})$ then component of $\\vec{A}$ perpendicular to vector $\\vec{B}$ and in the same plane is:",
+                "options": ["$\\frac{5}{2}(\\hat{i}+\\hat{j})$", "$\\frac{5}{\\sqrt{2}}(\\hat{i}+\\hat{j})$", "$\\frac{\\sqrt{5}}{2}(\\hat{i}+\\hat{j})$", "$\\frac{5}{\\sqrt{2}}(\\hat{i}+\\hat{k})$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> First, find the vector component of $\\vec{A}$ parallel to $\\vec{B}$ ($\\vec{A}_{||}$).<br><b>Step 2:</b> $\\vec{A}_{||} = \\left(\\frac{\\vec{A}\\cdot\\vec{B}}{|\\vec{B}|^2}\\right)\\vec{B} = \\frac{(2)(1) + (3)(-1)}{1^2 + (-1)^2}(\\hat{i}-\\hat{j}) = \\frac{2 - 3}{2}(\\hat{i}-\\hat{j}) = -\\frac{1}{2}(\\hat{i}-\\hat{j})$.<br><b>Step 3:</b> The component of $\\vec{A}$ perpendicular to $\\vec{B}$ is $\\vec{A}_{\\perp} = \\vec{A} - \\vec{A}_{||}$.<br><b>Step 4:</b> $\\vec{A}_{\\perp} = (2\\hat{i}+3\\hat{j}) - \\left(-\\frac{1}{2}\\hat{i}+\\frac{1}{2}\\hat{j}\\right)$.<br><b>Step 5:</b> Group the terms: $\\left(2 + \\frac{1}{2}\\right)\\hat{i} + \\left(3 - \\frac{1}{2}\\right)\\hat{j} = \\frac{5}{2}\\hat{i} + \\frac{5}{2}\\hat{j}$.<br><b>Step 6:</b> Factoring out gives $\\frac{5}{2}(\\hat{i}+\\hat{j})$."
+            },
+            {
+                "id": "VEC-TEST-081",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 3,
+                "tags": ["Vector Properties", "Dot Product"],
+                "q": "If $\\vec{A}+\\vec{B}=\\vec{R}$ and $2\\vec{A}+\\vec{B}$ is perpendicular to $\\vec{B}$ then:",
+                "options": ["$A=R$", "$B=2R$", "$B=R$", "$B=A$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Since $2\\vec{A}+\\vec{B}$ is perpendicular to $\\vec{B}$, their dot product is zero: $(2\\vec{A}+\\vec{B})\\cdot\\vec{B} = 0$.<br><b>Step 2:</b> Distribute the dot product: $2\\vec{A}\\cdot\\vec{B} + \\vec{B}\\cdot\\vec{B} = 0 \\implies 2AB\\cos\\theta = -B^2$.<br><b>Step 3:</b> The magnitude of the resultant $\\vec{R}$ is given by $R^2 = A^2 + B^2 + 2AB\\cos\\theta$.<br><b>Step 4:</b> Substitute $2AB\\cos\\theta = -B^2$ into the resultant equation.<br><b>Step 5:</b> $R^2 = A^2 + B^2 - B^2 \\implies R^2 = A^2$.<br><b>Step 6:</b> Taking the positive square root yields $R = A$."
+            },
+            {
+                "id": "VEC-TEST-082",
+                "topic": "Scalar Product (or) Dot Product",
+                "difficulty": 3,
+                "tags": ["Unit Normal Vector", "Trigonometry"],
+                "q": "If $\\vec{A}=\\frac{1}{\\sqrt{2}}\\cos\\theta\\hat{i}+\\frac{1}{\\sqrt{2}}\\sin\\theta\\hat{j}$, what will be the unit vector perpendicular to $\\vec{A}$:",
+                "options": ["$\\cos\\theta\\hat{i}+\\sin\\theta\\hat{j}$", "$-\\cos\\theta\\hat{i}+\\sin\\theta\\hat{j}$", "$\\frac{\\cos\\theta\\hat{i}+\\sin\\theta\\hat{j}}{\\sqrt{2}}$", "$\\sin\\theta\\hat{i}-\\cos\\theta\\hat{j}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Let the perpendicular unit vector be $\\vec{n} = x\\hat{i} + y\\hat{j}$. Since it is perpendicular to $\\vec{A}$, their dot product must be zero.<br><b>Step 2:</b> $\\vec{A}\\cdot\\vec{n} = \\frac{1}{\\sqrt{2}}\\cos\\theta(x) + \\frac{1}{\\sqrt{2}}\\sin\\theta(y) = 0 \\implies x\\cos\\theta + y\\sin\\theta = 0$.<br><b>Step 3:</b> A simple choice that satisfies this equation is $x = \\sin\\theta$ and $y = -\\cos\\theta$ (or vice versa). This gives the vector $\\sin\\theta\\hat{i} - \\cos\\theta\\hat{j}$.<br><b>Step 4:</b> Verify it is a unit vector: Magnitude = $\\sqrt{\\sin^2\\theta + (-\\cos\\theta)^2} = \\sqrt{1} = 1$.<br><b>Step 5:</b> Therefore, $\\sin\\theta\\hat{i}-\\cos\\theta\\hat{j}$ is the correct perpendicular unit vector."
+            },
+            {
+                "id": "VEC-TEST-083",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Cross Product", "Unit Vectors"],
+                "q": "Find the value of $(\\hat{i}+\\hat{j})\\times(\\hat{i}-\\hat{j})$:",
+                "options": ["$-2\\hat{k}$", "$2\\hat{k}$", "zero", "$\\hat{k}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Distribute the cross product mathematically: $(\\hat{i}\\times\\hat{i}) - (\\hat{i}\\times\\hat{j}) + (\\hat{j}\\times\\hat{i}) - (\\hat{j}\\times\\hat{j})$.<br><b>Step 2:</b> Use the properties of unit vector cross products: The cross product of any vector with itself is zero, so $\\hat{i}\\times\\hat{i} = 0$ and $\\hat{j}\\times\\hat{j} = 0$.<br><b>Step 3:</b> By definition, $\\hat{i}\\times\\hat{j} = \\hat{k}$, and $\\hat{j}\\times\\hat{i} = -\\hat{k}$.<br><b>Step 4:</b> Substitute these back into the expression: $0 - (\\hat{k}) + (-\\hat{k}) - 0$.<br><b>Step 5:</b> Simplify to get $-2\\hat{k}$."
+            },
+            {
+                "id": "VEC-TEST-084",
+                "topic": "Vector Product (or) Cross Product",
+                "difficulty": 2,
+                "tags": ["Area of Parallelogram", "Diagonals"],
+                "q": "The diagonals of a parallelogram are $\\vec{A}=2\\hat{i}-3\\hat{j}+\\hat{k}$ and $\\vec{B}=-2\\hat{i}+4\\hat{j}-\\hat{k}$. What is the area of the parallelogram?",
+                "options": ["2 units", "4 units", "$\\sqrt{5}$ units", "$\\frac{\\sqrt{5}}{2}$ units"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The area of a parallelogram when given its diagonals $\\vec{d_1}$ and $\\vec{d_2}$ is $\\frac{1}{2}|\\vec{d_1} \\times \\vec{d_2}|$.<br><b>Step 2:</b> Calculate the cross product: $\\vec{A} \\times \\vec{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & -3 & 1 \\\\ -2 & 4 & -1 \\end{vmatrix}$.<br><b>Step 3:</b> $\\vec{A} \\times \\vec{B} = \\hat{i}(3-4) - \\hat{j}(-2 - (-2)) + \\hat{k}(8 - 6) = -\\hat{i} + 0\\hat{j} + 2\\hat{k}$.<br><b>Step 4:</b> Find the magnitude of the cross product: $|-\\hat{i} + 2\\hat{k}| = \\sqrt{(-1)^2 + 2^2} = \\sqrt{1 + 4} = \\sqrt{5}$.<br><b>Step 5:</b> The area is $\\frac{1}{2}\\sqrt{5}$ or $\\frac{\\sqrt{5}}{2}$ units."
+            }
+        ]
     }
 };
