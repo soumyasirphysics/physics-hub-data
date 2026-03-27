@@ -1140,6 +1140,1036 @@ const adaptiveDatabase = {
                 "options": ["6", "5", "3", "2"],
                 "correct": 1,
                 "sol": "<b>Step 1:</b> According to the rules of significant figures, leading zeros (zeros before the first non-zero digit) are not significant. So, '0.0' are not significant.<br><b>Step 2:</b> All non-zero digits are significant (1, 2).<br><b>Step 3:</b> Zeros between non-zero digits are significant (the 0 between 1 and 2).<br><b>Step 4:</b> Trailing zeros in a number with a decimal point are significant (the two 0s at the end).<br><b>Step 5:</b> Thus, 1, 0, 2, 0, 0 are significant, giving a total of 5 significant figures."
+            },
+            {
+                "id": "UM-TEST-016",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 1,
+                "tags": ["Rounding Off", "Significant Figures"],
+                "q": "When the number 0.046508 is reduced to 4 significant figures, then it becomes:",
+                "options": ["0.0465", "$4650.8 \\times 10^{-5}$", "$4.651 \\times 10^{-2}$", "$4.650 \\times 10^{-2}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The original number is 0.046508. Leading zeros are not significant.<br><b>Step 2:</b> The first four significant digits are 4, 6, 5, and 0.<br><b>Step 3:</b> The next digit is 8, which is greater than 5, so we round up the 0 to 1.<br><b>Step 4:</b> The number becomes 0.04651.<br><b>Step 5:</b> In scientific notation, this is written as $4.651 \\times 10^{-2}$."
+            },
+            {
+                "id": "UM-TEST-017",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Mathematical Operations", "Significant Figures"],
+                "q": "With due regard to significant figures, the value of (46.7 - 10.04) is:",
+                "options": ["36.7", "36.00", "36.66", "30.6"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Perform the standard subtraction: $46.7 - 10.04 = 36.66$.<br><b>Step 2:</b> In addition and subtraction, the final result must have the same number of decimal places as the number with the fewest decimal places in the problem.<br><b>Step 3:</b> 46.7 has one decimal place, while 10.04 has two decimal places. Thus, the result must be rounded to one decimal place.<br><b>Step 4:</b> Rounding 36.66 to one decimal place gives 36.7."
+            },
+            {
+                "id": "UM-TEST-018",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Rounding Off"],
+                "q": "By rounding off, a) 20.96 and b) 0.0003125 to 3 significant figures, we get:",
+                "options": ["21.0; $312 \\times 10^{-4}$", "21.0; $3.12 \\times 10^{-4}$", "2.10; $3.12 \\times 10^{-4}$", "210; $3.12 \\times 10^{-4}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> For 20.96, to keep 3 significant figures, we look at the 4th digit (6). Since $6 > 5$, round up the 9, which carries over to make the number 21.0.<br><b>Step 2:</b> For 0.0003125, the significant digits start at 3. The 4th significant digit is 5. According to rounding rules, if the digit to be dropped is 5 and the preceding digit is even (2 is even), it remains unchanged.<br><b>Step 3:</b> Thus, 0.0003125 becomes 0.000312.<br><b>Step 4:</b> Expressing 0.000312 in standard scientific form gives $3.12 \\times 10^{-4}$."
+            },
+            {
+                "id": "UM-TEST-019",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 2,
+                "tags": ["Dimensional Analysis", "Unit Conversion"],
+                "q": "If the unit of length is doubled and that of mass and time is halved, the unit of energy will be:",
+                "options": ["doubled", "4 times", "8 times", "same"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The dimensional formula for energy is $E = [ML^2T^{-2}]$.<br><b>Step 2:</b> Let the new units be $M' = \\frac{M}{2}$, $L' = 2L$, and $T' = \\frac{T}{2}$.<br><b>Step 3:</b> The new unit of energy $E' = [M'(L')^2(T')^{-2}]$.<br><b>Step 4:</b> Substitute the new units: $E' = \\left(\\frac{M}{2}\\right)(2L)^2\\left(\\frac{T}{2}\\right)^{-2} = \\left(\\frac{M}{2}\\right)(4L^2)\\left(\\frac{4}{T^2}\\right)$.<br><b>Step 5:</b> Simplify: $E' = 8 [ML^2T^{-2}] = 8E$. The unit of energy becomes 8 times."
+            },
+            {
+                "id": "UM-TEST-020",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 2,
+                "tags": ["Dimensional Analysis", "Spring System"],
+                "q": "Given M is the mass suspended from a spring of force constant k. The dimensional formula for $[M/k]^{1/2}$ is same as that for:",
+                "options": ["frequency", "time period", "velocity", "wavelength"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Force constant $k$ is defined as force per unit length, so its dimensional formula is $[MLT^{-2}] / [L] = [MT^{-2}]$.<br><b>Step 2:</b> Mass $M$ has the dimension $[M]$.<br><b>Step 3:</b> Calculate the dimension of $M/k$: $[M] / [MT^{-2}] = [T^2]$.<br><b>Step 4:</b> The dimension of $[M/k]^{1/2}$ is the square root of $[T^2]$, which is $[T]$.<br><b>Step 5:</b> This is the dimensional formula for time period. (Alternatively, recall the formula for a spring pendulum: $T = 2\\pi\\sqrt{M/k}$)."
+            },
+            {
+                "id": "UM-TEST-021",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 3,
+                "tags": ["Dimensional Analysis", "Algebraic Manipulation"],
+                "q": "The dimensional formula for the product of two physical quantities P and Q is $[ML^{2}T^{-2}]$. The dimensional formula of $P/Q$ is $[MT^{-2}]$. Then P and Q respectively are:",
+                "options": ["Force and velocity", "Momentum and displacement", "Force and displacement", "Work and velocity"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> We are given $P \\cdot Q = [ML^2T^{-2}]$ (Equation 1) and $\\frac{P}{Q} = [MT^{-2}]$ (Equation 2).<br><b>Step 2:</b> Multiply Eq 1 and Eq 2: $(P \\cdot Q) \\times \\left(\\frac{P}{Q}\\right) = [ML^2T^{-2}] \\times [MT^{-2}]$.<br><b>Step 3:</b> $P^2 = [M^2L^2T^{-4}]$. Taking the square root gives $P = [MLT^{-2}]$, which is the dimensional formula for Force.<br><b>Step 4:</b> Divide Eq 1 by Eq 2: $\\frac{P \\cdot Q}{P/Q} = \\frac{[ML^2T^{-2}]}{[MT^{-2}]}$.<br><b>Step 5:</b> $Q^2 = [L^2]$. Taking the square root gives $Q = [L]$, which is the dimensional formula for displacement."
+            },
+            {
+                "id": "UM-TEST-022",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 2,
+                "tags": ["Dimensional Analysis", "Rotational Mechanics"],
+                "q": "The fundamental physical quantities that have same dimension in the dimensional formula of Torque and Angular Momentum are:",
+                "options": ["mass, time", "time, length", "mass, length", "time, mole"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The dimensional formula for Torque ($\\tau$) is $[ML^2T^{-2}]$.<br><b>Step 2:</b> The dimensional formula for Angular Momentum ($L$) is $[ML^2T^{-1}]$.<br><b>Step 3:</b> Comparing the two formulas, mass has a dimension of 1 in both, and length has a dimension of 2 in both.<br><b>Step 4:</b> Time has a dimension of -2 in torque and -1 in angular momentum. Thus, mass and length have the same dimensions in both."
+            },
+            {
+                "id": "UM-TEST-023",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 1,
+                "tags": ["Dimensional Formulae"],
+                "q": "The physical quantity which has the dimensional formula as that of $\\frac{\\text{energy}}{\\text{mass} \\times \\text{length}}$ is:",
+                "options": ["Force", "Power", "Pressure", "Acceleration"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Write the dimensional formulae for the given quantities: Energy $= [ML^2T^{-2}]$, Mass $= [M]$, Length $= [L]$.<br><b>Step 2:</b> Substitute these into the given expression: $\\frac{[ML^2T^{-2}]}{[M][L]}$.<br><b>Step 3:</b> Simplify the expression: $\\frac{ML^2T^{-2}}{ML} = [LT^{-2}]$.<br><b>Step 4:</b> $[LT^{-2}]$ is the dimensional formula for acceleration."
+            },
+            {
+                "id": "UM-TEST-024",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 2,
+                "tags": ["Rotational Mechanics", "Dimensional Formulae"],
+                "q": "If J and E represent the angular momentum and rotational kinetic energy of a body, $\\frac{J^{2}}{2E}$ represents the following physical quantity.",
+                "options": ["Moment of couple", "Moment of force", "Moment of inertia", "Force"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The relationship between rotational kinetic energy ($E$), angular momentum ($J$), and moment of inertia ($I$) is $E = \\frac{J^2}{2I}$.<br><b>Step 2:</b> Rearranging this standard formula gives $I = \\frac{J^2}{2E}$.<br><b>Step 3:</b> Therefore, the quantity $\\frac{J^2}{2E}$ represents the moment of inertia."
+            },
+            {
+                "id": "UM-TEST-025",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 2,
+                "tags": ["Unit Conversion", "Dimensional Analysis"],
+                "q": "If the fundamental units of length, mass and time are doubled, the unit of force will:",
+                "options": ["doubled", "halved", "remain same", "four times"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The dimensional formula for force is $F = [MLT^{-2}]$.<br><b>Step 2:</b> Let the new units be $M' = 2M$, $L' = 2L$, and $T' = 2T$.<br><b>Step 3:</b> The new unit of force is $F' = [M'L'(T')^{-2}]$.<br><b>Step 4:</b> Substitute the new values: $F' = (2M)(2L)(2T)^{-2} = (4ML) \\times \\frac{1}{4T^2}$.<br><b>Step 5:</b> Simplify: $F' = [MLT^{-2}] = F$. The unit of force remains the same."
+            },
+            {
+                "id": "UM-TEST-026",
+                "topic": "PRINCIPLE OF HOMOGENEITY",
+                "difficulty": 2,
+                "tags": ["Principle of Homogeneity", "Constants"],
+                "q": "$\\mu=A+\\frac{B}{\\lambda}+\\frac{C}{\\lambda^{2}}$ is dimensionally correct. The dimensions of A, B and C respectively are ($\\mu$, A, B, C are constants) where $\\lambda$ is wave length of wave:",
+                "options": ["No dimensions, L, $L^{2}$", "$L^{2}$, No dimensions, L", "L, $L^{2}$, No dimensions", "L, No dimensions, $L^{2}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> According to the principle of homogeneity, each term in an equation must have the same dimensions. Here, $\\mu$ represents refractive index, which is a dimensionless quantity $[M^0L^0T^0]$.<br><b>Step 2:</b> Therefore, $A$ must also be dimensionless.<br><b>Step 3:</b> The term $\\frac{B}{\\lambda}$ must be dimensionless. Since $\\lambda$ has the dimension of length $[L]$, $B$ must have the dimension $[L]$ so they cancel out.<br><b>Step 4:</b> The term $\\frac{C}{\\lambda^2}$ must be dimensionless. Since $\\lambda^2$ has the dimension $[L^2]$, $C$ must have the dimension $[L^2]$.<br><b>Step 5:</b> Thus, the dimensions are: No dimensions, L, $L^2$."
+            },
+            {
+                "id": "UM-TEST-027",
+                "topic": "PRINCIPLE OF HOMOGENEITY",
+                "difficulty": 2,
+                "tags": ["Dimensional Formulae", "Fluid Mechanics"],
+                "q": "According to Bernoulli's theorem $\\frac{p}{d}+\\frac{v^{2}}{2}+gh=\\text{constant}$. The dimensional formula of the constant is (P is pressure, d is density, h is height, v is velocity and g is acceleration due to gravity):",
+                "options": ["$[M^{0}L^{0}T^{0}]$", "$[M^{0}LT^{0}]$", "$[M^{0}L^{2}T^{-2}]$", "$[M^{0}L^{2}T^{-4}]$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> By the principle of homogeneity, the constant must have the same dimensions as any of the individual terms in the equation.<br><b>Step 2:</b> Let's check the middle term, $\\frac{v^2}{2}$. The number 2 is dimensionless.<br><b>Step 3:</b> Velocity $v$ has dimensions $[LT^{-1}]$.<br><b>Step 4:</b> Therefore, $v^2$ has dimensions $([LT^{-1}])^2 = [L^2T^{-2}]$.<br><b>Step 5:</b> Since mass $[M]$ is not present, the dimensional formula is $[M^0L^2T^{-2}]$."
+            },
+            {
+                "id": "UM-TEST-028",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 2,
+                "tags": ["Unit Conversion", "Surface Tension"],
+                "q": "The surface tension of a liquid in CGS system is 45 dyne $cm^{-1}$. Its value in SI system is:",
+                "options": ["$4.5\\text{ Nm}^{-1}$", "$0.045\\text{ Nm}^{-1}$", "$0.0045\\text{ Nm}^{-1}$", "$0.45\\text{ Nm}^{-1}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The value is given as $45\\text{ dyne/cm}$. We need to convert dynes to Newtons and cm to meters.<br><b>Step 2:</b> We know that $1\\text{ N} = 10^5\\text{ dyne}$, so $1\\text{ dyne} = 10^{-5}\\text{ N}$.<br><b>Step 3:</b> We know that $1\\text{ m} = 10^2\\text{ cm}$, so $1\\text{ cm} = 10^{-2}\\text{ m}$.<br><b>Step 4:</b> Substitute the conversions: $45 \\times \\frac{10^{-5}\\text{ N}}{10^{-2}\\text{ m}} = 45 \\times 10^{-3}\\text{ N/m}$.<br><b>Step 5:</b> Simplify to decimal form: $0.045\\text{ Nm}^{-1}$."
+            },
+            {
+                "id": "UM-TEST-029",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 3,
+                "tags": ["Unit Conversion", "Derived Units"],
+                "q": "If minute is the unit of time, $10\\text{ ms}^{-2}$ is the unit of acceleration and 100 kg is the unit of mass, the new unit of work in joule is:",
+                "options": ["$10^{5}$", "$10^{6}$", "$6\\times 10^{6}$", "$36\\times 10^{6}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The dimensional formula for work is $[ML^2T^{-2}]$. This can also be written as Mass $\\times$ Acceleration $\\times$ Length ($M \\cdot a \\cdot L$).<br><b>Step 2:</b> We are given new units: $M' = 100\\text{ kg}$, $T' = 1\\text{ min} = 60\\text{ s}$, and $a' = 10\\text{ m/s}^2$.<br><b>Step 3:</b> First, find the new unit of length $L'$. Since $a' = L' / (T')^2$, we have $10 = L' / (60)^2$. Thus, $L' = 10 \\times 3600 = 36000\\text{ m}$.<br><b>Step 4:</b> Now, calculate the new unit of work: $W' = M' \\cdot a' \\cdot L'$.<br><b>Step 5:</b> $W' = (100\\text{ kg}) \\times (10\\text{ m/s}^2) \\times (36000\\text{ m}) = 36,000,000\\text{ Joules} = 36 \\times 10^6\\text{ J}$."
+            },
+            {
+                "id": "UM-TEST-030",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 2,
+                "tags": ["Derived Units", "Fluid Mechanics"],
+                "q": "A motor pumps water at the rate of V $m^{3}$ per second, against a pressure $P\\text{ Nm}^{-2}$. The power of the motor in watt is:",
+                "options": ["PV", "(P/V)", "(V/P)", "(V-P)"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Power is defined as work done per unit time ($Power = \\frac{W}{t}$).<br><b>Step 2:</b> Work done by a fluid is given by Force $\\times$ displacement ($F \\times x$). So, $Power = F \\times \\frac{x}{t} = F \\times v$ (where $v$ is velocity).<br><b>Step 3:</b> Pressure $P = \\frac{F}{A}$, so $F = P \\times A$. Substituting this gives $Power = P \\times A \\times v$.<br><b>Step 4:</b> The term $(A \\times v)$ represents the volume flow rate (volume per unit time), which is given as $V$.<br><b>Step 5:</b> Therefore, $Power = P \\times V$."
+            },
+            {
+                "id": "UM-TEST-031",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 3,
+                "tags": ["Percentage Change", "Derived Units"],
+                "q": "If the units of length and force are increased by four times the unit of energy will be increased by:",
+                "options": ["16%", "1600%", "1500%", "400%"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The dimensional formula for energy in terms of force and length is $E = F \\times L$.<br><b>Step 2:</b> Let the new units be $F' = 4F$ and $L' = 4L$.<br><b>Step 3:</b> The new unit of energy is $E' = F' \\times L' = (4F) \\times (4L) = 16FL = 16E$.<br><b>Step 4:</b> The increase in the unit of energy is $\\Delta E = E' - E = 16E - E = 15E$.<br><b>Step 5:</b> The percentage increase is $\\left(\\frac{\\Delta E}{E}\\right) \\times 100 = \\left(\\frac{15E}{E}\\right) \\times 100 = 1500\\%$."
+            },
+            {
+                "id": "UM-TEST-032",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 2,
+                "tags": ["SI and CGS Units", "Constants"],
+                "q": "SI unit and CGS unit of a quantity vary by $10^3$ times, it is:",
+                "options": ["Boltzmann constant", "Gravitational constant", "Planck's constant", "Angular Momentum"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Analyze the Gravitational Constant (G). Its SI unit is $\\text{N}\\cdot\\text{m}^2/\\text{kg}^2$.<br><b>Step 2:</b> Convert the SI unit to CGS: $1\\text{ N} = 10^5\\text{ dyne}$, $1\\text{ m}^2 = 10^4\\text{ cm}^2$, and $1\\text{ kg}^2 = 10^6\\text{ g}^2$.<br><b>Step 3:</b> Substitute these conversions: $1\\text{ SI unit of G} = \\frac{(10^5\\text{ dyne}) \\times (10^4\\text{ cm}^2)}{10^6\\text{ g}^2}$.<br><b>Step 4:</b> Simplify the expression: $\\frac{10^9}{10^6} = 10^3\\text{ dyne}\\cdot\\text{cm}^2/\\text{g}^2$.<br><b>Step 5:</b> Thus, the SI unit of the Gravitational constant is $10^3$ times its CGS unit."
+            },
+            {
+                "id": "UM-TEST-033",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 2,
+                "tags": ["Gravitational Constant", "Unit Conversion"],
+                "q": "The value of universal gravitational constant G in CGS system is $6.67\\times 10^{-8}\\text{ dyne cm}^{2}\\text{g}^{-2}$. Its value in SI system is:",
+                "options": ["$6.67\\times 10^{-11}\\text{ Nm}^{2}\\text{kg}^{-2}$", "$6.67\\times 10^{-5}\\text{ Nm}^{2}\\text{kg}^{-2}$", "$6.67\\times 10^{-10}\\text{ Nm}^{2}\\text{kg}^{-2}$", "$6.67\\times 10^{-9}\\text{ Nm}^{2}\\text{kg}^{-2}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The conversion factor between the CGS and SI unit for G is $1\\text{ SI unit} = 10^3\\text{ CGS units}$.<br><b>Step 2:</b> Therefore, $1\\text{ CGS unit} = 10^{-3}\\text{ SI units}$.<br><b>Step 3:</b> Multiply the given CGS value by this factor: $G = 6.67 \\times 10^{-8} \\times 10^{-3}\\text{ SI units}$.<br><b>Step 4:</b> $G = 6.67 \\times 10^{-11}\\text{ Nm}^{2}\\text{kg}^{-2}$."
+            },
+            {
+                "id": "UM-TEST-034",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Kinematics", "System of Units"],
+                "q": "The final velocity of a particle falling freely under gravity is given by $V^2-u^2=2gx$ where x is the distance covered. If $v=18\\text{ kmph}$, $g=1000\\text{ cm s}^{-2}$, and $x=120\\text{ cm}$, then $u = \\_\\_\\_\\_ \\text{ ms}^{-1}$.",
+                "options": ["2.4", "1.2", "1", "0.1"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Convert all values to SI units (meters and seconds).<br><b>Step 2:</b> $v = 18\\text{ kmph} = 18 \\times \\frac{5}{18}\\text{ m/s} = 5\\text{ m/s}$.<br><b>Step 3:</b> $g = 1000\\text{ cm/s}^2 = 10\\text{ m/s}^2$.<br><b>Step 4:</b> $x = 120\\text{ cm} = 1.2\\text{ m}$.<br><b>Step 5:</b> Substitute into the equation: $(5)^2 - u^2 = 2(10)(1.2)$.<br><b>Step 6:</b> $25 - u^2 = 24 \\implies u^2 = 1 \\implies u = 1\\text{ m/s}$."
+            },
+            {
+                "id": "UM-TEST-035",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Dimensional Analysis", "Principle of Homogeneity"],
+                "q": "The equation which is dimensionally correct among the following is:",
+                "options": ["$v=u+at^2$", "$s=ut+at^3$", "$s=ut+at^2$", "$t=s+av$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> According to the principle of homogeneity, an equation is dimensionally correct if all added/equated terms have the exact same dimensions.<br><b>Step 2:</b> Let's check the third option: $s = ut + at^2$.<br><b>Step 3:</b> Dimension of LHS ($s$) is $[L]$.<br><b>Step 4:</b> Dimension of $ut$ is $[LT^{-1}] \\times [T] = [L]$.<br><b>Step 5:</b> Dimension of $at^2$ is $[LT^{-2}] \\times [T^2] = [L]$.<br><b>Step 6:</b> Since $[L] = [L] + [L]$, this equation is dimensionally consistent."
+            },
+            {
+                "id": "UM-TEST-036",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Dimensional Constants", "Fluid Mechanics"],
+                "q": "The dimensions of 'k' in the relation $V=k a v t$ (where V is the volume of a liquid passing through any point in time t, 'a' is area of cross section, v is the velocity of the liquid) is:",
+                "options": ["$[M^{1}L^{2}T^{-1}]$", "$[M^{1}L^{1}T^{-1}]$", "$[M^{0}L^{0}T^{-1}]$", "$[M^{0}L^{0}T^{0}]$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Write the dimensional formulas for all known quantities: Volume $V = [L^3]$, Area $a = [L^2]$, Velocity $v = [LT^{-1}]$, Time $t = [T]$.<br><b>Step 2:</b> Substitute these into the given equation: $[L^3] = [k] \\times [L^2] \\times [LT^{-1}] \\times [T]$.<br><b>Step 3:</b> Simplify the RHS: $[k] \\times [L^3T^0] = [k][L^3]$.<br><b>Step 4:</b> Equate LHS and RHS: $[L^3] = [k][L^3] \\implies [k] = 1$.<br><b>Step 5:</b> Therefore, $k$ is a dimensionless constant with dimensions $[M^0L^0T^0]$."
+            },
+            {
+                "id": "UM-TEST-037",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Fundamental Quantities", "Algebraic Manipulation"],
+                "q": "If force (F), work (W) and velocity (V) are taken as fundamental quantities then the dimensional formula of Time (T) is:",
+                "options": ["$[W^{1}F^{1}V^{1}]$", "$[W^{1}F^{1}V^{-1}]$", "$[W^{-1}F^{-1}V^{-1}]$", "$[W^{1}F^{-1}V^{-1}]$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Write the formula connecting Work, Force, and displacement ($s$): $W = F \\times s$.<br><b>Step 2:</b> We know that displacement $s = \\text{Velocity} (V) \\times \\text{Time} (T)$.<br><b>Step 3:</b> Substitute $s$ into the work equation: $W = F \\times (V \\times T)$.<br><b>Step 4:</b> Rearrange the equation to solve for Time (T): $T = \\frac{W}{F \\times V}$.<br><b>Step 5:</b> Express this in dimensional format: $[T] = [W^1 F^{-1} V^{-1}]$."
+            },
+            {
+                "id": "UM-TEST-038",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Fundamental Quantities"],
+                "q": "If force F, Length L and time T are chosen as fundamental quantities, the dimensional formula for Mass is:",
+                "options": ["$[FLT]$", "$[F^{-1}L^{-1}T^{-2}]$", "$[F^{-2}L^{-2}T^{-2}]$", "$[F^{1}L^{-1}T^{2}]$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Write the standard dimensional formula for Force: $F = [MLT^{-2}]$.<br><b>Step 2:</b> We need to isolate Mass ($M$) on one side of the equation.<br><b>Step 3:</b> Divide both sides by $[LT^{-2}]$: $M = \\frac{F}{[LT^{-2}]}$.<br><b>Step 4:</b> Bring the terms to the numerator: $M = [F^1 L^{-1} T^2]$."
+            },
+            {
+                "id": "UM-TEST-039",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 1,
+                "tags": ["Combination of Errors", "Addition"],
+                "q": "If $L=2.06\\text{ cm}\\pm 0.02\\text{ cm},$ $B=1.11\\text{ cm}\\pm 0.03\\text{ cm}$, then L+B equals to:",
+                "options": ["$3.17\\text{ cm}\\pm 0.05\\text{ cm}$", "$2.06\\text{ cm}\\pm 0.05\\text{ cm}$", "$3.17\\text{ cm}\\pm 0.02\\text{ cm}$", "$3.17\\text{ cm}\\pm 0.03\\text{ cm}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> To add two measured quantities, simply add their central values: $X = L + B = 2.06 + 1.11 = 3.17\\text{ cm}$.<br><b>Step 2:</b> When adding quantities, their absolute errors are always added together to find the maximum possible error: $\\Delta X = \\Delta L + \\Delta B$.<br><b>Step 3:</b> $\\Delta X = 0.02 + 0.03 = 0.05\\text{ cm}$.<br><b>Step 4:</b> The final sum is $3.17\\text{ cm}\\pm 0.05\\text{ cm}$."
+            },
+            {
+                "id": "UM-TEST-040",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Percentage Error", "Powers"],
+                "q": "The radius of sphere is measured as $(5.2\\pm 0.2)$ cm then the percentage error in volume of the ball is:",
+                "options": ["11%", "4%", "7%", "9%"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The formula for the volume of a sphere is $V = \\frac{4}{3}\\pi r^3$.<br><b>Step 2:</b> The relative error in volume is given by $\\frac{\\Delta V}{V} = 3 \\times \\frac{\\Delta r}{r}$.<br><b>Step 3:</b> The percentage error in radius $r$ is $\\frac{0.2}{5.2} \\times 100$.<br><b>Step 4:</b> Therefore, the percentage error in volume is $3 \\times \\left(\\frac{0.2}{5.2} \\times 100\\right) = \\frac{60}{5.2} \\approx 11.53\\%$.<br><b>Step 5:</b> 11% is the closest approximation among the given options."
+            },
+            {
+                "id": "UM-TEST-041",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 1,
+                "tags": ["Percentage Error"],
+                "q": "If the length of a cylinder is measured to be 8.28 cm with an error of 0.01 cm then the percentage error in measured length is nearly:",
+                "options": ["0.4%", "0.2%", "0.1%", "0.5%"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Percentage error is calculated using the formula: $\\left(\\frac{\\text{Absolute Error}}{\\text{True Value}}\\right) \\times 100$.<br><b>Step 2:</b> Substitute the given values: $\\frac{0.01}{8.28} \\times 100$.<br><b>Step 3:</b> This equals $\\frac{1}{8.28} \\approx 0.12\\%$.<br><b>Step 4:</b> The closest option is 0.1%."
+            },
+            {
+                "id": "UM-TEST-042",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Random Error", "Statistical Analysis"],
+                "q": "A student performs experiment with simple pendulum and measures time for 10 vibrations. If he measures the time for 100 vibrations, the error in measurement of time period will be reduced by a factor of:",
+                "options": ["10", "90", "100", "1000"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Random error in a measurement is inversely proportional to the number of observations ($N$) taken.<br><b>Step 2:</b> Therefore, Error $\\propto \\frac{1}{N}$.<br><b>Step 3:</b> If the number of observations increases from 10 to 100, the observations have increased by a factor of 10.<br><b>Step 4:</b> Consequently, the random error is reduced by the same factor of 10."
+            },
+            {
+                "id": "UM-TEST-043",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Combination of Errors", "Addition and Multiplication"],
+                "q": "If $L_{1}=(3.03\\pm 0.02)$ m and $L_{2}=(2.01\\pm 0.02)$ m then $L_{1}+2L_{2}$ is (in m):",
+                "options": ["$7.05\\pm 0.06$", "$6.05\\pm 0.06$", "$6.05\\pm 0.02$", "$7.05\\pm 0.02$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Calculate the central value for the expression $x = L_1 + 2L_2$.<br><b>Step 2:</b> $x = 3.03 + 2(2.01) = 3.03 + 4.02 = 7.05\\text{ m}$.<br><b>Step 3:</b> Calculate the absolute error. When multiplying by a constant, the absolute error is multiplied by that constant. Thus, $\\Delta x = \\Delta L_1 + 2\\Delta L_2$.<br><b>Step 4:</b> $\\Delta x = 0.02 + 2(0.02) = 0.02 + 0.04 = 0.06\\text{ m}$.<br><b>Step 5:</b> The final result is $7.05\\pm 0.06\\text{ m}$."
+            },
+            {
+                "id": "UM-TEST-044",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Combination of Errors", "Division"],
+                "q": "A body travels uniformly a distance of $(13.8\\pm 0.2)$ m in a time $(4.0\\pm 0.3)$ s then the velocity of the body is:",
+                "options": ["$(3.45\\pm 0.2)\\text{ ms}^{-1}$", "$(3.45\\pm 0.3)\\text{ ms}^{-1}$", "$(3.45\\pm 0.4)\\text{ ms}^{-1}$", "$(3.45\\pm 0.5)\\text{ ms}^{-1}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Calculate the central value for velocity: $v = \\frac{s}{t} = \\frac{13.8}{4.0} = 3.45\\text{ ms}^{-1}$.<br><b>Step 2:</b> For division, the relative errors add up: $\\frac{\\Delta v}{v} = \\frac{\\Delta s}{s} + \\frac{\\Delta t}{t}$.<br><b>Step 3:</b> $\\frac{\\Delta v}{3.45} = \\frac{0.2}{13.8} + \\frac{0.3}{4.0} \\approx 0.0145 + 0.075 = 0.0895$.<br><b>Step 4:</b> Calculate the absolute error: $\\Delta v = 3.45 \\times 0.0895 \\approx 0.308\\text{ ms}^{-1}$.<br><b>Step 5:</b> Rounding the error to one significant figure gives $0.3$. Therefore, velocity is $(3.45\\pm 0.3)\\text{ ms}^{-1}$."
+            },
+            {
+                "id": "UM-TEST-045",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Combination of Errors", "Division and Powers"],
+                "q": "The pressure on a square plate is measured by measuring the force on the plate and the length of the sides of the plate. If the maximum error in measurement of force and length are respectively 4% and 2% then the maximum error in Measurement of pressure is:",
+                "options": ["1%", "2%", "6%", "8%"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The formula for pressure is $P = \\frac{F}{A}$.<br><b>Step 2:</b> Since it is a square plate, Area $A = L^2$. Therefore, $P = \\frac{F}{L^2}$.<br><b>Step 3:</b> The percentage error formula for this expression is $\\frac{\\Delta P}{P}\\% = \\frac{\\Delta F}{F}\\% + 2 \\times \\frac{\\Delta L}{L}\\%$.<br><b>Step 4:</b> Substitute the given percentage errors: $\\%P = 4\\% + 2(2\\%)$.<br><b>Step 5:</b> $\\%P = 4\\% + 4\\% = 8\\%$."
+            },
+            {
+                "id": "UM-TEST-046",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Rounding Off"],
+                "q": "2.34 is obtained by rounding off the number:",
+                "options": ["2.346", "2.355", "2.335", "2.334"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Analyze the rounding rules for each option to see which results in 2.34.<br><b>Step 2:</b> Option 1: 2.346 rounds up to 2.35 (since $6 > 5$).<br><b>Step 3:</b> Option 2: 2.355 rounds up to 2.36 (since preceding digit 5 is odd).<br><b>Step 4:</b> Option 3: 2.335 ends in 5. The preceding digit is 3 (odd), so we round it up by 1. It becomes 2.34. This is the correct answer.<br><b>Step 5:</b> Option 4: 2.334 rounds down to 2.33 (since $4 < 5$)."
+            },
+            {
+                "id": "UM-TEST-047",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 1,
+                "tags": ["Rules for Zeros", "Significant Figures"],
+                "q": "The number of significant figures in 0.0006032 is:",
+                "options": ["7", "4", "5", "2"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Apply the rules of significant figures. Leading zeros (zeros to the left of the first non-zero digit) are never significant.<br><b>Step 2:</b> The leading zeros in '0.000' are placeholders.<br><b>Step 3:</b> The significant digits start from the first non-zero digit: 6, 0, 3, 2.<br><b>Step 4:</b> Zeros between non-zero digits (like the 0 between 6 and 3) are significant.<br><b>Step 5:</b> Therefore, there are exactly 4 significant figures."
+            },
+            {
+                "id": "UM-TEST-048",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Propagation of Precision", "Multiplication"],
+                "q": "The radius of disc is 1.2 cm, its area according to idea of significant figures is:",
+                "options": ["$4.5216\\text{ cm}^{2}$", "$4.521\\text{ cm}^{2}$", "$4.52\\text{ cm}^{2}$", "$4.5\\text{ cm}^{2}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The area of a disc (circle) is $A = \\pi r^2$.<br><b>Step 2:</b> Substitute the radius: $A = 3.14159... \\times (1.2)^2 = 3.14159... \\times 1.44 \\approx 4.5238...\\text{ cm}^2$.<br><b>Step 3:</b> In multiplication, the final result must be rounded to the same number of significant figures as the measurement with the least number of significant figures.<br><b>Step 4:</b> The measured radius (1.2) has exactly 2 significant figures.<br><b>Step 5:</b> Rounding 4.5238... to 2 significant figures yields $4.5\\text{ cm}^2$."
+            },
+            {
+                "id": "UM-TEST-049",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 1,
+                "tags": ["Unit Conversion", "Significant Figures"],
+                "q": "When Energy is expressed in erg the no of significant figure is four. If it is expressed in joule the no of significant figures will become:",
+                "options": ["9", "5", "1", "4"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The conversion between ergs and joules is a fixed exact constant ($1\\text{ Joule} = 10^7\\text{ ergs}$).<br><b>Step 2:</b> Multiplying or dividing by an exact mathematical constant does not change the precision or the number of significant figures of a measured physical quantity.<br><b>Step 3:</b> Therefore, the number of significant figures remains 4."
+            },
+            {
+                "id": "UM-TEST-050",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Roots", "Significant Figures"],
+                "q": "$\\sqrt{58.97}$ is:",
+                "options": ["7.679", "7.68", "7.6", "7.7"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Identify the number of significant figures in the given value. 58.97 has exactly 4 significant figures.<br><b>Step 2:</b> Calculate the mathematical square root: $\\sqrt{58.97} \\approx 7.679192...$<br><b>Step 3:</b> For roots, the result must be rounded to retain the same number of significant figures as the original number (which is 4).<br><b>Step 4:</b> Rounding 7.679192... to 4 significant figures gives 7.679."
+            },
+            {
+                "id": "UM-TEST-051",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Addition", "Propagation of Precision"],
+                "q": "A stick has a length of 12.132 cm and another stick has a length of 12.4 cm then the total length of the stick is:",
+                "options": ["24.53 cm", "24.5 cm", "2.45 cm", "2.453 cm"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> First, perform standard addition: $12.132 + 12.4 = 24.532\\text{ cm}$.<br><b>Step 2:</b> Apply the rule for addition: The final result must have the same number of decimal places as the number with the least decimal places.<br><b>Step 3:</b> 12.132 has three decimal places, while 12.4 has only one decimal place. Therefore, the result must be rounded to one decimal place.<br><b>Step 4:</b> Rounding 24.532 to one decimal place yields 24.5 cm."
+            },
+            {
+                "id": "UM-TEST-052",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 1,
+                "tags": ["Rules for Zeros", "Scientific Notation"],
+                "q": "The respective number of significant figures for the number 23.023, 0.0003 and $21\\times 10^{3}$ are:",
+                "options": ["5, 1, 2", "5, 1, 5", "5, 5, 2", "4, 4, 2"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> For 23.023: All non-zero digits and trapped zeros are significant. So, there are 5 significant figures.<br><b>Step 2:</b> For 0.0003: Leading zeros are not significant. Only the digit 3 is significant. So, there is 1 significant figure.<br><b>Step 3:</b> For $21\\times 10^3$: In scientific notation, only the coefficient dictates the significant figures. 21 has 2 significant figures.<br><b>Step 4:</b> The sequence is 5, 1, 2."
+            },
+            {
+                "id": "UM-TEST-053",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 1,
+                "tags": ["Scientific Notation"],
+                "q": "The Number of significant figures in $5.69\\times 10^{15}$ kg is:",
+                "options": ["1", "2", "3", "4"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The given number is in standard scientific notation $A \\times 10^B$.<br><b>Step 2:</b> The power of 10 ($10^{15}$) is an order of magnitude and does not affect the number of significant figures.<br><b>Step 3:</b> The significant figures are determined entirely by the coefficient 5.69.<br><b>Step 4:</b> 5, 6, and 9 are all non-zero digits, resulting in 3 significant figures."
+            },
+            {
+                "id": "UM-TEST-054",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Addition", "Propagation of Precision"],
+                "q": "The value of 124.2 + 52.487 with due regard to significant places is:",
+                "options": ["176.69", "176.7", "176", "177"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Perform the standard addition: $124.2 + 52.487 = 176.687$.<br><b>Step 2:</b> The rule for addition states that the result cannot have more decimal places than the measurement with the fewest decimal places.<br><b>Step 3:</b> 124.2 has one decimal place, while 52.487 has three. The answer must be rounded to one decimal place.<br><b>Step 4:</b> The digit after the first decimal place is 8, so round up the 6 to a 7. The result is 176.7."
+            },
+            {
+                "id": "UM-TEST-055",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Division", "Propagation of Precision"],
+                "q": "The value of $\\frac{9.27}{41}$ with due regard to significant figures is:",
+                "options": ["0.226", "0.23", "0.2", "0.2261"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Perform the standard division: $\\frac{9.27}{41} = 0.226097...$<br><b>Step 2:</b> The rule for division states that the result must have the same number of significant figures as the measurement with the fewest significant figures.<br><b>Step 3:</b> 9.27 has 3 significant figures. 41 has 2 significant figures. The final answer must be limited to 2 significant figures.<br><b>Step 4:</b> Rounding 0.226097... to 2 significant figures gives 0.23 (since $6 > 5$, round up the 2)."
+            },
+            {
+                "id": "UM-TEST-056",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Rounding Off"],
+                "q": "When 57.986 is rounded off to 4 significant figures, then it becomes:",
+                "options": ["58", "57.00", "57.90", "57.99"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The original number is 57.986. We need to keep only the first 4 significant digits.<br><b>Step 2:</b> The first four digits are 5, 7, 9, 8.<br><b>Step 3:</b> Look at the 5th digit to decide how to round. The 5th digit is 6.<br><b>Step 4:</b> Since $6 > 5$, we must round up the previous digit (8) by 1.<br><b>Step 5:</b> 8 becomes 9, making the rounded number 57.99."
+            },
+            {
+                "id": "UM-TEST-057",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 2,
+                "tags": ["Dimensional Formulae", "Pendulum"],
+                "q": "If 'L' is length of simple pendulum and 'g' is acceleration due to gravity then the dimensional formula for $(l/g)^{1/2}$ is same as that for:",
+                "options": ["Frequency", "Velocity", "Time period", "Wavelength"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Let's substitute the dimensional formulas for each quantity.<br><b>Step 2:</b> Length $l = [L]$ and acceleration due to gravity $g = [LT^{-2}]$.<br><b>Step 3:</b> $\\frac{l}{g} = \\frac{[L]}{[LT^{-2}]} = [T^2]$.<br><b>Step 4:</b> Taking the square root gives $\\left(\\frac{l}{g}\\right)^{1/2} = ([T^2])^{1/2} = [T]$.<br><b>Step 5:</b> $[T]$ is the dimensional formula for Time Period."
+            },
+            {
+                "id": "UM-TEST-058",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 3,
+                "tags": ["Algebraic Manipulation", "Dimensional Formulae"],
+                "q": "The dimensional formula for the product of two physical quantities P and Q is $[L^{2}T^{-2}]$. The dimensional formula of $P/Q$ is $[T^{2}]$. The P and Q respectively are:",
+                "options": ["distance and velocity", "distance and acceleration", "displacement and velocity", "displacement and force"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> We have two equations: $P \\cdot Q = [L^2T^{-2}]$ and $\\frac{P}{Q} = [T^2]$.<br><b>Step 2:</b> Multiply the two equations to isolate $P$: $(P \\cdot Q) \\times \\left(\\frac{P}{Q}\\right) = P^2 = [L^2T^{-2}] \\times [T^2] = [L^2]$.<br><b>Step 3:</b> Taking the square root gives $P = [L]$, which represents distance or displacement.<br><b>Step 4:</b> Divide the first equation by the second to isolate $Q$: $\\frac{P \\cdot Q}{P/Q} = Q^2 = \\frac{[L^2T^{-2}]}{[T^2]} = [L^2T^{-4}]$.<br><b>Step 5:</b> Taking the square root gives $Q = [LT^{-2}]$, which represents acceleration.<br><b>Step 6:</b> Therefore, P and Q are distance and acceleration, respectively."
+            },
+            {
+                "id": "UM-TEST-059",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 2,
+                "tags": ["Fundamental Quantities"],
+                "q": "The fundamental physical quantities that have same dimensions in the dimensional formula of force and Energy are:",
+                "options": ["mass, time", "time, length", "mass, length", "time, mole"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Write the standard dimensional formula for Force: $F = [M^1 L^1 T^{-2}]$.<br><b>Step 2:</b> Write the standard dimensional formula for Energy: $E = [M^1 L^2 T^{-2}]$.<br><b>Step 3:</b> Compare the powers of the fundamental quantities in both formulas.<br><b>Step 4:</b> Mass has a power of 1 in both. Time has a power of -2 in both. Length has a power of 1 in Force and 2 in Energy.<br><b>Step 5:</b> Therefore, mass and time share the exact same dimensions in both physical quantities."
+            },
+            {
+                "id": "UM-TEST-060",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 3,
+                "tags": ["Rigidity Modulus", "Moment of Couple", "Dimensional Formulae"],
+                "q": "If $\\eta$ is rigidity modulus, r is the radius, l is the length and C is the moment of the couple then $\\frac{2lc}{\\pi \\eta r^{4}}$ has the dimensions of:",
+                "options": ["Angle", "Mass", "Length", "Frequency"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Find the dimensions of each variable. Modulus of rigidity $\\eta = \\frac{\\text{Force}}{\\text{Area}} = [ML^{-1}T^{-2}]$.<br><b>Step 2:</b> Moment of a couple $C = \\text{Force} \\times \\text{distance} = [ML^2T^{-2}]$.<br><b>Step 3:</b> Length $l = [L]$ and Radius $r = [L]$. Constants 2 and $\\pi$ are dimensionless.<br><b>Step 4:</b> Substitute these into the given expression: $\\frac{[L] \\times [ML^2T^{-2}]}{[ML^{-1}T^{-2}] \\times [L]^4}$.<br><b>Step 5:</b> Simplify the numerator: $[ML^3T^{-2}]$. Simplify the denominator: $[ML^3T^{-2}]$.<br><b>Step 6:</b> The ratio is $1$, meaning it is a dimensionless quantity $[M^0L^0T^0]$. Angle is a dimensionless physical quantity."
+            },
+            {
+                "id": "UM-TEST-061",
+                "topic": "PRINCIPLE OF HOMOGENEITY",
+                "difficulty": 2,
+                "tags": ["Dimensional Analysis", "Kinematics"],
+                "q": "The acceleration of an object varies with time as $a=AT^2+BT+C$. Taking the unit of time as 1 sec and acceleration as $ms^{-2}$, then the units of A, B, C respectively are:",
+                "options": ["$ms^{-3}$, $ms^{-2}$, $ms^{-1}$", "$ms^{-2}$, $ms^{-1}$, ms", "$ms^{-1}$, $ms^{-2}$, $ms^{-3}$", "$ms^{-4}$, $ms^{-3}$, $ms^{-2}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> According to the principle of homogeneity, each term in the equation must have the dimensions of acceleration $[LT^{-2}]$.<br><b>Step 2:</b> For the first term: $A \\times T^2 = [LT^{-2}] \\implies A = [LT^{-4}]$, which has units $ms^{-4}$.<br><b>Step 3:</b> For the second term: $B \\times T = [LT^{-2}] \\implies B = [LT^{-3}]$, which has units $ms^{-3}$.<br><b>Step 4:</b> For the third term: $C = [LT^{-2}]$, which has units $ms^{-2}$.<br><b>Step 5:</b> The units are respectively $ms^{-4}$, $ms^{-3}$, $ms^{-2}$."
+            },
+            {
+                "id": "UM-TEST-062",
+                "topic": "PRINCIPLE OF HOMOGENEITY",
+                "difficulty": 3,
+                "tags": ["Dimensional Formulae", "Logarithmic Functions"],
+                "q": "If $\\eta=\\frac{A}{B}\\log(Bx+C)$ is dimensionally true, then (here $\\eta$ is the coefficient of viscosity and x is the distance):",
+                "options": ["C is dimensionless constant", "B has dimensions of -1 in length", "The dimensional formula of A is $ML^{-2}T^{-1}$", "All are true"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The argument of any logarithmic function must be dimensionless. Thus, both $Bx$ and $C$ must be dimensionless.<br><b>Step 2:</b> Since $C$ is dimensionless, the first option is true.<br><b>Step 3:</b> Since $Bx$ is dimensionless and $x$ is length $[L]$, $B$ must have dimensions $[L^{-1}]$. The second option is true.<br><b>Step 4:</b> The logarithm itself is dimensionless, so $\\frac{A}{B}$ must have the same dimensions as $\\eta$ $[ML^{-1}T^{-1}]$.<br><b>Step 5:</b> $A = \\eta \\times B = [ML^{-1}T^{-1}] \\times [L^{-1}] = [ML^{-2}T^{-1}]$. The third option is true. Therefore, all statements are true."
+            },
+            {
+                "id": "UM-TEST-063",
+                "topic": "PRINCIPLE OF HOMOGENEITY",
+                "difficulty": 2,
+                "tags": ["Dimensional Analysis", "Velocity"],
+                "q": "If the velocity (V) of a body in time 't' is given by $V=AT^3+BT^2+CT+D$ then the dimensions of C are:",
+                "options": ["$[LT^{-1}]$", "$[LT^{-2}]$", "$[LT^{-3}]$", "$[LT^{-4}]$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> By the principle of dimensional homogeneity, every added term must share the exact dimensions of the LHS.<br><b>Step 2:</b> The LHS is velocity, which has the dimensional formula $V = [LT^{-1}]$.<br><b>Step 3:</b> Therefore, the term $CT$ must also have dimensions $[LT^{-1}]$.<br><b>Step 4:</b> $C \\times [T] = [LT^{-1}] \\implies C = \\frac{[LT^{-1}]}{[T]} = [LT^{-2}]$."
+            },
+            {
+                "id": "UM-TEST-064",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 3,
+                "tags": ["Poiseuille's Formula", "Dimensional Analysis"],
+                "q": "In the relation $V=\\frac{\\pi p r^4}{8\\eta l}$ where the letters have their usual meanings, the dimensions of V are:",
+                "options": ["$M^{0}L^{3}T^{0}$", "$M^{0}L^{3}T^{-1}$", "$M^{0}L^{-3}T^{-1}$", "$M^{1}L^{3}T^{0}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Identify the dimensions of the known variables: Pressure $p = [ML^{-1}T^{-2}]$, radius $r = [L]$, viscosity $\\eta = [ML^{-1}T^{-1}]$, and length $l = [L]$. Constants $\\pi$ and 8 are dimensionless.<br><b>Step 2:</b> Substitute these into the right side of the equation: $\\frac{[ML^{-1}T^{-2}] \\times [L^4]}{[ML^{-1}T^{-1}] \\times [L]}$.<br><b>Step 3:</b> Simplify the numerator to $[ML^3T^{-2}]$ and the denominator to $[MT^{-1}]$.<br><b>Step 4:</b> Divide to get the final dimension: $\\frac{[ML^3T^{-2}]}{[MT^{-1}]} = [L^3T^{-1}]$.<br><b>Step 5:</b> Adding $M^0$ gives the final format: $M^{0}L^{3}T^{-1}$ (which represents volume flow rate)."
+            },
+            {
+                "id": "UM-TEST-065",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 2,
+                "tags": ["Acceleration", "Unit Conversion"],
+                "q": "If the acceleration due to gravity is $10\\text{ ms}^{-2}$ and the units of length and time are changed to kilometre and hour respectively, the numerical value of acceleration is:",
+                "options": ["36000", "72000", "36000", "129600"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> We need to convert $10\\text{ m/s}^2$ into $\\text{km/hr}^2$.<br><b>Step 2:</b> Convert meters to kilometers: $1\\text{ m} = 10^{-3}\\text{ km}$.<br><b>Step 3:</b> Convert seconds squared to hours squared: $1\\text{ s} = \\frac{1}{3600}\\text{ hr}$, so $1\\text{ s}^2 = \\left(\\frac{1}{3600}\\right)^2\\text{ hr}^2$.<br><b>Step 4:</b> Substitute into the original value: $10 \\times \\frac{10^{-3}}{\\left(\\frac{1}{3600}\\right)^2}$.<br><b>Step 5:</b> Simplify: $10 \\times 10^{-3} \\times (3600)^2 = 0.01 \\times 12,960,000 = 129,600\\text{ km/hr}^2$."
+            },
+            {
+                "id": "UM-TEST-066",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 3,
+                "tags": ["Unit Conversion", "Energy"],
+                "q": "The magnitude of Energy is 100J. What will be its value if the units of mass and time are doubled and that of length is halved?",
+                "options": ["100 J", "200 J", "400 J", "800 J"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The dimensional formula for energy is $E = [ML^2T^{-2}]$.<br><b>Step 2:</b> Using the conversion formula $n_2 = n_1 \\left(\\frac{M_1}{M_2}\\right)^a \\left(\\frac{L_1}{L_2}\\right)^b \\left(\\frac{T_1}{T_2}\\right)^c$.<br><b>Step 3:</b> Substitute the new unit relationships: $M_2 = 2M_1$, $L_2 = L_1/2$, and $T_2 = 2T_1$.<br><b>Step 4:</b> $n_2 = 100 \\times \\left(\\frac{M_1}{2M_1}\\right)^1 \\times \\left(\\frac{L_1}{L_1/2}\\right)^2 \\times \\left(\\frac{T_1}{2T_1}\\right)^{-2}$.<br><b>Step 5:</b> $n_2 = 100 \\times \\left(\\frac{1}{2}\\right) \\times (2)^2 \\times \\left(\\frac{1}{2}\\right)^{-2} = 100 \\times \\frac{1}{2} \\times 4 \\times 4 = 100 \\times 8 = 800$."
+            },
+            {
+                "id": "UM-TEST-067",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 2,
+                "tags": ["Momentum", "Percentage Change"],
+                "q": "If the units of mass and velocity are increased by two times then the unit of momentum will be increased by:",
+                "options": ["400%", "200%", "300%", "100%"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The dimensional formula for momentum is $P = M \\times v$.<br><b>Step 2:</b> If the new units are $M' = 2M$ and $v' = 2v$, the new unit of momentum is $P' = (2M)(2v) = 4Mv = 4P$.<br><b>Step 3:</b> The absolute increase in the unit is $\\Delta P = P' - P = 4P - P = 3P$.<br><b>Step 4:</b> The percentage increase is $\\left(\\frac{\\Delta P}{P}\\right) \\times 100 = \\left(\\frac{3P}{P}\\right) \\times 100 = 300\\%$."
+            },
+            {
+                "id": "UM-TEST-068",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Kinematics", "Equation Substitution"],
+                "q": "The initial velocity of a particle is given by $u^2=v^2-2gx$ where x is the distance covered. If $u=18\\text{ km h}^{-1}$, $g=1000\\text{ cm/s}^2$ and $x =150\\text{ cm}$ then $v=\\_\\_\\_\\_\\text{ m/s}$:",
+                "options": ["$\\sqrt{45}$", "$\\sqrt{55}$", "$\\sqrt{35}$", "$\\sqrt{65}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Rearrange the equation to solve for final velocity: $v^2 = u^2 + 2gx$.<br><b>Step 2:</b> Convert all given values to standard SI units (meters and seconds).<br><b>Step 3:</b> $u = 18\\text{ km/h} = 18 \\times \\frac{5}{18} = 5\\text{ m/s}$.<br><b>Step 4:</b> $g = 1000\\text{ cm/s}^2 = 10\\text{ m/s}^2$. Distance $x = 150\\text{ cm} = 1.5\\text{ m}$.<br><b>Step 5:</b> Substitute into the equation: $v^2 = 5^2 + 2(10)(1.5) = 25 + 30 = 55$.<br><b>Step 6:</b> Therefore, $v = \\sqrt{55}\\text{ m/s}$."
+            },
+            {
+                "id": "UM-TEST-069",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 1,
+                "tags": ["Principle of Homogeneity", "Kinematics"],
+                "q": "The equation which is dimensionally correct among the following is:",
+                "options": ["$v=u+\\frac{1}{2}at$", "$v=ut+at$", "$s=ut+at^3$", "$t=s+av$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Check the first option: $v = u + \\frac{1}{2}at$.<br><b>Step 2:</b> The dimension of LHS ($v$) is $[LT^{-1}]$.<br><b>Step 3:</b> The dimension of the first RHS term ($u$) is $[LT^{-1}]$.<br><b>Step 4:</b> The dimension of the second RHS term ($\\frac{1}{2}at$) is $[LT^{-2}] \\times [T] = [LT^{-1}]$. The constant $\\frac{1}{2}$ is dimensionless.<br><b>Step 5:</b> Since all terms share the exact same dimensional formula $[LT^{-1}]$, the equation is dimensionally correct."
+            },
+            {
+                "id": "UM-TEST-070",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Dimensional Analysis", "Fluid Velocity"],
+                "q": "The dimensions of $\\gamma$ in the relation $v=\\sqrt{\\frac{\\gamma p}{\\rho}}$ (where v is velocity, p is pressure, $\\rho$ is density):",
+                "options": ["Dimensionless", "$[LT^{-1}]$", "$[ML^{-1}T^{-2}]$", "$[ML^3]$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Square both sides of the equation to isolate $\\gamma$: $v^2 = \\frac{\\gamma p}{\\rho}$.<br><b>Step 2:</b> Rearrange for $\\gamma$: $\\gamma = \\frac{v^2 \\rho}{p}$.<br><b>Step 3:</b> Substitute the dimensional formulas for velocity ($[LT^{-1}]$), density ($[ML^{-3}]$), and pressure ($[ML^{-1}T^{-2}]$).<br><b>Step 4:</b> $\\gamma = \\frac{[L^2T^{-2}] \\times [ML^{-3}]}{[ML^{-1}T^{-2}]}$.<br><b>Step 5:</b> Simplify the numerator to $[ML^{-1}T^{-2}]$.<br><b>Step 6:</b> $\\gamma = \\frac{[ML^{-1}T^{-2}]}{[ML^{-1}T^{-2}]} = 1$. Thus, $\\gamma$ is a dimensionless constant."
+            },
+            {
+                "id": "UM-TEST-071",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 3,
+                "tags": ["Fundamental Quantities", "Momentum"],
+                "q": "Taking frequency f, velocity (v) and Density ($\\rho$) to be the fundamental quantities then the Dimensional formula for momentum will be:",
+                "options": ["$(\\rho v^4 f^{-3})$", "$(\\rho v^3 f^{-1})$", "$(\\rho v f^2)$", "$(\\rho^2 v^2 f^2)$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The standard dimensional formula for momentum is $p = [MLT^{-1}]$. We need to express this as $p \\propto \\rho^a v^b f^c$.<br><b>Step 2:</b> Substitute the standard dimensions for the new base quantities: $\\rho = [ML^{-3}]$, $v = [LT^{-1}]$, $f = [T^{-1}]$.<br><b>Step 3:</b> $[MLT^{-1}] = [ML^{-3}]^a \\times [LT^{-1}]^b \\times [T^{-1}]^c = [M^a L^{-3a+b} T^{-b-c}]$.<br><b>Step 4:</b> Equate the powers of M: $a = 1$.<br><b>Step 5:</b> Equate the powers of L: $-3a + b = 1 \\implies -3(1) + b = 1 \\implies b = 4$.<br><b>Step 6:</b> Equate the powers of T: $-b - c = -1 \\implies -4 - c = -1 \\implies c = -3$.<br><b>Step 7:</b> The formula is $\\rho^1 v^4 f^{-3}$."
+            },
+            {
+                "id": "UM-TEST-072",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Fundamental Quantities", "Length"],
+                "q": "If momentum (p), Mass (M), Time (T) are chosen as fundamental quantities then the dimensional formula for length is:",
+                "options": ["$(P^1T^1M^1)$", "$(P^1T^1M^2)$", "$(P^1T^1M^{-1})$", "$(P^2T^2M^1)$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The standard formula connecting these quantities is momentum $p = \\text{Mass} (M) \\times \\text{velocity} (v)$.<br><b>Step 2:</b> Velocity is defined as $\\text{Length} (L) / \\text{Time} (T)$.<br><b>Step 3:</b> Substitute velocity into the momentum equation: $p = M \\times \\frac{L}{T}$.<br><b>Step 4:</b> Rearrange the equation to solve for Length (L): $L = \\frac{p \\times T}{M}$.<br><b>Step 5:</b> Express this in standard dimensional format: $L = [P^1 T^1 M^{-1}]$."
+            },
+            {
+                "id": "UM-TEST-073",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Fundamental Quantities", "Force"],
+                "q": "If pressure (P), velocity (V) and time (T) are taken as the fundamental quantities, then the dimensional formula of force is:",
+                "options": ["$[P^1 V^1 T^1]$", "$[P^1 V^2 T^1]$", "$[P^1 V^1 T^2]$", "$[P^1 V^2 T^2]$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Write the standard relationship between Force, Pressure, and Area: $F = P \\times A$.<br><b>Step 2:</b> Area is $L^2$. We must express Length (L) in terms of the given fundamental quantities.<br><b>Step 3:</b> Since Velocity $V = L / T$, we know $L = V \\times T$.<br><b>Step 4:</b> Substitute $L$ into the Area formula: $A = (V \\times T)^2 = V^2 T^2$.<br><b>Step 5:</b> Substitute Area back into the Force equation: $F = P \\times V^2 T^2$.<br><b>Step 6:</b> The dimensional formula is $[P^1 V^2 T^2]$."
+            },
+            {
+                "id": "UM-TEST-074",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Combination of Errors", "Simple Pendulum"],
+                "q": "The error in the measurement of the length of the simple pendulum is 0.2% and the error in time period 4%. The maximum possible error in measurement of $\\frac{L}{T^2}$ is:",
+                "options": ["4.2%", "3.8%", "7.8%", "8.2%"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Let the physical quantity be $x = \\frac{L}{T^2}$.<br><b>Step 2:</b> The formula for maximum percentage error in a quotient with powers is $\\frac{\\Delta x}{x}\\% = \\frac{\\Delta L}{L}\\% + 2 \\times \\frac{\\Delta T}{T}\\%$.<br><b>Step 3:</b> Substitute the given percentage errors: $\\%x = 0.2\\% + 2(4\\%)$.<br><b>Step 4:</b> $\\%x = 0.2\\% + 8\\% = 8.2\\%$."
+            },
+            {
+                "id": "UM-TEST-075",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 1,
+                "tags": ["Scientific Notation", "Significant Figures"],
+                "q": "The velocity of light in vacuum is 30 crore m/s. This is expressed in standard form up to 3 significant figures as:",
+                "options": ["$0.003 \\times 10^{11}\\text{ m/s}$", "$300 \\times 10^6\\text{ m/s}$", "$3.00 \\times 10^8\\text{ m/s}$", "$0.030 \\times 10^{10}\\text{ m/s}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Write the numerical value of 30 crore in standard numbers: $30,000,0000$ m/s, which is $3 \\times 10^8$ m/s.<br><b>Step 2:</b> Standard scientific notation requires a single non-zero digit before the decimal point ($A \\times 10^B$ where $1 \\le A < 10$).<br><b>Step 3:</b> To express this value with exactly 3 significant figures, we must add two trailing zeros after the decimal point.<br><b>Step 4:</b> The correct standard form is $3.00 \\times 10^8\\text{ m/s}$."
+            },
+            {
+                "id": "UM-TEST-076",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Percentage Error", "Time Period"],
+                "q": "The least count of a stop watch is $(1/5)$ s. The time of 20 oscillations of a pendulum is measured to be 25 s. The maximum percentage error in this measurement is:",
+                "options": ["8%", "1%", "0.8%", "16%"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The least count is the absolute error in the measurement. So, $\\Delta t = 1/5 = 0.2$ s.<br><b>Step 2:</b> The measured time is $t = 25$ s.<br><b>Step 3:</b> The formula for percentage error is $\\left(\\frac{\\Delta t}{t}\\right) \\times 100$.<br><b>Step 4:</b> Substitute the values: $\\left(\\frac{0.2}{25}\\right) \\times 100$.<br><b>Step 5:</b> Simplify: $0.2 \\times 4 = 0.8\\%$."
+            },
+            {
+                "id": "UM-TEST-077",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 1,
+                "tags": ["Absolute Error", "Mean Value"],
+                "q": "The diameter of a wire as measured by a screw gauge was found to be 1.002 cm, 1.004 cm and 1.006 cm. The absolute error in the third reading is:",
+                "options": ["0.002 cm", "0.004 cm", "1.002 cm", "zero"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> First, find the true value by calculating the mean of all readings.<br><b>Step 2:</b> Mean $d_{m} = \\frac{1.002 + 1.004 + 1.006}{3} = \\frac{3.012}{3} = 1.004$ cm.<br><b>Step 3:</b> The absolute error in any reading is the magnitude of the difference between the true value and that specific reading: $\\Delta d_3 = |d_m - d_3|$.<br><b>Step 4:</b> $\\Delta d_3 = |1.004 - 1.006| = |-0.002| = 0.002$ cm."
+            },
+            {
+                "id": "UM-TEST-078",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 3,
+                "tags": ["Combination of Errors", "Division"],
+                "q": "Force and area are measured as 20 N and $5\\text{ m}^{2}$ with errors 0.05 N and $0.0125\\text{ m}^{2}$. The maximum error in pressure is (SI unit):",
+                "options": ["$4\\pm 0.0625$", "$4\\pm 0.05$", "$4\\pm 0.125$", "$4\\pm 0.02$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Calculate the central value of pressure: $P = \\frac{F}{A} = \\frac{20}{5} = 4\\text{ N/m}^2$.<br><b>Step 2:</b> The relative error for division is $\\frac{\\Delta P}{P} = \\frac{\\Delta F}{F} + \\frac{\\Delta A}{A}$.<br><b>Step 3:</b> Substitute the values: $\\frac{\\Delta P}{4} = \\frac{0.05}{20} + \\frac{0.0125}{5}$.<br><b>Step 4:</b> $\\frac{\\Delta P}{4} = 0.0025 + 0.0025 = 0.005$.<br><b>Step 5:</b> Absolute error $\\Delta P = 4 \\times 0.005 = 0.02$. Thus, $P = 4\\pm 0.02$."
+            },
+            {
+                "id": "UM-TEST-079",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Relative Error", "Percentage Error", "Multiplication"],
+                "q": "The length and breadth of a rectangular object are 25.2cm and 16.8cm respectively and have been measured to an accuracy of 0.1cm. Relative error and percentage error in the area of the object are:",
+                "options": ["0.01 & 1%", "0.02 & 2%", "0.03 & 3%", "0.04 & 4%"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The area is $A = L \\times B$. Relative error is $\\frac{\\Delta A}{A} = \\frac{\\Delta L}{L} + \\frac{\\Delta B}{B}$.<br><b>Step 2:</b> The accuracy of 0.1 cm is the absolute error for both ($\\Delta L = 0.1$, $\\Delta B = 0.1$).<br><b>Step 3:</b> $\\frac{\\Delta A}{A} = \\frac{0.1}{25.2} + \\frac{0.1}{16.8} \\approx 0.003968 + 0.005952 = 0.00992$.<br><b>Step 4:</b> Rounding to the appropriate significant figures gives a relative error of approximately $0.01$.<br><b>Step 5:</b> Percentage error is Relative Error $\\times 100 = 0.01 \\times 100 = 1\\%$."
+            },
+            {
+                "id": "UM-TEST-080",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Multiplication", "Volume", "Significant Figures"],
+                "q": "The length, breadth and thickness of a rectangular lamina are 1.024 m, 0.56 m, and 0.0031 m. The volume is:",
+                "options": ["$1.8\\times 10^{-3}\\text{ m}^3$", "$1.80\\times 10^{-3}\\text{ m}^3$", "$0.180\\times 10^{-4}\\text{ m}^3$", "$0.00177\\text{ m}^3$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Calculate the mathematical volume: $V = L \\times B \\times H = 1.024 \\times 0.56 \\times 0.0031 = 0.00177779...\\text{ m}^3$.<br><b>Step 2:</b> In multiplication, the final result must have the same number of significant figures as the measurement with the fewest significant figures.<br><b>Step 3:</b> 1.024 has 4 sig figs, 0.56 has 2 sig figs, and 0.0031 has 2 sig figs. The result must be rounded to 2 significant figures.<br><b>Step 4:</b> Rounding 0.001777... to two significant figures yields 0.0018.<br><b>Step 5:</b> In scientific notation, this is $1.8\\times 10^{-3}\\text{ m}^3$."
+            },
+            {
+                "id": "UM-TEST-081",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 1,
+                "tags": ["Combination of Errors", "Subtraction"],
+                "q": "The initial and final temperatures of a liquid are measured to be $(67.7\\pm 0.2)^{\\circ}\\text{C}$ and $(76.3\\pm 0.3)^{\\circ}\\text{C}$. The rise in temperature with error limit is:",
+                "options": ["$(8.6\\pm 0.2)^{\\circ}\\text{C}$", "$(8.6\\pm 0.3)^{\\circ}\\text{C}$", "$(8.6\\pm 0.5)^{\\circ}\\text{C}$", "$(8.6\\pm 0.6)^{\\circ}\\text{C}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The rise in temperature is the difference: $\\Delta T = T_{final} - T_{initial} = 76.3 - 67.7 = 8.6^{\\circ}\\text{C}$.<br><b>Step 2:</b> The rule for errors in addition and subtraction is that absolute errors always add up to give the maximum possible error.<br><b>Step 3:</b> Total error $= 0.2 + 0.3 = 0.5^{\\circ}\\text{C}$.<br><b>Step 4:</b> The result is $(8.6\\pm 0.5)^{\\circ}\\text{C}$."
+            },
+            {
+                "id": "UM-TEST-082",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 2,
+                "tags": ["Fundamental Units", "Momentum Ratio"],
+                "q": "If the ratio of fundamental units in two systems is 1:3, then the ratio of momenta in the two systems is:",
+                "options": ["1:3", "1:9", "1:27", "3:1"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The dimensional formula for momentum is $P = [MLT^{-1}]$.<br><b>Step 2:</b> We are given the ratio of all fundamental units: $\\frac{M_1}{M_2} = \\frac{1}{3}$, $\\frac{L_1}{L_2} = \\frac{1}{3}$, and $\\frac{T_1}{T_2} = \\frac{1}{3}$.<br><b>Step 3:</b> The ratio of momenta is $\\frac{P_1}{P_2} = \\left(\\frac{M_1}{M_2}\\right)^1 \\left(\\frac{L_1}{L_2}\\right)^1 \\left(\\frac{T_1}{T_2}\\right)^{-1}$.<br><b>Step 4:</b> Substitute the ratios: $\\frac{P_1}{P_2} = \\left(\\frac{1}{3}\\right) \\times \\left(\\frac{1}{3}\\right) \\times \\left(\\frac{1}{3}\\right)^{-1}$.<br><b>Step 5:</b> Simplify: $\\frac{P_1}{P_2} = \\left(\\frac{1}{9}\\right) \\times 3 = \\frac{3}{9} = \\frac{1}{3}$."
+            },
+            {
+                "id": "UM-TEST-083",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 3,
+                "tags": ["Dimensional Analysis", "Fluid Mechanics"],
+                "q": "The velocity of the waves on the surface of water is proportional to $\\lambda^{\\alpha}\\rho^{\\beta}g^{\\gamma}$ where $\\lambda$ = wave length, $\\rho$ = density and g = acceleration due to gravity. Which of the following relation is correct?",
+                "options": ["$\\alpha=\\beta\\ne\\gamma$", "$\\beta=\\gamma\\ne\\alpha$", "$\\gamma=\\alpha\\ne\\beta$", "$\\alpha\\ne\\beta\\ne\\gamma$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Write the dimensional formulas for each quantity. Velocity $v = [LT^{-1}]$, Wavelength $\\lambda = [L]$, Density $\\rho = [ML^{-3}]$, Gravity $g = [LT^{-2}]$.<br><b>Step 2:</b> Apply the principle of homogeneity: $[LT^{-1}] = [L]^{\\alpha} [ML^{-3}]^{\\beta} [LT^{-2}]^{\\gamma}$.<br><b>Step 3:</b> Combine the right side: $[M^0 L^1 T^{-1}] = [M^{\\beta} L^{\\alpha - 3\\beta + \\gamma} T^{-2\\gamma}]$.<br><b>Step 4:</b> Equate powers of M: $\\beta = 0$.<br><b>Step 5:</b> Equate powers of T: $-2\\gamma = -1 \\implies \\gamma = 1/2$.<br><b>Step 6:</b> Equate powers of L: $\\alpha - 3\\beta + \\gamma = 1 \\implies \\alpha - 0 + 1/2 = 1 \\implies \\alpha = 1/2$.<br><b>Step 7:</b> Since $\\alpha = 1/2$, $\\gamma = 1/2$, and $\\beta = 0$, we conclude that $\\gamma = \\alpha \\ne \\beta$."
+            },
+            {
+                "id": "UM-TEST-084",
+                "topic": "PRINCIPLE OF HOMOGENEITY",
+                "difficulty": 3,
+                "tags": ["Dimensional Analysis", "Work"],
+                "q": "The work done 'w' by a body varies with displacement 'x' as $w=Ax+\\frac{B}{(C-x)^{2}}$. The dimensional formula for 'B' is:",
+                "options": ["$[MLT^{-2}]$", "$[ML^4T^{-2}]$", "$[ML^2T^{-2}]$", "$[ML^2T^{-4}]$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> According to the principle of homogeneity, only quantities with the same dimensions can be added or subtracted. Thus, $C$ must have the same dimension as $x$, which is $[L]$.<br><b>Step 2:</b> The denominator $(C-x)^2$ therefore has the dimensions $[L]^2 = [L^2]$.<br><b>Step 3:</b> By homogeneity, the entire term $\\frac{B}{(C-x)^2}$ must have the same dimensions as work $w$, which is $[ML^2T^{-2}]$.<br><b>Step 4:</b> Therefore, $\\frac{B}{[L^2]} = [ML^2T^{-2}]$.<br><b>Step 5:</b> Cross-multiply to find B: $B = [ML^2T^{-2}] \\times [L^2] = [ML^4T^{-2}]$."
+            },
+            {
+                "id": "UM-TEST-085",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 3,
+                "tags": ["Unit Conversion", "Energy"],
+                "q": "If the units of mass, time and length are 100 g, 20 cm and 1 minute respectively, the equivalent energy for 1000 erg in the new system will be:",
+                "options": ["90", "900", "$2\\times 10^6$", "300"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Energy has the dimensional formula $E = [ML^2T^{-2}]$.<br><b>Step 2:</b> 1000 ergs implies the initial CGS values: $M_1 = 1\\text{ g}$, $L_1 = 1\\text{ cm}$, $T_1 = 1\\text{ s}$, and $n_1 = 1000$.<br><b>Step 3:</b> The new units are $M_2 = 100\\text{ g}$, $L_2 = 20\\text{ cm}$, $T_2 = 60\\text{ s}$ (1 minute).<br><b>Step 4:</b> Use the formula $n_2 = n_1 \\left(\\frac{M_1}{M_2}\\right) \\left(\\frac{L_1}{L_2}\\right)^2 \\left(\\frac{T_1}{T_2}\\right)^{-2}$.<br><b>Step 5:</b> $n_2 = 1000 \\times \\left(\\frac{1}{100}\\right) \\times \\left(\\frac{1}{20}\\right)^2 \\times \\left(\\frac{1}{60}\\right)^{-2} = 10 \\times \\left(\\frac{1}{400}\\right) \\times 3600$.<br><b>Step 6:</b> $n_2 = \\frac{36000}{400} = 90$."
+            },
+            {
+                "id": "UM-TEST-086",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 2,
+                "tags": ["Planck's Constant", "Unit Conversion"],
+                "q": "The ratio of SI unit to the CGS unit of planck's constant is:",
+                "options": ["$10^{7}:1$", "$10^{4}:1$", "$10^{6}:1$", "1:1"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The dimensional formula for Planck's constant ($h$) is $[ML^2T^{-1}]$.<br><b>Step 2:</b> The SI unit is $\\text{kg}\\cdot\\text{m}^2/\\text{s}$ (or Joule-seconds), and the CGS unit is $\\text{g}\\cdot\\text{cm}^2/\\text{s}$ (or erg-seconds).<br><b>Step 3:</b> Convert the SI unit to CGS: $1\\text{ kg} = 10^3\\text{ g}$ and $1\\text{ m} = 10^2\\text{ cm}$.<br><b>Step 4:</b> Substitute into the dimensional formula: $(10^3\\text{ g}) \\times (10^2\\text{ cm})^2 \\times (1\\text{ s})^{-1} = 10^3 \\times 10^4 = 10^7\\text{ g}\\cdot\\text{cm}^2/\\text{s}$.<br><b>Step 5:</b> Thus, 1 SI unit $= 10^7$ CGS units, making the ratio $10^7:1$."
+            },
+            {
+                "id": "UM-TEST-087",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 3,
+                "tags": ["Dimensional Analysis", "Viscosity"],
+                "q": "The velocity of a spherical ball through a viscous liquid is given by $v=v_{0}(1-e^{kt})$, where v is the initial velocity and t represents time. If k depends on radius of ball (r), coefficient of viscosity ($\\eta$) and mass of the ball (m), then:",
+                "options": ["$k=mr/\\eta$", "$k=\\eta m/r$", "$k=r\\eta/m$", "$k=mr\\eta$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The exponent of the natural exponential function ($e^{kt}$) must be dimensionless. Thus, the dimension of $k$ must be $[T^{-1}]$.<br><b>Step 2:</b> We assume $k = C \\cdot r^a \\eta^b m^c$. Substitute dimensional formulas: Radius $r = [L]$, Viscosity $\\eta = [ML^{-1}T^{-1}]$, Mass $m = [M]$.<br><b>Step 3:</b> $[T^{-1}] = [L]^a [ML^{-1}T^{-1}]^b [M]^c = M^{b+c} L^{a-b} T^{-b}$.<br><b>Step 4:</b> Equate powers of T: $-b = -1 \\implies b = 1$.<br><b>Step 5:</b> Equate powers of M: $b + c = 0 \\implies 1 + c = 0 \\implies c = -1$.<br><b>Step 6:</b> Equate powers of L: $a - b = 0 \\implies a - 1 = 0 \\implies a = 1$.<br><b>Step 7:</b> Therefore, $k \\propto r^1 \\eta^1 m^{-1} = \\frac{r\\eta}{m}$."
+            },
+            {
+                "id": "UM-TEST-088",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 3,
+                "tags": ["Dimensional Analysis", "Algebraic Exponents"],
+                "q": "For the equation $F=A^{a}v^{b}d^{c}$ where F is force, A is area, v is velocity and d is density, the dimensional analysis gives the following values for the exponents:",
+                "options": ["$a=1, b=2, c=1$", "$a=2, b=1, c=1$", "$a=1, b=1, c=2$", "$a=0, b=1, c=1$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Write the dimensional formula for each quantity: $F = [MLT^{-2}]$, $A = [L^2]$, $v = [LT^{-1}]$, $d = [ML^{-3}]$.<br><b>Step 2:</b> Substitute these into the given relation: $[MLT^{-2}] = ([L^2])^a ([LT^{-1}])^b ([ML^{-3}])^c$.<br><b>Step 3:</b> Group the powers on the right side: $[MLT^{-2}] = [M^c L^{2a+b-3c} T^{-b}]$.<br><b>Step 4:</b> Equate powers of M: $c = 1$.<br><b>Step 5:</b> Equate powers of T: $-b = -2 \\implies b = 2$.<br><b>Step 6:</b> Equate powers of L: $2a + b - 3c = 1$. Substitute $b$ and $c$: $2a + 2 - 3(1) = 1 \\implies 2a - 1 = 1 \\implies 2a = 2 \\implies a = 1$.<br><b>Step 7:</b> The exponents are $a=1$, $b=2$, $c=1$."
+            },
+            {
+                "id": "UM-TEST-089",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 3,
+                "tags": ["Pendulum", "Percentage Error"],
+                "q": "The length of pendulum is measured as 1.01m and time for 30 oscillations is measured as one minute 3 seconds. Error in length is 0.01 m and error in time is 3 secs. The percentage error in the measurement of acceleration due to gravity is:",
+                "options": ["1%", "5%", "10%", "15%"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The formula for acceleration due to gravity is $g = \\frac{4\\pi^2 L}{T^2}$. The maximum percentage error is $\\%g = \\%L + 2(\\%T)$.<br><b>Step 2:</b> Calculate $\%L = \\left(\\frac{\\Delta L}{L}\\right) \\times 100 = \\left(\\frac{0.01}{1.01}\\right) \\times 100 \\approx 1\\%$.<br><b>Step 3:</b> The total time $t = 1\\text{ min } 3\\text{ s} = 63\\text{ s}$. Error in time $\\Delta t = 3\\text{ s}$.<br><b>Step 4:</b> The percentage error in Time Period (T) is identical to the percentage error in total time (t). So, $\\%T = \\left(\\frac{3}{63}\\right) \\times 100 \\approx 4.76\\%$.<br><b>Step 5:</b> $\\%g = 1\\% + 2(4.76\\%) = 1\\% + 9.52\\% = 10.52\\%$.<br><b>Step 6:</b> The closest matching option is 10%."
+            },
+            {
+                "id": "UM-TEST-090",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 3,
+                "tags": ["Magnetic Energy Density", "Dimensional Formulae"],
+                "q": "The dimensional formula of $\\frac{1}{2}\\mu_{0}H^{2}$ ($\\mu_{0}$ is permeability of free space and H is magnetic field intensity) is:",
+                "options": ["$MLT^{-1}$", "$ML^2T^{-2}$", "$ML^{-1}T^{-2}$", "$ML^2T^{-1}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The expression $\\frac{1}{2}\\mu_{0}H^{2}$ represents the magnetic energy density, which is energy per unit volume.<br><b>Step 2:</b> The dimensional formula for Energy is $[ML^2T^{-2}]$.<br><b>Step 3:</b> The dimensional formula for Volume is $[L^3]$.<br><b>Step 4:</b> Energy density = $\\frac{[ML^2T^{-2}]}{[L^3]}$.<br><b>Step 5:</b> Simplifying the fraction gives $[ML^{-1}T^{-2}]$."
+            },
+            {
+                "id": "UM-TEST-091",
+                "topic": "PRINCIPLE OF HOMOGENEITY",
+                "difficulty": 2,
+                "tags": ["Dimensional Analysis", "Kinematics"],
+                "q": "If the force is given by $F=at+bt^{2}$ with t as time. The dimensions of a and b are:",
+                "options": ["$MLT^{-4}$, $MLT^{-2}$", "$MLT^{-3}$, $MLT^{-4}$", "$ML^2T^{-3}$, $ML^2T^{-2}$", "$ML^2T^{-3}$, $ML^3T^{-4}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> By the principle of homogeneity, each added term must have the same dimensions as the physical quantity on the left side (Force).<br><b>Step 2:</b> The dimensional formula for force is $F = [MLT^{-2}]$.<br><b>Step 3:</b> For the first term: $a \\times t = [MLT^{-2}] \\implies a \\times [T] = [MLT^{-2}]$.<br><b>Step 4:</b> Solving for $a$: $a = [MLT^{-3}]$.<br><b>Step 5:</b> For the second term: $b \\times t^2 = [MLT^{-2}] \\implies b \\times [T^2] = [MLT^{-2}]$.<br><b>Step 6:</b> Solving for $b$: $b = [MLT^{-4}]$."
+            },
+            {
+                "id": "UM-TEST-092",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 2,
+                "tags": ["Trigonometry", "Wave Equation"],
+                "q": "When a wave traverses a medium, the displacement of a particle located at x at a time 't' is given by $y=a \\sin(bt-cx)$, where a, b and c are constants of the wave, which of the following is a quantity with dimensions?",
+                "options": ["$y/a$", "$bt$", "$cx$", "$b/c$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The argument of a trigonometric function must be an angle, which is a dimensionless quantity. Therefore, the terms $bt$ and $cx$ are both dimensionless.<br><b>Step 2:</b> Since the sine function returns a dimensionless ratio, $y$ and $a$ must have the same dimensions (length). Thus, $y/a$ is dimensionless.<br><b>Step 3:</b> Because $bt$ is dimensionless, $b \\times [T] = 1 \\implies b = [T^{-1}]$.<br><b>Step 4:</b> Because $cx$ is dimensionless, $c \\times [L] = 1 \\implies c = [L^{-1}]$.<br><b>Step 5:</b> Analyze the term $b/c$: $\\frac{[T^{-1}]}{[L^{-1}]} = [LT^{-1}]$. This is the dimensional formula for velocity, meaning it is a quantity with dimensions."
+            },
+            {
+                "id": "UM-TEST-093",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 3,
+                "tags": ["Fundamental Quantities", "Planck's Constant"],
+                "q": "The Energy (E), angular momentum (L) and universal gravitational constant (G) are chosen as fundamental quantities. The dimensions of universal gravitational constant in the dimensional formula of Planck's constant (h) is:",
+                "options": ["0", "-1", "5/3", "1"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Express Planck's constant $h$ in terms of the given quantities: $h \\propto E^a L^b G^c$. We need to find the value of $c$.<br><b>Step 2:</b> Write the standard dimensions: $h = [ML^2T^{-1}]$, $E = [ML^2T^{-2}]$, $L = [ML^2T^{-1}]$, $G = [M^{-1}L^3T^{-2}]$.<br><b>Step 3:</b> Substitute these into the equation: $[ML^2T^{-1}] = [ML^2T^{-2}]^a [ML^2T^{-1}]^b [M^{-1}L^3T^{-2}]^c$.<br><b>Step 4:</b> Group the powers: $[M^1L^2T^{-1}] = [M^{a+b-c} L^{2a+2b+3c} T^{-2a-b-2c}]$.<br><b>Step 5:</b> Equate the powers of M: $a + b - c = 1$.<br><b>Step 6:</b> Equate the powers of L: $2a + 2b + 3c = 2$.<br><b>Step 7:</b> Multiply the first equation by 2: $2a + 2b - 2c = 2$.<br><b>Step 8:</b> Subtract this from the second equation: $(2a+2b+3c) - (2a+2b-2c) = 2 - 2 \\implies 5c = 0 \\implies c = 0$."
+            },
+            {
+                "id": "UM-TEST-094",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 1,
+                "tags": ["Absolute Error", "Subtraction"],
+                "q": "If the absolute errors in two physical quantities A and B are a and b respectively, then the absolute error in the value of A-B is:",
+                "options": ["a-b", "b-a", "$a\\pm b$", "a+b"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Let $Z = A - B$. The measured values are $A \\pm a$ and $B \\pm b$.<br><b>Step 2:</b> When two physical quantities are added or subtracted, their absolute errors always add up to account for the maximum possible error.<br><b>Step 3:</b> Therefore, the absolute error in $Z$ is $\\Delta Z = \\Delta A + \\Delta B$.<br><b>Step 4:</b> Substituting the given variables, the absolute error is $a + b$."
+            },
+            {
+                "id": "UM-TEST-095",
+                "topic": "PRINCIPLE OF HOMOGENEITY",
+                "difficulty": 2,
+                "tags": ["Dimensional Analysis", "Velocity"],
+                "q": "If the velocity v (in cm/s) of a particle is given in terms of time t (in sec) by the equation $v=at+\\frac{b}{t+c}$, then the dimensions of a, b and c are:",
+                "options": ["$[L^2], [T], [LT^2]$", "$[LT^2], [LT], [L]$", "$[LT^{-2}], [L], [T]$", "$[L], [LT], [T^2]$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> According to the principle of homogeneity, only quantities with identical dimensions can be added together.<br><b>Step 2:</b> In the denominator $(t+c)$, $c$ is added to time $t$. Therefore, $c$ must have the dimension of time: $[T]$.<br><b>Step 3:</b> The entire term $\\frac{b}{t+c}$ must have the same dimension as velocity $v$, which is $[LT^{-1}]$.<br><b>Step 4:</b> $\\frac{b}{[T]} = [LT^{-1}] \\implies b = [L]$.<br><b>Step 5:</b> The term $at$ must also have the dimension of velocity $[LT^{-1}]$.<br><b>Step 6:</b> $a[T] = [LT^{-1}] \\implies a = [LT^{-2}]$.<br><b>Step 7:</b> The dimensions for a, b, and c are $[LT^{-2}], [L], [T]$ respectively."
+            },
+            {
+                "id": "UM-TEST-096",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Percentage Error", "Density"],
+                "q": "A body weighs 22.42 g and has a measured volume of 4.7 cc. The possible errors in the measurement of mass and volume are 0.01 g and 0.1 cc. Then the maximum percentage error in the density will be:",
+                "options": ["22%", "2.2%", "0.22%", "0.022%"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The formula for density is $d = \\frac{m}{V}$.<br><b>Step 2:</b> The maximum percentage error in density is the sum of the percentage errors of mass and volume: $\\frac{\\Delta d}{d} \\times 100 = \\left(\\frac{\\Delta m}{m} \\times 100\\right) + \\left(\\frac{\\Delta V}{V} \\times 100\\right)$.<br><b>Step 3:</b> Calculate the percentage error for mass: $\\frac{0.01}{22.42} \\times 100 \\approx 0.0446\\%$.<br><b>Step 4:</b> Calculate the percentage error for volume: $\\frac{0.1}{4.7} \\times 100 \\approx 2.127\\%$.<br><b>Step 5:</b> Total percentage error $= 0.0446\\% + 2.127\\% = 2.1716\\%$.<br><b>Step 6:</b> Rounding to the nearest significant decimal gives 2.2%."
+            },
+            {
+                "id": "UM-TEST-097",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 3,
+                "tags": ["Surface Tension", "Fundamental Quantities"],
+                "q": "If energy E, velocity v and time T are taken as fundamental quantities, the dimensional formula for surface tension is:",
+                "options": ["$[Ev^{-2}T^{-2}]$", "$[E^2vT^{-2}]$", "$[Ev^{-2}T^{-1}]$", "$[E^{-2}v^{-2}T^{-1}]$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Surface tension $S$ is defined as force per unit length. Its standard dimensional formula is $S = [ML^0T^{-2}]$.<br><b>Step 2:</b> We want to express $S$ as $E^a v^b T^c$. Substitute the standard dimensions for these quantities: $E = [ML^2T^{-2}]$, $v = [LT^{-1}]$, $T = [T]$.<br><b>Step 3:</b> $[M^1L^0T^{-2}] = [ML^2T^{-2}]^a [LT^{-1}]^b [T]^c = [M^a L^{2a+b} T^{-2a-b+c}]$.<br><b>Step 4:</b> Equate powers of M: $a = 1$.<br><b>Step 5:</b> Equate powers of L: $2a + b = 0 \\implies 2(1) + b = 0 \\implies b = -2$.<br><b>Step 6:</b> Equate powers of T: $-2a - b + c = -2 \\implies -2(1) - (-2) + c = -2 \\implies -2 + 2 + c = -2 \\implies c = -2$.<br><b>Step 7:</b> The formula is $E^1 v^{-2} T^{-2}$, which is $[Ev^{-2}T^{-2}]$."
+            },
+            {
+                "id": "UM-TEST-098",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 2,
+                "tags": ["Dimensional Comparison"],
+                "q": "If power (P), surface tension (T) and Planck's constant (h) are arranged, so that the dimensions of time in their dimensional formulae are in ascending order, then which of the following is correct?",
+                "options": ["P, T, h", "P, h, T", "T, P, h", "T, h, P"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Determine the dimensional formula for Power (P): Work/Time = $[ML^2T^{-3}]$. The dimension of time is -3.<br><b>Step 2:</b> Determine the dimensional formula for Surface Tension (T): Force/Length = $[ML^0T^{-2}]$. The dimension of time is -2.<br><b>Step 3:</b> Determine the dimensional formula for Planck's constant (h): Energy $\\times$ Time = $[ML^2T^{-1}]$. The dimension of time is -1.<br><b>Step 4:</b> Arrange these dimensions in ascending order (from smallest/most negative to largest): -3, -2, -1.<br><b>Step 5:</b> The corresponding order of quantities is P, T, h."
+            },
+            {
+                "id": "UM-TEST-099",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Percentage Error", "Pendulum"],
+                "q": "The error in the measurement of length of a simple pendulum is 0.1% and error in the time period is 2%. The possible maximum error in the quantity having dimensional formula $LT^{-2}$ is:",
+                "options": ["1.1%", "2.1%", "4.1%", "6.1%"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The quantity with dimensional formula $[LT^{-2}]$ represents acceleration due to gravity ($g$). For a simple pendulum, $g = \\frac{4\\pi^2 L}{T^2}$.<br><b>Step 2:</b> The formula for maximum percentage error in a quotient with powers is $\\%g = \\%L + 2(\\%T)$.<br><b>Step 3:</b> Substitute the given percentage errors: $\\%L = 0.1\\%$ and $\\%T = 2\\%$.<br><b>Step 4:</b> $\\%g = 0.1\\% + 2(2\\%) = 0.1\\% + 4\\% = 4.1\\%$."
+            },
+            {
+                "id": "UM-TEST-100",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Least Count", "Percentage Error"],
+                "q": "The length of a cylinder is measured as 5cm using a vernier calipers of least count 0.1mm. The percentage error in the measured length is nearly:",
+                "options": ["0.5%", "2%", "20%", "0.2%"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The least count of the instrument represents the absolute error ($\\Delta L$) in a single measurement.<br><b>Step 2:</b> Convert the least count to match the unit of the measurement: $\\Delta L = 0.1\\text{ mm} = 0.01\\text{ cm}$.<br><b>Step 3:</b> The measured length is $L = 5\\text{ cm}$.<br><b>Step 4:</b> The percentage error is $\\left(\\frac{\\Delta L}{L}\\right) \\times 100$.<br><b>Step 5:</b> Substitute the values: $\\left(\\frac{0.01}{5}\\right) \\times 100 = \\frac{1}{5} = 0.2\\%$."
+            },
+            {
+                "id": "UM-TEST-101",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Absolute Error", "Mean Value"],
+                "q": "The diameter of a wire as measured by a screw gauge was found to be 1.002 cm, 1.000cm, 1.006cm, the absolute error in the first reading:",
+                "options": ["0.001cm", "0.004 cm", "0.006cm", "0.003cm"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Find the true value by calculating the mean of the three readings.<br><b>Step 2:</b> Mean $d_m = \\frac{1.002 + 1.000 + 1.006}{3} = \\frac{3.008}{3} = 1.00266...\\text{ cm}$.<br><b>Step 3:</b> Round the mean to the same number of decimal places as the original readings (3 decimal places): $d_m = 1.003\\text{ cm}$.<br><b>Step 4:</b> The absolute error in the first reading is the magnitude of the difference between the mean value and the first reading: $\\Delta d_1 = |d_m - d_1|$.<br><b>Step 5:</b> $\\Delta d_1 = |1.003 - 1.002| = 0.001\\text{ cm}$."
+            },
+            {
+                "id": "UM-TEST-102",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 3,
+                "tags": ["Diffusion Constant", "Dimensional Analysis"],
+                "q": "The number of particles crossing per unit area perpendicular to x-axis in unit time is $N=-D\\left(\\frac{n_{2}-n_{1}}{x_{2}-x_{1}}\\right)$ where $n_{1}$ and $n_{2}$ are number of particles per unit volume for the value of $x_{1}$ and $x_{2}$ respectively. The dimension of diffusion constant D is:",
+                "options": ["$M^0L^1T^2$", "$M^0L^2T^{-4}$", "$M^0L^1T^{-3}$", "$M^0L^2T^{-1}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Determine the dimensions of each variable in the equation.<br><b>Step 2:</b> $N$ is particles per unit area per unit time, so its dimension is $[L^{-2}T^{-1}]$.<br><b>Step 3:</b> $(n_2 - n_1)$ represents a difference in particles per unit volume, so its dimension is $[L^{-3}]$.<br><b>Step 4:</b> $(x_2 - x_1)$ represents distance, so its dimension is $[L]$.<br><b>Step 5:</b> Rearrange the equation to isolate the dimensions of D: $[D] = \\frac{[N] \\times [x]}{[n]}$.<br><b>Step 6:</b> Substitute the dimensional formulas: $[D] = \\frac{[L^{-2}T^{-1}] \\times [L]}{[L^{-3}]} = \\frac{[L^{-1}T^{-1}]}{[L^{-3}]} = [L^2T^{-1}]$.<br><b>Step 7:</b> In M, L, T format, this is $M^0 L^2 T^{-1}$."
+            },
+            {
+                "id": "UM-TEST-103",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Subtraction", "Propagation of Precision"],
+                "q": "The external and internal diameters of a hollow cylinder are determined with vernier calipers and the results are recorded as $(4.23\\pm 0.001)\\text{cm}$ and $(3.89\\pm 0.01)\\text{cm}$. The thickness of the cylinder wall within the limits of error is:",
+                "options": ["$0.34\\pm 0.01\\text{ cm}$", "$0.34\\pm 0.02\\text{ cm}$", "$0.34\\pm 0.04\\text{ cm}$", "$0.17\\pm 0.01\\text{ cm}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The thickness of a hollow cylinder is given by $t = \\frac{D_{ext} - D_{int}}{2}$.<br><b>Step 2:</b> Calculate the central value for thickness: $t = \\frac{4.23 - 3.89}{2} = \\frac{0.34}{2} = 0.17\\text{ cm}$.<br><b>Step 3:</b> Calculate the absolute error in the difference $(D_{ext} - D_{int})$. For subtraction, errors add up: $\\Delta(D_{ext} - D_{int}) = 0.001 + 0.01 = 0.011\\text{ cm}$.<br><b>Step 4:</b> Since thickness is divided by exactly 2, the absolute error is also divided by 2: $\\Delta t = \\frac{0.011}{2} = 0.0055\\text{ cm}$.<br><b>Step 5:</b> Round the error to match the precision (decimal places) of the least precise measurement (0.01 cm). $0.0055$ rounds to $0.01\\text{ cm}$.<br><b>Step 6:</b> The final result is $0.17\\pm 0.01\\text{ cm}$."
+            },
+            {
+                "id": "UM-TEST-104",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 2,
+                "tags": ["Density", "Percentage Error"],
+                "q": "The density of a cube can be measured by measuring its mass and the length of its side. If the maximum errors in the measurement of mass and length are 3% and 2% respectively, the maximum error in the measurement of the density of the cube is:",
+                "options": ["9%", "19%", "10%", "90%"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The formula for the density of a cube is $d = \\frac{m}{V} = \\frac{m}{L^3}$.<br><b>Step 2:</b> Using the rule for percentage errors with powers, the maximum percentage error in density is $\\%d = \\%m + 3(\\%L)$.<br><b>Step 3:</b> Substitute the given values: $\\%d = 3\\% + 3(2\\%)$.<br><b>Step 4:</b> $\\%d = 3\\% + 6\\% = 9\\%$."
+            },
+            {
+                "id": "UM-TEST-105",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Volume", "Significant Figures"],
+                "q": "The diameter of a sphere is 3.34m Calculate its volume with due regard to significant figures (in $m^{3}$).",
+                "options": ["19.5169", "9.516", "19.5", "19.51"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The formula for the volume of a sphere is $V = \\frac{4}{3}\\pi r^3$ or $V = \\frac{1}{6}\\pi d^3$.<br><b>Step 2:</b> Calculate the mathematical value: $V = \\frac{3.14159...}{6} \\times (3.34)^3 = 0.523598... \\times 37.2597... = 19.509...\\text{ m}^3$.<br><b>Step 3:</b> Identify the number of significant figures in the given data. The diameter '3.34' has 3 significant figures.<br><b>Step 4:</b> The rule for multiplication/division requires the final answer to be rounded to the same number of significant figures as the least precise input value.<br><b>Step 5:</b> Rounding 19.509... to 3 significant figures gives 19.5."
+            },
+            {
+                "id": "UM-TEST-106",
+                "topic": "SIGNIFICANT FIGURES & ROUNDING OFF",
+                "difficulty": 2,
+                "tags": ["Volume", "Significant Figures"],
+                "q": "The length, breadth and thickness of a metal sheet are 4.234 m, 1.005m, and 2.01 cm respectively then the volume of the sheet is:",
+                "options": ["$0.08~m^{3}$", "$0.0855~m^{3}$", "$0.085~m^{3}$", "$0.087~m^{3}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Calculate the volume mathematically: $V = L \\times B \\times H$.<br><b>Step 2:</b> Convert all units to meters: $L = 4.234$ m, $B = 1.005$ m, $H = 2.01$ cm = $0.0201$ m.<br><b>Step 3:</b> $V = 4.234 \\times 1.005 \\times 0.0201 = 0.0855289...\\text{ m}^3$.<br><b>Step 4:</b> The least number of significant figures in the given measurements is 3 (from 2.01 cm).<br><b>Step 5:</b> Round the final answer to 3 significant figures: $0.0855\\text{ m}^3$."
+            },
+            {
+                "id": "UM-TEST-107",
+                "topic": "ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS",
+                "difficulty": 1,
+                "tags": ["Addition", "Propagation of Precision"],
+                "q": "The sides of rectangle are $(10.5\\pm 0.2)$ cm and $(5.2\\pm 0.1)$ cm then its perimeter with error limit.",
+                "options": ["$(31.4\\pm 0.6)\\text{ cm}$", "$(31.4\\pm 0.2)\\text{ cm}$", "$(31.4\\pm 0.1)\\text{ cm}$", "$(31.4\\pm 0.9)\\text{ cm}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The formula for the perimeter of a rectangle is $P = 2(L + B)$.<br><b>Step 2:</b> Calculate the central value: $P = 2(10.5 + 5.2) = 2(15.7) = 31.4\\text{ cm}$.<br><b>Step 3:</b> For addition, absolute errors sum up. Since perimeter involves $2L + 2B$, the absolute error is $\\Delta P = 2(\\Delta L) + 2(\\Delta B)$.<br><b>Step 4:</b> $\\Delta P = 2(0.2) + 2(0.1) = 0.4 + 0.2 = 0.6\\text{ cm}$.<br><b>Step 5:</b> The perimeter with error limit is $(31.4\\pm 0.6)\\text{ cm}$."
+            },
+            {
+                "id": "UM-TEST-108",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 2,
+                "tags": ["Unit Conversion", "Dimensional Analysis"],
+                "q": "If the ratio of fundamental units in two systems are 2:3 the ratio of force in these two systems is:",
+                "options": ["1:3", "1:1", "3:1", "1:27"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The dimensional formula for force is $F = [MLT^{-2}]$.<br><b>Step 2:</b> The ratio of force in two systems is $\\frac{F_1}{F_2} = \\left(\\frac{M_1}{M_2}\\right) \\left(\\frac{L_1}{L_2}\\right) \\left(\\frac{T_1}{T_2}\\right)^{-2}$.<br><b>Step 3:</b> We are given that the ratio of all fundamental units is $\\frac{2}{3}$.<br><b>Step 4:</b> Substitute the ratios: $\\frac{F_1}{F_2} = \\left(\\frac{2}{3}\\right) \\times \\left(\\frac{2}{3}\\right) \\times \\left(\\frac{2}{3}\\right)^{-2}$.<br><b>Step 5:</b> Simplify the expression: $\\left(\\frac{2}{3}\\right)^2 \\times \\left(\\frac{3}{2}\\right)^2 = 1$. The ratio is 1:1."
+            },
+            {
+                "id": "UM-TEST-109",
+                "topic": "UNITS AND DIMENSIONAL FORMULAE",
+                "difficulty": 3,
+                "tags": ["Dimensional Formulae", "Electromagnetism"],
+                "q": "If L, R, C, and V, respectively, represent inductance, resistance, capacitance and potential difference, then the dimensions of L/RCV are the same as those of:",
+                "options": ["Charge", "1/Charge", "Current", "1/Current"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Analyze the dimensional formulas of standard electromagnetic time constants: $\\frac{L}{R}$ has the dimension of Time ($T$), and $RC$ has the dimension of Time ($T$).<br><b>Step 2:</b> The given expression is $\\frac{L}{RCV}$. This can be rewritten as $\\frac{(L/R)}{CV}$.<br><b>Step 3:</b> The term $CV$ represents Charge ($Q$).<br><b>Step 4:</b> Substitute the dimensions: $\\frac{T}{Q}$.<br><b>Step 5:</b> Since Current $I = \\frac{Q}{T}$, the reciprocal $\\frac{T}{Q} = \\frac{1}{I}$. Thus, the dimensions are the same as 1/Current."
+            },
+            {
+                "id": "UM-TEST-110",
+                "topic": "PRINCIPLE OF HOMOGENEITY",
+                "difficulty": 3,
+                "tags": ["Dimensional Formulae", "Logarithmic Functions"],
+                "q": "Hydrostatic pressure 'P' varies with displacement '$x$' as $P=\\frac{A}{B}\\log(Bx^{2}+C)$ where A, B and C are constants. The dimensional formula for 'A' is:",
+                "options": ["$[M^{1}L^{-1}T^{-2}]$", "$[MLT^{-2}]$", "$[ML^{-2}T^{-2}]$", "$[ML^{-3}T^{-2}]$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The argument of a logarithmic function must be dimensionless. Therefore, $Bx^2$ is dimensionless.<br><b>Step 2:</b> $[B] \\times [L^2] = 1 \\implies [B] = [L^{-2}]$.<br><b>Step 3:</b> The logarithm itself is dimensionless, so the entire right side has the dimensions of $\\frac{A}{B}$.<br><b>Step 4:</b> By the principle of homogeneity, $[P] = \\frac{[A]}{[B]}$.<br><b>Step 5:</b> Pressure $P$ has dimensions $[ML^{-1}T^{-2}]$.<br><b>Step 6:</b> Solve for A: $[A] = [P] \\times [B] = [ML^{-1}T^{-2}] \\times [L^{-2}] = [ML^{-3}T^{-2}]$."
+            },
+            {
+                "id": "UM-TEST-111",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 3,
+                "tags": ["Unit Conversion", "Derived Units"],
+                "q": "The units of force, velocity and energy are 100 dyne, $10\\text{ cm s}^{-1}$ and 500 erg respectively. The units of mass, length and time are:",
+                "options": ["5 g, 5 cm, 5 s", "5 g, 5 cm, 0.5 s", "0.5 g, 5 cm, 5 s", "5 g, 0.5cm, 5 s"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Write the formulas connecting these quantities: $E = F \\times L$.<br><b>Step 2:</b> Solve for the unit of Length ($L$): $L = \\frac{E}{F} = \\frac{500}{100} = 5\\text{ cm}$.<br><b>Step 3:</b> Velocity is $v = \\frac{L}{T}$. Solve for the unit of Time ($T$): $T = \\frac{L}{v} = \\frac{5}{10} = 0.5\\text{ s}$.<br><b>Step 4:</b> Force is $F = \\frac{ML}{T^2}$. Solve for the unit of Mass ($M$): $M = \\frac{F \\times T^2}{L}$.<br><b>Step 5:</b> Substitute the values: $M = \\frac{100 \\times (0.5)^2}{5} = \\frac{100 \\times 0.25}{5} = \\frac{25}{5} = 5\\text{ g}$.<br><b>Step 6:</b> The units are 5 g, 5 cm, and 0.5 s."
+            },
+            {
+                "id": "UM-TEST-112",
+                "topic": "CONVERSION OF UNITS",
+                "difficulty": 2,
+                "tags": ["Gravitational Constant", "Unit Conversion"],
+                "q": "The ratio of SI unit to CGS unit of gravitational constant is:",
+                "options": ["$1:10^{3}$", "$10^{3}:1$", "1:1", "$1:10^{7}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The dimensional formula for the universal gravitational constant $G$ is $[M^{-1}L^3T^{-2}]$.<br><b>Step 2:</b> The SI unit is $\\text{kg}^{-1}\\cdot\\text{m}^3\\cdot\\text{s}^{-2}$, and the CGS unit is $\\text{g}^{-1}\\cdot\\text{cm}^3\\cdot\\text{s}^{-2}$.<br><b>Step 3:</b> Convert the SI unit to CGS: $1\\text{ kg} = 10^3\\text{ g}$ and $1\\text{ m} = 10^2\\text{ cm}$.<br><b>Step 4:</b> Substitute the conversions: $(10^3\\text{ g})^{-1} \\times (10^2\\text{ cm})^3 \\times (1\\text{ s})^{-2}$.<br><b>Step 5:</b> Simplify: $10^{-3} \\times 10^6 = 10^3\\text{ CGS units}$.<br><b>Step 6:</b> Since 1 SI unit = $10^3$ CGS units, the ratio is $10^3:1$."
+            },
+            {
+                "id": "UM-TEST-113",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Dimensional Analysis", "Oscillations"],
+                "q": "The frequency f of vibrations of a mass m suspended from a spring of spring constant k is given by $f=Cm^{x}K^{y}$, where C is a dimensionless constant. The values of x and y are, respectively:",
+                "options": ["$\\frac{1}{2},\\frac{1}{2}$", "$-\\frac{1}{2},-\\frac{1}{2}$", "$\\frac{1}{2},-\\frac{1}{2}$", "$-\\frac{1}{2},\\frac{1}{2}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Write the dimensional formulas: Frequency $f = [T^{-1}]$, Mass $m = [M]$, and Spring constant $K = \\text{Force/Length} = [MLT^{-2}]/[L] = [MT^{-2}]$.<br><b>Step 2:</b> Apply the principle of dimensional homogeneity: $[T^{-1}] = [M]^x [MT^{-2}]^y$.<br><b>Step 3:</b> Combine the right side: $[M^0L^0T^{-1}] = [M^{x+y} T^{-2y}]$.<br><b>Step 4:</b> Equate powers of T: $-2y = -1 \\implies y = 1/2$.<br><b>Step 5:</b> Equate powers of M: $x + y = 0 \\implies x = -y = -1/2$.<br><b>Step 6:</b> The values of x and y are $-1/2$ and $1/2$ respectively."
+            },
+            {
+                "id": "UM-TEST-114",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 3,
+                "tags": ["Dimensional Analysis", "Surface Tension"],
+                "q": "If the time period 'T' of a drop under surface tension 's' is given by $T=\\sqrt{d^{a}r^{b}s^{c}}$ where d is the density, r is the radius of the drop. If $a=1$, $c=-1$ then the value of b is:",
+                "options": ["1", "2", "3", "-1"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Square both sides to remove the root: $T^2 = d^a r^b s^c$. Given $a=1$ and $c=-1$, the equation is $T^2 = d \\cdot r^b \\cdot s^{-1}$.<br><b>Step 2:</b> Substitute the dimensional formulas: Time $T = [T]$, Density $d = [ML^{-3}]$, Radius $r = [L]$, Surface tension $s = [MT^{-2}]$.<br><b>Step 3:</b> $[T^2] = [ML^{-3}]^1 \\times [L]^b \\times [MT^{-2}]^{-1}$.<br><b>Step 4:</b> Expand the right side: $[T^2] = [ML^{-3}] \\times [L^b] \\times [M^{-1}T^2] = [M^0 L^{b-3} T^2]$.<br><b>Step 5:</b> Equate the powers of L: $b - 3 = 0 \\implies b = 3$."
+            },
+            {
+                "id": "UM-TEST-115",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 3,
+                "tags": ["Fundamental Quantities", "Young's Modulus"],
+                "q": "If the velocity (V), acceleration (A), and force (F) are taken as fundamental quantities instead of mass (M), length (L), and time (T), the dimensions of Young's modulus (Y) would be:",
+                "options": ["$FA^{2}V^{-4}$", "$FA^{2}V^{-5}$", "$FA^{2}V^{-3}$", "$FA^{2}V^{-2}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Young's Modulus $Y = \\text{Force/Area} = [ML^{-1}T^{-2}]$.<br><b>Step 2:</b> Let $Y = F^x A^y V^z$. We know $F = [MLT^{-2}]$, $A = [LT^{-2}]$, $V = [LT^{-1}]$.<br><b>Step 3:</b> $[ML^{-1}T^{-2}] = [MLT^{-2}]^x [LT^{-2}]^y [LT^{-1}]^z = [M^x L^{x+y+z} T^{-2x-2y-z}]$.<br><b>Step 4:</b> Equate M powers: $x = 1$.<br><b>Step 5:</b> Equate L powers: $x + y + z = -1 \\implies 1 + y + z = -1 \\implies y + z = -2$.<br><b>Step 6:</b> Equate T powers: $-2x - 2y - z = -2 \\implies -2(1) - 2y - z = -2 \\implies -2y - z = 0 \\implies z = -2y$.<br><b>Step 7:</b> Substitute $z$: $y + (-2y) = -2 \\implies -y = -2 \\implies y = 2$.<br><b>Step 8:</b> Find $z$: $z = -2(2) = -4$. The dimensional formula is $F^1 A^2 V^{-4}$."
+            },
+            {
+                "id": "UM-TEST-116",
+                "topic": "PRINCIPLE OF HOMOGENEITY",
+                "difficulty": 2,
+                "tags": ["Dimensional Constants", "Exponential Functions"],
+                "q": "The time dependence of a physical quantity P is given by $P=P_{0}e^{-\\alpha t^{2}}$, where $\\alpha$ is a constant and t is time. Then constant $\\alpha$:",
+                "options": ["is dimensionless", "has dimensions of $T^{-2}$", "has dimensions of P", "has dimensions of $T^{2}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> According to the rules of dimensional analysis, the exponent of an exponential function ($e^x$) must be a dimensionless quantity.<br><b>Step 2:</b> Therefore, the term $\\alpha t^2$ must be dimensionless: $[\\alpha t^2] = [M^0L^0T^0]$.<br><b>Step 3:</b> Since time $t$ has the dimension $[T]$, $t^2$ has the dimension $[T^2]$.<br><b>Step 4:</b> $[\\alpha] \\times [T^2] = 1 \\implies [\\alpha] = \\frac{1}{[T^2]} = [T^{-2}]$."
+            },
+            {
+                "id": "UM-TEST-117",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 3,
+                "tags": ["Dimensional Analysis", "Young's Modulus"],
+                "q": "The value of x in the formula $Y=\\frac{2mgl^{x}}{5bt^{3}e}$ where m is the mass, 'g' is acceleration due to gravity, l is the length, 'b' is the breadth, 't' is the thickness and e is the extension and Y is Young's Modulus, is:",
+                "options": ["3", "2", "1", "4"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The dimensional formula for Young's Modulus is $Y = [ML^{-1}T^{-2}]$.<br><b>Step 2:</b> Write the dimensions for the RHS variables: mass $m = [M]$, gravity $g = [LT^{-2}]$, length $l = [L]$, breadth $b = [L]$, thickness $t = [L]$, extension $e = [L]$. Constants 2 and 5 are dimensionless.<br><b>Step 3:</b> Substitute into the equation: $[ML^{-1}T^{-2}] = \\frac{[M] \\times [LT^{-2}] \\times [L]^x}{[L] \\times [L]^3 \\times [L]}$.<br><b>Step 4:</b> Simplify the RHS: $\\frac{[ML^{x+1}T^{-2}]}{[L^5]} = [ML^{x-4}T^{-2}]$.<br><b>Step 5:</b> Equate the powers of L from both sides: $-1 = x - 4$.<br><b>Step 6:</b> Solve for x: $x = 3$."
+            },
+            {
+                "id": "UM-TEST-118",
+                "topic": "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS",
+                "difficulty": 2,
+                "tags": ["Dimensional Formulae", "Sound Velocity"],
+                "q": "The velocity of sound in air (V) pressure (P) and density of air (d) are related as $V\\propto P^{x}d^{y}$. The values of x and y respectively are:",
+                "options": ["$1,\\frac{1}{2}$", "$-\\frac{1}{2},-\\frac{1}{2}$", "$\\frac{1}{2},\\frac{1}{2}$", "$\\frac{1}{2},-\\frac{1}{2}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Write the dimensional formulas for the quantities: Velocity $V = [LT^{-1}]$, Pressure $P = [ML^{-1}T^{-2}]$, Density $d = [ML^{-3}]$.<br><b>Step 2:</b> Substitute into the proportional relation: $[LT^{-1}] = [ML^{-1}T^{-2}]^x [ML^{-3}]^y$.<br><b>Step 3:</b> Expand the right side: $[M^0L^1T^{-1}] = [M^{x+y} L^{-x-3y} T^{-2x}]$.<br><b>Step 4:</b> Equate powers of T: $-2x = -1 \\implies x = 1/2$.<br><b>Step 5:</b> Equate powers of M: $x + y = 0 \\implies 1/2 + y = 0 \\implies y = -1/2$.<br><b>Step 6:</b> The values are $x = 1/2$ and $y = -1/2$."
             }
         ]
     }
