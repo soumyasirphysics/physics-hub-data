@@ -10891,7 +10891,7 @@
         {
           id: 7, topic: "Interference & YDSE",
           q: "Two coherent point sources \\( S_{1} \\) and \\( S_{2} \\) are separated by a small distance d as shown in the figure. The fringes obtained on the screen will be",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEh3VUnw4Pmlf8CCU1Uvw9T3FAR7KjFoaLPNDV1Z349VzPcyv6jJBO5XOwrWiK9cKtrK1rQgC4mXYMKDj3ZbFJQoGLPdlV1T90Pr8oww-Pixe05Thx2-4anvk7MY9otcgRNmcpBU_dCI3WWf4t8fKFGfm2noWvrNYfFJFy767asQQCGKd6Gg4bloxY9PrdhE",
           options: ["(1) semi-circles", "(2) concentric circles", "(3) points", "(4) straight lines"],
           correct: 1, 
           sol: "Path difference on circles around 'P' is same. So, the fringes obtained on the screen in the given condition will be concentric circles."
@@ -10969,7 +10969,7 @@
         {
           id: 18, topic: "Interference & YDSE",
           q: "Interference is observed due to two coherent sources A and B having zero phase difference separated by a distance \\( 4\\lambda \\) along the y-axis, where \\( \\lambda \\) is the wavelength of the source. A detector D is moved on the positive x-axis. The number of points on the x-axis excluding the points \\( x=0 \\) and \\( x=\\infty \\) at which maximum will be observed is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjN01_HXvxBPqfpCGSiHVU86Xbt_3ZKfaidOpI3k7G6S5z7BnuPecVXwOS4S0EYOguwiFgnflwAzYdB8tfJmdSbBnJQOCZSGlGcuE6p_I5I6-h8DNzklgfJBwB89I5UvaV0A8FBSxk4WtVP5S6h0F7I1Pu351plKRrLI2sWZSreEza9QEak7rZ53co7ITdR",
           options: ["(1) three", "(2) four", "(3) two", "(4) infinite"],
           correct: 0, 
           sol: "At \\( x=0 \\), the path difference is \\( 4\\lambda \\) (which is the fifth bright fringe including central). At \\( x=\\infty \\), the path difference is 0 (central bright fringe).<br>Therefore, between \\( x=0 \\) and \\( x=\\infty \\), the path differences will be \\( 3\\lambda, 2\\lambda, \\lambda \\). This gives 3 points of maxima."
@@ -10984,7 +10984,7 @@
         {
           id: 20, topic: "Diffraction",
           q: "The diffraction pattern of a single slit is shown in the figure. The point at which the path difference of the extreme rays is two times the wavelength is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEjyl0ME2kg0OaTheV6vA1P4-1CCbnV4y5o3LuF8sakMQbuFjPReftLB7EFf_GehaoAPZKZZTA8M3aknGmO2vQSE27BniaANSSJopuZuqK7zPDQZ2799izFkJIJNIMHKz5_Y0SOr0wzJ7SnFVx_6VR-G66ZxE96BffdMjn8gvySRUlBag-1PumRHR5eTc4CZ",
           options: ["(1) point 1", "(2) point 2", "(3) point 4", "(4) point 5"],
           correct: 3, 
           sol: "In diffraction of light at a single slit, for the \\( n^{th} \\) minima, the path difference is \\( n\\lambda \\). For path difference of \\( 2\\lambda \\), it corresponds to the 2nd minimum. Looking at the graph, point 5 denotes the 2nd minimum."
@@ -11091,7 +11091,7 @@
         {
           id: 35, topic: "Interference & YDSE",
           q: "Two coherent point sources \\( S_{1} \\) and \\( S_{2} \\) vibrating in phase emit light of wavelength \\( \\lambda \\). The separation between the sources is \\( 2\\lambda \\). The smallest distance from \\( S_{2} \\) on a line passing through \\( S_{2} \\) and perpendicular to \\( S_{1}S_{2} \\) where a minimum intensity occurs is",
-          imgUrl: "placeholder_image.jpg",
+          imgUrl: "https://blogger.googleusercontent.com/img/a/AVvXsEhdn1Of-AsvbRMJeqM5FWdHy4vKKZJqvqrmH33u4w47IUeXWykVTm5p7FCQOy7bTCMkCUt_x3bSDBrJH-kf-_oZ04qK3qBDrkukNMnDutdcANzgB7PcjLUjS-gUeNpU5dTcQyT0CbyTCuWAvsN3sHiJF3ytt-2XoBIPkT6SjG8Fyj2v_9IORVJ6dlMBXbY_",
           options: ["(1) \\( \\frac{7\\lambda}{12} \\)", "(2) \\( \\frac{15\\lambda}{4} \\)", "(3) \\( \\frac{\\lambda}{2} \\)", "(4) \\( \\frac{3\\lambda}{2} \\)"],
           correct: 0, 
           sol: "Path difference at P is \\( S_1P - S_2P \\). For minimum, path difference is \\( (n-0.5)\\lambda \\). Max path diff is \\( 2\\lambda \\) (at \\( S_2 \\)), so closest minimum is when path diff is \\( 1.5\\lambda \\).<br>\\( \\sqrt{4\\lambda^2 + x^2} - x = \\frac{3\\lambda}{2} \\).<br>Solving this gives \\( x = \\frac{7\\lambda}{12} \\)."
