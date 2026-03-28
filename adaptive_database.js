@@ -748,7 +748,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Field",
                 "difficulty": 2,
                 "tags": ["Equilibrium", "Mechanics and Electrostatics"],
-                "q": "A pendulum bob of mass m carrying a charge q is at rest in a uniform horizontal electric field of intensity E. The tension in the thread is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "A pendulum bob of mass m carrying a charge q is at rest in a uniform horizontal electric field of intensity E. The tension in the thread is:<br>",
                 "options": ["$\\sqrt{(Eq)^{2}+(mg)^{2}}$", "$\\sqrt{(\\frac{E}{q})^{2}+(\\frac{m}{g})^{2}}$", "$(Eq)^{2}+(mg)^{2}$", "$mg+Eq$"],
                 "correct": 0,
                 "sol": "<b>Step 1:</b> The pendulum bob is in equilibrium under the action of three forces: Tension ($T$) along the string, Weight ($mg$) acting vertically downward, and Electric force ($F_e = Eq$) acting horizontally.<br><b>Step 2:</b> The horizontal and vertical forces form a right-angled triangle with the tension acting as the balancing resultant force.<br><b>Step 3:</b> By vector addition (or Pythagorean theorem for perpendicular vectors), $T^2 = (F_e)^2 + (mg)^2$.<br><b>Step 4:</b> Therefore, $T = \\sqrt{(Eq)^2 + (mg)^2}$."
@@ -758,7 +758,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Potential and Potential Energy",
                 "difficulty": 2,
                 "tags": ["Superposition Principle", "Geometric Arrangement"],
-                "q": "Four charges $10^{-8}$ C, $-2\\times10^{-8}$ C, $+3\\times10^{-8}$ C and $2\\times10^{-8}$ C are placed at the four corners of a square of side 1m. The potential at the centre of the square is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "Four charges $10^{-8}$ C, $-2\\times10^{-8}$ C, $+3\\times10^{-8}$ C and $2\\times10^{-8}$ C are placed at the four corners of a square of side 1m. The potential at the centre of the square is:<br>",
                 "options": ["zero", "360 V", "180 V", "$360\\sqrt{2}$ V"],
                 "correct": 3,
                 "sol": "<b>Step 1:</b> Electric potential is a scalar quantity. The total potential at the center is the algebraic sum of the potentials from each corner.<br><b>Step 2:</b> The distance from the center to any corner of a square of side $a=1$m is half the diagonal: $r = \\frac{a}{\\sqrt{2}} = \\frac{1}{\\sqrt{2}}$ m.<br><b>Step 3:</b> $V_{net} = \\frac{1}{4\\pi\\epsilon_0 r} \\sum q = \\frac{k}{r} (q_1 + q_2 + q_3 + q_4)$.<br><b>Step 4:</b> $\\sum q = (1 - 2 + 3 + 2) \\times 10^{-8} = 4 \\times 10^{-8}$ C.<br><b>Step 5:</b> $V_{net} = \\frac{9\\times10^9}{1/\\sqrt{2}} \\times (4\\times10^{-8}) = 9\\times10^9 \\times \\sqrt{2} \\times 4\\times10^{-8} = 360\\sqrt{2}$ V."
@@ -768,7 +768,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Potential and Potential Energy",
                 "difficulty": 1,
                 "tags": ["Properties of Conductors", "Charge Sharing"],
-                "q": "Two metal spheres of radii $R_{1}$ and $R_{2}$ are charged to the same potential. The ratio of the charge on the two spheres is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "Two metal spheres of radii $R_{1}$ and $R_{2}$ are charged to the same potential. The ratio of the charge on the two spheres is:<br>",
                 "options": ["1", "1/2", "$R_{1}-R_{2}$", "$\\frac{R_{1}}{R_{2}}$"],
                 "correct": 3,
                 "sol": "<b>Step 1:</b> The potential on the surface of a charged conducting sphere is $V = \\frac{1}{4\\pi\\epsilon_0}\\frac{Q}{R}$.<br><b>Step 2:</b> We are given that $V_1 = V_2$.<br><b>Step 3:</b> Therefore, $\\frac{k Q_1}{R_1} = \\frac{k Q_2}{R_2}$.<br><b>Step 4:</b> Rearranging for the ratio of charges gives $\\frac{Q_1}{Q_2} = \\frac{R_1}{R_2}$."
@@ -778,7 +778,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Potential and Potential Energy",
                 "difficulty": 3,
                 "tags": ["Concentric Shells", "Superposition Principle"],
-                "q": "Two concentric, thin metallic spherical shells of radii $R_{1}$ and $R_{2}$ ($R_{1}>R_{2}$) bear charges $Q_{1}$ and $Q_{2}$ respectively. Then the potential at radius 'r' between $R_{1}$ and $R_{2}$ will be $\\frac{1}{4\\pi \\epsilon_{0}}$ times:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "Two concentric, thin metallic spherical shells of radii $R_{1}$ and $R_{2}$ ($R_{1}>R_{2}$) bear charges $Q_{1}$ and $Q_{2}$ respectively. Then the potential at radius 'r' between $R_{1}$ and $R_{2}$ will be $\\frac{1}{4\\pi \\epsilon_{0}}$ times:<br>",
                 "options": ["$\\frac{Q_{1}+Q_{2}}{r}$", "$\\frac{Q_{1}}{R_{1}}+\\frac{Q_{2}}{r}$", "$\\frac{Q_{1}}{R_{1}}+\\frac{Q_{2}}{R_{2}}$", "$\\frac{Q_{1}}{R_{2}}+\\frac{Q_{2}}{R_{2}}$"],
                 "correct": 1,
                 "sol": "<b>Step 1:</b> The total potential at a distance $r$ (where $R_2 < r < R_1$) is the sum of the potentials from both shells: $V = V_{\\text{inner}} + V_{\\text{outer}}$.<br><b>Step 2:</b> The point $r$ is outside the inner shell ($R_2$). The potential behaves as if all its charge $Q_2$ is at the center: $V_{\\text{inner}} = \\frac{1}{4\\pi\\epsilon_0}\\frac{Q_2}{r}$.<br><b>Step 3:</b> The point $r$ is inside the outer shell ($R_1$). The potential anywhere inside a conducting shell is equal to its surface potential: $V_{\\text{outer}} = \\frac{1}{4\\pi\\epsilon_0}\\frac{Q_1}{R_1}$.<br><b>Step 4:</b> Adding them gives $V = \\frac{1}{4\\pi\\epsilon_0} \\left( \\frac{Q_1}{R_1} + \\frac{Q_2}{r} \\right)$."
@@ -788,7 +788,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Potential and Potential Energy",
                 "difficulty": 2,
                 "tags": ["Equipotential Surface", "Coordinate Geometry"],
-                "q": "An electric charge $10^{-3}\\mu C$ is placed at the origin (0, 0) of X-Y coordinate system. Two points A and B are situated at $(\\sqrt{2},\\sqrt{2})$ and (2, 0) respectively. The potential difference between the points A and B will be:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "An electric charge $10^{-3}\\mu C$ is placed at the origin (0, 0) of X-Y coordinate system. Two points A and B are situated at $(\\sqrt{2},\\sqrt{2})$ and (2, 0) respectively. The potential difference between the points A and B will be:<br>",
                 "options": ["9 V", "zero", "2 V", "4.5 V"],
                 "correct": 1,
                 "sol": "<b>Step 1:</b> Find the distance of point A from the origin: $r_A = \\sqrt{(\\sqrt{2})^2 + (\\sqrt{2})^2} = \\sqrt{2 + 2} = \\sqrt{4} = 2$ units.<br><b>Step 2:</b> Find the distance of point B from the origin: $r_B = \\sqrt{2^2 + 0^2} = \\sqrt{4} = 2$ units.<br><b>Step 3:</b> Since $r_A = r_B$, both points lie on the same circular equipotential surface centered around the origin.<br><b>Step 4:</b> The potential depends only on the distance from the source charge ($V = k\\frac{q}{r}$). Therefore, $V_A = V_B$, and the potential difference is zero."
@@ -798,7 +798,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Potential and Potential Energy",
                 "difficulty": 2,
                 "tags": ["System Potential Energy", "Collinear Charges"],
-                "q": "A charge $-2\\mu C$ at the origin, $-1\\mu C$ at +7cm and $1\\mu C$ at -7cm are placed on x - axis. The mutual potential energy of the system is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "A charge $-2\\mu C$ at the origin, $-1\\mu C$ at +7cm and $1\\mu C$ at -7cm are placed on x - axis. The mutual potential energy of the system is:<br>",
                 "options": ["-0.051 J", "-0.045 J", "0.045 J", "-0.064 J"],
                 "correct": 3,
                 "sol": "<b>Step 1:</b> The mutual potential energy of a 3-charge system is $U = k \\left( \\frac{q_1 q_2}{r_{12}} + \\frac{q_1 q_3}{r_{13}} + \\frac{q_2 q_3}{r_{23}} \\right)$.<br><b>Step 2:</b> Let $q_1 = -2\\mu C$ (at $x=0$), $q_2 = -1\\mu C$ (at $x=0.07$), $q_3 = 1\\mu C$ (at $x=-0.07$).<br><b>Step 3:</b> Distances are $r_{12} = 0.07$ m, $r_{13} = 0.07$ m, and $r_{23} = 0.14$ m.<br><b>Step 4:</b> $U = 9\\times10^9 \\times 10^{-12} \\left( \\frac{(-2)(-1)}{0.07} + \\frac{(-2)(1)}{0.07} + \\frac{(-1)(1)}{0.14} \\right)$.<br><b>Step 5:</b> $U = 9\\times10^{-3} \\left( \\frac{2}{0.07} - \\frac{2}{0.07} - \\frac{1}{0.14} \\right) = 9\\times10^{-3} \\left( 0 - \\frac{1}{0.14} \\right) = -\\frac{0.009}{0.14} = -0.06428$ J."
@@ -808,7 +808,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Potential and Potential Energy",
                 "difficulty": 3,
                 "tags": ["Work Done", "Electric Potential"],
-                "q": "Four equal charges Q are placed at the four corners of a square of side 'a' each. Work done in removing a charge -Q from its centre to infinity is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "Four equal charges Q are placed at the four corners of a square of side 'a' each. Work done in removing a charge -Q from its centre to infinity is:<br>",
                 "options": ["zero", "$\\frac{\\sqrt{2}Q^{2}}{4\\pi\\epsilon_{0}a}$", "$\\frac{\\sqrt{2}Q^{2}}{\\pi\\epsilon_{0}a}$", "$\\frac{Q^{2}}{2\\pi\\epsilon_{0}a}$"],
                 "correct": 2,
                 "sol": "<b>Step 1:</b> The work done by an external agent is equal to the change in potential energy: $W = U_{\\text{final}} - U_{\\text{initial}}$.<br><b>Step 2:</b> At infinity, the potential energy $U_{\\text{final}} = 0$.<br><b>Step 3:</b> The initial potential energy of the -Q charge at the center is $U_{\\text{initial}} = (-Q)V_{\\text{center}}$.<br><b>Step 4:</b> The potential at the center due to the 4 corners is $V_{\\text{center}} = 4 \\times \\frac{1}{4\\pi\\epsilon_0} \\frac{Q}{a/\\sqrt{2}} = \\frac{4\\sqrt{2}Q}{4\\pi\\epsilon_0 a} = \\frac{\\sqrt{2}Q}{\\pi\\epsilon_0 a}$.<br><b>Step 5:</b> $U_{\\text{initial}} = -Q \\left( \\frac{\\sqrt{2}Q}{\\pi\\epsilon_0 a} \\right) = -\\frac{\\sqrt{2}Q^2}{\\pi\\epsilon_0 a}$.<br><b>Step 6:</b> $W = 0 - \\left( -\\frac{\\sqrt{2}Q^2}{\\pi\\epsilon_0 a} \\right) = \\frac{\\sqrt{2}Q^{2}}{\\pi\\epsilon_{0}a}$."
@@ -818,7 +818,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Field",
                 "difficulty": 2,
                 "tags": ["Potential Gradient", "Partial Derivatives"],
-                "q": "The electrostatic potential V at any point (x,y,z) in space is given by $V=4x^{2}$. Which of the following statements is true?<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "The electrostatic potential V at any point (x,y,z) in space is given by $V=4x^{2}$. Which of the following statements is true?<br>",
                 "options": ["The y and z components of the electrostatic field at any point are not zero", "The x-component of electric field intensity at any point is given by $(-8x\\hat{i})$", "The x-component of electric field intensity at a point (2, 0, 2) is $(-8\\hat{i})$", "The y and z components of the field are non-constant in magnitude"],
                 "correct": 1,
                 "sol": "<b>Step 1:</b> The electric field is the negative gradient of the potential: $\\vec{E} = -\\nabla V = -\\left( \\frac{\\partial V}{\\partial x}\\hat{i} + \\frac{\\partial V}{\\partial y}\\hat{j} + \\frac{\\partial V}{\\partial z}\\hat{k} \\right)$.<br><b>Step 2:</b> Evaluate the partial derivatives. $\\frac{\\partial V}{\\partial x} = \\frac{d}{dx}(4x^2) = 8x$.<br><b>Step 3:</b> Since $V$ does not depend on $y$ or $z$, $\\frac{\\partial V}{\\partial y} = 0$ and $\\frac{\\partial V}{\\partial z} = 0$.<br><b>Step 4:</b> Therefore, the electric field is $\\vec{E} = -8x\\hat{i}$. The x-component is $(-8x\\hat{i})$, making the second option correct."
@@ -828,7 +828,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Dipole",
                 "difficulty": 3,
                 "tags": ["Dipole Moment", "System Potential Energy"],
-                "q": "The self potential energy of hydrogen chloride whose dipole moment is $3.44\\times10^{-30}$ C-m and separation between hydrogen and chlorine atoms is $1.01\\times10^{-10}$ m is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "The self potential energy of hydrogen chloride whose dipole moment is $3.44\\times10^{-30}$ C-m and separation between hydrogen and chlorine atoms is $1.01\\times10^{-10}$ m is:<br><br>",
                 "options": ["$1.036\\times10^{-19}$ J", "$3.2\\times10^{5}$ J", "$4.5\\times10^{7}$ J", "$1.65\\times10^{6}$ J"],
                 "correct": 0,
                 "sol": "<b>Step 1:</b> The magnitude of the potential energy (work required to separate the dipole components) is $U = k\\frac{q^2}{r}$.<br><b>Step 2:</b> Find the charge $q$ using the dipole moment formula $p = q \\times r$.<br><b>Step 3:</b> $q = \\frac{p}{r} = \\frac{3.44\\times10^{-30}}{1.01\\times10^{-10}} \\approx 3.41\\times10^{-20}$ C.<br><b>Step 4:</b> Substitute $q$ into the energy equation: $U = (9\\times10^9) \\frac{(3.41\\times10^{-20})^2}{1.01\\times10^{-10}}$.<br><b>Step 5:</b> $U = \\frac{9\\times10^9 \\times 11.6\\times10^{-40}}{1.01\\times10^{-10}} = \\frac{104.4\\times10^{-31}}{1.01\\times10^{-10}} \\approx 1.036\\times10^{-19}$ J."
@@ -838,7 +838,7 @@ const adaptiveDatabase = {
                 "topic": "Coulomb's Law",
                 "difficulty": 3,
                 "tags": ["Equilibrium of Suspended Charges", "Tension"],
-                "q": "A ball of mass $m=0.5$ kg is suspended by a thread and a charge $q=0.1$ $\\mu\\text{C}$ is supplied. When a ball with diameter 5 cm and a like charge of same magnitude is brought close to the first ball, but below it, the tension decreases to $1/3$ of its initial value. The distance between centres of the balls is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "A ball of mass $m=0.5$ kg is suspended by a thread and a charge $q=0.1$ $\\mu\\text{C}$ is supplied. When a ball with diameter 5 cm and a like charge of same magnitude is brought close to the first ball, but below it, the tension decreases to $1/3$ of its initial value. The distance between centres of the balls is:<br>",
                 "options": ["$0.12\\times10^{-2}$ m", "$0.51\\times10^{-4}$ m", "$0.2\\times10^{-5}$ m", "$0.52\\times10^{-2}$ m"],
                 "correct": 3,
                 "sol": "<b>Step 1:</b> Initial tension $T_1 = mg = 0.5 \\times 9.8 = 4.9$ N.<br><b>Step 2:</b> New tension $T_2 = T_1 / 3 = 1.633$ N.<br><b>Step 3:</b> The decrease in tension is due to the upward electrostatic repulsive force: $F_e = T_1 - T_2 = 4.9 - 1.633 = 3.267$ N.<br><b>Step 4:</b> Use Coulomb's law $F_e = k \\frac{q^2}{r^2} \\implies 3.267 = 9 \\times 10^9 \\frac{(0.1 \\times 10^{-6})^2}{r^2}$.<br><b>Step 5:</b> $r^2 = \\frac{9 \\times 10^{-5}}{3.267} \\approx 27.5 \\times 10^{-6}$ m$^2 \\implies r \\approx 5.24 \\times 10^{-3}$ m $= 0.52 \\times 10^{-2}$ m."
@@ -848,7 +848,7 @@ const adaptiveDatabase = {
                 "topic": "Coulomb's Law",
                 "difficulty": 2,
                 "tags": ["Superposition Principle", "Symmetry"],
-                "q": "Five point charges each +q, are placed on five vertices of a regular hexagon of side L. The magnitude of the force on a point charge of value -q placed at the centre of the hexagon (in newton) is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "Five point charges each +q, are placed on five vertices of a regular hexagon of side L. The magnitude of the force on a point charge of value -q placed at the centre of the hexagon (in newton) is:<br>",
                 "options": ["Zero", "$\\frac{\\sqrt{3}q^{2}}{4\\pi\\epsilon_{0}L^{2}}$", "$\\frac{q^{2}}{4\\pi\\epsilon_{0}L^{2}}$", "$\\frac{q^{2}}{4\\sqrt{3}\\pi\\epsilon_{0}L^{2}}$"],
                 "correct": 2,
                 "sol": "<b>Step 1:</b> If all six vertices had +q charges, the net force on a charge at the center would be exactly zero due to symmetry.<br><b>Step 2:</b> Having five +q charges is equivalent to having all six +q charges plus a single -q charge at the missing vertex.<br><b>Step 3:</b> The center is at a distance L from all vertices.<br><b>Step 4:</b> The net force is solely due to the equivalent single uncancelled charge, so $F = \\frac{1}{4\\pi\\epsilon_{0}}\\frac{q^{2}}{L^{2}}$."
@@ -858,7 +858,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Field",
                 "difficulty": 3,
                 "tags": ["Oscillation of Charge", "Restoring Force"],
-                "q": "Two equal negative charges -q each are fixed at points (0, -a) and (0,a) on y-axis. A positive charge Q is released from rest at the point (2a, 0) on the x-axis. The charge Q will:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "Two equal negative charges -q each are fixed at points (0, -a) and (0,a) on y-axis. A positive charge Q is released from rest at the point (2a, 0) on the x-axis. The charge Q will:-",
                 "options": ["execute simple harmonic motion about the origin", "move to the origin and remain at rest", "move to infinity", "execute oscillatory but not simple harmonic motion"],
                 "correct": 3,
                 "sol": "<b>Step 1:</b> The force on the positive charge Q is always directed towards the origin along the x-axis. As it crosses the origin, its inertia carries it to the negative x-axis, and the force reverses, causing oscillation.<br><b>Step 2:</b> The magnitude of the restoring force is $F = \\frac{2kQqx}{(a^2 + x^2)^{3/2}}$.<br><b>Step 3:</b> For Simple Harmonic Motion (SHM), $F$ must be strictly proportional to $x$, which is only mathematically true if the displacement is very small ($x \\ll a$).<br><b>Step 4:</b> Since Q is released from a large distance $x = 2a$, this condition is not met. Therefore, it will execute oscillatory motion, but not SHM."
@@ -868,7 +868,7 @@ const adaptiveDatabase = {
                 "topic": "Coulomb's Law",
                 "difficulty": 3,
                 "tags": ["Dielectrics", "Electric Force"],
-                "q": "The force of attraction between two charges separated by certain distance in air is $F_{1}$. If the space between the charges is completely filled with dielectric of constant 4 the force becomes $F_{2}$. If half of the distance between the charges is filled with same dielectric the force between the charges is $F_{3}$. Then $F_{1}:F_{2}:F_{3}$ is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "The force of attraction between two charges separated by certain distance in air is $F_{1}$. If the space between the charges is completely filled with dielectric of constant 4 the force becomes $F_{2}$. If half of the distance between the charges is filled with same dielectric the force between the charges is $F_{3}$. Then $F_{1}:F_{2}:F_{3}$ is:",
                 "options": ["16:9:4", "9:36:16", "4:1:2", "36:9:16"],
                 "correct": 3,
                 "sol": "<b>Step 1:</b> Force in air is $F_1 = k\\frac{q_1q_2}{d^2}$.<br><b>Step 2:</b> Force in full dielectric is $F_2 = \\frac{F_1}{K} = \\frac{F_1}{4}$. Thus, $F_1:F_2 = 4:1$.<br><b>Step 3:</b> For a partial dielectric, the equivalent effective distance in air is $d' = d_{air} + d_{medium}\\sqrt{K} = \\frac{d}{2} + \\frac{d}{2}\\sqrt{4} = \\frac{d}{2} + d = \\frac{3d}{2}$.<br><b>Step 4:</b> The new force is $F_3 = k\\frac{q_1q_2}{(3d/2)^2} = \\frac{4}{9} k\\frac{q_1q_2}{d^2} = \\frac{4}{9}F_1$.<br><b>Step 5:</b> Combining the ratios gives $F_1 : F_1/4 : 4F_1/9$. Multiply by 36 to clear fractions: $36 : 9 : 16$."
@@ -878,7 +878,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Field",
                 "difficulty": 3,
                 "tags": ["Pendulum in Electric Field", "Time Period"],
-                "q": "A bob of a simple pendulum of mass 40gm with a positive charge $4\\times10^{-6}$ C is oscillating with a time period $T_{1}$. An electric field of intensity $3.6\\times10^{4}$ N/C is applied vertically upwards. Now the time period is $T_{2}$. The value of $\\frac{T_{2}}{T_{1}}$ is $(g=10\\text{m/s}^{2})$:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "A bob of a simple pendulum of mass 40gm with a positive charge $4\\times10^{-6}$ C is oscillating with a time period $T_{1}$. An electric field of intensity $3.6\\times10^{4}$ N/C is applied vertically upwards. Now the time period is $T_{2}$. The value of $\\frac{T_{2}}{T_{1}}$ is $(g=10\\text{m/s}^{2})$:-",
                 "options": ["0.16", "0.64", "1.25", "0.8"],
                 "correct": 2,
                 "sol": "<b>Step 1:</b> Initial time period $T_1 = 2\\pi\\sqrt{\\frac{L}{g}}$.<br><b>Step 2:</b> The electric force acts upwards: $F_e = qE = 4\\times10^{-6} \\times 3.6\\times10^4 = 0.144$ N.<br><b>Step 3:</b> The upward acceleration provided by the field is $a_e = \\frac{F_e}{m} = \\frac{0.144}{0.04} = 3.6$ m/s$^2$.<br><b>Step 4:</b> The effective gravity pulling the bob down is reduced: $g' = g - a_e = 10 - 3.6 = 6.4$ m/s$^2$.<br><b>Step 5:</b> Ratio $\\frac{T_2}{T_1} = \\sqrt{\\frac{g}{g'}} = \\sqrt{\\frac{10}{6.4}} = \\sqrt{\\frac{100}{64}} = \\frac{10}{8} = 1.25$."
@@ -888,7 +888,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Field",
                 "difficulty": 1,
                 "tags": ["Work and Energy", "Kinematics of Particles"],
-                "q": "A particle of mass m and charge q is placed at rest in a uniform electric field E and then released. The kinetic energy attained by the particle after moving a distance y is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "A particle of mass m and charge q is placed at rest in a uniform electric field E and then released. The kinetic energy attained by the particle after moving a distance y is:-",
                 "options": ["$qEy^{2}$", "$qE^{2}y$", "$qEy$", "$q^{2}Ey$"],
                 "correct": 2,
                 "sol": "<b>Step 1:</b> The electrostatic force acting on the particle is $F = qE$.<br><b>Step 2:</b> By the work-energy theorem, the kinetic energy attained from rest is equal to the work done by the field.<br><b>Step 3:</b> Work $W = F \\times \\text{displacement} = (qE) \\times y$.<br><b>Step 4:</b> Therefore, Kinetic Energy $= qEy$."
@@ -898,7 +898,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Field",
                 "difficulty": 3,
                 "tags": ["Equilibrium on Incline", "Friction"],
-                "q": "A particle of mass 1kg and carrying 0.01C is at rest on an inclined plane of angle $30^{\\circ}$ with horizontal when an electric field of $\\frac{490}{\\sqrt{3}}$ NC$^{-1}$ is applied parallel to horizontal. The coefficient of friction is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "A particle of mass 1kg and carrying 0.01C is at rest on an inclined plane of angle $30^{\\circ}$ with horizontal when an electric field of $\\frac{490}{\\sqrt{3}}$ NC$^{-1}$ is applied parallel to horizontal. The coefficient of friction is:-",
                 "options": ["0.5", "$\\frac{1}{\\sqrt{3}}$", "$\\frac{\\sqrt{3}}{2}$", "$\\frac{\\sqrt{3}}{7}$"],
                 "correct": 3,
                 "sol": "<b>Step 1:</b> Resolve forces along the incline. Downward weight component $= mg\\sin 30^{\\circ} = 1 \\times 9.8 \\times 0.5 = 4.9$ N.<br><b>Step 2:</b> Upward electrostatic component $= qE\\cos 30^{\\circ} = (0.01 \\times \\frac{490}{\\sqrt{3}}) \\times \\frac{\\sqrt{3}}{2} = 2.45$ N.<br><b>Step 3:</b> Net sliding force is $4.9 - 2.45 = 2.45$ N down the incline. Static friction $f$ must balance this.<br><b>Step 4:</b> Normal reaction $N = mg\\cos 30^{\\circ} + qE\\sin 30^{\\circ} = (9.8 \\times \\frac{\\sqrt{3}}{2}) + (\\frac{4.9}{\\sqrt{3}} \\times 0.5) = 4.9\\sqrt{3} + \\frac{2.45}{\\sqrt{3}} = \\frac{17.15}{\\sqrt{3}}$ N.<br><b>Step 5:</b> For limiting equilibrium, coefficient of friction $\\mu = \\frac{f}{N} = \\frac{2.45}{17.15/\\sqrt{3}} = \\frac{2.45\\sqrt{3}}{17.15} = \\frac{\\sqrt{3}}{7}$."
@@ -908,7 +908,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Field",
                 "difficulty": 2,
                 "tags": ["Equilibrium", "Friction"],
-                "q": "A sphere carrying charge 0.01 C is kept at rest without falling down, touching a vertical wall by applying a horizontal electric field 100 N/C. If the coefficient of friction between the sphere and the wall is 0.2, the weight of the sphere is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "A sphere carrying charge 0.01 C is kept at rest without falling down, touching a vertical wall by applying a horizontal electric field 100 N/C. If the coefficient of friction between the sphere and the wall is 0.2, the weight of the sphere is:-",
                 "options": ["4 N", "2 N", "20 N", "0.2 N"],
                 "correct": 3,
                 "sol": "<b>Step 1:</b> The horizontal electric force pushes the sphere against the wall, providing the normal reaction: $N = qE = 0.01 \\times 100 = 1$ N.<br><b>Step 2:</b> The maximum static frictional force pointing vertically upwards is $f = \\mu N = 0.2 \\times 1 = 0.2$ N.<br><b>Step 3:</b> For the sphere to remain suspended at rest, its downward weight must be perfectly balanced by this upward frictional force.<br><b>Step 4:</b> Therefore, Weight $= f = 0.2$ N."
@@ -918,7 +918,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Potential and Potential Energy",
                 "difficulty": 3,
                 "tags": ["Concentric Shells", "Potential Difference"],
-                "q": "A solid conducting sphere having a charge Q is surrounded by an uncharged concentric conducting spherical shell. The potential difference between the surface of solid sphere and the shell is V. The shell is now given a charge -3Q. The new potential difference between the same surfaces will be:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "A solid conducting sphere having a charge Q is surrounded by an uncharged concentric conducting spherical shell. The potential difference between the surface of solid sphere and the shell is V. The shell is now given a charge -3Q. The new potential difference between the same surfaces will be:-",
                 "options": ["2V", "4V", "V", "2V"],
                 "correct": 2,
                 "sol": "<b>Step 1:</b> The potential of the inner solid sphere is $V_{in} = \\frac{kQ}{r_{in}} + \\frac{kQ_{shell}}{r_{out}}$.<br><b>Step 2:</b> The potential of the outer shell is $V_{out} = \\frac{kQ}{r_{out}} + \\frac{kQ_{shell}}{r_{out}}$.<br><b>Step 3:</b> The potential difference is $\\Delta V = V_{in} - V_{out} = kQ\\left(\\frac{1}{r_{in}} - \\frac{1}{r_{out}}\\right)$.<br><b>Step 4:</b> Notice that the charge on the outer shell ($Q_{shell}$) mathematically cancels out in the difference equation. Therefore, adding -3Q to the outer shell does not change the potential difference. It remains V."
@@ -928,7 +928,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Potential and Potential Energy",
                 "difficulty": 3,
                 "tags": ["Conservation of Energy", "Kinematics of Particles"],
-                "q": "An electron travelling from infinity with velocity 'v' into an electric field due to two stationary electrons separated by a distance of 2m. If it comes to rest when it reaches the mid point of the line joining the stationary electrons. The initial velocity 'v' of the electron is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "An electron travelling from infinity with velocity 'v' into an electric field due to two stationary electrons separated by a distance of 2m. If it comes to rest when it reaches the mid point of the line joining the stationary electrons. The initial velocity 'v' of the electron is:",
                 "options": ["$16$ m/s", "$32$ m/s", "$16\\sqrt{2}$ m/s", "$32\\sqrt{2}$ m/s"],
                 "correct": 1,
                 "sol": "<b>Step 1:</b> The midpoint is 1m from each stationary electron. The electrostatic potential at the midpoint is $V = \\frac{k(-e)}{1} + \\frac{k(-e)}{1} = -2ke$.<br><b>Step 2:</b> The potential energy of the incoming electron (-e) exactly at the midpoint is $U = qV = (-e)(-2ke) = 2ke^2$.<br><b>Step 3:</b> Apply conservation of energy: Initial K.E. = Final P.E. $\\implies \\frac{1}{2}mv^2 = 2ke^2$.<br><b>Step 4:</b> Solve for velocity squared: $v^2 = \\frac{4ke^2}{m} = \\frac{4 \\times 9\\times10^9 \\times (1.6\\times10^{-19})^2}{9.1\\times10^{-31}} = \\frac{36 \\times 2.56 \\times 10^{-29}}{9.1\\times10^{-31}} \\approx 1012$.<br><b>Step 5:</b> $v = \\sqrt{1012} \\approx 31.8$ m/s, which is closest to $32$ m/s."
@@ -938,7 +938,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Field",
                 "difficulty": 3,
                 "tags": ["Potential Gradient", "Differentiation"],
-                "q": "The electric potential at a point (x, 0, 0) is given by $V=\\left[\\frac{1000}{x}+\\frac{1500}{x^{2}}+\\frac{500}{x^{3}}\\right]$, then the electric field at x = 1 m is (in volt/m):<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "The electric potential at a point (x, 0, 0) is given by $V=\\left[\\frac{1000}{x}+\\frac{1500}{x^{2}}+\\frac{500}{x^{3}}\\right]$, then the electric field at x = 1 m is (in volt/m):",
                 "options": ["$-5500$", "$5500$", "$\\sqrt{5500}\\hat{i}$", "zero"],
                 "correct": 1,
                 "sol": "<b>Step 1:</b> The electric field is the negative gradient of potential: $E_x = -\\frac{dV}{dx}$.<br><b>Step 2:</b> Differentiate the given potential function: $\\frac{dV}{dx} = -\\frac{1000}{x^2} - \\frac{3000}{x^3} - \\frac{1500}{x^4}$.<br><b>Step 3:</b> Evaluate the derivative at $x = 1$ m: $\\frac{dV}{dx} = -1000 - 3000 - 1500 = -5500$.<br><b>Step 4:</b> Calculate the field magnitude: $E_x = -(-5500) = 5500$ V/m."
@@ -948,7 +948,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Dipole",
                 "difficulty": 3,
                 "tags": ["General Point Field", "Vectors"],
-                "q": "A small electric dipole is placed at origin with its dipole moment directed along positive x-axis. The direction of electric field at point $(2,2\\sqrt{2},0)$ is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "A small electric dipole is placed at origin with its dipole moment directed along positive x-axis. The direction of electric field at point $(2,2\\sqrt{2},0)$ is:",
                 "options": ["along z-axis", "along y-axis", "along negative y-axis", "along negative z-axis"],
                 "correct": 1,
                 "sol": "<b>Step 1:</b> The position vector of the point is $\\vec{r} = 2\\hat{i} + 2\\sqrt{2}\\hat{j}$. The distance squared is $r^2 = 2^2 + (2\\sqrt{2})^2 = 4 + 8 = 12$.<br><b>Step 2:</b> The dipole moment is along the x-axis: $\\vec{p} = p\\hat{i}$.<br><b>Step 3:</b> The general electric field formula is $\\vec{E} = \\frac{k}{r^3} [3(\\vec{p} \\cdot \\hat{r})\\hat{r} - \\vec{p}]$.<br><b>Step 4:</b> Calculate the dot product: $\\vec{p} \\cdot \\vec{r} = (p\\hat{i}) \\cdot (2\\hat{i} + 2\\sqrt{2}\\hat{j}) = 2p$.<br><b>Step 5:</b> Substitute into the proportional field equation: $\\vec{E} \\propto 3\\frac{2p}{12}(2\\hat{i} + 2\\sqrt{2}\\hat{j}) - p\\hat{i} = \\frac{p}{2}(2\\hat{i} + 2\\sqrt{2}\\hat{j}) - p\\hat{i} = p\\hat{i} + p\\sqrt{2}\\hat{j} - p\\hat{i} = p\\sqrt{2}\\hat{j}$.<br><b>Step 6:</b> The resultant vector is purely in the positive $\\hat{j}$ direction, which means it points precisely along the y-axis."
@@ -958,7 +958,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Dipole",
                 "difficulty": 2,
                 "tags": ["Work Done", "Torque"],
-                "q": "Two charges $+3.2\\times10^{-19}$ C and $-3.2\\times10^{-19}$ C placed $2.4 \\text{ \\AA}$ apart form an electric dipole. It is placed in a uniform electric field of intensity $4\\times10^{5}$ V/m. The work done to rotate the electric dipole from the equilibrium position by $180^{\\circ}$ is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "Two charges $+3.2\\times10^{-19}$ C and $-3.2\\times10^{-19}$ C placed $2.4 \\text{ \\AA}$ apart form an electric dipole. It is placed in a uniform electric field of intensity $4\\times10^{5}$ V/m. The work done to rotate the electric dipole from the equilibrium position by $180^{\\circ}$ is:",
                 "options": ["$3\\times10^{-23}$ J", "$6\\times10^{-23}$ J", "$12\\times10^{-23}$ J", "Zero"],
                 "correct": 1,
                 "sol": "<b>Step 1:</b> Calculate the dipole moment $p = q \\times d = 3.2\\times10^{-19} \\times 2.4\\times10^{-10} = 7.68\\times10^{-29}$ C$\\cdot$m.<br><b>Step 2:</b> The work done to rotate a dipole from stable equilibrium ($0^{\\circ}$) to $180^{\\circ}$ is $W = pE(1 - \\cos 180^{\\circ}) = 2pE$.<br><b>Step 3:</b> Substitute the known values: $W = 2 \\times 7.68\\times10^{-29} \\times 4\\times10^5 = 61.44\\times10^{-24}$ J.<br><b>Step 4:</b> Converting to proper scientific notation gives $6.144\\times10^{-23}$ J, which matches approximately with option $6\\times10^{-23}$ J."
@@ -968,7 +968,7 @@ const adaptiveDatabase = {
                 "topic": "Electric Dipole",
                 "difficulty": 3,
                 "tags": ["SHM of Dipole", "Time Period"],
-                "q": "An electric dipole is made up of two particles having charges $+1\\mu\\text{C}$ mass 1 kg and other with charge $-1\\mu\\text{C}$ and mass 1 kg separated by distance 1m. It is in equilibrium in a uniform electric field of $20\\times10^{3}$ V/m. If the dipole is deflected through angle $2^{\\circ}$, time taken by it to come again in equilibrium is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "An electric dipole is made up of two particles having charges $+1\\mu\\text{C}$ mass 1 kg and other with charge $-1\\mu\\text{C}$ and mass 1 kg separated by distance 1m. It is in equilibrium in a uniform electric field of $20\\times10^{3}$ V/m. If the dipole is deflected through angle $2^{\\circ}$, time taken by it to come again in equilibrium is:",
                 "options": ["$2.5\\pi$ s", "$2.5$ s", "$5\\pi$ s", "$4\\pi$ s"],
                 "correct": 0,
                 "sol": "<b>Step 1:</b> A dipole displaced by a small angle executes SHM with a time period of $T = 2\\pi\\sqrt{\\frac{I}{pE}}$.<br><b>Step 2:</b> Calculate the moment of inertia about its center: $I = m_1\\left(\\frac{d}{2}\\right)^2 + m_2\\left(\\frac{d}{2}\\right)^2 = 1(0.5)^2 + 1(0.5)^2 = 0.25 + 0.25 = 0.5$ kg$\\cdot$m$^2$.<br><b>Step 3:</b> Calculate dipole moment: $p = q \\times d = 10^{-6} \\times 1 = 10^{-6}$ C$\\cdot$m.<br><b>Step 4:</b> Find the full time period: $T = 2\\pi\\sqrt{\\frac{0.5}{10^{-6} \\times 20\\times10^3}} = 2\\pi\\sqrt{\\frac{0.5}{0.02}} = 2\\pi\\sqrt{25} = 10\\pi$ s.<br><b>Step 5:</b> The time taken to \"come again in equilibrium\" from its extreme released position is exactly one-fourth of the total period: $t = \\frac{T}{4} = \\frac{10\\pi}{4} = 2.5\\pi$ s."
@@ -979,7 +979,7 @@ const adaptiveDatabase = {
                 "difficulty": 3,
                 "tags": ["Equipotential Surface", "Potential Gradient", "2D Geometry"],
                 "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiEDDv8KqFTdf4uJVcczeVclFbMYgaTdLCqxzm1sGNzqSRbhQrizReyXPuwDG0CQ6igOtclrN8xTIhNh2FHca_sP4TFkxWyTDTSWTK0SKakLH6TdxLwmK1AcE4-xYbBGcmcSTFGAQkhLyxJhkfzVVl0ZELLcmcLb42skLk5nUOqxZb4s6ePhVmotUe6ap_2",
-                "q": "Some equipotential surfaces are shown in figure. The electric field strength is:<br><br><i>Prepared by Soumya Sir</i>",
+                "q": "Some equipotential surfaces are shown in figure. The electric field strength is:",
                 "options": ["100 V/m along x-axis", "100 V/m along y-axis", "400 V/m at an angle 120&ordm; with x-axis", "$\\frac{400}{\\sqrt{3}}$ V/m at an angle 120&ordm; with x-axis"],
                 "correct": 2,
                 "sol": "<b>Step 1:</b> The electric field $\\vec{E}$ is always perpendicular to equipotential surfaces and points in the direction of decreasing potential (from 30V towards 10V).<br><b>Step 2:</b> Find the perpendicular distance ($\\Delta r$) between two adjacent surfaces, such as the 10V and 20V lines. The distance along the x-axis is $\\Delta x = 10\\text{ cm} - 5\\text{ cm} = 5\\text{ cm} = 0.05\\text{ m}$.<br><b>Step 3:</b> From the right-angled triangle formed by $\\Delta x$ and the perpendicular distance, $\\Delta r = \\Delta x \\sin(30^{\\circ})$.<br><b>Step 4:</b> $\\Delta r = 0.05 \\times 0.5 = 0.025\\text{ m}$.<br><b>Step 5:</b> Calculate the magnitude of the electric field: $E = \\frac{|\\Delta V|}{\\Delta r} = \\frac{20 - 10}{0.025} = \\frac{10}{0.025} = 400\\text{ V/m}$.<br><b>Step 6:</b> The equipotential lines are tilted at $30^{\\circ}$ to the x-axis. The perpendicular direction pointing towards the lower potential (leftwards and upwards) makes an angle of $30^{\\circ} + 90^{\\circ} = 120^{\\circ}$ with the positive x-axis."
