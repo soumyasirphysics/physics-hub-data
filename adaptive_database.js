@@ -4165,5 +4165,1663 @@ const adaptiveDatabase = {
                 "sol": "<b>Step 1:</b> Establish a sign convention. Let the direction of the jet airplane be positive. Velocity of the jet relative to ground $\\vec{v}_j = +500\\text{ km/h}$.<br><b>Step 2:</b> The exhaust gas is ejected backwards. So, the velocity of the exhaust gas relative to the jet is $\\vec{v}_{ej} = -1500\\text{ km/h}$.<br><b>Step 3:</b> We need the velocity of the exhaust gas relative to the ground ($\\vec{v}_e$). Use the relative velocity formula: $\\vec{v}_{ej} = \\vec{v}_e - \\vec{v}_j$.<br><b>Step 4:</b> Rearrange to solve for $\\vec{v}_e$: $\\vec{v}_e = \\vec{v}_{ej} + \\vec{v}_j$.<br><b>Step 5:</b> Substitute the values: $\\vec{v}_e = -1500 + 500 = -1000\\text{ km/h}$."
             }
         ]
+    },
+    "Motion in a Plane": {
+        "classTarget": "Class 11",
+        "topics": ["Addition and Resolution of Vectors", "Relative Velocity in 2D", "Projectile Motion", "Circular Motion"],
+        "questions": [
+            {
+                "id": "MIP-TEST-001",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Addition", "Concurrent Forces"],
+                "q": "The maximum resultant of two concurrent forces is 10N and their minimum resultant is 4N. The magnitude of large force is:",
+                "options": ["5N", "7N", "3N", "14N"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The maximum resultant occurs when forces are parallel: $F_1 + F_2 = 10$.<br><b>Step 2:</b> The minimum resultant occurs when forces are anti-parallel: $F_1 - F_2 = 4$.<br><b>Step 3:</b> Adding the two equations: $2F_1 = 14 \\implies F_1 = 7$N.<br><b>Step 4:</b> Substituting back gives $F_2 = 3$N. The larger force is 7N."
+            },
+            {
+                "id": "MIP-TEST-002",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Vector Addition", "Orthogonal Resultant"],
+                "q": "The resultant of two vectors of magnitudes 3 units and 5 units is perpendicular to 3 units. The angle between the vectors is:",
+                "options": ["$127^{\\circ}$", "$120^{\\circ}$", "$75^{\\circ}$", "$150^{\\circ}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Let $\\vec{A}$ have magnitude 3 and $\\vec{B}$ have magnitude 5. The resultant is perpendicular to $\\vec{A}$, meaning $\\alpha = 90^{\\circ}$.<br><b>Step 2:</b> Use the formula for the direction of the resultant: $\\tan \\alpha = \\frac{B \\sin \\theta}{A + B \\cos \\theta}$.<br><b>Step 3:</b> $\\tan 90^{\\circ} = \\infty$, which implies the denominator must be zero: $3 + 5 \\cos \\theta = 0$.<br><b>Step 4:</b> $\\cos \\theta = -\\frac{3}{5}$.<br><b>Step 5:</b> We know $\\cos(180^{\\circ} - 53^{\\circ}) = -\\cos 53^{\\circ} = -\\frac{3}{5}$. Therefore, $\\theta = 127^{\\circ}$."
+            },
+            {
+                "id": "MIP-TEST-003",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Unit Vectors", "Vector Subtraction"],
+                "q": "The sum of two unit vectors is also a vector of unit magnitude, then the magnitude of the difference of the two unit vectors is:",
+                "options": ["1 unit", "2 units", "$\\sqrt{3}$ units", "zero"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> We are given $|\\hat{a} + \\hat{b}| = 1$. Square both sides: $|\\hat{a}|^2 + |\\hat{b}|^2 + 2|\\hat{a}||\\hat{b}|\\cos\\theta = 1^2$.<br><b>Step 2:</b> Since they are unit vectors, $1 + 1 + 2(1)(1)\\cos\\theta = 1 \\implies 2 + 2\\cos\\theta = 1 \\implies \\cos\\theta = -\\frac{1}{2}$.<br><b>Step 3:</b> Now, find the magnitude of their difference: $|\\hat{a} - \\hat{b}| = \\sqrt{|\\hat{a}|^2 + |\\hat{b}|^2 - 2|\\hat{a}||\\hat{b}|\\cos\\theta}$.<br><b>Step 4:</b> Substitute the values: $\\sqrt{1 + 1 - 2(1)(1)(-\\frac{1}{2})} = \\sqrt{2 + 1} = \\sqrt{3}$ units."
+            },
+            {
+                "id": "MIP-TEST-004",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Equilibrium", "Triangle Law"],
+                "q": "Which of the following sets of forces acting simultaneously on a particle keep it in equilibrium?",
+                "options": ["3N, 5N, 10N", "4N, 5N, 12N", "2N, 6N, 5N", "5N, 8N, 1N"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> For three concurrent forces to keep a particle in equilibrium, they must be able to form a closed triangle.<br><b>Step 2:</b> According to the triangle inequality theorem, the sum of the magnitudes of any two forces must be greater than or equal to the magnitude of the third force.<br><b>Step 3:</b> Check option 3: $2 + 5 = 7$, and $7 > 6$. This is the only set that satisfies the condition."
+            },
+            {
+        "id": "MIP-TEST-005",
+        "topic": "Addition and Resolution of Vectors",
+        "difficulty": 2,
+        "tags": ["Vector Addition", "Cosine Rule"],
+        "q": "Two vectors inclined at an angle $\\theta$ have magnitude 3 N and 5 N and their resultant is of magnitude 4 N. The angle $\\theta$ is:",
+        "options": ["$90^{\\circ}$", "$\\cos^{-1}(\\frac{4}{5})$", "$\\cos^{-1}(\\frac{3}{5})$", "$\\cos^{-1}(-\\frac{3}{5})$"],
+        "correct": 3,
+        "sol": "<b>Step 1:</b> Use the magnitude of resultant formula: $R^2 = A^2 + B^2 + 2AB\\cos \\theta$.<br><b>Step 2:</b> Substitute the given magnitudes: $4^2 = 3^2 + 5^2 + 2(3)(5)\\cos \\theta$.<br><b>Step 3:</b> $16 = 9 + 25 + 30\\cos \\theta \\implies 16 = 34 + 30\\cos \\theta$.<br><b>Step 4:</b> $-18 = 30\\cos \\theta \\implies \\cos \\theta = -\\frac{18}{30} = -\\frac{3}{5}$.<br><b>Step 5:</b> Therefore, $\\theta = \\cos^{-1}(-\\frac{3}{5})$."
+    },
+            {
+                "id": "MIP-TEST-006",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Polygon Law", "3D Vectors"],
+                "q": "The plane which can be formed with the vectors $\\vec{a}=3\\hat{i}-4\\hat{j}+2\\hat{k}$, $\\vec{b}=2\\hat{i}-\\hat{j}-6\\hat{k}$, and $\\vec{c}=5\\hat{i}-5\\hat{j}-4\\hat{k}$ is:",
+                "options": ["Quadrilateral", "Triangle", "Circle", "Hyperbola"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> For three vectors to form a closed triangle, the sum of any two vectors must equal the third vector (or their total vector sum is zero).<br><b>Step 2:</b> Let's check the sum of $\\vec{a}$ and $\\vec{b}$: $\\vec{a} + \\vec{b} = (3\\hat{i}-4\\hat{j}+2\\hat{k}) + (2\\hat{i}-\\hat{j}-6\\hat{k})$.<br><b>Step 3:</b> $\\vec{a} + \\vec{b} = 5\\hat{i} - 5\\hat{j} - 4\\hat{k}$.<br><b>Step 4:</b> This sum is exactly equal to $\\vec{c}$. Since $\\vec{a} + \\vec{b} = \\vec{c}$, the vectors form a Triangle."
+            },
+            {
+                "id": "MIP-TEST-007",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Polygon Law", "Symmetry"],
+                "q": "Five equal forces each of 20N are acting at a point in the same plane. If the angles between them are same, the resultant of these forces is:",
+                "options": ["0", "40N", "20N", "$20\\sqrt{2}$N"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> When $n$ equal forces act at a point such that the angle between any two adjacent forces is equal (i.e., $360^{\\circ}/n$), they are symmetrically distributed.<br><b>Step 2:</b> By the polygon law of vector addition, these forces form a closed regular polygon.<br><b>Step 3:</b> The resultant of any closed polygon of vectors is exactly zero."
+            },
+            {
+                "id": "MIP-TEST-008",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Equilibrium", "Resolution of Forces"],
+                "q": "A boy is hanging from a horizontal branch of a tree. The tension in the arms will be maximum when the angle between the arms is:",
+                "options": ["$0^{\\circ}$", "$30^{\\circ}$", "$60^{\\circ}$", "$120^{\\circ}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Let $T$ be the tension in each arm and $\\theta$ be the angle between the arms.<br><b>Step 2:</b> For vertical equilibrium, the sum of the vertical components of tension must equal the boy's weight: $2T\\cos(\\frac{\\theta}{2}) = mg$.<br><b>Step 3:</b> Rearrange to solve for tension: $T = \\frac{mg}{2\\cos(\\theta/2)}$.<br><b>Step 4:</b> The tension $T$ is maximum when the denominator $\\cos(\\theta/2)$ is minimum.<br><b>Step 5:</b> Among the given options, $\\theta = 120^{\\circ}$ gives the largest $\\theta/2 = 60^{\\circ}$, which yields the smallest cosine value (0.5), thus maximizing the tension."
+            },
+            {
+                "id": "MIP-TEST-009",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Equilibrium", "Lami's Theorem"],
+                "q": "A 10 kg body suspended by a rope is pulled by means of a horizontal force to make $60^{\\circ}$ by rope to vertical. The horizontal force is:",
+                "options": ["10 kgwt", "30 kgwt", "$10\\sqrt{3}$ kgwt", "$30\\sqrt{3}$ kgwt"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Three forces act on the knot: Tension $T$ in the upper rope, weight $W = mg$ downwards, and horizontal force $F$.<br><b>Step 2:</b> Resolve the tension $T$ into vertical and horizontal components. The vertical component balances the weight: $T\\cos 60^{\\circ} = W$.<br><b>Step 3:</b> The horizontal component balances the pulling force: $T\\sin 60^{\\circ} = F$.<br><b>Step 4:</b> Divide the two equations: $\\frac{T\\sin 60^{\\circ}}{T\\cos 60^{\\circ}} = \\frac{F}{W} \\implies \\tan 60^{\\circ} = \\frac{F}{10}$.<br><b>Step 5:</b> $F = 10 \\times \\sqrt{3} = 10\\sqrt{3}$ kgwt."
+            },
+            {
+                "id": "MIP-TEST-010",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Equilibrium", "Lami's Theorem"],
+                "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEijiwTKb5d5ypDyH_d6CCxzXJ7kSYl84_eTpFig_kwAJuHLq8UNy9yhc1N_S8noCsufbnQvtv3cYhc2msgOHhBzMLtDhgln9WWNQ6dWVuhZ9kKEJS0ULjF_TkJiPdxDeGHcqwZQiW3cUPeeIqSJkrMoJQBEpDFjORySmyvP3mVJGlfKHWIhPmpDqMhKwUkt",
+                "q": "If 'P' is in equilibrium then $\\frac{T_{1}}{T_{2}}$ is:",
+                "options": ["$\\sqrt{3}$", "2", "$\\frac{1}{\\sqrt{3}}$", "$\\frac{1}{2}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> For point P to be in equilibrium, the net horizontal force must be zero.<br><b>Step 2:</b> Balance the horizontal components of the two tensions: $T_1 \\cos 30^{\\circ} = T_2 \\cos 60^{\\circ}$.<br><b>Step 3:</b> Substitute the trigonometric values: $T_1 \\left(\\frac{\\sqrt{3}}{2}\\right) = T_2 \\left(\\frac{1}{2}\\right)$.<br><b>Step 4:</b> Rearrange the equation to find the ratio: $\\frac{T_1}{T_2} = \\frac{1/2}{\\sqrt{3}/2} = \\frac{1}{\\sqrt{3}}$."
+            },
+            {
+                "id": "MIP-TEST-011",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Kinematics", "3D Motion"],
+                "q": "A body starts with a velocity $(2\\hat{i}+3\\hat{j}+11\\hat{k})\\text{ m/s}$ and moves with an acceleration $(5\\hat{i}+5\\hat{j}-5\\hat{k})\\text{ m/s}^{2}$. What is its velocity after 0.2 sec?",
+                "options": ["$7\\hat{i}+8\\hat{j}+6\\hat{k}$", "$2\\hat{i}-3\\hat{j}+11\\hat{k}$", "$3\\hat{i}-4\\hat{j}-10\\hat{k}$", "$3\\hat{i}+4\\hat{j}+10\\hat{k}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Use the vector equation of motion: $\\vec{v} = \\vec{u} + \\vec{a}t$.<br><b>Step 2:</b> Substitute the given vectors: $\\vec{v} = (2\\hat{i}+3\\hat{j}+11\\hat{k}) + 0.2(5\\hat{i}+5\\hat{j}-5\\hat{k})$.<br><b>Step 3:</b> Multiply the acceleration vector by the scalar time (0.2): $\\vec{v} = (2\\hat{i}+3\\hat{j}+11\\hat{k}) + (1\\hat{i}+1\\hat{j}-1\\hat{k})$.<br><b>Step 4:</b> Add the corresponding components together: $\\vec{v} = (2+1)\\hat{i} + (3+1)\\hat{j} + (11-1)\\hat{k}$.<br><b>Step 5:</b> The final velocity is $3\\hat{i}+4\\hat{j}+10\\hat{k}$."
+            },
+            {
+                "id": "MIP-TEST-012",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Displacement Vector", "Parametric Equations"],
+                "q": "The position vector of a particle is given by $\\vec{r}=(3t^{2}\\hat{i}+4t^{2}\\hat{j}+7\\hat{k})\\text{ m}$ at a given time t. The net displacement of the particle after 10 s is:",
+                "options": ["500 m", "400 m", "300 m", "700 m"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Find the initial position vector at $t=0$: $\\vec{r_i} = 3(0)\\hat{i} + 4(0)\\hat{j} + 7\\hat{k} = 7\\hat{k}$.<br><b>Step 2:</b> Find the final position vector at $t=10\\text{ s}$: $\\vec{r_f} = 3(10^2)\\hat{i} + 4(10^2)\\hat{j} + 7\\hat{k} = 300\\hat{i} + 400\\hat{j} + 7\\hat{k}$.<br><b>Step 3:</b> The displacement vector is the change in position: $\\vec{S} = \\vec{r_f} - \\vec{r_i} = 300\\hat{i} + 400\\hat{j} + 0\\hat{k}$.<br><b>Step 4:</b> Calculate the magnitude of the displacement vector: $|\\vec{S}| = \\sqrt{300^2 + 400^2} = \\sqrt{90000 + 160000}$.<br><b>Step 5:</b> $|\\vec{S}| = \\sqrt{250000} = 500\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-013",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["Change in Velocity", "Average Acceleration"],
+                "q": "A particle is moving eastwards with a velocity $5\\text{ ms}^{-1}$ changes its direction northwards in 10 seconds and moves with same magnitude of velocity. The average acceleration is:",
+                "options": ["zero", "$\\frac{1}{\\sqrt{2}}\\text{ ms}^{-2}$ towards N-E", "$\\frac{1}{\\sqrt{2}}\\text{ ms}^{-2}$ towards S-E", "$\\frac{1}{\\sqrt{2}}\\text{ ms}^{-2}$ towards N-W"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Represent velocities as vectors. Initial velocity $\\vec{u} = 5\\hat{i}$ (East), Final velocity $\\vec{v} = 5\\hat{j}$ (North).<br><b>Step 2:</b> Calculate the change in velocity: $\\Delta\\vec{v} = \\vec{v} - \\vec{u} = 5\\hat{j} - 5\\hat{i}$.<br><b>Step 3:</b> Find the magnitude of this change: $|\\Delta\\vec{v}| = \\sqrt{(-5)^2 + 5^2} = \\sqrt{50} = 5\\sqrt{2}\\text{ m/s}$.<br><b>Step 4:</b> Determine the direction of $\\Delta\\vec{v}$. The vector has a negative x-component and a positive y-component, which points exactly North-West.<br><b>Step 5:</b> Calculate average acceleration: $\\vec{a}_{avg} = \\frac{\\Delta\\vec{v}}{t} = \\frac{5\\sqrt{2}}{10} = \\frac{\\sqrt{2}}{2} = \\frac{1}{\\sqrt{2}}\\text{ ms}^{-2}$ towards North-West."
+            },
+            {
+                "id": "MIP-TEST-014",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 3,
+                "tags": ["Rain and Man Problem", "Relative Velocity"],
+                "q": "A man is going due east with a velocity of $5\\text{ ms}^{-1}$. It is vertically raining downwards with a velocity of $4\\text{ ms}^{-1}$. At what angle should he hold the umbrella to the vertical so as to protect him self from the rain?",
+                "options": ["$\\tan^{-1}(\\frac{5}{4})$ in anti-clockwise direction", "$\\tan^{-1}(\\frac{5}{4})$ in clock-wise direction", "$\\tan^{-1}(\\frac{4}{5})$ North of East", "$\\tan^{-1}(\\frac{4}{5})$ East of North"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Define the coordinate system. Let East be the positive x-axis ($\\hat{i}$) and Up be the positive y-axis ($\\hat{j}$).<br><b>Step 2:</b> Velocity of man $\\vec{v}_m = 5\\hat{i}$, velocity of rain $\\vec{v}_r = -4\\hat{j}$.<br><b>Step 3:</b> Find the relative velocity of rain with respect to the man: $\\vec{v}_{rm} = \\vec{v}_r - \\vec{v}_m = -4\\hat{j} - 5\\hat{i}$.<br><b>Step 4:</b> The rain appears to fall towards him from the front (East) and top. The angle $\\theta$ it makes with the vertical (y-axis) is $\\tan\\theta = \\frac{|v_{rm,x}|}{|v_{rm,y}|} = \\frac{5}{4}$.<br><b>Step 5:</b> To protect himself, he must tilt the umbrella forward (towards the East) by this angle, which corresponds to a clock-wise direction from the vertical."
+            },
+            {
+                "id": "MIP-TEST-015",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 1,
+                "tags": ["Relative Speed", "Orthogonal Vectors"],
+                "q": "Rain drops are falling down ward vertically at 4kmph. For a person moving forward at 3kmph feels the rain falling at:",
+                "options": ["7 kmph", "1 kmph", "5 kmph", "25 kmph"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Let the velocity of the rain be $\\vec{v}_r = -4\\hat{j}$ and the velocity of the man be $\\vec{v}_m = 3\\hat{i}$.<br><b>Step 2:</b> The relative velocity of the rain with respect to the man is $\\vec{v}_{rm} = \\vec{v}_r - \\vec{v}_m = -4\\hat{j} - 3\\hat{i}$.<br><b>Step 3:</b> The speed at which the person feels the rain falling is the magnitude of this relative velocity vector.<br><b>Step 4:</b> $|\\vec{v}_{rm}| = \\sqrt{(-3)^2 + (-4)^2} = \\sqrt{9 + 16} = \\sqrt{25}$.<br><b>Step 5:</b> The apparent speed is $5\\text{ kmph}$."
+            },
+            {
+                "id": "MIP-TEST-016",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["Rain and Man Problem", "Relative Velocity"],
+                "q": "A man travelling at 10.8 kmph in topless car on a rainy day. He holds an umbrella at angle of $37^{\\circ}$ with the vertical so that he does not wet. If rain drops falls vertically downwards what is rain velocity.",
+                "options": ["1 m/s", "2 m/s", "3 m/s", "4 m/s"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Convert the velocity of the man from kmph to m/s: $v_m = 10.8 \\times \\frac{5}{18} = 3\\text{ m/s}$.<br><b>Step 2:</b> The rain falls vertically, so $\\vec{v}_r = -v_r \\hat{j}$ and the man moves horizontally, $\\vec{v}_m = v_m \\hat{i}$.<br><b>Step 3:</b> The relative velocity of rain with respect to the man is $\\vec{v}_{rm} = \\vec{v}_r - \\vec{v}_m = -v_r \\hat{j} - v_m \\hat{i}$.<br><b>Step 4:</b> The angle $\\theta$ the umbrella makes with the vertical satisfies $\\tan\\theta = \\frac{v_m}{v_r}$.<br><b>Step 5:</b> Substitute the known values: $\\tan 37^{\\circ} = \\frac{3}{v_r} \\implies \\frac{3}{4} = \\frac{3}{v_r}$.<br><b>Step 6:</b> Solving for $v_r$ gives $4\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-017",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Relative Velocity"],
+                "q": "A man can row a boat in still water with a velocity of 8 kmph. Water is flowing in a river with a velocity of 4 kmph. At what angle should he row the boat so as to reach the exact opposite point",
+                "options": ["$150^{\\circ}$ to flow of water", "$120^{\\circ}$ to flow of water.", "$30^{\\circ}$ to flow of water.", "$90^{\\circ}$ to flow of water."],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> To reach the exact opposite point, the boat's net velocity must be perpendicular to the river flow.<br><b>Step 2:</b> This means the horizontal component of the boat's velocity must perfectly cancel the river's velocity: $v_b \\sin\\theta = v_r$, where $\\theta$ is the angle with the normal to the bank.<br><b>Step 3:</b> Substitute the values: $8 \\sin\\theta = 4 \\implies \\sin\\theta = \\frac{1}{2}$.<br><b>Step 4:</b> Therefore, $\\theta = 30^{\\circ}$ from the normal (perpendicular) to the bank.<br><b>Step 5:</b> The angle with the direction of the river flow is $90^{\\circ} + 30^{\\circ} = 120^{\\circ}$."
+            },
+            {
+                "id": "MIP-TEST-018",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Downstream and Upstream"],
+                "q": "A person can swim in still water at $5\\text{ m/s}$. He moves in a river of velocity 3 m/s, first down the stream and next same distance up the stream. The ratio of times taken are",
+                "options": ["1:1", "1:2", "1:4", "4:1"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Velocity downstream is the sum of swimmer's and river's speeds: $v_{down} = v_b + v_r = 5 + 3 = 8\\text{ m/s}$.<br><b>Step 2:</b> Time taken to swim distance $d$ downstream: $t_1 = \\frac{d}{8}$.<br><b>Step 3:</b> Velocity upstream is the difference: $v_{up} = v_b - v_r = 5 - 3 = 2\\text{ m/s}$.<br><b>Step 4:</b> Time taken to swim the same distance $d$ upstream: $t_2 = \\frac{d}{2}$.<br><b>Step 5:</b> Ratio of times: $\\frac{t_1}{t_2} = \\frac{d/8}{d/2} = \\frac{2}{8} = 1:4$."
+            },
+            {
+                "id": "MIP-TEST-019",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Drift"],
+                "q": "The velocity of water in a river is 2 kmph, while width is 400 m. A boat is rowed from a point rowing always aiming opposite point at 8 kmph of still water velocity. On reaching the opposite bank the drift obtained is",
+                "options": ["93 m", "100.8 m", "112.4 m", "100 m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Since the boat always aims at the opposite point, its entire velocity of $8\\text{ kmph}$ is directed perpendicular to the river flow.<br><b>Step 2:</b> The time $t$ taken to cross the river of width $d = 400\\text{ m} = 0.4\\text{ km}$ is $t = \\frac{d}{v_b} = \\frac{0.4}{8} = 0.05\\text{ hours}$.<br><b>Step 3:</b> During this time, the river's current pulls the boat horizontally, causing drift.<br><b>Step 4:</b> Drift $x = v_r \\times t = 2\\text{ kmph} \\times 0.05\\text{ hours} = 0.1\\text{ km}$.<br><b>Step 5:</b> Convert the drift to meters: $0.1 \\times 1000 = 100\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-020",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Shortest Time"],
+                "q": "A man can swim in still water at a speed of 4 kmph. He desires to cross a river flowing at a speed of 3 kmph in the shortest time interval. If the width of the river is 3km time taken to cross the river (in hours) and the horizontal distance travelled (in km) are respectively",
+                "options": ["$\\frac{3}{4}, \\frac{9}{4}$", "$\\frac{3}{5}, 3$", "$\\frac{1}{4}, \\frac{15}{4}$", "$\\frac{3}{\\sqrt{7}}, 0.7$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> For the shortest time interval, the swimmer must aim straight across the river perpendicular to the current.<br><b>Step 2:</b> Time taken $t = \\frac{d}{v_b} = \\frac{3\\text{ km}}{4\\text{ kmph}} = \\frac{3}{4}\\text{ hours}$.<br><b>Step 3:</b> The horizontal distance (drift) traveled due to the river's flow is $x = v_r \\times t$.<br><b>Step 4:</b> Substitute the values: $x = 3 \\times \\frac{3}{4} = \\frac{9}{4}\\text{ km}$."
+            },
+            {
+                "id": "MIP-TEST-021",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Equation of Trajectory", "Kinematics"],
+                "q": "A particle is projected in xy plane with y-axis along vertical, the point of projection is origin. The equation of the path is $y=\\sqrt{3}x-\\frac{g}{2}x^{2}$. where y and x are in m. Then the speed of projection in $\\text{ms}^{-1}$ is",
+                "options": ["2", "$\\sqrt{3}$", "4", "$\\frac{\\sqrt{3}}{2}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The standard equation of a projectile's trajectory is $y = x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}$.<br><b>Step 2:</b> Compare the given equation $y = \\sqrt{3}x - \\frac{g}{2}x^2$ with the standard equation.<br><b>Step 3:</b> From the x term: $\\tan\\theta = \\sqrt{3} \\implies \\theta = 60^{\\circ}$.<br><b>Step 4:</b> From the $x^2$ term: $\\frac{g}{2u^2\\cos^2\\theta} = \\frac{g}{2}$.<br><b>Step 5:</b> Cancel $g/2$ from both sides: $u^2\\cos^2 60^{\\circ} = 1$.<br><b>Step 6:</b> Substitute $\\cos 60^{\\circ} = 1/2$: $u^2 (\\frac{1}{4}) = 1 \\implies u^2 = 4 \\implies u = 2\\text{ ms}^{-1}$."
+            },
+            {
+                "id": "MIP-TEST-022",
+                "topic": "Projectile Motion",
+                "difficulty": 1,
+                "tags": ["Time of Flight", "Kinematics"],
+                "q": "If a body is thrown with a speed of 19.6m/s making an angle of $30^{\\circ}$ with the horizontal, then the time of flight is",
+                "options": ["1 s", "2 s", "23 s", "5 s"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The formula for the time of flight of a projectile is $T = \\frac{2u\\sin\\theta}{g}$.<br><b>Step 2:</b> Substitute the given values: $u = 19.6\\text{ m/s}$, $\\theta = 30^{\\circ}$, and $g = 9.8\\text{ m/s}^2$.<br><b>Step 3:</b> $T = \\frac{2 \\times 19.6 \\times \\sin 30^{\\circ}}{9.8}$.<br><b>Step 4:</b> Since $\\frac{19.6}{9.8} = 2$ and $\\sin 30^{\\circ} = 0.5$, we get $T = 2 \\times 2 \\times 0.5 = 2\\text{ s}$."
+            },
+            {
+                "id": "MIP-TEST-023",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Horizontal Range", "Angles"],
+                "q": "A particle is projected with an initial velocity of $200\\text{ m/s}$ in a direction making an angle of $30^{\\circ}$ with the vertical. The horizontal distance covered by the particle in 3s is",
+                "options": ["300 m", "150 m", "175 m", "125 m"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The angle is given with respect to the vertical ($30^{\\circ}$). Therefore, the horizontal component of velocity is $v_x = u\\sin(30^{\\circ})$.<br><b>Step 2:</b> Calculate the horizontal velocity: $v_x = 200 \\times \\sin 30^{\\circ} = 200 \\times 0.5 = 100\\text{ m/s}$.<br><b>Step 3:</b> The horizontal distance covered is velocity multiplied by time: $x = v_x \\times t$.<br><b>Step 4:</b> Substitute the values: $x = 100 \\times 3 = 300\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-024",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Vector Representation", "Velocity Components"],
+                "q": "A body is projected with an initial velocity $20\\text{ m/s}$ at $60^{\\circ}$ to the horizontal. Its initial velocity vector is ($g=10\\text{ m/s}^{2}$)",
+                "options": ["$10\\hat{i}-20\\hat{j}$", "$10\\sqrt{3}\\hat{i}+10\\hat{j}$", "$10\\hat{i}+10\\sqrt{3}\\hat{j}$", "$5\\hat{i}+5\\sqrt{3}\\hat{j}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Any 2D velocity vector can be broken down into horizontal and vertical components: $\\vec{u} = u\\cos\\theta \\hat{i} + u\\sin\\theta \\hat{j}$.<br><b>Step 2:</b> Calculate horizontal component: $u_x = 20 \\cos 60^{\\circ} = 20 \\times 0.5 = 10\\text{ m/s}$.<br><b>Step 3:</b> Calculate vertical component: $u_y = 20 \\sin 60^{\\circ} = 20 \\times \\frac{\\sqrt{3}}{2} = 10\\sqrt{3}\\text{ m/s}$.<br><b>Step 4:</b> Combine them to get the initial velocity vector: $\\vec{u} = 10\\hat{i} + 10\\sqrt{3}\\hat{j}$."
+            },
+            {
+                "id": "MIP-TEST-025",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Momentum", "Velocity at Maximum Height"],
+                "q": "A body is projected at an angle of $30^{\\circ}$ with the horizontal with momentum P. At its highest point the magnitude of the momentum is:",
+                "options": ["$\\frac{\\sqrt{3}}{2}P$", "$\\frac{2}{\\sqrt{3}}P$", "P", "$\\frac{P}{2}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Initial momentum is given by $P = mu$.<br><b>Step 2:</b> At the highest point of a projectile's trajectory, its vertical velocity is zero. It only has a horizontal velocity component.<br><b>Step 3:</b> Horizontal velocity remains constant throughout the flight: $v_{top} = u\\cos\\theta = u\\cos 30^{\\circ}$.<br><b>Step 4:</b> Momentum at the highest point is $P' = m(v_{top}) = m(u\\cos 30^{\\circ})$.<br><b>Step 5:</b> Substitute $P = mu$ and $\\cos 30^{\\circ} = \\frac{\\sqrt{3}}{2}$: $P' = P \\frac{\\sqrt{3}}{2}$."
+            },
+            {
+                "id": "MIP-TEST-026",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Energy Conservation", "Time of Flight"],
+                "q": "The potential energy of a projectile at its maximum height is equal to its kinetic energy there. If the velocity of projection is $20\\text{ ms}^{-1}$, its time of flight is ($g=10\\text{ ms}^{-2}$)",
+                "options": ["2s", "$2\\sqrt{2}\\text{ s}$", "$\\frac{1}{2}\\text{ s}$", "$\\frac{1}{\\sqrt{2}}\\text{ s}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> At maximum height, Potential Energy $PE = mgh = mg \\left( \\frac{u^2\\sin^2\\theta}{2g} \\right) = \\frac{1}{2}mu^2\\sin^2\\theta$.<br><b>Step 2:</b> Kinetic Energy at maximum height is entirely due to horizontal velocity: $KE = \\frac{1}{2}mv_x^2 = \\frac{1}{2}mu^2\\cos^2\\theta$.<br><b>Step 3:</b> Equate PE and KE: $\\frac{1}{2}mu^2\\sin^2\\theta = \\frac{1}{2}mu^2\\cos^2\\theta \\implies \\sin^2\\theta = \\cos^2\\theta \\implies \\tan\\theta = 1 \\implies \\theta = 45^{\\circ}$.<br><b>Step 4:</b> Use the formula for time of flight: $T = \\frac{2u\\sin\\theta}{g}$.<br><b>Step 5:</b> Substitute values: $T = \\frac{2(20)\\sin 45^{\\circ}}{10} = 4 \\times \\frac{1}{\\sqrt{2}} = 2\\sqrt{2}\\text{ s}$."
+            },
+            {
+                "id": "MIP-TEST-027",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Average Velocity", "Maximum Range"],
+                "q": "From a point on the ground a particle is projected with initial velocity u, such that its horizontal range is maximum. The magnitude of average velocity during its ascent.",
+                "options": ["$\\frac{\\sqrt{5}u}{2\\sqrt{2}}$", "$\\frac{5u}{4}$", "$\\frac{\\sqrt{3}}{2\\sqrt{2}}$", "none"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> For maximum horizontal range, the angle of projection must be $\\theta = 45^{\\circ}$.<br><b>Step 2:</b> Time of ascent is half the time of flight: $t = \\frac{u\\sin 45^{\\circ}}{g} = \\frac{u}{g\\sqrt{2}}$.<br><b>Step 3:</b> Horizontal displacement during ascent: $x = (u\\cos 45^{\\circ})t = \\frac{u}{\\sqrt{2}} \\times \\frac{u}{g\\sqrt{2}} = \\frac{u^2}{2g}$.<br><b>Step 4:</b> Vertical displacement during ascent is the maximum height: $y = H = \\frac{u^2\\sin^2 45^{\\circ}}{2g} = \\frac{u^2}{4g}$.<br><b>Step 5:</b> Total displacement $S = \\sqrt{x^2 + y^2} = \\sqrt{(\\frac{u^2}{2g})^2 + (\\frac{u^2}{4g})^2} = \\frac{u^2}{4g}\\sqrt{4+1} = \\frac{\\sqrt{5}u^2}{4g}$.<br><b>Step 6:</b> Average velocity $v_{avg} = \\frac{S}{t} = \\frac{\\sqrt{5}u^2 / 4g}{u / g\\sqrt{2}} = \\frac{\\sqrt{5}u\\sqrt{2}}{4} = \\frac{\\sqrt{5}u}{2\\sqrt{2}}$."
+            },
+            {
+                "id": "MIP-TEST-028",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Parametric Equations", "Velocity"],
+                "q": "The horizontal and vertical displacements of a projectile are given as $x=at$ & $y=b~t-c~t^{2}$. Then velocity of projection is",
+                "options": ["$\\sqrt{a^{2}+b^{2}}$", "$\\sqrt{b^{2}+c^{2}}$", "$\\sqrt{a^{2}+c^{2}}$", "$\\sqrt{b^{2}-c^{2}}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The horizontal velocity is the derivative of the horizontal position: $v_x = \\frac{dx}{dt} = \\frac{d}{dt}(at) = a$.<br><b>Step 2:</b> The vertical velocity is the derivative of the vertical position: $v_y = \\frac{dy}{dt} = \\frac{d}{dt}(bt - ct^2) = b - 2ct$.<br><b>Step 3:</b> Velocity of projection is the velocity at $t=0$. Initial horizontal velocity $u_x = a$. Initial vertical velocity $u_y = b - 2c(0) = b$.<br><b>Step 4:</b> The magnitude of initial velocity of projection is $u = \\sqrt{u_x^2 + u_y^2} = \\sqrt{a^2 + b^2}$."
+            },
+            {
+                "id": "MIP-TEST-029",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Complementary Angles", "Maximum Height"],
+                "q": "Two bodies are thrown from the same point with the same velocity of $50\\text{ ms}^{-1}$. If their angles of projection are complimentary to each other and the difference of maximum heights is 30m, the minimum and maximum heights are ($g=10\\text{ m/s}^{2}$)",
+                "options": ["50 m & 80 m", "47.5 m & 77.5 m", "30 m & 60 m", "25 m & 55 m"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> For complementary angles $\\theta$ and $90^{\\circ}-\\theta$, maximum heights are $H_1 = \\frac{u^2\\sin^2\\theta}{2g}$ and $H_2 = \\frac{u^2\\cos^2\\theta}{2g}$.<br><b>Step 2:</b> Calculate the sum of the heights: $H_1 + H_2 = \\frac{u^2}{2g}(\\sin^2\\theta + \\cos^2\\theta) = \\frac{u^2}{2g}$.<br><b>Step 3:</b> Substitute values: $H_1 + H_2 = \\frac{50^2}{2(10)} = \\frac{2500}{20} = 125\\text{ m}$.<br><b>Step 4:</b> We are given the difference: $H_1 - H_2 = 30\\text{ m}$.<br><b>Step 5:</b> Add the two equations: $2H_1 = 155 \\implies H_1 = 77.5\\text{ m}$ (Maximum Height).<br><b>Step 6:</b> Subtract to find the other: $H_2 = 125 - 77.5 = 47.5\\text{ m}$ (Minimum Height)."
+            },
+            {
+                "id": "MIP-TEST-030",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Maximum Range", "Kinematics"],
+                "q": "A missile is fired for maximum range with an initial velocity of $20\\text{ m s}^{-1}$, the range of the missile is ($g=10\\text{ m/s}^{2}$)",
+                "options": ["50m", "60 m", "20m", "40 m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The horizontal range of a projectile is given by $R = \\frac{u^2\\sin 2\\theta}{g}$.<br><b>Step 2:</b> For the range to be maximum, $\\sin 2\\theta$ must be 1, which means $\\theta = 45^{\\circ}$.<br><b>Step 3:</b> The formula for maximum range simplifies to $R_{max} = \\frac{u^2}{g}$.<br><b>Step 4:</b> Substitute the given values: $u = 20\\text{ m/s}$ and $g = 10\\text{ m/s}^2$.<br><b>Step 5:</b> $R_{max} = \\frac{(20)^2}{10} = \\frac{400}{10} = 40\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-031",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Velocity Components", "3D Vectors"],
+                "q": "If $\\vec{u}=a\\hat{i}+b\\hat{j}+c\\hat{k}$ with $\\hat{i}, \\hat{j}, \\hat{k}$ are in east, north and vertical directions, horizontal component of velocity of projectile is",
+                "options": ["a", "b", "$\\sqrt{a^{2}+b^{2}}$", "$\\sqrt{b^{2}+c^{2}}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The horizontal plane is formed by the East ($\\hat{i}$) and North ($\\hat{j}$) directions.<br><b>Step 2:</b> Therefore, the horizontal velocity vector is $\\vec{u}_h = a\\hat{i} + b\\hat{j}$.<br><b>Step 3:</b> The magnitude of this horizontal component is $\\sqrt{a^2 + b^2}$."
+            },
+            {
+                "id": "MIP-TEST-032",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Time of Flight", "Maximum Height"],
+                "q": "If the time of flight of a projectile is doubled, what happens to the maximum height attained?",
+                "options": ["halved", "remains unchanged", "doubled", "become four times"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The time of flight is given by $T = \\frac{2u\\sin\\theta}{g}$, which means $u\\sin\\theta = \\frac{gT}{2}$.<br><b>Step 2:</b> The maximum height is $H = \\frac{u^2\\sin^2\\theta}{2g}$.<br><b>Step 3:</b> Substitute $u\\sin\\theta$: $H = \\frac{(gT/2)^2}{2g} = \\frac{g^2T^2/4}{2g} = \\frac{gT^2}{8}$.<br><b>Step 4:</b> This shows that $H \\propto T^2$. If $T$ is doubled, $H$ increases by a factor of $2^2 = 4$. Thus, it becomes four times."
+            },
+            {
+                "id": "MIP-TEST-033",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Velocity Components", "Maximum Height"],
+                "q": "If $\\vec{u}=a\\hat{i}+b\\hat{j}+c\\hat{k}$ with $\\hat{i}, \\hat{j}, \\hat{k}$ are in east, north and vertical directions, the maximum height of the projectile is",
+                "options": ["$\\frac{a^{2}}{2g}$", "$\\frac{b^{2}}{2g}$", "$\\frac{c^{2}}{2g}$", "$\\frac{b^{2}c^{2}}{2g}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The maximum height attained by a projectile depends exclusively on its vertical component of initial velocity.<br><b>Step 2:</b> From the given vector, the vertical direction corresponds to $\\hat{k}$, so the vertical velocity component is $u_y = c$.<br><b>Step 3:</b> The formula for maximum height using the vertical component is $H = \\frac{u_y^2}{2g}$.<br><b>Step 4:</b> Substituting $u_y = c$, we get $H = \\frac{c^2}{2g}$."
+            },
+            {
+                "id": "MIP-TEST-034",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Horizontal Projectile", "Proportionality"],
+                "q": "A body projected horizontally with a velocity 'v' from a height 'h' has a range 'R'. With what velocity a body is to be projected horizontally from a height $h/2$ to have the same range?",
+                "options": ["$\\sqrt{2}v$", "$2v$", "$6v$", "$8v$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The horizontal range for a body projected horizontally is $R = v \\sqrt{\\frac{2h}{g}}$.<br><b>Step 2:</b> Let the new velocity be $v'$ for a height of $h/2$. The new range is $R' = v' \\sqrt{\\frac{2(h/2)}{g}} = v' \\sqrt{\\frac{h}{g}}$.<br><b>Step 3:</b> We are given that the ranges are the same: $R = R'$.<br><b>Step 4:</b> Equate them: $v \\sqrt{\\frac{2h}{g}} = v' \\sqrt{\\frac{h}{g}}$.<br><b>Step 5:</b> Cancel $\\sqrt{\\frac{h}{g}}$ from both sides: $v\\sqrt{2} = v' \\implies v' = \\sqrt{2}v$."
+            },
+            {
+                "id": "MIP-TEST-035",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Horizontal Projectile", "Final Velocity"],
+                "q": "A stone is thrown horizontally with velocity $g\\text{ ms}^{-1}$ from the top of a tower of height $g$ metre. The velocity with which it hits the ground is (in $\\text{ms}^{-1}$)",
+                "options": ["$g$", "$2g$", "$\\sqrt{3}g$", "$4g$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The horizontal velocity remains constant throughout the flight: $v_x = u = g$.<br><b>Step 2:</b> The vertical velocity upon hitting the ground after falling a height $h$ from rest vertically is $v_y = \\sqrt{2gh}$.<br><b>Step 3:</b> Substitute $h = g$: $v_y = \\sqrt{2g(g)} = \\sqrt{2g^2} = \\sqrt{2}g$.<br><b>Step 4:</b> The total magnitude of velocity upon hitting the ground is $v = \\sqrt{v_x^2 + v_y^2}$.<br><b>Step 5:</b> $v = \\sqrt{g^2 + (\\sqrt{2}g)^2} = \\sqrt{g^2 + 2g^2} = \\sqrt{3g^2} = \\sqrt{3}g$."
+            },
+            {
+                "id": "MIP-TEST-036",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Horizontal Projectile", "Angle of Impact"],
+                "q": "A body is thrown horizontally from the top of a tower. It reaches the ground after 4s at an angle $45^{\\circ}$ to the ground. The velocity of projection is",
+                "options": ["$9.8\\text{ ms}^{-1}$", "$19.6\\text{ ms}^{-1}$", "$29.4\\text{ ms}^{-1}$", "$39.2\\text{ ms}^{-1}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Let the horizontal velocity of projection be $u$. This horizontal component $v_x = u$ remains constant.<br><b>Step 2:</b> Calculate the vertical velocity after 4s: $v_y = gt = 9.8 \\times 4 = 39.2\\text{ m/s}$.<br><b>Step 3:</b> The angle $\\theta$ the velocity vector makes with the ground is given by $\\tan\\theta = \\frac{v_y}{v_x}$.<br><b>Step 4:</b> Substitute the values: $\\tan 45^{\\circ} = \\frac{39.2}{u} \\implies 1 = \\frac{39.2}{u}$.<br><b>Step 5:</b> Solving for $u$ gives $u = 39.2\\text{ ms}^{-1}$."
+            },
+            {
+                "id": "MIP-TEST-037",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Horizontal Projectile", "Kinematics"],
+                "q": "Two cliff of heights 120 m and 100.4 m are separated by a horizontal distance of 16 m if a car has to reach from the first cliff to the second the horizontal velocity of car should be",
+                "options": ["16 m/s", "4 m/s", "2 m/s", "8 m/s"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Determine the vertical distance the car must fall: $h = 120\\text{ m} - 100.4\\text{ m} = 19.6\\text{ m}$.<br><b>Step 2:</b> Calculate the time taken to fall this height freely: $t = \\sqrt{\\frac{2h}{g}}$.<br><b>Step 3:</b> Substitute the values: $t = \\sqrt{\\frac{2(19.6)}{9.8}} = \\sqrt{\\frac{39.2}{9.8}} = \\sqrt{4} = 2\\text{ s}$.<br><b>Step 4:</b> The car must cover the horizontal gap of 16m in exactly 2s.<br><b>Step 5:</b> Horizontal velocity $v = \\frac{R}{t} = \\frac{16\\text{ m}}{2\\text{ s}} = 8\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-038",
+                "topic": "Circular Motion",
+                "difficulty": 1,
+                "tags": ["Angular Velocity", "Rigid Body Dynamics"],
+                "q": "A circular disc is rotating about its own axis at the rate of 200 revolutions per minute. Two particles P,Q of disc are at distances 5cm, 10cm from axis of rotation. The ratio of angular velocities of P and Q is",
+                "options": ["1:2", "1:1", "2:1", "4:1"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Angular velocity ($\\omega$) is defined as the rate of change of angular displacement.<br><b>Step 2:</b> For any rigid body rotating about a fixed axis, all particles on the body complete one full revolution in the exact same amount of time.<br><b>Step 3:</b> Therefore, every point on the disc sweeps through the same angle per unit time, meaning they share the same angular velocity.<br><b>Step 4:</b> Since angular velocity is independent of the radial distance from the axis, the ratio of their angular velocities is 1:1."
+            },
+            {
+                "id": "MIP-TEST-039",
+                "topic": "Circular Motion",
+                "difficulty": 3,
+                "tags": ["Angular Kinematics", "Equations of Motion"],
+                "q": "A stationary wheel starts rotating about its own axis at uniform angular acceleration $8\\text{ rad/s}^{2}$. The time taken by it to complete 77 rotations is",
+                "options": ["5.5 sec", "7 sec", "11 sec", "14 sec"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Calculate the total angular displacement $\\theta$ required. Since 1 rotation is $2\\pi$ radians, $\\theta = 77 \\times 2\\pi = 154\\pi$ radians.<br><b>Step 2:</b> Use the approximation $\\pi \\approx \\frac{22}{7}$ to simplify: $\\theta \\approx 154 \\times \\frac{22}{7} = 22 \\times 22 = 484$ rad.<br><b>Step 3:</b> Use the angular kinematic equation $\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$. Since it starts from rest, $\\omega_0 = 0$.<br><b>Step 4:</b> Substitute the values: $484 = 0 + \\frac{1}{2}(8)t^2 \\implies 484 = 4t^2$.<br><b>Step 5:</b> Solve for $t$: $t^2 = \\frac{484}{4} = 121 \\implies t = 11\\text{ sec}$."
+            },
+            {
+                "id": "MIP-TEST-040",
+                "topic": "Circular Motion",
+                "difficulty": 1,
+                "tags": ["Angular Velocity", "Frequency"],
+                "q": "A circular disc is rotating about its own axis at uniform rate completes 30 rotations in one minute. The angular velocity of disc in $\\text{rad s}^{-1}$ is",
+                "options": ["$2\\pi$", "$\\pi$", "$\\frac{\\pi}{2}$", "$\\frac{\\pi}{4}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Calculate the frequency ($n$) of rotation in revolutions per second (Hz).<br><b>Step 2:</b> $n = \\frac{30 \\text{ rotations}}{60 \\text{ seconds}} = 0.5 \\text{ rev/s}$.<br><b>Step 3:</b> The formula linking angular velocity and frequency is $\\omega = 2\\pi n$.<br><b>Step 4:</b> Substitute the frequency: $\\omega = 2\\pi(0.5) = \\pi \\text{ rad s}^{-1}$."
+            },
+            {
+                "id": "MIP-TEST-041",
+                "topic": "Circular Motion",
+                "difficulty": 1,
+                "tags": ["Centripetal Acceleration", "Kinematics"],
+                "q": "A particle is moving at uniform speed $2\\text{ ms}^{-1}$ along a circle of radius 0.5m. The centripetal acceleration of particle is",
+                "options": ["$1\\text{ ms}^{-2}$", "$2\\text{ ms}^{-2}$", "$4\\text{ ms}^{-2}$", "$8\\text{ ms}^{-2}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The formula for centripetal acceleration is $a_c = \\frac{v^2}{r}$.<br><b>Step 2:</b> Substitute the given values: velocity $v = 2\\text{ m/s}$ and radius $r = 0.5\\text{ m}$.<br><b>Step 3:</b> $a_c = \\frac{2^2}{0.5} = \\frac{4}{0.5}$.<br><b>Step 4:</b> Calculate the result: $a_c = 8\\text{ ms}^{-2}$."
+            },
+            {
+                "id": "MIP-TEST-042",
+                "topic": "Circular Motion",
+                "difficulty": 3,
+                "tags": ["Angular Velocity", "Relative Motion"],
+                "q": "A particle p is moving in a circle of radius 'a' with a uniform speed v. C is the centre of the circle and AB is a diameter. when passing through B the angular velocity of P about A and C are in the ratio",
+                "options": ["1:1", "1:2", "2:1", "1:3"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Angular velocity about a reference point is defined as $\\omega = \\frac{v_{\\perp}}{r}$, where $v_{\\perp}$ is the component of velocity perpendicular to the line joining the particle and the reference point.<br><b>Step 2:</b> When the particle P passes through point B, its velocity $v$ is tangential to the circle, meaning it is strictly perpendicular to the diameter AB.<br><b>Step 3:</b> Calculate angular velocity about the center C: The distance $CB = a$, so $\\omega_C = \\frac{v}{a}$.<br><b>Step 4:</b> Calculate angular velocity about point A: The distance $AB = 2a$ (diameter), so $\\omega_A = \\frac{v}{2a}$.<br><b>Step 5:</b> Find the ratio: $\\omega_A : \\omega_C = \\left(\\frac{v}{2a}\\right) : \\left(\\frac{v}{a}\\right) = 1:2$."
+            },
+            {
+                "id": "MIP-TEST-043",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Addition", "Parallelogram Law"],
+                "q": "Two forces each of 20N act on a body at $120^{\\circ}$. The magnitude and direction of resultant is",
+                "options": ["$20\\text{N}; \\phi=60^{\\circ}$", "$20\\sqrt{2}\\text{N}; \\phi=60^{\\circ}$", "$10\\sqrt{2}\\text{N}; \\phi=0^{\\circ}$", "$10\\sqrt{2}\\text{N}; \\phi=120^{\\circ}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> When two equal forces $F$ act at an angle $\\theta$, their resultant is given by $R = 2F\\cos(\\frac{\\theta}{2})$.<br><b>Step 2:</b> Substitute the values: $R = 2(20)\\cos(\\frac{120^{\\circ}}{2}) = 40\\cos 60^{\\circ}$.<br><b>Step 3:</b> Since $\\cos 60^{\\circ} = 0.5$, $R = 40(0.5) = 20\\text{N}$.<br><b>Step 4:</b> Because the two forces have equal magnitudes, their resultant vector perfectly bisects the angle between them.<br><b>Step 5:</b> Therefore, the direction of the resultant relative to either force is $\\phi = \\frac{120^{\\circ}}{2} = 60^{\\circ}$."
+            },
+            {
+                "id": "MIP-TEST-044",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Addition", "Ratio of Forces"],
+                "q": "Two forces whose magnitudes are in the ratio 3:5 give a resultant of 35N. If the angle between them is $60^{\\circ}$, the magnitude of each force is",
+                "options": ["3N, 5N", "9N, 25N", "15N, 25N", "21N, 35N"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Let the magnitudes of the two forces be $3x$ and $5x$.<br><b>Step 2:</b> Use the formula for the magnitude of the resultant: $R^2 = A^2 + B^2 + 2AB\\cos\\theta$.<br><b>Step 3:</b> Substitute the knowns: $35^2 = (3x)^2 + (5x)^2 + 2(3x)(5x)\\cos 60^{\\circ}$.<br><b>Step 4:</b> $1225 = 9x^2 + 25x^2 + 30x^2(0.5) = 34x^2 + 15x^2 = 49x^2$.<br><b>Step 5:</b> Solve for $x$: $x^2 = \\frac{1225}{49} = 25 \\implies x = 5$.<br><b>Step 6:</b> The magnitudes of the forces are $3(5) = 15\\text{N}$ and $5(5) = 25\\text{N}$."
+            },
+            {
+                "id": "MIP-TEST-045",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Vector Addition", "Angle Calculation"],
+                "q": "The resultant of two forces 2P and $\\sqrt{2}P$ is $\\sqrt{10}P$. The angle between the forces is",
+                "options": ["$30^{\\circ}$", "$60^{\\circ}$", "$45^{\\circ}$", "$90^{\\circ}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Use the resultant formula: $R^2 = F_1^2 + F_2^2 + 2F_1 F_2 \\cos\\theta$.<br><b>Step 2:</b> Substitute the given values: $(\\sqrt{10}P)^2 = (2P)^2 + (\\sqrt{2}P)^2 + 2(2P)(\\sqrt{2}P)\\cos\\theta$.<br><b>Step 3:</b> Expand the terms: $10P^2 = 4P^2 + 2P^2 + 4\\sqrt{2}P^2\\cos\\theta$.<br><b>Step 4:</b> Simplify the equation: $10P^2 = 6P^2 + 4\\sqrt{2}P^2\\cos\\theta \\implies 4P^2 = 4\\sqrt{2}P^2\\cos\\theta$.<br><b>Step 5:</b> Cancel $4P^2$ from both sides: $1 = \\sqrt{2}\\cos\\theta \\implies \\cos\\theta = \\frac{1}{\\sqrt{2}}$.<br><b>Step 6:</b> Therefore, the angle $\\theta$ is $45^{\\circ}$."
+            },
+            {
+                "id": "MIP-TEST-046",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Triangle Law", "Vector Addition"],
+                "q": "Which one of the following cannot be represented by the three sides of a triangle?",
+                "options": ["5, 9, 11", "5, 7, 13", "7, 10, 13", "3, 8, 9"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> According to the triangle inequality theorem, for any three lengths to form a triangle, the sum of the lengths of any two sides must be strictly greater than the length of the third side.<br><b>Step 2:</b> Test option 1: $5 + 9 = 14 > 11$ (Valid).<br><b>Step 3:</b> Test option 2: $5 + 7 = 12$. Since $12 < 13$, these sides cannot close to form a triangle.<br><b>Step 4:</b> Thus, 5, 7, 13 cannot represent the three sides of a triangle."
+            },
+            {
+                "id": "MIP-TEST-047",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Triangle Law", "Vector Geometry"],
+                "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjMkxXRl3aUrSBFDurXUbChTjRkd93rm67MYfyupCLKwtXSNed8_lNXsUMXTZI6pnpcsuiM3sZm6eZvNIoHcxznKWFmf5Q89g8-FjTIm38uI5TBLD35m_ThXAdz5pFO_kFTBZko2R0JY22umYbpuse8X63damp_VXu5pWeEvoFfLQKw-Mj5RaL0alTvoqjC",
+                "q": "Figure shows three vectors $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ where R is the mid point of PQ. then which of the following relations is correct.",
+                "options": ["$\\vec{a}+\\vec{b}=2\\vec{c}$", "$\\vec{a}+\\vec{b}=\\vec{c}$", "$\\vec{a}-\\vec{b}=2\\vec{c}$", "$\\vec{a}-\\vec{b}=\\vec{c}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Analyze the vector triangle $\\Delta POR$. By the triangle law of vector addition, $\\vec{a} = \\vec{c} + \\vec{PR}$.<br><b>Step 2:</b> Analyze the vector triangle $\\Delta QOR$. Similarly, $\\vec{b} = \\vec{c} + \\vec{QR}$.<br><b>Step 3:</b> Add the two equations together: $\\vec{a} + \\vec{b} = 2\\vec{c} + \\vec{PR} + \\vec{QR}$.<br><b>Step 4:</b> Since R is given as the midpoint of PQ, the vector $\\vec{PR}$ is equal in magnitude but opposite in direction to $\\vec{QR}$. Therefore, $\\vec{PR} = -\\vec{QR}$, which means $\\vec{PR} + \\vec{QR} = 0$.<br><b>Step 5:</b> Substituting this back leaves $\\vec{a} + \\vec{b} = 2\\vec{c}$."
+            },
+            {
+                "id": "MIP-TEST-048",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Polygon Law", "Symmetry"],
+                "q": "Eleven forces each equal to 5N act on a particle simultaneously. If each force makes an angle $30^{\\circ}$ with the next one, the resultant of all forces is",
+                "options": ["15 N", "55 N", "5 N", "zero"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> If 12 equal forces act at equal angles of $30^{\\circ}$ ($360^{\\circ}/12 = 30^{\\circ}$), they form a completely closed regular polygon. By the polygon law, their net resultant is zero.<br><b>Step 2:</b> If one force is removed (leaving exactly 11 forces), the closed loop is broken.<br><b>Step 3:</b> For the sum of all 12 to be zero, the resultant of the 11 forces must exactly balance the missing 12th force.<br><b>Step 4:</b> Therefore, the resultant of the 11 forces is equal in magnitude to the single missing force, which is 5N."
+            },
+            {
+                "id": "MIP-TEST-049",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Equilibrium", "Resolution of Forces"],
+                "q": "A body of mass $\\sqrt{3}$ kg is suspended by a string to rigid support. The body is pulled horizontally by a force F until the string makes an angle of $30^{\\circ}$ with the vertical. The value of F and tension in the string are",
+                "options": ["9.8 N, 9.8N", "9.8 N, 19.6 N", "19.6 N, 19.6 N", "19.6 N, 9.8 N"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The body is in equilibrium under the action of three forces: Tension $T$, weight $mg$, and horizontal force $F$.<br><b>Step 2:</b> Resolve the tension into components. Balancing vertical forces: $T\\cos 30^{\\circ} = mg$.<br><b>Step 3:</b> Substitute the knowns: $T(\\frac{\\sqrt{3}}{2}) = \\sqrt{3} \\times 9.8 \\implies T = 19.6\\text{ N}$.<br><b>Step 4:</b> Balancing horizontal forces: $F = T\\sin 30^{\\circ}$.<br><b>Step 5:</b> Substitute the tension: $F = 19.6 \\times \\frac{1}{2} = 9.8\\text{ N}$."
+            },
+            {
+                "id": "MIP-TEST-050",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Equilibrium", "Lami's Theorem"],
+                "q": "Two light strings of length 4cm and 3 cm are tied to a bob of weight 500 gm. The free ends of the strings are tied to pegs in the same horizontal line and separated by 5 cm. The ratio of tension in the longer string to that in the shorter string is",
+                "options": ["4:3", "3:4", "4:5", "5:4"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The lengths of the strings (3cm, 4cm) and the distance between the pegs (5cm) form a 3-4-5 right-angled triangle. Thus, the angle between the two strings at the bob is exactly $90^{\\circ}$.<br><b>Step 2:</b> Let the tension in the 4cm string be $T_1$ and in the 3cm string be $T_2$. Let the angle the 4cm string makes with the horizontal be $\\theta_1$ and the 3cm string be $\\theta_2$.<br><b>Step 3:</b> From the geometry of the triangle, $\\sin\\theta_1 = \\frac{4}{5}$ and $\\sin\\theta_2 = \\frac{3}{5}$. Also, $\\cos\\theta_1 = \\frac{3}{5}$ and $\\cos\\theta_2 = \\frac{4}{5}$.<br><b>Step 4:</b> For horizontal equilibrium, the horizontal components of the tensions must be equal: $T_1\\cos\\theta_1 = T_2\\cos\\theta_2$.<br><b>Step 5:</b> Substitute the cosine values: $T_1(\\frac{3}{5}) = T_2(\\frac{4}{5})$.<br><b>Step 6:</b> Rearrange to find the ratio: $\\frac{T_1}{T_2} = \\frac{3}{4}$."
+            },
+            {
+                "id": "MIP-TEST-051",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Newton's Second Law", "3D Vectors"],
+                "q": "A force $2\\hat{i}+\\hat{j}-\\hat{k}$ newton acts on a body which is initially at rest. If the velocity of the body at the end of 20 seconds is $4\\hat{i}+2\\hat{j}+2\\hat{k}\\text{ ms}^{-1}$, the mass of the body is",
+                "options": ["20kg", "15kg", "10kg", "5kg"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Calculate the acceleration vector using $\\vec{a} = \\frac{\\vec{v} - \\vec{u}}{t}$.<br><b>Step 2:</b> $\\vec{a} = \\frac{(4\\hat{i}+2\\hat{j}+2\\hat{k}) - 0}{20} = 0.2\\hat{i} + 0.1\\hat{j} + 0.1\\hat{k}$.<br><b>Step 3:</b> Find the magnitude of acceleration: $|\\vec{a}| = \\sqrt{0.2^2 + 0.1^2 + 0.1^2} = \\sqrt{0.06} = \\frac{\\sqrt{6}}{10}\\text{ m/s}^{2}$.<br><b>Step 4:</b> Find the magnitude of force: $|\\vec{F}| = \\sqrt{2^2 + 1^2 + (-1)^2} = \\sqrt{4+1+1} = \\sqrt{6}\\text{ N}$.<br><b>Step 5:</b> Use Newton's second law ($F = ma$) to find mass: $m = \\frac{|\\vec{F}|}{|\\vec{a}|} = \\frac{\\sqrt{6}}{\\sqrt{6}/10} = 10\\text{ kg}$."
+            },
+            {
+                "id": "MIP-TEST-052",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Displacement Vector", "Parametric Equations"],
+                "q": "The position vector of a moving particle at t seconds is given by $\\vec{r}=3\\hat{i}+4t^{2}\\hat{j}-t^{3}\\hat{k}$. Its displacement during an interval of 1s to 3s is",
+                "options": ["$\\hat{j}-\\hat{k}$", "$3\\hat{i}+4\\hat{j}-\\hat{k}$", "$9\\hat{i}+36\\hat{j}-27\\hat{k}$", "$32\\hat{j}-26\\hat{k}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Calculate the position vector at $t=1\\text{ s}$: $\\vec{r}(1) = 3\\hat{i} + 4(1)^2\\hat{j} - (1)^3\\hat{k} = 3\\hat{i} + 4\\hat{j} - \\hat{k}$.<br><b>Step 2:</b> Calculate the position vector at $t=3\\text{ s}$: $\\vec{r}(3) = 3\\hat{i} + 4(3)^2\\hat{j} - (3)^3\\hat{k} = 3\\hat{i} + 36\\hat{j} - 27\\hat{k}$.<br><b>Step 3:</b> The displacement is the difference between the final and initial position vectors: $\\Delta\\vec{r} = \\vec{r}(3) - \\vec{r}(1)$.<br><b>Step 4:</b> $\\Delta\\vec{r} = (3-3)\\hat{i} + (36-4)\\hat{j} + (-27 - (-1))\\hat{k}$.<br><b>Step 5:</b> $\\Delta\\vec{r} = 0\\hat{i} + 32\\hat{j} - 26\\hat{k}$."
+            },
+            {
+                "id": "MIP-TEST-053",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Acceleration Vector", "Kinematics"],
+                "q": "If initial velocity of a body is $\\vec{u}=2\\hat{i}-2\\hat{j}+3\\hat{k}$ and the final velocity is $\\vec{v}=2\\hat{i}-4\\hat{j}+5\\hat{k}$ it is changed in time of 10 sec. Find the acceleration vector?",
+                "options": ["$\\frac{3\\hat{i}-2\\hat{j}+2\\hat{k}}{10}$", "$\\frac{-3\\hat{i}+\\hat{j}+2\\hat{k}}{10}$", "$\\frac{-3\\hat{i}-2\\hat{j}+2\\hat{k}}{10}$", "$\\frac{-\\hat{j}+\\hat{k}}{5}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Use the formula for average acceleration: $\\vec{a} = \\frac{\\vec{v} - \\vec{u}}{t}$.<br><b>Step 2:</b> Substitute the given vectors: $\\vec{a} = \\frac{(2\\hat{i}-4\\hat{j}+5\\hat{k}) - (2\\hat{i}-2\\hat{j}+3\\hat{k})}{10}$.<br><b>Step 3:</b> Subtract corresponding components: $\\vec{a} = \\frac{(2-2)\\hat{i} + (-4 - (-2))\\hat{j} + (5-3)\\hat{k}}{10}$.<br><b>Step 4:</b> $\\vec{a} = \\frac{0\\hat{i} - 2\\hat{j} + 2\\hat{k}}{10}$.<br><b>Step 5:</b> Simplify the fraction: $\\vec{a} = \\frac{-2\\hat{j} + 2\\hat{k}}{10} = \\frac{-\\hat{j} + \\hat{k}}{5}$."
+            },
+            {
+                "id": "MIP-TEST-054",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["Average Acceleration", "Change in Velocity"],
+                "q": "A particle is moving eastwards with a velocity $15\\text{ ms}^{-1}$. Suddenly it moves towards north and moves with the same speed in a time 10 sec. The average acceleration during this time is",
+                "options": ["$3/\\sqrt{2}\\text{ NE}$", "$3\\sqrt{2}\\text{ NE}$", "$3/\\sqrt{2}\\text{ NW}$", "$3\\sqrt{2}\\text{ NW}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Represent initial velocity as $\\vec{u} = 15\\hat{i}$ (East) and final velocity as $\\vec{v} = 15\\hat{j}$ (North).<br><b>Step 2:</b> The change in velocity is $\\Delta\\vec{v} = \\vec{v} - \\vec{u} = 15\\hat{j} - 15\\hat{i}$.<br><b>Step 3:</b> The vector $-15\\hat{i} + 15\\hat{j}$ points directly North-West.<br><b>Step 4:</b> Find the magnitude of the change in velocity: $|\\Delta\\vec{v}| = \\sqrt{(-15)^2 + 15^2} = \\sqrt{225 + 225} = 15\\sqrt{2}\\text{ m/s}$.<br><b>Step 5:</b> Calculate average acceleration: $a_{avg} = \\frac{|\\Delta\\vec{v}|}{t} = \\frac{15\\sqrt{2}}{10} = 1.5\\sqrt{2}$.<br><b>Step 6:</b> Rewrite $1.5\\sqrt{2}$ as $\\frac{3}{2}\\sqrt{2} = \\frac{3}{\\sqrt{2}}\\text{ m/s}^{2}$."
+            },
+            {
+                "id": "MIP-TEST-055",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 3,
+                "tags": ["Relative Speed", "Vector Kinematics"],
+                "q": "A Person crossing a road with a certain velocity due north, sees a car moving towards east. The relative velocity of the car w.r.t the person is $\\sqrt{2}$ times that of the velocity of the person. The angle made by the relative velocity with the east is",
+                "options": ["$30^{\\circ}$", "$45^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let the velocity of the person be $\\vec{v}_p = v_p\\hat{j}$ (North). Let the true velocity of the car be $\\vec{v}_c = v_c\\hat{i}$ (East).<br><b>Step 2:</b> The relative velocity of the car with respect to the person is $\\vec{v}_{cp} = \\vec{v}_c - \\vec{v}_p = v_c\\hat{i} - v_p\\hat{j}$.<br><b>Step 3:</b> We are given that $|\\vec{v}_{cp}| = \\sqrt{2}v_p$. So, $\\sqrt{v_c^2 + (-v_p)^2} = \\sqrt{2}v_p$.<br><b>Step 4:</b> Square both sides: $v_c^2 + v_p^2 = 2v_p^2 \\implies v_c^2 = v_p^2 \\implies v_c = v_p$.<br><b>Step 5:</b> The relative velocity vector is $\\vec{v}_{cp} = v_p\\hat{i} - v_p\\hat{j}$.<br><b>Step 6:</b> The angle this vector makes with East (the positive x-axis) is $\\tan\\theta = \\frac{|v_y|}{|v_x|} = \\frac{v_p}{v_p} = 1$. Therefore, $\\theta = 45^{\\circ}$."
+            },
+            {
+                "id": "MIP-TEST-056",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 3,
+                "tags": ["Rain and Man Problem", "Relative Velocity"],
+                "q": "A Person is walking in rain feels the velocity of rain as twice to his velocity. At which angle he should hold the umbrella with vertical if he moves forward, if it is raining vertically downwards",
+                "options": ["$30^{\\circ}$", "$45^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Let the man's velocity be $\\vec{v}_m = v_m\\hat{i}$ and the true rain velocity be $\\vec{v}_r = -v_r\\hat{j}$.<br><b>Step 2:</b> The relative velocity of rain with respect to the man is $\\vec{v}_{rm} = \\vec{v}_r - \\vec{v}_m = -v_m\\hat{i} - v_r\\hat{j}$.<br><b>Step 3:</b> We are given that the magnitude of this relative velocity is twice the man's speed: $|\\vec{v}_{rm}| = 2v_m$.<br><b>Step 4:</b> $\\sqrt{(-v_m)^2 + (-v_r)^2} = 2v_m \\implies v_m^2 + v_r^2 = 4v_m^2 \\implies v_r^2 = 3v_m^2 \\implies v_r = \\sqrt{3}v_m$.<br><b>Step 5:</b> The angle $\\theta$ with the vertical is $\\tan\\theta = \\frac{v_m}{v_r} = \\frac{v_m}{\\sqrt{3}v_m} = \\frac{1}{\\sqrt{3}}$.<br><b>Step 6:</b> Therefore, the umbrella should be held at $30^{\\circ}$ with the vertical."
+            },
+            {
+        "id": "MIP-TEST-057",
+        "topic": "Relative Velocity in 2D",
+        "difficulty": 2,
+        "tags": ["Rain and Man Problem", "Trigonometry"],
+        "q": "When it is raining vertically down, to a man walking on road the velocity of rain appears to be 1.5 times his velocity. To protect himself from rain he should hold the umbrella at an angle $\\theta$ to vertical. Then $\\tan \\theta=$",
+        "options": ["$\\frac{2}{\\sqrt{5}}$", "$\\frac{\\sqrt{5}}{2}$", "$\\frac{2}{3}$", "$\\frac{3}{2}$"],
+        "correct": 0,
+        "sol": "<b>Step 1:</b> Let the man's velocity be $v_m$ horizontally, and rain's true velocity be $v_r$ vertically.<br><b>Step 2:</b> The magnitude of relative velocity is given as $|\\vec{v}_{rm}| = 1.5v_m = \\frac{3}{2}v_m$.<br><b>Step 3:</b> We know $|\\vec{v}_{rm}| = \\sqrt{v_m^2 + v_r^2}$. Square both sides: $v_m^2 + v_r^2 = (1.5v_m)^2 = 2.25v_m^2$.<br><b>Step 4:</b> Solve for $v_r$: $v_r^2 = 2.25v_m^2 - 1v_m^2 = 1.25v_m^2 = \\frac{5}{4}v_m^2 \\implies v_r = \\frac{\\sqrt{5}}{2}v_m$.<br><b>Step 5:</b> The angle $\\theta$ with the vertical satisfies $\\tan \\theta = \\frac{v_m}{v_r}$.<br><b>Step 6:</b> Substitute $v_r$: $\\tan \\theta = \\frac{v_m}{(\\sqrt{5}/2)v_m} = \\frac{2}{\\sqrt{5}}$."
+    },
+            {
+                "id": "MIP-TEST-058",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["Orthogonal Vectors", "Relative Speed"],
+                "q": "A motor car A is travelling with a velocity of 20m/s in the north - west direction and another motor car B is travelling with a velocity of 15 m/s in the north-east direction. The magnitude of relative velocity of B with respect to A is.",
+                "options": ["25 m/s", "15 m/s", "20 m/s", "35 m/s"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Note the directions: North-West and North-East are exactly perpendicular to each other ($90^{\\circ}$ apart).<br><b>Step 2:</b> Since the velocity vectors are orthogonal, the magnitude of their relative velocity $|\\vec{v}_{BA}| = |\\vec{v}_B - \\vec{v}_A|$ can be found using the Pythagorean theorem.<br><b>Step 3:</b> $|\\vec{v}_{BA}| = \\sqrt{v_A^2 + v_B^2}$.<br><b>Step 4:</b> Substitute the values: $|\\vec{v}_{BA}| = \\sqrt{20^2 + 15^2} = \\sqrt{400 + 225}$.<br><b>Step 5:</b> $|\\vec{v}_{BA}| = \\sqrt{625} = 25\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-059",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Time of Crossing"],
+                "q": "A man can swim in still water at a speed of 6 kmph and he has to cross the river and reach just opposite point on the other bank. If the river is flowing at a speed of 3 kmph, and the width of the river is 2km, the time taken to cross the river is (in hours)",
+                "options": ["$\\frac{2}{27}$", "$\\frac{2}{\\sqrt{27}}$", "$\\frac{2}{3}$", "$\\frac{2}{\\sqrt{45}}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> To reach the \"just opposite\" point, the swimmer must swim upstream at an angle such that his horizontal component perfectly cancels the river's flow.<br><b>Step 2:</b> The effective velocity crossing the river is $v_{cross} = \\sqrt{v_m^2 - v_r^2}$.<br><b>Step 3:</b> Substitute the values: $v_{cross} = \\sqrt{6^2 - 3^2} = \\sqrt{36 - 9} = \\sqrt{27}\\text{ kmph}$.<br><b>Step 4:</b> The time taken to cross is $t = \\frac{\\text{Width}}{v_{cross}}$.<br><b>Step 5:</b> $t = \\frac{2}{\\sqrt{27}}$ hours."
+            },
+            {
+                "id": "MIP-TEST-060",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Drift"],
+                "q": "A boat moves perpendicular to the bank with a velocity of $7.2\\text{ km/h}$. The current carries it 150m downstream, find the velocity of the current (The width of the river is 0.5 km).",
+                "options": ["$0.4\\text{ ms}^{-1}$", "$1.2\\text{ ms}^{-1}$", "$0.5\\text{ ms}^{-1}$", "$0.6\\text{ ms}^{-1}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Convert the boat's velocity to m/s: $v_b = 7.2 \\times \\frac{5}{18} = 2\\text{ m/s}$.<br><b>Step 2:</b> Convert the river's width to meters: $d = 0.5\\text{ km} = 500\\text{ m}$.<br><b>Step 3:</b> Since the boat is aimed perpendicular to the bank, the time taken to cross is purely determined by the boat's velocity: $t = \\frac{d}{v_b} = \\frac{500}{2} = 250\\text{ s}$.<br><b>Step 4:</b> During this time, the river current pushes the boat downstream causing a drift $x = 150\\text{ m}$.<br><b>Step 5:</b> The drift is caused entirely by the river's velocity: $x = v_r \\times t$.<br><b>Step 6:</b> Substitute and solve for $v_r$: $150 = v_r \\times 250 \\implies v_r = \\frac{150}{250} = 0.6\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-061",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Drift"],
+                "q": "A swimmer is capable of swimming $1.65\\text{ ms}^{-1}$ in still water. If she swims directly across a 180m wide river whose current is $0.85\\text{ ms}^{-1}$, how far downstream (from a point opposite her starting point) will she reach?",
+                "options": ["92.7 m", "40 m", "48 m", "20 m"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> \"Directly across\" means the swimmer aims perpendicular to the river flow. Her entire swimming speed contributes to crossing the river.<br><b>Step 2:</b> Calculate the time taken to cross the river: $t = \\frac{d}{v_b} = \\frac{180}{1.65} \\approx 109.09\\text{ s}$.<br><b>Step 3:</b> During this time, the river current pulls her downstream. This horizontal distance is the drift.<br><b>Step 4:</b> Calculate drift: $x = v_r \\times t = 0.85 \\times 109.09 = 92.72\\text{ m}$.<br><b>Step 5:</b> The closest option is 92.7 m."
+            },
+            {
+                "id": "MIP-TEST-062",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 3,
+                "tags": ["River Boat Problem", "Relative Speed"],
+                "q": "A person swims at $135^{\\circ}$ to current of river, to meet target on reaching opposite point. The ratio of person's velocity to river water velocity is",
+                "options": ["$\\sqrt{3}:1$", "$\\sqrt{2}:1$", "$1:\\sqrt{2}$", "$1:\\sqrt{3}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let the river flow along the positive x-axis. A heading of $135^{\\circ}$ means the person swims at an angle of $135^{\\circ} - 90^{\\circ} = 45^{\\circ}$ upstream relative to the normal (perpendicular) crossing line.<br><b>Step 2:</b> To reach the exactly opposite point, the downstream velocity of the river must perfectly cancel the upstream component of the swimmer's velocity.<br><b>Step 3:</b> Set up the equation: $v_m \\sin(45^{\\circ}) = v_r$.<br><b>Step 4:</b> Substitute $\\sin 45^{\\circ} = \\frac{1}{\\sqrt{2}}$: $v_m \\left(\\frac{1}{\\sqrt{2}}\\right) = v_r$.<br><b>Step 5:</b> Rearrange to find the ratio $v_m : v_r = \\sqrt{2} : 1$."
+            },
+            {
+                "id": "MIP-TEST-063",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Equation of Trajectory", "Angle of Projection"],
+                "q": "The parabolic path of a projectile is represented by $y=\\frac{x}{\\sqrt{3}}-\\frac{x^{2}}{60}$ in MKS units. Its angle of projection is $(g=10\\text{ ms}^{-2})$",
+                "options": ["$30^{\\circ}$", "$45^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The standard equation of trajectory for a projectile is $y = x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}$.<br><b>Step 2:</b> Compare the given equation $y = \\frac{x}{\\sqrt{3}} - \\frac{x^2}{60}$ with the standard form.<br><b>Step 3:</b> By equating the coefficients of the linear $x$ term, we get $\\tan\\theta = \\frac{1}{\\sqrt{3}}$.<br><b>Step 4:</b> The angle whose tangent is $\\frac{1}{\\sqrt{3}}$ is $30^{\\circ}$."
+            },
+            {
+                "id": "MIP-TEST-064",
+                "topic": "Projectile Motion",
+                "difficulty": 1,
+                "tags": ["Time of Flight", "Kinematics"],
+                "q": "A body is projected at angle $30^{\\circ}$ to horizontal with a velocity $50\\text{ ms}^{-1}$. Its time of flight is",
+                "options": ["4 s", "5 s", "6 s", "7 s"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The formula for the total time of flight of a projectile is $T = \\frac{2u\\sin\\theta}{g}$.<br><b>Step 2:</b> Substitute the given values: $u = 50\\text{ m/s}$, $\\theta = 30^{\\circ}$, and $g = 10\\text{ m/s}^2$ (standard approximation if not given).<br><b>Step 3:</b> $T = \\frac{2(50)\\sin 30^{\\circ}}{10}$.<br><b>Step 4:</b> Since $\\sin 30^{\\circ} = 0.5$, we have $T = \\frac{100(0.5)}{10} = \\frac{50}{10} = 5\\text{ s}$."
+            },
+            {
+                "id": "MIP-TEST-065",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Velocity Vector", "Kinematics"],
+                "q": "A body is projected with velocity $60\\text{ m/s}$ at $30^{\\circ}$ to the horizontal. The velocity of the body after 3 seconds is $(g=10\\text{ ms}^{-2})$",
+                "options": ["$20\\hat{i}+20\\sqrt{3}\\hat{j}$", "$30\\hat{i}$", "$10\\sqrt{3}\\hat{j}$", "$30\\sqrt{3}\\hat{i}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Calculate the initial horizontal and vertical components of velocity.<br><b>Step 2:</b> $u_x = 60\\cos 30^{\\circ} = 60\\left(\\frac{\\sqrt{3}}{2}\\right) = 30\\sqrt{3}\\text{ m/s}$.<br><b>Step 3:</b> $u_y = 60\\sin 30^{\\circ} = 60(0.5) = 30\\text{ m/s}$.<br><b>Step 4:</b> The horizontal velocity remains constant, so $v_x = 30\\sqrt{3}\\text{ m/s}$.<br><b>Step 5:</b> Calculate the vertical velocity after 3 seconds using $v_y = u_y - gt$: $v_y = 30 - 10(3) = 30 - 30 = 0\\text{ m/s}$.<br><b>Step 6:</b> The velocity vector is strictly horizontal: $\\vec{v} = 30\\sqrt{3}\\hat{i}$."
+            },
+            {
+                "id": "MIP-TEST-066",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Maximum Height", "Range"],
+                "q": "A body is projected with velocity u such that its horizontal range and maximum vertical heights are same. The maximum height is",
+                "options": ["$\\frac{u^{2}}{2g}$", "$\\frac{3u^{2}}{4g}$", "$\\frac{16u^{2}}{17g}$", "$\\frac{8u^{2}}{17g}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> We are given that Range $R$ = Maximum Height $H$.<br><b>Step 2:</b> Substitute the formulas: $\\frac{u^2\\sin 2\\theta}{g} = \\frac{u^2\\sin^2\\theta}{2g}$.<br><b>Step 3:</b> Expand $\\sin 2\\theta$ and simplify: $\\frac{u^2(2\\sin\\theta\\cos\\theta)}{g} = \\frac{u^2\\sin^2\\theta}{2g} \\implies 2\\cos\\theta = \\frac{\\sin\\theta}{2}$.<br><b>Step 4:</b> Solve for $\\theta$: $\\tan\\theta = 4$.<br><b>Step 5:</b> Construct a right triangle with opposite = 4, adjacent = 1. Hypotenuse = $\\sqrt{4^2+1^2} = \\sqrt{17}$. Thus, $\\sin\\theta = \\frac{4}{\\sqrt{17}}$.<br><b>Step 6:</b> Substitute $\\sin\\theta$ back into the height formula: $H = \\frac{u^2\\sin^2\\theta}{2g} = \\frac{u^2(16/17)}{2g} = \\frac{8u^2}{17g}$."
+            },
+            {
+                "id": "MIP-TEST-067",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Kinetic Energy", "Velocity at Maximum Height"],
+                "q": "A cricket ball is hit for a six leaving the bat at an angle of $60^{\\circ}$ to the horizontal with kinetic energy 'k'. At the top, K.E. of the ball is",
+                "options": ["Zero", "k", "$\\frac{k}{4}$", "$\\frac{k}{\\sqrt{2}}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Initial kinetic energy is $k = \\frac{1}{2}mu^2$.<br><b>Step 2:</b> At the highest point (the top), the vertical component of velocity is zero. The ball only has its horizontal component of velocity, which is constant: $v_{top} = u\\cos\\theta$.<br><b>Step 3:</b> The kinetic energy at the top is $KE_{top} = \\frac{1}{2}m(v_{top})^2 = \\frac{1}{2}m(u\\cos 60^{\\circ})^2$.<br><b>Step 4:</b> Substitute $\\cos 60^{\\circ} = 0.5$: $KE_{top} = \\frac{1}{2}mu^2 (0.5)^2 = k(0.25) = \\frac{k}{4}$."
+            },
+            {
+                "id": "MIP-TEST-068",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Maximum Range", "Kinematics"],
+                "q": "A bomb at rest is exploded and the pieces are scattered in all directions with a maximum velocity of $20\\text{ ms}^{-1}$. Dangerous distance from that spot is $(g=10\\text{ m/s}^{2})$",
+                "options": ["10 m", "20 m", "30 m", "40 m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The dangerous distance is the maximum possible horizontal range a piece of the bomb can reach.<br><b>Step 2:</b> Maximum range occurs when the angle of projection is $45^{\\circ}$.<br><b>Step 3:</b> The formula for maximum range is $R_{max} = \\frac{v^2}{g}$.<br><b>Step 4:</b> Substitute the maximum velocity $v = 20\\text{ m/s}$ and $g = 10\\text{ m/s}^2$.<br><b>Step 5:</b> $R_{max} = \\frac{20^2}{10} = \\frac{400}{10} = 40\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-069",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Maximum Range", "Maximum Height"],
+                "q": "A boy can throw a stone up to a maximum height of 10 m. The maximum horizontal distance that the boy can throw the same stone up to will be",
+                "options": ["$20\\sqrt{2}\\text{ m}$", "10 m", "$10\\sqrt{2}\\text{ m}$", "20 m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The maximum height a person can throw an object is achieved when thrown straight up ($\\theta = 90^{\\circ}$). The formula is $H_{max} = \\frac{u^2}{2g}$.<br><b>Step 2:</b> We are given $H_{max} = 10\\text{ m}$, so $\\frac{u^2}{2g} = 10 \\implies \\frac{u^2}{g} = 20$.<br><b>Step 3:</b> The maximum horizontal distance (range) is achieved when thrown at $\\theta = 45^{\\circ}$. The formula is $R_{max} = \\frac{u^2}{g}$.<br><b>Step 4:</b> From Step 2, we already found that $\\frac{u^2}{g} = 20$.<br><b>Step 5:</b> Therefore, the maximum horizontal distance is $20\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-070",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Maximum Range", "Horizontal Component"],
+                "q": "A grass hopper can jump a maximum horizontal distance of 0.3 m. If it spends negligible time on the ground, its horizontal component of velocity is $(g=10\\text{ m/s}^{2})$",
+                "options": ["$3/2\\text{ m/s}$", "$\\sqrt{\\frac{3}{2}}\\text{ m/s}$", "$1/2\\text{ m/s}$", "$\\sqrt{\\frac{2}{3}}\\text{ m/s}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Maximum horizontal distance (range) is achieved at $\\theta = 45^{\\circ}$. Formula: $R_{max} = \\frac{u^2}{g}$.<br><b>Step 2:</b> Substitute the given range: $0.3 = \\frac{u^2}{10} \\implies u^2 = 3 \\implies u = \\sqrt{3}\\text{ m/s}$.<br><b>Step 3:</b> The horizontal component of velocity is $u_x = u\\cos\\theta$.<br><b>Step 4:</b> Substitute $u$ and $\\theta = 45^{\\circ}$: $u_x = \\sqrt{3} \\cos 45^{\\circ} = \\sqrt{3} \\times \\frac{1}{\\sqrt{2}} = \\sqrt{\\frac{3}{2}}\\text{ m/s}$."
+            },
+            {
+        "id": "MIP-TEST-071",
+        "topic": "Projectile Motion",
+        "difficulty": 3,
+        "tags": ["Velocity Components", "Kinematics"],
+        "q": "A stone is thrown with a velocity v at an angle $\\theta$ with the horizontal. Its speed when it makes an angle $\\alpha$ with the horizontal is",
+        "options": ["$v\\cos \\theta$", "$\\frac{v}{\\cos \\alpha}$", "$v\\cos \\theta \\cos \\alpha$", "$\\frac{v\\cos \\theta}{\\cos \\alpha}$"],
+        "correct": 3,
+        "sol": "<b>Step 1:</b> In projectile motion, ignoring air resistance, the horizontal component of velocity remains constant throughout the flight.<br><b>Step 2:</b> Initial horizontal velocity is $u_x = v\\cos \\theta$.<br><b>Step 3:</b> Let the speed be $v'$ when the velocity vector makes an angle $\\alpha$ with the horizontal. The new horizontal component is $v'_x = v'\\cos \\alpha$.<br><b>Step 4:</b> Equate the horizontal components: $v\\cos \\theta = v'\\cos \\alpha$.<br><b>Step 5:</b> Solve for the new speed $v'$: $v' = \\frac{v\\cos \\theta}{\\cos \\alpha}$."
+    },
+            {
+                "id": "MIP-TEST-072",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Complementary Angles", "Maximum Range"],
+                "q": "A body is projected with a certain speed at angles of projection of $\\theta$ and $90^{\\circ}-\\theta$. The maximum heights attained in the two cases are 20 m and 10 m respectively. The maximum possible range is",
+                "options": ["60 m", "30 m", "20 m", "80 m"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The maximum heights for complementary angles are $H_1 = \\frac{u^2\\sin^2\\theta}{2g} = 20$ and $H_2 = \\frac{u^2\\cos^2\\theta}{2g} = 10$.<br><b>Step 2:</b> Add the two height equations together: $H_1 + H_2 = \\frac{u^2}{2g}(\\sin^2\\theta + \\cos^2\\theta) = \\frac{u^2}{2g}$.<br><b>Step 3:</b> Substitute the values: $20 + 10 = \\frac{u^2}{2g} \\implies 30 = \\frac{u^2}{2g} \\implies \\frac{u^2}{g} = 60$.<br><b>Step 4:</b> The formula for maximum possible range (when thrown at $45^{\\circ}$) is exactly $R_{max} = \\frac{u^2}{g}$.<br><b>Step 5:</b> Therefore, $R_{max} = 60\\text{ m}$."
+            },
+            {
+        "id": "MIP-TEST-073",
+        "topic": "Projectile Motion",
+        "difficulty": 2,
+        "tags": ["Velocity at Maximum Height", "Kinematics"],
+        "q": "The launching speed of a certain projectile is five times the speed it has at its maximum height. Its angle of projection is",
+        "options": ["$\\theta=\\cos^{-1}(0.2)$", "$\\theta=\\sin^{-1}(0.2)$", "$\\theta=\\tan^{-1}(0.2)$", "$\\theta=0^{\\circ}$"],
+        "correct": 0,
+        "sol": "<b>Step 1:</b> Let the launching speed be $u$ and the angle of projection be $\\theta$.<br><b>Step 2:</b> At the maximum height, the vertical velocity is zero. The projectile only has a horizontal velocity, which remains constant: $v_{top} = u\\cos \\theta$.<br><b>Step 3:</b> The problem states that the launching speed is 5 times the speed at maximum height: $u = 5(v_{top})$.<br><b>Step 4:</b> Substitute $v_{top}$: $u = 5(u\\cos \\theta)$.<br><b>Step 5:</b> Cancel $u$ from both sides: $1 = 5\\cos \\theta \\implies \\cos \\theta = \\frac{1}{5} = 0.2$.<br><b>Step 6:</b> Therefore, $\\theta = \\cos^{-1}(0.2)$."
+    },
+            {
+                "id": "MIP-TEST-074",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Range", "Kinematics"],
+                "q": "A person throws a bottle into a dustbin at the same height as he is 2m away at an angle of $45^{\\circ}$ The velocity of thrown is",
+                "options": ["g", "$\\sqrt{g}$", "2g", "$\\sqrt{2g}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The dustbin is at the same height, so the distance of 2m represents the horizontal range $R$.<br><b>Step 2:</b> The angle of projection is $\\theta = 45^{\\circ}$. The range formula is $R = \\frac{u^2\\sin 2\\theta}{g}$.<br><b>Step 3:</b> Substitute the values: $2 = \\frac{u^2\\sin 90^{\\circ}}{g}$.<br><b>Step 4:</b> Since $\\sin 90^{\\circ} = 1$, we get $2 = \\frac{u^2}{g} \\implies u^2 = 2g$.<br><b>Step 5:</b> Taking the square root gives the initial velocity: $u = \\sqrt{2g}$."
+            },
+            {
+                "id": "MIP-TEST-075",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Equation of Trajectory", "Horizontal Projectile"],
+                "q": "A body projected horizontally from the top of a tower follows $y=20x^{2}$ parabola equation where x, y are in m $(g=10\\text{ m s}^{-2})$. Then the velocity of the projectile is $(\\text{ms}^{-1})$",
+                "options": ["0.2", "0.3", "0.4", "0.5"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> For a horizontally projected body, the equation of the trajectory taking the point of projection as the origin is $y = \\frac{g}{2u^2}x^2$.<br><b>Step 2:</b> Compare this with the given equation $y = 20x^2$.<br><b>Step 3:</b> Equating the coefficients: $\\frac{g}{2u^2} = 20$.<br><b>Step 4:</b> Substitute $g = 10$: $\\frac{10}{2u^2} = 20 \\implies \\frac{5}{u^2} = 20$.<br><b>Step 5:</b> Solve for $u^2$: $u^2 = \\frac{5}{20} = \\frac{1}{4}$.<br><b>Step 6:</b> Taking the square root gives $u = \\frac{1}{2} = 0.5\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-076",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Horizontal Projectile", "Time of Flight"],
+                "q": "A bomb is dropped from an aeroplane flying horizontally with a velocity of 720 kmph at an altitude of 980m. Time taken by the bomb to hit the ground is",
+                "options": ["1 s", "7.2 s", "14.14 s", "0.15 s"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The time taken by a horizontally projected object to reach the ground depends only on its initial height, not its horizontal velocity. The initial vertical velocity is $u_y = 0$.<br><b>Step 2:</b> Use the kinematic equation for vertical fall: $h = \\frac{1}{2}gt^2$.<br><b>Step 3:</b> Rearrange to solve for time: $t = \\sqrt{\\frac{2h}{g}}$.<br><b>Step 4:</b> Substitute $h = 980\\text{ m}$ and $g = 9.8\\text{ m/s}^2$: $t = \\sqrt{\\frac{2(980)}{9.8}} = \\sqrt{\\frac{1960}{9.8}} = \\sqrt{200}$.<br><b>Step 5:</b> Calculate the square root: $t = 14.14\\text{ s}$."
+            },
+            {
+                "id": "MIP-TEST-077",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Horizontal Projectile", "Velocity Vector"],
+                "q": "A body is projected horizontally from a height of 78.4 m with a velocity $10\\text{ ms}^{-1}$. Its velocity after 3 seconds is $(g=10\\text{ ms}^{-2})$ (Take direction of projection as $\\hat{i}$ and vertically upward direction as $\\hat{j}$)",
+                "options": ["$10\\hat{i}-30\\hat{j}$", "$10\\hat{i}+30\\hat{j}$", "$20\\hat{i}-30\\hat{j}$", "$10\\hat{i}+10\\sqrt{3}\\hat{j}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The horizontal velocity of the projectile remains constant. Since it's projected along $\\hat{i}$, $v_x = 10\\hat{i}$.<br><b>Step 2:</b> The initial vertical velocity is zero. The vertical velocity after time $t$ is $v_y = u_y - gt$.<br><b>Step 3:</b> Substitute the values: $v_y = 0 - 10(3) = -30\\text{ m/s}$.<br><b>Step 4:</b> Since the upward direction is $\\hat{j}$, the downward vertical velocity is $-30\\hat{j}$.<br><b>Step 5:</b> The total velocity vector is the sum of horizontal and vertical components: $\\vec{v} = 10\\hat{i} - 30\\hat{j}$."
+            },
+            {
+                "id": "MIP-TEST-078",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Horizontal Projectile", "Kinematics"],
+                "q": "Two thin wood screens A and B are separated by 200 m. A bullet travelling horizontally at a speed of $600\\text{ m/s}$ hits screen A, penetrates through it, and finally emerges out from B making holes in A and B. If the resistance of air and wood are negligible, the difference of heights of the holes in A and B is",
+                "options": ["5 m", "$\\frac{49}{90}\\text{ m}$", "$\\frac{7}{\\sqrt{90}}\\text{ m}$", "zero"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The bullet travels the horizontal distance of 200m at a constant speed of $600\\text{ m/s}$. Calculate the time taken: $t = \\frac{200}{600} = \\frac{1}{3}\\text{ s}$.<br><b>Step 2:</b> During this time $\\frac{1}{3}\\text{ s}$, the bullet falls vertically strictly under the influence of gravity.<br><b>Step 3:</b> Use the free fall equation to find the vertical drop: $y = \\frac{1}{2}gt^2$.<br><b>Step 4:</b> Substitute $g = 9.8\\text{ m/s}^2$ and $t = \\frac{1}{3}\\text{ s}$: $y = \\frac{1}{2}(9.8)\\left(\\frac{1}{3}\\right)^2 = 4.9 \\left(\\frac{1}{9}\\right)$.<br><b>Step 5:</b> Multiply to get the fraction: $y = \\frac{49}{90}\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-079",
+                "topic": "Circular Motion",
+                "difficulty": 2,
+                "tags": ["Angular Kinematics", "Constant Acceleration"],
+                "q": "A stationary wheel starts rotating about its own axis at constant angular acceleration. If the wheel completes 50 rotations in first 2 seconds, then the number of rotations made by it in next two seconds is",
+                "options": ["75", "100", "125", "150"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Use the angular kinematic equation $\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$. Since it starts from rest, $\\omega_0 = 0$.<br><b>Step 2:</b> For the first 2 seconds: $\\theta_1 = \\frac{1}{2}\\alpha(2)^2 = 2\\alpha$. We are given $\\theta_1 = 50$ rotations, so $2\\alpha = 50 \\implies \\alpha = 25\\text{ rotations/s}^2$.<br><b>Step 3:</b> Find the total rotations completed from the start up to $t=4\\text{ s}$ (the first 2s + the next 2s).<br><b>Step 4:</b> $\\theta_{total} = \\frac{1}{2}(25)(4)^2 = \\frac{1}{2}(25)(16) = 200$ rotations.<br><b>Step 5:</b> The rotations in the *next* two seconds are $\\theta_{total} - \\theta_1 = 200 - 50 = 150$ rotations."
+            },
+            {
+                "id": "MIP-TEST-080",
+                "topic": "Circular Motion",
+                "difficulty": 2,
+                "tags": ["Centripetal Acceleration", "Angular Velocity"],
+                "q": "A point size body is moving along a circle at an angular velocity $2.8\\text{ rad s}^{-1}$. If centripetal acceleration of body is $7\\text{ ms}^{-2}$ then its speed is",
+                "options": ["$1.25\\text{ ms}^{-1}$", "$2.5\\text{ ms}^{-1}$", "$3.5\\text{ ms}^{-1}$", "$7\\text{ ms}^{-1}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The formula for centripetal acceleration relating linear speed ($v$) and angular velocity ($\\omega$) is $a_c = v\\omega$.<br><b>Step 2:</b> We are given $a_c = 7\\text{ m/s}^2$ and $\\omega = 2.8\\text{ rad/s}$.<br><b>Step 3:</b> Substitute the values into the formula: $7 = v(2.8)$.<br><b>Step 4:</b> Solve for $v$: $v = \\frac{7}{2.8} = 2.5\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-081",
+                "topic": "Circular Motion",
+                "difficulty": 2,
+                "tags": ["Linear Velocity", "Rotational Kinematics"],
+                "q": "A circular plate is rotating about its own axis at an angular velocity 100 revolutions per minute. The linear velocity of a particle P of plate at a distance 4.2 cm from axis of rotation is",
+                "options": ["$0.22\\text{ m/s}$", "$0.44\\text{ m/s}$", "$2.2\\text{ m/s}$", "$4.4\\text{ m/s}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> First, convert the angular velocity from revolutions per minute (rpm) to radians per second (rad/s).<br><b>Step 2:</b> $\\omega = 100 \\text{ rpm} \\times \\frac{2\\pi \\text{ rad}}{60 \\text{ s}} = \\frac{10\\pi}{3}\\text{ rad/s}$.<br><b>Step 3:</b> Convert the radial distance to meters: $r = 4.2\\text{ cm} = 0.042\\text{ m}$.<br><b>Step 4:</b> Use the relation between linear and angular velocity: $v = r\\omega$.<br><b>Step 5:</b> $v = 0.042 \\times \\frac{10\\pi}{3} = 0.014 \\times 10\pi = 0.14\pi$.<br><b>Step 6:</b> Substitute $\\pi \\approx \\frac{22}{7}$: $v = 0.14 \\times \\frac{22}{7} = 0.02 \\times 22 = 0.44\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-082",
+                "topic": "Circular Motion",
+                "difficulty": 2,
+                "tags": ["Centripetal Acceleration", "Ratio"],
+                "q": "An aircraft executes horizontal loop of radius 1 km with steady speed of 900 kmph. The ratio of centripetal acceleration with acceleration due to gravity is",
+                "options": ["6.0", "6.4", "5", "7"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Convert the speed of the aircraft to m/s: $v = 900 \\times \\frac{5}{18} = 250\\text{ m/s}$.<br><b>Step 2:</b> Convert the radius to meters: $r = 1\\text{ km} = 1000\\text{ m}$.<br><b>Step 3:</b> Calculate the centripetal acceleration: $a_c = \\frac{v^2}{r} = \\frac{250^2}{1000} = \\frac{62500}{1000} = 62.5\\text{ m/s}^2$.<br><b>Step 4:</b> Calculate the ratio of $a_c$ to gravity ($g=9.8\\text{ m/s}^2$): $\\text{Ratio} = \\frac{62.5}{9.8} \\approx 6.377$.<br><b>Step 5:</b> Rounding to one decimal place gives 6.4."
+            },
+            {
+                "id": "MIP-TEST-083",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Vector Addition", "Orthogonal Resultant"],
+                "q": "The greatest and least resultant of two forces acting at a point are 29 Kg wt. and 5 Kg wt. respectively. If each force is increased by 3 Kg wt. the magnitude of the resultant of new forces acting at right angles to each other is",
+                "options": ["45 kg wt.", "35 kg wt.", "25 kg wt.", "15 kg wt."],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The greatest resultant occurs when forces are parallel ($F_1 + F_2 = 29$). The least resultant occurs when they are anti-parallel ($F_1 - F_2 = 5$).<br><b>Step 2:</b> Solve this system of equations. Add them: $2F_1 = 34 \\implies F_1 = 17\\text{ kg wt}$.<br><b>Step 3:</b> Subtract them: $2F_2 = 24 \\implies F_2 = 12\\text{ kg wt}$.<br><b>Step 4:</b> Increase each force by 3 kg wt: $F_1' = 17 + 3 = 20\\text{ kg wt}$ and $F_2' = 12 + 3 = 15\\text{ kg wt}$.<br><b>Step 5:</b> These new forces act at right angles ($90^{\\circ}$). The resultant is $R = \\sqrt{(F_1')^2 + (F_2')^2}$.<br><b>Step 6:</b> $R = \\sqrt{20^2 + 15^2} = \\sqrt{400 + 225} = \\sqrt{625} = 25\\text{ kg wt}$."
+            },
+            {
+                "id": "MIP-TEST-084",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Vector Addition", "Orthogonal Components"],
+                "q": "Two forces P and Q act at an angle of $120^{\\circ}$ with each other. If the resultant is at right angles to P and P is equal to 4 kg-wt, then the value of Q is",
+                "options": ["4 kgwt", "8 kgwt", "6 kgwt", "3 kgwt"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The formula for the angle $\\alpha$ the resultant makes with force P is $\\tan\\alpha = \\frac{Q\\sin\\theta}{P + Q\\cos\\theta}$.<br><b>Step 2:</b> We are given that the resultant is at right angles to P, meaning $\\alpha = 90^{\\circ}$.<br><b>Step 3:</b> Since $\\tan 90^{\\circ}$ is undefined, the denominator of the fraction must be zero: $P + Q\\cos\\theta = 0$.<br><b>Step 4:</b> Substitute $P = 4$ and $\\theta = 120^{\\circ}$: $4 + Q\\cos 120^{\\circ} = 0$.<br><b>Step 5:</b> We know $\\cos 120^{\\circ} = -0.5$. Therefore, $4 - 0.5Q = 0$.<br><b>Step 6:</b> Solve for Q: $0.5Q = 4 \\implies Q = 8\\text{ kgwt}$."
+            },
+            {
+                "id": "MIP-TEST-085",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Vector Addition", "Algebraic Manipulation"],
+                "q": "The resultant of two vectors is $\\vec{R}$. If the magnitude of $\\vec{Q}$ is doubled the new resultant becomes perpendicular to $\\vec{P}$, then magnitude of $\\vec{R}$ is",
+                "options": ["$\\frac{P^{2}-Q^{2}}{2PQ}$", "$\\frac{P+Q}{P-Q}$", "Q", "$\\frac{P}{Q}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Let the angle between $\\vec{P}$ and $\\vec{Q}$ be $\\theta$. The initial resultant magnitude is $R = \\sqrt{P^2 + Q^2 + 2PQ\\cos\\theta}$.<br><b>Step 2:</b> When $\\vec{Q}$ is doubled to $2\\vec{Q}$, the new resultant is perpendicular to $\\vec{P}$.<br><b>Step 3:</b> Using the direction formula where $\\alpha = 90^{\\circ}$, the denominator must be zero: $P + (2Q)\\cos\\theta = 0$.<br><b>Step 4:</b> From this, we find $2PQ\\cos\\theta = -P^2$.<br><b>Step 5:</b> Substitute this expression for $2PQ\\cos\\theta$ back into the original resultant squared formula: $R^2 = P^2 + Q^2 + (-P^2)$.<br><b>Step 6:</b> $R^2 = Q^2 \\implies R = Q$."
+            },
+            {
+        "id": "MIP-TEST-086",
+        "topic": "Addition and Resolution of Vectors",
+        "difficulty": 3,
+        "tags": ["Polygon Law", "Vector Equality"],
+        "q": "$\\vec{P}, \\vec{Q}, \\vec{R}, \\vec{S}$ are vectors of equal magnitude. If $\\vec{P}+\\vec{Q}-\\vec{R}=0$, the angle between $\\vec{P}$ and $\\vec{Q}$ is $\\theta_1$. If $\\vec{P}+\\vec{Q}-\\vec{S}=0$, the angle between $\\vec{P}$ and $\\vec{S}$ is $\\theta_2$. The ratio of $\\theta_1$ to $\\theta_2$ is",
+        "options": ["1:2", "2:1", "1:1", "$1:\\sqrt{3}$"],
+        "correct": 1,
+        "sol": "<b>Step 1:</b> For the first condition: $\\vec{P}+\\vec{Q} = \\vec{R}$. Since all vectors have the same magnitude $x$, the resultant of $\\vec{P}$ and $\\vec{Q}$ has magnitude $x$.<br><b>Step 2:</b> $x^2 = x^2 + x^2 + 2x^2\\cos \\theta_1 \\implies 2x^2\\cos \\theta_1 = -x^2 \\implies \\cos \\theta_1 = -0.5$. Therefore, $\\theta_1 = 120^{\\circ}$.<br><b>Step 3:</b> For the second condition: $\\vec{P}+\\vec{Q}-\\vec{S}=0 \\implies \\vec{Q} = \\vec{S}-\\vec{P}$. The magnitude of $(\\vec{S}-\\vec{P})$ is equal to the magnitude of $\\vec{Q}$, which is $x$.<br><b>Step 4:</b> The magnitude of a vector difference is $x^2 = x^2 + x^2 - 2x^2\\cos \\theta_2 \\implies 2x^2\\cos \\theta_2 = x^2 \\implies \\cos \\theta_2 = 0.5$. Therefore, $\\theta_2 = 60^{\\circ}$.<br><b>Step 5:</b> The ratio $\\theta_1 / \\theta_2 = 120^{\\circ} / 60^{\\circ} = 2:1$."
+    },
+            {
+                "id": "MIP-TEST-087",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Polygon Law", "Cyclic Vectors"],
+                "q": "If ABCD is a quadrilateral whose sides represent vectors in cyclic order, $\\vec{AB}$ is equivalent to",
+                "options": ["$\\vec{CA}+\\vec{CB}$", "$\\vec{CD}$", "$\\vec{AD}+\\vec{DC}+\\vec{CB}$", "$\\vec{AD}+\\vec{BD}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> By the polygon law of vector addition, if vectors form a closed loop in sequential (cyclic) order, their vector sum is zero.<br><b>Step 2:</b> Therefore, $\\vec{AB} + \\vec{BC} + \\vec{CD} + \\vec{DA} = 0$.<br><b>Step 3:</b> Rearrange the equation to solve for $\\vec{AB}$: $\\vec{AB} = -(\\vec{BC} + \\vec{CD} + \\vec{DA})$.<br><b>Step 4:</b> Reversing the direction of a vector flips its sign (e.g., $-\\vec{BC} = \\vec{CB}$).<br><b>Step 5:</b> Apply this rule to all terms: $\\vec{AB} = \\vec{CB} + \\vec{DC} + \\vec{AD}$.<br><b>Step 6:</b> Rearranging the terms gives $\\vec{AD} + \\vec{DC} + \\vec{CB}$."
+            },
+            {
+                "id": "MIP-TEST-088",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Equilibrium", "Resolution of Forces"],
+                "q": "An iron sphere of mass 100 kg is suspended freely from a rigid support by means of a rope of length 2m. The horizontal force required to displace it horizontally through 50cm is",
+                "options": ["980 N", "490 N", "245 N", "112.5 N"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The sphere is in equilibrium under three forces: horizontal force $F$, weight $mg$, and tension $T$.<br><b>Step 2:</b> Balancing forces: $T\\sin\\theta = F$ and $T\\cos\\theta = mg$. Dividing these yields $F = mg\\tan\\theta$.<br><b>Step 3:</b> From geometry, the rope length (hypotenuse) is $2\\text{m}$ and the horizontal displacement (opposite side) is $0.5\\text{m}$.<br><b>Step 4:</b> $\\sin\\theta = \\frac{0.5}{2} = 0.25 = \\frac{1}{4}$.<br><b>Step 5:</b> For small angles, $\\tan\\theta \\approx \\sin\\theta$. Thus, $\\tan\\theta \\approx \\frac{1}{4}$.<br><b>Step 6:</b> Substitute the values (taking $g=9.8\\text{ m/s}^2$): $F = (100 \\times 9.8) \\times \\left(\\frac{1}{4}\\right) = \\frac{980}{4} = 245\\text{ N}$."
+            },
+            {
+                "id": "MIP-TEST-089",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 1,
+                "tags": ["Equilibrium", "Vector Addition"],
+                "q": "Three forces $\\vec{A}=(\\hat{i}+\\hat{j}+\\hat{k})$, $\\vec{B}=(2\\hat{i}-\\hat{j}+3\\hat{k})$ and $\\vec{C}$ acting on a body to keep it in equilibrium. Then $\\vec{C}$ is",
+                "options": ["$-(3\\hat{i}+4\\hat{k})$", "$-(4\\hat{i}+3\\hat{k})$", "$(3\\hat{i}+4\\hat{j})$", "$(2\\hat{i}-3\\hat{k})$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> For a body to be in equilibrium under the action of three forces, their vector sum must be strictly zero.<br><b>Step 2:</b> $\\vec{A} + \\vec{B} + \\vec{C} = 0$.<br><b>Step 3:</b> Rearrange to solve for $\\vec{C}$: $\\vec{C} = -(\\vec{A} + \\vec{B})$.<br><b>Step 4:</b> Add $\\vec{A}$ and $\\vec{B}$: $\\vec{A} + \\vec{B} = (1+2)\\hat{i} + (1-1)\\hat{j} + (1+3)\\hat{k} = 3\\hat{i} + 0\\hat{j} + 4\\hat{k}$.<br><b>Step 5:</b> Substitute back: $\\vec{C} = -(3\\hat{i} + 4\\hat{k})$."
+            },
+            {
+                "id": "MIP-TEST-090",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 3,
+                "tags": ["Rolling Motion", "Displacement Vector"],
+                "q": "The displacement of the point of a wheel initially in contact with the ground when the wheel rolls forward quarter revolution where perimeter of the wheel is $4\\pi$ m, is (Assume the forward direction as x-axis)",
+                "options": ["$\\sqrt{(\\pi+2)^{2}+4} \\text{ along } \\tan^{-1}(\\frac{2}{\\pi})$", "$\\sqrt{(\\pi-2)^{2}+4} \\text{ along } \\tan^{-1}(\\frac{2}{\\pi-2})$", "$\\sqrt{(\\pi-2)^{2}+4} \\text{ along } \\tan^{-1}(\\frac{2}{\\pi})$", "$\\sqrt{(\\pi+2)^{2}+4} \\text{ along } \\tan^{-1}(\\frac{2}{\\pi-2})$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Calculate the radius. Perimeter $2\\pi R = 4\\pi \\implies R = 2\\text{ m}$.<br><b>Step 2:</b> Set the initial contact point as the origin $(0,0)$. The wheel rolls forward by a quarter revolution.<br><b>Step 3:</b> The horizontal distance covered by the center of the wheel is $\\frac{1}{4}$ of the perimeter: $x_c = \\frac{4\\pi}{4} = \\pi$. The height of the center remains $y_c = R = 2$.<br><b>Step 4:</b> A quarter revolution represents a $90^{\\circ}$ clockwise rotation. The point initially at the bottom $(0, -R)$ relative to the center rotates to the back $(-R, 0)$ relative to the center.<br><b>Step 5:</b> The new absolute coordinates of the point are $x = x_c - R = \\pi - 2$ and $y = y_c + 0 = 2$.<br><b>Step 6:</b> The displacement vector is $(\\pi-2)\\hat{i} + 2\\hat{j}$. Its magnitude is $\\sqrt{(\\pi-2)^2 + 4}$ and its angle with the x-axis is $\\tan^{-1}\\left(\\frac{2}{\\pi-2}\\right)$."
+            },
+            {
+                "id": "MIP-TEST-091",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["2D Kinematics", "Constant Acceleration"],
+                "q": "A particle starts from the origin at $t=0\\text{s}$ with a velocity of $10.0\\hat{j}\\text{ m/s}$ and moves in the xy-plane with a constant acceleration of $(8\\hat{i}+2\\hat{j})\\text{ ms}^{-2}$. Then y-coordinate of the particle in 2 sec is",
+                "options": ["24 m", "16 m", "8 m", "12 m"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> To find the y-coordinate, consider only the vertical components of the motion.<br><b>Step 2:</b> Initial velocity in y-direction: $u_y = 10\\text{ m/s}$.<br><b>Step 3:</b> Acceleration in y-direction: $a_y = 2\\text{ m/s}^2$.<br><b>Step 4:</b> Use the kinematic equation $y = u_y t + \\frac{1}{2} a_y t^2$.<br><b>Step 5:</b> Substitute $t = 2\\text{ s}$: $y = 10(2) + \\frac{1}{2}(2)(2^2) = 20 + 4 = 24\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-092",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Average Velocity", "Displacement Vector"],
+                "q": "A car moving at a constant speed of 36 kmph moves north wards for 20 minutes then due to west with the same speed for $8\\frac{1}{3}$ minutes. What is the average velocity of the car during this run in kmph?",
+                "options": ["27.5", "40.5", "20.8", "32.7"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Convert times to hours: $t_1 = \\frac{20}{60} = \\frac{1}{3}\\text{ hr}$ and $t_2 = \\frac{25/3}{60} = \\frac{25}{180} = \\frac{5}{36}\\text{ hr}$.<br><b>Step 2:</b> Calculate distances. Northward distance $d_1 = 36 \\times \\frac{1}{3} = 12\\text{ km}$. Westward distance $d_2 = 36 \\times \\frac{5}{36} = 5\\text{ km}$.<br><b>Step 3:</b> Net displacement $S = \\sqrt{d_1^2 + d_2^2} = \\sqrt{12^2 + 5^2} = 13\\text{ km}$.<br><b>Step 4:</b> Total time $t_{total} = \\frac{1}{3} + \\frac{5}{36} = \\frac{12+5}{36} = \\frac{17}{36}\\text{ hr}$.<br><b>Step 5:</b> Average velocity $v_{avg} = \\frac{S}{t_{total}} = \\frac{13}{17/36} = \\frac{13 \\times 36}{17} = \\frac{468}{17} \\approx 27.52\\text{ kmph}$."
+            },
+            {
+                "id": "MIP-TEST-093",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Vector Addition", "Kinematics"],
+                "q": "Velocity of a particle at time $t=0$ is $2\\text{ms}^{-1}$. A constant acceleration of $2\\text{ms}^{-2}$ acts on the particle for 1 second at an angle of $60^{\\circ}$ with its initial velocity. Find the magnitude of velocity at the end of 1 second.",
+                "options": ["$\\sqrt{3}\\text{ m/s}$", "$2\\sqrt{3}\\text{ m/s}$", "$4\\text{ m/s}$", "$8\\text{ m/s}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Set initial velocity along the x-axis: $\\vec{u} = 2\\hat{i}\\text{ m/s}$.<br><b>Step 2:</b> Resolve acceleration vector: $\\vec{a} = 2\\cos 60^{\\circ}\\hat{i} + 2\\sin 60^{\\circ}\\hat{j} = 2(0.5)\\hat{i} + 2(\\frac{\\sqrt{3}}{2})\\hat{j} = 1\\hat{i} + \\sqrt{3}\\hat{j}$.<br><b>Step 3:</b> Use $\\vec{v} = \\vec{u} + \\vec{a}t$. Since $t=1\\text{ s}$, $\\vec{v} = 2\\hat{i} + (1\\hat{i} + \\sqrt{3}\\hat{j})(1) = 3\\hat{i} + \\sqrt{3}\\hat{j}$.<br><b>Step 4:</b> Find the magnitude: $|\\vec{v}| = \\sqrt{3^2 + (\\sqrt{3})^2} = \\sqrt{9 + 3} = \\sqrt{12}$.<br><b>Step 5:</b> Simplify: $\\sqrt{12} = 2\\sqrt{3}\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-094",
+                "topic": "Circular Motion",
+                "difficulty": 2,
+                "tags": ["Change in Velocity", "Vector Subtraction"],
+                "q": "An aeroplane moving in a circular path with a speed $250\\text{ km/h}$. The change in velocity in half of the revolution is.",
+                "options": ["$500\\text{ km/h}$", "$250\\text{ km/h}$", "$120\\text{ km/h}$", "zero"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Speed remains constant, but the direction of the velocity vector changes continuously.<br><b>Step 2:</b> After half a revolution, the velocity vector points in the exact opposite direction to its initial state.<br><b>Step 3:</b> Let initial velocity be $\\vec{u} = v\\hat{i}$ and final velocity be $\\vec{v} = -v\\hat{i}$.<br><b>Step 4:</b> The change in velocity is $\\Delta\\vec{v} = \\vec{v} - \\vec{u} = -v\\hat{i} - v\\hat{i} = -2v\\hat{i}$.<br><b>Step 5:</b> The magnitude of change is $2v = 2(250) = 500\\text{ km/h}$."
+            },
+            {
+                "id": "MIP-TEST-095",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["Orthogonal Vectors", "Relative Speed"],
+                "q": "A car starting from a point travels towards east with a velocity of 36 kmph. Another car starting from the same point travels towards north with a velocity of 24 kmph. The relative velocity of one with respect to another is",
+                "options": ["$12\\sqrt{13}\\text{ kmph}$", "30 kmph", "12 kmph", "20 kmph"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Define the velocity vectors: $\\vec{v}_1 = 36\\hat{i}$ (East) and $\\vec{v}_2 = 24\\hat{j}$ (North).<br><b>Step 2:</b> The relative velocity of car 1 with respect to car 2 is $\\vec{v}_{12} = \\vec{v}_1 - \\vec{v}_2 = 36\\hat{i} - 24\\hat{j}$.<br><b>Step 3:</b> Calculate magnitude: $|\\vec{v}_{12}| = \\sqrt{36^2 + (-24)^2}$.<br><b>Step 4:</b> Factor out common multiples to simplify calculation: $\\sqrt{(12 \\times 3)^2 + (12 \\times 2)^2} = 12\\sqrt{3^2 + 2^2}$.<br><b>Step 5:</b> $|\\vec{v}_{12}| = 12\\sqrt{9 + 4} = 12\\sqrt{13}\\text{ kmph}$."
+            },
+            {
+                "id": "MIP-TEST-096",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 3,
+                "tags": ["3D Relative Velocity", "Vector Magnitude"],
+                "q": "A ship is moving due east with a velocity of $12\\text{ m/sec}$, a truck is moving across on the ship with velocity $4\\text{ m/sec}$. A monkey is climbing the vertical pole mounted on the truck with a velocity of $3\\text{ m/sec}$. Find the velocity of the monkey as observed by the man on the shore (m/sec)",
+                "options": ["10", "15", "13", "20"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> All three velocity vectors are mutually perpendicular to each other in 3D space.<br><b>Step 2:</b> Velocity of ship relative to shore: $\\vec{v}_{ss} = 12\\hat{i}$.<br><b>Step 3:</b> Velocity of truck relative to ship: $\\vec{v}_{ts} = 4\\hat{j}$.<br><b>Step 4:</b> Velocity of monkey relative to truck: $\\vec{v}_{mt} = 3\\hat{k}$.<br><b>Step 5:</b> Velocity of monkey relative to shore: $\\vec{v}_m = \\vec{v}_{mt} + \\vec{v}_{ts} + \\vec{v}_{ss} = 12\\hat{i} + 4\\hat{j} + 3\\hat{k}$.<br><b>Step 6:</b> Magnitude: $|\\vec{v}_m| = \\sqrt{12^2 + 4^2 + 3^2} = \\sqrt{144 + 16 + 9} = \\sqrt{169} = 13\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-097",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 3,
+                "tags": ["Rain and Man Problem", "Relative Velocity"],
+                "q": "A man is walking due east at the rate of 2kmph. The rain appears to him to come down vertically at the rate of 2kmph. The actual velocity and direction of rainfall with the vertical respectively are",
+                "options": ["$2\\sqrt{2}\\text{ kmph}, 45^{\\circ}$", "$\\frac{1}{\\sqrt{2}}\\text{ kmph}, 30^{\\circ}$", "2 kmph, $0^{\\circ}$", "1 kmph, $90^{\\circ}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Velocity of the man $\\vec{v}_m = 2\\hat{i}$.<br><b>Step 2:</b> The relative velocity of the rain with respect to the man appears vertical: $\\vec{v}_{rm} = -2\\hat{j}$.<br><b>Step 3:</b> We know $\\vec{v}_{rm} = \\vec{v}_r - \\vec{v}_m$. Therefore, the actual rain velocity is $\\vec{v}_r = \\vec{v}_{rm} + \\vec{v}_m = 2\\hat{i} - 2\\hat{j}$.<br><b>Step 4:</b> The magnitude of actual rain velocity is $|\\vec{v}_r| = \\sqrt{2^2 + (-2)^2} = \\sqrt{4+4} = 2\\sqrt{2}\\text{ kmph}$.<br><b>Step 5:</b> The angle with the vertical (y-axis) is $\\tan\\theta = \\frac{v_x}{v_y} = \\frac{2}{2} = 1 \\implies \\theta = 45^{\\circ}$."
+            },
+            {
+                "id": "MIP-TEST-098",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Downstream and Upstream"],
+                "q": "A boat takes 2 hours to travel 8km and back in still water lake. With water velocity of 4 kmph, the time taken for going upstream of 8km and coming back is",
+                "options": ["160 minutes", "80 minutes", "320 minutes", "180 minutes"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Find boat's velocity in still water. Total distance = 16km, total time = 2hr $\\implies v_b = \\frac{16}{2} = 8\\text{ kmph}$.<br><b>Step 2:</b> With river velocity $v_r = 4\\text{ kmph}$, downstream speed $v_d = 8+4=12\\text{ kmph}$, upstream speed $v_u = 8-4=4\\text{ kmph}$.<br><b>Step 3:</b> Time downstream $t_1 = \\frac{8}{12} = \\frac{2}{3}\\text{ hr}$.<br><b>Step 4:</b> Time upstream $t_2 = \\frac{8}{4} = 2\\text{ hr}$.<br><b>Step 5:</b> Total time $= 2 + \\frac{2}{3} = \\frac{8}{3}\\text{ hr}$.<br><b>Step 6:</b> Convert to minutes: $\\frac{8}{3} \\times 60 = 8 \\times 20 = 160\\text{ minutes}$."
+            },
+            {
+                "id": "MIP-TEST-099",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Drift"],
+                "q": "The velocity of water in a river is 2 kmph, while width is 400 m. A boat is rowed from a point rowing always aiming opposite point at 8 kmph of still water velocity. On reaching the opposite bank the drift obtained is",
+                "options": ["93 m", "100.8 m", "112.4 m", "100 m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Aiming strictly at the opposite point means the boat's full $8\\text{ kmph}$ velocity is perpendicular to the bank.<br><b>Step 2:</b> Time taken to cross $d=400\\text{ m} = 0.4\\text{ km}$ is $t = \\frac{d}{v_b} = \\frac{0.4}{8} = 0.05\\text{ hr}$.<br><b>Step 3:</b> Drift is the horizontal distance carried by the river current in that time.<br><b>Step 4:</b> Drift $x = v_r \\times t = 2\\text{ kmph} \\times 0.05\\text{ hr} = 0.1\\text{ km}$.<br><b>Step 5:</b> Convert to meters: $0.1 \\times 1000 = 100\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-100",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Equation of Trajectory", "Kinematics"],
+                "q": "A particle is projected from ground with some initial velocity making an angle of $45^{\\circ}$ with the horizontal. It reaches a height of 7.5 m above the ground while it travels a horizontal distance of 10 m from the point of projection. The initial speed of the projection is",
+                "options": ["$5\\text{ m/s}$", "$10\\text{ m/s}$", "$20\\text{ m/s}$", "$40\\text{ m/s}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Use the equation of trajectory: $y = x \\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}$.<br><b>Step 2:</b> Substitute the known values: $y = 7.5$, $x = 10$, $\\theta = 45^{\\circ}$, $g = 10$.<br><b>Step 3:</b> $7.5 = 10\\tan 45^{\\circ} - \\frac{10(10^2)}{2u^2\\cos^2 45^{\\circ}}$.<br><b>Step 4:</b> $7.5 = 10(1) - \\frac{1000}{2u^2(0.5)} \\implies 7.5 = 10 - \\frac{1000}{u^2}$.<br><b>Step 5:</b> $2.5 = \\frac{1000}{u^2} \\implies u^2 = \\frac{1000}{2.5} = 400$.<br><b>Step 6:</b> Solving for $u$ gives $u = 20\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-101",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Average Velocity", "Displacement Vector"],
+                "q": "A particle is projected from ground at an angle $45^{\\circ}$ with initial velocity $20\\sqrt{2}\\text{ ms}^{-1}$. The magnitude of average velocity in a time interval from $t=0$ to $t=3\\text{ s}$ in $\\text{ms}^{-1}$ is",
+                "options": ["20.62", "10.31", "41.14", "5.15"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Find initial velocity components: $u_x = 20\\sqrt{2}\\cos 45^{\\circ} = 20\\text{ m/s}$, $u_y = 20\\sqrt{2}\\sin 45^{\\circ} = 20\\text{ m/s}$.<br><b>Step 2:</b> Calculate position at $t=3\\text{ s}$. Horizontal: $x = u_x t = 20(3) = 60\\text{ m}$.<br><b>Step 3:</b> Vertical: $y = u_y t - \\frac{1}{2}gt^2 = 20(3) - \\frac{1}{2}(10)(3^2) = 60 - 45 = 15\\text{ m}$.<br><b>Step 4:</b> Total displacement $S = \\sqrt{x^2 + y^2} = \\sqrt{60^2 + 15^2} = \\sqrt{3600 + 225} = \\sqrt{3825}$.<br><b>Step 5:</b> Average velocity $v_{avg} = \\frac{S}{t} = \\frac{\\sqrt{3825}}{3} = \\sqrt{\\frac{3825}{9}} = \\sqrt{425}$.<br><b>Step 6:</b> $\\sqrt{425} \\approx 20.615\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-102",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Orthogonal Vectors", "Dot Product"],
+                "q": "A ball is thrown with a velocity of u making an angle q with the horizontal. Its velocity vector normal to initial vector (u) after a time interval of",
+                "options": ["$\\frac{u \\sin q}{g}$", "$\\frac{u}{g \\cos q}$", "$\\frac{u}{g \\sin q}$", "$\\frac{u \\cos q}{g}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Initial velocity vector $\\vec{u} = u\\cos q \\hat{i} + u\\sin q \\hat{j}$.<br><b>Step 2:</b> Velocity vector after time $t$ is $\\vec{v} = u\\cos q \\hat{i} + (u\\sin q - gt)\\hat{j}$.<br><b>Step 3:</b> The vectors are normal if their dot product is zero: $\\vec{u} \\cdot \\vec{v} = 0$.<br><b>Step 4:</b> $(u\\cos q)(u\\cos q) + (u\\sin q)(u\\sin q - gt) = 0$.<br><b>Step 5:</b> $u^2\\cos^2 q + u^2\\sin^2 q - ugt\\sin q = 0 \\implies u^2(\\cos^2 q + \\sin^2 q) = ugt\\sin q$.<br><b>Step 6:</b> $u^2 = ugt\\sin q \\implies t = \\frac{u}{g\\sin q}$."
+            },
+            {
+                "id": "MIP-TEST-103",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Average Velocity", "Maximum Height"],
+                "q": "A stone is projected with a velocity $20\\sqrt{2}\\text{ m/s}$ at an angle of $45^{\\circ}$ to the horizontal. The average velocity of stone during its motion from starting point to its maximum height is",
+                "options": ["$10\\sqrt{5}\\text{ m/s}$", "$20\\sqrt{5}\\text{ m/s}$", "$5\\sqrt{5}\\text{ m/s}$", "$20\\text{ m/s}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Time to max height $t = \\frac{u\\sin\\theta}{g} = \\frac{20\\sqrt{2}\\sin 45^{\\circ}}{10} = \\frac{20}{10} = 2\\text{ s}$.<br><b>Step 2:</b> Horizontal distance $x = \\frac{R}{2} = \\frac{u^2\\sin 2\\theta}{2g} = \\frac{(20\\sqrt{2})^2(1)}{20} = \\frac{800}{20} = 40\\text{ m}$.<br><b>Step 3:</b> Maximum height $y = H = \\frac{u^2\\sin^2\\theta}{2g} = \\frac{800(0.5)}{20} = \\frac{400}{20} = 20\\text{ m}$.<br><b>Step 4:</b> Total displacement $S = \\sqrt{x^2 + y^2} = \\sqrt{40^2 + 20^2} = \\sqrt{1600 + 400} = \\sqrt{2000} = 20\\sqrt{5}\\text{ m}$.<br><b>Step 5:</b> Average velocity $v_{avg} = \\frac{S}{t} = \\frac{20\\sqrt{5}}{2} = 10\\sqrt{5}\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-104",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Maximum Range", "Relative Velocity"],
+                "q": "A player kicks a foot ball obliquely at a speed of $20\\text{ m/s}$ so that its range is maximum. Another player at a distance of 24m away in the direction of kick starts running at that instant to catch the ball. Before the ball hits the ground to catch it, the speed with which the second player has to run is $(g=10\\text{ ms}^{-2})$",
+                "options": ["$4\\text{ m/s}$", "$4\\sqrt{2}\\text{ m/s}$", "$8\\sqrt{2}\\text{ m/s}$", "$8\\text{ m/s}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> For maximum range, angle of kick is $45^{\\circ}$. Max range $R = \\frac{u^2}{g} = \\frac{20^2}{10} = 40\\text{ m}$.<br><b>Step 2:</b> Total time of flight $T = \\frac{2u\\sin 45^{\\circ}}{g} = \\frac{2(20)(1/\\sqrt{2})}{10} = 2\\sqrt{2}\\text{ s}$.<br><b>Step 3:</b> The second player is initially 24m away from the kicker. He must cover the remaining distance to the landing spot.<br><b>Step 4:</b> Distance to run $= 40\\text{ m} - 24\\text{ m} = 16\\text{ m}$.<br><b>Step 5:</b> The player must cover 16m in the time of flight ($2\\sqrt{2}\\text{ s}$). Speed $= \\frac{16}{2\\sqrt{2}} = \\frac{8}{\\sqrt{2}} = 4\\sqrt{2}\\text{ m/s}$."
+            },
+            {
+        "id": "MIP-TEST-105",
+        "topic": "Projectile Motion",
+        "difficulty": 2,
+        "tags": ["Change in Velocity", "Maximum Height"],
+        "q": "A particle is fired with velocity u making angle $\\theta$ with the horizontal. What is the change in velocity when it is at the highest point?",
+        "options": ["$u \\cos \\theta$", "$u$", "$u \\sin \\theta$", "$(u \\cos \\theta-u)$"],
+        "correct": 2,
+        "sol": "<b>Step 1:</b> Let's define the initial velocity vector: $\\vec{u}_{i} = u\\cos \\theta \\hat{i} + u\\sin \\theta \\hat{j}$.<br><b>Step 2:</b> At the highest point, the vertical component of velocity becomes zero, but the horizontal component remains unchanged.<br><b>Step 3:</b> Final velocity vector at the top: $\\vec{v}_{f} = u\\cos \\theta \\hat{i} + 0\\hat{j}$.<br><b>Step 4:</b> The change in velocity is $\\Delta\\vec{v} = \\vec{v}_{f} - \\vec{u}_{i} = (u\\cos \\theta \\hat{i}) - (u\\cos \\theta \\hat{i} + u\\sin \\theta \\hat{j}) = -u\\sin \\theta \\hat{j}$.<br><b>Step 5:</b> The magnitude of this change in velocity is simply $u\\sin \\theta$."
+    },
+            {
+                "id": "MIP-TEST-106",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Range Boundaries", "Kinematics"],
+                "q": "Two projectiles A and B are thrown from the same point with velocities $v$ and $v/2$ respectively. If B is thrown at an angle $45^{\\circ}$ with horizontal, what is the inclination of A when their ranges are the same?",
+                "options": ["$\\sin^{-1}(\\frac{1}{4})$", "$\\frac{1}{2}\\sin^{-1}(\\frac{1}{4})$", "$2\\sin^{-1}(\\frac{1}{4})$", "$\\frac{1}{2}\\sin^{-1}(\\frac{1}{8})$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The horizontal range formula is $R = \\frac{u^2 \\sin 2\\theta}{g}$.<br><b>Step 2:</b> Calculate the range of projectile B: $R_B = \\frac{(v/2)^2 \\sin(2 \\times 45^{\\circ})}{g} = \\frac{v^2/4 \\sin 90^{\\circ}}{g} = \\frac{v^2}{4g}$.<br><b>Step 3:</b> The range of projectile A is $R_A = \\frac{v^2 \\sin 2\\theta_A}{g}$.<br><b>Step 4:</b> Equate the ranges ($R_A = R_B$): $\\frac{v^2 \\sin 2\\theta_A}{g} = \\frac{v^2}{4g}$.<br><b>Step 5:</b> Simplify to find $\\theta_A$: $\\sin 2\\theta_A = \\frac{1}{4} \\implies 2\\theta_A = \\sin^{-1}\\left(\\frac{1}{4}\\right)$.<br><b>Step 6:</b> Therefore, $\\theta_A = \\frac{1}{2}\\sin^{-1}\\left(\\frac{1}{4}\\right)$."
+            },
+            {
+                "id": "MIP-TEST-107",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Range", "Maximum Height"],
+                "q": "A particle is projected with a velocity v such that its range on the horizontal plane is twice the greatest height attained by it. The range of the projectile is (when acceleration due to gravity is 'g')",
+                "options": ["$\\frac{4v^2}{5g}$", "$\\frac{4g}{5v^2}$", "$\\frac{v^2}{g}$", "$\\frac{4v^2}{\\sqrt{5}g}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> We are given the condition $R = 2H$.<br><b>Step 2:</b> Substitute the standard formulas: $\\frac{v^2 \\sin 2\\theta}{g} = 2 \\left( \\frac{v^2 \\sin^2 \\theta}{2g} \\right)$.<br><b>Step 3:</b> Expand $\\sin 2\\theta$: $2\\sin\\theta\\cos\\theta = \\sin^2\\theta \\implies \\tan\\theta = 2$.<br><b>Step 4:</b> Using a right triangle (opposite=2, adjacent=1, hypotenuse=$\\sqrt{5}$), we find $\\sin\\theta = \\frac{2}{\\sqrt{5}}$ and $\\cos\\theta = \\frac{1}{\\sqrt{5}}$.<br><b>Step 5:</b> Substitute into the range formula: $R = \\frac{v^2 (2 \\sin \\theta \\cos \\theta)}{g} = \\frac{v^2 (2 \\cdot \\frac{2}{\\sqrt{5}} \\cdot \\frac{1}{\\sqrt{5}})}{g}$.<br><b>Step 6:</b> Simplify to get $R = \\frac{4v^2}{5g}$."
+            },
+            {
+                "id": "MIP-TEST-108",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Maximum Range", "Area Calculation"],
+                "q": "A number of bullets are fired in all possible directions with the same initial velocity u. The maximum area of ground covered by bullets is",
+                "options": ["$\\pi(\\frac{u^2}{g})^2$", "$\\pi(\\frac{u^2}{2g})$", "$\\pi(\\frac{u}{g})^2$", "$\\pi(\\frac{u}{2g})^2$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The bullets scatter in a circle around the firing point. The radius of this circle is the maximum possible horizontal range.<br><b>Step 2:</b> The maximum horizontal range is achieved at an angle of $45^{\\circ}$ and is given by $R_{max} = \\frac{u^2}{g}$.<br><b>Step 3:</b> The area covered is a circle with radius $r = R_{max}$.<br><b>Step 4:</b> Area $= \\pi r^2 = \\pi \\left( \\frac{u^2}{g} \\right)^2$."
+            },
+            {
+                "id": "MIP-TEST-109",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Maximum Range", "Velocity Components"],
+                "q": "A ball is projected from the ground with a velocity 'u' such that its range is maximum. Then:",
+                "options": ["Its velocity at half the maximum height is $\\frac{\\sqrt{3}}{2}u$", "Its velocity at the maximum height is 'u'", "Change in its velocity when it returns to the ground is 'u'", "All the above are true"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> For maximum range, the angle of projection must be $\\theta = 45^{\\circ}$.<br><b>Step 2:</b> Evaluate Option 2: Velocity at max height is $v_x = u\\cos 45^{\\circ} = \\frac{u}{\\sqrt{2}} \\neq u$. (False)<br><b>Step 3:</b> Evaluate Option 1: The maximum height is $H = \\frac{u^2\\sin^2 45^{\\circ}}{2g} = \\frac{u^2}{4g}$. Half of this height is $h = \\frac{u^2}{8g}$.<br><b>Step 4:</b> Find vertical velocity at $h$: $v_y^2 = u_y^2 - 2gh = (\\frac{u}{\\sqrt{2}})^2 - 2g(\\frac{u^2}{8g}) = \\frac{u^2}{2} - \\frac{u^2}{4} = \\frac{u^2}{4} \\implies v_y = \\frac{u}{2}$.<br><b>Step 5:</b> The horizontal velocity is constant: $v_x = \\frac{u}{\\sqrt{2}}$.<br><b>Step 6:</b> Total velocity at half max height: $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{\\frac{u^2}{2} + \\frac{u^2}{4}} = \\sqrt{\\frac{3u^2}{4}} = \\frac{\\sqrt{3}}{2}u$. (True)"
+            },
+            {
+                "id": "MIP-TEST-110",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Horizontal Projectile", "Kinematics"],
+                "q": "A stair case contains ten steps each 10 cm high and 20 cm wide. The minimum horizontal velocity with which the ball has to be rolled off the upper most step, so as to hit directly the edge of the lowest step is (approximately)",
+                "options": ["$42\\text{ ms}^{-1}$", "$4.2\\text{ ms}^{-1}$", "$24\\text{ ms}^{-1}$", "$2.4\\text{ ms}^{-1}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let $w$ be the width ($0.2\\text{ m}$) and $h$ be the height ($0.1\\text{ m}$) of each step.<br><b>Step 2:</b> To hit the edge of the $n^{th}$ step (which is the lowest, 10th step), the ball must clear $n-1 = 9$ steps. The total drop $y = 9h = 0.9\\text{ m}$ and total horizontal distance $x = 9w = 1.8\\text{ m}$.<br><b>Step 3:</b> The equation of the trajectory for horizontal projection is $y = \\frac{gx^2}{2u^2}$.<br><b>Step 4:</b> Substitute the values: $0.9 = \\frac{9.8(1.8)^2}{2u^2}$.<br><b>Step 5:</b> Rearrange for $u^2$: $u^2 = \\frac{9.8(3.24)}{2(0.9)} = \\frac{31.752}{1.8} = 17.64$.<br><b>Step 6:</b> Take the square root: $u = \\sqrt{17.64} = 4.2\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-111",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Horizontal Projectile", "Relative Distance"],
+                "q": "From certain height 'h' two bodies are projected horizontally each with velocity v. One body is projected towards North and the other body is projected towards east. Their separation on reaching the ground is",
+                "options": ["$\\sqrt{\\frac{2v^2h}{g}}$", "$\\sqrt{\\frac{4v^2h}{g}}$", "$\\sqrt{\\frac{v^2h}{g}}$", "$\\sqrt{\\frac{8v^2h}{g}}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Both bodies fall from the same height $h$, so their time of flight is identical: $t = \\sqrt{\\frac{2h}{g}}$.<br><b>Step 2:</b> The horizontal distance covered by the first body (North) is $x_1 = vt = v\\sqrt{\\frac{2h}{g}}$.<br><b>Step 3:</b> The horizontal distance covered by the second body (East) is $x_2 = vt = v\\sqrt{\\frac{2h}{g}}$.<br><b>Step 4:</b> Since their paths are perpendicular, their separation is the hypotenuse: $S = \\sqrt{x_1^2 + x_2^2}$.<br><b>Step 5:</b> $S = \\sqrt{2 x_1^2} = x_1\\sqrt{2} = v\\sqrt{\\frac{2h}{g}} \\cdot \\sqrt{2} = \\sqrt{\\frac{4v^2h}{g}}$."
+            },
+            {
+                "id": "MIP-TEST-112",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Horizontal Projectile", "Kinematics"],
+                "q": "An object is projected horizontally from a top of the tower of height h. The line joining the point of projection and point of striking on the ground makes an angle $45^{\\circ}$ with ground, Then with what velocity the object strikes the ground",
+                "options": ["$\\sqrt{\\frac{11gh}{2}}$", "$\\sqrt{\\frac{9gh}{2}}$", "$\\sqrt{\\frac{7gh}{2}}$", "$\\sqrt{\\frac{5gh}{2}}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> If the line makes $45^{\\circ}$ with the ground, then the height of the tower $h$ equals the horizontal range $R$: $h = R$.<br><b>Step 2:</b> The range is $R = u \\sqrt{\\frac{2h}{g}}$. Equating this to $h$ gives $h = u \\sqrt{\\frac{2h}{g}}$.<br><b>Step 3:</b> Square both sides: $h^2 = u^2 \\frac{2h}{g} \\implies u^2 = \\frac{gh}{2}$.<br><b>Step 4:</b> The velocity on striking the ground has components $v_x = u$ and $v_y = \\sqrt{2gh}$.<br><b>Step 5:</b> Total striking velocity is $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{u^2 + 2gh}$.<br><b>Step 6:</b> Substitute $u^2$: $v = \\sqrt{\\frac{gh}{2} + 2gh} = \\sqrt{\\frac{5gh}{2}}$."
+            },
+            {
+                "id": "MIP-TEST-113",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Horizontal Projectile", "Geometry"],
+                "q": "A ball is thrown horizontally from a cliff such that it strikes the ground after 5s. The line of sight makes an angle $37^{\\circ}$ with the horizontal. The initial velocity of projection in $\\text{ms}^{-1}$ is",
+                "options": ["$50$", "$\\frac{100}{\\sqrt{3}}$", "$\\frac{100}{\\sqrt{2}}$", "$\\frac{100}{3}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Calculate the height of the cliff from the time of flight: $h = \\frac{1}{2}gt^2 = \\frac{1}{2}(10)(5^2) = 125\\text{ m}$.<br><b>Step 2:</b> The line of sight makes an angle of $37^{\\circ}$ with the horizontal, meaning $\\tan 37^{\\circ} = \\frac{h}{R}$.<br><b>Step 3:</b> Substitute values: $\\frac{3}{4} = \\frac{125}{R} \\implies R = \\frac{500}{3}\\text{ m}$.<br><b>Step 4:</b> The horizontal velocity is constant: $u = \\frac{R}{t}$.<br><b>Step 5:</b> Substitute values: $u = \\frac{500/3}{5} = \\frac{100}{3}\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-114",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Quadratic Equation", "Range Calculation"],
+                "q": "An object is launched from a cliff 20 m above the ground at an angle of $30^{\\circ}$ above the horizontal with an initial speed of $30\\text{ m/s}$. How far does the object travel horizontally before landing on the ground?",
+                "options": ["$20\\text{ m}$", "$20\\sqrt{3}\\text{ m}$", "$60\\text{ m}$", "$60\\sqrt{3}\\text{ m}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Initial vertical velocity $u_y = 30 \\sin 30^{\\circ} = 15\\text{ m/s}$. Horizontal velocity $u_x = 30 \\cos 30^{\\circ} = 15\\sqrt{3}\\text{ m/s}$.<br><b>Step 2:</b> Establish the vertical displacement equation taking ground as $y=0$ and launch point as $y=20$: $y = u_y t - \\frac{1}{2}gt^2 \\implies -20 = 15t - 5t^2$.<br><b>Step 3:</b> Rearrange into a quadratic equation: $5t^2 - 15t - 20 = 0 \\implies t^2 - 3t - 4 = 0$.<br><b>Step 4:</b> Factor the equation: $(t-4)(t+1) = 0$. The realistic time of flight is $t = 4\\text{ s}$.<br><b>Step 5:</b> Calculate horizontal distance: $R = u_x t = 15\\sqrt{3} \\times 4 = 60\\sqrt{3}\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-115",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Kinematics", "Angle of Projection"],
+                "q": "A bomber flying upward at an angle of $53^{\\circ}$ with the vertical releases a bomb at an altitude of 800 m. The bomb strikes the ground 20 s after its release. If $g=10\\text{ m s}^{-2}$, the velocity at the time of release of the bomb in $\\text{ms}^{-1}$ is",
+                "options": ["400", "800", "100", "200"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The bomber is flying at $53^{\\circ}$ with the vertical. Therefore, the vertical component of its velocity is $u_y = u \\cos 53^{\\circ} = u(\\frac{3}{5})$.<br><b>Step 2:</b> The bomb inherits this initial vertical velocity. The net vertical displacement is $S_y = -800\\text{ m}$ in $t = 20\\text{ s}$.<br><b>Step 3:</b> Use the kinematic equation: $S_y = u_y t - \\frac{1}{2}gt^2$.<br><b>Step 4:</b> Substitute values: $-800 = u_y(20) - \\frac{1}{2}(10)(20^2) = 20u_y - 2000$.<br><b>Step 5:</b> Solve for $u_y$: $20u_y = 1200 \\implies u_y = 60\\text{ m/s}$.<br><b>Step 6:</b> Substitute $u_y$ back: $u(\\frac{3}{5}) = 60 \\implies u = 100\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-116",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Relative Velocity", "Orthogonal Vectors"],
+                "q": "Two particles move in a uniform gravitational field with an acceleration g. At the initial moment the particles were located at same point and moved with velocities $u_1=9\\text{ m s}^{-1}$ and $u_2=4\\text{ m s}^{-1}$ horizontally in opposite directions. The time between the particles at the moment when their velocity vectors are mutually perpendicular in s is (take $g=10\\text{ m s}^{-2}$)",
+                "options": ["0.36", "3.6", "0.6", "6"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Formulate the velocity vectors at time $t$. $\\vec{v}_1 = 9\\hat{i} - 10t\\hat{j}$ and $\\vec{v}_2 = -4\\hat{i} - 10t\\hat{j}$.<br><b>Step 2:</b> For vectors to be mutually perpendicular, their dot product must be zero: $\\vec{v}_1 \\cdot \\vec{v}_2 = 0$.<br><b>Step 3:</b> Perform the dot product: $(9)(-4) + (-10t)(-10t) = 0$.<br><b>Step 4:</b> $-36 + 100t^2 = 0 \\implies 100t^2 = 36$.<br><b>Step 5:</b> Solve for $t$: $t^2 = 0.36 \\implies t = 0.6\\text{ s}$."
+            },
+            {
+                "id": "MIP-TEST-117",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Horizontal Projectile", "Meeting Point"],
+                "q": "An aeroplane is flying horizontally at a height of 980 m with velocity $100\\text{ ms}^{-1}$ drops a food packet. A person on the ground is 414 m ahead horizontally from the dropping point. At what velocity should he move so that he can catch the food packet.",
+                "options": ["$50\\sqrt{2}\\text{ ms}^{-1}$", "$\\frac{50}{\\sqrt{2}}\\text{ ms}^{-1}$", "$100\\text{ ms}^{-1}$", "$200\\text{ ms}^{-1}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Calculate the time of flight of the packet: $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2(980)}{9.8}} = \\sqrt{200} = 10\\sqrt{2} \\approx 14.14\\text{ s}$.<br><b>Step 2:</b> Calculate the horizontal range of the packet: $R = ut = 100 \\times 10\\sqrt{2} = 1000\\sqrt{2} \\approx 1414\\text{ m}$.<br><b>Step 3:</b> The person is initially 414m ahead. The distance he must cover to catch the packet is $1414 - 414 = 1000\\text{ m}$.<br><b>Step 4:</b> The velocity he must run at is $v = \\frac{\\text{Distance}}{\\text{Time}} = \\frac{1000}{10\\sqrt{2}} = \\frac{100}{\\sqrt{2}} = 50\\sqrt{2}\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-118",
+                "topic": "Circular Motion",
+                "difficulty": 3,
+                "tags": ["Centripetal Acceleration", "Tangential Acceleration"],
+                "q": "A cyclist riding with a speed of 27kmph. As he approaches a circular turn on the road of radius 80m, he applies breaks and reduces his speed at the constant rate of $0.50\\text{ m/s}$ every second. The net acceleration of cyclist on the circular turn is",
+                "options": ["$0.5\\text{ m/s}^2$", "$0.87\\text{ m/s}^2$", "$0.56\\text{ m/s}^2$", "$1\\text{ m/s}^2$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Convert the speed to m/s: $v = 27 \\times \\frac{5}{18} = 7.5\\text{ m/s}$.<br><b>Step 2:</b> The cyclist experiences two accelerations. First is tangential deceleration (braking): $a_t = 0.5\\text{ m/s}^2$.<br><b>Step 3:</b> Second is centripetal acceleration: $a_c = \\frac{v^2}{r} = \\frac{7.5^2}{80} = \\frac{56.25}{80} \\approx 0.703\\text{ m/s}^2$.<br><b>Step 4:</b> The net acceleration is the vector sum: $a = \\sqrt{a_t^2 + a_c^2} = \\sqrt{(0.5)^2 + (0.703)^2}$.<br><b>Step 5:</b> $a = \\sqrt{0.25 + 0.494} = \\sqrt{0.744} \\approx 0.862\\text{ m/s}^2$.<br><b>Step 6:</b> The closest matching option is $0.87\\text{ m/s}^2$."
+            },
+            {
+                "id": "MIP-TEST-119",
+                "topic": "Circular Motion",
+                "difficulty": 2,
+                "tags": ["Angular Velocity", "Linear Speed"],
+                "q": "The length of minute hand in a pendulum clock is 10cm. The speed of tip of the hand is (in m/s)",
+                "options": ["$\\frac{\\pi}{6000}$", "$\\frac{\\pi}{18000}$", "$\\frac{\\pi}{3600}$", "$\\frac{\\pi}{1200}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> A minute hand completes 1 full revolution ($2\\pi$ radians) every 1 hour.<br><b>Step 2:</b> Convert the time period to seconds: $T = 60 \\times 60 = 3600\\text{ s}$.<br><b>Step 3:</b> Calculate angular velocity: $\\omega = \\frac{2\\pi}{3600} = \\frac{\\pi}{1800}\\text{ rad/s}$.<br><b>Step 4:</b> Calculate linear speed using $v = r\\omega$. Substitute $r = 10\\text{ cm} = 0.1\\text{ m}$.<br><b>Step 5:</b> $v = 0.1 \\times \\frac{\\pi}{1800} = \\frac{\\pi}{18000}\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-120",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Parametric Equations", "Angle of Projection"],
+                "q": "Equations of motion of a projectile are given by $x=36t$ and $2y=96t-98t^2\\text{ m}$. The angle of projection is equal to",
+                "options": ["$\\sin^{-1}(\\frac{3}{4})$", "$\\sin^{-1}(\\frac{4}{3})$", "$\\sin^{-1}(\\frac{4}{5})$", "$\\sin^{-1}(\\frac{3}{5})$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Differentiate the horizontal equation to find initial horizontal velocity: $v_x = \\frac{dx}{dt} = 36$. Thus, $u_x = 36\\text{ m/s}$.<br><b>Step 2:</b> Simplify the vertical equation: $y = 48t - 49t^2$.<br><b>Step 3:</b> Differentiate to find initial vertical velocity: $v_y = \\frac{dy}{dt} = 48 - 98t$. At $t=0$, $u_y = 48\\text{ m/s}$.<br><b>Step 4:</b> The angle of projection $\\theta$ is $\\tan\\theta = \\frac{u_y}{u_x} = \\frac{48}{36} = \\frac{4}{3}$.<br><b>Step 5:</b> For a right triangle with opposite = 4 and adjacent = 3, the hypotenuse is 5.<br><b>Step 6:</b> Therefore, $\\sin\\theta = \\frac{4}{5} \\implies \\theta = \\sin^{-1}(\\frac{4}{5})$."
+            },
+           {
+        "id": "MIP-TEST-121",
+        "topic": "Addition and Resolution of Vectors",
+        "difficulty": 2,
+        "tags": ["Vector Addition", "Resultant Angle"],
+        "q": "$\\vec{A}$ and $\\vec{B}$ are two vectors of equal magnitude and $\\theta$ is the angle between them. The angle between $\\vec{A}$ or $\\vec{B}$ with their resultant is",
+        "options": ["$\\theta/4$", "$\\theta/2$", "$2\\theta$", "0"],
+        "correct": 1,
+        "sol": "<b>Step 1:</b> Let the magnitude of both vectors be $x$. The angle of the resultant with vector $\\vec{A}$ is given by $\\tan\\alpha = \\frac{B\\sin \\theta}{A + B\\cos \\theta}$.<br><b>Step 2:</b> Substitute $A = B = x$: $\\tan\\alpha = \\frac{x\\sin \\theta}{x + x\\cos \\theta} = \\frac{\\sin \\theta}{1 + \\cos \\theta}$.<br><b>Step 3:</b> Use trigonometric half-angle identities: $\\sin \\theta = 2\\sin(\\theta/2)\\cos(\\theta/2)$ and $1 + \\cos \\theta = 2\\cos^2(\\theta/2)$.<br><b>Step 4:</b> $\\tan\\alpha = \\frac{2\\sin(\\theta/2)\\cos(\\theta/2)}{2\\cos^2(\\theta/2)} = \\tan(\\theta/2)$.<br><b>Step 5:</b> Therefore, $\\alpha = \\theta/2$. The resultant of two vectors of equal magnitude always perfectly bisects the angle between them."
+    },
+    {
+        "id": "MIP-TEST-122",
+        "topic": "Projectile Motion",
+        "difficulty": 1,
+        "tags": ["Velocity at Maximum Height", "Conceptual"],
+        "q": "If a body is projected with an angle $\\theta$ to the horizontal then",
+        "options": ["its velocity is always perpendicular to its acceleration", "its velocity becomes zero at its maximum height", "its velocity makes zero angle with the horizontal at its maximum height", "just before hitting the ground, the direction of velocity coincides with the acceleration"],
+        "correct": 2,
+        "sol": "<b>Step 1:</b> Analyze the velocity vector of a projectile throughout its flight.<br><b>Step 2:</b> The horizontal velocity ($u\\cos \\theta$) remains constant, while the vertical velocity ($u\\sin \\theta - gt$) decreases to zero on the way up.<br><b>Step 3:</b> At the maximum height, the vertical component is exactly zero. The only remaining velocity is purely horizontal.<br><b>Step 4:</b> Since the velocity vector is purely horizontal, it makes an angle of $0^{\\circ}$ with the horizontal plane."
+    },
+            {
+        "id": "MIP-TEST-123",
+        "topic": "Projectile Motion",
+        "difficulty": 3,
+        "tags": ["Maximum Range", "Time of Flight"],
+        "q": "A body is projected at an angle $\\theta$ so that its range is maximum. If T is the time of flight then the value of maximum range is (acceleration due to gravity = g)",
+        "options": ["$\\frac{g^2 T}{2}$", "$\\frac{gT}{2}$", "$\\frac{gT^2}{2}$", "$\\frac{g^2 T^2}{2}$"],
+        "correct": 2,
+        "sol": "<b>Step 1:</b> For maximum range, the angle of projection must be $\\theta = 45^{\\circ}$.<br><b>Step 2:</b> Write the formula for time of flight: $T = \\frac{2u\\sin 45^{\\circ}}{g} = \\frac{2u(1/\\sqrt{2})}{g} = \\frac{u\\sqrt{2}}{g}$.<br><b>Step 3:</b> Solve for the initial velocity $u$: $u = \\frac{gT}{\\sqrt{2}}$.<br><b>Step 4:</b> Write the formula for maximum range: $R_{max} = \\frac{u^2}{g}$.<br><b>Step 5:</b> Substitute $u$ into the range formula: $R_{max} = \\frac{(gT/\\sqrt{2})^2}{g} = \\frac{g^2 T^2 / 2}{g} = \\frac{gT^2}{2}$."
+    },
+            {
+                "id": "MIP-TEST-124",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Equation of Trajectory", "Maximum Height"],
+                "q": "The path of projectile is given by the equation $y=ax-bx^2$, where 'a' and 'b' are constants and x and y are respectively horizontal and vertical distances of projectile from the point of projection. The maximum height attained by the projectile and the angle of projection are respectively.",
+                "options": ["$\\frac{2a^2}{b}, \\tan^{-1}(a)$", "$\\frac{b^2}{2a}, \\tan^{-1}(b)$", "$\\frac{a^2}{b}, \\tan^{-1}(2b)$", "$\\frac{a^2}{4b}, \\tan^{-1}(a)$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Compare the given trajectory $y = ax - bx^2$ with the standard form $y = x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}$.<br><b>Step 2:</b> By comparing the linear terms, $\\tan\\theta = a \\implies \\theta = \\tan^{-1}(a)$.<br><b>Step 3:</b> The maximum height is reached at the vertex of the parabola. We can find the x-coordinate of the vertex by taking the derivative $\\frac{dy}{dx} = 0$.<br><b>Step 4:</b> $\\frac{dy}{dx} = a - 2bx = 0 \\implies x = \\frac{a}{2b}$.<br><b>Step 5:</b> Substitute this x back into the equation to find the maximum height (y): $H = a(\\frac{a}{2b}) - b(\\frac{a}{2b})^2 = \\frac{a^2}{2b} - \\frac{a^2}{4b} = \\frac{a^2}{4b}$."
+            },
+            {
+                "id": "MIP-TEST-125",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Horizontal Projectile", "Velocity Components"],
+                "q": "A body is projected horizontally from the top of a tower with a velocity of $10\\text{ m/s}$. If it hits the ground at an angle $45^{\\circ}$, the vertical component of velocity when it hits ground in m/s is",
+                "options": ["10", "$10\\sqrt{2}$", "$5\\sqrt{2}$", "5"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The horizontal component of velocity remains constant throughout the flight. Therefore, at the moment of impact, $v_x = u = 10\\text{ m/s}$.<br><b>Step 2:</b> The angle $\\theta$ the velocity vector makes with the ground is given by $\\tan\\theta = \\frac{v_y}{v_x}$.<br><b>Step 3:</b> Substitute the known values: $\\tan 45^{\\circ} = \\frac{v_y}{10}$.<br><b>Step 4:</b> Since $\\tan 45^{\\circ} = 1$, we get $1 = \\frac{v_y}{10} \\implies v_y = 10\\text{ m/s}$."
+            },
+            {
+        "id": "MIP-TEST-126",
+        "topic": "Projectile Motion",
+        "difficulty": 2,
+        "tags": ["Time of Flight", "Maximum Height"],
+        "q": "A body is projected with an angle $\\theta$. The maximum height reached is h. If the time of flight is 4 sec and $g=10\\text{ m/s}^2$, then the value of h is",
+        "options": ["10 m", "40 m", "20 m", "5 m"],
+        "correct": 2,
+        "sol": "<b>Step 1:</b> The formula for the time of flight is $T = \\frac{2u\\sin \\theta}{g}$.<br><b>Step 2:</b> Substitute the given values: $4 = \\frac{2u\\sin \\theta}{10} \\implies 40 = 2u\\sin \\theta \\implies u\\sin \\theta = 20\\text{ m/s}$. This is the initial vertical velocity.<br><b>Step 3:</b> The formula for maximum height is $h = \\frac{u^2\\sin^2 \\theta}{2g} = \\frac{(u\\sin \\theta)^2}{2g}$.<br><b>Step 4:</b> Substitute $u\\sin \\theta = 20$ into the height formula: $h = \\frac{20^2}{2(10)} = \\frac{400}{20} = 20\\text{ m}$."
+    },
+            {
+                "id": "MIP-TEST-127",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 3,
+                "tags": ["River Boat Problem", "Relative Velocity"],
+                "q": "A person reaches a point directly opposite on the other bank of a river. The velocity of the water in the river is $4\\text{ m/s}$ and the velocity of the person in still water is $5\\text{ m/s}$. If the width of the river is 84.6 m, time taken to cross the river in seconds is",
+                "options": ["9.4", "2", "84.6", "28.2"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> To reach the directly opposite point, the person must swim upstream at an angle to cancel out the river's flow.<br><b>Step 2:</b> The effective velocity (perpendicular to the river banks) is $v_y = \\sqrt{v_m^2 - v_r^2}$.<br><b>Step 3:</b> Substitute the speeds: $v_y = \\sqrt{5^2 - 4^2} = \\sqrt{25 - 16} = \\sqrt{9} = 3\\text{ m/s}$.<br><b>Step 4:</b> The time taken to cross is $t = \\frac{\\text{Width}}{v_y}$.<br><b>Step 5:</b> $t = \\frac{84.6}{3} = 28.2\\text{ s}$."
+            },
+            {
+                "id": "MIP-TEST-128",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Vector Addition", "Magnitude of Resultant"],
+                "q": "The greatest and least resultant of two forces are 7 N and 3 N respectively. If each of the force is increased by 3 N and applied at $60^{\\circ}$, the magnitude of the resultant is",
+                "options": ["7 N", "3 N", "10 N", "$\\sqrt{129}\\text{ N}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Set up the equations for greatest (parallel) and least (anti-parallel) resultants: $F_1 + F_2 = 7$ and $F_1 - F_2 = 3$.<br><b>Step 2:</b> Adding them gives $2F_1 = 10 \\implies F_1 = 5\\text{ N}$. Subtracting gives $F_2 = 2\\text{ N}$.<br><b>Step 3:</b> Increase each force by 3N: The new forces are $F_1' = 5+3=8\\text{ N}$ and $F_2' = 2+3=5\\text{ N}$.<br><b>Step 4:</b> Calculate the resultant of these new forces at $60^{\\circ}$: $R = \\sqrt{(F_1')^2 + (F_2')^2 + 2F_1'F_2'\\cos 60^{\\circ}}$.<br><b>Step 5:</b> $R = \\sqrt{8^2 + 5^2 + 2(8)(5)(0.5)} = \\sqrt{64 + 25 + 40} = \\sqrt{129}\\text{ N}$."
+            },
+            {
+                "id": "MIP-TEST-129",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Triangle Law", "Vector Geometry"],
+                "q": "In an equilateral triangle ABC, AL, BM and CN are medians. Forces along BC and BA represented by them will have a resultant represented by",
+                "options": ["$2\\vec{AL}$", "$2\\vec{BM}$", "$2\\vec{CN}$", "$\\vec{AC}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> According to the parallelogram law of vector addition, the resultant of vectors $\\vec{BC}$ and $\\vec{BA}$ is the diagonal of the parallelogram formed by them.<br><b>Step 2:</b> The diagonal starting from B passes precisely through the midpoint of the opposite side AC.<br><b>Step 3:</b> The median from B to the midpoint of AC is defined as $\\vec{BM}$.<br><b>Step 4:</b> By vector geometry, the full diagonal is twice the length of the median to that side: $\\vec{BC} + \\vec{BA} = 2\\vec{BM}$."
+            },
+            {
+                "id": "MIP-TEST-130",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Vector Equilibrium", "Geometric Proof"],
+                "q": "Given that $\\vec{A}+\\vec{B}+\\vec{C}=0$, out of three vectors two are equal in magnitude and the magnitude of third vector is $\\sqrt{2}$ times that of either of two having equal magnitude. Then angle between vectors are given by",
+                "options": ["$30^{\\circ}, 60^{\\circ}, 90^{\\circ}$", "$45^{\\circ}, 150^{\\circ}, 150^{\\circ}$", "$90^{\\circ}, 135^{\\circ}, 150^{\\circ}$", "$90^{\\circ}, 135^{\\circ}, 135^{\\circ}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Let $|\\vec{A}| = |\\vec{B}| = x$. The third vector has magnitude $|\\vec{C}| = \\sqrt{2}x$.<br><b>Step 2:</b> Since their sum is zero, they form a closed triangle. The side lengths are $x$, $x$, and $\\sqrt{2}x$. This satisfies Pythagoras' theorem ($x^2 + x^2 = 2x^2$), making it a right-angled isosceles triangle.<br><b>Step 3:</b> The internal angles of this triangle are $90^{\\circ}, 45^{\\circ}$, and $45^{\\circ}$.<br><b>Step 4:</b> The angle *between* two vectors is determined when they are placed tail-to-tail. This is the exterior angle of the closed triangle ($180^{\\circ} - \\text{internal angle}$).<br><b>Step 5:</b> The angles between the vectors are $180^{\\circ}-90^{\\circ} = 90^{\\circ}$, $180^{\\circ}-45^{\\circ} = 135^{\\circ}$, and $180^{\\circ}-45^{\\circ} = 135^{\\circ}$."
+            },
+            {
+                "id": "MIP-TEST-131",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Equilibrium", "Lami's Theorem"],
+                "q": "A and B are the two pegs separated by 13 cm. A body of 169 kgwt is suspended by thread of 17 cm connecting to A & B, such that the two segments of strings are perpendicular. Then tensions in shorter and longer parts of string are",
+                "options": ["100 kgwt, 69 kgwt", "65 kgwt, 156 kgwt", "156 kgwt, 65 kgwt", "69 kgwt, 100 kgwt"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Let segments be $x$ and $y$. We know $x+y=17$ and $x^2+y^2=13^2=169$. Solving gives lengths of 5 cm (shorter) and 12 cm (longer).<br><b>Step 2:</b> Let the 12cm string make an angle $\\alpha$ with the horizontal line of the pegs. From the 5-12-13 triangle, $\\cos\\alpha = 12/13$ and $\\sin\\alpha = 5/13$.<br><b>Step 3:</b> The 5cm string makes an angle $(90^{\\circ}-\\alpha)$ with the horizontal.<br><b>Step 4:</b> Apply Lami's theorem or resolve forces horizontally: $T_{long}\\cos\\alpha = T_{short}\\cos(90^{\\circ}-\\alpha) \\implies T_{long}(\\frac{12}{13}) = T_{short}(\\frac{5}{13}) \\implies 12T_{long} = 5T_{short}$.<br><b>Step 5:</b> Resolve vertically: $T_{long}\\sin\\alpha + T_{short}\\sin(90^{\\circ}-\\alpha) = W \\implies T_{long}(\\frac{5}{13}) + T_{short}(\\frac{12}{13}) = 169$.<br><b>Step 6:</b> Substitute $T_{short} = \\frac{12}{5}T_{long}$: $T_{long}(\\frac{5}{13}) + (\\frac{12}{5}T_{long})(\\frac{12}{13}) = 169 \\implies T_{long} \\left( \\frac{25 + 144}{65} \\right) = 169 \\implies T_{long} = 65\\text{ kgwt}$.<br><b>Step 7:</b> Consequently, $T_{short} = 156\\text{ kgwt}$. The shorter string holds the larger tension."
+            },
+            {
+                "id": "MIP-TEST-132",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Velocity Vector", "Parametric Equations"],
+                "q": "The position of a particle is given by $\\vec{r}=3t\\hat{i}-2t^2\\hat{j}+4\\hat{k}\\text{ m}$ where t is in second and the co-efficients have proper units for r to be in m. The magnitude and direction of velocity of the particle at $t=2\\text{ s}$ is",
+                "options": ["$8.54\\text{ ms}^{-1}, 20^{\\circ}$ with x-axis", "$10.54\\text{ ms}^{-1}, 70^{\\circ}$ with x-axis", "$8.54\\text{ ms}^{-1}, 70^{\\circ}$ with x-axis", "$10.54\\text{ ms}^{-1}, 20^{\\circ}$ with x-axis"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The velocity vector is the time derivative of the position vector: $\\vec{v} = \\frac{d\\vec{r}}{dt} = 3\\hat{i} - 4t\\hat{j}$.<br><b>Step 2:</b> At $t=2\\text{ s}$, the velocity is $\\vec{v} = 3\\hat{i} - 8\\hat{j}$.<br><b>Step 3:</b> Magnitude: $|\\vec{v}| = \\sqrt{3^2 + (-8)^2} = \\sqrt{9 + 64} = \\sqrt{73} \\approx 8.544\\text{ m/s}$.<br><b>Step 4:</b> Direction: The angle $\\theta$ with the x-axis is given by $\\tan\\theta = \\frac{|v_y|}{|v_x|} = \\frac{8}{3} \\approx 2.66$.<br><b>Step 5:</b> Since $\\tan 70^{\\circ} \\approx 2.74$, the angle is roughly $70^{\\circ}$ below the x-axis."
+            },
+            {
+                "id": "MIP-TEST-133",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["2D Kinematics", "Constant Acceleration"],
+                "q": "A particle starts from origin at $t=0$ with a constant velocity $5\\hat{i}\\text{ ms}^{-1}$ and moves in xy plane under action of a force which produces a constant acceleration of $(3\\hat{i}+2\\hat{j})\\text{ ms}^{-2}$. The y - coordinate of the particle at the instant its x co-ordinate is 84 m in m is",
+                "options": ["6", "36", "18", "9"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Setup the kinematic equations for x and y components. Initial velocity $u_x = 5$, $u_y = 0$. Acceleration $a_x = 3$, $a_y = 2$.<br><b>Step 2:</b> The x-displacement is $x = u_x t + \\frac{1}{2}a_x t^2 \\implies 84 = 5t + \\frac{1}{2}(3)t^2$.<br><b>Step 3:</b> Multiply by 2 and form a quadratic equation: $3t^2 + 10t - 168 = 0$.<br><b>Step 4:</b> Solve using the quadratic formula: $t = \\frac{-10 \\pm \\sqrt{100 - 4(3)(-168)}}{6} = \\frac{-10 \\pm \\sqrt{2116}}{6} = \\frac{-10 \\pm 46}{6}$. The physical time is $t = \\frac{36}{6} = 6\\text{ s}$.<br><b>Step 5:</b> Use this time to find the y-coordinate: $y = u_y t + \\frac{1}{2}a_y t^2 = 0 + \\frac{1}{2}(2)(6^2) = 36\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-134",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 3,
+                "tags": ["Relative Motion", "Collision"],
+                "q": "Two particles having position vectors $\\vec{r}_1=(3\\hat{i}+5\\hat{j})\\text{ m}$ and $\\vec{r}_2=(-\\hat{i}+3\\hat{j})\\text{ m}$ are moving with velocities $\\vec{v}_1=(4\\hat{i}-4\\hat{j})\\text{ ms}^{-1}$ and $\\vec{v}_2=(a\\hat{i}-3\\hat{j})\\text{ ms}^{-1}$. If they collide after 2 seconds, the value of 'a' is",
+                "options": ["2", "4", "6", "8"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Find the position of the first particle after 2s: $\\vec{r}_1(2) = \\vec{r}_1(0) + \\vec{v}_1 t = (3\\hat{i}+5\\hat{j}) + (4\\hat{i}-4\\hat{j})2 = (3+8)\\hat{i} + (5-8)\\hat{j} = 11\\hat{i} - 3\\hat{j}$.<br><b>Step 2:</b> Find the position of the second particle after 2s: $\\vec{r}_2(2) = \\vec{r}_2(0) + \\vec{v}_2 t = (-\\hat{i}+3\\hat{j}) + (a\\hat{i}-3\\hat{j})2 = (-1+2a)\\hat{i} + (3-6)\\hat{j} = (2a-1)\\hat{i} - 3\\hat{j}$.<br><b>Step 3:</b> For a collision to occur, their final position vectors must be identical: $11\\hat{i} - 3\\hat{j} = (2a-1)\\hat{i} - 3\\hat{j}$.<br><b>Step 4:</b> Equate the x-components: $11 = 2a - 1 \\implies 2a = 12$.<br><b>Step 5:</b> Solving for $a$ gives $a = 6$."
+            },
+            {
+                "id": "MIP-TEST-135",
+                "topic": "Addition and Resolution of Vectors",
+                "difficulty": 2,
+                "tags": ["Parametric Equations", "Roots"],
+                "q": "A body is projected up such that its position vector varies with time as $\\vec{r}=(3t\\hat{i}+(4t-5t^2)\\hat{j})\\text{ m}$. Here t is in second. The time when its y-coordinate is zero is",
+                "options": ["3 s", "1 s", "0.8 s", "1.25 s"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Extract the y-component from the position vector: $y = 4t - 5t^2$.<br><b>Step 2:</b> To find when the y-coordinate is zero, set the equation to zero: $4t - 5t^2 = 0$.<br><b>Step 3:</b> Factor out $t$: $t(4 - 5t) = 0$.<br><b>Step 4:</b> The roots are $t = 0\\text{ s}$ (the initial launch time) and $4 - 5t = 0$.<br><b>Step 5:</b> Solve for the later time: $5t = 4 \\implies t = \\frac{4}{5} = 0.8\\text{ s}$."
+            },
+            {
+                "id": "MIP-TEST-136",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["Vector Addition", "Relative Speed"],
+                "q": "An aeroplane is flying with the velocity of $V_1=800\\text{ kmph}$ relative to the air towards south. A wind with velocity of $V_2=15\\text{ ms}^{-1}$ is blowing from west to east. What is the velocity of the aeroplane with respect to the earth.",
+                "options": ["$221.7\\text{ ms}^{-1}$", "$150\\text{ ms}^{-1}$", "$82\\text{ ms}^{-1}$", "$40\\text{ ms}^{-1}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Velocity of plane relative to air is $\\vec{v}_{pa} = 800\\text{ kmph}$ South. Convert to m/s: $800 \\times \\frac{5}{18} = 222.22\\text{ m/s}$. So, $\\vec{v}_{pa} = -222.22\\hat{j}$.<br><b>Step 2:</b> Velocity of air (wind) relative to earth is $\\vec{v}_{ae} = 15\\hat{i}\\text{ m/s}$ (East).<br><b>Step 3:</b> The true velocity of the plane relative to the earth is $\\vec{v}_{pe} = \\vec{v}_{pa} + \\vec{v}_{ae} = 15\\hat{i} - 222.22\\hat{j}$.<br><b>Step 4:</b> Calculate the magnitude: $|\\vec{v}_{pe}| = \\sqrt{15^2 + (-222.22)^2} = \\sqrt{225 + 49381.7} = \\sqrt{49606.7}$.<br><b>Step 5:</b> $|\\vec{v}_{pe}| \\approx 222.7\\text{ m/s}$. The closest given option is $221.7\\text{ ms}^{-1}$."
+            },
+            {
+                "id": "MIP-TEST-137",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Downstream and Upstream"],
+                "q": "A boat takes 4 hr upstream and 2 hr down the stream for covering the same distance. The ratio of velocity of boat to the water in river is.",
+                "options": ["1:3", "3:1", "$1:\\sqrt{3}$", "$\\sqrt{3}:1$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let the boat's velocity be $v$ and the river's velocity be $u$. Downstream speed is $v+u$ and upstream speed is $v-u$.<br><b>Step 2:</b> Time downstream is $t_d = \\frac{d}{v+u} = 2$. Time upstream is $t_u = \\frac{d}{v-u} = 4$.<br><b>Step 3:</b> From these, $d = 2(v+u)$ and $d = 4(v-u)$.<br><b>Step 4:</b> Equate the distances: $2(v+u) = 4(v-u) \\implies v + u = 2v - 2u$.<br><b>Step 5:</b> Rearrange the equation: $3u = v \\implies \\frac{v}{u} = \\frac{3}{1}$.<br><b>Step 6:</b> The ratio is 3:1."
+            },
+            {
+                "id": "MIP-TEST-138",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 2,
+                "tags": ["River Boat Problem", "Displacement Vector"],
+                "q": "The width of a river is $2\\sqrt{3}\\text{ km}$. A boat is rowed in direction perpendicular to the banks of river. If the drift of the boat due to flow is 2 km, the displacement of the boat is.",
+                "options": ["3 km", "6 km", "5 km", "4 km"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The boat undergoes two independent motions: it crosses the river width and it drifts downstream.<br><b>Step 2:</b> The width of the river is the vertical displacement: $y = 2\\sqrt{3}\\text{ km}$.<br><b>Step 3:</b> The drift is the horizontal displacement: $x = 2\\text{ km}$.<br><b>Step 4:</b> Since the drift is perpendicular to the width, the total displacement $S$ is the hypotenuse: $S = \\sqrt{x^2 + y^2}$.<br><b>Step 5:</b> Substitute values: $S = \\sqrt{2^2 + (2\\sqrt{3})^2} = \\sqrt{4 + 4(3)} = \\sqrt{4 + 12} = \\sqrt{16}$.<br><b>Step 6:</b> The total displacement is 4 km."
+            },
+            {
+                "id": "MIP-TEST-139",
+                "topic": "Relative Velocity in 2D",
+                "difficulty": 3,
+                "tags": ["River Boat Problem", "Vector Resolution"],
+                "q": "Person aiming to reach the exactly opposite point on the bank of a stream is swimming with a speed of $0.5\\text{ ms}^{-1}$ at an angle of $120^{\\circ}$ with the direction of flow of water. The speed of water in the stream is",
+                "options": ["$1\\text{ ms}^{-1}$", "$0.25\\text{ ms}^{-1}$", "$0.67\\text{ ms}^{-1}$", "$3\\text{ ms}^{-1}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> An angle of $120^{\\circ}$ with the river flow means the person is swimming upstream at an angle of $120^{\\circ} - 90^{\\circ} = 30^{\\circ}$ with respect to the normal (perpendicular line to the banks).<br><b>Step 2:</b> To reach the exactly opposite point, the swimmer's upstream velocity component must perfectly balance the downstream river velocity.<br><b>Step 3:</b> The upstream component is $v_{swim} \\sin(30^{\\circ})$. Set it equal to $v_{river}$.<br><b>Step 4:</b> $0.5 \\sin(30^{\\circ}) = v_{river}$.<br><b>Step 5:</b> Since $\\sin(30^{\\circ}) = 0.5$, we get $v_{river} = 0.5 \\times 0.5 = 0.25\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-140",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Trajectory", "Kinematics"],
+                "q": "A particle projected from the level ground just clears in its ascent a wall 30 m high and $120\\sqrt{3}\\text{ m}$ away measured horizontally. The time since projection to clear the wall is two second. It will strike the ground in the same horizontal plane from the wall on the other side at a distance of (in metres)",
+                "options": ["$150\\sqrt{3}$", "$180\\sqrt{3}$", "$120\\sqrt{3}$", "$210\\sqrt{3}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Use the horizontal data to find $u_x$: $x = u_x t \\implies 120\\sqrt{3} = u_x(2) \\implies u_x = 60\\sqrt{3}\\text{ m/s}$.<br><b>Step 2:</b> Use the vertical data to find $u_y$: $y = u_y t - \\frac{1}{2}gt^2 \\implies 30 = u_y(2) - \\frac{1}{2}(10)(2^2)$.<br><b>Step 3:</b> $30 = 2u_y - 20 \\implies 50 = 2u_y \\implies u_y = 25\\text{ m/s}$.<br><b>Step 4:</b> Calculate the total time of flight $T = \\frac{2u_y}{g} = \\frac{2(25)}{10} = 5\\text{ s}$.<br><b>Step 5:</b> Calculate the total horizontal range $R = u_x T = 60\\sqrt{3} \\times 5 = 300\\sqrt{3}\\text{ m}$.<br><b>Step 6:</b> The distance from the wall to the landing point is $R - x = 300\\sqrt{3} - 120\\sqrt{3} = 180\\sqrt{3}\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-141",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Average Velocity", "Displacement"],
+                "q": "A stone is projected with a velocity $20\\sqrt{2}\\text{ m/s}$ at an angle of $45^{\\circ}$ to the horizontal. The average velocity of stone during its motion from starting point to its maximum height is $(g=10\\text{ m/s}^2)$",
+                "options": ["$10\\sqrt{5}\\text{ m/s}$", "$20\\sqrt{5}\\text{ m/s}$", "$5\\sqrt{5}\\text{ m/s}$", "$20\\text{ m/s}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Calculate components: $u_x = 20\\sqrt{2}\\cos 45^{\\circ} = 20\\text{ m/s}$ and $u_y = 20\\sqrt{2}\\sin 45^{\\circ} = 20\\text{ m/s}$.<br><b>Step 2:</b> Time to max height $t = \\frac{u_y}{g} = \\frac{20}{10} = 2\\text{ s}$.<br><b>Step 3:</b> Maximum height $H = \\frac{u_y^2}{2g} = \\frac{400}{20} = 20\\text{ m}$.<br><b>Step 4:</b> Horizontal distance to max height $x = u_x t = 20(2) = 40\\text{ m}$.<br><b>Step 5:</b> Total displacement $S = \\sqrt{x^2 + H^2} = \\sqrt{40^2 + 20^2} = \\sqrt{1600 + 400} = \\sqrt{2000} = 20\\sqrt{5}\\text{ m}$.<br><b>Step 6:</b> Average velocity $v_{avg} = \\frac{S}{t} = \\frac{20\\sqrt{5}}{2} = 10\\sqrt{5}\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-142",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Orthogonal Vectors", "Velocity Change"],
+                "q": "A ball is thrown with velocity $8\\text{ ms}^{-1}$ making an angle $60^{\\circ}$ with the horizontal. Its velocity will be perpendicular to the direction of initial velocity of projection after a time of",
+                "options": ["$\\frac{1.6}{\\sqrt{3}}\\text{ s}$", "$\\frac{4}{\\sqrt{3}}\\text{ s}$", "$0.6\\text{ s}$", "$1.6\\sqrt{3}\\text{ s}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Initial velocity $\\vec{u} = u\\cos\\theta\\hat{i} + u\\sin\\theta\\hat{j}$. Velocity at time $t$ is $\\vec{v} = u\\cos\\theta\\hat{i} + (u\\sin\\theta - gt)\\hat{j}$.<br><b>Step 2:</b> For $\\vec{v}$ to be perpendicular to $\\vec{u}$, their dot product must be zero: $\\vec{u} \\cdot \\vec{v} = 0$.<br><b>Step 3:</b> $u^2\\cos^2\\theta + u\\sin\\theta(u\\sin\\theta - gt) = 0 \\implies u^2\\cos^2\\theta + u^2\\sin^2\\theta - ugt\\sin\\theta = 0$.<br><b>Step 4:</b> $u^2(1) = ugt\\sin\\theta \\implies t = \\frac{u}{g\\sin\\theta}$.<br><b>Step 5:</b> Substitute the values: $t = \\frac{8}{10\\sin 60^{\\circ}} = \\frac{8}{10(\\sqrt{3}/2)} = \\frac{16}{10\\sqrt{3}} = \\frac{1.6}{\\sqrt{3}}\\text{ s}$."
+            },
+            {
+                "id": "MIP-TEST-143",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Range Calculation", "Kinematics"],
+                "q": "The range of a projectile, when launched at an angle of $15^{\\circ}$ with the horizontal is 1.5km. The additional horizontal distance the projectile would cover when projected with same velocity at $45^{\\circ}$ is",
+                "options": ["3 km", "4.5 km", "1.5 km", "2.5 km"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The range formula is $R = \\frac{u^2\\sin 2\\theta}{g}$.<br><b>Step 2:</b> Substitute $\\theta = 15^{\\circ}$: $R_{15} = \\frac{u^2\\sin 30^{\\circ}}{g} = 1.5\\text{ km}$.<br><b>Step 3:</b> Since $\\sin 30^{\\circ} = 0.5$, we have $\\frac{u^2}{g}(0.5) = 1.5 \\implies \\frac{u^2}{g} = 3.0\\text{ km}$.<br><b>Step 4:</b> Calculate range at $45^{\\circ}$: $R_{45} = \\frac{u^2\\sin 90^{\\circ}}{g} = \\frac{u^2}{g}(1) = 3.0\\text{ km}$.<br><b>Step 5:</b> The *additional* horizontal distance covered is $R_{45} - R_{15} = 3.0 - 1.5 = 1.5\\text{ km}$."
+            },
+            {
+                "id": "MIP-TEST-144",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Linear Momentum", "Impulse"],
+                "q": "A body is projected obliquely from the ground such that its horizontal range is maximum. If the change in its linear momentum, as it moves from half the maximum height to maximum height, is P, the change in its linear momentum as it travels from the point of projection to the landing point on the ground will be",
+                "options": ["P", "$\\sqrt{2}P$", "2 P", "$2\\sqrt{2}P$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> For maximum range, $\\theta = 45^{\\circ}$. The horizontal momentum is constant, so only vertical momentum changes.<br><b>Step 2:</b> Vertical velocity at half max height ($H/2$): $v_{y1}^2 = u_y^2 - 2g(H/2)$. Since $H = \\frac{u_y^2}{2g}$, $v_{y1}^2 = u_y^2 - g(\\frac{u_y^2}{2g}) = \\frac{u_y^2}{2}$. Thus, $v_{y1} = \\frac{u_y}{\\sqrt{2}}$.<br><b>Step 3:</b> Vertical velocity at max height is $v_{y2} = 0$.<br><b>Step 4:</b> Magnitude of change in momentum $P = |m(0) - m(v_{y1})| = \\frac{mu_y}{\\sqrt{2}} = \\frac{mu\\sin 45^{\\circ}}{\\sqrt{2}} = \\frac{mu(1/\\sqrt{2})}{\\sqrt{2}} = \\frac{mu}{2}$.<br><b>Step 5:</b> Total change in momentum from launch to landing is strictly vertical: $\\Delta p_{total} = |m(-u_y) - m(u_y)| = 2mu_y = 2mu\\sin 45^{\\circ} = 2mu(1/\\sqrt{2}) = mu\\sqrt{2}$.<br><b>Step 6:</b> Substitute $mu = 2P$ into the total change: $\\Delta p_{total} = (2P)\\sqrt{2} = 2\\sqrt{2}P$."
+            },
+            {
+        "id": "MIP-TEST-145",
+        "topic": "Projectile Motion",
+        "difficulty": 2,
+        "tags": ["Time of Flight", "Maximum Height"],
+        "q": "A projectile is thrown at angle $\\theta$ with vertical. It reaches a maximum height H. The time taken to reach the highest point of its path is",
+        "options": ["$\\sqrt{\\frac{H}{g}}$", "$\\sqrt{\\frac{2H}{g}}$", "$\\sqrt{\\frac{H}{2g}}$", "$\\sqrt{\\frac{2H}{g \\cos \\theta}}$"],
+        "correct": 1,
+        "sol": "<b>Step 1:</b> The maximum height depends only on the initial vertical velocity: $H = \\frac{u_y^2}{2g}$.<br><b>Step 2:</b> Rearrange to solve for the initial vertical velocity: $u_y = \\sqrt{2gH}$.<br><b>Step 3:</b> The time taken to reach the highest point is when vertical velocity becomes zero: $v_y = u_y - gt = 0 \\implies t = \\frac{u_y}{g}$.<br><b>Step 4:</b> Substitute $u_y$ into the time equation: $t = \\frac{\\sqrt{2gH}}{g} = \\sqrt{\\frac{2H}{g}}$.<br><b>Step 5:</b> Note that this relation holds perfectly regardless of the angle of projection."
+    },
+            {
+                "id": "MIP-TEST-146",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Maximum Height", "Proportionality"],
+                "q": "The maximum height attained by a projectile is increased by 5%. Keeping the angle of projection constant, What is the percentage increase in horizontal range?",
+                "options": ["5%", "10%", "15%", "20%"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The formula for maximum height is $H = \\frac{u^2\\sin^2\\theta}{2g}$.<br><b>Step 2:</b> The formula for horizontal range is $R = \\frac{u^2\\sin 2\\theta}{g}$.<br><b>Step 3:</b> If the angle of projection $\\theta$ is kept constant, both $H$ and $R$ are directly proportional to $u^2$.<br><b>Step 4:</b> Because $H \\propto u^2$ and $R \\propto u^2$, it follows that $R$ is directly proportional to $H$ ($R \\propto H$).<br><b>Step 5:</b> Therefore, a 5% increase in the maximum height $H$ corresponds exactly to a 5% increase in the horizontal range $R$."
+            },
+            {
+                "id": "MIP-TEST-147",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Maximum Range", "Area Calculation"],
+                "q": "A gardener wants to wet the garden without moving from his place with a water jet whose velocity is 20 m/s. the maximum area that he can wet $(g=10\\text{ m s}^{-2})$ (in metre$^2$)",
+                "options": ["$1600\\pi$", "$40\\pi$", "$400\\pi$", "$200\\pi$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The maximum distance the water can reach is the maximum horizontal range of a projectile: $R_{max} = \\frac{u^2}{g}$.<br><b>Step 2:</b> Substitute the values: $R_{max} = \\frac{20^2}{10} = \\frac{400}{10} = 40\\text{ m}$.<br><b>Step 3:</b> The gardener can rotate 360 degrees, sweeping out a circular area with radius $R_{max}$.<br><b>Step 4:</b> The maximum area is $A = \\pi R_{max}^2$.<br><b>Step 5:</b> Substitute the radius: $A = \\pi (40)^2 = 1600\\pi\\text{ m}^2$."
+            },
+            {
+        "id": "MIP-TEST-148",
+        "topic": "Projectile Motion",
+        "difficulty": 3,
+        "tags": ["Radius of Curvature", "Trajectory"],
+        "q": "A particle is projected with speed u at angle $\\theta$ to the horizontal. find the radius of curvature at highest point of its trajectory",
+        "options": ["$\\frac{u^2\\cos^2\\theta}{2g}$", "$\\frac{\\sqrt{3}u^2\\cos^2\\theta}{2g}$", "$\\frac{u^2\\cos^2\\theta}{g}$", "$\\frac{\\sqrt{3}u^2\\cos^2\\theta}{g}$"],
+        "correct": 2,
+        "sol": "<b>Step 1:</b> The radius of curvature $\\rho$ is defined by $\\rho = \\frac{v^2}{a_n}$, where $v$ is the instantaneous speed and $a_n$ is the acceleration normal (perpendicular) to the velocity.<br><b>Step 2:</b> At the highest point, the velocity is entirely horizontal: $v = u\\cos \\theta$.<br><b>Step 3:</b> Also at the highest point, the acceleration due to gravity $g$ is pointing vertically down, which is strictly perpendicular to the horizontal velocity. Thus, $a_n = g$.<br><b>Step 4:</b> Substitute these into the formula: $\\rho = \\frac{(u\\cos \\theta)^2}{g} = \\frac{u^2\\cos^2 \\theta}{g}$."
+    },
+            {
+                "id": "MIP-TEST-149",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Horizontal Projectile", "Relative Distance"],
+                "q": "From the top of a tower of height 78.4 m two stones are projected horizontally with $10\\text{ m/s}$ and $20\\text{ m/s}$ in opposite directions. On reaching the ground, their separation is",
+                "options": ["120 m", "100 m", "200 m", "150 m"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Both stones are projected horizontally from the same height, so they will share the exact same time of flight.<br><b>Step 2:</b> Calculate time of flight: $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2(78.4)}{9.8}} = \\sqrt{16} = 4\\text{ s}$.<br><b>Step 3:</b> Calculate range of stone 1 (left): $R_1 = u_1 t = 10 \\times 4 = 40\\text{ m}$.<br><b>Step 4:</b> Calculate range of stone 2 (right): $R_2 = u_2 t = 20 \\times 4 = 80\\text{ m}$.<br><b>Step 5:</b> Since they were thrown in opposite directions, their total separation is $R_1 + R_2 = 40 + 80 = 120\\text{ m}$."
+            },
+            {
+                "id": "MIP-TEST-150",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Conservation of Momentum", "Vector Dot Product"],
+                "q": "A body is projected vertically upwards. At its highest point it explodes into two pieces of masses in the ratio of 2:3 and the lighter piece flies horizontally with a velocity of $6\\text{ ms}^{-1}$. The time after which the lines joining the point of explosion to the position of particles are perpendicular to each other is",
+                "options": ["$\\sqrt{\\frac{6}{25}}\\text{s}$", "$\\sqrt{\\frac{12}{15}}\\text{s}$", "$\\sqrt{\\frac{24}{25}}\\text{s}$", "$2\\text{ s}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> At the highest point, initial momentum is zero. Apply conservation of momentum for the explosion: $2m(6) + 3m(v_2) = 0 \\implies v_2 = -4\\text{ m/s}$. The heavier piece moves horizontally in the opposite direction.<br><b>Step 2:</b> After explosion, both pieces are projectiles under gravity. Let the explosion point be the origin.<br><b>Step 3:</b> Position vector of lighter piece: $\\vec{r}_1 = 6t\\hat{i} - \\frac{1}{2}gt^2\\hat{j}$.<br><b>Step 4:</b> Position vector of heavier piece: $\\vec{r}_2 = -4t\\hat{i} - \\frac{1}{2}gt^2\\hat{j}$.<br><b>Step 5:</b> For the position vectors to be perpendicular, their dot product must be zero: $\\vec{r}_1 \\cdot \\vec{r}_2 = 0$.<br><b>Step 6:</b> $(6t)(-4t) + (-\\frac{1}{2}gt^2)(-\\frac{1}{2}gt^2) = 0 \\implies -24t^2 + \\frac{1}{4}g^2 t^4 = 0$.<br><b>Step 7:</b> Since $t \\neq 0$, we get $\\frac{1}{4}g^2 t^2 = 24 \\implies t^2 = \\frac{96}{g^2}$. Taking $g=10$, $t^2 = \\frac{96}{100} = \\frac{24}{25} \\implies t = \\sqrt{\\frac{24}{25}}\\text{ s}$."
+            },
+            {
+                "id": "MIP-TEST-166",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Horizontal Projectile", "Kinematics"],
+                "q": "From the top of a building 80 m high, a ball is thrown horizontally which hits the ground at a distance. The line joining the top of the building to the point where it hits the ground makes an angle of $45^{\\circ}$ with the ground. Initial velocity of projection of the ball is $(g=10\\text{ m/s}^{2})$",
+                "options": ["10 m/s", "15 m/s", "20 m/s", "30 m/s"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The height of the building is $h = 80\\text{ m}$. The line of sight to the landing point makes $45^{\\circ}$ with the ground. Thus, the horizontal range $R$ equals the height: $\\tan 45^{\\circ} = \\frac{h}{R} \\implies R = 80\\text{ m}$.<br><b>Step 2:</b> Calculate the time of flight for a horizontal projectile: $t = \\sqrt{\\frac{2h}{g}}$.<br><b>Step 3:</b> Substitute the values: $t = \\sqrt{\\frac{2(80)}{10}} = \\sqrt{16} = 4\\text{ s}$.<br><b>Step 4:</b> The horizontal velocity is constant: $u = \\frac{R}{t}$.<br><b>Step 5:</b> Substitute the values: $u = \\frac{80\\text{ m}}{4\\text{ s}} = 20\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-167",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Time of Flight", "Quadratic Equation"],
+                "q": "A stone is thrown from the top of a tower of height 50 m with a velocity of $30\\text{ ms}^{-1}$ at an angle of $30^{\\circ}$ above the horizontal. Find the time during which the stone will be in air $(g=10\\text{ m/s}^{2})$",
+                "options": ["2 sec", "3 sec", "4 sec", "5 sec"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Set up the origin at the top of the tower. The ground is at a vertical displacement $S_y = -50\\text{ m}$.<br><b>Step 2:</b> Initial vertical velocity $u_y = u\\sin 30^{\\circ} = 30(0.5) = 15\\text{ m/s}$.<br><b>Step 3:</b> Use the kinematic equation: $S_y = u_y t - \\frac{1}{2}gt^2$.<br><b>Step 4:</b> Substitute values: $-50 = 15t - 5t^2$.<br><b>Step 5:</b> Divide by 5 and rearrange into a standard quadratic equation: $t^2 - 3t - 10 = 0$.<br><b>Step 6:</b> Factor the equation: $(t - 5)(t + 2) = 0$. Since time must be positive, $t = 5\\text{ sec}$."
+            },
+            {
+                "id": "MIP-TEST-168",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Time of Flight", "Relative Kinematics"],
+                "q": "From the top of a tower 40 m high a ball is projected upwards with a speed of $20\\text{ ms}^{-1}$ at an angle $30^{\\circ}$ with the horizontal. The ratio of the total time of flight to hit the ground to the time taken by it to come back to the same initial elevation is $(g=10\\text{ ms}^{-2})$",
+                "options": ["2:1", "3:1", "3:2", "4:1"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Initial vertical velocity $u_y = 20\\sin 30^{\\circ} = 10\\text{ m/s}$.<br><b>Step 2:</b> The time taken to return to the *same elevation* is the standard time of flight on flat ground: $t_1 = \\frac{2u_y}{g} = \\frac{2(10)}{10} = 2\\text{ s}$.<br><b>Step 3:</b> To find the total time $t_2$ to hit the ground (displacement $S_y = -40\\text{ m}$), use the equation: $-40 = 10t_2 - 5t_2^2$.<br><b>Step 4:</b> Rearrange and divide by 5: $t_2^2 - 2t_2 - 8 = 0 \\implies (t_2 - 4)(t_2 + 2) = 0$.<br><b>Step 5:</b> The physical total time is $t_2 = 4\\text{ s}$.<br><b>Step 6:</b> The required ratio is $t_2 : t_1 = 4 : 2 = 2:1$."
+            },
+            {
+                "id": "MIP-TEST-169",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Horizontal Projectile", "Displacement Vector"],
+                "q": "A body is thrown horizontally with a velocity u from the top of a tower. The displacement of the stone when the horizontal and vertical velocities are equal is",
+                "options": ["$\\frac{u^{2}}{g}$", "$\\frac{u^{2}}{2g}$", "$\\sqrt{5}(\\frac{u^{2}}{2g})$", "$\\frac{2u^{2}}{g}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Horizontal velocity is constant: $v_x = u$. Vertical velocity increases from zero: $v_y = gt$.<br><b>Step 2:</b> We are looking for the moment when $v_x = v_y$, so $u = gt \\implies t = \\frac{u}{g}$.<br><b>Step 3:</b> Calculate horizontal displacement at this time: $x = ut = u\\left(\\frac{u}{g}\\right) = \\frac{u^2}{g}$.<br><b>Step 4:</b> Calculate vertical displacement at this time: $y = \\frac{1}{2}gt^2 = \\frac{1}{2}g\\left(\\frac{u}{g}\\right)^2 = \\frac{u^2}{2g}$.<br><b>Step 5:</b> Total displacement $S = \\sqrt{x^2 + y^2} = \\sqrt{\\left(\\frac{u^2}{g}\\right)^2 + \\left(\\frac{u^2}{2g}\\right)^2} = \\frac{u^2}{g}\\sqrt{1 + \\frac{1}{4}}$.<br><b>Step 6:</b> $S = \\frac{u^2}{g}\\sqrt{\\frac{5}{4}} = \\frac{\\sqrt{5}u^2}{2g} = \\sqrt{5}\\left(\\frac{u^2}{2g}\\right)$."
+            },
+            {
+                "id": "MIP-TEST-170",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Angular Velocity", "Highest Point"],
+                "q": "A ball is projected with $20\\sqrt{2}\\text{ m/s}$ at angle $45^{\\circ}$ with horizontal. The angular velocity of the particle at highest point of its journey about point of projection is $(g=10\\text{ m/s}^{2})$",
+                "options": ["$0.1\\text{ rad/s}$", "$0.2\\text{ rad/s}$", "$0.3\\text{ rad/s}$", "$0.4\\text{ rad/s}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Calculate initial components: $u_x = 20\\sqrt{2}\\cos 45^{\\circ} = 20\\text{ m/s}$ and $u_y = 20\\sqrt{2}\\sin 45^{\\circ} = 20\\text{ m/s}$.<br><b>Step 2:</b> At the highest point, the velocity is entirely horizontal: $\\vec{v} = 20\\hat{i}$.<br><b>Step 3:</b> The position of the highest point is $(x, y) = (\\frac{R}{2}, H)$. $H = \\frac{u_y^2}{2g} = \\frac{400}{20} = 20\\text{ m}$. $\\frac{R}{2} = \\frac{u_x u_y}{g} = \\frac{400}{10} = 40\\text{ m}$. Thus, $\\vec{r} = 40\\hat{i} + 20\\hat{j}$.<br><b>Step 4:</b> Angular velocity is $\\omega = \\frac{|\\vec{r} \\times \\vec{v}|}{r^2}$.<br><b>Step 5:</b> $|\\vec{r} \\times \\vec{v}| = |(40\\hat{i} + 20\\hat{j}) \\times (20\\hat{i})| = |-400\\hat{k}| = 400$.<br><b>Step 6:</b> $r^2 = 40^2 + 20^2 = 1600 + 400 = 2000$.<br><b>Step 7:</b> $\\omega = \\frac{400}{2000} = 0.2\\text{ rad/s}$."
+            },
+            {
+                "id": "MIP-TEST-171",
+                "topic": "Circular Motion",
+                "difficulty": 3,
+                "tags": ["Total Acceleration", "Coordinate Geometry"],
+                "q": "A particle is moving along a circular path of radius 2m in xy-plane. When it crosses x-axis, it has an acceleration along the path of $1.5\\text{ m/s}^{2}$ and is moving with a speed of $10\\text{ m/s}$ in -ve y-direction. The total acceleration is",
+                "options": ["$50\\hat{i}-1.5\\hat{j}\\text{ m/s}^{2}$", "$10\\hat{i}-1.5\\hat{j}\\text{ m/s}^{2}$", "$-50\\hat{i}-1.5\\hat{j}\\text{ m/s}^{2}$", "$1.5\\hat{i}-50\\hat{j}\\text{ m/s}^{2}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The particle is crossing the positive x-axis (since it's moving in -ve y-direction around the origin). Its centripetal acceleration is directed *towards the center* (the origin), which is the negative x-direction: $\\vec{a}_c = -\\frac{v^2}{R}\\hat{i}$.<br><b>Step 2:</b> Substitute values: $\\vec{a}_c = -\\frac{10^2}{2}\\hat{i} = -\\frac{100}{2}\\hat{i} = -50\\hat{i}\\text{ m/s}^2$.<br><b>Step 3:</b> The tangential acceleration is along the path. Since it is moving in the negative y-direction, the path direction is $-\\hat{j}$. Thus, $\\vec{a}_t = -1.5\\hat{j}\\text{ m/s}^2$.<br><b>Step 4:</b> The total acceleration is the vector sum: $\\vec{a} = \\vec{a}_c + \\vec{a}_t = -50\\hat{i} - 1.5\\hat{j}\\text{ m/s}^2$."
+            },
+            {
+                "id": "MIP-TEST-172",
+                "topic": "Circular Motion",
+                "difficulty": 1,
+                "tags": ["Linear Speed", "Frequency"],
+                "q": "An insect trapped in a circular groove of radius 12 cm moves along the groove steadily and complete 7 revolutions in 100 seconds. The linear speed of the motion in cm/s is",
+                "options": ["5.3", "4", "3", "5"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Calculate the total distance covered in 7 revolutions: $D = 7 \\times 2\\pi R$.<br><b>Step 2:</b> Substitute $R = 12\\text{ cm}$: $D = 14\\pi(12) = 168\\pi\\text{ cm}$.<br><b>Step 3:</b> Calculate linear speed $v = \\frac{D}{t} = \\frac{168\\pi}{100}$.<br><b>Step 4:</b> Use the approximation $\\pi \\approx \\frac{22}{7}$ to simplify: $v \\approx \\frac{168 \\times 22}{7 \\times 100} = \\frac{24 \\times 22}{100}$.<br><b>Step 5:</b> $v = \\frac{528}{100} = 5.28\\text{ cm/s}$, which is approximately $5.3\\text{ cm/s}$."
+            },
+            {
+                "id": "MIP-TEST-173",
+                "topic": "Circular Motion",
+                "difficulty": 2,
+                "tags": ["Angular Velocity", "Linear Speed"],
+                "q": "The length of minute hand in a pendulum clock is 10cm. The speed of tip of the hand is (in m/s)",
+                "options": ["$\\frac{\\pi}{6000}$", "$\\frac{\\pi}{18000}$", "$\\frac{\\pi}{3600}$", "$\\frac{\\pi}{1200}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> A minute hand completes 1 full revolution ($2\\pi$ radians) every 60 minutes (1 hour).<br><b>Step 2:</b> Convert the time period to seconds: $T = 60 \\times 60 = 3600\\text{ s}$.<br><b>Step 3:</b> Calculate angular velocity: $\\omega = \\frac{2\\pi}{3600} = \\frac{\\pi}{1800}\\text{ rad/s}$.<br><b>Step 4:</b> Calculate linear speed using $v = r\\omega$. Convert radius to meters: $r = 10\\text{ cm} = 0.1\\text{ m}$.<br><b>Step 5:</b> $v = 0.1 \\times \\frac{\\pi}{1800} = \\frac{\\pi}{18000}\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-174",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Parametric Equations", "Angle of Projection"],
+                "q": "Equations of motion of a projectile are given by $x=36t$ and $2y=96t-98t^2\\text{ m}$. The angle of projection is equal to",
+                "options": ["$\\sin^{-1}(\\frac{3}{4})$", "$\\sin^{-1}(\\frac{4}{3})$", "$\\sin^{-1}(\\frac{4}{5})$", "$\\sin^{-1}(\\frac{3}{5})$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Differentiate the horizontal equation to find the initial horizontal velocity: $v_x = \\frac{dx}{dt} = 36$. Thus, $u_x = 36\\text{ m/s}$.<br><b>Step 2:</b> Simplify the vertical equation: $y = 48t - 49t^2$.<br><b>Step 3:</b> Differentiate to find initial vertical velocity: $v_y = \\frac{dy}{dt} = 48 - 98t$. At $t=0$, $u_y = 48\\text{ m/s}$.<br><b>Step 4:</b> The angle of projection $\\theta$ is $\\tan\\theta = \\frac{u_y}{u_x} = \\frac{48}{36} = \\frac{4}{3}$.<br><b>Step 5:</b> In a right triangle with opposite = 4 and adjacent = 3, the hypotenuse is 5.<br><b>Step 6:</b> Therefore, $\\sin\\theta = \\frac{4}{5} \\implies \\theta = \\sin^{-1}(\\frac{4}{5})$."
+            },
+            {
+        "id": "MIP-TEST-175",
+        "topic": "Addition and Resolution of Vectors",
+        "difficulty": 2,
+        "tags": ["Vector Addition", "Resultant Angle"],
+        "q": "$\\vec{A}$ and $\\vec{B}$ are two vectors of equal magnitude and $\\theta$ is the angle between them. The angle between $\\vec{A}$ or $\\vec{B}$ with their resultant is",
+        "options": ["$\\theta/4$", "$\\theta/2$", "$2\\theta$", "0"],
+        "correct": 1,
+        "sol": "<b>Step 1:</b> Let the magnitude of both vectors be $x$. The angle $\\alpha$ of the resultant with vector $\\vec{A}$ is given by $\\tan\\alpha = \\frac{B\\sin \\theta}{A + B\\cos \\theta}$.<br><b>Step 2:</b> Substitute $A = B = x$: $\\tan\\alpha = \\frac{x\\sin \\theta}{x + x\\cos \\theta} = \\frac{\\sin \\theta}{1 + \\cos \\theta}$.<br><b>Step 3:</b> Use half-angle trigonometric identities: $\\sin \\theta = 2\\sin(\\theta/2)\\cos(\\theta/2)$ and $1 + \\cos \\theta = 2\\cos^2(\\theta/2)$.<br><b>Step 4:</b> $\\tan\\alpha = \\frac{2\\sin(\\theta/2)\\cos(\\theta/2)}{2\\cos^2(\\theta/2)} = \\tan(\\theta/2)$.<br><b>Step 5:</b> Therefore, $\\alpha = \\theta/2$. The resultant of two equal vectors always bisects the angle between them perfectly."
+    },
+            {
+        "id": "MIP-TEST-176",
+        "topic": "Projectile Motion",
+        "difficulty": 1,
+        "tags": ["Velocity at Maximum Height", "Conceptual"],
+        "q": "If a body is projected with an angle $\\theta$ to the horizontal then",
+        "options": ["it's velocity always perpendicular to its acceleration", "its velocity becomes zero at its maximum height", "it's velocity makes zero angle with the horizontal at its maximum height", "the body just before hitting the ground, the direction of velocity coincides with the acceleration."],
+        "correct": 2,
+        "sol": "<b>Step 1:</b> Consider the velocity vector of a projectile at its maximum height.<br><b>Step 2:</b> At maximum height, the vertical component of the velocity ($u\\sin \\theta - gt$) becomes exactly zero.<br><b>Step 3:</b> The horizontal component of the velocity ($u\\cos \\theta$) remains constant and is the only velocity the object possesses.<br><b>Step 4:</b> Since the velocity vector is entirely horizontal, it makes an angle of zero degrees with the horizontal plane."
+    },
+            {
+        "id": "MIP-TEST-177",
+        "topic": "Projectile Motion",
+        "difficulty": 3,
+        "tags": ["Maximum Range", "Time of Flight"],
+        "q": "A body is projected at an angle $\\theta$ so that its range is maximum. If T is the time of flight then the value of maximum range is (acceleration due to gravity = g)",
+        "options": ["$\\frac{g^{2}T}{2}$", "$\\frac{gT}{2}$", "$\\frac{gT^{2}}{2}$", "$\\frac{g^{2}T^{2}}{2}$"],
+        "correct": 2,
+        "sol": "<b>Step 1:</b> For a projectile to achieve maximum range on a horizontal plane, the angle of projection must be $\\theta = 45^{\\circ}$.<br><b>Step 2:</b> The time of flight formula is $T = \\frac{2u\\sin 45^{\\circ}}{g} = \\frac{2u(1/\\sqrt{2})}{g} = \\frac{u\\sqrt{2}}{g}$.<br><b>Step 3:</b> Solve this equation for the initial velocity: $u = \\frac{gT}{\\sqrt{2}}$.<br><b>Step 4:</b> The formula for maximum range is $R_{max} = \\frac{u^2}{g}$.<br><b>Step 5:</b> Substitute the expression for $u$ into the range formula: $R_{max} = \\frac{(gT/\\sqrt{2})^2}{g} = \\frac{g^2 T^2 / 2}{g} = \\frac{gT^2}{2}$."
+    },
+            {
+                "id": "MIP-TEST-178",
+                "topic": "Projectile Motion",
+                "difficulty": 3,
+                "tags": ["Equation of Trajectory", "Maximum Height"],
+                "q": "The path of projectile is given by the equation $y=ax-bx^{2}$, where 'a' and 'b' are constants and x and y are respectively horizontal and vertical distances of projectile from the point of projection. The maximum height attained by the projectile and the angle of projection are respectively.",
+                "options": ["$\\frac{2a^{2}}{b}, \\tan^{-1}(a)$", "$\\frac{b^{2}}{2a}, \\tan^{-1}(b)$", "$\\frac{a^{2}}{b}, \\tan^{-1}(2b)$", "$\\frac{a^{2}}{4b}, \\tan^{-1}(a)$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Compare the given trajectory equation $y = ax - bx^2$ with the standard form $y = x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}$.<br><b>Step 2:</b> By equating the coefficients of the linear $x$ term, we find $\\tan\\theta = a$. Thus, the angle of projection is $\\theta = \\tan^{-1}(a)$.<br><b>Step 3:</b> The maximum height occurs at the vertex of the parabola. We find the x-coordinate by setting $\\frac{dy}{dx} = 0$.<br><b>Step 4:</b> $\\frac{dy}{dx} = a - 2bx = 0 \\implies x = \\frac{a}{2b}$.<br><b>Step 5:</b> Substitute this x back into the original equation to find the maximum height (y): $H = a(\\frac{a}{2b}) - b(\\frac{a}{2b})^2 = \\frac{a^2}{2b} - \\frac{a^2}{4b} = \\frac{a^2}{4b}$."
+            },
+            {
+                "id": "MIP-TEST-179",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Horizontal Projectile", "Velocity Components"],
+                "q": "A body is projected horizontally from the top of a tower with a velocity of $10\\text{ m/s}$. If it hits the ground at an angle $45^{\\circ}$, the vertical component of velocity when it hits ground in m/s is",
+                "options": ["10", "$10\\sqrt{2}$", "$5\\sqrt{2}$", "5"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> In horizontal projection, the horizontal component of velocity remains constant. At impact, $v_x = u = 10\\text{ m/s}$.<br><b>Step 2:</b> The angle $\\theta$ the velocity vector makes with the ground is given by the relation $\\tan\\theta = \\frac{v_y}{v_x}$.<br><b>Step 3:</b> Substitute the known angle ($45^{\\circ}$) and horizontal velocity: $\\tan 45^{\\circ} = \\frac{v_y}{10}$.<br><b>Step 4:</b> Since $\\tan 45^{\\circ} = 1$, we get $1 = \\frac{v_y}{10} \\implies v_y = 10\\text{ m/s}$."
+            },
+            {
+                "id": "MIP-TEST-180",
+                "topic": "Projectile Motion",
+                "difficulty": 2,
+                "tags": ["Time of Flight", "Maximum Height"],
+                "q": "A body is projected with an angle $\\theta$. The maximum height reached is h. If the time of flight is 4 sec and $g=10\\text{ m/s}^{2}$, then the value of h is",
+                "options": ["10 m", "40 m", "20 m", "5 m"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The formula for the time of flight is $T = \\frac{2u\\sin \\theta}{g}$.<br><b>Step 2:</b> Substitute the given values: $4 = \\frac{2u\\sin \\theta}{10} \\implies 40 = 2u\\sin \\theta$.<br><b>Step 3:</b> The initial vertical velocity is $u\\sin \\theta = 20\\text{ m/s}$.<br><b>Step 4:</b> The formula for maximum height is $h = \\frac{u^2\\sin^2 \\theta}{2g} = \\frac{(u\\sin \\theta)^2}{2g}$.<br><b>Step 5:</b> Substitute $u\\sin \\theta = 20$ into the height formula: $h = \\frac{20^2}{2(10)} = \\frac{400}{20} = 20\\text{ m}."
+            }
+        ]
     }
 };
