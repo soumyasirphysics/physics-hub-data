@@ -10,7 +10,7 @@
                 "q": "The accuracy in the measurement of the diameter of hydrogen atom as $1.06\\times 10^{-10}$ m is:",
                 "options": ["0.01", "$106\\times 10^{-10}$", "$\\frac{1}{106}$", "$0.01\\times 10^{-10}$"],
                 "correct": 2,
-                "sol": "<b>Step 1:</b> The measured value is $1.06 \\times 10^{-10}$ m.<br><b>Step 2:</b> The least count (absolute error) based on the significant figures given (two decimal places) is $0.01 \\times 10^{-10}$ m.<br><b>Step 3:</b> The accuracy or relative error is $\\frac{\\Delta d}{d} = \\frac{0.01 \\times 10^{-10}}{1.06 \\times 10^{-10}} = \\frac{1}{106}$."
+                "sol": "<b>Step 1:</b> The measured value is $1.06 \times 10^{-10}$ m.<br><b>Step 2:</b> The least count (absolute error) based on the significant figures given (two decimal places) is $0.01 \\times 10^{-10}$ m.<br><b>Step 3:</b> The accuracy or relative error is $\\frac{\\Delta d}{d} = \\frac{0.01 \\times 10^{-10}}{1.06 \\times 10^{-10}} = \\frac{1}{106}$."
             },
             {
                 "id": "UM-TEST-002",
@@ -890,7 +890,7 @@
                 "q": "The length of pendulum is measured as 1.01m and time for 30 oscillations is measured as one minute 3 seconds. Error in length is 0.01 m and error in time is 3 secs. The percentage error in the measurement of acceleration due to gravity is:",
                 "options": ["1%", "5%", "10%", "15%"],
                 "correct": 2,
-                "sol": "<b>Step 1:</b> The formula for acceleration due to gravity is $g = \\frac{4\\pi^2 L}{T^2}$. The maximum percentage error is $\\%g = \\%L + 2(\\%T)$.<br><b>Step 2:</b> Calculate $\%L = \\left(\\frac{\\Delta L}{L}\\right) \\times 100 = \\left(\\frac{0.01}{1.01}\\right) \\times 100 \\approx 1\\%$.<br><b>Step 3:</b> The total time $t = 1\\text{ min } 3\\text{ s} = 63\\text{ s}$. Error in time $\\Delta t = 3\\text{ s}$.<br><b>Step 4:</b> The percentage error in Time Period (T) is identical to the percentage error in total time (t). So, $\\%T = \\left(\\frac{3}{63}\\right) \\times 100 \\approx 4.76\\%$.<br><b>Step 5:</b> $\\%g = 1\\% + 2(4.76\\%) = 1\\% + 9.52\\% = 10.52\\%$.<br><b>Step 6:</b> The closest matching option is 10%."
+                "sol": "<b>Step 1:</b> The formula for acceleration due to gravity is $g = \\frac{4\\pi^2 L}{T^2}$. The maximum percentage error is $\\%g = \\%L + 2(\\%T)$.<br><b>Step 2:</b> Calculate $\\%L = \\left(\\frac{\\Delta L}{L}\\right) \\times 100 = \\left(\\frac{0.01}{1.01}\\right) \\times 100 \\approx 1\\%$.<br><b>Step 3:</b> The total time $t = 1\\text{ min } 3\\text{ s} = 63\\text{ s}$. Error in time $\\Delta t = 3\\text{ s}$.<br><b>Step 4:</b> The percentage error in Time Period (T) is identical to the percentage error in total time (t). So, $\\%T = \\left(\\frac{3}{63}\\right) \\times 100 \\approx 4.76\\%$.<br><b>Step 5:</b> $\\%g = 1\\% + 2(4.76\\%) = 1\\% + 9.52\\% = 10.52\\%$.<br><b>Step 6:</b> The closest matching option is 10%."
             },
             {
                 "id": "UM-TEST-090",
