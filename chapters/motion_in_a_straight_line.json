@@ -1,0 +1,1142 @@
+"Motion in a Straight Line": {
+        "classTarget": "Class 11",
+        "topics": ["Displacement and Distance", "Speed and Velocity", "Acceleration", "Relative Velocity", "Motion Under Gravity", "Graphs"],
+        "questions": [
+            {
+                "id": "KIN-TEST-001",
+                "topic": "Displacement and Distance",
+                "difficulty": 2,
+                "tags": ["Circular Motion", "Ratio"],
+                "q": "A body is moving along the circumference of a circle of radius 'R' and completes half of the revolution. Then, the ratio of its displacement to distance is:",
+                "options": ["$\\pi:2$", "2:1", "$2:\\pi$", "1:2"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> When a body completes half a revolution along a circle, it reaches the diametrically opposite point.<br><b>Step 2:</b> The displacement is the shortest straight-line distance between the initial and final points, which is the diameter: $2R$.<br><b>Step 3:</b> The distance covered is half the circumference of the circle: $\\pi R$.<br><b>Step 4:</b> The ratio of displacement to distance is $\\frac{2R}{\\pi R} = 2:\\pi$."
+            },
+            {
+                "id": "KIN-TEST-002",
+                "topic": "Displacement and Distance",
+                "difficulty": 2,
+                "tags": ["Circular Motion", "Periodic Motion"],
+                "q": "A body completes one round of a circle of radius 'R' in 20 seconds. The displacement of the body after 45 seconds is:",
+                "options": ["$\\frac{R}{\\sqrt{2}}$", "$\\sqrt{2}R$", "$2\\sqrt{R}$", "2R"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The time period for one complete revolution is 20 seconds.<br><b>Step 2:</b> In 45 seconds, the body completes $\\frac{45}{20} = 2.25$ revolutions.<br><b>Step 3:</b> After 2 complete revolutions (40 seconds), the displacement is zero because the body returns to its starting point.<br><b>Step 4:</b> In the remaining 5 seconds, it completes $0.25$ (or $\\frac{1}{4}$) of a revolution, moving through an angle of $90^{\\circ}$ along the circle.<br><b>Step 5:</b> The displacement forms the hypotenuse of a right-angled triangle with two radii as the base and height: $\\sqrt{R^2 + R^2} = \\sqrt{2R^2} = \\sqrt{2}R$."
+            },
+            {
+                "id": "KIN-TEST-003",
+                "topic": "Speed and Velocity",
+                "difficulty": 2,
+                "tags": ["Average Speed", "Kinematics"],
+                "q": "If a body covers first half of its journey with uniform speed $v_{1}$, and the second half of the journey with uniform speed $v_{2}$, then the average speed is:",
+                "options": ["$v_{1}+v_{2}$", "$\\frac{2v_{1}v_{2}}{v_{1}+v_{2}}$", "$\\frac{v_{1}v_{2}}{v_{1}+v_{2}}$", "$v_{1}v_{2}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Average speed is defined as the total distance divided by the total time taken.<br><b>Step 2:</b> Let the total distance be $2S$. The first half distance $S$ is covered at speed $v_1$, and the second half $S$ at speed $v_2$.<br><b>Step 3:</b> The time taken for the first half is $t_1 = \\frac{S}{v_1}$, and for the second half is $t_2 = \\frac{S}{v_2}$.<br><b>Step 4:</b> Average Speed $= \\frac{2S}{t_1 + t_2} = \\frac{2S}{\\frac{S}{v_1} + \\frac{S}{v_2}}$.<br><b>Step 5:</b> Cancel $S$ and simplify the denominator: Average Speed $= \\frac{2}{\\frac{v_2 + v_1}{v_1 v_2}} = \\frac{2v_{1}v_{2}}{v_{1}+v_{2}}$."
+            },
+            {
+        "id": "KIN-TEST-004",
+        "topic": "Speed and Velocity",
+        "difficulty": 2,
+        "tags": ["Average Velocity", "1D Motion"],
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgBgFms-iffheeK0MEOkeZcTOp-IJ_E5iWg97bfelNByMNZSSq_MTzSoVQ7yPLxkqNVhp1_RFqeHVLl1S_wFfGYLrKwzMAfFcNxld_rYlJNApP9CVeHu2T2w4Y16MYqIgxwMQj0VbQGdzIIomCbsTUXPnuGNbo-VBTGt4M4YMmOK1iXLFJ7DS7_5-r58LAe",
+        "q": "A car is moving along a straight line, say OP in figure. It moves from O to P in 18 s and return from P to Q in 6 s. What are the average velocity and average speed of the car in going from O to P and back to Q?",
+        "options": ["$10\\text{ ms}^{-1}, 20\\text{ ms}^{-1}$", "$20\\text{ ms}^{-1}, 10\\text{ ms}^{-1}$", "$10\\text{ ms}^{-1}, 10\\text{ ms}^{-1}$", "$20\\text{ ms}^{-1}, 20\\text{ ms}^{-1}$"],
+        "correct": 0,
+        "sol": "<b>Step 1:</b> Calculate the total time taken: $t = 18\\text{ s} + 6\\text{ s} = 24\\text{ s}$.<br><b>Step 2:</b> Calculate the net displacement from the origin O to final point Q using the values from the figure. Displacement $= 240\\text{ m} - 0\\text{ m} = 240\\text{ m}$.<br><b>Step 3:</b> Average Velocity $= \\frac{\\text{Displacement}}{\\text{Total Time}} = \\frac{240}{24} = 10\\text{ ms}^{-1}$.<br><b>Step 4:</b> Calculate the total path length (distance): O to P is 360 m, and P back to Q is $360 - 240 = 120\\text{ m}$. Total distance $= 360 + 120 = 480\\text{ m}$.<br><b>Step 5:</b> Average Speed $= \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{480}{24} = 20\\text{ ms}^{-1}$."
+    },
+            {
+                "id": "KIN-TEST-005",
+                "topic": "Speed and Velocity",
+                "difficulty": 2,
+                "tags": ["Average Velocity", "Uniform Acceleration"],
+                "q": "For a body moving with uniform acceleration 'a', initial and final velocities in a time interval 't' are 'u' and 'v' respectively. Then, its average velocity in the time interval 't' is:",
+                "options": ["$v+at$", "$v-at$", "$v-\\frac{at}{2}$", "$u-\\frac{at}{2}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> For a body undergoing uniform acceleration, the average velocity over a time interval is the arithmetic mean of the initial and final velocities: $v_{avg} = \\frac{u + v}{2}$.<br><b>Step 2:</b> From the first equation of motion, we know $v = u + at$, which can be rearranged as $u = v - at$.<br><b>Step 3:</b> Substitute this expression for $u$ into the average velocity formula: $v_{avg} = \\frac{(v - at) + v}{2}$.<br><b>Step 4:</b> Simplify the expression: $v_{avg} = \\frac{2v - at}{2} = v - \\frac{at}{2}$."
+            },
+            {
+                "id": "KIN-TEST-006",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Vector Kinematics", "Change in Velocity"],
+                "q": "A body moves with a velocity of 3 m/s due east and then turns due north to travel with the same velocity. If the total time of travel is 6s, the acceleration of the body is:",
+                "options": ["$\\sqrt{3}\\text{ m/s}^{2}$ towards north west", "$\\frac{1}{\\sqrt{2}}\\text{ m/s}^{2}$ towards north west", "$\\sqrt{2}\\text{ m/s}^{2}$ towards north east", "all the above"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Treat velocity as a vector. Initial velocity $\\vec{u} = 3\\hat{i}$ (East). Final velocity $\\vec{v} = 3\\hat{j}$ (North).<br><b>Step 2:</b> Change in velocity $\\Delta\\vec{v} = \\vec{v} - \\vec{u} = 3\\hat{j} - 3\\hat{i}$.<br><b>Step 3:</b> The direction of $\\Delta\\vec{v}$ is $-x$ and $+y$, which points towards North-West.<br><b>Step 4:</b> Magnitude of change in velocity $|\\Delta\\vec{v}| = \\sqrt{(-3)^2 + 3^2} = \\sqrt{18} = 3\\sqrt{2}\\text{ m/s}$.<br><b>Step 5:</b> Acceleration $a = \\frac{|\\Delta\\vec{v}|}{t} = \\frac{3\\sqrt{2}}{6} = \\frac{\\sqrt{2}}{2} = \\frac{1}{\\sqrt{2}}\\text{ m/s}^2$."
+            },
+            {
+                "id": "KIN-TEST-007",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Equations of Motion", "Simultaneous Equations"],
+                "q": "If a body travels 30m in an interval of 2s and 50m in the next interval of 2s, then the acceleration of the body is:",
+                "options": ["$10\\text{ m/s}^{2}$", "$5\\text{ m/s}^{2}$", "$20\\text{ m/s}^{2}$", "$25\\text{ m/s}^{2}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Use the equation of motion $S = ut + \\frac{1}{2}at^2$.<br><b>Step 2:</b> For the first interval ($t=2$s, $S=30$m): $30 = u(2) + \\frac{1}{2}a(2)^2 \\implies 30 = 2u + 2a \\implies 15 = u + a$ (Equation 1).<br><b>Step 3:</b> For the total journey of both intervals combined ($t = 4$s, $S = 30 + 50 = 80$m): $80 = u(4) + \\frac{1}{2}a(4)^2 \\implies 80 = 4u + 8a \\implies 20 = u + 2a$ (Equation 2).<br><b>Step 4:</b> Subtract Equation 1 from Equation 2: $(u + 2a) - (u + a) = 20 - 15$.<br><b>Step 5:</b> Therefore, acceleration $a = 5\\text{ m/s}^2$."
+            },
+            {
+                "id": "KIN-TEST-008",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Stopping Distance", "Kinematics"],
+                "q": "A bullet travelling horizontally looses $1/20^{th}$ of its velocity while piercing a wooden plank. Then the number of such planks required to stop the bullet is:",
+                "options": ["6", "9", "11", "13"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Let initial velocity be $u$. After passing through 1 plank of thickness $s$, the velocity is $v = u - \\frac{u}{20} = \\frac{19u}{20}$.<br><b>Step 2:</b> Use $v^2 - u^2 = 2as \\implies \\left(\\frac{19u}{20}\\right)^2 - u^2 = 2as$.<br><b>Step 3:</b> Simplify: $u^2 \\left(\\frac{361}{400} - 1\\right) = 2as \\implies 2as = -\\frac{39u^2}{400}$.<br><b>Step 4:</b> Let $n$ be the total number of planks required to stop the bullet completely ($v_{final} = 0$). Total distance is $ns$.<br><b>Step 5:</b> Use the equation for the full journey: $0^2 - u^2 = 2a(ns) = n(2as)$.<br><b>Step 6:</b> Substitute $2as$: $-u^2 = n \\left(-\\frac{39u^2}{400}\\right) \\implies n = \\frac{400}{39} \\approx 10.25$.<br><b>Step 7:</b> Since 10 planks are not enough to bring the velocity exactly to zero, it will pierce into the 11th plank. Thus, 11 planks are required."
+            },
+            {
+                "id": "KIN-TEST-009",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Equations of Motion", "Ratio"],
+                "q": "A particle starts moving from rest under uniform acceleration. It travels a distance 'x' in the first two seconds and a distance 'y' in the next two seconds. If $y=nx$, then $n=$",
+                "options": ["1", "2", "3", "4"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The particle starts from rest ($u=0$). The distance covered in time $t$ is $S = \\frac{1}{2}at^2$.<br><b>Step 2:</b> Distance $x$ in the first 2 seconds: $x = \\frac{1}{2}a(2)^2 = 2a$.<br><b>Step 3:</b> Distance covered in the first 4 seconds is $x + y$: $x + y = \\frac{1}{2}a(4)^2 = 8a$.<br><b>Step 4:</b> Find $y$ by subtracting $x$: $y = 8a - 2a = 6a$.<br><b>Step 5:</b> The ratio $n = \\frac{y}{x} = \\frac{6a}{2a} = 3$."
+            },
+            {
+                "id": "KIN-TEST-010",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Distance in nth Second", "Equations of Motion"],
+                "q": "A particle is moving in a straight line with initial velocity 'u' and uniform acceleration 'a'. If the sum of the distances travelled in $t^{th}$ and $(t+1)^{th}$ second is 100 cm, then its velocity after 't' seconds in cm/s is:",
+                "options": ["20", "30", "80", "50"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The distance covered in the $n^{th}$ second is $S_n = u + \\frac{a}{2}(2n - 1)$.<br><b>Step 2:</b> Distance in the $t^{th}$ second: $S_t = u + \\frac{a}{2}(2t - 1)$.<br><b>Step 3:</b> Distance in the $(t+1)^{th}$ second: $S_{t+1} = u + \\frac{a}{2}(2(t+1) - 1) = u + \\frac{a}{2}(2t + 1)$.<br><b>Step 4:</b> Add the two distances: $S_t + S_{t+1} = 2u + \\frac{a}{2}(2t - 1 + 2t + 1) = 2u + \\frac{a}{2}(4t) = 2u + 2at$.<br><b>Step 5:</b> Factor the expression: $2(u + at)$. We are given that this sum is 100 cm. So, $2(u + at) = 100 \\implies u + at = 50$.<br><b>Step 6:</b> By the first equation of motion, the velocity after $t$ seconds is $v = u + at$. Therefore, $v = 50\\text{ cm/s}."
+            },
+            {
+                "id": "KIN-TEST-011",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Kinematics", "Algebraic Manipulation"],
+                "q": "A particle is moving with uniform acceleration along a straight line ABC. Its velocity at 'A' and 'B' are $6\\text{ m/s}$ and $9\\text{ m/s}$ respectively. If $AB:BC=5:16$ then its velocity at 'C' is:",
+                "options": ["$9.6\\text{ m/s}$", "$12\\text{ m/s}$", "$15\\text{ m/s}$", "$21.5\\text{ m/s}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Let the distances be $AB = 5x$ and $BC = 16x$.<br><b>Step 2:</b> Apply $v^2 - u^2 = 2aS$ between points A and B: $v_B^2 - v_A^2 = 2a(AB) \\implies 9^2 - 6^2 = 2a(5x)$.<br><b>Step 3:</b> Simplify: $81 - 36 = 10ax \\implies 45 = 10ax \\implies ax = 4.5$.<br><b>Step 4:</b> Apply $v^2 - u^2 = 2aS$ between points B and C: $v_C^2 - v_B^2 = 2a(BC) \\implies v_C^2 - 9^2 = 2a(16x)$.<br><b>Step 5:</b> Rewrite as $v_C^2 - 81 = 32(ax)$. Substitute the value of $ax$: $v_C^2 - 81 = 32(4.5) = 144$.<br><b>Step 6:</b> $v_C^2 = 144 + 81 = 225$. Therefore, $v_C = 15\\text{ m/s}$."
+            },
+            {
+                "id": "KIN-TEST-012",
+                "topic": "Acceleration",
+                "difficulty": 1,
+                "tags": ["Equations of Motion", "Average Acceleration"],
+                "q": "A car moving on a straight road accelerates from a speed of $4.1\\text{ m/s}$ to a speed of $6.9\\text{ m/s}$ in 5.0 s. Then its average acceleration is:",
+                "options": ["$0.5\\text{ m/s}^{2}$", "$0.6\\text{ m/s}^{2}$", "$0.56\\text{ m/s}^{2}$", "$0.65\\text{ m/s}^{2}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Average acceleration is defined as the change in velocity divided by the time interval: $a = \\frac{v - u}{t}$.<br><b>Step 2:</b> Substitute the given values: $v = 6.9\\text{ m/s}$, $u = 4.1\\text{ m/s}$, $t = 5.0\\text{ s}$.<br><b>Step 3:</b> $a = \\frac{6.9 - 4.1}{5.0}$.<br><b>Step 4:</b> $a = \\frac{2.8}{5.0} = 0.56\\text{ m/s}^2$."
+            },
+            {
+                "id": "KIN-TEST-013",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Gravity Variations", "Maximum Height"],
+                "q": "A body projected vertically upwards with a velocity of 19.6 m/s reaches a height of 19.8 m on earth. If it is projected vertically up with the same velocity on moon, then the maximum height reached by it is:",
+                "options": ["19.18 m", "3.3 m", "9.9 m", "118.8 m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The formula for maximum height attained by a projectile is $H = \\frac{u^2}{2g}$.<br><b>Step 2:</b> For a constant initial velocity $u$, the maximum height is inversely proportional to acceleration due to gravity: $H \\propto \\frac{1}{g}$.<br><b>Step 3:</b> The acceleration due to gravity on the moon is roughly $\\frac{1}{6}$ of that on Earth ($g_{moon} = g_{earth}/6$).<br><b>Step 4:</b> Therefore, the height reached on the moon will be 6 times the height reached on Earth.<br><b>Step 5:</b> $H_{moon} = 6 \\times 19.8\\text{ m} = 118.8\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-014",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Quadratic Equation", "Kinematics"],
+                "q": "A ball is thrown straight upward with a speed v from a point h meter above the ground. The time taken for the ball to strike the ground is:",
+                "options": ["$\\frac{v}{g}\\left[1+\\sqrt{1+\\frac{2hg}{v^2}}\\right]$", "$\\frac{v}{g}\\left[1-\\sqrt{1-\\frac{2hg}{v^2}}\\right]$", "$\\frac{v}{g}\\left[1-\\sqrt{1+\\frac{2hg}{v^2}}\\right]$", "$\\frac{v}{g}\\left[2+\\frac{2hg}{v^2}\\right]$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Define the coordinate system with the starting point at origin (0) and upward as positive. The ground is at a displacement of $S = -h$.<br><b>Step 2:</b> Use the equation of motion $S = ut + \\frac{1}{2}at^2$. Substitute $S = -h$, $u = v$, and $a = -g$.<br><b>Step 3:</b> $-h = vt - \\frac{1}{2}gt^2$. Rearrange into a standard quadratic equation: $gt^2 - 2vt - 2h = 0$.<br><b>Step 4:</b> Solve for $t$ using the quadratic formula: $t = \\frac{-(-2v) \\pm \\sqrt{(-2v)^2 - 4(g)(-2h)}}{2g}$.<br><b>Step 5:</b> $t = \\frac{2v \\pm \\sqrt{4v^2 + 8gh}}{2g} = \\frac{v \\pm \\sqrt{v^2 + 2gh}}{g}$.<br><b>Step 6:</b> Since time must be positive and $\\sqrt{v^2 + 2gh} > v$, we take the positive root.<br><b>Step 7:</b> Factor out $v$ from the square root: $t = \\frac{v}{g} \\left[ 1 + \\sqrt{1 + \\frac{2hg}{v^2}} \\right]$."
+            },
+            {
+                "id": "KIN-TEST-015",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Impact", "Average Acceleration", "Change in Velocity"],
+                "q": "A ball is dropped on the floor from a height of 10m. It rebounds to a height of 2.5m. If the ball is in contact with the floor for 0.01 s, then the average acceleration during contact is nearly:",
+                "options": ["$500\\sqrt{2}\\text{ m/s}^{2}$ upwards", "$1800\\sqrt{2}\\text{ m/s}^{2}$ downwards", "$1500\\sqrt{2}\\text{ m/s}^{2}$ upwards", "$1500\\sqrt{2}\\text{ m/s}^{2}$ downwards"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Calculate the velocity of the ball just before impact (downwards): $v_1 = \\sqrt{2gh_1} = \\sqrt{2 \\times 10 \\times 10} = \\sqrt{200} = 10\\sqrt{2}\\text{ m/s}$.<br><b>Step 2:</b> Calculate the velocity of the ball just after impact (upwards): $v_2 = \\sqrt{2gh_2} = \\sqrt{2 \\times 10 \\times 2.5} = \\sqrt{50} = 5\\sqrt{2}\\text{ m/s}$.<br><b>Step 3:</b> Let the upward direction be positive. The initial velocity is $-10\\sqrt{2}$ and final velocity is $+5\\sqrt{2}$.<br><b>Step 4:</b> Change in velocity $\\Delta v = v_2 - v_1 = 5\\sqrt{2} - (-10\\sqrt{2}) = 15\\sqrt{2}\\text{ m/s}$ (upwards).<br><b>Step 5:</b> Average acceleration $a = \\frac{\\Delta v}{\\Delta t} = \\frac{15\\sqrt{2}}{0.01} = 1500\\sqrt{2}\\text{ m/s}^2$ upwards."
+            },
+            {
+                "id": "KIN-TEST-016",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Free Fall", "Kinematics"],
+                "q": "A body falling from rest has a velocity 'v' after it falls through a distance 'h'. The distance it has to fall down further, for its velocity to become double, is ..... times 'h'.",
+                "options": ["5", "1", "2", "3"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Use the third equation of motion: $v^2 - u^2 = 2gS$. Since the body falls from rest, $u=0$.<br><b>Step 2:</b> For the first part of the fall: $v^2 = 2gh$.<br><b>Step 3:</b> Let the total distance required for the velocity to become $2v$ be $H$. Then, $(2v)^2 = 2gH \\implies 4v^2 = 2gH$.<br><b>Step 4:</b> Substitute $v^2 = 2gh$ into this equation: $4(2gh) = 2gH \\implies H = 4h$.<br><b>Step 5:</b> The total distance is $4h$. Since it has already fallen a distance $h$, the *further* distance it has to fall is $4h - h = 3h$."
+            },
+            {
+                "id": "KIN-TEST-017",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Relative Acceleration", "Free Fall"],
+                "q": "A ball is dropped from a building of height 45m. Simultaneously another ball is thrown up with a speed 40m/s. The rate of change of relative speed of the balls is:",
+                "options": ["$20\\text{ ms}^{-2}$", "$40\\text{ ms}^{-2}$", "$30\\text{ ms}^{-2}$", "$0\\text{ ms}^{-2}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The rate of change of relative speed is the relative acceleration between the two balls.<br><b>Step 2:</b> The acceleration of the first ball (dropped) is $a_1 = -g$ (downwards).<br><b>Step 3:</b> The acceleration of the second ball (thrown upwards) is also $a_2 = -g$ (downwards), because gravity is the only force acting on both once they are in the air.<br><b>Step 4:</b> Relative acceleration $a_{rel} = a_1 - a_2 = -g - (-g) = 0$.<br><b>Step 5:</b> Therefore, their relative speed remains constant, and its rate of change is zero."
+            },
+            {
+                "id": "KIN-TEST-018",
+                "topic": "Relative Velocity",
+                "difficulty": 3,
+                "tags": ["Stopping Distance", "Relative Kinematics"],
+                "q": "Two cars 1 & 2 starting from rest are moving with speeds $v_{1}$ and $v_{2}\\text{ m/s}$ ($v_{1}>v_{2}$). Car 2 is ahead of car '1' by s meter when the driver of the car '1' sees car '2'. What minimum retardation should be given to car '1' to avoid collision?",
+                "options": ["$\\frac{v_{1}-v_{2}}{s}$", "$\\frac{v_{1}+v_{2}}{s}$", "$\\frac{(v_{1}+v_{2})^{2}}{2s}$", "$\\frac{(v_{1}-v_{2})^{2}}{2s}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Solve using the concept of relative motion. The relative velocity of car 1 with respect to car 2 is $u_{rel} = v_1 - v_2$.<br><b>Step 2:</b> To just avoid a collision, the final relative velocity $v_{rel}$ must become zero exactly when the relative distance covered equals the initial separation $s$.<br><b>Step 3:</b> Apply the kinematic equation $v_{rel}^2 - u_{rel}^2 = 2a_{rel}s$.<br><b>Step 4:</b> Substitute the values: $0 - (v_1 - v_2)^2 = 2(-a)s$, where $a$ is the required retardation.<br><b>Step 5:</b> Solve for $a$: $a = \\frac{(v_1 - v_2)^2}{2s}$."
+            },
+            {
+                "id": "KIN-TEST-019",
+                "topic": "Relative Velocity",
+                "difficulty": 3,
+                "tags": ["Stopping Distance", "Deceleration"],
+                "q": "Two cars are travelling towards each other on a straight road at velocities $15\\text{ m/s}$ and $16\\text{ m/s}$ respectively. When they are 150m apart, both the drivers apply the brakes and the cars decelerate at $3\\text{ m/s}^{2}$ and $4\\text{ m/s}^{2}$ until they stop. Separation between the cars when they come to rest is:",
+                "options": ["86.5 m", "89.5 m", "85.5 m", "80.5 m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Calculate the stopping distance for the first car using $v^2 - u^2 = 2aS$.<br><b>Step 2:</b> $0^2 - 15^2 = 2(-3)S_1 \\implies S_1 = \\frac{225}{6} = 37.5\\text{ m}$.<br><b>Step 3:</b> Calculate the stopping distance for the second car.<br><b>Step 4:</b> $0^2 - 16^2 = 2(-4)S_2 \\implies S_2 = \\frac{256}{8} = 32.0\\text{ m}$.<br><b>Step 5:</b> Total distance covered by both cars before stopping $= 37.5 + 32.0 = 69.5\\text{ m}$.<br><b>Step 6:</b> The final separation between them is the initial separation minus the total distance covered: $150 - 69.5 = 80.5\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-020",
+                "topic": "Displacement and Distance",
+                "difficulty": 1,
+                "tags": ["Vector Displacement", "Geometry"],
+                "q": "A body moves from one corner of an equilateral triangle of side 10 cm to the same corner along the sides. Then the distance and displacement are respectively:",
+                "options": ["30 cm & 10 cm", "30 cm & 0 cm", "0 cm & 30 cm", "30 cm & 30 cm"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The body travels along all three sides of the equilateral triangle to return to its starting point.<br><b>Step 2:</b> The total distance covered is the perimeter of the triangle: $10 + 10 + 10 = 30\\text{ cm}$.<br><b>Step 3:</b> Displacement is the shortest straight-line distance between the initial and final positions.<br><b>Step 4:</b> Since the body returns to its exact starting point, the initial and final positions are identical, so displacement is $0\\text{ cm}$."
+            },
+            {
+                "id": "KIN-TEST-021",
+                "topic": "Speed and Velocity",
+                "difficulty": 2,
+                "tags": ["Average Speed", "Harmonic Mean"],
+                "q": "For a train that travels from one station to another at a uniform speed of $40\\text{ kmh}^{-1}$ and returns to final station at speed of $60\\text{ kmh}^{-1}$ then its average speed is:",
+                "options": ["98 km/hr", "0 km/hr", "50 km/hr", "48 km/hr"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> When an object covers equal distances at different speeds $v_1$ and $v_2$, the average speed is given by the harmonic mean: $V_{avg} = \\frac{2v_1 v_2}{v_1 + v_2}$.<br><b>Step 2:</b> Substitute the given speeds: $v_1 = 40\\text{ km/h}$ and $v_2 = 60\\text{ km/h}$.<br><b>Step 3:</b> $V_{avg} = \\frac{2(40)(60)}{40 + 60} = \\frac{4800}{100}$.<br><b>Step 4:</b> $V_{avg} = 48\\text{ km/hr}$."
+            },
+            {
+                "id": "KIN-TEST-022",
+                "topic": "Speed and Velocity",
+                "difficulty": 1,
+                "tags": ["Constant Velocity", "Basic Kinematics"],
+                "q": "If the distance between the sun and the earth is $1.5\\times 10^{11}$ m and velocity of light is $3\\times 10^{8}$ m/s, then the time taken by a light ray to reach the earth from the sun is:",
+                "options": ["500 s", "500 minute", "50 s", "$5\\times 10^{3}\\text{ s}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Time taken is defined as $t = \\frac{\\text{Distance}}{\\text{Velocity}}$.<br><b>Step 2:</b> Substitute the given values: $t = \\frac{1.5 \\times 10^{11}}{3 \\times 10^8}$.<br><b>Step 3:</b> Simplify the powers of 10: $t = \\frac{1.5}{3} \\times 10^{11 - 8} = 0.5 \\times 10^3$.<br><b>Step 4:</b> $t = 0.5 \\times 1000 = 500\\text{ s}$."
+            },
+            {
+                "id": "KIN-TEST-023",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Vector Kinematics", "Average Acceleration"],
+                "q": "A body is moving with velocity $30\\text{ ms}^{-1}$ towards east. After 10s its velocity becomes $40\\text{ ms}^{-1}$ towards north. The average acceleration of the body is:",
+                "options": ["$7\\text{ ms}^{-2}$", "$\\sqrt{7}\\text{ ms}^{-2}$", "$5\\text{ ms}^{-2}$", "$1\\text{ ms}^{-2}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Represent initial and final velocities as vectors. Let East be $\\hat{i}$ and North be $\\hat{j}$.<br><b>Step 2:</b> $\\vec{u} = 30\\hat{i}$ and $\\vec{v} = 40\\hat{j}$.<br><b>Step 3:</b> The change in velocity is $\\Delta\\vec{v} = \\vec{v} - \\vec{u} = 40\\hat{j} - 30\\hat{i}$.<br><b>Step 4:</b> The magnitude of change in velocity is $|\\Delta\\vec{v}| = \\sqrt{(-30)^2 + 40^2} = \\sqrt{900 + 1600} = \\sqrt{2500} = 50\\text{ ms}^{-1}$.<br><b>Step 5:</b> Average acceleration is $a_{avg} = \\frac{|\\Delta\\vec{v}|}{t} = \\frac{50}{10} = 5\\text{ ms}^{-2}$."
+            },
+            {
+                "id": "KIN-TEST-024",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["1D Motion", "Direction Reversal"],
+                "q": "A body starting with a velocity 'v' returns to its initial position after 't' second with the same speed, along the same line. Acceleration of the particle is:",
+                "options": ["$\\frac{-2v}{t}$", "zero", "$\\frac{v}{2t}$", "$\\frac{t}{2v}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The body returns to its starting position, moving in the opposite direction. If the initial velocity is $u = v$, the final velocity must be $v_f = -v$.<br><b>Step 2:</b> The formula for uniform acceleration is $a = \\frac{v_f - u}{t}$.<br><b>Step 3:</b> Substitute the velocities: $a = \\frac{-v - v}{t}$.<br><b>Step 4:</b> $a = \\frac{-2v}{t}$."
+            },
+            {
+                "id": "KIN-TEST-025",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Equations of Motion", "Displacement"],
+                "q": "A body starting from rest moving with uniform acceleration has a displacement of 16 m in first 4 s and 9 m in first 3 s. The acceleration of the body is:",
+                "options": ["$1\\text{ ms}^{-2}$", "$2\\text{ ms}^{-2}$", "$3\\text{ ms}^{-2}$", "$4\\text{ ms}^{-2}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Use the second equation of motion: $S = ut + \\frac{1}{2}at^2$. Since the body starts from rest, $u=0$, so $S = \\frac{1}{2}at^2$.<br><b>Step 2:</b> Apply the equation to the first condition ($S=16\\text{ m}$, $t=4\\text{ s}$): $16 = \\frac{1}{2}a(4^2) \\implies 16 = 8a \\implies a = 2\\text{ ms}^{-2}$.<br><b>Step 3:</b> Verify this with the second condition ($S=9\\text{ m}$, $t=3\\text{ s}$): $9 = \\frac{1}{2}(2)(3^2) \\implies 9 = 9$, which holds true.<br><b>Step 4:</b> The acceleration is $2\\text{ ms}^{-2}$."
+            },
+            {
+                "id": "KIN-TEST-026",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Distance in nth Second", "Ratio"],
+                "q": "A body starts from rest and moves with an uniform acceleration. The ratio of distance covered in the $n^{th}$ second to the distance covered in 'n' seconds is:",
+                "options": ["$\\frac{2}{n}-\\frac{1}{n^{2}}$", "$\\frac{1}{n^{2}}-\\frac{1}{n}$", "$\\frac{2}{n^{2}}-\\frac{1}{n}$", "$\\frac{2}{n}+\\frac{1}{n^{2}}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The distance covered in exactly the $n^{th}$ second (when $u=0$) is $S_n = \\frac{a}{2}(2n - 1)$.<br><b>Step 2:</b> The total distance covered in 'n' seconds (when $u=0$) is $S = \\frac{1}{2}an^2$.<br><b>Step 3:</b> The ratio is $\\frac{S_n}{S} = \\frac{\\frac{a}{2}(2n - 1)}{\\frac{a}{2}n^2}$.<br><b>Step 4:</b> Simplify the fraction: $\\frac{2n - 1}{n^2} = \\frac{2n}{n^2} - \\frac{1}{n^2}$.<br><b>Step 5:</b> Final simplified expression: $\\frac{2}{n} - \\frac{1}{n^2}$."
+            },
+            {
+                "id": "KIN-TEST-027",
+                "topic": "Acceleration",
+                "difficulty": 1,
+                "tags": ["Unit Conversion", "Kinematics"],
+                "q": "A bus accelerates uniformly from rest and acquires a speed of 36kmph in 10s. The acceleration is:",
+                "options": ["$1\\text{ m/s}^{2}$", "$2\\text{ m/s}^{2}$", "$0.5\\text{ m/s}^{2}$", "$3\\text{ m/s}^{2}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> First, convert the final velocity into SI units (m/s).<br><b>Step 2:</b> $v = 36\\text{ km/h} = 36 \\times \\frac{5}{18}\\text{ m/s} = 10\\text{ m/s}$.<br><b>Step 3:</b> The bus starts from rest, so $u = 0$.<br><b>Step 4:</b> Use the formula for acceleration: $a = \\frac{v - u}{t}$.<br><b>Step 5:</b> $a = \\frac{10 - 0}{10} = 1\\text{ m/s}^2$."
+            },
+            {
+                "id": "KIN-TEST-028",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Stopping Distance", "Proportionality"],
+                "q": "Speeds of two identical cars are U and 4U at a specific instant. The ratio of the respective distances in which the two cars are stopped from that instant is:",
+                "options": ["1:1", "1:4", "1:8", "1:16"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The stopping distance $S$ for a car with initial velocity $u$ and constant deceleration $a$ is given by $v^2 - u^2 = 2aS \\implies 0 - u^2 = 2(-a)S \\implies S = \\frac{u^2}{2a}$.<br><b>Step 2:</b> Since the cars are identical, their maximum braking deceleration $a$ is the same.<br><b>Step 3:</b> Therefore, stopping distance is directly proportional to the square of the initial velocity: $S \\propto u^2$.<br><b>Step 4:</b> The ratio of stopping distances is $\\frac{S_1}{S_2} = \\left(\\frac{u_1}{u_2}\\right)^2 = \\left(\\frac{U}{4U}\\right)^2$.<br><b>Step 5:</b> $\\frac{S_1}{S_2} = \\left(\\frac{1}{4}\\right)^2 = \\frac{1}{16} = 1:16$."
+            },
+            {
+                "id": "KIN-TEST-029",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Stopping Distance", "Deceleration"],
+                "q": "A car moving along a straight highway with speed of $126\\text{ kmh}^{-1}$ is brought to a stop within a distance of 200m. What is the retardation of the car?",
+                "options": ["$3.06\\text{ ms}^{-2}$", "$4\\text{ ms}^{-2}$", "$5.06\\text{ ms}^{-2}$", "$6\\text{ ms}^{-2}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Convert the initial velocity to m/s: $u = 126\\text{ km/h} = 126 \\times \\frac{5}{18} = 35\\text{ m/s}$.<br><b>Step 2:</b> The final velocity $v = 0$ and stopping distance $S = 200\\text{ m}$.<br><b>Step 3:</b> Use the third equation of motion: $v^2 - u^2 = 2aS$.<br><b>Step 4:</b> $0^2 - (35)^2 = 2a(200) \\implies -1225 = 400a$.<br><b>Step 5:</b> Solve for acceleration: $a = -\\frac{1225}{400} = -3.0625\\text{ ms}^{-2}$.<br><b>Step 6:</b> The retardation (which implies the magnitude of the negative acceleration) is approximately $3.06\\text{ ms}^{-2}$."
+            },
+            {
+                "id": "KIN-TEST-030",
+                "topic": "Motion Under Gravity",
+                "difficulty": 1,
+                "tags": ["Free Fall", "Symmetry of Motion"],
+                "q": "Two balls are projected simultaneously with the same velocity 'u' from the top of a tower, one vertically upwards and the other vertically downwards. Their respective times of the journeys are $t_{1}$ and $t_{2}$. At the time of reaching the ground, the ratio of their final velocities is:",
+                "options": ["1:1", "1:2", "2:3", "2:1"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Let the height of the tower be $h$ and the projection velocity be $u$.<br><b>Step 2:</b> For the ball projected downwards, the final velocity $v_1$ just before hitting the ground is found using $v_1^2 = (-u)^2 + 2g(-h) \\implies v_1 = \\sqrt{u^2 + 2gh}$.<br><b>Step 3:</b> For the ball projected upwards, it will rise, stop momentarily, and fall back to the top of the tower. When it passes the top of the tower on its way down, its velocity will be exactly $u$ downwards due to symmetry.<br><b>Step 4:</b> From that point, its motion is identical to the first ball. Thus, its final velocity is also $v_2 = \\sqrt{u^2 + 2gh}$.<br><b>Step 5:</b> Since $v_1 = v_2$, the ratio of their final velocities is 1:1."
+            },
+            {
+                "id": "KIN-TEST-031",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Free Fall", "Time of Flight"],
+                "q": "Two bodies are projected simultaneously with the same velocity of 19.6 m/s from the top of a tower, one vertically upwards and the other vertically downwards. As they reach the ground, the time gap is:",
+                "options": ["0 s", "2 s", "4 s", "6 s"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The ball projected downwards reaches the ground faster. The ball projected upwards goes up, momentarily stops, and falls back to the top of the tower.<br><b>Step 2:</b> Due to the symmetry of motion under gravity, when the upward-projected ball returns to the top of the tower, it has a downward velocity exactly equal to its initial velocity (19.6 m/s).<br><b>Step 3:</b> From that point onward, its journey to the ground is perfectly identical to the first ball.<br><b>Step 4:</b> Therefore, the time gap between them hitting the ground is simply the extra time the first ball spent in the air going up and coming back to the tower's height.<br><b>Step 5:</b> Time gap $= \\frac{2u}{g} = \\frac{2(19.6)}{9.8} = 4\\text{ s}."
+            },
+            {
+                "id": "KIN-TEST-032",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Free Fall", "Relative Separation"],
+                "q": "Two bodies begin to fall freely from the same height. The second one begins to fall $\\tau$ after the first. The time after which the 1st body begins to fall, the distance between the bodies equals to $l$ is:",
+                "options": ["$\\frac{l}{g\\tau}+\\frac{\\tau}{2}$", "$\\frac{g\\tau}{l}+\\tau$", "$\\frac{\\tau}{lg}+\\frac{2}{\\tau}$", "$\\frac{g}{l\\tau}+\\frac{\\tau}{2}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Let $t$ be the time elapsed since the first body began to fall.<br><b>Step 2:</b> The distance fallen by the first body is $y_1 = \\frac{1}{2}gt^2$.<br><b>Step 3:</b> The second body falls for a time $(t - \\tau)$, so its distance is $y_2 = \\frac{1}{2}g(t - \\tau)^2$.<br><b>Step 4:</b> The separation between them is $l = y_1 - y_2 = \\frac{1}{2}gt^2 - \\frac{1}{2}g(t^2 - 2t\\tau + \\tau^2)$.<br><b>Step 5:</b> Simplify the expression: $l = \\frac{1}{2}g(2t\\tau - \\tau^2) = gt\\tau - \\frac{1}{2}g\\tau^2$.<br><b>Step 6:</b> Rearrange to solve for $t$: $gt\\tau = l + \\frac{1}{2}g\\tau^2 \\implies t = \\frac{l}{g\\tau} + \\frac{\\tau}{2}$."
+            },
+            {
+                "id": "KIN-TEST-033",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Quadratic Equation", "Moving Frame"],
+                "q": "A balloon is going upwards with velocity 12 m/sec. It releases a packet when it is at a height of 65 m from the ground. How much time the packet will take to reach the ground ($g=10\\text{m/sec}^{2}$)",
+                "options": ["5 sec", "6 sec", "7 sec", "8 sec"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Due to inertia, the released packet inherits the upward velocity of the balloon. So, $u = +12\\text{ m/s}$.<br><b>Step 2:</b> The net displacement to the ground is $S = -65\\text{ m}$. Acceleration $a = -10\\text{ m/s}^2$.<br><b>Step 3:</b> Use the equation $S = ut + \\frac{1}{2}at^2$: $-65 = 12t - \\frac{1}{2}(10)t^2$.<br><b>Step 4:</b> Simplify to form a quadratic equation: $5t^2 - 12t - 65 = 0$.<br><b>Step 5:</b> Use the quadratic formula: $t = \\frac{12 \\pm \\sqrt{(-12)^2 - 4(5)(-65)}}{2(5)} = \\frac{12 \\pm \\sqrt{144 + 1300}}{10}$.<br><b>Step 6:</b> $t = \\frac{12 \\pm \\sqrt{1444}}{10} = \\frac{12 \\pm 38}{10}$. Taking the positive root: $t = \\frac{50}{10} = 5\\text{ sec}$."
+            },
+            {
+                "id": "KIN-TEST-034",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Maximum Height", "Proportionality"],
+                "q": "A body thrown up with some initial velocity reaches a maximum height of 50m. Another body with double the mass thrown up with double the initial velocity will reach a maximum height of:",
+                "options": ["100m", "200m", "400m", "50m"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The formula for maximum height reached by a projectile is $H = \\frac{u^2}{2g}$.<br><b>Step 2:</b> This formula shows that maximum height is independent of the mass of the body.<br><b>Step 3:</b> Height is directly proportional to the square of the initial velocity: $H \\propto u^2$.<br><b>Step 4:</b> If the initial velocity is doubled ($2u$), the new height becomes $(2)^2 = 4$ times the original height.<br><b>Step 5:</b> New height $= 4 \\times 50\\text{ m} = 200\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-035",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Galileo's Law of Odd Numbers", "Free Fall"],
+                "q": "The distance moved by a freely falling body (starting from rest) during the 1st, 2nd and 3rd ... nth second of its motion, are proportional to:",
+                "options": ["$(n-1)$", "$(2n-1)$", "$(n^2-1)$", "$(2n-1)/n^2$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The distance covered in exactly the $n^{th}$ second is given by $S_n = u + \\frac{a}{2}(2n - 1)$.<br><b>Step 2:</b> For a freely falling body starting from rest, $u = 0$ and $a = g$.<br><b>Step 3:</b> Therefore, $S_n = \\frac{g}{2}(2n - 1)$.<br><b>Step 4:</b> Since $\\frac{g}{2}$ is a constant, the distances are strictly proportional to the sequence of odd numbers: $(2n - 1)$."
+            },
+            {
+                "id": "KIN-TEST-036",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Free Fall", "Ratio"],
+                "q": "A ball released from a height 'h' touches the ground in 't's. After t/2s since dropping, the height of the body from the ground is:",
+                "options": ["$h/2$", "$h/4$", "$3h/4$", "$3h/2$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The total height $h$ fallen in time $t$ is given by $h = \\frac{1}{2}gt^2$.<br><b>Step 2:</b> Let the distance fallen in time $t/2$ be $y$. Then $y = \\frac{1}{2}g(t/2)^2$.<br><b>Step 3:</b> Simplify the expression for $y$: $y = \\frac{1}{2}g \\left(\\frac{t^2}{4}\\right) = \\frac{1}{4} \\left(\\frac{1}{2}gt^2\\right) = \\frac{h}{4}$.<br><b>Step 4:</b> The body has fallen a distance of $h/4$ from the top.<br><b>Step 5:</b> Therefore, the height remaining from the ground is $h - \\frac{h}{4} = \\frac{3h}{4}$."
+            },
+            {
+                "id": "KIN-TEST-037",
+                "topic": "Motion Under Gravity",
+                "difficulty": 1,
+                "tags": ["Free Fall", "Final Velocity"],
+                "q": "A boy standing at the top of a tower of 20 m height drops a stone. Assuming $g=10\\text{ ms}^{-2}$, the velocity with which it hits the ground is:",
+                "options": ["$20\\text{ ms}^{-1}$", "$40\\text{ ms}^{-1}$", "$5\\text{ ms}^{-1}$", "$10\\text{ ms}^{-1}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Use the third equation of motion: $v^2 - u^2 = 2gS$.<br><b>Step 2:</b> Since the stone is dropped, initial velocity $u = 0$.<br><b>Step 3:</b> Therefore, $v = \\sqrt{2gS}$.<br><b>Step 4:</b> Substitute the given values: $v = \\sqrt{2 \\times 10 \\times 20}$.<br><b>Step 5:</b> $v = \\sqrt{400} = 20\\text{ ms}^{-1}$."
+            },
+            {
+                "id": "KIN-TEST-038",
+                "topic": "Motion Under Gravity",
+                "difficulty": 1,
+                "tags": ["Displacement", "Conceptual"],
+                "q": "A ball thrown vertically upwards with an initial velocity of 1.4 m/s returns in 2s. The total displacement of the ball is:",
+                "options": ["22.4 cm", "zero", "44.8 m", "33.6m"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Displacement is defined as the shortest straight-line distance between the initial position and the final position.<br><b>Step 2:</b> The problem explicitly states that the ball \"returns\" after 2s.<br><b>Step 3:</b> Because the final position is identical to the initial starting position, the net displacement vector is precisely zero."
+            },
+            {
+                "id": "KIN-TEST-039",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Multi-stage Motion", "Free Fall"],
+                "q": "A stone is dropped from a certain height which can reach the ground in 5s. It is stopped momentarily after 3s and then it is again released. The total time taken by the stone to reach the ground will be:",
+                "options": ["6s", "6.5s", "7s", "7.5s"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Calculate the total height from which the stone was dropped: $H = \\frac{1}{2}g(5)^2 = 12.5g$.<br><b>Step 2:</b> Calculate the distance it fell in the first 3s before being stopped: $h_1 = \\frac{1}{2}g(3)^2 = 4.5g$.<br><b>Step 3:</b> Calculate the remaining distance it needs to fall after being released again: $h_{rem} = H - h_1 = 12.5g - 4.5g = 8g$.<br><b>Step 4:</b> Since it is released from rest again, calculate the time to fall the remaining distance: $t_2 = \\sqrt{\\frac{2h_{rem}}{g}} = \\sqrt{\\frac{2(8g)}{g}} = \\sqrt{16} = 4\\text{ s}$.<br><b>Step 5:</b> The total time taken is the first 3s plus the second 4s: $3 + 4 = 7\\text{ s}$."
+            },
+            {
+                "id": "KIN-TEST-040",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Relative Speed", "Simultaneous Equations"],
+                "q": "What are the speeds of two objects if, when they move uniformly towards each other, they get 4 m closer in each second and when they move uniformly in the same direction with the original speeds, they get 4 m closer each 10s?",
+                "options": ["2.8 m/s and 12 m/s", "5.2 m/s and 4.6 m/s", "3.2 m/s and 2.1 m/s", "2.2 m/s and 1.8 m/s"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> When moving towards each other (opposite directions), their relative speed is $v_1 + v_2$. They close 4m in 1s, so $v_1 + v_2 = \\frac{4}{1} = 4\\text{ m/s}$.<br><b>Step 2:</b> When moving in the same direction, their relative speed is $v_1 - v_2$. They close 4m in 10s, so $v_1 - v_2 = \\frac{4}{10} = 0.4\\text{ m/s}$.<br><b>Step 3:</b> Set up the system of equations: $v_1 + v_2 = 4$ and $v_1 - v_2 = 0.4$.<br><b>Step 4:</b> Add the equations: $2v_1 = 4.4 \\implies v_1 = 2.2\\text{ m/s}$.<br><b>Step 5:</b> Substitute $v_1$ back: $2.2 + v_2 = 4 \\implies v_2 = 1.8\\text{ m/s}$."
+            },
+            {
+                "id": "KIN-TEST-041",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Relative Speed", "Trains"],
+                "q": "Two trains are each 50m long moving parallel towards each other at speeds 10 m/s and 15 m/s respectively, at what time will they pass each other?",
+                "options": ["8 s", "4 s", "2 s", "6 s"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The total relative distance to be covered for the trains to completely pass each other is the sum of their lengths: $S_{rel} = 50\\text{ m} + 50\\text{ m} = 100\\text{ m}$.<br><b>Step 2:</b> Since they are moving towards each other, their relative speed is the sum of their individual speeds: $V_{rel} = 10 + 15 = 25\\text{ m/s}$.<br><b>Step 3:</b> Time taken is $t = \\frac{S_{rel}}{V_{rel}}$.<br><b>Step 4:</b> $t = \\frac{100}{25} = 4\\text{ s}$."
+            },
+            {
+                "id": "KIN-TEST-042",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Relative Acceleration", "Free Fall"],
+                "q": "A ball is dropped from the top of a building 100 m high. At the same instant another ball is thrown upwards with a velocity of $40\\text{ ms}^{-1}$ form the bottom of the building. The two balls will meet after.",
+                "options": ["5 s", "2.5 s", "2 s", "3 s"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Analyze the problem using relative motion. The initial relative distance is $S_{rel} = 100\\text{ m}$.<br><b>Step 2:</b> The relative initial velocity is $u_{rel} = u_{up} - u_{down} = 40 - 0 = 40\\text{ m/s}$.<br><b>Step 3:</b> Since both balls are strictly under the influence of gravity ($-g$), their relative acceleration is $a_{rel} = -g - (-g) = 0$.<br><b>Step 4:</b> Because relative acceleration is zero, the relative velocity remains constant. $t = \\frac{S_{rel}}{u_{rel}}$.<br><b>Step 5:</b> $t = \\frac{100}{40} = 2.5\\text{ s}$."
+            },
+            {
+                "id": "KIN-TEST-043",
+                "topic": "Displacement and Distance",
+                "difficulty": 3,
+                "tags": ["2D Vectors", "Net Displacement"],
+                "q": "A person moves 30m north and then 20m towards east and finally $30\\sqrt{2}$ m in south-west direction. The displacement of the person from the origin will be:",
+                "options": ["10m along north", "10 m along south", "10m along west", "zero"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Break down the journey into vector components. Let East be $+x$ ($\\hat{i}$) and North be $+y$ ($\\hat{j}$).<br><b>Step 2:</b> Leg 1 (North): $\\vec{S_1} = 30\\hat{j}$.<br><b>Step 3:</b> Leg 2 (East): $\\vec{S_2} = 20\\hat{i}$.<br><b>Step 4:</b> Leg 3 (South-West): South-West is exactly midway between South ($-y$) and West ($-x$). $\\vec{S_3} = -30\\sqrt{2}\\cos(45^{\\circ})\\hat{i} - 30\\sqrt{2}\\sin(45^{\\circ})\\hat{j}$.<br><b>Step 5:</b> Simplify $\\vec{S_3}$: $-30\\sqrt{2}\\left(\\frac{1}{\\sqrt{2}}\\right)\\hat{i} - 30\\sqrt{2}\\left(\\frac{1}{\\sqrt{2}}\\right)\\hat{j} = -30\\hat{i} - 30\\hat{j}$.<br><b>Step 6:</b> Net displacement $\\vec{S} = (20\\hat{i} + 30\\hat{j}) + (-30\\hat{i} - 30\\hat{j}) = -10\\hat{i} + 0\\hat{j}$.<br><b>Step 7:</b> The displacement is 10m strictly along the negative x-axis, which is West."
+            },
+            {
+                "id": "KIN-TEST-044",
+                "topic": "Speed and Velocity",
+                "difficulty": 2,
+                "tags": ["Average Speed", "Fractional Distances"],
+                "q": "If a car covers $2/5^{th}$ of the total distance with $v_{1}$ speed and $3/5^{th}$ distance with $v_{2}$ then average speed is:",
+                "options": ["$\\frac{1}{2}\\sqrt{v_{1}v_{2}}$", "$\\frac{v_{1}+v_{2}}{2}$", "$\\frac{2v_{1}v_{2}}{v_{1}+v_{2}}$", "$\\frac{5v_{1}v_{2}}{3v_{1}+2v_{2}}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Let the total distance be $S$. Average speed is defined as $\\frac{\\text{Total Distance}}{\\text{Total Time}}$.<br><b>Step 2:</b> Time for the first part: $t_1 = \\frac{2S/5}{v_1} = \\frac{2S}{5v_1}$.<br><b>Step 3:</b> Time for the second part: $t_2 = \\frac{3S/5}{v_2} = \\frac{3S}{5v_2}$.<br><b>Step 4:</b> Total Time $T = t_1 + t_2 = \\frac{2S}{5v_1} + \\frac{3S}{5v_2} = S\\left(\\frac{2v_2 + 3v_1}{5v_1v_2}\\right)$.<br><b>Step 5:</b> Average Speed $= \\frac{S}{T} = \\frac{S}{S\\left(\\frac{2v_2 + 3v_1}{5v_1v_2}\\right)}$.<br><b>Step 6:</b> Cancel $S$ and invert the fraction: $\\frac{5v_{1}v_{2}}{3v_{1}+2v_{2}}$."
+            },
+            {
+                "id": "KIN-TEST-045",
+                "topic": "Speed and Velocity",
+                "difficulty": 3,
+                "tags": ["Relative Approach", "Geometry"],
+                "q": "Four persons A, B,C and D initially at the corners of a square of side length 'd'. If every person starts moving with same speed v such that each one faces the other always, the person will meet after time:",
+                "options": ["$\\frac{d}{v}$", "$\\frac{\\sqrt{2}d}{v}$", "$\\frac{d}{2v}$", "$\\frac{d}{\\sqrt{2}v}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Person A always moves towards Person B, B towards C, C towards D, and D towards A. Due to symmetry, they will trace out spirals and meet precisely at the center of the square.<br><b>Step 2:</b> Analyze the relative motion between A and B. The distance between them initially is $d$.<br><b>Step 3:</b> The velocity of A towards B is $v$. The velocity of B is directed towards C, which is strictly perpendicular ($90^{\\circ}$) to the line joining A and B.<br><b>Step 4:</b> The component of B's velocity along the line AB is $v \\cos(90^{\\circ}) = 0$.<br><b>Step 5:</b> Therefore, the relative velocity of approach is $V_{app} = v_{A} - v_{B\\_along\\_AB} = v - 0 = v$.<br><b>Step 6:</b> The time taken to close the distance $d$ at approach velocity $v$ is $t = \\frac{d}{v}$."
+            },
+            {
+                "id": "KIN-TEST-046",
+                "topic": "Speed and Velocity",
+                "difficulty": 3,
+                "tags": ["Average Speed", "Average Velocity", "Multi-stage Motion"],
+                "q": "A man walks on a straight road from his home to a market 2.5 km away with a speed of 5 km/h. Finding the market closed, he instantly turns and walks back home with a speed of 7.5 km/h. What is the (a) magnitude of average velocity and (b) average speed of the man over the time interval 0 to 50 min (in kmph).",
+                "options": ["0, 4", "0, 6", "0, 8", "0, 12"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Calculate the time taken to reach the market: $t_1 = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{2.5\\text{ km}}{5\\text{ km/h}} = 0.5\\text{ hr} = 30\\text{ min}$.<br><b>Step 2:</b> Calculate the time remaining in the 50-minute interval: $t_2 = 50\\text{ min} - 30\\text{ min} = 20\\text{ min} = \\frac{1}{3}\\text{ hr}$.<br><b>Step 3:</b> Calculate the distance covered during the return trip in this remaining time: $d_2 = 7.5\\text{ km/h} \\times \\frac{1}{3}\\text{ hr} = 2.5\\text{ km}$.<br><b>Step 4:</b> Since he travels 2.5 km back, he exactly reaches home at $t=50\\text{ min}$. Net displacement is zero, so average velocity is 0.<br><b>Step 5:</b> Total distance covered = $2.5\\text{ km} + 2.5\\text{ km} = 5.0\\text{ km}$. Total time = $\\frac{50}{60}\\text{ hr} = \\frac{5}{6}\\text{ hr}$.<br><b>Step 6:</b> Average speed = $\\frac{5.0}{5/6} = 6\\text{ km/h}$."
+            },
+            {
+                "id": "KIN-TEST-047",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Equations of Motion", "Time Delay"],
+                "q": "A starts from rest and moves with acceleration $a_1$. Two seconds later, B starts from rest and moves with an acceleration $a_2$. If the displacement of A in the $5^{th}$ second is the same as that of B in the same interval, the ratio of $a_1$ to $a_2$ is:",
+                "options": ["9:5", "5:9", "1:1", "1:3"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The distance covered in the $n^{th}$ second by a body starting from rest is $S_n = \\frac{a}{2}(2n - 1)$.<br><b>Step 2:</b> For body A, the displacement in its $5^{th}$ second of motion is $S_{A5} = \\frac{a_1}{2}(2(5) - 1) = \\frac{9a_1}{2}$.<br><b>Step 3:</b> \"The same interval\" means the 5th second since the clock started. Since body B started 2 seconds later, this interval represents B's $3^{rd}$ second of actual motion.<br><b>Step 4:</b> For body B, the displacement in its $3^{rd}$ second is $S_{B3} = \\frac{a_2}{2}(2(3) - 1) = \\frac{5a_2}{2}$.<br><b>Step 5:</b> Equate the displacements: $\\frac{9a_1}{2} = \\frac{5a_2}{2} \\implies 9a_1 = 5a_2$.<br><b>Step 6:</b> Therefore, the ratio $\\frac{a_1}{a_2} = \\frac{5}{9}$."
+            },
+            {
+                "id": "KIN-TEST-048",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Simultaneous Equations", "Deceleration"],
+                "q": "A body travels 200cm in the first two seconds and 220cm in the next 4 seconds with uniform deceleration. The velocity of the body at the end of the $7^{th}$ second is:",
+                "options": ["20 cm/s", "15 cm/s", "10 cm/s", "0 cm/s"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Use $S = ut + \\frac{1}{2}at^2$. In the first 2s, distance is 200 cm: $200 = u(2) + \\frac{1}{2}a(2)^2 \\implies 2u + 2a = 200 \\implies u + a = 100$ (Eq 1).<br><b>Step 2:</b> In the first 6s (2s + next 4s), the total distance is $200 + 220 = 420\\text{ cm}$.<br><b>Step 3:</b> $420 = u(6) + \\frac{1}{2}a(6)^2 \\implies 6u + 18a = 420 \\implies u + 3a = 70$ (Eq 2).<br><b>Step 4:</b> Subtract Eq 1 from Eq 2: $(u + 3a) - (u + a) = 70 - 100 \\implies 2a = -30 \\implies a = -15\\text{ cm/s}^2$.<br><b>Step 5:</b> Substitute 'a' into Eq 1: $u - 15 = 100 \\implies u = 115\\text{ cm/s}$.<br><b>Step 6:</b> Velocity at the end of the 7th second ($t=7$): $v = u + at = 115 + (-15)(7) = 115 - 105 = 10\\text{ cm/s}$."
+            },
+            {
+                "id": "KIN-TEST-049",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Stopping Time", "Kinematics"],
+                "q": "A bullet moving at $20\\text{ m/sec}$ strikes a wooden plank and penetrates 4 cm before coming to stop. The time taken to stop is:",
+                "options": ["0.008 sec", "0.016 sec", "0.004 sec", "0.002 sec"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> We know initial velocity $u = 20\\text{ m/s}$, final velocity $v = 0\\text{ m/s}$, and stopping distance $S = 4\\text{ cm} = 0.04\\text{ m}$.<br><b>Step 2:</b> Use the kinematic relation linking distance, average velocity, and time: $S = \\left(\\frac{u+v}{2}\\right)t$.<br><b>Step 3:</b> Substitute the values: $0.04 = \\left(\\frac{20+0}{2}\\right)t$.<br><b>Step 4:</b> $0.04 = 10t$.<br><b>Step 5:</b> Solve for time: $t = \\frac{0.04}{10} = 0.004\\text{ sec}$."
+            },
+            {
+                "id": "KIN-TEST-050",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Stopping Distance", "Proportionality"],
+                "q": "An automobile travelling with a speed of 60km/h can brake to stop within a distance of 20m. If the car is going twice as fast i.e., 120km/h the stopping distance will be:",
+                "options": ["20 m", "40 m", "60 m", "80 m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The stopping distance $S$ for an object with initial velocity $u$ undergoing constant deceleration $a$ is $v^2 - u^2 = 2aS \\implies 0 - u^2 = 2(-a)S \\implies S = \\frac{u^2}{2a}$.<br><b>Step 2:</b> Assuming the braking deceleration remains constant, the stopping distance is directly proportional to the square of the initial speed ($S \\propto u^2$).<br><b>Step 3:</b> The speed is doubled from 60 km/h to 120 km/h.<br><b>Step 4:</b> Since the speed increases by a factor of 2, the stopping distance will increase by a factor of $2^2 = 4$.<br><b>Step 5:</b> New stopping distance $= 20\\text{ m} \\times 4 = 80\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-051",
+                "topic": "Relative Velocity",
+                "difficulty": 3,
+                "tags": ["Quadratic Equations", "Pursuit Problem"],
+                "q": "A police party is moving in a jeep at a constant speed v. They saw a thief at a distance x on a motorcycle which is at rest. The moment the police saw the thief, the thief started at constant acceleration $\\alpha$. Which of the following relations is true if the police is able to catch the thief?",
+                "options": ["$v^{2}<\\alpha x$", "$v^{2}<2\\alpha x$", "$v^{2}>2\\alpha x$", "$v^{2}=\\alpha x$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Let the police catch the thief at time $t$. The distance covered by the police is $vt$.<br><b>Step 2:</b> The distance covered by the thief is $\\frac{1}{2}\\alpha t^2$. Because the thief started $x$ distance ahead, the total distance to the meeting point from the police's origin is $x + \\frac{1}{2}\\alpha t^2$.<br><b>Step 3:</b> Equate the distances: $vt = x + \\frac{1}{2}\\alpha t^2$.<br><b>Step 4:</b> Rearrange into a quadratic equation in terms of $t$: $\\frac{1}{2}\\alpha t^2 - vt + x = 0$.<br><b>Step 5:</b> For the police to physically catch the thief, a real positive solution for $t$ must exist. This means the discriminant must be greater than zero: $b^2 - 4ac > 0$.<br><b>Step 6:</b> $(-v)^2 - 4\\left(\\frac{1}{2}\\alpha\\right)(x) > 0 \\implies v^2 - 2\\alpha x > 0 \\implies v^2 > 2\\alpha x$."
+            },
+            {
+                "id": "KIN-TEST-052",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Average Velocity", "Kinematics"],
+                "q": "Velocity of a body moving with uniform acceleration of $3\\text{ m/s}^{2}$ is changed through 30m/s in certain time. Average velocity of body during this time is 30m/s. Distance covered by it during this time is:",
+                "options": ["300 m", "200 m", "400 m", "250 m"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> The change in velocity is given as $\\Delta v = 30\\text{ m/s}$, and uniform acceleration is $a = 3\\text{ m/s}^2$.<br><b>Step 2:</b> The time taken for this change is $t = \\frac{\\Delta v}{a} = \\frac{30}{3} = 10\\text{ s}$.<br><b>Step 3:</b> The average velocity during this entire interval is given as $v_{avg} = 30\\text{ m/s}$.<br><b>Step 4:</b> Distance covered is simply Average Velocity multiplied by Time.<br><b>Step 5:</b> $S = v_{avg} \\times t = 30 \\times 10 = 300\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-053",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Pursuit Problem", "Quadratic Equations"],
+                "q": "A person is running at his maximum speed of $4\\text{ m/s}$ to catch a train. When he is 6m from the door of the compartment the train starts to leave the station at a constant acceleration of $1\\text{ m/s}^{2}$. Find how long it takes him to catch up the train:",
+                "options": ["2 s", "3 s", "4 s", "He will not catch it"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Set the origin at the person's starting position. The train starts at $x = 6\\text{ m}$.<br><b>Step 2:</b> The distance covered by the man in time $t$ is $S_{man} = 4t$.<br><b>Step 3:</b> The position of the train in time $t$ is $S_{train} = 6 + \\frac{1}{2}at^2 = 6 + \\frac{1}{2}(1)t^2$.<br><b>Step 4:</b> For the man to catch the train, their positions must be equal: $4t = 6 + 0.5t^2$.<br><b>Step 5:</b> Multiply by 2 and rearrange: $t^2 - 8t + 12 = 0$.<br><b>Step 6:</b> Factor the quadratic equation: $(t-2)(t-6) = 0$.<br><b>Step 7:</b> The first time they meet (which is when he catches the train) is $t = 2\\text{ s}$."
+            },
+            {
+                "id": "KIN-TEST-054",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Quadratic Equations", "Displacement"],
+                "q": "A body is moving along the +ve x-axis with uniform acceleration of $-4\\text{ ms}^{-2}$. Its velocity at $x=0$ is $10\\text{ ms}^{-1}$. The time taken by the body to reach a point at $x=12\\text{ m}$ is:",
+                "options": ["(2s, 3s)", "(3s, 4s)", "(4s, 8s)", "(1s, 2s)"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> We have initial velocity $u = 10\\text{ m/s}$, acceleration $a = -4\\text{ m/s}^2$, and displacement $S = 12\\text{ m}$.<br><b>Step 2:</b> Use the second equation of motion: $S = ut + \\frac{1}{2}at^2$.<br><b>Step 3:</b> Substitute the values: $12 = 10t + \\frac{1}{2}(-4)t^2 \\implies 12 = 10t - 2t^2$.<br><b>Step 4:</b> Divide the entire equation by 2 and rearrange: $t^2 - 5t + 6 = 0$.<br><b>Step 5:</b> Factor the quadratic equation: $(t-2)(t-3) = 0$.<br><b>Step 6:</b> The body is at $x=12\\text{m}$ at two instances: $t=2\\text{ s}$ (on its way out) and $t=3\\text{ s}$ (on its way back after velocity reversed direction)."
+            },
+            {
+                "id": "KIN-TEST-055",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Free Fall", "Ratio"],
+                "q": "A freely falling body takes 't' second to travel first $(1/x)^{th}$ distance. Then, time of descent is:",
+                "options": ["$\\frac{t}{\\sqrt{x}}$", "$t\\sqrt{x}$", "$\\frac{\\sqrt{x}}{t}$", "$\\frac{1}{t\\sqrt{x}}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let the total height of the fall be $H$ and the total time of descent be $T$. We know $H = \\frac{1}{2}gT^2$.<br><b>Step 2:</b> The distance covered in the first part is $\\frac{H}{x}$, and it takes time $t$. So, $\\frac{H}{x} = \\frac{1}{2}gt^2$.<br><b>Step 3:</b> Substitute $H = \\frac{1}{2}gT^2$ into the second equation: $\\frac{1}{x} \\left(\\frac{1}{2}gT^2\\right) = \\frac{1}{2}gt^2$.<br><b>Step 4:</b> Cancel $\\frac{1}{2}g$ from both sides: $\\frac{T^2}{x} = t^2$.<br><b>Step 5:</b> Solve for total time $T$: $T^2 = x t^2 \\implies T = t\\sqrt{x}$."
+            },
+            {
+                "id": "KIN-TEST-056",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Free Fall", "Symmetry"],
+                "q": "The distance travelled by a body during last second of its upward journey is 'd', when the body is projected with certain velocity vertically up. If the velocity of projection is doubled, the distance travelled by the body during the last second of its upward journey is:",
+                "options": ["2d", "4d", "d/2", "d"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Due to the symmetry of free fall, the motion of a projectile going up and coming to a momentary stop is identical (in reverse) to dropping it from rest.<br><b>Step 2:</b> Therefore, the distance traveled in the *last* second of an upward journey is exactly equal to the distance traveled in the *first* second of a downward free fall from rest.<br><b>Step 3:</b> The distance for the first second of free fall is $S = u(1) + \\frac{1}{2}g(1)^2 = 0 + \\frac{g}{2} = \\frac{g}{2}$.<br><b>Step 4:</b> Because this distance is determined purely by gravity ($g/2$), it is a constant value and completely independent of the initial velocity of projection.<br><b>Step 5:</b> Even if the initial velocity is doubled, the distance in the final second before stopping remains 'd'."
+            },
+            {
+                "id": "KIN-TEST-057",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Multi-stage Motion", "Maximum Height"],
+                "q": "A rocket is fired and ascends with constant vertical acceleration of $10\\text{ m/s}^{2}$ for 1 minute. Its fuel is exhausted and it continues as a free particle. The maximum altitude reached is $(g=10\\text{ m/s}^{2})$:",
+                "options": ["18 km", "36 km", "72 km", "108 km"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Phase 1 (Powered flight): Initial velocity $u=0$, acceleration $a=10\\text{ m/s}^2$, time $t=60\\text{ s}$.<br><b>Step 2:</b> Altitude reached during Phase 1: $h_1 = \\frac{1}{2}at^2 = \\frac{1}{2}(10)(60)^2 = 5 \\times 3600 = 18000\\text{ m} = 18\\text{ km}$.<br><b>Step 3:</b> Velocity at engine cutoff: $v = u + at = 0 + 10(60) = 600\\text{ m/s}$.<br><b>Step 4:</b> Phase 2 (Free flight): The rocket coasts upward with initial velocity $600\\text{ m/s}$ under gravity ($a = -10\\text{ m/s}^2$).<br><b>Step 5:</b> Extra altitude reached during Phase 2: $h_2 = \\frac{v^2}{2g} = \\frac{(600)^2}{20} = \\frac{360000}{20} = 18000\\text{ m} = 18\\text{ km}$.<br><b>Step 6:</b> Total maximum altitude $= h_1 + h_2 = 18 + 18 = 36\\text{ km}$."
+            },
+            {
+                "id": "KIN-TEST-058",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Multi-stage Motion", "Deceleration"],
+                "q": "A parachutist after bailing out falls 50m without friction. When parachute opens, it decelerates at $2\\text{ m/s}^{2}$. He reaches the ground with a speed of $3\\text{ m/s}$. At what height, did he bail out? (Take $g=9.8\\text{ ms}^{-2}$)",
+                "options": ["91 m", "182 m", "293 m", "111 m"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Phase 1 (Free fall): $S_1 = 50\\text{ m}$, $u=0$, $a=g=9.8\\text{ m/s}^2$.<br><b>Step 2:</b> Calculate the velocity squared at the end of Phase 1: $v_1^2 = u^2 + 2gS_1 = 0 + 2(9.8)(50) = 980$.<br><b>Step 3:</b> Phase 2 (Parachute): Initial velocity squared is $v_1^2 = 980$, final velocity is $v_2 = 3\\text{ m/s}$, and acceleration is $a = -2\\text{ m/s}^2$.<br><b>Step 4:</b> Use $v_2^2 - v_1^2 = 2aS_2$ to find the remaining distance $S_2$: $3^2 - 980 = 2(-2)S_2 \\implies 9 - 980 = -4S_2$.<br><b>Step 5:</b> $-971 = -4S_2 \\implies S_2 = \\frac{971}{4} = 242.75\\text{ m}$.<br><b>Step 6:</b> The total height from which he bailed out is $S_1 + S_2 = 50 + 242.75 = 292.75\\text{ m} \\approx 293\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-059",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Distance in nth Second", "Ratio"],
+                "q": "A body is thrown vertically upwards with an initial velocity 'u' reaches a maximum height in 6s. The ratio of the distance travelled by the body in the first second to the seventh second is:",
+                "options": ["1:1", "11:1", "1:2", "1:11"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Time to reach maximum height is $t = 6\\text{ s}$. Since $t = \\frac{u}{g}$, initial velocity $u = 6g$.<br><b>Step 2:</b> Distance travelled in the 1st second: $S_1 = u - \\frac{g}{2}(2(1) - 1) = 6g - 0.5g = 5.5g$.<br><b>Step 3:</b> The body reaches the top at $t=6\\text{s}$ and momentarily stops. The 7th second of its total journey represents the 1st second of its downward free fall.<br><b>Step 4:</b> Distance travelled in the first second of free fall is $S_7 = \\frac{1}{2}g(1)^2 = 0.5g$.<br><b>Step 5:</b> The ratio of these distances is $\\frac{5.5g}{0.5g} = \\frac{5.5}{0.5} = 11:1$."
+            },
+            {
+                "id": "KIN-TEST-060",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Partial Descent", "Time Algebra"],
+                "q": "A body is thrown vertically up to reach its maximum height in t seconds. The total time from the time of projection to reach a point at half of its maximum height while returning (in seconds) is:",
+                "options": ["$(1+\\sqrt{2})t$", "$(1+\\frac{1}{\\sqrt{2}})t$", "$\\frac{3t}{2}$", "$\\frac{t}{\\sqrt{2}}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The body reaches max height $H$ in $t$ seconds, so $H = \\frac{1}{2}gt^2$.<br><b>Step 2:</b> We need the total time to go up ($t$) PLUS the time it takes to fall half the maximum height from the top.<br><b>Step 3:</b> Let the time taken to fall a distance of $H/2$ be $t'$. Using the free fall equation: $\\frac{1}{2}gt'^2 = \\frac{H}{2}$.<br><b>Step 4:</b> Substitute $H$: $\\frac{1}{2}gt'^2 = \\frac{1}{2} \\left(\\frac{1}{2}gt^2\\right) \\implies t'^2 = \\frac{t^2}{2} \\implies t' = \\frac{t}{\\sqrt{2}}$.<br><b>Step 5:</b> Total time = time to ascend + time to partially descend $= t + \\frac{t}{\\sqrt{2}}$.<br><b>Step 6:</b> Factoring out $t$, we get $t\\left(1 + \\frac{1}{\\sqrt{2}}\\right)$."
+            },
+            {
+                "id": "KIN-TEST-061",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Sequential Drops", "Free Fall", "Kinematics"],
+                "q": "Water drops fall from a tap on to the floor 5.0m below at regular intervals of time. The first drop strikes the floor when the fifth drop begins to fall. The height at which the third drop will be from ground, at the instant when the first drop strikes the ground is (Take $g=10\\text{m/s}^{2}$)",
+                "options": ["1.25m", "2.15m", "2.75m", "3.75m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Calculate the total time taken by the first drop to hit the ground: $t = \\sqrt{\\frac{2H}{g}} = \\sqrt{\\frac{2(5)}{10}} = 1\\text{ s}$.<br><b>Step 2:</b> If the 5th drop is just starting to fall when the 1st hits, there are 4 equal time intervals between the 5 drops.<br><b>Step 3:</b> The time interval between successive drops is $\\Delta t = \\frac{1}{4} = 0.25\\text{ s}$.<br><b>Step 4:</b> When the 1st drop hits the ground (at $t=1\\text{s}$), the 3rd drop has been falling for 2 time intervals: $t_3 = 2 \\times 0.25 = 0.5\\text{ s}$.<br><b>Step 5:</b> Calculate the distance fallen by the 3rd drop: $h_{fallen} = \\frac{1}{2}g(t_3)^2 = \\frac{1}{2}(10)(0.5)^2 = 5 \\times 0.25 = 1.25\\text{ m}$.<br><b>Step 6:</b> The height of the 3rd drop from the ground is $H - h_{fallen} = 5.0 - 1.25 = 3.75\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-062",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Kinematics", "Projectile Motion"],
+                "q": "A boy throws n balls per second at regular time intervals. When the first ball reaches the maximum height he throws the second one vertically up. The maximum height reached by each ball is:",
+                "options": ["$\\frac{g}{2(n-1)^{2}}$", "$\\frac{g}{2n^{2}}$", "$\\frac{g}{n^{2}}$", "$\\frac{g}{n}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The boy throws $n$ balls per second. The time interval between successive throws is $\\Delta t = \\frac{1}{n}\\text{ s}$.<br><b>Step 2:</b> The second ball is thrown exactly when the first ball reaches its maximum height. Therefore, the time taken to reach maximum height is $t_{max} = \\Delta t = \\frac{1}{n}$.<br><b>Step 3:</b> The time to reach maximum height is also given by $t_{max} = \\frac{u}{g}$.<br><b>Step 4:</b> Equating the two gives the initial velocity: $\\frac{u}{g} = \\frac{1}{n} \\implies u = \\frac{g}{n}$.<br><b>Step 5:</b> The maximum height reached is $H = \\frac{u^2}{2g}$.<br><b>Step 6:</b> Substitute $u$: $H = \\frac{(g/n)^2}{2g} = \\frac{g^2 / n^2}{2g} = \\frac{g}{2n^2}$."
+            },
+            {
+                "id": "KIN-TEST-063",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Maximum Height", "Velocity"],
+                "q": "A body is thrown vertically upward from a point 'A' 125m above the ground. It goes up to a maximum height of 250 m above the ground and passes through 'A' on its downward journey. The velocity of the body when it is at a height of 70m above the ground is $(g=10\\text{ m/s}^{2})$:",
+                "options": ["$20\\text{ m/s}$", "$50\\text{ m/s}$", "$60\\text{ m/s}$", "$80\\text{ m/s}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> At its maximum height of 250 m from the ground, the velocity of the body is exactly 0.<br><b>Step 2:</b> We need to find its velocity when it falls from this 250 m peak down to a height of 70 m above the ground.<br><b>Step 3:</b> Calculate the distance it freely falls: $S = 250\\text{ m} - 70\\text{ m} = 180\\text{ m}$.<br><b>Step 4:</b> Use the free fall equation $v = \\sqrt{2gS}$.<br><b>Step 5:</b> Substitute the values: $v = \\sqrt{2(10)(180)} = \\sqrt{3600}$.<br><b>Step 6:</b> The velocity is $60\\text{ m/s}$."
+            },
+            {
+                "id": "KIN-TEST-064",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Multi-stage Motion", "Free Fall"],
+                "q": "A body is released from the top of a tower of height H m. After 2s it is stopped and then instantaneously released. What will be its height after next 2s (in metres)? (Take $g=10\\text{ m/s}^{2}$)",
+                "options": ["H - 5", "H - 10", "H - 20", "H - 40"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Calculate the distance the body falls in the first 2 seconds from rest: $h_1 = \\frac{1}{2}gt^2 = \\frac{1}{2}(10)(2^2) = 20\\text{ m}$.<br><b>Step 2:</b> The body is momentarily stopped, meaning its velocity resets to zero.<br><b>Step 3:</b> It is released again, so it falls from rest for another 2 seconds: $h_2 = \\frac{1}{2}gt^2 = \\frac{1}{2}(10)(2^2) = 20\\text{ m}$.<br><b>Step 4:</b> The total distance fallen from the top of the tower is $h_1 + h_2 = 20 + 20 = 40\\text{ m}$.<br><b>Step 5:</b> The remaining height from the ground is the total height minus the fallen distance: $H - 40$."
+            },
+            {
+                "id": "KIN-TEST-065",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Free Fall", "Algebraic Manipulation"],
+                "q": "A ball dropped from 9th stair of a multistoried building reaches the ground in 3 sec. In the first second of its free fall, it passes through 'n' stairs, then 'n' is equal to:",
+                "options": ["1", "3", "4", "2"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Let the height of one stair be $h$. The total height of 9 stairs is $9h$.<br><b>Step 2:</b> The ball falls a total distance of $9h$ in 3 seconds. Using $S = \\frac{1}{2}gt^2$: $9h = \\frac{1}{2}g(3^2) \\implies 9h = \\frac{9g}{2} \\implies h = \\frac{g}{2}$.<br><b>Step 3:</b> Calculate the distance the ball falls in the first 1 second: $y = \\frac{1}{2}g(1^2) = \\frac{g}{2}$.<br><b>Step 4:</b> Find the number of stairs passed in the first second: $n = \\frac{y}{h}$.<br><b>Step 5:</b> Substitute the values: $n = \\frac{g/2}{g/2} = 1$."
+            },
+            {
+                "id": "KIN-TEST-066",
+                "topic": "Relative Velocity",
+                "difficulty": 3,
+                "tags": ["Equations of Motion", "Acceleration"],
+                "q": "Two particles P and Q simultaneously start moving from point A with velocities 15m/s and 20 m/s respectively. The two particles move with accelerations equal in magnitude but opposite in direction. When P overtakes Q at B then its velocity is 30m/s. The velocity of Q at point B will be:",
+                "options": ["$30\\text{ m/s}$", "$5\\text{ m/s}$", "$10\\text{ m/s}$", "$15\\text{ m/s}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Use the first equation of motion for both particles. For P: $v_P = u_P + at$. For Q: $v_Q = u_Q - at$ (since acceleration is equal and opposite).<br><b>Step 2:</b> For particle P, we know the initial and final velocities: $30 = 15 + at \\implies at = 15$.<br><b>Step 3:</b> For particle Q, we want to find its final velocity $v_Q$ at the same time $t$: $v_Q = 20 - at$.<br><b>Step 4:</b> Substitute the value of $at$ we found from particle P into Q's equation.<br><b>Step 5:</b> $v_Q = 20 - 15 = 5\\text{ m/s}$."
+            },
+            {
+                "id": "KIN-TEST-067",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Trains", "Relative Speed"],
+                "q": "Two trains A and B, 100m and 60m long, are moving in opposite directions on parallel tracks. The velocity of the shorter train is 3 times that of the longer one. If the trains take 4s to cross each other, the velocities of the trains are:",
+                "options": ["$v_A=10\\text{ ms}^{-1}, v_B=30\\text{ ms}^{-1}$", "$v_A=2.5\\text{ ms}^{-1}, v_B=7.5\\text{ ms}^{-1}$", "$v_A=20\\text{ ms}^{-1}, v_B=60\\text{ ms}^{-1}$", "$v_A=5\\text{ ms}^{-1}, v_B=15\\text{ ms}^{-1}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Identify the lengths. Longer train A = 100 m. Shorter train B = 60 m.<br><b>Step 2:</b> The total relative distance to cross is $S_{rel} = 100 + 60 = 160\\text{ m}$.<br><b>Step 3:</b> Given $v_B = 3v_A$. Since they move in opposite directions, the relative velocity is $v_{rel} = v_A + v_B = v_A + 3v_A = 4v_A$.<br><b>Step 4:</b> Use the relationship $S_{rel} = v_{rel} \\times t$. Substitute the values: $160 = 4v_A \\times 4$.<br><b>Step 5:</b> $16v_A = 160 \\implies v_A = 10\\text{ m/s}$.<br><b>Step 6:</b> Consequently, $v_B = 3(10) = 30\\text{ m/s}$."
+            },
+            {
+                "id": "KIN-TEST-068",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Meeting Point", "Linear Equations"],
+                "q": "Two particles move along x-axis in the same direction with uniform velocities 8 m/s and 4 m/s. Initially the first particle is 21m to the left of the origin and the second one is 7m to the right of the origin. The two particles meet from the origin at a distance of:",
+                "options": ["35 m", "32 m", "28 m", "56 m"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Write the position equations for both particles as a function of time $t$.<br><b>Step 2:</b> For particle 1: $x_1(t) = -21 + 8t$.<br><b>Step 3:</b> For particle 2: $x_2(t) = 7 + 4t$.<br><b>Step 4:</b> The particles meet when their positions are equal: $x_1(t) = x_2(t)$.<br><b>Step 5:</b> $-21 + 8t = 7 + 4t \\implies 4t = 28 \\implies t = 7\\text{ s}$.<br><b>Step 6:</b> Substitute $t=7$ back into either position equation to find the distance from the origin: $x = 7 + 4(7) = 7 + 28 = 35\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-069",
+                "topic": "Speed and Velocity",
+                "difficulty": 2,
+                "tags": ["Average Speed", "Basic Kinematics"],
+                "q": "A moving car possesses average velocities of 5m/s, 10m/s and 15m/s in the first, second, and third seconds respectively. What is the total distance covered by the car in these 3s?",
+                "options": ["15m", "30m", "55m", "45m"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The distance covered in any specific time interval is given by Distance = Average Velocity $\\times$ Time.<br><b>Step 2:</b> Since each interval is exactly 1 second long, the distance numerically equals the average velocity for that second.<br><b>Step 3:</b> Distance in the 1st second $d_1 = 5 \\times 1 = 5\\text{ m}$.<br><b>Step 4:</b> Distance in the 2nd second $d_2 = 10 \\times 1 = 10\\text{ m}$.<br><b>Step 5:</b> Distance in the 3rd second $d_3 = 15 \\times 1 = 15\\text{ m}$.<br><b>Step 6:</b> Total distance covered $= 5 + 10 + 15 = 30\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-070",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Equations of Motion", "Average Velocity"],
+                "q": "The average velocity of a body moving with uniform acceleration after travelling a distance of 3.06 m is 0.34 m/s. If the change in velocity of the body is 0.18 m/s during this time, its uniform acceleration is (in $\\text{m/s}^2$):",
+                "options": ["0.01", "0.02", "0.03", "0.04"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Calculate the total time taken for the journey using average velocity: $t = \\frac{S}{v_{avg}}$.<br><b>Step 2:</b> Substitute the values: $t = \\frac{3.06}{0.34} = 9\\text{ s}$.<br><b>Step 3:</b> Acceleration is the change in velocity divided by the time interval: $a = \\frac{\\Delta v}{t}$.<br><b>Step 4:</b> Substitute the values: $a = \\frac{0.18}{9}$.<br><b>Step 5:</b> Calculate the result: $a = 0.02\\text{ m/s}^2$."
+            },
+            {
+                "id": "KIN-TEST-071",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Stopping Distance", "Proportionality"],
+                "q": "If a body looses half of its velocity on penetrating 3cm in a wooden block, then how much will it penetrate more before coming to rest?",
+                "options": ["1 cm", "2 cm", "3 cm", "4 cm"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Let the initial velocity be $u$. After penetrating $S_1 = 3\\text{ cm}$, the final velocity is $v_1 = \\frac{u}{2}$.<br><b>Step 2:</b> Use $v^2 - u^2 = 2aS$ to find the acceleration: $\\left(\\frac{u}{2}\\right)^2 - u^2 = 2a(3) \\implies -\\frac{3u^2}{4} = 6a \\implies a = -\\frac{u^2}{8}$.<br><b>Step 3:</b> For the next part of the journey, the initial velocity is $\\frac{u}{2}$ and the final velocity is $0$. Let the extra distance be $S_2$.<br><b>Step 4:</b> $0^2 - \\left(\\frac{u}{2}\\right)^2 = 2aS_2$.<br><b>Step 5:</b> Substitute the value of $a$: $-\\frac{u^2}{4} = 2\\left(-\\frac{u^2}{8}\\right)S_2 \\implies -\\frac{u^2}{4} = -\\frac{u^2}{4}S_2$.<br><b>Step 6:</b> Solving for $S_2$ yields $S_2 = 1\\text{ cm}$."
+            },
+            {
+                "id": "KIN-TEST-072",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Stopping Distance", "Kinematics"],
+                "q": "A car moving with a speed of 50km/hr can be stopped by brakes after atleast 6m. If the same car is moving at a speed of 100km/hr; the minimum stopping distance is:",
+                "options": ["12m", "18m", "24m", "6m"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The stopping distance $S$ under a constant braking deceleration is directly proportional to the square of the initial velocity ($S \\propto u^2$).<br><b>Step 2:</b> The speed is doubled from 50 km/hr to 100 km/hr.<br><b>Step 3:</b> Since the speed increases by a factor of 2, the stopping distance will increase by a factor of $2^2 = 4$.<br><b>Step 4:</b> The new stopping distance is $S_2 = 6\\text{ m} \\times 4 = 24\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-073",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Quadratic Equation", "Kinematics"],
+                "q": "A particle moving with a constant acceleration describes in the last second of its motion 36% of the whole distance. If it starts from rest, how long is the particle in motion and through what distance does it moves if it describes 6 cm in the first sec?",
+                "options": ["5 s; 150cm", "10 s; 150 cm", "15 s; 100 cm", "20 s; 200cm"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Calculate acceleration from the first second. $S_1 = \\frac{1}{2}a(1^2) \\implies 6 = \\frac{a}{2} \\implies a = 12\\text{ cm/s}^2$.<br><b>Step 2:</b> The total distance covered in time $t$ is $S = \\frac{1}{2}at^2 = 6t^2$.<br><b>Step 3:</b> Distance in the last second is $S_t = u + \\frac{a}{2}(2t - 1) = 0 + 6(2t - 1) = 12t - 6$.<br><b>Step 4:</b> We are given $S_t = 0.36 S$. Substitute the expressions: $12t - 6 = 0.36(6t^2)$.<br><b>Step 5:</b> Divide by 6: $2t - 1 = 0.36t^2 \\implies 0.36t^2 - 2t + 1 = 0$.<br><b>Step 6:</b> Multiply by 100 and simplify: $36t^2 - 200t + 100 = 0 \\implies 9t^2 - 50t + 25 = 0$.<br><b>Step 7:</b> Factor the quadratic: $(t - 5)(9t - 5) = 0$. The realistic time is $t = 5\\text{ s}$ (since it must be $>1$s).<br><b>Step 8:</b> Calculate total distance: $S = 6(5^2) = 6(25) = 150\\text{ cm}$."
+            },
+            {
+                "id": "KIN-TEST-074",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Equations of Motion", "Overtaking"],
+                "q": "A bus starts from rest with a constant acceleration of $5\\text{ m/s}^{2}$. At the same time a car travelling with a constant velocity 50 m/s over takes and passes the bus. How fast is the bus travelling when they are side by side?",
+                "options": ["10 m/s", "50 m/s", "100 m/s", "150 m/s"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Set their starting positions at $x=0$. They will be side by side again when their displacements are equal ($S_{bus} = S_{car}$).<br><b>Step 2:</b> Displacement of the bus: $S_{bus} = \\frac{1}{2}at^2 = \\frac{1}{2}(5)t^2 = 2.5t^2$.<br><b>Step 3:</b> Displacement of the car: $S_{car} = v_{car} \\times t = 50t$.<br><b>Step 4:</b> Equate the displacements: $2.5t^2 = 50t \\implies 2.5t = 50 \\implies t = 20\\text{ s}$.<br><b>Step 5:</b> Calculate the velocity of the bus at $t = 20\\text{ s}$: $v_{bus} = u + at = 0 + 5(20) = 100\\text{ m/s}$."
+            },
+            {
+                "id": "KIN-TEST-075",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Successive Distances", "Deceleration"],
+                "q": "A particle moving with uniform retardation covers distances 18m, 14m and 10m in successive seconds. It comes to rest after travelling a further distance of:",
+                "options": ["50 m", "8 m", "12 m", "42 m"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The distance covered in successive equal time intervals ($1\\text{ s}$) under constant acceleration changes by a constant amount ($a$).<br><b>Step 2:</b> $a = S_2 - S_1 = 14 - 18 = -4\\text{ m/s}^2$.<br><b>Step 3:</b> Find the initial velocity $u$ using the distance of the first second: $S_1 = u + \\frac{a}{2}(2(1) - 1) \\implies 18 = u - 2 \\implies u = 20\\text{ m/s}$.<br><b>Step 4:</b> Find the velocity after the 3 seconds: $v_3 = u + at = 20 + (-4)(3) = 20 - 12 = 8\\text{ m/s}$.<br><b>Step 5:</b> Calculate the further distance required to come to rest from this velocity: $v_{final}^2 - v_3^2 = 2aS_{further}$.<br><b>Step 6:</b> $0^2 - 8^2 = 2(-4)S_{further} \\implies -64 = -8S_{further} \\implies S_{further} = 8\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-076",
+                "topic": "Speed and Velocity",
+                "difficulty": 2,
+                "tags": ["Sound Velocity", "Free Fall"],
+                "q": "The splash of sound was heard 5.35s after dropping a stone into a well 122.5m deep. Velocity of sound in air is:",
+                "options": ["$350\\text{ cm/s}$", "$350\\text{ m/s}$", "$392\\text{ cm/s}$", "$0\\text{ cm/s}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Calculate the time taken for the stone to fall freely to the water: $t_1 = \\sqrt{\\frac{2h}{g}}$.<br><b>Step 2:</b> Substitute the values: $t_1 = \\sqrt{\\frac{2(122.5)}{9.8}} = \\sqrt{\\frac{245}{9.8}} = \\sqrt{25} = 5\\text{ s}$.<br><b>Step 3:</b> The total time is $5.35\\text{ s}$. The time taken for the sound to travel back up is $t_2 = 5.35 - 5 = 0.35\\text{ s}$.<br><b>Step 4:</b> Velocity of sound = $\\frac{\\text{Distance}}{\\text{Time}} = \\frac{122.5\\text{ m}}{0.35\\text{ s}}$.<br><b>Step 5:</b> $v_{sound} = 350\\text{ m/s}$."
+            },
+            {
+                "id": "KIN-TEST-077",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Relative Motion", "Collision"],
+                "q": "Two stones are thrown vertically upwards with the same velocity of 49m/s. If they are thrown one after the other with a time lapse of 3 second, height at which they collide is:",
+                "options": ["58.8 m", "111.5 m", "117.6 m", "122.5 m"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let them collide at time $t$ after the first stone is thrown. The position of the first stone is $h_1 = 49t - 4.9t^2$.<br><b>Step 2:</b> The second stone is thrown 3 seconds later, so its time of flight is $(t-3)$. Its position is $h_2 = 49(t-3) - 4.9(t-3)^2$.<br><b>Step 3:</b> Equate the heights: $49t - 4.9t^2 = 49(t-3) - 4.9(t^2 - 6t + 9)$.<br><b>Step 4:</b> Expand the right side: $49t - 4.9t^2 = 49t - 147 - 4.9t^2 + 29.4t - 44.1$.<br><b>Step 5:</b> Cancel common terms: $0 = -191.1 + 29.4t \\implies 29.4t = 191.1 \\implies t = 6.5\\text{ s}$.<br><b>Step 6:</b> Substitute $t$ back into $h_1$: $h_1 = 49(6.5) - 4.9(6.5)^2 = 318.5 - 207.025 = 111.475\\text{ m} \\approx 111.5\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-078",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Equations of Motion", "Algebraic Manipulation"],
+                "q": "A stone projected upwards with a velocity 'u' reaches two points 'P' and 'Q' separated by a distance 'h' with velocities $u/2$ and $u/3$. The maximum height reached by it is:",
+                "options": ["$\\frac{9h}{5}$", "$\\frac{18h}{5}$", "$\\frac{36h}{5}$", "$\\frac{72h}{5}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Use the equation $v^2 - u^2 = 2gS$ between points P and Q. The stone is moving upwards, so acceleration is $-g$.<br><b>Step 2:</b> $v_Q^2 - v_P^2 = 2(-g)h \\implies \\left(\\frac{u}{3}\\right)^2 - \\left(\\frac{u}{2}\\right)^2 = -2gh$.<br><b>Step 3:</b> $\\frac{u^2}{9} - \\frac{u^2}{4} = -2gh \\implies \\frac{4u^2 - 9u^2}{36} = -2gh \\implies -\\frac{5u^2}{36} = -2gh$.<br><b>Step 4:</b> Solve for the term $\\frac{u^2}{2g}$: $\\frac{5u^2}{36} = 2gh \\implies \\frac{u^2}{2g} = \\frac{36h}{5}$.<br><b>Step 5:</b> The formula for maximum height is exactly $H_{max} = \\frac{u^2}{2g}$. Therefore, $H_{max} = \\frac{36h}{5}$."
+            },
+            {
+                "id": "KIN-TEST-079",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Free Fall", "Kinematics"],
+                "q": "A ball is dropped from the top of a building. The ball takes 0.5s to fall past the 3m length of a window at certain distance from the top of the building. Speed of the ball as it crosses the top edge of the window is $(g=10\\text{m/s}^{2})$:",
+                "options": ["$3.5\\text{ ms}^{-1}$", "$8.5\\text{ ms}^{-1}$", "$5\\text{ ms}^{-1}$", "$12\\text{ ms}^{-1}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Let the velocity of the ball at the top edge of the window be $u$.<br><b>Step 2:</b> The ball covers a distance $S = 3\\text{ m}$ in time $t = 0.5\\text{ s}$ with acceleration $g = 10\\text{ m/s}^2$.<br><b>Step 3:</b> Use the equation $S = ut + \\frac{1}{2}gt^2$.<br><b>Step 4:</b> Substitute the values: $3 = u(0.5) + \\frac{1}{2}(10)(0.5)^2$.<br><b>Step 5:</b> $3 = 0.5u + 5(0.25) \\implies 3 = 0.5u + 1.25$.<br><b>Step 6:</b> $0.5u = 3 - 1.25 = 1.75 \\implies u = 3.5\\text{ m/s}$."
+            },
+            {
+                "id": "KIN-TEST-080",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Time of Flight", "Symmetry"],
+                "q": "A body thrown vertically up with a velocity 'u' reaches the maximum height 'h' after 'T' second. Correct statement among the following is:",
+                "options": ["at a height h/2 from the ground its velocity is u/2", "at a time 'T' its velocity is 'u'", "at a time '2T' its velocity is '-u'", "at a time '2T' its velocity is -6u"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> At maximum height $h$, time $t = T$ and velocity $v = 0$. The initial velocity is related by $u = gT$.<br><b>Step 2:</b> Evaluate Option 1: Using $v^2 - u^2 = -2gh/2$, $v^2 = u^2 - gh$. Since $h = u^2/2g$, $v^2 = u^2 - u^2/2 = u^2/2$, so $v = u/\\sqrt{2}$, not $u/2$. (False)<br><b>Step 3:</b> Evaluate Option 2: At time $T$, the body is at max height, so velocity is 0, not $u$. (False)<br><b>Step 4:</b> Evaluate Option 3: Time $2T$ is exactly the total time of flight. Due to symmetry, it returns to the projection point with the same speed but opposite direction. Thus, $v = -u$. (True)<br><b>Step 5:</b> Evaluate Option 4: Incorrect based on Option 3."
+            },
+            {
+                "id": "KIN-TEST-081",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Multi-stage Motion", "Kinematics"],
+                "q": "A ball is projected vertically upwards with a velocity of $25\\text{ ms}^{-1}$ from the bottom of a tower. A boy who is standing at the top of a tower is unable to catch the ball when it passes him in the upward direction. But the ball again reaches him after 3 sec when it is falling. Now the boy catches it. Then the height of the tower is $(g=10\\text{ms}^{-2})$:",
+                "options": ["5 m", "10 m", "15 m", "20 m"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> The ball passes the boy going up, reaches its maximum height, and falls back to the boy 3 seconds later.<br><b>Step 2:</b> By symmetry, the time taken to travel from the boy's height to the maximum height is $\\frac{3}{2} = 1.5\\text{ s}$.<br><b>Step 3:</b> At maximum height, velocity is zero. We can find the ball's velocity exactly as it passed the boy going upwards: $v_{boy} = g \\times t = 10 \\times 1.5 = 15\\text{ m/s}$.<br><b>Step 4:</b> Now we know the initial velocity at the ground ($u = 25\\text{ m/s}$) and the velocity at the tower's height ($v = 15\\text{ m/s}$).<br><b>Step 5:</b> Use $v^2 - u^2 = 2(-g)H \\implies 15^2 - 25^2 = -20H$.<br><b>Step 6:</b> $225 - 625 = -20H \\implies -400 = -20H \\implies H = 20\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-082",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Sequential Drops", "Free Fall"],
+                "q": "A person sitting on the top of a tall building is dropping balls at regular intervals of one second. When the 6th ball is being dropped, the positions of the 3rd, 4th, 5th balls from the top of the building are respectively:",
+                "options": ["4.9m, 19.6m, 44.1m", "4.9m, 14.7m, 24.5m", "44.1m, 19.6m, 4.9m", "24.5m, 14.7m, 4.9m"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> If balls are dropped at 1-second intervals, when the 6th ball is dropped ($t=0$ for the 6th), the 5th ball has been falling for 1 second.<br><b>Step 2:</b> The 4th ball has been falling for 2 seconds.<br><b>Step 3:</b> The 3rd ball has been falling for 3 seconds.<br><b>Step 4:</b> Calculate distance using $y = \\frac{1}{2}gt^2$.<br><b>Step 5:</b> For the 3rd ball: $y_3 = \\frac{1}{2}(9.8)(3^2) = 4.9 \\times 9 = 44.1\\text{ m}$.<br><b>Step 6:</b> For the 4th ball: $y_4 = \\frac{1}{2}(9.8)(2^2) = 4.9 \\times 4 = 19.6\\text{ m}$.<br><b>Step 7:</b> For the 5th ball: $y_5 = \\frac{1}{2}(9.8)(1^2) = 4.9\\text{ m}$. The positions are 44.1m, 19.6m, and 4.9m respectively."
+            },
+            {
+                "id": "KIN-TEST-083",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Algebraic Manipulation", "Kinematics"],
+                "q": "A stone projected vertically up from the ground reaches a height y in its path at $t_{1}$ seconds and after further $t_{2}$ seconds reaches the ground. The height y is equal to:",
+                "options": ["$\\frac{1}{2}g(t_{1}+t_{2})$", "$\\frac{1}{2}g(t_{1}+t_{2})^{2}$", "$\\frac{1}{2}g t_{1}t_{2}$", "$g t_{1}t_{2}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The total time of flight of the stone is $T = t_1 + t_2$.<br><b>Step 2:</b> We know the total time of flight is $T = \\frac{2u}{g}$. Therefore, initial velocity $u = \\frac{g(t_1 + t_2)}{2}$.<br><b>Step 3:</b> The height $y$ at time $t_1$ is given by $y = ut_1 - \\frac{1}{2}gt_1^2$.<br><b>Step 4:</b> Substitute the expression for $u$: $y = \\left[\\frac{g(t_1 + t_2)}{2}\\right]t_1 - \\frac{1}{2}gt_1^2$.<br><b>Step 5:</b> Expand the terms: $y = \\frac{1}{2}gt_1^2 + \\frac{1}{2}gt_1t_2 - \\frac{1}{2}gt_1^2$.<br><b>Step 6:</b> The $t_1^2$ terms cancel out, leaving $y = \\frac{1}{2}gt_1t_2$."
+            },
+            {
+                "id": "KIN-TEST-084",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Displacement", "Vector Kinematics"],
+                "q": "A person standing on the edge of a well throws a stone vertically upwards with an initial velocity $5\\text{ ms}^{-1}$. The stone gone up, comes down and falls in the well making a sound. If the person hears the sound 3 second after throwing, then the depth of water (neglect time travel for the sound and take $g=10\\text{ms}^{-2}$):",
+                "options": ["1.25 m", "21.25 m", "30 m", "32.5 m"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Set the edge of the well as the origin ($S=0$). Upward is positive, downward is negative.<br><b>Step 2:</b> The initial velocity $u = +5\\text{ m/s}$. The total time of flight is $t = 3\\text{ s}$. Acceleration $a = -10\\text{ m/s}^2$.<br><b>Step 3:</b> Use the displacement equation: $S = ut + \\frac{1}{2}at^2$.<br><b>Step 4:</b> Substitute the values: $S = 5(3) + \\frac{1}{2}(-10)(3)^2$.<br><b>Step 5:</b> $S = 15 - 5(9) = 15 - 45 = -30\\text{ m}$.<br><b>Step 6:</b> The displacement is -30m, meaning the water level is 30m below the edge of the well."
+            },
+            {
+                "id": "KIN-TEST-085",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Time of Flight", "Relative Motion"],
+                "q": "A ball is thrown vertically upwards with a speed of 10 m/s from the top of a tower 200m height and another is thrown vertically downwards with the same speed simultaneously. The time difference between them on reaching the ground is $(g=10\\text{m/s}^{2})$:",
+                "options": ["12 s", "6 s", "2 s", "1 s"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Let ball A be thrown upwards and ball B be thrown downwards.<br><b>Step 2:</b> Ball A goes up, reaches its maximum height, and falls back down to the top of the tower.<br><b>Step 3:</b> When ball A returns to the top of the tower, it has a downward velocity of exactly 10 m/s (due to symmetry).<br><b>Step 4:</b> From this moment on, ball A's journey to the ground is perfectly identical to ball B's entire journey.<br><b>Step 5:</b> Therefore, the time difference in reaching the ground is simply the extra time ball A spent travelling up and back down to the tower's height.<br><b>Step 6:</b> Time difference $\\Delta t = \\frac{2u}{g} = \\frac{2(10)}{10} = 2\\text{ s}$."
+            },
+            {
+                "id": "KIN-TEST-086",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Quadratic Equations", "Time Algebra"],
+                "q": "A body is projected vertically upwards with a velocity 'u'. It crosses a point in its journey at a height 'h' twice, just after 1 and 7 seconds. The value of u in $\\text{m/s}$ is $(g=10\\text{ms}^{-2})$:",
+                "options": ["50", "40", "30", "20"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The height $h$ at time $t$ is given by the quadratic equation $h = ut - \\frac{1}{2}gt^2$.<br><b>Step 2:</b> Rearranging gives $\\frac{1}{2}gt^2 - ut + h = 0$. This equation has two roots, $t_1$ and $t_2$, representing the times it crosses height $h$ on the way up and on the way down.<br><b>Step 3:</b> The sum of the roots of this quadratic equation is $t_1 + t_2 = \\frac{u}{\\frac{1}{2}g} = \\frac{2u}{g}$.<br><b>Step 4:</b> We are given the roots $t_1 = 1\\text{ s}$ and $t_2 = 7\\text{ s}$.<br><b>Step 5:</b> Substitute the values: $1 + 7 = \\frac{2u}{10} \\implies 8 = \\frac{2u}{10}$.<br><b>Step 6:</b> Solve for u: $80 = 2u \\implies u = 40\\text{ m/s}$."
+            },
+            {
+                "id": "KIN-TEST-087",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Time of Flight", "Symmetry"],
+                "q": "A stone thrown vertically up from the ground reaches a maximum height of 50m in 10s. Time taken by the stone to reach the ground from maximum height is:",
+                "options": ["5 s", "10 s", "20 s", "25 s"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> The motion of a projectile under gravity without air resistance is perfectly symmetrical.<br><b>Step 2:</b> The time taken to ascend from the ground to the maximum height is exactly equal to the time taken to descend from the maximum height back to the ground.<br><b>Step 3:</b> We are given the time of ascent is 10s.<br><b>Step 4:</b> Therefore, the time of descent (time taken to reach the ground from maximum height) is also 10s."
+            },
+            {
+                "id": "KIN-TEST-088",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Distance in nth Second", "Ratio"],
+                "q": "A freely falling body travels a specific percentage of its total distance in its 5th second of fall. If the body hits the ground exactly at the end of the 5th second, what percentage of the total distance did it cover in that final second?",
+                "options": ["8%", "12%", "25%", "36%"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Let the total time of fall be $n = 5\\text{ s}$. The total distance covered is $S = \\frac{1}{2}gn^2$.<br><b>Step 2:</b> Substitute $n=5$: $S = \\frac{1}{2}g(25) = 12.5g$.<br><b>Step 3:</b> The distance covered in the 5th second specifically is $S_5 = \\frac{g}{2}(2n - 1)$.<br><b>Step 4:</b> Substitute $n=5$: $S_5 = \\frac{g}{2}(2(5) - 1) = \\frac{g}{2}(9) = 4.5g$.<br><b>Step 5:</b> Calculate the percentage: $\\frac{S_5}{S} \\times 100 = \\frac{4.5g}{12.5g} \\times 100 = \\frac{4.5}{12.5} \\times 100 = \\frac{9}{25} \\times 100$.<br><b>Step 6:</b> $9 \\times 4 = 36\\%$."
+            },
+            {
+                "id": "KIN-TEST-089",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Time Intervals", "Symmetry"],
+                "q": "A body is projected with a velocity u. It passes through a certain point above the ground in t sec. The time after which the body passes through the same point during the return journey is:",
+                "options": ["$\\frac{u}{g}-t^{2}$", "$2\\left(\\frac{u}{g}-t\\right)$", "$\\frac{u^{2}}{g}-t$", "$3\\left(\\frac{u^{2}}{g^{2}}-t\\right)$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let the total time of flight of the body be $T = \\frac{2u}{g}$.<br><b>Step 2:</b> The body passes a certain point on its way up at time $t$.<br><b>Step 3:</b> Due to the symmetry of the parabolic path, the time spent above this specific point is the total time $T$ minus the time spent below it on both sides (which is $2t$).<br><b>Step 4:</b> Time spent above the point $= T - 2t$.<br><b>Step 5:</b> Substitute the total time of flight: Time gap $= \\frac{2u}{g} - 2t$.<br><b>Step 6:</b> Factor out the 2: Time gap $= 2\\left(\\frac{u}{g} - t\\right)$."
+            },
+            {
+                "id": "KIN-TEST-090",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Sequential Projection", "Maximum Height"],
+                "q": "A boy throws a ball in air in such a manner that when the ball is at its maximum height he throws another ball. If the balls are thrown with the time difference 1 second, the maximum height attained by each ball is:",
+                "options": ["9.8 m", "19.6 m", "4.9 m", "2.45 m"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The second ball is thrown exactly when the first ball reaches its maximum height. This means the time taken to reach the maximum height is equal to the time difference between throws.<br><b>Step 2:</b> Time to max height $t = 1\\text{ s}$.<br><b>Step 3:</b> We know $t = \\frac{u}{g}$. Therefore, the initial velocity is $u = g(1) = 9.8\\text{ m/s}$.<br><b>Step 4:</b> The maximum height is $H = \\frac{u^2}{2g}$.<br><b>Step 5:</b> Substitute $u$: $H = \\frac{(9.8)^2}{2(9.8)} = \\frac{9.8}{2}$.<br><b>Step 6:</b> $H = 4.9\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-091",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Relative Speed", "Linear Equations"],
+                "q": "Two cars are travelling in the same direction with a velocity of 60 kmph. They are separated by a distance of 5 km. A truck moving in opposite direction meets the two cars in a time interval of 3 minute. The velocity of the truck is (in kmph):",
+                "options": ["20", "30", "40", "60"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Let the velocity of the truck be $v\\text{ kmph}$.<br><b>Step 2:</b> Since the truck and the cars are moving in opposite directions, the relative velocity of approach is $v_{rel} = v + 60\\text{ kmph}$.<br><b>Step 3:</b> The distance between the two cars is $5\\text{ km}$. The truck covers this relative distance in 3 minutes.<br><b>Step 4:</b> Convert time to hours: $t = \\frac{3}{60}\\text{ hr} = \\frac{1}{20}\\text{ hr}$.<br><b>Step 5:</b> Use the formula $S_{rel} = v_{rel} \\times t \\implies 5 = (v + 60) \\times \\frac{1}{20}$.<br><b>Step 6:</b> $100 = v + 60 \\implies v = 40\\text{ kmph}$."
+            },
+            {
+                "id": "KIN-TEST-092",
+                "topic": "Relative Velocity",
+                "difficulty": 3,
+                "tags": ["Relative Speed", "Vector Kinematics"],
+                "q": "A police van moving on a highway with a speed of 30 kmph fires a bullet at a thief's car speeding away in the same direction with a speed of 192 kmph. If the muzzle speed of the bullet is 150 m/s, with what speed does the bullet hit the thief's car?",
+                "options": ["$25\\text{ m/s}$", "$50\\text{ m/s}$", "$75\\text{ m/s}$", "$105\\text{ m/s}$"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Convert the vehicle speeds from kmph to m/s. Police van $v_p = 30 \\times \\frac{5}{18} = \\frac{25}{3}\\text{ m/s}$. Thief car $v_t = 192 \\times \\frac{5}{18} = \\frac{160}{3}\\text{ m/s}$.<br><b>Step 2:</b> The bullet is fired from a moving van, so its velocity relative to the ground is the muzzle speed plus the van's speed: $v_{bullet\\_ground} = 150 + \\frac{25}{3} = \\frac{450 + 25}{3} = \\frac{475}{3}\\text{ m/s}$.<br><b>Step 3:</b> The speed at which the bullet hits the thief's car is the relative velocity of the bullet with respect to the thief's car.<br><b>Step 4:</b> $v_{rel} = v_{bullet\\_ground} - v_t = \\frac{475}{3} - \\frac{160}{3}$.<br><b>Step 5:</b> $v_{rel} = \\frac{315}{3} = 105\\text{ m/s}$."
+            },
+            {
+                "id": "KIN-TEST-093",
+                "topic": "Relative Velocity",
+                "difficulty": 2,
+                "tags": ["Relative Speed", "Linear Equations"],
+                "q": "Two cars are moving in same direction with speed of 30kmph. They are separated by a distance of 5km. What is the speed of a car moving in opposite direction if it meets the two cars at an interval of 4 min?",
+                "options": ["60 kmph", "5 kmph", "30 kmph", "45 kmph"],
+                "correct": 3,
+                "sol": "<b>Step 1:</b> Let the speed of the car moving in the opposite direction be $v\\text{ kmph}$.<br><b>Step 2:</b> The relative velocity between this car and the two identical cars is $v_{rel} = v + 30\\text{ kmph}$.<br><b>Step 3:</b> The relative distance it must cover to get from the first car to the second is $S_{rel} = 5\\text{ km}$.<br><b>Step 4:</b> The time interval is $t = 4\\text{ min} = \\frac{4}{60}\\text{ hr} = \\frac{1}{15}\\text{ hr}$.<br><b>Step 5:</b> Apply $S_{rel} = v_{rel} \\times t \\implies 5 = (v + 30) \\times \\frac{1}{15}$.<br><b>Step 6:</b> $75 = v + 30 \\implies v = 45\\text{ kmph}$."
+            },
+            {
+                "id": "KIN-TEST-094",
+                "topic": "Displacement and Distance",
+                "difficulty": 2,
+                "tags": ["Multi-stage Motion", "1D Motion"],
+                "q": "A motorist drives north for 35.0 minutes at 85.0 km/h and then stops for 15.0 minutes. He next continues north, travelling 130 km in 2.00 hours. What is his total displacement?",
+                "options": ["85 km", "179.6 km", "20 km", "140 km"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Displacement is the total straight-line distance since the motion is strictly in one direction (North).<br><b>Step 2:</b> Calculate the distance covered in the first leg: $d_1 = \\text{Speed} \\times \\text{Time} = 85.0 \\times \\left(\\frac{35.0}{60}\\right) = 49.5833...\\text{ km}$.<br><b>Step 3:</b> The distance covered during the 15-minute stop is $d_2 = 0\\text{ km}$.<br><b>Step 4:</b> The distance covered in the final leg is explicitly given as $d_3 = 130\\text{ km}$.<br><b>Step 5:</b> Total displacement $= d_1 + d_2 + d_3 = 49.583 + 0 + 130 = 179.583\\text{ km}$.<br><b>Step 6:</b> Rounding to one decimal place gives $179.6\\text{ km}$."
+            },
+            {
+                "id": "KIN-TEST-095",
+                "topic": "Speed and Velocity",
+                "difficulty": 2,
+                "tags": ["Parametric Equations", "Differentiation"],
+                "q": "The coordinates of a moving particle at any time 't' are given by $x=\\alpha t^{3}$ and $y=\\beta t^{3}$. The speed of the particle at time 't' is given by:",
+                "options": ["$\\sqrt{\\alpha^{2}+\\beta^{2}}$", "$3t\\sqrt{\\alpha^{2}+\\beta^{2}}$", "$3t^{2}\\sqrt{\\alpha^{2}+\\beta^{2}}$", "$t^{2}\\sqrt{\\alpha^{2}+\\beta^{2}}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The velocity components are the time derivatives of the position coordinates.<br><b>Step 2:</b> x-component of velocity: $v_x = \\frac{dx}{dt} = 3\\alpha t^2$.<br><b>Step 3:</b> y-component of velocity: $v_y = \\frac{dy}{dt} = 3\\beta t^2$.<br><b>Step 4:</b> The overall speed is the magnitude of the velocity vector: $v = \\sqrt{v_x^2 + v_y^2}$.<br><b>Step 5:</b> Substitute the components: $v = \\sqrt{(3\\alpha t^2)^2 + (3\\beta t^2)^2} = \\sqrt{9\\alpha^2 t^4 + 9\\beta^2 t^4}$.<br><b>Step 6:</b> Factor out $9t^4$ from the root: $v = 3t^2\\sqrt{\\alpha^2 + \\beta^2}$."
+            },
+            {
+                "id": "KIN-TEST-096",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Implicit Differentiation", "Calculus"],
+                "q": "The relation between time t and distance x is $t=ax^{2}+bx$ where a and b are constants. The acceleration is:",
+                "options": ["$-2av^{3}$", "$2av^{2}$", "$-2abv^{2}$", "$2bv^{3}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Differentiate the given equation $t = ax^2 + bx$ with respect to $x$: $\\frac{dt}{dx} = 2ax + b$.<br><b>Step 2:</b> Since velocity $v = \\frac{dx}{dt}$, it follows that $v = (2ax + b)^{-1}$.<br><b>Step 3:</b> Acceleration is $a_{cc} = \\frac{dv}{dt}$. Using the chain rule, $a_{cc} = \\frac{dv}{dx} \\cdot \\frac{dx}{dt} = v \\cdot \\frac{dv}{dx}$.<br><b>Step 4:</b> Differentiate $v$ with respect to $x$: $\\frac{dv}{dx} = -1(2ax + b)^{-2} \\cdot (2a) = -2a(2ax + b)^{-2}$.<br><b>Step 5:</b> Notice that $(2ax + b)^{-2} = v^2$. So, $\\frac{dv}{dx} = -2av^2$.<br><b>Step 6:</b> Substitute back into the acceleration equation: $a_{cc} = v(-2av^2) = -2av^3$."
+            },
+            {
+                "id": "KIN-TEST-097",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Equations of Motion", "Algebraic Manipulation"],
+                "q": "Two cars start in a race with velocities $u_{1}$ and $u_{2}$ and travel in a straight line with accelerations $\\alpha$ and $\\beta$. If both reach the finish line at the same time, the range of the race is:",
+                "options": ["$\\frac{2(u_{1}-u_{2})}{(\\beta-\\alpha)^{2}}(u_{1}\\beta-u_{2}\\alpha)$", "$\\frac{2(u_{1}-u_{2})}{\\beta+\\alpha}(u_{1}\\alpha-u_{2}\\beta)$", "$\\frac{2(u_{1}-u_{2})^{2}}{(\\beta-\\alpha)^{2}}$", "$\\frac{2u_{1}u_{2}}{\\beta\\alpha}$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Let the range of the race be $S$ and the time taken be $t$.<br><b>Step 2:</b> For Car 1: $S = u_1 t + \\frac{1}{2}\\alpha t^2$. For Car 2: $S = u_2 t + \\frac{1}{2}\\beta t^2$.<br><b>Step 3:</b> Equate the distances: $u_1 t + \\frac{1}{2}\\alpha t^2 = u_2 t + \\frac{1}{2}\\beta t^2$.<br><b>Step 4:</b> Divide by $t$ and solve for $t$: $(u_1 - u_2) = \\frac{1}{2}(\\beta - \\alpha)t \\implies t = \\frac{2(u_1 - u_2)}{\\beta - \\alpha}$.<br><b>Step 5:</b> Substitute $t$ back into Car 1's equation: $S = u_1\\left(\\frac{2(u_1 - u_2)}{\\beta - \\alpha}\\right) + \\frac{1}{2}\\alpha\\left(\\frac{2(u_1 - u_2)}{\\beta - \\alpha}\\right)^2$.<br><b>Step 6:</b> Factor out $\\frac{2(u_1-u_2)}{(\\beta-\\alpha)^2}$: $S = \\frac{2(u_1-u_2)}{(\\beta-\\alpha)^2} [u_1(\\beta - \\alpha) + \\alpha(u_1 - u_2)]$.<br><b>Step 7:</b> Simplify the bracket: $u_1\\beta - u_1\\alpha + u_1\\alpha - u_2\\alpha = u_1\\beta - u_2\\alpha$. Final relation matches option 1."
+            },
+            {
+                "id": "KIN-TEST-098",
+                "topic": "Speed and Velocity",
+                "difficulty": 3,
+                "tags": ["Average Velocity", "Uniform Acceleration"],
+                "q": "A point moves with uniform acceleration. $v_{1}, v_{2}$ and $v_{3}$ denote the average velocities in three successive intervals of time $t_{1}, t_{2}$ and $t_{3}$. Correct relation among the following is:",
+                "options": ["$(v_{1}-v_{2}):(v_{2}-v_{3})=(t_{1}-t_{2}):(t_{2}-t_{3})$", "$(v_{1}-v_{2}):(v_{2}-v_{3})=(t_{1}+t_{2}):(t_{2}+t_{3})$", "$(v_{1}-v_{2}):(v_{2}-v_{3})=(t_{1}-t_{2}):(t_{2}+t_{3})$", "$(v_{1}-v_{2}):(v_{2}-v_{3})=(t_{1}+t_{2}):(t_{2}-t_{3})$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> For uniform acceleration $a$, the average velocity in a time interval is equal to the instantaneous velocity exactly at the midpoint of that time interval.<br><b>Step 2:</b> The midpoint of the first interval is at time $\\frac{t_1}{2}$. Thus, $v_1 = u + a(\\frac{t_1}{2})$.<br><b>Step 3:</b> The midpoint of the second interval is at $t_1 + \\frac{t_2}{2}$. Thus, $v_2 = u + a(t_1 + \\frac{t_2}{2})$.<br><b>Step 4:</b> The midpoint of the third interval is at $t_1 + t_2 + \\frac{t_3}{2}$. Thus, $v_3 = u + a(t_1 + t_2 + \\frac{t_3}{2})$.<br><b>Step 5:</b> Evaluate $v_2 - v_1 = a(t_1 + \\frac{t_2}{2} - \\frac{t_1}{2}) = a(\\frac{t_1 + t_2}{2})$.<br><b>Step 6:</b> Evaluate $v_3 - v_2 = a(t_1 + t_2 + \\frac{t_3}{2} - t_1 - \\frac{t_2}{2}) = a(\\frac{t_2 + t_3}{2})$.<br><b>Step 7:</b> The ratio $\\frac{|v_1 - v_2|}{|v_2 - v_3|} = \\frac{a(t_1 + t_2)/2}{a(t_2 + t_3)/2} = \\frac{t_1 + t_2}{t_2 + t_3}$."
+            },
+            {
+                "id": "KIN-TEST-099",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Multi-stage Motion", "Constant Velocity"],
+                "q": "A train starts from rest and moves with uniform acceleration $\\alpha$ for some time and acquires a velocity 'v'. It then moves with constant velocity for some time and then decelerates at rate $\\beta$ and finally comes to rest at the next station. If 'L' is distance between two stations then total time of travel is:",
+                "options": ["$\\frac{L}{v}+\\frac{v}{2}(\\frac{1}{\\alpha}+\\frac{1}{\\beta})$", "$\\frac{L}{v}-\\frac{v}{2}(\\frac{1}{\\alpha}-\\frac{1}{\\beta})$", "$\\frac{L}{v}-\\frac{v}{2}(\\frac{1}{\\alpha}+\\frac{1}{\\beta})$", "$\\frac{L}{v}+\\frac{v}{2}(\\frac{1}{\\alpha}-\\frac{1}{\\beta})$"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Let $t_1$, $t_2$, and $t_3$ be the times spent accelerating, cruising, and decelerating respectively.<br><b>Step 2:</b> Time accelerating: $t_1 = \\frac{v}{\\alpha}$. Distance $L_1 = \\frac{1}{2}vt_1$.<br><b>Step 3:</b> Time decelerating: $t_3 = \\frac{v}{\\beta}$. Distance $L_3 = \\frac{1}{2}vt_3$.<br><b>Step 4:</b> Distance cruising: $L_2 = vt_2$.<br><b>Step 5:</b> Total distance $L = L_1 + L_2 + L_3 = \\frac{1}{2}vt_1 + vt_2 + \\frac{1}{2}vt_3$.<br><b>Step 6:</b> Solve this for $t_2$: $vt_2 = L - \\frac{v}{2}(t_1 + t_3) \\implies t_2 = \\frac{L}{v} - \\frac{1}{2}(t_1 + t_3)$.<br><b>Step 7:</b> Total time $T = t_1 + t_2 + t_3 = t_1 + \\frac{L}{v} - \\frac{1}{2}t_1 - \\frac{1}{2}t_3 + t_3 = \\frac{L}{v} + \\frac{1}{2}t_1 + \\frac{1}{2}t_3$.<br><b>Step 8:</b> Substitute $t_1$ and $t_3$: $T = \\frac{L}{v} + \\frac{v}{2}\\left(\\frac{1}{\\alpha} + \\frac{1}{\\beta}\\right)$."
+            },
+            {
+                "id": "KIN-TEST-100",
+                "topic": "Acceleration",
+                "difficulty": 3,
+                "tags": ["Multi-stage Motion", "Equations of Motion"],
+                "q": "A car, starting from rest, accelerates at the rate f through a distance S, then continues at constant speed for time t and then decelerates at the rate (f/2) to come to rest. If the total distance travelled is 15S, then:",
+                "options": ["$S=ft$", "$S=\\frac{1}{6}ft^{2}$", "$S=\\frac{1}{72}ft^{2}$", "$S=\\frac{1}{4}ft^{2}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> The car accelerates at $f$ over distance $S$. The maximum velocity reached is $v = \\sqrt{2fS}$.<br><b>Step 2:</b> The car decelerates to rest from $v$ at rate $f/2$. Using $v^2 = 2aS_{dec} \\implies 2fS = 2(f/2)S_{dec} \\implies 2fS = fS_{dec} \\implies S_{dec} = 2S$.<br><b>Step 3:</b> Total distance is $15S$. The distance covered during the constant speed phase is $S_{const} = 15S - S - 2S = 12S$.<br><b>Step 4:</b> We know $S_{const} = v \\times t$. So, $12S = \\sqrt{2fS} \\times t$.<br><b>Step 5:</b> Square both sides: $144S^2 = 2fSt^2$.<br><b>Step 6:</b> Divide by $144S$: $S = \\frac{2f}{144}t^2 = \\frac{1}{72}ft^2$."
+            },
+            {
+                "id": "KIN-TEST-101",
+                "topic": "Acceleration",
+                "difficulty": 2,
+                "tags": ["Variable Acceleration", "Calculus"],
+                "q": "For motion of an object along the x-axis, the velocity v depends on the displacement x as $v=3x^{2}-2x$. What is the acceleration at $x=2\\text{m}$?",
+                "options": ["$48\\text{ms}^{-2}$", "$80\\text{ms}^{-2}$", "$18\\text{ms}^{-2}$", "$10\\text{ms}^{-2}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Acceleration is defined as $a = \\frac{dv}{dt}$. By chain rule, $a = v \\cdot \\frac{dv}{dx}$.<br><b>Step 2:</b> Calculate velocity at $x=2\\text{m}$: $v(2) = 3(2)^2 - 2(2) = 12 - 4 = 8\\text{ m/s}$.<br><b>Step 3:</b> Differentiate velocity with respect to x: $\\frac{dv}{dx} = 6x - 2$.<br><b>Step 4:</b> Calculate $\\frac{dv}{dx}$ at $x=2\\text{m}$: $\\frac{dv}{dx} = 6(2) - 2 = 12 - 2 = 10\\text{ s}^{-1}$.<br><b>Step 5:</b> Calculate acceleration: $a = v \\cdot \\frac{dv}{dx} = 8 \\times 10 = 80\\text{ ms}^{-2}$."
+            },
+            {
+                "id": "KIN-TEST-102",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Gravity Variations", "Percentage Change"],
+                "q": "The friction of the air causes a vertical retardation equal to 10% of the acceleration due to gravity. Take $g=10\\text{m/s}^{2}$. The maximum height and time to reach the maximum height will be decreased by:",
+                "options": ["9%, 9%", "11%, 11%", "9%, 10%", "11%, 9%"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> During ascent, both gravity and air friction act downwards. Effective downward acceleration $g' = g + 0.1g = 1.1g$.<br><b>Step 2:</b> New maximum height $H' = \\frac{u^2}{2g'} = \\frac{u^2}{2(1.1g)} = \\frac{1}{1.1} H = \\frac{10}{11} H$.<br><b>Step 3:</b> Decrease in height = $H - \\frac{10}{11}H = \\frac{1}{11}H$. Percentage decrease = $\\frac{1}{11} \\times 100 \\approx 9.09\\% \\approx 9\\%$.<br><b>Step 4:</b> New time to reach max height $T' = \\frac{u}{g'} = \\frac{u}{1.1g} = \\frac{1}{1.1} T = \\frac{10}{11} T$.<br><b>Step 5:</b> Decrease in time = $T - \\frac{10}{11}T = \\frac{1}{11}T$. Percentage decrease = $\\frac{1}{11} \\times 100 \\approx 9.09\\% \\approx 9\\%$."
+            },
+            {
+                "id": "KIN-TEST-103",
+                "topic": "Motion Under Gravity",
+                "difficulty": 3,
+                "tags": ["Multi-stage Motion", "Deceleration"],
+                "q": "A parachutist after bailing out falls for 10s without friction. When the parachute opens he descends with an acceleration of $2\\text{ m/s}^{2}$ against his direction and reached the ground with $4\\text{ m/s}$. From what height he has dropped himself? $(g=10\\text{m/s}^{2})$",
+                "options": ["500m", "2496m", "2996m", "4296m"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Phase 1 (Free Fall): Starts from rest ($u=0$), $t=10\\text{s}$, $a=10\\text{ m/s}^2$.<br><b>Step 2:</b> Distance fallen: $h_1 = \\frac{1}{2}gt^2 = \\frac{1}{2}(10)(10^2) = 500\\text{ m}$.<br><b>Step 3:</b> Velocity at parachute deployment: $v_1 = u + gt = 0 + 10(10) = 100\\text{ m/s}$.<br><b>Step 4:</b> Phase 2 (Parachute): Initial velocity $u_2 = 100\\text{ m/s}$, final velocity $v_2 = 4\\text{ m/s}$, acceleration $a = -2\\text{ m/s}^2$.<br><b>Step 5:</b> Remaining distance $h_2$: $v_2^2 - u_2^2 = 2ah_2 \\implies 4^2 - 100^2 = 2(-2)h_2$.<br><b>Step 6:</b> $16 - 10000 = -4h_2 \\implies -9984 = -4h_2 \\implies h_2 = 2496\\text{ m}$.<br><b>Step 7:</b> Total height dropped $= h_1 + h_2 = 500 + 2496 = 2996\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-104",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Free Fall", "Kinematics"],
+                "q": "A body is dropped from the roof of a multi-storied building. It passes the ceiling of the 15th storey at a speed of $20\\text{ ms}^{-1}$. If the height of each storey is 4m, the number of storeys in the building is (take $g=10\\text{ms}^{-2}$ and neglect air resistance):",
+                "options": ["20", "25", "30", "35"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Calculate the total distance fallen from the roof to reach a velocity of $20\\text{ m/s}$.<br><b>Step 2:</b> Use $v^2 - u^2 = 2gS$. Since it's dropped, $u=0$.<br><b>Step 3:</b> $20^2 = 2(10)S \\implies 400 = 20S \\implies S = 20\\text{ m}$.<br><b>Step 4:</b> Convert the distance to storeys: $20\\text{ m} / 4\\text{ m/storey} = 5\\text{ storeys}$. The body has fallen 5 storeys.<br><b>Step 5:</b> Passing the *ceiling* of the 15th storey means there are exactly 15 storeys still below the ball (storeys 15 down to 1).<br><b>Step 6:</b> Total storeys in building = Storeys fallen + Storeys below = $5 + 15 = 20$."
+            },
+            {
+                "id": "KIN-TEST-105",
+                "topic": "Motion Under Gravity",
+                "difficulty": 2,
+                "tags": ["Constant Velocity", "Gravity Switch"],
+                "q": "A body is projected vertically up with velocity $98\\text{ms}^{-1}$. After 2 s if the acceleration due to gravity of earth disappears, the velocity of the body at the end of next 3 s is:",
+                "options": ["$49\\text{ms}^{-1}$", "$49.6\\text{ms}^{-1}$", "$78.4\\text{ms}^{-1}$", "$94.7\\text{ms}^{-1}$"],
+                "correct": 2,
+                "sol": "<b>Step 1:</b> Calculate the velocity of the body exactly 2 seconds after projection.<br><b>Step 2:</b> Use $v = u - gt$. Since $u = 98\\text{ m/s}$, we get $v = 98 - (9.8)(2) = 98 - 19.6 = 78.4\\text{ m/s}$.<br><b>Step 3:</b> At this exact instant, the problem states that gravity disappears, making the net acceleration $a = 0$.<br><b>Step 4:</b> By Newton's First Law, an object in motion will maintain its velocity unless acted upon by an external force.<br><b>Step 5:</b> Since $a=0$, the velocity remains constant for the next 3 seconds.<br><b>Step 6:</b> Therefore, the velocity is $78.4\\text{ ms}^{-1}$."
+            },
+            {
+        "id": "KIN-TEST-106",
+        "topic": "Graphs",
+        "difficulty": 2,
+        "tags": ["Velocity-Time Graph", "Area under Curve"],
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEi9sCQzerQSdjPlkYx2gmpTAGYD15M66LRA6Fzwx6npgIPwGNInDbfFo_m4XkBJKY8znIinrJTGKswvxnKKcozdPnSro4ULK6WUun9gc7l3h3H0EP0Afg6-Qv_oftry1sSz6HirjkKJcNA6Nvw6YNLmh9scvln40ExlkJd7NkSdHpq8T8PbsuLtX3vtVldj",
+        "q": "An elevator is going up. The variation in the velocity of the elevator is as given in the graph. What is the height to which the elevator takes the passengers?",
+        "options": ["3.6 m", "28.8 m", "36.0 m", "72.0 m"],
+        "correct": 2,
+        "sol": "<b>Step 1:</b> The height (displacement) is given by the area under the velocity-time graph.<br><b>Step 2:</b> The graph forms a trapezium with the parallel sides on the time axis.<br><b>Step 3:</b> The bottom base is the total time interval: $b_1 = 12\\text{ s} - 0\\text{ s} = 12\\text{ s}$.<br><b>Step 4:</b> The top base is the interval of constant velocity: $b_2 = 10\\text{ s} - 2\\text{ s} = 8\\text{ s}$.<br><b>Step 5:</b> The height of the trapezium is the maximum velocity: $h = 3.6\\text{ m/s}$.<br><b>Step 6:</b> Area $= \\frac{1}{2}(b_1 + b_2) \\times h = \\frac{1}{2}(12 + 8) \\times 3.6 = \\frac{1}{2}(20) \\times 3.6 = 10 \\times 3.6 = 36.0\\text{ m}$."
+    },
+    {
+        "id": "KIN-TEST-107",
+        "topic": "Graphs",
+        "difficulty": 2,
+        "tags": ["Velocity-Time Graph", "Distance and Displacement"],
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjs-fzqifILT3vOeaThPB8ys7otawVmE-4xUw5Zd1lcw9kfLbO0lUaPmtqjbRXZtGqKi7DReNWSnZ3ncIVV8jHtZIPcTv_PJIqo2g1BlnTVym4zOwzgoB9DbX8OET5zsxDVi0HsJLzK6_Et49JHL4wRUzhJZNzoXfKoUBn_3ySPaYGIOj8AqdC-azRpQ95q",
+        "q": "The velocity time graph of a body moving in a straight line is shown in the figure. The displacement and distance travelled by the body in 6 sec are respectively (in metres).",
+        "options": ["8, 16", "16, 8", "16, 16", "8, 8"],
+        "correct": 0,
+        "sol": "<b>Step 1:</b> Calculate the area of each rectangular block on the graph.<br><b>Step 2:</b> Area 1 (0 to 2s): $A_1 = 4 \\times 2 = 8\\text{ m}$.<br><b>Step 3:</b> Area 2 (2 to 4s): $A_2 = -2 \\times 2 = -4\\text{ m}$.<br><b>Step 4:</b> Area 3 (4 to 6s): $A_3 = 2 \\times 2 = 4\\text{ m}$.<br><b>Step 5:</b> Displacement is the algebraic sum of the areas: $8 + (-4) + 4 = 8\\text{ m}$.<br><b>Step 6:</b> Distance is the sum of the absolute magnitudes of the areas: $|8| + |-4| + |4| = 8 + 4 + 4 = 16\\text{ m}$."
+    },
+    {
+        "id": "KIN-TEST-108",
+        "topic": "Graphs",
+        "difficulty": 1,
+        "tags": ["Velocity-Time Graph", "Maximum Height"],
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgfRZloO97_ycrIiPo5wQXG6H8X_1JS8Xbn1LREu284xSNAY7medyGK4zpmvwdDGq-9Hva_EuADhwMnzXnsqb9q5L5r4tJ_bwXeIEeuT6GhAbEbEOiqXpF75WH5oCb88RCnhoQcK339xgvBZt2DnIk0BAhehYHoGc6gtHDI16c7mEBGh87ECCtHZby26fvs",
+        "q": "The velocity-time graph of a stone thrown vertically upward with an initial velocity of $30\\text{ ms}^{-1}$ is shown in the figure. The velocity in the upward direction is taken as positive and that in the downward direction as negative. What is the maximum height to which the stone rises?",
+        "options": ["30 m", "45 m", "60 m", "90 m"],
+        "correct": 1,
+        "sol": "<b>Step 1:</b> The maximum height is achieved when the velocity of the stone becomes exactly zero (at $t=3\\text{s}$ according to the graph).<br><b>Step 2:</b> The height is represented by the area under the velocity-time graph from $t=0$ to $t=3$.<br><b>Step 3:</b> The graph forms a right-angled triangle with a base of 3s and a height of $30\\text{ m/s}$.<br><b>Step 4:</b> Area $= \\frac{1}{2} \\times \\text{base} \\times \\text{height}$.<br><b>Step 5:</b> Area $= \\frac{1}{2} \\times 3 \\times 30 = 45\\text{ m}$."
+    },
+    {
+        "id": "KIN-TEST-109",
+        "topic": "Graphs",
+        "difficulty": 2,
+        "tags": ["Velocity-Time Graph", "Integration"],
+        "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjViT6fl6MFqAa2CRNJAFWCjdTEMcgwPSKCSBPVaLzSaCrDWHpp1TK-OHmSnUT3GdyAR3OaLukOOorVV6Mcn4cuSgpTNOU55A6wq_KLsMJfY8lqNnfxggjRm5PWiamEZe4Rsbk9RJAPc9kmbH9-lE80-_ecoAN1vkpbwSHjG1nFhgMl-pYaEQ8JqeYcPS8k",
+        "q": "The variation of velocity of particle moving along a straight line is shown in the figure. The distance travelled by the particle in 4s is",
+        "options": ["55 m", "30 m", "25 m", "60 m"],
+        "correct": 0,
+        "sol": "<b>Step 1:</b> Find the area under the curve for each 1-second interval shown in the graph.<br><b>Step 2:</b> 0 to 1s (Triangle): Area $= \\frac{1}{2} \\times 1 \\times 20 = 10\\text{ m}$.<br><b>Step 3:</b> 1 to 2s (Rectangle): Area $= 1 \\times 20 = 20\\text{ m}$.<br><b>Step 4:</b> 2 to 3s (Trapezium): Area $= \\frac{1}{2} \\times (20 + 10) \\times 1 = 15\\text{ m}$.<br><b>Step 5:</b> 3 to 4s (Rectangle): Area $= 1 \\times 10 = 10\\text{ m}$.<br><b>Step 6:</b> Total distance $= 10 + 20 + 15 + 10 = 55\\text{ m}$."
+    },
+            {
+                "id": "KIN-TEST-110",
+                "topic": "Graphs",
+                "difficulty": 2,
+                "tags": ["Velocity-Time Graph", "Acceleration Intervals"],
+                "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjT77rf-fKfBsi9HpQJHQ6Ph6Qd4z_iodrvZRe210R0KAegUkjIoAtbA7Iwj7iuvbaz-594gVx7idwBV3xwAeFn_E0WuhlslUprcurJ0YcsBWT4w3KJxXI8nXP2IXWSeUBcRm03Ayp-4434WLOnfQAbYwb0OcgWKXYh1xoxEitV1gYLyK25QjS1u032RaSe",
+                "q": "Velocity-time (v-t) graph for a moving object is shown in the figure. Total displacement of the object during the time interval when there is non-zero acceleration and retardation is",
+                "options": ["60 m", "50 m", "30 m", "40 m"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Identify the intervals with non-zero acceleration/retardation from the graph. These are the segments where the velocity is changing: 20s to 30s and 30s to 40s.<br><b>Step 2:</b> Calculate the area of the trapezium for the acceleration phase (20 to 30s). Base $= 10\\text{s}$, parallel sides are $1$ and $4$. Area $= \\frac{1}{2} \\times 10 \\times (1 + 4) = 5 \\times 5 = 25\\text{ m}$.<br><b>Step 3:</b> Calculate the area of the trapezium for the retardation phase (30 to 40s). Base $= 10\\text{s}$, parallel sides are $4$ and $1$. Area $= \\frac{1}{2} \\times 10 \\times (4 + 1) = 5 \\times 5 = 25\\text{ m}$.<br><b>Step 4:</b> Total displacement during these specific intervals $= 25 + 25 = 50\\text{ m}$."
+            },
+            {
+                "id": "KIN-TEST-111",
+                "topic": "Relative Velocity",
+                "difficulty": 3,
+                "tags": ["Vector Kinematics", "2D Motion"],
+                "q": "An armored car 2m long and 3 m wide is moving at $10\\text{ ms}^{-1}$ along its length when a bullet hits it in a direction making an angle $\\tan^{-1}(3/4)$ with the length of the car as seen by a stationary observer. The bullet enters one edge of the car at the corner and passes out at the diagonally opposite corner. Neglecting gravity, the time for the bullet to cross the car is:",
+                "options": ["0.20 s", "0.15 s", "0.10 s", "0.50 s"],
+                "correct": 0,
+                "sol": "<b>Step 1:</b> Let the car move along the x-axis: $\\vec{v}_c = 10\\hat{i}$.<br><b>Step 2:</b> Bullet velocity relative to ground is $\\vec{v}_b = v_b \\cos\\theta\\hat{i} + v_b \\sin\\theta\\hat{j}$. Since $\\tan\\theta = 3/4$, we have $\\cos\\theta = 4/5$ and $\\sin\\theta = 3/5$. So, $\\vec{v}_b = \\frac{4v_b}{5}\\hat{i} + \\frac{3v_b}{5}\\hat{j}$.<br><b>Step 3:</b> Bullet velocity relative to the car is $\\vec{v}_{bc} = \\vec{v}_b - \\vec{v}_c = \\left(\\frac{4v_b}{5} - 10\\right)\\hat{i} + \\left(\\frac{3v_b}{5}\\right)\\hat{j}$.<br><b>Step 4:</b> To pass diagonally from $(0,0)$ to $(2,3)$ relative to the car, the relative velocity vector must be parallel to the diagonal $2\\hat{i} + 3\\hat{j}$. Thus, $\\frac{v_{y}}{v_{x}} = \\frac{3}{2}$.<br><b>Step 5:</b> Set up the proportion: $\\frac{3v_b/5}{4v_b/5 - 10} = \\frac{3}{2} \\implies 2\\left(\\frac{3v_b}{5}\\right) = 3\\left(\\frac{4v_b}{5} - 10\\right) \\implies \\frac{6v_b}{5} = \\frac{12v_b}{5} - 30$.<br><b>Step 6:</b> Solve for $v_b$: $\\frac{6v_b}{5} = 30 \\implies v_b = 25\\text{ m/s}$.<br><b>Step 7:</b> Substitute back to find relative x-velocity: $v_{x} = \\frac{4(25)}{5} - 10 = 20 - 10 = 10\\text{ m/s}$.<br><b>Step 8:</b> Time to cross the 2m length is $t = \\frac{2}{10} = 0.20\\text{ s}$."
+            },
+            {
+                "id": "KIN-TEST-112",
+                "topic": "Relative Velocity",
+                "difficulty": 3,
+                "tags": ["Minima/Maxima", "Calculus"],
+                "q": "Two particles start simultaneously from the same point and move along two straight lines. One with uniform velocity v and other with a uniform acceleration a. If $\\alpha$ is the angle between the lines of motion of two particles then the least value of relative velocity will be at time given by:",
+                "options": ["$\\frac{v}{a}\\sin\\alpha$", "$\\frac{v}{a}\\cos\\alpha$", "$\\frac{v}{a}\\tan\\alpha$", "$\\frac{v}{a}\\cot\\alpha$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Let particle 1 move along the x-axis: $\\vec{v}_1 = v\\hat{i}$.<br><b>Step 2:</b> Particle 2 starts from rest and accelerates at angle $\\alpha$: $\\vec{v}_2 = (at\\cos\\alpha)\\hat{i} + (at\\sin\\alpha)\\hat{j}$.<br><b>Step 3:</b> The relative velocity vector is $\\vec{v}_{rel} = \\vec{v}_1 - \\vec{v}_2 = (v - at\\cos\\alpha)\\hat{i} - (at\\sin\\alpha)\\hat{j}$.<br><b>Step 4:</b> The square of the magnitude is $V^2 = (v - at\\cos\\alpha)^2 + (-at\\sin\\alpha)^2 = v^2 - 2vat\\cos\\alpha + a^2t^2\\cos^2\\alpha + a^2t^2\\sin^2\\alpha$.<br><b>Step 5:</b> Simplify using $\\sin^2\\alpha + \\cos^2\\alpha = 1$: $V^2 = v^2 - 2vat\\cos\\alpha + a^2t^2$.<br><b>Step 6:</b> To find the minimum relative velocity, differentiate $V^2$ with respect to time $t$ and set it to zero: $\\frac{d(V^2)}{dt} = -2va\\cos\\alpha + 2a^2t = 0$.<br><b>Step 7:</b> Solve for $t$: $2a^2t = 2va\\cos\\alpha \\implies t = \\frac{v\\cos\\alpha}{a}$."
+            },
+            {
+                "id": "KIN-TEST-113",
+                "topic": "Relative Velocity",
+                "difficulty": 1,
+                "tags": ["1D Motion", "Relative Speed"],
+                "q": "A jet airplane travelling at the speed of $500\\text{ km/h}$ ejects its products of combustion at the speed of $1500\\text{ km/h}$ relative to the jet plane. What is the velocity of the later (exhaust gas) with respect to an observer on the ground?",
+                "options": ["$-100\\text{ kmph}$", "$-1000\\text{ kmph}$", "$-10\\text{ kmph}$", "$-11\\text{ kmph}$"],
+                "correct": 1,
+                "sol": "<b>Step 1:</b> Establish a sign convention. Let the direction of the jet airplane be positive. Velocity of the jet relative to ground $\\vec{v}_j = +500\\text{ km/h}$.<br><b>Step 2:</b> The exhaust gas is ejected backwards. So, the velocity of the exhaust gas relative to the jet is $\\vec{v}_{ej} = -1500\\text{ km/h}$.<br><b>Step 3:</b> We need the velocity of the exhaust gas relative to the ground ($\\vec{v}_e$). Use the relative velocity formula: $\\vec{v}_{ej} = \\vec{v}_e - \\vec{v}_j$.<br><b>Step 4:</b> Rearrange to solve for $\\vec{v}_e$: $\\vec{v}_e = \\vec{v}_{ej} + \\vec{v}_j$.<br><b>Step 5:</b> Substitute the values: $\\vec{v}_e = -1500 + 500 = -1000\\text{ km/h}$."
+            }
+        ]
+    }
