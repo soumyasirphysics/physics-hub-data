@@ -1,0 +1,14 @@
+{
+  "Electrostatics": {
+    "classTarget": "Class 12",
+    "totalQuestions": 97, 
+    "topics": ["Electric Charges and Fields", "Coulomb's Law", "Electric Potential and Potential Energy", "Electric Field", "Electric Flux and Gauss's Law", "Electric Dipole"],
+    "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/electrostatics.json"
+  },
+  "Motion in a Straight Line": {
+    "classTarget": "Class 11",
+    "totalQuestions": 113,
+    "topics": ["Distance and Displacement", "Average Speed and Velocity", "Instantaneous Velocity and Acceleration", "Kinematic Equations for Uniformly Accelerated Motion", "Motion under Gravity (Free Fall)", "Relative Velocity in 1D"],
+    "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/motion_in_a_straight_line.json"
+  }
+}
