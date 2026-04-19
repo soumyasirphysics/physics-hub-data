@@ -27,5 +27,15 @@
     "totalQuestions": 97, 
     "topics": ["Electric Charges and Fields", "Coulomb's Law", "Electric Potential and Potential Energy", "Electric Field", "Electric Flux and Gauss's Law", "Electric Dipole"],
     "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/electrostatics.json"
+  },
+  "Capacitors": {
+    "classTarget": "Class 12",
+    "totalQuestions": 64,
+    "topics": [
+      "Capacitance",
+      "Capacitors in Series and in Parallel",
+      "Energy Stored in a Condenser, Types of Capacitors"
+    ],
+    "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/capacitors.json"
   }
 }
