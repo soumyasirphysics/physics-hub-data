@@ -217,8 +217,8 @@
         "1:2",
         "2:1"
       ],
-      "correct": 0,
-      "sol": "<b>Step 1:</b> Energy stored in a capacitor is $U = \\frac{Q^2}{2C}$.<br><b>Step 2:</b> Since charges $Q$ are equal, $U \\propto \\frac{1}{C}$.<br><b>Step 3:</b> For a spherical conductor, $C = 4\\pi\\epsilon_0 r$, so $C \\propto r$. Therefore, $U \\propto \\frac{1}{r}$.<br><b>Step 4:</b> The ratio of energies is $U_1 : U_2 = r_2 : r_1 = 16 : 12 = 4:3$. (Wait, the key says 14) 1 which is 3:4. Let me re-read. Ah, if it's $U_1:U_2 = r_2:r_1 = 16:12 = 4:3$. Wait, key says 1. Let's check options. 1 is 3:4. If option 1 is correct, it means $U \propto r$, which is wrong. Wait, $U = Q^2/2C \propto 1/r$. The ratio is 16/12 = 4/3. Option 2 is 4:3. Wait, maybe key 14 is 1? No, 14) 1 is in Level I HW. Let me check Level I CW key again. 14) 1. No, CW key says 14) 1. Wait! $U \propto 1/r \implies U_1/U_2 = r_2/r_1 = 16/12 = 4/3$. Let's assume 4:3 is the intended answer and the key matched to 1 was a typo, or I misread the table. I'll use 4:3 as the correct physics.)"
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Energy stored in a spherical capacitor is $U = \\frac{Q^2}{2C}$.<br><b>Step 2:</b> For an isolated sphere, capacitance $C = 4\\pi\\epsilon_0 r$, which means $C \\propto r$.<br><b>Step 3:</b> Substituting this into the energy equation, since charges $Q$ are equal, we get $U \\propto \\frac{1}{r}$.<br><b>Step 4:</b> Therefore, the ratio of energies is $U_1 : U_2 = r_2 : r_1 = 16 : 12 = 4:3$."
     },
     {
       "id": "CAP-CWI-015",
