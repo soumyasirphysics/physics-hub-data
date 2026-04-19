@@ -5,6 +5,17 @@
     "topics": ["ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS", "SIGNIFICANT FIGURES & ROUNDING OFF", "UNITS AND DIMENSIONAL FORMULAE", "PRINCIPLE OF HOMOGENEITY", "CONVERSION OF UNITS", "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS"],
     "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/units_measurements.json"
   },
+  "Vectors": {
+    "classTarget": "Class 11",
+    "totalQuestions": 84,
+    "topics": [
+      "Addition, Subtraction and Resolution of Vectors",
+      "Multiplication of a Vector by a Scalar",
+      "Scalar Product (or) Dot Product",
+      "Vector Product (or) Cross Product"
+    ],
+    "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/vectors.json"
+  },
   "Motion in a Straight Line": {
     "classTarget": "Class 11",
     "totalQuestions": 113,
