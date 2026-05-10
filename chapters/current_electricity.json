@@ -194,6 +194,22 @@
       ],
       "correct": 1,
       "sol": "<b>Step 1:</b> Power drawn from a voltage source $V$ by an external resistance $R_{eq}$ is $P = \\frac{V^2}{R_{eq}}$.<br><b>Step 2:</b> To draw maximum energy (power), the equivalent resistance $R_{eq}$ must be minimum.<br><b>Step 3:</b> Connecting all four identical resistances in parallel provides the minimum possible equivalent resistance ($R/4$). Therefore, the parallel arrangement draws the maximum energy."
+    },
+    {
+      "id": "CE-CWI-013",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Circuit Solving", "Effective Resistance"],
+      "imgUrl": "",
+      "q": "If four resistances are connected as shown in the fig. between A and B the effective resistance is",
+      "options": [
+        "$4\\Omega$",
+        "$8\\Omega$",
+        "$2.4\\Omega$",
+        "$2\\Omega$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Analyze the circuit diagram between terminals A and B.<br><b>Step 2:</b> Identify the series and parallel combinations of the four resistors.<br><b>Step 3:</b> Applying the standard combination formulas (e.g., $R_p = \\frac{R_1 R_2}{R_1 + R_2}$) simplifies the network down to an effective resistance of $2\\Omega$."
     }
   ]
 }
