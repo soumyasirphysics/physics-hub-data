@@ -286,6 +286,36 @@
       ],
       "correct": 2,
       "sol": "<b>Step 1:</b> For the resultant resistance to remain constant at all temperatures, the change in resistance of Aluminium must perfectly cancel the change in resistance of Carbon: $\\Delta R_1 + \\Delta R_2 = 0$.<br><b>Step 2:</b> Therefore, $R_1 \\alpha_1 \\Delta T + R_2 \\alpha_2 \\Delta T = 0 \\implies R_1 \\alpha_1 = -R_2 \\alpha_2$.<br><b>Step 3:</b> Substitute the $\\alpha$ values: $R_1 (4 \\times 10^{-3}) = R_2 (0.5 \\times 10^{-3}) \\implies 4 R_1 = 0.5 R_2 \\implies R_2 = 8 R_1$.<br><b>Step 4:</b> We know the series resistance is 36: $R_1 + R_2 = 36$.<br><b>Step 5:</b> Substitute $R_2$: $R_1 + 8R_1 = 36 \\implies 9R_1 = 36 \\implies R_1 = 4 \\Omega$.<br><b>Step 6:</b> Thus, $R_2 = 36 - 4 = 32 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-019",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 3,
+      "tags": ["Temperature Coefficient of Resistance"],
+      "q": "The temperature coefficient of a wire is $0.00125^{\\circ}C^{-1}$. At 300 K its resistance is one ohm. The resistance of the wire will be $2\\Omega$ at",
+      "options": [
+        "1154 K",
+        "1100 K",
+        "1400 K",
+        "1127 K"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Using the resistance-temperature formula $R_T = R_0(1 + \\alpha T)$, where $T$ is in Celsius. Let's write the ratio for two temperatures $T_1$ and $T_2$ in Celsius: $\\frac{R_2}{R_1} = \\frac{1 + \\alpha T_2}{1 + \\alpha T_1}$.<br><b>Step 2:</b> Convert 300 K to Celsius: $T_1 = 300 - 273 = 27^{\\circ}C$.<br><b>Step 3:</b> We have $R_1 = 1 \\Omega$, $R_2 = 2 \\Omega$, and $\\alpha = 0.00125$. So, $2 = \\frac{1 + 0.00125 T_2}{1 + 0.00125(27)}$.<br><b>Step 4:</b> Calculate denominator: $1 + 0.03375 = 1.03375$.<br><b>Step 5:</b> $2 \\times 1.03375 = 1 + 0.00125 T_2 \\implies 2.0675 = 1 + 0.00125 T_2$.<br><b>Step 6:</b> $0.00125 T_2 = 1.0675 \\implies T_2 = \\frac{1.0675}{0.00125} = 854^{\\circ}C$.<br><b>Step 7:</b> Convert back to Kelvin: $T = 854 + 273 = 1127 K$."
+    },
+    {
+      "id": "CE-CWI-020",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Resistance", "Volume Conservation"],
+      "q": "The electrical resistance of a mercury column in a cylindrical container is 'R'. The mercury is poured into another cylindrical container with half the radius of cross-section. The resistance of the mercury column is",
+      "options": [
+        "R",
+        "2R",
+        "16R",
+        "5R"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The volume of the mercury remains constant: $V = A \\cdot l = \\pi r^2 l$.<br><b>Step 2:</b> If the new radius is halved ($r' = r/2$), the new area is $A' = \\pi (r/2)^2 = A/4$.<br><b>Step 3:</b> Since volume is constant, $A \cdot l = (A/4) \cdot l' \\implies l' = 4l$.<br><b>Step 4:</b> Resistance $R = \\rho \\frac{l}{A}$. New resistance $R' = \\rho \\frac{4l}{A/4} = 16 \\rho \\frac{l}{A} = 16R$."
     }
   ]
 }
