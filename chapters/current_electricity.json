@@ -301,21 +301,6 @@
       ],
       "correct": 3,
       "sol": "<b>Step 1:</b> Using the resistance-temperature formula $R_T = R_0(1 + \\alpha T)$, where $T$ is in Celsius. Let's write the ratio for two temperatures $T_1$ and $T_2$ in Celsius: $\\frac{R_2}{R_1} = \\frac{1 + \\alpha T_2}{1 + \\alpha T_1}$.<br><b>Step 2:</b> Convert 300 K to Celsius: $T_1 = 300 - 273 = 27^{\\circ}C$.<br><b>Step 3:</b> We have $R_1 = 1 \\Omega$, $R_2 = 2 \\Omega$, and $\\alpha = 0.00125$. So, $2 = \\frac{1 + 0.00125 T_2}{1 + 0.00125(27)}$.<br><b>Step 4:</b> Calculate denominator: $1 + 0.03375 = 1.03375$.<br><b>Step 5:</b> $2 \\times 1.03375 = 1 + 0.00125 T_2 \\implies 2.0675 = 1 + 0.00125 T_2$.<br><b>Step 6:</b> $0.00125 T_2 = 1.0675 \\implies T_2 = \\frac{1.0675}{0.00125} = 854^{\\circ}C$.<br><b>Step 7:</b> Convert back to Kelvin: $T = 854 + 273 = 1127 K$."
-    },
-    {
-      "id": "CE-CWI-020",
-      "topic": "Ohm's Law and Combination of Resistances",
-      "difficulty": 2,
-      "tags": ["Resistance", "Volume Conservation"],
-      "q": "The electrical resistance of a mercury column in a cylindrical container is 'R'. The mercury is poured into another cylindrical container with half the radius of cross-section. The resistance of the mercury column is",
-      "options": [
-        "R",
-        "2R",
-        "16R",
-        "5R"
-      ],
-      "correct": 2,
-      "sol": "<b>Step 1:</b> The volume of the mercury remains constant: $V = A \\cdot l = \\pi r^2 l$.<br><b>Step 2:</b> If the new radius is halved ($r' = r/2$), the new area is $A' = \\pi (r/2)^2 = A/4$.<br><b>Step 3:</b> Since volume is constant, $A \cdot l = (A/4) \cdot l' \\implies l' = 4l$.<br><b>Step 4:</b> Resistance $R = \\rho \\frac{l}{A}$. New resistance $R' = \\rho \\frac{4l}{A/4} = 16 \\rho \\frac{l}{A} = 16R$."
     }
   ]
 }
