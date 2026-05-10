@@ -1031,7 +1031,7 @@
       "correct": 2,
       "sol": "<b>Step 1:</b> Convert potential gradient to standard units: $k = 0.16 \\text{ mV/cm} = \\frac{0.16 \\times 10^{-3} V}{10^{-2} m} = 0.016 \\text{ V/m}$.<br><b>Step 2:</b> Total potential drop across the 10m wire is $V_w = k \\times L = 0.016 \\times 10 = 0.16 V$.<br><b>Step 3:</b> The voltage across the wire is also given by the voltage divider rule: $V_w = E \\times \\frac{R_w}{R_w + R}$.<br><b>Step 4:</b> Substitute values: $0.16 = 2 \\times \\frac{20}{20 + R}$.<br><b>Step 5:</b> $0.16(20 + R) = 40 \\implies 20 + R = \\frac{40}{0.16} = 250 \\implies R = 230 \\Omega$."
     },
-  {
+    {
       "id": "CE-HWI-001",
       "topic": "Electric Current & Drift Velocity",
       "difficulty": 1,
