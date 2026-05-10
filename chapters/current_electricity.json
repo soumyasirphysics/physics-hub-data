@@ -301,6 +301,21 @@
       ],
       "correct": 3,
       "sol": "<b>Step 1:</b> Using the resistance-temperature formula $R_T = R_0(1 + \\alpha T)$, where $T$ is in Celsius. Let's write the ratio for two temperatures $T_1$ and $T_2$ in Celsius: $\\frac{R_2}{R_1} = \\frac{1 + \\alpha T_2}{1 + \\alpha T_1}$.<br><b>Step 2:</b> Convert 300 K to Celsius: $T_1 = 300 - 273 = 27^{\\circ}C$.<br><b>Step 3:</b> We have $R_1 = 1 \\Omega$, $R_2 = 2 \\Omega$, and $\\alpha = 0.00125$. So, $2 = \\frac{1 + 0.00125 T_2}{1 + 0.00125(27)}$.<br><b>Step 4:</b> Calculate denominator: $1 + 0.03375 = 1.03375$.<br><b>Step 5:</b> $2 \\times 1.03375 = 1 + 0.00125 T_2 \\implies 2.0675 = 1 + 0.00125 T_2$.<br><b>Step 6:</b> $0.00125 T_2 = 1.0675 \\implies T_2 = \\frac{1.0675}{0.00125} = 854^{\\circ}C$.<br><b>Step 7:</b> Convert back to Kelvin: $T = 854 + 273 = 1127 K$."
+    },
+    {
+      "id": "CE-CWI-021",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Square Circuit", "Equivalent Resistance"],
+      "q": "Four conductors of same resistance connected to form a square. If the resistance between diagonally opposite corners is 8 ohm, the resistance between any two adjacent corners is",
+      "options": [
+        "32 ohm",
+        "8 ohm",
+        "1/6 ohm",
+        "6 ohm"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Let the resistance of each side of the square be $R_s$. Between diagonal corners, there are two parallel branches, each having two sides in series ($2R_s$).<br><b>Step 2:</b> $R_{diagonal} = \\frac{2R_s \\times 2R_s}{2R_s + 2R_s} = R_s$. Thus, $R_s = 8 \\Omega$.<br><b>Step 3:</b> Between any two adjacent corners, the circuit consists of one side ($R_s$) in parallel with the other three sides in series ($3R_s$).<br><b>Step 4:</b> $R_{adjacent} = \\frac{R_s \\times 3R_s}{R_s + 3R_s} = \\frac{3R_s^2}{4R_s} = \\frac{3}{4} R_s$.<br><b>Step 5:</b> $R_{adjacent} = \\frac{3}{4}(8) = 6 \\Omega$."
     }
   ]
 }
