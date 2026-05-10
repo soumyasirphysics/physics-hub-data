@@ -37,5 +37,19 @@
       "Energy Stored in a Condenser, Types of Capacitors"
     ],
     "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/capacitors.json"
+  },
+  "Current Electricity": {
+    "classTarget": "Class 12",
+    "totalQuestions": 98,
+    "topics": [
+    "Electric Current & Drift Velocity",
+    "Ohm's Law and Combination of Resistances",
+    "Electric Power & Joule's Law",
+    "Cells and Combination of Cells",
+    "Kirchhoff's Laws & Wheatstone Bridge",
+    "Metre Bridge",
+    "Potentiometer"
+    ],
+    "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/current_electricity.json"
   }
 }
