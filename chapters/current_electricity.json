@@ -195,3 +195,5 @@
       "correct": 1,
       "sol": "<b>Step 1:</b> Power drawn from a voltage source $V$ by an external resistance $R_{eq}$ is $P = \\frac{V^2}{R_{eq}}$.<br><b>Step 2:</b> To draw maximum energy (power), the equivalent resistance $R_{eq}$ must be minimum.<br><b>Step 3:</b> Connecting all four identical resistances in parallel provides the minimum possible equivalent resistance ($R/4$). Therefore, the parallel arrangement draws the maximum energy."
     }
+  ]
+}
