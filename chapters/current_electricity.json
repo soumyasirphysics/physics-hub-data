@@ -1,0 +1,197 @@
+{
+  "classTarget": "Class 12",
+  "topics": [
+    "Electric Current & Drift Velocity",
+    "Ohm's Law and Combination of Resistances",
+    "Electric Power & Joule's Law",
+    "Cells and Combination of Cells",
+    "Kirchhoff's Laws & Wheatstone Bridge",
+    "Metre Bridge",
+    "Potentiometer"
+  ],
+  "questions": [
+    {
+      "id": "CE-CWI-001",
+      "topic": "Electric Current & Drift Velocity",
+      "difficulty": 1,
+      "tags": ["Electric Current", "Bohr Model"],
+      "q": "If the electron in a Hydrogen atom makes $6.25\\times10^{15}$ revolutions in one second, the current is",
+      "options": [
+        "1.12 mA",
+        "1 mA",
+        "1.25 mA",
+        "1.5 mA"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The current due to a revolving electron is given by $i = qf$, where $q$ is the charge of an electron and $f$ is the frequency of revolution.<br><b>Step 2:</b> Substitute the values: $i = 1.6 \\times 10^{-19} C \\times 6.25 \\times 10^{15} Hz$.<br><b>Step 3:</b> $i = 10 \\times 10^{-4} A = 1 \\times 10^{-3} A = 1 mA$."
+    },
+    {
+      "id": "CE-CWI-002",
+      "topic": "Electric Current & Drift Velocity",
+      "difficulty": 2,
+      "tags": ["Variable Current", "Integration"],
+      "q": "The current through a wire connected to a condenser varies with time as $i=(2t+1)A$. The charge transport to the condenser from $t=0$ to $t=5s$ is",
+      "options": [
+        "5C",
+        "55C",
+        "30C",
+        "60C"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Charge $q$ is the integral of current with respect to time: $q = \\int i dt$.<br><b>Step 2:</b> $q = \\int_{0}^{5} (2t + 1) dt$.<br><b>Step 3:</b> Integrating gives $q = [t^2 + t]_{0}^{5}$.<br><b>Step 4:</b> Evaluate the limits: $q = (5^2 + 5) - (0 + 0) = 25 + 5 = 30 C$."
+    },
+    {
+      "id": "CE-CWI-003",
+      "topic": "Electric Current & Drift Velocity",
+      "difficulty": 2,
+      "tags": ["Electric Field", "Current Density"],
+      "q": "A copper wire of cross-sectional area 2.0 $mm^{2}$, resistivity $=1.7\\times10^{-8} \\Omega m$, carries a current of 1 A. The electric field in the copper wire is",
+      "options": [
+        "$8.5\\times10^{-5}V/m$",
+        "$8.5\\times10^{-4}V/m$",
+        "$8.5\\times10^{-3}V/m$",
+        "$8.5\\times10^{-2}V/m$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The relationship between electric field $E$, resistivity $\\rho$, and current density $J$ is $E = \\rho J$.<br><b>Step 2:</b> Current density $J = \\frac{i}{A}$. Therefore, $E = \\frac{i\\rho}{A}$.<br><b>Step 3:</b> Substitute the values: $A = 2.0 \\times 10^{-6} m^2$, $\\rho = 1.7 \\times 10^{-8} \\Omega m$, $i = 1 A$.<br><b>Step 4:</b> $E = \\frac{1 \\times 1.7 \\times 10^{-8}}{2.0 \\times 10^{-6}} = 0.85 \\times 10^{-2} = 8.5 \\times 10^{-3} V/m$."
+    },
+    {
+      "id": "CE-CWI-004",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Combination of Resistances"],
+      "q": "Using three wires of resistances 1 ohm, 2 ohm and 3 ohm, then no. of different values of resistances that possible are",
+      "options": [
+        "6",
+        "4",
+        "10",
+        "8"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> For $n$ unequal resistors, the number of distinct combinations (including individual usage, all series, all parallel, and mixed combinations) follows the pattern $x = 2^n$.<br><b>Step 2:</b> Here, $n = 3$.<br><b>Step 3:</b> Total possible combinations $= 2^3 = 8$."
+    },
+    {
+      "id": "CE-CWI-005",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Circuit Solving", "Ladder Network"],
+      "imgUrl": "",
+      "q": "Six resistances of each 12 ohm are connected as shown in the fig. The effective resistance between the terminals A and B is",
+      "options": [
+        "$8\\Omega$",
+        "$6\\Omega$",
+        "$4\\Omega$",
+        "$12\\Omega$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Analyze the circuit diagram connecting terminals A and B.<br><b>Step 2:</b> By identifying nodes that are at the same potential (equipotential points), the network can be simplified.<br><b>Step 3:</b> The symmetric parallel and series reduction of the six $12 \\Omega$ resistors gives an effective resistance of $4 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-006",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Circuit Solving", "Ammeter"],
+      "imgUrl": "",
+      "q": "Current 'i' coming from the battery and ammeter reading are",
+      "options": [
+        "$\\frac{3}{8}A, \\frac{1}{8}A$",
+        "$\\frac{1}{8}A, \\frac{1}{8}A$",
+        "$2A, \\frac{2}{3}A$",
+        "$2A, \\frac{1}{8}A$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Find the equivalent resistance of the circuit to determine the total current $i$.<br><b>Step 2:</b> Determine how the total current divides among the parallel branches.<br><b>Step 3:</b> The ammeter is in one of the branches, so it will read the fractional current passing through that specific resistor.<br><b>Step 4:</b> Calculation yields a total current of $3/8 A$ and the branch current (ammeter reading) as $1/8 A$."
+    },
+    {
+      "id": "CE-CWI-007",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Circuit Solving", "Voltmeter"],
+      "imgUrl": "",
+      "q": "In the circuit shown, the reading of the voltmeter and the ammeter are",
+      "options": [
+        "4V, 0.2A",
+        "2V, 0.4A",
+        "3V, 0.6A",
+        "4V, 0.04A"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The voltmeter reading $V$ is given by the potential difference across its parallel branch.<br><b>Step 2:</b> The ammeter reading $A$ is the current flowing through its specific series branch.<br><b>Step 3:</b> Using Kirchhoff's laws or series-parallel reduction, we find the voltage drop to be $4V$ and the current through the ammeter branch to be $0.04A$."
+    },
+    {
+      "id": "CE-CWI-008",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 1,
+      "tags": ["Resistance", "Wire Cutting"],
+      "q": "The resistance of a wire of 100 cm length is $10\\Omega$. Now, it is cut into 10 equal parts and all of them are twisted to form a single bundle. Its resistance is",
+      "options": [
+        "$1\\Omega$",
+        "$0.5\\Omega$",
+        "$5\\Omega$",
+        "$0.1\\Omega$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> When cut into $n=10$ equal parts, the resistance of each part becomes $r = \\frac{R}{n} = \\frac{10}{10} = 1 \\Omega$.<br><b>Step 2:</b> Twisting them into a single bundle means connecting these 10 parts in parallel.<br><b>Step 3:</b> Equivalent resistance in parallel $R_p = \\frac{r}{n} = \\frac{1}{10} = 0.1 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-009",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Stretching of Wire"],
+      "q": "A metallic wire of resistance 20 ohm stretched until its length is doubled. Its resistance is",
+      "options": [
+        "$20\\Omega$",
+        "$40\\Omega$",
+        "$80\\Omega$",
+        "$60\\Omega$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> When a wire is stretched, its volume remains constant ($V = A \\cdot l$). Thus, if length $l$ becomes $2l$, area $A$ becomes $A/2$.<br><b>Step 2:</b> Resistance $R = \\rho \\frac{l}{A}$.<br><b>Step 3:</b> New resistance $R' = \\rho \\frac{2l}{A/2} = 4 \\rho \\frac{l}{A} = 4R$.<br><b>Step 4:</b> $R' = 4 \\times 20 = 80 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-010",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 1,
+      "tags": ["Bending Wire", "Square"],
+      "q": "A wire of resistance $20\\Omega$ is bent in the form of a square. The resistance between the ends of diagonal is",
+      "options": [
+        "$10\\Omega$",
+        "$5\\Omega$",
+        "$20\\Omega$",
+        "$15\\Omega$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> When bent into a square, each of the four sides will have a resistance of $r = \\frac{20}{4} = 5 \\Omega$.<br><b>Step 2:</b> Between the ends of a diagonal, the circuit consists of two branches in parallel, each containing two sides in series.<br><b>Step 3:</b> Resistance of each branch is $5 + 5 = 10 \\Omega$.<br><b>Step 4:</b> Equivalent resistance $R_{eq} = \\frac{10 \\times 10}{10 + 10} = 5 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-011",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Circuit Solving", "Symmetry"],
+      "imgUrl": "",
+      "q": "Resistance of each $10\\Omega$ are connected as shown in the fig. The effective resistance betweeen A and G is",
+      "options": [
+        "$16\\Omega$",
+        "$20\\Omega$",
+        "$12\\Omega$",
+        "$8\\Omega$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Identify the nodes and connections in the given diagram between A and G.<br><b>Step 2:</b> Using series and parallel combinations, or equipotential symmetry methods, simplify the network step-by-step.<br><b>Step 3:</b> The effective resistance reduces to $16 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-012",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Maximum Power", "Internal Resistance"],
+      "imgUrl": "",
+      "q": "Which arrangement of four identical resistances should be used to draw maximum energy from a cell of voltage V",
+      "options": [
+        "All in series",
+        "All in parallel",
+        "Two in series, parallel to other two",
+        "Three in parallel, series with one"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Power drawn from a voltage source $V$ by an external resistance $R_{eq}$ is $P = \\frac{V^2}{R_{eq}}$.<br><b>Step 2:</b> To draw maximum energy (power), the equivalent resistance $R_{eq}$ must be minimum.<br><b>Step 3:</b> Connecting all four identical resistances in parallel provides the minimum possible equivalent resistance ($R/4$). Therefore, the parallel arrangement draws the maximum energy."
+    }
