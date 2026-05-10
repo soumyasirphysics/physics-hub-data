@@ -316,6 +316,247 @@
       ],
       "correct": 3,
       "sol": "<b>Step 1:</b> Let the resistance of each side of the square be $R_s$. Between diagonal corners, there are two parallel branches, each having two sides in series ($2R_s$).<br><b>Step 2:</b> $R_{diagonal} = \\frac{2R_s \\times 2R_s}{2R_s + 2R_s} = R_s$. Thus, $R_s = 8 \\Omega$.<br><b>Step 3:</b> Between any two adjacent corners, the circuit consists of one side ($R_s$) in parallel with the other three sides in series ($3R_s$).<br><b>Step 4:</b> $R_{adjacent} = \\frac{R_s \\times 3R_s}{R_s + 3R_s} = \\frac{3R_s^2}{4R_s} = \\frac{3}{4} R_s$.<br><b>Step 5:</b> $R_{adjacent} = \\frac{3}{4}(8) = 6 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-022",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Resistance of a Cube"],
+      "q": "The resistivity of a material is S ohm meter. The resistance between opposite faces of a solid cube of edge 10 cm is (in ohm)",
+      "options": [
+        "S/2",
+        "S/10",
+        "100S",
+        "10S"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Use the formula for resistance: $R = \\rho \\frac{l}{A}$.<br><b>Step 2:</b> For a solid cube, the length of the conductor is the edge length $l = 10 cm = 0.1 m$.<br><b>Step 3:</b> The area of the face is $A = l \\times l = 0.1 \\times 0.1 = 0.01 m^2$.<br><b>Step 4:</b> Substitute the values: $R = S \\frac{0.1}{0.01} = 10S \\Omega$."
+    },
+    {
+      "id": "CE-CWI-023",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 1,
+      "tags": ["Resistance comparison"],
+      "q": "Four wires made of same material have different lengths and radii, the wire having more resistance in the following case is",
+      "options": [
+        "$l=100cm, r=1mm$",
+        "$l=50cm, r=2mm$",
+        "$l=100cm, r=\\frac{1}{2}mm$",
+        "$l=50cm, r=\\frac{1}{2}mm$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Resistance is proportional to length and inversely proportional to the square of the radius: $R \\propto \\frac{l}{r^2}$.<br><b>Step 2:</b> Calculate the ratio for each option:<br>Option 1: $100 / (1)^2 = 100$<br>Option 2: $50 / (2)^2 = 12.5$<br>Option 3: $100 / (0.5)^2 = 100 / 0.25 = 400$<br>Option 4: $50 / (0.5)^2 = 50 / 0.25 = 200$<br><b>Step 3:</b> Option 3 has the highest ratio, hence maximum resistance."
+    },
+    {
+      "id": "CE-CWI-024",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Resistance Proportionality"],
+      "q": "Two different wires have specific resistivities, lengths, area of cross-sections are in the raio 3:4, 2:9 and 8:27. Then the ratio of resistance of two wires is",
+      "options": [
+        "$\\frac{16}{9}$",
+        "$\\frac{9}{16}$",
+        "$\\frac{8}{27}$",
+        "$\\frac{27}{8}$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Resistance formula is $R = \\rho \\frac{l}{A}$.<br><b>Step 2:</b> The ratio of resistances is $\\frac{R_1}{R_2} = \\left(\\frac{\\rho_1}{\\rho_2}\\right) \\times \\left(\\frac{l_1}{l_2}\\right) \\times \\left(\\frac{A_2}{A_1}\\right)$.<br><b>Step 3:</b> Substitute the given ratios: $\\frac{\\rho_1}{\\rho_2} = \\frac{3}{4}$, $\\frac{l_1}{l_2} = \\frac{2}{9}$, and $\\frac{A_1}{A_2} = \\frac{8}{27}$ (which means $\\frac{A_2}{A_1} = \\frac{27}{8}$).<br><b>Step 4:</b> $\\frac{R_1}{R_2} = \\left(\\frac{3}{4}\\right) \\times \\left(\\frac{2}{9}\\right) \\times \\left(\\frac{27}{8}\\right) = \\left(\\frac{6}{36}\\right) \\times \\left(\\frac{27}{8}\\right) = \\frac{1}{6} \\times \\frac{27}{8} = \\frac{27}{48}$.<br><b>Step 5:</b> Simplify the fraction by dividing by 3: $\\frac{27}{48} = \\frac{9}{16}$."
+    },
+    {
+      "id": "CE-CWI-025",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Resistance", "Mass and Density"],
+      "q": "Two wires made of same material have their length are in the ratio 1:2 and their masses in the ratio 3:16. The ratio of resistance of two wires is",
+      "options": [
+        "3/4",
+        "1:2",
+        "2:1",
+        "4:3"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Mass $m = \\text{volume} \\times \\text{density} = A \\cdot l \\cdot d$, so Area $A = \\frac{m}{l \cdot d}$.<br><b>Step 2:</b> Substitute Area in the resistance formula: $R = \\rho \\frac{l}{A} = \\rho \\frac{l}{(m/ld)} = \\frac{\\rho d l^2}{m}$.<br><b>Step 3:</b> Since material is the same, $\\rho$ and $d$ are constant. Thus, $R \\propto \\frac{l^2}{m}$.<br><b>Step 4:</b> $\\frac{R_1}{R_2} = \\left(\\frac{l_1}{l_2}\\right)^2 \\times \\left(\\frac{m_2}{m_1}\\right) = \\left(\\frac{1}{2}\\right)^2 \\times \\left(\\frac{16}{3}\\right) = \\frac{1}{4} \\times \\frac{16}{3} = \\frac{4}{3}$."
+    },
+    {
+      "id": "CE-CWI-026",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Stretching of Wire"],
+      "q": "A wire of resistance 18 ohm is drawn until its radius reduce 1/2 th of its original radius then resistance of the wire is",
+      "options": [
+        "188 $\\Omega$",
+        "72 $\\Omega$",
+        "288 $\\Omega$",
+        "388 $\\Omega$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> When a wire is drawn, its volume remains constant. Therefore, Resistance $R \\propto \\frac{1}{r^4}$.<br><b>Step 2:</b> The new radius $r' = r/2$.<br><b>Step 3:</b> The new resistance $R' = R \\times \\left(\\frac{r}{r'}\\right)^4 = R \\times (2)^4 = 16R$.<br><b>Step 4:</b> $R' = 16 \\times 18 = 288 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-027",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 1,
+      "tags": ["Twisting Wires"],
+      "q": "A piece of wire of resistance $40\\Omega$ is bent through $180^{\\circ}$ at its midpoint and the two halves are twisted together. Then the resistance is",
+      "options": [
+        "8 $\\Omega$",
+        "10 $\\Omega$",
+        "20 $\\Omega$",
+        "15 $\\Omega$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> When bent at the midpoint, the wire is divided into two halves, each having half the original resistance: $R_{half} = \\frac{40}{2} = 20 \\Omega$.<br><b>Step 2:</b> Twisting them together connects these two halves in parallel.<br><b>Step 3:</b> The equivalent resistance is $R_{eq} = \\frac{20 \\times 20}{20 + 20} = \\frac{400}{40} = 10 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-028",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Combination Logic"],
+      "q": "If three wires of equal resistance are given then number of combinations they can be made to give different resistance is",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Consider three identical resistors each of resistance R.<br><b>Step 2:</b> The possible combinations are: <br>1. All three in series ($3R$). <br>2. All three in parallel ($R/3$). <br>3. Two in series, with the third in parallel to them ($2R/3$). <br>4. Two in parallel, with the third in series to them ($1.5R$).<br><b>Step 3:</b> Thus, exactly 4 distinct resistance values can be made."
+    },
+    {
+      "id": "CE-CWI-029",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 3,
+      "tags": ["Infinite Ladder Network"],
+      "imgUrl": "",
+      "q": "The effective resistance between A and B in the given circuit is",
+      "options": [
+        "12 $\\Omega$",
+        "8 $\\Omega$",
+        "3 $\\Omega$",
+        "6 $\\Omega$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Identify the repeating unit in the infinite ladder network (or analyze the finite symmetry if drawn).<br><b>Step 2:</b> For an infinite ladder, set the total equivalent resistance to $x$.<br><b>Step 3:</b> Express $x$ as the first unit's resistance in series/parallel with the rest of the infinite chain (which is also equal to $x$).<br><b>Step 4:</b> Solving the resulting quadratic equation yields $x = 6 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-030",
+      "topic": "Cells and Combination of Cells",
+      "difficulty": 2,
+      "tags": ["Mixed Grouping of Cells"],
+      "q": "How many cells each marked $(6V-12A)$ should be connected in mixed grouping so that it may be marked $(24V-24A)$",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "6"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> To match the voltage, the cells must be connected in series rows. Number of cells in series $n = \\frac{\\text{Total Voltage}}{\\text{Voltage per cell}} = \\frac{24V}{6V} = 4$.<br><b>Step 2:</b> To match the current capacity, these series rows must be connected in parallel. Number of parallel rows $m = \\frac{\\text{Total Current}}{\\text{Current per cell}} = \\frac{24A}{12A} = 2$.<br><b>Step 3:</b> Total number of cells required $= m \\times n = 2 \\times 4 = 8$."
+    },
+    {
+      "id": "CE-CWI-031",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Series and Parallel Resistance"],
+      "q": "The effective resistance in series combination of two equal resistance is 's'. When they are joined in parallel the total resistance is p. If $s=np$ then the minimum possible value of 'n' is",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> For two equal resistances $R$, the series resistance is $s = R + R = 2R$.<br><b>Step 2:</b> The parallel resistance is $p = \\frac{R \\times R}{R + R} = \\frac{R}{2}$.<br><b>Step 3:</b> Given $s = n \\cdot p$, substitute the values: $2R = n \\left(\\frac{R}{2}\\right)$.<br><b>Step 4:</b> Solving for $n$, we get $n = 4$."
+    },
+    {
+      "id": "CE-CWI-032",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 2,
+      "tags": ["Power", "Bulb Fusing"],
+      "q": "A 25 watt, 220 volt bulb and a 100 watt, 220 volt bulb are connected in series across 440 volt line",
+      "options": [
+        "only 100 watt bulb will fuse",
+        "only 25 watt bulb will fuse",
+        "none of the bulb will fuse",
+        "both bulbs will fuse"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Calculate resistances: $R_{25} = \\frac{220^2}{25} = 1936 \\Omega$ and $R_{100} = \\frac{220^2}{100} = 484 \\Omega$.<br><b>Step 2:</b> Total resistance in series is $R_{eq} = 1936 + 484 = 2420 \\Omega$.<br><b>Step 3:</b> Current in the circuit $I = \\frac{440}{2420} = \\frac{2}{11} A$.<br><b>Step 4:</b> Voltage across 25W bulb $V_{25} = I R_{25} = \\frac{2}{11} \\times 1936 = 352 V$. Since $352V > 220V$, it fuses.<br><b>Step 5:</b> Voltage across 100W bulb $V_{100} = I R_{100} = \\frac{2}{11} \\times 484 = 88 V$. This is safe. Thus, only the 25W bulb fuses."
+    },
+    {
+      "id": "CE-CWI-033",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 1,
+      "tags": ["Electrical Energy", "Units Consumption"],
+      "q": "There are 5 tube-lights each of 40W in a house. These are used on an average for 5 hours per day. In addition, there is an immersion heater of 1500W used on an average for 1 hour per day. The number of units of electricity are consumed in a month is",
+      "options": [
+        "25 units",
+        "50 units",
+        "75 units",
+        "100 units"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Daily energy for tube-lights = $5 \\times 40 W \\times 5 h = 1000 Wh$.<br><b>Step 2:</b> Daily energy for heater = $1500 W \\times 1 h = 1500 Wh$.<br><b>Step 3:</b> Total daily energy = $1000 + 1500 = 2500 Wh = 2.5 kWh$.<br><b>Step 4:</b> Energy for a month (30 days) = $2.5 \\times 30 = 75$ units."
+    },
+    {
+      "id": "CE-CWI-034",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 2,
+      "tags": ["Power Ratio", "Series and Parallel"],
+      "q": "Three equal resistors connected in series across a source emf together dissipate 10 watt. If the same resistors are connected in parallel across the same emf the power dissipate will be",
+      "options": [
+        "10 watt",
+        "30 watt",
+        "10/3 watt",
+        "90 watt"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Power in series $P_s = \\frac{V^2}{3R} = 10 \\implies \\frac{V^2}{R} = 30 W$.<br><b>Step 2:</b> When connected in parallel, equivalent resistance is $R/3$.<br><b>Step 3:</b> Power in parallel $P_p = \\frac{V^2}{R/3} = 3 \\frac{V^2}{R}$.<br><b>Step 4:</b> Substitute $\\frac{V^2}{R}$: $P_p = 3 \\times 30 = 90$ Watts."
+    },
+    {
+      "id": "CE-CWI-035",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 2,
+      "tags": ["Heat Energy", "Calorimetry"],
+      "q": "Time taken by a 836 W heater to heat one litre of water from $10^{0}C~to~40^{0}C$ is",
+      "options": [
+        "50 s",
+        "100 s",
+        "150 s",
+        "200 s"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Mass of 1 liter of water $m = 1 kg$. Specific heat $s = 4180 J/kg^{\\circ}C$.<br><b>Step 2:</b> Heat required $Q = ms\\Delta T = 1 \\times 4180 \\times (40 - 10) = 4180 \\times 30 = 125400 J$.<br><b>Step 3:</b> Electrical energy supplied $E = P \\times t = 836 \\times t$.<br><b>Step 4:</b> Equate energies: $836t = 125400 \\implies t = \\frac{125400}{836} = 150 s$."
+    },
+    {
+      "id": "CE-CWI-036",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 1,
+      "tags": ["Resistance of Bulb"],
+      "q": "A lamp of 600W-240V is connected to 220V mains. Its resistance is",
+      "options": [
+        "96 $\\Omega$",
+        "84 $\\Omega$",
+        "90 $\\Omega$",
+        "64 $\\Omega$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The resistance of an electrical appliance depends only on its rated power and voltage, not the connected voltage.<br><b>Step 2:</b> Use the formula $R = \\frac{V_{rated}^2}{P_{rated}}$.<br><b>Step 3:</b> $R = \\frac{(240)^2}{600} = \\frac{57600}{600} = 96 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-037",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 2,
+      "tags": ["Power Consumption", "Voltage Change"],
+      "q": "A 200W 200V lamp is connected to 250V mains. It power consumption is",
+      "options": [
+        "300 W",
+        "312.5W",
+        "292 W",
+        "250 W"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Calculate the fixed resistance of the lamp: $R = \\frac{V_{rated}^2}{P_{rated}} = \\frac{200^2}{200} = 200 \\Omega$.<br><b>Step 2:</b> Calculate the new power at 250V: $P' = \\frac{V'^2}{R}$.<br><b>Step 3:</b> $P' = \\frac{(250)^2}{200} = \\frac{62500}{200} = 312.5 W$."
     }
   ]
 }
