@@ -315,7 +315,7 @@
         "5R"
       ],
       "correct": 2,
-      "sol": "<b>Step 1:</b> The volume of the mercury remains constant: $V = A \\cdot l = \\pi r^2 l$.<br><b>Step 2:</b> If the new radius is halved ($r' = r/2$), the new area is $A' = \\pi (r/2)^2 = A/4$.<br><b>Step 3:</b> Since volume is constant, $A \cdot l = (A/4) \cdot l' \\implies l' = 4l$.<br><b>Step 4:</b> Resistance $R = \\rho \\frac{l}{A}$. New resistance $R' = \\rho \\frac{4l}{A/4} = 16 \\rho \\frac{l}{A} = 16R$."
+      "sol": "<b>Step 1:</b> The volume of the mercury remains constant: $V = A \\cdot l = \\pi r^2 l$.<br><b>Step 2:</b> If the new radius is halved ($r' = r/2$), the new area is $A' = \\pi (r/2)^2 = A/4$.<br><b>Step 3:</b> Since volume is constant, $A \\cdot l = (A/4) \\cdot l' \\implies l' = 4l$.<br><b>Step 4:</b> Resistance $R = \\rho \\frac{l}{A}$. New resistance $R' = \\rho \\frac{4l}{A/4} = 16 \\rho \\frac{l}{A} = 16R$."
     },
     {
       "id": "CE-CWI-021",
