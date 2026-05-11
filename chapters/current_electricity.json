@@ -954,7 +954,7 @@
         "1.31m"
       ],
       "correct": 1,
-      "sol": "<b>Step 1:</b> The null point length $l$ is inversely proportional to potential gradient $k$. Since $k = V/L$, we get $l \propto L$ (where $L$ is total length of potentiometer wire).<br><b>Step 2:</b> $\\frac{l_1}{L_1} = \\frac{l_2}{L_2}$.<br><b>Step 3:</b> Substitute the values: $\\frac{1}{4} = \\frac{l_2}{5}$.<br><b>Step 4:</b> $l_2 = \\frac{5}{4} = 1.25$ m."
+      "sol": "<b>Step 1:</b> The null point length $l$ is inversely proportional to potential gradient $k$. Since $k = V/L$, we get $l \\propto L$ (where $L$ is total length of potentiometer wire).<br><b>Step 2:</b> $\\frac{l_1}{L_1} = \\frac{l_2}{L_2}$.<br><b>Step 3:</b> Substitute the values: $\\frac{1}{4} = \\frac{l_2}{5}$.<br><b>Step 4:</b> $l_2 = \\frac{5}{4} = 1.25$ m."
     },
     {
       "id": "CE-CWI-063",
@@ -969,7 +969,7 @@
         "1.6 V"
       ],
       "correct": 3,
-      "sol": "<b>Step 1:</b> The principle of the potentiometer states $E \propto l$.<br><b>Step 2:</b> The ratio of emfs is $\\frac{E_A}{E_S} = \\frac{l_A}{l_S}$.<br><b>Step 3:</b> Substitute values: $\\frac{E_A}{1V} = \\frac{80}{50}$.<br><b>Step 4:</b> $E_A = 1.6 V$."
+      "sol": "<b>Step 1:</b> The principle of the potentiometer states $E \\propto l$.<br><b>Step 2:</b> The ratio of emfs is $\\frac{E_A}{E_S} = \\frac{l_A}{l_S}$.<br><b>Step 3:</b> Substitute values: $\\frac{E_A}{1V} = \\frac{80}{50}$.<br><b>Step 4:</b> $E_A = 1.6 V$."
     },
     {
       "id": "CE-CWI-064",
@@ -984,7 +984,7 @@
         "4"
       ],
       "correct": 2,
-      "sol": "<b>Step 1:</b> For 6 cells correctly connected, $6E \propto l$.<br><b>Step 2:</b> Let $n$ cells be wrongly connected. The net emf becomes $(6 - 2n)E$.<br><b>Step 3:</b> It is given that the new balancing length is $l/3$. So, $(6 - 2n)E \propto l/3$.<br><b>Step 4:</b> Dividing the two equations: $\\frac{6E}{(6 - 2n)E} = \\frac{l}{l/3} = 3$.<br><b>Step 5:</b> $6 = 3(6 - 2n) \\implies 6 = 18 - 6n \\implies 6n = 12 \\implies n = 2$."
+      "sol": "<b>Step 1:</b> For 6 cells correctly connected, $6E \\propto l$.<br><b>Step 2:</b> Let $n$ cells be wrongly connected. The net emf becomes $(6 - 2n)E$.<br><b>Step 3:</b> It is given that the new balancing length is $l/3$. So, $(6 - 2n)E \\propto l/3$.<br><b>Step 4:</b> Dividing the two equations: $\\frac{6E}{(6 - 2n)E} = \\frac{l}{l/3} = 3$.<br><b>Step 5:</b> $6 = 3(6 - 2n) \\implies 6 = 18 - 6n \\implies 6n = 12 \\implies n = 2$."
     },
     {
       "id": "CE-CWI-065",
