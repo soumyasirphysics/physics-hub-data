@@ -390,7 +390,7 @@
         "4:3"
       ],
       "correct": 3,
-      "sol": "<b>Step 1:</b> Mass $m = \\text{volume} \\times \\text{density} = A \\cdot l \\cdot d$, so Area $A = \\frac{m}{l \cdot d}$.<br><b>Step 2:</b> Substitute Area in the resistance formula: $R = \\rho \\frac{l}{A} = \\rho \\frac{l}{(m/ld)} = \\frac{\\rho d l^2}{m}$.<br><b>Step 3:</b> Since material is the same, $\\rho$ and $d$ are constant. Thus, $R \\propto \\frac{l^2}{m}$.<br><b>Step 4:</b> $\\frac{R_1}{R_2} = \\left(\\frac{l_1}{l_2}\\right)^2 \\times \\left(\\frac{m_2}{m_1}\\right) = \\left(\\frac{1}{2}\\right)^2 \\times \\left(\\frac{16}{3}\\right) = \\frac{1}{4} \\times \\frac{16}{3} = \\frac{4}{3}$."
+      "sol": "<b>Step 1:</b> Mass $m = \\text{volume} \\times \\text{density} = A \\cdot l \\cdot d$, so Area $A = \\frac{m}{l \\cdot d}$.<br><b>Step 2:</b> Substitute Area in the resistance formula: $R = \\rho \\frac{l}{A} = \\rho \\frac{l}{(m/ld)} = \\frac{\\rho d l^2}{m}$.<br><b>Step 3:</b> Since material is the same, $\\rho$ and $d$ are constant. Thus, $R \\propto \\frac{l^2}{m}$.<br><b>Step 4:</b> $\\frac{R_1}{R_2} = \\left(\\frac{l_1}{l_2}\\right)^2 \\times \\left(\\frac{m_2}{m_1}\\right) = \\left(\\frac{1}{2}\\right)^2 \\times \\left(\\frac{16}{3}\\right) = \\frac{1}{4} \\times \\frac{16}{3} = \\frac{4}{3}$."
     },
     {
       "id": "CE-CWI-026",
