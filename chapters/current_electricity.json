@@ -2014,7 +2014,7 @@
         "4"
       ],
       "correct": 2,
-      "sol": "<b>Step 1:</b> For 6 cells correctly connected, total emf is $6E \propto l$.<br><b>Step 2:</b> Let $n$ cells be wrongly connected. The net emf becomes $(6 - 2n)E$.<br><b>Step 3:</b> The new balancing length is $l/3$. So, $(6 - 2n)E \propto l/3$.<br><b>Step 4:</b> Dividing the equations: $\\frac{6E}{(6 - 2n)E} = \\frac{l}{l/3} = 3$.<br><b>Step 5:</b> $6 = 3(6 - 2n) \\implies 2 = 6 - 2n \\implies 2n = 4 \\implies n = 2$."
+      "sol": "<b>Step 1:</b> For 6 cells correctly connected, total emf is $6E \\propto l$.<br><b>Step 2:</b> Let $n$ cells be wrongly connected. The net emf becomes $(6 - 2n)E$.<br><b>Step 3:</b> The new balancing length is $l/3$. So, $(6 - 2n)E \\propto l/3$.<br><b>Step 4:</b> Dividing the equations: $\\frac{6E}{(6 - 2n)E} = \\frac{l}{l/3} = 3$.<br><b>Step 5:</b> $6 = 3(6 - 2n) \\implies 2 = 6 - 2n \\implies 2n = 4 \\implies n = 2$."
     },
     {
       "id": "CE-HWI-066",
@@ -2183,7 +2183,7 @@
         "$R(\\sqrt{3}+1)$"
       ],
       "correct": 1,
-      "sol": "<b>Step 1:</b> This implies the resistance across AB is the characteristic impedance $x$ of the infinite ladder. Thus, resistance across CD must also be $x$.<br><b>Step 2:</b> The basic repeating unit consists of an $R$ in series, followed by an $R$ in parallel, followed by another $R$ in series.<br><b>Step 3:</b> $x = R + \\frac{R \cdot x}{R + x} + R = 2R + \\frac{Rx}{R+x}$.<br><b>Step 4:</b> $x(R+x) = 2R(R+x) + Rx \\implies xR + x^2 = 2R^2 + 2Rx + Rx \\implies x^2 - 2Rx - 2R^2 = 0$.<br><b>Step 5:</b> Solving for $x$: $x = \\frac{2R + \\sqrt{4R^2 - 4(1)(-2R^2)}}{2} = R + \\sqrt{3}R = R(\\sqrt{3}+1)$. Wait, if connected across CD (which is in parallel with R), it depends on the exact node labels. Assuming standard L-section ladder, $x = R(\\sqrt{3}-1)$."
+      "sol": "<b>Step 1:</b> This implies the resistance across AB is the characteristic impedance $x$ of the infinite ladder. Thus, resistance across CD must also be $x$.<br><b>Step 2:</b> The basic repeating unit consists of an $R$ in series, followed by an $R$ in parallel, followed by another $R$ in series.<br><b>Step 3:</b> $x = R + \\frac{R \\cdot x}{R + x} + R = 2R + \\frac{Rx}{R+x}$.<br><b>Step 4:</b> $x(R+x) = 2R(R+x) + Rx \\implies xR + x^2 = 2R^2 + 2Rx + Rx \\implies x^2 - 2Rx - 2R^2 = 0$.<br><b>Step 5:</b> Solving for $x$: $x = \\frac{2R + \\sqrt{4R^2 - 4(1)(-2R^2)}}{2} = R + \\sqrt{3}R = R(\\sqrt{3}+1)$. Wait, if connected across CD (which is in parallel with R), it depends on the exact node labels. Assuming standard L-section ladder, $x = R(\\sqrt{3}-1)$."
     },
     {
       "id": "CE-CWII-009",
@@ -2278,7 +2278,7 @@
         "$\\le5\\Omega$"
       ],
       "correct": 0,
-      "sol": "<b>Step 1:</b> The apparent resistance is $R_{app} = \\frac{V}{I} = \\frac{20}{4} = 5 \\Omega$.<br><b>Step 2:</b> The voltmeter is connected in parallel with $R$. Thus, $R_{app}$ is the equivalent resistance of $R$ and $R_v$ in parallel.<br><b>Step 3:</b> $R_{app} = \\frac{R \cdot R_v}{R + R_v} = 5$.<br><b>Step 4:</b> Since the parallel equivalent is always strictly less than any individual resistor, the actual resistance $R$ must be strictly greater than $5\\Omega$."
+      "sol": "<b>Step 1:</b> The apparent resistance is $R_{app} = \\frac{V}{I} = \\frac{20}{4} = 5 \\Omega$.<br><b>Step 2:</b> The voltmeter is connected in parallel with $R$. Thus, $R_{app}$ is the equivalent resistance of $R$ and $R_v$ in parallel.<br><b>Step 3:</b> $R_{app} = \\frac{R \\cdot R_v}{R + R_v} = 5$.<br><b>Step 4:</b> Since the parallel equivalent is always strictly less than any individual resistor, the actual resistance $R$ must be strictly greater than $5\\Omega$."
     },
     {
       "id": "CE-CWII-015",
@@ -2371,7 +2371,7 @@
         "1:2"
       ],
       "correct": 1,
-      "sol": "<b>Step 1:</b> Let each resistor be $R$. Between A and B, the circuit is $R$ in parallel with $3R$ (if it's a square loop). $R_1 = \\frac{R \\cdot 3R}{R + 3R} = \\frac{3}{4}R$.<br><b>Step 2:</b> Between A and C (diagonal), the circuit is $2R$ in parallel with $2R$. $R_2 = \\frac{2R \cdot 2R}{2R + 2R} = R$.<br><b>Step 3:</b> The ratio $\\frac{R_1}{R_2} = \\frac{3R/4}{R} = \\frac{3}{4}$.<br><b>Step 4:</b> The ratio is 3:4."
+      "sol": "<b>Step 1:</b> Let each resistor be $R$. Between A and B, the circuit is $R$ in parallel with $3R$ (if it's a square loop). $R_1 = \\frac{R \\cdot 3R}{R + 3R} = \\frac{3}{4}R$.<br><b>Step 2:</b> Between A and C (diagonal), the circuit is $2R$ in parallel with $2R$. $R_2 = \\frac{2R \\cdot 2R}{2R + 2R} = R$.<br><b>Step 3:</b> The ratio $\\frac{R_1}{R_2} = \\frac{3R/4}{R} = \\frac{3}{4}$.<br><b>Step 4:</b> The ratio is 3:4."
     },
     {
       "id": "CE-CWII-021",
@@ -3028,7 +3028,7 @@
         "$210\\Omega$"
       ],
       "correct": 1,
-      "sol": "<b>Step 1:</b> For the total resistance to be temperature-independent, the change in carbon's resistance must exactly cancel the change in copper's resistance.<br><b>Step 2:</b> $\\Delta R_{carbon} + \\Delta R_{copper} = 0 \\implies R_C \\alpha_C \\Delta T + R_{Cu} \\alpha_{Cu} \\Delta T = 0$.<br><b>Step 3:</b> $R_C \\alpha_C = - R_{Cu} \\alpha_{Cu}$.<br><b>Step 4:</b> $120 \\times (-5 \\times 10^{-4}) = - R_{Cu} \times (4 \\times 10^{-3})$.<br><b>Step 5:</b> $600 = 40 R_{Cu} \\implies R_{Cu} = \\frac{600}{40} = 15 \\Omega$."
+      "sol": "<b>Step 1:</b> For the total resistance to be temperature-independent, the change in carbon's resistance must exactly cancel the change in copper's resistance.<br><b>Step 2:</b> $\\Delta R_{carbon} + \\Delta R_{copper} = 0 \\implies R_C \\alpha_C \\Delta T + R_{Cu} \\alpha_{Cu} \\Delta T = 0$.<br><b>Step 3:</b> $R_C \\alpha_C = - R_{Cu} \\alpha_{Cu}$.<br><b>Step 4:</b> $120 \\times (-5 \\times 10^{-4}) = - R_{Cu} \\times (4 \\times 10^{-3})$.<br><b>Step 5:</b> $600 = 40 R_{Cu} \\implies R_{Cu} = \\frac{600}{40} = 15 \\Omega$."
     },
     {
       "id": "CE-HWII-009",
@@ -3059,7 +3059,7 @@
         "$1/16\\Omega$"
       ],
       "correct": 1,
-      "sol": "<b>Step 1:</b> Using Ohm's Law, initial current $I_1 = \\frac{12}{R}$.<br><b>Step 2:</b> New current $I_2 = \\frac{12}{R + 4}$.<br><b>Step 3:</b> The drop in current is $0.5A$: $I_1 - I_2 = 0.5 \implies \\frac{12}{R} - \\frac{12}{R + 4} = 0.5$.<br><b>Step 4:</b> $\\frac{12(R + 4) - 12R}{R(R + 4)} = 0.5 \\implies \\frac{48}{R^2 + 4R} = 0.5$.<br><b>Step 5:</b> $R^2 + 4R = 96 \\implies R^2 + 4R - 96 = 0$.<br><b>Step 6:</b> Factoring gives $(R + 12)(R - 8) = 0$. Since resistance is positive, $R = 8 \\Omega$."
+      "sol": "<b>Step 1:</b> Using Ohm's Law, initial current $I_1 = \\frac{12}{R}$.<br><b>Step 2:</b> New current $I_2 = \\frac{12}{R + 4}$.<br><b>Step 3:</b> The drop in current is $0.5A$: $I_1 - I_2 = 0.5 \\implies \\frac{12}{R} - \\frac{12}{R + 4} = 0.5$.<br><b>Step 4:</b> $\\frac{12(R + 4) - 12R}{R(R + 4)} = 0.5 \\implies \\frac{48}{R^2 + 4R} = 0.5$.<br><b>Step 5:</b> $R^2 + 4R = 96 \\implies R^2 + 4R - 96 = 0$.<br><b>Step 6:</b> Factoring gives $(R + 12)(R - 8) = 0$. Since resistance is positive, $R = 8 \\Omega$."
     },
     {
       "id": "CE-HWII-011",
