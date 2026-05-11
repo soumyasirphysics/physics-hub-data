@@ -1111,7 +1111,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Circuit Solving"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhkA9nRzYx0ZRlopoKIqcf8gWt_qQfiCJ0teXS9xzWPdyg4cJJBx-ody2gmToUQul_kU-EoepU69TZ7qWR27KvjwKR4kJryaWSJINnd8wS0QryeiCKgWeVV10YJFCuTPxbPXrkfmRS3-NXNiwkPM5X8VegglZq0NvOEFALdvN_2y3HPLflqoabduFtu2XMu",
       "q": "Three resistances each of $3\\Omega$ are connected as shown in fig. The resultant resistance between A and F is",
       "options": [
         "$9\\Omega$",
@@ -1262,7 +1262,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Triangle Circuit"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiXtUmrtuUdVVpgbfGUg81Va_FLUCkIYwo11v6g6JbJo4WFP0XQmePHDcz6e4p8V_TbM75nfgADlgfRTM4ji02bmRR40xTKIqd1qLwIF_Tq4JjIEnavfhaMUilbZbkYWoGZP2pFGMmslCKxa8Rr8E2IrKVwQvNj5FaYXQuvnzyUNRnvlwp-44w6kav9g4r-",
       "q": "The current 'i' in the circuit given aside is",
       "options": [
         "0.1 A",
@@ -1473,7 +1473,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Circuit Solving", "Ladder Network"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEifoLu3IcbXx6WYAZrieti3-ZY9eJXn2uJH-Wwbe6gMr33Ae2EdnL4i61Rko3_g8Ke1Rqb1XdzZVlAVU4DxeRwPjSDK7DRATJwvq5xlyUJR6iQa-fMxnSl_DihNT7ue_l44x1oOGjDyI15-bPPw0XqFPTloIadUY5zAPbPDU_isvVLF5EJ60G2PEcWPfi3D",
       "q": "The effective resistance between A&B in the given circuit is",
       "options": [
         "$7\\Omega$",
@@ -1489,7 +1489,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 2,
       "tags": ["Circuit Solving", "Bridge Layout"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEj48MbLiDgjHG0wByfp57uFfm-5YzD2rTEb_r4INkI87oAp-P9unZxusNuCYwt2s0A22N4NJk1PBF1jM_0XYFVPhPAatBrCczd7b4Tnd8jsCeUrTxZnY0ykCV_BHOejohZLyw8YvoUAUPIu0dR3MCVIS8Hq6OKrTJaFg46I17oYmbInwDamAJuLjs-qJrwo",
       "q": "The effective resistance between A and B is",
       "options": [
         "$2\\Omega$",
@@ -1505,7 +1505,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 2,
       "tags": ["Circuit Solving", "Nodal Simplification"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhp26pKC4XatVkjaosjc9S33pZhWL_320cFQ-K-k9B4DdoS9SPizQl_xqwOPNegbFe9tHMtAVE6RoDAoDxGqcqiJJq2S4r0wGr8zDaVWw08VvFmRkXQmMrOVSsoBCVgZYx17BB61wZuw3wA6oTWNvWj1dmlRa-fk48zvUAm0hqf7gi7FPpA0sKJHs1DD0Xy",
       "q": "The effective resistance between A and B in the given circuit is",
       "options": [
         "$2\\Omega$",
@@ -1806,7 +1806,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 2,
       "tags": ["Kirchhoff's Current Law", "Nodal Analysis"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEivzXxq-lDHoA_ar4ZpBLoP_TOfNwqFIzD3wbXnPWai0TKzYwLCF7hT4b2ft3hiLIPwDuXtADePtjhi__AA49xeFvlYA-QaeU5hpmR46E4sZLy7D8iicil1isD-2lDd6-yObYclDaO_WC7rblOm108y22M96jx8P9F4lum_wLyMVz95tK4dQCNXomQZN6Xv",
       "q": "The figure below shows current in a part of electric circuit. The current i is",
       "options": [
         "1.7 amp",
@@ -1822,7 +1822,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Circuit Solving"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEg-UhgobSy-PZjY5l6Xks_S__y6v9NjbKCG9Y1nqcthcQdHlt-0zrY4_rBhe8kJO-mzWg6zMuJGXq5Jx1wGyeCedAAJEnRbXRZJXt3uLLE-O7fwQwAruHLahgK_6gUdfBM8d8oyQtRQzCk2kex4ss2EYOxziwIDU8xLGqFh7y1wkyFkRfKJGmgrK4OYigXK",
       "q": "Current in the main circuit shown is",
       "options": [
         "1.5 A",
@@ -1838,7 +1838,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Loop Rule"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEinIMvfJor-XOdzgw67f1NxSUhlPat_vHedtgHNaiQnBKlpIxNe8XX84Jq7aw-KtWD1Whpp1YAG6UC3SJ65gu-UZ-NOR4N3eL4dPec_OyzNN2_mWW_m_oHSuhIH0ZPrU0N67F5z9HUtK8npS4t2ZgxjgY3znybGJokjaUOOBPUil8D6QP6Xx-92Fga6GayZ",
       "q": "Find 'i' for the given loop.",
       "options": [
         "$\\frac{6}{5}A$",
@@ -1854,7 +1854,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 2,
       "tags": ["Potential Difference"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiLnKGJgfb7L4cUlOX7AFGj9D35ksXwcLNUJ6_mfVEag0Ov-CUxpsJFEJ2C-5iuwxrii-5Of0juaTiWk6toFzUCnALOl2z6PN8E583QOG3fxR4LwpM6ut6heFCj15aDypTEAQ2p1s34Ni_6vAlAJWiprZ5R-AmI6AoivBlfjK-ycmk7pC6aSU0JziQW_12C",
       "q": "The potential difference between points A and B is",
       "options": [
         "0 V",
@@ -1885,7 +1885,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 2,
       "tags": ["Balanced Bridge"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhUXOqc134FtYh5TLvfD6zSAmErpICB6UtvPrDhnW-UtHAqUV5nrdsvd6AsauUSq4oqMv095o0S1Xn_6Xj9r3jsIhsJLntXPMwTQvYsfcCfdaZZPn534pKcOQ6J-bUFmPCCJet4KkJGNCkF8bwO6VNsuiYZKVfSv7-Fau93Rt6txL8n4If4a-yxDbHpW0vO",
       "q": "To balance the bridge in the circuit, the values of R is",
       "options": [
         "$8 \\Omega$",
@@ -2111,7 +2111,7 @@
       "topic": "Electric Current & Drift Velocity",
       "difficulty": 2,
       "tags": ["Drift Velocity", "Non-uniform Conductor"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjZm0PBsZd9D4yN4bEcGtgZUmTPbYGP58C_YFItQQnMP84EVHUYOkK1wcmwa9GBpYIDtp71ti6nC0LTVGJhTOdYMHYKJdQNQSF-IuSDBSqGbYrziYVttGDE-irlrMARWnazMc4W5FKeZ2HwhFoyLBMFvkF0SupU0CKWqzVRZ5bI4z0pyaxU477Xn67U8Ce_",
       "q": "A conductor has a non-uniform section as shown in the figure. A steady current is flowing through it. Then the drift speed of the electrons",
       "options": [
         "is constant throughout the wire",
@@ -2142,7 +2142,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Nodal Analysis", "Circuit Solving"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhdgeVYF5pr_3HVbilJSSF41J36La1grE1O-rgWi1Eh7AFiyf28Q2ql0hndbuo5WezOk0iquBNoj-huRulbKEMD6Dp7dyOr-iy0vLkwy_GCQ0qywjZdt3023JtvqexCXt8TZHd9PiD-4T2RhQr_S0LkXc3zrvykTnm8WTm-75i_C3FcN8y4JjhLntFIXxEz",
       "q": "A current of 3A flows in a circuit shown in the figure. The potential difference between A and B is",
       "options": [
         "4V",
@@ -2158,7 +2158,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Complex Network", "Symmetry"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEh1F-wtNOb8Pygj1b3OLx3UHS6bLI0qC7zZ4XvqlGTm9kmiYxXxVCkb7U3S1NkEnrLnXV4eQSPo7yp1EOpKnromuti9gyjS9uUvOXPZH8tjlB5AuUvM6ZbexrHt1AmpXEz3QaGs8S1AkqLF9ZWatw47JsYudIk0Gistr7p6s26fIpyEmaIkAfAhCueVqw8n",
       "q": "The resistance of the network between the terminals A and B is",
       "options": [
         "$30\\Omega$",
@@ -2174,7 +2174,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Infinite Ladder Network"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEilS8_c8DeX74eC3kpl9IJmZB075GziOx-Xiv6-_gkHYy-tHHMlSBtFK8qF6xuZ1iGqSYhbMo0fNlCdknlr88FoxbmJuUcyUs-BzTtvGVEIwYqpAXmsCXzUEWlsFaMMUckSHOjjHSHqkKoiHVfdlOy2SWJD3-CrZMYVtWPHBU0HyzYCwYhl1Iv0nyDD70Gf",
       "q": "In the figure, the value of resistance to be connected between C and D so that the resistance of the entire circuit between A and B does not change with the number of elementary sets used is",
       "options": [
         "R",
@@ -2190,7 +2190,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Circuit Solving"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgssPaaG2mIdgJXtCgJhEuNYA_Ki4K0FX0wCMu9mD9EiNqFIRfwpIxbcR016BZPvl6kON7gZTEF22qNOje5eCEurpvHk2jCTp_bxB_EVd15lQcqt7ihzja38lcsD4CUrRuc4J1UuZpcjvxRzu9CQGASc3BKOZGYjUuGdT9c2dje91twztR2mQHjET2czXqH",
       "q": "The effective resistance across the points A and I is",
       "options": [
         "$2\\Omega$",
@@ -2206,7 +2206,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Nodal Analysis", "Voltage Drop"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjiJ16uuyuWFOo9NFuSjjmT1repc6VPkiLWTeOf1zpsDNjpsBdZ8PiUJxELiqte9u8_4WHrZkzvte9TnIYrrAiwq9bIknXBN0h4ea47OJAFmquoAg1Rf-FTBtYaU6uVP_9zVk_gIbexa5rGW4L-zbQx9d73VCuTbfvV9PXEaW4kJ-SZV628pbJUmQTiuy5x",
       "q": "In the circuit shown below, the cell has an emf of 10V and internal resistance of 1 ohm. the other resistances are shown in the figure. The potential difference $V_{A}-V_{B}$",
       "options": [
         "6V",
@@ -2222,7 +2222,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Ring Resistor", "Parallel Chords"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjtxYymSXn9u-sygbUXuy24m7EwJaNK0aszfo8VlpTV9jHbDqhHysOVkca8Kz72XUHbXwDtsaKNjBfY9NdYSqaEcDC5pvi5m8wuKlAfie5yTltcw_8lOij3xRMEQ8avonnAjy46B_B94pQR7jqCnIWAmdfr1PHeF9ktSlANcJNKoOiDr0LxbWP8FppxxXXJ",
       "q": "A uniform wire of resistance 20 $\\Omega$ having resistance $1~\\Omega/m$ is bent in the form of circle as shown in fig. If the equivalent resistance between M and N is 1.8 $\\Omega$, then the length of the shorter section is",
       "options": [
         "2 m",
@@ -2238,6 +2238,7 @@
       "topic": "Electric Current & Drift Velocity",
       "difficulty": 3,
       "tags": ["Real Instruments", "Voltmeter Resistance"],
+      "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimE43trwYEp9ViS6Vwe6-27S5OtEwmXSvOXWgwNiJE7DB56fvXA2F_Od4_keb9HxqYzMELvQMsifPWXpqKz_2FtxHLsiATjnEgMYnUPbuWW_HyY9yY7UkCursn3xqjhbuL_mfHkpk3bWaQKsY7FngFd-2tDn62LtSTQmeL3jnEbgnT0_JncNz3zwEk1sf-/s16000/Untitled.png",
       "q": "If the voltmeter reads 0.2 V and the ammeter reads 0.101A, the resistance of the voltmeter is (in ohm)",
       "options": [
         "500",
@@ -2253,7 +2254,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Wheatstone Bridge", "Null Condition"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhmduIJUC4hecjfs9l8uAi0nWbTycfXmfOdwZoZResU7XLAn5dvkyJorbMXYxyRLTIttWptA-fWe9WX4BsW7GU--If9CPUiTiJylgJqU7RxjlXYS0w7JMQKPrAvvPLkCormRqP-tLYPPU1h_7kc3lxWYVUSn4YpFq7dGpCwgqFJZc7QPmu_cddxijaUbyNw",
       "q": "In the given circuit Ammeter reading is same when both switches $S_{1}$ $S_{2}$ are closed or opened. The value of resistance R is",
       "options": [
         "$6\\Omega$",
@@ -2269,7 +2270,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 2,
       "tags": ["Non-Ideal Instruments", "Ammeter", "Voltmeter"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhBO6DIytWwwS6qIL5xiAZ2JgOt9ySjHz5CUxrqd8JvRc68OxpZuwwou_ap3GAtnwvQWpPiUkflG8VJ_Ox1CoK5o2WKcIKIdz-qUxhKwKk0Cf73-sAqaC0C_jm5bPxztVVHmgA-7RzcowsSS3jCElpsVzqZ9s4PuUyIxN6yvwM6fx9V-dJOr8_6BTdVgKY6",
       "q": "In the following diagram ammeter reading is 4A, voltmeter reading is 20V, the value of R is",
       "options": [
         "$>5\\Omega$",
@@ -2285,7 +2286,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Complex Network", "Symmetry"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjMfzMtGIxEusYXr64DzzuPeCR6vxrVpOkeaZUVz5V8vzEX5FBHcDtHvLTvVv48CcJLUSpC7J_vlNu7dFm9tF5tEt8hgN-4REJJiAAH_C0J5dCGc4rQtHiDmWkDP3SJHp5N6BCDyzoosxsdfdMt3YGigu12QIgbfN7pvSgrVGfhtd08DTkU464HQe0I0ytA",
       "q": "Twelve resistances each of resistance R are connected in the circuit as shown in fig. Net resistance between points A and C would be",
       "options": [
         "1:5",
@@ -2331,7 +2332,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 2,
       "tags": ["Circuit Solving"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhweO-hg-z_FF7ZyJNzRWup-wU9u9ViScndHyTvwMo_-Nw6dkKDRz54QYJcTtnfVVVu8I5yP4eop2bXwcCKlFynZS4xeekJh_ENmvVxALZWXnSVKRQjFHfqPVzf_qJoTzGmKwzpuIcyPgt7kzvHjvNEvkvTrpzx9fMFC6QzNjlz2dPkEqY_V1L93UO1W-CT",
       "q": "What is the equivalent resistance of the circuit",
       "options": [
         "$3 \\Omega$",
@@ -2362,7 +2363,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Bridge Circuit", "Equivalent Resistance Ratio"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgljyc8djf_VXIpvZL-_y7nX1trzFAb4HVHeeUAGy6F0W1hfO9J5fW2-JISwE4v31vOqXtrFrEh8Emi0rnNSXFbYc8bnXZcOn0rPsHyFQrHTx_CKKvLXGstA71WOyAddXEyZ6xOhObgNmVSJnwpBP1kumx84dZ4PC-e54yslss3g1SG_7Tgyjnqcrgxdx2X/s1600/Untitled.png",
       "q": "Four identical resistance are joined as shown in fig. The equivalent resistance between points A and B is $R_{1}$ and that between A and C is $R_{2}.$ Then ratio of $\\frac{R_{1}}{R_{2}}$ is",
       "options": [
         "1:5",
@@ -2378,7 +2379,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Balanced Bridge", "Current"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeQ5gpQ2cdEuw6486igRYTT-nTxk31fE_DbuORJnVjlBeJiWNVl2j-9h26iV_t-lyr-9vjccn2VZh50LC9Ocb_YUwFZsrwxnZu8_a5B1LQnTrQOMXzkqQC3x7Wl43RvThOW5IwontY-96OM073ood-aFutMnJk3I7O-iOU3E6guyn1oEwE73kcGZ8fZlAa/s1600/Untitled.png",
       "q": "If the galvanometer reading is zero in the given circuit, the current passing through resistance $250\\Omega$ is",
       "options": [
         "0.016 A",
@@ -2394,7 +2395,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Complex Network", "Symmetry"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEi6Sx99YK6vES8q8-wjuqpvv-_-bZo7cUeRKKo6GYeoDafu-4LmzoX5t3jIR2HLKliWAFdXr3gScMSvyZp0h-sRxmI9JKSjaBheD7J8hgSv0Ew0LgvpKoLDvDxJWUaEjUhADnHNCsSQh13LsdFgH8LMJiDrZfnKANti8Szt-9Um38zGehRNpmekRLxQT13d",
       "q": "The effective resistance between A and B is the given circuit is",
       "options": [
         "$3 \\Omega$",
@@ -2410,7 +2411,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Infinite Ladder"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjgHdtcx_myGeF4X2zlVZh42BmEOERd7W-hNXEjChwGz_cmsQtSGxjJMtFO-Fm3fyJu9mk4AGzBIW3KUSiWNaDOUxzh2TCmAumVdF45B-2G9iCmnNzy7KaDZ9BwVpD8pHpboXgAVQUWFRAeyTvxmOphNTJxnC9lFt5T8cVck6dlNK0InxlprQD9dglkJLHc",
       "q": "The equivalent resistance between points A and B of an infinite network of resistance each of $1\\Omega$ connected as shown is",
       "options": [
         "$\\frac{1+\\sqrt{5}}{2}$",
@@ -2426,7 +2427,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
       "tags": ["Bridge Circuit", "Equivalent Resistance"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhzmAk5MEfi43UJccnfoEVZUYoNeiLGkfBadbY1_x7_hupgYAJnqUqpb2rHms3v5SJtdFrUvw1GBMfHW6_psWYxE7gJxInz7sorZ4I__-xvkDxhMf12MPLadDQ__L_1mpdCHkPuS7Ag6t4maETGP5FblJLAYV3XWVlVX0XiyniOiHYKnU4ZXpJZlYOF7XCE",
       "q": "Equivalent resistance across A and B in the given circuit is",
       "options": [
         "2r",
@@ -2472,7 +2473,7 @@
       "topic": "Electric Power & Joule's Law",
       "difficulty": 3,
       "tags": ["Power Dissipation", "Resistance Configurations"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiwz0I8A-hGeqlfkc_4xN2FZNOvWl7T329QfOGvB0MHaeHTVfhwf5Ddj2j4s-JZwOVQHkjb3uNGbZNUs1RZgjCf5TWm2Z8lg-dj284D2JBfDwLffkAuqL2HJiAsQrMg0usSV2hAEUeL7hTbdpHpGDBctwZx4guWsOCprVKM67pXfELLKe3OuDR2kgyVNZuP",
       "q": "Three resistances of equal values are arranged in four different configurations as shown below. Power dissipation in the increasing order is",
       "options": [
         "(III) < (II) < (IV) < (I)",
@@ -2593,7 +2594,7 @@
       "topic": "Cells and Combination of Cells",
       "difficulty": 3,
       "tags": ["Cells in Series", "Terminal Voltage"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgl61USQErNYRlaQRZepWzJRs0O303dqYQF79ojEJwlgaatUd9xzoORku8gn00scJi6JGe9X8HHnVcET3K0qFHfReqPfbWsXF6BDKZwIj0hzUvkiVSHBYHPFc5LOtPC41llup6QShVaPh1OeUPbIJwcJY3NPi0TSghQP8LNMw5GTnGPP8NUMU05aT5DG4z7",
       "q": "In the circuit shown here, cells A and B have emf 10 V each and the internal resistance is $5\\Omega$ for A and $3\\Omega$ for B. For what value of R will the potential difference across the cell A will be zero?",
       "options": [
         "zero",
@@ -2609,7 +2610,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Steady State Capacitor", "Nodal Analysis"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjiE3t6caLLhEOm0hvEFM-ZPzcDDoSCEp1xS-UwCQW4OmYWMslwSUQ38i57Uonol_cDquAWrvGTwvpgub0mL1YXAqUi5X7ZVRWL08-R6XzIynGOZFGt8YixJbYJoiG1xWMHhTO3hIKNEz0Jc6xooBRN_lS_fvhF1kuEQk5CZdi8dqipq-uxJrH23YbdKkso",
       "q": "In the circuit of fig. with steady current, the potential drop across the capacitor is",
       "options": [
         "V",
@@ -2625,7 +2626,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Galvanometer Null", "Potentiometer Logic"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtLMXT86tFCYXZHgAJt5g_0k550mQm_RisbQNhlsha5pMaOnSxEl05Sg3afG3abfQeoPbJYFBullo7P5_tP1YPLwB1CqTdcNLkYkD5zE0mlRrt9Nj_p40jvgtwmelY1CMgiWYgyJMNmj2fxaG8zx5kuEV3WLD3qIs5ko4fzrrBXMcm_zeNO39h4Nfzvisq/s320/Untitled.png",
       "q": "In the circuit, the galvanometer G shows zero deflection. If the batteries A and B have negligible internal resistance, the value of the resistor R will be :",
       "options": [
         "$100\\Omega$",
@@ -2746,7 +2747,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 2,
       "tags": ["Kirchhoff's Current Law", "Nodal Analysis"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEj7KzmsFKTBRuwcYRM3aVYkkH0E_yVCmdlKT9lEPkrl7KfEVb7z1O6WhaKHqUW7Lr3Q0eJ98lrlO3OtvSHQ_iEdi4T7t4brSvJwNrXApx4Qy8DWr9T4LDEX6NqSPd3DEmuXDhVL_4VhgQTEA_PV0TGxzrfr-m4NsFq8xeWluw5wTOn2jFFvhmJBPCXyvn4j",
       "q": "The electric current i in the circuit shown is",
       "options": [
         "6 A",
@@ -2762,7 +2763,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Nodal Analysis", "Multi-source Circuit"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPvMRqKQw4EqRITDi8OMSj-sli6pF7yStau3e4F4GM0bI4uHmKmDTWB_0ijRMgIbVoqewjlIkXJwXQn17Dy-kU4DE7eAzFRSHt7DJUL-2ZSRDYHs1U288Js0_3_SebI7KzebqPguJcL-1lEddKOTFFq5q6ICdSzYu5no2DG9Ke0JLL05H6w5mQ61fJu3M7/s1600/Untitled.png",
       "q": "In the circuit shown in the figure, the current 'I' is",
       "options": [
         "6 A",
@@ -2793,7 +2794,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Zero Deflection", "Circuit Analysis"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLlMMitr2lAgFWp4mCno1ebppFrY_2hnhfmPGcIvu6bjj2HhManaywVyEBvrbEsqzho639Hs_JDFYQcEL8GuJUaPXvGyIKh6bemceiKmoCT7la2ZVEFvu1nDWaKWVWClcJkD8jW3g21d-weLxyiEMre9e1DFcO8jYbLLPlHye2_whnznV2Z0IJ3gC4CJJ7/s1600/Untitled.png",
       "q": "In the circuit shown below, the ammeter reading is zero. Then the value of the resistance R is",
       "options": [
         "$50\\Omega$",
@@ -2824,6 +2825,7 @@
       "topic": "Metre Bridge",
       "difficulty": 3,
       "tags": ["Shunt Resistance", "Null Point Shift"],
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEj4eoKw0w_fOeikZT12aVpz9R2w_OIn76Cz-q30QbArTqI-8RGHFyjVlcnFjB2fZ4asIcwTKPQha837vB3zaXpngzmUsTe43fMOjM_4R5bRjehmfuRYNBy9ynPJ7LVyDCcOF8f6WmWFxLF7sSsng_GvvwmOE52quX580gCz79uvkU-jUz_tS19xFayTIeWR",
       "q": "In the meter bridge experiment, the length AB of the wire is 1 m. The resistors X and Y have values $5\\Omega$ and $2\\Omega$ respectively. When a shunt resistance S is connected to X, the balancing point is found to be 0.625 m from A. Then, the resistance of the shunt is",
       "options": [
         "$5\\Omega$",
@@ -2869,7 +2871,7 @@
       "topic": "Potentiometer",
       "difficulty": 2,
       "tags": ["Comparison of Resistances"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjfp_H0fXNWSDvbLsk7y6DAUAL0tjvy-ObYT8qUMVLf0HD1GV8w8Vd-Bj6Te2gvfLE1Zdd2kEmpmmhl8fYc6Kqb8z32GuzadO2cib1IXuG2qi-o1M-HCy9CabP2-2nsIMqpTcSmxQyXa3zthuy_e3zR-o9hyVMxwO5JmYP7vMU4OZCemIAOgyGAFfkcNuS8",
       "q": "Figure shows a potentiometer circuit for comparision of two resistances. The balance point with a standard resistor $R=10.0\\Omega$ is found to be 58.3 cm, while that with the unknown resistance X is 68.5 cm. The value of X is",
       "options": [
         "11.75 $\\Omega$",
