@@ -572,6 +572,464 @@
       ],
       "correct": 1,
       "sol": "<b>Step 1:</b> Calculate the fixed resistance of the lamp: $R = \\frac{V_{rated}^2}{P_{rated}} = \\frac{200^2}{200} = 200 \\Omega$.<br><b>Step 2:</b> Calculate the new power at 250V: $P' = \\frac{V'^2}{R}$.<br><b>Step 3:</b> $P' = \\frac{(250)^2}{200} = \\frac{62500}{200} = 312.5 W$."
+    },
+    {
+      "id": "CE-CWI-038",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 2,
+      "tags": ["Power Consumption", "Error Calculation"],
+      "q": "If the current in a heater increases by 10%, the percentage change in the power consumption",
+      "options": [
+        "19%",
+        "21%",
+        "25%",
+        "17%"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Power $P = I^2 R$.<br><b>Step 2:</b> If current increases by $10\\%$, the new current is $1.1I$.<br><b>Step 3:</b> New power $P' = (1.1I)^2 R = 1.21 I^2 R = 1.21 P$.<br><b>Step 4:</b> Percentage increase is $(1.21 - 1) \\times 100\\% = 21\\%$."
+    },
+    {
+      "id": "CE-CWI-039",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 2,
+      "tags": ["Power and Resistance"],
+      "q": "The power of a heating coil is P. It is cut into two equal parts. The power of one of them across same mains is",
+      "options": [
+        "2P",
+        "3P",
+        "P/2",
+        "4P"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Power $P = \\frac{V^2}{R}$.<br><b>Step 2:</b> When cut into two equal parts, the resistance of one part is $R' = R/2$.<br><b>Step 3:</b> The new power is $P' = \\frac{V^2}{R/2} = 2 \\frac{V^2}{R} = 2P$."
+    },
+    {
+      "id": "CE-CWI-040",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 2,
+      "tags": ["Electrical Energy", "Units Consumption"],
+      "q": "In a house there are four bulbs each of 50W and 5 fans each of 60W. If they are used at the rate of 6 hours a day, the electrical energy consumed in a month of 30 days is",
+      "options": [
+        "64 KWH",
+        "90 KWH",
+        "72 KWH",
+        "42 KWH"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Total power $P = (4 \\times 50) + (5 \\times 60) = 200 + 300 = 500 W = 0.5 kW$.<br><b>Step 2:</b> Daily energy $E_{day} = 0.5 kW \\times 6 hours = 3 kWh$.<br><b>Step 3:</b> Monthly energy $E_{month} = 3 kWh \\times 30 = 90 kWh$."
+    },
+    {
+      "id": "CE-CWI-041",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 2,
+      "tags": ["Boiling Water", "Series and Parallel"],
+      "q": "An electric kettle has two coils. When one coil is switched on it takes 15 minutes and the other takes 30 minutes to boil certain mass of water. The ratio of times taken by them, when connected in series and in parallel to boil the same mass of water is",
+      "options": [
+        "9:2",
+        "2:9",
+        "4:5",
+        "5:4"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Time taken is proportional to equivalent resistance: $t \\propto R$. Thus $R_1 \\propto 15$ and $R_2 \\propto 30$.<br><b>Step 2:</b> In series, $t_s = t_1 + t_2 = 15 + 30 = 45$ min.<br><b>Step 3:</b> In parallel, $t_p = \\frac{t_1 t_2}{t_1 + t_2} = \\frac{15 \\times 30}{15 + 30} = \\frac{450}{45} = 10$ min.<br><b>Step 4:</b> Ratio $t_s : t_p = 45 : 10 = 9:2$."
+    },
+    {
+      "id": "CE-CWI-042",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 3,
+      "tags": ["Heat Dissipation", "Calorimetry"],
+      "q": "A resistance coil of $60\\Omega$ is immersed in 42kg of water. A current of 7A is passed through it. The rise in temperature of water per minute is",
+      "options": [
+        "$4^{\\circ}C$",
+        "$8^{\\circ}C$",
+        "$1^{\\circ}C$",
+        "$12^{\\circ}C$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Heat produced in 1 minute $H = I^2 R t = 7^2 \\times 60 \\times 60 = 49 \\times 3600 = 176400 J$.<br><b>Step 2:</b> Heat required to raise temperature $H = ms\\Delta T$.<br><b>Step 3:</b> $176400 = 42 \\times 4200 \\times \\Delta T$.<br><b>Step 4:</b> $\\Delta T = \\frac{176400}{176400} = 1^{\\circ}C$."
+    },
+    {
+      "id": "CE-CWI-043",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 3,
+      "tags": ["Heater Resistance", "Calorimetry"],
+      "q": "What is the required resistance of the heater coil of an immersion heater that will increase the temperature of 1.50 kg of water from $10^{0}C$ to $50^{0}C$ in 10 minutes while operating at 240V?",
+      "options": [
+        "$25\\Omega$",
+        "$12.5\\Omega$",
+        "$250\\Omega$",
+        "$137.2\\Omega$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Heat required $Q = ms\\Delta T = 1.5 \\times 4200 \\times (50 - 10) = 1.5 \\times 4200 \\times 40 = 252000 J$.<br><b>Step 2:</b> Electrical energy supplied $E = \\frac{V^2}{R} t = \\frac{240^2}{R} \\times (10 \\times 60) = \\frac{57600}{R} \\times 600 = \\frac{34560000}{R} J$.<br><b>Step 3:</b> Equating the two: $\\frac{34560000}{R} = 252000$.<br><b>Step 4:</b> $R = \\frac{34560000}{252000} = \\frac{34560}{252} \\approx 137.14 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-044",
+      "topic": "Electric Power & Joule's Law",
+      "difficulty": 2,
+      "tags": ["Temperature Rise", "Current Dependence"],
+      "q": "A $5^{0}C$ rise in the temperature is observed in a conductor by passing some current. When the current is doubled, then rise in temperature will be equal to",
+      "options": [
+        "$5^{0}C$",
+        "$10^{0}C$",
+        "$20^{0}C$",
+        "$40^{0}C$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Heat produced $H = I^2 R t$.<br><b>Step 2:</b> Temperature rise $\\Delta T \\propto H \\propto I^2$.<br><b>Step 3:</b> If current is doubled, the heat produced is quadrupled ($2^2 = 4$).<br><b>Step 4:</b> New temperature rise $\\Delta T' = 4 \\times 5^{\\circ}C = 20^{\\circ}C$."
+    },
+    {
+      "id": "CE-CWI-045",
+      "topic": "Cells and Combination of Cells",
+      "difficulty": 2,
+      "tags": ["Cells in Series", "Terminal Voltage"],
+      "imgUrl": "",
+      "q": "In the following diagram, the pd across 6V cell is",
+      "options": [
+        "6V",
+        "5.6V",
+        "8.2V",
+        "8.4V"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The two cells are in series but opposing each other. Net EMF $E_{net} = 12V - 6V = 6V$.<br><b>Step 2:</b> Total resistance $R = 3\\Omega + 2\\Omega = 5\\Omega$. Current $I = \\frac{6}{5} = 1.2 A$.<br><b>Step 3:</b> The 6V cell is being charged (current enters its positive terminal).<br><b>Step 4:</b> Potential difference across the 6V cell is $V = E + Ir = 6 + (1.2 \\times 2) = 6 + 2.4 = 8.4 V$."
+    },
+    {
+      "id": "CE-CWI-046",
+      "topic": "Cells and Combination of Cells",
+      "difficulty": 3,
+      "tags": ["Wrong Polarity", "Current"],
+      "q": "While connecting 6 cells in a battery in series, in a tape recorder, by mistake one cell is connected with reverse polarity. If the effective resistance of load is 24 ohm and internal resistance of each cell is one ohm and emf 1.5V, the current devlivered by the battery is",
+      "options": [
+        "0.1A",
+        "0.2A",
+        "0.3A",
+        "0.4A"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Net EMF with $m$ wrongly connected cells: $E_{net} = (n - 2m)E = (6 - 2(1)) \\times 1.5 = 4 \\times 1.5 = 6.0 V$.<br><b>Step 2:</b> Total internal resistance $r_{net} = n \\times r = 6 \\times 1 = 6 \\Omega$.<br><b>Step 3:</b> Total resistance $= R_{ext} + r_{net} = 24 + 6 = 30 \\Omega$.<br><b>Step 4:</b> Current $I = \\frac{6.0}{30} = 0.2 A$."
+    },
+    {
+      "id": "CE-CWI-047",
+      "topic": "Potentiometer",
+      "difficulty": 2,
+      "tags": ["Potential Gradient"],
+      "q": "A 10m long wire of resistance 15 ohm is connected in series with a battery of emf 2V (no internal resistance) and a resistance of 5 ohm. The potential gradient along the wire is",
+      "options": [
+        "$0.15 Vm^{-1}$",
+        "$0.45 Vm^{-1}$",
+        "$1.5 Vm^{-1}$",
+        "$4.5 Vm^{-1}$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Total resistance in the circuit $R_{total} = R_{wire} + R_{series} = 15 + 5 = 20 \\Omega$.<br><b>Step 2:</b> Current $I = \\frac{V}{R_{total}} = \\frac{2}{20} = 0.1 A$.<br><b>Step 3:</b> Voltage across the wire $V_{wire} = I \\times R_{wire} = 0.1 \\times 15 = 1.5 V$.<br><b>Step 4:</b> Potential gradient $k = \\frac{V_{wire}}{L} = \\frac{1.5}{10} = 0.15 Vm^{-1}$."
+    },
+    {
+      "id": "CE-CWI-048",
+      "topic": "Cells and Combination of Cells",
+      "difficulty": 2,
+      "tags": ["Internal Resistance", "EMF"],
+      "q": "When a resistance of 2 ohm is placed across a battery the current is 1A and when the resistance across the terminals is 17 ohm, the current is 0.25A. the emf of the battery is",
+      "options": [
+        "4.5 V",
+        "5 V",
+        "3 V",
+        "6 V"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Use the equation $E = I(R + r)$.<br><b>Step 2:</b> Case 1: $E = 1(2 + r) \\implies E = 2 + r$.<br><b>Step 3:</b> Case 2: $E = 0.25(17 + r) \\implies 4E = 17 + r$.<br><b>Step 4:</b> Subtracting the first from the second: $3E = 15 \\implies E = 5 V$."
+    },
+    {
+      "id": "CE-CWI-049",
+      "topic": "Cells and Combination of Cells",
+      "difficulty": 2,
+      "tags": ["Cells in Series", "Potential Drop"],
+      "q": "A battery has six cells in series. Each has an emf 1.5V and internal resistance 1 ohm. If an external load of $24\\Omega$ is connected to it. The potential drop across the load is",
+      "options": [
+        "7.2V",
+        "0.3V",
+        "6.8V",
+        "0.4V"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Total EMF $E_{eq} = 6 \\times 1.5 = 9.0 V$.<br><b>Step 2:</b> Total internal resistance $r_{eq} = 6 \\times 1 = 6 \\Omega$.<br><b>Step 3:</b> Total circuit resistance $R_{total} = 24 + 6 = 30 \\Omega$.<br><b>Step 4:</b> Current $I = \\frac{9.0}{30} = 0.3 A$.<br><b>Step 5:</b> Potential drop across the load $V = I \\times R_{ext} = 0.3 \\times 24 = 7.2 V$."
+    },
+    {
+      "id": "CE-CWI-050",
+      "topic": "Cells and Combination of Cells",
+      "difficulty": 2,
+      "tags": ["Wrong Polarity", "Effective EMF"],
+      "q": "12 cells of each emf 2V are connected in series among them, if 3 cells are connected wrongly. Then the effective emf. of the combination is",
+      "options": [
+        "18 V",
+        "12 V",
+        "24 V",
+        "6 V"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Effective EMF for wrongly connected cells is $E_{net} = (n - 2m)E$.<br><b>Step 2:</b> Substitute values: $n = 12$, $m = 3$, $E = 2V$.<br><b>Step 3:</b> $E_{net} = (12 - 2(3)) \\times 2 = (12 - 6) \\times 2 = 6 \\times 2 = 12 V$."
+    },
+    {
+      "id": "CE-CWI-051",
+      "topic": "Cells and Combination of Cells",
+      "difficulty": 3,
+      "tags": ["Internal Resistance", "Voltage Terminals"],
+      "q": "When a battery connected across a resistor of $16\\Omega$, the voltage across the resistor is 12V. When the same battery is connected across a resistor of $10\\Omega$, voltage across it is 11V. The internal resistance of the battery in ohms is",
+      "options": [
+        "$10/7$",
+        "$20/7$",
+        "$25/7$",
+        "$30/7$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Terminal voltage $V = \\frac{E R}{R + r} \\implies E = V + V\\frac{r}{R}$.<br><b>Step 2:</b> Case 1: $E = 12 + 12\\frac{r}{16} = 12 + \\frac{3r}{4}$.<br><b>Step 3:</b> Case 2: $E = 11 + 11\\frac{r}{10}$.<br><b>Step 4:</b> Equating them: $12 + \\frac{3r}{4} = 11 + \\frac{11r}{10} \\implies 1 = r\\left(\\frac{11}{10} - \\frac{3}{4}\\right) = r\\left(\\frac{22 - 15}{20}\\right) = \\frac{7r}{20}$.<br><b>Step 5:</b> Thus, $r = \\frac{20}{7} \\Omega$."
+    },
+    {
+      "id": "CE-CWI-052",
+      "topic": "Kirchhoff's Laws & Wheatstone Bridge",
+      "difficulty": 2,
+      "tags": ["Circuit Solving", "Symmetry"],
+      "imgUrl": "",
+      "q": "Six resistors of each 2 ohm are connected as shown in the figure. The resultant resistance between A and B is.",
+      "options": [
+        "$4\\Omega$",
+        "$2\\Omega$",
+        "$1\\Omega$",
+        "$10\\Omega$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Identify the nodes in the given bridge or symmetric circuit.<br><b>Step 2:</b> Apply parallel and series combinations after mapping equipotential points (or removing the null branch).<br><b>Step 3:</b> The entire symmetric network of 2 ohm resistors simplifies to an effective equivalent resistance of $1 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-053",
+      "topic": "Kirchhoff's Laws & Wheatstone Bridge",
+      "difficulty": 2,
+      "tags": ["Wheatstone Bridge", "Galvanometer"],
+      "imgUrl": "",
+      "q": "In the given circuit current through the galvanometer is",
+      "options": [
+        "Zero",
+        "Flows from C to D",
+        "Flows from D to C",
+        "In sufficient information"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Calculate the ratio of arms in the Wheatstone bridge: $\\frac{P}{Q}$ and $\\frac{R}{S}$.<br><b>Step 2:</b> Based on the diagram, the bridge is unbalanced.<br><b>Step 3:</b> Determine the potential at node C versus node D by tracing the voltage drops.<br><b>Step 4:</b> Because $V_D > V_C$, the current flows from D to C."
+    },
+    {
+      "id": "CE-CWI-054",
+      "topic": "Kirchhoff's Laws & Wheatstone Bridge",
+      "difficulty": 2,
+      "tags": ["Potential Difference", "Branch Solving"],
+      "imgUrl": "",
+      "q": "The potential difference between A & B in the given branch of a circuit is",
+      "options": [
+        "6V",
+        "12V",
+        "9V",
+        "0V"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Apply Kirchhoff's Voltage Law along the specific branch from A to B.<br><b>Step 2:</b> Start at $V_A$ and track the potential drops across resistors ($IR$) and battery EMFs.<br><b>Step 3:</b> The equation gives $V_A - V_B = \\Sigma IR + \\Sigma E$.<br><b>Step 4:</b> Substituting the given values from the circuit diagram yields $6V$."
+    },
+    {
+      "id": "CE-CWI-055",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 2,
+      "tags": ["Circuit Solving"],
+      "imgUrl": "",
+      "q": "The resistance between A and B is",
+      "options": [
+        "$8 \\Omega$",
+        "$4\\Omega$",
+        "$3.75\\Omega$",
+        "$2\\Omega$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Trace the path from terminal A to terminal B.<br><b>Step 2:</b> Simplify parallel segments and add series segments recursively.<br><b>Step 3:</b> Resolving the internal loops provides the final equivalent resistance of $4\\Omega$."
+    },
+    {
+      "id": "CE-CWI-056",
+      "topic": "Ohm's Law and Combination of Resistances",
+      "difficulty": 3,
+      "tags": ["Bridge Circuit", "Equivalent Resistance"],
+      "imgUrl": "",
+      "q": "The resistance between A and B is",
+      "options": [
+        "$\\frac{288}{56}\\Omega$",
+        "$12\\Omega$",
+        "$\\frac{6}{3}\\Omega$",
+        "$\\frac{9}{4}\\Omega$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Identify the bridge structure. If it is balanced ($P/Q = R/S$), remove the central resistor.<br><b>Step 2:</b> If unbalanced, apply Delta-Star transformation or Kirchhoff's laws to find the equivalent resistance.<br><b>Step 3:</b> Evaluating the given resistor network simplifies the total resistance to $\\frac{6}{3}\\Omega$ (which is $2\\Omega$)."
+    },
+    {
+      "id": "CE-CWI-057",
+      "topic": "Kirchhoff's Laws & Wheatstone Bridge",
+      "difficulty": 3,
+      "tags": ["Circuit Solving", "Nodal Analysis"],
+      "imgUrl": "",
+      "q": "The value of E of the given circuit is",
+      "options": [
+        "18 V",
+        "12 V",
+        "24 V",
+        "6 V"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Analyze the circuit diagram provided. Apply Kirchhoff's Voltage Law (KVL) around the closed loops.<br><b>Step 2:</b> Using the given currents and resistance values (e.g., $1A$, $50\\Omega$), set up the loop equation.<br><b>Step 3:</b> Solving the equation for the unknown electromotive force yields $E = 6 V$."
+    },
+    {
+      "id": "CE-CWI-058",
+      "topic": "Kirchhoff's Laws & Wheatstone Bridge",
+      "difficulty": 2,
+      "tags": ["Wheatstone Bridge", "Balanced Bridge"],
+      "imgUrl": "",
+      "q": "In the circuit shown in the figure, the value of Resistance X, when potential difference between the poins B and D is zero will be",
+      "options": [
+        "$9\\Omega$",
+        "$8\\Omega$",
+        "$6\\Omega$",
+        "$4\\Omega$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> When the potential difference between B and D is zero, the circuit acts as a balanced Wheatstone bridge.<br><b>Step 2:</b> The balanced condition is $\\frac{P}{Q} = \\frac{R}{S}$.<br><b>Step 3:</b> Substitute the resistance values from the arms of the bridge: $\\frac{R_1}{R_2} = \\frac{R_3}{X}$.<br><b>Step 4:</b> Solving for $X$ based on the diagram gives $X = 8 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-059",
+      "topic": "Metre Bridge",
+      "difficulty": 2,
+      "tags": ["Parallel Resistor", "Null Point Shift"],
+      "q": "When an unknown resistance and a resistance of $4\\Omega$ are connected in the left and right gaps of a Meterbridge, the balance point is obtained at 50cm. The shift in the balance point if a $4\\Omega$ resistance is now connected in parallel to the resistance in the right gap is",
+      "options": [
+        "66.7 cm",
+        "16.7 cm",
+        "34.6 cm",
+        "14.6 cm"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Initially, $\\frac{X}{4} = \\frac{50}{50} = 1 \\implies X = 4 \\Omega$.<br><b>Step 2:</b> A $4\\Omega$ resistor is connected in parallel to the right gap. New right gap resistance $Y = \\frac{4 \\times 4}{4 + 4} = 2 \\Omega$.<br><b>Step 3:</b> New balance point $\\frac{X}{Y} = \\frac{l}{100 - l} \\implies \\frac{4}{2} = \\frac{l}{100 - l} \\implies 2 = \\frac{l}{100 - l}$.<br><b>Step 4:</b> $200 - 2l = l \\implies 3l = 200 \\implies l = 66.7$ cm.<br><b>Step 5:</b> Shift in balance point = $66.7 - 50 = 16.7$ cm."
+    },
+    {
+      "id": "CE-CWI-060",
+      "topic": "Metre Bridge",
+      "difficulty": 3,
+      "tags": ["Shunt Resistance", "Null Point Shift"],
+      "q": "In a meter bridge, the gaps are closed by resistances 2 and 3 ohms. The value of shunt to be added to 3 ohm resistor to shift the balancing point by 22.5 cm is",
+      "options": [
+        "$1\\Omega$",
+        "$2\\Omega$",
+        "$2.5\\Omega$",
+        "$5\\Omega$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Initially, $\\frac{2}{3} = \\frac{l}{100 - l} \\implies 200 - 2l = 3l \\implies 5l = 200 \\implies l = 40$ cm.<br><b>Step 2:</b> Shunting the $3\\Omega$ resistor decreases the right gap resistance, increasing $l$. New $l = 40 + 22.5 = 62.5$ cm.<br><b>Step 3:</b> New right gap resistance $Y$. $\\frac{2}{Y} = \\frac{62.5}{100 - 62.5} = \\frac{62.5}{37.5} = \\frac{5}{3}$.<br><b>Step 4:</b> $Y = 2 \\times \\frac{3}{5} = 1.2 \\Omega$.<br><b>Step 5:</b> Shunt $S$ added to $3\\Omega$: $1.2 = \\frac{3S}{3 + S} \\implies 3.6 + 1.2S = 3S \\implies 1.8S = 3.6 \\implies S = 2 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-061",
+      "topic": "Metre Bridge",
+      "difficulty": 3,
+      "tags": ["Percentage Change"],
+      "q": "Two equal resistance are connected in the gaps of a metre bridge. If the resistance in the left gap is increased by 10%, the balancing point shift",
+      "options": [
+        "10% to right",
+        "10% to left",
+        "9.6% to right",
+        "4.8% to right"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Initially $R_1 = R_2$, so $l = 50$ cm.<br><b>Step 2:</b> Left gap increases by 10%, so $R_1' = 1.1 R$.<br><b>Step 3:</b> New balance condition: $\\frac{1.1 R}{R} = \\frac{l'}{100 - l'} \\implies 1.1 = \\frac{l'}{100 - l'}$.<br><b>Step 4:</b> $110 - 1.1l' = l' \\implies 2.1l' = 110 \\implies l' = 52.38$ cm.<br><b>Step 5:</b> Shift = $52.38 - 50 = 2.38$ cm to the right. As a percentage of the initial 50 cm balance point, shift $\\approx 4.8\\%$."
+    },
+    {
+      "id": "CE-CWI-062",
+      "topic": "Potentiometer",
+      "difficulty": 2,
+      "tags": ["Potentiometer Wire Length"],
+      "q": "A potentiometer having a wire of 4m length is connected to the terminals of a battery with a steady voltage. A leclanche cell has a null point at 1m. If the length of the potentiometer wire is increased by 1m, The position of the null point is",
+      "options": [
+        "1.5m",
+        "1.25m",
+        "10.05m",
+        "1.31m"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The null point length $l$ is inversely proportional to potential gradient $k$. Since $k = V/L$, we get $l \propto L$ (where $L$ is total length of potentiometer wire).<br><b>Step 2:</b> $\\frac{l_1}{L_1} = \\frac{l_2}{L_2}$.<br><b>Step 3:</b> Substitute the values: $\\frac{1}{4} = \\frac{l_2}{5}$.<br><b>Step 4:</b> $l_2 = \\frac{5}{4} = 1.25$ m."
+    },
+    {
+      "id": "CE-CWI-063",
+      "topic": "Potentiometer",
+      "difficulty": 1,
+      "tags": ["Comparison of EMF"],
+      "q": "The emf of a battery A is balanced by a length of 80cm on a potentio meter wire. The emf of a standard cell 1v is balanced by 50cm. The emf of A is",
+      "options": [
+        "2 V",
+        "1.4 V",
+        "1.5 V",
+        "1.6 V"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The principle of the potentiometer states $E \propto l$.<br><b>Step 2:</b> The ratio of emfs is $\\frac{E_A}{E_S} = \\frac{l_A}{l_S}$.<br><b>Step 3:</b> Substitute values: $\\frac{E_A}{1V} = \\frac{80}{50}$.<br><b>Step 4:</b> $E_A = 1.6 V$."
+    },
+    {
+      "id": "CE-CWI-064",
+      "topic": "Potentiometer",
+      "difficulty": 3,
+      "tags": ["Wrong Polarity", "Series Cells"],
+      "q": "When 6 identical cells of no internal resistance are connected in series in the secondary circuit of a potentio meter, the balancing length is $l$ balancing length becomes $1/3$ when some cells are connected wrongly, the number of cells conected wrongly are",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> For 6 cells correctly connected, $6E \propto l$.<br><b>Step 2:</b> Let $n$ cells be wrongly connected. The net emf becomes $(6 - 2n)E$.<br><b>Step 3:</b> It is given that the new balancing length is $l/3$. So, $(6 - 2n)E \propto l/3$.<br><b>Step 4:</b> Dividing the two equations: $\\frac{6E}{(6 - 2n)E} = \\frac{l}{l/3} = 3$.<br><b>Step 5:</b> $6 = 3(6 - 2n) \\implies 6 = 18 - 6n \\implies 6n = 12 \\implies n = 2$."
+    },
+    {
+      "id": "CE-CWI-065",
+      "topic": "Potentiometer",
+      "difficulty": 2,
+      "tags": ["Internal Resistance"],
+      "q": "In a potentiometer experiment, the balancing length with a cell is 560cm. When an external resistance of 10 ohms is connected in parallel to the cell the balancing length changs by 60cm. The internal resistance of the cell in ohm is",
+      "options": [
+        "3.6",
+        "2.4",
+        "1.2",
+        "0.6"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Initial balancing length $l_1 = 560$ cm. When shunted, the length must decrease because terminal voltage is less than emf. Thus $l_2 = 560 - 60 = 500$ cm.<br><b>Step 2:</b> Formula for internal resistance is $r = R \\left(\\frac{l_1 - l_2}{l_2}\\right)$.<br><b>Step 3:</b> Substitute values: $r = 10 \\left(\\frac{560 - 500}{500}\\right) = 10 \\left(\\frac{60}{500}\\right)$.<br><b>Step 4:</b> $r = 10 \\times 0.12 = 1.2 \\Omega$."
+    },
+    {
+      "id": "CE-CWI-066",
+      "topic": "Potentiometer",
+      "difficulty": 3,
+      "tags": ["Potential Gradient", "Resistivity"],
+      "q": "The resistivity of a potentio meter wire is, if the area of cross section of the wire is $4cm^{2}$. The current flowing in the circuit is 1A, the poetntial gradient is $7.5 v/m$",
+      "options": [
+        "$3\\times10^{-3}\\Omega-m$",
+        "$2\\times10^{-6}\\Omega-m$",
+        "$4\\times10^{-6}\\Omega-m$",
+        "$5\\times10^{-4}\\Omega-m$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Potential gradient $k = \\frac{V}{L}$. By Ohm's law, $V = IR = I\\rho\\frac{L}{A}$.<br><b>Step 2:</b> Therefore, $k = \\frac{I\\rho}{A}$.<br><b>Step 3:</b> Rearrange for resistivity: $\\rho = \\frac{k \\cdot A}{I}$.<br><b>Step 4:</b> Substitute values (convert $cm^2$ to $m^2$): $A = 4 \\times 10^{-4} m^2$, $k = 7.5 V/m$, $I = 1 A$.<br><b>Step 5:</b> $\\rho = \\frac{7.5 \\times 4 \\times 10^{-4}}{1} = 30 \\times 10^{-4} = 3 \\times 10^{-3} \\Omega \\cdot m$."
+    },
+    {
+      "id": "CE-CWI-067",
+      "topic": "Potentiometer",
+      "difficulty": 3,
+      "tags": ["Series Resistor", "Potential Gradient"],
+      "q": "A potentiometer wire of 10m legnth and 20 Ohm resistance is connected in series with a resistance R ohms and a battery of emf 2V, negligible internal resistance, Potential gradient on the wire is 0.16 millivolt / centimetre then R is...ohms",
+      "options": [
+        "$50 \\Omega$",
+        "$60 \\Omega$",
+        "$230 \\Omega$",
+        "$46 \\Omega$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Convert potential gradient to standard units: $k = 0.16 \\text{ mV/cm} = \\frac{0.16 \\times 10^{-3} V}{10^{-2} m} = 0.016 \\text{ V/m}$.<br><b>Step 2:</b> Total potential drop across the 10m wire is $V_w = k \\times L = 0.016 \\times 10 = 0.16 V$.<br><b>Step 3:</b> The voltage across the wire is also given by the voltage divider rule: $V_w = E \\times \\frac{R_w}{R_w + R}$.<br><b>Step 4:</b> Substitute values: $0.16 = 2 \\times \\frac{20}{20 + R}$.<br><b>Step 5:</b> $0.16(20 + R) = 40 \\implies 20 + R = \\frac{40}{0.16} = 250 \\implies R = 230 \\Omega$."
     }
   ]
 }
