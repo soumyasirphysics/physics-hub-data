@@ -3037,7 +3037,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 2,
       "tags": ["Parallel Circuits", "Equivalent Resistance"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhqRXu5PNfIpNb9hUaL_f6BHQlf0HIJCBgdRngkHWN1gc9RkrQReBxSKzuJueTqmTH3hQP5KTDdtxJN57QX1WBkInObxDY1MakqIWkZnia-sWVOz-L-OfVYhxTGEcs__O92KgDB_hLXbM4Nn8Eb8-9eLTJDvMeKVd0ZZ0GkrN3nJ5ZC62gTWpTJLqMU11be",
       "q": "The equivalent resistance across XY in the given figure is (where the circuit resolves to two parallel resistors of value r)",
       "options": [
         "r",
@@ -3098,7 +3098,7 @@
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 2,
       "tags": ["Circuit Solving", "Symmetry"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhHADD0g7_avLWZKJPYaznYR0i-Ep23m95QVpQCgfk85aWzcXIEhR0puXXkSGCqHDQPo_aoR8eS-cb2mgbctG1RfPBJJJtM2obpUCCEVC-osr-4Roip7Ee43bR49IqB37rubQe8HwbH-cwChna7_pfUXc_MKpDIdYnsOV6S2vxbOSysmohmqdCvvlgQ3txr",
       "q": "The equivalent resistance across A and B is",
       "options": [
         "$2\\Omega$",
@@ -3114,7 +3114,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 2,
       "tags": ["Ammeter Circuit"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEik_Um2YFwcITU_blMHS_Vl0su4I1l5-_ZSyTF8ZSNm9OsSkufS9u8p9zAPEUkIqG_gMMk6K4pVAeNYV-BQa3yDbERfxVbnh1Wv5FOxw7FQccK375VCzaMxjXv89p8yIqG9XLy7ZZhq5DnpHsXNEpGHl0Cqt-paTAUltYYJesycwF096qgbcYHLyDy1524r",
       "q": "An ammeter A is connected as shown in the diagram. Ammeter reading is",
       "options": [
         "$\\frac{E}{r}$",
@@ -3130,7 +3130,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Nodal Analysis", "Current Divider"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgdu6Hgs0AgRd0s_3Cw_JQpRNZrfAVLKgHGoReLCo3vJkR7yOuD0t64cbXzpxVZBkP38H91QBmugRx8KhuxIITQtEguOm3IiGbVI-h7de3oQm34oqxFCPzQuqZx6E-dRDwJAMSmpbRRhrTf2S7QlHF96BBRx_uzqU57lJ3_IAYfyQiLKwJ9QdEnxDxG9pGE",
       "q": "A current of 7A flows through the circuit as shown in the figure. The potential difference across points B and D is",
       "options": [
         "5 V",
@@ -3341,7 +3341,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Short Circuit", "Parallel Paths"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgQYL5FJMcms2zyaAmLmUimgW4veQQGicMncbU9X_3LA4C1c2uokYOe-LdDnBWMzs-Lf66XqvIgT7wrX7GedxB-ycPF0NMpBEg5MRPd_UC-UnbBOeQn0weSTm-FytIZtXyPgFffR5_C3DTY2UCGL-5Tt19RizqglHSOJL6v87xaAeeWmy9fdb-MwQbYlNQy",
       "q": "Two cells of emf 4V and 8V are connected to two resister $4\\Omega$ and $6\\Omega$ as shown. If 8V cell is short circuited. Then current through resistance $4\\Omega$ and $6\\Omega$",
       "options": [
         "2 A",
@@ -3357,7 +3357,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Nodal Analysis", "Internal Resistance"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjfRmh9hdJOnrnXUvgToXQxNQgESv6KmFzZNysyw-DaTlpiPnWzW6w-42FX4nO_k39t6wOZdQLYmzi5taJ1Tij-YE8xKwHBRCuj7QpNKycfhstbw76EQZPtf7iHnWjY3-ld_KtQKlG_VpH-Z9q7AUKrXOepXWkw6Ev2OsiombKxTihb3brnLBu1LD0u_k8w",
       "q": "If in the circuit shown below, the internal resistance of the battery is $1\\Omega$. $V_{p}$ and $V_{Q}$ are the potentials at P and Q respectively, the potential difference between the points P and Q is",
       "options": [
         "9 V",
@@ -3373,7 +3373,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 2,
       "tags": ["Voltmeter", "Ideal Instruments"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEg1q33RXzqRJC6AVvCYaZf7LU0Aecr5JMKT6mSmsm3lceapcf2A9AMhhae1wbhe_cAQ1UTLa9BYX5nlam0DCijXAO90KqyarYLJbtYWGwCgZO7YPc3nJDZqn6lwToVaPHt7SjIzF8ag0tJYaChwEvWHM3-c3ZpFIz_JqSKzHsd55cH1U9u4WzWfe8_Fbkk1",
       "q": "Voltmeter reading in the given circuit is (voltmeter is ideal)",
       "options": [
         "6 V",
@@ -3389,7 +3389,7 @@
       "topic": "Cells and Combination of Cells",
       "difficulty": 2,
       "tags": ["V-I Graph", "Internal Resistance"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhCTfyBRLnOg_2ThtJBoveT4usvWXu9uZTgbNBACxaxbW9YW2EzCdo1WscMI4U_5NrNS61uGB7Tt_tFwBa1E-otGVb0l2tZRzHlvubSf8mzt-DVfLa5tcHz6JdKDmBbhkytFeHdpHoMndgzaPNT3j45ImCJVso_TZhd9qVrC3SrrDlonLf9udkgtS5-poOY",
       "q": "For a cell the graph between the p.d(V) across the terminals of the cells and the current (I) drawn from the cell as shown. The emf and inernal resistance is",
       "options": [
         "$\\frac{3}{2}\\Omega$",
@@ -3435,7 +3435,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 2,
       "tags": ["Nodal Analysis", "Current Calculation"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgmG_9fvD5S1PLw6Ioab1AkP_o4aracJG-2j_Six53MqwmKfZjIqY94l43ebIou1lD-VJIus014Ss8UkmSDXhgtzuVWU85TSQg6Fz7XeLblXu760tY0U4TU7nGA2BneRjqiJbTuxVWccG7AWc4hEAmQCK-IP3E3pwnzG1mskKsdM02zAnks1VnBqDOssUkN",
       "q": "The emf of a cell E is 15 V as shown in the figure with an internal resistance of $0.5 \\Omega$. Then the value of the current drawn from the cell is",
       "options": [
         "1 A",
@@ -3451,7 +3451,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Complex Circuit", "Nodal Analysis"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhO_xMLvEcUt_4UIqNbX7XagM7nRfsWbwuReh1FLjpCsRUZ1yarVN5filt99xxDW2ihZ1sPUd8fQcxvdmY19NQy3NeQtH0-l9uAMIS9IsEu94xblIiDjqsAxjNeTd_LEe8TQPINEOYT3IxoddoUrwVI_EpojAlbUhTT4vDRJi4_DuvuWBKYoSUYroBE1tGJ",
       "q": "The current i drawn from the 5 volt source will be",
       "options": [
         "0.5 A",
@@ -3467,7 +3467,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Branch Current"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjY8afwXM_UXEic-u3jg0xTILSejlGgR-lfVfd1ipETTyNUHbYjPfnAR_0_6JisKsbUvOTZkIjVyVTzfjUBepwfBuL7tpNMaVjnL7aGGzXL_xJHZAAhvbAIiYcYRKR6_xVItNXpaism0Y_ZCkkf8FL3UlTaO0ozqELLfpE0Z9pE5IotGqDqISq-LDAjnLua/s1600/Untitled.png",
       "q": "In the given circuit which is a part of a closed cirucit the current $i_{1}$, $i_{2}$ are respcetively",
       "options": [
         "0.4 A",
@@ -3483,7 +3483,7 @@
       "topic": "Kirchhoff's Laws & Wheatstone Bridge",
       "difficulty": 3,
       "tags": ["Parallel Sources", "Nodal Analysis"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEghDlcEAE1ifrx1RNznmRJ0xdV-aFlfNJqdnvW3KGnevWmpL5bc14mN89_armZOeU0exSJyACO7HZi-r4qJ_ljbAsNQ0mRblGftvkUgJg1HbkphPna0t5bz8-FAmRcuVVcpSP-5fpG4ZTMYnERCal89RJJPynYTbuhPJV_QyFRQe6Wrh4RVyLa7ZGwxKq6X",
       "q": "A 5V battery with internal resistance $2 \\Omega$ and a 2V battery with internal resistance $1 \\Omega$ are connected to a $10 \\Omega$ resistor as shown in the figure. The current in the $10 \\Omega$ resistor is",
       "options": [
         "0.27 A $P_{2}$ to $P_{1}$",
@@ -3529,7 +3529,7 @@
       "topic": "Metre Bridge",
       "difficulty": 3,
       "tags": ["End Corrections", "Unknown Resistance"],
-      "imgUrl": "",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEh-aB9Uanuu6IJ-w6VBfyUPQKIeKOwMMKH67_d0LfOWEJ9A-KnN5UilFIrsX-trKMb9h29cBAQ8jUdHZJ1Ae8ZLFDSRX_vATACi9G7jsC0x1dS2ZmXGyIcLilefa2Qgv-CaR1mSTC_YTbSMV3QXMkFNZSvyLOi6aIEVYs6e0ZEo7JN7HElBAKBHZGC2XFTB",
       "q": "Shown in the figure below is a meter-bridge set up with null deflection in the galvanometer. The value of the unknown resistor R is",
       "options": [
         "13.75 $\\Omega$",
