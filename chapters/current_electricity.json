@@ -2328,22 +2328,6 @@
       "sol": "<b>Step 1:</b> Total rated power at 220V is $P_{total} = 800 + 3(100) = 1100 W$.<br><b>Step 2:</b> Equivalent resistance of the parallel combination is $R_{eq} = \\frac{V_{rated}^2}{P_{total}} = \\frac{220^2}{1100} = \\frac{48400}{1100} = 44 \\Omega$.<br><b>Step 3:</b> When connected to a 200V supply, the total current drawn is $I = \\frac{V_{actual}}{R_{eq}}$.<br><b>Step 4:</b> $I = \\frac{200}{44} = \\frac{50}{11} \\approx 4.545 A$."
     },
     {
-      "id": "CE-CWII-018",
-      "topic": "Ohm's Law and Combination of Resistances",
-      "difficulty": 2,
-      "tags": ["Circuit Solving"],
-      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhweO-hg-z_FF7ZyJNzRWup-wU9u9ViScndHyTvwMo_-Nw6dkKDRz54QYJcTtnfVVVu8I5yP4eop2bXwcCKlFynZS4xeekJh_ENmvVxALZWXnSVKRQjFHfqPVzf_qJoTzGmKwzpuIcyPgt7kzvHjvNEvkvTrpzx9fMFC6QzNjlz2dPkEqY_V1L93UO1W-CT",
-      "q": "What is the equivalent resistance of the circuit",
-      "options": [
-        "$3 \\Omega$",
-        "$2 \\Omega$",
-        "$4 \\Omega$",
-        "$6 \\Omega$"
-      ],
-      "correct": 2,
-      "sol": "<b>Step 1:</b> Analyze the given circuit diagram.<br><b>Step 2:</b> Reduce the parallel branches first. For example, two $2\\Omega$ resistors in parallel give $1\\Omega$.<br><b>Step 3:</b> Add the series components sequentially.<br><b>Step 4:</b> The total equivalent resistance resolves to $4\\Omega$."
-    },
-    {
       "id": "CE-CWII-019",
       "topic": "Ohm's Law and Combination of Resistances",
       "difficulty": 3,
