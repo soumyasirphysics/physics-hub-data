@@ -311,6 +311,306 @@
       ],
       "correct": 3,
       "sol": "<b>Step 1:</b> Since the boat is aimed exactly at the opposite point, it crosses in the shortest time: $t = \\frac{d}{v_b}$.<br><b>Step 2:</b> Width $d = 400 m = 0.4 km$. Boat velocity $v_b = 8 kmph$.<br><b>Step 3:</b> Time $t = \\frac{0.4}{8} = \\frac{1}{20}$ hours.<br><b>Step 4:</b> The drift is caused by the river velocity $v_r$: $x = v_r \\times t = 2 \\times \\frac{1}{20} = 0.1 km$.<br><b>Step 5:</b> Convert to meters: $0.1 km = 100 m$."
+    },
+    {
+      "id": "MP-CWI-021",
+      "topic": "Motion of a Boat in a River",
+      "difficulty": 2,
+      "tags": ["Shortest Time", "Drift Calculation"],
+      "q": "A man can swim in still water at a speed of 4 kmph. He desires to cross a river flowing at a speed of 3 kmph in the shortest time interval. If the width of the river is 3km time taken to cross the river (in hours) and the horizontal distance travelled (in km) are respectively",
+      "options": [
+        "$\\frac{3}{4}, \\frac{9}{4}$",
+        "$\\frac{3}{5}, 3$",
+        "$\\frac{1}{4}, \\frac{15}{4}$",
+        "$\\frac{3}{\\sqrt{7}}, 7$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> For the shortest time, the swimmer must swim perpendicular to the river flow.<br><b>Step 2:</b> The time taken to cross is $t = \\frac{d}{v_m} = \\frac{3}{4}$ hours.<br><b>Step 3:</b> During this time, he is carried downstream by the river flow. The horizontal distance (drift) is $x = v_r \\times t$.<br><b>Step 4:</b> Substitute the values: $x = 3 \\text{ kmph} \\times \\frac{3}{4} \\text{ h} = \\frac{9}{4}$ km.<br><b>Step 5:</b> The values are respectively $\\frac{3}{4}$ h and $\\frac{9}{4}$ km."
+    },
+    {
+      "id": "MP-CWI-022",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Equation of Trajectory", "Initial Velocity"],
+      "q": "A particle is projected in xy plane with y-axis along vertical, the point of projection is origin. The equation of the path is $y=\\sqrt{3}x-\\frac{g}{2}x^{2}$. where y and x are in m. Then the speed of projection in $ms^{-1}$ is",
+      "options": [
+        "2",
+        "$\\sqrt{3}$",
+        "4",
+        "$\\frac{\\sqrt{3}}{2}$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The standard equation of trajectory is $y = x \\tan\\theta - \\frac{gx^2}{2u^2 \\cos^2\\theta}$.<br><b>Step 2:</b> Comparing this with the given equation $y = \\sqrt{3}x - \\frac{g}{2}x^2$, we get $\\tan\\theta = \\sqrt{3} \\implies \\theta = 60^{\\circ}$.<br><b>Step 3:</b> Comparing the $x^2$ coefficient: $\\frac{g}{2u^2 \\cos^2\\theta} = \\frac{g}{2}$.<br><b>Step 4:</b> Canceling $g/2$ gives $u^2 \\cos^2\\theta = 1 \\implies u \\cos(60^{\\circ}) = 1$.<br><b>Step 5:</b> Since $\\cos(60^{\\circ}) = \\frac{1}{2}$, we have $u \\left(\\frac{1}{2}\\right) = 1 \\implies u = 2$ m/s."
+    },
+    {
+      "id": "MP-CWI-023",
+      "topic": "Oblique Projectile",
+      "difficulty": 1,
+      "tags": ["Time of Flight"],
+      "q": "If a body is thrown with a speed of 19.6m/s making an angle of $30^{\\circ}$ with the horizontal, then the time of flight is",
+      "options": [
+        "1 s",
+        "2 s",
+        "$2\\sqrt{3}$ s",
+        "5 s"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Use the formula for the time of flight of a projectile: $T = \\frac{2u \\sin\\theta}{g}$.<br><b>Step 2:</b> Substitute the given values: $u = 19.6$ m/s, $\\theta = 30^{\\circ}$, and $g = 9.8$ m/s$^2$.<br><b>Step 3:</b> $T = \\frac{2(19.6) \\sin 30^{\\circ}}{9.8}$.<br><b>Step 4:</b> Since $\\frac{19.6}{9.8} = 2$ and $\\sin 30^{\\circ} = \\frac{1}{2}$, $T = 2(2)\\left(\\frac{1}{2}\\right) = 2$ seconds."
+    },
+    {
+      "id": "MP-CWI-024",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Horizontal Displacement"],
+      "q": "A particle is projected with an initial velocity of $200~m/s$ in a direction making an angle of $30^{\\circ}$ with the vertical. The horizontal distance covered by the particle in 3s is",
+      "options": [
+        "300 m",
+        "150 m",
+        "175 m",
+        "125 m"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The angle given is with the *vertical* ($30^{\\circ}$). So, the horizontal component of velocity is $u_x = u \\sin(30^{\\circ})$.<br><b>Step 2:</b> Calculate $u_x$: $u_x = 200 \\times \\sin(30^{\\circ}) = 200 \\times \\frac{1}{2} = 100$ m/s.<br><b>Step 3:</b> The horizontal velocity remains constant throughout the flight.<br><b>Step 4:</b> Horizontal distance covered in time $t$ is $x = u_x \\times t = 100 \\times 3 = 300$ m."
+    },
+    {
+      "id": "MP-CWI-025",
+      "topic": "Oblique Projectile",
+      "difficulty": 1,
+      "tags": ["Velocity Vector"],
+      "q": "A body is projected with an initial velocity $20~m/s$ at $60^{\\circ}$ to the horizontal. Its initial velocity vector is $(g=10~m/s^{2})$",
+      "options": [
+        "$10\\hat{i}-20\\hat{j}$",
+        "$10\\sqrt{3}\\hat{i}+10\\hat{j}$",
+        "$10\\hat{i}+10\\sqrt{3}\\hat{j}$",
+        "$5\\hat{i}+5\\sqrt{3}\\hat{j}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The initial velocity vector can be resolved into horizontal and vertical components: $\\vec{u} = u_x\\hat{i} + u_y\\hat{j} = (u \\cos\\theta)\\hat{i} + (u \\sin\\theta)\\hat{j}$.<br><b>Step 2:</b> Calculate the horizontal component: $u_x = 20 \\cos 60^{\\circ} = 20 \\times \\frac{1}{2} = 10$ m/s.<br><b>Step 3:</b> Calculate the vertical component: $u_y = 20 \\sin 60^{\\circ} = 20 \\times \\frac{\\sqrt{3}}{2} = 10\\sqrt{3}$ m/s.<br><b>Step 4:</b> Combine the components: $\\vec{u} = 10\\hat{i} + 10\\sqrt{3}\\hat{j}$."
+    },
+    {
+      "id": "MP-CWI-026",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Momentum in Projectile", "Highest Point"],
+      "q": "A body is projected at an angle of $30^{\\circ}$ with the horizontal with momentum P. At its highest point the magnitude of the momentum is:",
+      "options": [
+        "$\\frac{\\sqrt{3}}{2}P$",
+        "$\\frac{2}{\\sqrt{3}}P$",
+        "P",
+        "$\\frac{P}{2}$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Initial momentum $P = mu$.<br><b>Step 2:</b> At the highest point of a projectile's trajectory, the vertical component of velocity becomes zero ($v_y = 0$).<br><b>Step 3:</b> The horizontal velocity remains constant throughout the motion, so $v_x = u \\cos\\theta = u \\cos 30^{\\circ}$.<br><b>Step 4:</b> Momentum at the highest point $P' = mv_x = m(u \\cos 30^{\\circ}) = (mu)\\cos 30^{\\circ} = P \\frac{\\sqrt{3}}{2}$."
+    },
+    {
+      "id": "MP-CWI-027",
+      "topic": "Oblique Projectile",
+      "difficulty": 3,
+      "tags": ["Energy in Projectile", "Time of Flight"],
+      "q": "The potential energy of a projectile at its maximum height is equal to its kinetic energy there. If the velocity of projection is $20ms^{-1}$, its time of flight is $(g=10{ms}^{-2})$",
+      "options": [
+        "2s",
+        "$2\\sqrt{2}s$",
+        "$\\frac{1}{2}s$",
+        "$\\frac{1}{\\sqrt{2}}s$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> At the maximum height, Kinetic Energy $KE = \\frac{1}{2}m(u\\cos\\theta)^2$.<br><b>Step 2:</b> The total initial energy is $E = \\frac{1}{2}mu^2$. By conservation of energy, $PE$ at max height is $E - KE = \\frac{1}{2}mu^2 - \\frac{1}{2}mu^2\\cos^2\\theta = \\frac{1}{2}mu^2\\sin^2\\theta$.<br><b>Step 3:</b> Given $PE = KE$, we have $\\frac{1}{2}mu^2\\sin^2\\theta = \\frac{1}{2}mu^2\\cos^2\\theta \\implies \\sin^2\\theta = \\cos^2\\theta \\implies \\tan\\theta = 1 \\implies \\theta = 45^{\\circ}$.<br><b>Step 4:</b> Calculate time of flight: $T = \\frac{2u\\sin\\theta}{g} = \\frac{2(20)\\sin 45^{\\circ}}{10} = \\frac{40(1/\\sqrt{2})}{10} = 4/\\sqrt{2} = 2\\sqrt{2}$ s."
+    },
+    {
+      "id": "MP-CWI-028",
+      "topic": "Oblique Projectile",
+      "difficulty": 3,
+      "tags": ["Average Velocity", "Maximum Range"],
+      "q": "From a point on the ground a particle is projected with initial velocity u, such that its horizontal range is maximum. The magnitude of average velocity during its ascent.",
+      "options": [
+        "$\\frac{\\sqrt{5}u}{2\\sqrt{2}}$",
+        "$\\frac{5u}{4}$",
+        "$\\frac{\\sqrt{3}}{2\\sqrt{2}}$",
+        "none"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> For maximum range, the angle of projection is $\\theta = 45^{\\circ}$.<br><b>Step 2:</b> During its ascent (from ground to max height), the time taken is $t = \\frac{u\\sin 45^{\\circ}}{g} = \\frac{u}{g\\sqrt{2}}$.<br><b>Step 3:</b> The displacement $s$ has horizontal component $x = R/2 = \\frac{u^2}{2g}$ and vertical component $H = \\frac{u^2\\sin^2 45^{\\circ}}{2g} = \\frac{u^2}{4g}$.<br><b>Step 4:</b> Total displacement $s = \\sqrt{x^2 + H^2} = \\sqrt{\\left(\\frac{u^2}{2g}\\right)^2 + \\left(\\frac{u^2}{4g}\\right)^2} = \\frac{u^2}{g}\\sqrt{\\frac{1}{4} + \\frac{1}{16}} = \\frac{u^2}{g}\\sqrt{\\frac{5}{16}} = \\frac{\\sqrt{5}u^2}{4g}$.<br><b>Step 5:</b> Average velocity $v_{avg} = \\frac{s}{t} = \\frac{\\frac{\\sqrt{5}u^2}{4g}}{\\frac{u}{g\\sqrt{2}}} = \\frac{\\sqrt{5}u\\sqrt{2}}{4} = \\frac{\\sqrt{5}u}{2\\sqrt{2}}$."
+    },
+    {
+      "id": "MP-CWI-029",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Kinematics Equations", "Displacement"],
+      "q": "The horizontal and vertical displacements of a projectile are given as $x = at$ & $y = bt - ct^{2}$. Then velocity of projection is",
+      "options": [
+        "$\\sqrt{a^{2}+b^{2}}$",
+        "$\\sqrt{b^{2}+c^{2}}$",
+        "$\\sqrt{a^{2}+c^{2}}$",
+        "$\\sqrt{b^{2}-c^{2}}$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The velocity components can be found by differentiating the displacements with respect to time $t$.<br><b>Step 2:</b> Horizontal velocity $v_x = \\frac{dx}{dt} = \\frac{d(at)}{dt} = a$.<br><b>Step 3:</b> Vertical velocity $v_y = \\frac{dy}{dt} = \\frac{d(bt - ct^2)}{dt} = b - 2ct$.<br><b>Step 4:</b> The velocity of projection is the initial velocity at $t = 0$. So, $u_x = a$ and $u_y = b - 2c(0) = b$.<br><b>Step 5:</b> The magnitude of initial velocity is $u = \\sqrt{u_x^2 + u_y^2} = \\sqrt{a^2 + b^2}$."
+    },
+    {
+      "id": "MP-CWI-030",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Complementary Angles", "Maximum Height"],
+      "q": "Two bodies are thrown from the same point with the same velocity of $50ms^{-1}$. If their angles of projection are complimentary to each other and the difference of maximum heights is 30m, the minimum and maximum heights are $(g=10~m/s^{2})$",
+      "options": [
+        "50 m & 80 m",
+        "47.5 m & 77.5 m",
+        "30 m & 60 m",
+        "25 m & 55 m"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> For complementary angles $\\theta$ and $90^{\\circ}-\\theta$, maximum heights are $H_1 = \\frac{u^2\\sin^2\\theta}{2g}$ and $H_2 = \\frac{u^2\\cos^2\\theta}{2g}$.<br><b>Step 2:</b> The sum of heights $H_1 + H_2 = \\frac{u^2}{2g}(\\sin^2\\theta + \\cos^2\\theta) = \\frac{u^2}{2g}$.<br><b>Step 3:</b> Substitute $u = 50$ m/s: $H_1 + H_2 = \\frac{50^2}{2 \\times 10} = \\frac{2500}{20} = 125$ m.<br><b>Step 4:</b> We are given the difference: $H_1 - H_2 = 30$ m.<br><b>Step 5:</b> Solve the system of equations: $(H_1 + H_2) + (H_1 - H_2) = 125 + 30 \\implies 2H_1 = 155 \\implies H_1 = 77.5$ m.<br><b>Step 6:</b> Then $H_2 = 125 - 77.5 = 47.5$ m."
+    },
+    {
+      "id": "MP-CWI-031",
+      "topic": "Oblique Projectile",
+      "difficulty": 1,
+      "tags": ["Maximum Range"],
+      "q": "A missile is fired for maximum range with an initial velocity of $20~m~s^{-1}$, the range of the missile is $(g=10~m/s^{2})$",
+      "options": [
+        "50 m",
+        "60 m",
+        "20 m",
+        "40 m"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> For maximum range, the angle of projection is $\\theta = 45^{\\circ}$.<br><b>Step 2:</b> The formula for maximum range is $R_{max} = \\frac{u^2}{g}$.<br><b>Step 3:</b> Substitute the given values: $u = 20$ m/s, $g = 10$ m/s$^2$.<br><b>Step 4:</b> $R_{max} = \\frac{(20)^2}{10} = \\frac{400}{10} = 40$ m."
+    },
+    {
+      "id": "MP-CWI-032",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Velocity Components", "Vectors"],
+      "q": "If $\\vec{u}=a\\hat{i}+b\\hat{j}+c\\hat{k}$ with $\\hat{i}$, $\\hat{j}$, $\\hat{k}$ are in east, north and vertical directions, horizontal component of velocity of projectile is",
+      "options": [
+        "a",
+        "b",
+        "$\\sqrt{a^{2}+b^{2}}$",
+        "$\\sqrt{b^{2}+c^{2}}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The horizontal plane is formed by the East and North directions, represented by $\\hat{i}$ and $\\hat{j}$.<br><b>Step 2:</b> The horizontal velocity vector is the component of $\\vec{u}$ lying in this plane: $\\vec{u}_{horizontal} = a\\hat{i} + b\\hat{j}$.<br><b>Step 3:</b> The magnitude of this horizontal component is $\\sqrt{a^2 + b^2}$."
+    },
+    {
+      "id": "MP-CWI-033",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Time of Flight", "Maximum Height"],
+      "q": "If the time of flight of a projectile is doubled, what happens to the maximum height attained?",
+      "options": [
+        "halved",
+        "remains unchanged",
+        "doubled",
+        "become four times"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The maximum height is $H = \\frac{u^2 \\sin^2\\theta}{2g}$.<br><b>Step 2:</b> The time of flight is $T = \\frac{2u\\sin\\theta}{g} \\implies u\\sin\\theta = \\frac{gT}{2}$.<br><b>Step 3:</b> Substitute $u\\sin\\theta$ into the height formula: $H = \\frac{(gT/2)^2}{2g} = \\frac{g^2 T^2}{8g} = \\frac{gT^2}{8}$.<br><b>Step 4:</b> This shows that $H \\propto T^2$. If the time of flight $T$ is doubled, the maximum height $H$ becomes $(2)^2 = 4$ times."
+    },
+    {
+      "id": "MP-CWI-034",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Velocity Components", "Maximum Height"],
+      "q": "If $\\vec{u}=a\\hat{i}+b\\hat{j}+c\\hat{k}$ with $\\hat{i}$, $\\hat{j}$, $\\hat{k}$ are in east, north and vertical directions, the maximum height of the projectile is",
+      "options": [
+        "$\\frac{a^{2}}{2g}$",
+        "$\\frac{b^{2}}{2g}$",
+        "$\\frac{c^{2}}{2g}$",
+        "$\\frac{b^{2}c^{2}}{2g}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The maximum height of a projectile depends only on its initial vertical component of velocity.<br><b>Step 2:</b> The vertical direction is represented by $\\hat{k}$, so the initial vertical velocity is $u_y = c$.<br><b>Step 3:</b> The formula for maximum height is $H = \\frac{u_y^2}{2g}$.<br><b>Step 4:</b> Substitute $u_y = c$ to get $H = \\frac{c^2}{2g}$."
+    },
+    {
+      "id": "MP-CWI-035",
+      "topic": "Horizontal Projectile",
+      "difficulty": 2,
+      "tags": ["Horizontal Range", "Height Variation"],
+      "q": "A body projected horizontally with a velocity 'v' from a height 'h' has a range 'R'. With what velocity a body is to be projected horizontally from a height $h/2$ to have the same range?",
+      "options": [
+        "$\\sqrt{2}v$",
+        "2v",
+        "6v",
+        "8v"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The horizontal range of a projectile fired from height $H$ is $R = u \\sqrt{\\frac{2H}{g}}$.<br><b>Step 2:</b> For the first body: $R = v \\sqrt{\\frac{2h}{g}}$.<br><b>Step 3:</b> For the second body fired from $h/2$ with velocity $v'$: $R = v' \\sqrt{\\frac{2(h/2)}{g}} = v' \\sqrt{\\frac{h}{g}}$.<br><b>Step 4:</b> Since the ranges are equal, equate the two expressions: $v \\sqrt{\\frac{2h}{g}} = v' \\sqrt{\\frac{h}{g}}$.<br><b>Step 5:</b> Divide both sides by $\\sqrt{\\frac{h}{g}}$ to get $v' = \\sqrt{2}v$."
+    },
+    {
+      "id": "MP-CWI-036",
+      "topic": "Horizontal Projectile",
+      "difficulty": 2,
+      "tags": ["Final Velocity", "Horizontal Throw"],
+      "q": "A stone is thrown horizontally with velocity g $ms^{-1}$ from the top of a tower of height g metre. The velocity with which it hits the ground is $(in~ms^{-1})$",
+      "options": [
+        "g",
+        "2g",
+        "$\\sqrt{3}g$",
+        "4g"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Initial horizontal velocity $u_x = g$. Initial vertical velocity $u_y = 0$.<br><b>Step 2:</b> The final vertical velocity when hitting the ground from height $h$ is $v_y = \\sqrt{2gh}$.<br><b>Step 3:</b> Substitute $h = g$: $v_y = \\sqrt{2g(g)} = g\\sqrt{2}$.<br><b>Step 4:</b> The horizontal velocity remains constant, so $v_x = u_x = g$.<br><b>Step 5:</b> The final velocity magnitude is $V = \\sqrt{v_x^2 + v_y^2} = \\sqrt{g^2 + (g\\sqrt{2})^2} = \\sqrt{g^2 + 2g^2} = \\sqrt{3g^2} = \\sqrt{3}g$."
+    },
+    {
+      "id": "MP-CWI-037",
+      "topic": "Horizontal Projectile",
+      "difficulty": 2,
+      "tags": ["Angle of Strike", "Final Velocity"],
+      "q": "A body is thrown horizontally from the top of a tower. It reaches the ground after 4s at an angle $45^{\\circ}$ to the ground. The velocity of projection is",
+      "options": [
+        "9.8 m/s",
+        "19.6 m/s",
+        "29.4 m/s",
+        "39.2 m/s"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The time of flight is $t = 4$ s.<br><b>Step 2:</b> Calculate the final vertical velocity upon reaching the ground: $v_y = gt = 9.8 \\times 4 = 39.2$ m/s.<br><b>Step 3:</b> The body strikes the ground at an angle $\\theta = 45^{\\circ}$, which means $\\tan 45^{\\circ} = \\frac{v_y}{v_x}$.<br><b>Step 4:</b> Since $\\tan 45^{\\circ} = 1$, we have $v_x = v_y = 39.2$ m/s.<br><b>Step 5:</b> Since horizontal velocity remains constant, the initial velocity of projection $u = v_x = 39.2$ m/s."
+    },
+    {
+      "id": "MP-CWI-038",
+      "topic": "Horizontal Projectile",
+      "difficulty": 2,
+      "tags": ["Horizontal Range", "Cliff Problem"],
+      "q": "Two cliff of heights 120 m and 100.4 m are separated by a horizontal distance of 16 m if a car has to reach from the first cliff to the second the horizontal velocity of car should be",
+      "options": [
+        "16 m/s",
+        "4 m/s",
+        "2 m/s",
+        "8 m/s"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The car acts as a horizontal projectile. The vertical distance to fall is $h = 120 - 100.4 = 19.6$ m.<br><b>Step 2:</b> The time taken to fall this height is $t = \\sqrt{\\frac{2h}{g}}$.<br><b>Step 3:</b> $t = \\sqrt{\\frac{2 \\times 19.6}{9.8}} = \\sqrt{\\frac{39.2}{9.8}} = \\sqrt{4} = 2$ s.<br><b>Step 4:</b> The horizontal distance (Range) required is $R = 16$ m.<br><b>Step 5:</b> Horizontal velocity $u = \\frac{R}{t} = \\frac{16}{2} = 8$ m/s."
+    },
+    {
+      "id": "MP-CWI-039",
+      "topic": "Circular Motion",
+      "difficulty": 1,
+      "tags": ["Angular Velocity", "Rigid Body"],
+      "q": "A circular disc is rotating about its own axis at the rate of 200 revolutions per minute. Two particles P, Q of disc are at distances 5cm, 10cm from axis of rotation. The ratio of angular velocities of P and Q is",
+      "options": [
+        "1:2",
+        "1:1",
+        "2:1",
+        "4:1"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> For a rigid body rotating about an axis, the angular velocity $\\omega$ is the same for all points on the body, regardless of their distance from the axis of rotation.<br><b>Step 2:</b> Since both particles P and Q are on the same rotating disc, they share the same angular velocity.<br><b>Step 3:</b> Therefore, the ratio of their angular velocities $\\omega_P : \\omega_Q$ is exactly 1:1."
+    },
+    {
+      "id": "MP-CWI-040",
+      "topic": "Circular Motion",
+      "difficulty": 2,
+      "tags": ["Angular Acceleration", "Kinematics of Circular Motion"],
+      "q": "A stationary wheel starts rotating about its own axis at uniform angular acceleration $8~rad/s^{2}$. The time taken by it to complete 77 rotations is",
+      "options": [
+        "5.5 sec",
+        "7 sec",
+        "11 sec",
+        "14 sec"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Calculate total angular displacement $\\theta$ for 77 rotations: $\\theta = 77 \\times 2\\pi$ radians.<br><b>Step 2:</b> Using $\\pi \\approx \\frac{22}{7}$, we get $\\theta = 77 \\times 2 \\times \\frac{22}{7} = 11 \\times 44 = 484$ rad.<br><b>Step 3:</b> Use the rotational kinematics equation $\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$. Since it starts from rest, $\\omega_0 = 0$.<br><b>Step 4:</b> $484 = \\frac{1}{2}(8)t^2 \\implies 484 = 4t^2$.<br><b>Step 5:</b> $t^2 = \\frac{484}{4} = 121 \\implies t = \\sqrt{121} = 11$ seconds."
     }
   ]
 }
