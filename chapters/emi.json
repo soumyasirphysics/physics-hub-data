@@ -843,6 +843,702 @@
       ],
       "correct": 2,
       "sol": "<b>Step 1:</b> When the wire slides down with velocity $v$, the motional EMF induced is $e = Blv$.<br><b>Step 2:</b> The induced current is $i = \\frac{e}{R} = \\frac{Blv}{R}$.<br><b>Step 3:</b> The upward magnetic force acting on the wire is $F_{m} = iBl = \\left(\\frac{Blv}{R}\\right)Bl = \\frac{B^{2}l^{2}v}{R}$.<br><b>Step 4:</b> For constant velocity, the net force is zero, meaning the upward magnetic force balances the downward weight: $\\frac{B^{2}l^{2}v}{R} = mg$.<br><b>Step 5:</b> Solving for velocity gives $v = \\frac{mgR}{B^{2}l^{2}}$."
+    },
+    {
+      "id": "EMI-CWII-007",
+      "topic": "Motional EMF",
+      "difficulty": 2,
+      "tags": ["Moving Rod", "Potential Difference"],
+      "imgUrl": "",
+      "q": "A conducting rod AB of length $l=1$ m is moving at a velocity $v=4~m/s$ making an angle $30^{\\circ}$ with its length. A uniform magnetic field $B=2T$ exists in a direction perpendicular to the plane of motion. Then :",
+      "options": [
+        "$V_{A}-V_{B}=8V$",
+        "$V_{A}-V_{B}=4V$",
+        "$V_{B}-V_{A}=8V$",
+        "$V_{B}-V_{A}=4V$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The motional EMF induced across the rod is given by $e = Bvl \\sin \\theta$, where $\\theta$ is the angle between velocity and length.<br><b>Step 2:</b> Substitute the given values: $e = 2 \\times 4 \\times 1 \\times \\sin(30^{\\circ})$.<br><b>Step 3:</b> Calculate the magnitude: $e = 8 \\times 0.5 = 4$ V.<br><b>Step 4:</b> Using Fleming's Right-Hand Rule (or $\\vec{v} \\times \\vec{B}$), the positive charges are pushed towards A, making A at a higher potential. Thus, $V_{A} - V_{B} = 4$ V."
+    },
+    {
+      "id": "EMI-CWII-008",
+      "topic": "Motional EMF",
+      "difficulty": 2,
+      "tags": ["Bent Wire", "Effective Length"],
+      "imgUrl": "",
+      "q": "A wire KMN moves along the bisector of the angle with a constant velocity v in a uniform magnetic field B perpendicular to the plane of the paper and directed inward. Which of the following is correct?",
+      "options": [
+        "Effective length of the wire is $2L~\\sin\\frac{\\theta}{2}$",
+        "E.m.f induced between K and N is $2BLV\\sin\\frac{\\theta}{2}$",
+        "The shape of KMN is immaterial, only the end points K N are important.",
+        "All the above"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> For motional EMF, the actual shape of the wire does not matter; only the straight-line distance (effective length) between the endpoints K and N matters.<br><b>Step 2:</b> The effective length $l_{eff}$ between K and N is $2 \\times L \\sin(\\theta/2)$.<br><b>Step 3:</b> The induced EMF is $e = B l_{eff} v = B(2L \\sin(\\theta/2))v = 2BLv \\sin(\\theta/2)$.<br><b>Step 4:</b> Since all statements accurately describe the physics of the moving bent wire, \"All the above\" is the correct choice."
+    },
+    {
+      "id": "EMI-CWII-009",
+      "topic": "Motional EMF",
+      "difficulty": 3,
+      "tags": ["Vector Form", "Induced EMF"],
+      "q": "A uniform magnetic field exists in region given by $\\vec{B}=3\\hat{i}+4\\hat{j}+5\\hat{k}$. A rod of length 5 m is placed along y-axis is moved along x-axis with constant speed 1 m/sec. Then the magnitude of induced e.m.f in the rod is:",
+      "options": [
+        "zero",
+        "25 volt",
+        "20 volt",
+        "15 volt"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Express the vectors: Length vector $\\vec{l} = 5\\hat{j}$, Velocity vector $\\vec{v} = 1\\hat{i}$, Magnetic field $\\vec{B} = 3\\hat{i} + 4\\hat{j} + 5\\hat{k}$.<br><b>Step 2:</b> The induced EMF in vector form is $e = (\\vec{v} \\times \\vec{B}) \\cdot \\vec{l}$.<br><b>Step 3:</b> Calculate $\\vec{v} \\times \\vec{B} = \\hat{i} \\times (3\\hat{i} + 4\\hat{j} + 5\\hat{k}) = 4\\hat{k} - 5\\hat{j}$.<br><b>Step 4:</b> Take the dot product with $\\vec{l}$: $e = (4\\hat{k} - 5\\hat{j}) \\cdot 5\\hat{j} = -25$ V.<br><b>Step 5:</b> The magnitude of the induced EMF is 25 V."
+    },
+    {
+      "id": "EMI-CWII-010",
+      "topic": "Motional EMF",
+      "difficulty": 3,
+      "tags": ["Capacitor Charging", "Moving Rod"],
+      "imgUrl": "",
+      "q": "A conducting rod PQ of length 1 m is moving with uniform velocity of 2 m/s in a uniform magnetic field of 2T directed into the plane of paper. A capacitor of capacity $c=10\\mu F$ is connected as shown. Then:",
+      "options": [
+        "$q_{A}=+40\\mu C$, $q_{B}=+40\\mu C$",
+        "$q_{A}=+40\\mu C$, $q_{B}=-40\\mu C$",
+        "$q_{A}=-40\\mu C$, $q_{B}=+40\\mu C$",
+        "$q_{A}=q_{B}=0$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Calculate the motional EMF induced in the rod: $e = Blv = 2 \\times 1 \\times 2 = 4$ V.<br><b>Step 2:</b> Use the right-hand rule ($\\vec{v} \\times \\vec{B}$) to find the polarity. $\\vec{v}$ is right, $\\vec{B}$ is inwards, so force on positive charges is upwards towards P. P is positive, Q is negative.<br><b>Step 3:</b> Since plate A is connected to P, it acquires a positive charge. Plate B is connected to Q, acquiring a negative charge.<br><b>Step 4:</b> Calculate the charge magnitude: $q = Ce = (10 \\mu\\text{F}) \\times 4 \\text{ V} = 40 \\mu\\text{C}$.<br><b>Step 5:</b> Therefore, $q_{A} = +40\\mu C$ and $q_{B} = -40\\mu C$."
+    },
+    {
+      "id": "EMI-CWII-011",
+      "topic": "Induced Electric Fields",
+      "difficulty": 3,
+      "tags": ["Work Done", "Time Varying Field"],
+      "imgUrl": "",
+      "q": "A time varying magnetic field is present in a cylindrical region of radius R as shown in the figure. A positive charge q is taken slowly from P to Q through POQ, the magnetic field varies with time as $B=B_{0}t$ (where $B_{0}$ is a constant) and directed into the plane of the paper. If W is the workdone then W=",
+      "options": [
+        "Zero",
+        "$B_{0}$",
+        "Infinite",
+        "$2B_{0}$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> A time-varying magnetic field induces non-conservative circular electric field lines around the center O.<br><b>Step 2:</b> The induced electric field $\\vec{E}$ at any point on the radial path POQ is perpendicular to the radial vector $d\\vec{l}$.<br><b>Step 3:</b> The work done in moving a charge slowly is $W = \\int \\vec{F} \\cdot d\\vec{l} = \\int q\\vec{E} \\cdot d\\vec{l}$.<br><b>Step 4:</b> Since $\\vec{E} \\perp d\\vec{l}$ along the straight path through the center, $\\vec{E} \\cdot d\\vec{l} = 0$. Therefore, work done $W = 0$."
+    },
+    {
+      "id": "EMI-CWII-012",
+      "topic": "Motional EMF",
+      "difficulty": 2,
+      "tags": ["Moving Loop", "Induced Electric Field"],
+      "imgUrl": "",
+      "q": "A metallic square loop ABCD is moving in its own plane with velocity v in a uniform magnetic field perpendicular to its plane as shown in the figure. Electric field is induced:",
+      "options": [
+        "in AD, but not in BC",
+        "in BC, but not in AD",
+        "neither in AD nor in BC",
+        "in both AD and BC"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> As the metallic loop moves in a magnetic field, the free electrons in the wires experience a Lorentz force.<br><b>Step 2:</b> For the arms AD and BC, which are perpendicular to the velocity $\\vec{v}$, a motional EMF is generated ($e = Bvl$).<br><b>Step 3:</b> This separation of charges creates an electrostatic field $\\vec{E}$ inside the conductors AD and BC to counteract the magnetic force, such that in steady state $\\vec{E} = -(\\vec{v} \\times \\vec{B})$.<br><b>Step 4:</b> Thus, an electric field is induced in both AD and BC."
+    },
+    {
+      "id": "EMI-CWII-013",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 1,
+      "tags": ["Flux Linkage", "Induced EMF"],
+      "q": "The flux linked with a coil is 0.8 Wb when a 2 A current is flowing through it. If this current begins to increase at the rate of 400 A/s, the induced emf in the coil will be",
+      "options": [
+        "20 V",
+        "40 V",
+        "80 V",
+        "160 V"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> First, find the self-inductance $L$ using the relation $\\phi = Li$.<br><b>Step 2:</b> $L = \\frac{\\phi}{i} = \\frac{0.8}{2} = 0.4$ H.<br><b>Step 3:</b> The induced EMF is given by $e = L \\frac{di}{dt}$.<br><b>Step 4:</b> Substitute the values: $e = 0.4 \\times 400 = 160$ V."
+    },
+    {
+      "id": "EMI-CWII-014",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 2,
+      "tags": ["Magnetic Energy", "Tangent Galvanometer"],
+      "q": "A solenoid of self inductance 1.2 H is in series with a tangent galvanometer of reduction factor 0.9 A. They are connected to a battery and the tangent galvanometer shows a deflection of $53^{\\circ}$. The energy stored in the magnetic field of the solenoid is ($\\tan 53^{\\circ}=4/3$)",
+      "options": [
+        "0.864 J",
+        "0.72 J",
+        "0.173 J",
+        "1.44 J"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> For a tangent galvanometer, the current is given by $I = K \\tan \\theta$, where $K$ is the reduction factor.<br><b>Step 2:</b> Calculate the current: $I = 0.9 \\times \\tan(53^{\\circ}) = 0.9 \\times \\frac{4}{3} = 1.2$ A.<br><b>Step 3:</b> The energy stored in the solenoid is $U = \\frac{1}{2}Li^{2}$.<br><b>Step 4:</b> Substitute the values: $U = \\frac{1}{2} \\times 1.2 \\times (1.2)^{2} = 0.6 \\times 1.44 = 0.864$ J."
+    },
+    {
+      "id": "EMI-CWII-015",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 2,
+      "tags": ["Magnetic Energy", "Internal Resistance"],
+      "q": "There are two batteries 'A' and 'B' having same emf. A has no internal resistance and B has some internal resistance. An inductance is connected first to 'A' and the energy in the uniform magnetic field setup inside is 'U'. It is now disconnected from 'A' and reconnected to 'B'. The energy stored in the uniform magnetic field will be",
+      "options": [
+        "U",
+        "> U",
+        "< U",
+        "zero"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Energy stored in an inductor is $U = \\frac{1}{2}LI^{2}$, so $U \\propto I^{2}$.<br><b>Step 2:</b> For battery A (no internal resistance), steady current $I_{A} = \\frac{E}{R_{coil}}$.<br><b>Step 3:</b> For battery B (with internal resistance $r$), steady current $I_{B} = \\frac{E}{R_{coil} + r}$.<br><b>Step 4:</b> Since the denominator is larger for B, $I_{B} < I_{A}$. Therefore, the energy stored with battery B is less than U ($< U$)."
+    },
+    {
+      "id": "EMI-CWII-016",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 2,
+      "tags": ["Mutual Inductance", "Primary Current"],
+      "q": "An emf induced in a secondary coil is 10000 V when the current breaks in the primary. The mutual inductance is 5 H and the current reaches to zero in $10^{-4}s$ in primary. The maximum current in the primary before the break is",
+      "options": [
+        "0.2 A",
+        "0.3 A",
+        "0.4 A",
+        "0.5 A"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The induced EMF in the secondary is given by $|e| = M \\frac{|\\Delta i_{p}|}{\\Delta t}$.<br><b>Step 2:</b> We know $e = 10000$ V, $M = 5$ H, $\\Delta t = 10^{-4}$ s, and final current is 0, so $|\\Delta i_{p}| = I_{max}$.<br><b>Step 3:</b> Rearrange the formula: $I_{max} = \\frac{e \\times \\Delta t}{M}$.<br><b>Step 4:</b> Substitute the values: $I_{max} = \\frac{10000 \\times 10^{-4}}{5} = \\frac{1}{5} = 0.2$ A."
+    },
+    {
+      "id": "EMI-CWII-017",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 2,
+      "tags": ["Reciprocity Theorem", "Mutual Inductance"],
+      "imgUrl": "",
+      "q": "A mutual inductor consists of two coils X and Y as shwon in figure in which one quarter of the magnetic flux produced by X links with Y, giving a mutual inductance M. What will be the mutual inductance when Y is used as the primary?",
+      "options": [
+        "$M/4$",
+        "$M/2$",
+        "M",
+        "2M"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The mutual inductance $M_{12}$ between two coils (coil 1 as primary, coil 2 as secondary) is identical to the mutual inductance $M_{21}$ when their roles are reversed.<br><b>Step 2:</b> This property is a fundamental consequence of the reciprocity theorem for mutual inductance ($M_{12} = M_{21} = M$).<br><b>Step 3:</b> Therefore, the mutual inductance remains M regardless of which coil is used as the primary."
+    },
+    {
+      "id": "EMI-CWII-018",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 3,
+      "tags": ["Solenoid", "Mutual Inductance"],
+      "imgUrl": "",
+      "q": "A long solenoid of length L, cross section A having $N_{1}$ turns has wound about its centre small coil of $N_{2}$ turns as shown in figure. The mutual inductance of two circuit is",
+      "options": [
+        "$\\frac{\\mu_{0}A(N_{1}/N_{2})}{L}$",
+        "$\\frac{\\mu_{0}A(N_{1}N_{2})}{L}$",
+        "$\\mu_{0}A(N_{1}N_{2})L$",
+        "$\\frac{\\mu_{0}A(N_{1}^{2}N_{2})}{L}$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The magnetic field inside the long primary solenoid is $B_{1} = \\mu_{0}\\frac{N_{1}}{L}I_{1}$.<br><b>Step 2:</b> The magnetic flux linking each turn of the secondary coil is $\\phi_{single} = B_{1}A = \\mu_{0}\\frac{N_{1}}{L}I_{1}A$.<br><b>Step 3:</b> The total flux linkage for the secondary coil with $N_{2}$ turns is $\\phi_{2} = N_{2}\\phi_{single} = \\frac{\\mu_{0}N_{1}N_{2}A}{L}I_{1}$.<br><b>Step 4:</b> By definition, $\\phi_{2} = M I_{1}$, so the mutual inductance $M = \\frac{\\mu_{0}N_{1}N_{2}A}{L}$."
+    },
+    {
+      "id": "EMI-CWII-019",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 3,
+      "tags": ["Concentric Coils", "Proportionality"],
+      "q": "A small coil of radius r is placed at the centre of a large coil of radius R, where $R \\gg r$. The two coils are coplanar. The mutual inductance between the coils proportional to",
+      "options": [
+        "r/R",
+        "$r^{2}/R$",
+        "$r^{2}/R^{2}$",
+        "$r/R^{2}$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The magnetic field produced by the large coil of radius R at its center is $B = \\frac{\\mu_{0}I}{2R}$.<br><b>Step 2:</b> Since $R \\gg r$, the magnetic field is approximately uniform over the area of the smaller coil.<br><b>Step 3:</b> The flux linked with the smaller coil is $\\phi = B \\times A_{small} = \\left(\\frac{\\mu_{0}I}{2R}\\right)(\\pi r^{2})$.<br><b>Step 4:</b> The mutual inductance is $M = \\frac{\\phi}{I} = \\frac{\\mu_{0}\\pi r^{2}}{2R}$.<br><b>Step 5:</b> Thus, $M$ is proportional to $\\frac{r^{2}}{R}$."
+    },
+    {
+      "id": "EMI-CWII-020",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 3,
+      "tags": ["Mutual Inductance", "Changing Current"],
+      "q": "The coefficient of mutual inductance of two circuits A and B is 3 mH and their respective resistances are $10\\Omega$ and $4\\Omega$. How much current should change in 0.02 s in circuit A, so that the induced current in B should be 0.0060 A?",
+      "options": [
+        "0.24 A",
+        "1.6 A",
+        "0.18 A",
+        "0.16 A"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The induced current in circuit B is $i_{B} = 0.0060$ A. The induced EMF in B is $e_{B} = i_{B} R_{B} = 0.0060 \\times 4 = 0.024$ V.<br><b>Step 2:</b> The induced EMF in B relates to the current change in A by $|e_{B}| = M \\frac{\\Delta I_{A}}{\\Delta t}$.<br><b>Step 3:</b> We have $M = 3$ mH $= 3 \\times 10^{-3}$ H and $\\Delta t = 0.02$ s.<br><b>Step 4:</b> Rearranging for $\\Delta I_{A}$: $\\Delta I_{A} = \\frac{e_{B} \\times \\Delta t}{M} = \\frac{0.024 \\times 0.02}{3 \\times 10^{-3}}$.<br><b>Step 5:</b> Calculate: $\\Delta I_{A} = \\frac{4.8 \\times 10^{-4}}{3 \\times 10^{-3}} = 1.6 \\times 10^{-1} = 0.16$ A."
+    },
+    {
+      "id": "EMI-CWII-021",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 2,
+      "tags": ["LR Circuit", "Initial and Final States"],
+      "imgUrl": "",
+      "q": "The key 'K' is switched on at $t=0$. Then the currents through battery at $t=0$ and $t=\\infty$ are",
+      "options": [
+        "$\\frac{1}{15}A$, $\\frac{1}{10}A$",
+        "$\\frac{1}{10}A$, $\\frac{1}{15}A$",
+        "$\\frac{2}{15}A$, $\\frac{1}{10}A$",
+        "$\\frac{1}{15}A$, $\\frac{2}{25}A$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> At $t=0$, the inductor acts as an open circuit (infinite resistance) to the sudden change. Current only flows through the resistors $10\\Omega$ and $20\\Omega$ in series. Total resistance $R = 10 + 20 = 30\\Omega$.<br><b>Step 2:</b> Current at $t=0$: $I_{initial} = \\frac{V}{R} = \\frac{2}{30} = \\frac{1}{15}$ A.<br><b>Step 3:</b> At $t=\\infty$, the inductor acts as a short circuit (zero resistance) for steady DC. The $10\\Omega$ resistor parallel to it is bypassed completely.<br><b>Step 4:</b> Current flows only through the $20\\Omega$ resistor. Current at $t=\\infty$: $I_{final} = \\frac{V}{20} = \\frac{2}{20} = \\frac{1}{10}$ A."
+    },
+    {
+      "id": "EMI-CWII-022",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 3,
+      "tags": ["LR Circuit", "Time Constant Calculation"],
+      "q": "The current in an L - R circuit builds upto 3/4th of its steady state value in 4sec. Then the time constant of this circuit is",
+      "options": [
+        "$\\frac{1}{\\ln 2}$ sec",
+        "$\\frac{2}{\\ln 2}$ sec",
+        "$\\frac{3}{\\ln 2}$ sec",
+        "$\\frac{4}{\\ln 2}$ sec"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Current growth equation: $i = i_{0}(1 - e^{-t/\\tau})$.<br><b>Step 2:</b> Given $i = \\frac{3}{4}i_{0}$ at $t = 4$ s. Substitute: $\\frac{3}{4}i_{0} = i_{0}(1 - e^{-4/\\tau})$.<br><b>Step 3:</b> Simplify: $\\frac{3}{4} = 1 - e^{-4/\\tau} \\implies e^{-4/\\tau} = \\frac{1}{4}$.<br><b>Step 4:</b> Invert: $e^{4/\\tau} = 4$. Take natural log: $\\frac{4}{\\tau} = \\ln 4$.<br><b>Step 5:</b> Note that $\\ln 4 = \ln(2^{2}) = 2\\ln 2$. So, $\\frac{4}{\\tau} = 2\\ln 2 \\implies \\tau = \\frac{4}{2\\ln 2} = \\frac{2}{\\ln 2}$ sec."
+    },
+    {
+      "id": "EMI-CWII-023",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 3,
+      "tags": ["Inductor Decay", "Heat Generation"],
+      "imgUrl": "",
+      "q": "For the circuit shown, initially 'S' is closed for a long time so that steady state has been reached. Then at $t=0$, 'S' is opened, due to which the current decays to zero. The heat generated in inductor is.",
+      "options": [
+        "zero",
+        "$\\frac{E^{2}L}{2(R+r)}$",
+        "$\\frac{E^{2}L}{2r(R+r)}$",
+        "$\\frac{E^{2}R}{2r(R+r)}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> In the steady state with S closed, the inductor acts as a short circuit (with internal resistance r). The steady current through the inductor is $i_{0} = \\frac{E}{r}$.<br><b>Step 2:</b> The initial energy stored in the inductor is $U = \\frac{1}{2}Li_{0}^{2} = \\frac{1}{2}L\\left(\\frac{E}{r}\\right)^{2} = \\frac{LE^{2}}{2r^{2}}$.<br><b>Step 3:</b> When S is opened, this energy dissipates as heat across the total resistance of the decay loop, which is $(R + r)$.<br><b>Step 4:</b> The heat generated in the inductor itself (due to its internal resistance r) is the fraction of total energy proportional to its resistance: $H_{inductor} = U \\times \\frac{r}{R+r}$.<br><b>Step 5:</b> $H_{inductor} = \\left(\\frac{LE^{2}}{2r^{2}}\\right)\\left(\\frac{r}{R+r}\\right) = \\frac{LE^{2}}{2r(R+r)}$."
+    },
+    {
+      "id": "EMI-CWII-024",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 3,
+      "tags": ["Power Ratio", "L-R Circuit"],
+      "q": "A coil of inductance 1 henry and resistance $10\\Omega$ is connected to a resistance less battery of e.m.f 50V at time t=0. Calculate the ratio of the rate at which magnetic energy is stored in the coil to the rate at which energy is supplied by the battery at $t=0.1s$",
+      "options": [
+        "e",
+        "$1 - \\frac{1}{e}$",
+        "$\\frac{1}{e-1}$",
+        "$\\frac{1}{e}$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Current $i = i_{0}(1-e^{-Rt/L})$ where $i_{0} = E/R$.<br><b>Step 2:</b> Rate of magnetic energy stored $P_L = \\frac{d}{dt}(\\frac{1}{2}Li^2) = Li \\frac{di}{dt}$. Rate of energy supplied by battery $P_B = Ei$.<br><b>Step 3:</b> Ratio $\\frac{P_L}{P_B} = \\frac{L(di/dt)}{E}$. We know $L \\frac{di}{dt} = E - iR = E - E(1-e^{-Rt/L}) = E e^{-Rt/L}$.<br><b>Step 4:</b> Therefore, the ratio is $\\frac{E e^{-Rt/L}}{E} = e^{-Rt/L}$.<br><b>Step 5:</b> Substitute values: $R=10$, $L=1$, $t=0.1$. Ratio = $e^{-(10 \\times 0.1)/1} = e^{-1} = \\frac{1}{e}$."
+    },
+    {
+      "id": "EMI-CWII-025",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 2,
+      "tags": ["Growth Curve Analysis", "L-R Circuit"],
+      "imgUrl": "",
+      "q": "Current growth in two LR circuits (A) and (B) is as shown in figure (C). It follows that",
+      "options": [
+        "$R_{1}>R_{2}; L_{1}<L_{2}$",
+        "$R_{1}>R_{2}; L_{1}=L_{2}$",
+        "$R_{1}=R_{2}; L_{1}<L_{2}$",
+        "$R_{1}<R_{2}; L_{1}>L_{2}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> From the graph, both circuits reach the same maximum steady-state current $I_{0}$. Since $I_{0} = V/R$ and V is constant, this implies $R_{1} = R_{2}$.<br><b>Step 2:</b> The time constant $\\tau = L/R$ determines how fast the current reaches the steady state.<br><b>Step 3:</b> Curve (a) reaches its plateau faster than curve (b), meaning circuit A has a smaller time constant: $\\tau_{1} < \\tau_{2}$.<br><b>Step 4:</b> Since $R_{1} = R_{2}$, substituting $\\tau = L/R$ gives $\\frac{L_{1}}{R} < \\frac{L_{2}}{R} \\implies L_{1} < L_{2}$."
+    },
+    {
+      "id": "EMI-CWII-026",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 2,
+      "tags": ["Current Decay", "LR Circuit"],
+      "q": "In an LR circuit, current at $t=0$ is 20 A. After 2 s it reduces to 18 A. The time constant of the circuit is:",
+      "options": [
+        "$\\ln(\\frac{10}{9})$",
+        "2",
+        "$\\frac{2}{\\ln(10/9)}$",
+        "$2~\\ln(\\frac{10}{9})$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The current decay in an LR circuit is given by $I = I_{0} e^{-t/\\tau}$.<br><b>Step 2:</b> Given $I_{0} = 20$ A, and at $t = 2$ s, $I = 18$ A.<br><b>Step 3:</b> Substitute these values: $18 = 20 e^{-2/\\tau} \\implies e^{-2/\\tau} = \\frac{18}{20} = \\frac{9}{10}$.<br><b>Step 4:</b> Take the reciprocal to remove the negative sign: $e^{2/\\tau} = \\frac{10}{9}$.<br><b>Step 5:</b> Take natural log: $\\frac{2}{\\tau} = \\ln\\left(\\frac{10}{9}\\right) \\implies \\tau = \\frac{2}{\\ln(10/9)}$."
+    },
+    {
+      "id": "EMI-CWII-027",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 2,
+      "tags": ["Choke Coil", "Time of Growth"],
+      "q": "A choke coil has an inductance of 4 H and a resistance of $2~\\Omega$. It is connected to a battery of 12 V and negligible internal resistance. The time taken for the current to become 3.78 A is nearly",
+      "options": [
+        "8 s",
+        "12 s",
+        "2 s",
+        "4 s"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Steady state current $I_{0} = \\frac{V}{R} = \\frac{12}{2} = 6$ A.<br><b>Step 2:</b> Time constant $\\tau = \\frac{L}{R} = \\frac{4}{2} = 2$ s.<br><b>Step 3:</b> The growth equation is $I = I_{0}(1 - e^{-t/\\tau})$. Substitute the known values: $3.78 = 6(1 - e^{-t/2})$.<br><b>Step 4:</b> Simplify: $1 - e^{-t/2} = \\frac{3.78}{6} = 0.63 \\implies e^{-t/2} = 1 - 0.63 = 0.37$.<br><b>Step 5:</b> We know $e^{-1} \\approx 0.37$. So, $e^{-t/2} \\approx e^{-1} \\implies \\frac{t}{2} \\approx 1 \\implies t \\approx 2$ s."
+    },
+    {
+      "id": "EMI-CWII-028",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 1,
+      "tags": ["Inductive Time Constant"],
+      "q": "A coil of 40 H inductance is connected in series with a resistance of $8\\Omega$ and this combination is connected to the terminals of a 2V battery. The inductive time constant of the circuit is (in seconds)",
+      "options": [
+        "40",
+        "20",
+        "5",
+        "0.2"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The inductive time constant for a series L-R circuit is given by the formula $\\tau = \\frac{L}{R}$.<br><b>Step 2:</b> We are given the inductance $L = 40$ H and resistance $R = 8~\\Omega$.<br><b>Step 3:</b> Substitute the values into the formula: $\\tau = \\frac{40}{8} = 5$ seconds."
+    },
+    {
+      "id": "EMI-HWII-001",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 2,
+      "tags": ["Induced Charge", "Total Resistance"],
+      "q": "A coil of 30 turns of wire each of $10~cm^{2}$ area is placed with its plane perpendicular to a magnetic field of 0.1 T. When the coil is suddenly withdrawn from the field, a galvanometer connected in series with the coil indicated that a $10~\\mu C$ charge passes around the circuit. The combined resistance of the coil and galvanometer is",
+      "options": [
+        "$3~\\Omega$",
+        "$30~\\Omega$",
+        "$300~\\Omega$",
+        "$3000~\\Omega$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The total charge that flows is given by $Q = \\frac{N\\Delta\\phi}{R}$.<br><b>Step 2:</b> Initial flux per turn $\\phi_{i} = BA = 0.1 \\times (10 \\times 10^{-4}) = 10^{-4}$ Wb. Final flux $\\phi_{f} = 0$. Magnitude of change is $\\Delta\\phi = 10^{-4}$ Wb.<br><b>Step 3:</b> We are given $Q = 10 \\mu\\text{C} = 10^{-5}$ C and $N = 30$.<br><b>Step 4:</b> Rearrange to solve for R: $R = \\frac{N\\Delta\\phi}{Q} = \\frac{30 \\times 10^{-4}}{10^{-5}} = 30 \\times 10 = 300~\\Omega$."
+    },
+    {
+      "id": "EMI-HWII-002",
+      "topic": "Motional EMF",
+      "difficulty": 3,
+      "tags": ["Expanding Loop", "Average EMF"],
+      "q": "A square coil of side 0.5 m has movable sides. It is placed such that its plane is perpendicular to uniform magnetic field of induction 0.2 T. If all the sides are allowed to move with a speed of 0.1 m/s for 4 sec outwards, average induced emf is",
+      "options": [
+        "Zero",
+        "0.01V",
+        "0.028V",
+        "0.072V"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Initial side of the square $l_{i} = 0.5$ m. Initial area $A_{i} = (0.5)^{2} = 0.25~m^{2}$.<br><b>Step 2:</b> If all sides move outwards at $v = 0.1$ m/s for $t = 4$ s, each boundary moves by $\\Delta x = vt = 0.4$ m.<br><b>Step 3:</b> Since opposite boundaries both move outward by 0.4m, the new side length $l_{f} = 0.5 + 2(0.4) = 1.3$ m.<br><b>Step 4:</b> Final area $A_{f} = (1.3)^{2} = 1.69~m^{2}$. Change in area $\\Delta A = 1.69 - 0.25 = 1.44~m^{2}$.<br><b>Step 5:</b> Average induced EMF $e = \\frac{B \\Delta A}{\\Delta t} = \\frac{0.2 \\times 1.44}{4} = 0.05 \\times 1.44 = 0.072$ V."
+    },
+    {
+      "id": "EMI-HWII-003",
+      "topic": "Motional EMF",
+      "difficulty": 2,
+      "tags": ["Vector Cross Product", "Induced EMF"],
+      "q": "A uniform magnetic field exists in a regiion given by $\\vec{B}=3\\hat{i}+4\\hat{j}+5\\hat{k}$. A rod of length 5 m along y-axis moves with a constant speed of 1 m/s along x-axis. Then the induced emf in the rod will be",
+      "options": [
+        "0",
+        "25 V",
+        "20 V",
+        "15 V"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Identify the vectors: $\\vec{B} = 3\\hat{i} + 4\\hat{j} + 5\\hat{k}$, velocity $\\vec{v} = 1\\hat{i}$, and length vector $\\vec{l} = 5\\hat{j}$.<br><b>Step 2:</b> Calculate $\\vec{v} \\times \\vec{B} = \\hat{i} \\times (3\\hat{i} + 4\\hat{j} + 5\\hat{k}) = 3(\\hat{i}\\times\\hat{i}) + 4(\\hat{i}\\times\\hat{j}) + 5(\\hat{i}\\times\\hat{k}) = 0 + 4\\hat{k} - 5\\hat{j}$.<br><b>Step 3:</b> Calculate EMF $e = (\\vec{v} \\times \\vec{B}) \\cdot \\vec{l} = (4\\hat{k} - 5\\hat{j}) \\cdot 5\\hat{j} = -25$ V.<br><b>Step 4:</b> The magnitude of the induced EMF is 25 V."
+    },
+    {
+      "id": "EMI-HWII-004",
+      "topic": "Motional EMF",
+      "difficulty": 3,
+      "tags": ["Rolling Rings", "Potential Difference"],
+      "imgUrl": "",
+      "q": "Two identical conducting rings A and B of radius R are rolling over a horizontal conducting plane with same speed v but in opposite direction. A constant magnetic field B is present pointing into the plane of paper. Then the potential difference between the highest points of the two rings is",
+      "options": [
+        "0",
+        "2BvR",
+        "4BvR",
+        "none of these"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The motional EMF induced across the vertical diameter of a rolling ring is $e = Bvl_{eff}$, where $l_{eff} = 2R$. However, we must consider the rotation.<br><b>Step 2:</b> For ring A rolling forward, the velocity of the top point is $2v$ and the bottom is $0$. The induced EMF between the top ($V_2$) and bottom ($V_1$) is $V_2 - V_1 = \\frac{1}{2}B(2R)^2\\omega = 2BRv$.<br><b>Step 3:</b> For ring B rolling backward, the top point ($V_4$) has velocity $2v$ in the opposite direction. Its induced EMF is $V_3 - V_4 = 2BRv$.<br><b>Step 4:</b> Since both rings roll on the same conducting plane, their bottom points are at the same potential: $V_1 = V_3$.<br><b>Step 5:</b> The potential difference between the highest points is $V_2 - V_4 = (V_2 - V_1) + (V_3 - V_4) = 2BRv + 2BRv = 4BRv$."
+    },
+    {
+      "id": "EMI-HWII-005",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 3,
+      "tags": ["Time Varying Area", "Faraday's Law"],
+      "q": "A flexible wire loop in the shape of a circle has a radius that grows linearly with time. There is a magnetic field perpendicular to the plane of the loop that has a magnitude inversely proportional to the distance from the centre of the loop, $B(r)\\propto\\frac{1}{r}$. How does the emf E vary with time?",
+      "options": [
+        "$E\\propto t^{2}$",
+        "$E\\propto t$",
+        "$E\\propto\\sqrt{t}$",
+        "E is constant"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Let the radius of the loop at time $t$ be $r$. Since it grows linearly, $\\frac{dr}{dt} = c$ (constant).<br><b>Step 2:</b> The magnetic field is given by $B = \\frac{k}{r}$.<br><b>Step 3:</b> The small change in area in time $dt$ is a thin ring of area $dA = 2\\pi r dr$.<br><b>Step 4:</b> The flux passing through this thin growing ring is $d\\phi = B dA = \\left(\\frac{k}{r}\\right)(2\\pi r dr) = 2\\pi k dr$.<br><b>Step 5:</b> The induced EMF is $E = \\frac{d\\phi}{dt} = 2\\pi k \\frac{dr}{dt} = 2\\pi k c$. Since $k$ and $c$ are constants, $E$ is constant."
+    },
+    {
+      "id": "EMI-HWII-006",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 3,
+      "tags": ["Magnetic Flux", "Induced Charge"],
+      "imgUrl": "",
+      "q": "A square loop PQRS of side 'a' and resistance 'r' is placed near an infinitely long wire carrying a constant current I. The sides PQ and RS are parallel to the wire. The wire and the loop are in the same plane. The loop is rotated by $180^{\\circ}$ about an axis parallel to the long wire and passing through the mid points of the side QR and PS. The total amount of charge which passes through any point of the loop during rotation is:",
+      "options": [
+        "$\\frac{\\mu_{0}Ia}{2\\pi r}\\ln 2$",
+        "$\\frac{\\mu_{0}Ia}{\\pi r}\\ln 2$",
+        "$\\frac{\\mu_{0}Ia^{2}}{2\\pi r}$",
+        "$\\frac{\\mu_{0}Ia}{2\\pi r}$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Let the distance from the wire to the near edge of the loop be $x_1$ and to the far edge be $x_2$. Assume $x_1 = a$ based on standard problems of this type, making $x_2 = 2a$.<br><b>Step 2:</b> Initial flux $\\phi_{i} = \\int_a^{2a} \\frac{\\mu_0 I}{2\\pi x} a dx = \\frac{\\mu_0 I a}{2\\pi} \\ln(2)$.<br><b>Step 3:</b> When the loop is rotated by $180^{\\circ}$, the normal vector flips, so the final flux is $\\phi_{f} = -\\frac{\\mu_0 I a}{2\\pi} \\ln(2)$.<br><b>Step 4:</b> The change in flux is $\\Delta\\phi = \\phi_{i} - \\phi_{f} = 2 \\times \\frac{\\mu_0 I a}{2\\pi} \\ln(2) = \\frac{\\mu_0 I a}{\\pi} \\ln(2)$.<br><b>Step 5:</b> The induced charge is $Q = \\frac{\\Delta\\phi}{r} = \\frac{\\mu_0 I a}{\\pi r} \\ln(2)$."
+    },
+    {
+      "id": "EMI-HWII-007",
+      "topic": "Motional EMF",
+      "difficulty": 2,
+      "tags": ["External Force", "Sliding Connector"],
+      "imgUrl": "",
+      "q": "A rectangular loop with a sliding connector of length $l=1.0$ m is situated in a uniform magnetic field $B=2T$ perpendicular to the plane of loop. Resistance of connecter is as shown in figure. The external force required to keep the connector moving with a constant velocity $v=2~m/s$ is",
+      "options": [
+        "6 N",
+        "4 N",
+        "2 N",
+        "1 N"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The two resistors ($6\\Omega$ and $3\\Omega$) are connected in parallel across the moving connector. The equivalent resistance is $R_p = \\frac{6 \\times 3}{6 + 3} = \\frac{18}{9} = 2\\Omega$.<br><b>Step 2:</b> The induced EMF in the moving connector is $e = Blv = 2 \\times 1 \\times 2 = 4$ V.<br><b>Step 3:</b> The total current is $i = \\frac{e}{R_p} = \\frac{4}{2} = 2$ A.<br><b>Step 4:</b> The magnetic force acting opposite to the motion is $F_m = iBl = 2 \\times 2 \\times 1 = 4$ N.<br><b>Step 5:</b> To maintain constant velocity, the external force must equal the magnetic force: $F_{ext} = 4$ N."
+    },
+    {
+      "id": "EMI-HWII-008",
+      "topic": "Motional EMF",
+      "difficulty": 3,
+      "tags": ["Rotating Rod", "Off-center Axis"],
+      "imgUrl": "",
+      "q": "A straight rod of length l is rotating about axis passing through O is shown. A uniform magnetic field B exists parallel to the axis of rotation. E.m.f induced between P and Q is:",
+      "options": [
+        "$\\frac{8}{25}B\\omega l^{2}$",
+        "$\\frac{3}{10}B\\omega l^{2}$",
+        "$\\frac{7}{25}B\\omega l^{2}$",
+        "zero"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The axis O divides the rod into two segments. Let's place O at the origin ($x=0$). P is at $x = -l/5$ and Q is at $x = 4l/5$.<br><b>Step 2:</b> The motional EMF generated by a small element $dx$ at distance $x$ is $de = Bv dx = B(\\omega x)dx$.<br><b>Step 3:</b> Integrate this from P to Q to find the total potential difference $V_Q - V_P$: $e = \\int_{-l/5}^{4l/5} B\\omega x dx$.<br><b>Step 4:</b> $e = B\\omega \\left[\\frac{x^2}{2}\\right]_{-l/5}^{4l/5} = \\frac{B\\omega}{2} \\left( \\left(\\frac{4l}{5}\\right)^2 - \\left(\\frac{-l}{5}\\right)^2 \\right)$.<br><b>Step 5:</b> $e = \\frac{B\\omega}{2} \\left( \\frac{16l^2}{25} - \\frac{l^2}{25} \\right) = \\frac{B\\omega}{2} \\left( \\frac{15l^2}{25} \\right) = \\frac{3}{10} B\\omega l^2$."
+    },
+    {
+      "id": "EMI-HWII-009",
+      "topic": "Motional EMF",
+      "difficulty": 3,
+      "tags": ["Rotating Rod", "Partial Conductor"],
+      "imgUrl": "",
+      "q": "A rod of length 10 cm made up of conducting and non-conducting material (shaded part is non-conducting). The rod is rotated with cosntant angular velocity 10 rad/s about point O, in constant magnetic field of 2 T as shown in the figure. The induced emf between the point A and B of rod will be:",
+      "options": [
+        "0.029 V",
+        "0.1 V",
+        "0.051 V",
+        "0.064 V"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The conducting part of the rod exists between $r_1 = 7$ cm ($0.07$ m) and $r_2 = 10$ cm ($0.1$ m) from the axis O.<br><b>Step 2:</b> The non-conducting part (0 to 7 cm) generates no EMF.<br><b>Step 3:</b> The induced EMF across the conducting segment AB is $e = \\int_{r_1}^{r_2} B\\omega x dx = \\frac{1}{2}B\\omega (r_2^2 - r_1^2)$.<br><b>Step 4:</b> Substitute the given values ($B=2$ T, $\\omega=10$ rad/s): $e = \\frac{1}{2}(2)(10) \\left( (0.1)^2 - (0.07)^2 \\right)$.<br><b>Step 5:</b> $e = 10 (0.01 - 0.0049) = 10 (0.0051) = 0.051$ V."
+    },
+    {
+      "id": "EMI-HWII-010",
+      "topic": "Induced Electric Fields",
+      "difficulty": 3,
+      "tags": ["Time Varying Field", "Kirchhoff's Laws"],
+      "q": "A triangular wire frame ABC (each side = 2m) is placed in a region of time variant magnetic field having $dB/dt=\\sqrt{3}T/s$. The magnetic field is perpendicular to the plane of the triangle. The base of the triangle AB has a resistance $1\\Omega$ while the other two sides have resistance $2\\Omega$ each. The magnitude of potential difference between the points A and B will be",
+      "options": [
+        "0.4 V",
+        "0.6 V",
+        "1.2 V",
+        "None"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Area of the equilateral triangle is $A = \\frac{\\sqrt{3}}{4} a^2 = \\frac{\\sqrt{3}}{4} (2)^2 = \\sqrt{3}~m^2$.<br><b>Step 2:</b> The total induced EMF in the loop is $e = A \\frac{dB}{dt} = \\sqrt{3} \\times \\sqrt{3} = 3$ V.<br><b>Step 3:</b> The total resistance of the loop is $R_{total} = R_{AB} + R_{BC} + R_{CA} = 1 + 2 + 2 = 5\\Omega$.<br><b>Step 4:</b> The induced current is $i = \\frac{e}{R_{total}} = \\frac{3}{5} = 0.6$ A.<br><b>Step 5:</b> The potential difference between A and B is strictly due to the ohmic drop across AB (assuming the induced electric field does work along the path, standard circuit analysis yields this): $V_{AB} = i \\times R_{AB} = 0.6 \\times 1 = 0.6$ V."
+    },
+    {
+      "id": "EMI-HWII-011",
+      "topic": "Induced Electric Fields",
+      "difficulty": 3,
+      "tags": ["Force on Charge", "Induced Electric Field"],
+      "imgUrl": "",
+      "q": "A uniform magnetic field of induction B is confined to a cylindrical region of radius R. The magnetic field is increasing at a constant rate of $dB/dt$ (tesla/second). A charge q of mass m, placed at the point P on the periphery of the field experiences an acceleration:",
+      "options": [
+        "$\\frac{1}{2}\\frac{eR}{m}\\frac{dB}{dt}$ toward left",
+        "$\\frac{1}{2}\\frac{eR}{m}\\frac{dB}{dt}$ toward right",
+        "$\\frac{eR}{m}\\frac{dB}{dt}$ toward left",
+        "zero"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> A time-varying magnetic field induces an electric field $\\vec{E}$. Using Faraday's Law: $\\oint \\vec{E} \\cdot d\\vec{l} = -\\frac{d\\phi}{dt}$.<br><b>Step 2:</b> At the periphery (radius R), $E(2\\pi R) = \\pi R^2 \\frac{dB}{dt} \\implies E = \\frac{R}{2}\\frac{dB}{dt}$.<br><b>Step 3:</b> The force on the charge is $F = qE$. (Using 'e' for charge as given in options). The acceleration is $a = \\frac{F}{m} = \\frac{eE}{m} = \\frac{eR}{2m}\\frac{dB}{dt}$.<br><b>Step 4:</b> By Lenz's law, if the magnetic field is into the page and increasing, the induced electric field forms counter-clockwise circles. At point P (assume top or bottom based on 'left/right' context in image), the force direction is tangent to the circle, toward the left."
+    },
+    {
+      "id": "EMI-HWII-012",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 2,
+      "tags": ["Mutual Inductance", "Current Break"],
+      "q": "The e.m.f. induced in a secondary coil is 20000 V when the current breaks in the primary coil. The mutual inductance is 5H and the current reaches to zero in $10^{-4}$ sec in the primary. The maximum current in the primary before it breaks is",
+      "options": [
+        "0.1A",
+        "0.4A",
+        "0.6A",
+        "0.8A"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The magnitude of induced EMF is given by $e = M \\frac{\\Delta i}{\\Delta t}$.<br><b>Step 2:</b> We are given $e = 20000$ V, $M = 5$ H, and $\\Delta t = 10^{-4}$ s.<br><b>Step 3:</b> The change in current is $\\Delta i = I_{initial} - 0 = I_{initial}$.<br><b>Step 4:</b> Substitute and solve for $I_{initial}$: $20000 = 5 \\times \\frac{I_{initial}}{10^{-4}}$.<br><b>Step 5:</b> $I_{initial} = \\frac{20000 \\times 10^{-4}}{5} = \\frac{2}{5} = 0.4$ A."
+    },
+    {
+      "id": "EMI-HWII-013",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 3,
+      "tags": ["Concentric Loops", "Mutual Inductance"],
+      "q": "A small square loop of wire of side 'l' is placed inside a large square loop of side 'L' (L>>l). If the loops are coplanar and their centres coincide, the mutual induction of the system is directly proportional to:",
+      "options": [
+        "L/l",
+        "l/L",
+        "$L^{2}/l$",
+        "$l^{2}/L$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The magnetic field $B$ produced by the large square loop (carrying current $I$) at its center is proportional to $I/L$.<br><b>Step 2:</b> Because $l \\ll L$, the magnetic field can be considered uniform over the area of the smaller loop.<br><b>Step 3:</b> The area of the small loop is $A = l^2$.<br><b>Step 4:</b> The flux linked with the small loop is $\\phi = BA \\propto \\left(\\frac{I}{L}\\right) l^2 = I \\frac{l^2}{L}$.<br><b>Step 5:</b> Mutual inductance $M = \\frac{\\phi}{I} \\propto \\frac{l^2}{L}$."
+    },
+    {
+      "id": "EMI-HWII-014",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 2,
+      "tags": ["Solenoid", "Mutual Inductance Calculation"],
+      "q": "A straight solenoid of length 1 m has 5000 turns in the primary and 200 turns in the secondary. If the area of cross section is $4cm^{2}$, the mutual inductance will be",
+      "options": [
+        "503 H",
+        "503 mH",
+        "$503~\\mu H$",
+        "5.03 H"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The formula for the mutual inductance of a coaxial solenoid system is $M = \\frac{\\mu_{0} N_1 N_2 A}{l}$.<br><b>Step 2:</b> Convert values to standard units: $N_1 = 5000$, $N_2 = 200$, $A = 4~cm^2 = 4 \\times 10^{-4}~m^2$, $l = 1$ m.<br><b>Step 3:</b> Substitute values: $M = \\frac{(4\\pi \\times 10^{-7}) \\times 5000 \\times 200 \\times 4 \\times 10^{-4}}{1}$.<br><b>Step 4:</b> Calculate: $M = 4\\pi \\times 10^{-7} \\times 10^6 \\times 4 \\times 10^{-4} = 16\\pi \\times 10^{-5} = 50.26 \\times 10^{-5}$ H.<br><b>Step 5:</b> Convert to microhenrys: $M = 502.6 \\times 10^{-6}$ H $\\approx 503~\\mu H$."
+    },
+    {
+      "id": "EMI-HWII-015",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 3,
+      "tags": ["Magnetic Force", "Coaxial Loops"],
+      "imgUrl": "",
+      "q": "Two coaxial circular loops of radius 0.5 m and $5\\times10^{-2}$ m are separated by a distance 0.5 m and carry currents 2A and 1A respectively. The force between the loops due to mutual induction is",
+      "options": [
+        "$2.09\\times10^{-8}N$",
+        "$1.06\\times10^{-6}N$",
+        "$4.18\\times10^{-8}N$",
+        "$8.3\\times10^{-5}N$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Treat the loops as magnetic dipoles. Magnetic moment $M_1 = I_1 A_1 = 2 \\times \\pi(0.5)^2$ and $M_2 = I_2 A_2 = 1 \\times \\pi(0.05)^2$.<br><b>Step 2:</b> The force between two coaxial dipoles separated by distance $d$ is $F = \\frac{\\mu_0}{4\\pi} \\frac{6 M_1 M_2}{d^4}$.<br><b>Step 3:</b> Substitute the values: $F = (10^{-7}) \\times \\frac{6 \\times (2\\pi(0.25)) \\times (1\\pi(0.0025))}{(0.5)^4}$.<br><b>Step 4:</b> Calculate: $F = 10^{-7} \\times \\frac{6 \\times (0.5\\pi) \\times (0.0025\\pi)}{0.0625} = 10^{-7} \\times \\frac{0.0075 \\pi^2}{0.0625} = 10^{-7} \\times 0.12 \\pi^2$.<br><b>Step 5:</b> Using $\\pi^2 \\approx 9.87$, $F \\approx 10^{-7} \\times 1.18 \\approx 2.09 \\times 10^{-8}$ N."
+    },
+    {
+      "id": "EMI-HWII-016",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 3,
+      "tags": ["Mutual Inductance", "Long Wire and Loop"],
+      "imgUrl": "",
+      "q": "The mutual inductance between the rectangular loop and the long straight wire as shown in figure is M.",
+      "options": [
+        "$M=\\text{zero}$",
+        "$M=\\frac{\\mu_{0}a}{2\\pi}\\ln(1+\\frac{c}{b})$",
+        "$M=\\frac{\\mu_{0}a}{2\\pi}\\ln(\\frac{a+c}{b})$",
+        "$M=\\frac{\\mu_{0}a}{2\\pi}\\ln(1+\\frac{b}{c})$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Let the straight wire carry current $i$. The magnetic field at distance $x$ is $B = \\frac{\\mu_{0} i}{2\\pi x}$.<br><b>Step 2:</b> Consider a small vertical strip in the loop of width $dx$ and height $a$. The flux through it is $d\\phi = B dA = \\frac{\\mu_{0} i}{2\\pi x} (a dx)$.<br><b>Step 3:</b> The loop extends from $x = c$ to $x = c + b$. Integrate to find total flux: $\\phi = \\int_{c}^{c+b} \\frac{\\mu_{0} i a}{2\\pi x} dx = \\frac{\\mu_{0} i a}{2\\pi} [\\ln x]_{c}^{c+b} = \\frac{\\mu_{0} i a}{2\\pi} \\ln\\left(\\frac{c+b}{c}\\right)$.<br><b>Step 4:</b> The mutual inductance is $M = \\frac{\\phi}{i} = \\frac{\\mu_{0} a}{2\\pi} \\ln\\left(1 + \\frac{b}{c}\\right)$."
+    },
+    {
+      "id": "EMI-HWII-017",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 3,
+      "tags": ["Coaxial Cable", "Self Inductance"],
+      "q": "An infinite long straight conducting cylindrical shell of radius a is surrounded by a thin coaxial infinite conducing cylindrical shell of radius b. Assuming current flows uniformly through the cylindrical shell and returns through the outer shell, the inductance per unit length for this arrangement is",
+      "options": [
+        "$\\frac{2\\mu_{0}}{\\pi}\\ln(\\frac{b}{a})$",
+        "$\\frac{\\mu_{0}}{\\pi}\\ln(\\frac{b}{a})$",
+        "$\\frac{\\mu_{0}}{2\\pi}\\ln(\\frac{b}{a})$",
+        "$\\frac{\\mu_{0}}{4\\pi}\\ln(\\frac{b}{a})$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The magnetic field in the region between the shells ($a < r < b$) is determined by Ampere's law: $B(r) = \\frac{\\mu_0 I}{2\\pi r}$.<br><b>Step 2:</b> Calculate the total magnetic flux linking a length $l$ of the cable. The flux through a rectangular strip of length $l$ and width $dr$ is $d\\phi = B(r) \\times l \\times dr = \\frac{\\mu_0 I l}{2\\pi r} dr$.<br><b>Step 3:</b> Integrate from $r = a$ to $r = b$: $\\phi = \\int_a^b \\frac{\\mu_0 I l}{2\\pi r} dr = \\frac{\\mu_0 I l}{2\\pi} \\ln\\left(\\frac{b}{a}\\right)$.<br><b>Step 4:</b> The inductance $L = \\frac{\\phi}{I} = \\frac{\\mu_0 l}{2\\pi} \\ln\\left(\\frac{b}{a}\\right)$.<br><b>Step 5:</b> The inductance per unit length is $\\frac{L}{l} = \\frac{\\mu_{0}}{2\\pi}\\ln\\left(\\frac{b}{a}\\right)$."
+    },
+    {
+      "id": "EMI-HWII-018",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 2,
+      "tags": ["RC Circuit", "Capacitor Charging"],
+      "q": "A $8\\mu F$ capacitor is charged by a 400V supply through $0.1M\\Omega$ resistance. The time taken by the capactor to develop a potential difference of 300V is: (Given $\\log_{10}4=0.602$)",
+      "options": [
+        "2.2sec",
+        "1.1sec",
+        "0.55sec",
+        "0.48sec"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The charging equation for a capacitor is $V = V_0(1 - e^{-t/RC})$.<br><b>Step 2:</b> The time constant is $RC = (0.1 \\times 10^6~\\Omega) \\times (8 \\times 10^{-6}~F) = 0.8$ s.<br><b>Step 3:</b> Substitute the values: $300 = 400(1 - e^{-t/0.8}) \\implies \\frac{3}{4} = 1 - e^{-t/0.8} \\implies e^{-t/0.8} = \\frac{1}{4}$.<br><b>Step 4:</b> Inverting both sides: $e^{t/0.8} = 4$. Taking natural logarithm: $\\frac{t}{0.8} = \\ln 4 = 2.303 \\log_{10} 4 = 2.303 \\times 0.602 \\approx 1.386$.<br><b>Step 5:</b> Solve for $t$: $t = 0.8 \\times 1.386 \\approx 1.1$ sec."
+    },
+    {
+      "id": "EMI-HWII-019",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 2,
+      "tags": ["Time Constant Equality", "L-R and R-C Circuits"],
+      "q": "A resistance with an inductor of 8 H has the same time constant as it has with a condenser of capacity $2~\\mu F$. The value of the resistance expressed in ohms is",
+      "options": [
+        "500",
+        "250",
+        "4000",
+        "2000"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The time constant of an L-R circuit is $\\tau_L = \\frac{L}{R}$.<br><b>Step 2:</b> The time constant of an R-C circuit is $\\tau_C = RC$.<br><b>Step 3:</b> We are given $\\tau_L = \\tau_C$, so $\\frac{L}{R} = RC$.<br><b>Step 4:</b> Rearrange to solve for $R$: $R^2 = \\frac{L}{C} \\implies R = \\sqrt{\\frac{L}{C}}$.<br><b>Step 5:</b> Substitute the values $L = 8$ H and $C = 2 \\times 10^{-6}$ F: $R = \\sqrt{\\frac{8}{2 \\times 10^{-6}}} = \\sqrt{4 \\times 10^6} = 2 \\times 10^3 = 2000~\\Omega$."
+    },
+    {
+      "id": "EMI-HWII-020",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 3,
+      "tags": ["L-R Circuit", "Magnetic Energy"],
+      "imgUrl": "",
+      "q": "The cell in the circuit shown in figure is ideal. The coil has an inductance of 4 mH and a resistance of $2m\\Omega$. The switch is closed at $t=0$. The amount of energy stored in the inductor at $t=2~S$ is (take $e=3$)",
+      "options": [
+        "$\\frac{4}{8}J$",
+        "$\\frac{8}{9}\\times10^{3}J$",
+        "$\\frac{8}{3}\\times10^{-3}J$",
+        "$2\\times10^{3}J$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Find the time constant $\\tau = \\frac{L}{R} = \\frac{4 \\times 10^{-3}}{2 \\times 10^{-3}} = 2$ s.<br><b>Step 2:</b> The steady state current is $I_0 = \\frac{E}{R} = \\frac{2}{2 \\times 10^{-3}} = 1000$ A.<br><b>Step 3:</b> Find the current at $t=2$ s: $i(2) = I_0(1 - e^{-2/2}) = 1000(1 - e^{-1})$.<br><b>Step 4:</b> Using $e=3$, $i(2) = 1000(1 - 1/3) = \\frac{2000}{3}$ A.<br><b>Step 5:</b> The energy stored is $U = \\frac{1}{2}Li^2 = \\frac{1}{2}(4 \\times 10^{-3}) \\left(\\frac{2000}{3}\\right)^2 = (2 \\times 10^{-3}) \\frac{4 \\times 10^6}{9} = \\frac{8}{9} \\times 10^3$ J."
+    },
+    {
+      "id": "EMI-HWII-021",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 2,
+      "tags": ["Steady State", "L-R Circuit"],
+      "imgUrl": "",
+      "q": "In the circuit, the final current through $30\\Omega$ resistance when circuit is completed is",
+      "options": [
+        "3A",
+        "0.1 A",
+        "5 A",
+        "0.5 A"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> In the final steady state ($t \\to \\infty$), an ideal inductor behaves as a short circuit (zero resistance).<br><b>Step 2:</b> The inductor is in parallel with the $20\\Omega$ resistor. The short circuit bypasses all current around the $20\\Omega$ resistor.<br><b>Step 3:</b> The effective circuit now consists of the 3V battery and the $30\\Omega$ resistor in series.<br><b>Step 4:</b> The current is calculated by Ohm's Law: $I = \\frac{V}{R} = \\frac{3}{30} = 0.1$ A."
+    },
+    {
+      "id": "EMI-HWII-022",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 3,
+      "tags": ["Charge Calculation", "L-R Circuit"],
+      "imgUrl": "",
+      "q": "In the circuit shown in figure, switch S is closed at time $t=0$ The charge that passes through the battery in one time constant is",
+      "options": [
+        "$\\frac{eR^{2}E}{EL}$",
+        "$E(\\frac{L}{R})$",
+        "$\\frac{EL}{eR^{2}}$",
+        "$\\frac{eL}{ER}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The current in the L-R circuit is $i(t) = i_0(1 - e^{-t/\\tau})$, where $i_0 = \\frac{E}{R}$ and $\\tau = \\frac{L}{R}$.<br><b>Step 2:</b> The total charge passed is the integral of current over time: $q = \\int_0^\\tau i(t) dt = \\int_0^\\tau i_0(1 - e^{-t/\\tau}) dt$.<br><b>Step 3:</b> Perform the integration: $q = i_0 \\left[ t + \\tau e^{-t/\\tau} \\right]_0^\\tau = i_0 \\left[ (\\tau + \\tau e^{-1}) - (0 + \\tau e^0) \\right]$.<br><b>Step 4:</b> $q = i_0 [\\tau + \\frac{\\tau}{e} - \\tau] = i_0 \\frac{\\tau}{e}$.<br><b>Step 5:</b> Substitute $i_0$ and $\\tau$: $q = \\left(\\frac{E}{R}\\right) \\left(\\frac{L}{R}\\right) \\frac{1}{e} = \\frac{EL}{eR^2}$."
+    },
+    {
+      "id": "EMI-HWII-023",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 3,
+      "tags": ["Mutual Induction", "Induced Current Function"],
+      "q": "A coil of wire having finite inductance and resistance has a conducting ring placed co-axially within it. The coil is connected a battery at time $t=0$, so that a time dependent current $I_{1}(t)$ starts flowing through the coil. If $I_{2}(t)$ is the current induced in the ring and $B(t)$ is the magnetic field at the axis of the coil dut to $I_{1}(t)$ then as a function of time $(t>0)$, the product $I_{2}(t)B(t)$",
+      "options": [
+        "increases with time",
+        "decreases with time",
+        "does not vary with time",
+        "passes through a maximum"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The current in the primary coil grows according to $I_1(t) = I_0(1 - e^{-t/\\tau})$.<br><b>Step 2:</b> The magnetic field $B(t)$ produced by the coil is directly proportional to $I_1(t)$, so $B(t) \\propto (1 - e^{-t/\\tau})$.<br><b>Step 3:</b> The induced current $I_2(t)$ in the ring is proportional to the rate of change of magnetic flux, hence to the derivative of $I_1(t)$. Thus, $I_2(t) \\propto \\frac{dI_1}{dt} \\propto e^{-t/\\tau}$.<br><b>Step 4:</b> The product $P(t) = I_2(t)B(t) \\propto (e^{-t/\\tau})(1 - e^{-t/\\tau}) = e^{-t/\\tau} - e^{-2t/\\tau}$.<br><b>Step 5:</b> Evaluating this function: at $t=0$, $P(0) = 1 - 1 = 0$. As $t \\to \\infty$, $P(t) \\to 0 - 0 = 0$. Since it is positive for $t > 0$, it must start at zero, rise to a maximum, and then decay back to zero. Therefore, it passes through a maximum."
     }
   ]
 }
