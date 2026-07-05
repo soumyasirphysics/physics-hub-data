@@ -66,5 +66,17 @@
     "Potentiometer"
     ],
     "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/current_electricity.json"
+  },
+  "Electromagnetic Induction": {
+    "classTarget": "Class 12",
+    "totalQuestions": 80,
+    "topics": [
+    "Magnetic Flux & Faraday's Laws",
+    "Motional EMF",
+    "Induced Electric Fields",
+    "Self Induction & Mutual Induction",
+    "D.C Transient Circuits"
+  ],
+    "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/emi.json"
   }
 }
