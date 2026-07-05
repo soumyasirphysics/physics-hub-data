@@ -1,0 +1,316 @@
+{
+  "classTarget": "Class 11",
+  "topics": [
+    "Parallelogram Law",
+    "Triangle Law, Polygon Law & Lami's Theorem",
+    "Motion in a Plane",
+    "Concept of Relative Velocity",
+    "Motion of a Boat in a River",
+    "Oblique Projectile",
+    "Horizontal Projectile",
+    "Circular Motion"
+  ],
+  "questions": [
+    {
+      "id": "MP-CWI-001",
+      "topic": "Parallelogram Law",
+      "difficulty": 1,
+      "tags": ["Resultant of Vectors", "Maximum/Minimum Resultant"],
+      "q": "The maximum resultant of two concurrent forces is 10N and their minimum resultant is 4N. The magnitude of large force is",
+      "options": [
+        "5N",
+        "7N",
+        "3N",
+        "14N"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Maximum resultant $R_{max} = F_1 + F_2 = 10 N$.<br><b>Step 2:</b> Minimum resultant $R_{min} = F_1 - F_2 = 4 N$.<br><b>Step 3:</b> Adding the two equations: $2F_1 = 14 \\implies F_1 = 7 N$.<br><b>Step 4:</b> Therefore, the magnitude of the larger force is 7N."
+    },
+    {
+      "id": "MP-CWI-002",
+      "topic": "Parallelogram Law",
+      "difficulty": 2,
+      "tags": ["Resultant Direction", "Vector Addition"],
+      "q": "The resultant of two vectors of magnitudes 3 units and 5 units is perpendicular to 3 units. The angle between the vectors is",
+      "options": [
+        "$127^{\\circ}$",
+        "$120^{\\circ}$",
+        "$75^{\\circ}$",
+        "$150^{\\circ}$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Let $\\vec{P} = 3$ and $\\vec{Q} = 5$. The resultant is perpendicular to $\\vec{P}$.<br><b>Step 2:</b> The direction of the resultant is given by $\\tan \\alpha = \\frac{Q \\sin \\theta}{P + Q \\cos \\theta}$. For $\\alpha = 90^{\\circ}$, the denominator must be zero.<br><b>Step 3:</b> $P + Q \\cos \\theta = 0 \\implies 3 + 5 \\cos \\theta = 0 \\implies \\cos \\theta = -\\frac{3}{5}$.<br><b>Step 4:</b> $\\theta = \\cos^{-1}\\left(-\\frac{3}{5}\\right) = 127^{\\circ}$."
+    },
+    {
+      "id": "MP-CWI-003",
+      "topic": "Parallelogram Law",
+      "difficulty": 2,
+      "tags": ["Unit Vectors", "Vector Subtraction"],
+      "q": "The sum of two unit vectors is also a vector of unit magnitude, then the magnitude of the difference of the two unit vectors is",
+      "options": [
+        "1 unit",
+        "2 units",
+        "$\\sqrt{3}$ units",
+        "zero"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Given $|\\hat{a} + \\hat{b}| = 1$. Using the formula for magnitude: $1^2 = 1^2 + 1^2 + 2(1)(1)\\cos\\theta \\implies 1 = 2 + 2\\cos\\theta \\implies \\cos\\theta = -\\frac{1}{2}$.<br><b>Step 2:</b> The angle between the vectors is $\\theta = 120^{\\circ}$.<br><b>Step 3:</b> The magnitude of their difference is $|\\hat{a} - \\hat{b}| = \\sqrt{1^2 + 1^2 - 2(1)(1)\\cos(120^{\\circ})}$.<br><b>Step 4:</b> $|\\hat{a} - \\hat{b}| = \\sqrt{2 - 2\\left(-\\frac{1}{2}\\right)} = \\sqrt{2 + 1} = \\sqrt{3}$ units."
+    },
+    {
+      "id": "MP-CWI-004",
+      "topic": "Triangle Law, Polygon Law & Lami's Theorem",
+      "difficulty": 2,
+      "tags": ["Equilibrium", "Triangle Law"],
+      "q": "Which of the following sets of forces acting simultaneously on a particle keep it in equilibrium?",
+      "options": [
+        "3N, 5N, 10N",
+        "4N, 5N, 12N",
+        "2N, 6N, 5N",
+        "5N, 8N, 1N"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> For three forces to keep a particle in equilibrium, they must form a closed triangle. This means the sum of any two forces must be greater than or equal to the third force: $F_1 + F_2 \\ge F_3$.<br><b>Step 2:</b> Check Option 1: $3 + 5 = 8 < 10$ (Not possible).<br><b>Step 3:</b> Check Option 2: $4 + 5 = 9 < 12$ (Not possible).<br><b>Step 4:</b> Check Option 3: $2 + 5 = 7 > 6$ (Possible).<br><b>Step 5:</b> Check Option 4: $5 + 1 = 6 < 8$ (Not possible). Therefore, 2N, 6N, 5N can keep it in equilibrium."
+    },
+    {
+      "id": "MP-CWI-005",
+      "topic": "Parallelogram Law",
+      "difficulty": 3,
+      "tags": ["Vector Direction", "Magnitude"],
+      "q": "The magnitude of two vectors $\\vec{P}$ and $\\vec{Q}$ differ by 1. The magnitude of their resultant makes an angle of $\\tan^{-1}\\left(\\frac{3}{4}\\right)$ with $\\vec{P}$. The angle between $\\vec{P}$ and $\\vec{Q}$ is",
+      "options": [
+        "$45^{\\circ}$",
+        "$0^{\\circ}$",
+        "$180^{\\circ}$",
+        "$90^{\\circ}$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Let $P$ and $Q$ be the magnitudes. We are given $|P - Q| = 1$. Let's assume $Q > P$, so $Q - P = 1$.<br><b>Step 2:</b> The angle $\\alpha$ made by the resultant with $\\vec{P}$ is $\\tan \\alpha = \\frac{3}{4}$.<br><b>Step 3:</b> Using the formula $\\tan \\alpha = \\frac{Q \\sin \\theta}{P + Q \\cos \\theta}$, we have $\\frac{3}{4} = \\frac{Q \\sin \\theta}{P + Q \\cos \\theta}$.<br><b>Step 4:</b> This relationship natively forms a 3-4-5 right triangle if the angle $\\theta$ between them is $90^{\\circ}$. Let's verify: If $\\theta = 90^{\\circ}$, $\\tan \\alpha = \\frac{Q}{P}$. Since $Q - P = 1$, setting $Q=3, P=4$ gives $|4-3|=1$ and $\\tan \\alpha = 3/4$. Thus, the angle between them is $90^{\\circ}$."
+    },
+    {
+      "id": "MP-CWI-006",
+      "topic": "Parallelogram Law",
+      "difficulty": 2,
+      "tags": ["Resultant Magnitude"],
+      "q": "Two vectors inclined at an angle $\\theta$ have magnitude 3 N and 5 N and their resultant is of magnitude 4 N. The angle $\\theta$ is",
+      "options": [
+        "$90^{\\circ}$",
+        "$\\cos^{-1}\\left(\\frac{4}{5}\\right)$",
+        "$\\cos^{-1}\\left(\\frac{3}{5}\\right)$",
+        "$\\cos^{-1}\\left(-\\frac{3}{5}\\right)$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Use the parallelogram law of vector addition: $R^2 = P^2 + Q^2 + 2PQ \\cos \\theta$.<br><b>Step 2:</b> Substitute the given values: $4^2 = 3^2 + 5^2 + 2(3)(5) \\cos \\theta$.<br><b>Step 3:</b> $16 = 9 + 25 + 30 \\cos \\theta \\implies 16 = 34 + 30 \\cos \\theta$.<br><b>Step 4:</b> $30 \\cos \\theta = 16 - 34 = -18 \\implies \\cos \\theta = -\\frac{18}{30} = -\\frac{3}{5}$.<br><b>Step 5:</b> Therefore, $\\theta = \\cos^{-1}\\left(-\\frac{3}{5}\\right)$."
+    },
+    {
+      "id": "MP-CWI-007",
+      "topic": "Triangle Law, Polygon Law & Lami's Theorem",
+      "difficulty": 2,
+      "tags": ["Vector Addition", "Geometry"],
+      "q": "The plane which can be formed with the vectors $\\vec{a}=3\\hat{i}-4\\hat{j}+2\\hat{k}$, $\\vec{b}=2\\hat{i}-\\hat{j}-6\\hat{k}$, $\\vec{c}=5\\hat{i}-5\\hat{j}-4\\hat{k}$ is.",
+      "options": [
+        "Quadrilateral",
+        "Triangle",
+        "Circle",
+        "Hyperbola"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Check the relation between the given vectors $\\vec{a}$, $\\vec{b}$, and $\\vec{c}$.<br><b>Step 2:</b> Adding $\\vec{a}$ and $\\vec{b}$: $\\vec{a} + \\vec{b} = (3+2)\\hat{i} + (-4-1)\\hat{j} + (2-6)\\hat{k} = 5\\hat{i} - 5\\hat{j} - 4\\hat{k}$.<br><b>Step 3:</b> Notice that $\\vec{a} + \\vec{b} = \\vec{c}$.<br><b>Step 4:</b> According to the triangle law of vector addition, if three vectors satisfy $\\vec{a} + \\vec{b} = \\vec{c}$ (or $\\vec{a} + \\vec{b} - \\vec{c} = 0$), they form a Triangle."
+    },
+    {
+      "id": "MP-CWI-008",
+      "topic": "Triangle Law, Polygon Law & Lami's Theorem",
+      "difficulty": 2,
+      "tags": ["Polygon Law", "Equilibrium"],
+      "q": "Five equal forces each of 20N are acting at a point in the same plane. If the angles between them are same, the resultant of these forces is",
+      "options": [
+        "0",
+        "40N",
+        "20N",
+        "$20\\sqrt{2}N$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> When $n$ equal forces act at a point and the angle between any two adjacent forces is the same (i.e., $\\theta = 360^{\\circ}/n$), they form a closed regular polygon.<br><b>Step 2:</b> According to the polygon law of vectors, if a set of vectors can be represented by the sides of a closed polygon taken in order, their resultant is zero.<br><b>Step 3:</b> Here, 5 equal forces act with equal angles ($360^{\\circ}/5 = 72^{\\circ}$), so their resultant is exactly 0."
+    },
+    {
+      "id": "MP-CWI-009",
+      "topic": "Triangle Law, Polygon Law & Lami's Theorem",
+      "difficulty": 2,
+      "tags": ["Lami's Theorem", "Tension"],
+      "q": "A boy is hanging from a horizontal branch of a tree. The tension in the arms will be maximum when the angle between the arms is",
+      "options": [
+        "$0^{\\circ}$",
+        "$30^{\\circ}$",
+        "$60^{\\circ}$",
+        "$120^{\\circ}$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Let the angle between the arms be $\\theta$. The vertical components of the tension in the two arms balance the weight of the boy.<br><b>Step 2:</b> $2T \\cos\\left(\\frac{\\theta}{2}\\right) = mg \\implies T = \\frac{mg}{2 \\cos(\\theta/2)}$.<br><b>Step 3:</b> Tension $T$ will be maximum when the denominator $\\cos(\\theta/2)$ is minimum.<br><b>Step 4:</b> From the given options, as $\\theta$ increases, $\\cos(\\theta/2)$ decreases, making $T$ larger. The maximum angle given is $120^{\\circ}$ (where $\\cos 60^{\\circ} = 0.5$, making $T = mg$, which is very high)."
+    },
+    {
+      "id": "MP-CWI-010",
+      "topic": "Triangle Law, Polygon Law & Lami's Theorem",
+      "difficulty": 2,
+      "tags": ["Equilibrium", "Resolution of Vectors"],
+      "q": "A 10 kg body is suspended by a rope is pulled by means of a horizontal force to make $60^{\\circ}$ by rope to vertical. The horizontal force is",
+      "options": [
+        "10 kgwt",
+        "30 kgwt",
+        "$10\\sqrt{3}$ kgwt",
+        "$30\\sqrt{3}$ kgwt"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Let the horizontal force be $F$, tension in the rope be $T$, and weight of the body be $W = 10 \\text{ kgwt}$.<br><b>Step 2:</b> Resolve the tension into components: Vertical component $T \\cos 60^{\\circ} = W$ and horizontal component $T \\sin 60^{\\circ} = F$.<br><b>Step 3:</b> Divide the two equations: $\\frac{T \\sin 60^{\\circ}}{T \\cos 60^{\\circ}} = \\frac{F}{W} \\implies \\tan 60^{\\circ} = \\frac{F}{10}$.<br><b>Step 4:</b> $F = 10 \\tan 60^{\\circ} = 10\\sqrt{3} \\text{ kgwt}$."
+    },
+    {
+      "id": "MP-CWI-011",
+      "topic": "Triangle Law, Polygon Law & Lami's Theorem",
+      "difficulty": 2,
+      "tags": ["Lami's Theorem", "Equilibrium"],
+      "imgUrl": "",
+      "q": "If 'P' is in equilibrium then $\\frac{T_{1}}{T_{2}}$ is",
+      "options": [
+        "$\\sqrt{3}$",
+        "2",
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$\\frac{1}{2}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> From the diagram, the system is in equilibrium. We can balance the horizontal components of the tensions.<br><b>Step 2:</b> $T_1 \\cos 30^{\\circ} = T_2 \\cos 60^{\\circ}$. (Assuming standard angles with the horizontal ceiling).<br><b>Step 3:</b> $\\frac{T_1}{T_2} = \\frac{\\cos 60^{\\circ}}{\\cos 30^{\\circ}} = \\frac{1/2}{\\sqrt{3}/2}$.<br><b>Step 4:</b> $\\frac{T_1}{T_2} = \\frac{1}{\\sqrt{3}}$."
+    },
+    {
+      "id": "MP-CWI-012",
+      "topic": "Motion in a Plane",
+      "difficulty": 2,
+      "tags": ["Kinematics", "Vector Equation"],
+      "q": "A body starts with a velocity $(2\\hat{i}+3\\hat{j}+11\\hat{k})m/s$ and moves with an acceleration $(5\\hat{i}+5\\hat{j}-5\\hat{k})m/s^{2}$. What is its velocity after 0.2 sec?",
+      "options": [
+        "$7\\hat{i}+8\\hat{j}+6\\hat{k}$",
+        "$2\\hat{i}-3\\hat{j}+11\\hat{k}$",
+        "$3\\hat{i}-4\\hat{j}-10\\hat{k}$",
+        "$3\\hat{i}+4\\hat{j}+10\\hat{k}$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Use the vector kinematic equation: $\\vec{v} = \\vec{u} + \\vec{a}t$.<br><b>Step 2:</b> Substitute the given vectors: $\\vec{v} = (2\\hat{i}+3\\hat{j}+11\\hat{k}) + (5\\hat{i}+5\\hat{j}-5\\hat{k})(0.2)$.<br><b>Step 3:</b> Calculate the velocity change: $\\vec{a}t = (5(0.2)\\hat{i} + 5(0.2)\\hat{j} - 5(0.2)\\hat{k}) = (1\\hat{i} + 1\\hat{j} - 1\\hat{k})$.<br><b>Step 4:</b> Add to initial velocity: $\\vec{v} = (2+1)\\hat{i} + (3+1)\\hat{j} + (11-1)\\hat{k} = 3\\hat{i} + 4\\hat{j} + 10\\hat{k}$."
+    },
+    {
+      "id": "MP-CWI-013",
+      "topic": "Motion in a Plane",
+      "difficulty": 2,
+      "tags": ["Position Vector", "Displacement"],
+      "q": "The position vector of a particle is given by $\\vec{r}=(3t^{2}\\hat{i}+4t^{2}\\hat{j}+7\\hat{k})m$ at a given time t. The net displacement of the particle after 10 s is",
+      "options": [
+        "500m",
+        "400m",
+        "300m",
+        "700m"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Calculate the initial position vector at $t = 0$: $\\vec{r}_{initial} = 3(0)\\hat{i} + 4(0)\\hat{j} + 7\\hat{k} = 7\\hat{k}$.<br><b>Step 2:</b> Calculate the position vector at $t = 10$: $\\vec{r}_{final} = 3(100)\\hat{i} + 4(100)\\hat{j} + 7\\hat{k} = 300\\hat{i} + 400\\hat{j} + 7\\hat{k}$.<br><b>Step 3:</b> The displacement vector is $\\Delta\\vec{r} = \\vec{r}_{final} - \\vec{r}_{initial} = 300\\hat{i} + 400\\hat{j}$.<br><b>Step 4:</b> The magnitude of displacement is $|\\Delta\\vec{r}| = \\sqrt{300^2 + 400^2} = 500$ m."
+    },
+    {
+      "id": "MP-CWI-014",
+      "topic": "Concept of Relative Velocity",
+      "difficulty": 2,
+      "tags": ["Average Acceleration", "Change in Velocity"],
+      "q": "A particle is moving eastwards with a velocity $5~ms^{-1}$ changes its direction northwards in 10 seconds and moves with same magnitude of velocity. The average acceleration is",
+      "options": [
+        "zero",
+        "$\\frac{1}{\\sqrt{2}}ms^{-2}$ towards N-E",
+        "$\\frac{1}{\\sqrt{2}}ms^{-2}$ towards S-E",
+        "$\\frac{1}{\\sqrt{2}}ms^{-2}$ towards N-W"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Initial velocity $\\vec{v}_i = 5\\hat{i}$ (East). Final velocity $\\vec{v}_f = 5\\hat{j}$ (North).<br><b>Step 2:</b> Change in velocity $\\Delta\\vec{v} = \\vec{v}_f - \\vec{v}_i = 5\\hat{j} - 5\\hat{i}$.<br><b>Step 3:</b> Average acceleration $\\vec{a}_{avg} = \\frac{\\Delta\\vec{v}}{\\Delta t} = \\frac{-5\\hat{i} + 5\\hat{j}}{10} = -0.5\\hat{i} + 0.5\\hat{j} = \\frac{1}{2}(-\\hat{i} + \\hat{j}) ms^{-2}$.<br><b>Step 4:</b> The magnitude is $\\sqrt{(-0.5)^2 + (0.5)^2} = \\sqrt{0.5} = \\frac{1}{\\sqrt{2}} ms^{-2}$. The direction $-\\hat{i} + \\hat{j}$ is towards North-West."
+    },
+    {
+      "id": "MP-CWI-015",
+      "topic": "Concept of Relative Velocity",
+      "difficulty": 2,
+      "tags": ["Rain Man Problem", "Relative Velocity"],
+      "q": "A man is going due east with a velocity of $5~ms^{-1}$. It is vertically raining downwards with a velocity of $4~ms^{-1}$. At what angle should he hold the umbrella to the vertical so as to protect him self from the rain?",
+      "options": [
+        "$\\tan^{-1}\\left(\\frac{5}{4}\\right)$ in anti-clockwise direction",
+        "$\\tan^{-1}\\left(\\frac{5}{4}\\right)$ in clock-wise direction",
+        "$\\tan^{-1}\\left(\\frac{4}{5}\\right)$ North of East",
+        "$\\tan^{-1}\\left(\\frac{4}{5}\\right)$ East of North"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Velocity of man $\\vec{v}_m = 5\\hat{i}$. Velocity of rain $\\vec{v}_r = -4\\hat{j}$.<br><b>Step 2:</b> Relative velocity of rain with respect to man $\\vec{v}_{rm} = \\vec{v}_r - \\vec{v}_m = -4\\hat{j} - 5\\hat{i}$.<br><b>Step 3:</b> The angle $\\theta$ with the vertical is given by $\\tan \\theta = \\frac{v_m}{v_r} = \\frac{5}{4}$.<br><b>Step 4:</b> Since the rain appears to come from the front (East), he must tilt his umbrella forward (towards East). If North/vertical is 12 o'clock and East is 3 o'clock, he tilts it in the clockwise direction by $\\theta = \\tan^{-1}(5/4)$."
+    },
+    {
+      "id": "MP-CWI-016",
+      "topic": "Concept of Relative Velocity",
+      "difficulty": 2,
+      "tags": ["Rain Man Problem", "Relative Velocity Magnitude"],
+      "q": "Rain drops are falling down ward vertically at 4kmph. For a person moving forward at 3kmph feels the rain falling at",
+      "options": [
+        "7 kmph",
+        "1 kmph",
+        "5 kmph",
+        "25 kmph"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Velocity of rain $\\vec{v}_r = -4\\hat{j}$. Velocity of man $\\vec{v}_m = 3\\hat{i}$.<br><b>Step 2:</b> Relative velocity of rain with respect to man $\\vec{v}_{rm} = \\vec{v}_r - \\vec{v}_m = -3\\hat{i} - 4\\hat{j}$.<br><b>Step 3:</b> The magnitude of this relative velocity is $|\\vec{v}_{rm}| = \\sqrt{(-3)^2 + (-4)^2} = \\sqrt{9 + 16} = \\sqrt{25}$.<br><b>Step 4:</b> $|\\vec{v}_{rm}| = 5 \\text{ kmph}$."
+    },
+    {
+      "id": "MP-CWI-017",
+      "topic": "Concept of Relative Velocity",
+      "difficulty": 2,
+      "tags": ["Rain Man Problem", "Vector Components"],
+      "q": "A man travelling at 10.8 kmph in topless car on a rainy day. He holds an umbrella at angle of $37^{\\circ}$ with the vertical so that he does not wet. If rain drops falls vertically downwards what is rain velocity.",
+      "options": [
+        "1 m/s",
+        "2 m/s",
+        "3 m/s",
+        "4 m/s"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Convert velocity of man from kmph to m/s: $v_m = 10.8 \\times \\frac{5}{18} = 3 \\text{ m/s}$.<br><b>Step 2:</b> The angle of the umbrella with the vertical is given by $\\tan \\theta = \\frac{v_m}{v_r}$.<br><b>Step 3:</b> We are given $\\theta = 37^{\\circ}$, so $\\tan 37^{\\circ} = \\frac{3}{v_r}$.<br><b>Step 4:</b> We know $\\tan 37^{\\circ} \\approx \\frac{3}{4}$. So, $\\frac{3}{4} = \\frac{3}{v_r} \\implies v_r = 4 \\text{ m/s}$."
+    },
+    {
+      "id": "MP-CWI-018",
+      "topic": "Motion of a Boat in a River",
+      "difficulty": 2,
+      "tags": ["Shortest Path", "Relative Velocity"],
+      "q": "A man can row a boat in still water with a velocity of 8 kmph. Water is flowing in a river with a velocity of 4 kmph. At what angle should he row the boat so as to reach the exact opposite point",
+      "options": [
+        "$150^{\\circ}$ to flow of water",
+        "$120^{\\circ}$ to flow of water",
+        "$30^{\\circ}$ to flow of water",
+        "$90^{\\circ}$ to flow of water"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> To reach exactly opposite, the boat must row at an angle $\\theta$ upstream such that its downstream component cancels the river flow.<br><b>Step 2:</b> $v_{boat} \\sin \\theta = v_{river} \\implies 8 \\sin \\theta = 4 \\implies \\sin \\theta = \\frac{1}{2}$.<br><b>Step 3:</b> The angle with the vertical (normal to the bank) is $30^{\\circ}$ upstream.<br><b>Step 4:</b> The total angle with the direction of the river flow is $90^{\\circ} + 30^{\\circ} = 120^{\\circ}$."
+    },
+    {
+      "id": "MP-CWI-019",
+      "topic": "Motion of a Boat in a River",
+      "difficulty": 2,
+      "tags": ["Upstream Downstream", "Time Ratio"],
+      "q": "A person can swim in still water at $5~m/s$. He moves in a river of velocity 3 m/s, first down the stream and next same distance up the stream. The ratio of times taken are",
+      "options": [
+        "1:1",
+        "1:2",
+        "1:4",
+        "4:1"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Time taken to travel downstream $t_1 = \\frac{d}{v_b + v_r} = \\frac{d}{5 + 3} = \\frac{d}{8}$.<br><b>Step 2:</b> Time taken to travel upstream $t_2 = \\frac{d}{v_b - v_r} = \\frac{d}{5 - 3} = \\frac{d}{2}$.<br><b>Step 3:</b> The ratio of the times is $\\frac{t_1}{t_2} = \\frac{d/8}{d/2} = \\frac{2}{8} = \\frac{1}{4}$.<br><b>Step 4:</b> The ratio is 1:4."
+    },
+    {
+      "id": "MP-CWI-020",
+      "topic": "Motion of a Boat in a River",
+      "difficulty": 2,
+      "tags": ["Drift Calculation", "Shortest Time"],
+      "q": "The velocity of water in a river is 2 kmph, while width is 400 m. A boat is rowed from a point rowing always aiming opposite point at 8 kmph of still water velocity. On reaching the opposite bank the drift obtained is",
+      "options": [
+        "93 m",
+        "100.8 m",
+        "112.4 m",
+        "100 m"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Since the boat is aimed exactly at the opposite point, it crosses in the shortest time: $t = \\frac{d}{v_b}$.<br><b>Step 2:</b> Width $d = 400 m = 0.4 km$. Boat velocity $v_b = 8 kmph$.<br><b>Step 3:</b> Time $t = \\frac{0.4}{8} = \\frac{1}{20}$ hours.<br><b>Step 4:</b> The drift is caused by the river velocity $v_r$: $x = v_r \\times t = 2 \\times \\frac{1}{20} = 0.1 km$.<br><b>Step 5:</b> Convert to meters: $0.1 km = 100 m$."
+    }
+  ]
+}
