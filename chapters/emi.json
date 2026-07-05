@@ -1090,7 +1090,7 @@
         "$\\frac{4}{\\ln 2}$ sec"
       ],
       "correct": 1,
-      "sol": "<b>Step 1:</b> Current growth equation: $i = i_{0}(1 - e^{-t/\\tau})$.<br><b>Step 2:</b> Given $i = \\frac{3}{4}i_{0}$ at $t = 4$ s. Substitute: $\\frac{3}{4}i_{0} = i_{0}(1 - e^{-4/\\tau})$.<br><b>Step 3:</b> Simplify: $\\frac{3}{4} = 1 - e^{-4/\\tau} \\implies e^{-4/\\tau} = \\frac{1}{4}$.<br><b>Step 4:</b> Invert: $e^{4/\\tau} = 4$. Take natural log: $\\frac{4}{\\tau} = \\ln 4$.<br><b>Step 5:</b> Note that $\\ln 4 = \ln(2^{2}) = 2\\ln 2$. So, $\\frac{4}{\\tau} = 2\\ln 2 \\implies \\tau = \\frac{4}{2\\ln 2} = \\frac{2}{\\ln 2}$ sec."
+      "sol": "<b>Step 1:</b> Current growth equation: $i = i_{0}(1 - e^{-t/\\tau})$.<br><b>Step 2:</b> Given $i = \\frac{3}{4}i_{0}$ at $t = 4$ s. Substitute: $\\frac{3}{4}i_{0} = i_{0}(1 - e^{-4/\\tau})$.<br><b>Step 3:</b> Simplify: $\\frac{3}{4} = 1 - e^{-4/\\tau} \\implies e^{-4/\\tau} = \\frac{1}{4}$.<br><b>Step 4:</b> Invert: $e^{4/\\tau} = 4$. Take natural log: $\\frac{4}{\\tau} = \\ln 4$.<br><b>Step 5:</b> Note that $\\ln 4 = \\ln(2^{2}) = 2\\ln 2$. So, $\\frac{4}{\\tau} = 2\\ln 2 \\implies \\tau = \\frac{4}{2\\ln 2} = \\frac{2}{\\ln 2}$ sec."
     },
     {
       "id": "EMI-CWII-023",
