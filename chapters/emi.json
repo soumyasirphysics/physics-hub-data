@@ -1,0 +1,164 @@
+{
+  "classTarget": "Class 12",
+  "topics": [
+    "Magnetic Flux & Faraday's Laws",
+    "Motional EMF",
+    "Induced Electric Fields",
+    "Self Induction & Mutual Induction",
+    "D.C Transient Circuits"
+  ],
+  "questions": [
+    {
+      "id": "EMI-CWI-001",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 1,
+      "tags": ["Magnetic Flux", "Faraday's Law"],
+      "q": "A field of strength $5\\times10^{4}/\\pi$ ampere turns / meter acts at right angles to the coil of 50 turns of area $10^{-2}m^{2}$. The coil is removed from the field in 0.1 second. Then the induced e.m.f in the coil is",
+      "options": [
+        "0.1 V",
+        "0.2 V",
+        "1.96 V",
+        "0.98 V"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Convert magnetic field strength $H$ to magnetic induction $B$: $B = \\mu_{0}H = \\frac{4\\pi \\times 10^{-7} \\times 5\\times 10^{4}}{\\pi} = 20 \\times 10^{-3} = 0.02$ T.<br><b>Step 2:</b> Calculate initial flux: $\\phi_{i} = NBA = 50 \\times 0.02 \\times 10^{-2} = 0.01$ Wb.<br><b>Step 3:</b> The final flux is zero as the coil is removed. Calculate induced EMF: $e = \\frac{\\Delta\\phi}{\\Delta t} = \\frac{0.01}{0.1} = 0.1$ V."
+    },
+    {
+      "id": "EMI-CWI-002",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 2,
+      "tags": ["Coil Rotation", "Average EMF"],
+      "q": "A coil has 1,000 turns and $500~cm^{2}$ as its area. The plane of the coil is placed at right angles to a magnetic induction field of $2\\times 10^{-5}$ web/$m^{2}$. The coil is rotated through $180^{\\circ}$ in 0.2 seconds. The average emf induced in the coil, in milli volts, is:",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Initial flux $\\phi_{i} = NBA$. Final flux after $180^{\\circ}$ rotation $\\phi_{f} = -NBA$.<br><b>Step 2:</b> Change in flux $\\Delta\\phi = 2NBA$.<br><b>Step 3:</b> Convert area to $m^{2}$: $A = 500 \\times 10^{-4} = 0.05~m^{2}$.<br><b>Step 4:</b> Average EMF $e = \\frac{2NBA}{t} = \\frac{2 \\times 1000 \\times 2 \\times 10^{-5} \\times 0.05}{0.2} = \\frac{0.002}{0.2} = 0.01$ V.<br><b>Step 5:</b> Convert to milli volts: $0.01$ V = 10 mV."
+    },
+    {
+      "id": "EMI-CWI-003",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 2,
+      "tags": ["Change in Area", "Faraday's Law"],
+      "q": "A square loop of side 22cm is changed to a circle in time 0.4 sec with its plane normal to a magnetic field 0.2T. The emf induced is",
+      "options": [
+        "+6.6mv",
+        "-6.6mv",
+        "+13.2mv",
+        "-13.2mv"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Initial area of square $A_{i} = 22 \\times 22 = 484~cm^{2}$.<br><b>Step 2:</b> The perimeter remains constant: $4 \\times 22 = 88~cm$. For the new circle, $2\\pi r = 88 \\implies r = 14~cm$.<br><b>Step 3:</b> Final area of circle $A_{f} = \\pi r^{2} = \\frac{22}{7} \\times 196 = 616~cm^{2}$.<br><b>Step 4:</b> Change in area $\\Delta A = 616 - 484 = 132~cm^{2} = 132 \\times 10^{-4}~m^{2}$.<br><b>Step 5:</b> Induced EMF $e = -B\\frac{\\Delta A}{\\Delta t} = -0.2 \\times \\frac{132 \\times 10^{-4}}{0.4} = -6.6 \\times 10^{-3}$ V = -6.6 mV."
+    },
+    {
+      "id": "EMI-CWI-004",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 2,
+      "tags": ["Induced Current", "Coil Rotation"],
+      "q": "A coil of 1200 turns and mean area of $500~cm^{2}$ is held perpendicular to a uniform magnetic field of induction $4\\times10^{-4}T$. The resistance of the coil is 20 ohms. When the coil is rotated through $180^{\\circ}$ in the magnetic field in 0.1 seconds the average electric current (in mA) induced is:",
+      "options": [
+        "12",
+        "24",
+        "36",
+        "48"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Calculate the average EMF using $E = \\frac{2NBA}{t}$.<br><b>Step 2:</b> $E = \\frac{2 \\times 1200 \\times 4\\times 10^{-4} \\times (500 \\times 10^{-4})}{0.1} = \\frac{0.048}{0.1} = 0.48$ V.<br><b>Step 3:</b> Calculate induced current $i = \\frac{E}{R} = \\frac{0.48}{20} = 0.024$ A.<br><b>Step 4:</b> Convert to mA: $0.024$ A = 24 mA."
+    },
+    {
+      "id": "EMI-CWI-005",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 2,
+      "tags": ["Induced Charge"],
+      "q": "A closed coil with a resistance R is placed in a magnetic field. The flux linked with the coil is $\\phi$. If the magnetic field is suddenly reversed in direction, the charge that flows through the coil will be",
+      "options": [
+        "$\\phi/2R$",
+        "$\\phi/R$",
+        "$2~\\phi/R$",
+        "zero"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The initial magnetic flux is $\\phi_{i} = \\phi$.<br><b>Step 2:</b> When the field is reversed, the final flux is $\\phi_{f} = -\\phi$.<br><b>Step 3:</b> The magnitude of change in flux is $|\\Delta\\phi| = |-\\phi - \\phi| = 2\\phi$.<br><b>Step 4:</b> The induced charge $q$ is given by $q = \\frac{\\Delta\\phi}{R} = \\frac{2\\phi}{R}$."
+    },
+    {
+      "id": "EMI-CWI-006",
+      "topic": "Motional EMF",
+      "difficulty": 2,
+      "tags": ["Aeroplane Problem", "Earth's Magnetic Field"],
+      "q": "An aeroplane with wing span 50 m is flying horizontally with a speed of 360 km/hr over a place where the vertical component of the earth's magnetic field is $2\\times10^{-4}Wb/m^{2}$. The potential difference between the tips of the wings would be:",
+      "options": [
+        "0.1V",
+        "1.0V",
+        "0.2V",
+        "0.01V"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Convert speed from km/hr to m/s: $v = 360 \\times \\frac{5}{18} = 100~m/s$.<br><b>Step 2:</b> The wings cut the vertical component of the Earth's magnetic field. Use the motional EMF formula: $e = B_{V}lv$.<br><b>Step 3:</b> Substitute the values: $e = (2 \\times 10^{-4}) \\times 50 \\times 100 = 1.0$ V."
+    },
+    {
+      "id": "EMI-CWI-007",
+      "topic": "Motional EMF",
+      "difficulty": 3,
+      "tags": ["Dip Angle", "Earth's Magnetic Field"],
+      "q": "The horizontal component of the earth's magnetic field at a place is $3\\times10^{-4}T$ and the dip is $\\theta=\\tan^{-1}(4/3)$. A metal rod of length 0.25m placed in the north-south position is moved at a constant speed of $10~m/s$ towards the east. The e.m.f induced in the rod will be:",
+      "options": [
+        "zero",
+        "1 mV",
+        "5 mV",
+        "10mV"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> A rod placed N-S and moving East cuts the vertical component of the Earth's magnetic field $B_{V}$.<br><b>Step 2:</b> Calculate $B_{V}$ using the dip angle: $\\tan\\theta = \\frac{B_{V}}{B_{H}} \\implies B_{V} = B_{H}\\tan\\theta = 3 \\times 10^{-4} \\times \\frac{4}{3} = 4 \\times 10^{-4}$ T.<br><b>Step 3:</b> Use the motional EMF formula: $e = B_{V}lv = 4 \\times 10^{-4} \\times 0.25 \\times 10$.<br><b>Step 4:</b> $e = 1 \\times 10^{-3}$ V = 1 mV."
+    },
+    {
+      "id": "EMI-CWI-008",
+      "topic": "Motional EMF",
+      "difficulty": 2,
+      "tags": ["Falling Rod", "Kinematics"],
+      "q": "A metal bar of length 1m falls from rest under the action of gravity remaining horizontal with its ends in east-west direction. The induced e.m.f in it at the instant when it has fallen for 10s is $(B_{H}=1.7\\times10^{-5}T$ and $g=10ms^{-2})$",
+      "options": [
+        "2.5mV",
+        "3.2 mV",
+        "1.7mV",
+        "0.5mV"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The rod falls vertically while oriented E-W, so it cuts the horizontal component of the magnetic field $B_{H}$.<br><b>Step 2:</b> Find the velocity after 10s using $v = u + gt$: $v = 0 + 10 \\times 10 = 100~m/s$.<br><b>Step 3:</b> Calculate induced EMF: $e = B_{H}lv = 1.7 \\times 10^{-5} \\times 1 \\times 100 = 1.7 \\times 10^{-3}$ V.<br><b>Step 4:</b> Convert to milli volts: $e = 1.7$ mV."
+    },
+    {
+      "id": "EMI-CWI-009",
+      "topic": "Motional EMF",
+      "difficulty": 3,
+      "tags": ["Semicircular Ring", "Effective Length"],
+      "imgUrl": "",
+      "q": "A thin semicircular conducting ring of radius R is falling with its plane vertical in a horizontal magnetic induction B (figure). At the position MNQ the speed of the ring is V. The potential difference developed across the ring is:",
+      "options": [
+        "zero",
+        "$BV\\pi R^{2}/V$ and M is at higher potential",
+        "$\\pi RBV$ and Q is at higher potential",
+        "$2RBV$ and Q is at higher potential"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The induced EMF in a moving curved conductor is equivalent to the EMF induced in the straight line connecting its ends (effective length).<br><b>Step 2:</b> The effective length $l_{eff}$ between ends M and Q is the diameter $2R$.<br><b>Step 3:</b> The magnitude of the motional EMF is $e = Bvl_{eff} = 2RBV$.<br><b>Step 4:</b> By Fleming's Right-Hand Rule (or Lorentz force $\\vec{F} = q(\\vec{v} \\times \\vec{B})$ on positive charges), the positive charge accumulates at Q, making Q the higher potential."
+    },
+    {
+      "id": "EMI-CWI-010",
+      "topic": "Motional EMF",
+      "difficulty": 3,
+      "tags": ["Terminal Velocity", "Magnetic Force"],
+      "imgUrl": "",
+      "q": "Two thick rods AB, CD are placed parallel to each other at a distance l. their ends are joined to a resistance R. A magnetic field of induction B is applied perpendicular to the plane containing the rods. If the rods are vertical, the terminal uniform velocity of the rod PQ of mass m is given by",
+      "options": [
+        "$\\frac{mgR}{B^{2}l^{2}}$",
+        "$\\frac{mgR}{Bl}$",
+        "$\\frac{mg}{BlR}$",
+        "$\\frac{mgl}{BR}$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> As the rod falls with velocity $v$, the induced EMF is $e = Blv$.<br><b>Step 2:</b> The induced current is $i = \\frac{e}{R} = \\frac{Blv}{R}$.<br><b>Step 3:</b> The magnetic force acting upwards on the rod is $F_{m} = iBl = \\left(\\frac{Blv}{R}\\right)Bl = \\frac{B^{2}l^{2}v}{R}$.<br><b>Step 4:</b> At terminal velocity, the upward magnetic force equals the downward gravitational force: $\\frac{B^{2}l^{2}v}{R} = mg$.<br><b>Step 5:</b> Solving for terminal velocity $v$: $v = \\frac{mgR}{B^{2}l^{2}}$."
+    }
+  ]
+}
