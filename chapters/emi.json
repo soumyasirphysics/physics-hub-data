@@ -159,6 +159,309 @@
       ],
       "correct": 0,
       "sol": "<b>Step 1:</b> As the rod falls with velocity $v$, the induced EMF is $e = Blv$.<br><b>Step 2:</b> The induced current is $i = \\frac{e}{R} = \\frac{Blv}{R}$.<br><b>Step 3:</b> The magnetic force acting upwards on the rod is $F_{m} = iBl = \\left(\\frac{Blv}{R}\\right)Bl = \\frac{B^{2}l^{2}v}{R}$.<br><b>Step 4:</b> At terminal velocity, the upward magnetic force equals the downward gravitational force: $\\frac{B^{2}l^{2}v}{R} = mg$.<br><b>Step 5:</b> Solving for terminal velocity $v$: $v = \\frac{mgR}{B^{2}l^{2}}$."
+    },
+    {
+      "id": "EMI-CWI-011",
+      "topic": "Motional EMF",
+      "difficulty": 3,
+      "tags": ["Rotating Ring", "Motional EMF"],
+      "imgUrl": "",
+      "q": "A conducting ring of radius 'r' is rolling without slipping with a constant angular velocity (figure). If the magnetic field strength is B and is directed into the page then the emf induced across PQ is",
+      "options": [
+        "$B\\omega r^{2}$",
+        "$\\frac{\\pi B\\omega r^{2}}{2}$",
+        "$4B\\omega r^{2}$",
+        "$\\frac{B\\omega r^{2}}{2}$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Using the formula for induced EMF across a rotating conductor of effective length $l$, we have $e = \\frac{Bl^{2}}{2}\\omega$.<br><b>Step 2:</b> The points P and Q (based on the diagram geometry) have an effective chord length $l = \\sqrt{2}r$.<br><b>Step 3:</b> Substitute this length into the EMF formula: $e = \\frac{B(\\sqrt{2}r)^{2}}{2}\\omega = \\frac{B(2r^{2})}{2}\\omega = B\\omega r^{2}$."
+    },
+    {
+      "id": "EMI-CWI-012",
+      "topic": "Motional EMF",
+      "difficulty": 2,
+      "tags": ["Rotating Wheel", "Parallel EMF"],
+      "q": "A cycle wheel with 64 spokes is rotating with N rotations per second at right angles to horizontal component of magnetic field. The induced e.m.f. generated between its axle and rim is E. If the number of spokes is reduced to 32 then the value of induced e.m.f. will be",
+      "options": [
+        "E",
+        "2E",
+        "$E/2$",
+        "$E/4$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The induced EMF across any single spoke of a rotating wheel is given by $e = \\frac{1}{2}Bl^{2}\\omega$.<br><b>Step 2:</b> Since all spokes connect the axle (center) to the rim, they act as identical cells connected in parallel.<br><b>Step 3:</b> The equivalent EMF of multiple identical cells in parallel is equal to the EMF of a single cell. Therefore, reducing the number of spokes from 64 to 32 does not change the induced EMF. The new EMF is E."
+    },
+    {
+      "id": "EMI-CWI-013",
+      "topic": "Motional EMF",
+      "difficulty": 2,
+      "tags": ["Rotating Disc", "Earth's Magnetic Field"],
+      "q": "A uniform circular metal disc of radius R is rotating about a vertical axis passing through its center and perpendicular to its plane with constant frequency f. If $B_{H}$ and $B_{V}$ are horizontal and vertical components of the Earth's magnetic field respectively, then the induced e.m.f between its center and the rim is",
+      "options": [
+        "$\\pi B_{V}fR^{2}$",
+        "$\\pi B_{H}fR^{2}$",
+        "$2\\pi B_{V}fR^{2}$",
+        "Zero"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> A disc rotating in a horizontal plane intersects the vertical component of the Earth's magnetic field, $B_{V}$.<br><b>Step 2:</b> The induced EMF between the center and rim of a rotating disc is given by $e = \\frac{1}{2}B_{V}R^{2}\\omega$.<br><b>Step 3:</b> Express angular velocity $\\omega$ in terms of frequency $f$: $\\omega = 2\\pi f$.<br><b>Step 4:</b> Substitute $\\omega$: $e = \\frac{1}{2}B_{V}R^{2}(2\\pi f) = \\pi B_{V}fR^{2}$."
+    },
+    {
+      "id": "EMI-CWI-014",
+      "topic": "Motional EMF",
+      "difficulty": 2,
+      "tags": ["Rotating Disc", "EMF Calculation"],
+      "q": "A copper disc of diameter 20 cm makes 1200 r.p.m. about its natural axis kept parallel to a uniform magnetic field of $10^{-2}T$. The potential difference between the centre and edge of the disc is",
+      "options": [
+        "$6.28\\times10^{-3}V$",
+        "$62.8\\times10^{-3}V$",
+        "$0.628\\times10^{-3}V$",
+        "0.628 V"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Extract values: Diameter = 20 cm, so radius $R = 10 \\text{ cm} = 0.1 \\text{ m}$. Magnetic field $B = 10^{-2} \\text{ T}$.<br><b>Step 2:</b> Calculate angular velocity $\\omega$: $1200 \\text{ r.p.m.} = \\frac{1200}{60} \\text{ rev/s} = 20 \\text{ rev/s}$. Therefore, $\\omega = 2\\pi(20) = 40\\pi \\text{ rad/s}$.<br><b>Step 3:</b> The induced EMF formula is $e = \\frac{1}{2}BR^{2}\\omega$.<br><b>Step 4:</b> Substitute the values: $e = \\frac{1}{2} \\times 10^{-2} \\times (0.1)^{2} \\times 40\\pi = 0.5 \\times 10^{-2} \\times 0.01 \\times 125.6 = 6.28 \\times 10^{-3} \\text{ V}$."
+    },
+    {
+      "id": "EMI-CWI-015",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 2,
+      "tags": ["AC Generator", "Maximum EMF"],
+      "q": "In an AC generator, a coil with N turns, all of the same area A and total resitance R, rotates with frequency $f$ (angular frequency $\\omega$) in a magnetic field B. The maximum value of emf generated in the coil is",
+      "options": [
+        "NABR$\\omega$",
+        "NAB",
+        "NABR",
+        "NAB$\\omega$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The magnetic flux linked with the generator coil at any instant $t$ is $\\phi = NAB \\cos(\\omega t)$.<br><b>Step 2:</b> According to Faraday's law, the induced EMF is $e = -\\frac{d\\phi}{dt} = NAB\\omega \\sin(\\omega t)$.<br><b>Step 3:</b> The EMF reaches its maximum value when $\\sin(\\omega t) = 1$. Therefore, the maximum generated EMF is $e_{max} = NAB\\omega$."
+    },
+    {
+      "id": "EMI-CWI-016",
+      "topic": "Induced Electric Fields",
+      "difficulty": 3,
+      "tags": ["Time Varying Field", "Spiral Coil"],
+      "imgUrl": "",
+      "q": "A flat circular coil having N turns (tightly wound) is placed in a time varying magnetic field $B=B_{0}\\sin \\omega t$. The outer radius of the coil is R. Determine the maximum value of the induced emf in the circuit.",
+      "options": [
+        "$\\pi R^{2}NB_{0}\\omega$",
+        "$3\\pi R^{2}NB_{0}\\omega$",
+        "$\\frac{\\pi R^{2}NB_{0}}{\\omega}$",
+        "$\\frac{\\pi R^{2}NB_{0}\\omega}{3}$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> For a tightly wound flat circular coil with $N$ total turns and outer radius $R$, the number of turns in an infinitesimally thin ring of width $dr$ is $dN = \\frac{N}{R}dr$.<br><b>Step 2:</b> The flux $d\\phi$ passing through this thin ring of radius $r$ is $d\\phi = B \\cdot \\text{Area} \\cdot dN = (B_{0}\\sin \\omega t)(\\pi r^{2})\\left(\\frac{N}{R}dr\\right)$.<br><b>Step 3:</b> Integrate from $r=0$ to $R$ to find total flux: $\\phi = \\int_{0}^{R} \\frac{\\pi N B_{0}\\sin \\omega t}{R} r^{2} dr = \\frac{\\pi N B_{0}\\sin \\omega t}{R} \\left[\\frac{r^{3}}{3}\\right]_{0}^{R} = \\frac{\\pi R^{2} N B_{0}\\sin \\omega t}{3}$.<br><b>Step 4:</b> Induced EMF $e = -\\frac{d\\phi}{dt} = -\\frac{\\pi R^{2} N B_{0}\\omega}{3} \\cos \\omega t$. The maximum magnitude is $\\frac{\\pi R^{2}NB_{0}\\omega}{3}$."
+    },
+    {
+      "id": "EMI-CWI-017",
+      "topic": "Induced Electric Fields",
+      "difficulty": 2,
+      "tags": ["Induced Electric Field", "Faraday's Law"],
+      "imgUrl": "",
+      "q": "A uniform but time-varying magnetic field $B(t)$ exists in a circular region of radius a and is directed into the plane of the paper as shown. The magnitude of the induced electirc field at point p at a distance r from the centre of the circular region ($r > a$)",
+      "options": [
+        "is zero",
+        "decreases as $1/r$",
+        "increases as r",
+        "decreases as $1/r^{2}$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> By Faraday's law of induction in its integral form: $\\oint \\vec{E} \\cdot d\\vec{l} = -\\frac{d\\phi}{dt}$.<br><b>Step 2:</b> For a point outside the magnetic field region ($r > a$), consider a circular loop of radius $r$. The total enclosed flux is $\\phi = \\pi a^{2} B(t)$.<br><b>Step 3:</b> $E(2\\pi r) = \\pi a^{2} \\left|\\frac{dB}{dt}\\right| \\implies E = \\frac{a^{2}}{2r} \\left|\\frac{dB}{dt}\\right|$.<br><b>Step 4:</b> Therefore, the induced electric field $E$ is inversely proportional to $r$ ($E \\propto \\frac{1}{r}$), meaning it decreases as $1/r$."
+    },
+    {
+      "id": "EMI-CWI-018",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 1,
+      "tags": ["Self Inductance", "EMF Calculation"],
+      "q": "A coil has self inductance of 0.01H. The current through it is allowed to change at the rate of 1A in $10^{-2}s$. The induced emf is",
+      "options": [
+        "1V",
+        "2V",
+        "3V",
+        "4V"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The magnitude of self-induced EMF is given by the formula $e = L \\frac{di}{dt}$.<br><b>Step 2:</b> Identify the given parameters: Inductance $L = 0.01 \\text{ H}$, rate of change of current $\\frac{di}{dt} = \\frac{1 \\text{ A}}{10^{-2} \\text{ s}} = 100 \\text{ A/s}$.<br><b>Step 3:</b> Substitute these values into the formula: $e = 0.01 \\times 100 = 1 \\text{ V}$."
+    },
+    {
+      "id": "EMI-CWI-019",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 1,
+      "tags": ["Self Inductance", "Average EMF"],
+      "q": "The average self-induced emf in a 25mH solenoid when the current in it falls from 0.2 A to 0 A in 0.01 second, is",
+      "options": [
+        "0.05 V",
+        "0.5 V",
+        "500 V",
+        "50 V"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The formula for the magnitude of average induced EMF is $e = L \\frac{\\Delta i}{\\Delta t}$.<br><b>Step 2:</b> Given Inductance $L = 25 \\text{ mH} = 25 \\times 10^{-3} \\text{ H}$.<br><b>Step 3:</b> Change in current $\\Delta i = 0.2 \\text{ A} - 0 \\text{ A} = 0.2 \\text{ A}$. Change in time $\\Delta t = 0.01 \\text{ s}$.<br><b>Step 4:</b> Calculate EMF: $e = (25 \\times 10^{-3}) \\times \\frac{0.2}{0.01} = (25 \\times 10^{-3}) \\times 20 = 500 \\times 10^{-3} \\text{ V} = 0.5 \\text{ V}$."
+    },
+    {
+      "id": "EMI-CWI-020",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 1,
+      "tags": ["Equivalent Inductance", "Parallel Combination"],
+      "q": "Two inductors each of inductance L are joined in parallel. Their equivalent inductance is",
+      "options": [
+        "zero",
+        "2L",
+        "$L/2$",
+        "L"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> When inductors are connected in parallel (and assuming zero mutual inductance between them), their equivalent inductance is calculated similarly to parallel resistors.<br><b>Step 2:</b> $\\frac{1}{L_{eq}} = \\frac{1}{L_{1}} + \\frac{1}{L_{2}}$.<br><b>Step 3:</b> Given $L_{1} = L_{2} = L$, we have $\\frac{1}{L_{eq}} = \\frac{1}{L} + \\frac{1}{L} = \\frac{2}{L}$.<br><b>Step 4:</b> Inverting both sides gives $L_{eq} = \\frac{L}{2}$."
+    },
+    {
+      "id": "EMI-CWI-021",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 2,
+      "tags": ["Flux Linkage", "Self Inductance Calculation"],
+      "q": "A coil of 100 turns with a current of 5A produced a magnetic flux of $1~\\mu$ Wb and each turn of the coil. The coefficient of self induction is",
+      "options": [
+        "$10~\\mu H$",
+        "$20~\\mu H$",
+        "$30~\\mu H$",
+        "$40~\\mu H$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The total flux linkage of a coil is the product of the number of turns $N$ and the flux through each turn $\\phi$. Total flux linkage $= N\\phi$.<br><b>Step 2:</b> The definition of self-inductance relates flux linkage to current: $N\\phi = Li$.<br><b>Step 3:</b> We are given $N = 100$, $i = 5 \\text{ A}$, and $\\phi = 1 \\mu\\text{Wb} = 10^{-6} \\text{ Wb}$.<br><b>Step 4:</b> Substitute the values to find $L$: $L = \\frac{N\\phi}{i} = \\frac{100 \\times 10^{-6}}{5} = 20 \\times 10^{-6} \\text{ H} = 20 \\mu\\text{H}$."
+    },
+    {
+      "id": "EMI-CWI-022",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 2,
+      "tags": ["Self Inductance", "Rate of Change of Current"],
+      "q": "In an inductance coil the current increases from zero to 6 ampere in 0.3 second by which an induced e.m.f. of 60 volt is produced in it. The value of coefficient of self-induction of coil is",
+      "options": [
+        "1 henry",
+        "1.5 henry",
+        "2 henry",
+        "3 henry"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The relationship between induced EMF and the rate of change of current is given by $e = L \\frac{\\Delta i}{\\Delta t}$.<br><b>Step 2:</b> We are given the induced EMF $e = 60 \\text{ V}$, change in current $\\Delta i = 6 \\text{ A} - 0 \\text{ A} = 6 \\text{ A}$, and time interval $\\Delta t = 0.3 \\text{ s}$.<br><b>Step 3:</b> Rearrange the formula to solve for $L$: $L = \\frac{e}{\\frac{\\Delta i}{\\Delta t}} = \\frac{60}{\\left(\\frac{6}{0.3}\\right)}$.<br><b>Step 4:</b> $L = \\frac{60}{20} = 3 \\text{ H}$. So, the coefficient of self-induction is 3 henry."
+    },
+    {
+      "id": "EMI-CWI-023",
+      "topic": "Self Induction & Mutual Induction",
+      "difficulty": 3,
+      "tags": ["Mutual Inductance", "Flux Linkage"],
+      "q": "Two coils are at fixed locations. When coil 1 has no current and the current in coil 2 increases at the rate of 15.0 A/s, the emf in coil 1 is 25.0 mV, when coil 2 has no current and coil 1 has a current of 3.6 A, the flux linkage in coil 2 is",
+      "options": [
+        "16 mWb",
+        "10 mWb",
+        "4.00 mWb",
+        "6.00 mWb"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> First, determine the mutual inductance $M$ of the system. We know $e_{1} = M \\frac{di_{2}}{dt}$.<br><b>Step 2:</b> Substitute the given values to find $M$: $25.0 \\times 10^{-3} = M \\times 15.0 \\implies M = \\frac{25.0 \\times 10^{-3}}{15.0} = \\frac{5}{3} \\times 10^{-3} \\text{ H}$.<br><b>Step 3:</b> The flux linkage in coil 2 due to a steady current in coil 1 is given by $\\phi_{2} = M i_{1}$.<br><b>Step 4:</b> Substitute $M$ and $i_{1}$: $\\phi_{2} = \\left(\\frac{5}{3} \\times 10^{-3}\\right) \\times 3.6 = 5 \\times 1.2 \\times 10^{-3} = 6.0 \\times 10^{-3} \\text{ Wb} = 6.0 \\text{ mWb}."
+    },
+    {
+      "id": "EMI-CWI-024",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 2,
+      "tags": ["L-R Circuit", "Initial Current Growth"],
+      "q": "A coil of inductance 0.20 H is connected in series with a switch and a cell of emf 1.6 V. The total resistance of the circuit is $4\\Omega$ What is the initial rate of growth of the current when the switch is closed?",
+      "options": [
+        "$0.050As^{-1}$",
+        "$0.40As^{-1}$",
+        "$0.13As^{-1}$",
+        "$8.0As^{-1}$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The differential equation governing current growth in an L-R circuit is $E = L\\frac{di}{dt} + iR$.<br><b>Step 2:</b> At the very initial instant when the switch is closed ($t = 0$), the current in the circuit is zero ($i = 0$).<br><b>Step 3:</b> Substituting $i=0$ into the equation gives $E = L\\frac{di}{dt} + (0)R \\implies \\frac{di}{dt} = \\frac{E}{L}$.<br><b>Step 4:</b> Calculate the initial rate of growth: $\\frac{di}{dt} = \\frac{1.6 \\text{ V}}{0.20 \\text{ H}} = 8.0 \\text{ A s}^{-1}$."
+    },
+    {
+      "id": "EMI-CWI-025",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 2,
+      "tags": ["Time Constant", "L-R Circuit Ratio"],
+      "q": "Two inductance coils made of different metal wires are having the same inductance. But their time constants are in the ratio 1: 2. Then the ratio of their resistances is",
+      "options": [
+        "1:2",
+        "$1:\\sqrt{2}$",
+        "$\\sqrt{2}:1$",
+        "2:1"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The time constant $\\tau$ of an L-R circuit is given by the formula $\\tau = \\frac{L}{R}$.<br><b>Step 2:</b> Let the time constants of the two coils be $\\tau_{1}$ and $\\tau_{2}$. We are given that $\\frac{\\tau_{1}}{\\tau_{2}} = \\frac{1}{2}$ and $L_{1} = L_{2} = L$.<br><b>Step 3:</b> Write out the ratio of time constants in terms of $L$ and $R$: $\\frac{L/R_{1}}{L/R_{2}} = \\frac{R_{2}}{R_{1}}$.<br><b>Step 4:</b> Equate this to the given ratio: $\\frac{R_{2}}{R_{1}} = \\frac{1}{2} \\implies \\frac{R_{1}}{R_{2}} = \\frac{2}{1}$. Thus, the ratio of their resistances is 2:1."
+    },
+    {
+      "id": "EMI-CWI-026",
+      "topic": "D.C Transient Circuits",
+      "difficulty": 3,
+      "tags": ["Series L-R Circuit", "Internal Resistance"],
+      "q": "The time constant of an inductor is $\\tau_{1}$. When a pure resistor of $R\\Omega$ is connected in series with it, the time constant is found to decrease to $\\tau_{2}$. The internal resistance of the inductor is",
+      "options": [
+        "$\\frac{R\\tau_{2}}{\\tau_{1}-\\tau_{2}}$",
+        "$\\frac{R\\tau_{1}}{\\tau_{1}-\\tau_{2}}$",
+        "$\\frac{R(\\tau_{1}-\\tau_{2})}{\\tau_{1}}$",
+        "$\\frac{R(\\tau_{1}-\\tau_{2})}{\\tau_{2}}$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Let the inductance of the inductor be $L$ and its internal resistance be $r$. The initial time constant is $\\tau_{1} = \\frac{L}{r}$.<br><b>Step 2:</b> From this, we can write $L = r\\tau_{1}$.<br><b>Step 3:</b> When a pure resistor $R$ is added in series, the new total resistance is $(R+r)$. The new time constant is $\\tau_{2} = \\frac{L}{R+r}$.<br><b>Step 4:</b> Substitute $L = r\\tau_{1}$ into the second equation: $\\tau_{2} = \\frac{r\\tau_{1}}{R+r}$.<br><b>Step 5:</b> Cross-multiply and solve for $r$: $\\tau_{2}(R+r) = r\\tau_{1} \\implies R\\tau_{2} + r\\tau_{2} = r\\tau_{1} \\implies R\\tau_{2} = r(\\tau_{1} - \\tau_{2}) \\implies r = \\frac{R\\tau_{2}}{\\tau_{1} - \\tau_{2}}$."
+    },
+    {
+      "id": "EMI-HWI-001",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 2,
+      "tags": ["Faraday's Law", "Ohm's Law"],
+      "q": "In a coil of area $10cm^{2}$ and 10 turns with magnetic field directed perpendicular to the plane and is changing at the rate of $10^{8}$ gauss/second. The resistance of the coil is 20 $\\Omega$. The current in the coil will be",
+      "options": [
+        "0.5A",
+        "5A",
+        "50A",
+        "$5~\\times10^{8}A$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Convert the rate of change of magnetic field to standard SI units (Tesla/s). $1 \\text{ Gauss} = 10^{-4} \\text{ Tesla}$. Thus, $\\frac{dB}{dt} = 10^{8} \\text{ Gauss/s} = 10^{8} \\times 10^{-4} \\text{ T/s} = 10^{4} \\text{ T/s}$.<br><b>Step 2:</b> Calculate the induced EMF using $e = NA\\frac{dB}{dt}$. Here $A = 10 \\text{ cm}^{2} = 10 \\times 10^{-4} \\text{ m}^{2} = 10^{-3} \\text{ m}^{2}$ and $N=10$.<br><b>Step 3:</b> $e = 10 \\times 10^{-3} \\times 10^{4} = 100 \\text{ V}$.<br><b>Step 4:</b> Find the current using Ohm's Law: $i = \\frac{e}{R} = \\frac{100}{20} = 5 \\text{ A}$."
+    },
+    {
+      "id": "EMI-HWI-002",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 2,
+      "tags": ["Reversing Flux", "Average EMF"],
+      "q": "A magnetic flux of 500 micro-webers passing through a 200 turns coil is reversed in $20\\times10^{-3}$ seconds. The average emf induced in the coil in volts, is :",
+      "options": [
+        "2.5",
+        "5.0",
+        "7.5",
+        "10.0"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> When flux is reversed, it changes from $\\phi$ to $-\\phi$. The magnitude of change in flux per turn is $\\Delta\\phi = |\\phi - (-\\phi)| = 2\\phi$.<br><b>Step 2:</b> Given $\\phi = 500 \\mu\\text{Wb} = 500 \\times 10^{-6} \\text{ Wb}$. Thus, $\\Delta\\phi = 2 \\times 500 \\times 10^{-6} = 1000 \\times 10^{-6} = 10^{-3} \\text{ Wb}$.<br><b>Step 3:</b> Calculate total change in flux linkages: $N\\Delta\\phi = 200 \\times 10^{-3} = 0.2 \\text{ Wb}$.<br><b>Step 4:</b> The average induced EMF is $e = \\frac{N\\Delta\\phi}{\\Delta t} = \\frac{0.2}{20 \\times 10^{-3}} = \\frac{0.2}{0.02} = 10.0 \\text{ V}$."
+    },
+    {
+      "id": "EMI-HWI-003",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 2,
+      "tags": ["Magnetic Field Reversal", "Average EMF"],
+      "q": "A rectangular coil of 200 turns and area $100~cm^{2}$ is kept perpendicular to a uniform magnetic field of induction 0.25 tesla. If the field is reversed in direction in 0.01 second, the average induced emf in the coil is",
+      "options": [
+        "10 V",
+        "$10^{4} V$",
+        "$10^{2} V$",
+        "zero"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The field is reversed, meaning it changes from $B$ to $-B$. The change in magnetic field is $\\Delta B = B - (-B) = 2B$.<br><b>Step 2:</b> Given $B = 0.25 \\text{ T}$, so $\\Delta B = 2 \\times 0.25 = 0.5 \\text{ T}$.<br><b>Step 3:</b> The average induced EMF is given by $e = NA \\frac{\\Delta B}{\\Delta t}$. Convert area to $m^{2}$: $A = 100 \\text{ cm}^{2} = 100 \\times 10^{-4} \\text{ m}^{2} = 10^{-2} \\text{ m}^{2}$.<br><b>Step 4:</b> Substitute the values: $e = 200 \\times 10^{-2} \\times \\frac{0.5}{0.01} = 2 \\times 50 = 100 \\text{ V} = 10^{2} \\text{ V}$."
+    },
+    {
+      "id": "EMI-HWI-004",
+      "topic": "Magnetic Flux & Faraday's Laws",
+      "difficulty": 2,
+      "tags": ["Changing Magnetic Field", "Average EMF"],
+      "q": "A coil having an area $2m^{2}$ is placed in a magnetic field which changes from 1Wb/$m^{2}$ to 4Wb/$m^{2}$ in an interval of 2 second. The average e.m.f. induced in the coil will be",
+      "options": [
+        "4V",
+        "3V",
+        "1.5V",
+        "2V"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Assuming a single turn coil unless stated otherwise ($N=1$). The magnitude of average induced EMF is calculated as $e = A \\frac{\\Delta B}{\\Delta t}$.<br><b>Step 2:</b> The change in magnetic field is $\\Delta B = B_{final} - B_{initial} = 4 \\text{ Wb/m}^{2} - 1 \\text{ Wb/m}^{2} = 3 \\text{ Wb/m}^{2}$.<br><b>Step 3:</b> The time interval is $\\Delta t = 2 \\text{ s}$. The area is $A = 2 \\text{ m}^{2}$.<br><b>Step 4:</b> Substitute the values into the formula: $e = 2 \\times \\frac{3}{2} = 3 \\text{ V}$."
     }
   ]
 }
