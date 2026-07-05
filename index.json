@@ -22,6 +22,21 @@
     "topics": ["Distance and Displacement", "Average Speed and Velocity", "Instantaneous Velocity and Acceleration", "Kinematic Equations for Uniformly Accelerated Motion", "Motion under Gravity (Free Fall)", "Relative Velocity in 1D"],
     "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/motion_in_a_straight_line.json"
   },
+  "Motion in a Plane": {
+    "classTarget": "Class 11",
+    "totalQuestions": 113,
+    "topics": [
+    "Parallelogram Law",
+    "Triangle Law, Polygon Law & Lami's Theorem",
+    "Motion in a Plane",
+    "Concept of Relative Velocity",
+    "Motion of a Boat in a River",
+    "Oblique Projectile",
+    "Horizontal Projectile",
+    "Circular Motion"
+  ],
+    "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/motion_in_a_plane.json"
+  },
   "Electrostatics": {
     "classTarget": "Class 12",
     "totalQuestions": 97, 
