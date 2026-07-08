@@ -2112,6 +2112,606 @@
       ],
       "correct": 1,
       "sol": "<b>Step 1:</b> Convert velocity to m/s: $v = 27 \\times \\frac{5}{18} = 7.5$ m/s.<br><b>Step 2:</b> Calculate the centripetal acceleration: $a_c = \\frac{v^2}{r} = \\frac{7.5^2}{80} = \\frac{56.25}{80} \\approx 0.703$ m/s$^2$.<br><b>Step 3:</b> The tangential acceleration (deceleration) is given as $a_t = 0.5$ m/s$^2$.<br><b>Step 4:</b> The net acceleration is the vector sum of both perpendicular components: $a = \\sqrt{a_c^2 + a_t^2} = \\sqrt{0.703^2 + 0.5^2}$.<br><b>Step 5:</b> $a = \\sqrt{0.494 + 0.25} = \\sqrt{0.744} \\approx 0.862$ m/s$^2$, which is closest to $0.87$ m/s$^2$."
+    },
+    {
+      "id": "MP-CWII-037",
+      "topic": "Circular Motion",
+      "difficulty": 2,
+      "tags": ["Angular Velocity", "Linear Speed"],
+      "q": "The length of minute hand in a pendulum clock is 10cm the speed of tip of the hand is (in m/s)",
+      "options": [
+        "$\\frac{\\pi}{6000}$",
+        "$\\frac{\\pi}{18000}$",
+        "$\\frac{\\pi}{3600}$",
+        "$\\frac{\\pi}{1200}$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> A minute hand completes one full revolution ($2\\pi$ radians) in 60 minutes.<br><b>Step 2:</b> Time period $T = 60 \\times 60 = 3600$ seconds.<br><b>Step 3:</b> Angular velocity $\\omega = \\frac{2\\pi}{T} = \\frac{2\\pi}{3600}$ rad/s.<br><b>Step 4:</b> Radius $r = 10 \\text{ cm} = 0.1$ m.<br><b>Step 5:</b> Speed of the tip $v = r\\omega = 0.1 \\times \\frac{2\\pi}{3600} = \\frac{2\\pi}{36000} = \\frac{\\pi}{18000}$ m/s."
+    },
+    {
+      "id": "MP-CWII-038",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Equations of Motion", "Angle of Projection"],
+      "q": "Equations of motion of a projectile are given by $x=36t$ and $2y=96t-98t^{2}m$ angle of projection is equal to",
+      "options": [
+        "$\\sin^{-1}\\left(\\frac{3}{4}\\right)$",
+        "$\\sin^{-1}\\left(\\frac{4}{3}\\right)$",
+        "$\\sin^{-1}\\left(\\frac{4}{5}\\right)$",
+        "$\\sin^{-1}\\left(\\frac{3}{5}\\right)$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> From $x = 36t$, the horizontal velocity is $u_x = \\frac{dx}{dt} = 36$ m/s.<br><b>Step 2:</b> Rewrite the y-equation: $y = 48t - 49t^2$.<br><b>Step 3:</b> The vertical velocity is $u_y = \\frac{dy}{dt} = 48 - 98t$. At $t=0$, initial vertical velocity $u_y = 48$ m/s.<br><b>Step 4:</b> The angle of projection $\\theta$ is given by $\\tan\\theta = \\frac{u_y}{u_x} = \\frac{48}{36} = \\frac{4}{3}$.<br><b>Step 5:</b> If $\\tan\\theta = \\frac{4}{3}$, we can form a right triangle (opposite=4, adjacent=3, hypotenuse=5). Thus, $\\sin\\theta = \\frac{4}{5}$.<br><b>Step 6:</b> Therefore, $\\theta = \\sin^{-1}\\left(\\frac{4}{5}\\right)$."
+    },
+    {
+      "id": "MP-CWII-039",
+      "topic": "Parallelogram Law",
+      "difficulty": 1,
+      "tags": ["Resultant Direction", "Equal Vectors"],
+      "q": "$\\vec{A}$ and $\\vec{B}$ are two vectors of equal magnitude and $\\theta$ is the angle between them. The angle between $\\vec{A}$ or $\\vec{B}$ with their resultant is",
+      "options": [
+        "$\\frac{\\theta}{4}$",
+        "$\\frac{\\theta}{2}$",
+        "$2\\theta$",
+        "0"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The direction of the resultant of two vectors is given by $\\tan\\alpha = \\frac{B\\sin\\theta}{A + B\\cos\\theta}$.<br><b>Step 2:</b> Since magnitudes are equal ($A = B$), $\\tan\\alpha = \\frac{A\\sin\\theta}{A(1 + \\cos\\theta)} = \\frac{\\sin\\theta}{1 + \\cos\\theta}$.<br><b>Step 3:</b> Using half-angle formulas: $\\frac{2\\sin(\\theta/2)\\cos(\\theta/2)}{2\\cos^2(\\theta/2)} = \\tan(\\theta/2)$.<br><b>Step 4:</b> Therefore, $\\alpha = \\frac{\\theta}{2}$. The resultant bisects the angle between two equal vectors."
+    },
+    {
+      "id": "MP-CWII-040",
+      "topic": "Oblique Projectile",
+      "difficulty": 1,
+      "tags": ["Velocity Direction", "Maximum Height"],
+      "q": "If a body is projected with an angle $\\theta$ to the horizontal then",
+      "options": [
+        "it's velocity always perpendicular to its acceleration",
+        "its velocity becomes zero at its maximum height",
+        "it's velocity makes zero angle with the horizontal at its maximum height",
+        "the body just before hitting the ground, the direction of velocity coincides with the acceleration."
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> In projectile motion, the acceleration is always purely vertical (gravity $g$ downwards).<br><b>Step 2:</b> The horizontal velocity component $u \\cos\\theta$ remains constant throughout the flight, so the total velocity is never zero.<br><b>Step 3:</b> At the maximum height, the vertical component of velocity becomes zero ($v_y = 0$).<br><b>Step 4:</b> Since only the horizontal velocity remains, the velocity vector is entirely horizontal, making a zero angle with the horizontal plane."
+    },
+    {
+      "id": "MP-CWII-041",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Maximum Range", "Time of Flight"],
+      "q": "A body is projected at an angle $\\theta$ so that its range is maximum. If T is the time of flight then the value of maximum range is (acceleration due to gravity = g)",
+      "options": [
+        "$\\frac{g^{2}T}{2}$",
+        "$\\frac{gT}{2}$",
+        "$\\frac{gT^{2}}{2}$",
+        "$\\frac{g^{2}T^{2}}{2}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> For maximum range, the angle of projection is $\\theta = 45^{\\circ}$.<br><b>Step 2:</b> Time of flight $T = \\frac{2u\\sin 45^{\\circ}}{g} = \\frac{2u(1/\\sqrt{2})}{g} = \\frac{\\sqrt{2}u}{g}$. From this, $u = \\frac{gT}{\\sqrt{2}}$.<br><b>Step 3:</b> The formula for maximum range is $R_{max} = \\frac{u^2}{g}$.<br><b>Step 4:</b> Substitute $u$: $R_{max} = \\frac{(gT/\\sqrt{2})^2}{g} = \\frac{g^2 T^2 / 2}{g} = \\frac{gT^2}{2}$."
+    },
+    {
+      "id": "MP-CWII-042",
+      "topic": "Oblique Projectile",
+      "difficulty": 3,
+      "tags": ["Equation of Trajectory", "Maximum Height"],
+      "q": "The path of projectile is given by the equation $y=ax-bx^{2}$, where 'a' and 'b' are constants and x and y are respectively horizontal and vertical distances of projectile from the point of projection. The maximum height attained by the projectile and the angle of projection are respectively.",
+      "options": [
+        "$\\frac{2a^{2}}{b}, \\tan^{-1}(a)$",
+        "$\\frac{b^{2}}{2a}, \\tan^{-1}(b)$",
+        "$\\frac{a^{2}}{b}, \\tan^{-1}(2b)$",
+        "$\\frac{a^{2}}{4b}, \\tan^{-1}(a)$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Compare with standard equation $y = x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}$.<br><b>Step 2:</b> We get $\\tan\\theta = a \\implies \\theta = \\tan^{-1}(a)$.<br><b>Step 3:</b> Also, $b = \\frac{g}{2u^2\\cos^2\\theta} \\implies \\frac{u^2}{2g} = \\frac{1}{4b\\cos^2\\theta}$.<br><b>Step 4:</b> Maximum height is $H = \\frac{u^2\\sin^2\\theta}{2g}$.<br><b>Step 5:</b> Substitute $\\frac{u^2}{2g}$: $H = \\left(\\frac{1}{4b\\cos^2\\theta}\\right)\\sin^2\\theta = \\frac{\\tan^2\\theta}{4b}$.<br><b>Step 6:</b> Since $\\tan\\theta = a$, we get $H = \\frac{a^2}{4b}$."
+    },
+    {
+      "id": "MP-CWII-043",
+      "topic": "Horizontal Projectile",
+      "difficulty": 2,
+      "tags": ["Striking Angle", "Vertical Velocity"],
+      "q": "A body is projected horizontally from the top of a tower with a velocity of $10~m/s$. If it hits the ground at an angle $45^{\\circ}$, the vertical component of velocity when it hits ground in $m/s$ is",
+      "options": [
+        "10",
+        "$10\\sqrt{2}$",
+        "$5\\sqrt{2}$",
+        "5"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> In a horizontal projection, the horizontal velocity remains constant: $v_x = 10$ m/s.<br><b>Step 2:</b> The angle of striking the ground is given by $\\tan\\alpha = \\frac{v_y}{v_x}$.<br><b>Step 3:</b> We are given $\\alpha = 45^{\\circ}$, so $\\tan 45^{\\circ} = 1$.<br><b>Step 4:</b> $1 = \\frac{v_y}{10} \\implies v_y = 10$ m/s."
+    },
+    {
+      "id": "MP-CWII-044",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Time of Flight", "Maximum Height Relation"],
+      "q": "A body is projected with an angle $\\theta$. The maximum height reached is h. If the time of flight is 4 sec and $g=10m/s^{2}$, then the value of h is",
+      "options": [
+        "10m",
+        "40m",
+        "20m",
+        "5m"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Time of flight $T = \\frac{2u_y}{g}$.<br><b>Step 2:</b> Substitute values: $4 = \\frac{2u_y}{10} \\implies u_y = 20$ m/s.<br><b>Step 3:</b> Maximum height $H = \\frac{u_y^2}{2g}$.<br><b>Step 4:</b> Substitute $u_y = 20$: $H = \\frac{20^2}{2 \\times 10} = \\frac{400}{20} = 20$ m."
+    },
+    {
+      "id": "MP-CWII-045",
+      "topic": "Motion of a Boat in a River",
+      "difficulty": 2,
+      "tags": ["Shortest Path", "Time Calculation"],
+      "q": "A person reaches a point directly opposite on the other bank of a river. The velocity of the water in the river is $4~m/s$ and the velocity of the person in still water is $5~m/s$. If the width of the river is 84.6m, time taken to cross the river in seconds is",
+      "options": [
+        "9.4",
+        "2",
+        "84.6",
+        "28.2"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> To reach directly opposite, the person must swim such that their effective crossing speed is $v_{cross} = \\sqrt{v_m^2 - v_r^2}$.<br><b>Step 2:</b> Calculate crossing speed: $v_{cross} = \\sqrt{5^2 - 4^2} = \\sqrt{25 - 16} = \\sqrt{9} = 3$ m/s.<br><b>Step 3:</b> Time taken $t = \\frac{\\text{width}}{v_{cross}}$.<br><b>Step 4:</b> $t = \\frac{84.6}{3} = 28.2$ seconds."
+    },
+    {
+      "id": "MP-HWII-001",
+      "topic": "Parallelogram Law",
+      "difficulty": 3,
+      "tags": ["Resultant of Vectors", "Vector Addition"],
+      "q": "The greatest and least resultant of two forces are 7 N and 3N respectively. If each of the force is increased by 3 N and applied at $60^{\\circ}$. The magnitude of the resultant is",
+      "options": [
+        "7 N",
+        "3 N",
+        "10 N",
+        "$\\sqrt{129}N$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Let forces be A and B. Greatest resultant $A + B = 7$. Least resultant $A - B = 3$.<br><b>Step 2:</b> Solving gives $A = 5$ N and $B = 2$ N.<br><b>Step 3:</b> Each is increased by 3 N: New forces are $A' = 8$ N and $B' = 5$ N.<br><b>Step 4:</b> They are applied at $60^{\\circ}$. New resultant $R' = \\sqrt{A'^2 + B'^2 + 2A'B'\\cos 60^{\\circ}}$.<br><b>Step 5:</b> $R' = \\sqrt{64 + 25 + 2(8)(5)(0.5)} = \\sqrt{89 + 40} = \\sqrt{129}$ N."
+    },
+    {
+      "id": "MP-HWII-002",
+      "topic": "Triangle Law, Polygon Law & Lami's Theorem",
+      "difficulty": 2,
+      "tags": ["Triangle Law", "Medians of Triangle"],
+      "q": "In an equilateral triangle ABC, AL, BM and CN are medians. Forces along BC and BA represented by them will have a resultant represented by",
+      "options": [
+        "$2\\vec{AL}$",
+        "$2\\vec{BM}$",
+        "$2\\vec{CN}$",
+        "$\\vec{AC}$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> We are looking for the resultant of vectors representing forces along $\\vec{BC}$ and $\\vec{BA}$.<br><b>Step 2:</b> By the parallelogram law of vector addition, the sum $\\vec{BC} + \\vec{BA}$ is the diagonal of the parallelogram formed by these two vectors.<br><b>Step 3:</b> The diagonal passing through B bisects AC at M. Thus, the diagonal is $2\\times$ the median vector $\\vec{BM}$.<br><b>Step 4:</b> Therefore, the resultant is $2\\vec{BM}$."
+    },
+    {
+      "id": "MP-HWII-003",
+      "topic": "Parallelogram Law",
+      "difficulty": 3,
+      "tags": ["Equilibrium", "Vector Geometry"],
+      "q": "Given that $\\vec{A}+\\vec{B}+\\vec{C}=0$, out of three vectors two are equal in magnitude and the magnitude of third vector is $\\sqrt{2}$ times that of either of two having equal magnitude. Then angle between vectors are given by",
+      "options": [
+        "$30^{\\circ}, 60^{\\circ}, 90^{\\circ}$",
+        "$45^{\\circ}, 135^{\\circ}, 135^{\\circ}$",
+        "$90^{\\circ}, 135^{\\circ}, 150^{\\circ}$",
+        "$90^{\\circ}, 135^{\\circ}, 135^{\\circ}$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The sum being zero means the vectors form a closed triangle. The side lengths are in the ratio $1 : 1 : \\sqrt{2}$.<br><b>Step 2:</b> This specific ratio corresponds to a right-angled isosceles triangle.<br><b>Step 3:</b> The internal angles of this triangle are $90^{\\circ}$, $45^{\\circ}$, and $45^{\\circ}$.<br><b>Step 4:</b> The angle between two vectors is the exterior angle when they are placed head-to-tail. Exterior angles are $180^{\\circ} - \\text{interior angle}$.<br><b>Step 5:</b> The angles between the vectors are $180^{\\circ}-90^{\\circ} = 90^{\\circ}$, $180^{\\circ}-45^{\\circ} = 135^{\\circ}$, and $180^{\\circ}-45^{\\circ} = 135^{\\circ}$."
+    },
+    {
+      "id": "MP-HWII-004",
+      "topic": "Motion in a Plane",
+      "difficulty": 2,
+      "tags": ["Position Vector", "Differentiation"],
+      "q": "The position of a particle is given by $\\vec{r}=3t\\hat{i}-2t^{2}\\hat{j}+4\\hat{k}$ m where t is in second and the co-efficients have proper units for r to be in m. The magnitude and direction of velocity of the particle at $t=2$ s is",
+      "options": [
+        "$8.54~m~s^{-1}, 20^{\\circ}$ with x-axis",
+        "$10.54~ms^{-1}, 70^{\\circ}$ with x-axis",
+        "$8.54~m~s^{-1}, 70^{\\circ}$ with x-axis",
+        "$10.54~ms^{-1}, 20^{\\circ}$ with x-axis"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Velocity $\\vec{v} = \\frac{d\\vec{r}}{dt} = 3\\hat{i} - 4t\\hat{j}$.<br><b>Step 2:</b> At $t=2$ s, $\\vec{v} = 3\\hat{i} - 4(2)\\hat{j} = 3\\hat{i} - 8\\hat{j}$.<br><b>Step 3:</b> Magnitude is $|\\vec{v}| = \\sqrt{3^2 + (-8)^2} = \\sqrt{9 + 64} = \\sqrt{73} \\approx 8.54$ m/s.<br><b>Step 4:</b> The angle with the x-axis is $\\tan\\theta = \\frac{|v_y|}{|v_x|} = \\frac{8}{3} \\approx 2.66$. $\\tan^{-1}(2.66) \\approx 69.4^{\\circ} \\approx 70^{\\circ}$."
+    },
+    {
+      "id": "MP-HWII-005",
+      "topic": "Motion in a Plane",
+      "difficulty": 3,
+      "tags": ["Kinematics Equations", "2D Motion"],
+      "q": "A particle starts from origin at $t=0$ with a constant velocity $5\\hat{i}ms^{-1}$ and moves in xy plane under action of a force which produces a constant acceleration of $(3\\hat{i}+2\\hat{j})ms^{-2}$. The y-coordinate of the particle at the instant its x co-ordinate is 84 m in m is",
+      "options": [
+        "6",
+        "36",
+        "18",
+        "9"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Initial velocity $\\vec{u} = 5\\hat{i}$. Acceleration $\\vec{a} = 3\\hat{i} + 2\\hat{j}$.<br><b>Step 2:</b> The x-coordinate as a function of time: $x = u_x t + \\frac{1}{2}a_x t^2 = 5t + \\frac{1}{2}(3)t^2 = 5t + 1.5t^2$.<br><b>Step 3:</b> Given $x = 84$, so $1.5t^2 + 5t - 84 = 0$. Multiply by 2: $3t^2 + 10t - 168 = 0$.<br><b>Step 4:</b> Using quadratic formula: $t = \\frac{-10 \\pm \\sqrt{100 - 4(3)(-168)}}{6} = \\frac{-10 \\pm \\sqrt{100 + 2016}}{6} = \\frac{-10 \\pm \\sqrt{2116}}{6} = \\frac{-10 \\pm 46}{6}$. Taking the positive root, $t = \\frac{36}{6} = 6$ seconds.<br><b>Step 5:</b> The y-coordinate is $y = u_y t + \\frac{1}{2}a_y t^2 = 0 + \\frac{1}{2}(2)(6^2) = 6^2 = 36$ m."
+    },
+    {
+      "id": "MP-HWII-006",
+      "topic": "Triangle Law, Polygon Law & Lami's Theorem",
+      "difficulty": 3,
+      "tags": ["Lami's Theorem", "Equilibrium"],
+      "q": "A and B are the two pegs separated by 13 cm. A body of 169 kgwt is suspended by thread of 17 cm connecting to A & B, such that the two segments of strings are perpendicular. Then tensions in shorter and longer parts of string are",
+      "options": [
+        "100 kgwt, 69 kgwt",
+        "65 kgwt, 156 kgwt",
+        "156 kgwt, 65 kgwt",
+        "69 kgwt, 100 kgwt"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The two segments $L_1$ and $L_2$ form a right triangle with the 13cm separation: $L_1^2 + L_2^2 = 13^2 = 169$. Also, total length $L_1 + L_2 = 17$.<br><b>Step 2:</b> Solving gives $L_1 = 5$ cm and $L_2 = 12$ cm.<br><b>Step 3:</b> Let $\\theta$ be the angle of the 12cm segment with the vertical. From geometry of similar triangles, $\\sin\\theta = 12/13$ and $\\cos\\theta = 5/13$.<br><b>Step 4:</b> By Lami's theorem or force balancing in a perpendicular setup, tension is proportional to the opposite side length. $T_1 = W \\times \\frac{12}{13} = 169 \\times \\frac{12}{13} = 13 \\times 12 = 156$ kgwt (for shorter segment side constraint logic based on angle setup).<br><b>Step 5:</b> $T_2 = W \\times \\frac{5}{13} = 169 \\times \\frac{5}{13} = 13 \\times 5 = 65$ kgwt."
+    },
+    {
+      "id": "MP-HWII-007",
+      "topic": "Motion in a Plane",
+      "difficulty": 3,
+      "tags": ["Collision", "Vector Kinematics"],
+      "q": "Two particles having position vectors $\\vec{r_{1}}=(3\\hat{i}+5\\hat{j})m$ and $\\vec{r_{2}}=(-\\hat{i}+3\\hat{j})m$ are moving with velocities $\\vec{V_{1}}=(4\\hat{i}-4\\hat{j})ms^{-1}$ and $\\vec{V_{2}}=(a\\hat{i}-3\\hat{j})ms^{-1}$. If they collide after 2 seconds, the value of 'a' is",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> For the particles to collide, their position vectors must be identical at $t=2$ s.<br><b>Step 2:</b> New position of particle 1: $\\vec{R_1} = \\vec{r_1} + \\vec{V_1}t = (3\\hat{i}+5\\hat{j}) + (4\\hat{i}-4\\hat{j})2 = (3+8)\\hat{i} + (5-8)\\hat{j} = 11\\hat{i} - 3\\hat{j}$.<br><b>Step 3:</b> New position of particle 2: $\\vec{R_2} = \\vec{r_2} + \\vec{V_2}t = (-\\hat{i}+3\\hat{j}) + (a\\hat{i}-3\\hat{j})2 = (-1+2a)\\hat{i} + (3-6)\\hat{j} = (2a-1)\\hat{i} - 3\\hat{j}$.<br><b>Step 4:</b> Equate the x-coordinates: $11 = 2a - 1 \\implies 2a = 12 \\implies a = 6$."
+    },
+    {
+      "id": "MP-HWII-008",
+      "topic": "Motion in a Plane",
+      "difficulty": 2,
+      "tags": ["Position Vector", "Coordinate Roots"],
+      "q": "A body is projected up such that its position vector varies with time as $\\vec{r}=\\{3t\\hat{i}+(4t-5t^{2})\\hat{j}\\}m$. Here t is in second. The time when its y-coordinate is zero is",
+      "options": [
+        "3 s",
+        "1 s",
+        "0.8 s",
+        "1.25 s"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The position vector provides the y-coordinate as a function of time: $y = 4t - 5t^2$.<br><b>Step 2:</b> Set the y-coordinate to zero: $4t - 5t^2 = 0$.<br><b>Step 3:</b> Factor out $t$: $t(4 - 5t) = 0$.<br><b>Step 4:</b> The solutions are $t = 0$ (point of projection) and $4 - 5t = 0$.<br><b>Step 5:</b> $5t = 4 \\implies t = \\frac{4}{5} = 0.8$ seconds."
+    },
+    {
+      "id": "MP-HWII-009",
+      "topic": "Concept of Relative Velocity",
+      "difficulty": 2,
+      "tags": ["Relative Speed", "Linear Motion"],
+      "q": "When two bodies approach each other with the different speeds, the distance between them decreases by 120 m for every 1 min. The speeds of the bodies are",
+      "options": [
+        "$2~m/s$ and 0.5 m/s",
+        "3m/s & 2m/s",
+        "1.75m/s & 0.25 m/s",
+        "$2.5m/s\\&0.5m/s$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> When bodies approach each other, their relative speed is the sum of their individual speeds: $v_{rel} = v_1 + v_2$.<br><b>Step 2:</b> Convert the given rate of approach: $120$ m in $1$ min ($60$ s) is $\\frac{120}{60} = 2$ m/s.<br><b>Step 3:</b> So, $v_1 + v_2 = 2$ m/s.<br><b>Step 4:</b> Check the options for a sum of 2. Option 1 gives 2.5. Option 2 gives 5. Option 3 gives $1.75 + 0.25 = 2.0$. Option 4 gives 3.0.<br><b>Step 5:</b> The correct speeds must be 1.75 m/s and 0.25 m/s."
+    },
+    {
+      "id": "MP-HWII-010",
+      "topic": "Concept of Relative Velocity",
+      "difficulty": 2,
+      "tags": ["Relative Velocity", "Vector Addition"],
+      "q": "An aeroplane is flying with the velocity of $V_{1}=800kmph$ relative to the air towards south. A wind with velocity of $V_{2}=15ms^{-1}$ is blowing from west to east. What is the velocity of the aeroplane with respect to the earth.",
+      "options": [
+        "$221.7ms^{-1}$",
+        "$150ms^{-1}$",
+        "$82ms^{-1}$",
+        "$40ms^{-1}$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Convert the aeroplane's air speed to m/s: $V_1 = 800 \\times \\frac{5}{18} = \\frac{4000}{18} \\approx 222.22$ m/s (South).<br><b>Step 2:</b> The wind velocity is $V_2 = 15$ m/s (East).<br><b>Step 3:</b> The velocity of the plane with respect to the earth is the vector sum of its air speed and the wind speed: $\\vec{v}_e = \\vec{V}_1 + \\vec{V}_2$.<br><b>Step 4:</b> Since South and East are perpendicular, the magnitude is $V_e = \\sqrt{222.22^2 + 15^2} = \\sqrt{49382.7 + 225} = \\sqrt{49607.7}$.<br><b>Step 5:</b> $V_e \\approx 222.7$ m/s. The closest option matching the calculation is $221.7$ m/s."
+    },
+    {
+      "id": "MP-HWII-011",
+      "topic": "Motion of a Boat in a River",
+      "difficulty": 2,
+      "tags": ["Upstream Downstream", "Speed Ratio"],
+      "q": "A boat takes 4 hr upstream and 2 hr down the stream for covering the same distance. The ratio of velocity of boat to the water in river is.",
+      "options": [
+        "1:3",
+        "3:1",
+        "$1:\\sqrt{3}$",
+        "$\\sqrt{3}:1$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Let $d$ be the distance, $v_b$ be boat velocity, and $v_w$ be water velocity.<br><b>Step 2:</b> Upstream time: $\\frac{d}{v_b - v_w} = 4 \\implies d = 4(v_b - v_w)$.<br><b>Step 3:</b> Downstream time: $\\frac{d}{v_b + v_w} = 2 \\implies d = 2(v_b + v_w)$.<br><b>Step 4:</b> Equating the distances: $4(v_b - v_w) = 2(v_b + v_w) \\implies 2v_b - 2v_w = v_b + v_w$.<br><b>Step 5:</b> $2v_b - v_b = 2v_w + v_w \\implies v_b = 3v_w$.<br><b>Step 6:</b> The ratio of the velocity of the boat to the water is 3:1."
+    },
+    {
+      "id": "MP-HWII-012",
+      "topic": "Motion of a Boat in a River",
+      "difficulty": 2,
+      "tags": ["River Crossing", "Displacement"],
+      "q": "The width of a river is $2\\sqrt{3}km$ A boat is rowed in direction perpendicular to the banks of river. If the drift of the boat due to flow is 2 km, the displacement of the boat is.",
+      "options": [
+        "3 km",
+        "6 km",
+        "5 km",
+        "4 km"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The actual path of the boat forms a right-angled triangle with the width of the river $d$ and the horizontal drift $x$.<br><b>Step 2:</b> We are given $d = 2\\sqrt{3}$ km and $x = 2$ km.<br><b>Step 3:</b> The total displacement $S$ is the hypotenuse: $S = \\sqrt{d^2 + x^2}$.<br><b>Step 4:</b> Substitute the values: $S = \\sqrt{(2\\sqrt{3})^2 + 2^2} = \\sqrt{12 + 4} = \\sqrt{16}$.<br><b>Step 5:</b> Therefore, $S = 4$ km."
+    },
+    {
+      "id": "MP-HWII-013",
+      "topic": "Motion of a Boat in a River",
+      "difficulty": 2,
+      "tags": ["Shortest Path", "Relative Velocity"],
+      "q": "Person aiming to reach the exactly opposite point on the bank of a stream is swimming with a speed of $0.5ms^{-1}$ at an angle of $120^{\\circ}$ with the direction of flow of water. The speed of water in the stream is",
+      "options": [
+        "$1ms^{-1}$",
+        "$0.25ms^{-1}$",
+        "$0.67ms^{-1}$",
+        "$3ms^{-1}$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> To reach the exactly opposite point, the upstream component of the swimmer's velocity must exactly cancel the river's velocity.<br><b>Step 2:</b> The angle given is $120^{\\circ}$ with the river flow. The angle upstream with the river flow direction is $180^{\\circ} - 120^{\\circ} = 60^{\\circ}$.<br><b>Step 3:</b> The component of swimming speed against the river is $v_s \\cos(60^{\\circ})$.<br><b>Step 4:</b> Equate this to river velocity: $v_w = v_s \\cos(60^{\\circ}) = 0.5 \\times \\frac{1}{2} = 0.25$ m/s."
+    },
+    {
+      "id": "MP-HWII-014",
+      "topic": "Oblique Projectile",
+      "difficulty": 3,
+      "tags": ["Equation of Trajectory", "Obstacle Clearing"],
+      "q": "A particle projected from the level ground just clears in its ascent a wall 30 m high and $120\\sqrt{3}$ away measured horizontally. The time since projection to clear the wall is two second. It will strike the ground in the same horizontal plane from the wall on the other side at a distance of (in metres)",
+      "options": [
+        "$150\\sqrt{3}$",
+        "$180\\sqrt{3}$",
+        "$120\\sqrt{3}$",
+        "$210\\sqrt{3}$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Horizontal distance $x = u_x t \\implies 120\\sqrt{3} = u_x (2) \\implies u_x = 60\\sqrt{3}$ m/s.<br><b>Step 2:</b> Vertical distance $y = u_y t - \\frac{1}{2}gt^2 \\implies 30 = u_y(2) - 5(2)^2 \\implies 30 = 2u_y - 20 \\implies u_y = 25$ m/s.<br><b>Step 3:</b> Total time of flight $T = \\frac{2u_y}{g} = \\frac{2(25)}{10} = 5$ s.<br><b>Step 4:</b> Total horizontal range $R = u_x T = 60\\sqrt{3} \\times 5 = 300\\sqrt{3}$ m.<br><b>Step 5:</b> Distance from the wall on the other side = $R - x = 300\\sqrt{3} - 120\\sqrt{3} = 180\\sqrt{3}$ m."
+    },
+    {
+      "id": "MP-HWII-015",
+      "topic": "Oblique Projectile",
+      "difficulty": 3,
+      "tags": ["Average Velocity", "Maximum Height"],
+      "q": "A stone is projected with a velocity $20\\sqrt{2}m/s$ at an angle of $45^{\\circ}$ to the horizontal. The average velocity of stone during its motion from starting point to its maximum height is $(g=10 m/s^{2})$",
+      "options": [
+        "$10\\sqrt{5}m/s$",
+        "$20\\sqrt{5}m/s$",
+        "$5\\sqrt{5}m/s$",
+        "$20m/s$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Initial velocity components: $u_x = u_y = 20\\sqrt{2} \\sin 45^{\\circ} = 20$ m/s.<br><b>Step 2:</b> Time to reach maximum height $t = \\frac{u_y}{g} = \\frac{20}{10} = 2$ s.<br><b>Step 3:</b> Maximum height $H = \\frac{u_y^2}{2g} = \\frac{400}{20} = 20$ m. Horizontal distance covered is $x = u_x t = 20(2) = 40$ m.<br><b>Step 4:</b> Net displacement $S = \\sqrt{x^2 + H^2} = \\sqrt{40^2 + 20^2} = \\sqrt{1600 + 400} = \\sqrt{2000} = 20\\sqrt{5}$ m.<br><b>Step 5:</b> Average velocity $v_{avg} = \\frac{S}{t} = \\frac{20\\sqrt{5}}{2} = 10\\sqrt{5}$ m/s."
+    },
+    {
+      "id": "MP-HWII-016",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Perpendicular Velocity"],
+      "q": "A ball is thrown with velocity $8~ms^{-1}$ making an angle $60^{\\circ}$ with the horizontal. Its velocity will be perpendicular to the direction of initial velocity of projection after a time of",
+      "options": [
+        "$\\frac{1.6}{\\sqrt{3}}s$",
+        "$\\frac{4}{\\sqrt{3}}s$",
+        "0.6 s",
+        "$1.6\\sqrt{3}s$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> For velocity to become perpendicular to the initial velocity, the dot product must be zero.<br><b>Step 2:</b> The standard formula derived for this condition is $t = \\frac{u}{g \\sin\\theta}$.<br><b>Step 3:</b> Substitute the values: $u = 8$ m/s, $g = 10$ m/s$^2$, $\\theta = 60^{\\circ}$.<br><b>Step 4:</b> $t = \\frac{8}{10 \\sin 60^{\\circ}} = \\frac{8}{10(\\sqrt{3}/2)} = \\frac{16}{10\\sqrt{3}}$.<br><b>Step 5:</b> Simplify to get $t = \\frac{1.6}{\\sqrt{3}}$ seconds."
+    },
+    {
+      "id": "MP-HWII-017",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Range Proportions"],
+      "q": "The range of a projectile, when launched at an angle of $15^{0}$ with the horizontal is 1.5 km. The additional horizontal distance the projectile would cover when projected with same velocity at $45^{\\circ}$ is",
+      "options": [
+        "3 km",
+        "4.5 km",
+        "1.5 km",
+        "2.5 km"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The range formula is $R = \\frac{u^2 \\sin 2\\theta}{g}$.<br><b>Step 2:</b> For $\\theta = 15^{\\circ}$, $R_{15} = \\frac{u^2 \\sin 30^{\\circ}}{g} = \\frac{u^2}{2g}$. We are given $\\frac{u^2}{2g} = 1.5$ km, so $\\frac{u^2}{g} = 3.0$ km.<br><b>Step 3:</b> For $\\theta = 45^{\\circ}$, the range is maximum: $R_{45} = \\frac{u^2 \\sin 90^{\\circ}}{g} = \\frac{u^2}{g}$.<br><b>Step 4:</b> Therefore, $R_{45} = 3.0$ km.<br><b>Step 5:</b> The additional horizontal distance covered is $3.0 - 1.5 = 1.5$ km."
+    },
+    {
+      "id": "MP-HWII-018",
+      "topic": "Oblique Projectile",
+      "difficulty": 3,
+      "tags": ["Linear Momentum", "Change in Momentum"],
+      "q": "A body is projected obliquely from the ground such that its horizontal range is maximum. If the change in its linear momentum, as it moves from half the maximum height to maximum height, is P, the change in its linear momentum as it travels from the point of projection to the landing point on the ground will be",
+      "options": [
+        "P",
+        "$\\sqrt{2}P$",
+        "2 P",
+        "$2\\sqrt{2}P$"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> For max range, $\\theta = 45^{\\circ}$. The horizontal momentum $p_x$ is constant. The vertical component changes.<br><b>Step 2:</b> Let initial vertical velocity be $u_y = u/\\sqrt{2}$. At $H/2$, vertical velocity is $v_y = u_y/\\sqrt{2} = u/2$. At max height $H$, $v_y = 0$.<br><b>Step 3:</b> Change in momentum from $H/2$ to $H$ is only vertical: $P = m(v_{y,final} - v_{y,initial}) = m(0 - u/2) = -mu/2$. Magnitude is $P = mu/2$.<br><b>Step 4:</b> Change in momentum from projection to landing: final vertical velocity is $-u_y$, initial is $u_y$. Change = $-2u_y = -2(u/\\sqrt{2}) = -\\sqrt{2}u$.<br><b>Step 5:</b> Magnitude is $\\sqrt{2}mu$. In terms of P: $\\sqrt{2}mu = 2\\sqrt{2}(mu/2) = 2\\sqrt{2}P$."
+    },
+    {
+      "id": "MP-HWII-019",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Maximum Height", "Time of Flight"],
+      "q": "A projectile is thrown at angle b with vertical. It reaches a maximum height H. The time taken to reach the highest point of its path is",
+      "options": [
+        "$\\sqrt{\\frac{H}{g}}$",
+        "$\\sqrt{\\frac{2H}{g}}$",
+        "$\\sqrt{\\frac{H}{2g}}$",
+        "$\\sqrt{\\frac{2H}{g \\cos b}}$"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The relation between maximum height $H$ and the time taken to reach it $t$ is independent of the angle.<br><b>Step 2:</b> At maximum height, the vertical velocity becomes zero. Using $v^2 = u^2 - 2gs$, $0 = u_y^2 - 2gH \\implies u_y = \\sqrt{2gH}$.<br><b>Step 3:</b> Using $v = u - gt$, $0 = u_y - gt \\implies t = \\frac{u_y}{g}$.<br><b>Step 4:</b> Substitute $u_y$: $t = \\frac{\\sqrt{2gH}}{g} = \\sqrt{\\frac{2H}{g}}$."
+    },
+    {
+      "id": "MP-HWII-020",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Percentage Change"],
+      "q": "The maximum height attained by a projectile is increased by 5%. Keeping the angle of projection constant, What is the percentage increase in horizontal range?",
+      "options": [
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Maximum height is $H = \\frac{u^2 \\sin^2\\theta}{2g}$. Horizontal range is $R = \\frac{u^2 \\sin 2\\theta}{g}$.<br><b>Step 2:</b> If the angle $\\theta$ is constant, both $H$ and $R$ are directly proportional to $u^2$.<br><b>Step 3:</b> If $H$ increases by 5%, it means $u^2$ has increased by 5%.<br><b>Step 4:</b> Since $R$ is also directly proportional to $u^2$, the horizontal range $R$ will also increase by the exact same 5%."
+    },
+    {
+      "id": "MP-HWII-021",
+      "topic": "Oblique Projectile",
+      "difficulty": 1,
+      "tags": ["Maximum Range", "Area Calculation"],
+      "q": "A gardener wants to wet the garden without moving from his place with a water jet whose velocity is 20 m/s. The maximum area that he can wet $(g=10 m s^{-2})$ (in metre²) is",
+      "options": [
+        "1600 $\\pi$",
+        "40 $\\pi$",
+        "400 $\\pi$",
+        "200 $\\pi$"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The maximum range the water can reach is $R_{max} = \\frac{u^2}{g}$ (fired at $45^{\\circ}$).<br><b>Step 2:</b> Substitute the values: $R_{max} = \\frac{20^2}{10} = \\frac{400}{10} = 40$ m.<br><b>Step 3:</b> The area that can be watered is a circle with this maximum range as the radius: $A = \\pi R_{max}^2$.<br><b>Step 4:</b> $A = \\pi (40)^2 = 1600\\pi$ m$^2$."
+    },
+    {
+      "id": "MP-HWII-022",
+      "topic": "Oblique Projectile",
+      "difficulty": 3,
+      "tags": ["Radius of Curvature", "Highest Point"],
+      "q": "A particle is projected with speed u at angle q to the horizontal. find the radius of curvature at highest point of its trajectory",
+      "options": [
+        "$\\frac{u^{2}\\cos^{2}q}{2g}$",
+        "$\\frac{\\sqrt{3}u^{2}\\cos^{2}q}{2g}$",
+        "$\\frac{u^{2}\\cos^{2}q}{g}$",
+        "$\\frac{\\sqrt{3}u^{2}\\cos^{2}q}{g}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> At the highest point of the trajectory, the velocity is entirely horizontal: $v = u \\cos q$.<br><b>Step 2:</b> The acceleration acting perpendicular to the velocity is gravity $g$ (downwards).<br><b>Step 3:</b> The radius of curvature $R_c$ is determined by the formula for centripetal acceleration: $a_c = \\frac{v^2}{R_c}$.<br><b>Step 4:</b> Substitute $a_c = g$ and $v = u \\cos q$: $g = \\frac{(u \\cos q)^2}{R_c}$.<br><b>Step 5:</b> Rearranging for $R_c$ gives $R_c = \\frac{u^2 \\cos^2 q}{g}$."
+    },
+    {
+      "id": "MP-HWII-023",
+      "topic": "Horizontal Projectile",
+      "difficulty": 2,
+      "tags": ["Opposite Projection", "Relative Velocity"],
+      "q": "From the top of a tower of height 78.4 m two stones are projected horizontally with $10 m/s$ and $20 m/s$ in opposite directions. On reaching the ground, their separation is",
+      "options": [
+        "120 m",
+        "100 m",
+        "200 m",
+        "150 m"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Both stones are projected horizontally from the same height, so they have the same time of flight.<br><b>Step 2:</b> $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2 \\times 78.4}{9.8}} = \\sqrt{16} = 4$ s.<br><b>Step 3:</b> The horizontal distance covered by the first stone is $x_1 = v_1 t = 10 \\times 4 = 40$ m.<br><b>Step 4:</b> The horizontal distance covered by the second stone (in the opposite direction) is $x_2 = v_2 t = 20 \\times 4 = 80$ m.<br><b>Step 5:</b> Total separation = $x_1 + x_2 = 40 + 80 = 120$ m."
+    },
+    {
+      "id": "MP-HWII-024",
+      "topic": "Motion in a Plane",
+      "difficulty": 3,
+      "tags": ["Explosion", "Perpendicular Vectors"],
+      "q": "A body is projected vertically upwards. At its highest point it explodes into two pieces of masses in the ratio of 2:3 and the lighter piece flies horizontally with a velocity of $6 ms^{-1}$. The time after which the lines joining the point of explosion to the position of particles are perpendicular to each other is",
+      "options": [
+        "$\\sqrt{\\frac{6}{25}}s$",
+        "$\\sqrt{\\frac{12}{15}}s$",
+        "$\\sqrt{\\frac{24}{25}}s$",
+        "2 s"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> At the highest point, velocity is zero. By conservation of momentum horizontally: $2m(6) - 3m(v) = 0 \\implies v = 4$ m/s.<br><b>Step 2:</b> The velocity vectors are $\\vec{v}_1 = 6\\hat{i} - gt\\hat{j}$ and $\\vec{v}_2 = -4\\hat{i} - gt\\hat{j}$.<br><b>Step 3:</b> Position vectors from explosion: $\\vec{r}_1 = 6t\\hat{i} - \\frac{1}{2}gt^2\\hat{j}$ and $\\vec{r}_2 = -4t\\hat{i} - \\frac{1}{2}gt^2\\hat{j}$.<br><b>Step 4:</b> For positions to be perpendicular, $\\vec{r}_1 \\cdot \\vec{r}_2 = 0$.<br><b>Step 5:</b> $(6t)(-4t) + \\left(-\\frac{1}{2}gt^2\\right)\\left(-\\frac{1}{2}gt^2\\right) = 0 \\implies -24t^2 + \\frac{g^2 t^4}{4} = 0$.<br><b>Step 6:</b> $\\frac{g^2 t^2}{4} = 24 \\implies t^2 = \\frac{96}{100} = \\frac{24}{25} \\implies t = \\sqrt{\\frac{24}{25}}$ s."
+    },
+    {
+      "id": "MP-HWII-025",
+      "topic": "Horizontal Projectile",
+      "difficulty": 2,
+      "tags": ["Angle of Sighting", "Initial Velocity"],
+      "q": "From the top of a building 80 m high, a ball is thrown horizontally which hits the ground at a distance. The line joining the top of the building to the point where it hits the ground makes an angle of $45^{\\circ}$ with the ground. Initial velocity of projection of the ball is $(g=10 m/s^{2})$",
+      "options": [
+        "10 m/s",
+        "15 m/s",
+        "20 m/s",
+        "30 m/s"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The angle of the line of sight is $45^{\\circ}$, so $\\tan 45^{\\circ} = \\frac{h}{R} \\implies R = h = 80$ m.<br><b>Step 2:</b> The time of flight $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2(80)}{10}} = \\sqrt{16} = 4$ s.<br><b>Step 3:</b> Since horizontal velocity $u$ is constant, $R = ut$.<br><b>Step 4:</b> $80 = u(4) \\implies u = 20$ m/s."
+    },
+    {
+      "id": "MP-HWII-026",
+      "topic": "Oblique Projectile",
+      "difficulty": 2,
+      "tags": ["Projection from Height", "Time of Flight"],
+      "q": "A stone is thrown from the top of a tower of height 50 m with a velocity of $30 ms^{-1}$ at an angle of $30^{0}$ above the horizontal. Find the time during which the stone will be in air",
+      "options": [
+        "2 sec",
+        "3 sec",
+        "4 sec",
+        "5 sec"
+      ],
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Use the vertical kinematic equation: $y = u_y t - \\frac{1}{2}gt^2$.<br><b>Step 2:</b> Substitute values: $y = -50$ m, $u_y = 30\\sin 30^{\\circ} = 15$ m/s, $g = 10$ m/s$^2$.<br><b>Step 3:</b> $-50 = 15t - 5t^2 \\implies 5t^2 - 15t - 50 = 0$.<br><b>Step 4:</b> Divide by 5: $t^2 - 3t - 10 = 0$.<br><b>Step 5:</b> Factoring gives $(t - 5)(t + 2) = 0$. Since time must be positive, $t = 5$ seconds."
+    },
+    {
+      "id": "MP-HWII-027",
+      "topic": "Oblique Projectile",
+      "difficulty": 3,
+      "tags": ["Time Ratio", "Projection from Height"],
+      "q": "From the top of a tower 40 m high a ball is projected upwards with a speed of 20 m $s^{-1}$ at an angle $30^{\\circ}$ with the horizontal. The ratio of the total time of flight to hit the ground to the time taken by it to come back to the same initial elevation is $(g=10 ms^{-2})$",
+      "options": [
+        "2:1",
+        "3:1",
+        "3:2",
+        "4:1"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Initial vertical velocity $u_y = 20\\sin 30^{\\circ} = 10$ m/s.<br><b>Step 2:</b> Time to come back to the same elevation $t_{elev} = \\frac{2u_y}{g} = \\frac{2(10)}{10} = 2$ s.<br><b>Step 3:</b> Total time of flight $T$ to hit ground at $y = -40$ m: $-40 = 10T - 5T^2 \\implies T^2 - 2T - 8 = 0$.<br><b>Step 4:</b> Factoring gives $(T - 4)(T + 2) = 0 \implies T = 4$ s.<br><b>Step 5:</b> The ratio $T : t_{elev} = 4 : 2 = 2:1$."
+    },
+    {
+      "id": "MP-HWII-028",
+      "topic": "Horizontal Projectile",
+      "difficulty": 3,
+      "tags": ["Velocity Equality", "Displacement"],
+      "q": "A body is thrown horizontally with a velocity u from the top of a tower. The displacement of the stone when the horizontal and vertical velocities are equal is",
+      "options": [
+        "$\\frac{u^{2}}{g}$",
+        "$\\frac{u^{2}}{2g}$",
+        "$\\sqrt{5}\\left(\\frac{u^{2}}{2g}\\right)$",
+        "$\\frac{2u^{2}}{g}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Horizontal velocity $v_x = u$ is constant. Vertical velocity $v_y = gt$.<br><b>Step 2:</b> They are equal when $gt = u \\implies t = \\frac{u}{g}$.<br><b>Step 3:</b> Horizontal displacement $x = ut = u\\left(\\frac{u}{g}\\right) = \\frac{u^2}{g}$.<br><b>Step 4:</b> Vertical displacement $y = \\frac{1}{2}gt^2 = \\frac{1}{2}g\\left(\\frac{u}{g}\\right)^2 = \\frac{u^2}{2g}$.<br><b>Step 5:</b> Total displacement $S = \\sqrt{x^2 + y^2} = \\sqrt{\\left(\\frac{u^2}{g}\\right)^2 + \\left(\\frac{u^2}{2g}\\right)^2} = \\frac{u^2}{g}\\sqrt{1 + \\frac{1}{4}} = \\frac{u^2}{g}\\frac{\\sqrt{5}}{2} = \\sqrt{5}\\left(\\frac{u^2}{2g}\\right)$."
+    },
+    {
+      "id": "MP-HWII-029",
+      "topic": "Oblique Projectile",
+      "difficulty": 3,
+      "tags": ["Angular Velocity", "Highest Point"],
+      "q": "A ball is projected with $20\\sqrt{2}m/s$ at angle $45^{\\circ}$ with horizontal. The angular velocity of the particle at highest point of its journey about point of projection is",
+      "options": [
+        "0.1 rad/s",
+        "0.2 rad/s",
+        "0.3 rad/s",
+        "0.4 rad/s"
+      ],
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Initial components $u_x = 20$ m/s, $u_y = 20$ m/s. At highest point, $v = u_x = 20$ m/s (purely horizontal).<br><b>Step 2:</b> Maximum height $H = \\frac{u_y^2}{2g} = \\frac{400}{20} = 20$ m. Horizontal distance is $x = R/2 = \\frac{2u_x u_y}{2g} = 40$ m.<br><b>Step 3:</b> Distance squared from origin $r^2 = x^2 + H^2 = 40^2 + 20^2 = 2000$.<br><b>Step 4:</b> Angular velocity $\\omega = \\frac{v_{\\perp}}{r} = \\frac{|\\vec{r} \\times \\vec{v}|}{r^2}$.<br><b>Step 5:</b> $|(40\\hat{i} + 20\\hat{j}) \\times 20\\hat{i}| = |-400\\hat{k}| = 400$.<br><b>Step 6:</b> $\\omega = \\frac{400}{2000} = 0.2$ rad/s."
+    },
+    {
+      "id": "MP-HWII-030",
+      "topic": "Circular Motion",
+      "difficulty": 3,
+      "tags": ["Total Acceleration", "Tangential and Centripetal"],
+      "q": "A particle is moving along a circular path in xy - plane. When it crosses x-axis, it has an acceleration along the path of $1.5m/s^{2}$ and is moving with a speed of $10 m/s$ in -ve y - direction. The total acceleration is (assuming radius r=2m and center at origin)",
+      "options": [
+        "$50\\hat{i}-1.5\\hat{j}m/s^{2}$",
+        "$10\\hat{i}-1.5\\hat{j}m/s^{2}$",
+        "$-50\\hat{i}-1.5\\hat{j}m/s^{2}$",
+        "$1.5\\hat{i}-50\\hat{j}m/s^{2}$"
+      ],
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The particle is crossing the positive x-axis (e.g., at $x=2$) moving in the -y direction. The path is tangent to the -y axis.<br><b>Step 2:</b> Tangential acceleration is $1.5$ m/s$^2$ along the path, so $\\vec{a}_t = -1.5\\hat{j}$.<br><b>Step 3:</b> Centripetal acceleration acts towards the center (the origin), so it acts in the -x direction: $\\vec{a}_c = -\\frac{v^2}{r} \\hat{i}$.<br><b>Step 4:</b> $a_c = \\frac{10^2}{2} = 50$ m/s$^2$. Thus, $\\vec{a}_c = -50\\hat{i}$.<br><b>Step 5:</b> Total acceleration $\\vec{a} = \\vec{a}_c + \\vec{a}_t = -50\\hat{i} - 1.5\\hat{j}$ m/s$^2$."
+    },
+    {
+      "id": "MP-HWII-031",
+      "topic": "Circular Motion",
+      "difficulty": 1,
+      "tags": ["Linear Speed", "Frequency"],
+      "q": "An insect trapped in a circular groove of radius 12 cm moves along the groove steadily and complete 7 revolutions in 100 seconds. The linear speed of the motion in cm/s",
+      "options": [
+        "5.3",
+        "4",
+        "3",
+        "5"
+      ],
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Frequency of revolution $f = \\frac{7}{100}$ Hz.<br><b>Step 2:</b> Angular velocity $\\omega = 2\\pi f = 2 \\times \\frac{22}{7} \\times \\frac{7}{100} = \\frac{44}{100} = 0.44$ rad/s.<br><b>Step 3:</b> Linear speed $v = r\\omega$.<br><b>Step 4:</b> Substitute $r = 12$ cm and $\\omega = 0.44$: $v = 12 \\times 0.44 = 5.28$ cm/s.<br><b>Step 5:</b> Rounding to one decimal place, the speed is approximately $5.3$ cm/s."
     }
   ]
 }
