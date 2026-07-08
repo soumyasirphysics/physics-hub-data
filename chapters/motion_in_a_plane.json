@@ -2651,7 +2651,7 @@
         "4:1"
       ],
       "correct": 0,
-      "sol": "<b>Step 1:</b> Initial vertical velocity $u_y = 20\\sin 30^{\\circ} = 10$ m/s.<br><b>Step 2:</b> Time to come back to the same elevation $t_{elev} = \\frac{2u_y}{g} = \\frac{2(10)}{10} = 2$ s.<br><b>Step 3:</b> Total time of flight $T$ to hit ground at $y = -40$ m: $-40 = 10T - 5T^2 \\implies T^2 - 2T - 8 = 0$.<br><b>Step 4:</b> Factoring gives $(T - 4)(T + 2) = 0 \implies T = 4$ s.<br><b>Step 5:</b> The ratio $T : t_{elev} = 4 : 2 = 2:1$."
+      "sol": "<b>Step 1:</b> Initial vertical velocity $u_y = 20\\sin 30^{\\circ} = 10$ m/s.<br><b>Step 2:</b> Time to come back to the same elevation $t_{elev} = \\frac{2u_y}{g} = \\frac{2(10)}{10} = 2$ s.<br><b>Step 3:</b> Total time of flight $T$ to hit ground at $y = -40$ m: $-40 = 10T - 5T^2 \\implies T^2 - 2T - 8 = 0$.<br><b>Step 4:</b> Factoring gives $(T - 4)(T + 2) = 0 \\implies T = 4$ s.<br><b>Step 5:</b> The ratio $T : t_{elev} = 4 : 2 = 2:1$."
     },
     {
       "id": "MP-HWII-028",
