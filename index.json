@@ -1,7 +1,7 @@
 {
   "Units and Measurements": { 
     "classTarget": "Class 11",
-    "totalQuestions": 118,
+    "totalQuestions": 180,
     "topics": ["ACCURACY, PRECISION, TYPES OF ERRORS AND COMBINATION OF ERRORS", "SIGNIFICANT FIGURES & ROUNDING OFF", "UNITS AND DIMENSIONAL FORMULAE", "PRINCIPLE OF HOMOGENEITY", "CONVERSION OF UNITS", "TO CHECK THE CORRECTNESS OF PHYSICAL RELATION AND DERIVING THE EQUATIONS"],
     "fileUrl": "https://soumyasirphysics.github.io/physics-hub-data/chapters/units_measurements.json"
   },
